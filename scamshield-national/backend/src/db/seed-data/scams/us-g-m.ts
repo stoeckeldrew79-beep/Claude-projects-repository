@@ -10753,3 +10753,69 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2024-04-21',
 });
+
+UsGM.push({
+    name: 'Montana Secretary of State Fake Annual Report Filing Scam',
+    slug: 'montana-secretary-of-state-fake-annual-report-scam',
+    description: `Scammers send Montana business owners deceptive emails and mailings impersonating the Secretary of State's office, sometimes under names like "Registrar Agency of Corporations," urging them to "renew your business status" and enroll in a "repeat billing option" through a third-party website rather than the state's own biz.sosmt.gov portal. The messages typically demand payment for an annual report filing well above the state's actual filing fee, relying on the appearance of an official state notice to pressure business owners into paying a private third party for a routine filing they could complete themselves for far less. Secretary of State Christi Jacobsen's office has issued repeated public alerts warning that any correspondence about an annual report filing that isn't sent from an mt.gov address and doesn't link to the official state portal is fraudulent, noting that similar mailings have separately targeted newly formed businesses.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Montana Secretary of State'],
+    sourceUrl: 'https://sosmt.gov/business/scam-alerts/',
+    country: 'US',
+    state: 'MT',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'NorthWestern Energy Imposter Disconnection-Threat Scam',
+    slug: 'montana-northwestern-energy-imposter-disconnection-scam',
+    description: `Scammers spoof caller ID to appear as NorthWestern Energy, Montana's largest electric and gas utility, then call customers falsely claiming their service will be shut off within minutes unless an urgent payment is made — typically demanding prepaid cards. NorthWestern Energy has confirmed the same scammers also target customers of unrelated rural electric cooperatives; in one documented case, a caller falsely claiming to represent NorthWestern contacted a customer actually served by Yellowstone Valley Electric Cooperative, showing the scam isn't limited to a caller checking who a victim's real utility provider is before dialing. The company states it never threatens instant disconnection and always sends multiple advance notices before any real service interruption, and it has received reports of the scam from customers across the state.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['NorthWestern Energy'],
+    sourceUrl: 'https://northwesternenergy.com/ScamAlert',
+    country: 'US',
+    state: 'MT',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Fraudulent Hawaii Green Infrastructure Authority (HGIA) Warranty-Expiration Letters',
+    slug: 'hawaii-hgia-fraudulent-letters-home-warranty-scam',
+    description: `Hawaii's Department of Commerce and Consumer Affairs warned on September 17, 2026 that homeowners are receiving mailers falsely referencing the Hawaii Green Infrastructure Authority (HGIA), a real state agency under the Department of Business, Economic Development and Tourism. The letters cite fake "final notices," county clerk record dates, or supposed warranty-expiration deadlines to pressure recipients into calling a listed phone number about "home warranty" or "mortgage protection" products, where callers are then asked to hand over personal, financial, or mortgage information. This is a different vector from an earlier 2026 warning about door-to-door solar salespeople falsely claiming HGIA affiliation — these are unsolicited mailers, not in-person pitches. DCCA said HGIA's only legitimate contact points are its official office phone number, 808-587-3868, and its official email address, and urged anyone who receives one of these letters not to call the number listed or provide any personal, financial, or mortgage information.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Hawaii Department of Commerce and Consumer Affairs'],
+    sourceUrl: 'https://cca.hawaii.gov/fraudulent-letters-referencing-a-state-agency/',
+    country: 'US',
+    state: 'HI',
+    isHistorical: false,
+    firstRecorded: '2026-09-17',
+});
+
+UsGM.push({
+    name: 'Fake HOLO Card Mobile App Scam',
+    slug: 'honolulu-holo-card-fake-mobile-app-scam',
+    description: `Honolulu's Department of Transportation Services warned that an app called "HOLO Card Balance" had appeared on the Google Play Store impersonating Oahu's HOLO transit fare card service, even though no official HOLO Card app exists on either the Apple App Store or Google Play. DTS Director Roger Morton said the fake app was "misleading users and potentially exposing them to scams" by collecting HOLO account credentials and, in some cases, payment card information, risking theft from a rider's stored transit balance or fraudulent charges tied to the linked card. DTS reported the app to Google for removal and reminded riders that the only legitimate way to check a balance, reload funds, register a card, or otherwise manage a HOLO account is through the official website, www.holocard.net.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['Honolulu Department of Transportation Services', 'KITV'],
+    sourceUrl: 'https://www.kitv.com/news/business/dts-warns-public-of-unauthorized-holo-card-app-seeking-private-information/article_90370a58-5109-4655-a3ae-de0af2e702e2.html',
+    country: 'US',
+    state: 'HI',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Honolulu Board of Water Supply Impersonation and Disconnection-Threat Scam',
+    slug: 'honolulu-board-of-water-supply-impersonation-scam',
+    description: `Honolulu's Board of Water Supply (BWS) warns that scammers impersonate its field staff both in person and by phone or text. In-person impersonators have shown up at homes claiming to need to change out a water meter or test drinking water inside the house — something genuine BWS staff do not do, since real leak-detection and water-quality sampling never happens inside a customer's home, and legitimate unscheduled visits only occur between 7:45 a.m. and 4:30 p.m. on weekdays. Separately, scammers spoof caller ID to deliver fake disconnection notices and aggressive robocalls demanding immediate payment, along with smishing texts carrying malicious links — vectors BWS says it never uses, since it does not send disconnection threats by phone, email, or text. BWS says genuine field staff always carry an official City and County of Honolulu ID badge identifying the Board of Water Supply, wear uniforms with the agency logo on the front, back, and right arm, and drive white or green vehicles bearing the BWS label, logo, and a "BWS XXX" license plate, and it urges anyone approached by someone claiming to be BWS to ask for identification and call (808) 748-5000 for general inquiries or (808) 748-8000 ext. 2 for account and payment verification before providing any information, access, or payment.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Honolulu Board of Water Supply'],
+    sourceUrl: 'https://www.boardofwatersupply.com/news-events/news-updates/consumer-alert-scam-prevention/',
+    country: 'US',
+    state: 'HI',
+    isHistorical: false,
+});
