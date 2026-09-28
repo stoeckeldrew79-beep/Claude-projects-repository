@@ -9441,6 +9441,10 @@ GuidesAF.push({
   slug: 'fake-video-conferencing-app-malware-scam',
   author: 'ScamShield Editorial',
   tags: ['guide', 'fake-video-conferencing-app-malware', 'cryptocurrency-scams', 'infostealer-malware'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/GoogleHangoutsMeeting.jpg?width=1200',
+  coverImageCredit: 'Photo: Raysonho @ Open Grid Scheduler / Grid Engine (CC0)',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: 'https://thehackernews.com/2024/12/hackers-using-fake-video-conferencing.html',
   body: `A scammer reaches out on Telegram with a pitch that sounds like ordinary business: they're an investor interested in a deal, or a potential partner wanting to talk terms. The conversation moves toward a call, but instead of sending a standard Zoom or Google Meet link, they explain that their company uses its own video platform and send a link to a professional-looking site with a name like Meeten, Clusee, Cuesee, Meetone, or Meetio — researchers who tracked the campaign group these fake products under the umbrella name "Meeten." The site asks the visitor to download a desktop client for Windows or Mac before the call can start, framed as a routine, one-time setup step rather than anything unusual.
 
