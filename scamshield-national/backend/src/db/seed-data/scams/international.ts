@@ -23144,3 +23144,27 @@ International.push({
   isHistorical: true,
   firstRecorded: '2016-11-21',
 });
+
+International.push({
+  name: 'Fake Donation Scam Exploiting Chantel Crump Murder Case',
+  slug: 'antigua-barbuda-chantel-crump-donation-scam',
+  description: `The Royal Police Force of Antigua and Barbuda issued a public advisory on April 8, 2025 warning that individuals were soliciting donations under false pretenses in the name of Chantel Crump, a nine-year-old girl who had been abducted and found dead in Antigua the previous month. Police said the solicitors did not represent any genuine charity or established community cause connected to the case. Officers reminded the public that obtaining money or property under false pretenses is a criminal offense under Section 27 of the Larceny Act, Cap 241, and urged anyone approached for a donation in Chantel Crump's name to verify the appeal with police before giving money.`,
+  categorySlug: 'charity-scams',
+  sources: ['Royal Police Force of Antigua and Barbuda', 'Antigua Observer'],
+  sourceUrl: 'https://antiguaobserver.com/police-advise-public-be-aware-of-donation-scams/',
+  country: 'AG',
+  isHistorical: false,
+  firstRecorded: '2025-04-08',
+});
+
+International.push({
+  name: 'APUA Fake Utility Bill Phishing Scam',
+  slug: 'antigua-barbuda-apua-fake-utility-bill-phishing-scam',
+  description: `The Antigua Public Utilities Authority (APUA) warned customers on April 7, 2025 that fraudulent SMS messages and emails were circulating that falsely claimed to come from APUA regarding unpaid utility bills. APUA confirmed the messages were not legitimate and were part of a phishing scam designed to deceive customers, and urged recipients not to respond to the messages or click any links in them, since doing so could compromise their personal information. Customers were directed to call APUA's Customer Service line at 480-7150 for immediate verification before responding to any bill-related message.`,
+  categorySlug: 'utility-scams',
+  sources: ['Antigua Public Utilities Authority (APUA)', 'Antigua News'],
+  sourceUrl: 'https://antigua.news/2025/04/07/apua-warns-customers-of-phishing-scams-targeting-utility-bill-payments/',
+  country: 'AG',
+  isHistorical: false,
+  firstRecorded: '2025-04-07',
+});
