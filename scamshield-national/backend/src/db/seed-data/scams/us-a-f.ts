@@ -10676,3 +10676,27 @@ UsAF.push({
     state: 'AK',
     firstRecorded: '2025-06-23',
 });
+
+UsAF.push({
+    name: 'Connecticut DMV Unpaid Traffic Ticket Text Scam',
+    slug: 'connecticut-dmv-unpaid-ticket-text-scam',
+    description: `The Connecticut DMV issued a "smishing scam alert" warning that fraudulent text messages are circulating claiming the recipient has an unresolved traffic citation, threatening vehicle-registration suspension, added fees, and possible court action unless paid immediately via a link in the text. The DMV states the message "is not legitimate and was not sent by the Connecticut Department of Motor Vehicles" and that it never sends payment demands by text, directing residents not to click the link or reply, to delete the message, and to report it to the FTC at reportfraud.ftc.gov.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Connecticut Department of Motor Vehicles'],
+    sourceUrl: 'https://portal.ct.gov/dmv/resources/dmv-news/text-message-call-scam',
+    country: 'US',
+    state: 'CT',
+    firstRecorded: '2026-03-06',
+});
+
+UsAF.push({
+    name: "Tolland Insurance Agent's Fake-Policy and Fabricated-Investment Fraud (Ian Pierce)",
+    slug: 'connecticut-tolland-pierce-fake-insurance-policy-fraud',
+    description: `Ian Pierce, 34, of Tolland, was fired from an insurance company in March 2020 for allegedly misappropriating client funds, and had his insurance producer license revoked by the Connecticut Insurance Department in June 2021 for stealing from accounts, accepting payments on canceled policies, and issuing loans to himself. Police allege he then continued misrepresenting himself as a licensed agent to at least nine people with a personal relationship to him, collecting premiums on nonexistent or lapsed life-insurance policies and convincing some to "invest" in fabricated CD and investment products using forged documents, checks, and check-printing templates, between 2020 and November 2024. Authorities confirmed at least $250,000 in losses; the Connecticut Insurance Department referred the case to state police, and Pierce was arrested on eight warrants covering larceny, forgery, issuing bad checks, and criminal impersonation, reported in July 2025.`,
+    categorySlug: 'insurance-fraud',
+    sources: ['Connecticut Insurance Department', 'WFSB'],
+    sourceUrl: 'https://www.wfsb.com/2025/07/30/tolland-man-accused-life-insurance-fraud-scheme/',
+    country: 'US',
+    state: 'CT',
+    firstRecorded: '2025-07-30',
+});
