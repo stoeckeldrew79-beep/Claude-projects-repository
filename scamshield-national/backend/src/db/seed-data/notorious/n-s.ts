@@ -7701,6 +7701,10 @@ NotoriousNS.push({
     title: 'Mohammed Saiful Alam and the S Alam Group / Islami Bank Fraud',
     slug: 'saiful-alam-s-alam-group-islami-bank-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_sunset_from_the_old_town_(27802264372).jpg?width=1200',
+    coverImageCredit: 'Photo: Silver Blue (CC BY-SA 2.0) — Dhaka\'s old town',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Mohammed Saiful Alam built S Alam Group into one of Bangladesh's largest conglomerates, with holdings in cement, steel, sugar, and power generation. In 2017 the group took effective control of Islami Bank Bangladesh Limited, then the country's largest private bank by assets, installing its own directors and executives on the bank's board.
 
@@ -7717,6 +7721,10 @@ NotoriousNS.push({
     title: 'Nui Onoue, the "Dark Lady of Osaka," and Japan\'s Bubble-Era Bank Fraud',
     slug: 'nui-onoue-dark-lady-of-osaka-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Osaka_Umeda_Sky_Building_1.jpg?width=1200',
+    coverImageCredit: 'Photo: Brücke-Osteuropa (CC0) — Osaka\'s Umeda Sky Building',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'bank-fraud'],
     body: `Nui Onoue ran a small restaurant called Egawa in Osaka, but by the mid-1980s she was better known for something else: a self-styled gift for predicting stock movements, which she shared with brokers and bank managers over gatherings at her restaurant. In the fevered climate of Japan's late-1980s "bubble economy" stock market, that reputation was enough to give a woman with no formal financial background direct, trusted access to the bank officials who controlled real money.
 
