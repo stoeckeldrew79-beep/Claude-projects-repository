@@ -3507,3 +3507,20 @@ The financial reckoning came to roughly $74 million in total: $20 million in res
 Wegelin's collapse is a reminder that a bank's marketing pitch can become the very evidence that destroys it: the same "no U.S. presence" selling point that made the bank attractive to Americans trying to hide money also meant it had no ongoing U.S. business relationships to leverage or bargain with once federal prosecutors came calling, leaving guilty plea and closure as the only paths available once the scheme was exposed.`,
     sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/January13/WegelinPleaPR.php',
 });
+
+NotoriousTZ.push({
+    title: 'Xiaodong Wu, Samson Tsang, and the China Medical Technologies Bond Fraud',
+    slug: 'xiaodong-wu-china-medical-technologies-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `China Medical Technologies, Inc. (CMED) was a Beijing-based maker of cancer-diagnostic and therapy devices, incorporated in the Cayman Islands and listed on Nasdaq after an August 2005 IPO. Over the following five years the company raised additional capital from bondholders through three convertible note offerings — $150 million on November 21, 2006; $276 million on August 15, 2008; and $150 million on December 6, 2010 — each pitched as financing for acquisitions and product development.
+
+Federal prosecutors in the Eastern District of New York later alleged that founder, chairman and CEO Xiaodong Wu, together with chief financial officer Tak Yung "Samson" Tsang, diverted more than $400 million raised through the 2008 and 2010 note offerings — roughly $426 million between them — into entities in China that Wu and Tsang controlled, rather than using it as disclosed to investors. An anonymous letter to the company's board in 2009 first raised fraud allegations, prompting an internal investigation by outside counsel.
+
+The company stopped making public disclosures and missed interest payments, and by early 2012 it had ceased operating, leaving investors unpaid on hundreds of millions of dollars in bond debt. Nasdaq delisted its shares in March 2012, the SEC revoked its registration that November, and the company was placed into liquidation in the Cayman Islands before filing for Chapter 15 bankruptcy protection in the United States.
+
+In March 2017, a federal grand jury in Brooklyn indicted Wu and Tsang, in the case United States v. Wu, on securities fraud, securities fraud conspiracy, and wire fraud conspiracy, each count carrying up to 20 years in prison. Both men are residents of China, and prosecutors described them as fugitives; with no extradition treaty between the United States and China, neither has ever been arrested or tried, and the case remains open years later.
+
+The case illustrates a distinct vulnerability for bond investors: when the borrower is a foreign-incorporated, foreign-operated company merely listed on a U.S. exchange, its executives, its books, and the entities that receive diverted money can all sit entirely outside U.S. jurisdiction — so that even a fully documented federal indictment for stealing hundreds of millions of investor dollars can end in nothing more than a permanent fugitive listing.`,
+    sourceUrl: 'https://www.courthousenews.com/heads-bankrupt-china-medical-indicted-fraud/',
+});
