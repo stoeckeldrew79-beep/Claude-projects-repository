@@ -7567,6 +7567,10 @@ NotoriousNS.push({
     slug: 'jose-oliveira-e-costa-bpn-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lisbon_aerial_view.jpg?width=1200',
+    coverImageCredit: 'Photo: Anton Zelenov (CC BY-SA 3.0) — Lisbon, where Banco Português de Negócios was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `José Oliveira e Costa ran Banco Português de Negócios (BPN) and its parent group SLN — Sociedade Lusa de Negócios — as chief executive from 1997 until early 2008, building it into a mid-sized but politically well-connected Portuguese bank. Behind BPN's public face as an ordinary commercial lender, prosecutors would later show, Oliveira e Costa was running a parallel financial architecture designed for one purpose: moving money out of the bank's real books and into places where regulators, auditors, and eventually the Portuguese state couldn't see it.
 
 The mechanism was a web of dozens of companies, created both inside and outside the SLN group, fronted by clients, shareholders, business partners, or paid "front men" who lent their names to entities they didn't actually control. In exchange for standing in as the visible owner, these front men received premiums, commissions, and — critically — substantial bank credit issued without the collateral or guarantees a real borrower would need to provide. Some of that debt was ultimately routed onto offshore shell companies whose real beneficial owner, once traced, led straight back to SLN itself; one identified offshore, Abnerka Trading and Services, alone carried €5.6 million in credit extended this way. The effect was to let SLN and BPN book fictitious assets and hide real losses simultaneously, keeping the bank looking solvent on paper while the underlying hole grew for over a decade.
@@ -7639,6 +7643,10 @@ NotoriousNS.push({
     slug: 'abu-mohammad-saeed-jubok-bangladesh-mlm-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'bangladesh', 'mlm'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dhaka_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Zubuyer Kaolin (CC BY 2.0) — Dhaka, where Jubok\'s collapse cost hundreds of thousands of Bangladeshi savers',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Jubok was founded in 1994 by Abu Mohammad Saeed, who marketed it as a multi-level cattle-fattening and dairy cooperative built to serve rural Bangladeshi savers shut out of the formal banking system. Investors were told their money would be pooled into livestock and agricultural ventures and paid out as steady dividends, with additional bonuses for recruiting new members beneath them — a structure that let the company describe itself as a farmers' cooperative while actually functioning as a multi-level Ponzi scheme, using each new wave of deposits to pay the promised returns to earlier investors.
 
 For over a decade, Jubok expanded largely unchecked, eventually drawing in investors across the country — estimates of the total number of victims range from roughly 267,000 to as many as 350,000 depositors, who collectively poured in approximately Tk 2,500 crore (about $350 million at the time). The scale of that reach, built through word-of-mouth recruitment incentives in villages where formal financial literacy and regulatory oversight were both thin, made Jubok one of the largest MLM collapses in Bangladesh's history.
