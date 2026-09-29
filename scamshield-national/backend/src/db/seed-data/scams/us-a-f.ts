@@ -10724,3 +10724,39 @@ UsAF.push({
     state: 'AZ',
     firstRecorded: '2025-04-09',
 });
+
+UsAF.push({
+    name: 'Colorado Utility Impersonation Scams: "Disconnection Deception," "Contractor Con," "Bogus Bills"',
+    slug: 'colorado-utility-impersonation-scam',
+    description: `The Colorado Public Utilities Commission and the Colorado Office of Consumer Counsel, both divisions of the Department of Regulatory Agencies, warned Coloradans about three utility-impersonation tactics. "Disconnection Deception" has callers threaten immediate shutoff and demand payment by prepaid card, wire, or over the phone. "Contractor Con" has scammers pose as utility workers or contractors going door-to-door to reset, repair, replace, or inspect a meter. "Bogus Bills" are fraudulent emails styled to look like a real bill, using the utility's logo and color scheme. The agencies said customers should never purchase a prepaid card to avoid disconnection and should report suspicious contact to local law enforcement, the FTC, or the Colorado Attorney General's Consumer Protection Section.`,
+    categorySlug: 'utility-scams',
+    sources: ['Colorado Public Utilities Commission', 'Colorado Office of Consumer Counsel'],
+    sourceUrl: 'https://dora.colorado.gov/press-release/consumer-alert-utility-customers-should-be-aware-of-ongoing-scams',
+    country: 'US',
+    state: 'CO',
+});
+
+UsAF.push({
+    name: 'Marshall Fire Rebuild Contractor Theft (Leona Scott)',
+    slug: 'colorado-marshall-fire-contractor-fraud-leona-scott',
+    description: `After the December 2021 Marshall Fire destroyed more than 1,000 homes across Louisville, Superior, and unincorporated Boulder County, contractor Leona Scott of Aurora signed rebuild contracts with four Marshall Fire property owners and is accused of stealing more than $1.3 million from them for unfinished work, while not properly licensed to build homes in Boulder County. The Boulder County Sheriff's Office arrested Scott on June 27, 2024 on a class 2 felony theft charge, the top tier under Colorado law, reserved for thefts of $1 million or more. The Colorado Attorney General's Office separately urged wildfire victims to verify a contractor's license, get multiple written bids, and confirm deposits are held in a separate trust account as required by Colorado's Contractor Trust Fund Statute.`,
+    categorySlug: 'home-improvement-solar',
+    sources: ['Boulder County Sheriff\'s Office'],
+    sourceUrl: 'https://bouldercounty.gov/news/contractor-arrested-after-theft-from-marshall-fire-victims/',
+    country: 'US',
+    state: 'CO',
+    firstRecorded: '2024-06-27',
+});
+
+UsAF.push({
+    name: 'Atlantic Publishers Group Fake Magazine-Renewal Mailer Scheme',
+    slug: 'colorado-atlantic-publishers-magazine-subscription-scam',
+    description: `Atlantic Publishers Group, LLC, and its partner Publishers Partnership Services, LLC, sent millions of deceptive mailers nationwide from 2016 through 2019 designed to look like renewal notices for consumers' existing magazine subscriptions, charging inflated prices despite having no affiliation with the actual magazines. The Colorado and Wyoming Attorney General's offices and the Better Business Bureau received hundreds of complaints, mostly from people over 60. Colorado sued in November 2019, and in a May 2021 settlement the scheme's organizers, Dennis Simpson and John Ackermann, agreed to pay $500,000 to each state and were banned from operating a magazine-subscription business or sending such mailers to Colorado or Wyoming consumers again.`,
+    categorySlug: 'subscription-traps',
+    sources: ['Colorado Attorney General\'s Office'],
+    sourceUrl: 'https://coag.gov/press-releases/5-11-21/',
+    country: 'US',
+    state: 'CO',
+    isHistorical: true,
+    firstRecorded: '2021-05-11',
+});
