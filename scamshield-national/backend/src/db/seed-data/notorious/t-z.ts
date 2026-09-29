@@ -3524,3 +3524,18 @@ In March 2017, a federal grand jury in Brooklyn indicted Wu and Tsang, in the ca
 The case illustrates a distinct vulnerability for bond investors: when the borrower is a foreign-incorporated, foreign-operated company merely listed on a U.S. exchange, its executives, its books, and the entities that receive diverted money can all sit entirely outside U.S. jurisdiction — so that even a fully documented federal indictment for stealing hundreds of millions of investor dollars can end in nothing more than a permanent fugitive listing.`,
     sourceUrl: 'https://www.courthousenews.com/heads-bankrupt-china-medical-indicted-fraud/',
 });
+
+NotoriousTZ.push({
+    title: 'Tan Koon Swan and the Pan-Electric Crash That Shut Down Singapore\'s Stock Exchange',
+    slug: 'tan-koon-swan-pan-electric-crash',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'securities-fraud'],
+    body: `Tan Koon Swan was one of Singapore and Malaysia's most prominent businessmen when he was elected president of the Malaysian Chinese Association (MCA) in November 1985. Alongside his political career, his company Sigma International held a 22.6% stake in Pan-Electric Industries, a Singapore-listed conglomerate — grown out of an original marine-salvage business into some 70 subsidiaries spanning property, hotels, and shipping — with a market capitalization of around S$230 million.
+
+Pan-Electric's growth outran what it could actually cover. When the company's finances came apart, it was carrying a total debt of S$480 million it could not repay, and it collapsed in December 1985. Because so much of that exposure sat inside Singapore's own stockbroking industry, regulators shut down both the Stock Exchange of Singapore and the Kuala Lumpur Stock Exchange for three trading days.
+
+Ten days after the collapse, on December 12, 1985, Tan personally signed an agreement extending Pan-Electric a S$20 million interest-free loan to let the company resume trading — leaning on his own standing as the country's newly elected MCA president to try to stabilize confidence in the collapsing firm. That intervention became part of the case against him: Singapore prosecutors charged Tan, along with fellow executives Peter Tham and Tan Kok Liang, over the collapse, and all three were convicted and given jail sentences. Tan was convicted of abetting criminal breach of trust and sentenced by Singapore High Court Justice Lai Kew Chai to two years in prison, with the judge telling him his conduct had "struck at the very heart, integrity, reputation and confidence of Singapore as a commercial city and financial centre." Tan relinquished the MCA presidency in 1987. He was separately convicted and imprisoned in Malaysia in 1988, declared bankrupt owing more than RM400 million, and was discharged from bankruptcy in the mid-1990s only after repaying his creditors in full.
+
+The Pan-Electric crisis remains a textbook case of contagion risk hiding inside a stock market's own plumbing: a single overleveraged conglomerate's debts were enough to threaten the solvency of the brokerage firms financing them, forcing regulators to freeze an entire national exchange rather than let one company's collapse cascade through the system. It also illustrates a recurring pattern among powerful figures caught inside a collapsing fraud — Tan's rescue loan, offered from a position of political authority just as the truth was becoming unavoidable, ended up being treated by the courts not as a good-faith bailout but as part of the offense itself.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Pan-Electric_Industries',
+});
