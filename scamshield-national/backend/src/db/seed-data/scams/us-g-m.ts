@@ -10972,3 +10972,40 @@ UsGM.push({
     state: 'MN',
     firstRecorded: '2026-08-20',
 });
+
+UsGM.push({
+    name: 'Studioplex Movie Studio Investment Fraud (Medient Studios / Moon River Studios)',
+    slug: 'georgia-studioplex-medient-moon-river-studios-investment-fraud',
+    description: `The SEC charged Manu Kumaran, founder and CEO of Medient Studios (later Moon River Studios), along with successor CEOs Jake Shapiro and Roger Miguel, with defrauding investors in "Studioplex," a purported project to build the largest movie studio in North America at a site outside Savannah in Effingham County, Georgia. The SEC alleged Kumaran and Shapiro claimed construction was underway and gave operational timelines while knowing the project lacked anywhere near sufficient funding, and that all three backdated and falsified promissory notes to issue stock in exchange for financing. Kumaran spent an average of $1,700 a day of company funds on personal travel and expenses, and Shapiro had the company pay for a house worth nearly $1 million; two outside directors, former New York Governor David Paterson and music producer Charles Koppelman, separately agreed to pay $25,000 penalties each over failing to report their own stock transactions. The promised studio complex was never built.`,
+    categorySlug: 'investment-fraud',
+    sources: ['U.S. Securities and Exchange Commission'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2016-191',
+    country: 'US',
+    state: 'GA',
+    isHistorical: true,
+    firstRecorded: '2016-09-23',
+});
+
+UsGM.push({
+    name: 'Nine9.com Pay-to-Play Casting Call Scam',
+    slug: 'georgia-nine9-casting-call-pay-to-play-scam',
+    description: `As Georgia's film and TV production boom drew growing numbers of aspiring background actors, an investigation documented how casting operation Nine9.com charged applicants a $499 annual fee plus a recurring $39.95 monthly fee for promised audition access. Emory University librarian Myron McGhee, who attended one of the company's open casting calls, declined the offer and reported his experience to metro Atlanta's Better Business Bureau, where Nine9.com had racked up 128 complaints, almost all about the annual and recurring monthly charges. Legitimate casting companies and talent agents do not charge applicants upfront fees or promise a quick path to fame in exchange for payment.`,
+    categorySlug: 'employment-scams',
+    sources: ['Better Business Bureau', 'Atlanta News First'],
+    sourceUrl: 'https://www.atlantanewsfirst.com/2022/08/12/beware-casting-call-scams-georgias-booming-film-tv-industries/',
+    country: 'US',
+    state: 'GA',
+    firstRecorded: '2022-08-12',
+});
+
+UsGM.push({
+    name: 'Fake "GA Taxation Office" Phishing Email Scam',
+    slug: 'georgia-taxation-office-phishing-email-scam',
+    description: `Georgia taxpayers received phishing emails purporting to be from a "GA Taxation Office" — no such agency exists; the real state agency is the Georgia Tax Center — sent from an address styled "claims@penalty-gov.us" and referencing coronavirus-era job-keeper payment claims, asking recipients to submit front-and-back, high-resolution photos of their driver's license and Medicare card. The Georgia Department of Revenue said it was unaware of the scheme until contacted, and stated that "official communication from government agencies, such as the Georgia Department of Revenue, will never request personal information via unsolicited email or messages," pointing to the non-.gov sender domain as a red flag and directing taxpayers to verify anything through the real Georgia Tax Center site.`,
+    categorySlug: 'tax-scams',
+    sources: ['Georgia Department of Revenue', 'Atlanta News First'],
+    sourceUrl: 'https://www.atlantanewsfirst.com/2025/02/17/new-email-scam-targets-georgia-taxpayers-middle-tax-season/',
+    country: 'US',
+    state: 'GA',
+    firstRecorded: '2025-02-17',
+});
