@@ -23108,3 +23108,39 @@ International.push({
   isHistorical: false,
   firstRecorded: '2026-01-31',
 });
+
+International.push({
+  name: 'Facebook & WhatsApp Buy-and-Sell Marketplace Scam',
+  slug: 'belize-facebook-whatsapp-marketplace-scam',
+  description: `The Belize Police Department issued a public warning on March 8, 2024 after a rise in Belizeans losing money on deals arranged through Facebook and WhatsApp buy-and-sell groups, most commonly around item sales and job offers. Police identified specific red flags: a seller or employer who won't provide proper identification, banking details that belong to someone other than the person being paid, shipment offered outside any registered courier service, an eagerness to accept less than the advertised price, and prices set noticeably below market value. The department stopped short of discouraging online commerce but urged the public to transact only with known, trusted parties and to treat any of these red flags as a reason to walk away.`,
+  categorySlug: 'online-shopping-scams',
+  sources: ['Belize Police Department', 'Love FM Belize'],
+  sourceUrl: 'https://lovefm.com/belize-police-warn-public-of-online-scams-urges-vigilance-in-transactions/',
+  country: 'BZ',
+  isHistorical: false,
+  firstRecorded: '2024-03-08',
+});
+
+International.push({
+  name: 'Fake Belize Post Office Package Delivery Text Scam',
+  slug: 'belize-post-office-fake-delivery-text-scam',
+  description: `Starting around mid-July 2024, Belize phone users began receiving text messages claiming a package addressed to them was undeliverable at the Post Office after two failed delivery attempts, with a link to "update" their address and personal information. The Belize Postal Service publicly confirmed on July 22, 2024 that it had not sent the messages and had no knowledge of their origin, explicitly instructing recipients not to press the link or enter any personal information. The scam is a straightforward credential- and data-harvesting lure dressed up as a routine delivery notice rather than a request for money.`,
+  categorySlug: 'package-delivery-scams',
+  sources: ['Amandala Newspaper', 'Belize Postal Service'],
+  sourceUrl: 'https://amandala.com.bz/news/beware-post-office-scam-circulates-online/',
+  country: 'BZ',
+  isHistorical: false,
+  firstRecorded: '2024-07-22',
+});
+
+International.push({
+  name: 'XMAXBIT Fraudulent Bitcoin/Forex Investment Scheme',
+  slug: 'belize-xmaxbit-fraudulent-bitcoin-forex-scheme',
+  description: `On November 21, 2016, Belize's International Financial Services Commission (IFSC) issued a formal warning notice against XMAXBIT, an online Bitcoin and forex trading operation that falsely claimed to be an International Business Company incorporated in Belize under Certificate of Incorporation No. 804124. The IFSC determined that the certificate posted on XMAXBIT's own website was, in the regulator's words, "a complete forgery," and that the entity held no license or regulatory approval from the IFSC or any other Belizean authority to conduct trading business. The notice, signed by then-Director General Neri J. Matus, warned the public to "take note and exercise extreme caution" before dealing with the company — a pattern of borrowing Belize's offshore-incorporation reputation to lend false legitimacy to an unregulated crypto/forex investment pitch.`,
+  categorySlug: 'cryptocurrency-scams',
+  sources: ['International Financial Services Commission of Belize'],
+  sourceUrl: 'https://www.belizefsc.org.bz/xmaxbit/',
+  country: 'BZ',
+  isHistorical: true,
+  firstRecorded: '2016-11-21',
+});
