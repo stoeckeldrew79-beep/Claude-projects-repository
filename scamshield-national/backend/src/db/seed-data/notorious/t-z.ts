@@ -3337,6 +3337,10 @@ NotoriousTZ.push({
     slug: 'william-cooper-first-pension-corporation-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'securities-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Los_Angeles_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Basil D Soufi (CC BY-SA 3.0) — Southern California, where First Pension Corporation and Vestcorp Securities operated',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `William E. Cooper co-founded First Pension Corporation and an affiliated brokerage, Vestcorp Securities, in Southern California in the early 1980s, marketing them to a specific niche: individuals and small businesses who wanted to hold real-estate investments inside self-directed IRAs, Keogh plans, and small pension accounts. Real-estate limited partnerships sold through Vestcorp promised steady returns built on second- and third-mortgage lending to borrowers who couldn't get conventional financing — a genuinely higher-risk, higher-yield niche that could have been run honestly, and for a while looked like it was.
 
 It wasn't. As the underlying mortgage borrowers increasingly defaulted, Cooper and his partners, Robert E. Lindley and Valerie Jensen, hid the mounting losses from investors rather than disclose them, and began pooling investor assets together in ways that obscured which retirement account actually owned what — a structure that also should have required SEC registration as securities, which the defendants never obtained. Older partnership interests were effectively propped up using new investor money and misrepresented account statements, the same fundamental sleight-of-hand that defines a Ponzi scheme, dressed up as a specialty pension-investment product aimed at buyers who trusted the "retirement account" framing to imply a level of safety and oversight that was never actually there.
@@ -3471,6 +3475,10 @@ NotoriousTZ.push({
     slug: 'victor-posner-charitable-donation-tax-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'tax-fraud', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_Miami.jpg?width=1200',
+    coverImageCredit: 'Photo: Michael Müller (CC BY-SA 3.0) — Miami, where Victor Posner was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Victor Posner was a Miami-based financier and corporate raider who, through a web of holding companies, controlled Royal Crown Cola, Arby's, Sharon Steel Corporation, and a string of other businesses, and was at various points described as the highest-paid executive in America. In the late 1970s, Posner donated 22 acres of land to Miami Christian College and claimed a charitable tax deduction based on the property's appraised value. Federal prosecutors alleged the appraisal was deliberately inflated, and that the deduction cheated the Internal Revenue Service out of more than $1 million.
 
 The case dragged on for nearly eight years, including an earlier conviction that was overturned due to jury irregularities. On September 29, 1987, Posner pleaded no contest to a revised set of charges: one count of conspiracy, four counts of tax evasion, and five counts of filing false federal income tax returns. The plea avoided the risk of further trials but left sentencing, and the question of what consequence a man of Posner's wealth would actually face, to U.S. District Judge Eugene P. Spellman.
@@ -3486,6 +3494,10 @@ NotoriousTZ.push({
     slug: 'wegelin-co-swiss-bank-tax-evasion-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'tax-fraud', 'international', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/St._Gallen_Cathedral.JPG?width=1200',
+    coverImageCredit: 'Photo: Wolverine 85 (CC BY-SA 3.0) — St. Gallen, Switzerland, where Wegelin & Co. was founded and based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Wegelin & Co., founded in 1741, was Switzerland's oldest private bank when U.S. prosecutors came after it. As UBS came under U.S. investigation for helping Americans evade taxes in the mid-2000s, Wegelin deliberately recruited UBS's fleeing American clients, marketing the fact that it had no branches or correspondent presence in the United States as a shield against U.S. law enforcement — a pitch built explicitly around staying beyond America's legal reach.
 
 Managing partner Otto Bruderer later admitted the bank conspired from roughly 2002 through 2010 to help U.S. taxpayers hide more than $1.2 billion in undeclared assets from the IRS through numbered and pseudonymous Swiss accounts, filing false U.S. tax returns on their behalf. On January 3, 2013, Wegelin pleaded guilty in Manhattan federal court, before U.S. District Judge Jed S. Rakoff, to one count of conspiracy to evade taxes, file false federal returns, and defraud the IRS — the first time a foreign bank had ever been criminally indicted by the United States for facilitating tax evasion, and the first guilty plea by a foreign bank on tax charges of this kind.

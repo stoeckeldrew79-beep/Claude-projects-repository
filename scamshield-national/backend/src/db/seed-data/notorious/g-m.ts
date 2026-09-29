@@ -10706,6 +10706,10 @@ NotoriousGM.push({
     slug: 'joshua-wander-777-partners-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'securities-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Miami_Skyline_2020.jpg?width=1200',
+    coverImageCredit: 'Photo: Chris6d (CC BY-SA 4.0) — Miami, where 777 Partners was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Joshua Wander co-founded 777 Partners in Miami in 2015 with Steven Pasko, building it from a niche insurance-and-litigation-finance investment shop into a sprawling conglomerate that, by the early 2020s, had pushed into budget airlines (Australia's Bonza and Canada's Flair Airlines), a film and streaming platform, insurance and reinsurance ventures, and a rapidly assembled multi-club soccer ownership portfolio spanning clubs like Genoa, Standard Liège, and Vasco da Gama. The firm's highest-profile move was a bid, announced in 2023, to buy England's Everton Football Club — a deal that would have made 777 one of the most visible ownership groups in world soccer.
 
 None of that expansion, according to the SEC and federal prosecutors, was funded the way investors were told it was. Between January 2021 and May 2024, Wander, Pasko, and then-CFO Damien Alfalla raised approximately $237 million from investors through a preferred equity offering, promising the money would go toward general corporate purposes and that 777 Partners and its affiliate 600 Partners were earning, and would keep earning, enough net income to pay a 10% annual dividend. In reality, the SEC alleges, the companies were in a severe and worsening liquidity crisis with no realistic prospect of ever generating that income. Wander and Alfalla are separately accused of misusing a credit facility in a way that caused a $300 million overdraw, concealing the resulting damage to the firm's finances from investors, while Wander allegedly redirected roughly $33 million of investor money to himself and Pasko personally.
@@ -10729,6 +10733,9 @@ The SEC filed an emergency enforcement action on October 13, 2005, in the Southe
 
 On October 15, 2007, U.S. District Judge Jed Rakoff instead sentenced Whittier to just 36 months — three years — in federal prison, a dramatic downward departure Rakoff attributed largely to Whittier's role as caregiver for an autistic child, a decision that drew criticism from some in the securities bar as disproportionately lenient for an $88 million fraud. The case is a compact illustration of two separate lessons: how a "diversified" hedge fund can secretly become a single-stock bet large enough to move the market for that stock itself, and how far federal sentencing outcomes for white-collar fraud can diverge from the guideline ranges laid out in a defendant's own plea agreement.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-19428',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Greenwich,_Connecticut_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Quintin Soloviev (CC BY 4.0) — Greenwich, Connecticut, where Wood River Capital was based',
+    coverImagePosition: 50,
     // representative photo — replace with a portrait if found
 });
 
@@ -10737,6 +10744,10 @@ NotoriousGM.push({
     slug: 'indio-da-costa-banco-cruzeiro-do-sul-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'banking-fraud', 'accounting-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Avenida_Paulista_Skyline_2012.jpg?width=1200',
+    coverImageCredit: 'Photo: JonysLowe (CC BY-SA 2.0) — São Paulo, where Banco Cruzeiro do Sul was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Banco Cruzeiro do Sul was founded in São Paulo in 1993 by the Índio da Costa family and grew into a mid-sized Brazilian consumer-lending bank, specializing in payroll-deductible loans, under the control of father Luís Felippe and son Luís Octávio Índio da Costa. Behind its reported growth, a São Paulo court later found, the bank had been manufacturing profits that didn't exist: in 2008-2009, through structured transactions that sold credit portfolios to investment funds at manipulated rates, the bank booked artificial revenue and profit, which it then distributed back out to shareholders as dividends and interest on equity — paying out fictitious earnings as if they were real cash.
 
 Brazil's Central Bank intervened in June 2012 and placed the bank under the administration of the FGC (the deposit-guarantee fund) after uncovering the fraudulent accounting. Brazil's Federal Police investigated and found a R$1.35 billion shortfall at the bank, ultimately indicting 17 people — including both Índio da Costas — for fraudulent management of a financial institution, money laundering, forming a criminal organization, and manipulating shares on the stock exchange. Luís Octávio was arrested in October 2012 and held for 19 days at São Paulo's Centro de Detenção Provisória de Pinheiros.
@@ -10842,6 +10853,9 @@ A four-week jury trial before Senior U.S. District Judge Loretta Preska in the S
 
 The case is notable for what it didn't reach: Pearson himself was never criminally charged over Valeant's broader pricing and accounting practices, which cost shareholders billions and triggered the company's eventual rebranding as Bausch Health. It was the narrower, more provable side deal between two mid-level executives — a specific bribe, moved through a specific shell company, hidden under a specific fake name — that produced the case's only criminal convictions. It's a pattern common to complex corporate scandals: prosecutors often build their strongest cases not around the sweeping strategic decisions that damage the most people, but around the discrete, personally enriching side deals that are easiest to prove beyond a reasonable doubt.`,
     sourceUrl: 'https://www.statnews.com/pharmalot/2018/10/30/valeant-philidor-executives-prison/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Financial_District,_Manhattan_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0) — Manhattan\'s Financial District, where Tanner and Davenport were tried',
+    coverImagePosition: 50,
     // representative photo — replace with a portrait if found
 });
 
@@ -10911,6 +10925,10 @@ NotoriousGM.push({
     slug: 'mario-renda-linked-financing-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'bank-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Garden_City_Village_Hall,_Garden_City,_Long_Island,_New_York_September_18,_2021_A.jpg?width=1200',
+    coverImageCredit: 'Photo: AITFFan1 (CC BY-SA 4.0) — Garden City, New York, where Renda\'s First United Fund was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Mario Renda ran First United Fund, a small money-brokerage firm in Garden City, New York, that specialized in placing large institutional deposits — union pension and welfare funds, corporate treasuries — into banks and savings and loans around the country in exchange for a broker's commission. In the early-to-mid 1980s he turned that legitimate-sounding business into the engine of what regulators later called "linked financing": Renda would arrange a large deposit into a struggling bank on the explicit, if unwritten, condition that the bank turn around and make a loan — often to a shell borrower or real-estate partnership Renda himself controlled — that the institution would never have approved on the merits. The deposit gave a failing thrift the appearance of liquidity; the linked loan gave Renda and his partners cash they had no intention of repaying.
 
 The scheme worked because Renda controlled a channel that no small-bank president could turn down: more than $100 million belonging to Teamsters Local 810 and Sheetmetal Workers Local 38 pension and welfare funds, deposited through him. Investigators found that participating banks paid inflated "commissions" on these placements — routed into secret accounts and split with the union officials who controlled where the funds went — while Renda used the leverage of the deposits to extract the linked loans on the other side. In one documented instance, he and a partner used the technique to help loot Indian Springs State Bank and Coronado Federal Savings and Loan in Kansas City, both of which subsequently failed, through roughly $7 million in unsecured real-estate loans funneled through straw borrowers. A parallel Florida prosecution, involving Florida Center Bank of Orlando, produced an earlier conviction and a two-year sentence.
@@ -10946,6 +10964,10 @@ NotoriousGM.push({
     slug: 'mehmet-gurhan-deniz-feneri-charity-fraud-germany',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'charity-fraud', 'germany', 'historical', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurt_Skyline_2022.jpg?width=1200',
+    coverImageCredit: 'Photo: Jörg Braukmann (CC BY-SA 4.0) — Frankfurt, where the Deniz Feneri case was tried',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Deniz Feneri e.V. — "Lighthouse," in Turkish — registered in Germany in the early 2000s as a charity soliciting donations from Germany's large Turkish immigrant community, using a namesake weekly television program broadcast on the Turkish-language channel Kanal 7 to solicit funds for humanitarian relief projects abroad. Over several years the charity collected more than 41 million euros from donors, many of them working-class Turkish-German families who believed their money was funding food aid, orphan sponsorships, and disaster relief in Turkey and beyond.
 
 German investigators found that only a small fraction of that money ever reached its stated purpose. An internal accountant later admitted the funds had been acquired under false pretenses and diverted to finance private businesses controlled by the charity's own operators; prosecutors alleged roughly 18 million euros of the total raised had been embezzled, and were never able to fully account for where all of the diverted money had gone.
@@ -10980,6 +11002,10 @@ NotoriousGM.push({
     slug: 'miguel-gutierrez-americanas-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'brazil'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_of_Rio_de_Janeiro.jpg?width=1200',
+    coverImageCredit: 'Photo: Erik Ogan (CC BY-SA 2.0) — Rio de Janeiro, where Americanas S.A. is based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Americanas S.A. grew into one of Brazil's most recognizable retail chains, controlled by billionaire investors Jorge Paulo Lemann, Marcel Telles, and Carlos Alberto Sicupira through their investment vehicle 3G Capital. In August 2022 the company announced that banking executive Sergio Rial would take over as CEO from longtime chief Miguel Gutierrez. Rial started the job on January 2, 2023. Eleven days later, everything changed.
 
 On January 11, 2023, Rial told the market that Americanas had discovered roughly R$20 billion (about $3.9 billion) in "accounting inconsistencies," which he attributed to how the company had recorded the financial cost of bank loans and supplier debt in prior years, including 2022. Rial testified to the Brazilian Senate that he had been kept in the dark before taking over and immediately realized the company was insolvent once he saw the real numbers; he resigned within days of the disclosure. Americanas' stock sank 77% in the aftermath, and the company filed for judicial reorganization — Brazil's equivalent of Chapter 11 — on January 19, 2023, followed by a Chapter 15 filing in the United States on January 25.
@@ -10995,6 +11021,10 @@ NotoriousGM.push({
     slug: 'lucy-edwards-peter-berlin-bank-of-new-york-money-laundering',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'money-laundering'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bank_of_New_York_Building_(One_Wall_Street)_(7237042502).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0) — the Bank of New York Building at One Wall Street',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Lucy Edwards was a Russian-born vice president at the Bank of New York, one of the oldest and most established banks on Wall Street, working in a division that handled correspondent banking relationships with Eastern European institutions. In 1996, her husband, Peter Berlin, also a Russian émigré, opened two accounts at a BNY retail branch in the names of shell companies called Benex International Co., Inc. and BECS International LLC — accounts that, with Edwards' knowledge and assistance from inside the bank, would go on to move an extraordinary amount of money with none of the scrutiny a legitimate correspondent-banking relationship would normally draw.
 
 Over the following three and a half years, roughly $7 billion originating in Russia flowed through the Benex and BECS accounts and out again to third parties around the world. According to U.S. prosecutors, the network functioned as an unlicensed, unregulated banking and wire-transfer operation, letting Russian individuals and businesses move money into and out of the country in violation of Russian currency-control laws — allowing them to sidestep customs duties and tax obligations back home. The scandal broke publicly in August 1999, triggering congressional hearings and international alarm over whether the flows included proceeds tied to Russian organized crime or even diverted IMF loan funds, questions that were never fully resolved even after the criminal case concluded.
@@ -11010,6 +11040,10 @@ NotoriousGM.push({
     slug: 'henry-blodget-merrill-lynch-analyst-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'securities-fraud', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wall_Street_-_New_York_Stock_Exchange.jpg?width=1200',
+    coverImageCredit: 'Photo: Carlos Delgado (CC BY-SA 3.0) — the New York Stock Exchange on Wall Street',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Henry Blodget was Merrill Lynch's senior Internet-sector research analyst during the dot-com boom of the late 1990s and early 2000s, a role that made his stock ratings and price targets some of the most closely watched on Wall Street at a moment when internet-company valuations were soaring on hype as much as fundamentals. The SEC, NASD, and NYSE later found that the research reaching Merrill's retail clients under Blodget's name didn't always reflect what he actually thought.
 
 Regulators' central finding centered on GoTo.com: Blodget issued research reports rating the stock favorably that were, according to the SEC, materially misleading because they contradicted privately expressed negative views he held about the company at the same time. Separately, investigators found that Blodget published research on six other internet companies — InfoSpace, 24/7 Media, Lifeminders, Homestore.com, Excite@Home, and Internet Capital Group — that did not provide a sound basis for investors to evaluate the underlying facts, contained exaggerated or unwarranted claims, and in some cases offered opinions with no reasonable analytical basis behind them. The pattern investigators described was research shaped to protect Merrill's lucrative investment-banking relationships with the very companies Blodget was rating, rather than to give ordinary investors an independent view of what those stocks were actually worth.
