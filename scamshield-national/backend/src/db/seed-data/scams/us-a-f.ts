@@ -10641,3 +10641,38 @@ UsAF.push({
     state: 'DC',
     isHistorical: false,
 });
+
+UsAF.push({
+    name: 'Office of Elder Fraud & Assistance Impersonation Scam',
+    slug: 'alaska-office-elder-fraud-assistance-impersonation-scam',
+    description: `Alaska's state Office of Elder Fraud & Assistance has warned that scammers are calling Alaskan elders while posing as "Michael Carbone," the office's real investigator, from spoofed 855 toll-free numbers, falsely claiming to be an "Elder Abuse attorney" willing to represent them and requesting payment over the phone. The office confirms Carbone is an investigator, not an attorney, that it only ever calls from the phone numbers listed on its own official webpage, and that it will never request payment by phone — trading on a real staff member's name to impersonate the very state agency created to protect elder-fraud victims.`,
+    categorySlug: 'government-impersonation',
+    sources: ["Alaska Office of Elder Fraud & Assistance"],
+    sourceUrl: 'https://opa.doa.alaska.gov/function/representation/',
+    country: 'US',
+    state: 'AK',
+});
+
+UsAF.push({
+    name: 'Fake Alaska Native-Made Goods and Charity Scam Near Denali',
+    slug: 'alaska-denali-himalayan-fake-native-made-goods-charity-scam',
+    description: `Alaska Attorney General Treg Taylor sued Sunil Thapa, his wife Trishna, and son Tejash — owners of a tourist shop near Denali National Park doing business as "The Himalayan" and Mt. McKinley Clothing Co. — alleging they imported clothing, jewelry, and other goods from Nepal and sold them as authentic Alaska Native-made products from Yakutat, while falsely claiming the shop was a nonprofit tied to a "Yakutat Village Council" whose proceeds funded local charitable projects. Undercover investigators found items bearing "Made in Nepal" labels in storage identical to ones on shelves labeled as Alaskan-made, along with rolls of unused Alaska-made labels and discarded Nepal labels. The complaint, filed July 19, 2023, led to a temporary restraining order on July 24, 2023, with the state seeking penalties of up to $25,000 per violation.`,
+    categorySlug: 'online-shopping-scams',
+    sources: ["Alaska Department of Law"],
+    sourceUrl: 'https://law.alaska.gov/press/releases/2023/072423-Himalayan.html',
+    country: 'US',
+    state: 'AK',
+    firstRecorded: '2023-07-19',
+});
+
+UsAF.push({
+    name: 'Social Media Dealership Impersonation Car-Buying Scam',
+    slug: 'alaska-social-media-dealership-impersonation-car-buying-scam',
+    description: `The Better Business Bureau's Alaska office has warned that scammers are hijacking legitimate small dealerships' social media accounts, or creating convincing fake ones, to post attractive vehicle listings — as BBB spokesperson Cameron Nakashima put it, made to look like "a reputable small mom and pop shop automotive dealership." Some listings are framed as private-seller ads that turn out to be undisclosed dealer operations once a buyer shows up. The BBB reported 37 Alaska auto-scam complaints in the first part of 2025, peaking in March and April, following more than 100 statewide complaints the prior year.`,
+    categorySlug: 'online-shopping-scams',
+    sources: ["Better Business Bureau of Alaska", 'Alaska\'s News Source'],
+    sourceUrl: 'https://www.alaskasnewssource.com/2025/06/23/avoiding-summer-car-buying-scams-bbb-offers-consumer-advice/',
+    country: 'US',
+    state: 'AK',
+    firstRecorded: '2025-06-23',
+});
