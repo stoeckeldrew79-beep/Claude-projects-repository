@@ -7696,3 +7696,20 @@ The Kabul Bank collapse illustrates how a systemically important bank can be cap
     coverImageCredit: 'Photo: U.S. Army (Charles K. Stadtlander/IMCOM), public domain — a Kabul Bank branch in Jalalabad, Afghanistan',
     coverImagePosition: 50,
 });
+
+NotoriousNS.push({
+    title: 'Mohammed Saiful Alam and the S Alam Group / Islami Bank Fraud',
+    slug: 'saiful-alam-s-alam-group-islami-bank-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Mohammed Saiful Alam built S Alam Group into one of Bangladesh's largest conglomerates, with holdings in cement, steel, sugar, and power generation. In 2017 the group took effective control of Islami Bank Bangladesh Limited, then the country's largest private bank by assets, installing its own directors and executives on the bank's board.
+
+According to Bangladesh's Anti-Corruption Commission (ACC), Alam and his associates then used that control to loot the bank rather than run it. Investigators allege loan officers approved credit far beyond regulatory limits to more than 130 nominal shell companies — entities with no real underlying business — while bank systems were manipulated to push the unauthorized loans through. Money then moved from those shell companies through further affiliated entities before being sent abroad.
+
+On November 9, 2025, the ACC filed what it described as the largest single case in its history, accusing Alam, his wife Farzana Parveen, five of his brothers, his son, and dozens of bank officials — 67 defendants in total — of embezzling roughly Tk 9,284 crore (about $1.26 billion at the time, growing to more than Tk 10,480 crore with accrued interest) from Islami Bank and laundering it through Singapore, the British Virgin Islands, and Cyprus. It is one of roughly twenty separate cases the ACC has filed against Alam's network since late 2024, together alleging embezzlement and laundering approaching Tk 21,000 crore.
+
+Alam has lived and done business in Singapore since at least 2009, when he and his wife registered a company there. He has since pursued renouncing his Bangladeshi citizenship — reportedly applying in 2020, with his family's passports formally surrendered in October 2022 — while Bangladeshi press reports place his acquisition of Singaporean citizenship sometime between 2021 and 2023; a Bangladesh High Court order has since intervened in the renunciation process, and Alam has continued pursuing it through further applications. Bangladeshi courts have separately frozen his and his family's bank accounts, shares, and insurance policies both domestically and, through international requests, in Singapore; Alam has denied wrongdoing, while the criminal cases against him proceed without him in the country to answer them.
+
+The case is a reminder that acquiring a bank doesn't just give a group somewhere to keep its money — it gives it the ability to originate, approve, and disburse other people's deposits, and that ordinary depositors and shareholders of a bank taken over this way have little way of knowing, from outside, that the "loans" carrying their money out the door are going to companies that exist only on paper.`,
+    sourceUrl: 'https://www.tbsnews.net/bangladesh/corruption/acc-file-record-case-against-s-alam-chairman-66-others-embezzlement-laundering',
+});
