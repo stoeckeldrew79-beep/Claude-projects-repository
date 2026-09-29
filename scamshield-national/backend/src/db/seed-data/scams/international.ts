@@ -22952,3 +22952,38 @@ International.push({
   isHistorical: false,
   firstRecorded: '2025-04-07',
 });
+
+International.push({
+  name: 'King Gaming E-Gaming "Pig Butchering" Scam Ring',
+  slug: 'isle-of-man-king-gaming-egaming-scam-ring',
+  description: `A Beijing court found six former employees of a subsidiary of King Gaming Ltd, an Isle of Man-licensed e-gaming operator, guilty of scamming victims in China out of millions of dollars through a "pig butchering" fake-trading-platform operation based in Douglas. In April 2024, Isle of Man police raided King Gaming's Douglas offices in what was described as the largest law enforcement operation in the island's history, arresting seven people, though no charges had been filed as of later reporting. Reporting alleged King Gaming had secured £5.92 million in Manx government funds and tax breaks to relocate foreign workers and build a corporate campus, a claim the Isle of Man government disputed, stating no financial support had been provided to the company.`,
+  categorySlug: 'investment-fraud',
+  sources: ['Isle of Man Today'],
+  sourceUrl: 'https://www.iomtoday.co.im/news/investigation-claims-red-flags-were-overlooked-as-scam-gangs-targeted-island-917206',
+  country: 'IM',
+  isHistorical: false,
+  firstRecorded: '2024-04-01',
+});
+
+International.push({
+  name: '"Prudential Finance Company" Bogus Invoice Scam',
+  slug: 'isle-of-man-prudential-finance-company-bogus-invoice-scam',
+  description: `The Isle of Man Financial Services Authority warned about fraudulent invoices circulating under the name "Prudential Finance Company," carrying an Isle of Man address to appear legitimate. The invoices demanded a "certified tax evasion fee" paid in US dollars to a bank account in Istanbul, Turkey, addressed to a beneficiary named Cahit Topcu and signed from the email address cahit_topcu@yahoo.com. The Authority said the entity "is not, and never has been, registered in the Isle of Man to provide financial services," confirmed no connection to the genuine Prudential brand, and said it had established no genuine links between the entity and the Isle of Man.`,
+  categorySlug: 'business-email-compromise',
+  sources: ['Isle of Man Financial Services Authority'],
+  sourceUrl: 'https://www.iomfsa.im/fsa-news/2024/sep/bogus-invoice-prudential-finance-company/',
+  country: 'IM',
+  isHistorical: false,
+  firstRecorded: '2024-09-11',
+});
+
+International.push({
+  name: 'TT Races Fake Homestay Accommodation Scam',
+  slug: 'isle-of-man-tt-races-fake-homestay-accommodation-scam',
+  description: `Ahead of the Isle of Man TT motorcycle races, a fraudulent listing for a three-bedroom house near Signpost Corner was posted into a Facebook group for TT fans with more than 320,000 members, asking for upfront deposits on a property the poster did not own or control; the post was removed after group administrators were contacted by authorities. TT organisers urged fans to book homestay accommodation only through official channels registered with the Isle of Man TT Homestay scheme rather than trusting listings posted directly into social media groups.`,
+  categorySlug: 'travel-vacation-scams',
+  sources: ['3FM Isle of Man'],
+  sourceUrl: 'https://www.three.fm/news/isle-of-man-news/warning-over-tt-accommodation-scam/',
+  country: 'IM',
+  isHistorical: false,
+});
