@@ -10419,3 +10419,26 @@ UsNS.push({
     state: 'SD',
     firstRecorded: '2023-01-31',
 });
+
+UsNS.push({
+    name: 'FBI Seeks Victims of Omaha Travel Agent Connie Seastedt',
+    slug: 'nebraska-omaha-travel-agent-fraud-seastedt',
+    description: `The FBI's Omaha Field Office is seeking victims of Connie Seastedt, owner of "Captivating Travels by Connie," who is alleged to have taken client payments for trips between June 2024 and August 2026 that were never actually booked, and to have used clients' credit card information to commit further fraud. One named victim, Heidi Gatling, lost $13,000 after wiring payment for a Caribbean family trip that the resort never received. The FBI says victims should report losses "whether they've been refunded or not," identities will be kept confidential, and victims may be eligible for restitution and federal or state victim services; roughly 20 alleged victims had come forward as of the report.`,
+    categorySlug: 'travel-vacation-scams',
+    sources: ['FBI Omaha Field Office', 'WOWT'],
+    sourceUrl: 'https://www.wowt.com/2026/09/28/fbi-seeking-potential-victims-fraud-by-omaha-travel-agent/',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2026-09-28',
+});
+
+UsNS.push({
+    name: 'NPPD Tree-Trimming Impersonation Scam',
+    slug: 'nebraska-nppd-tree-trimming-impersonation-scam',
+    description: `Nebraska Public Power District has warned customers about scammers posing as tree-trimming contractors who claim NPPD requires access to a resident's backyard to clear branches from power lines. NPPD says residents have become robbery victims through this pretext — one person distracts the resident at the door while an accomplice enters the home to steal valuables. NPPD identifies Valley Power and Friest Tree Experts as its only legitimate tree-trimming contractors, and tells residents to verify a crew's vehicle and ID before allowing anyone onto the property and to call 911 if targeted.`,
+    categorySlug: 'utility-scams',
+    sources: ['Nebraska Public Power District'],
+    sourceUrl: 'https://www.nppd.com/accounts-billing/scams',
+    country: 'US',
+    state: 'NE',
+});
