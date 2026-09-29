@@ -10760,3 +10760,40 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2021-05-11',
 });
+
+UsAF.push({
+    name: '"Register Delaware" Fake Registered-Agent Invoice Scam',
+    slug: 'delaware-register-delaware-registered-agent-invoice-scam',
+    description: `A business calling itself "Register Delaware" mailed Delaware business entities a form titled "Annual Invoice for Statutory Representation – PAST DUE NOTICE," urging companies to pay $175 for "Delaware – Domestic Representation." The Delaware Division of Corporations warned the form made illegal and unauthorized use of the Great Seal of Delaware to look like official correspondence, and that the return address on the solicitation, 1120 L Street NW in Washington, DC, is actually a UPS Store — Register Delaware is neither a licensed Delaware registered agent nor a recognized Delaware entity at all.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Delaware Division of Corporations'],
+    sourceUrl: 'https://corp.delaware.gov/consumeralert/',
+    country: 'US',
+    state: 'DE',
+    isHistorical: true,
+    firstRecorded: '2015-10-23',
+});
+
+UsAF.push({
+    name: 'Apple Insurance Premium-Theft Scheme (Zenaida Nieves-Cordero)',
+    slug: 'delaware-nieves-cordero-apple-insurance-premium-theft',
+    description: `Zenaida Nieves-Cordero, a former Delaware insurance agent operating Apple Insurance Inc., got Spanish-speaking clients in Kent and Sussex Counties to authorize bank withdrawals for insurance premium payments, then diverted the funds for personal use over several years. The Delaware Department of Insurance's investigation found she specifically targeted this vulnerable community, exploiting their fears of engaging with law enforcement to discourage reporting. She pleaded guilty to three felony theft counts and was sentenced on September 24, 2026 to three years in prison plus probation, ordered to pay $625,226.75 in restitution, and had her insurance license revoked; Insurance Commissioner Trinidad Navarro called it "one of the most severe breaches of trust by an insurance agent that our Department has ever encountered."`,
+    categorySlug: 'insurance-fraud',
+    sources: ["Delaware Department of Insurance"],
+    sourceUrl: 'https://news.delaware.gov/2026/09/24/delaware-department-of-insurance-announces-sentencing-of-former-insurance-agent-for-theft-of-client-funds/',
+    country: 'US',
+    state: 'DE',
+    firstRecorded: '2026-09-24',
+});
+
+UsAF.push({
+    name: 'Dover "Free Puppy" Wire-Transfer Scam',
+    slug: 'delaware-dover-craigslist-puppy-scam',
+    description: `Dover Police warned residents about Craigslist-style ads offering "free" puppies from someone claiming to be on a church mission in another country and unable to care for the dogs any longer, who then asks the victim to wire-transfer money to cover shipping costs using fabricated shipping documentation. Shortly before the alert, a woman from New York lost $949 to the scam, believing she would be traveling to Dover, Delaware to pick up a new puppy.`,
+    categorySlug: 'pet-sales-scams',
+    sources: ['Dover Police Department', 'CBS News Philadelphia'],
+    sourceUrl: 'https://www.cbsnews.com/philadelphia/news/del-police-warning-residents-about-local-puppy-scam/',
+    country: 'US',
+    state: 'DE',
+    isHistorical: true,
+});
