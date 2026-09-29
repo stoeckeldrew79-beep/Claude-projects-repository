@@ -6125,3 +6125,39 @@ UsTZ.push({
     isHistorical: false,
     firstRecorded: '2026-02-05',
 });
+
+UsTZ.push({
+    name: 'Salt Lake City Fake Parking-Fee Text Scam',
+    slug: 'utah-slc-parking-fee-text-scam',
+    description: `Salt Lake City issued a public alert after residents began receiving texts falsely claiming an "unpaid parking invoice" and directing them to an unauthorized third-party website built to harvest personal and payment data. City Chief Information Officer Aaron Bentley said the city did not believe its own internal systems had been compromised and that the campaign used wording similar to smishing scams recently hitting other U.S. cities. The city urged residents not to click the link and to verify any real citation only through slc.gov/payments.`,
+    categorySlug: 'phishing',
+    sources: ['Salt Lake City'],
+    sourceUrl: 'https://www.slc.gov/blog/2025/01/27/salt-lake-city-warns-of-parking-fee-scam/',
+    country: 'US',
+    state: 'UT',
+    firstRecorded: '2025-01-27',
+});
+
+UsTZ.push({
+    name: '"Grandparent Scam" Targets Families of LDS Missionaries',
+    slug: 'utah-lds-missionary-grandparent-scam',
+    description: `Utah's Division of Consumer Protection warned that scammers were calling grandparents of LDS missionaries, claiming the missionary had been arrested — commonly for a DUI — and needed bail or travel money wired immediately to a fake bail bondsman rather than through official Church channels. In the case the division cited, grandparents in Idaho wired $3,885 after such a call, with scammers appearing to pull missionary details from social media. LDS missionary-department official Elder Brent H. Nielson said "if a missionary is indeed in trouble, the Church would reach out to the family through their stake president, and would never ask for money from the family," while then-division director Francine Giani urged anyone receiving such a call to hang up and call the missionary's parents directly before sending any money.`,
+    categorySlug: 'grandparent-scams',
+    sources: ["Utah Division of Consumer Protection"],
+    sourceUrl: 'https://commerce.utah.gov/2016/04/28/consumer-protection-warns-new-grandparent-scam-may-target-families-of-lds-church-missionaries-seniors-urged-to-hang-up-phone-and-call-parents/',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    firstRecorded: '2016-04-28',
+});
+
+UsTZ.push({
+    name: 'Hijacked Utah Rental-Listing Scam',
+    slug: 'utah-hijacked-rental-listing-scam',
+    description: `Utah's Division of Consumer Protection has warned that scammers copy legitimate, currently-listed rental properties and repost them with different contact information and a lower rent to lure applicants. In one case a Salt Lake-area home legitimately listed at $1,500 a month was reposted at $800 a month; the scammer, claiming to be out of state, asked for a deposit before any interior showing and offered to "FedEx the key" once paid. Division communications director Zach Whitney said "they've hijacked an actual listing... meaning that they've taken an actual listing and reposted it with different contact information," and advised suspicion of below-market rent, refusal to show a unit in person, and any request to wire a deposit before signing a lease.`,
+    categorySlug: 'rental-housing',
+    sources: ["Utah Division of Consumer Protection", 'KUTV'],
+    sourceUrl: 'https://kutv.com/news/2news-investigates/scammers-try-to-defraud-renters-hijack-legitimate-home-rental-listings-utah-department-division-consumer-protection-red-flags',
+    country: 'US',
+    state: 'UT',
+});
