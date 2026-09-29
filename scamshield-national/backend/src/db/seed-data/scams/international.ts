@@ -22987,3 +22987,39 @@ International.push({
   country: 'IM',
   isHistorical: false,
 });
+
+International.push({
+  name: 'Evri Parcel Delivery Smishing Scam',
+  slug: 'jersey-evri-parcel-delivery-smishing-scam',
+  description: `The Jersey Cyber Security Centre, working with the States of Jersey Police, warned islanders about a "smishing" text-message campaign in which fraudsters impersonate the parcel courier Evri to claim a delivery attempt has failed, directing recipients to click a link to reschedule or update their details in order to harvest personal or payment information. The centre pointed to sloppy English in the messages — mistakes in word spacing such as "yourpackage" and "operationcentre," and grammar errors like "ship in" instead of "ship on" — as telltale signs, and urged residents not to follow the link or share any information, verifying instead directly with the courier through official channels.`,
+  categorySlug: 'package-delivery-scams',
+  sources: ['Jersey Cyber Security Centre', 'States of Jersey Police'],
+  sourceUrl: 'https://jerseyeveningpost.com/news/2024/08/23/cyber-security-warning-about-parcel-scam/',
+  country: 'JE',
+  isHistorical: false,
+  firstRecorded: '2024-08-23',
+});
+
+International.push({
+  name: '"Sky Dove Finance" Fake Deposit-Taking Scam',
+  slug: 'jersey-sky-dove-finance-fake-deposit-scam',
+  description: `The Jersey Financial Services Commission warned that "Sky Dove Finance," a scam entity falsely claiming to be based in Jersey, was soliciting deposits from islanders despite never having been registered or applied for registration under Jersey's banking and supervisory laws. The JFSC said the operation used real company names, cloned websites, copied branding, and AI-generated images to appear credible and pressure targets into transferring money or handing over personal details, describing it as part of a wider pattern of unauthorised financial businesses falsely invoking a Jersey address. Islanders contacted were directed to verify independently via jerseyfsc.org or +44 (0)1534 822000, and to alert their bank immediately if a payment had already been made.`,
+  categorySlug: 'investment-fraud',
+  sources: ['Jersey Financial Services Commission'],
+  sourceUrl: 'https://jerseyeveningpost.com/news/2026/04/30/finance-regulator-issues-scam-warning/',
+  country: 'JE',
+  isHistorical: false,
+  firstRecorded: '2026-04-30',
+});
+
+International.push({
+  name: 'Jersey Romance Fraud',
+  slug: 'jersey-romance-fraud-scam',
+  description: `The Jersey Fraud Prevention Forum, chaired by States of Jersey Police Chief Inspector Chris Beechey, reported that islanders had lost £395,370 to romance fraud over the preceding four years. The fraud follows a consistent pattern: perpetrators build a relationship with a victim through online dating apps or social media, then emotionally manipulate them — often citing a fabricated emergency, medical bill, or travel cost — into sending money, exploiting the anonymity of online-only contact to avoid ever meeting in person. Beechey said the campaign aimed to "raise awareness on romance fraud and want to help Jersey residents recognise the signs," urging islanders to report losses to police and their bank.`,
+  categorySlug: 'romance-scams',
+  sources: ['Jersey Fraud Prevention Forum'],
+  sourceUrl: 'https://jerseyeveningpost.com/news/2022/09/06/islanders-lose-almost-400000-to-romance-fraud-in-four-years/',
+  country: 'JE',
+  isHistorical: true,
+  firstRecorded: '2022-09-06',
+});
