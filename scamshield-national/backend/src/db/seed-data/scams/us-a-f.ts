@@ -10700,3 +10700,27 @@ UsAF.push({
     state: 'CT',
     firstRecorded: '2025-07-30',
 });
+
+UsAF.push({
+    name: 'Tucson Adviser Sanctioned for Concealing Red Flags From Clients (Smith & Cox)',
+    slug: 'arizona-smith-cox-adviser-concealment-fraud',
+    description: `The Arizona Corporation Commission's Securities Division ordered William Andrew Smith of Tucson and his firm, Smith & Cox, LLC, to pay a $60,000 administrative penalty for securities and investment-advisory fraud. The Commission found Smith breached his fiduciary duty to clients — most of them senior citizens and retirees — by misleading them about his reasons for moving to a new firm while failing to disclose that the Commission had a pending enforcement action against him, that he had multiple unpaid tax liens, and that he had a prior order for securities violations carrying a risk of losing his license.`,
+    categorySlug: 'investment-fraud',
+    sources: ['Arizona Corporation Commission'],
+    sourceUrl: 'https://www.azcc.gov/securities/news/2025/06/11/acc-sanctions-former-investment-adviser-for-misleading-clients',
+    country: 'US',
+    state: 'AZ',
+    firstRecorded: '2025-06-11',
+});
+
+UsAF.push({
+    name: '"Missed Jury Duty" Warrant Phone Scam (Maricopa County)',
+    slug: 'arizona-jury-duty-warrant-phone-scam',
+    description: `The Maricopa County Superior Court warned that scammers are calling or emailing residents, falsely posing as law enforcement, and claiming the recipient missed jury duty and now faces fines or arrest unless they pay immediately — using fake badge and case numbers and, in some cases, spoofed caller ID showing a real local law-enforcement number for false authority. Only scammers demand payment by gift card, payment app, cryptocurrency, or wire transfer; the court said real notices about missed jury service arrive by mail, and any resulting fine is set by a judge in a courtroom, not demanded over the phone. Arizona ranked fourth nationally for imposter-scam losses in 2024, at roughly $766 million.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Maricopa County Superior Court'],
+    sourceUrl: 'https://superiorcourt.maricopa.gov/posts/press-releases/2025/sophisticated-scammers-targeting-potential-jurors/',
+    country: 'US',
+    state: 'AZ',
+    firstRecorded: '2025-04-09',
+});
