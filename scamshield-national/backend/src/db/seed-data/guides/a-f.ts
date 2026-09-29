@@ -9462,6 +9462,10 @@ GuidesAF.push({
   slug: 'clean-energy-tax-credit-purchase-scam-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'clean-energy-tax-credit-scam', 'tax-scams'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Solar_panels_on_house_roof.jpg?width=1200',
+  coverImageCredit: 'Photo: Gray Watson (CC BY-SA 3.0)',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: 'https://www.irs.gov/newsroom/irs-warns-of-new-scam-targeting-clean-energy-tax-credit',
   body: `Under the Inflation Reduction Act, businesses behind eligible clean-energy projects can legally "transfer" — effectively sell — their federal tax credits to other taxpayers. The IRS warns that unscrupulous tax return preparers have been marketing these purchased credits directly to ordinary wage-earning taxpayers who file a standard Form 1040, telling them that buying a credit can offset the tax they owe on wages, Social Security, or retirement withdrawals. For the large majority of individual filers, that claim is simply false.
 
