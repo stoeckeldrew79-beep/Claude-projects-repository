@@ -23239,3 +23239,37 @@ International.push({
   isHistorical: true,
   firstRecorded: '2022-09-06',
 });
+
+International.push({
+  name: 'Monrovia Gold Trading Advance-Fee Cartel Scam',
+  slug: 'liberia-gold-advance-fee-cartel-scam',
+  description: `A network of Liberia-based fraudsters in Monrovia — posing as gold traders, a fake shipping company, and a fake "minister" — convinced a 71-year-old Canadian, Gerry Pettle, to wire a series of escalating fees for gold shipments that never materialized. Victims were shown staged strongboxes of gold at guarded compounds and pressured through repeated new "final charges," including shipping tax, insurance, and export-license fees, totaling more than $100,000 before the scheme unraveled once the victim threatened to involve police.`,
+  categorySlug: 'investment-fraud',
+  sources: ['FrontPageAfrica'],
+  sourceUrl: 'https://frontpageafricaonline.com/how-a-liberia-cartel-took-a-71-year-old-canadian-100k/',
+  country: 'LR',
+  isHistorical: false,
+});
+
+International.push({
+  name: 'Smart AI Mobile Money Ponzi Scheme',
+  slug: 'liberia-smart-ai-mobile-money-ponzi-scheme',
+  description: `Smart AI, a self-styled "AI e-commerce" platform, launched in Liberia in June 2023 running on top of the Lonestar Cell MTN and Orange mobile money networks, promising deposits that would "grow" and offering recruitment incentives tied to promised jobs. The platform shut down abruptly on August 13, 2023 with no explanation. Victims ranged from ordinary citizens to a Liberia National Police superintendent, Rufus T. Chea, who reported depositing roughly LD$72,000 that had grown to over LD$92,000 in his account before the shutdown; the scam's success was attributed in part to widespread unemployment and a lack of government due diligence before the company received its Article of Incorporation.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  sources: ['Women Voices Newspaper'],
+  sourceUrl: 'https://www.womenvoicesnewspaper.org/how-smart-ai-embezzled-millions/',
+  country: 'LR',
+  isHistorical: true,
+  firstRecorded: '2023-08-13',
+});
+
+International.push({
+  name: 'Double Land Sale Fraud by Estate Owners',
+  slug: 'liberia-double-land-sale-fraud',
+  description: `Property owners in Liberia sell the same parcel of land to multiple buyers, often exploiting absent or deceased landowners' heirs — widows defending inherited land are named as especially targeted. The Liberia Land Authority recorded 1,268 cases of multiple or double land sales nationwide between July 2015 and June 2019, with Montserrado County alone accounting for 35 percent of the disputes. Bong County Land Administrator Amelia D. Cassell said offenders can be charged with criminal conspiracy and face up to seven years in prison under Liberia's Land Rights Act of 2018.`,
+  categorySlug: 'mortgage-foreclosure-scams',
+  sources: ['The Liberian Investigator', 'Liberia Land Authority'],
+  sourceUrl: 'https://liberianinvestigator.com/county-news/liberia-land-authority-double-land-sales-bong/',
+  country: 'LR',
+  isHistorical: false,
+});

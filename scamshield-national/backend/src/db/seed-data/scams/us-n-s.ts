@@ -10583,3 +10583,75 @@ UsNS.push({
     country: 'US',
     state: 'NE',
 });
+
+UsNS.push({
+    name: 'Hurricane Helene Storm-Recovery Contractor Fraud (Western NC)',
+    slug: 'north-carolina-helene-storm-recovery-contractor-fraud',
+    description: `In the rebuilding phase after Hurricane Helene devastated western North Carolina, NC Attorney General Jeff Jackson warned that unlicensed contractors and scammers were targeting flood-affected homeowners and businesses — quoting unfair prices, taking payment for equipment that was never delivered, and in some cases demanding payment only in Bitcoin. Jackson said storm-affected homeowners "tend to be a little easier to take advantage of" because "they're also particularly desperate," and called insistence on Bitcoin payment "a big red flag." The office also warned of fake FEMA texts circulating in the same period, and advised getting multiple written estimates, checking contractor licenses, and never paying the full amount upfront.`,
+    categorySlug: 'home-improvement-solar',
+    sources: ["North Carolina Attorney General's Office", 'WFAE'],
+    sourceUrl: 'https://www.wfae.org/2025-03-14/wnc-residents-must-watch-for-red-flags-in-hiring-recovery-help-ag-jackson-warns',
+    country: 'US',
+    state: 'NC',
+    firstRecorded: '2025-03-14',
+});
+
+UsNS.push({
+    name: 'Bail-Bondsman Impersonation Scam',
+    slug: 'north-carolina-bail-bondsman-impersonation-scam',
+    description: `Scammers posing as sheriff's deputies or licensed bail bondsmen call family members claiming an incarcerated relative needs immediate financial assistance to secure release. NC Insurance Commissioner Mike Causey and Julie Henderson, president of the North Carolina Bail Agents Association, said the Department of Insurance was investigating 30 confirmed cases across 16 counties — with one bail agent alone reporting roughly 40 separate incidents in a single county — and that officials believe the real number is far higher because victims are "scammed thousands of dollars but hesitant to take it forward because they're embarrassed."`,
+    categorySlug: 'government-impersonation',
+    sources: ['North Carolina Department of Insurance', 'North Carolina Bail Agents Association', 'WRAL'],
+    sourceUrl: 'https://www.wral.com/consumer/5onyourside/north-carolina-insurance-commissioner-bail-agents-warn-rising-bail-scams-april-2026/',
+    country: 'US',
+    state: 'NC',
+    firstRecorded: '2026-04-01',
+});
+
+UsNS.push({
+    name: 'Jury Duty / Fake Federal Warrant Scam (FBI Charlotte)',
+    slug: 'north-carolina-jury-duty-fake-federal-warrant-scam',
+    description: `The FBI's Charlotte Field Office, jointly with the U.S. Attorney's Offices for the Eastern, Middle, and Western Districts of North Carolina, warned that scammers were calling, texting, or emailing North Carolinians claiming they'd missed jury duty and had a federal arrest warrant out for them, sometimes attaching a fabricated warrant bearing the victim's own name to look legitimate. Victims are told they can avoid jail by immediately paying a "fine." The FBI states that "legitimate arrest warrants are not emailed or texted, they are served by a law enforcement officer or court official and never include a demand for payment to avoid jail time," and directs anyone contacted this way to report it to IC3 at ic3.gov.`,
+    categorySlug: 'government-impersonation',
+    sources: ['FBI Charlotte Field Office', "U.S. Attorney's Offices for North Carolina", 'WECT'],
+    sourceUrl: 'https://www.wect.com/2025/07/29/fbi-us-attorneys-offices-warn-jury-duty-scam/',
+    country: 'US',
+    state: 'NC',
+    firstRecorded: '2025-07-29',
+});
+
+UsNS.push({
+    name: 'SC Department of Insurance Door-to-Door Impersonation Scam',
+    slug: 'south-carolina-department-of-insurance-door-to-door-scam',
+    description: `The South Carolina Department of Insurance warned residents that individuals were going door to door falsely claiming to represent the Department. SC DOI said it is a regulatory agency, not an insurer, does not issue or sell insurance products, and never conducts unsolicited home visits — so anyone appearing at the door claiming to represent it is impersonating the agency. Residents were urged not to give personal or financial information to such visitors and to report the activity to local law enforcement.`,
+    categorySlug: 'insurance-fraud',
+    sources: ['South Carolina Department of Insurance'],
+    sourceUrl: 'https://www.doi.sc.gov/CivicAlerts.aspx?AID=474',
+    country: 'US',
+    state: 'SC',
+    firstRecorded: '2025-09-22',
+});
+
+UsNS.push({
+    name: 'Hurricane Helene FEMA/SCEMD Impersonation Scam',
+    slug: 'south-carolina-hurricane-helene-government-impersonation-scam',
+    description: `After Hurricane Helene struck South Carolina, the SC Department of Consumer Affairs warned that scammers were impersonating government agencies, including FEMA and the SC Emergency Management Division, as well as utility and insurance companies, "to seem more official." The agency said these impostors contact victims by phone, email, text, social media, and in person, seeking Social Security numbers or money on the false premise that payment is needed for disaster relief or power restoration, and separately warned of fake charities using names that sound or look like real disaster-relief organizations, urging consumers to verify any charity through the SC Secretary of State's office before donating.`,
+    categorySlug: 'government-impersonation',
+    sources: ['South Carolina Department of Consumer Affairs'],
+    sourceUrl: 'https://consumer.sc.gov/index.php/news/2024-09/beware-scams-following-hurricane-helene',
+    country: 'US',
+    state: 'SC',
+    firstRecorded: '2024-09-30',
+});
+
+UsNS.push({
+    name: 'FBI Columbia Jury Duty Warrant / Crypto Kiosk Scam',
+    slug: 'south-carolina-fbi-columbia-jury-duty-crypto-kiosk-scam',
+    description: `The FBI's Columbia, South Carolina field office warned of a statewide scam in which callers spoof caller ID, including the real Columbia FBI office's phone number, to tell victims they missed federal jury duty or have an outstanding arrest warrant. A follow-up call from a purported "FBI agent" then instructs the victim to withdraw large amounts of cash and convert it to cryptocurrency at a digital-currency kiosk to avoid fines and penalties. The FBI said it will never demand payment by gift card, cryptocurrency, wire transfer, or cash deposit at a kiosk.`,
+    categorySlug: 'government-impersonation',
+    sources: ['FBI Columbia Field Office', 'WIS-TV'],
+    sourceUrl: 'https://www.wistv.com/2025/07/21/fbi-warns-south-carolina-residents-statewide-scam-using-spoofed-phone-numbers/',
+    country: 'US',
+    state: 'SC',
+    firstRecorded: '2025-07-21',
+});

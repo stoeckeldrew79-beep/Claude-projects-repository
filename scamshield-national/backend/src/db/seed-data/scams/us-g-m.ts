@@ -11146,3 +11146,39 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2024-02-01',
 });
+
+UsGM.push({
+    name: 'Kentucky Bourbon Barrel Online Storefront Scam',
+    slug: 'kentucky-bourbon-barrel-company-scam',
+    description: `Kentucky Attorney General Andy Beshear issued a consumer alert after a company calling itself "The Oak Wood Barrel Co." (operating via OakWoodBarrels.com) falsely claimed a Lexington headquarters and sold bourbon and craft spirit barrels "ready to ship worldwide." At least three customers, including buyers in Kansas and Virginia, paid over $650 each for barrels that never arrived. A Better Business Bureau investigator who visited the listed Lexington address found no physical building there, and mail the Attorney General's office sent to the company was returned by the post office.`,
+    categorySlug: 'online-shopping-scams',
+    sources: ["Kentucky Attorney General's Office"],
+    sourceUrl: 'https://content.govdelivery.com/accounts/KYAG/bulletins/223f549',
+    country: 'US',
+    state: 'KY',
+    isHistorical: true,
+    firstRecorded: '2018-12-21',
+});
+
+UsGM.push({
+    name: 'Jury Duty / Missed Court Date Law Enforcement Impersonation Scam (FBI Louisville)',
+    slug: 'kentucky-jury-duty-law-enforcement-impersonation-scam',
+    description: `The FBI's Louisville Field Office warned of a rise in scam calls across Kentucky in which callers impersonate local, state, or federal law enforcement using spoofed caller ID to appear legitimate. The scammers falsely accuse the victim of missing jury duty or a court date, or claim an arrest warrant has been issued, then demand immediate payment of a "fine" to avoid arrest — payment demanded through cash deposited into cryptocurrency ATMs, prepaid cards, or wire transfers. The FBI said real law enforcement never calls to demand payment or threaten arrest over the phone, and urged anyone targeted to "take a beat," resist pressure tactics, and report incidents to local police or ic3.gov.`,
+    categorySlug: 'government-impersonation',
+    sources: ['FBI Louisville Field Office'],
+    sourceUrl: 'https://www.wbko.com/2026/03/18/fbi-louisville-issues-warning-after-uptick-scammers-impersonating-law-enforcement-government-officials/',
+    country: 'US',
+    state: 'KY',
+    firstRecorded: '2026-03-18',
+});
+
+UsGM.push({
+    name: 'Fake NAUPA Unclaimed Property Letterhead Scam',
+    slug: 'kentucky-unclaimed-property-naupa-scam',
+    description: `The Kentucky State Treasury warns that fraudsters send letters by U.S. mail and email using fake letterhead of the National Association of Unclaimed Property Administrators (NAUPA), falsely notifying Kentuckians they have unclaimed property and demanding payment to "release" it. NAUPA's own president, Joshua Joyce, has stated that NAUPA "does not notify owners of forgotten or missing funds." The Treasury said it will never request a recipient's credit card or banking information, and directed anyone unsure about a notice to verify directly with the Treasury or search for real unclaimed property free at missingmoney.com.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Kentucky State Treasury'],
+    sourceUrl: 'https://treasury.ky.gov/unclaimedproperty/Pages/scam.aspx',
+    country: 'US',
+    state: 'KY',
+});
