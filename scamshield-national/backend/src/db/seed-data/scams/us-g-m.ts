@@ -11021,3 +11021,29 @@ UsGM.push({
     isHistorical: false,
     firstRecorded: '2023-04-12',
 });
+
+UsGM.push({
+    name: 'Bank of Guam ATM Card-Skimming Scheme (Nicola Marinelli)',
+    slug: 'guam-bank-of-guam-atm-card-skimming-scheme',
+    description: `In August 2018, Italian national Nicola Marinelli arrived on Guam with three card-skimming devices and installed them on Bank of Guam ATMs at the Micronesia Mall food court and a Subway restaurant in Agat, designed to capture customers' card data. Marinelli told investigators he had financial difficulties and was recruited by a man he knew only as "Michele," who he said might have organized-crime connections in Italy. He was identified after a Bank of Guam manager recognized him from FBI-released surveillance photos and footage circulating on social media while he was picking up pizza in Tamuning. Marinelli pleaded guilty to use of a scanning device, a third-degree felony, and was sentenced to two years with credit for time served, two years of probation, and 50 hours of community service.`,
+    categorySlug: 'identity-theft',
+    sources: ['The Guam Daily Post', 'FBI'],
+    sourceUrl: 'https://www.postguam.com/news/local/atm-skimmer-avoids-jail-time/article_8c27f16a-0ffa-11e9-a71f-d78141159dcd.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2018-08-01',
+});
+
+UsGM.push({
+    name: 'Guam Multi-Format AI Deepfake Scam Alert (Video, Audio & Image)',
+    slug: 'guam-multi-format-ai-deepfake-scam-alert',
+    description: `In February 2025, Guam Homeland Security and Civil Defense, together with the Mariana Regional Fusion Center, warned that criminals are combining multiple AI-generated formats — deepfake video, cloned audio, images, and text — to defraud residents. The advisory described deepfake videos impersonating public figures or acquaintances to falsely announce the viewer had won a sweepstakes or lottery, alongside fabricated audio impersonating a loved one requesting emergency financial aid or a business representative requesting sensitive information. Residents were told to watch for irregular facial movement, such as distorted or abnormal eye or mouth movement, or a delay between the words and the speaker's lips, and to slow down and independently verify any urgent request — including by talking to someone they trust — before sending money or personal or financial information.`,
+    categorySlug: 'ai-deepfake-scams',
+    sources: ['Guam Homeland Security and Civil Defense', 'Mariana Regional Fusion Center'],
+    sourceUrl: 'https://ghs.guam.gov/community-advised-be-wary-ai-scams',
+    country: 'US',
+    state: 'GU',
+    isHistorical: false,
+    firstRecorded: '2025-02-06',
+});
