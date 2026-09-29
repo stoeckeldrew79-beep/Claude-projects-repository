@@ -10935,3 +10935,40 @@ UsGM.push({
     isHistorical: false,
     firstRecorded: '2025-02-06',
 });
+
+UsGM.push({
+    name: 'Minneapolis Fake City Permit/Zoning Invoice Phishing Scam',
+    slug: 'minnesota-minneapolis-permit-zoning-phishing-scam',
+    description: `Scammers pose as Minneapolis city planning and zoning officials, sending fake invoices by email to people with active land-use or zoning applications and instructing them to pay fees right away or face delays or cancellation. The messages come from generic domains rather than the city's real "@minneapolismn.gov" addresses, and demand payment via PayPal, wire transfer, gift cards, or other electronic methods the city says it will never use. The City of Minneapolis said it knows of at least 15 such emails over the past year, and the FBI issued a public service announcement warning that victims of this scheme have been reported nationwide.`,
+    categorySlug: 'phishing',
+    sources: ['City of Minneapolis', 'FBI'],
+    sourceUrl: 'https://minneapolismn.gov/news/2026/march/permits-phishing/',
+    country: 'US',
+    state: 'MN',
+    firstRecorded: '2026-03-01',
+});
+
+UsGM.push({
+    name: "Bloomington Chiropractor's Comprehensive Rehab Insurance Fraud Ring (Preston Forthun)",
+    slug: 'minnesota-comprehensive-rehab-chiropractic-no-fault-insurance-fraud',
+    description: `Preston Forthun, a Bloomington, Minnesota chiropractor, ran an insurance-fraud scheme through his clinic, Comprehensive Rehab Centers of MN, hiring patient "runners" to solicit auto-accident victims into attending treatment appointments. Runners' payments were withheld until patients completed a set minimum number of sessions, ensuring patients kept showing up regardless of medical need, while Forthun billed millions of dollars to auto insurers for the resulting treatment. Forthun and co-defendants Abdisalan Hussein and Carlos Luna were convicted on federal conspiracy, mail fraud, and wire fraud charges; Forthun was sentenced to 60 months in prison.`,
+    categorySlug: 'insurance-fraud',
+    sources: ['Insurance Journal', 'U.S. Attorney\'s Office, District of Minnesota'],
+    sourceUrl: 'https://www.insurancejournal.com/news/midwest/2018/10/12/504397.htm',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2018-10-12',
+});
+
+UsGM.push({
+    name: 'Jail Roster Bail Scam With Spoofed Sheriff Caller ID',
+    slug: 'minnesota-jail-roster-bail-scam',
+    description: `Scammers monitor the public online jail rosters that Minnesota county sheriff's offices publish, then call the newly-booked person's family using spoofed caller ID that falsely displays as the sheriff's office. Minnesota's Brown County Sheriff's Office said the caller asks family members for money, and because checking the jail roster shows the individual really was just booked, the ruse can look credible. The office said "law enforcement will never ask for bail to be posted with PayPal, phone cards, Amazon gift cards, iTunes cards or other gift cards," and advised anyone who has already paid or shared personal information to contact their bank's fraud department and law enforcement immediately.`,
+    categorySlug: 'family-emergency-scams',
+    sources: ["Brown County Sheriff's Office"],
+    sourceUrl: 'https://www.keyc.com/2026/08/20/brown-county-sheriffs-office-warns-scam-involving-jail-roster/',
+    country: 'US',
+    state: 'MN',
+    firstRecorded: '2026-08-20',
+});
