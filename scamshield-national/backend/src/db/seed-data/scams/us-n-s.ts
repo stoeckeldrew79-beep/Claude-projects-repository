@@ -10526,3 +10526,60 @@ UsNS.push({
     isHistorical: false,
     firstRecorded: '2025-02-25',
 });
+
+UsNS.push({
+    name: 'South Dakota Unemployment Insurance Identity-Theft Benefits Fraud',
+    slug: 'south-dakota-unemployment-insurance-identity-theft-fraud',
+    description: `South Dakota's Department of Labor and Regulation has warned that fraudsters are filing online unemployment insurance claims using victims' accurate stolen personal information — correct name, Social Security number, and date of birth — with the department stating it is unknown how the underlying identifying information was obtained. DLR says it has identified multiple victims but confirms none of the fraudulent claims have actually been paid, and that South Dakota's unemployment system itself has not been compromised. Victims, often notified only when their employer receives an unexpected benefits notice, are directed to contact the state's UI Fraud Unit.`,
+    categorySlug: 'public-benefits-fraud',
+    sources: ["South Dakota Department of Labor and Regulation"],
+    sourceUrl: 'https://consumer.sd.gov/consumeralerts/Benefits.aspx',
+    country: 'US',
+    state: 'SD',
+});
+
+UsNS.push({
+    name: '"Grandparent Scam" Resurfaces in South Dakota',
+    slug: 'south-dakota-grandparent-scam-resurfaces',
+    description: `The South Dakota Attorney General's Office issued a consumer alert warning that fraudsters were calling elderly South Dakotans, posing as a grandchild in urgent trouble, and using "a plea for help and a sense of urgency" to pressure the victim into a wire transfer of up to $5,800. Callers pressured victims to keep the call secret from other family members, claiming the grandchild "will get in trouble" otherwise. The office advised residents to verify the caller's identity with questions only a real grandchild would know the answer to, and to hang up and call the grandchild back on an independently known number rather than trust anything volunteered on the call.`,
+    categorySlug: 'grandparent-scams',
+    sources: ["South Dakota Attorney General's Office"],
+    sourceUrl: 'https://atg.sd.gov/OurOffice/Media/pressreleasesdetail.aspx?id=558',
+    country: 'US',
+    state: 'SD',
+});
+
+UsNS.push({
+    name: 'NorthWestern Energy Shutoff Impersonation Scam Calls',
+    slug: 'south-dakota-northwestern-energy-shutoff-impersonation-scam',
+    description: `NorthWestern Energy customers in South Dakota, alongside Nebraska and Montana, reported scam calls and texts spoofing the utility's caller ID and mimicking its phone greeting and logo, demanding payment within an hour to avoid a service shutoff and directing victims to pay via prepaid cards or cash-accepting kiosks such as bitcoin ATMs. NorthWestern Energy said it will never demand immediate payment or a specific payment type and does not use QR codes to request or process payments, and that real disconnection is preceded by multiple written notices with normal payment options. South Dakota and Nebraska customers were directed to call 800-245-6977 to verify or report suspicious contact.`,
+    categorySlug: 'utility-scams',
+    sources: ['NorthWestern Energy', 'Dakota News Now'],
+    sourceUrl: 'https://www.dakotanewsnow.com/2023/01/31/northwestern-energy-customers-report-scam-calls-south-dakota-nebraska-montana/',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2023-01-31',
+});
+
+UsNS.push({
+    name: 'FBI Seeks Victims of Omaha Travel Agent Connie Seastedt',
+    slug: 'nebraska-omaha-travel-agent-fraud-seastedt',
+    description: `The FBI's Omaha Field Office is seeking victims of Connie Seastedt, owner of "Captivating Travels by Connie," who is alleged to have taken client payments for trips between June 2024 and August 2026 that were never actually booked, and to have used clients' credit card information to commit further fraud. One named victim, Heidi Gatling, lost $13,000 after wiring payment for a Caribbean family trip that the resort never received. The FBI says victims should report losses "whether they've been refunded or not," identities will be kept confidential, and victims may be eligible for restitution and federal or state victim services; roughly 20 alleged victims had come forward as of the report.`,
+    categorySlug: 'travel-vacation-scams',
+    sources: ['FBI Omaha Field Office', 'WOWT'],
+    sourceUrl: 'https://www.wowt.com/2026/09/28/fbi-seeking-potential-victims-fraud-by-omaha-travel-agent/',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2026-09-28',
+});
+
+UsNS.push({
+    name: 'NPPD Tree-Trimming Impersonation Scam',
+    slug: 'nebraska-nppd-tree-trimming-impersonation-scam',
+    description: `Nebraska Public Power District has warned customers about scammers posing as tree-trimming contractors who claim NPPD requires access to a resident's backyard to clear branches from power lines. NPPD says residents have become robbery victims through this pretext — one person distracts the resident at the door while an accomplice enters the home to steal valuables. NPPD identifies Valley Power and Friest Tree Experts as its only legitimate tree-trimming contractors, and tells residents to verify a crew's vehicle and ID before allowing anyone onto the property and to call 911 if targeted.`,
+    categorySlug: 'utility-scams',
+    sources: ['Nebraska Public Power District'],
+    sourceUrl: 'https://www.nppd.com/accounts-billing/scams',
+    country: 'US',
+    state: 'NE',
+});
