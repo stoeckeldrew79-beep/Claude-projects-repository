@@ -23273,3 +23273,27 @@ International.push({
   country: 'LR',
   isHistorical: false,
 });
+
+International.push({
+  name: 'Fake "Embassy of Lesotho in Nairobi" Job Advert Scam',
+  slug: 'lesotho-fake-embassy-nairobi-job-advert-scam',
+  description: `A Facebook page calling itself the "Embassy of Lesotho in Kenya" — with only 74 followers and content recycled from other pages to look legitimate — advertised 1,000 job openings in Nairobi ranging from drivers and cleaners to IT technicians and translators, directing applicants to a Google Form collecting full name, email, physical address, phone number, and emergency-contact details. Lesotho's Ministry of Foreign Affairs and International Relations publicly debunked the advert, with Public Relations Officer Setloke Lekhela confirming Lesotho has no embassy in Kenya at all — Kenya is covered from Lesotho's embassy in Addis Ababa, Ethiopia. Fact-checkers noted officials' concern that such schemes link to fraud and human-trafficking networks.`,
+  categorySlug: 'employment-scams',
+  sources: ["Lesotho Ministry of Foreign Affairs and International Relations", 'MISA Lesotho'],
+  sourceUrl: 'https://lesotho.misa.org/2025/09/26/fact-check-lesotho-embassy-job-advert-in-nairobi-is-a-scam/',
+  country: 'LS',
+  isHistorical: false,
+  firstRecorded: '2025-09-26',
+});
+
+International.push({
+  name: 'Police Spokesperson Impersonation Mobile-Money Scam',
+  slug: 'lesotho-police-spokesperson-impersonation-mobile-money-scam',
+  description: `The Lesotho Mounted Police Service publicly warned that fraudsters were impersonating LMPS deputy spokesperson Mareabetsoe Mofoka to fraudulently solicit and collect mobile money from the public, operating through four M-Pesa accounts and one EcoCash "mule account" that could not be traced back to their real holders. The case sat within a wider pattern of mobile-money fraud in Lesotho, including scammers posing as company, NGO, or government officials to demand payment via EcoCash or M-Pesa — a pattern the Central Bank of Lesotho had jointly warned about with mobile money providers as early as December 2019.`,
+  categorySlug: 'government-impersonation',
+  sources: ['Lesotho Mounted Police Service', 'Public Eye'],
+  sourceUrl: 'https://publiceyenews.com/2021/10/25/basotho-exposed-to-money-scams/',
+  country: 'LS',
+  isHistorical: true,
+  firstRecorded: '2021-09-08',
+});
