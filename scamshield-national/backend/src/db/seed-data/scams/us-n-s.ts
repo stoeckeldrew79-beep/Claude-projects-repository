@@ -10655,3 +10655,67 @@ UsNS.push({
     state: 'SC',
     firstRecorded: '2025-07-21',
 });
+
+UsNS.push({
+    name: 'New Hampshire "Phantom Hacker" Gold-Pickup Courier Scam',
+    slug: 'new-hampshire-phantom-hacker-gold-pickup-scam',
+    description: `New Hampshire Attorney General John Formella's office warned of a rise in "phantom hacker" scams targeting older residents: a fake tech-support caller convinces the victim their computer or another electronic device has a virus or has been hacked and that their financial accounts are at risk, after which a second caller directs the victim to buy gold and hand it to a courier sent to the victim's home for supposed safekeeping. The office said the pattern, reported over roughly a month before the alert, caused "substantial monetary loss" among New Hampshire victims. No legitimate bank, government agency, or law enforcement officer will ever direct someone to buy gold and hand it to a courier to protect it from a hacker.`,
+    categorySlug: 'tech-support-scams',
+    sources: ['New Hampshire Department of Justice', 'The Boston Globe'],
+    sourceUrl: 'https://www.bostonglobe.com/2023/12/15/metro/phantom-hacker-scams-targeting-vulnerable-adults-rise-nh-according-new-alert/',
+    country: 'US',
+    state: 'NH',
+    isHistorical: false,
+    firstRecorded: '2023-12-15',
+});
+
+UsNS.push({
+    name: 'New Hampshire Comcast-Password Sexploitation Email Scam',
+    slug: 'new-hampshire-comcast-password-sexploitation-scam',
+    description: `New Hampshire's Attorney General's Office warned of an "uptick" in a sexploitation email scam, concentrated among Comcast customers, that displays a current, former, or partial password belonging to the recipient in the email header to manufacture credibility, then falsely claims the sender recorded the recipient visiting pornographic websites and threatens to send the footage to the recipient's phone and Facebook contacts unless they send $2,000 in bitcoin within 24 hours. Senior Assistant Attorney General Brandon Garod noted the scam "has existed, in various forms, for several years." No such recording exists; the office urged recipients not to pay, to change any reused password immediately, and to report the email rather than reply.`,
+    categorySlug: 'sextortion',
+    sources: ["New Hampshire Attorney General's Office", 'Patch'],
+    sourceUrl: 'https://patch.com/new-hampshire/concord-nh/comcast-customers-getting-hit-sexploitation-scam',
+    country: 'US',
+    state: 'NH',
+    isHistorical: false,
+    firstRecorded: '2020-04-24',
+});
+
+UsNS.push({
+    name: 'Providence Fake Parking-Ticket QR Code Text Scam',
+    slug: 'rhode-island-qr-code-parking-ticket-text-scam',
+    description: `The Providence Police Department warned residents about fraudulent text messages disguised as official parking-violation notices — citing a specific ordinance and case number — that pressure the recipient to either appear at a "hearing" or resolve the matter immediately by scanning an embedded QR code to pay a fine. Police said they "would never request payment over a text or through a phone" and urged residents to delete the message without clicking any link. Police departments in Bristol, Warwick, and Westerly issued similar warnings around the same time, indicating a coordinated wave of the same text across the state.`,
+    categorySlug: 'qr-code-scams',
+    sources: ['Providence Police Department', 'Turn to 10 (WJAR)'],
+    sourceUrl: 'https://turnto10.com/news/local/providence-police-warn-residents-of-parking-ticket-scam-providence-police-department-qr-code-scam-march-16-2026',
+    country: 'US',
+    state: 'RI',
+    isHistorical: false,
+    firstRecorded: '2026-03-16',
+});
+
+UsNS.push({
+    name: 'VA Employee "Stolen Valor" Charity Fraud (Sarah Jane Cavanaugh)',
+    slug: 'rhode-island-stolen-valor-charity-gofundme-fraud-cavanaugh',
+    description: `Sarah Jane Cavanaugh, an employee at the Rhode Island VA Medical Center, used her job access to steal the identities of a real Marine veteran and a Navy veteran with cancer, forging a military discharge certificate and fabricated medical records to spend years posing as a Purple Heart and Bronze Star-decorated, combat-wounded Marine dying of cancer. She solicited more than $250,000 from veterans' charities — including roughly $207,000 from the Wounded Warrior Project — and individuals, among them a GoFundMe campaign that raised over $4,700 for fabricated "medical bills." She pleaded guilty on August 9, 2022 to wire fraud, aggravated identity theft, forged military discharge certificate, and fraudulent use of military medals, and was sentenced on March 15, 2023 to 70 months in federal prison and over $284,000 in restitution. U.S. Attorney Zachary Cunha said, "By brazenly laying claim to the honor, service, and sacrifice of real veterans, this defendant preyed on the charity and decency of others for her own shameless financial gain."`,
+    categorySlug: 'charity-scams',
+    sources: ["U.S. Attorney's Office, District of Rhode Island", 'Task & Purpose'],
+    sourceUrl: 'https://taskandpurpose.com/news/cavanaugh-fake-marine-sentenced-prison/',
+    country: 'US',
+    state: 'RI',
+    isHistorical: true,
+    firstRecorded: '2023-03-15',
+});
+
+UsNS.push({
+    name: 'CCRI "Mystery Shopper" Fake Check Job Scam',
+    slug: 'rhode-island-ccri-mystery-shopper-fake-check-scam',
+    description: `A Community College of Rhode Island (CCRI) student received an email impersonating CCRI's Career Services Department offering a "mystery shopper" job at Walmart, along with a check for $2,879 and instructions to deposit it, then use the funds to buy blank money orders and ship them to a "supervisor." Walmart declined to cash the check because it exceeded a $2,500 threshold, and the student independently contacted the company named on the check, which confirmed an active fraud case tied to it. CCRI spokesperson Amy Kempe confirmed the email "is from a completely outside entity" and did not come from the college, saying scammers likely harvested student email addresses from outside sources and targeted multiple students with spoofed addresses.`,
+    categorySlug: 'job-task-scams',
+    sources: ['Community College of Rhode Island', 'Turn to 10 (WJAR)'],
+    sourceUrl: 'https://turnto10.com/news/local/community-college-rhode-island-student-mystery-secret-shopper-scam-education-academics-warning-career-services-department-scammer-fraud-check-memo-blank-money-order',
+    country: 'US',
+    state: 'RI',
+    isHistorical: false,
+});

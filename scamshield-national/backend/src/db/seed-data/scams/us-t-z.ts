@@ -6221,3 +6221,29 @@ UsTZ.push({
     state: 'VA',
     firstRecorded: '2024-10-24',
 });
+
+UsTZ.push({
+    name: '"Federal Crop Registry" Farm Grant Scam',
+    slug: 'wisconsin-federal-crop-registry-farm-grant-scam',
+    description: `The Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP) warned farmers about cold calls from scammers claiming to represent a "Federal Crop Registry" — a program DATCP says does not exist — offering a government grant and giving the farmer a three-day deadline to respond. Following a script, the callers ask for checking-account information, claiming it's needed to "deposit your grant directly into your account" or to cover a one-time "processing fee," and falsely promise the money back if the farmer is dissatisfied. DATCP noted the callback number left in voicemails was disconnected, and stressed that the real USDA does not call farmers offering grant money — legitimate grants require a written application.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection'],
+    sourceUrl: 'https://datcp.wi.gov/Pages/News_Media/20180330CA_FarmerGrantScam.aspx',
+    country: 'US',
+    state: 'WI',
+    isHistorical: true,
+    firstRecorded: '2018-03-30',
+});
+
+UsTZ.push({
+    name: 'Unlicensed Public Adjuster Insurance-Benefit Assignment Scheme',
+    slug: 'wisconsin-unlicensed-public-adjuster-insurance-scam',
+    description: `A Wisconsin contractor combined home-repair work with "claim assistance," having homeowners sign over an assignment of their insurance-claim benefits — effectively acting as an unlicensed public adjuster, which Wisconsin law prohibits a contractor from doing. The Office of the Commissioner of Insurance (OCI) found this created a financial conflict of interest barred under Wis. Stat. § 629.10(3), which prohibits a public adjuster from holding a financial interest in a claim beyond the compensation set in the adjuster's contract. On October 14, 2025, Commissioner Nathan Houdek issued a final decision imposing $6,000 in civil forfeitures, stating, "This decision makes clear that if you are acting as a public adjuster in Wisconsin, you must follow the rules that apply to public adjusters." The press release does not name the contractor.`,
+    categorySlug: 'insurance-fraud',
+    sources: ['Wisconsin Office of the Commissioner of Insurance'],
+    sourceUrl: 'https://oci.wi.gov/Pages/PressReleases/20251014PublicAdjusterFinalDecision.aspx',
+    country: 'US',
+    state: 'WI',
+    isHistorical: false,
+    firstRecorded: '2025-10-14',
+});
