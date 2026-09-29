@@ -10666,3 +10666,19 @@ None of that cooperation erased Birkenfeld's own role in the scheme. In August 2
 Birkenfeld's case is a rare one in this collection: he is both the fraudster and the source who ultimately unwound the fraud, having served federal prison time for the same underlying scheme that made him a multimillionaire once it was exposed. It illustrates a genuine tension inside whistleblower-incentive programs — the very inside knowledge that makes someone a uniquely valuable informant often comes from having personally helped build the fraud in the first place, and the law has to decide how much of that person's own culpability a reward for coming forward can outweigh.`,
     sourceUrl: 'https://www.justice.gov/archive/tax/txdv08550.htm',
 });
+NotoriousAF.push({
+    title: 'Bernard Marcus, Saul Singer, and the Bank of United States Collapse',
+    slug: 'bernard-marcus-saul-singer-bank-of-united-states',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'bank-fraud'],
+    body: `The Bank of United States was founded in 1913 by Joseph S. Marcus to serve the Jewish immigrant merchants of New York's Lower East Side, and it grew into a real, functioning bank with a name that sounded — misleadingly — like an arm of the federal government. After Joseph Marcus's death, his son Bernard Marcus took over as president alongside first vice president Saul Singer, and by 1930 the bank had grown to 62 branches, more than 440,000 depositors, and roughly $300 million in assets, making it the largest retail bank in New York by number of accounts.
+
+Marcus and Singer kept that growth going less through sound banking than through financial engineering. The bank's stock, which had traded as high as $231.25 in 1928, was still trading around $91.50 during 1930 even as the broader crash deepened — propped up in part because Marcus and Singer had bank funds used to buy the Bank of United States's own stock, while separately steering bank money into their own real estate ventures. A later criminal investigation found Marcus and Singer had willfully misapplied some $8 million of the bank's money to disguise how shaky its finances actually were.
+
+On December 10, 1930, a rumor that the bank was in trouble triggered a run at a single Bronx branch: 2,500 to 3,000 depositors withdrew roughly $2 million in one day, with a crowd of 20,000 to 25,000 gathering outside. After Wall Street financiers led by J.P. Morgan, Jr. declined to help save it, the Bank of United States closed its doors on December 11, 1930 — at the time the largest bank failure in American history, freezing the funds of more than 440,000 depositors. Its stock, which had traded near $91.50 earlier that year, collapsed to as low as $2 in the aftermath. Because so many people assumed "Bank of United States" meant it carried a federal guarantee, its failure spread panic well beyond its own customers and became one of the events economists later pointed to in explaining how the banking collapse of the early 1930s deepened the Great Depression.
+
+Manhattan prosecutors indicted Marcus and Singer, and after a twelve-week trial, Judge George L. Donnellan sentenced both men to three to six years in Sing Sing for willfully misapplying the bank's funds.
+
+The case is a reminder that stock manipulation and disguised insolvency didn't arrive with modern finance — bankers were already using insider stock purchases and misapplied funds to fake financial health nearly a century ago. It also shows how a fraud confined to one institution's books can metastasize into a systemic panic once depositors lose confidence in what a bank's name and promises are actually worth, a dynamic regulators would spend the following decades — through deposit insurance and tighter bank-holding-company law — trying to design around.`,
+    sourceUrl: 'https://www.jta.org/2010/12/03/ny/too-big-to-fail-in-1930',
+});

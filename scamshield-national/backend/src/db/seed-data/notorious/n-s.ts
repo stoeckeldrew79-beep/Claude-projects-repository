@@ -7713,3 +7713,19 @@ Alam has lived and done business in Singapore since at least 2009, when he and h
 The case is a reminder that acquiring a bank doesn't just give a group somewhere to keep its money — it gives it the ability to originate, approve, and disburse other people's deposits, and that ordinary depositors and shareholders of a bank taken over this way have little way of knowing, from outside, that the "loans" carrying their money out the door are going to companies that exist only on paper.`,
     sourceUrl: 'https://www.tbsnews.net/bangladesh/corruption/acc-file-record-case-against-s-alam-chairman-66-others-embezzlement-laundering',
 });
+NotoriousNS.push({
+    title: 'Nui Onoue, the "Dark Lady of Osaka," and Japan\'s Bubble-Era Bank Fraud',
+    slug: 'nui-onoue-dark-lady-of-osaka-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'bank-fraud'],
+    body: `Nui Onoue ran a small restaurant called Egawa in Osaka, but by the mid-1980s she was better known for something else: a self-styled gift for predicting stock movements, which she shared with brokers and bank managers over gatherings at her restaurant. In the fevered climate of Japan's late-1980s "bubble economy" stock market, that reputation was enough to give a woman with no formal financial background direct, trusted access to the bank officials who controlled real money.
+
+She used that access to build a fraud rather than a fortune. Onoue conspired with bank managers she knew at Tōyō Shinyo Kinko (Toyo Shinkin Bank) to issue forged certificates of deposit in her name, which she then presented to other financial institutions as proof of funds she didn't actually have. Investigators eventually determined she had fraudulently acquired some 342 billion yen this way from 12 financial institutions in total, all built on paper that didn't reflect any money Onoue actually held.
+
+The borrowed and fabricated capital made her, for a time, Japan's largest individual stock investor: at the bubble's 1988 climax she had drawn roughly 227 billion yen in loans from financial institutions, and her stock portfolio was estimated at $4.4 billion at its peak. Her cumulative borrowing over the life of the scheme reached about 2 trillion 773.6 billion yen. When the bubble burst in 1990–91 and asset prices collapsed, her positions collapsed with them; bankruptcy proceedings later set her total debt at 430 billion yen.
+
+Onoue was arrested on August 13, 1991, once the forged certificates surfaced — a scandal that broke alongside a related Sumitomo Bank lending controversy that same year and eventually helped push both Toyo Shinkin Bank and the Industrial Bank of Japan, one of the institutions she had defrauded, out of independent existence: Toyo Shinkin partially merged into prefectural credit unions, and the Industrial Bank of Japan later merged with Fuji Bank. She was convicted on fraud and breach-of-trust charges by the Osaka District Court in March 1998 and sentenced to 12 years in prison. She died in 2014.
+
+The Onoue case became one of the signature scandals of Japan's bubble collapse precisely because of how ordinary the mechanism was underneath the mystique: regulated banks falsifying their own paperwork to chase a piece of a speculative boom, extending trust to an unlicensed outsider because everyone around her was making money and no one wanted to be the one asking to see the real numbers. It's a pattern that shows up in every asset bubble — the fraud is invisible for exactly as long as prices keep rising, and instantly, catastrophically obvious the moment they don't.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Nui_Onoue',
+});
