@@ -10322,3 +10322,29 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2015-10-19',
 });
+
+UsNS.push({
+    name: 'CNMI Counterfeit YETI Products Consumer Alert',
+    slug: 'northern-mariana-islands-counterfeit-yeti-products-alert',
+    description: `The CNMI Office of the Attorney General issued a consumer alert on July 30, 2019 warning residents that shipments of counterfeit YETI-branded coolers and drinkware had entered the Commonwealth's retail stream of commerce. The alert listed specific warning signs of a fake — white, unbranded box packaging, inferior stamped lettering, poor paint quality that scratches easily, leaking liquids, and inconsistent temperature retention — and advised consumers to buy name-brand items only from a trusted source and to inspect for proper labeling and licensing before purchasing. The Office's guidance was blunt: "If it seems too good to be true, it probably is," and it directed concerned consumers to the Office of Consumer Counsel at (670) 237-7500.`,
+    categorySlug: 'online-shopping-scams',
+    sources: ['CNMI Office of the Attorney General'],
+    sourceUrl: 'https://www.cnmioag.org/yeti-buyers-beware/',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2019-07-30',
+});
+
+UsNS.push({
+    name: 'CNMI Public Lands Official\'s Advance-Fee Scam Bribery and Wire Fraud',
+    slug: 'northern-mariana-islands-reksid-advance-fee-scam-bribery-wire-fraud',
+    description: `Franz Reksid, then a special assistant to the Secretary of the CNMI Department of Public Lands, was indicted after borrowing up to $300,000 from friends, relatives, and associates on the promise of a payout from an internet contact based in Nigeria and Ivory Coast who claimed to be sitting on a windfall — a 419-style advance-fee scheme that used Reksid's position and community standing to draw other Commonwealth residents in as informal lenders. Separately, prosecutors said Reksid accepted a bribe from a contractor on a federally funded project and wired that money to the same overseas contacts. A federal prosecutor identified only as O'Malley told Marianas Variety in March 2011, "scam artists of all kinds, shapes and sizes...seem to be targeting our island," and said pursuing scammers based overseas is extremely difficult once money leaves U.S. jurisdiction.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    sources: ['Marianas Variety'],
+    sourceUrl: 'https://www.mvariety.com/news/local/federal-prosecutor-scammers-may-be-targeting-nmi/article_c0c5e9ab-9072-5182-8c4f-fb059a954675.html/',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2011-03-25',
+});
