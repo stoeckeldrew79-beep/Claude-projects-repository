@@ -10866,3 +10866,15 @@ Register "no-sale" or "wrong sale" keys exist so a cashier can correct an honest
     isHistorical: true,
     firstRecorded: '2018-01-01',
 });
+
+UsAF.push({
+    name: 'LBJ Tropical Medical Center Forged-Letter Wire-Transfer Fraud',
+    slug: 'american-samoa-lbj-hospital-forged-resolution-wire-fraud',
+    description: `In 2023, the American Samoa Government Treasury received a fraudulent letter made to look like it came from LBJ Tropical Medical Center — the territory's only hospital — carrying the hospital board's letterhead and forged signatures, instructing Treasury to wire $4,474,207.09 to an outside Wells Fargo bank account. Treasury transferred the money, and only later discovered that the letter had neither originated from LBJ nor carried the board members' real signatures. The territory recovered $4,373,997.02 from Wells Fargo, but as of the Senate Select Investigative Committee's October 2024 hearing, $100,210.07 remained unrecovered, with the FBI assisting Treasury to trace the rest. The case shows the same forged-instruction mechanism behind ordinary business email compromise playing out at government scale: a convincing fraudulent document, on real-looking letterhead, used to redirect a large wire transfer before anyone independently confirms it with the purported sender.`,
+    categorySlug: 'business-email-compromise',
+    sources: ['Samoa News', 'American Samoa Senate Select Investigative Committee'],
+    sourceUrl: 'https://www.samoanews.com/local-news/ssic-looks-last-years-fraudulent-bank-transfer-asg-account',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+});
