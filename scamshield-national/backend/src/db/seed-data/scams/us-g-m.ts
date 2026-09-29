@@ -11009,3 +11009,28 @@ UsGM.push({
     state: 'GA',
     firstRecorded: '2025-02-17',
 });
+
+UsGM.push({
+    name: 'Iowa Deed/Title Theft Fraud',
+    slug: 'iowa-city-deed-title-theft-fraud',
+    description: `Fraudsters impersonated a property owner using forged signatures and fabricated documents to attempt an unauthorized sale of an Iowa City-area property, a scheme caught by Steven Anderson of Hawkeye Title and Settlement Services after a legitimate realtor's listing fell through because the "seller" couldn't produce a properly signed deed. The Iowa Finance Authority says this kind of impersonation and title fraud has emerged in recent years and is compounded by Iowa being the only US state without a traditional private title-insurance system, leaving victims to pursue a costly "quiet title" lawsuit to reclaim ownership. In response, Iowa Title Guarantee launched a $175 "Title Theft Protection" add-on to help victims unwind fraudulent transactions.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    sources: ['Hawkeye Title and Settlement Services', 'Iowa Finance Authority', 'KCRG'],
+    sourceUrl: 'https://www.kcrg.com/2026/02/13/i9-investigation-what-can-you-do-if-youre-victim-property-fraud/',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2026-02-13',
+});
+
+UsGM.push({
+    name: 'Cedar Rapids Derecho Storm-Chaser Contractor Fraud (Scott Adkins)',
+    slug: 'iowa-cedar-rapids-adkins-derecho-contractor-fraud',
+    description: `Scott Adkins organized Adkins Home Improvement LLC in October 2020, two months after the derecho that damaged homes across Cedar Rapids, to offer repair work in the tight post-storm labor market. He provided estimates and demanded substantial advance deposits from customers, then spent part of the money on personal expenses instead of completing the work. Adkins pleaded guilty to federal wire fraud in February 2024 after stealing more than $150,000 from customers.`,
+    categorySlug: 'home-improvement-solar',
+    sources: ['KCRG'],
+    sourceUrl: 'https://www.kcrg.com/2024/02/01/cedar-rapids-contractor-pleads-guilty-scamming-derecho-victims/',
+    country: 'US',
+    state: 'IA',
+    isHistorical: true,
+    firstRecorded: '2024-02-01',
+});
