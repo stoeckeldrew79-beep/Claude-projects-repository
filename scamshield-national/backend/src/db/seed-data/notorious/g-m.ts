@@ -11059,6 +11059,10 @@ NotoriousGM.push({
     slug: 'george-tan-carrian-group-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hong-Kong_skyline.JPG?width=1200',
+    coverImageCredit: 'Photo: Robster1983 (CC0) — Hong Kong skyline',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `George Tan Soon-gin arrived in Hong Kong in 1972 and built a reputation flipping property during downturns. In 1979 he took control of a shell company, renamed it Carrian Group, and turned it into one of the territory's fastest-growing conglomerates — its 1980 purchase of Gammon House, resold within a year at a steep profit, became emblematic of the boom. Carrian expanded into shipping, insurance, hotels, restaurants, and pesticides across Asia and the United States, appearing to command unlimited capital.
 
 Much of that capital was borrowed, secretly, from a captive lender. Between August 1980 and October 1983, executives of Bumiputra Malaysia Finance Ltd. (BMFL) — the Hong Kong subsidiary of Malaysia's state-owned Bank Bumiputra Malaysia Berhad — conspired with Tan to funnel roughly US$238 million in inadequately secured, undisclosed loans into Carrian entities. When Hong Kong's property market crashed in 1982–83, Carrian could not repay the roughly $1.5 billion it owed some 40 banks worldwide, and it collapsed in 1983 in what became known as the largest bankruptcy in Hong Kong's history to that point.
@@ -11075,6 +11079,10 @@ NotoriousGM.push({
     slug: 'horst-dieter-esch-ibh-holding-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'accounting-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hamburg_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: O. T. Boie (CC BY 2.0) — Hamburg, home of SMH-Bank, the private bank IBH\'s collapse destroyed',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Horst-Dieter Esch was a young German businessman who turned profits from stock speculation into the seed capital for an industrial empire. In July 1975 he founded IBH-Holding in Mainz and began an aggressive buying spree, snapping up struggling construction-equipment makers one after another, including Zettelmeyer in 1975 and, in February 1980, the storied German tractor and farm-equipment maker Hanomag. He financed the rollup largely through loans from Schröder, Münchmeyer, Hengst & Co. (SMH-Bank), a small but prestigious Hamburg private bank.
 
 By 1980, IBH had become the world's third-largest construction-equipment manufacturer after Caterpillar and Komatsu, with roughly 2.5 billion Deutsche Mark in revenue. The company's investor roster read like a blue-chip endorsement: Britain's Powell Duffryn bought a 23.1% stake in 1978, General Motors took 13.6% in a January 1981 share swap, and Saudi financier Sheikh Saleh Abdullah Kamel also invested — lending IBH exactly the kind of credibility that kept the credit flowing.

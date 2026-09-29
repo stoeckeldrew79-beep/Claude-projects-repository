@@ -3513,6 +3513,10 @@ NotoriousTZ.push({
     slug: 'xiaodong-wu-china-medical-technologies-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Beijing_skyline_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Picrazy2 (CC BY-SA 4.0) — Beijing skyline',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `China Medical Technologies, Inc. (CMED) was a Beijing-based maker of cancer-diagnostic and therapy devices, incorporated in the Cayman Islands and listed on Nasdaq after an August 2005 IPO. Over the following five years the company raised additional capital from bondholders through three convertible note offerings — $150 million on November 21, 2006; $276 million on August 15, 2008; and $150 million on December 6, 2010 — each pitched as financing for acquisitions and product development.
 
 Federal prosecutors in the Eastern District of New York later alleged that founder, chairman and CEO Xiaodong Wu, together with chief financial officer Tak Yung "Samson" Tsang, diverted more than $400 million raised through the 2008 and 2010 note offerings — roughly $426 million between them — into entities in China that Wu and Tsang controlled, rather than using it as disclosed to investors. An anonymous letter to the company's board in 2009 first raised fraud allegations, prompting an internal investigation by outside counsel.
@@ -3530,6 +3534,10 @@ NotoriousTZ.push({
     slug: 'tan-koon-swan-pan-electric-crash',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'securities-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Singapore_Skyline_in_the_Early_Morning.JPG?width=1200',
+    coverImageCredit: 'Photo: Merlion444 (CC0) — Singapore skyline',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Tan Koon Swan was one of Singapore and Malaysia's most prominent businessmen when he was elected president of the Malaysian Chinese Association (MCA) in November 1985. Alongside his political career, his company Sigma International held a 22.6% stake in Pan-Electric Industries, a Singapore-listed conglomerate — grown out of an original marine-salvage business into some 70 subsidiaries spanning property, hotels, and shipping — with a market capitalization of around S$230 million.
 
 Pan-Electric's growth outran what it could actually cover. When the company's finances came apart, it was carrying a total debt of S$480 million it could not repay, and it collapsed in December 1985. Because so much of that exposure sat inside Singapore's own stockbroking industry, regulators shut down both the Stock Exchange of Singapore and the Kuala Lumpur Stock Exchange for three trading days.

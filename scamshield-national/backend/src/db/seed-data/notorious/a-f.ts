@@ -10671,6 +10671,10 @@ NotoriousAF.push({
     slug: 'bernard-marcus-saul-singer-bank-of-united-states',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'bank-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sing_Sing_prison_aerial_photo_1920.JPG?width=1200',
+    coverImageCredit: 'Photo: Bain News Service / Library of Congress (Public Domain) — Sing Sing prison, where Marcus and Singer served their sentences',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `The Bank of United States was founded in 1913 by Joseph S. Marcus to serve the Jewish immigrant merchants of New York's Lower East Side, and it grew into a real, functioning bank with a name that sounded — misleadingly — like an arm of the federal government. After Joseph Marcus's death, his son Bernard Marcus took over as president alongside first vice president Saul Singer, and by 1930 the bank had grown to 62 branches, more than 440,000 depositors, and roughly $300 million in assets, making it the largest retail bank in New York by number of accounts.
 
 Marcus and Singer kept that growth going less through sound banking than through financial engineering. The bank's stock, which had traded as high as $231.25 in 1928, was still trading around $91.50 during 1930 even as the broader crash deepened — propped up in part because Marcus and Singer had bank funds used to buy the Bank of United States's own stock, while separately steering bank money into their own real estate ventures. A later criminal investigation found Marcus and Singer had willfully misapplied some $8 million of the bank's money to disguise how shaky its finances actually were.
@@ -10687,6 +10691,10 @@ NotoriousAF.push({
     slug: 'eddy-tansil-bapindo-bank-fraud-prison-escape',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'bank-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jakarta_Skyline_by_judhi.jpg?width=1200',
+    coverImageCredit: 'Photo: Judhi Prasetyo (CC BY 2.0) — Jakarta skyline',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Eddy Tansil was an Indonesian businessman who built an import company under his Golden Key Group. In 1992, Golden Key obtained some $420 million in loans from Bank Pembangunan Indonesia (Bapindo) — then Indonesia's state-owned development bank — on the claim the money would finance imported machinery for petrochemical plants.
 
 The plants were never built as represented, and Bapindo was left holding debt it could not collect. Tansil's ability to extract loans of that size from a state bank with so little verification became one of the signature examples of the crony, poorly supervised lending that characterized Indonesia's banking sector under the Suharto era, and the case became a major national scandal.
