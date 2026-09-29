@@ -10682,3 +10682,17 @@ Manhattan prosecutors indicted Marcus and Singer, and after a twelve-week trial,
 The case is a reminder that stock manipulation and disguised insolvency didn't arrive with modern finance — bankers were already using insider stock purchases and misapplied funds to fake financial health nearly a century ago. It also shows how a fraud confined to one institution's books can metastasize into a systemic panic once depositors lose confidence in what a bank's name and promises are actually worth, a dynamic regulators would spend the following decades — through deposit insurance and tighter bank-holding-company law — trying to design around.`,
     sourceUrl: 'https://www.jta.org/2010/12/03/ny/too-big-to-fail-in-1930',
 });
+NotoriousAF.push({
+    title: 'Eddy Tansil and the Bapindo Bank Fraud That Ended in a Prison Break',
+    slug: 'eddy-tansil-bapindo-bank-fraud-prison-escape',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'bank-fraud'],
+    body: `Eddy Tansil was an Indonesian businessman who built an import company under his Golden Key Group. In 1992, Golden Key obtained some $420 million in loans from Bank Pembangunan Indonesia (Bapindo) — then Indonesia's state-owned development bank — on the claim the money would finance imported machinery for petrochemical plants.
+
+The plants were never built as represented, and Bapindo was left holding debt it could not collect. Tansil's ability to extract loans of that size from a state bank with so little verification became one of the signature examples of the crony, poorly supervised lending that characterized Indonesia's banking sector under the Suharto era, and the case became a major national scandal.
+
+In 1994, Tansil was convicted and sentenced to 17 years in prison, fined 30 million rupiah, and ordered to pay 500 billion rupiah in compensation. He never served out that sentence: on May 4, 1996, he bribed his way out of Cipinang Penitentiary in Jakarta with the help of corrupt prison officials, then fled the country. Indonesian authorities submitted an extradition request to China in 2013, but as of 2025 he remained a fugitive, never recaptured.
+
+The Tansil case is a study in two compounding failures rather than one: a state-owned bank willing to extend hundreds of millions of dollars against import claims nobody independently verified, and a prison system corrupt enough that a man convicted of one of the country's largest bank frauds could simply bribe his way out the door. Three decades on, with the man himself still a fugitive, the case remains one of the clearest illustrations of how state-directed lending without real oversight can be looted by a single well-connected borrower.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Eddy_Tansil',
+});
