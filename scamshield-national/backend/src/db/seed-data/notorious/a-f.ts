@@ -10095,6 +10095,10 @@ NotoriousAF.push({
     slug: 'beacon-hill-asset-management-mbs-hedge-fund-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'securities-fraud', 'hedge-fund'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/9_High_Street,_Summit,_NJ.jpg?width=1200',
+    coverImageCredit: 'Photo: Swimdb (CC BY-SA 4.0) — Summit, New Jersey, where Beacon Hill Asset Management was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Beacon Hill Asset Management, LLC was a New Jersey-based hedge fund manager run by four principals — John D. Barry (president), Thomas P. Daniels (chief investment officer), John M. Irwin (senior portfolio manager), and Mark P. Miszkiewicz (chief financial officer) — specializing in mortgage-backed securities trading through funds marketed as "market neutral," including the Safe Harbor Fund, Bristol Fund, and Beacon Hill Master, Ltd. The pitch to institutional and high-net-worth investors was steady, low-volatility returns from a sophisticated hedged MBS strategy.
 
 Starting at the beginning of 2002, that strategy began generating serious losses, and rather than disclose them, the SEC alleged, Beacon Hill's principals materially overstated the net asset values they reported to investors for the periods ending July 31, August 31, and September 30, 2002. The gap between what investors were told and reality came into stark relief that October: on October 8, 2002, Beacon Hill told investors the Safe Harbor and Bristol funds had lost approximately 25 percent of their value in September. Nine days later, on October 17, the firm revised that figure to a loss of roughly 54 percent — more than double what had been reported barely a week earlier. By the time the full picture emerged, the funds had lost more than $400 million in investor assets, and total investor losses across the case were later estimated at more than $300 million.
@@ -10111,6 +10115,10 @@ NotoriousAF.push({
     slug: 'brian-maher-bottom-of-the-harbour-tax-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'tax-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Brisbane_from_Kangaroo_Point_Cliffs_Park,_Nov_2020,_05.jpg?width=1200',
+    coverImageCredit: 'Photo: Kgbo (CC BY-SA 4.0) — Brisbane, Queensland, where Maher was tried',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `In the 1970s, a loophole in Australian tax law let a profitable company avoid tax on its accumulated earnings simply by selling itself, before the tax fell due, to a new owner with no assets and no intention of paying. Promoters would strip the company of its cash and real assets, hand the empty shell — and its tax liability — to a "person of straw," and destroy or ship the company's records overseas, making the debt effectively uncollectable. Treasury officials coined the phrase "bottom of the harbour" for where the paperwork, and the tax, ended up. By the Australian Taxation Office's own 1986/87 count, roughly 6,688 companies were run through such schemes nationally, with revenue losses estimated between $500 million and $1 billion.
 
 Brian James Maher was one of the promoters at the center of it. His pitch to high-income Australians was straightforward: he offered them a "tax-loss company" — a shell with paper losses that could be used to offset real income — for 26 cents on the dollar of tax it would save them. The Australian Federal Police spent four years investigating bottom-of-the-harbour promoters, in a probe covering roughly $400 million in schemes, before Maher and a business partner, former Queensland squash champion John Patrick Donnelly, went to trial in 1985. The trial ran 94 days, called 49 Crown witnesses, worked through more than 10,000 documents, and took the jury eight days to reach a verdict.
@@ -10426,6 +10434,10 @@ NotoriousAF.push({
     slug: 'atlantic-computers-flexlease-british-commonwealth-fraud',
     author: 'ScamShield Editorial',
     tags: ['accounting-fraud', 'international', 'historical', 'mergers-and-acquisitions'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/London_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Mewiki (CC BY-SA 3.0) — London, where Atlantic Computers and British & Commonwealth Holdings were based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Atlantic Computers was a British computer-leasing firm, founded in 1975, built around a distinctive product called "Flexlease": customers could upgrade to newer equipment after three years or cancel the lease entirely after five, terms that made the leases attractive to cash-strapped corporate customers during Britain's 1980s technology-leasing boom. On paper, the business looked like a fast-growing, genuinely profitable success story.
 
 In September 1988, British & Commonwealth Holdings — a diversified UK financial-services conglomerate run by chief executive John Gunn — paid £434 million to acquire Atlantic Computers, a bet meant to push the group beyond its traditional financial-services base. Atlantic's own directors misrepresented the company's contingent liabilities during that acquisition process: the Flexlease structure had created enormous hidden obligations, because equipment returned early or upgraded often could not be re-leased or resold for anything close to its book value, and those obligations were never properly reflected in the accounts B&C relied on to price the deal. A later Department of Trade and Industry investigation found that Atlantic Computers had never actually turned a profit at all since its 1975 founding.
@@ -10464,6 +10476,10 @@ NotoriousAF.push({
     slug: 'martin-delle-dkm-diamond-microfinance-ghana-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'ghana', 'microfinance', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sunyani_Cocoa_House.jpg?width=1200',
+    coverImageCredit: 'Photo: World66 (CC BY-SA 1.0) — Sunyani, Ghana, where DKM Diamond Microfinance was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Martin Delle ran DKM Diamond Microfinance out of Sunyani, in Ghana's Brong-Ahafo region, as a licensed savings-and-loans company that by the mid-2010s had become one of the most aggressive deposit-takers in the country's fast-growing microfinance sector. DKM's pitch was simple and highly effective in a market with limited access to formal banking: deposit your savings, and DKM would pay interest rates — reportedly as high as 50 percent over just a few months — that no regulated bank in Ghana could come close to matching.
 
 Those returns were never funded by any real lending business. Bank of Ghana auditors who examined the company's books found that out of a total deposit liability of roughly GH¢115 million, only about GH¢10.8 million could actually be accounted for in liquid assets. The rest had been funneled into Delle's own personal ventures and a web of subsidiary companies, including a car dealership called Jastar Motors, in direct violation of central-bank rules capping how much of a microfinance firm's capital could go into fixed assets rather than being held against depositors' money.
@@ -10597,6 +10613,10 @@ NotoriousAF.push({
     slug: 'imperial-bank-kenya-janmohamed-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'kenya'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nairobi_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Waceke Kamau (CC BY-SA 4.0) — Nairobi, where Imperial Bank was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Imperial Bank Limited was a mid-sized, well-regarded Kenyan commercial bank whose group managing director, Abdulmalek Janmohamed, had run its day-to-day operations for years with almost no effective board oversight. Between 2002 and 2015, Janmohamed used that unchecked authority to divert depositor funds out of the bank through a scheme that left even his own board blindsided until after his death.
 
 According to reporting on the case, Janmohamed directed that more than KSh 34 billion be transferred out of the bank to more than 20 related clients and entities in a fraudulent scheme that bypassed the bank's normal loan and credit-approval controls. The bank's books were falsified to conceal the resulting hole from auditors and from the Central Bank of Kenya (CBK).
@@ -10612,6 +10632,10 @@ NotoriousAF.push({
     slug: 'franklin-jurado-cali-cartel-money-laundering',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'money-laundering', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Santiago_de_Cali.jpg?width=1200',
+    coverImageCredit: 'Photo: Aleko (CC BY-SA 3.0) — Cali, Colombia, home of the cartel whose cash Jurado laundered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `José Franklin Jurado-Rodríguez didn't fit the profile of a cartel operative. Colombian-born, he studied economics at Harvard in the late 1970s and went on to work as a research associate at both Harvard's Kennedy School of Government and Harvard Law School — credentials he later put to work not managing legitimate portfolios but laundering cocaine profits for José Santacruz Londoño, one of the top figures in Colombia's Cali cartel. Between roughly 1987 and 1990, Jurado moved an estimated $36 million in U.S. drug proceeds through the international banking system, using techniques closer to a graduate finance seminar than a criminal underworld.
 
 His method, which he reportedly called "Kennedyification" — an allusion to how the Kennedy family's Prohibition-era bootlegging fortune had, over a generation, become simply "old money" — involved smuggling cash out of the United States into Panamanian banks, then wiring it through more than 100 accounts at 68 banks across nine countries: Austria, Denmark, England, France, Germany, Hungary, Italy, Luxembourg, and Monaco. Funds were first parked in accounts under the names of Santacruz's relatives and mistresses or fabricated European-sounding identities, then shifted into accounts held by local residents, then folded into ordinary local business accounts, and finally invested in legitimate-looking companies and property — each layer designed to put more distance between the money and its origin.
@@ -10629,6 +10653,10 @@ NotoriousAF.push({
     slug: 'bradley-birkenfeld-ubs-tax-evasion-whistleblower',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'tax-fraud', 'international', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Eingang_UBS_Paradeplatz.JPG?width=1200',
+    coverImageCredit: 'Photo: Parpan05 (CC BY-SA 3.0) — the UBS entrance at Zurich\'s Paradeplatz',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Bradley Birkenfeld worked as a private banker for UBS, Switzerland's largest bank, helping wealthy American clients hide assets offshore from the IRS. From roughly 2001 to 2006, he worked with Liechtenstein-based associate Mario Staggl to help an American billionaire real estate developer conceal about $200 million in assets across Switzerland and Liechtenstein, evading roughly $7.2 million in U.S. taxes — one thread of a far larger UBS operation that, at its peak, held an estimated $20 billion in undeclared U.S. client assets and generated the bank roughly $200 million a year in revenue.
 
 Birkenfeld pleaded guilty on June 19, 2008, to one count of conspiracy to defraud the United States. But before he was sentenced, he had already approached the IRS and the Department of Justice as a whistleblower, laying out in detail how UBS bankers systematically traveled to the U.S. to help wealthy Americans set up secret Swiss accounts specifically to evade taxes. That disclosure directly led to UBS's February 2009 deferred prosecution agreement — a $780 million fine and the disclosure of thousands of previously secret client names — and ultimately to more than $5 billion recovered from over 33,000 U.S. taxpayers who came forward through subsequent voluntary-disclosure programs.
