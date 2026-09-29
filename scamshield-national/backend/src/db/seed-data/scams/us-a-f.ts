@@ -10949,3 +10949,51 @@ UsAF.push({
     state: 'AK',
     firstRecorded: '2025-06-23',
 });
+
+UsAF.push({
+    name: 'Connecticut DMV Unpaid Traffic Ticket Text Scam',
+    slug: 'connecticut-dmv-unpaid-ticket-text-scam',
+    description: `The Connecticut DMV issued a "smishing scam alert" warning that fraudulent text messages are circulating claiming the recipient has an unresolved traffic citation, threatening vehicle-registration suspension, added fees, and possible court action unless paid immediately via a link in the text. The DMV states the message "is not legitimate and was not sent by the Connecticut Department of Motor Vehicles" and that it never sends payment demands by text, directing residents not to click the link or reply, to delete the message, and to report it to the FTC at reportfraud.ftc.gov.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Connecticut Department of Motor Vehicles'],
+    sourceUrl: 'https://portal.ct.gov/dmv/resources/dmv-news/text-message-call-scam',
+    country: 'US',
+    state: 'CT',
+    firstRecorded: '2026-03-06',
+});
+
+UsAF.push({
+    name: "Tolland Insurance Agent's Fake-Policy and Fabricated-Investment Fraud (Ian Pierce)",
+    slug: 'connecticut-tolland-pierce-fake-insurance-policy-fraud',
+    description: `Ian Pierce, 34, of Tolland, was fired from an insurance company in March 2020 for allegedly misappropriating client funds, and had his insurance producer license revoked by the Connecticut Insurance Department in June 2021 for stealing from accounts, accepting payments on canceled policies, and issuing loans to himself. Police allege he then continued misrepresenting himself as a licensed agent to at least nine people with a personal relationship to him, collecting premiums on nonexistent or lapsed life-insurance policies and convincing some to "invest" in fabricated CD and investment products using forged documents, checks, and check-printing templates, between 2020 and November 2024. Authorities confirmed at least $250,000 in losses; the Connecticut Insurance Department referred the case to state police, and Pierce was arrested on eight warrants covering larceny, forgery, issuing bad checks, and criminal impersonation, reported in July 2025.`,
+    categorySlug: 'insurance-fraud',
+    sources: ['Connecticut Insurance Department', 'WFSB'],
+    sourceUrl: 'https://www.wfsb.com/2025/07/30/tolland-man-accused-life-insurance-fraud-scheme/',
+    country: 'US',
+    state: 'CT',
+    firstRecorded: '2025-07-30',
+});
+
+UsAF.push({
+    name: 'Tucson Adviser Sanctioned for Concealing Red Flags From Clients (Smith & Cox)',
+    slug: 'arizona-smith-cox-adviser-concealment-fraud',
+    description: `The Arizona Corporation Commission's Securities Division ordered William Andrew Smith of Tucson and his firm, Smith & Cox, LLC, to pay a $60,000 administrative penalty for securities and investment-advisory fraud. The Commission found Smith breached his fiduciary duty to clients — most of them senior citizens and retirees — by misleading them about his reasons for moving to a new firm while failing to disclose that the Commission had a pending enforcement action against him, that he had multiple unpaid tax liens, and that he had a prior order for securities violations carrying a risk of losing his license.`,
+    categorySlug: 'investment-fraud',
+    sources: ['Arizona Corporation Commission'],
+    sourceUrl: 'https://www.azcc.gov/securities/news/2025/06/11/acc-sanctions-former-investment-adviser-for-misleading-clients',
+    country: 'US',
+    state: 'AZ',
+    firstRecorded: '2025-06-11',
+});
+
+UsAF.push({
+    name: '"Missed Jury Duty" Warrant Phone Scam (Maricopa County)',
+    slug: 'arizona-jury-duty-warrant-phone-scam',
+    description: `The Maricopa County Superior Court warned that scammers are calling or emailing residents, falsely posing as law enforcement, and claiming the recipient missed jury duty and now faces fines or arrest unless they pay immediately — using fake badge and case numbers and, in some cases, spoofed caller ID showing a real local law-enforcement number for false authority. Only scammers demand payment by gift card, payment app, cryptocurrency, or wire transfer; the court said real notices about missed jury service arrive by mail, and any resulting fine is set by a judge in a courtroom, not demanded over the phone. Arizona ranked fourth nationally for imposter-scam losses in 2024, at roughly $766 million.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Maricopa County Superior Court'],
+    sourceUrl: 'https://superiorcourt.maricopa.gov/posts/press-releases/2025/sophisticated-scammers-targeting-potential-jurors/',
+    country: 'US',
+    state: 'AZ',
+    firstRecorded: '2025-04-09',
+});
