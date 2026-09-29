@@ -4912,6 +4912,10 @@ GuidesGM.push({
   slug: `medicaid-renewal-scams`,
   author: `ScamShield Editorial`,
   tags: [`guide`, `medicaid-renewal-scam`, `public-benefits-fraud`],
+  coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Worried_Old_Woman_-_Flickr_-_jackol.jpg?width=1200`,
+  coverImageCredit: `Photo: Mikhail Esteves (CC BY 2.0)`,
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: `https://consumer.ftc.gov/consumer-alerts/2023/05/medicaid-spotting-scams`,
   body: `Medicaid recipients have to periodically confirm they still qualify for coverage, a real administrative step known as renewal or redetermination — and scammers have built an entire con around impersonating that process. Fraudsters contact people by phone, text, or email posing as a state Medicaid agency or health insurance marketplace, claiming coverage is about to be canceled unless the recipient "renews" immediately. From there the scam splits into two familiar tracks: some callers demand an upfront fee to keep or restore coverage, while others use the renewal pretext to phish for a Social Security number, Medicaid ID number, or bank account details. Because the underlying renewal requirement is genuine, the call lands on people who already know some kind of action is expected of them, which is exactly what makes the fake version so believable.
 
