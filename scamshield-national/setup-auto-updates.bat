@@ -74,6 +74,20 @@ echo Applying power and catch-up settings...
 powershell -NoProfile -Command "$s = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Hours 1); Set-ScheduledTask -TaskName 'ScamShield National Auto-Update' -Settings $s | Out-Null"
 powershell -NoProfile -Command "$s = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Minutes 10); Set-ScheduledTask -TaskName 'ScamShield National Keep Running' -Settings $s | Out-Null"
 
+REM schtasks /create /sc minute /mo N only repeats for a limited window
+REM (historically about 1 day) unless the trigger's own repetition duration is
+REM set to indefinite - schtasks.exe has no flag for that, so it silently
+REM stops firing after that window and every later "5 minutes" never happens
+REM again, with no error and no log line. This is exactly what caused the
+REM site to sit down for hours with nobody noticing: "Last Result: succeeded"
+REM keeps showing the final real run from before the window closed, so it
+REM looks healthy forever after. Re-set each task's trigger here via
+REM Set-ScheduledTask, which can express an unlimited repetition duration.
+echo.
+echo Fixing the repeat window so these never silently stop firing again...
+powershell -NoProfile -Command "$t = New-ScheduledTaskTrigger -Once -At (Get-Date) -RepetitionInterval (New-TimeSpan -Minutes 30) -RepetitionDuration ([TimeSpan]::MaxValue); Set-ScheduledTask -TaskName 'ScamShield National Auto-Update' -Trigger $t | Out-Null"
+powershell -NoProfile -Command "$t = New-ScheduledTaskTrigger -Once -At (Get-Date) -RepetitionInterval (New-TimeSpan -Minutes 5) -RepetitionDuration ([TimeSpan]::MaxValue); Set-ScheduledTask -TaskName 'ScamShield National Keep Running' -Trigger $t | Out-Null"
+
 echo.
 echo ============================================
 echo  Done. Current status of all three:
