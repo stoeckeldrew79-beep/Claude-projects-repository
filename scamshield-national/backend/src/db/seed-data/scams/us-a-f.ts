@@ -10605,3 +10605,39 @@ UsAF.push({
     state: 'AS',
     isHistorical: true,
 });
+
+UsAF.push({
+    name: 'DC QR Code "Quishing" Scam',
+    slug: 'dc-qr-code-quishing-scam',
+    description: `Scammers place fraudulent QR codes on stickers, flyers, or elsewhere around Washington, D.C., or send them by text and email under pretexts such as a failed package delivery, a problem with an account, or suspicious account activity. Scanning the code redirects victims to a fake website designed to look real, which harvests login credentials and payment information, or installs malware on the device. The DC Department of Insurance, Securities and Banking (DISB) warns residents to check any link before scanning, watch for misspellings, and contact the company using a verified phone number or website rather than one supplied in the message.`,
+    categorySlug: 'qr-code-scams',
+    sources: ['DC Department of Insurance, Securities and Banking (DISB)'],
+    sourceUrl: 'https://disb.dc.gov/page/watch-out-qr-code-scams',
+    country: 'US',
+    state: 'DC',
+    isHistorical: false,
+});
+
+UsAF.push({
+    name: 'DC Compromised Account Takeover Scam',
+    slug: 'dc-compromised-account-scam-disb-alert',
+    description: `Fraudsters send unsolicited texts, emails, or phone calls claiming suspicious activity on a victim's bank, Amazon, Netflix, or PayPal account, directing them to a lookalike login page that harvests usernames and passwords, or asking for remote access to the victim's computer to "remove malware." Once logged in or granted access, scammers steal stored passwords and financial account information. The DC Department of Insurance, Securities and Banking (DISB) advises residents to contact their bank or service provider directly using the number on the back of their card or the company's official website, never one supplied in the unsolicited message.`,
+    categorySlug: 'account-takeover',
+    sources: ['DC Department of Insurance, Securities and Banking (DISB)'],
+    sourceUrl: 'https://disb.dc.gov/page/compromised-account-scams',
+    country: 'US',
+    state: 'DC',
+    isHistorical: false,
+});
+
+UsAF.push({
+    name: 'DC Phantom Debt Collection Scam',
+    slug: 'dc-phantom-debt-collector-scam',
+    description: `Callers posing as debt collectors demand immediate payment on debts that do not exist, have already been discharged, or have been illegally inflated, often threatening a lawsuit unless paid immediately. The DC Office of the Attorney General, led by Brian L. Schwalb, warns that misrepresenting the amount owed can violate the federal Fair Debt Collection Practices Act, and advises residents to request a written validation letter, verify any claimed debt directly with the original creditor, and report suspected phantom-debt schemes to OAG at (202) 442-9828 or consumer.protection@dc.gov.`,
+    categorySlug: 'legal-debt-collection',
+    sources: ['DC Office of the Attorney General'],
+    sourceUrl: 'https://oag.dc.gov/blog/dont-be-scammed-phantom-debt-collector',
+    country: 'US',
+    state: 'DC',
+    isHistorical: false,
+});
