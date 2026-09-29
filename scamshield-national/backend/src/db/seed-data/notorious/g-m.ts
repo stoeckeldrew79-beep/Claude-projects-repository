@@ -11070,3 +11070,19 @@ Tan's own prosecution stretched thirteen years. Arrested in October 1983 and rel
 Carrian remains one of Hong Kong's ICAC's own "landmark cases" — a clear illustration of what can happen when a fast-growing private empire's expansion is financed almost entirely by large, secretive loans from a single captive bank rather than transparent, arm's-length capital, and of how far the people protecting a fraud like that will go to keep outside auditors from finding out how thin the paper empire really is.`,
     sourceUrl: 'https://www.icac.org.hk/icac/landmarkcase/carrian/eng/p5.html',
 });
+NotoriousGM.push({
+    title: 'Horst-Dieter Esch and the IBH Holding Collapse',
+    slug: 'horst-dieter-esch-ibh-holding-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'accounting-fraud'],
+    body: `Horst-Dieter Esch was a young German businessman who turned profits from stock speculation into the seed capital for an industrial empire. In July 1975 he founded IBH-Holding in Mainz and began an aggressive buying spree, snapping up struggling construction-equipment makers one after another, including Zettelmeyer in 1975 and, in February 1980, the storied German tractor and farm-equipment maker Hanomag. He financed the rollup largely through loans from Schröder, Münchmeyer, Hengst & Co. (SMH-Bank), a small but prestigious Hamburg private bank.
+
+By 1980, IBH had become the world's third-largest construction-equipment manufacturer after Caterpillar and Komatsu, with roughly 2.5 billion Deutsche Mark in revenue. The company's investor roster read like a blue-chip endorsement: Britain's Powell Duffryn bought a 23.1% stake in 1978, General Motors took 13.6% in a January 1981 share swap, and Saudi financier Sheikh Saleh Abdullah Kamel also invested — lending IBH exactly the kind of credibility that kept the credit flowing.
+
+That credibility outran the business. When a global downturn hit the construction-machinery industry in the early 1980s, Esch and his management team responded by keeping the losses concealed rather than disclosed, to keep bank financing coming. IBH's credit exposure at SMH-Bank alone reached 898 million Deutsche Mark by November 1983, with 473 million of that routed through a Luxembourg SMH subsidiary specifically because a legal loophole meant it didn't have to be counted against Germany's large-exposure lending limits. When the fiction finally became unsustainable, IBH collapsed into insolvency in November 1983, taking SMH-Bank down with it — one of West Germany's oldest private banks, destroyed by a single borrower's concentrated, partly-hidden exposure, and rescued only when a consortium of 20 other German banks stepped in that same month.
+
+In November 1984, the Landgericht Koblenz convicted Esch of fraud, breach of trust, and delaying insolvency proceedings, sentencing him to six and a half years in prison plus a 90,000 Deutsche Mark fine. He was released in July 1989 after roughly four years, later acquired the modeling agency Wilhelmina for $5 million, and by the early 2010s had moved to Los Cabos, Mexico to work in luxury real estate.
+
+IBH's collapse previewed, nearly two decades early, the pattern that would later sink companies like Wirecard: a fast-growing group borrows heavily against numbers it knows are false, and once a single lender's exposure gets too concentrated — especially exposure routed offshore specifically to dodge regulatory limits — a corporate fraud stops being a corporate problem and becomes a banking crisis that other institutions have to be recruited to clean up.`,
+    sourceUrl: 'https://de.wikipedia.org/wiki/Horst-Dieter_Esch',
+});
