@@ -10348,3 +10348,40 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2011-03-25',
 });
+
+UsNS.push({
+    name: 'Puerto Rico "Pescaíto" Sextortion Scam',
+    slug: 'puerto-rico-pescaito-sextortion-scam',
+    description: `Scammers create fake social-media profiles of attractive women, befriend targets, then send a fabricated video that superimposes the victim's face onto explicit content and threaten to publish it — including on YouTube — unless paid, typically via wire transfer to accounts abroad. Puerto Rico Police's Cybercrime Unit director, Sgt. Loyda de Jesús, said the unit receives at least one report of this scheme a day, a pattern the FBI's San Juan field office has also confirmed. Victims who pay are frequently hit with escalating follow-up demands rather than being left alone: in one documented case, an initial roughly $1,500 demand was followed by a second demand for $25,000 under the false pretext that Interpol had intercepted the video.`,
+    categorySlug: 'sextortion',
+    sources: ['Primera Hora', 'Puerto Rico Police Cybercrime Unit', 'FBI San Juan'],
+    sourceUrl: 'https://www.primerahora.com/noticias/policia-tribunales/notas/no-caiga-en-el-pescaito-sexual/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: false,
+});
+
+UsNS.push({
+    name: 'Puerto Rico AI Voice-Cloning Virtual Kidnapping Scam',
+    slug: 'puerto-rico-juncos-ai-voice-virtual-kidnapping-scam',
+    description: `A 50-year-old man from Juncos, Puerto Rico received a call from someone falsely claiming to have kidnapped his daughter and demanding $10,500 for her release. He withdrew the cash and drove to a Caguas shopping center, leaving an envelope with the money at the rear of the property as instructed. Puerto Rico Police's robbery and extortion division (DIREPAPD) under the Caguas Criminal Investigation Corps investigated the case as a suspected "virtual kidnapping" scheme — a long-running pattern the FBI has tracked for years, in which no real kidnapping has taken place but a caller uses scripted, fear-based pressure to panic a victim into paying before they can verify the claim independently.`,
+    categorySlug: 'family-emergency-scams',
+    sources: ['Primera Hora', 'Puerto Rico Police Department'],
+    sourceUrl: 'https://www.primerahora.com/noticias/policia-tribunales/notas/llamada-de-terror-le-hacen-creer-que-secuestraron-a-su-hija-y-lo-obligan-a-entregar-miles-de-dolares/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: false,
+});
+
+UsNS.push({
+    name: 'Pink Travel Agency Fake Vacation Package Scam',
+    slug: 'puerto-rico-pink-travel-fake-vacation-package-scam',
+    description: `Puerto Rico's Department of Justice charged Alerimar Santiago Torres, owner of the "Pink Travel" agency, with fraud and aggravated illegal appropriation after she advertised two-person vacation packages on social media, took customer payments, and never made arrangements to book any of the trips. A named victim, Angela Alicea Torres, lost $2,300 between April and June 2024; charges were filed February 25, 2025, and Santiago Torres posted a $2,300 bail.`,
+    categorySlug: 'travel-vacation-scams',
+    sources: ['Puerto Rico Department of Justice'],
+    sourceUrl: 'https://www.justicia.pr.gov/departamento-de-justicia-presenta-cargos-contra-duena-de-agencia-de-viajes-por-fraude-y-apropiacion-ilegal-agravada/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: false,
+    firstRecorded: '2025-02-25',
+});
