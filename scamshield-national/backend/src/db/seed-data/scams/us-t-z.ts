@@ -6110,3 +6110,42 @@ UsTZ.push({
     isHistorical: false,
     firstRecorded: '2025-02-28',
 });
+
+UsTZ.push({
+    name: 'WVU Sextortion and Fraud Cases Targeting Students',
+    slug: 'west-virginia-wvu-sextortion-fraud-cases',
+    description: `WVU Police issued a campus-wide community notice in August 2026 after at least four fraud and extortion cases, including sextortion, were reported to campus police as the fall semester began. In the sextortion pattern, a scammer poses online as a romantic interest, persuades a student to share intimate images or video, then threatens to distribute the material unless the student pays — sometimes demanding additional payments after the first is sent. WVU Police Chief Sherry St. Clair urged students never to send compromising images to someone they have not verified in person and to contact police rather than pay, noting that scammers "will continue to ask for money if you continue to give it to them."`,
+    categorySlug: 'sextortion',
+    sources: ['WVU Police Department'],
+    sourceUrl: 'https://wvmetronews.com/2026/08/24/fraud-extortion-cases-under-investigation-at-wvu/',
+    country: 'US',
+    state: 'WV',
+    isHistorical: false,
+    firstRecorded: '2026-08-24',
+});
+
+UsTZ.push({
+    name: 'Change Healthcare Cyberattack Refund Impersonation Scam',
+    slug: 'west-virginia-change-healthcare-cyberattack-refund-scam',
+    description: `Following the 2024 Change Healthcare cyberattack, which exposed protected health and personal information tied to insurers, providers, and pharmacy benefit managers operating in West Virginia, the West Virginia Offices of the Insurance Commissioner warned that scammers were impersonating healthcare providers and payors by phone, text, and email. Callers falsely tell consumers their payment information was lost in the breach and must be resubmitted, or that they are owed a refund, in order to extract a credit card number, bank account, or other personal information. The OIC advised consumers not to give financial information to an unsolicited caller and instead to verify any claim by calling the number on the back of their insurance card.`,
+    categorySlug: 'data-breach-scams',
+    sources: ['West Virginia Offices of the Insurance Commissioner'],
+    sourceUrl: 'https://wvinsurance.gov/Portals/0/pdf/pol_leg/Change_Cyberattack_Consumer_Alert.pdf?ver=2024-04-23-140817-487',
+    country: 'US',
+    state: 'WV',
+    isHistorical: false,
+    firstRecorded: '2024-04-23',
+});
+
+UsTZ.push({
+    name: 'West Virginia Tax Refund Phishing Text and Email Scam',
+    slug: 'west-virginia-tax-refund-phishing-text-email-scam',
+    description: `The West Virginia Attorney General's Office warned in February 2026 that scammers were sending texts and emails impersonating the IRS or state tax offices, falsely claiming a tax refund had been "processed" or "approved" and instructing the recipient to click a link to "verify" their identity. The linked page is built to harvest Social Security numbers, bank account numbers, and other personal information rather than deliver any refund. The office noted that neither the IRS nor state tax offices contact taxpayers by text, email, or social media to confirm account details, and advised recipients to check refund status directly at USA.gov and report the messages instead of clicking through.`,
+    categorySlug: 'tax-scams',
+    sources: ['West Virginia Attorney General\'s Office'],
+    sourceUrl: 'https://ago.wv.gov/article/consumer-alert-attorney-general-mccuskey-warns-consumers-about-tax-scams',
+    country: 'US',
+    state: 'WV',
+    isHistorical: false,
+    firstRecorded: '2026-02-05',
+});
