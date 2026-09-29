@@ -6185,3 +6185,39 @@ UsTZ.push({
     country: 'US',
     state: 'UT',
 });
+
+UsTZ.push({
+    name: 'Dominion Energy Impersonation Disconnection Scam',
+    slug: 'virginia-dominion-energy-impersonation-scam',
+    description: `Scammers spoof caller ID to display "Dominion Energy" and tell Virginia customers their account is overdue and power will be cut off within hours unless they pay immediately with a prepaid debit card. Norfolk-area customer Annette Ballentine said a caller told her lights would be turned off in about four hours unless she paid on the spot, and her 90-year-old mother nearly gave a similar caller her credit card number. Dominion Energy communications specialist Bonita Billingsley Harris confirmed the company had not been disconnecting customers since March 2020, and urged residents to hang up and verify any account status directly with Dominion rather than through the caller.`,
+    categorySlug: 'utility-scams',
+    sources: ['Dominion Energy', 'WTVR'],
+    sourceUrl: 'https://www.wtvr.com/news/local-news/dominion-energy-scam-impersonators-threaten-disconnection',
+    country: 'US',
+    state: 'VA',
+});
+
+UsTZ.push({
+    name: 'Goodbye Timeshare Williamsburg Straw-Owner Transfer Fraud',
+    slug: 'virginia-williamsburg-goodbye-timeshare-straw-owner-fraud',
+    description: `Brendan Hawkins ran Goodbye Timeshare LLC out of Williamsburg from 2010 to the end of 2013, charging timeshare owners roughly three times their annual maintenance fee to "transfer" units they could no longer sell, then recruiting straw owners paid $25 to $35 per unit to receive the transfers instead of the resorts. The scheme defrauded 19 resorts of more than $500,000 across at least 230 individual timeshare-unit transfers. Hawkins was sentenced in April 2015 to three years and ten months in prison and ordered to pay $546,904 in restitution to the affected resorts.`,
+    categorySlug: 'timeshare-scams',
+    sources: ["WYDaily"],
+    sourceUrl: 'https://wydaily.com/news/local/2015/04/22/local-news-man-sentenced-for-operating-time-share-scam-in-williamsburg/',
+    country: 'US',
+    state: 'VA',
+    isHistorical: true,
+    firstRecorded: '2015-04-22',
+});
+
+UsTZ.push({
+    name: 'Sheriff Impersonation Jury Duty Scam (Fairfax County)',
+    slug: 'virginia-jury-duty-sheriff-impersonation-scam',
+    description: `Callers impersonating sheriff's deputies contact Virginia residents by phone, voicemail, or email claiming they missed jury duty and that an arrest warrant has been issued, pressuring them to pay immediately or click a link to "reschedule." Fairfax Circuit Court issued a public warning after call volume on this scam reportedly doubled, stating it "will NEVER ask for money or any type of monetary fees when re-scheduling jury duty" and directing residents to verify any notice by calling its Jury Department directly. Sheriff's offices in other Virginia jurisdictions separately warned residents of the same pattern, with some variants demanding payment via gift cards or cryptocurrency to avoid a supposed arrest.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Fairfax Circuit Court'],
+    sourceUrl: 'https://www.fairfaxcounty.gov/circuit/newsandevents/fairfax-circuit-court-officials-warn-residents-jury-duty-scam',
+    country: 'US',
+    state: 'VA',
+    firstRecorded: '2024-10-24',
+});
