@@ -764,6 +764,10 @@ GuidesRecent.push({
     slug: 'ai-companion-chatbot-emotional-manipulation-spending',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ai-companion-chatbot-emotional-manipulation'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Person_looking_at_smartphone_in_the_dark_(2).jpg?width=1200',
+    coverImageCredit: 'Photo: Japanexperterna.se (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions',
     body: `Apps like Replika, Character.AI, and Chai market themselves as an always-available "friend," confidant, or romantic partner — free to start a conversation, but with a companion's memory of past chats, voice calls, or intimate roleplay increasingly gated behind a subscription tier or an in-app currency used to buy the companion "gifts." Unlike the outright impersonation scams covered elsewhere in this collection, these are real, disclosed apps — the concern here is how their design keeps a paying relationship going as long as possible, because sustained engagement is what converts into recurring revenue.
 

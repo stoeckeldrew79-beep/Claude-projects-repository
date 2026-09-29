@@ -9479,6 +9479,10 @@ GuidesAF.push({
     slug: 'fake-celebrity-endorsement-product-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-celebrity-endorsement-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Centrum_multivitamin_pills.jpg?width=1200',
+    coverImageCredit: 'Photo: Daderot (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/02/did-your-favorite-shark-tank-celebrity-really-endorse-probably-not',
     body: `The ad shows up in a social media feed or a search result formatted to look exactly like a news story: a familiar masthead, a headline claiming a Shark Tank judge or a well-known celebrity "invested in" or "can't stop talking about" a new weight-loss gummy, keto pill, or skincare product, and a doctored photo or video meant to make the endorsement look real. The FTC has specifically warned that scammers use "fake Shark Tank celebrity testimonials and endorsements — complete with doctored photos and videos" to promote miracle inventions and weight-loss products the celebrities never touched. Clicking through leads to a landing page with fabricated quotes, fake before-and-after photos, and urgency pressure like a countdown timer claiming stock is about to sell out.
 
