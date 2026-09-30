@@ -9498,6 +9498,10 @@ GuidesAF.push({
     slug: 'crypto-address-poisoning-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'crypto-address-poisoning'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Holding_Bitcoin_cryptocurrency_coin.jpg?width=1200',
+    coverImageCredit: 'Photo: Satheesh Sankaran (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/irs-ci-issues-alert-about-potential-cryptocurrency-phishing-scam',
     body: `Address poisoning exploits a habit almost every cryptocurrency user has: copying a wallet address from transaction history instead of retyping it. A scammer studies the blockchain, finds an address you've legitimately sent funds to before, then generates a new address that starts and ends with the same characters as that real one — the middle characters are different, but most wallet apps display addresses truncated, showing only the first and last few characters. The scammer sends a tiny "dust" transaction, or an impersonation token designed to look like a well-known coin, from this lookalike address directly to your wallet. It now sits in your transaction history, visually indistinguishable at a glance from an address you actually trust.
 
@@ -9513,6 +9517,10 @@ GuidesAF.push({
     slug: 'cryptocurrency-exchange-impersonation-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'crypto-exchange-impersonation'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cellphone_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Rodion Kutsaev (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240801',
     body: `Scammers contact cryptocurrency holders out of nowhere — by phone, text, or a message inside a trading app — posing as a security or support representative from a real exchange. The message manufactures a crisis: your account has been flagged for suspicious activity, a large withdrawal is pending that you need to cancel, or your holdings are about to be frozen for "verification." The caller often already knows your name, email, or approximate account balance, either from a prior data breach or simply by guessing that anyone who trades crypto is a plausible target, which lends the call false credibility from the first sentence.
 
@@ -9528,6 +9536,10 @@ GuidesAF.push({
     slug: 'fake-news-site-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-news-site-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Laptop_computer_monitor_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Taduuda (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/truth-behind-weight-loss-ads',
     body: `Scammers set up websites designed to look exactly like legitimate news outlets — using stolen network logos and titles that mimic well-known news brands, such as "News 6 News Alerts" or "Health 5 Beat Health News," in cases the FTC has prosecuted. The page presents itself as an independent news story or "investigative report," often about a supposedly revolutionary health or diet discovery, and falsely claims to have "been seen on" major outlets like ABC, Fox News, CBS, CNN, USA Today, or Consumer Reports. Buried inside the fake story is a glowing first-person account of dramatic results — one FTC case featured a "reporter" claiming to have lost 25 pounds in four weeks using an acai berry supplement — alongside "before and after" photos that are frequently stock images rather than real customers, and a link that leads straight to a page selling that product. The FTC has permanently shut down multiple operators running these networks, in cases covering acai berry supplements, colon cleansers, and teeth whiteners.
 
