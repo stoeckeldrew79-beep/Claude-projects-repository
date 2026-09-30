@@ -10744,3 +10744,28 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2015-11-24',
 });
+
+UsNS.push({
+    name: 'IT&E Fake "Win a Cash Prize" Survey Scam Impersonation (CNMI)',
+    slug: 'northern-mariana-islands-ite-survey-scam-impersonation',
+    description: `IT&E, the telecommunications carrier serving Guam and the Northern Mariana Islands, issued a consumer alert after an unauthorized third party impersonated the company, sending subscribers a fraudulent message offering to "enter to win a cash prize" by completing a survey at a spoofed domain, techylucky.com. IT&E confirmed it never authorized the giveaway and warned subscribers not to click the link or share personal information, directing anyone with concerns to contact the company directly rather than through the link in the message.`,
+    categorySlug: 'phishing',
+    sources: ['IT&E (Pacific Telecom Inc.)'],
+    sourceUrl: 'https://ite.pr.co/232716-it-e-warns-of-survey-scam/',
+    country: 'US',
+    state: 'MP',
+    firstRecorded: '2023-12-06',
+});
+
+UsNS.push({
+    name: 'IT&E WhatsApp and Robocall Vishing Impersonation Scam (CNMI)',
+    slug: 'northern-mariana-islands-ite-whatsapp-robocall-vishing-scam',
+    description: `IT&E alerted CNMI and Guam subscribers to a wave of robocalls and WhatsApp voice calls and messages that spoofed local phone numbers on caller ID and impersonated the carrier to request Social Security numbers or banking details. The company said it never verifies account information over the phone or via WhatsApp without the customer first initiating contact, and urged subscribers to hang up on suspicious calls and independently call the company's official number to verify any such request before providing any information.`,
+    categorySlug: 'phishing',
+    sources: ['IT&E (Pacific Telecom Inc.)'],
+    sourceUrl: 'https://ite.pr.co/190070-it-e-advises-subscribers-to-be-vigilant-of-scams/',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2020-07-01',
+});
