@@ -11094,3 +11094,50 @@ UsGM.push({
     state: 'ME',
     firstRecorded: '2026-05-22',
 });
+
+UsGM.push({
+    name: 'Health Insurance Marketplace Agent/Broker Enrollment-Switching Scam',
+    slug: 'kansas-health-insurance-marketplace-agent-broker-misconduct',
+    description: `The Kansas Department of Insurance issued an "(Anti)Fraud Friday" consumer alert on November 1, 2024, warning of a rise in agent and broker misconduct on the ACA Health Insurance Marketplace, with unauthorized changes and enrollments being made to Kansans' health insurance without their knowledge or permission. Commissioner Vicki Schmidt urged consumers to "be very cautious when giving authorization for changes in your health insurance enrollments" and to treat health-insurance ads offering cash, gifts, or other bonuses as a red flag. KDOI noted that any agent or broker not already associated with a consumer's enrollment is required to complete a three-way call with the consumer and the Marketplace Call Center, and directed victims of unauthorized activity to the Marketplace Call Center at 1-800-318-2596.`,
+    categorySlug: 'medicare-health-plans',
+    sources: ['Kansas Department of Insurance'],
+    sourceUrl: 'https://insurance.ks.gov/documents/department/news-releases/Anti-Fraud-Friday-11-1-24.pdf',
+    country: 'US',
+    state: 'KS',
+    firstRecorded: '2024-11-01',
+});
+
+UsGM.push({
+    name: 'Prairieville Landlord\'s Emergency Rental Assistance Fraud (Brandon Brown)',
+    slug: 'louisiana-prairieville-emergency-rental-assistance-fraud',
+    description: `Louisiana Attorney General Liz Murrill's office charged Brandon Brown, a Prairieville landlord, with felony theft by fraud after a Louisiana Legislative Auditor's Office referral found he fraudulently obtained more than $78,000 through the state's Emergency Rental Assistance Program between March 2020 and June 2021. Acting as a landlord, Brown submitted applications listing tenants who never applied for assistance or didn't live at the claimed addresses, overstated rent amounts, and falsely claimed ownership of some rental properties across Ascension Parish. He was booked into East Baton Rouge Parish Prison.`,
+    categorySlug: 'rental-housing',
+    sources: ['Louisiana Attorney General\'s Office', 'WAFB'],
+    sourceUrl: 'https://www.wafb.com/2025/11/25/man-fraudulently-received-more-than-78k-rental-assistance-officials-say/',
+    country: 'US',
+    state: 'LA',
+    firstRecorded: '2025-11-25',
+});
+
+UsGM.push({
+    name: 'St. Martin Parish $575,000 Business Phishing Scam',
+    slug: 'louisiana-st-martin-parish-575k-business-phishing-scam',
+    description: `The St. Martin Parish Sheriff's Office, under Sheriff Becket Breaux, reported that a phishing email scheme cost a local business $575,323.12 after a complaint was filed on August 27, 2025. Investigators identified two out-of-state suspects — Danny Cody, 63, of Cleveland, Texas, and John Karmelich, 66, of Westminster, California — who were booked on theft over $25,000 and illegal transmission of monetary funds; Cody was extradited from Texas and Karmelich turned himself in.`,
+    categorySlug: 'business-email-compromise',
+    sources: ['St. Martin Parish Sheriff\'s Office'],
+    sourceUrl: 'https://www.techetoday.com/article/4456,two-men-arrested-for-felony-theft-in-connection-with-phishing-scam',
+    country: 'US',
+    state: 'LA',
+    firstRecorded: '2025-08-27',
+});
+
+UsGM.push({
+    name: 'Mystic Kings Krewe Mardi Gras Membership Scam (Cecil Roebuck)',
+    slug: 'louisiana-mystic-kings-krewe-membership-scam',
+    description: `New Orleans City Council President JP Morrell publicly called the newly formed "Mystic Kings" Mardi Gras krewe "a complete and total scam," warning it was collecting $500 associate and $2,000 charter membership dues — at least 35 people reportedly paid the $2,000 tier — for a January parade never authorized by the City Council and whose promoted route Morrell called "completely insane, unworkable, and will never happen." The krewe's organizer, Cecil Roebuck, is a convicted fraudster who previously abandoned an unfinished, unsafe parade-float project for the Order of Athena in Mobile, Alabama, and promotional materials for Mystic Kings reportedly reused props and float designs belonging to established builders like Kern Studios rather than original commissioned work. As of the report, no refunds had been issued to members.`,
+    categorySlug: 'online-shopping-scams',
+    sources: ['New Orleans City Council', 'K945'],
+    sourceUrl: 'https://k945.com/mardi-gras-krewe-scam-nola/',
+    country: 'US',
+    state: 'LA',
+});
