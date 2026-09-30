@@ -7742,6 +7742,9 @@ NotoriousNS.push({
     slug: 'pavlo-lazarenko-ukraine-prime-minister-money-laundering',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'money-laundering', 'government-fraud', 'corruption'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pavlo_Lazarenko.jpg?width=1200',
+    coverImageCredit: 'Photo: Ukrainian TV program "Spravedlyvist" (CC BY 3.0) — Pavlo Lazarenko',
+    coverImagePosition: 50,
     body: `Before he became prime minister, Pavlo Lazarenko spent the early 1990s as governor of Dnipropetrovsk Oblast, Ukraine's industrial heartland and a region that supplied an outsized share of the country's post-Soviet political and business elite. In May 1996, President Leonid Kuchma appointed him prime minister. He held the office barely a year, but it was long enough, prosecutors later showed, to convert control of Ukraine's energy sector into one of the largest personal fortunes looted from a former Soviet republic.
 
 According to the case U.S. prosecutors eventually built against him, Lazarenko's method was closer to extortion than accounting fraud: businesses operating in Ukraine, particularly in the natural-gas trade he oversaw, were required to hand over a share of their revenue to him in exchange for being allowed to operate at all, and he illegally acquired natural gas through bartering and transferred the proceeds into stolen funds. U.S. prosecutors specifically proved in court that he laundered roughly $30 million of those extortion proceeds through a chain of banks in Antigua and Barbuda, Hungary, the Netherlands, Poland, Switzerland, and the United States.
@@ -7758,6 +7761,10 @@ NotoriousNS.push({
     slug: 'sergei-magnitsky-230-million-russian-tax-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'tax-fraud', 'government-fraud', 'corruption'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Moscow._View_to_The_Kremlin_from_Floating_bridge_in_Zaryadye_Park.jpg?width=1200',
+    coverImageCredit: 'Photo: Bestalex (CC0) — Moscow, where Magnitsky uncovered the fraud and later died in custody',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Hermitage Capital Management was, for a time, the largest foreign portfolio investor in Russia, run by American-born British financier Bill Browder. When Russian police raided Hermitage's Moscow offices and its law firm in June 2007, seizing corporate documents, seals, and registration certificates for three of Hermitage's Russian holding subsidiaries, the firm hired a young tax attorney, Sergei Magnitsky, to investigate what had happened to them. What he found was not a routine regulatory dispute — it was a fraud scheme in progress.
 
 According to Magnitsky's investigation, the seized documents were passed to a criminal network that used them to fraudulently re-register ownership of the three subsidiaries. The group then manufactured fake liabilities against the companies using backdated contracts and sham lawsuits, wiping out the subsidiaries' 2006 tax bills on paper. With those fabricated losses in place, the group filed for a refund of taxes the companies had already legitimately paid — and on December 24, 2007, Russia's tax authorities paid out roughly $230 million, described as the largest tax rebate in Russian history, in a single day.
@@ -7774,6 +7781,10 @@ NotoriousNS.push({
     slug: 'nicolae-popa-sorin-ovidiu-vantu-fni-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'ponzi-scheme', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bucharest_University_Square_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Madalin Pentelie (CC0) — Bucharest, where FNI was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Romania's transition from communism left millions of citizens with savings and no functioning market institutions to trust with them. Into that vacuum, in July 1995, businessman Sorin Ovidiu Vântu founded Fondul Național de Investiții (FNI) — the National Investment Fund — through his company SOV Invest, and received authorization from Romania's National Securities Commission that September. FNI was structured as an open-ended mutual fund and advertised returns far higher than ordinary bank deposit rates. Its credibility was cemented in 1997, after Vântu sold his controlling stake to Ioana Maria Vlaş, when Romania's state savings bank, Casa de Economii și Consemnațiuni (CEC), signed a contract guaranteeing to reimburse FNI investors if the fund ever failed — a government-adjacent seal of approval that helped drive a nationwide rush of deposits.
 
 Behind the marketing, FNI operated as a pyramid: the extraordinary returns paid to existing depositors came from the cash brought in by new ones, not from investment gains. Nicolae Popa, director of the fund-management company Gelsor Invest, ran the fund's day-to-day operations and cash flow after Vântu's formal exit, even as Vântu retained influence over the broader group of companies around it.
