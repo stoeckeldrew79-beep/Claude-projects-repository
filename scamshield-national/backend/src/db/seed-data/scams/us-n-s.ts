@@ -10769,3 +10769,79 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2020-07-01',
 });
+
+UsNS.push({
+    name: 'Nevada Casino Cage Executive-Impersonation Scam',
+    slug: 'nevada-casino-cage-executive-impersonation-scam',
+    description: `The Nevada Gaming Control Board warned licensees in a July 2023 industry notice about a sophisticated social-engineering scam in which callers impersonate high-level casino executives, first through a spoofed internal phone call and then a confirming text purporting to come from a second manager, to pressure cage employees into withdrawing large sums of cash and taking it offsite for a supposed "emergency payment." The largest known case cost Circa Las Vegas $1.17 million before Las Vegas Metropolitan Police arrested Erik Gutierrez Martinez, 23, on theft charges; regulators say the still-evolving, nationwide scheme has since expanded to target gaming pits and other casino money-handling areas.`,
+    categorySlug: 'business-email-compromise',
+    sources: ['Nevada Gaming Control Board', 'Las Vegas Review-Journal', 'KTNV'],
+    sourceUrl: 'https://www.gaming.nv.gov/siteassets/content/about/industry-notices/2023-52.pdf',
+    country: 'US',
+    state: 'NV',
+    isHistorical: true,
+    firstRecorded: '2023-07-07',
+});
+
+UsNS.push({
+    name: 'First Class Rx Pharmacy Hidden-Ownership Medicaid/Medicare Fraud (Serbera-Armas)',
+    slug: 'nevada-first-class-rx-pharmacy-hidden-ownership-fraud',
+    description: `The Nevada Attorney General's Office filed a criminal complaint in Las Vegas Justice Court on September 8, 2026, alleging that First Class Rx Pharmacy — with locations on S. Eastern Ave. and E. Desert Inn Rd. in Las Vegas — collected nearly $97 million in Medicaid (roughly $37 million) and Medicare (roughly $60 million) payments since 2014 while secretly owned and operated by Abel Serbera-Armas and Zulema Serbera, a couple previously convicted of healthcare fraud in Florida and barred from federal healthcare programs. Pharmacy paperwork listed other people as the owners of record to conceal their control. Four people connected to the pharmacy face felony charges; Serbera-Armas faces 15 felonies including false claims to defraud Medicaid, perjury, and theft over $100,000, while Zulema Serbera faces 8 felonies.`,
+    categorySlug: 'medicare-health-plans',
+    sources: ["Nevada Attorney General's Office", 'Las Vegas Review-Journal'],
+    sourceUrl: 'https://www.reviewjournal.com/crime/las-vegas-pharmacy-collected-97m-in-federal-funds-despite-ties-to-convicted-fraudsters-authorities-say-3892456/',
+    country: 'US',
+    state: 'NV',
+    firstRecorded: '2026-09-08',
+});
+
+UsNS.push({
+    name: 'Las Vegas Refinance-Postcard Elder Financial Exploitation (Diana Mendez)',
+    slug: 'nevada-las-vegas-mendez-refinance-postcard-elder-exploitation',
+    description: `Diana Mendez, 31, first contacted a 79-year-old Las Vegas woman, Selina Milroy-Hayes, by mailing her a postcard offering help refinancing her home; the victim believed Mendez was an attorney. The two became "friends," and Mendez was made an authorized user on the victim's financial accounts under the guise of helping with bills and banking. Between February 2024 and July 2025, police say Mendez made 264 unauthorized Zelle transfers to herself totaling roughly $232,794, and separately used a power-of-attorney document to attempt to sell the victim's house for $295,000 before the victim's own attorney stopped the sale. Following a nine-month police investigation, Mendez was arrested and charged with two counts of theft over $100,000, attempted theft, and two counts of exploiting an older or vulnerable person.`,
+    categorySlug: 'identity-theft',
+    sources: ['Las Vegas Review-Journal'],
+    sourceUrl: 'https://www.reviewjournal.com/crime/what-kind-of-person-does-that-woman-accused-of-stealing-over-230k-from-las-vegas-senior-3831507/',
+    country: 'US',
+    state: 'NV',
+    isHistorical: true,
+    firstRecorded: '2026-09-01',
+});
+
+UsNS.push({
+    name: 'Oregon Life Insurance Fraud Ring Targeting Older Adults',
+    slug: 'oregon-life-insurance-fraud-ring-older-adults',
+    description: `The Oregon Division of Financial Regulation warned in July 2026 about a multi-state fraud ring in which telemarketers collect personal details from older adults during cold calls, then pass that information to licensed insurance agents in the ring who use it to submit life insurance applications and collect a sales commission immediately — before the victim has agreed to buy anything or pay a premium. The fraud typically only surfaces when the insurer tries to collect the first premium from someone who has no idea a policy was issued in their name. "Because the insurance company is paying upfront commissions to the agents, the companies are experiencing high losses as a result of this fraud ring," said DFR Administrator and Oregon Insurance Commissioner TK Keen, who warned that victims are frequently re-targeted for further scams afterward.`,
+    categorySlug: 'insurance-fraud',
+    sources: ['Oregon Division of Financial Regulation'],
+    sourceUrl: 'https://dfr.oregon.gov/news/news2026/Pages/20260701-life-insurance-fraud.aspx',
+    country: 'US',
+    state: 'OR',
+    alertLevel: 'high',
+    firstRecorded: '2026-07-01',
+});
+
+UsNS.push({
+    name: 'ClearShare Health Unlicensed "Health-Sharing" Membership Cease-and-Desist',
+    slug: 'oregon-clearshare-health-unlicensed-membership-scheme',
+    description: `Oregon's Division of Financial Regulation issued a cease-and-desist order on April 27, 2026 against ClearShare Health and its affiliates (Clearwater Benefits LLC, Clearwater Benefits Administrators LLC, and Clearwater Benefits Holdings LLC), along with co-founder Douglas Sherman, after finding the company had been selling health-cost-sharing "memberships" that functioned as insurance without ever obtaining an Oregon certificate of authority or third-party-administrator license. Consumers paid monthly amounts into a shared pool across marketed coverage tiers, but people over 65 or with pre-existing conditions were typically disqualified from participating, and the plans did not provide ACA-level coverage despite being marketed alongside compliant options. The order bars the entities from marketing, offering, or selling new memberships to Oregon residents, though they may continue administering claims for memberships already active as of April 14, 2026.`,
+    categorySlug: 'insurance-fraud',
+    sources: ['Oregon Division of Financial Regulation', 'KPTV', 'KTVZ'],
+    sourceUrl: 'https://dfr.oregon.gov/news/news2026/Pages/ClearShare.aspx',
+    country: 'US',
+    state: 'OR',
+    alertLevel: 'high',
+    firstRecorded: '2026-04-27',
+});
+
+UsNS.push({
+    name: 'Hillsboro "Missing Pet Ransom" Scam Using AI-Generated Photos',
+    slug: 'oregon-hillsboro-missing-pet-ransom-scam',
+    description: `Washington County Animal Services warned in April 2026 that scammers are calling Oregon residents who posted about a missing pet on social media, posing as a local animal shelter or veterinary office and demanding payment over the phone before they'll "return" the animal. Callers spoof legitimate shelter or clinic phone numbers and in some cases send AI-generated or digitally altered photos of a lookalike animal to convince the owner their pet is genuinely being held. "They're trying to take advantage of people who are really distraught that their pets are missing," said Bonnie Hays Animal Shelter manager Randy Covey, adding, "Don't fall for it. Animal Services doesn't operate that way. Veterinary clinics don't operate that way." Real shelters and vet offices require in-person pickup rather than phone payment, and Covey urged pet owners to hang up and call the shelter directly, and to microchip and license pets in advance to speed a legitimate recovery.`,
+    categorySlug: 'family-emergency-scams',
+    sources: ['Washington County Animal Services', 'KPTV'],
+    sourceUrl: 'https://www.kptv.com/2026/04/15/hillsboro-animal-shelter-warns-scam-targeting-pet-owners/',
+    country: 'US',
+    state: 'OR',
+    firstRecorded: '2026-04-15',
+});
