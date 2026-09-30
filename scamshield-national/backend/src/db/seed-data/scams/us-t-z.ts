@@ -6223,3 +6223,38 @@ UsTZ.push({
     isHistorical: false,
     firstRecorded: '2025-10-14',
 });
+
+UsTZ.push({
+    name: 'Email Extortion "Sextortion" Scam Using Home Map Images',
+    slug: 'vermont-email-extortion-home-image-scam',
+    description: `Vermont's Attorney General's Office reported that the email extortion scam — threatening to release compromising photos and personal information unless paid — returned to the state's Top 10 Scams list in 2024 after a four-year absence, ranking 7th with 141 reports to the Consumer Assistance Program. A newer, more unsettling variant embeds screen-captured images of the recipient's own home, pulled from online mapping services, directly into the extortion email to make the threat feel more credible and pressure faster compliance. Attorney General Charity Clark's office notes most of these scams originate overseas and are difficult to shut down, and directs Vermonters who receive one to report it to CAP at 800-649-2424 or AGO.CAP@vermont.gov rather than pay.`,
+    categorySlug: 'sextortion',
+    sources: ["Vermont Attorney General's Office"],
+    sourceUrl: 'https://ago.vermont.gov/blog/2025/01/14/attorney-general-clark-releases-top-10-scams-2024',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2025-01-14',
+});
+
+UsTZ.push({
+    name: 'BlueCross BlueShield of Vermont (BCBSVT) Phone Impersonation Scam',
+    slug: 'vermont-bcbsvt-phone-impersonation-scam',
+    description: `The Vermont Department of Financial Regulation posted a consumer alert after BCBSVT reported that members were receiving unsolicited calls from callers falsely claiming to be BCBSVT representatives, displaying an 800 number on caller ID. The callers asked for personally identifiable information such as date of birth and address, framed as needed to offer "extra support" services, while probing whether the member had a history of conditions such as multiple sclerosis or Crohn's disease. BCBSVT stated it "will never make unsolicited calls to members requesting personally identifiable information," and DFR advised recipients to get the caller's name and callback number, never share personal data, and report suspicious calls to DFR's Insurance Division, the AG's Consumer Assistance Program, or BCBSVT's own fraud line.`,
+    categorySlug: 'phishing',
+    sources: ['Vermont Department of Financial Regulation', 'BlueCross BlueShield of Vermont'],
+    sourceUrl: 'https://dfr.vermont.gov/consumer-alert/bcbsvt-phone-scam',
+    country: 'US',
+    state: 'VT',
+});
+
+UsTZ.push({
+    name: 'Public Utility Commission Impersonation "Utility Credit" Phishing Scam',
+    slug: 'vermont-puc-utility-credit-phishing-scam',
+    description: `The Vermont Public Utility Commission warned on February 7, 2022 after fielding reports of unsolicited calls to Vermont consumers from callers falsely claiming to represent the PUC itself, offering a $50 monthly utility credit in exchange for the recipient's personal and financial information. The PUC stated plainly, "The PUC is not responsible for these messages," and warned residents not to give personal or financial information to unsolicited callers, directing anyone contacted to report it to the Attorney General's Consumer Assistance Program at 800-649-2424.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Vermont Public Utility Commission'],
+    sourceUrl: 'https://puc.vermont.gov/news/warning-new-utility-scam',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2022-02-07',
+});
