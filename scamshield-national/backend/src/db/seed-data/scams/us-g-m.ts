@@ -11294,3 +11294,15 @@ UsGM.push({
     isHistorical: true,
     state: 'IL',
 });
+
+UsGM.push({
+    name: 'Guam DPHSS Eligibility Specialist SNAP and Cash Assistance Insider Fraud (Natasha Peredo Vitug)',
+    slug: 'guam-dphss-vitug-snap-cash-assistance-insider-fraud',
+    description: `Natasha Peredo Vitug worked as an Eligibility Specialist at the Guam Department of Public Health and Social Services (DPHSS), where her job was to process benefits applications, determine eligibility, and issue payments for programs including the Cash Assistance Program (CAP) and SNAP. Prosecutors said she exploited that access to unlawfully re-apply for CAP and SNAP benefits in the names of real beneficiaries who had already left Guam or terminated their own participation in the programs, diverting the resulting payments to herself rather than the intended recipients. She was charged in the U.S. District Court of Guam with Theft Concerning a Program Receiving Federal Funds and was sentenced to one month of imprisonment, 11 months of home confinement, three years of supervised release, and ordered to pay $149,944.84 in restitution.`,
+    categorySlug: 'public-benefits-fraud',
+    sources: ["U.S. Attorney's Office, Districts of Guam and the Northern Mariana Islands"],
+    sourceUrl: 'https://www.justice.gov/usao-gu/pr/former-dphss-employee-sentenced-defrauding-assistance-programs',
+    country: 'US',
+    isHistorical: true,
+    state: 'GU',
+});
