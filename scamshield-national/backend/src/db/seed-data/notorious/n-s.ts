@@ -7817,6 +7817,10 @@ NotoriousNS.push({
     slug: 'ranbaxy-laboratories-fabricated-drug-data-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'international', 'healthcare-fraud', 'corporate-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gurgaon_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Dealtroadd (CC BY-SA 3.0) — Gurgaon, India, where Ranbaxy was headquartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Ranbaxy Laboratories was India's largest pharmaceutical company and, by the mid-2000s, one of the biggest suppliers of generic drugs to the American market — the kind of company whose cheap, FDA-approved copies of brand-name medications were quietly filling pharmacy shelves and hospital formularies across the United States. Its U.S. subsidiary manufactured and distributed drugs made at plants in Paonta Sahib and Dewas, India, and its regulatory filings told the FDA that those drugs had been tested and found safe, stable, and equivalent to the branded originals they were replacing.
 
 Those filings were often fiction. A former Ranbaxy director turned whistleblower, Dinesh Thakur, spent months in 2004 reviewing the company's own data and found stability and bioequivalence tests that had never actually been run, results invented to match what regulators expected to see, and test dates quietly backdated on paperwork submitted to the FDA. When FDA auditors later went back through Ranbaxy's applications, they found more than 1,600 data discrepancies across just fifteen generic drug submissions, describing a persistent pattern of fabricated evidence that had been used to win approval to sell medicine to American patients.
