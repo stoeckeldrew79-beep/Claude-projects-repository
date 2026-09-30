@@ -12345,6 +12345,36 @@ International.push(
     sourceUrl: 'https://www.bma.bm/news-and-press-releases/public-warning-fraud-alert',
     country: 'BM',
   },
+  {
+    name: 'Bermuda Online Rental Listing Scam',
+    slug: 'bermuda-online-rental-listing-scam',
+    description: `Bermuda's Ministry of Home Affairs, through Consumer Affairs, issued a public alert in June 2026 warning residents about fraudsters posing as landlords, property managers, or real estate agents who post fake rental listings on online platforms using stolen photographs and copied details from genuine properties. Prospective tenants are pressured to hand over government ID, banking details, and an upfront deposit or "processing fee" electronically before any in-person viewing takes place, and Bermuda Police confirmed a related case in August 2026 in which a would-be tenant was asked to pay a deposit and fee online before viewing a unit. Minister Alexa Lightbourne said "no resident should lose money or peace of mind while trying to secure a home," and given Bermuda's notoriously tight and expensive rental market, scammers lean on urgency and below-market pricing to push renters into paying before they can verify a listing is real. Consumer Affairs and police urged residents to insist on in-person viewings, refuse to deal with anyone who won't meet, and verify a landlord's identity before paying anything.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Bermuda Government Consumer Affairs', 'Bermuda Police Service (BPS)', 'The Royal Gazette'],
+    sourceUrl: 'https://www.royalgazette.com/general/news/article/20260610/public-warned-of-online-property-rental-scam/',
+    country: 'BM',
+  },
+  {
+    name: 'Bermuda Online Dating Romance Scam',
+    slug: 'bermuda-online-dating-romance-scam',
+    description: `The Bermuda Police Service (BPS) and the Bermuda Bankers Association (BBA) jointly warned the public in February 2025 about romance scams in which fraudsters build a relationship over days, weeks, or months through dating apps or social media before asking for money. The scammer typically claims to live or work overseas, professes affection quickly, and then invents a crisis — a stuck shipment, a medical emergency, an inability to afford travel — that only a wire transfer, gift cards, or cryptocurrency can fix, and some also mail fraudulent "overpayment" checks. BPS and the BBA flagged rapid professions of love, inconsistencies in a match's online profile, and requests for money or financial details from someone never met in person as the clearest warning signs, and urged anyone who suspects they are being targeted to stop contact and report it to police immediately.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['Bermuda Police Service (BPS)', 'Bermuda Bankers Association (BBA)', 'Bernews'],
+    sourceUrl: 'https://bernews.com/2025/02/bps-bba-warn-romance-scams/',
+    country: 'BM',
+  },
+  {
+    name: 'Fake "Bermuda National Coin" Impersonation Scam',
+    slug: 'bermuda-national-coin-impersonation-scam',
+    description: `In February 2025, a fraudulent X (formerly Twitter) account impersonating Bermuda's Premier, David Burt, announced the supposed launch of a fake cryptocurrency token called "Bermuda National Coin," and the account carried a grey verification checkmark despite being newly created and having a prior history of posts in other languages. The real Premier publicly denounced it from his own verified account as "a fake account and a scam," criticizing the platform for granting verification badges "without controls," and the fraudulent posts and account were subsequently removed. The episode illustrates a distinct impersonation mechanism from Bermuda's existing regulatory-fraud cases: rather than forging a document from a financial regulator, it exploited a social media platform's own verification system to borrow the credibility of the head of government and push a fabricated crypto asset.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['Bernews', "Premier David Burt's official X account"],
+    sourceUrl: 'https://bernews.com/2025/02/fake-bermuda-national-coin-scam-on-x/',
+    country: 'BM',
+  },
 );
 
 International.push(
