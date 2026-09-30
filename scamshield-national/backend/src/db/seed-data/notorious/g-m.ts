@@ -11159,6 +11159,10 @@ NotoriousGM.push({
     slug: 'giovanni-castellucci-morandi-bridge-collapse-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'international', 'corporate-fraud', 'engineering-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ponte_Morandi_collapse.jpg?width=1200',
+    coverImageCredit: 'Photo: Phoenix7777 (CC BY-SA 4.0) — the collapsed Ponte Morandi, Genoa',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Giovanni Castellucci ran Autostrade per l'Italia, the private company that held the concession to operate and maintain roughly 3,000 kilometers of Italian motorways, from 2006 until he resigned amid public fury in 2019. Among the bridges under Autostrade's care was the Ponte Morandi, a striking 1960s cable-stayed viaduct carrying the A10 motorway over the Genoese neighborhood of Sampierdarena — a bridge whose unusual design relied on a small number of steel-and-concrete stay cables to hold up the entire roadway, making the condition of those cables a matter of life and death for everyone driving beneath and across it.
 
 On the morning of August 14, 2018, a roughly 200-meter section of the Morandi collapsed onto the riverbed and buildings below during a rainstorm, killing 43 people and displacing hundreds of residents from homes that had to be demolished in the bridge's shadow. Investigators zeroed in on Pier 9, whose supporting cables had shown documented signs of corrosion for years. Court-appointed engineering experts later concluded that Autostrade's and its engineering subsidiary SPEA's inspection regime for that pier had been insufficient and unreliable — no one had ever performed the coring or endoscopic examination needed to actually assess how far the corrosion inside the cables had progressed, even as defects were being logged elsewhere on the same structure.
@@ -11175,6 +11179,10 @@ NotoriousGM.push({
     slug: 'larry-householder-firstenergy-house-bill-6-bribery',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'corruption', 'government-fraud', 'bribery'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ohio_Statehouse_exterior.jpg?width=1200',
+    coverImageCredit: 'Photo: Ɱ (CC BY-SA 4.0) — the Ohio Statehouse, Columbus',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Larry Householder was one of the most powerful men in Ohio politics twice over — Speaker of the Ohio House in the late 1990s, forced out by a corruption investigation, and Speaker again starting in 2019 after clawing his way back into the chamber. His second rise was bankrolled, prosecutors later proved, by the utility company that stood to benefit most from the laws he would go on to pass: FirstEnergy Corp., which wanted ratepayer-funded help to keep two aging, money-losing nuclear plants from shutting down.
 
 Starting around 2017, FirstEnergy and its affiliates funneled approximately $60 million into Generation Now, a nonprofit "dark money" group that Householder personally controlled and that, because of its tax status, never had to disclose its donors publicly. That money elected a slate of Householder loyalists to the Ohio House in 2018, installed Householder as speaker, and then bought the votes needed to pass House Bill 6 in July 2019 — legislation that provided a roughly $1.3 billion ratepayer-funded bailout of FirstEnergy's Perry and Davis-Besse nuclear plants and nearby coal plants. When a citizen group organized a ballot referendum to repeal the law, Generation Now money paid for a suppression campaign that targeted signature-gatherers to keep the repeal off the ballot entirely.
