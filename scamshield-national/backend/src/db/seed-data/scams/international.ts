@@ -23091,3 +23091,34 @@ International.push({
   country: 'GW',
   isHistorical: false,
 });
+
+International.push({
+  name: 'Afghanistan Fake UNICEF Aid-Registration Fee Scam',
+  slug: 'afghanistan-fake-unicef-aid-registration-fee-scam',
+  description: `Individuals falsely claiming to represent UNICEF have been selling fraudulent "registrations" to Afghans seeking food and non-food humanitarian assistance, charging fees for paperwork that is supposed to be free. Pajhwok Afghan News reported in January 2026 that UNICEF confirmed awareness of its name being misused and was reviewing the reports, stating that "all support delivered by the organization... is provided solely on the basis of need and without any cost," and urging the public not to pay anyone claiming to facilitate aid access or to share personal information or documents with unverified individuals.`,
+  categorySlug: 'public-benefits-fraud',
+  sources: ['Pajhwok Afghan News', 'UNICEF Afghanistan'],
+  sourceUrl: 'https://pajhwok.com/2026/01/16/unicef-aid-is-free-reports-of-fraud-using-organizations-name-under-review/',
+  country: 'AF',
+});
+
+International.push({
+  name: 'Afghanistan AI-Cloned-Voice Family Emergency Scam',
+  slug: 'afghanistan-ai-cloned-voice-family-emergency-scam',
+  description: `Scammers hijack or clone a family member's or friend's Facebook account and identity, then use AI-generated images and audio to impersonate a relative abroad who claims to have been arrested or is facing deportation and urgently needs money wired through informal money changers. Afghanistan's independent newspaper Hasht-e Subh (8am.media) reported in September 2026 that one victim's aunt, living in Iran, lost roughly 300,000 Afghanis after scammers posed as her brother in Switzerland, claiming Swiss police had arrested him and sending AI-generated fake images as "proof"; the funds were transferred through a Pakistani bank account and withdrawn in Quetta. The outlet documented smaller-scale variants as well, including a hijacked friend's account used to request money for a "phone card," and noted the scheme particularly targets people with limited digital literacy and relatives separated across borders with no easy way to verify claims.`,
+  categorySlug: 'ai-deepfake-scams',
+  sources: ['Hasht-e Subh (8am.media)'],
+  sourceUrl: 'https://8am.media/eng/online-scammers-fake-ai-voices/',
+  country: 'AF',
+});
+
+International.push({
+  name: 'Afghanistan Unlicensed Forex Trading Broker Fraud',
+  slug: 'afghanistan-unlicensed-forex-trading-broker-fraud',
+  description: `Since forex trading was introduced in Afghanistan around 2005, unlicensed local brokers have drawn in money exchangers, business owners, youth, and low-income Afghans with promises of steady returns from currency trading, then vanished with client deposits. The Kabul-based Money Exchangers Union has estimated Afghans lost hundreds of millions of dollars this way, with more than 7,000 people in Kandahar province alone tied to the business over 14 years and most suffering losses; firms and individuals named in reporting include Vision Financial Services, which began operating forex trading among Afghan communities before being ordered to stop, and businessman Bashir Gulzada's FX Zone and Unifax, after defrauded traders publicly protested when their brokers disappeared.`,
+  categorySlug: 'investment-fraud',
+  sources: ['Money Exchangers Union (Kandahar)', 'Daily Outlook Afghanistan'],
+  sourceUrl: 'https://thefrontierpost.com/afghans-lose-hundreds-of-millions-of-dollars-in-forex-trading/',
+  country: 'AF',
+  isHistorical: true,
+});
