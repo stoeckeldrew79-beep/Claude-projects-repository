@@ -27,8 +27,8 @@ import { SEED_STATE_AG_SOURCES } from './seed-data/state-ag-sources';
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
-      `INSERT INTO articles (title, slug, body, author, tags, source_url, cover_image, cover_image_credit, cover_image_position, published, published_at)
-       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, true, NOW())
+      `INSERT INTO articles (title, slug, body, author, tags, source_url, cover_image, cover_image_credit, cover_image_position, published, published_at, seed_managed)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, true, NOW(), true)
        ON CONFLICT (slug) DO UPDATE SET
          -- The Admin panel's cover-photo form edits source_url in the same
          -- save action as cover_image (it's the "no photo yet" fallback
@@ -45,7 +45,12 @@ async function seedArticles(articles: SeedArticle[], label: string) {
          cover_image_credit = CASE WHEN articles.cover_image_locked THEN articles.cover_image_credit
                                     ELSE COALESCE(EXCLUDED.cover_image_credit, articles.cover_image_credit) END,
          cover_image_position = CASE WHEN articles.cover_image_locked THEN articles.cover_image_position
-                                      ELSE COALESCE(EXCLUDED.cover_image_position, articles.cover_image_position) END`,
+                                      ELSE COALESCE(EXCLUDED.cover_image_position, articles.cover_image_position) END,
+         -- A row can start out seed-managed=false (created some other way,
+         -- e.g. generateDailyDrafts.ts) and later collide with a slug that
+         -- seed-data now also uses; once seed.ts has upserted it, it is
+         -- seed-managed going forward like any other seeded row.
+         seed_managed = true`,
       [
         article.title,
         article.slug,
@@ -62,6 +67,38 @@ async function seedArticles(articles: SeedArticle[], label: string) {
   console.log(`seed: upserted ${articles.length} ${label} articles`);
 }
 
+// seed.ts upserts but historically never deleted a row whose slug was
+// later removed from seed-data, leaving orphaned, still-published content
+// live indefinitely (see migration 027). Only rows seed.ts itself has
+// marked seed_managed are candidates for removal — a row created another
+// way (an admin edit, a daily-draft job) is never touched here even if
+// its slug isn't in the current seed-data set. Deletes run one row at a
+// time so a single row still referenced by another table (an alert, a
+// promoted scam report) can't abort cleanup of the rest — it's logged and
+// left in place instead.
+async function pruneOrphanedSeedRows(table: 'articles' | 'scams', currentSlugs: string[]) {
+  const { rows } = await pool.query(
+    `SELECT id, slug FROM ${table} WHERE seed_managed = true AND slug <> ALL($1::text[])`,
+    [currentSlugs]
+  );
+  if (rows.length === 0) return;
+
+  let removed = 0;
+  for (const row of rows) {
+    try {
+      await pool.query(`DELETE FROM ${table} WHERE id = $1`, [row.id]);
+      removed++;
+    } catch (err) {
+      console.warn(
+        `seed: could not remove orphaned ${table} row (slug=${row.slug}), likely still referenced elsewhere: ${
+          (err as Error).message
+        }`
+      );
+    }
+  }
+  console.log(`seed: removed ${removed}/${rows.length} orphaned ${table} row(s) no longer in seed-data`);
+}
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
@@ -76,8 +113,8 @@ async function seedCategoriesAndScams() {
   let locationsUpserted = 0;
   for (const scam of SEED_SCAMS) {
     const { rows } = await pool.query(
-      `INSERT INTO scams (name, slug, description, category_id, alert_level, is_active, sources, source_url, country, is_historical, first_recorded, tags)
-       VALUES ($1, $2, $3, (SELECT id FROM categories WHERE slug = $4), $5, true, $6, $7, $8, $9, $10, $11)
+      `INSERT INTO scams (name, slug, description, category_id, alert_level, is_active, sources, source_url, country, is_historical, first_recorded, tags, seed_managed)
+       VALUES ($1, $2, $3, (SELECT id FROM categories WHERE slug = $4), $5, true, $6, $7, $8, $9, $10, $11, true)
        ON CONFLICT (slug) DO UPDATE SET
          name = EXCLUDED.name,
          description = EXCLUDED.description,
@@ -89,6 +126,10 @@ async function seedCategoriesAndScams() {
          is_historical = EXCLUDED.is_historical,
          first_recorded = EXCLUDED.first_recorded,
          tags = EXCLUDED.tags,
+         -- See seedArticles' matching note: a scam created another way
+         -- (e.g. promoted from a scam_report) becomes seed-managed the
+         -- moment seed-data also defines its slug.
+         seed_managed = true,
          updated_at = NOW()
        RETURNING id`,
       [
@@ -117,6 +158,11 @@ async function seedCategoriesAndScams() {
     }
   }
   console.log(`seed: upserted ${SEED_SCAMS.length} scams (${locationsUpserted} with a state location)`);
+
+  await pruneOrphanedSeedRows(
+    'scams',
+    SEED_SCAMS.map((scam) => scam.slug)
+  );
 }
 
 async function seedGlobalSources() {
@@ -161,6 +207,13 @@ async function seedStateAgSources() {
 async function main() {
   await seedArticles(NOTORIOUS_ARTICLES, 'notorious');
   await seedArticles(GUIDE_ARTICLES, 'guide');
+  // Both arrays share the `articles` table with no type column, so pruning
+  // has to run once against their combined slugs — pruning right after
+  // just NOTORIOUS_ARTICLES would delete every guide as "orphaned".
+  await pruneOrphanedSeedRows(
+    'articles',
+    [...NOTORIOUS_ARTICLES, ...GUIDE_ARTICLES].map((article) => article.slug)
+  );
   await seedCategoriesAndScams();
   await seedGlobalSources();
   await seedStateAgSources();
