@@ -12644,64 +12644,6 @@ International.push(
 
 International.push(
   {
-    name: 'Puerto Rico Fake Governor AI Deepfake Social Security Investment Scam',
-    slug: 'puerto-rico-fake-governor-ai-deepfake-social-security-investment-scam',
-    description: `Puerto Rico's Department of Consumer Affairs (DACO) warned in April 2026 about a highly elaborate fraud scheme circulating by text message and email that uses an AI-manipulated image of Governor Jenniffer González to lend the pitch false credibility. The message tells recipients they can deposit $250 into a supposed "personal Social Security account" and receive a $12,500 payout in less than 30 days, a return so implausible that DACO Secretary Hiram Torres Montalvo singled it out as a warning sign on its own. Clicking the embedded link does more than solicit the deposit — DACO said the link can also give scammers access to the victim's mobile device or computer. The agency noted the scheme is deliberately aimed at older adults, who make up roughly 26.4% of Puerto Rico's population, and said using the Governor's image and the government's name is a calculated strategy to manipulate public trust. DACO urged residents never to click links promising government payouts received by text or email, to verify any purported government program only through the agency's official channels, and to report suspected fraud to DACO at (787) 722-7555 or by email to confidencia@daco.pr.gov.`,
-    categorySlug: 'ai-deepfake-scams',
-    alertLevel: 'high',
-    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'Metro Puerto Rico', 'El Nuevo Día'],
-    sourceUrl: 'https://www.metro.pr/noticias/2026/04/13/daco-alerta-sobre-esquema-de-fraude-que-utiliza-imagen-de-la-gobernadora/',
-    country: 'PR',
-  },
-  {
-    name: 'Puerto Rico Fake LUMA Energy Disconnection Robocall Scam',
-    slug: 'puerto-rico-fake-luma-energy-disconnection-robocall-scam',
-    description: `Puerto Rico's Department of Consumer Affairs (DACO) issued an alert about a robocall scheme in which automated calls claim the recipient owes an overdue balance to LUMA Energy, the utility that manages the island's electrical transmission and distribution, and threaten to cut off electric service within hours unless payment is made immediately. DACO said the calls arrive from numbers with 1-800 and 1-877 prefixes that appear to be legitimate toll-free lines, but investigators found the caller ID had been spoofed using AI-based number-generation techniques, with the calls ultimately traced back to origins outside Puerto Rico. LUMA Energy confirmed publicly that it does not call customers to demand immediate payment or threaten same-day disconnection, and that any real account issue can be verified through its official website or app rather than by trusting an inbound call. DACO advised residents who receive such a call to hang up without providing any personal or financial information — including full name, date of birth, Social Security number, or bank account details — to verify their account status directly through LUMA's official channels, and to report the call to DACO through its "DACO A Tu Favor" social media accounts or to the Puerto Rico Police Department.`,
-    categorySlug: 'utility-scams',
-    alertLevel: 'high',
-    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'Telemundo Puerto Rico', 'El Vocero', 'WIPR'],
-    sourceUrl: 'https://www.telemundopr.com/noticias/puerto-rico/daco-alerta-sobre-esquema-de-fraude-asociado-al-corte-del-servicio-electrico/2827651/',
-    country: 'PR',
-  },
-);
-International.push(
-  {
-    name: 'Puerto Rico Fake Luxury Property Rental TikTok Scam',
-    slug: 'puerto-rico-fake-luxury-property-rental-tiktok-scam',
-    description: `Puerto Rico's Department of Consumer Affairs (DACO) warned on July 18, 2026, about a scheme in which fraudsters use TikTok videos to advertise luxury homes for rent in exclusive areas of Dorado, Gurabo, and Humacao at prices far below market — around $600 a month — to draw in prospective renters before asking for an upfront deposit of roughly $300 to "process" the rental. DACO Secretary Hiram Torres Montalvo said the unrealistically low price is deliberate bait: "The price that is announced aims to capture the victim's attention" before the request for the deposit follows, adding plainly, "This is a scam, it is not real." Investigators found the accounts behind the ads are not run by licensed real estate brokers and typically use generic avatar images instead of real photos to conceal the poster's identity, one of the clearest signs the listing is fraudulent. DACO urged consumers to be skeptical of any rental priced well under market value, to confirm that anyone advertising a property is a broker licensed under Puerto Rico's real estate law before sending any money, and to verify a listing independently — including in person or through a licensed agent — before wiring a deposit to someone found only through a social media video.`,
-    categorySlug: 'rental-housing',
-    alertLevel: 'medium',
-    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'Telemundo Puerto Rico'],
-    sourceUrl: 'https://www.telemundopr.com/noticias/puerto-rico/daco-alerta-sobre-fraude-con-propiedades-de-lujo-a-traves-de-tiktok/2829674/',
-    country: 'PR',
-  },
-);
-International.push(
-  {
-    name: 'Puerto Rico "Trump Invest" Social Media Investment Scam',
-    slug: 'puerto-rico-trump-invest-social-media-investment-scam',
-    description: `Puerto Rico's Department of Consumer Affairs (DACO) warned on January 9, 2025, about false information spreading on social media for a supposed program called "Trump Invest," which promised subscribers monthly earnings of $8,500 in exchange for an initial deposit of just $250 — a return with no legitimate financial basis. The pitch traded on the incoming presidential administration's name to create an impression of a real, high-level opportunity, a tactic DACO said was designed to pressure people into acting before verifying anything. The agency reiterated the same warning again that March after continuing reports of financial fraud spreading through social media platforms, telling consumers "¡No caiga en engaños! Proteja su dinero y su seguridad" ("Don't fall for scams! Protect your money and your safety"). DACO advised consumers never to send payment or deposit money with an unknown source promoted only through social media, never to share banking information or a Social Security number with an unverified third party, to be wary of unsolicited investment pitches that arrive by message or email, and to verify any investment opportunity through official, independently confirmed channels before committing any money — reporting suspected fraud to DACO at (787) 722-7555.`,
-    categorySlug: 'investment-fraud',
-    alertLevel: 'high',
-    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'Metro Puerto Rico'],
-    sourceUrl: 'https://www.metro.pr/noticias/2025/03/14/daco-alerta-sobre-fraude-financiero-en-las-redes-sociales/',
-    country: 'PR',
-  },
-);
-International.push(
-  {
-    name: 'Puerto Rico Fake Banco Popular Account Alert Phishing Email',
-    slug: 'puerto-rico-fake-banco-popular-account-alert-phishing-email',
-    description: `Puerto Rico's Department of Consumer Affairs (DACO) warned on November 9, 2023, about a sophisticated phishing email campaign impersonating Banco Popular de Puerto Rico, the island's largest bank. The emails carry the bank's logo and falsely claim the recipient's account shows irregular electronic transfers, directing them to click a link to "resolve the problem" — a link that leads not to any real Banco Popular page but to a fake form built to harvest the victim's personal and account information for identity theft and further fraud. DACO traced one version of the campaign to a sender address, robert@markmanins.com, that has nothing to do with the bank, one of several signs the message is fraudulent despite its convincing appearance. Interim DACO Secretary Lisoannette González Ruíz said such schemes to defraud consumers "son cada vez más ingeniosos y refinados" ("are increasingly ingenious and refined"), and urged residents to check the actual sending address behind any bank email rather than trusting the display name or logo, to confirm they even hold an account with the bank named before reacting, to verify any claimed account issue directly through the bank's official app or by calling a number printed on a card or statement rather than one in the email, and to report suspicious messages to DACO.`,
-    categorySlug: 'phishing',
-    alertLevel: 'medium',
-    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'WIPR'],
-    sourceUrl: 'https://wipr.pr/daco-alerta-de-fraudes-electronicos-vinculados-a-banco-en-puerto-rico/',
-    country: 'PR',
-  },
-);
-International.push(
-  {
     name: 'Cayman Islands Bank Phone Impersonation Fraud',
     slug: 'cayman-islands-bank-phone-impersonation-fraud',
     description: `The Royal Cayman Islands Police Service (RCIPS) said in June 2026 that it was investigating a report of banking fraud after a victim received a phone call from someone claiming to be associated with a financial institution based in the Cayman Islands. During the call, the victim was persuaded to disclose personal banking information, which the caller then used to carry out unauthorised transactions on the victim's account, resulting in cash being stolen. Billy Pennington, president of the Cayman Islands Bankers Association (CIBA), said scammers are becoming increasingly sophisticated and creative, using tactics such as social engineering and artificial intelligence to impersonate trusted sources, clone voices, and build convincing fake messages or websites in order to steal sensitive information. RCIPS reminded the public that legitimate banks do not ask customers to read out full account numbers, PINs, one-time passcodes, or online banking credentials over an inbound phone call or messaging app, and urged anyone contacted this way to hang up and call their bank back using the number printed on a card or statement rather than any number supplied during the call.`,
