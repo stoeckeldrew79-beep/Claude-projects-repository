@@ -9533,6 +9533,23 @@ If you land on one of these pages, don't click through to buy — instead, searc
 });
 
 GuidesAF.push({
+  title: 'Beneficial Ownership Information (BOI) Filing Scams: The Fake "Corporate Transparency Act" Notices That Outlived the Law They Cited',
+  slug: 'boi-filing-scam-corporate-transparency-act-guide',
+  author: 'ScamShield Editorial',
+  tags: ['guide', 'business-filing-scam'],
+  sourceUrl: 'https://www.fincen.gov/boi',
+  body: `Starting in 2024, once the Corporate Transparency Act's new Beneficial Ownership Information (BOI) reporting requirement took effect, scammers began mailing, emailing, and texting small-business owners official-looking notices demanding they "file" their BOI or pay a "mandatory" fee. The letters cited the business's real, correct filing details — pulled from public state registries — to look authentic, invented fake form numbers like "Form 4022" or "Form 5102," and impersonated agencies that don't exist, such as the "United States Business Regulations Department." Victims were told to mail a check to pay a "filing fee," even though there has never been any fee to file BOI directly with the real Treasury agency that administers it, the Financial Crimes Enforcement Network (FinCEN), or to scan a QR code or click a link to a lookalike site built to harvest an owner's name, Social Security number, and banking details.
+
+A related variant skips the mail entirely and goes straight to impersonation: scammers posing as FinCEN employees call, text, or send letters supposedly signed by the agency's director, demanding payment over alleged "AML/CFT violations" or an "outstanding debt," or dangling a fake Treasury "grant" that requires an upfront fee to release. Both versions worked because they exploited a genuinely confusing, brand-new federal requirement most small-business owners had never heard of before, delivered through a channel — physical mail citing real filing data — that read as more credible than a typical email scam, paired with a manufactured deadline and a threat of "severe fines, penalties, and legal action" for nonpayment.
+
+What makes this guide's advice unusually clean-cut is a regulatory change that eliminated the underlying premise entirely: as of August 2026, FinCEN made permanent an exemption removing virtually all U.S. domestic companies from the BOI reporting requirement altogether — only foreign entities registered to do business in the U.S. still have any filing obligation at all. That means any notice today telling a U.S. small-business owner they must "file BOI" or pay a fee to do so is automatically fraudulent, full stop, regardless of how official it looks.
+
+Red flags include any correspondence demanding a fee to file BOI; mailers, emails, or texts from invented agency names rather than FinCEN itself; form numbers that don't match FinCEN's real system; a QR code or link embedded in unsolicited BOI-related mail; and urgency or penalty language tied to a filing "deadline." FinCEN's own guidance is explicit that it does not send initial correspondence about Corporate Transparency Act penalties by email or phone.
+
+Anyone who receives a notice claiming they must file or pay for BOI reporting should not pay it or click any link inside it, and should instead verify the requirement directly at fincen.gov/boi — where the only correct answer, for nearly every U.S. company, is that no filing is owed at all. Suspected BOI filing scams can be reported to the FTC at ReportFraud.ftc.gov and to the Treasury Department's Office of Inspector General.`,
+});
+
+GuidesAF.push({
   title: 'Fake Eviction Notice Scams: When "Pay Now or Be Locked Out" Skips the Part Where a Court Has to Decide',
   slug: 'fake-eviction-notice-scam-guide',
   author: 'ScamShield Editorial',
