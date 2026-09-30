@@ -10845,3 +10845,39 @@ UsNS.push({
     state: 'OR',
     firstRecorded: '2026-04-15',
 });
+
+UsNS.push({
+    name: 'PSE&G Utility Impersonation Disconnection Scam',
+    slug: 'new-jersey-pseg-utility-impersonation-disconnection-scam',
+    description: `PSE&G, New Jersey's largest utility, warned customers in November 2025 that scammers are impersonating its representatives by phone, text, and email — spoofing caller ID to display "PSE&G," threatening immediate service disconnection within the hour unless payment is made, and demanding payment via prepaid debit cards, gift cards, cryptocurrency, or digital payment apps. PSE&G's Chief Customer Officer Dave Johnson confirmed customers have lost "hundreds or even thousands of dollars" to the scheme; the utility says it never accepts those payment methods and will only discuss an account with the customer of record. Customers are urged to hang up and call PSE&G directly at 1-800-436-7734 rather than trust caller ID or a callback number given by the caller.`,
+    categorySlug: 'utility-scams',
+    sources: ['PSE&G'],
+    sourceUrl: 'https://nj.pseg.com/newsroom/newsrelease469',
+    country: 'US',
+    state: 'NJ',
+    firstRecorded: '2025-11-19',
+});
+
+UsNS.push({
+    name: "FBI Newark Warns of Federal Agent Impersonation Scam Using Real Agents' Names",
+    slug: 'new-jersey-fbi-newark-federal-agent-impersonation-scam',
+    description: `The FBI's Newark field office warned on September 29, 2026 that criminals are impersonating real Secret Service, FBI, and DEA agents — spoofing actual federal agency phone numbers and using genuine agents' real names — to extort money from New Jersey residents, making the scam far harder to detect since a victim who calls the agency to verify may have the agent's existence confirmed. In one documented case, a scammer staged a virtual meeting with a background made to resemble an authentic FBI office, complete with a desk and FBI seal, to add false legitimacy. The FBI advises never sending money to anyone claiming to be a federal agent, independently looking up and calling the agency's official number to verify identity, and, if contacted via video call, recording it and submitting the evidence to tips.fbi.gov.`,
+    categorySlug: 'government-impersonation',
+    sources: ['FBI Newark Field Office', 'NBC New York'],
+    sourceUrl: 'https://www.nbcnewyork.com/news/money-fraud-scheme-federal-law-agents/6553359/',
+    country: 'US',
+    state: 'NJ',
+    firstRecorded: '2026-09-29',
+});
+
+UsNS.push({
+    name: 'Jersey Shore Fake Vacation Rental Listing Scam',
+    slug: 'new-jersey-jersey-shore-fake-vacation-rental-scam',
+    description: `As Jersey Shore rental demand and prices climbed in 2026 — week-long rentals up roughly 53% since the prior summer, per Affinity Federal Credit Union data — scammers increasingly post fake listings on Craigslist and Facebook for shore properties, including in Ocean City, that they don't own or that don't exist, often using photos lifted from real estate listings of recently sold homes. Victims are pressured to book "off-platform" and pay via wire transfer or gift card at prices suspiciously below market rate, then arrive at the shore to find the home isn't actually for rent. "Facebook is full of rental scams, because people can make a fake profile, share a rental that's not really theirs," said Duane Watlington of VROCNJ.com, who recommends verifying ownership through property records, confirming the address independently, and never paying outside a legitimate booking platform.`,
+    categorySlug: 'rental-housing',
+    sources: ['CBS News Philadelphia', 'Affinity Federal Credit Union'],
+    sourceUrl: 'https://www.cbsnews.com/philadelphia/news/new-jersey-shore-rental-prices-scam-risk/',
+    country: 'US',
+    state: 'NJ',
+    firstRecorded: '2026-05-30',
+});

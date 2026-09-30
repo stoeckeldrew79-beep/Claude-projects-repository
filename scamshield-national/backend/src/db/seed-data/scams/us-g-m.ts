@@ -11419,3 +11419,53 @@ UsGM.push({
     isHistorical: true,
     state: 'GU',
 });
+
+UsGM.push({
+    name: '"Home Coverage Risk Alert" Deceptive Roof Insurance Mailer Scam',
+    slug: 'massachusetts-home-coverage-risk-alert-roof-mailer-scam',
+    description: `The Massachusetts Division of Insurance issued a consumer advisory on November 6, 2025 warning residents about mailers from an unaffiliated entity calling itself "Home Coverage Risk Alert," which include the recipient's actual property address and falsely claim the home's insurer has "flagged" it over roof age or condition, implying a premium surcharge, non-renewal, or "high risk" reclassification is imminent. The mailers are not sent by any licensed insurer and are designed to look like an official notice, pushing homeowners toward a roof inspection and a referral to "certified" contractors to "restore eligibility" — a pretext for generating roofing sales leads or opening the door to inspection and repair fraud. The Division noted real non-renewal notices must come directly from a licensee at least 45 days in advance and never from an unaffiliated third party, and directed residents to verify any such notice by calling its Consumer Service Unit at 617-521-7794 before acting.`,
+    categorySlug: 'insurance-fraud',
+    sources: ['Massachusetts Division of Insurance'],
+    sourceUrl: 'https://www.mass.gov/news/consumer-advisory-roof-related-insurance-notices',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2025-11-06',
+});
+
+UsGM.push({
+    name: 'Cedar County Attorney Estate and Trust Embezzlement (Peter Lee)',
+    slug: 'missouri-cedar-county-attorney-peter-lee-estate-fraud',
+    description: `Peter A. Lee, an attorney practicing in Stockton, Missouri (Cedar County), pleaded guilty to wire fraud in February 2026 after admitting he defrauded his own clients — including decedent estates and a special needs trust — of $296,140 between January 2019 and February 2025, concealing the theft through false statements to clients and financial institutions and using some clients' funds to repay victims of his earlier thefts. As part of his plea agreement, Lee agreed to surrender his law license, and he was sentenced to 24 months in federal prison, three years of supervised release, and ordered to pay $197,163.37 in restitution. The case is a reminder that a beneficiary or family member should periodically request an independent accounting of an estate or trust rather than relying solely on the handling attorney's own statements.`,
+    categorySlug: 'identity-theft',
+    sources: ["U.S. Attorney's Office for the Western District of Missouri", 'KY3'],
+    sourceUrl: 'https://www.justice.gov/usao-wdmo/pr/cedar-county-attorney-pleads-guilty-defrauding-clients',
+    country: 'US',
+    isHistorical: true,
+    state: 'MO',
+    firstRecorded: '2026-02-27',
+});
+
+UsGM.push({
+    name: 'Dent County In-Home Caregiver Debit Card Theft (Loretta Pyeatt)',
+    slug: 'missouri-dent-county-caregiver-debit-card-theft-pyeatt',
+    description: `Loretta Pyeatt, a hired in-home caregiver in Dent County, Missouri, pleaded guilty in September 2026 to federal access-device fraud after admitting she stole at least $321,000 from an elderly veteran client over roughly two years (July 2023 to September 2025) by misusing debit cards he had given her only to buy groceries. Monthly transactions on the victim's account jumped from a normal 20-30 to as many as 330 in a single month after she was hired, draining an account that held at least $232,026 down to under $5,600 by July 2025. She faces up to 15 years in federal prison and a $250,000 fine; the Social Security Administration and VA Offices of Inspector General investigated.`,
+    categorySlug: 'identity-theft',
+    sources: ["U.S. Attorney's Office for the Eastern District of Missouri", 'KTTN News'],
+    sourceUrl: 'https://www.justice.gov/usao-edmo/pr/dent-county-caregiver-admits-stealing-client',
+    country: 'US',
+    isHistorical: true,
+    state: 'MO',
+    firstRecorded: '2026-09-01',
+});
+
+UsGM.push({
+    name: 'Overland Cut-Lockbox Rental Scam',
+    slug: 'missouri-overland-cut-lockbox-rental-scam',
+    description: `Overland, Missouri police warned in September 2026 of a rental scam in which fraudsters identify vacant or for-sale homes, cut off the legitimate realtor's lockbox to get inside, then post the property as "for rent" on Facebook Marketplace priced below comparable homes on Zillow or Redfin. Prospective renters who respond are told to pay a deposit or first month's rent in cash before getting lockbox access — one victim paid $2,400 — even though the poster has no right to rent the property at all. Police, who say they investigated multiple such cases in Overland in recent weeks with one arrest so far and a suspected larger operation, note the same pattern has surfaced in Detroit, Houston, Milwaukee, and Arizona, and advise renters to verify a listing and its true owner through county property records or a licensed agent before paying anyone.`,
+    categorySlug: 'rental-housing',
+    sources: ['Overland Police Department', 'KMOV (First Alert 4)'],
+    sourceUrl: 'https://www.firstalert4.com/2026/09/24/overland-police-warn-rental-scam-using-cut-lockboxes/',
+    country: 'US',
+    state: 'MO',
+    firstRecorded: '2026-09-24',
+});
