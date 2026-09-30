@@ -2861,18 +2861,6 @@ export const UsGM: SeedScam[] = [
     state: "MA",
   },
   {
-    name: "Michigan Bank and Credit Union Imposter Phone Scam",
-    slug: "mi-bank-credit-union-imposter-phone-scam",
-    description:
-      "In August 2026, Michigan Attorney General Dana Nessel and the Department of Insurance and Financial Services (DIFS) warned residents about a wave of phone scams in which callers use caller-ID spoofing technology to make an incoming call appear to come from the consumer's own bank or credit union. The caller falsely claims there's a problem with the account — an unauthorized transaction or an overdraft — and offers to fix it on the spot, but only if the consumer first \"verifies\" their identity by reading back an account number, password, PIN, or a one-time code just texted to their phone. Anyone who complies hands the scammer everything needed to log in and drain the account directly. DIFS Director Anita Fox said \"imposter scams continue to pose a serious threat to Michiganders, especially when fraudsters pretend to be trusted banks or credit unions in an attempt to steal personal and financial information,\" adding that \"legitimate financial institutions will never pressure you to share information by phone, text, or email. Your best defense is simple: never share any information with anyone who contacts you.\" Older Michiganders have been the most frequent targets. The department's advice is to hang up on any unexpected call like this and call the bank or credit union back using the number printed on a card or statement, never a number given during the suspicious call itself.",
-    categorySlug: "phishing",
-    alertLevel: "high",
-    sources: ["Michigan Department of Attorney General","Michigan Department of Insurance and Financial Services (DIFS)"],
-    sourceUrl: "https://www.michigan.gov/ag/news/press-releases/2026/08/12/ag-nessel-warns-of-bank-credit-union-imposter-scams",
-    country: "US",
-    state: "MI",
-  },
-  {
     name: "Montana \"Celebrity\" Romance-to-Bitcoin Scam",
     slug: "montana-celebrity-impersonation-romance-bitcoin-scam",
     description:
@@ -11246,4 +11234,63 @@ UsGM.push({
     country: 'US',
     state: 'MS',
     firstRecorded: '2023-05-19',
+});
+
+UsGM.push({
+    name: 'Detroit Auto Show QR Code Hijacking & Parking Scam',
+    slug: 'michigan-qr-code-hijacking-detroit-auto-show-scam',
+    description: `Ahead of the 2026 Detroit Auto Show, Michigan Attorney General Dana Nessel's office warned attendees that scammers place fraudulent QR code stickers over legitimate ones on signage, fake parking tickets, and flyers around the event, redirecting anyone who scans them to phishing sites that harvest payment card details or personal information. "A QR code in a public place can easily be tampered with, especially at large events," Nessel's office cautioned, urging attendees to look for signs of tampering such as a sticker placed over an existing code, to verify a URL before entering any information, and to use official event apps or websites rather than scanning codes found on unofficial-looking parking notices.`,
+    categorySlug: 'qr-code-scams',
+    sources: ['Michigan Department of Attorney General', 'WXYZ Detroit'],
+    sourceUrl: 'https://www.wxyz.com/news/qr-codes-phishing-more-ags-office-warns-of-scams-ahead-of-detroit-auto-show',
+    country: 'US',
+    state: 'MI',
+});
+
+UsGM.push({
+    name: 'LAS Loan Assistance Centers Foreclosure Rescue Fraud (Lawrence Sefa)',
+    slug: 'michigan-sefa-las-loan-assistance-foreclosure-rescue-scam',
+    description: `Lawrence Adell Sefa of Fenton, Michigan ran LAS Loan Assistance Centers, promising homeowners facing foreclosure that he could negotiate loan modifications with their lenders in exchange for upfront fees, then did little or no work on their cases while keeping the money. Prosecutors identified 33 Michigan victims who lost a combined $116,615 to the scheme. Sefa pleaded guilty to Conducting a Criminal Enterprise and was sentenced to 12 months in the county jail on August 2, 2019, along with an order to pay the full amount back in restitution.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    sources: ['CBS News Detroit'],
+    sourceUrl: 'https://www.cbsnews.com/detroit/news/michigan-man-pleads-guilty-to-conning-clients-facing-forclosure/',
+    country: 'US',
+    isHistorical: true,
+    state: 'MI',
+});
+
+UsGM.push({
+    name: "Kenilworth Insurance Agent's $1 Million Fake Annuity Fraud (Daniel Rosenbaum)",
+    slug: 'illinois-rosenbaum-kenilworth-fake-annuity-fraud',
+    description: `Daniel M. Rosenbaum, an insurance agent operating as Alexander & Rosenbaum Financial Group LLC out of Kenilworth, Illinois, persuaded at least 18 clients — many of them elderly — to hand over more than $1 million for annuities that did not exist, going back to at least 2016. He gave victims fabricated account statements and documents with cut-and-pasted insurance-company logos to make the fake investments look real. Separately, Rosenbaum also fraudulently obtained $53,537 in Paycheck Protection Program funds and $65,826 in unemployment benefits he was not entitled to. He pleaded guilty to wire fraud and was sentenced to seven years in federal prison on February 13, 2024.`,
+    categorySlug: 'insurance-fraud',
+    sources: ['Insurance Journal'],
+    sourceUrl: 'https://www.insurancejournal.com/news/midwest/2024/02/27/762452.htm',
+    country: 'US',
+    isHistorical: true,
+    state: 'IL',
+});
+
+UsGM.push({
+    name: 'Legal Helpers Debt Resolution Chicago Upfront-Fee Debt Settlement Scheme',
+    slug: 'illinois-legal-helpers-debt-resolution-upfront-fee-scheme',
+    description: `Legal Helpers Debt Resolution LLC, run out of Chicago with an unlicensed debt-settlement manager named Jeffrey Hyslip, signed up more than 314 Illinois consumers for debt-settlement plans that charged upfront and monthly fees far above what Illinois law allows — a $500 enrollment fee plus $50 a month plus a 15% settlement fee, when the state's Debt Settlement Consumer Protection Act caps enrollment fees at $50. One documented client paid $3,411.92 over nine months, of which only $290 actually went toward reducing her debt. The Illinois Department of Financial and Professional Regulation fined the company $314,000 and ordered it to stop operating in the state.`,
+    categorySlug: 'debt-relief-scams',
+    sources: ['Public Integrity'],
+    sourceUrl: 'https://publicintegrity.org/inequality-poverty-opportunity/debt-settlement-company-fined-ordered-to-stop-operating-in-illinois/',
+    country: 'US',
+    isHistorical: true,
+    state: 'IL',
+});
+
+UsGM.push({
+    name: 'Chicago SIM-Swap Bank Account Takeover Ring (Boyd Egan)',
+    slug: 'illinois-egan-chicago-sim-swap-account-takeover',
+    description: `Boyd Egan of Chicago ran a SIM-swap scheme, fraudulently porting victims' phone numbers to devices he controlled so he could intercept two-factor authentication codes and lock the real account holders out of their own online banking, then drain the accounts. More than 30 Illinois victims were identified in the scheme, which the U.S. Secret Service traced back to at least August 2019. Egan was ordered to pay $160,954.54 in restitution and was sentenced to nine years in federal prison plus five years of supervised release.`,
+    categorySlug: 'account-takeover',
+    sources: ['U.S. Secret Service'],
+    sourceUrl: 'https://www.secretservice.gov/newsroom/releases/2021/08/illinois-victims-get-justice-local-man-sentenced-nine-years-prison-bank',
+    country: 'US',
+    isHistorical: true,
+    state: 'IL',
 });
