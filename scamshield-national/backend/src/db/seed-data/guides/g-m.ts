@@ -4949,6 +4949,10 @@ GuidesGM.push({
   slug: 'mortgage-loan-flipping-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'loan-flipping'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_little_mortgage_LCCN2003665181.jpg?width=1200',
+  coverImageCredit: 'Print: Popular Graphic Arts, Library of Congress (public domain, pre-1931)',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2002/09/citigroup-settles-ftc-charges-against-associates-record-setting-215-million-subprime-lending-victims',
   body: `A homeowner who refinanced a year or two ago starts hearing from a lender again — sometimes the same broker who closed the original loan, sometimes a new one working from a public mortgage-records list — with an offer that sounds like routine account maintenance: a slightly better rate, a chance to consolidate other debt, or extra cash out for home repairs, financed by rolling everything into a brand-new loan. What makes the offer predatory rather than helpful is what it's actually priced on. Rather than checking whether the homeowner can genuinely afford or benefit from a new loan, the lender qualifies the deal against the equity already built up in the house — a practice regulators and HUD-certified housing counselors call asset-based lending — and each refinance generates a fresh round of origination fees, points, and often a prepayment penalty for paying off the loan being replaced early, all folded invisibly into the new balance rather than billed upfront.
 
