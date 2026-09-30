@@ -11253,3 +11253,73 @@ UsGM.push({
     country: 'US',
     state: 'LA',
 });
+
+UsGM.push({
+    name: 'Public Service Commission Meter-Replacement Impersonation Scam',
+    slug: 'montana-public-service-commission-meter-replacement-scam',
+    description: `In January 2022 the Montana Public Service Commission (PSC) — the state utility regulator, not a utility company — warned that scammers were spoofing the PSC's real phone number and calling electric customers to claim their energy meter needed replacement, demanding immediate payment to have it done. PSC Chairman James Brown confirmed at least one Montanan had already paid the $500 the caller demanded: "Unfortunately, we are aware of at least one person who has paid the $500 dollars." The PSC advised residents to never provide personal information or payment over an unsolicited call and to report such incidents to the Commission directly.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Montana Public Service Commission'],
+    sourceUrl: 'https://www.ypradio.org/crime/2022-01-19/get-a-call-from-the-psc-asking-for-money-its-a-scam',
+    country: 'US',
+    state: 'MT',
+    firstRecorded: '2022-01-19',
+});
+
+UsGM.push({
+    name: 'FBI/Helena Police Title-Company Wire-Fraud (BEC) Warning',
+    slug: 'montana-fbi-helena-title-company-wire-fraud-bec',
+    description: `The FBI's Salt Lake City field office and the Helena Police Department warned Montanans about business email compromise schemes targeting home purchases: a criminal compromises or spoofs a title company's email, then sends the buyer wiring instructions using a real employee's name so the message looks authentic. One local victim lost tens of thousands of dollars in down-payment funds before realizing the email wasn't legitimate; statewide, Montana reported 55 BEC victims with losses nearing $2.5 million to the FBI's Internet Crime Complaint Center in 2019 alone.`,
+    categorySlug: 'business-email-compromise',
+    sources: ['FBI Salt Lake City Field Office', 'Helena Police Department'],
+    sourceUrl: 'https://www.ktvh.com/news/helena-police-fbi-issue-warning-of-increased-business-email-compromise-scams',
+    country: 'US',
+    state: 'MT',
+});
+
+UsGM.push({
+    name: 'DLI Unemployment Insurance Email Phishing Scam',
+    slug: 'montana-dli-unemployment-insurance-email-phishing-scam',
+    description: `On June 11, 2024, the Montana Department of Labor and Industry (DLI) warned claimants about fraudulent emails impersonating its Unemployment Insurance division, falsely claiming the recipient has "time sensitive correspondence waiting in your DLI Unemployment Insurance Online Inbox that may require a response" and threatening claim cancellation or denial if they don't act quickly. DLI flagged artificial urgency, spelling and formatting errors, links to .com domains instead of the state's .gov site, and requests tied to services the recipient never enrolled in as red flags, and pointed claimants to its uid.dli.mt.gov fraud-reporting channel.`,
+    categorySlug: 'public-benefits-fraud',
+    sources: ['Montana Department of Labor and Industry'],
+    sourceUrl: 'https://nbcmontana.com/news/local/montana-dept-of-labor-and-industry-warns-of-unemployment-insurance-scams',
+    country: 'US',
+    state: 'MT',
+    firstRecorded: '2024-06-11',
+});
+
+UsGM.push({
+    name: 'Idaho Lottery "Mega Millions Headquarters" Second-Chance Prize Scam',
+    slug: 'idaho-lottery-mega-millions-second-chance-scam',
+    description: `The Idaho Lottery published a scam alert on April 20, 2023 warning that fraudsters were calling lottery players and past winners posing as "Mega Millions Headquarters" staff, claiming the target had won millions of dollars through a fabricated "second-chance drawing." The callers ask for personal information and bank transactions and demand an upfront "advance tax" payment before any prize can be released. The Idaho Lottery clarified it never calls from a number outside area code 208, only calls during business hours (8:30am-5:30pm MT, weekdays), never asks for financial information, never requires an advance tax payment, and only contacts people who actually entered a drawing — anyone contacted this way should hang up and call the Lottery directly at 208-334-2600 to verify.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    sources: ['Idaho Lottery'],
+    sourceUrl: 'https://www.idaholottery.com/happenings/blog/lottery-scam-alert',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2023-04-20',
+});
+
+UsGM.push({
+    name: 'Tech-Support "Refund Overpayment" Gift-Card Scam Targeting Seniors',
+    slug: 'idaho-tech-support-refund-overpayment-gift-card-scam',
+    description: `On July 9, 2020, then-Idaho Attorney General Lawrence Wasden and Boise Police Department Crime Prevention Supervisor Ed Fritz warned that tech-support scams were increasing in effectiveness after three Boise-area seniors lost a combined $14,700 in recent weeks, while alert store cashiers helped block an additional $6,000 in attempted losses. The scam starts with a pop-up, call, text, or email claiming the victim's computer is infected or an account is compromised, leads to an initial "fix" fee that gives the scammer remote computer and bank access, and then the scammer falsely claims to have "over-refunded" the victim and pressures them to buy gift cards to repay the difference — money that was never actually refunded. Wasden noted "this is not a new scam but the increase in its effectiveness is worth noting," and the Consumer Protection Division urged residents to never grant remote access or repay a "refund" with gift cards.`,
+    categorySlug: 'tech-support-scams',
+    sources: ["Idaho Attorney General's Office", 'Boise Police Department'],
+    sourceUrl: 'https://www.kivitv.com/news/idaho-ag-boise-police-see-increase-in-computer-technical-support-scams',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2020-07-09',
+});
+
+UsGM.push({
+    name: 'Idaho Department of Labor "Juno Publishing" Fake Job-Offer Scam',
+    slug: 'idaho-labor-department-juno-publishing-job-scam',
+    description: `The Idaho Department of Labor warned job seekers about fraudulent "Job Offer" emails purporting to be from a company called Juno Publishing Limited, which falsely claimed the recipient's profile had been found through IdahoWorks, the state's own job-search engine. The emails directed recipients to set up a Google Hangout account for a chat "interview," after which victims were offered a job within minutes and asked to hand over personal identification data to "get started." The department told recipients not to respond, not click any links, and delete the email, flagging red flags typical of job scams: chat-only interviews, poor grammar, requests for personal or financial information, and pay unusually high for the described work.`,
+    categorySlug: 'employment-scams',
+    sources: ['Idaho Department of Labor'],
+    sourceUrl: 'https://www.kivitv.com/news/idaho-labor-department-investigating-job-seeker-scam',
+    country: 'US',
+    state: 'ID',
+});
