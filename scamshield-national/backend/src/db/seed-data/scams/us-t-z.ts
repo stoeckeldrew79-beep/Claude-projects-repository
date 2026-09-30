@@ -6282,3 +6282,39 @@ UsTZ.push({
     state: 'VT',
     firstRecorded: '2022-02-07',
 });
+
+UsTZ.push({
+    name: 'Wave Finance LLC ("WaveFinances") Fake Loan Text Scam',
+    slug: 'washington-wavefinances-loan-scam',
+    description: `In an October 14, 2025 consumer alert, the Washington State Department of Financial Institutions warned that a company calling itself "Wave Finance LLC" / "WaveFinances" was texting Washington consumers offering loans. A representative identifying himself as "Jeff Brown" followed up by phone, and the scheme sent victims a link asking them to "verify" their bank information, harvesting login credentials. DFI listed the associated phone numbers and website (wavefinances.us) and confirmed the company is not licensed to lend in Washington, directing consumers to verify any lender's license using DFI's "Verify a License" tool.`,
+    categorySlug: 'phishing',
+    sources: ['Washington State Department of Financial Institutions'],
+    sourceUrl: 'https://dfi.wa.gov/consumer/alerts/wave-finance-llc-dba-wavefinances-possible-loan-scam',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2025-10-14',
+});
+
+UsTZ.push({
+    name: 'DFI Mortgage Loan Servicer Impersonation ("Jason Laveaux") Scam',
+    slug: 'washington-dfi-mortgage-servicing-impersonation-scam',
+    description: `A July 24, 2025 Washington DFI alert describes a fraudster identifying himself as "Jason Laveaux," who impersonated an employee of a real mortgage loan servicer and offered a homeowner a loan modification with a time limit to accept. A second scammer posing as a "new employee" then falsely claimed the foreclosure sale date had been moved up, pressuring the victim to act; the real servicer, contacted independently, confirmed Jason Laveaux was not their employee and that the reply-to email used in the scheme did not belong to the company. DFI directed affected homeowners to the Washington Homeownership Hotline (1-877-894-4663).`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    sources: ['Washington State Department of Financial Institutions'],
+    sourceUrl: 'https://dfi.wa.gov/consumer/alerts/impersonation-mortgage-loan-servicing-companies-scam',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2025-07-24',
+});
+
+UsTZ.push({
+    name: 'Washington State Bar Association Fake Attorney Bail Scam',
+    slug: 'washington-wsba-attorney-bail-scam',
+    description: `Per a September 5, 2025 Washington State Bar Association alert, scammers used a real, licensed Washington attorney's name and bar number to contact limited-English-speaking relatives of a supposedly detained person, sending fake U.S. Immigration Services hearing documents listing the attorney's name and bar number as defense counsel, and demanding $1,000 in bail money. WSBA advises anyone contacted this way to verify the attorney's identity independently through the official Lawyer Directory at myWSBA.org rather than using contact information supplied by the caller, and to report such scams to the FTC, FBI IC3, the EOIR Fraud Program, or WSBA directly.`,
+    categorySlug: 'identity-theft',
+    sources: ['Washington State Bar Association'],
+    sourceUrl: 'https://www.wsba.org/for-the-public/public-home/scam-alert',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2025-09-05',
+});

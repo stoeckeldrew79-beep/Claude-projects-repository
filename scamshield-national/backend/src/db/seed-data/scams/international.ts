@@ -23274,3 +23274,36 @@ International.push({
   country: 'KM',
   isHistorical: true,
 });
+
+International.push({
+  name: 'Fake Relative-Abroad "Seer" Ritual-Payment Scam',
+  slug: 'guinea-bissau-fake-relative-seer-ritual-scam',
+  description: `Guinea-Bissau's Polícia Judiciária issued a public alert about a scheme causing significant financial harm to citizens: fraudsters create fake social-media and WhatsApp profiles impersonating a family member working abroad who claims to be about to send the victim a large sum of money. The fake relative then insists the victim first contact a "vidente" (seer) who demands payment for supposed rituals before the transfer can proceed. To keep the deception going, the scammers send forged transfer receipts, such as fake Western Union receipts, as false proof the money is on its way, and the fraud only comes to light when the victim checks with an actual bank and finds no transfer exists. The PJ urged the public to distrust unsolicited money-transfer promises from "relatives," verify identities through independent channels, and report suspicious contacts to its emergency line.`,
+  categorySlug: 'family-emergency-scams',
+  sources: ['Polícia Judiciária da Guiné-Bissau'],
+  sourceUrl: 'https://www.pjguinebissau.com/artigos/alerta-a-populacao-novo-esquema-de-burla-identificado-pela-policia-judiciaria/',
+  country: 'GW',
+  isHistorical: false,
+});
+
+International.push({
+  name: 'Fake French Businessman "Roots" Purchase Scam',
+  slug: 'guinea-bissau-fake-french-businessman-roots-scam',
+  description: `Guinea-Bissau's Polícia Judiciária warned the public about an organized fraud scheme built around a fabricated business opportunity: victims are told a French businessman has purportedly purchased "raízes" (roots) and that they can profit by participating in the deal. An organized group works the scheme by phone, with one member supplying lists of potential victims' phone numbers to the rest of the network so they can be cold-called with the false proposition. The PJ stated the claims are fabricated and described the operation as "um esquema de burla cuidadosamente planeado" (a carefully planned fraud scheme), urging citizens not to share personal data or send payment without independently verifying the offer.`,
+  categorySlug: 'investment-fraud',
+  sources: ['Polícia Judiciária da Guiné-Bissau'],
+  sourceUrl: 'https://www.pjguinebissau.com/artigos/alerta-publico-atencao-a-esquema-de-burla/',
+  country: 'GW',
+  isHistorical: false,
+});
+
+International.push({
+  name: 'Fake Clandestine Boat-to-Portugal Smuggling Scheme (Bissau)',
+  slug: 'guinea-bissau-fake-clandestine-boat-europe-scam',
+  description: `Guinea-Bissau's Polícia Judiciária dismantled a trafficking network operating out of Bissau that used staged social-media videos showing people supposedly already aboard cargo ships departing Bissau's port for Europe to convince victims, primarily from Côte d'Ivoire and Mali, that a clandestine sea passage to Portugal was real and imminent. Victims paid roughly 1.5 million CFA francs (over €1,500) each, then traveled to Bissau where they were confined in residences holding more than 60 people at a time while waiting months for a boat that never came. The operation rescued more than 100 victims and detained seven foreign suspects.`,
+  categorySlug: 'employment-scams',
+  sources: ['Polícia Judiciária da Guiné-Bissau', 'RTP'],
+  sourceUrl: 'https://www.rtp.pt/noticias/mundo/cem-vitimas-de-trafico-de-pessoas-resgatadas-e-sete-suspeitos-detidos-em-bissau_n1653145',
+  country: 'GW',
+  isHistorical: false,
+});
