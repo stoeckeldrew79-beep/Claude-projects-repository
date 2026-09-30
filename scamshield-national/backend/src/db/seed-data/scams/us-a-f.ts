@@ -10833,3 +10833,28 @@ UsAF.push({
     state: 'AL',
     firstRecorded: '2025-10-27',
 });
+
+UsAF.push({
+    name: 'Evansville Bitcoin ATM Scam Surge and City Ordinance Crackdown',
+    slug: 'evansville-bitcoin-atm-scam-ordinance',
+    description: `Evansville, Indiana police reported that Bitcoin ATM scam losses reached roughly $400,000 in the year before September 2025, averaging about $13,000 per victim and nearly double the losses reported the year before, as scammers used fake law-enforcement "warrant" calls or bank-fraud alerts to convince victims to withdraw cash and feed it into one of the roughly 70 crypto kiosks then operating around the city. In response, the Evansville City Council passed an ordinance, developed with the police department's Financial Crimes Unit, a city councilor, and AARP, requiring kiosk operators to post scam-warning signage, issue printed receipts, list customer-service contact information, and maintain a direct line to police, with violations fined $100-$500. Indiana later became the first state to ban cryptocurrency kiosks outright in 2026.`,
+    categorySlug: 'cryptocurrency-scams',
+    sources: ['Evansville Police Department', 'WEVV/14 News', 'Evansville City Council'],
+    sourceUrl: 'https://www.14news.com/2025/09/11/new-ordinance-aims-lesson-bitcoin-scams-evansville/',
+    country: 'US',
+    state: 'IN',
+    firstRecorded: '2025-09-11',
+});
+
+UsAF.push({
+    name: 'Carmel In-Home Caregiver Elder Financial Exploitation (Adula Valdivia)',
+    slug: 'carmel-caregiver-elder-financial-exploitation',
+    description: `Adula Valdivia, an in-home caregiver placed through Visiting Angels, is accused of running 66 unauthorized charges on the credit cards of her 87-year-old client, Alice Galloway of Carmel, Indiana, between 2023 and 2025 — draining nearly $29,000 to pay for airline tickets to Chicago, Phoenix, and Mexico for herself and her daughter, other personal purchases, and payments to a company Valdivia owned, while discouraging neighbors from checking in on the increasingly isolated victim. Carmel Police and Hamilton County prosecutors charged Valdivia on April 24, 2026 with felony theft, fraud, and exploitation of an endangered adult in Hamilton Superior Court 1, after a neighbor's concern and a fall requiring fire-department response exposed the scheme. Families hiring in-home care are advised to run a background check before granting household or financial access, keep payment cards away from caregivers, set up bank alerts for new charges, and ask a trusted outside relative to periodically review statements.`,
+    categorySlug: 'identity-theft',
+    sources: ["Carmel Police Department", "Hamilton County Prosecutor's Office", 'WISH-TV'],
+    sourceUrl: 'https://www.wishtv.com/news/crime-watch-8/caretaker-accused-of-defrauding-elderly-woman-in-carmel-of-29000/',
+    country: 'US',
+    state: 'IN',
+    isHistorical: true,
+    firstRecorded: '2026-04-24',
+});
