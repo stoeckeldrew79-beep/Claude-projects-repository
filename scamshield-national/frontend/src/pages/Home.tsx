@@ -26,7 +26,7 @@ export default function Home() {
         />
 
         <BlurFade>
-          <span className="inline-flex items-center gap-2 rounded-full bg-red-600/15 border border-red-500/30 px-4 py-1.5 text-sm sm:text-base font-extrabold tracking-wider uppercase text-red-400">
+          <span className="animate-badge-glow inline-flex items-center gap-2 rounded-full bg-red-600/15 border border-red-500/30 px-4 py-1.5 text-sm sm:text-base font-extrabold tracking-wider uppercase text-red-400">
             <span className="relative flex h-2 w-2 shrink-0">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-red-400" />
