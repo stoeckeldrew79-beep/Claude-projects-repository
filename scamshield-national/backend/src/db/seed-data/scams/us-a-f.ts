@@ -10797,3 +10797,39 @@ UsAF.push({
     state: 'DE',
     isHistorical: true,
 });
+
+UsAF.push({
+    name: 'Greater Birmingham Humane Society Lost-Pet Ransom Scam',
+    slug: 'alabama-greater-birmingham-humane-society-lost-pet-ransom-scam',
+    description: `Scammers monitoring Facebook, PawBoost, and Pet FBI posts about missing pets in the Birmingham area called owners late at night claiming to have found their pet injured and in need of emergency surgery, demanding immediate payment. One victim, Kassaundra Sanders, had her cat "Heiress" targeted this way; the callers spoofed the Greater Birmingham Humane Society's real phone number so that when she called back to verify, it appeared legitimate, and she sent over $1,000 via Zelle. GBHS director Allison Black Cornelius said the organization tracked roughly $4,000 paid out by victims over a single two-day span and called it "a vicious, evil scam." GBHS confirmed it never asks for money by phone.`,
+    categorySlug: 'pet-sales-scams',
+    sources: ['Greater Birmingham Humane Society', 'WVTM13'],
+    sourceUrl: 'https://www.wvtm13.com/article/new-scam-targets-people-with-lost-pets/61999643',
+    country: 'US',
+    state: 'AL',
+    firstRecorded: '2024-08-28',
+});
+
+UsAF.push({
+    name: 'Cullman County AI Voice-Clone Grandparent Bail Scam',
+    slug: 'alabama-cullman-county-ai-voice-clone-grandparent-bail-scam',
+    description: `Frank and Alice Boren, a couple in Cullman County, Alabama, received a call in which scammers used AI to clone the voice of their real great-grandson, "Cameron," claiming he'd been in a car accident and arrested, and needed more than $11,000 in bail. The caller provided a fake case number and attorney's name and, when Frank said he didn't have that much, asked "how much do you have?" The couple later confirmed Cameron was safe and had never made the call. Alabama Securities Commission Director Amanda Senn, asked to rate her concern about AI-driven scams on a scale of 1 to 10, said "Ten. Ten, without a doubt!"`,
+    categorySlug: 'grandparent-scams',
+    sources: ['Alabama Securities Commission', 'WBRC'],
+    sourceUrl: 'https://www.wbrc.com/2025/11/03/scammers-using-ai-clone-voice-loved-ones-steal-information-money/',
+    country: 'US',
+    state: 'AL',
+    firstRecorded: '2025-10-31',
+});
+
+UsAF.push({
+    name: 'ASC In-Person "Pig Butchering" Cash-Pickup Arrest',
+    slug: 'alabama-securities-commission-in-person-pig-butchering-cash-pickup-scam',
+    description: `The Alabama Securities Commission announced it had arrested a man who traveled from California to Alabama specifically to collect over $300,000 in cash, in person, from a victim who believed he was dealing with a cryptocurrency expert — part of a "pig butchering" investment-fraud scheme in which fraudsters build a relationship with the victim before steering them into a fake cryptocurrency investment. The ASC's October 27, 2025 alert flagged this as part of a broader pattern of scammers who build trust with victims remotely and then physically travel to collect cash in person rather than requesting a wire transfer or ATM deposit.`,
+    categorySlug: 'cryptocurrency-scams',
+    sources: ['Alabama Securities Commission'],
+    sourceUrl: 'https://asc.alabama.gov/19325/asc-uncovers-a-pig-butchering-operation-and-arrests-a-man-claiming-to-reside-in-california-who-has-taiwanese-identification/',
+    country: 'US',
+    state: 'AL',
+    firstRecorded: '2025-10-27',
+});
