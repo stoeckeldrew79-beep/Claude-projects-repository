@@ -5206,6 +5206,10 @@ GuidesNS.push({
   slug: 'right-of-rescission-home-equity-refinance',
   author: 'ScamShield Editorial',
   tags: ['guide', 'right-of-rescission'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Suburban_neighborhood_(Unsplash).jpg?width=1200',
+  coverImageCredit: 'Photo: Serg Bataiev (CC0)',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: 'https://www.consumerfinance.gov/ask-cfpb/can-i-change-my-mind-after-i-sign-the-loan-closing-documents-for-my-second-mortgage-or-refinance-what-is-the-right-of-rescission-en-186/',
   body: `Federal law gives homeowners a real, legally guaranteed do-over on one specific kind of loan: a refinance, a home equity loan, or a home equity line of credit secured by their primary residence. Under the Truth in Lending Act and its implementing Regulation Z, a borrower has three business days after closing to cancel the deal for any reason, without cost or penalty — no explanation required. It does not apply to the mortgage used to actually purchase a home, only to loans that put an existing home up as collateral after the fact. The clock doesn't start at signing alone; it starts on the latest of three events — the closing itself, receiving the Truth in Lending disclosure, and receiving two copies of the official Notice of Right to Rescind — and business days include Saturdays but not Sundays or federal holidays.
 

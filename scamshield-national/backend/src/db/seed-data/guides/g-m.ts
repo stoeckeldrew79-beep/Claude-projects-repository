@@ -4930,6 +4930,10 @@ GuidesGM.push({
   slug: `ftc-holder-rule-claims-against-loan-buyer`,
   author: `ScamShield Editorial`,
   tags: [`guide`, `holder-rule`],
+  coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Car_Dealer.jpg?width=1200`,
+  coverImageCredit: `Photo: Buster Lang (CC BY-SA 4.0)`,
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: `https://www.ftc.gov/legal-library/browse/rules/holder-due-course-rule`,
   body: `Before 1976, a legal doctrine called "holder in due course" let a bank or finance company that bought a consumer's credit contract from a merchant collect full payment even if the underlying deal was fraudulent, the goods were defective, or the promised service was never delivered — leaving the buyer stuck paying a company that had nothing to do with the wrongdoing, while having to separately track down and sue a seller who had often already vanished. The FTC's Holder Rule, formally 16 C.F.R. Part 433, effectively ended that doctrine for consumer credit. It requires any seller who arranges or extends financing for goods or services to include specific bolded notice language in the credit contract stating that any holder of the contract is subject to all the same claims and defenses the buyer could raise against the original seller, with recovery under that notice capped at the amounts the buyer has actually paid under the contract.
 
