@@ -23047,3 +23047,14 @@ International.push({
   isHistorical: false,
   firstRecorded: '2026-07-12',
 });
+
+International.push({
+  name: 'Foundi Djibril Fake Spiritual Services and Charity Fraud',
+  slug: 'comoros-foundi-djibril-spiritual-charity-fraud',
+  description: `Chaehoi Mmadi, a Comorian preacher known publicly as "Foundi Djibril" and president of the humanitarian association Air Darassa, was pursued by Moroni prosecutors for fraud after a victim accused him of taking roughly two kilograms of jewelry and more than two million Comorian francs in cash in exchange for prayers and promised favors; he left for France without judicial authorization while under investigation, prompting an added flight charge. He was separately convicted in a case brought by a different victim and sentenced to two years' imprisonment, a 25,000-franc fine, and an order to pay her 41 million Comorian francs in damages — but fled the country again before serving the sentence. His charity, Air Darassa, which claimed to have disbursed roughly €2 million (about 1 billion Comorian francs) in 2020, was eventually banned by the Comorian government over unexplained opacity in its funding sources.`,
+  categorySlug: 'charity-scams',
+  sources: ['Al-watwan', 'Comores Infos'],
+  sourceUrl: 'https://alwatwan.net/societe/actions-caritatives-i-djibril,-le-tr%C3%A8s-%C2%ABcontrovers%C3%A9%C2%BB-pr%C3%A9dicateur-devenu-%C2%ABhumanitaire%C2%BB.html',
+  country: 'KM',
+  isHistorical: true,
+});
