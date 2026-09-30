@@ -11211,3 +11211,39 @@ UsGM.push({
     country: 'US',
     state: 'ID',
 });
+
+UsGM.push({
+    name: 'MDES "Distraint Warrant" Employer Tax Scam',
+    slug: 'mississippi-mdes-distraint-warrant-scam',
+    description: `The Mississippi Department of Employment Security warns that fraudsters mail Mississippi employers letters headed "Distraint Warrant Tax Assessment Securities Public Judgement Records," falsely threatening property seizure for non-payment of state taxes unless the recipient calls a phone number printed in the letter. MDES explicitly instructs recipients not to call or contact the sender using the letter's own contact information, and directs victims to report it to MDES fraud staff (601-493-9427, option 4, or safe@mdes.ms.gov) or the Mississippi Attorney General's Consumer Protection Division instead.`,
+    categorySlug: 'tax-scams',
+    sources: ['Mississippi Department of Employment Security'],
+    sourceUrl: 'https://www.mdes.ms.gov/information-center/fraud-and-integrity/fraud-alert-distraint-warrant-scam/',
+    country: 'US',
+    state: 'MS',
+});
+
+UsGM.push({
+    name: 'Vicksburg WIN Job Center Pay-to-Work Referral Scam',
+    slug: 'mississippi-vicksburg-win-job-center-pay-to-work-scam',
+    description: `Job seekers referred through the Vicksburg, Mississippi WIN Job Center to a Florida-based company called "Wipe Out Windows" were told they had to pay roughly $61 out of pocket for a background check and certification class before they could start; several borrowed the money and paid, then were stood up when they showed for the job. The Mississippi Department of Employment Security publicly stated applicants should never have to pay for a job referred through a WIN Job Center and referred the matter to its legal department.`,
+    categorySlug: 'employment-scams',
+    sources: ['Mississippi Department of Employment Security', 'WLBT'],
+    sourceUrl: 'https://www.wlbt.com/story/23261546/warning-issued-after-scam-targets-unemployed',
+    country: 'US',
+    state: 'MS',
+    isHistorical: true,
+    firstRecorded: '2013-08-26',
+});
+
+UsGM.push({
+    name: 'Entergy Mississippi Search-Engine Fake Website/Phone-Number Scam',
+    slug: 'mississippi-entergy-search-engine-scam',
+    description: `Entergy Mississippi warned customers that scammers buy search-engine ads and stand up fake websites so a customer searching for "Entergy" support finds a fraudulent phone number or site instead of the real one, then either takes a fraudulent bill payment or uses the customer's information to open new, unauthorized Entergy accounts in their name. Entergy Mississippi vice president of customer service Robbie Kemp said "scammers know the vulnerabilities of our customers, and have sophisticated tactics to do harm." Customers are directed to call 1-800-ENTERGY (1-800-368-3749) or visit entergy.com directly rather than trusting a sponsored search result.`,
+    categorySlug: 'utility-scams',
+    sources: ['Entergy Mississippi'],
+    sourceUrl: 'https://www.entergy.com/news/entergy-mississippi-warns-customers-search-engine-scams',
+    country: 'US',
+    state: 'MS',
+    firstRecorded: '2023-05-19',
+});
