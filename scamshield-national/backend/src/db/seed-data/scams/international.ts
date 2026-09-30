@@ -23035,3 +23035,15 @@ International.push({
   isHistorical: false,
   firstRecorded: '2023-08-23',
 });
+
+International.push({
+  name: 'WAAFI Brand-Impersonation Loan/Job/Grant Advance-Fee Scam',
+  slug: 'djibouti-waafi-brand-impersonation-advance-fee-scam',
+  description: `Djibouti's National Police announced on July 12, 2026 that they had begun formally registering victims of criminal networks that illegally used the name of WAAFI, a well-known regional mobile-money wallet service, to run fake Facebook pages and WhatsApp accounts. The networks told victims they could obtain loans, jobs, grants, or other services, but required them to first pay registration fees, file-opening charges, or verification costs — after which the scammers cut off communication, blocked the victim, or demanded still more money. Police stated WAAFI's name had been used illegally with no official connection to the real service, and opened a registration process collecting victims' identity documents, phone numbers, the Facebook/WhatsApp accounts involved, and proof of payment to size the losses and build the investigation.`,
+  categorySlug: 'employment-scams',
+  sources: ['Djibouti National Police'],
+  sourceUrl: 'https://www.dawan.africa/news/djibouti-registers-victims-waafi-fraud-scheme',
+  country: 'DJ',
+  isHistorical: false,
+  firstRecorded: '2026-07-12',
+});
