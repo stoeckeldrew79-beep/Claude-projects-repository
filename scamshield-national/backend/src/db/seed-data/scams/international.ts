@@ -12644,64 +12644,6 @@ International.push(
 
 International.push(
   {
-    name: 'Puerto Rico Fake Governor AI Deepfake Social Security Investment Scam',
-    slug: 'puerto-rico-fake-governor-ai-deepfake-social-security-investment-scam',
-    description: `Puerto Rico's Department of Consumer Affairs (DACO) warned in April 2026 about a highly elaborate fraud scheme circulating by text message and email that uses an AI-manipulated image of Governor Jenniffer González to lend the pitch false credibility. The message tells recipients they can deposit $250 into a supposed "personal Social Security account" and receive a $12,500 payout in less than 30 days, a return so implausible that DACO Secretary Hiram Torres Montalvo singled it out as a warning sign on its own. Clicking the embedded link does more than solicit the deposit — DACO said the link can also give scammers access to the victim's mobile device or computer. The agency noted the scheme is deliberately aimed at older adults, who make up roughly 26.4% of Puerto Rico's population, and said using the Governor's image and the government's name is a calculated strategy to manipulate public trust. DACO urged residents never to click links promising government payouts received by text or email, to verify any purported government program only through the agency's official channels, and to report suspected fraud to DACO at (787) 722-7555 or by email to confidencia@daco.pr.gov.`,
-    categorySlug: 'ai-deepfake-scams',
-    alertLevel: 'high',
-    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'Metro Puerto Rico', 'El Nuevo Día'],
-    sourceUrl: 'https://www.metro.pr/noticias/2026/04/13/daco-alerta-sobre-esquema-de-fraude-que-utiliza-imagen-de-la-gobernadora/',
-    country: 'PR',
-  },
-  {
-    name: 'Puerto Rico Fake LUMA Energy Disconnection Robocall Scam',
-    slug: 'puerto-rico-fake-luma-energy-disconnection-robocall-scam',
-    description: `Puerto Rico's Department of Consumer Affairs (DACO) issued an alert about a robocall scheme in which automated calls claim the recipient owes an overdue balance to LUMA Energy, the utility that manages the island's electrical transmission and distribution, and threaten to cut off electric service within hours unless payment is made immediately. DACO said the calls arrive from numbers with 1-800 and 1-877 prefixes that appear to be legitimate toll-free lines, but investigators found the caller ID had been spoofed using AI-based number-generation techniques, with the calls ultimately traced back to origins outside Puerto Rico. LUMA Energy confirmed publicly that it does not call customers to demand immediate payment or threaten same-day disconnection, and that any real account issue can be verified through its official website or app rather than by trusting an inbound call. DACO advised residents who receive such a call to hang up without providing any personal or financial information — including full name, date of birth, Social Security number, or bank account details — to verify their account status directly through LUMA's official channels, and to report the call to DACO through its "DACO A Tu Favor" social media accounts or to the Puerto Rico Police Department.`,
-    categorySlug: 'utility-scams',
-    alertLevel: 'high',
-    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'Telemundo Puerto Rico', 'El Vocero', 'WIPR'],
-    sourceUrl: 'https://www.telemundopr.com/noticias/puerto-rico/daco-alerta-sobre-esquema-de-fraude-asociado-al-corte-del-servicio-electrico/2827651/',
-    country: 'PR',
-  },
-);
-International.push(
-  {
-    name: 'Puerto Rico Fake Luxury Property Rental TikTok Scam',
-    slug: 'puerto-rico-fake-luxury-property-rental-tiktok-scam',
-    description: `Puerto Rico's Department of Consumer Affairs (DACO) warned on July 18, 2026, about a scheme in which fraudsters use TikTok videos to advertise luxury homes for rent in exclusive areas of Dorado, Gurabo, and Humacao at prices far below market — around $600 a month — to draw in prospective renters before asking for an upfront deposit of roughly $300 to "process" the rental. DACO Secretary Hiram Torres Montalvo said the unrealistically low price is deliberate bait: "The price that is announced aims to capture the victim's attention" before the request for the deposit follows, adding plainly, "This is a scam, it is not real." Investigators found the accounts behind the ads are not run by licensed real estate brokers and typically use generic avatar images instead of real photos to conceal the poster's identity, one of the clearest signs the listing is fraudulent. DACO urged consumers to be skeptical of any rental priced well under market value, to confirm that anyone advertising a property is a broker licensed under Puerto Rico's real estate law before sending any money, and to verify a listing independently — including in person or through a licensed agent — before wiring a deposit to someone found only through a social media video.`,
-    categorySlug: 'rental-housing',
-    alertLevel: 'medium',
-    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'Telemundo Puerto Rico'],
-    sourceUrl: 'https://www.telemundopr.com/noticias/puerto-rico/daco-alerta-sobre-fraude-con-propiedades-de-lujo-a-traves-de-tiktok/2829674/',
-    country: 'PR',
-  },
-);
-International.push(
-  {
-    name: 'Puerto Rico "Trump Invest" Social Media Investment Scam',
-    slug: 'puerto-rico-trump-invest-social-media-investment-scam',
-    description: `Puerto Rico's Department of Consumer Affairs (DACO) warned on January 9, 2025, about false information spreading on social media for a supposed program called "Trump Invest," which promised subscribers monthly earnings of $8,500 in exchange for an initial deposit of just $250 — a return with no legitimate financial basis. The pitch traded on the incoming presidential administration's name to create an impression of a real, high-level opportunity, a tactic DACO said was designed to pressure people into acting before verifying anything. The agency reiterated the same warning again that March after continuing reports of financial fraud spreading through social media platforms, telling consumers "¡No caiga en engaños! Proteja su dinero y su seguridad" ("Don't fall for scams! Protect your money and your safety"). DACO advised consumers never to send payment or deposit money with an unknown source promoted only through social media, never to share banking information or a Social Security number with an unverified third party, to be wary of unsolicited investment pitches that arrive by message or email, and to verify any investment opportunity through official, independently confirmed channels before committing any money — reporting suspected fraud to DACO at (787) 722-7555.`,
-    categorySlug: 'investment-fraud',
-    alertLevel: 'high',
-    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'Metro Puerto Rico'],
-    sourceUrl: 'https://www.metro.pr/noticias/2025/03/14/daco-alerta-sobre-fraude-financiero-en-las-redes-sociales/',
-    country: 'PR',
-  },
-);
-International.push(
-  {
-    name: 'Puerto Rico Fake Banco Popular Account Alert Phishing Email',
-    slug: 'puerto-rico-fake-banco-popular-account-alert-phishing-email',
-    description: `Puerto Rico's Department of Consumer Affairs (DACO) warned on November 9, 2023, about a sophisticated phishing email campaign impersonating Banco Popular de Puerto Rico, the island's largest bank. The emails carry the bank's logo and falsely claim the recipient's account shows irregular electronic transfers, directing them to click a link to "resolve the problem" — a link that leads not to any real Banco Popular page but to a fake form built to harvest the victim's personal and account information for identity theft and further fraud. DACO traced one version of the campaign to a sender address, robert@markmanins.com, that has nothing to do with the bank, one of several signs the message is fraudulent despite its convincing appearance. Interim DACO Secretary Lisoannette González Ruíz said such schemes to defraud consumers "son cada vez más ingeniosos y refinados" ("are increasingly ingenious and refined"), and urged residents to check the actual sending address behind any bank email rather than trusting the display name or logo, to confirm they even hold an account with the bank named before reacting, to verify any claimed account issue directly through the bank's official app or by calling a number printed on a card or statement rather than one in the email, and to report suspicious messages to DACO.`,
-    categorySlug: 'phishing',
-    alertLevel: 'medium',
-    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'WIPR'],
-    sourceUrl: 'https://wipr.pr/daco-alerta-de-fraudes-electronicos-vinculados-a-banco-en-puerto-rico/',
-    country: 'PR',
-  },
-);
-International.push(
-  {
     name: 'Cayman Islands Bank Phone Impersonation Fraud',
     slug: 'cayman-islands-bank-phone-impersonation-fraud',
     description: `The Royal Cayman Islands Police Service (RCIPS) said in June 2026 that it was investigating a report of banking fraud after a victim received a phone call from someone claiming to be associated with a financial institution based in the Cayman Islands. During the call, the victim was persuaded to disclose personal banking information, which the caller then used to carry out unauthorised transactions on the victim's account, resulting in cash being stolen. Billy Pennington, president of the Cayman Islands Bankers Association (CIBA), said scammers are becoming increasingly sophisticated and creative, using tactics such as social engineering and artificial intelligence to impersonate trusted sources, clone voices, and build convincing fake messages or websites in order to steal sensitive information. RCIPS reminded the public that legitimate banks do not ask customers to read out full account numbers, PINs, one-time passcodes, or online banking credentials over an inbound phone call or messaging app, and urged anyone contacted this way to hang up and call their bank back using the number printed on a card or statement rather than any number supplied during the call.`,
@@ -22747,222 +22689,6 @@ International.push({
 });
 
 International.push({
-    name: "Tonga Police Warning: \"Anthony Heich\" Facebook Romance Scam Using Forged Documents",
-    slug: "anthony-heich-facebook-romance-scam-forged-documents",
-    description:
-      "Tonga Police have publicised a romance fraud in which a fake Facebook account using the name \"Anthony Heich\" sends unsolicited friend requests to Tongan users. The scammer chats continuously for around six weeks to convince the target they are in a genuine romantic relationship, then asks for money and backs the request up with fabricated paperwork. Police released images of some of the forged documents so the public can recognise the style of forgery being used. Their advice is to learn how to spot fake emails and websites, never post personal documents online where they can fuel identity theft, and treat any too-good-to-be-true offer as hostile. If someone you have only met online asks you for money, talk to a trusted person first and report the account to the Tonga Police before sending anything.",
-    categorySlug: "romance-scams",
-    alertLevel: "high",
-    sources: ["Tonga Police (Media & Public Relations Office)","Government of Tonga, Prime Minister's Office website"],
-    sourceUrl: "http://pmo.gov.to/latest-online-scam-reported-to-police/",
-    country: "TO",
-});
-
-International.push({
-    name: "Insurance Agent Premium Pocketing",
-    slug: "insurance-agent-premium-pocketing",
-    description:
-      "In this scheme a licensed insurance agent accepts a customer's premium payment but never forwards it to the insurance company, keeping the money instead. Because no policy is ever issued or kept in force, the customer believes they are covered and usually only finds out the truth when they file a claim and are told no coverage exists. The Mississippi Insurance Department lists this 'pocketing' of premiums among the agent fraud schemes consumers should watch for, and says it pursues cases through license revocations, cease-and-desist orders and criminal prosecution. Always ask for written confirmation of coverage directly from the insurance carrier, pay by check or card made out to the insurer rather than the agent personally, and verify your policy is active with the company itself. If you suspect an agent has kept your money, contact the Mississippi Insurance Department Consumer Help Line or the Insurance Integrity Enforcement Bureau of the Attorney General's Office.",
-    categorySlug: "insurance-fraud",
-    alertLevel: "medium",
-    sources: ["Mississippi Insurance Department, Consumer Services - Fight Insurance Fraud page","Insurance Integrity Enforcement Bureau, Mississippi Attorney General's Office"],
-    sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/fight-insurance-fraud/",
-    country: "MS",
-});
-
-International.push({
-    name: "Worthless Employer Health and Workers' Compensation Coverage",
-    slug: "worthless-employer-health-and-workers-compensation-coverage",
-    description:
-      "Unauthorized operators market unusually cheap health or workers' compensation plans to small businesses and professionals, but the entity behind the plan is not a real, licensed insurer. Employees enrolled through these arrangements can be left holding worthless health coverage, and employers can end up with bogus workers' compensation protection, meaning claims simply go unpaid. A related version targets physicians shopping for lower medical malpractice premiums by steering them into fictitious offshore companies. Because the operator is not an authorized carrier, there is no state guaranty-association backstop of the kind that protects policyholders when a licensed insurer fails. Before buying any group plan, confirm with the Mississippi Insurance Department that the company and the agent are licensed in the state, and report suspected unauthorized insurers to MID or the Attorney General's Insurance Integrity Enforcement Bureau.",
-    categorySlug: "insurance-fraud",
-    alertLevel: "high",
-    sources: ["Mississippi Insurance Department, Fight Insurance Fraud consumer page","Insurance Integrity Enforcement Bureau, Mississippi Attorney General's Office"],
-    sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/fight-insurance-fraud/",
-    country: "MS",
-});
-
-International.push({
-    name: "Counterfeit Bankak App Forged Transfer-Notification Scam",
-    slug: "counterfeit-bankak-app-forged-transfer-notification-scam",
-    description:
-      "Fraudsters in Sudan install a counterfeit clone of the Bankak mobile banking app (Bank of Khartoum) and use it to fake payments at shops and market stalls. At the till they show the merchant a screen displaying a transfer-confirmation notification for the purchase amount, but the message is generated locally by the fake app and no money ever leaves an account. Because cash is scarce and Bankak transfers have become the default way to pay, many merchants accept the on-screen or forwarded confirmation as proof and hand over goods before checking their own balance. Sudanese police have dismantled organised rings working shops in Khartoum State, including arrests in East Nile and Karrari localities. Never release goods on the strength of a customer's screenshot or notification: log in to your own Bankak account or check your balance and transaction history yourself, and report suspected fake-payment attempts to Bank of Khartoum and local police.",
-    categorySlug: "fake-check-overpayment",
-    alertLevel: "high",
-    sources: ["Bank of Khartoum customer fraud-awareness warning on Bankak impersonation and banking fraud","Khartoum State police / criminal investigation announcements of arrests in East Nile (December 2025) and Karrari (March 2026) localities, as carried by Sudanese news outlets"],
-    sourceUrl: "https://bankofkhartoum.com/sudan/news-detail/stay-alert-and-pay-attention-bankak",
-    country: "SD",
-});
-
-International.push({
-    name: "False Billing and Hacked-Invoice Payment Redirection in Kiribati",
-    slug: "false-billing-hacked-invoice-payment-redirection-kiribati",
-    description:
-      "Fraudsters send Kiribati households and businesses invoices for goods or services that were never ordered and never delivered, hoping the bill is paid without question. In a more damaging version, criminals break into a real business's email account and resend its genuine invoices to customers after swapping in a bank account they control, so the customer pays the right amount for real goods but the money goes to the scammer. ANZ Bank (Kiribati) Ltd documents both variants on its Kiribati customer scam-education page. Because the underlying transaction is legitimate, the theft is often only discovered weeks later when the real supplier chases payment. Always verify bank account details by phoning the supplier on a known number before paying, and treat any emailed change of payment details as suspicious until confirmed.",
-    categorySlug: "business-email-compromise",
-    alertLevel: "high",
-    sources: ["ANZ Bank (Kiribati) Ltd - Types of scams and fraud"],
-    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/",
-    country: "KI",
-});
-
-International.push({
-    name: "\"Help Us Catch the Hackers\" Fund Transfer Scam",
-    slug: "help-us-catch-the-hackers-fund-transfer-scam",
-    description:
-      "A caller or emailer posing as an investigator, official or bank representative tells the victim that their money must be moved to a local or offshore account to help with an investigation or to trap hackers and scammers. The victim is pushed toward payment channels that cannot be traced or reversed, including pre-loaded debit cards, gift cards, iTunes vouchers, Bitcoin and money transfer services. ANZ Bank (Kiribati) Ltd lists this scam on its Kiribati customer scam-education page. Once the transfer is made the funds are effectively unrecoverable, which is exactly why those payment methods are chosen. No genuine bank, police force or government office will ever ask you to move your own money to assist an investigation, so hang up and call the organisation back on a number you looked up yourself.",
-    categorySlug: "government-impersonation",
-    alertLevel: "high",
-    sources: ["ANZ Bank (Kiribati) Ltd - Types of scams and fraud"],
-    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/",
-    country: "KI",
-});
-
-International.push({
-    name: "ANZ Kiribati Internet Banking Credential Phishing",
-    slug: "anz-kiribati-internet-banking-credential-phishing",
-    description:
-      "Scammers impersonate ANZ Bank by email, text message or phone call and try to harvest internet banking log-on details from Kiribati customers. The message usually contains a link to a fake copy of the ANZ Internet Banking log-on page, or the caller simply asks the customer to read out a PIN, password or one-time security code. ANZ Bank (Kiribati) Ltd warns on its fraud protection page that it will never contact customers asking for these credentials. Its guidance is to never click a log-on link sent in an email and instead type the bank's web address into the browser yourself. If you receive such a message, do not respond, delete it, and contact the bank directly using a number from your bank statement or card.",
-    categorySlug: "phishing",
-    alertLevel: "medium",
-    sources: ["ANZ Bank (Kiribati) Ltd - Protecting yourself from fraud"],
-    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/protecting-yourself-from-fraud/",
-    country: "KI",
-});
-
-International.push({
-    name: "Serafe Residence Verification Phishing Email",
-    slug: "serafe-residence-verification-phishing-email",
-    description:
-      "Fraudsters send emails that appear to come from Serafe AG, the company that collects Switzerland's mandatory radio and TV licence fee, claiming your residence or domicile must be verified for your household fee account. The email links to a spoofed Serafe-branded form where any personal and payment details you enter go straight to the criminals. The lure works because the licence fee is compulsory and billed per household, so a request to confirm where you live looks like normal administrative procedure. Switzerland's Federal Office for Cybersecurity (BACS/NCSC) flagged this campaign in its week 48 weekly review in early December 2025. Never click links in unexpected Serafe messages; log in through the official serafe.ch address yourself, and report suspicious emails to BACS via its reporting form.",
-    categorySlug: "phishing",
-    alertLevel: "high",
-    sources: ["Bundesamt für Cybersicherheit (BACS/NCSC), Wochenrückblick 48, December 2025"],
-    sourceUrl: "https://www.ncsc.admin.ch/ncsc/de/home/aktuell/im-fokus/2025/wochenrueckblick_48.html",
-    country: "CH",
-});
-
-International.push({
-    name: "Falsche Polizisten Fake Police Officer Phone Scam",
-    slug: "falsche-polizisten-fake-police-officer-phone-scam",
-    description:
-      "Callers posing as Swiss police officers, often using spoofed or foreign-routed caller ID, telephone mostly elderly residents and claim a burglary gang is active in the neighbourhood or that the victim's bank is implicated in a crime. They insist the cash and jewellery kept at home are no longer safe, keep the victim on the line, and warn them not to contact family or their bank. A supposed officer then calls at the door or arranges a drop point to collect the valuables, which couriers move out of the country. Fribourg cantonal police recorded a record monthly high of these cases in November 2025, and St. Gallen cantonal police documented a Buchs case in December 2025 in which CHF 30,000 was handed over before three arrests. Real Swiss police never ask you to hand over cash or valuables for safekeeping, so hang up, call your local police on a number you look up yourself, and tell a relative what happened.",
-    categorySlug: "government-impersonation",
-    alertLevel: "critical",
-    sources: ["Kantonspolizei Freiburg / Police cantonale de Fribourg, November 2025 record high and subsequent arrests","Kantonspolizei St. Gallen, Buchs case, December 2025"],
-    sourceUrl: "https://www.fr.ch/de/sjsd/pol/news/betrug-durch-falsche-polizisten-neuer-hoechststand-im-kanton-freiburg-im-november",
-    country: "CH",
-});
-
-International.push({
-    name: "Bogotá Fake Traffic Ticket QR Code Windshield Scam",
-    slug: "bogota-fake-traffic-ticket-qr-code-windshield-scam",
-    description:
-      "Criminals in Bogotá place counterfeit traffic-violation notices (comparendos) under the windshield wipers of cars parked on public streets and in parking bays. The fake notice looks official and carries a printed QR code inviting the driver to scan it to check or pay the supposed infraction. Scanning leads to a fraudulent page that harvests bank credentials, passwords, identity documents and other personal data, which criminals then use to hijack email and social media accounts or to extort victims. Bogotá's Secretaría Distrital de Seguridad, Convivencia y Justicia says drivers should never enter confidential data on unfamiliar sites and should verify any comparendo only through official transit channels. Enable two-factor authentication on your accounts, and if you are threatened or extorted, call the Policía Nacional GAULA free line 165.",
-    categorySlug: "qr-code-scams",
-    alertLevel: "high",
-    sources: ["Secretaría Distrital de Seguridad, Convivencia y Justicia","Alcaldía Mayor de Bogotá","Canal Capital"],
-    sourceUrl: "https://bogota.gov.co/mi-ciudad/seguridad/alerta-en-bogota-por-estafa-con-codigos-qr-en-falsos-comparendos",
-    country: "CO",
-});
-
-International.push({
-    name: "Fake HoT Prepaid Top-Up Website",
-    slug: "fake-hot-prepaid-top-up-website",
-    description:
-      "Criminals have set up a convincing copy of the online top-up service (\"Aufladeservice\") of HoT, the Austrian prepaid mobile and internet brand sold through Hofer. Customers who land on the counterfeit site and try to load credit onto their phone or WLAN package are asked to enter their credit card details in a normal-looking payment form. No credit is ever added to the account, and the card data goes straight to the fraudsters, who can use it for further charges. Only top up through the official HoT app or by typing the official web address yourself rather than following search results, ads or links in messages. If you have already entered your card details, block the card with your bank immediately, check your statements and report the incident to Watchlist Internet and the police.",
-    categorySlug: "phishing",
-    alertLevel: "medium",
-    sources: ["Watchlist Internet (ÖIAT – Österreichisches Institut für angewandte Telekommunikation)"],
-    sourceUrl: "https://www.watchlist-internet.at/warnungen-tipps/online-shopping/",
-    country: "AT",
-});
-
-International.push({
-    name: "Fake \"Post Käufer:innenschutz\" Buyer-Protection Scam on Classifieds Sites",
-    slug: "fake-post-kaeuferinnenschutz-buyer-protection-scam",
-    description:
-      "This scam targets sellers on Austrian classified-ad platforms rather than buyers. Fraudsters pose as keen buyers and insist the deal be handled through a supposed buyer-protection service branded as the Österreichische Post, which does not actually exist. The seller is walked through this fake protection process and ends up handing over payment or card details instead of receiving money for the item. Austrian Post does not operate a buyer-protection scheme for private classified-ad sales, so treat any such request as a red flag. Keep communication and payment inside the platform's own official channels, never enter card data to \"receive\" money, and report suspicious buyers to the platform and to Watchlist Internet.",
-    categorySlug: "phishing",
-    alertLevel: "high",
-    sources: ["Watchlist Internet (ÖIAT)","Konsumentenfragen.at – consumer information portal of the Austrian Social Ministry"],
-    sourceUrl: "https://www.konsumentenfragen.at/konsumentenfragen/Digitalisierung/Digitalisierung/Warnung-der-Watchlist-Internet-Neue-Masche-mit-gefaelschtem.html",
-    country: "AT",
-});
-
-International.push({
-    name: "Fake Stiegl Prize Draw With €2 Shipping Fee",
-    slug: "fake-stiegl-prize-draw-shipping-fee",
-    description:
-      "A bogus online competition uses the name of the Salzburg brewery Stiegl and tells people they have won a cooler box filled with beer. To have the prize shipped, winners are asked to pay a token fee of about two euros by credit card. The tiny amount is the hook: the real aim is to capture credit card data and sign victims up for unwanted recurring charges, and no cooler box is ever delivered. Legitimate prize draws never require a card payment to release a prize. Ignore such offers, and if you have already paid, contact your bank to block the card and dispute the charges, then report the site to Watchlist Internet.",
-    categorySlug: "lottery-sweepstakes-scams",
-    alertLevel: "medium",
-    sources: ["Watchlist Internet (ÖIAT) – 2025 year-in-review of online fraud in Austria"],
-    sourceUrl: "https://www.watchlist-internet.at/news/jahresrueckblick-watchlist-2025/",
-    country: "AT",
-});
-
-International.push({
-    name: "Crypto Profit Callback Scam Targeting Slovenian Consumers",
-    slug: "crypto-profit-callback-scam",
-    description:
-      "Fraudsters cold-call people in Slovenia claiming that an old or forgotten cryptocurrency investment has produced a profit that is ready to be paid out. In reality there is no profit and, in most cases, there was never an original investment — the call itself is the fraud. To 'release' or 'verify' the supposed payout, the caller walks the victim through steps that hand over control of their finances, such as installing remote-access software or giving up banking credentials and payment authorisations. The Slovenian Police warn that the next step in this scheme is the emptying of the victim's bank account. If you receive such a call, hang up, never install software or share bank details or one-time codes, and report the contact to the police.",
-    categorySlug: "cryptocurrency-scams",
-    alertLevel: "high",
-    sources: ["Policija (Slovenian Police), General Police Directorate"],
-    sourceUrl: "https://www.policija.si/medijsko-sredisce/sporocila-za-javnost/sporocila-za-javnost-gpue/121417-ste-prejeli-telefonski-klic-o-zasluzku-s-kripto-valutami-v-naslednjem-koraku-vam-lahko-izpraznijo-bancni-racun-zato-pazljivo",
-    country: "SI",
-});
-
-International.push({
-    name: "Banka Slovenije Representative Impersonation Scam",
-    slug: "banka-slovenije-representative-impersonation-scam",
-    description:
-      "Criminals are contacting people in Slovenia while claiming to be representatives of Banka Slovenije, the country's central bank. According to the central bank's own public warning, the impersonators aim to get victims to disclose personal data and to induce them to transfer money abroad. The authority of the national bank's name is the whole leverage, because an ordinary consumer finds it hard to challenge a supposed central bank official. Banka Slovenije is a supervisory and monetary authority — it does not hold retail accounts for individuals and has no legitimate reason to phone a member of the public asking for personal details or ordering an outbound transfer. Refuse any such request, do not send money abroad on the instruction of an unexpected caller, and verify the contact through Banka Slovenije's published official channels.",
-    categorySlug: "government-impersonation",
-    alertLevel: "high",
-    sources: ["Banka Slovenije (central bank of Slovenia)"],
-    sourceUrl: "https://www.bsi.si/sl/mediji/objave/opozorilo-prevaranti-se-predstavljajo-kot-predstavniki-banke-slovenije-in-napeljujejo-k-razkrivanju-osebnih-podatkov-in-nakazilom-sredstev-v-tujino",
-    country: "SI",
-});
-
-International.push({
-    name: "Fake FURS Tax Authority Email Phishing",
-    slug: "fake-furs-tax-authority-email-phishing",
-    description:
-      "Phishing emails are circulating in Slovenia that are sent in the name of FURS, the Financial Administration of the Republic of Slovenia. The messages are crafted to look like official correspondence from the national tax and customs authority and rely on the recipient's assumption that mail from the tax office must be acted on immediately. Recipients are pushed to click links or open attachments in the email instead of logging in independently through the official eDavki portal. Because the sender identity is spoofed rather than the tax account itself being compromised, the defence is the same in every variant. Do not click links or open attachments in such messages — check any claimed tax matter by logging in directly to the official eDavki portal or contacting FURS through its published channels.",
-    categorySlug: "phishing",
-    alertLevel: "medium",
-    sources: ["Policija (Slovenian Police), General Police Directorate"],
-    sourceUrl: "https://www.policija.si/medijsko-sredisce/sporocila-za-javnost/sporocila-za-javnost-gpue/116054-pojav-laznih-elektronskih-sporocil-v-imenu-financne-uprave-rs-opozorilo-uporabnikom",
-    country: "SI",
-});
-
-International.push({
-    name: "BDCB Alert List: Unlicensed Firms Posing as Brunei-Regulated Financial Institutions",
-    slug: "bdcb-alert-list-unlicensed-financial-firms",
-    description:
-      "Companies and individuals approach people in Brunei offering deposits, investments, insurance or takaful, money-changing or remittance services while appearing to be licensed or supervised by the Brunei Darussalam Central Bank. BDCB describes them as entities that may be wrongly perceived as being licensed, authorised or regulated by the central bank, when in fact they hold no licence at all. Only licensed banks, insurers, takaful operators, capital-market institutions and money-changers may legally offer these services in Brunei, so anyone who hands money to an unlicensed operator has no regulatory protection or recourse. BDCB publishes and regularly updates a named Alert List of these entities. Before sending money, check the firm's name against the BDCB Alert List and licensed-institution registers, and if you have already paid, report it to the Royal Brunei Police Force (999/993) and to BDCB's Financial Consumer Issues unit on 2380007 / 8380007 or fci@bdcb.gov.bn.",
-    categorySlug: "investment-fraud",
-    alertLevel: "high",
-    sources: ["Brunei Darussalam Central Bank (BDCB) — BDCB Alert List and recurring 'BDCB Alert List Update' press releases"],
-    sourceUrl: "https://www.bdcb.gov.bn/consumer/bdcb-alert-list",
-    country: "BN",
-});
-
-International.push({
-    name: "Fake Local News Video About Brunei Currency Notes",
-    slug: "fake-local-news-video-brunei-currency-notes",
-    description:
-      "A fabricated video made to look like a Bruneian news report is circulating on social media and messaging apps, making false claims about Brunei Darussalam currency notes. Because it is dressed up as legitimate local news coverage and forwarded person to person, it lends false credibility to counterfeit-note claims and to the financial scam offers that travel alongside it. BDCB and Cyber Security Brunei issued a joint reminder about counterfeit notes and financial scams, urging the public to verify any offer that looks too good to be true. Do not forward clips like this, and check currency information only against official BDCB announcements. If you are offered notes or a deal based on such a video, report it to the Royal Brunei Police Force and to BDCB before parting with any money.",
-    categorySlug: "ai-deepfake-scams",
-    alertLevel: "medium",
-    sources: ["Brunei Darussalam Central Bank (BDCB) and Cyber Security Brunei (CSB) — joint reminder regarding counterfeit notes and financial scams"],
-    sourceUrl: "https://www.csb.gov.bn/reminder-regarding-counterfeit-notes-and-financial-scams",
-    country: "BN",
-});
-
-International.push({
   name: 'Costa Rica "Secuestro Virtual" (Virtual Kidnapping) Extortion Scheme',
   slug: 'costa-rica-virtual-kidnapping-extortion',
   description: `Criminals in Costa Rica lure a victim to an isolated meeting point under the pretext of hiring a service — construction, transport, or a sales appointment. Once there, the victim receives a call falsely claiming they are under surveillance and cannot leave, while accomplices simultaneously call the victim's family claiming a kidnapping has occurred and demanding an urgent bank transfer for their release. No one is actually being held; the entire scheme runs on the two simultaneous phone calls and the panic they manufacture in both the isolated victim and the frightened family. The Organismo de Investigación Judicial (OIJ) recorded at least 41 reported cases between January and May 2026, with the highest monthly total in March and cases concentrated in San José, Cartago, and Alajuela provinces, including the cantons of Pérez Zeledón, Santa Ana, and Mora.`,
@@ -23308,4 +23034,220 @@ International.push({
   country: 'GM',
   isHistorical: false,
   firstRecorded: '2023-08-23',
+});
+
+International.push({
+    name: "Tonga Police Warning: \"Anthony Heich\" Facebook Romance Scam Using Forged Documents",
+    slug: "anthony-heich-facebook-romance-scam-forged-documents",
+    description:
+      "Tonga Police have publicised a romance fraud in which a fake Facebook account using the name \"Anthony Heich\" sends unsolicited friend requests to Tongan users. The scammer chats continuously for around six weeks to convince the target they are in a genuine romantic relationship, then asks for money and backs the request up with fabricated paperwork. Police released images of some of the forged documents so the public can recognise the style of forgery being used. Their advice is to learn how to spot fake emails and websites, never post personal documents online where they can fuel identity theft, and treat any too-good-to-be-true offer as hostile. If someone you have only met online asks you for money, talk to a trusted person first and report the account to the Tonga Police before sending anything.",
+    categorySlug: "romance-scams",
+    alertLevel: "high",
+    sources: ["Tonga Police (Media & Public Relations Office)","Government of Tonga, Prime Minister's Office website"],
+    sourceUrl: "http://pmo.gov.to/latest-online-scam-reported-to-police/",
+    country: "TO",
+});
+
+International.push({
+    name: "Insurance Agent Premium Pocketing",
+    slug: "insurance-agent-premium-pocketing",
+    description:
+      "In this scheme a licensed insurance agent accepts a customer's premium payment but never forwards it to the insurance company, keeping the money instead. Because no policy is ever issued or kept in force, the customer believes they are covered and usually only finds out the truth when they file a claim and are told no coverage exists. The Mississippi Insurance Department lists this 'pocketing' of premiums among the agent fraud schemes consumers should watch for, and says it pursues cases through license revocations, cease-and-desist orders and criminal prosecution. Always ask for written confirmation of coverage directly from the insurance carrier, pay by check or card made out to the insurer rather than the agent personally, and verify your policy is active with the company itself. If you suspect an agent has kept your money, contact the Mississippi Insurance Department Consumer Help Line or the Insurance Integrity Enforcement Bureau of the Attorney General's Office.",
+    categorySlug: "insurance-fraud",
+    alertLevel: "medium",
+    sources: ["Mississippi Insurance Department, Consumer Services - Fight Insurance Fraud page","Insurance Integrity Enforcement Bureau, Mississippi Attorney General's Office"],
+    sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/fight-insurance-fraud/",
+    country: "MS",
+});
+
+International.push({
+    name: "Worthless Employer Health and Workers' Compensation Coverage",
+    slug: "worthless-employer-health-and-workers-compensation-coverage",
+    description:
+      "Unauthorized operators market unusually cheap health or workers' compensation plans to small businesses and professionals, but the entity behind the plan is not a real, licensed insurer. Employees enrolled through these arrangements can be left holding worthless health coverage, and employers can end up with bogus workers' compensation protection, meaning claims simply go unpaid. A related version targets physicians shopping for lower medical malpractice premiums by steering them into fictitious offshore companies. Because the operator is not an authorized carrier, there is no state guaranty-association backstop of the kind that protects policyholders when a licensed insurer fails. Before buying any group plan, confirm with the Mississippi Insurance Department that the company and the agent are licensed in the state, and report suspected unauthorized insurers to MID or the Attorney General's Insurance Integrity Enforcement Bureau.",
+    categorySlug: "insurance-fraud",
+    alertLevel: "high",
+    sources: ["Mississippi Insurance Department, Fight Insurance Fraud consumer page","Insurance Integrity Enforcement Bureau, Mississippi Attorney General's Office"],
+    sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/fight-insurance-fraud/",
+    country: "MS",
+});
+
+International.push({
+    name: "Counterfeit Bankak App Forged Transfer-Notification Scam",
+    slug: "counterfeit-bankak-app-forged-transfer-notification-scam",
+    description:
+      "Fraudsters in Sudan install a counterfeit clone of the Bankak mobile banking app (Bank of Khartoum) and use it to fake payments at shops and market stalls. At the till they show the merchant a screen displaying a transfer-confirmation notification for the purchase amount, but the message is generated locally by the fake app and no money ever leaves an account. Because cash is scarce and Bankak transfers have become the default way to pay, many merchants accept the on-screen or forwarded confirmation as proof and hand over goods before checking their own balance. Sudanese police have dismantled organised rings working shops in Khartoum State, including arrests in East Nile and Karrari localities. Never release goods on the strength of a customer's screenshot or notification: log in to your own Bankak account or check your balance and transaction history yourself, and report suspected fake-payment attempts to Bank of Khartoum and local police.",
+    categorySlug: "fake-check-overpayment",
+    alertLevel: "high",
+    sources: ["Bank of Khartoum customer fraud-awareness warning on Bankak impersonation and banking fraud","Khartoum State police / criminal investigation announcements of arrests in East Nile (December 2025) and Karrari (March 2026) localities, as carried by Sudanese news outlets"],
+    sourceUrl: "https://bankofkhartoum.com/sudan/news-detail/stay-alert-and-pay-attention-bankak",
+    country: "SD",
+});
+
+International.push({
+    name: "False Billing and Hacked-Invoice Payment Redirection in Kiribati",
+    slug: "false-billing-hacked-invoice-payment-redirection-kiribati",
+    description:
+      "Fraudsters send Kiribati households and businesses invoices for goods or services that were never ordered and never delivered, hoping the bill is paid without question. In a more damaging version, criminals break into a real business's email account and resend its genuine invoices to customers after swapping in a bank account they control, so the customer pays the right amount for real goods but the money goes to the scammer. ANZ Bank (Kiribati) Ltd documents both variants on its Kiribati customer scam-education page. Because the underlying transaction is legitimate, the theft is often only discovered weeks later when the real supplier chases payment. Always verify bank account details by phoning the supplier on a known number before paying, and treat any emailed change of payment details as suspicious until confirmed.",
+    categorySlug: "business-email-compromise",
+    alertLevel: "high",
+    sources: ["ANZ Bank (Kiribati) Ltd - Types of scams and fraud"],
+    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/",
+    country: "KI",
+});
+
+International.push({
+    name: "\"Help Us Catch the Hackers\" Fund Transfer Scam",
+    slug: "help-us-catch-the-hackers-fund-transfer-scam",
+    description:
+      "A caller or emailer posing as an investigator, official or bank representative tells the victim that their money must be moved to a local or offshore account to help with an investigation or to trap hackers and scammers. The victim is pushed toward payment channels that cannot be traced or reversed, including pre-loaded debit cards, gift cards, iTunes vouchers, Bitcoin and money transfer services. ANZ Bank (Kiribati) Ltd lists this scam on its Kiribati customer scam-education page. Once the transfer is made the funds are effectively unrecoverable, which is exactly why those payment methods are chosen. No genuine bank, police force or government office will ever ask you to move your own money to assist an investigation, so hang up and call the organisation back on a number you looked up yourself.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["ANZ Bank (Kiribati) Ltd - Types of scams and fraud"],
+    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/types-of-scams-and-fraud/",
+    country: "KI",
+});
+
+International.push({
+    name: "ANZ Kiribati Internet Banking Credential Phishing",
+    slug: "anz-kiribati-internet-banking-credential-phishing",
+    description:
+      "Scammers impersonate ANZ Bank by email, text message or phone call and try to harvest internet banking log-on details from Kiribati customers. The message usually contains a link to a fake copy of the ANZ Internet Banking log-on page, or the caller simply asks the customer to read out a PIN, password or one-time security code. ANZ Bank (Kiribati) Ltd warns on its fraud protection page that it will never contact customers asking for these credentials. Its guidance is to never click a log-on link sent in an email and instead type the bank's web address into the browser yourself. If you receive such a message, do not respond, delete it, and contact the bank directly using a number from your bank statement or card.",
+    categorySlug: "phishing",
+    alertLevel: "medium",
+    sources: ["ANZ Bank (Kiribati) Ltd - Protecting yourself from fraud"],
+    sourceUrl: "https://www.anz.com/kiribati/en/personal/ways-bank/protect-banking/protecting-yourself-from-fraud/",
+    country: "KI",
+});
+
+International.push({
+    name: "Serafe Residence Verification Phishing Email",
+    slug: "serafe-residence-verification-phishing-email",
+    description:
+      "Fraudsters send emails that appear to come from Serafe AG, the company that collects Switzerland's mandatory radio and TV licence fee, claiming your residence or domicile must be verified for your household fee account. The email links to a spoofed Serafe-branded form where any personal and payment details you enter go straight to the criminals. The lure works because the licence fee is compulsory and billed per household, so a request to confirm where you live looks like normal administrative procedure. Switzerland's Federal Office for Cybersecurity (BACS/NCSC) flagged this campaign in its week 48 weekly review in early December 2025. Never click links in unexpected Serafe messages; log in through the official serafe.ch address yourself, and report suspicious emails to BACS via its reporting form.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Bundesamt für Cybersicherheit (BACS/NCSC), Wochenrückblick 48, December 2025"],
+    sourceUrl: "https://www.ncsc.admin.ch/ncsc/de/home/aktuell/im-fokus/2025/wochenrueckblick_48.html",
+    country: "CH",
+});
+
+International.push({
+    name: "Falsche Polizisten Fake Police Officer Phone Scam",
+    slug: "falsche-polizisten-fake-police-officer-phone-scam",
+    description:
+      "Callers posing as Swiss police officers, often using spoofed or foreign-routed caller ID, telephone mostly elderly residents and claim a burglary gang is active in the neighbourhood or that the victim's bank is implicated in a crime. They insist the cash and jewellery kept at home are no longer safe, keep the victim on the line, and warn them not to contact family or their bank. A supposed officer then calls at the door or arranges a drop point to collect the valuables, which couriers move out of the country. Fribourg cantonal police recorded a record monthly high of these cases in November 2025, and St. Gallen cantonal police documented a Buchs case in December 2025 in which CHF 30,000 was handed over before three arrests. Real Swiss police never ask you to hand over cash or valuables for safekeeping, so hang up, call your local police on a number you look up yourself, and tell a relative what happened.",
+    categorySlug: "government-impersonation",
+    alertLevel: "critical",
+    sources: ["Kantonspolizei Freiburg / Police cantonale de Fribourg, November 2025 record high and subsequent arrests","Kantonspolizei St. Gallen, Buchs case, December 2025"],
+    sourceUrl: "https://www.fr.ch/de/sjsd/pol/news/betrug-durch-falsche-polizisten-neuer-hoechststand-im-kanton-freiburg-im-november",
+    country: "CH",
+});
+
+International.push({
+    name: "Bogotá Fake Traffic Ticket QR Code Windshield Scam",
+    slug: "bogota-fake-traffic-ticket-qr-code-windshield-scam",
+    description:
+      "Criminals in Bogotá place counterfeit traffic-violation notices (comparendos) under the windshield wipers of cars parked on public streets and in parking bays. The fake notice looks official and carries a printed QR code inviting the driver to scan it to check or pay the supposed infraction. Scanning leads to a fraudulent page that harvests bank credentials, passwords, identity documents and other personal data, which criminals then use to hijack email and social media accounts or to extort victims. Bogotá's Secretaría Distrital de Seguridad, Convivencia y Justicia says drivers should never enter confidential data on unfamiliar sites and should verify any comparendo only through official transit channels. Enable two-factor authentication on your accounts, and if you are threatened or extorted, call the Policía Nacional GAULA free line 165.",
+    categorySlug: "qr-code-scams",
+    alertLevel: "high",
+    sources: ["Secretaría Distrital de Seguridad, Convivencia y Justicia","Alcaldía Mayor de Bogotá","Canal Capital"],
+    sourceUrl: "https://bogota.gov.co/mi-ciudad/seguridad/alerta-en-bogota-por-estafa-con-codigos-qr-en-falsos-comparendos",
+    country: "CO",
+});
+
+International.push({
+    name: "Fake HoT Prepaid Top-Up Website",
+    slug: "fake-hot-prepaid-top-up-website",
+    description:
+      "Criminals have set up a convincing copy of the online top-up service (\"Aufladeservice\") of HoT, the Austrian prepaid mobile and internet brand sold through Hofer. Customers who land on the counterfeit site and try to load credit onto their phone or WLAN package are asked to enter their credit card details in a normal-looking payment form. No credit is ever added to the account, and the card data goes straight to the fraudsters, who can use it for further charges. Only top up through the official HoT app or by typing the official web address yourself rather than following search results, ads or links in messages. If you have already entered your card details, block the card with your bank immediately, check your statements and report the incident to Watchlist Internet and the police.",
+    categorySlug: "phishing",
+    alertLevel: "medium",
+    sources: ["Watchlist Internet (ÖIAT – Österreichisches Institut für angewandte Telekommunikation)"],
+    sourceUrl: "https://www.watchlist-internet.at/warnungen-tipps/online-shopping/",
+    country: "AT",
+});
+
+International.push({
+    name: "Fake \"Post Käufer:innenschutz\" Buyer-Protection Scam on Classifieds Sites",
+    slug: "fake-post-kaeuferinnenschutz-buyer-protection-scam",
+    description:
+      "This scam targets sellers on Austrian classified-ad platforms rather than buyers. Fraudsters pose as keen buyers and insist the deal be handled through a supposed buyer-protection service branded as the Österreichische Post, which does not actually exist. The seller is walked through this fake protection process and ends up handing over payment or card details instead of receiving money for the item. Austrian Post does not operate a buyer-protection scheme for private classified-ad sales, so treat any such request as a red flag. Keep communication and payment inside the platform's own official channels, never enter card data to \"receive\" money, and report suspicious buyers to the platform and to Watchlist Internet.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Watchlist Internet (ÖIAT)","Konsumentenfragen.at – consumer information portal of the Austrian Social Ministry"],
+    sourceUrl: "https://www.konsumentenfragen.at/konsumentenfragen/Digitalisierung/Digitalisierung/Warnung-der-Watchlist-Internet-Neue-Masche-mit-gefaelschtem.html",
+    country: "AT",
+});
+
+International.push({
+    name: "Fake Stiegl Prize Draw With €2 Shipping Fee",
+    slug: "fake-stiegl-prize-draw-shipping-fee",
+    description:
+      "A bogus online competition uses the name of the Salzburg brewery Stiegl and tells people they have won a cooler box filled with beer. To have the prize shipped, winners are asked to pay a token fee of about two euros by credit card. The tiny amount is the hook: the real aim is to capture credit card data and sign victims up for unwanted recurring charges, and no cooler box is ever delivered. Legitimate prize draws never require a card payment to release a prize. Ignore such offers, and if you have already paid, contact your bank to block the card and dispute the charges, then report the site to Watchlist Internet.",
+    categorySlug: "lottery-sweepstakes-scams",
+    alertLevel: "medium",
+    sources: ["Watchlist Internet (ÖIAT) – 2025 year-in-review of online fraud in Austria"],
+    sourceUrl: "https://www.watchlist-internet.at/news/jahresrueckblick-watchlist-2025/",
+    country: "AT",
+});
+
+International.push({
+    name: "Crypto Profit Callback Scam Targeting Slovenian Consumers",
+    slug: "crypto-profit-callback-scam",
+    description:
+      "Fraudsters cold-call people in Slovenia claiming that an old or forgotten cryptocurrency investment has produced a profit that is ready to be paid out. In reality there is no profit and, in most cases, there was never an original investment — the call itself is the fraud. To 'release' or 'verify' the supposed payout, the caller walks the victim through steps that hand over control of their finances, such as installing remote-access software or giving up banking credentials and payment authorisations. The Slovenian Police warn that the next step in this scheme is the emptying of the victim's bank account. If you receive such a call, hang up, never install software or share bank details or one-time codes, and report the contact to the police.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["Policija (Slovenian Police), General Police Directorate"],
+    sourceUrl: "https://www.policija.si/medijsko-sredisce/sporocila-za-javnost/sporocila-za-javnost-gpue/121417-ste-prejeli-telefonski-klic-o-zasluzku-s-kripto-valutami-v-naslednjem-koraku-vam-lahko-izpraznijo-bancni-racun-zato-pazljivo",
+    country: "SI",
+});
+
+International.push({
+    name: "Banka Slovenije Representative Impersonation Scam",
+    slug: "banka-slovenije-representative-impersonation-scam",
+    description:
+      "Criminals are contacting people in Slovenia while claiming to be representatives of Banka Slovenije, the country's central bank. According to the central bank's own public warning, the impersonators aim to get victims to disclose personal data and to induce them to transfer money abroad. The authority of the national bank's name is the whole leverage, because an ordinary consumer finds it hard to challenge a supposed central bank official. Banka Slovenije is a supervisory and monetary authority — it does not hold retail accounts for individuals and has no legitimate reason to phone a member of the public asking for personal details or ordering an outbound transfer. Refuse any such request, do not send money abroad on the instruction of an unexpected caller, and verify the contact through Banka Slovenije's published official channels.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Banka Slovenije (central bank of Slovenia)"],
+    sourceUrl: "https://www.bsi.si/sl/mediji/objave/opozorilo-prevaranti-se-predstavljajo-kot-predstavniki-banke-slovenije-in-napeljujejo-k-razkrivanju-osebnih-podatkov-in-nakazilom-sredstev-v-tujino",
+    country: "SI",
+});
+
+International.push({
+    name: "Fake FURS Tax Authority Email Phishing",
+    slug: "fake-furs-tax-authority-email-phishing",
+    description:
+      "Phishing emails are circulating in Slovenia that are sent in the name of FURS, the Financial Administration of the Republic of Slovenia. The messages are crafted to look like official correspondence from the national tax and customs authority and rely on the recipient's assumption that mail from the tax office must be acted on immediately. Recipients are pushed to click links or open attachments in the email instead of logging in independently through the official eDavki portal. Because the sender identity is spoofed rather than the tax account itself being compromised, the defence is the same in every variant. Do not click links or open attachments in such messages — check any claimed tax matter by logging in directly to the official eDavki portal or contacting FURS through its published channels.",
+    categorySlug: "phishing",
+    alertLevel: "medium",
+    sources: ["Policija (Slovenian Police), General Police Directorate"],
+    sourceUrl: "https://www.policija.si/medijsko-sredisce/sporocila-za-javnost/sporocila-za-javnost-gpue/116054-pojav-laznih-elektronskih-sporocil-v-imenu-financne-uprave-rs-opozorilo-uporabnikom",
+    country: "SI",
+});
+
+International.push({
+    name: "BDCB Alert List: Unlicensed Firms Posing as Brunei-Regulated Financial Institutions",
+    slug: "bdcb-alert-list-unlicensed-financial-firms",
+    description:
+      "Companies and individuals approach people in Brunei offering deposits, investments, insurance or takaful, money-changing or remittance services while appearing to be licensed or supervised by the Brunei Darussalam Central Bank. BDCB describes them as entities that may be wrongly perceived as being licensed, authorised or regulated by the central bank, when in fact they hold no licence at all. Only licensed banks, insurers, takaful operators, capital-market institutions and money-changers may legally offer these services in Brunei, so anyone who hands money to an unlicensed operator has no regulatory protection or recourse. BDCB publishes and regularly updates a named Alert List of these entities. Before sending money, check the firm's name against the BDCB Alert List and licensed-institution registers, and if you have already paid, report it to the Royal Brunei Police Force (999/993) and to BDCB's Financial Consumer Issues unit on 2380007 / 8380007 or fci@bdcb.gov.bn.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Brunei Darussalam Central Bank (BDCB) — BDCB Alert List and recurring 'BDCB Alert List Update' press releases"],
+    sourceUrl: "https://www.bdcb.gov.bn/consumer/bdcb-alert-list",
+    country: "BN",
+});
+
+International.push({
+    name: "Fake Local News Video About Brunei Currency Notes",
+    slug: "fake-local-news-video-brunei-currency-notes",
+    description:
+      "A fabricated video made to look like a Bruneian news report is circulating on social media and messaging apps, making false claims about Brunei Darussalam currency notes. Because it is dressed up as legitimate local news coverage and forwarded person to person, it lends false credibility to counterfeit-note claims and to the financial scam offers that travel alongside it. BDCB and Cyber Security Brunei issued a joint reminder about counterfeit notes and financial scams, urging the public to verify any offer that looks too good to be true. Do not forward clips like this, and check currency information only against official BDCB announcements. If you are offered notes or a deal based on such a video, report it to the Royal Brunei Police Force and to BDCB before parting with any money.",
+    categorySlug: "ai-deepfake-scams",
+    alertLevel: "medium",
+    sources: ["Brunei Darussalam Central Bank (BDCB) and Cyber Security Brunei (CSB) — joint reminder regarding counterfeit notes and financial scams"],
+    sourceUrl: "https://www.csb.gov.bn/reminder-regarding-counterfeit-notes-and-financial-scams",
+    country: "BN",
 });

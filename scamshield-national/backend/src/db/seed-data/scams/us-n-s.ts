@@ -10719,3 +10719,15 @@ UsNS.push({
     state: 'RI',
     isHistorical: false,
 });
+
+UsNS.push({
+    name: 'Puerto Rico "Trump Invest" Social Media Investment Scam',
+    slug: 'puerto-rico-trump-invest-social-media-investment-scam',
+    description: `Puerto Rico's Department of Consumer Affairs (DACO) warned on January 9, 2025, about false information spreading on social media for a supposed program called "Trump Invest," which promised subscribers monthly earnings of $8,500 in exchange for an initial deposit of just $250 — a return with no legitimate financial basis. The pitch traded on the incoming presidential administration's name to create an impression of a real, high-level opportunity, a tactic DACO said was designed to pressure people into acting before verifying anything. The agency reiterated the same warning again that March after continuing reports of financial fraud spreading through social media platforms, telling consumers "¡No caiga en engaños! Proteja su dinero y su seguridad" ("Don't fall for scams! Protect your money and your safety"). DACO advised consumers never to send payment or deposit money with an unknown source promoted only through social media, never to share banking information or a Social Security number with an unverified third party, to be wary of unsolicited investment pitches that arrive by message or email, and to verify any investment opportunity through official, independently confirmed channels before committing any money — reporting suspected fraud to DACO at (787) 722-7555.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'Metro Puerto Rico'],
+    sourceUrl: 'https://www.metro.pr/noticias/2025/03/14/daco-alerta-sobre-fraude-financiero-en-las-redes-sociales/',
+    country: 'US',
+    state: 'PR',
+});
