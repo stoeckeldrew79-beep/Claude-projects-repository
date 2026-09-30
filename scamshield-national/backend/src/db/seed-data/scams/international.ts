@@ -23081,3 +23081,15 @@ International.push({
   isHistorical: true,
   firstRecorded: '2021-09-08',
 });
+
+International.push({
+  name: 'AL Group Multimedia Online "Task" Job Scam',
+  slug: 'gambia-al-group-multimedia-job-task-scam',
+  description: `The Gambia Police Force's Fraud Unit investigated AL Group Multimedia Company Limited, an outfit that recruited Gambians into a purported "online marketing" job built around a leveling system — intern, then tutor, then "captain" — requiring increasingly large payments to advance and unlock promised daily earnings. Individual victims paid amounts including D2,900 to reach tutor level and D9,000 for captain level, with some victims investing D20,000 to D27,000 in total, and The Point reported 33 cases filed with police representing more than D1 million invested by victims. Five suspects were apprehended on August 23, 2023.`,
+  categorySlug: 'job-task-scams',
+  sources: ['Gambia Police Force Fraud Unit', 'The Point'],
+  sourceUrl: 'https://thepoint.gm/africa/gambia/headlines/gambia-youth-unemployment-minimum-wages-among-factors-of-internet-scamming',
+  country: 'GM',
+  isHistorical: false,
+  firstRecorded: '2023-08-23',
+});
