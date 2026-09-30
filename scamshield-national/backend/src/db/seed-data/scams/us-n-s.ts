@@ -10590,3 +10590,16 @@ UsNS.push({
     country: 'US',
     state: 'PR',
 });
+
+UsNS.push({
+    name: 'Jamaican Lottery Scam Targeting North Dakota Seniors (Sanjay Williams)',
+    slug: 'north-dakota-jamaican-lottery-scam-sanjay-williams',
+    description: `The FBI's North Dakota field office opened an investigation into an international Jamaican lottery scam after an agent interviewed a Harvey, North Dakota woman who had been defrauded out of $300,000 by callers telling her she'd won $19 million and a new car and just needed to pay taxes and fees first. The case was tried in the District of North Dakota: Sanjay Williams, of Montego Bay, Jamaica, was convicted at trial in May 2015 on conspiracy to commit wire and mail fraud, conspiracy to commit international money laundering, and 35 counts of wire fraud. On November 24, 2015, U.S. District Judge Daniel Hovland sentenced Williams in Bismarck to 20 years in federal prison and ordered him to pay $5,672,561.15 in restitution; more than 80 identified victims had combined losses exceeding $5.6 million. The Eighth Circuit rejected his appeal in November 2016.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    sources: ['FBI North Dakota Field Office', "U.S. Attorney's Office, District of North Dakota", 'Jamaica Gleaner'],
+    sourceUrl: 'https://jamaica-gleaner.com/article/news/20151125/us-federal-judge-sentences-jamaican-lottery-scammer-20-years',
+    country: 'US',
+    state: 'ND',
+    isHistorical: true,
+    firstRecorded: '2015-11-24',
+});
