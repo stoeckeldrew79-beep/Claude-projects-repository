@@ -11070,3 +11070,27 @@ UsGM.push({
     country: 'US',
     state: 'KY',
 });
+
+UsGM.push({
+    name: 'Change Healthcare Cyberattack Fake Refund Scam',
+    slug: 'maine-change-healthcare-cyberattack-fake-refund-scam',
+    description: `Following the February 21, 2024 Change Healthcare cyberattack, Maine's Bureau of Insurance warned that scammers were calling Maine consumers posing as hospital or health-insurer representatives and telling them they are entitled to a refund because of the cyberattack if they provide a credit card number. The Bureau stated that legitimate insurers and healthcare providers will never request a credit card number over the phone for a refund, and confirmed separately that Change Healthcare had not indicated any personal data of MaineCare members was improperly accessed as part of the incident.`,
+    categorySlug: 'data-breach-scams',
+    sources: ['Maine Bureau of Insurance'],
+    sourceUrl: 'https://www.maine.gov/pfr/insurance/press/maines-bureau-of-insurance-urges-maine-consumers-to-be-aware-of-potential-scams-related-to-the',
+    country: 'US',
+    state: 'ME',
+    firstRecorded: '2024-04-02',
+});
+
+UsGM.push({
+    name: 'Bank Text-Alert Smishing and Live 2FA Relay Scam',
+    slug: 'maine-credit-union-smishing-2fa-relay-scam',
+    description: `Maine banks and credit unions — including Town & Country Federal Credit Union and Katahdin Trust — warned in May 2026 of a smishing campaign in which fraudulent texts impersonate a fraud alert and link to a fake banking login page. After a victim enters their username and password there, the scammer calls in real time claiming to verify a suspicious transaction and asks them to read back the two-factor authentication code just texted to them. Town & Country VP Heidi Olson explained: "The fraudsters now have our members' usernames and passwords. They have the ammo they need to get into online banking and mobile banking. The only piece they're missing is the two-factor authentication code, which they're obtaining through these phone calls."`,
+    categorySlug: 'account-takeover',
+    sources: ['Town & Country Federal Credit Union', 'Katahdin Trust'],
+    sourceUrl: 'https://www.yahoo.com/news/us/articles/maine-banks-credit-unions-warn-195051657.html',
+    country: 'US',
+    state: 'ME',
+    firstRecorded: '2026-05-22',
+});
