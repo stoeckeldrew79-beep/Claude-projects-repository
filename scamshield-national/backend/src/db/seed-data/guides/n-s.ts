@@ -5225,6 +5225,10 @@ GuidesNS.push({
   slug: 'rent-a-bank-rent-a-tribe-payday-loan-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'rent-a-bank-scheme'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cheque_Centre_-_Carlton_St_-_geograph.org.uk_-_2020837.jpg?width=1200',
+  coverImageCredit: 'Photo: Betty Longbottom (CC BY-SA 2.0) — a payday/cheque-cashing storefront',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: 'https://dfpi.ca.gov/press_release/dbo-wins-landmark-california-supreme-court-ruling-in-major-tribal-payday-lending-case/',
   body: `An online loan advertises itself as issued by a small, out-of-state bank, or by a company describing itself as "an economic arm of" a named Native American tribe — either way, a lender that, on paper, isn't bound by the interest-rate cap your own state has set for everyone else. What's actually happening in most of these arrangements is that a high-cost consumer lender designs the loan, sets its underwriting criteria, and pays a small FDIC-supervised bank (or a nominally tribal entity) a fee to be listed as the official lender, before the loan is resold back to the original company within days, which then services it and collects nearly all of the revenue. Because federal law lets a chartered bank export its home state's interest rate nationwide — a real, legitimate rule that exists for genuine bank lending — or because tribes hold genuine sovereign immunity from many state laws, the arrangement borrows a legal shield meant for someone else's business and uses it to sell loans in states where those same rates would otherwise be illegal.
 
