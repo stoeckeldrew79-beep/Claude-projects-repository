@@ -11099,6 +11099,10 @@ NotoriousGM.push({
     slug: 'lai-changxing-yuanhua-group-smuggling',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'corruption', 'bribery', 'government-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Xiamen.jpg?width=1200',
+    coverImageCredit: 'Photo: Derekrogerson (Public Domain) — Xiamen, where Lai built the Yuanhua Group',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Lai Changxing grew up poor in rural Fujian province with little formal education, but by 1994 he had founded the Yuanhua Group in the Xiamen Special Economic Zone and built it into one of the largest private conglomerates in China, importing cars, cigarettes, oil, and textiles.
 
 What made Yuanhua's numbers possible wasn't trade volume — it was that most of what it imported never passed through customs honestly. From the mid-to-late 1990s, Lai's network smuggled cigarettes, cars, refined oil, vegetable oil, textiles, and other goods into China on a scale a Chinese court later put at $3.3 billion, evading an estimated $1.7 billion in customs duties and taxes along the way. The scheme worked because Lai had bought the compliance of the people meant to stop it: between 1996 and 1999, he and his associates bribed 64 officials, running from local customs officers up through Xiamen's local government, to wave shipments through, falsify paperwork, and look away.
@@ -11115,6 +11119,10 @@ NotoriousGM.push({
     slug: 'hyun-jae-hyun-tongyang-group-bond-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'securities-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seoul_Skyline_Night_2018.jpg?width=1200',
+    coverImageCredit: 'Photo: Sunyu Kim (CC0) — Seoul, home of Tongyang Group',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Tongyang Group began in 1957 as a confectionery business built by Lee Yang-gu before pivoting into cement manufacturing, eventually growing into one of South Korea's mid-tier chaebols. Hyun Jae-hyun, a former prosecutor, took over leadership in 1977 and expanded the conglomerate into 33 business units over the following decades — most consequentially into financial services, which by 2009 accounted for more than 70% of group revenue. That shift gave Tongyang something few troubled manufacturers have: its own captive brokerage, Tongyang Securities, sitting inside the same corporate family as the industrial units it would eventually need to bail out.
 
 By the early 2010s, several of Tongyang's non-financial affiliates were deeply distressed. Rather than let them default, prosecutors found, Hyun directed Tongyang Securities to keep issuing and selling those affiliates' corporate bonds and commercial paper directly to the brokerage's own retail customers — without disclosing how shaky the underlying businesses were. Tongyang Securities sold roughly 1.9 trillion won (about $1.8 billion) of this paper, much of it to individual investors who trusted a familiar brand name and a broker sitting across the desk from them, rather than the credit quality of companies that were quietly failing.
@@ -11131,6 +11139,10 @@ NotoriousGM.push({
     slug: 'gilbert-schulman-bevill-bresler-schulman-repo-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Luther_King_Jr._Federal_Courthouse,_Newark,_NJ,_USA.jpg?width=1200',
+    coverImageCredit: 'Photo: Carptrash (CC BY-SA 3.0) — the federal courthouse in Newark, New Jersey, where the BBS case was prosecuted',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Bevill, Bresler & Schulman, Inc. (BBS) was a New Jersey-based government securities dealer that, through the early 1980s, built a large book of business trading U.S. Treasury and agency securities with municipalities, savings and loan associations, and commercial banks across the country. Its customers weren't Wall Street sophisticates — they were the treasurers of local governments and financial institutions, parking money in what they were told was one of the safest instruments available: short-term repurchase agreements collateralized by government bonds.
 
 That collateral was the problem. BBS and its asset-management affiliate, Bevill, Bresler & Schulman Asset Management Corporation (AMC), had been wrongfully pledging the same customer-owned government securities to multiple counterparties at once in overlapping repurchase and reverse repurchase agreements — in effect promising the same bonds to more than one customer as security for their cash. Because government securities dealers were essentially unregulated at the federal level at the time, no outside check ever caught that the same collateral was doing double or triple duty.

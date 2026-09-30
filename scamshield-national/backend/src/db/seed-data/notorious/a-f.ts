@@ -10709,6 +10709,10 @@ NotoriousAF.push({
     slug: 'dursun-uyar-yimpas-holding-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'ponzi-scheme', 'affinity-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/%C4%B0stanbul_skyline_from_the_Marmara-hotel.JPG?width=1200',
+    coverImageCredit: 'Photo: Robster1983 (CC0) — Istanbul skyline',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `In the 1990s, a wave of so-called "Islamic holding" companies spread across Turkey and, through Turkey's large diaspora, into Germany. The pitch built on a real religious concern: interest is forbidden under Islamic law, so devout Turkish workers who had spent decades in Germany without formal banking relationships had few halal-compliant ways to save. These holdings offered a solution — buy a "share certificate" in a real trading and manufacturing conglomerate, earn a return through legitimate business profit rather than interest, in a setting that felt trustworthy: the certificates were sold through networks of mosque associations. Yimpaş Holding, founded in 1982 in the Turkish city of Yozgat by Dursun Uyar — previously chief accountant at its sister company Yibitaş — became one of the largest and most aggressive of these ventures.
 
 Yimpaş used real acquisitions to build credibility. Its German arm bought ten department stores from the Metro-Kaufhof-Horten group at the start of the 2000s, along with furniture shops and supermarkets, giving investors visible, physical businesses to point to. Behind that facade, the stores never generated the profits needed to support the returns Yimpaş was promising, and the certificate sales functioned less like equity in a functioning retailer and more like a pyramid: new investor money covered the appearance of returns while large sums moved out of the country. At its peak, Yimpaş is estimated to have taken in roughly €2.9 billion from investors, and German investigators traced approximately €293 million transferred out of Germany to Turkey through the group's administrative entity.
