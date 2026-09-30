@@ -7796,3 +7796,19 @@ The people responsible spent years staying ahead of Romanian justice. Vlaş fled
 FNI shows how quickly a young financial system can be turned against the public it's supposed to serve: a government-linked guarantee lent a private pyramid scheme institutional credibility, an entire country's household savings poured in within a matter of years, and the architects of the fraud spent the better part of two decades in flight, retrial, and appeal before facing anything close to accountability — a reminder that catching a fraud's collapse is far easier than actually collecting on the consequences that follow it.`,
     sourceUrl: 'https://ro.wikipedia.org/wiki/FNI',
 });
+NotoriousNS.push({
+    title: 'Stewart Parnell and the Salmonella-Tainted Peanut Butter That Killed Nine People',
+    slug: 'stewart-parnell-peanut-corporation-salmonella-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'food-safety-fraud', 'consumer-fraud'],
+    body: `Stewart Parnell owned and ran Peanut Corporation of America (PCA), a peanut-processing company headquartered in Lynchburg, Virginia, whose Blakely, Georgia plant supplied peanut paste, peanut butter, and roasted peanuts in bulk to other food companies rather than selling directly to consumers — its products went into everything from crackers to peanut butter served in nursing homes, schools, and prisons under brands that never carried the PCA name at all.
+
+Starting as early as 2007, the Blakely plant's own lab tests repeatedly came back positive for salmonella in its raw ingredients and finished product. Rather than destroy the contaminated batches or pause shipments, prosecutors showed that Parnell and other PCA employees shipped the product anyway — in some instances submitting paperwork attesting to negative test results before the tests had even been completed, and in others simply reordering a new test until one came back clean and discarding the positive results that came before it. Internal emails presented at trial captured Parnell's own instructions when told a shipment was overdue and the lab work wasn't finished: "just ship it."
+
+The result was one of the deadliest food-poisoning outbreaks in modern American history. The 2008-2009 outbreak sickened hundreds of confirmed victims across dozens of states — roughly half of them children — and was linked to nine deaths, including a hospice patient who contracted salmonella from peanut butter served at her care facility. The outbreak triggered what was then the largest food recall in U.S. history and forced PCA into bankruptcy within weeks of the contamination becoming public in early 2009.
+
+A federal jury in Albany, Georgia convicted Parnell in September 2014 on more than 65 counts, including conspiracy, mail and wire fraud, obstruction of justice, and other charges tied to introducing adulterated food into interstate commerce — the first time a food company executive had been convicted of a federal felony over a foodborne illness outbreak. On September 21, 2015, U.S. District Judge W. Louis Sands sentenced him to 336 months (28 years) in federal prison, the strongest sentence ever given in a foodborne-illness case; his brother Michael Parnell, a food broker who helped sell the tainted product, received 20 years, and PCA's quality-control manager Mary Wilkerson was sentenced to five years for obstructing the investigation.
+
+Parnell's case is a reminder that a certificate of analysis is only as trustworthy as the person willing to fabricate one, and that the same fraud playbook used to fake a bank statement or an audit report — falsify the document, ship anyway, hope nobody checks — can be applied just as easily to a lab result, with consequences measured in lives rather than dollars.`,
+    sourceUrl: 'https://time.com/4043511/peanut-executive-prison-salmonella-outbreak/',
+});
