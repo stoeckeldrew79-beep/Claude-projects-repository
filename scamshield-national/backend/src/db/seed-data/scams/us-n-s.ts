@@ -10881,3 +10881,86 @@ UsNS.push({
     state: 'NJ',
     firstRecorded: '2026-05-30',
 });
+
+UsNS.push({
+    name: 'Pennsylvania "Trusted Person" Cash-Pickup Scam',
+    slug: 'pennsylvania-trusted-person-rideshare-cash-pickup-scam',
+    description: `Attorney General Dave Sunday warned Pennsylvanians on April 20, 2026 of a scam twist in which criminals fabricate an emergency — an accident, an unpaid fine, fraudulent charges — and instead of wiring money or buying gift cards, direct the victim to hand cash in person to an intermediary, frequently a rideshare driver the victim has never met, while keeping the victim on the phone the entire time to prevent them from verifying the story. In one cited case, a mother was told her out-of-state daughter had been in an accident and needed $16,000 immediately, and an unknown Uber driver collected the cash while the scammers stayed on the line; in another, a victim who saw a fake Apple Pay fraud-alert pop-up was directed to call a number and withdraw $15,000 in cash for a supposed "government agent" to collect in person. The two cited Pennsylvania cases cost victims a combined total of more than $30,000. "Cash is a scammer's dream: it is virtually untraceable," Sunday said, and the AG's office urged anyone contacted about an urgent emergency or fraud alert to hang up, independently verify the story through a number they already have, and never hand cash to a stranger sent to collect it.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Office of Attorney General'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-warns-pennsylvanians-of-cash-scams-involving-trusted-person-pickups/',
+    country: 'US',
+    state: 'PA',
+    isHistorical: false,
+    firstRecorded: '2026-04-20',
+});
+
+UsNS.push({
+    name: 'Pennsylvania Fake State-Agency "Foreign Inheritance" Scam',
+    slug: 'pennsylvania-fake-state-agency-inheritance-scam',
+    description: `On June 24, 2025, the Shapiro Administration and Pennsylvania Insurance Department warned residents of a scheme in which fraudsters send emails impersonating actual Commonwealth of Pennsylvania employees, falsely informing the recipient — typically an older Pennsylvanian — that a distant, unknown relative has died abroad and left an inheritance being held by a foreign credit union or financial institution. Victims are pressured into paying a series of upfront "release" and "processing" fees, run through seemingly legitimate, licensed financial institutions to appear credible, with one documented case totaling hundreds of thousands of dollars paid over nearly a year. Unlike the classic anonymous "foreign lawyer" inheritance email, this version's hook is borrowed authority: the scammer claims to work for the victim's own state government, and officials noted that a legitimate Commonwealth email address always ends in "@pa.gov."`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Insurance Department', 'Shapiro Administration'],
+    sourceUrl: 'https://www.pa.gov/agencies/insurance/newsroom/shapiro-administration-warns-pennsylvanians-scammers-fake-inheritance',
+    country: 'US',
+    state: 'PA',
+    isHistorical: false,
+    firstRecorded: '2025-06-24',
+});
+
+UsNS.push({
+    name: "Split Rock Resort \"Bel Air Owner's Circle\" Timeshare Deception",
+    slug: 'split-rock-resort-bel-air-timeshare-deception',
+    description: `Pennsylvania Attorney General Michelle Henry sued Split Rock Investments LLC and SCH USA LLC, doing business as "Bel Air Owner's Circle," in 2023 over their operation of the timeshare program at Split Rock Resort in Lake Harmony, in the Poconos. The suit alleged the operators denied timeshare owners access and made reservations difficult to secure, provided downgraded accommodations while falsely calling them "upgrades," charged maintenance fees above the disclosed cap, and billed owners for recreational-facility usage fees even when they never used the facilities — all in violation of Pennsylvania's Unfair Trade Practices and Consumer Protection Law. The case settled on July 16, 2024, requiring the operators to pay $5,000 in civil penalties and $50,000 in costs and to fund a restitution pool of up to $250,000, available to eligible owners for only six months from the settlement.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Pennsylvania Office of Attorney General', 'WFMZ-TV'],
+    sourceUrl: "https://www.wfmz.com/news/area/poconos-coal/ag-lawsuit-against-resort-in-poconos-about-alleged-mistreatment-of-people-who-bought-timeshares-settled/article_6160d8a8-439c-11ef-be79-cf95a32a03e1.html",
+    country: 'US',
+    state: 'PA',
+    isHistorical: true,
+    firstRecorded: '2023-12-01',
+});
+
+UsNS.push({
+    name: 'Santa Ana Pueblo Tamaya Housing Fraud (Jeff Sisters)',
+    slug: 'new-mexico-santa-ana-pueblo-tamaya-housing-fraud',
+    description: `Sandra Jeff, 58 — a former New Mexico state representative who worked as Tamaya Housing Inc.'s office manager — and her sister Sharilene Jeff, 51, the organization's interim executive director, were federally indicted in August 2026 on conspiracy and theft charges. Tamaya Housing Inc. is the tribally designated housing entity serving Santa Ana Pueblo and is funded through HUD's Indian Housing Block Grant Program. Prosecutors allege that between 2021 and 2022 the sisters directed the organization to pay fake vendors for work that was never performed, then had much of that money collected back in cash through intermediaries at out-of-state meetings. Each defendant faces up to 10 years in federal prison if convicted, and Sharilene Jeff faces four additional counts of theft from a federally funded program.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of New Mexico"],
+    sourceUrl: 'https://www.justice.gov/usao-nm/pr/two-sisters-accused-stealing-federally-funded-tribal-housing-entity',
+    country: 'US',
+    state: 'NM',
+    isHistorical: false,
+    firstRecorded: '2026-08-01',
+});
+
+UsNS.push({
+    name: 'Curry County Representative-Payee Exploitation of a Disabled Sister',
+    slug: 'new-mexico-curry-county-representative-payee-exploitation',
+    description: `Kathy Benavidez served as the Social Security representative payee for her developmentally disabled sister, who lives in a care facility in Curry County, New Mexico. After the victim's son reported suspected abuse and neglect, the New Mexico Department of Justice's Medicaid Fraud and Elder Abuse Bureau investigated and found that her sister's Social Security-funded debit card had been used for more than $15,000 in personal purchases unrelated to her sister's care, rather than for the victim's benefit. A Curry County grand jury indicted Benavidez on five felony counts — exploitation and four counts of unauthorized withdrawal, theft, or use of another's card — carrying up to nine years in prison if she is convicted on all counts.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'low',
+    sources: ['New Mexico Department of Justice, Medicaid Fraud and Elder Abuse Bureau'],
+    sourceUrl: 'https://nmdoj.gov/press-release/attorney-general-raul-torrez-charges-woman-with-financial-exploitation-of-developmentally-disabled-relative/',
+    country: 'US',
+    state: 'NM',
+    isHistorical: false,
+});
+
+UsNS.push({
+    name: 'New Mexico Securities Division AI Deepfake and Voice-Cloning Scam Alert',
+    slug: 'new-mexico-securities-division-ai-deepfake-voice-cloning-alert',
+    description: `In a February 2026 consumer bulletin titled "Artificial Intelligence, Real Consequences," the New Mexico Securities Division, part of the Regulation and Licensing Department, warned that scammers are using AI-generated voice clones and video deepfakes to impersonate family members in fabricated emergencies, government officials from the IRS, Social Security, or law enforcement, and celebrities endorsing fraudulent investments, including "pig-butchering" romance-investment schemes. The bulletin notes that scammers can record a target's own voice to defeat voice-recognition account security, and flags red flags such as payment demanded in cryptocurrency or via cash courier, pressure to act immediately, and audio or video glitches. It recommends establishing a family "safe phrase" that isn't available online, letting unknown calls go to voicemail to avoid being recorded for cloning, and verifying any investment professional's license through the Securities Division before sending money.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['New Mexico Regulation and Licensing Department, Securities Division'],
+    sourceUrl: 'https://www.rld.nm.gov/wp-content/uploads/2026/02/AI-Scams-Handout-English.pdf',
+    country: 'US',
+    state: 'NM',
+    isHistorical: false,
+    firstRecorded: '2026-02-01',
+});
