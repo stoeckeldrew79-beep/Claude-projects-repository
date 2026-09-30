@@ -5933,6 +5933,44 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Virgin Islands Fake Central Violations Bureau Payment Website',
+    slug: 'virgin-islands-fake-central-violations-bureau-website-scam',
+    description: `The U.S. District Court of the Virgin Islands warned on September 11, 2025 that a fraudulent website was impersonating the official Central Violations Bureau (CVB) portal, www.cvb.uscourts.gov, which is used to pay federal petty-offense citations issued on federal property in the territory, such as violations inside a national park or federal building. The fake site is built to harvest personal and financial information from anyone who tries to pay a citation online rather than actually process a payment. Court officials said no confirmed victims had been reported in the Virgin Islands yet but urged residents to verify the exact web address before entering any payment details and to report suspicious sites directly to the CVB.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['District Court of the Virgin Islands'],
+    sourceUrl: 'https://www.vid.uscourts.gov/news/notice-fake-website-impersonating-central-violation-bureau',
+    country: 'US',
+    state: 'VI',
+    firstRecorded: '2025-09-11',
+});
+
+UsTZ.push({
+    name: '"We Buy Homes" Predatory Solicitation Scam Targeting Virgin Islands Homeowners',
+    slug: 'virgin-islands-we-buy-homes-predatory-solicitation-scam',
+    description: `AARP Virgin Islands warned in 2026 that older homeowners in the territory — particularly those who have owned property for decades and built up equity — are increasingly targeted by unsolicited "We Buy Homes" mailers, ads, and phone calls. The pitches use high-pressure tactics: demands for a fast sale, offers well below market value, false claims that back taxes are owed, and promises of an all-cash, as-is closing that are often followed by surprise deductions for "needed repairs" once a homeowner is locked in. AARP Virgin Islands writer Rebecca Hughson noted that stress from storm recovery, financial hardship, or the loss of a family member has made VI homeowners more susceptible to a fast-cash pitch, and urged residents to independently verify their property's market value and have any contract reviewed by an attorney or housing counselor before signing anything.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'low',
+    sources: ['AARP Virgin Islands'],
+    sourceUrl: 'https://www.aarp.org/states/virgin-islands/scams-are-hitting-close-to-home-in-the-us-virgin-islands-heres-how-to-stay-safe-and-fight-back/',
+    country: 'US',
+    state: 'VI',
+});
+
+UsTZ.push({
+    name: 'Virgin Islands Department of Health Spoofed License-Revocation Call Scam',
+    slug: 'virgin-islands-doh-spoofed-license-revocation-scam',
+    description: `The Virgin Islands Department of Health warned on May 7, 2026 that scammers were calling licensed healthcare providers and their employers in the territory, falsely claiming a provider's professional license had been suspended, revoked, or was under investigation. The callers spoof caller ID to display the Department's real published phone number, making the call appear to come from an official source, then pressure the provider to disclose personal or professional information to "resolve" the fabricated license issue. Health Commissioner Justa Encarnacion said the Department had not revoked any licenses and that real license actions are only ever communicated through formal written correspondence, never a phone call, and providers were told to hang up immediately and report suspicious calls to Acting Director of Licensure Renise James.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Virgin Islands Department of Health'],
+    sourceUrl: 'https://doh.vi.gov/virgin-islands-department-of-health-warns-of-fraudulent-calls-targeting-licensed-healthcare-providers/',
+    country: 'US',
+    state: 'VI',
+    firstRecorded: '2026-05-07',
+});
+
+UsTZ.push({
     name: 'Wisconsin DFI Order Against OrionCapital.live / AIPCapitalMarkets.com Crypto "Copy Trading" Scheme',
     slug: 'wisconsin-dfi-orioncapital-aipcapitalmarkets-copy-trading-fraud',
     description: `On December 18, 2025, the Wisconsin Department of Financial Institutions' Division of Securities issued a Summary Order to Cease and Desist (DFI Case No. S-251344 (EX)) against OrionCapital.live, its successor site AIPCapitalMarkets.com, and four respondents: Paul Thomas and Jeremiah Miracle Ogbo, both located in Nigeria, and two likely aliases, "Mitchell Maddison" and "Tener Genek" — the order notes Genek is probably a fictitious identity spoofing a real Greek copy trader of a similar name. The order describes how a Wisconsin investor identified only as "Investor CG" was approached in a Facebook group for "Dual-Income, No Kids" couples by "Maddison," who introduced CG to "Genek," a supposed expert cryptocurrency trader offering to let others "copy trade" his strategies.
