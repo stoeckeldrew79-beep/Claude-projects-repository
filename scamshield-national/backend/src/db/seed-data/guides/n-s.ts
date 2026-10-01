@@ -5244,6 +5244,10 @@ GuidesNS.push({
     slug: 'skin-gambling-video-game-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'underage-gambling', 'video-game-scams', 'loot-boxes'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roulette_casino.JPG?width=1200',
+    coverImageCredit: 'Photo: Oniff, CC BY-SA 4.0, via Wikimedia Commons — a casino roulette wheel, the mechanic skin-gambling sites mimic',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-sues-game-developer-promoting-illegal-gambling-through',
     body: `Opening a "weapon case" in a game like Counter-Strike 2 produces a randomized cosmetic item — a "skin" — with no effect on gameplay but real, sometimes enormous, cash value: one Counter-Strike skin sold for more than $1 million in June 2024, and the overall skin market was valued at over $4.3 billion as of March 2025. Those skins can be resold through the game's own marketplace or linked out to third-party websites — and a sizable ecosystem of those third-party sites doesn't just let people trade skins, it lets them wager them directly: spinning a roulette wheel, opening virtual cases for a chance at a rarer item, or betting on a coin flip, with skins functioning exactly like casino chips. New York's Attorney General sued Valve Corporation in February 2026 alleging the company not only built the loot-box mechanic that produces these wagerable items but actively facilitates and assists the third-party marketplaces that convert them into real-money gambling.
 
