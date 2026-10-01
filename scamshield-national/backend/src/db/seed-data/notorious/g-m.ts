@@ -11331,3 +11331,20 @@ Birrell spent nearly seven years as a fugitive before returning voluntarily to t
 Birrell's fraud predates the fake-return Ponzi schemes most readers associate with the word — his version worked by acquiring real, operating public companies entirely within the letter of corporate law, and then using exactly that legitimacy, board votes, merger paperwork, stock transfers, to bleed them from the inside. It's a reminder that looting doesn't always require deceiving someone into handing over money: sometimes it only requires gaining lawful control of an asset first, and relying on the fact that shareholders and creditors have no way to see what's happening to it until the bankruptcy filing arrives.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Lowell_Birrell',
 });
+
+NotoriousGM.push({
+    title: 'Marios Iliopoulos and the Brillante Virtuoso: The Faked Pirate Attack Behind a $77 Million Insurance Fraud',
+    slug: 'marios-iliopoulos-brillante-virtuoso-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `On July 6, 2011, the Suezmax oil tanker Brillante Virtuoso was sailing through the Gulf of Aden, roughly 20 nautical miles southwest of Aden, Yemen, carrying fuel oil cargo reported to be worth around $100 million, when its crew radioed that they were under attack by Somali pirates armed with small arms and a rocket-propelled grenade. A fire broke out on board, the crew abandoned ship, and the USS Philippine Sea responded to rescue all 26 Filipino crew members. No pirates were found anywhere near the scene.
+
+The story started falling apart almost as soon as marine surveyors got a close look at the damage. Rather than the outside-in penetration a real pirate attack would leave, investigators found that AK-47 rounds had been fired from inside the ship. The English High Court later found that the attack had been staged from the start: hired men posing as Somali pirates — actually present or former members of the Yemeni coast guard or navy — had been brought aboard with the cooperation of the vessel's own officers, while a local salvage firm stood ready to profit from the "rescue." The ship's beneficial owner, Greek shipping magnate Marios Iliopoulos, who was facing significant financial difficulties at the time, was found to have orchestrated the entire scheme in order to collect on a war-risk insurance policy covering the vessel.
+
+The fraud had already turned lethal before any court ruled on it. David Mockett, a British marine surveyor hired to inspect the stricken tanker in Aden, examined the damage and concluded the "pirate attack" didn't add up, believing it was carried out by a criminal gang as part of an insurance fraud — but before he could see his findings through, he was killed by a car bomb in Aden on July 20, 2011, just fourteen days after the incident. His murder remains unsolved as of 2025, and the case became the subject of an extensive Bloomberg Businessweek investigation and the 2022 nonfiction book "Dead in the Water," with a UK Member of Parliament raising the case in Parliament in October 2021 to highlight what he called failings of the country's prosecuting authorities.
+
+The insurers refused to pay, and the dispute — Suez Fortune Investments v Talbot Underwriting, known as "The Brillante Virtuoso" — went to trial in London's Commercial Court. After a lengthy hearing, the court ruled in 2019 that the vessel had been deliberately destroyed on Iliopoulos's instructions as an insurance fraud, relieving the war-risk underwriters of their roughly $77 million exposure. Despite that unusually detailed judicial finding, Iliopoulos has not faced criminal prosecution for the scheme.
+
+The case is a stark illustration of how far a maritime insurance fraud can escalate once an investigation threatens to expose it — and of the gap that can remain between a civil court's clear finding of fraud and any criminal accountability for the people it names.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Brillante_Virtuoso',
+});
