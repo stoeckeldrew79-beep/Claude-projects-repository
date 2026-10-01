@@ -10759,6 +10759,10 @@ NotoriousAF.push({
     title: 'Eric Poehlman: The First American Scientist Jailed for Faking Research Data',
     slug: 'eric-poehlman-research-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/University_of_Vermont_Morrill_Hall.jpg?width=1200',
+    coverImageCredit: 'Photo: HeyTomek (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'research-fraud', 'grant-fraud'],
     body: `Eric Poehlman was a University of Vermont College of Medicine professor whose research on menopause, aging, obesity, and hormone therapy carried real weight in the field — the kind of well-published, well-funded work that shapes how doctors think about treating women going through menopause. Between 1992 and 2000, prosecutors say, Poehlman fabricated and falsified data across roughly 17 grant applications to the National Institutes of Health and at least 10 published papers, inventing results that didn't match what his actual experiments had found.
 
@@ -10774,6 +10778,10 @@ NotoriousAF.push({
     title: 'Dong-Pyou Han and the Spiked Blood Samples Behind a Fake HIV Vaccine Breakthrough',
     slug: 'dong-pyou-han-hiv-vaccine-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Beardshear_Hall_-_Iowa_State_University_(48661099857).jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Webster (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'research-fraud', 'grant-fraud'],
     body: `Dong-Pyou Han worked under Professor Michael Cho on an NIH-funded effort to develop an HIV vaccine, first at Case Western Reserve University starting in 2008, then at Iowa State University after Cho's lab relocated there in 2009. At some point, a blood sample got accidentally contaminated, mixing human blood with rabbit blood — and the mix-up made it falsely look like rabbits injected with the experimental vaccine had developed real HIV-fighting antibodies. It was exactly the kind of result a struggling vaccine-research program needed to keep its funding alive.
 
@@ -10789,6 +10797,9 @@ NotoriousAF.push({
     title: 'Darleen Druyun and the Boeing Tanker Deal She Rigged for Her Own Job Offer',
     slug: 'darleen-druyun-boeing-tanker-scandal',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Darleen_Druyun.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Air Force (Public Domain)',
+    coverImagePosition: 50,
     tags: ['notorious', 'government-contract-fraud', 'corruption'],
     body: `Darleen Druyun held one of the most powerful procurement jobs in the Pentagon: Principal Deputy Undersecretary of the Air Force for Acquisition, with direct authority over billions of dollars in Air Force contracts with Boeing, the service's largest single supplier. While still overseeing those contracts, Druyun was secretly negotiating her own next job with the company she was supposed to be holding to account.
 
@@ -10804,6 +10815,10 @@ NotoriousAF.push({
     title: 'AMB Research Center: The Miami Clinic That Faked Clinical Trial Subjects With Stolen Identities',
     slug: 'amb-research-center-clinical-trial-fraud-miami',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Miami,_Florida_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Wilfredor (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'research-fraud', 'identity-theft'],
     body: `AMB Research Center Inc. was a Miami medical clinic in the business of running clinical trials on behalf of pharmaceutical sponsors — the kind of contract-research operation drug companies rely on to enroll real patients, collect real data, and prove a new treatment is safe before it reaches the public. Miguel Angel Montalvo Villa co-owned the clinic and served as its president and CEO; Ivette Maria Portela Martinez worked there as a recruiter, site manager, data-entry specialist, and pharmacist. Between September 2015 and March 2018, the two ran a trial for an experimental drug meant to treat Clostridium difficile-associated diarrhea (CDAD) — and much of what they reported back to the sponsor about it was invented.
 
@@ -10819,6 +10834,10 @@ NotoriousAF.push({
     title: 'Dante Tan, Johnny Yap, and the BW Resources Scandal That Rocked the Philippine Stock Exchange',
     slug: 'dante-tan-johnny-yap-bw-resources-stock-scandal',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Philippine_Stock_Exchange_Plaza,_Ayala_Triangle,_Makati_City.jpg?width=1200',
+    coverImageCredit: 'Photo: Ralff Nestor Nacor (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'securities-fraud', 'market-manipulation', 'international'],
     body: `In 1999, shares of BW Resources Corp., a loss-making Philippine gaming and leisure company, rose from roughly 2 pesos to a peak of 107 pesos within a single year — a surge of more than 5,000 percent for a company that posted a net loss that same year and had no corporate fundamentals to justify the run-up. The company was controlled by Dante Tan, a businessman who had been a financial contributor to President Joseph Estrada's 1998 campaign and was widely described in the Philippine press as an Estrada crony; BW was hyped at the time as a listing vehicle for the president's allies' gaming and property interests.
 

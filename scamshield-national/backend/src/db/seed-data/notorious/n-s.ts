@@ -7837,6 +7837,10 @@ NotoriousNS.push({
     title: 'Paul Kornak and the Falsified VA Clinical Trial Records That Killed a Patient',
     slug: 'paul-kornak-va-clinical-trial-fraud-homicide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Knox_Street_Historic_District.jpg?width=1200',
+    coverImageCredit: 'Photo: Matt H. Wade (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'research-fraud'],
     body: `Paul Kornak was hired in October 2000 as a program specialist at the Stratton VA Medical Center in Albany, New York, and put in charge of coordinating pharmaceutical clinical trials run out of the hospital — despite having flunked out of medical school and lied about a prior felony conviction for forging a medical-license application to get the job in the first place. As site coordinator for studies including trials known as FeAST, Tax 325, Tax 327, and DFMO, Kornak controlled the records that determined which veterans were eligible to be enrolled in experimental drug treatments.
 

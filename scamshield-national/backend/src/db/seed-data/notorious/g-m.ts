@@ -11214,6 +11214,10 @@ NotoriousGM.push({
     title: 'James Soriano and the Navy Contracting Bribery Scheme That Steered Over $100 Million in Defense Contracts',
     slug: 'james-soriano-navy-contracting-bribery-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_Naval_Ocean_Systems_Center_Tower_off_San_Diego_c1978.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Navy (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'government-contract-fraud', 'corruption', 'bribery'],
     body: `James Soriano was a civilian engineer and contracting officer representative at the Naval Information Warfare Center in San Diego, a position that gave him real influence over which defense contractors won and kept lucrative Navy task orders. From roughly 2014 through October 2019, a rotating cast of contractors treated that influence as something worth paying for, and Soriano was willing to sell it.
 
@@ -11229,6 +11233,10 @@ NotoriousGM.push({
     title: "The Inverlink Scandal: How a Leaked Password Toppled Chile's Central Bank Leadership",
     slug: 'inverlink-scandal-chile-central-bank-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/BancoCentralChile.JPG?width=1200',
+    coverImageCredit: 'Photo: Carlos yo (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'bank-fraud', 'bribery', 'international'],
     body: `In February 2003, a routine piece of office carelessness exposed one of Chile's largest financial-sector corruption scandals. Pamela Andrada, personal secretary to Carlos Massad, then chairman of the Central Bank of Chile, was caught sending confidential internal bank documents and insider information from Massad's own computer to Enzo Bertinelli, a former chief executive of Inverlink, a prominent Chilean financial group. The leak gave Inverlink advance insight into the central bank's thinking on monetary policy and markets — information no outside trading firm was supposed to have.
 
