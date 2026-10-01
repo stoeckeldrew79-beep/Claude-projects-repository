@@ -19247,6 +19247,41 @@ International.push({
     firstRecorded: '2026-07-13',
 });
 
+International.push({
+    name: 'Mobile Money Agent "Fake Network Confirmation" Float-Theft Scheme',
+    slug: 'tz-mobile-money-agent-float-theft-scheme',
+    description: `Fraudsters build trust with mobile money agents through small legitimate transactions, then send fabricated SMS messages designed to look like official network-operator transaction confirmations to trick agents into releasing cash for withdrawals that were never actually funded, often coordinating with accomplices to withdraw in quick increments before the agent notices. In Kariakoo, Dar es Salaam, agent Sifa Mwakibete lost Sh7 million this way after fraudsters posed as customers requesting large withdrawals; in another reported case, Dar es Salaam agent Leila Kisiel's customer was defrauded of Sh1.8 million through the same SMS-spoofing tactic, after the fraudster asked to use the agent's transaction phone and inserted their own number to impersonate the network operator. The Tanzania Police Force ran agent-training sessions in April 2026, with Inspector Ferister Kaywanga urging agents to verify funds before releasing cash and to never hand their transaction phone to a customer.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['The Citizen (Tanzania)', 'Tanzania Police Force'],
+    sourceUrl: 'https://www.thecitizen.co.tz/tanzania/news/national/mobile-money-agents-hit-by-rising-wave-of-fraud-cases-5463682',
+    country: 'TZ',
+});
+
+International.push({
+    name: 'Zanzibar Government Reserve Land Broker Fraud',
+    slug: 'tz-zanzibar-reserve-land-broker-fraud',
+    description: `Zanzibar Land Commission Executive Secretary Mussa Kombo Bakari warned on September 30, 2026 that unlicensed brokers are advertising and selling government agricultural and forest reserve land on social media in Paje, Jambiani, Fumba, Bwejuu, Michamvi, Makunduchi, and Kendwa without verifying ownership, stating that "some of these areas do not belong to the people using brokers to advertise them for sale. Some are Government agricultural and forest reserves." Bakari said the Commission would begin arresting those who advertise such land and require them to identify who hired them, with violations of the Land Commission Act No. 6 of 2015 and Land Tenure Act No. 12 of 1992 carrying fines and imprisonment. Prospective buyers are advised to verify a plot's ownership and status with the Land Commission before paying anything.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['Zanzibar Land Commission', 'The Citizen (Tanzania)'],
+    sourceUrl: 'https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-warns-land-brokers-over-sale-of-government-plots-5615548',
+    country: 'TZ',
+    firstRecorded: '2026-09-30',
+});
+
+International.push({
+    name: 'Fake Police Officer Abduction and Extortion Scheme',
+    slug: 'tz-fake-police-officer-abduction-extortion',
+    description: `Geita Regional Police Commander Safia Jongo publicly warned on April 8, 2025 of increasing reports of abductions by individuals dressed in police uniforms and using vehicles believed to be government-owned, who fail to identify themselves or their station before detaining people, stating that "if someone cannot do that, they are not a police officer; they could be a bandit or criminal impersonating law enforcement." Jongo also said it is illegal for ward or village executive officers to run unofficial local detention centers, a practice tied to the same pattern of unauthorized detention, excessive force, and extortion. The public is advised to demand a valid police ID, the officer's home station, and a search warrant before submitting to any arrest or search.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Tanzania Police Force', 'The Citizen (Tanzania)'],
+    sourceUrl: 'https://www.thecitizen.co.tz/tanzania/news/national/no-arrest-without-id-tanzania-s-police-warns-public-against-fake-officers-4996062',
+    country: 'TZ',
+    firstRecorded: '2025-04-08',
+});
+
 International.push(
   {
     name: 'ADV Advertising "ADVAPP" Vending-Machine Pyramid Scheme',
