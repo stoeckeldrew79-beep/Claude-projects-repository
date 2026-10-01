@@ -11023,3 +11023,41 @@ UsNS.push({
     country: 'US',
     state: 'VT',
 });
+
+UsNS.push({
+    name: 'Shadai Yire Evangelical Christian Ponzi Scheme (Ricardo Bonilla Rojas)',
+    slug: 'puerto-rico-shadai-yire-evangelical-ponzi-scheme',
+    description: `From August 2005 through February 2009, Ricardo Bonilla Rojas of Arecibo, Puerto Rico ran a Ponzi scheme through his company Shadai Yire, raising at least $7 million from roughly 200 investors — most in Puerto Rico, with others in Florida, New York, and North Carolina — by soliciting through personal phone calls, in-person meetings, and presentations to evangelical Christian congregations and factory workers, groups the SEC later described as largely inexperienced investors. Rojas told investors their principal was "100% guaranteed" and promised returns of up to 50 percent from trading in commodities, but according to the SEC's August 21, 2012 complaint he never actually traded commodities with the money; instead he used new investors' contributions to pay "returns" to earlier investors, created fabricated account statements to hide the shortfall, and personally misappropriated roughly $700,000. Eric I. Bustillo, director of the SEC's Miami Regional Office, said at the time that "Rojas targeted novice investors who were often evangelical Christians, and he touted a long history of successful trading in commodities. In reality, he was fleecing the flock." The U.S. Attorney's Office for the District of Puerto Rico filed parallel criminal charges over the same conduct. The case is a reminder that a pooled investment pitched inside a trusted community setting — a church group, a factory break room — deserves the same independent verification as any cold call: check whether the person and the fund are registered with the SEC or CFTC, and treat a "guaranteed" return with no downside as disqualifying on its own.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    isHistorical: true,
+    sources: ['U.S. Securities and Exchange Commission (SEC)', "U.S. Attorney's Office, District of Puerto Rico"],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2012-2012-161htm',
+    country: 'US',
+    state: 'PR',
+});
+
+UsNS.push({
+    name: 'Mayagüez Municipality Investment Adviser Fraud (Eugenio García Jiménez Jr.)',
+    slug: 'puerto-rico-mayaguez-garcia-jimenez-investment-fraud',
+    description: `In 2016, Eugenio García Jiménez Jr., an unregistered investment adviser based in Orlando, Florida, convinced officials of the Municipality of Mayagüez, Puerto Rico to let him invest roughly $9 million of taxpayer funds, promising annual returns of about 10 percent with no risk to principal — money the city intended to use to fund municipal projects, including construction of a new trauma center. According to the SEC's December 1, 2020 complaint, filed in federal court in Puerto Rico, García never ran the investment strategy he described; instead he bought U.S. Treasury notes, immediately took out a margin loan against them, and over roughly six months funneled $7.1 million to himself, entities he controlled, and his associates, using falsified bank correspondence and brokerage documents to keep the fraud hidden from city officials. Eric I. Bustillo, director of the SEC's Miami Regional Office, said García "took advantage of that trust and misappropriated millions of dollars of taxpayer funds, causing the municipality great harm." The SEC won a final judgment against García on its civil fraud claims, and on September 15, 2022 he pleaded guilty in the U.S. District Court for the District of Puerto Rico to a federal criminal count of conspiracy to commit wire fraud and a related money-laundering count. The case shows that even sophisticated government bodies can be defrauded by an adviser who was never registered with the SEC or Puerto Rico's securities regulator in the first place — a status any municipality, pension fund, or nonprofit board handling public money should verify independently through the SEC's Investment Adviser Public Disclosure database (adviserinfo.sec.gov) before wiring a single dollar.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    isHistorical: true,
+    sources: ['U.S. Securities and Exchange Commission (SEC)', "U.S. Attorney's Office, District of Puerto Rico"],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2020-299',
+    country: 'US',
+    state: 'PR',
+});
+
+UsNS.push({
+    name: 'Abandoned-House "Rent-to-Own" Fraud ("Tito Cabra")',
+    slug: 'puerto-rico-abandoned-house-rental-fraud-tito-cabra',
+    description: `Puerto Rico police in Toa Baja arrested 64-year-old Eduardo Osorio, known locally as "Tito Cabra," after a victim filed a complaint in July 2023 alleging he had been defrauded out of $10,000 for a rent-to-own agreement on a house that wasn't Osorio's to sell. According to the complaint, Osorio had entered a vacant, abandoned house, renovated it, and then marketed and rented it out as though he were the legitimate owner; the victim moved in and lived there for roughly a year before the property's actual owner had him evicted, leaving him out the full $10,000 with no recourse against Osorio. Osorio was charged with aggravated illegal appropriation and fraud, held on $100,000 bail he could not post, and jailed in Bayamón pending a preliminary hearing; he told reporters after his arrest that he was innocent and that he had in fact sold the house to the victim under a lease-to-own arrangement before later telling him to leave. The case is a reminder — especially relevant in a territory with a large stock of hurricane-damaged and abandoned housing — that a landlord or seller who can't produce a deed, a tax (CRIM) record, or a title search showing their own legal ownership of a property should be treated as a red flag no matter how finished and move-in-ready the house looks; a prospective renter or buyer can verify true ownership before paying anything through Puerto Rico's Registro de la Propiedad or a title company.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Univision Puerto Rico'],
+    sourceUrl: 'https://www.univision.com/local/puerto-rico-wste/tito-cabra-invadia-casas-abandonadas-alquiler-renta-puerto-rico-estafa-victimas',
+    country: 'US',
+    state: 'PR',
+});
