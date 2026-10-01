@@ -11644,3 +11644,40 @@ UsGM.push({
     country: 'US',
     state: 'MT',
 });
+
+UsGM.push({
+    name: 'Fake Online Gambling Ads Impersonating Mississippi Gulf Coast Casinos',
+    slug: 'mississippi-fake-online-casino-gambling-ads-scam',
+    description: `Scammers posted dozens of fake Facebook, Instagram, and Messenger ads using stolen Beau Rivage Resort & Casino logos and photos to falsely claim the Biloxi casino now offers online gambling, complete with a "$1,000 welcome bonus" and 100 free spins. Clicking through led not to the real casino but to a third-party site requesting personal identification before enabling paid gameplay, with no actual connection to Beau Rivage — and since online gambling is illegal in Mississippi outside licensed in-casino sports betting apps, the ads were an obvious red flag in hindsight. Beau Rivage's own public relations office and Mississippi Gaming Commission Executive Director Jay McDaniel both confirmed the ads were a hoax, with McDaniel noting such scams are "becoming more prevalent" and are typically run by groups outside the country that are difficult to trace or hold accountable. Anyone who sees an ad offering "online gambling" or a sign-up bonus tied to a Mississippi casino's name or branding should assume it is fraudulent, verify directly through the casino's own official website or app, and never enter personal or financial information on a site reached through a social media ad.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Sun Herald', 'Mississippi Gaming Commission'],
+    sourceUrl: 'https://www.gamblingnews.com/news/fake-online-gambling-ads-target-beau-rivage-resort-and-casino/',
+    country: 'US',
+    state: 'MS',
+});
+
+UsGM.push({
+    name: "Harrison County Sheriff's Office Fake Warrant/Jury-Duty Bitcoin Scam",
+    slug: 'mississippi-harrison-county-sheriff-warrant-bitcoin-scam',
+    description: `Callers spoofing the Harrison County Sheriff's Office's real phone number pose as deputies and tell Mississippi Gulf Coast residents they missed jury duty and have an active arrest warrant, then demand payment by bitcoin or other electronic platforms to avoid being taken into custody. In some cases scammers mail or text victims a falsified arrest warrant bearing their name and what appears to be the signature of a Sheriff's Office representative to make the threat look official. In a March 28, 2025 press release, Sheriff Matt Haley confirmed the calls were fraudulent, noting the department has been fighting the recurring scam for a couple of years and that scammers can spoof caller ID to make it look like a call is genuinely coming from the Sheriff's Office. Haley reminded the public that "the Sheriff's Office will never request money over the phone or email," and urged anyone contacted this way to hang up and visit the office in person or call using an independently verified number to confirm their status before paying anything.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Harrison County Sheriff's Office"],
+    sourceUrl: 'https://www.harrisoncountysheriff.com/theme/assets/pdfs/2025-releases/Press-release-scam-calls.pdf',
+    country: 'US',
+    state: 'MS',
+    firstRecorded: '2025-03-28',
+});
+
+UsGM.push({
+    name: 'Mississippi Farm Bureau Insurance Fraudulent Check & Letter Scam',
+    slug: 'mississippi-farm-bureau-insurance-fake-check-scam',
+    description: `Mississippi Farm Bureau Casualty Insurance Company customers have received fraudulent letters and checks falsely issued in the company's name, with instructions telling the recipient to call or text a phone number before depositing the check at their bank. Mississippi Farm Bureau states plainly that it "does not require preauthorization on company-issued checks," making any instruction to contact a number before depositing a clear sign the check and letter are not genuinely from the company. The insurer directs anyone who receives one of these fraudulent checks or letters to contact their local Farm Bureau agent or adjuster immediately rather than calling the number printed on the letter, and to report it to the Mississippi Insurance Department's Fraud Division, the Mississippi Attorney General's Insurance Integrity Enforcement Bureau, or the National Insurance Crime Bureau.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Mississippi Farm Bureau Casualty Insurance Company'],
+    sourceUrl: 'https://msfbins.com/fraud-alert/',
+    country: 'US',
+    state: 'MS',
+});
