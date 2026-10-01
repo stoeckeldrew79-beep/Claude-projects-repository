@@ -6488,3 +6488,39 @@ UsTZ.push({
     state: 'VI',
     firstRecorded: '2025-06-03',
 });
+
+UsTZ.push({
+    name: 'Norfolk EBT Card Skimming and "Locked Benefits" Phishing Scam',
+    slug: 'virginia-norfolk-ebt-card-skimming-phishing-scam',
+    description: `In June and July 2026, the Norfolk Department of Human Services and the Virginia Department of Social Services warned SNAP/EBT cardholders about scammers impersonating benefits agencies through fake text messages, phone calls, and physical card-skimming devices. The messages falsely claim a card is "locked or suspended" or shows "suspicious activity," pressuring recipients to click a malicious link or call an attacker-controlled number and hand over their EBT card number and PIN. Agencies stressed that legitimate benefit communications never ask cardholders to provide their PIN, and directed residents to lock their card when not in use via the ConnectEBT app and report any compromise through the EBT Customer Service Helpdesk at 866-281-2448.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Norfolk Department of Human Services', 'Virginia Department of Social Services'],
+    sourceUrl: 'https://www.norfolk.gov/m/newsflash/home/detail/10327',
+    country: 'US',
+    state: 'VA',
+});
+
+UsTZ.push({
+    name: 'VEC and USDOL Impersonation Unemployment Insurance Phishing Scam',
+    slug: 'virginia-vec-unemployment-phishing-scam',
+    description: `The Virginia Employment Commission warns that scam emails and phone calls are designed to look like they come from the U.S. Department of Labor or the VEC itself, directing recipients to click an embedded link or press a phone-menu option to be connected to a "representative" who then asks probing questions about the person's unemployment claim in order to harvest personally identifiable information. This differs from unemployment benefit fraud committed by third parties using stolen identities — here the target is the legitimate claimant, coached into handing over their own PII directly. The VEC advises never sharing a password or personal information this way and reporting any compromise to the FTC's identitytheft.gov and local police.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Virginia Employment Commission'],
+    sourceUrl: 'https://vec.virginia.gov/news/vec-warns-fraudulent-e-mail-and-phone-scam',
+    country: 'US',
+    state: 'VA',
+});
+
+UsTZ.push({
+    name: 'VICAP-Warned Medicare Open Enrollment Impersonation Scam',
+    slug: 'virginia-vicap-medicare-open-enrollment-scam',
+    description: `Ahead of Medicare's annual Open Enrollment Period (October 15-December 7), Virginia's local VICAP (Virginia Insurance Counseling and Assistance Program) coordinators and the Senior Medicare Patrol of Virginia warn that callers impersonating Medicare or Social Security officials target beneficiaries with unsolicited phone calls demanding their Medicare number, Social Security number, or banking details, often threatening a loss of benefits for noncompliance. Some variants bait victims with offers of free DNA screenings, cash rebates, or medical equipment, then bill Medicare for services or devices never provided. As VPAS (Valley Program for Aging Services) coordinator Margie Ferguson put it, "Medicare is not going to call you out of the blue and ask you to confirm personal information like your Medicare number or banking info." Serious cases are referred to the Senior Medicare Patrol of Virginia for investigation.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Valley Program for Aging Services (VICAP)', 'Senior Medicare Patrol of Virginia', 'WHSV'],
+    sourceUrl: 'https://www.whsv.com/2025/06/03/valley-program-aging-services-warns-seniors-about-medicare-scams/',
+    country: 'US',
+    state: 'VA',
+});

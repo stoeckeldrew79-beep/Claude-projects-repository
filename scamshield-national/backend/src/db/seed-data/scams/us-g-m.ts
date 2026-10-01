@@ -11796,3 +11796,53 @@ UsGM.push({
     country: 'US',
     state: 'MS',
 });
+
+UsGM.push({
+    name: 'Georgia Medicare Impersonation and Open Enrollment Scam',
+    slug: 'georgia-medicare-open-enrollment-impersonation-scam',
+    description: `The Georgia Attorney General's Consumer Protection Division warns that scammers impersonate Medicare representatives — especially heading into the fall Open Enrollment period that starts October 15 — to pry loose a beneficiary's Social Security number, Medicare number, or bank details. Common pretexts include claiming the victim needs a new or "updated" Medicare card, offering "free" medical equipment that requires an upfront shipping fee, promising a refund via direct deposit, or threatening to cancel coverage unless personal information is verified immediately. The Division states plainly that Medicare will never call to sell anything, show up unannounced at a beneficiary's home, or solicit money by phone or text, and directs consumers to hang up and call 1-800-MEDICARE or the number printed on their own Medicare card, or to contact GeorgiaCares, the state's free Medicare counseling program, for independent enrollment help.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ["Georgia Attorney General's Consumer Protection Division"],
+    sourceUrl: 'https://consumer.georgia.gov/medicare-scams',
+    country: 'US',
+    state: 'GA',
+});
+
+UsGM.push({
+    name: 'Georgia Unemployment Insurance Claim Hijacking and 1099-G Identity Theft',
+    slug: 'georgia-unemployment-insurance-claim-hijacking-scam',
+    description: `The Georgia Department of Labor warns of "claim hijacking," or claim/account takeover, in which criminals illegally access a Georgian's legitimate unemployment insurance account and redirect benefit payments to a different bank account, reloadable card, or mailing address the real claimant never authorized. A related pattern surfaces at tax time, when victims who never filed for unemployment receive a 1099-G form showing benefits paid in their name — proof an identity thief filed a fraudulent claim using their stolen Social Security number. The department warns applicants to use only the official dol.georgia.gov site, since it never requests personal identifying information by email and charges no fee to file, to watch for unexpected unemployment mail or employer notices about a claim they never filed, and to report suspected fraud through the agency's online "Report UI Fraud & Abuse" form or its fraud hotline at 877-709-8185.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Georgia Department of Labor'],
+    sourceUrl: 'https://dol.georgia.gov/contact-us/unemployment-fraud-information',
+    country: 'US',
+    state: 'GA',
+});
+
+UsGM.push({
+    name: 'Fraudulent "GATE Atlanta Vendor & Artisan Market" Event Scam',
+    slug: 'georgia-gate-atlanta-vendor-artisan-market-scam',
+    description: `The Georgia Department of Agriculture issued a consumer alert on August 20, 2026 warning that an unknown promoter was advertising a fake "2026 GATE Atlanta Vendor & Artisan Market" on Facebook, falsely claiming it would be held August 21-23, 2026 at the Atlanta State Farmers' Market in Forest Park, Georgia. The department confirmed the event was not authorized or affiliated with the Farmers' Market and sent the organizer a cease-and-desist letter after the listing began soliciting business information and vendor payments from Georgians hoping to sell at the market. Agriculture Commissioner Tyler Harper said the department "works every day to protect consumers from fraudsters," urging Georgians never to hand over personal or business information or pay a fee to an unverified event promoter.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'low',
+    sources: ['Georgia Department of Agriculture'],
+    sourceUrl: 'https://agr.ga.gov/pr/consumer-alert-georgia-department-agriculture-warns-georgians-online-scam-advertising-fraudulent',
+    country: 'US',
+    state: 'GA',
+    isHistorical: true,
+    firstRecorded: '2026-08-20',
+});
+
+UsGM.push({
+    name: 'Indiana Department of Revenue Fake Tax Refund Text Scam',
+    slug: 'indiana-dor-fake-tax-refund-text-scam',
+    description: `Scammers send Indiana residents text messages claiming their state tax refund request has been "processed and approved," directing them to click a link and submit bank account information to receive the deposit, with the messages instructing recipients to "provide valid payment information" by a manufactured deadline and promising a deposit within 1-2 business days. The Indiana Department of Revenue issued a public warning in October 2025 stating it never sends text messages requesting payment or personal information from taxpayers, and urged recipients not to click links or reply, and to report suspicious texts to the department directly at 317-232-2240.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Indiana Department of Revenue'],
+    sourceUrl: 'https://www.wrtv.com/news/local-news/indiana-department-of-revenue-warns-of-tax-refund-text-scam',
+    country: 'US',
+    state: 'IN',
+});
