@@ -10730,6 +10730,10 @@ NotoriousAF.push({
     slug: 'civic-development-group-police-charity-telemarketing-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'charity-fraud', 'telemarketing-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Police_car_with_emergency_lights_on.jpg?width=1200',
+    coverImageCredit: 'Photo: Scott Davidson, Wikimedia Commons (CC BY 2.0) — a police car, the cause CDG\'s telemarketing scripts invoked',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Civic Development Group, LLC (CDG), a New Jersey telemarketing firm run by Scott Pasch and David Keezer, spent years calling millions of Americans on behalf of charities with names built to trigger an automatic, patriotic yes: organizations claiming to help police officers, firefighters, and veterans. Telemarketers working CDG's scripts told donors their contributions would go directly to these causes, and in some pitches claimed that essentially all — as much as 100 percent — of the money donated would reach the people it was supposedly meant for.
 
 The reality was close to the opposite. According to the Federal Trade Commission, the charities on whose behalf CDG solicited donations typically received only 10 to 15 percent of what was collected; the rest stayed with CDG as fees for running the calls. The FTC had already sued CDG once, in 1998, and obtained an order restricting its conduct — but the agency and the Department of Justice returned with a second complaint in 2007, alleging CDG kept running essentially the same deceptive telemarketing operation in violation of that earlier order.
@@ -10745,6 +10749,10 @@ NotoriousAF.push({
     slug: 'disabled-veterans-national-foundation-charity-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'charity-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_Vietnam_Veterans_Memorial.jpg?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith / Library of Congress (Public Domain) — the Vietnam Veterans Memorial in Washington, D.C., where DVNF was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `The Disabled Veterans National Foundation (DVNF), founded in Washington, D.C. in 2007, built a direct-mail fundraising operation around a straightforward appeal: help America's wounded and disabled veterans. Between its founding and a 2012 CNN investigation led by correspondent Drew Griffin, the charity took in roughly $55.9 million in donations. According to DVNF's own IRS tax filings, almost none of that money ever reached a veteran in a form that resembled direct assistance.
 
 Where the money actually went was to Quadriga Art, a direct-mail marketing company DVNF hired to keep the donation letters flowing — and, according to CNN's reporting, DVNF paid Quadriga Art and its affiliated firms more than $60 million over the same period it collected roughly $56 million in donations, a fundraising relationship that by itself consumed more than the charity brought in. What DVNF did distribute to veterans groups was often not money at all: CNN's investigation found the charity had shipped useless surplus goods — including more than 11,000 bags of M&Ms candy, along with hand sanitizer and other donated items with no particular relevance to disabled veterans' actual needs — and counted the retail value of those donated goods toward its charitable-spending totals.
@@ -10854,6 +10862,10 @@ NotoriousAF.push({
     slug: 'celso-de-los-angeles-legacy-group-philippines',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'ponzi-scheme', 'bank-fraud', 'philippines'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mayon_Volcano,_Albay,_Luzon,_Philippines.jpg?width=1200',
+    coverImageCredit: 'Photo: Ray in Manila, Wikimedia Commons (CC BY 2.0) — Mayon Volcano in Albay province, where Legacy Group\'s rural banks were based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Celso de los Angeles Jr. was, on paper, an unremarkable small-town politician — the sitting mayor of San Jose, a town in Albay province in the Philippines — and, at the same time, the man quietly building one of the largest banking empires outside Manila. Through a holding structure he called the Legacy Group, he assembled a dozen rural banks spread across dozens of banking units nationwide, plus a cluster of pre-need companies selling education and pension plans, alongside affiliated firms with names like Legacy Motors, One Realty, and OneCard Company. To draw in depositors — many of them retirees, tricycle drivers, and working-class savers in towns the big national banks mostly ignored — Legacy's banks advertised annual interest rates and "double your money" schemes far above anything the formal banking sector was offering.
 
 The structure beneath those returns depended on moving money between Legacy's own affiliated companies rather than on any real banking business. In one scheme investigators later reconstructed in detail, officers at Dynamic Bank, one of the Legacy-affiliated rural banks, created fictitious loans — including loans supposedly made to finance motorcycle purchases — and credited the proceeds to the savings accounts of two other Legacy companies, Legacy Motors Inc. and OneCard Company Inc. The funds were then withdrawn and routed into fake deposit accounts under various names across the group, letting Legacy post the appearance of a thriving loan book while the cash moved in circles among its own subsidiaries. Central bank officials later said de los Angeles personally instructed Legacy officials to destroy evidence that would implicate him once regulators began asking questions.
