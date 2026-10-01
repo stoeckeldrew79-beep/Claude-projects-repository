@@ -783,6 +783,9 @@ GuidesRecent.push({
     slug: 'ftc-platform-impersonation-ad-rule',
     author: 'ScamShield Editorial',
     tags: ['guide', 'government-impersonation', 'social-media-scams', 'regulatory'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ApexBuildingHighsmith.jpg?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith (Public Domain) — the Apex Building, FTC headquarters in Washington, D.C.',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-seeks-public-comment-whether-update-rule-impersonation-government-businesses-address-platforms',
     body: `On September 24, 2026, the Federal Trade Commission issued an Advance Notice of Proposed Rulemaking asking whether it should update its existing Rule on Impersonation of Government and Businesses (16 C.F.R. Part 461) — a rule that currently makes it illegal to directly impersonate a government agency or company — to also reach the platforms whose ad-optimization tools make that impersonation so effective at scale. The FTC's own numbers make the case for why: in 2025 alone, the agency received more than one million imposter-scam reports totaling nearly $3.5 billion in losses, and roughly 30% of victims said they were first contacted through social media, accounting for about $2.1 billion of that total.
 
