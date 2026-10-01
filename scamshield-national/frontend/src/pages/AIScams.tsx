@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useCategories, useInfiniteScams, useScamSearch } from '../hooks/useScams';
+import { ScamListParams } from '../services/scams';
 import { ScamCard } from '../components/ScamCard';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { timeAgo } from '../utils/timeAgo';
@@ -13,6 +14,16 @@ import { timeAgo } from '../utils/timeAgo';
 // view has room for.
 const CATEGORY_SLUG = 'ai-deepfake-scams';
 
+// Two readings of "by date," same as the Database page's fuller dropdown:
+// "newest" is when we logged it (the live-feed reading Drew asked about),
+// "chronological" is when the scam itself actually happened. Left off
+// alert_level/name_asc here on purpose — this page is the recency-focused
+// front door, not a second copy of the full database's filter set.
+const SORT_OPTIONS: { value: NonNullable<ScamListParams['sort']>; label: string }[] = [
+  { value: 'newest', label: 'Newest added' },
+  { value: 'chronological', label: 'By date it happened' },
+];
+
 export default function AIScams() {
   useDocumentMeta({
     title: 'AI-Enabled Scams',
@@ -22,6 +33,7 @@ export default function AIScams() {
   });
 
   const [search, setSearch] = useState('');
+  const [sort, setSort] = useState<NonNullable<ScamListParams['sort']>>('newest');
   const { data: categories } = useCategories();
   const category = categories?.find((c) => c.slug === CATEGORY_SLUG);
 
@@ -31,10 +43,13 @@ export default function AIScams() {
     fetchNextPage,
     hasNextPage,
     isFetchingNextPage,
-  } = useInfiniteScams({ category: CATEGORY_SLUG, search: search || undefined, sort: 'newest' });
+  } = useInfiniteScams({ category: CATEGORY_SLUG, search: search || undefined, sort });
 
   const scams = data?.pages.flat() ?? [];
-  const mostRecent = scams[0];
+  // Only actually "most recent" when the list is sorted that way — under
+  // "By date it happened" scams[0] is the oldest documented case, not the
+  // latest addition, so the freshness stat would be lying if shown then.
+  const mostRecent = sort === 'newest' ? scams[0] : undefined;
 
   // Someone typing a real description of what happened into this box
   // doesn't know or care that it's scoped to the AI category — they just
@@ -81,13 +96,25 @@ export default function AIScams() {
         </span>
       </Link>
 
-      <div className="mt-8">
+      <div className="mt-8 flex flex-wrap items-center gap-3">
         <input
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Search, or ask a real question — e.g. a call about a debt you don't recognize…"
           className="w-full max-w-2xl rounded-md border border-slate-300 px-3 py-2 text-sm"
         />
+        <select
+          value={sort}
+          onChange={(e) => setSort(e.target.value as NonNullable<ScamListParams['sort']>)}
+          className="rounded-md border border-slate-300 px-3 py-2 text-sm"
+          aria-label="Sort by"
+        >
+          {SORT_OPTIONS.map((opt) => (
+            <option key={opt.value} value={opt.value}>
+              {opt.label}
+            </option>
+          ))}
+        </select>
       </div>
 
       {isLoading && <p className="mt-8 text-slate-500">Loading…</p>}

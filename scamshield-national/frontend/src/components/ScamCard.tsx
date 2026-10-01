@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Scam } from '../types';
 import { countryName } from '../utils/countries';
 import { tagShortLabel } from '../utils/scamTags';
+import { timeAgo } from '../utils/timeAgo';
 
 const ALERT_COLORS: Record<string, string> = {
   low: 'bg-slate-100 text-slate-700',
@@ -64,6 +65,11 @@ export function ScamCard({ scam }: { scam: Scam }) {
         {firstRecordedYear && scam.country && ' · '}
         {scam.country && countryName(scam.country)}
       </p>
+      {/* Distinct from "First recorded" above: that's when the scam itself
+          happened, this is when it was logged here — the only per-card
+          signal that the database is a live, growing feed rather than a
+          static list. */}
+      <p className="text-[11px] text-slate-300 mt-0.5">Added {timeAgo(scam.created_at)}</p>
     </Link>
   );
 }
