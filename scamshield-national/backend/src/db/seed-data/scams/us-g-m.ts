@@ -11508,3 +11508,41 @@ UsGM.push({
     state: 'HI',
     firstRecorded: '2025-01-01',
 });
+
+UsGM.push({
+    name: 'Garnett "Golden State Stamp of Approval" Mega Millions Sweepstakes Scam',
+    slug: 'garnett-kansas-golden-state-stamp-mega-millions-sweepstakes-scam',
+    description: `In July 2023, the Garnett Police Department warned Kansas residents about official-looking letters informing recipients they had won a $3.5 million Mega Millions sweepstakes prize, but that releasing the winnings required first paying $70,000 for a so-called "Golden State Stamp of Approval." One targeted Kansan had already written and mailed a $10,000 check toward that fee before local officers intercepted it and stopped the payment from reaching the scammers. Garnett police emphasized that no legitimate lottery or sweepstakes ever requires a winner to pay money upfront to collect a prize, and urged residents to warn elderly family members, who were the primary target of the letters circulating statewide, since seniors are disproportionately vulnerable to this mail-based advance-fee sweepstakes scheme.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Garnett Police Department', 'WIBW'],
+    sourceUrl: 'https://www.wibw.com/2023/07/18/kansans-warned-about-35-million-mega-millions-sweepstakes-scam/',
+    country: 'US',
+    state: 'KS',
+    firstRecorded: '2023-07-18',
+});
+
+UsGM.push({
+    name: 'Wakefield "DA Systems, LLC" Secret Shopper Fake Check Scam',
+    slug: 'wakefield-kansas-da-systems-secret-shopper-fake-check-scam',
+    description: `A consumer in Wakefield, Kansas responded to a "work at home" pop-up ad and was mailed an acceptance letter from a company calling itself "DA Systems, LLC" of Auburn Hills, Michigan, congratulating her on being selected as a "secret shopper" for assignments supposedly sponsored by major retailers. The letter included a check for $1,983.15 and instructed her to deposit it and complete three paid "assignments": wiring $1,044 via Western Union to a recipient in Madrid, Spain, wiring $485.50 via MoneyGram to a recipient in Atlanta, Georgia, and making a $76.15 test purchase at Walmart. The check was fraudulent and came back from her bank as drawn on a nonexistent account, leaving her responsible for a $1,960 bank penalty that she covered with a personal loan, even though the money she had wired — to recipients using names similar to her own — was unrecoverable. The Great Bend Tribune documented the case as a warning that secret/mystery-shopper job offers arriving with an unsolicited check, and instructions to wire part of it, are built entirely around counterfeit instruments that banks do not flag for days or weeks, long after the wired cash is gone.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'high',
+    sources: ['Great Bend Tribune'],
+    sourceUrl: 'https://www.gbtribune.com/news/business/secret-shopper-check-scam-lures-kansas-consumer/',
+    country: 'US',
+    state: 'KS',
+});
+
+UsGM.push({
+    name: 'Wichita "Apple Security" Text Message Tech Support Scam (Shawna Perdue)',
+    slug: 'wichita-kansas-apple-security-text-tech-support-scam',
+    description: `In November 2024, Wichita resident Shawna Perdue received a text message purporting to be from "Apple Security" warning that her Apple ID had been used for an unauthorized $143.95 charge and providing a phone number to call. The person who answered convinced her that "hundreds of hackers" were actively trying to break into her account, then walked her through moving money out of her bank account into her Venmo wallet — which he then accessed directly — before directing her to two separate Home Depot stores to buy $3,500 in gift cards plus a $500 Apple gift card, reading him the card numbers over the phone the whole time in the belief this would "protect" her account. She lost $4,000 in total, reported the scam to both the FTC and the Wichita Police Department, and was told by her bank she would not be reimbursed because she had "willingly authorized the payments." The case illustrates how tech-support/account-security impersonation scams now often combine a fake security-alert pretext with both peer-to-peer payment app takeover and gift-card liquidation in a single call.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['KWCH'],
+    sourceUrl: 'https://www.kwch.com/2024/11/15/factfinder-wichita-woman-loses-thousands-dollars-apple-security-scam/',
+    country: 'US',
+    state: 'KS',
+    firstRecorded: '2024-11-14',
+});
