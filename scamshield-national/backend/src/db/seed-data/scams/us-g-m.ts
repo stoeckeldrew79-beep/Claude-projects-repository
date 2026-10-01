@@ -10809,6 +10809,45 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Honolulu Malware Pop-Up "Cash-in-a-Box" Courier Scam',
+    slug: 'hawaii-honolulu-malware-popup-cash-box-courier-scam',
+    description: `The Honolulu Police Department warned the public on October 23, 2024 about a distinct variant of the classic tech-support scam after a resident on Kakiwa Place in Honolulu was targeted over three consecutive days. On August 29, 2024, the victim's computer displayed a pop-up falsely claiming to be from Microsoft and stating the machine was infected with malware; when he called the phone number in the pop-up, a caller instructed him to withdraw cash from his bank, seal it inside a cardboard box, and wait at home for a courier. That evening a young woman arrived on foot, provided a verbal passcode to prove she was the expected pickup, and left with the box of cash — and the following day the same caller reached him again with an identical instruction, this time sending a young man who used the same passcode routine to collect a second box. HPD Sergeant Chris Kim confirmed the department was actively searching for both couriers and urged residents, especially kupuna, never to call a phone number displayed in a computer pop-up, and never to withdraw and hand over cash to a stranger who arrives on foot with a "verification passcode." The case is a variant of the tech-support scam not previously publicized in Hawaii: rather than routing payment through gift cards or a crypto kiosk, the scammers used in-person couriers to physically collect cash boxes from the victim's home on a recurring basis.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Honolulu Police Department', 'Hawaii News Now'],
+    sourceUrl: 'https://www.hawaiinewsnow.com/2024/10/23/hpd-warns-public-scammers-using-malware-con-victims-out-cash/',
+    country: 'US',
+    state: 'HI',
+    firstRecorded: '2024-08-29',
+});
+
+UsGM.push({
+    name: '"codify.inc" Fake Hawaii Government Website Phishing Campaign',
+    slug: 'hawaii-codify-inc-government-website-phishing-scam',
+    description: `The Hawaii Department of Accounting and General Services' Office of Enterprise Technology Services, joined by Governor Josh Green's office, issued a cybersecurity alert on December 31, 2025 warning the public of a phishing campaign built around the look-alike domain codify.inc. Rather than a single spoofed letter or email, the scheme uses deceptive subdomains formatted to resemble the addresses of a dozen different state agencies at once — including look-alike portals for the Department of Labor and Industrial Relations, the Department of Agriculture, the Department of Education, the Department of Health, the Department of Commerce and Consumer Affairs, the Department of Taxation, the Department of Human Services, and the Department of Transportation. The state said the fake sites "may appear legitimate" and often dangle "AI-native services" as bait to get visitors to enter sensitive personal information or login credentials. Officials reminded the public that every genuine State of Hawaii website ends in ".gov" — never ".inc," ".co," or any other extension — and urged anyone who encounters one of the fraudulent sites to avoid entering any data and report it to the state's security team rather than clicking any link arriving by unsolicited email or text.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Hawaii Department of Accounting and General Services', 'Office of the Governor of Hawaii'],
+    sourceUrl: 'https://ags.hawaii.gov/blog/main/cybersecurity-alert-phishing-threat-masquerading-as-hawai%CA%BBi-departments/',
+    country: 'US',
+    state: 'HI',
+    firstRecorded: '2025-12-31',
+});
+
+UsGM.push({
+    name: 'Stolen-Card Social Media Resale Fraud Targeting Hawaii Tour Operators',
+    slug: 'hawaii-chinese-social-media-stolen-card-tour-ticket-scam',
+    description: `Honolulu Civil Beat reported on March 12, 2025 that Hawaii tour and activity companies are absorbing escalating losses from a fraud scheme run through Xiaohongshu (known as "RedNote" or "Little Red Book"), a Chinese social media platform. Scammers advertise steeply discounted tickets — typically 50 to 60 percent off — for popular Hawaii activities like whale watching, snorkeling, and diving tours, then use stolen credit card numbers to actually purchase full-price tickets directly from the real tour operators, pocketing the difference the tourist paid them. After the tourist takes the tour, the real cardholder whose stolen number was used disputes the unfamiliar charge, and the tour company's credit card processor reverses the payment — leaving the operator having delivered a paid-for experience while receiving nothing. And You Creations, a Hawaii whale-watching and snorkeling operator, said it logged more chargeback disputes in the first quarter of 2025 alone than in all of 2024 combined, receiving three to four fraudulent-charge notifications daily at $99 to $189 per person. Other named victims include Kualoa Ranch, the Polynesian Cultural Center, Hawaii Dive Center, and Ocean Adventures. Dennis Suo, managing director of Hawaii Tourism China, described legitimate cardholders' confusion after the fact: "The credit card holder may be in some other country, even, not in China, not in the U.S. They say, 'Oh, I've never been to Hawaii. How come I'm being charged $100 from Kualoa Ranch?'" The scheme is notable for a reversal of the usual scam pattern — the direct financial victims are Hawaii tourism businesses and the distant cardholders whose numbers were stolen, while the traveler who unknowingly bought a stolen-card ticket still receives their tour.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'high',
+    sources: ['Honolulu Civil Beat', 'Hawaii Tourism China'],
+    sourceUrl: 'https://www.civilbeat.org/2025/03/hawai%CA%BBi-tour-companies-losing-money-to-chinese-social-media-scams/',
+    country: 'US',
+    state: 'HI',
+    firstRecorded: '2025-01-01',
+});
+
+UsGM.push({
     name: 'Maryland MVA/District Court "Unpaid Parking Fine" Text Scam',
     slug: 'maryland-mva-district-court-parking-fine-text-scam',
     description: `The Maryland Judiciary warned residents on February 10, 2026 about smishing texts falsely claiming to be from the Maryland Motor Vehicle Administration, titled "Notice of Default – Unpaid Parking Fine," which tell the recipient they have an unresponded parking ticket linked to their vehicle and must report in person to the Baltimore City District Court at 1400 E. North Avenue by 9 a.m. the following morning, threatening fines, license suspension, court enforcement, and "a poor social security number record." The scam borrows legitimacy by impersonating two real Maryland agencies at once — the MVA and the District Court — and includes a fraudulent MVA-branded link. The Judiciary stated these texts and any variations are a scam, that recipients should not click the link or provide payment or personal information, and urged anyone contacted to verify any claimed court matter directly and report the message to the Attorney General's Consumer Protection Division at 410-528-8662 or 888-743-0023.`,
