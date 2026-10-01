@@ -6448,3 +6448,43 @@ UsTZ.push({
     state: 'WY',
     firstRecorded: '2026-08-04',
 });
+
+UsTZ.push({
+    name: 'Virgin Islands Senior Citizen Sweepstakes Scam Using a Duped Second Senior as Money Mule',
+    slug: 'virgin-islands-senior-sweepstakes-elder-mule-scam',
+    description: `The Virgin Islands Police Department issued a territory-wide warning about a telephone scam that specifically targets senior citizens, run by callers who tell an elderly victim over a landline or cellphone that they've won a prize such as a truck, a car, or a cash award, then say the prize can't be released until the victim covers supposed fees, insurance, or taxes. Victims are instructed to send the money through MoneyGram, to buy prepaid gift cards and read off the codes, or to withdraw funds directly from their bank account for transfer to the caller. What sets this scheme apart from the territory's other prize scams is a second layer: in some cases the caller gives the victim a name and mailing address and has them write and mail a check there, and VIPD's Economic Crimes Unit investigations found that the person at that address is frequently another senior citizen who has separately been deceived into believing they are helping process legitimate sweepstakes winnings, and who cashes the check and forwards the money on the scammer's instructions — turning one victim into an unwitting money-laundering link in the scheme used against the next. VIPD warned the scheme "often continues until victims have lost significant amounts of money or exhausted their savings," and urged residents, especially those with elderly parents or neighbors, to verify any prize notification independently before sending money and to remember that a legitimate sweepstakes never requires a winner to pay anything upfront. Suspected cases can be reported to VIPD's Economic Crimes Unit at 340-774-3942 ext. 5618.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Virgin Islands Police Department'],
+    sourceUrl: 'https://vipd.vi.gov/news/warning-issued-about-phone-scam-targeting-senior-citizens-territorially/',
+    country: 'US',
+    state: 'VI',
+});
+
+UsTZ.push({
+    name: 'V.I. Port Authority Impersonation Craigslist Vehicle-Shipping Scam',
+    slug: 'virgin-islands-port-authority-craigslist-vehicle-shipping-scam',
+    description: `The V.I. Port Authority (VIPA) warned residents after fraudulent Craigslist advertisements began circulating that listed vehicles for sale and falsely claimed VIPA itself would ship the car to the buyer once payment was sent to the seller — borrowing the credibility of a real territorial government agency to make an otherwise ordinary too-good-to-be-true listing seem legitimate. Victims who sent payment for a listed vehicle received nothing in return, and VIPA, which does not sell, broker, or ship privately owned vehicles for individual sellers, had no role in and no record of any of the transactions. VIPA Executive Director Carlton Dowe stated plainly, "These advertisements are scams. The VI Port Authority is not a shipping company, nor are we in the business of shipping vehicles or any other items," and the agency asked anyone who had responded to one of the ads, or who encountered a similar listing, to avoid sending any money and to report it to the Attorney General's Investigations Office at (340) 774-5666 ext. 351 rather than the seller. The case is a reminder that an online classified ad naming a real government agency or logistics step as reassurance is not itself proof of legitimacy — that claim should be verified directly with the agency, never through contact information supplied by the seller.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    sources: ['Virgin Islands Port Authority', 'V.I. Consortium', 'St. Thomas Source'],
+    sourceUrl: 'https://viconsortium.com/vi-community_center/new-craigslist-car-scam-targeting-usvi-uses-port-authority-in-attempt-to-swindle-residents',
+    country: 'US',
+    state: 'VI',
+    firstRecorded: '2016-11-10',
+});
+
+UsTZ.push({
+    name: 'Virgin Islands BMV Fake "Enforcement Penalties" Text Phishing Scam',
+    slug: 'virgin-islands-bmv-enforcement-penalties-text-scam',
+    description: `The U.S. Virgin Islands Bureau of Motor Vehicles (BMV) warned residents on June 3, 2025 about fraudulent text messages impersonating the agency, carrying the subject line "Final Notice: Enforcement Penalties Beginning June 3" and designed to pressure recipients into clicking an embedded link and handing over personal or financial information before a fabricated deadline hit. BMV Director Barbara Jackson-McIntosh stated flatly that "these messages are a scam and should not be opened or acted upon," and noted the agency never sends unsolicited texts containing payment links or threats of enforcement action through that channel — real BMV business is conducted in person, by phone through the agency's official numbers, or through its own website, never by a cold text demanding immediate action. The alert also flagged a smaller tell that is easy to miss under pressure: the territory's agency is the BMV, not the "DMV" that some versions of the scam text referenced, a naming mismatch that by itself marks a message as fraudulent. Residents who receive one of these texts were told not to click any link or reply, and to direct questions to the BMV directly at 340-774-4268, 340-713-4268, or 340-776-6262, or through bmv.vi.gov, rather than any number or link included in the message itself.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    isHistorical: true,
+    sources: ['Virgin Islands Bureau of Motor Vehicles', 'V.I. Consortium'],
+    sourceUrl: 'https://viconsortium.com/vi-community_center/virgin-islands-bmv-warns-public-about-fraudulent-text-messages-impersonating-the-agency',
+    country: 'US',
+    state: 'VI',
+    firstRecorded: '2025-06-03',
+});
