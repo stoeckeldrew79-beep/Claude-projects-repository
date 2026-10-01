@@ -11293,3 +11293,69 @@ UsAF.push({
     state: 'FL',
     firstRecorded: '2024-10-13',
 });
+
+UsAF.push({
+    name: 'Arizona "Pig Butchering" Romance-to-Crypto Investment Scam',
+    slug: 'arizona-pig-butchering-romance-crypto-investment-scam',
+    description: `Arizona Attorney General Kris Mayes opened a Valentine's Day 2026 consumer alert by warning that romance scams are increasingly evolving into a distinct, more damaging pattern known as "pig butchering," in which a scammer spends weeks or months building what feels like a genuine romantic relationship — entirely online, often across dating apps or social media DMs — before steering the conversation toward a cryptocurrency investment opportunity. Rather than asking for money directly, the scammer walks the victim through signing up on a slick but entirely fake trading platform, encourages a small initial deposit that appears to grow rapidly in a dashboard the scammer controls, and lets the victim make a modest "withdrawal" to prove the platform is legitimate, then pushes for increasingly large deposits before vanishing once the victim tries to withdraw a substantial sum. Mayes's office noted that scammers are now using AI-generated photos, deepfake video calls, and voice-cloning technology to make the fabricated relationship far more convincing than in years past, citing FTC data showing more than 65,000 romance scam cases opened nationally in the prior year with $3 billion in total losses. "Everyone deserves to find love — but unfortunately, scammers are exploiting that desire at an alarming rate," Mayes said. The office's guidance: never send money by wire transfer, gift card, or cryptocurrency to someone met only online, especially into a trading platform they introduced; reverse-image-search profile photos; be skeptical even of video calls; and talk to a trusted friend or family member before acting.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["Arizona Attorney General's Office (Kris Mayes)", 'Federal Trade Commission'],
+    sourceUrl: 'https://www.azag.gov/valentines-day-romance-scams',
+    country: 'US',
+    state: 'AZ',
+});
+
+UsAF.push({
+    name: 'Phoenix WhatsApp "Task Scam" Crypto Job Offer',
+    slug: 'arizona-phoenix-whatsapp-task-scam-crypto-job',
+    description: `A Phoenix woman identified only as Rachel received an unsolicited text message from someone posing as a recruiter for Letterboxd, claiming they'd found her resume on Indeed and offering up to $9,000 a month for the simple task of watching movie trailers and rating them. To get started, she was told to make a small cryptocurrency deposit, which she received back along with a commission almost immediately, making the opportunity feel real. Each subsequent round of "work" required a larger deposit to unlock higher commissions, and when a $3,000 deposit triggered a fabricated "transaction glitch" that supposedly left her account with a negative balance, she was told she had to deposit more money to fix it before she could withdraw anything at all. Over eight transactions in a single week, with her largest single deposit exceeding $62,400, Rachel sent nearly $110,000 in cryptocurrency chasing a payout that never existed. "Because I believed them. I believed that I just need to finish the set of 40, and I'd get all my money back, all my deposits back, plus all the commissions," she said. This "task scam" pattern, blending an employment-scam hook with advance-fee mechanics, has surged nationally since 2023, almost always beginning with an unsolicited text or messaging-app offer and always requiring the victim to send money, typically in crypto, to "unlock" a balance before any withdrawal is paid out. Consumers are advised that any job requiring payment to earn money, offered without an interview, or conducted entirely over WhatsApp, Telegram, or text is a scam, and that a rising in-app "balance" that cannot be withdrawn without another deposit is never real money.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['AZFamily (KTVK/KPHO)', 'Federal Trade Commission'],
+    sourceUrl: 'https://www.azfamily.com/2024/07/24/phoenix-woman-loses-110k-job-scam-one-week/',
+    country: 'US',
+    state: 'AZ',
+    firstRecorded: '2024-07-24',
+});
+
+UsAF.push({
+    name: 'SRP Summer Utility-Shutoff Impersonation Scam',
+    slug: 'arizona-srp-summer-utility-shutoff-impersonation-scam',
+    description: `Salt River Project, the utility serving much of the Phoenix metro area, warned customers ahead of Memorial Day weekend 2026 about a recurring scam that intensifies around holiday weekends and the start of Arizona's triple-digit summer heat, when customers are most afraid of losing air conditioning and SRP's own offices are closed. Scammers call, text, email, or in some cases show up in person claiming to be SRP representatives, spoof caller ID to display what looks like a real SRP number, and warn the customer that their power will be shut off within the hour unless they pay immediately, then insist on payment specifically through Zelle, Cash App, a prepaid gift card, or cryptocurrency — payment methods SRP says it has never used or accepted for a residential bill. "If the caller is creating a sense of urgency to pay, hang up the phone and call SRP directly," said Amy Gentry, SRP's Director of Customer Contact Operations. SRP emphasized that it always sends one or more disconnection notices by mail before any shutoff, and does not cold-call demanding same-day payment through a specific app, nor send an employee to collect payment at the door on the spot. Customers who receive a call, text, or visit like this are advised to hang up or turn the person away immediately and call SRP directly at 602-236-8888 (602-236-1111 for Spanish) using a number looked up independently, never one the caller provides, to verify their account status before paying anything.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Salt River Project (SRP)', 'FOX 10 Phoenix', '12News (KPNX)'],
+    sourceUrl: 'https://media.srpnet.com/srp-urges-customers-to-stay-alert-for-utility-scams-ahead-of-memorial-day-weekend/',
+    country: 'US',
+    state: 'AZ',
+    firstRecorded: '2026-05-21',
+});
+
+UsAF.push({
+    name: 'FEMA Cyclone Heta Disaster-Assistance False Claims Warning',
+    slug: 'american-samoa-fema-cyclone-heta-disaster-assistance-false-claims',
+    description: `On January 21, 2004, the Federal Emergency Management Agency issued a direct public warning to American Samoa residents that false claims for federal disaster assistance tied to Cyclone Heta — a storm whose combined damage across American Samoa, Niue, and Tonga was estimated at $150 million, with over $22 million in federal aid approved for American Samoa alone — would be investigated and prosecuted. Thomas Costello, the FEMA officer in charge of the Heta recovery effort, delivered the warning in a televised address explaining the application process, stating that "any attempt to obtain assistance by giving false information will be subject to investigation by the Inspector General or the Federal Bureau of Investigation," and cautioning that ineligible applicants who falsely registered for aid would only slow assistance to legitimate disaster victims while risking federal prosecution. Lieutenant Governor Aitofele Sunia reinforced the warning, publicly appealing to residents to report only true damages and losses. The case illustrates a pattern that recurs after every federally declared disaster: FEMA cross-checks applications against other agencies and insurers to catch duplicate or inflated claims, field inspectors verify reported damage, and the Inspector General's Office refers suspected fraud to the FBI and Department of Justice, with convicted offenders facing fines of up to $250,000 and imprisonment.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'low',
+    isHistorical: true,
+    sources: ['Federal Emergency Management Agency (FEMA)', 'Radio New Zealand (RNZ Pacific)'],
+    sourceUrl: 'https://www.rnz.co.nz/news/pacific/147028/fema-warns-american-samoans-over-false-heta-claims',
+    country: 'US',
+    state: 'AS',
+    firstRecorded: '2004-01-21',
+});
+
+UsAF.push({
+    name: 'American Samoa Joins Nationwide "Operation Donate with Honor" Crackdown on Sham Veterans\' Charities',
+    slug: 'american-samoa-operation-donate-with-honor-veterans-charity-fraud',
+    description: `On July 19, 2018, the Federal Trade Commission announced "Operation Donate with Honor," a coordinated crackdown on sham charities that solicited donations by falsely promising to help veterans and servicemembers, carried out jointly with law enforcement and charity regulators from more than 70 offices covering all 50 states, the District of Columbia, Puerto Rico, Guam, and American Samoa. The sweep targeted operations such as Help the Vets, Inc., which raised roughly $11 million over three years while diverting most of its donor contributions to its founder, paid fundraisers, and overhead instead of the veterans it claimed to serve, and resulted in more than 100 law enforcement actions nationwide, including a $20.4 million judgment against Help the Vets and a $1.75 million personal judgment against its president, Neil G. "Paul" Paulson, Sr. FTC Chairman Joe Simons said at the time that "con artists prey on gratitude, using lies and deception to line their own pockets," and regulators used the action to remind donors in every participating jurisdiction, including American Samoa, to verify a charity's legitimacy before giving — checking its exact name against look-alikes, confirming tax-deductibility claims directly rather than taking a solicitor's word for it, and resisting high-pressure phone or door-to-door pitches — since fake veteran and military charities are a recurring scam that resurfaces heavily around patriotic holidays and after news of military or veteran hardship.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'low',
+    isHistorical: true,
+    sources: ['Federal Trade Commission (FTC)', 'National Association of State Charity Officials (NASCO)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2018/07/ftc-states-combat-fraudulent-charities-falsely-claim-help-veterans-servicemembers',
+    country: 'US',
+    state: 'AS',
+    firstRecorded: '2018-07-19',
+});
