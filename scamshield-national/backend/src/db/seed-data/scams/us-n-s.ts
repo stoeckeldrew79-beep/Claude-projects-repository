@@ -11238,3 +11238,79 @@ UsNS.push({
     country: 'US',
     state: 'ND',
 });
+
+UsNS.push({
+    name: 'Oklahoma Medicare Fake Enrollment Postcard Scam',
+    slug: 'oklahoma-medicare-fake-enrollment-postcard-scam',
+    description: `The Oklahoma Insurance Department has warned that scammers are mailing official-looking postcards to Oklahomans approaching age 65, falsely inviting them to call and schedule a Medicare enrollment appointment they never requested. When a recipient calls the number on the postcard, the caller asks for the person's Social Security number and Medicare ID under the guise of completing enrollment — information that can then be used for identity theft or fraudulent billing. OID's Medicare Assistance Program (MAP) urges Oklahomans to never call a number printed on an unsolicited Medicare mailing and to verify any such communication by calling MAP directly at 800-763-2828 or emailing MAP@oid.ok.gov, a warning that is especially timely heading into the fall Medicare Open Enrollment period.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Oklahoma Insurance Department', 'KOKH FOX 25'],
+    sourceUrl: 'https://okcfox.com/news/local/medicare-scam-reportedly-targets-oklahoma-seniors-with-fake-enrollment-postcards-oklahoma-insurance-department-senior-citizens-social-security-n-umbers-medicare-ids-personal-information-suspicious-mail',
+    country: 'US',
+    state: 'OK',
+});
+
+UsNS.push({
+    name: 'Oklahoma Post-Storm Charity and Crowdfunding Fraud',
+    slug: 'oklahoma-post-storm-charity-crowdfunding-fraud',
+    description: `Following Oklahoma's severe spring storms, Attorney General Gentner Drummond warned that fraudsters exploit the public's desire to help disaster victims by standing up newly created fake charities, sending phishing emails and texts soliciting donations, and launching fraudulent crowdfunding campaigns on platforms like GoFundMe that misrepresent who the money will actually help. The Attorney General's office urges Oklahomans to verify any charity through the IRS, the Oklahoma Secretary of State's Office, or the Better Business Bureau's Wise Giving Alliance before donating, to type in an organization's official website rather than clicking a link in an unsolicited email or text, and to research a crowdfunding campaign's organizer first. Suspected charity fraud can be reported to the Attorney General's Consumer Protection Unit at 1-833-681-1895.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Oklahoma Office of the Attorney General'],
+    sourceUrl: 'https://oklahoma.gov/oag/news/newsroom/2024/may/attorney-general-drummond-urges-charity-fraud-awareness-in-wake-.html',
+    country: 'US',
+    state: 'OK',
+});
+
+UsNS.push({
+    name: 'Guymon Bogus Check Cattle Fraud',
+    slug: 'guymon-oklahoma-bogus-check-cattle-fraud-stephens',
+    description: `Truth Allen Stephens of Guymon, Oklahoma, wrote a $187,650 check from a closed bank account to an Okmulgee County rancher to buy 139 cows and 46 newborn calves in March 2023, then trucked the cattle to western Oklahoma for resale before the rancher discovered the check would not clear and could not get Stephens to pay. Investigators with the Texas & Southwestern Cattle Raisers Association's Special Rangers and the Okmulgee County Sheriff's Office found Stephens had used the same closed account to buy additional cattle, horses, tack, and a semi-truck, and he was arrested May 4, 2023 on felony bogus-check charges. The case illustrates a pattern cattle associations warn ranchers about nationally: a buyer agrees on a price, takes possession of livestock quickly, and pays with a personal check rather than a cashier's check or verified wire — sellers are advised to confirm funds have actually cleared, not just that a check changed hands, before releasing animals.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Texas & Southwestern Cattle Raisers Association', 'Okmulgee County Sheriff\'s Office', 'Oklahoma Farm Report'],
+    sourceUrl: 'https://www.oklahomafarmreport.com/okfr/2023/05/11/oklahoma-man-arrested-for-writing-187650-bogus-check-for-cattle/',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+});
+
+UsNS.push({
+    name: 'New Hampshire Public Utilities Commission Impersonation Bank-Verification Scam',
+    slug: 'new-hampshire-puc-bank-verification-impersonation-scam',
+    description: `New Hampshire's Department of Energy warned that scammers have been calling state utility customers claiming to be employees of the New Hampshire Public Utilities Commission, telling customers they need to "verify" their bank account number because the caller already has it on file. Department of Energy Consumer Services Director Amanda Noonan stated plainly that neither the Public Utilities Commission nor the Department of Energy would ever contact a customer to obtain bank account information. Unlike a disconnection-threat scam that pushes an immediate prepaid-card payment, this scam's goal is credential-harvesting via a routine-sounding "verification" call. Residents who get such a call are urged to hang up and report it to the Attorney General's Consumer Protection Hotline at 1-888-468-4454, local police, and their bank.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Energy', 'New Hampshire Public Utilities Commission'],
+    sourceUrl: 'https://www.energy.nh.gov/news-and-media/department-energy-warns-consumers-scams-targeting-new-hampshire-utility-customers',
+    country: 'US',
+    state: 'NH',
+    isHistorical: false,
+});
+
+UsNS.push({
+    name: 'New Hampshire Cryptocurrency ATM Impersonation Scam',
+    slug: 'new-hampshire-cryptocurrency-atm-impersonation-scam',
+    description: `Scammers posing as bank officials, police, or federal agents call New Hampshire residents — disproportionately older adults — and manufacture urgency to get them to withdraw cash and feed it into a cryptocurrency ATM kiosk, after which the funds convert to crypto and become nearly unrecoverable. In 2024, 547 New Hampshire residents reported losing more than $22 million to scams involving Bitcoin and other digital assets; Hampton's police chief told lawmakers his town alone lost just over $2.6 million that year, with victims averaging 66 years old. In response, New Hampshire passed Senate Bill 482, which requires crypto ATM operators to cap transactions at $2,000 per customer per day, hold a customer's first deposit for 48 hours to allow cancellation, display conspicuous fraud warnings on kiosks, and refund victims who report fraud within 14 days; the law took effect December 16, 2026.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['New Hampshire Attorney General Consumer Protection Bureau', 'New Hampshire Public Radio (NHPR)'],
+    sourceUrl: 'https://www.nhpr.org/nh-news/2026-06-26/new-protections-crypto-atms-nh-amid-scams-targeting-older-adults',
+    country: 'US',
+    state: 'NH',
+    isHistorical: false,
+});
+
+UsNS.push({
+    name: "Stratham Contractor's Gambling-Funded Advance-Payment Theft",
+    slug: 'new-hampshire-stratham-thibault-advance-payment-theft',
+    description: `Gerard Thibault of Stratham, who operated Thibault's Handyman & Renovation Service, LLC and TR-Roofing LLC, collected more than $2.4 million in advance deposits from 23 homeowners across Rockingham and Strafford counties for renovation and roofing work, then repeatedly gambled with the money shortly after receiving it instead of performing the promised work, in several instances soliciting new deposits while actively gambling. New Hampshire's Attorney General's Consumer Protection and Antitrust Bureau investigated; Thibault pleaded guilty to 23 counts of Class A felony theft by unauthorized taking and was sentenced to 10 to 30 years in state prison, ordered to pay $1,532,961.54 in restitution to his victims, and barred from gambling until that restitution is paid in full.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['New Hampshire Department of Justice, Consumer Protection and Antitrust Bureau', 'Union Leader', 'Boston 25 News'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/gerard-thibault-home-contractor-sentenced-10-30-years-prison-taking-over-24-million',
+    country: 'US',
+    state: 'NH',
+    isHistorical: true,
+});

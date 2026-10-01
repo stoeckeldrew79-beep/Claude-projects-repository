@@ -11395,3 +11395,42 @@ UsAF.push({
     country: 'US',
     state: 'CO',
 });
+
+UsAF.push({
+    name: 'DC Medicare Open Enrollment Scam Alert',
+    slug: 'dc-medicare-open-enrollment-scam-alert',
+    description: `As Medicare's annual Open Enrollment period (October 15 to December 7) approaches, the DC Department of Insurance, Securities and Banking (DISB) warns District residents that fraudsters ramp up activity with official-looking letters claiming enrollees can "save thousands of dollars" by switching Medicare health or Part D drug plans, plus unsolicited texts, emails, and social-media messages urging recipients to click a link or call a number to "confirm eligibility." Scammers also cold-call posing as Medicare representatives to request personal or financial details. DISB stresses that real Medicare will never contact beneficiaries out of the blue to ask for a home address, date of birth, Medicare number, Social Security number, or payment-card information, and directs residents to verify any plan change only through 1-800-MEDICARE before acting, or to file a complaint with DISB's Enforcement and Consumer Protection Division at (202) 727-8000.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['DC Department of Insurance, Securities and Banking (DISB)'],
+    sourceUrl: 'https://disb.dc.gov/page/beware-medicare-open-enrollment-scams',
+    country: 'US',
+    state: 'DC',
+    isHistorical: false,
+});
+
+UsAF.push({
+    name: 'DC Housing Authority Fake Voucher Fee Scam',
+    slug: 'dc-housing-authority-fake-voucher-fee-scam',
+    description: `Social media accounts and fake websites falsely claim to administer DC Housing Authority (DCHA) Housing Choice Voucher ("Section 8") programs and charge applicants a fee to receive a voucher or move up the waitlist, circulating through Facebook, Instagram, TikTok, and paper flyers. DCHA warns that it and all legitimate housing authorities never charge a fee to receive a voucher or to be selected from a waitlist, and that legitimate voucher programs are always free. DCHA directs residents who encounter these scams to withhold payment and personal information and to report them to DCHA's ombudsman, the DC Office of the Attorney General, the HUD Office of Inspector General hotline at 1-800-347-3735, or the FTC at reportfraud.ftc.gov.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['DC Housing Authority (DCHA)'],
+    sourceUrl: 'https://www.dchousing.org/wordpress/beware-of-housing-voucher-scam-on-social-media/',
+    country: 'US',
+    state: 'DC',
+    isHistorical: false,
+});
+
+UsAF.push({
+    name: 'DC Attorney General Fake Rental Listing Scam',
+    slug: 'dc-attorney-general-fake-rental-listing-scam',
+    description: `DC Attorney General Brian Schwalb warns that scammers are posting fake rental listings — often using a real property management company's name and photos taken from legitimate real estate ads — for apartments and houses they don't own or control, disproportionately targeting out-of-town renters, short-term renters, and students in DC's competitive rental market. Victims are pressured with below-market pricing and false urgency into wiring money, sending a cashier's check, or using Zelle for an application fee or security deposit before ever touring the unit, and the "landlord" then disappears. OAG advises requesting a virtual tour before paying (if the landlord refuses, that's a red flag), cross-checking the listing on multiple platforms like Zillow and Realtor.com, verifying the landlord's license through DC's SCOUT database, and noting that DC law caps security deposits at one month's rent; complaints go to OAG's Consumer Protection Hotline at (202) 442-9828 or consumer.protection@dc.gov.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['DC Office of the Attorney General'],
+    sourceUrl: 'https://oag.dc.gov/blog/consumer-alert-looking-place-rent-dc-watch-out',
+    country: 'US',
+    state: 'DC',
+    isHistorical: false,
+});

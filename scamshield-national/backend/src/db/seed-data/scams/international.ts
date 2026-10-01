@@ -20985,6 +20985,36 @@ International.push(
     sourceUrl: 'https://www.comoresinfos.net/escroquerie-a-grande-echelle-la-sonelec-alerte-sur-les-agissements-dibrahim-abdallah-le-faussaire-de-confiance/',
     country: 'KM',
   },
+{
+    name: 'Fake Swiss Tax Administration (ESTV) Refund Phishing Scam',
+    slug: 'switzerland-estv-tax-refund-phishing-scam',
+    description: `Fraudsters email Swiss taxpayers claiming the Federal Tax Administration (ESTV) owes them a refund — one wave cited exactly CHF 736 — linking to a convincing fake ESTV website that collects name, email, and credit-card details under the pretext of processing the "refund." After submission, the criminals intercept the one-time SMS code meant to authorize the victim's own card and use it to push through a real charge, defeating two-factor authentication rather than just harvesting static data. The emails impose an artificial short deadline, in some cases as little as two hours, and have been sent from spoofed domains rather than the genuine "@admin.ch," with telltale signs including stray German characters that don't appear in Swiss German and awkward machine-translated phrasing. ESTV states it never requests credit-card details or promises refunds by email, and that legitimate communications only ever come from an @admin.ch address, with any real refund paid to an IBAN rather than a card.`,
+    categorySlug: 'tax-scams',
+    country: 'CH',
+    alertLevel: 'high',
+    sources: ['Federal Tax Administration (ESTV)', 'Federal Office for Cybersecurity (BACS)', 'cybercrimepolice.ch', 'Blick'],
+    sourceUrl: 'https://www.blick.ch/schweiz/betrueger-haben-dazugelernt-achtung-vor-dieser-steuer-betrugsmasche-id20488824.html',
+  },
+{
+    name: 'Fake AHV Supplementary-Benefits "Eligibility Review" Phishing Scam',
+    slug: 'switzerland-ahv-supplementary-benefits-phishing-scam',
+    description: `Professionally designed emails impersonating the Federal Social Insurance Office (BSV) tell recipients that, because of alleged regulatory changes taking effect January 1, 2026, their eligibility for AHV supplementary benefits (Ergänzungsleistungen) must be reviewed, linking to a cloned fake BSV portal. The flow runs in stages to build trust: it first collects personal details and an AHV number, then shows a fabricated benefit calculation to make the payout feel earned, asks for banking details to "pay out" the entitlement, and finally claims the supplied IBAN "failed verification" so the victim hands over full credit-card details instead, including expiry date and security code. Cybercrimepolice.ch, run by Swiss cantonal police, published the alert after the campaign began circulating, advising recipients to never click the links, to verify any claimed status change directly with their cantonal AHV compensation office, and — if card details were already given — to contact their bank immediately to block the card and file a police report.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'CH',
+    alertLevel: 'high',
+    sources: ['cybercrimepolice.ch (Swiss cantonal police)', 'Federal Social Insurance Office (BSV) (impersonated)'],
+    sourceUrl: 'https://cybercrimepolice.ch/de/faelle/betrueger-locken-mit-ahv-ergaenzungsleistungen',
+  },
+{
+    name: 'Unauthorized "Swiss-Regulated" Investment Firms on FINMA\'s Warning List',
+    slug: 'switzerland-finma-unauthorized-investment-firms',
+    description: `Switzerland's Financial Market Supervisory Authority (FINMA) maintains a public warning list of companies and individuals suspected of offering banking, investment, or insurance services in Switzerland without the required authorization — frequently while implying or outright claiming Swiss regulatory approval they do not actually have. FINMA opened roughly 450 investigations into potentially unauthorized providers in 2025 and added more than 300 new entries to the warning list over the year, a volume the regulator itself called a high point, with listed entities including Wintons Investment S.A., Novapago AG, and Value Capital AG. Because an entry only flags a lack of authorization rather than proving fraud outright, and the list is neither exhaustive nor updated daily, FINMA tells consumers to independently check any firm soliciting their money against its separate registry of licensed institutions before investing, and to treat any unlicensed firm claiming Swiss bank or broker status as a serious red flag regardless of how official its marketing looks.`,
+    categorySlug: 'investment-fraud',
+    country: 'CH',
+    alertLevel: 'high',
+    sources: ['Swiss Financial Market Supervisory Authority (FINMA)', 'SWI swissinfo.ch'],
+    sourceUrl: 'https://www.swissinfo.ch/eng/various/finma-closes-significantly-more-proceedings-in-2025/91289905',
+  },
 );
 
 International.push({
