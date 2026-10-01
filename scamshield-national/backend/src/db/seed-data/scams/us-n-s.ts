@@ -10723,6 +10723,43 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Duke Energy Power-Disconnection Robocall Scam',
+    slug: 'north-carolina-duke-energy-robocall-scam',
+    description: `Robocalls spoofing a local caller ID tell Duke Energy customers in North Carolina their bill is overdue and power will be shut off within a short window unless they pay immediately, directing them to call back a number that is not Duke Energy's. Scammers who answer that number tell victims to pay through Cash App, Zelle, Venmo, cryptocurrency, wire transfer, or a prepaid card — methods Duke Energy says it has never accepted. The North Carolina Attorney General's office and Duke Energy both urge anyone who gets such a call to hang up and call the number on their actual bill, or Duke Energy's own fraud line at 800-769-3766, rather than any number the caller provides.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['North Carolina Department of Justice', 'Duke Energy'],
+    sourceUrl: 'https://greensborochronicle.com/2026/01/27/rolling-blackout-scams-how-criminals-are-impersonating-duke-energy-to-steal-from-customers/',
+    country: 'US',
+    state: 'NC',
+});
+
+UsNS.push({
+    name: 'NCrenew.org Fake Business Annual-Report Filing Scam',
+    slug: 'north-carolina-ncrenew-business-filing-scam',
+    description: `Scammers using names like "NC Filing Center" send North Carolina business owners official-looking emails claiming their state annual report is due and their business will become inactive if they don't pay immediately, directing them to a lookalike site such as NCrenew.org. The notices mimic real deadlines and filing language but have no connection to the North Carolina Secretary of State, the only agency that actually processes annual reports, at a filing fee far lower than what these third-party solicitations demand. The NC Secretary of State's Business Registration Division has repeatedly warned, across several years and under rotating company names, that these are deceptive third-party solicitations rather than official government notices, and that businesses can file their real annual report directly with the state at much lower cost.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['North Carolina Secretary of State', 'Better Business Bureau'],
+    sourceUrl: 'https://www.bbb.org/scamtracker/lookupscam/1181794',
+    country: 'US',
+    state: 'NC',
+});
+
+UsNS.push({
+    name: 'Fake "Veterans Savings Program" Postcard Scam',
+    slug: 'north-carolina-veterans-savings-program-scam',
+    description: `Veterans across North Carolina have received postcards advertising a "Veterans Savings Program" promising monthly payments of up to $185 plus free dental coverage, pressuring recipients to call a toll-free number within five days — but no such program exists. The postcards reference legitimate programs like CHAMPVA and TRICARE For Life to look credible, and callers who respond are asked for personal and financial information by scammers posing as benefits agents. NC Attorney General Jeff Jackson warned veterans on March 27, 2026 that "veterans deserve our respect and support, not scams that try to take advantage of their service. If it sounds like someone is offering you free money — it's probably a scam," and urged anyone who gets the postcard to throw it away rather than call the listed number.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['North Carolina Department of Justice', 'WECT'],
+    sourceUrl: 'https://www.wect.com/2026/03/27/attorney-general-warns-scam-targeting-veterans-north-carolina/',
+    country: 'US',
+    state: 'NC',
+    firstRecorded: '2026-03-27',
+});
+
+UsNS.push({
     name: 'SC Department of Insurance Door-to-Door Impersonation Scam',
     slug: 'south-carolina-department-of-insurance-door-to-door-scam',
     description: `The South Carolina Department of Insurance warned residents that individuals were going door to door falsely claiming to represent the Department. SC DOI said it is a regulatory agency, not an insurer, does not issue or sell insurance products, and never conducts unsolicited home visits — so anyone appearing at the door claiming to represent it is impersonating the agency. Residents were urged not to give personal or financial information to such visitors and to report the activity to local law enforcement.`,
