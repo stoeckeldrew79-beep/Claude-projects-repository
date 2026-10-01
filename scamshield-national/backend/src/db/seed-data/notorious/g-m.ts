@@ -11200,6 +11200,10 @@ NotoriousGM.push({
     slug: 'kids-wish-network-worst-charity',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'charity-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Tampa_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Mark Szelistowski, Wikimedia Commons (CC BY-SA 3.0) — downtown Tampa, near Holiday, Florida, where Kids Wish Network was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Kids Wish Network was founded in 1997 in Holiday, Florida by Mark Breiner, his wife Shelley Breiner, and Barbara Askin, originally under the name Fulfill a Wish Foundation before a trademark dispute with the far larger and better-known Make-A-Wish Foundation forced a rename in 1998. Like Make-A-Wish, Kids Wish Network solicited donations to grant wishes to children with life-threatening illnesses — a cause few donors would think to question closely before giving.
 
 A year-long joint investigation by the Tampa Bay Times, CNN, and the Center for Investigative Reporting, published in 2013, ranked Kids Wish Network as the single worst charity in the United States by percentage of donations actually spent on its stated cause. The investigation found that in 2012 alone, the charity raised $18.6 million but spent only about $240,000 — roughly 1.3 percent — on wish-granting itself. Looking back over the prior decade, reporters found Kids Wish Network had funneled close to $110 million in donations to for-profit corporate telemarketing solicitors, who kept the overwhelming majority of what they collected as fees before passing along a small remainder. The investigation's blunt summary: "only three cents out of every dollar raised is spent on wish-granting."
@@ -11253,6 +11257,10 @@ NotoriousGM.push({
     slug: 'juan-vila-reyes-matesa-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'bank-fraud', 'corruption', 'historical', 'spain', 'bribery'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Panor%C3%A1mica_de_Pamplona_-_panoramio.jpg?width=1200',
+    coverImageCredit: 'Photo: Vicente Maza Gómez, Wikimedia Commons (CC BY-SA 3.0) — Pamplona, where Matesa was headquartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Juan Vilá Reyes ran Matesa — formally Maquinaria Textil del Norte, S.A. — a Spanish textile-machinery maker built around a genuinely innovative weaving loom it had developed from licensed French patents. Under General Franco's government, which was pushing hard to grow Spanish industrial exports in the 1960s, Matesa became a favored example of what the regime's technocratic ministers, several of them tied to Opus Dei, held up as the country's economic modernization in action. That favored status came with a very concrete benefit: access to large, state-subsidized export credit from the government-owned Banco de Crédito Industrial (BCI), issued on the assumption that Matesa's looms were actually being sold abroad.
 
 They mostly weren't. Between 1964 and 1969, Matesa drew roughly 9,800 million pesetas in credits from BCI against claimed export sales, but investigators later found that of about 1,500 looms the company shipped to Argentina, buyers existed for only around 120 of them. Much of the rest moved to Matesa's own subsidiaries and affiliated shell entities abroad rather than to any paying third party, letting the company present government auditors with sales contracts and shipping paperwork for exports that, commercially, didn't really exist — and collect state credit against them as though they did.
@@ -11270,6 +11278,10 @@ NotoriousGM.push({
     slug: 'marcos-magalhaes-pinto-banco-nacional-brazil-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'accounting-fraud', 'bank-fraud', 'brazil'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Belo_Horizonte,_Brasil_horizon_view.jpg?width=1200',
+    coverImageCredit: 'Photo: copagov, Wikimedia Commons (CC BY-SA 2.0) — Belo Horizonte, Brazil, where Banco Nacional was founded',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Banco Nacional was, for most of the twentieth century, one of Brazil's most trusted financial brands — founded in Belo Horizonte in 1944 and built into the country's sixth-largest private bank by the 1990s, prestigious enough that it spent a decade as the primary sponsor painted across Formula One driver Ayrton Senna's helmet. By the time it collapsed, control had passed to Marcos Magalhães Pinto, who had inherited the bank from his father, the institution's founder, and who presided over what Brazilian courts would eventually call one of the largest and longest-running accounting frauds in the country's banking history.
 
 The fraud wasn't a single heist but a slow-motion cover-up that ran for roughly a decade. According to the Central Bank's own investigators, Banco Nacional's management built a parallel accounting system that credited large, entirely fictitious loans to the current accounts of more than 600 small debtors — real people whose names were used without their knowledge — and then booked those invented loans on the bank's balance sheet as healthy, performing assets. The fiction accumulated into a loss estimated at R$5.5 billion and a final deficit of roughly $9.2 billion, effectively papering over a widening hole in the bank's real finances with assets that existed only on paper.
@@ -11287,6 +11299,10 @@ NotoriousGM.push({
     slug: 'harris-scarfe-alan-hodgson-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Harris_scarfe_Wagga.jpg?width=1200',
+    coverImageCredit: 'Photo: Bidgee, Wikimedia Commons (CC BY 3.0) — a Harris Scarfe department store in Wagga Wagga, NSW',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Harris Scarfe was one of Adelaide's oldest names in retail, founded in 1849 as a hardware and ironmongery business and built, over more than a century, into a genuinely trusted department store chain. By the mid-1990s it had expanded well beyond South Australia to become the country's third-largest department store retailer, trading under 38 stores nationwide — the kind of long, steady growth that made it look like exactly the sort of company that couldn't possibly be in trouble.
 
 Behind that growth, Harris Scarfe's chief financial officer, Alan Hodgson, had been doing something much simpler than anyone suspected: starting around 1994, he directed company accountants to falsify the books, inflating profits and smoothing over a financial position that was actually deteriorating. What began as occasional adjustments became, over the following years, a routine of monthly changes to the accounts, keeping the company looking profitable enough to keep borrowing, keep expanding, and keep its listed share price intact — all while the underlying business was quietly sinking.
