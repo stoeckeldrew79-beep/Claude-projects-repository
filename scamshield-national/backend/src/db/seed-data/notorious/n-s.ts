@@ -7801,6 +7801,10 @@ NotoriousNS.push({
     slug: 'stewart-parnell-peanut-corporation-salmonella-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'food-safety-fraud', 'consumer-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Peanuts_(shelled_raw_marketed).jpg?width=1200',
+    coverImageCredit: 'Photo: David E Mead, Wikimedia Commons (CC0) — raw shelled peanuts, the raw ingredient behind PCA\'s tainted products',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Stewart Parnell owned and ran Peanut Corporation of America (PCA), a peanut-processing company headquartered in Lynchburg, Virginia, whose Blakely, Georgia plant supplied peanut paste, peanut butter, and roasted peanuts in bulk to other food companies rather than selling directly to consumers — its products went into everything from crackers to peanut butter served in nursing homes, schools, and prisons under brands that never carried the PCA name at all.
 
 Starting as early as 2007, the Blakely plant's own lab tests repeatedly came back positive for salmonella in its raw ingredients and finished product. Rather than destroy the contaminated batches or pause shipments, prosecutors showed that Parnell and other PCA employees shipped the product anyway — in some instances submitting paperwork attesting to negative test results before the tests had even been completed, and in others simply reordering a new test until one came back clean and discarding the positive results that came before it. Internal emails presented at trial captured Parnell's own instructions when told a shipment was overdue and the lab work wasn't finished: "just ship it."
@@ -7857,6 +7861,10 @@ NotoriousNS.push({
     slug: 'nikko-cordial-accounting-fraud-japan',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'accounting-fraud', 'securities-fraud', 'corporate-fraud', 'japan'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nikko_Cordial_Corporation_(headquarters_1).jpg?width=1200',
+    coverImageCredit: 'Photo: Lombroso, Wikimedia Commons (Public Domain) — Nikko Cordial\'s Tokyo headquarters, beside the Tokyo Stock Exchange',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Nikko Cordial ranked among Japan's "Big Four" brokerages, alongside Nomura, Daiwa, and the already-collapsed Yamaichi Securities, and under president Junichi Arimura it had spent years building a reputation as one of the more disciplined, professionally managed firms in Tokyo's financial establishment. That reputation took a direct hit in December 2006, when Japan's Securities and Exchange Surveillance Commission (SESC) found that Nikko Cordial had manufactured roughly 18.4 billion yen, about $156 million, in unjustified profit through a transaction that, on its face, looked like routine merchant banking.
 
 The mechanism ran through Nikko Principal Investments, Nikko Cordial's own merchant-banking subsidiary, which had purchased exchangeable bonds as part of a corporate deal. According to the SESC, Nikko Cordial backdated documents tied to that purchase so that the bonds appeared to have been bought at a more favorable moment than they actually were, inflating the valuation gain the company then booked on its books — 14.5 billion yen from the bond itself, plus another 3.9 billion yen in related fees and other income. It was a small, almost bureaucratic piece of financial engineering, timing on paper rather than the underlying economics, but it let Nikko Cordial report earnings for its fiscal year ending March 2005 that were meaningfully better than the real numbers supported, and the company was later forced to restate them.
@@ -7874,6 +7882,10 @@ NotoriousNS.push({
     slug: 'sofico-costa-del-sol-real-estate-ponzi',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'real-estate-fraud', 'ponzi-scheme', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Estepona_villas.jpg?width=1200',
+    coverImageCredit: 'Photo: Schminnte, Wikimedia Commons (CC BY-SA 4.0) — villa apartments on the Costa del Sol near Estepona',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `In 1962, an Almería businessman named Eugenio Peydró Salmerón, well-connected within the Franco regime's business establishment, founded a company called Sociedad Financiera Internacional de Construcciones — SOFICO — with a modest 15 million pesetas in capital. Its business, on paper, was straightforward: build and sell apartments along Spain's booming Costa del Sol, especially around the resort town of Estepona, at a moment when Spain's tourism boom was turning stretches of empty coastline into prime investment property.
 
 What made SOFICO different from an ordinary developer was how it sold those apartments. Alongside the apartments themselves, the company pitched small investors — including a growing number drawn from elsewhere in Europe — on a guaranteed 12% annual return, far above anything a Spanish bank account paid at the time. It initially sold finished units, but soon shifted to selling off-plan: collecting full payment upfront for apartments that, in a significant number of cases, hadn't been built yet, and in some instances sat on land SOFICO hadn't even purchased. By 1969 the company had launched a dedicated arm, SOFICO Renta, specifically to keep pulling in new subscribers — because by then, the 12% being paid to existing investors was coming largely from money just raised from new ones, not from any real construction profit.
