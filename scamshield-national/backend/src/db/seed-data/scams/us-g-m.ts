@@ -11585,3 +11585,30 @@ UsGM.push({
     state: 'IA',
     firstRecorded: '2026-06-01',
 });
+
+UsGM.push({
+    name: 'Kentucky EBT/SNAP Card Skimming and Cloning Theft Wave',
+    slug: 'kentucky-ebt-snap-card-skimming-cloning-theft',
+    description: `Since July 2022, the Kentucky Cabinet for Health and Family Services has documented a sustained wave of EBT card "skimming" and "cloning" in which criminals plant illegal skimming devices on ATMs and point-of-sale card readers to capture SNAP food-stamp and KTAP cash-assistance card numbers and PINs, then use the stolen data to produce counterfeit cards and drain the accounts before recipients can spend their own benefits. The problem accelerated sharply in the first quarter of 2024, when Kentuckians filed more than 2,000 theft claims totaling over $1 million in stolen benefits — four times the amount reported the prior quarter — of which the state had recovered only about $640,000 by mid-2024. Victims named in contemporaneous reporting include Louisville grandmother Angel Lathan, who lost $650 in KTAP and food-stamp funds on July 1, 2024 while supporting five grandchildren, and 22-year-old mother of three Cheyenne Fenwick, who lost roughly $650 the same day and turned to a GoFundMe campaign to feed her children. Because federal authority allowing states to reimburse SNAP households for stolen benefits expired December 20, 2024 and had not been renewed as of 2026, many victims of this scheme have no guaranteed path to recovering the money. The state directs victims to a dedicated theft-claim hotline and to change PINs and request replacement cards immediately after any suspicious activity.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'critical',
+    sources: ['Kentucky Cabinet for Health and Family Services', 'WDRB/WAVE3 News (Louisville)'],
+    sourceUrl: 'https://www.wdrbwave.com/2024/07/05/thieves-targeting-ebt-funds-more-than-2000-kentuckians-have-been-affected/',
+    country: 'US',
+    state: 'KY',
+    firstRecorded: '2022-07-01',
+});
+
+UsGM.push({
+    name: 'Kentucky Unemployment Insurance Identity Theft and Claim Hijacking',
+    slug: 'kentucky-unemployment-insurance-identity-theft-claim-hijacking',
+    description: `Starting early in the COVID-19 pandemic and continuing into 2021, Kentucky saw a surge of unemployment insurance fraud built on stolen identities: criminals used victims' names and Social Security numbers — often harvested from prior data breaches — to file fraudulent unemployment claims, and in a variant called "claim hijacking," logged into the real accounts of legitimate claimants whose PINs were too simple to guess, redirecting the payments to accounts the criminals controlled. Officials estimated roughly two fraudulent claims were being filed for every one legitimate claim, mirroring a nationwide pattern in which more than $63 billion in fraudulent pandemic unemployment benefits was paid out across the country. Governor Andy Beshear responded on April 5, 2021 by creating a state Unemployment Insurance Fraud Task Force combining the Kentucky State Police, the Department of Homeland Security, the Transportation Cabinet, and the Office of Unemployment Insurance with federal partners including the FBI and Secret Service, and the state simultaneously added ID.me identity verification, reCAPTCHA, mandatory complex PINs, and a ban on claimant-initiated bank-account changes. Kentuckians who receive an unexpected unemployment debit card, benefits determination letter, or 1099-G for a claim they never filed are directed to Kentucky's Unemployment Fraud Unit as well as the FBI's National Center for Disaster Fraud and the FTC.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Office of Kentucky Governor Andy Beshear', 'Kentucky Office of Unemployment Insurance'],
+    sourceUrl: 'https://www.kentucky.gov/Pages/Activity-stream.aspx?n=GovernorBeshear&prId=697',
+    country: 'US',
+    state: 'KY',
+    isHistorical: true,
+    firstRecorded: '2020-04-01',
+});

@@ -20882,6 +20882,16 @@ International.push(
     sourceUrl: 'https://gabonmediatime.com/franceville-trois-presumes-cybercriminels-ecroues-pour-arnaque-via-airtel-money/',
     country: 'GA',
   },
+  {
+    name: '"Cook Islands Sustainability Bond" Fake Investment Scheme',
+    slug: 'cook-islands-sustainability-bond-investment-fraud',
+    description: `In October and November 2022, the Cook Islands Financial Intelligence Unit (CIFIU) and New Zealand's Financial Markets Authority (FMA) jointly warned investors about a fraudulent investment scheme marketed as "The Cook Islands Sustainability Bond," which falsely traded on both the Cook Islands' international reputation for climate leadership and the name of a real bank to extract money from New Zealand investors. People who registered interest through a lead-generation site were contacted by someone identifying himself as "Jacob Taylor," who claimed to be a senior investment manager at Rabobank, and were sent a polished prospectus bearing Rabobank's real logo and the name of its chief executive before being instructed to wire funds to a third-party account rather than to any account actually associated with Rabobank or the Cook Islands government. One investor's bank in New Zealand intercepted and blocked a transfer into the scheme before the money left the country, which is how CIFIU was first alerted to it in early October 2022. Cook Islands Prime Minister Mark Brown publicly condemned the scheme, saying it was "disappointing" that the country's genuine push toward sustainable and renewable energy was "being targeted by crooks" as a pretext for theft, while the Cook Islands government stated flatly that it "does not have any bonds or investment schemes that people can invest in." Rabobank confirmed it had no connection to the offer or to anyone named Jacob Taylor. The FMA's public alert noted the scheme had resurfaced more than once, warning that any unsolicited investment offer citing Cook Islands government bonds, "green" or sustainability bonds, or a named bank employee reached through a third-party comparison website should be independently verified directly with the bank and the Cook Islands government before any funds are transferred.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Cook Islands Financial Intelligence Unit (CIFIU)', 'New Zealand Financial Markets Authority (FMA)', 'Cook Islands News'],
+    sourceUrl: 'https://www.cookislandsnews.com/uncategorised/internal/national/local/economy/phony-cook-islands-bond-offer-rears-its-head-again/',
+    country: 'CK',
+  },
 );
 
 International.push({
