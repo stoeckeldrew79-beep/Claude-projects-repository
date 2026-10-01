@@ -13403,6 +13403,26 @@ International.push(
     sourceUrl: 'https://www.gabonreview.com/fausses-offres-demploi-eramet-comilog-alerte-et-rappelle-sa-procedure-officielle-de-recrutement/',
     country: 'GA',
   },
+  {
+    name: 'Gabon Fake Land Sale Listings Scam Impersonating ANUTTC',
+    slug: 'gabon-fake-land-sale-anuttc-impersonation-scam',
+    description: `Fraudsters create fake Facebook and WhatsApp posts impersonating Gabon's Agence Nationale de l'Urbanisme, des Travaux Topographiques et du Cadastre (ANUTTC) — the national land-titling and cadastre authority — to advertise plots of land and homes for sale at unusually attractive prices, sometimes using state-domain land that was never for sale or that had already been allocated to someone else. Victims are pressured to send a deposit or the full price quickly via Airtel Money or Moov Money mobile-money transfer before the "seller" disappears, and in many cases the documentation shown is forged. ANUTTC stated flatly that no land transaction is ever conducted over social media and warned that legitimate land acquisition is a strict administrative procedure that can only be completed in person at an official ANUTTC office — never through a Facebook page, and never by mobile-money transfer. After receiving a growing volume of complaints, ANUTTC's communications unit, led by Martine Claude Nte, deployed field teams over the weekend of March 15, 2026 across Estuaire province communes (Libreville, Owendo, and Akanda) to run public-awareness campaigns and to coordinate with municipal leaders on steering residents toward the legal purchase process.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ["Agence Nationale de l'Urbanisme, des Travaux Topographiques et du Cadastre (ANUTTC)", 'Gabonreview'],
+    sourceUrl: 'https://www.gabonreview.com/arnaques-foncieres-en-ligne-descente-de-lanuttc-sur-le-terrain/',
+    country: 'GA',
+  },
+  {
+    name: 'Gabon Airtel Money "GMAC" Account-Takeover Fraud Network',
+    slug: 'gabon-airtel-money-gmac-account-takeover-scam',
+    description: `A multi-month fraud ring operating between Libreville and Franceville used a scheme the perpetrators called "GMAC" to take over victims' Airtel Money mobile-money accounts, reportedly by impersonating Airtel agents to extract PINs, passwords, or one-time verification codes before draining the accounts. Gabonese judicial police dismantled the network and placed suspects Kelly Ovouga Antsou (37), Ulrich Ndong Essone (35), an Airtel Money agency employee named Tanguy Massala Massala, and a discharged military officer, Aboubakar Mamadou Mavoungou, in custody on July 3, 2026, with further suspects later arrested in Franceville and Libreville and transferred to Haut-Ogooué for prosecution. Essone, based in Libreville's Charbonnages district, is accused of supplying SIM cards pre-activated under stolen identities to shield the group's real identities, while stolen funds were immediately moved into Moov Money accounts — a rival mobile-money network — to break the money trail before merchants and private individuals, including several foreign nationals, could trace the transfers. Investigators said the probe into additional accomplices was continuing as of the August 10, 2026 report.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Direction Générale de la Police Judiciaire, Gabon', 'Gabon Média Time'],
+    sourceUrl: 'https://gabonmediatime.com/franceville-trois-presumes-cybercriminels-ecroues-pour-arnaque-via-airtel-money/',
+    country: 'GA',
+  },
 );
 
 International.push(
