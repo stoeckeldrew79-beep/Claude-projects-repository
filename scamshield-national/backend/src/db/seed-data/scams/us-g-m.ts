@@ -11514,3 +11514,31 @@ UsGM.push({
     state: 'MO',
     firstRecorded: '2026-09-24',
 });
+
+UsGM.push({
+    name: 'Guam Tax Preparer False-Return Scheme (Immaculata Sewell)',
+    slug: 'guam-sewell-tax-preparer-false-return-fraud',
+    description: `A federal investigation uncovered a tax-fraud scheme run by Guam resident Immaculata Sewell, who between March 22, 2009 and August 4, 2011 prepared and electronically filed 574 individual and joint federal income tax returns for herself and other Guam residents for tax years 2008 through 2010, nearly all of them containing materially false information. Guam operates under its own mirror territorial income-tax code rather than the mainland IRS rules, which makes bona fide Guam residents ineligible to claim the federal Earned Income Credit or the refundable Child Tax Credit on a federal return — a distinction Sewell exploited by listing her sister's residential and post-office-box addresses in Spokane, Washington on every return in the scheme, since a Guam address on an e-filed return claiming those credits would have triggered an automatic rejection. Individual fraudulent refunds ranged from $125 to $10,650 per taxpayer, and the scheme caused a total tax loss to the United States of approximately $2,031,607. Sewell pleaded guilty in the U.S. District Court of Guam to nine counts of aiding and assisting in the preparation of false returns and two counts of filing a false return of her own; IRS Criminal Investigation Special Agent Kenneth J. Hines said "this guilty plea should serve as a warning for those who prey on the residents of Guam for selfish financial gain," while then-U.S. Attorney Alicia A. G. Limtiaco added that "people who create schemes to defraud the IRS run the risk of prosecution." The case is a reminder that Guam's unique mirror-tax status is itself an exploitable detail: a preparer who promises a refund built on a mainland-only credit, or who asks a Guam resident to list an off-island address to get a return through, is filing something the client isn't legally entitled to — and it is the taxpayer, not just the preparer, who is left owing the IRS interest and penalties once it's caught.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office for the Districts of Guam and the Northern Mariana Islands", 'Internal Revenue Service Criminal Investigation'],
+    sourceUrl: 'https://www.justice.gov/archive/usao/gu/news/2012/20120531.html',
+    country: 'US',
+    state: 'GU',
+    firstRecorded: '2012-05-31',
+});
+
+UsGM.push({
+    name: 'Sky Mart SNAP Benefits-Trafficking Scheme (Kun Sup Song)',
+    slug: 'guam-sky-mart-snap-benefits-trafficking-fraud',
+    description: `Kun Sup Song, 57, owned and operated Sky Mart, a small convenience store in Yigo authorized to redeem Supplemental Nutrition Assistance Program (SNAP) benefits, and used that authorization to run a benefits-trafficking scheme rather than a legitimate SNAP retailer business. Instead of accepting EBT cards only for eligible food purchases at checkout, Song let SNAP recipients run up store credit and then swiped their EBT cards against that balance — effectively converting food benefits into cash-equivalent store credit — and separately redeemed benefits for items SNAP does not cover, pocketing the gap between what the federal program paid him and what customers actually received in eligible groceries. Song pleaded guilty on March 27, 2014 to unauthorized use of food stamp benefits; a federal judge sentenced him to five years of probation, including eight months of home confinement, ordered him to pay $170,021 in restitution to the USDA's Food and Nutrition Service, and entered a $70,000 forfeiture money judgment on top of roughly $38,000 in cash and a Toyota 4Runner already seized from the scheme. Sky Mart is one of several Guam retailers federal prosecutors have charged with trafficking SNAP benefits this way over the years — trading store credit, cash, or ineligible goods for an EBT swipe instead of groceries — a pattern that quietly drains a program meant to put food on the table for the island's lowest-income households, and that can leave a store's legitimate SNAP customers without a nearby place to redeem their benefits once the retailer's SNAP authorization is revoked. The USDA Office of Inspector General and the FBI's Guam Resident Agency both take tips on a retailer offering cash back, store credit, or non-food items for an EBT swipe, since trafficking is illegal for the retailer and, in some circumstances, for a recipient who knowingly trades away their own benefits.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office for the Districts of Guam and the Northern Mariana Islands", 'U.S. Department of Agriculture Food and Nutrition Service', 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-gu/pr/owner-convenience-store-sentenced-food-stamp-fraud-scheme-0',
+    country: 'US',
+    state: 'GU',
+    firstRecorded: '2014-03-27',
+});
