@@ -10100,6 +10100,48 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Pine Bluff Simmons Bank Trust Administrator Embezzlement (Laura Parrish)',
+    slug: 'arkansas-pine-bluff-parrish-simmons-bank-trust-embezzlement',
+    description: `Laura Parrish, 59, of Pine Bluff, worked for more than seven years in trust and private-wealth roles at Simmons Bank — a position giving her direct access to customer trust and deposit accounts. Between July 2021 and January 2024, prosecutors say she withdrew roughly $414,000 from eight customer accounts, including about $364,000 from a single family's account between August 2021 and April 2023, using the funds to pay her own credit cards and PayPal transfers; one of the accounts she drained belonged to a family member who had already died. A joint investigation by the FBI, the Federal Reserve's Office of Inspector General, the Consumer Financial Protection Bureau, and the FDIC's Office of Inspector General put her total theft at approximately $413,871. Parrish pleaded guilty to one count of bank theft and was sentenced to three years in federal prison plus three years of supervised release, with full restitution ordered. The case is a reminder that a trusted back-office bank employee with standing account access — not an outside caller or phishing email — can embezzle from trust and deposit accounts for years undetected; families with a relative in a trust arrangement are advised to request independent account statements on a regular schedule.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Eastern District of Arkansas', 'Arkansas Business', 'KARK'],
+    sourceUrl: 'https://www.arkansasbusiness.com/article/simmons-bank-employee-sentenced-theft/',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2021-07-01',
+});
+
+UsAF.push({
+    name: 'Springdale Real Estate Title Fraud and Identity Theft (Steven James Smith)',
+    slug: 'arkansas-springdale-smith-real-estate-title-fraud-identity-theft',
+    description: `From at least June 1, 2023 to around June 7, 2024, Steven James Smith, 41, of Springdale, identified real properties in Northwest Arkansas that he had no legal claim to and posed as their owner to sell them. He entered into purchase agreements with real buyers and transmitted them to title companies by email, making it appear he held legitimate authority to convey the land, and used a fraudulent driver's license bearing another person's name and identifying information to support the impersonation. Smith pleaded guilty in March 2026 under a federal plea agreement, and on August 5, 2026 was sentenced to 13 years for wire fraud and 2 years for aggravated identity theft, running consecutively for a total of 15 years, plus three years of supervised release; he also faces separate, still-pending Washington County charges including forgery and theft of property. Unlike a fake rental listing, this scheme targeted real buyers attempting an actual purchase closing: title companies and buyers dealing with an unfamiliar "owner" should independently confirm the seller's identity against the county's recorded deed and require an in-person or notarized video identity check before wiring any closing funds, since a forged driver's license alone was enough to get purchase agreements into escrow.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Western District of Arkansas', 'Arkansas Democrat-Gazette'],
+    sourceUrl: 'https://www.nwaonline.com/news/2026/aug/06/springdale-man-gets-to-15-years-in-federal-prison/',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2023-06-01',
+});
+
+UsAF.push({
+    name: 'Fort Smith Insurance Agent Annuity and Policy-Surrender Theft (Samuel Bowron Phillips)',
+    slug: 'arkansas-fort-smith-phillips-insurance-annuity-theft',
+    description: `Samuel Bowron Phillips, a licensed insurance agent in Fort Smith, ran a scheme from March 2013 through November 2015 in which he withdrew funds directly from his own customers' annuity contracts and insurance policies without their knowledge or consent. To launder and conceal the withdrawals, Phillips created two sham companies, Stevens Financial Asset Management and Paradigm Financial Partners LLC, renting post office boxes in Fort Smith and nearby Barling to receive mail addressed to the fake entities and using a false name to hide his own connection to the transactions. In total, 21 of Phillips' customers lost nearly $1.6 million they believed was safely invested in annuities and insurance policies purchased through him; he admitted he had frittered much of it away in casinos. He pleaded guilty to mail fraud, wire fraud, and money laundering, and on January 12, 2017 was sentenced to 60 months in federal prison plus three years of supervised release, with restitution ordered for the full $1.6 million loss. Unlike other Arkansas insurance-fraud entries already in the database — fake roadside agents, forged claims — this is a real, licensed agent quietly liquidating existing customers' in-force annuity and life policies for cash rather than ever selling a fake product up front. Policyholders are advised to request an annual statement directly from the issuing insurance carrier, not just from their agent, to confirm a policy's cash value and status have not changed without their authorization.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, Western District of Arkansas', 'Insurance Journal'],
+    sourceUrl: 'https://www.insurancejournal.com/news/southcentral/2017/01/13/438881.htm',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2013-03-01',
+});
+
+UsAF.push({
     name: 'Business Email Compromise (BEC) Gift Card Fraud (Arizona)',
     slug: 'arizona-business-email-compromise-gift-card-fraud',
     description: `The FBI's Phoenix Field Office warned that Business Email Compromise — in which a scammer spoofs or impersonates a company executive's email and instructs an employee to urgently purchase gift cards, then send back the card numbers and PINs "for the boss" — was the number one scam in Arizona by dollar losses for five consecutive years running. Per IC3's 2021 Internet Crime Report, Arizona reported 388 BEC/EAC victims with more than $22 million in losses that year alone. The FBI advises employees to scrutinize sender addresses that look similar-but-not-identical to a real supervisor's, to be wary of any request to buy multiple gift cards under time pressure, and to verify unusual purchase requests by phone through a known number rather than by replying to the email.`,
@@ -10699,6 +10741,33 @@ UsAF.push({
     country: 'US',
     state: 'CT',
     firstRecorded: '2025-07-30',
+});
+
+UsAF.push({
+    name: 'Harwinton TikTok Rental Listing Scam (Stolen Photos, Undervalued Rent)',
+    slug: 'connecticut-harwinton-tiktok-rental-listing-scam',
+    description: `In July 2026, scammers stole every listing photo of a $599,000 three-bedroom home for sale in Harwinton, Connecticut, and reposted them across two TikTok accounts and Facebook Marketplace as a rental advertised at just $1,400 a month with utilities included — a price the listing agent, Hartford County realtor Geena Becker, said should have been $4,500 to $5,000 a month if the home were genuinely for rent. A prospective renter grew suspicious of the steeply undervalued price, contacted Becker directly, and confirmed the listing was fraudulent before sending any money; Becker reported both TikTok accounts to the FBI's Internet Crime Complaint Center. The case illustrates a fast-growing national pattern: the FBI says real-estate-fraud complaints to IC3 jumped from 9,359 in 2024 to 12,368 in 2025, with fake rental listings built from stolen real-agent photos increasingly driving losses that topped $275 million in 2025.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['RISMedia', 'Federal Bureau of Investigation (FBI) Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.rismedia.com/2026/08/20/connecticut-realtors-listing-was-used-in-a-tiktok-scam-heres-the-red-flags-to-look-out-for/',
+    country: 'US',
+    state: 'CT',
+    firstRecorded: '2026-07-01',
+});
+
+UsAF.push({
+    name: 'Wethersfield Family\'s Fraudulent "Debt Elimination" Program (Buddhu/Thakur)',
+    slug: 'connecticut-wethersfield-debt-elimination-scheme',
+    description: `From 2009 to June 2012, Wethersfield resident Deowraj "Deo" Buddhu, his then-wife Urmila Sri Thakur, and their daughter Sunita Buddhu sold a bogus "debt elimination" program to more than 125 victims across Connecticut through businesses including Paradise Consulting Service, Hema, Inc., and Secured Redemption. Buddhu told victims about a "little-known" government fund that supposedly existed to pay off mortgages, credit cards, and other debts — no such fund exists — and, after collecting substantial upfront fees, instructed victims to stop paying their mortgages, credit cards, and even property taxes while handing them fabricated promissory notes he called "bonds" to submit to creditors as payment. A federal jury convicted Sunita Buddhu, who was sentenced to 30 months in federal prison; Thakur later pleaded guilty to money laundering and was sentenced to four years of probation, including four months of home confinement, and ordered to pay $335,072 in restitution tied directly to the scheme. The case remains a template for the fake "little-known government debt relief fund" pitch that debt-relief scammers nationwide continue to use.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, District of Connecticut', 'HUD Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/usao-ct/pr/federal-jury-convicts-wethersfield-resident-running-fraudulent-debt-elimination-scheme',
+    country: 'US',
+    state: 'CT',
+    isHistorical: true,
+    firstRecorded: '2009-01-01',
 });
 
 UsAF.push({
