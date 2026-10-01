@@ -13877,6 +13877,29 @@ International.push(
 
 International.push(
   {
+    name: 'Fake Staffing-Agency Wage Theft Targeting Craftsmen Recruited to Work in Greenland',
+    slug: 'greenland-fake-staffing-agency-wage-theft-scheme',
+    description: `Sermitsiaq and the Danish trade-union magazine Fagbladet 3F reported in December 2022 that Danish craftsmen recruited to work on construction projects in Greenland, including in Ilulissat, were being defrauded of wages and vacation pay by Jens Sam Andersen, a businessman previously known as Sam Overgaard, operating through the staffing companies Grønlands Byggeservice ApS and Din Bygge Service Grønland IVS, both since placed under forced dissolution. Workers who raised the issue of unpaid wages described being met with excuses, harassment, and threats; one craftsman had to take out a cash advance to cover living costs after his pay failed to arrive. A major Ilulissat client, construction firm Carl Lynge ApS, cut ties with Andersen after two leased craftsmen complained of unpaid wages, with its director saying Andersen had overbilled for the workers' hours. The pattern echoed Andersen's own history: a 2017 Danish TV documentary series had already shown him, then operating as Sam Overgaard through now-bankrupt Norwegian companies Nordic Crew and Nordisk Bemanning, defrauding at least 17 people of more than 600,000 kroner. The case illustrates a labor-recruitment fraud pattern specific to Greenland's reliance on imported Danish tradespeople for construction work in remote towns, where workers have little practical recourse once on-site and far from home. Anyone recruited by a staffing agency for work in Greenland is advised to get wage and vacation-pay terms in writing before travel, verify a company isn't under active dissolution via Denmark's CVR business register, and check a recruiter's history before accepting a contract.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Sermitsiaq', 'Fagbladet 3F'],
+    sourceUrl: 'https://www.sermitsiaq.ag/samfund/berygtet-forretningsmand-pa-spil-i-gronland/509383',
+    country: 'GL',
+  },
+  {
+    name: 'Fake "For Sale" Listings for Boats, Snowmobiles and Cars on Greenland\'s Facebook Marketplace Groups',
+    slug: 'greenland-fake-classified-equipment-listing-scam',
+    description: `Sermitsiaq reported on May 29, 2025 that Greenland's peak spring and summer demand for used boats, outboard motors, snowmobiles, and cars — essential transport and livelihood equipment in a country with no road network between towns — has made buyers vulnerable to a specific fraud pattern on the territory's main classifieds channel: large Facebook buy-and-sell groups, including one with roughly 20,500 members. Group administrators said they periodically receive reports of listings posted by people advertising boats or vehicles which they do not actually possess, with the fraudulent posts removed once discovered, after a buyer has typically already paid a deposit or the full price sight-unseen to someone who lives in another town and has no equipment to deliver. Attorney Gutti Harryson of Nuna Law said the risk is compounded by the fact that no standardized purchase contract exists for used boats in Greenland, that remote and distance sales are common because buyers and sellers are often in different settlements, and that disputes which do reach court can take up to two years to resolve with no guarantee of recovering the money. His advice was to get a seller's claims about a boat or vehicle's condition and ownership in writing before paying, rather than relying solely on message-app conversations, and to use bank escrow arrangements that release funds only once delivery and condition are verified, given how costly and slow legal recourse is in Greenland's small communities.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Sermitsiaq', 'Nuna Law'],
+    sourceUrl: 'https://www.sermitsiaq.ag/erhverv/stor-eftersporgsel-pa-brugte-bade/2236386',
+    country: 'GL',
+  },
+);
+
+International.push(
+  {
     name: 'Fake "Carabiniere" Phone Scam Targeting the Elderly',
     slug: 'san-marino-fake-carabiniere-phone-scam',
     description: `San Marino's Gendarmeria (the national police, the Corpo della Gendarmeria) warned the public on November 25, 2025 after the Interforce Operations Center and several Gendarmeria brigade stations logged a cluster of reports describing the so-called "fake carabiniere or marshal" telephone fraud, a method the force says has become common across many countries. According to the Gendarmeria, the callers — both men and women — identify themselves by phone as police officers and claim the victim faces an urgent legal problem that can only be resolved by immediately handing over cash, jewelry, or other valuables. One caller keeps the target on the line for an extended period, deliberately preventing them from hanging up to call a relative or neighbor for a second opinion, while an accomplice comes to the victim's front door to collect the money or valuables in person. The Gendarmeria said that, as of the warning, every attempt reported in San Marino had failed thanks to residents' caution, and it flagged elderly residents in particular as the group most targeted. Officers reminded the public that "the police forces never ask for money or valuables as a guarantee or payment" for fines, bail, damages, or any other reason, and that no genuine officer collects property at a private home without a formal procedure already opened at a police station and a lawyer present. Residents were advised not to let strangers into the home, to speak to unexpected callers through an intercom or window instead, to keep gates and doors locked, and — if in doubt — to ask a neighbor for help or call the Interforce Operations Center on 112, 113, or 888888 to request a patrol.`,
