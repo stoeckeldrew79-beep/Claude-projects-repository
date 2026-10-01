@@ -11061,3 +11061,39 @@ UsNS.push({
     country: 'US',
     state: 'PR',
 });
+
+UsNS.push({
+    name: 'North Dakota Farmer Loses Money to Fake "Bass Farm Equipment" Website Scam',
+    slug: 'north-dakota-fake-farm-equipment-facebook-marketplace-scam',
+    description: `A North Dakota farmer found heavy equipment listed on Facebook by a seller calling itself "Bass Farm Equipment," which claimed on its website to have served farmers and builders since 1995 out of Castlewood, South Dakota. When the North Dakota buyer called the number provided, the seller immediately pushed for a wire transfer rather than a traceable payment method, and when the buyer insisted on inspecting the equipment in person before sending any money, the seller disconnected the call and cut off all further contact. A Better Business Bureau investigation published May 29, 2026 found the operation had stolen more than $35,000 from multiple victims — including a Texas buyer who lost $23,970 after signing a sales agreement, receiving an invoice, and wiring payment for equipment that never arrived — and traced the scam's website domain to a registration date of just May 4, 2026, directly contradicting its claimed three-decade history. Investigators also discovered the scammers had stolen the identity of a real South Dakota farm family, the Basses of Hamlin County, who confirmed to the BBB they have no connection to the website or its listings. The case illustrates a scam pattern increasingly common on Facebook Marketplace and farm-equipment groups: stolen photos of real machinery, a freshly registered look-alike website impersonating a real business to borrow its credibility, and relentless pressure toward an unrecoverable wire transfer before a buyer can verify the equipment exists. Farmers and equipment buyers are advised to never wire funds for equipment they have not inspected in person or verified through a reverse-image search and independent contact with the business the seller claims to represent, and to check a seller's domain registration date before trusting a site's claimed history.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'KOTA Territory News'],
+    sourceUrl: 'https://www.kotatv.com/2026/06/02/fake-farm-equipment-business-steals-more-than-35000-victims/',
+    country: 'US',
+    state: 'ND',
+});
+
+UsNS.push({
+    name: 'Montana-Dakota Utilities Phone and Email Billing Impersonation Scam',
+    slug: 'north-dakota-montana-dakota-utilities-billing-impersonation-scam',
+    description: `Montana-Dakota Utilities (MDU), the natural gas and electric utility serving western North Dakota communities including Bismarck, Minot, Dickinson, and Williston, warns that scammers routinely impersonate the company by phone and email to pressure customers into paying fake past-due balances. In the phone version, a caller claims a customer's account is seriously past due and threatens immediate service disconnection unless payment is made right then, over the phone, typically by a prepaid debit card — a method MDU says it will never insist a customer use, since the company only sends disconnection notices by U.S. mail after prior reminders. The email version carries a fabricated account number, an alleged amount due, a manufactured deadline, and a link that leads to a credential-harvesting login page rather than MDU's real site. The scam recurs seasonally and escalates during the coldest months of a North Dakota winter, when the threat of losing heat carries the most leverage over a frightened customer. MDU urges anyone who receives such a call or email to hang up or avoid clicking any links, never provide a credit card, checking account, or prepaid card number to an unsolicited caller, and instead contact the company directly at 800-638-3278 or through its official customer portal to verify an account's real status before paying anything.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Montana-Dakota Utilities Company', 'Jamestown Sun'],
+    sourceUrl: 'https://www.montana-dakota.com/customer-service/scam-alert/',
+    country: 'US',
+    state: 'ND',
+});
+
+UsNS.push({
+    name: 'North Dakota Storm-Chaser Contractor and Illegal Insurance Deductible-Waiver Fraud',
+    slug: 'north-dakota-storm-chaser-contractor-deductible-waiver-fraud',
+    description: `After hail, windstorm, and tornado damage hits North Dakota communities each summer, the North Dakota Insurance Department warns that out-of-state "storm chasers" descend on affected neighborhoods offering fast roof and property repairs, often going door to door before homeowners have even heard from their own insurer. A central tactic the department flags as illegal under North Dakota law is the contractor offering to pay or waive a homeowner's insurance deductible in exchange for the repair contract — effectively inflating the invoice submitted to the insurance company to cover the "free" deductible, which constitutes insurance fraud regardless of which party initiates it. Other warning signs the department lists include demands for payment upfront before any work begins, unsolicited offers immediately after a storm, pressure to sign a contract or an "Assignment of Benefits" document electronically without reading it, and contractors who try to communicate directly with the insurance company on the homeowner's behalf or discourage the homeowner from doing so themselves. Insurance Commissioner Jon Godfread emphasized the need for vigilance, noting that property owners likely already have a policy that will pay for storm damage and that knowing the warning signs can prevent fraud before it happens, while the National Insurance Crime Bureau estimates roughly 10 percent of the $92 billion U.S. insurers paid out in catastrophe losses in 2023 was lost to fraud. North Dakota homeowners are advised to get at least three separate written estimates, verify that any public adjuster is properly licensed in North Dakota, deal directly with their own insurance company rather than letting a contractor act as intermediary, and read every document in full before signing anything.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['North Dakota Insurance Department'],
+    sourceUrl: 'https://www.insurance.nd.gov/news/beware-contractor-scams-and-fraud-following-recent-storms-godfread-says',
+    country: 'US',
+    state: 'ND',
+});
