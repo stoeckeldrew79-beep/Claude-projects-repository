@@ -1248,18 +1248,6 @@ export const UsGM: SeedScam[] = [
     sourceUrl: 'https://www.justice.gov/usao-ks/pr/men-indicted-crimes-related-securities-fraud',
   },
 {
-    name: 'MV Realty "Homeowner Benefit Agreement" Title-Lien Scheme',
-    slug: 'idaho-mv-realty-homeowner-benefit-agreement-scheme',
-    description:
-      'MV Realty offered financially struggling Idaho homeowners a one-time payment of a few hundred to a few thousand dollars in exchange for signing what it called a "Homeowner Benefit Agreement," but the fine print bound the homeowner to use MV Realty as their exclusive listing agent for the next 40 years, imposed a penalty equal to 3% of the home\'s value for violating the agreement, and automatically transferred the obligation to the homeowner\'s heirs. MV Realty then recorded the agreement as a lien against the property\'s title at the county recorder\'s office, which blocked affected homeowners from refinancing or selling through another realtor without first paying the penalty. Idaho Attorney General Raul Labrador secured a settlement in November 2025 that declared every Idaho Homeowner Benefit Agreement null and void, required MV Realty to petition every county recorder to strike the liens from property records, and banned the company\'s three top officers from residential real estate work in Idaho for five years; attorneys general in at least a dozen other states, including New Jersey, Pennsylvania, Florida, Georgia, and California, brought parallel actions over the same scheme. Homeowners approached about cash in exchange for signing anything tied to their home\'s title should have an attorney review the document first and should never sign something described as a "benefit" or "agreement" without understanding exactly what it authorizes the other party to record against the property; anyone unsure whether something is already recorded against their own home\'s title can check for free through their county recorder or assessor\'s office.',
-    categorySlug: 'mortgage-foreclosure-scams',
-    country: 'US',
-    state: 'ID',
-    alertLevel: 'medium',
-    sources: ["Idaho Attorney General's Office", 'KIFI Local News 8'],
-    sourceUrl: 'https://www.ag.idaho.gov/newsroom/attorney-general-labrador-wins-relief-for-idaho-homeowners-trapped-in-predatory-contracts/',
-  },
-{
     name: 'Michigan Nursing Home Chronic-Understaffing Medicaid Fraud (Pioneer Health Care Management)',
     slug: 'michigan-pioneer-health-care-nursing-home-understaffing-medicaid-fraud',
     description:
@@ -10923,6 +10911,33 @@ UsGM.push({
     country: 'US',
     state: 'MD',
     isHistorical: false,
+});
+
+UsGM.push({
+    name: 'City of Baltimore $1.5 Million Vendor-Impersonation Business Email Compromise',
+    slug: 'baltimore-city-1-5-million-vendor-impersonation-bec-fraud',
+    description: `Between December 2024 and March 2025, an unidentified fraudster impersonated an employee of a legitimate City of Baltimore vendor, using a spoofed email address to gain access to the vendor's account in the city's Workday payment system. The impersonator submitted a fraudulent voided check and successfully convinced three separate employees in Baltimore's Department of Accounts Payable to change the vendor's on-file bank account, with each employee independently failing to verify the name, email, or voided check before approving the change. The city's Accounts Payable department then issued two electronic payments to the fraudulent account — $803,384 on February 21, 2025, and $721,237 on March 10, 2025 — totaling $1,524,621, discovered only after the receiving bank itself flagged the second transfer as suspicious and froze it. The city recovered the $721,237 payment but, as of the Inspector General's August 27, 2025 report, had not recovered the first. Baltimore Inspector General Isabel Mercedes Cumming found that Accounts Payable had no effective safeguards to verify supplier bank-detail changes and had failed to implement corrective controls despite two prior vendor-impersonation incidents totaling roughly $438,000 since 2019, making this the city's third such loss.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Office of the Inspector General, City of Baltimore', 'The Baltimore Brew'],
+    sourceUrl: 'https://www.baltimorebrew.com/2025/08/27/employee-lapses-led-to-a-1-5-million-theft-by-a-cybercrook-baltimore-inspector-general-finds',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    firstRecorded: '2024-12-01',
+});
+
+UsGM.push({
+    name: 'Baltimore "Scan to Pay" Fake QR Code Parking Meter Scam',
+    slug: 'baltimore-scan-to-pay-fake-qr-code-parking-meter-scam',
+    description: `In late January 2024, the Parking Authority of Baltimore City issued a public warning after discovering fraudulent "Scan to Pay" stickers bearing QR codes affixed directly to parking meters and pay-to-park machines at several locations around the city, including near Harbor East, City Hall, and Highlandtown. The stickers were designed to look like an official contactless payment option, but scanning them did not lead to any legitimate city parking payment system; the Parking Authority removed several of the fraudulent stickers from meters and warned drivers that the correct way to pay is to follow the instructions on the meter's own display, never a QR code affixed to the machine. Officials said that as of the warning no driver had yet reported losing money to the specific stickers found in Baltimore, but cautioned the tactic mirrors a QR-code "quishing" pattern that has caused real financial losses to drivers in other cities, and urged anyone who spots a QR code sticker on a meter to avoid scanning it and report it to the Parking Authority so it can be removed.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Parking Authority of Baltimore City', 'CBS News Baltimore'],
+    sourceUrl: 'https://www.cbsnews.com/baltimore/news/scan-to-pay-baltimore-officials-warn-of-fake-qr-pay-to-park-code/',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2024-01-30',
 });
 
 UsGM.push({
