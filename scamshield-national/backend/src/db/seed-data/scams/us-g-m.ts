@@ -11846,3 +11846,65 @@ UsGM.push({
     country: 'US',
     state: 'IN',
 });
+
+UsGM.push({
+    name: 'Versant Power Impersonation and Disconnection-Threat Scam',
+    slug: 'maine-versant-power-impersonation-disconnection-scam',
+    description: `Scammers impersonate Versant Power — the utility serving Bangor, Aroostook County, and eastern/northern Maine — using caller ID spoofed to display as Versant, falsely claiming a bill is past due, and threatening same-day disconnection unless the customer pays immediately. In a February 2025 case, Tamara Lovewell, owner of Ruska Coffee in Caribou, lost $2,000 after a caller claimed a disconnect notice was pending and sent a barcode for her to pay at a retail location; Versant said it received 40 similar scam reports from Aroostook County customers that same day. Versant Power Communication Supervisor Marissa Minor said "the best thing to do is hang up your phone and call us directly," and confirmed the utility never asks for payment with a prepaid card or bitcoin.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Versant Power', 'WAGM-TV'],
+    sourceUrl: 'https://www.wagmtv.com/2025/02/27/local-business-owner-warns-others-after-losing-2000-utility-scam/',
+    country: 'US',
+    state: 'ME',
+    firstRecorded: '2025-02-27',
+});
+
+UsGM.push({
+    name: "Penobscot County Sheriff's Office Fake Arrest-Warrant Scam",
+    slug: 'maine-penobscot-county-fake-arrest-warrant-scam',
+    description: `The Penobscot County Sheriff's Office warned on September 28, 2026 that scammers are calling, texting, and emailing residents, impersonating sheriff's office or correctional-facility personnel, and demanding money while threatening arrest if the payment isn't made. The Sheriff's Office stresses that genuine law enforcement personnel never request immediate payment over the phone to avoid arrest, and urges anyone contacted this way to hang up and call the department directly to verify before paying anything.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Penobscot County Sheriff's Office", 'WABI'],
+    sourceUrl: 'https://www.wabi.tv/2026/09/28/penobscot-county-warns-law-enforcement-phone-scams/',
+    country: 'US',
+    state: 'ME',
+    firstRecorded: '2026-09-28',
+});
+
+UsGM.push({
+    name: 'Michigan Treasury Fake Refund-Forfeiture Text Scam',
+    slug: 'michigan-treasury-refund-forfeiture-text-scam',
+    description: `Michigan taxpayers have been receiving unsolicited text messages impersonating the Michigan Department of Treasury, falsely claiming a state income tax refund has already been processed and that the recipient must submit "accurate payment information" (bank account details) by a deadline or the refund will be forfeited. The Michigan Department of Treasury confirmed in September 2025 that it never sends unsolicited texts requesting personal or banking data, and urges anyone who receives the message not to reply or click any link, and to call its Individual Income Tax Information Line at 517-636-4486 with questions about an actual refund.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Michigan Department of Treasury'],
+    sourceUrl: 'https://www.michigan.gov/treasury/news/2025/09/15/be-alert-for-text-message-phishing-scam-making-the-rounds',
+    country: 'US',
+    state: 'MI',
+});
+
+UsGM.push({
+    name: 'Consumers Energy Shutoff-Threat Impersonation Scam',
+    slug: 'michigan-consumers-energy-shutoff-impersonation-scam',
+    description: `Scammers impersonate Consumers Energy by phone and email, spoofing the utility's official caller ID, and threaten to immediately shut off a customer's gas or electric service unless they make an urgent payment by prepaid debit card or gift card — methods Consumers Energy says it does not use or require for bill payment. Jim Beechey, the company's VP of IT and security, warned in September 2025 that "we want to make sure they're alert for these criminals who are persistent and determined to con people." Consumers Energy directs anyone who believes they've been targeted or already paid a scammer to call its customer service line at 800-477-5050 to report it.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Consumers Energy'],
+    sourceUrl: 'https://www.wilx.com/2025/09/04/consumers-energy-is-warning-residents-about-new-scam-targeting-customers/',
+    country: 'US',
+    state: 'MI',
+});
+
+UsGM.push({
+    name: 'Michigan MMAP/DIFS Medicare Open Enrollment High-Pressure Scam',
+    slug: 'michigan-mmap-medicare-open-enrollment-scam',
+    description: `Each year during Medicare Open Enrollment (October 15-December 7), Michigan's Department of Insurance and Financial Services (DIFS) and Department of Health and Human Services (MDHHS) warn that scammers and high-pressure agents target Michigan seniors by phone and mail, falsely claiming to call on behalf of Medicare and pressuring beneficiaries to "verify" their Medicare ID number or join a Part D prescription drug plan or lose coverage. The agencies stress that a Medicare ID number is only ever needed at actual enrollment, that caller ID can be spoofed to look like a recognized business or agency, and that free, unbiased plan counseling is available through the state's MI Options call center at 800-803-7174; suspected scams can be reported to 1-800-MEDICARE or filed as a complaint with DIFS at Michigan.gov/DIFSComplaints.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ['Michigan Department of Insurance and Financial Services (DIFS)', 'Michigan Department of Health and Human Services (MDHHS)'],
+    sourceUrl: 'https://www.michigan.gov/difs/news-and-outreach/press-releases/2025/10/15/difs-and-mdhhs-share-tips-to-help-seniors-avoid-scams-during-medicare-open-enrollment-period',
+    country: 'US',
+    state: 'MI',
+});
