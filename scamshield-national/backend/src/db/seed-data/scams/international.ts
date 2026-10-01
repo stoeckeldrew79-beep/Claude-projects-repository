@@ -16259,6 +16259,30 @@ International.push(
     sourceUrl: 'https://afrique.le360.ma/mauritanie/politique/2020/09/01/31711-mauritanie-le-ministere-de-lhabitat-alerte-sur-des-escroqueries-foncieres-nouakchott-31711/',
     country: 'MR',
   },
+  {
+    name: 'El Boussati Hajj Travel Agency Fraud',
+    slug: 'mauritania-el-boussati-hajj-travel-agency-fraud',
+    description: `In 2015, a Nouakchott travel agency called "El Boussati pour le tourisme et le pèlerinage," based in the capital's northern market district, collected a combined 42 million ouguiya — roughly 2.1 million ouguiya per person — from 20 Mauritanians who had signed up for that year's Hajj pilgrimage to Saudi Arabia. Following the agency's instructions, the pilgrims handed over their passports and were told to present themselves 24 hours before their scheduled flights; when they arrived, they found the agency's office shut, its owner unreachable, and his phone disconnected. The victims — now without their passports as well as their money — filed a complaint with the public prosecutor. The case illustrates a pattern distinct from Mauritania's other reported fraud types: an unlicensed or fraudulent travel operator using the once-a-year urgency and devotional weight of the Hajj season to collect large upfront payments — along with pilgrims' passports — before disappearing just before departure, leaving victims with no recourse once the agency vanishes.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'high',
+    sources: ['Cridem'],
+    sourceUrl: 'https://cridem.org/C_Info.php?article=675051',
+    country: 'MR',
+    isHistorical: true,
+    firstRecorded: '2015-09-07',
+  },
+  {
+    name: 'Bankily Mobile Money Insider SIM-Swap Fraud',
+    slug: 'mauritania-bankily-insider-sim-swap-fraud',
+    description: `Mauritania's national police announced in late October 2022 that it had broken up a four-person fraud ring that drained more than 81 million old ouguiya from a businessman's account on Bankily, the mobile-money app run by the Banque Populaire de Mauritanie (BPM). Unlike opportunistic phishing, the scheme depended on paid insiders at three different institutions: a bank employee allegedly supplied the victim's secret PIN/code, a telecommunications company agent issued a duplicate SIM card carrying the victim's phone number, and a civil-registry employee is suspected of having helped access the victim's private identity data needed to push the fraudulent SIM reissuance through — together giving the ring both the credentials and the phone-number control needed to take over the Bankily account and move the funds out. Police said three of the four suspects were arrested, while a fourth remained a fugitive under active search at the time of the announcement. The case is a documented example of mobile-money fraud in Mauritania relying on corrupt insiders inside the banking, telecom, and civil-registration systems rather than on victim-side phishing or app-based deception.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Essahraa.net', 'Mauritanian National Police'],
+    sourceUrl: 'http://www.essahraa.net/fr/node/10504',
+    country: 'MR',
+    isHistorical: true,
+    firstRecorded: '2022-10-28',
+  },
 );
 
 International.push(
