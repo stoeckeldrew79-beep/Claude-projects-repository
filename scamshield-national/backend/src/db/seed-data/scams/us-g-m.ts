@@ -1176,18 +1176,7 @@ export const UsGM: SeedScam[] = [
     sources: ["Indiana Attorney General's Office", 'WISH-TV', 'The Indiana Lawyer'],
     sourceUrl: 'https://events.in.gov/event/attorney-general-todd-rokita-secures-revocation-of-license-against-avon-real-estate-broker-who-defrauded-investors-of-millions',
   },
-{
-    name: 'Treasure Valley Fake City Permit Invoice Scam',
-    slug: 'idaho-treasure-valley-fake-permit-invoice-scam',
-    description:
-      'Scammers scrape publicly available planning and zoning records from Treasure Valley cities, then email homeowners and contractors forged "invoices" for permit or inspection fees that mimic the real thing closely, using the city\'s actual logo, a real staff member\'s name, and the correct project address and contractor details pulled straight from the public file. The messages create urgency by warning that a project will be stalled or the permit voided if payment isn\'t sent immediately, and they push victims toward cryptocurrency or gift cards rather than a normal payment method. Idaho Attorney General Raúl Labrador and officials in Boise, Meridian, Nampa, and Caldwell issued a joint warning in June 2026 after the scheme hit planning departments across the region, noting the fraudulent emails typically arrive from a generic domain (such as one ending in "usa.com") rather than the city\'s actual ".gov" or municipal address. Cities stress they never demand wire transfers, crypto, or gift cards for permitting fees, and residents should call the planning department directly using a number looked up independently, never one listed in the email, before paying any permit invoice.',
-    categorySlug: 'government-impersonation',
-    country: 'US',
-    state: 'ID',
-    alertLevel: 'high',
-    sources: ["Idaho Attorney General's Office", 'Idaho Press', 'KIFI/LocalNews8'],
-    sourceUrl: 'https://www.ag.idaho.gov/newsroom/ag-labrador-and-cities-across-the-treasure-valley-warn-idaho-consumers-about-planning-and-zoning-fraud-scheme/',
-  },
+
 {
     name: 'Fortify Maine Homes Fake Eligibility Website Scam',
     slug: 'maine-fortify-maine-homes-fake-eligibility-scam',
@@ -11655,4 +11644,118 @@ UsGM.push({
     country: 'US',
     state: 'GU',
     firstRecorded: '2014-03-27',
+});
+
+UsGM.push({
+    name: 'Idaho H-2A Farm Foreman Wage Extortion and Tax Fraud (Ernesto Garza)',
+    slug: 'idaho-h2a-farm-foreman-wage-extortion-garza',
+    description: `Ernesto Garza, a supervisor and foreman at F.D.C., an agricultural services company operating farms across Idaho including in Glenns Ferry, used his position overseeing H-2A temporary agricultural workers to extort them for years. According to the U.S. Attorney's Office for the District of Idaho and IRS Criminal Investigation, Garza falsified payroll timesheets by adding hours the workers never actually worked, then pressured the workers — who feared losing their jobs or being excluded from the H-2A program in future seasons — to hand him back the resulting cash. Separately, between at least 2014 and 2019, he charged certain H-2A workers an unauthorized flat fee of $750 to $2,500 simply to be allowed to work at F.D.C. under the program, even though federal H-2A rules flatly prohibit employers and their representatives from charging workers any fee to participate at all. Between 2013 and 2019, Garza deposited roughly $493,153 of this unreported extortion and fraud income into his own bank accounts without reporting it on his tax returns. He pleaded guilty to extortion and filing a false tax return, and on September 19, 2024, U.S. District Judge Amanda K. Brailsford sentenced him to 27 months in federal prison, three years of supervised release, and $621,724 in restitution to his victims. The case is a reminder that H-2A and other seasonal agricultural workers — who are especially vulnerable to retaliation because their ability to return next season can depend on a foreman's goodwill — should know that no fee for participating in the H-2A program is ever legal, and that any supervisor demanding cash back for "extra" hours should be reported to the U.S. Department of Labor's Wage and Hour Division or the Idaho Attorney General's office, not paid.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office, District of Idaho", 'Internal Revenue Service Criminal Investigation (IRS-CI)', 'Idaho Capital Sun'],
+    sourceUrl: 'https://www.justice.gov/usao-id/pr/former-farm-foreman-sentenced-federal-prison-extorting-h-2a-agricultural-workers-and-tax',
+    country: 'US',
+    state: 'ID',
+});
+
+UsGM.push({
+    name: 'Idaho Summer Travel Scam Warning: Fake Airline and Hotel Booking Sites',
+    slug: 'idaho-summer-travel-fake-booking-site-scam',
+    description: `As vacation season began, Idaho Attorney General Raúl Labrador warned Idahoans on June 23, 2026 that scammers are increasingly buying fake online ads and building fraudulent booking sites that copy well-known airlines and hotel chains, complete with phony customer service numbers, to intercept travelers before they ever reach the real company. The office also flagged a seasonal twist aimed at road-trippers: text messages falsely claiming the recipient owes an unpaid toll or traffic fine, pressuring immediate payment under threat of a penalty that doesn't actually exist. Both variations push victims toward payment methods that are nearly impossible to reverse — wire transfers, gift cards, payment apps, or cryptocurrency ATM deposits — rather than a credit card, which offers chargeback protection. "Scammers count on vacation excitement to cloud your judgment, and they're getting more sophisticated every year," Labrador said. "A fake ad, a phishing text, or a too-good-to-be-true deal can drain your account before your trip ever starts." The office recommends booking only through a business's verified official website rather than a link or number found in an ad, researching any travel company independently by searching its name alongside the word "scam" or "complaint" before paying, and reading cancellation and refund terms closely, since many fraudulent booking sites bury a no-refund clause in the fine print. Idahoans who lose money to a fake booking site or a fake toll text can file a complaint with the Attorney General's Consumer Protection Division at ReportScamsIdaho.com.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'high',
+    sources: ["Idaho Office of the Attorney General (Raúl Labrador)", 'Gem State Chronicle', 'Daily Fly'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/ag-labrador-issues-summer-travel-scam-warning-to-idahoans/',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2026-06-23',
+});
+
+UsGM.push({
+    name: 'Idaho "Phantom AI Trading Bot" Investment Scam Warning',
+    slug: 'idaho-phantom-ai-trading-bot-investment-scam',
+    description: `On January 7, 2026, the Idaho Department of Finance joined the North American Securities Administrators Association (NASAA) in publishing its annual list of top investor threats for Idahoans, and flagged "phantom AI trading bots" as a fast-growing addition alongside more familiar schemes like pig-butchering and deepfake impersonation. In this scheme, fraudsters market an AI-powered trading program or bot that supposedly analyzes markets and executes trades automatically, promising investors outsized, consistent returns with little or no risk — but the "black-box" nature of the pitch, where the underlying algorithm is never shown or independently verified, means the trading activity and profits displayed on an investor's dashboard are frequently fabricated rather than real. The department noted AI is reshaping investment fraud more broadly: regulators found roughly 22.2 percent of bad actors identified in recent investigations were using AI-generated deepfake video or cloned voices of celebrities or trusted contacts to solicit money, and a related item on the list, "fake AI equity pitches," involves scammers selling stock in supposed breakthrough AI companies that are themselves pump-and-dump vehicles or entirely fictitious. "As technology evolves and artificial intelligence becomes more accessible, scam artists are finding new ways to target investors," said Salvador Cruz, interim director of the Idaho Department of Finance. "Fraudsters are pitching new investments that often have nothing to do with the latest tech developments and instead play on the fear of missing out." Before investing in any bot, app, or platform that claims to trade autonomously using artificial intelligence, Idahoans should confirm the seller is registered with the Idaho Department of Finance or the SEC, ask for independently verifiable account statements rather than an in-app dashboard, and treat a guaranteed or "can't lose" return as proof of fraud rather than skill.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Idaho Department of Finance', 'North American Securities Administrators Association (NASAA)', 'Idaho State Journal'],
+    sourceUrl: 'https://www.finance.idaho.gov/dont-start-the-year-with-a-scam-the-idaho-department-of-finance-unveils-the-12-top-investor-threats/',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2026-01-07',
+});
+
+UsGM.push({
+    name: 'FBI Boston Bank-to-Agent Impersonation Scam Spoofing Boston Field Office Number',
+    slug: 'massachusetts-fbi-boston-agent-impersonation-encrypted-app-scam',
+    description: `Beginning in mid-2026, the FBI's Boston Field Office warned New England residents about a two-stage impersonation scam that starts with a call from someone posing as a representative of the victim's own bank or financial institution, falsely claiming the victim's identity was used to open an account and purchase illegal firearms. The call is then "transferred" to a second scammer posing as an FBI special agent investigating the fraud, who encourages the victim to independently verify the call — only for the line to disconnect and a follow-up call to arrive that spoofs the FBI Boston Division's real public phone number, 857-386-2000, displayed accurately on the victim's caller ID. The fake agent gives a fabricated name and badge number, pressures the victim to keep the "investigation" confidential from family or bank staff, and in many cases directs the conversation onto an encrypted messaging app to continue extracting money or personal and financial information away from any outside scrutiny. FBI Boston Special Agent in Charge Ted Docks said the bureau logged 706 victims in Massachusetts alone who reported losing a combined $24,508,041 — the highest total of the four states (Massachusetts, Maine, New Hampshire, and Rhode Island) covered by the Boston field office, which together reported roughly $28.9 million in losses. "Scammers are utilizing fear, urgency, and increasingly sophisticated tactics — including spoofing trusted phone numbers," Docks said. "If you get an unexpected call from someone claiming to be the FBI or any law enforcement agency, stop. Hang up. Then verify the caller by contacting the organization directly using a number you found yourself." The FBI never calls citizens to demand payment, request banking or Social Security details, or direct them to an encrypted app, and caller ID showing a real agency number is never proof a call is legitimate since that number can be spoofed.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FBI Boston Field Office', 'The Boston Globe', 'Boston 25 News'],
+    sourceUrl: 'https://www.bostonglobe.com/2026/08/19/metro/fbi-agent-impersonation-scam-fraud-boston/',
+    country: 'US',
+    state: 'MA',
+});
+
+UsGM.push({
+    name: 'Boston-Area Off-Campus Apartment and Sublet Scam Targeting College Students',
+    slug: 'massachusetts-boston-student-apartment-rental-scam',
+    description: `With tens of thousands of students flooding into Boston-area off-campus housing every August, the FBI's Boston Field Office has called apartment and sublet rental fraud targeting the region's college population a "legitimate threat," reporting more than 490 victims and $2.6 million in documented losses. The scam typically starts with a listing on a sublet or rental site — Sublet.com and Craigslist among them — advertising an attractive apartment at a below-market rent; Boston University graduate student Shana Sargeant lost $5,280 in a security deposit and rent after wiring money for a Beacon Street studio she found on Sublet.com, while BU senior Will Dowsett wired $4,200 for a Craigslist sublet only to find the self-described landlord's phone disconnected and emails bouncing once the money was gone. A purported landlord who claims to be traveling or living abroad — often cited as the reason they can't show the unit in person — pressures a prospective tenant to wire a deposit and first and last month's rent sight-unseen to "secure" the apartment before another renter does, then disappears once the funds clear, since a wire transfer, unlike a check or card payment, is essentially unrecoverable once sent. The FBI and area universities advise students never to wire money or use a payment app for a deposit before touring a unit in person and meeting the landlord face to face, to independently verify a landlord's identity and property ownership through the local assessor's database before paying anything, and to treat any listing priced well under comparable units, or any landlord who refuses a video or in-person showing, as a red flag.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'high',
+    sources: ['FBI Boston Field Office', 'CBS News Boston'],
+    sourceUrl: 'https://www.cbsnews.com/boston/news/apartment-rental-scams-boston-fbi-warning/',
+    country: 'US',
+    state: 'MA',
+});
+
+UsGM.push({
+    name: 'UMass Amherst Police Impersonation Warrant and Deportation Scam',
+    slug: 'massachusetts-umass-amherst-police-impersonation-warrant-scam',
+    description: `In April 2026, the University of Massachusetts Amherst Police Department warned the campus community about scammers spoofing the department's own caller ID so that a call appears to come directly from UMass Police, then falsely telling the recipient they have an outstanding warrant and must pay immediately to avoid arrest — with some callers specifically threatening international students with deportation if they don't comply. The caller pressures the target to pay on the spot using gift cards, wire transfers, or cryptocurrency, tactics designed to extract money before the recipient has time to hang up and independently check whether any of it is true. UMass Police stated plainly that "legitimate government agencies — such as police, courts, the IRS, Medicare, and the Social Security Administration — will never demand payment over the phone, especially by gift cards, wire transfers, or crypto," and that a caller ID showing the department's real number is never proof a call is genuine, since that number can be spoofed just as easily as any other. Anyone who receives such a call is advised not to send money, share gift card PINs, or provide personal or financial information, to hang up and look up the department's official number independently rather than calling back the number that phoned them, and to report the attempt to UMass Police at (413) 545-2121 — while anyone who has already paid or shared information should contact their bank immediately and file a police report.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['University of Massachusetts Amherst Police Department', 'Western Mass News'],
+    sourceUrl: 'https://www.westernmassnews.com/2026/04/09/umass-police-warns-scam-calls-using-their-phone-number/',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2026-04-09',
+});
+
+UsGM.push({
+    name: 'Montana Bitcoin ATM "Emergency" Extortion Scam',
+    slug: 'montana-bitcoin-atm-emergency-extortion-scam',
+    description: `Montana State Auditor James Brown, who serves as the state's Commissioner of Securities and Insurance, warned in February 2026 that cryptocurrency ATM kiosks — now operating in gas stations and convenience stores across Billings, Glendive, Custer, Columbia Falls, and smaller towns statewide — have become the state's leading fraud vector, with his office estimating that more than 80 percent of transactions run through them are fraudulent. The scam typically opens with a call or text from someone posing as law enforcement, a bank fraud department, or a government agency, warning the victim that an arrest warrant has been issued, a family member has been jailed, or their bank account has been compromised, and that the only way to resolve it is to withdraw cash and feed it into a nearby Bitcoin ATM under the caller's direction. Montanans lost $3.4 million to cryptocurrency scams in 2025 alone, with the average victim losing $126,000, and losses already topped $2 million within the first months of 2026; Brown said, "This is the number one form of fraud that's being perpetrated right now that's being reported to our office." State Senator Daniel Zolnikov offered a blunt rule of thumb: "If there's ever a need or a solution to your problem is Bitcoin, it's a scam. Call anybody. Call the cops." Once cash is deposited into a crypto ATM and converted, the transaction is irreversible and the funds are effectively unrecoverable, which is why alert convenience-store clerks have become an important last line of defense; no legitimate law enforcement agency, bank, or government office will ever direct someone to resolve a legal or account problem by depositing cash into a cryptocurrency kiosk.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Montana Commissioner of Securities and Insurance (Office of the State Auditor)', 'KULR8'],
+    sourceUrl: 'https://www.kulr8.com/news/bitcoin-atm-scams-in-montana-expose-residents-to-fraud-risks/article_3845ac19-930f-4b99-8d70-6575f834f251.html',
+    country: 'US',
+    state: 'MT',
+});
+
+UsGM.push({
+    name: 'Twin Bridges Unlicensed Outfitter Fraud (Thomas "TJ" Carter)',
+    slug: 'montana-twin-bridges-unlicensed-outfitter-fraud-tj-carter',
+    description: `Thomas "TJ" Carter, of Twin Bridges, Montana, held a valid state hunting guide license but was never licensed by the Montana Board of Outfitters as an outfitter — the separate credential actually required to independently book, charge, and lead paying hunting clients. Game wardens began investigating in 2015 after receiving reports that Carter was running an unlicensed outfitting business near the town of Turner under the name "Western Wild Hunt Company," and that he was also hiring other unlicensed guides to work under him. Investigators determined Carter had taken payment from hunting clients for guided hunts he had no legal authority to sell, illegally transferred a hunting tag, and unlawfully obtained a replacement license, on top of operating as an outfitter without a license. Carter pleaded guilty in April 2019 in Blaine County to felony outfitting without a license and misdemeanor counts of theft, illegal tag transfer, and unlawful purchase of a replacement license, and was ordered to pay $12,000 in restitution and $2,000 in fines; he also lost his hunting, fishing, and trapping privileges in Montana for five years and his hunting privileges in 48 other states under the Interstate Wildlife Violator Compact for four additional years, and the Montana Board of Outfitters formally revoked his guide license. The case is a reminder that Montana requires separate, verifiable licenses for guides and for outfitters, and that anyone booking a guided hunt or fishing trip should confirm an operator's outfitter license number directly with the state licensing board before paying any deposit, since a guide license alone does not authorize someone to sell and run trips independently.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    sources: ['Montana Board of Outfitters', 'NBC Montana'],
+    sourceUrl: 'https://nbcmontana.com/news/local/montana-mans-guide-license-revoked-over-illegal-outfitting',
+    country: 'US',
+    state: 'MT',
+});
+
+UsGM.push({
+    name: 'Repeat-Offender Roofing Contractor Fraud (William Dunmire / Peak Roofing)',
+    slug: 'montana-dunmire-peak-roofing-repeat-contractor-fraud',
+    description: `William Lee Dunmire ran a Montana roofing business called Peak Roofing with a now-familiar playbook: he told homeowners he could remotely measure their roof via GPS and quote a price, collected a cash deposit or down payment up front, then delayed, made excuses, and never completed the job or refunded the money. Dunmire was first convicted of theft by deception and forgery in Silver Bow County (Butte), receiving a 15-year suspended sentence that was revoked in June 2023 after he failed to pay the roughly $67,000 in restitution he owed those victims, and was separately convicted of deceptive practices, theft by deception, and forgery in Lewis and Clark County. In October 2019, with that history already on record, he took a $4,000 down payment from a Billings homeowner in Yellowstone County for roofing work he again never performed, leading to a third prosecution — this time for felony theft by deception and misdemeanor deceptive business practices — that went to trial in September 2023. Montana's reported fraud cases climbed significantly over the preceding years, a rise consumer-protection officials attribute in part to contractors like Dunmire who simply move to a new county and new victims each time a conviction catches up with them. Montana homeowners soliciting roofing, siding, or storm-damage repair bids — especially after hail, wind, or wildfire-smoke damage, when traveling contractors are most active — are advised to check whether a contractor is facing active fraud charges in another Montana county, get a written contract before paying anything, and never hand over a full or large deposit before work begins.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    isHistorical: true,
+    sources: ['Roofing Contractor magazine', 'Billings Gazette'],
+    sourceUrl: 'https://www.roofingcontractor.com/articles/98617-twice-convicted-montana-roofer-faces-third-trial-for-fraud',
+    country: 'US',
+    state: 'MT',
 });

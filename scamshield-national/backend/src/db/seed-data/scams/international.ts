@@ -12475,6 +12475,29 @@ International.push(
 
 International.push(
   {
+    name: 'Suriname Crypto "Double Your Investment" Advance-Fee Scam',
+    slug: 'suriname-crypto-double-your-investment-scam',
+    description: `De Ware Tijd reported on September 24, 2026 that Suriname's Police Corps Fraud and Economic Crimes Division, working with the intelligence unit Sigma, had arrested a suspect identified as S.S. over a cryptocurrency investment scheme that had already cost at least one victim 37,500 SRD. The scheme worked by promising that a victim's deposit into a cryptocurrency trading arrangement would be doubled, encouraging the victim to deposit progressively larger sums. When the victim later tried to withdraw their supposed winnings, they were told additional payments — framed as fees, taxes, or unlocking costs — had to be made first before any money could be released, a cycle that repeated and extracted further payments without ever producing a real payout. Police described the case as part of a broader pattern of online fraud complaints they were actively investigating. Authorities urged the public to always verify the legitimacy of anyone offering investment opportunities before handing over money, to be deeply skeptical of guaranteed-doubling returns, and to treat any request for further payment before a withdrawal can be processed as a clear sign of fraud rather than a normal part of a legitimate platform.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['De Ware Tijd', 'Korps Politie Suriname (Suriname Police Corps)'],
+    sourceUrl: 'https://dwtonline.com/opnieuw-slachtoffers-online-oplichting/',
+    country: 'SR',
+  },
+  {
+    name: 'Suriname Central Bank Impersonation "Nearest Edge" Crypto Scam',
+    slug: 'suriname-nearest-edge-crypto-impersonation-scam',
+    description: `The Centrale Bank van Suriname (CBvS) issued a public warning distancing itself from a coordinated disinformation campaign built to promote a cryptocurrency trading platform called "Nearest Edge." The fraudsters behind the campaign fabricated fake news articles that copied the Bank's official logo, mimicked the visual layout of real Surinamese news sites, and used photographs of real people to make the fabricated stories look like genuine news coverage, going as far as falsely attributing quotes to the Bank's own leadership. The apparent goal was to lend false credibility to Nearest Edge by suggesting the Central Bank itself had endorsed or reported favorably on the platform, drawing people toward "very lucrative" cryptocurrency trading while concealing the high risk involved. CBvS stated plainly that it had no connection to Nearest Edge or to the articles promoting it, and called the misuse of its name, logo, and likenesses of real individuals "extremely reprehensible." The Bank warned that forgery and impersonation of this kind are a persistent and growing threat as tools like artificial intelligence make convincing fakes easier to produce, and it urged the public to verify any publication that cites the Central Bank only through its own official channels — its website at www.cbvs.sr and its verified Facebook, Instagram, and LinkedIn accounts — rather than trusting a shared article or screenshot at face value.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Centrale Bank van Suriname (Central Bank of Suriname, CBvS)'],
+    sourceUrl: 'https://www.cbvs.sr/nieuwsartikelen?view=article&id=2798:cbvs-waarshuwt-logo&catid=72',
+    country: 'SR',
+  },
+);
+
+International.push(
+  {
     name: 'Lesotho SGK Pyramid App Scheme',
     slug: 'lesotho-sgk-pyramid-app-scheme',
     description: `Lesotho's Financial Intelligence Unit (FIU) traced at least M8.6 million (roughly $8.6 million) that moved through 11 local bank accounts between late 2025 and April 2026 as part of the collapse of "SGK," an online platform that promised daily payouts for watching and rating short video advertisements from major brands. The scheme spread almost entirely through social media, with promoters on TikTok and Facebook leaning on trusted community networks — church leaders and workplace colleagues among them — to recruit new participants, some of whom were encouraged to register their own companies using the SGK name and open physical storefronts to lend the operation an air of legitimacy. Early users really were paid out, which built confidence and drew larger deposits, with some individual investments reaching as high as M80,000. Once the scheme had drawn in enough money, it froze withdrawals and began demanding "activation fees" and fake tax payments before users could access their funds, and then locked accounts out entirely. The FIU described SGK as a "faceless," internationally run pyramid scheme whose ultimate beneficiaries remain unidentified, noting that funds were moved out of the country quickly through cash withdrawals or converted to cryptocurrency via payment gateways based in Bahrain. Several Basotho who were hired locally as "financial assistants" to help move money ended up acting, unknowingly, as money mules, and faced backlash from angry investors once the platform collapsed.`,
