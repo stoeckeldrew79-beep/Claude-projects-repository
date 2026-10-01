@@ -6356,3 +6356,57 @@ UsTZ.push({
     state: 'VI',
     firstRecorded: '2026-05-07',
 });
+
+UsTZ.push({
+    name: 'Lincoln County AI Voice-Cloned Law Enforcement Impersonation Scam',
+    slug: 'lincoln-county-tennessee-ai-voice-law-enforcement-impersonation-scam',
+    description: `Starting around September 2025, the Lincoln County, Tennessee Sheriff's Office, led by Sheriff Tull Malone, began fielding multiple calls a day from residents targeted by a rapidly evolving phone scam using AI-generated voice technology to impersonate law enforcement officers. Callers — whose voices sound convincingly like real deputies and sometimes use the names of actual officers — tell victims they missed jury duty, failed to appear in court, or have an active arrest warrant, then demand immediate payment to avoid arrest. The scam disproportionately targets older residents who are less familiar with the technology; in one case described by Malone, a victim left work in Franklin, Tennessee and began driving to the sheriff's office to hand over a large sum of cash after being told over the phone that he would otherwise be jailed for missing jury duty. The sheriff's office stressed it never calls demanding payment and urged residents to hang up and call the office back directly at a verified number.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Lincoln County, Tennessee Sheriff\'s Office', 'WHNT News 19'],
+    sourceUrl: 'https://www.therocket951.com/archives/3766',
+    country: 'US',
+    state: 'TN',
+    firstRecorded: '2025-09-01',
+});
+
+UsTZ.push({
+    name: "Hendersonville Doctor's $20 Million Medicare and Blue Cross Phantom Inpatient Billing Fraud (Xuhan Zhang and Jing Qi Mei)",
+    slug: 'hendersonville-tennessee-doctor-20-million-medicare-blue-cross-phantom-billing-fraud',
+    description: `Hendersonville, Tennessee physician Xuhan Zhang, 62 (also known as Shelia Zhang and Xuhan Mei), and her husband and office manager Jing Qi Mei, 65, were indicted in June 2025 as part of the Department of Justice's 2025 National Health Care Fraud Takedown. Prosecutors allege that from 2017 to 2025, Mei billed Medicare and Blue Cross Blue Shield approximately $20 million for inpatient physician services supposedly performed by Zhang, with insurers actually paying out roughly $6.5 million before the scheme was uncovered. Investigators found the claimed services were never rendered: some of the named hospitals had already closed, some patients were deceased, and others were in nursing homes at the time of the supposed treatment; the couple also billed for stretches exceeding 24 hours of services in a single day. The pair face charges including conspiracy to commit health care fraud, health care fraud, false statements relating to health care matters, aggravated identity theft, and money laundering conspiracy. Federal agents seized about $6 million in cash and a Tesla Cybertruck from the couple's residence.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Middle District of Tennessee', 'U.S. Department of Justice'],
+    sourceUrl: 'https://hoodline.com/2025/06/hendersonville-doctor-and-husband-charged-in-20-million-health-care-fraud-scheme-amidst-national-takedown/',
+    country: 'US',
+    state: 'TN',
+    firstRecorded: '2025-06-30',
+});
+
+UsTZ.push({
+    name: 'Mountain State Resales Timeshare Resale and "Recovery" Advance-Fee Fraud',
+    slug: 'west-virginia-mountain-state-resales-timeshare-fraud',
+    description: `David Brandon Ball and David Andrew Glynn formed Mountain State Resales, LLC (MSR) in South Charleston, West Virginia, a bogus brokerage that told timeshare owners across the United States and Canada it had a buyer lined up for their unit and talked them into advancing money to MSR to cover the fees and closing costs needed to complete the sale — MSR never had a real buyer, and Ball knew owners who paid would get nothing back. In an added twist, Ball and his associates also posed as recovery "agents" for a fictitious organization called Internal Revenue Recovery Associates, contacting timeshare owners who had already lost money to other timeshare frauds and persuading them to send MSR more money to help "recover" what they'd lost — meaning some victims were defrauded twice by the same ring under two different names. Ball separately ran a Florida-based twin operation, International Transfers and Documents, which defrauded victims of more than $145,000; a federal court sentenced Ball to 37 months in federal prison and ordered him to pay $210,920.25 in restitution covering both schemes, while Glynn received 30 months and was ordered to pay $97,254.42. Anyone contacted out of the blue by a company claiming to have a buyer for their timeshare — or by anyone offering to help recover money already lost to a timeshare scam — should treat any request for an upfront fee before funds change hands as a red flag, and verify a resale or recovery company is real before sending it anything.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office for the Southern District of West Virginia'],
+    sourceUrl: 'https://www.justice.gov/usao-sdwv/pr/charleston-man-gets-3-years-federal-prison-timeshare-fraud',
+    country: 'US',
+    state: 'WV',
+    isHistorical: true,
+    firstRecorded: '2013-01-01',
+});
+
+UsTZ.push({
+    name: 'Martinsburg and Huntington Romance Scam Ring — $2.5 Million From 200 Victims',
+    slug: 'west-virginia-martinsburg-huntington-romance-scam-ring',
+    description: `A federal grand jury in Charleston unsealed three indictments on June 1, 2021 charging nine men — including Kenneth Emeni, 29, of Martinsburg, West Virginia, and Augustine Amechi, 24, of Huntington, West Virginia — with running romance and online scams from 2016 to 2020 that defrauded at least 200 victims nationwide, many of them elderly, of at least $2.5 million. The defendants built fake dating-site and social-media profiles under invented names, photos, and locations, often claiming to be U.S. citizens working abroad, and cultivated long-distance relationships with victims before escalating requests from small gifts and gift cards to large cash transfers; Amechi admitted to receiving roughly $108,601.92 directly deposited into his bank accounts, over $150,000 in cash mailed in packages to his Huntington residence, and over $140,000 in Zelle deposits. All nine defendants were apprehended across seven states in a joint operation by the U.S. Secret Service, U.S. Postal Inspection Service, FDIC-OIG, West Virginia State Police, and the South Charleston Police Department. The case is a reminder that an online partner who claims to live or work far away, asks for gift cards before anything else, and gradually escalates to large wire transfers or cash-by-mail is following a well-documented romance-scam script.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office for the Southern District of West Virginia', 'U.S. Secret Service'],
+    sourceUrl: 'https://justice.gov/usao-sdwv/pr/nine-individuals-charged-roles-fraud-scam-involving-200-victims',
+    country: 'US',
+    state: 'WV',
+    isHistorical: true,
+    firstRecorded: '2016-01-01',
+});

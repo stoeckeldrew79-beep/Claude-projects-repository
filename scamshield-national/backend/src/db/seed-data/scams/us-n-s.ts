@@ -11004,3 +11004,45 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2012-01-01',
 });
+
+UsNS.push({
+    name: 'Sully County Crop Insurance and COVID Relief Fraud (James and Levi Garrett)',
+    slug: 'south-dakota-sully-county-crop-insurance-covid-relief-fraud-garrett',
+    description: `Sully County, South Dakota farmers James Garrett and his son Levi Garrett defrauded federal crop insurance programs by falsifying what they had actually planted and harvested. In 2018 the pair certified to their crop insurer that they had planted 2,200 acres of sunflowers across their operation when in fact they had planted none, collecting an indemnity payment as though the entire nonexistent crop had failed; in 2019, James Garrett separately certified that he had planted 47.5 acres of corn that was never put in the ground to collect a second fraudulent indemnity. A jury convicted both men on October 31, 2022 following a six-day trial, and on January 30, 2023, James Garrett (68) was sentenced to 18 months in federal prison and ordered to pay $1,045,544 in restitution, while Levi Garrett (44) was sentenced to 24 months and ordered to pay $279,396. The U.S. Attorney's Office for the District of South Dakota went on to pursue a parallel civil False Claims Act case, and on September 3, 2025 a federal court entered a civil judgment against the Garretts for a combined $4,019,820, underscoring that even a fully served criminal sentence does not end a farmer's financial exposure once the government's separate civil fraud remedies are pursued.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, District of South Dakota', 'Dakota Radio Group (DRG News)'],
+    sourceUrl: 'https://www.justice.gov/usao-sd/pr/sully-county-men-sentenced-crop-insurance-fraud',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2018-01-01',
+});
+
+UsNS.push({
+    name: 'Sioux Falls Neurosurgeon Medical Device Kickback and Unnecessary Surgery Fraud (Wilson Asfora)',
+    slug: 'south-dakota-sioux-falls-neurosurgeon-asfora-kickback-fraud',
+    description: `Sioux Falls, South Dakota neurosurgeon Dr. Wilson Asfora and two medical-device distributorships he owned and controlled, Medical Designs LLC and Sicage LLC, agreed to pay $4.4 million to resolve False Claims Act allegations that Asfora took illegal kickbacks to steer his own patients toward spinal implants and other devices in which he had an undisclosed financial stake, then billed federal health programs for procedures using those devices — including, according to the government, medically unnecessary surgeries. Investigators alleged Asfora split profits with himself through Medical Designs whenever he implanted devices his own company resold, and separately received kickbacks from device-maker Medtronic tied to his use of SynchroMed II infusion pumps, with Medtronic allegedly funneling the payments through more than 100 lavish social events at a restaurant, Carnaval Brazilian Grill, that Asfora owned with his wife. As part of the May 3, 2021 settlement, Asfora, Medical Designs, and Sicage were each excluded from participation in Medicare, Medicaid, and all other federal healthcare programs for six years, and two whistleblowers who filed the underlying qui tam lawsuit, Carl Dustin Bechtold and Bryan Wellman, shared an $880,000 award from the recovery.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, Office of Public Affairs', 'U.S. Attorney\'s Office, District of South Dakota'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/neurosurgeon-and-two-affiliated-companies-agree-pay-44-million-settle-health-care-fraud',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2021-05-03',
+});
+
+UsNS.push({
+    name: 'Sioux Falls "ACU Tax Services" Fraudulent Tax Return Preparation Scheme',
+    slug: 'south-dakota-sioux-falls-acu-tax-services-fraud-aboua',
+    description: `Sioux Falls tax return preparer Amon Eustache Aboua, operating as ACU Tax Services, ran a scheme between February 2018 and April 2019 in which he quietly inflated his own clients' tax refunds without their knowledge by fabricating deductions for "other taxes," charitable contributions, and itemized expenses they never actually incurred — padding the numbers after clients signed off, then pocketing a cut of the larger refund the falsified return generated. An IRS Criminal Investigation audit traced more than 500 returns filed through ACU Tax Services during the charged period, and prosecutors identified over 20 individual clients whose returns had been altered this way, causing $540,267.43 in verified tax loss to the U.S. Treasury. Aboua pleaded guilty to aiding and assisting in the preparation of false returns and to wire fraud, and on September 21, 2026 was sentenced to 33 months in federal prison plus three years of supervised release, and ordered to pay $540,267.43 in restitution to the IRS. The case illustrates a scam that specifically targets a tax preparer's own paying clients: victims who had every reason to trust the person they hired, and often didn't learn their return had been falsified until the IRS came looking for the money years later.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service, Criminal Investigation', 'U.S. Attorney\'s Office, District of South Dakota'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/sioux-falls-man-sentenced-to-33-months-in-federal-prison-for-conducting-a-large-scale-federal-income-tax-fraud-scheme',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2018-02-01',
+});
