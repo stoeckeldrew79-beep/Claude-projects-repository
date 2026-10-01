@@ -16461,6 +16461,36 @@ International.push(
     sourceUrl: 'https://www.fontanka.ru/2023/05/15/72304694/',
     country: 'RU',
   },
+  {
+    name: 'USSD Code "Mobile Operator Check" SIM-Hijack Scam',
+    slug: 'russia-ussd-code-mobile-operator-simswap-scam',
+    description: `Russia's Ministry of Internal Affairs (MVD) warned in March 2025 of a scheme in which callers pose as technical staff from the victim's mobile carrier, claim they need to "check the phone line," and talk the victim into dialing a short on-device code such as #90 or #09 — in reality a USSD command that redirects the victim's calls and SMS, including one-time banking codes, to a number the fraudsters control. A related, escalated version has the caller impersonate a Gosuslugi (state services portal) representative or a credit-bureau employee, falsely claiming the victim's credit-freeze setting is wrong, then directing them to a messenger link to "confirm" login credentials. Once calls or SMS are rerouted, or credentials are captured, criminals access mobile-banking apps and the victim's Gosuslugi account. The ministry's guidance is to hang up immediately on anyone claiming to be a telecom engineer and never enter a code or symbol combination a caller dictates.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Russian Ministry of Internal Affairs (MVD)', 'Rossiyskaya Gazeta'],
+    sourceUrl: 'https://rg.ru/2025/03/16/moshenniki-izobreli-shemu-dlia-polucheniia-dostupa-k-sim-karte-i-mobilnomu-banku.html',
+    country: 'RU',
+  },
+  {
+    name: 'Crypto-Era Financial Pyramids and Fake Broker Platforms',
+    slug: 'russia-crypto-financial-pyramids-fake-brokers',
+    description: `The Bank of Russia (CBR) reported identifying more than 7,000 financial pyramids and other illegal financial-market schemes in 2025, with over 5,700 operating purely online, and some organizers republishing the identical scheme under more than 300 different brand names to dodge website blocking. The regulator said over 4,600 cryptocurrency wallets were used by victims of financial pyramids to deposit funds or by fake "brokers" to top up trading accounts, with organizers favoring crypto specifically for the anonymity it provides and increasingly using AI-generated content to recruit younger participants into schemes pitched as crypto, real-estate, or precious-metals investments. At the CBR's initiative, 21,500 fraudulent online resources were blocked in 2025, leading to more than 400 civil lawsuits and over 650 other enforcement actions. The CBR's consumer guidance urges the public to check any investment platform or "broker" against the Bank of Russia's official registry of licensed market participants before depositing funds, especially a scheme promising above-market returns paid in cryptocurrency.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Bank of Russia (Central Bank of the Russian Federation)'],
+    sourceUrl: 'https://cbr.ru/eng/press/event/?id=28356',
+    country: 'RU',
+  },
+  {
+    name: 'Courier Cash-Pickup Fraud Targeting Pensioners',
+    slug: 'russia-courier-cash-pickup-pensioner-fraud',
+    description: `Russia's Ministry of Internal Affairs recorded a 40 percent rise in courier-based fraud schemes in the first half of 2026. In the scheme, callers impersonating bank security staff, police, or an "investigator" frighten an elderly victim into believing their savings are at risk, then — instead of directing a bank transfer that automated anti-fraud systems are increasingly able to flag — instruct the victim to withdraw the money in cash and hand it to a "trusted representative" or courier who arrives at their home. The couriers themselves are frequently unwitting gig workers recruited through informal messenger-app job ads with no real employment contract, hired to "deliver a package" without being told it contains a victim's life savings, which leaves them exposed to fraud-related criminal liability even though they did not knowingly participate in the deception. The Bank of Russia recorded 458,600 unauthorized transactions totaling roughly 7.3 billion rubles in the period, underscoring why authorities stress that no legitimate bank, investigator, or government agency will ever send a courier to collect cash from a customer's home.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Russian Ministry of Internal Affairs (MVD)', 'Bank of Russia (Central Bank of the Russian Federation)', 'Kommersant'],
+    sourceUrl: 'https://www.kommersant.ru/doc/8910103',
+    country: 'RU',
+  },
 );
 
 International.push(
