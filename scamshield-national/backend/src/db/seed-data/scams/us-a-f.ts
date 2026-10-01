@@ -11254,3 +11254,42 @@ UsAF.push({
     state: 'DE',
     firstRecorded: '2025-01-15',
 });
+
+UsAF.push({
+    name: 'Florida Fake QR Code Parking Meter Scam (Fort Lauderdale and Orlando)',
+    slug: 'florida-fake-qr-code-parking-meter-scam',
+    description: `Starting in November 2024, Fort Lauderdale transportation staff discovered fraudulent QR code stickers placed over legitimate codes on parking meters and "Pay by Phone" signs at seven locations across the city, including Breakers Avenue, Bayshore Drive, and North Beach meters along A1A; scanning the fake codes directed drivers to lookalike payment websites designed to steal banking information, and the city noted that its real QR codes are printed directly onto signage at EV-charging and coin-meter locations only, never applied as a removable sticker. The same scheme resurfaced in downtown Orlando, where police confirmed roughly 200 fraudulent QR code stickers had been placed on meters along Orange Avenue by June 2025, redirecting scanners to bogus sites that harvested personal and financial information. The Pinellas County Sheriff's Office separately warned residents of the same tactic spreading to its jurisdiction. Victims who entered payment details on the spoofed sites reported unauthorized bank charges, with at least one Florida victim describing roughly $1,000-$1,100 in fraudulent charges traced back to scanning one of the fake codes.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['City of Fort Lauderdale', 'Orlando Police Department', 'Pinellas County Sheriff\'s Office'],
+    sourceUrl: 'https://www.nbcmiami.com/news/local/fort-lauderdale-officials-warn-of-qr-code-scam-on-parking-meters-and-signs/3472576/',
+    country: 'US',
+    state: 'FL',
+    firstRecorded: '2024-11-14',
+});
+
+UsAF.push({
+    name: 'Florida Vacation Rental Phantom Listing Scam',
+    slug: 'florida-vacation-rental-phantom-listing-scam',
+    description: `As part of her 2024 Summer Scams Series, Florida Attorney General Ashley Moody issued a consumer alert on July 24, 2024, warning residents and the millions of tourists who visit Florida each year about a surge in vacation rental scams in which fraudsters post fake listings for Florida vacation properties — either homes and condos that do not exist or legitimate listings copied from sites like Airbnb and Vrbo with the contact information swapped out — on rental platforms and social media, often pricing them well below comparable properties to create urgency. The scammers collect an application fee or security deposit, sometimes pressuring renters to move communication and payment off the official platform and to pay by wire transfer, gift card, or cryptocurrency, after which the listing disappears; in the worst cases, families arrive in Florida on their vacation dates to find the real property owner has no record of the booking and the unit was never for rent. Moody's office cited nationwide losses to vacation rental scams of roughly $150 million in 2023 alone and urged consumers to verify listings and reviews independently, confirm the property address, and never pay or communicate outside the rental platform.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Florida Attorney General\'s Office (Ashley Moody)'],
+    sourceUrl: 'https://www.mysuncoast.com/2024/07/24/attorney-general-moody-warns-residents-tourists-vacation-rental-scams/',
+    country: 'US',
+    state: 'FL',
+    firstRecorded: '2024-07-24',
+});
+
+UsAF.push({
+    name: 'Post-Hurricane Milton and Helene Storm-Chasing Contractor and Disaster-Relief Fraud',
+    slug: 'florida-hurricane-milton-helene-storm-chasing-contractor-fraud',
+    description: `In the weeks after Hurricanes Helene (September 2024) and Milton (October 2024) struck Florida, Attorney General Ashley Moody issued consumer alerts, culminating in an October 13, 2024 advisory, warning that scammers were exploiting storm damage through several distinct fraud tracks: unlicensed crews going door-to-door offering immediate debris removal and tree-removal services without disclosing full costs; traveling "storm-chasing" contractors offering supposed discounts using "leftover supplies" from other jobs while demanding full payment upfront and skipping the licensing, bonding, and written-estimate steps the state requires; fake charities mimicking legitimate disaster-relief organizations; scammers posing as FEMA representatives — sometimes in person as purported housing inspectors — who charged fees to "help" file disaster-assistance applications, despite Moody's office stressing that no state or federal disaster-relief agency ever calls asking for personal information; and pop-up operators pushing unnecessary, inflated water-safety testing on storm-damaged homes. The pattern echoed hundreds of contractor-fraud complaints the Attorney General's office received after Hurricane Ian in 2022, confirming it as a recurring, named fraud track.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Florida Attorney General\'s Office (Ashley Moody)'],
+    sourceUrl: 'https://www.actionnewsjax.com/news/local/after-milton-florida-attorney-general-warns-disaster-related-scams/6CDFUSMGXZALFEGKBCJ5RBVRY4/',
+    country: 'US',
+    state: 'FL',
+    firstRecorded: '2024-10-13',
+});
