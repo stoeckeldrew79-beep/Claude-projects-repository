@@ -5263,6 +5263,10 @@ GuidesNS.push({
     slug: 'staged-law-enforcement-office-video-call-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'law-enforcement-impersonation-scam', 'government-impersonation', 'ai-deepfake-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FBI_Washington_Field_Office.jpg?width=1200',
+    coverImageCredit: 'Photo: FBI (public domain, U.S. federal government work)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260917',
     body: `A call, text, or email arrives claiming to be from a federal agent, a local police department, or a foreign government official, and it comes equipped with details built to survive a skeptical first reaction: the caller ID or sender address is spoofed to show a real agency's number or domain, the person identifies themselves using the actual name and credentials of a real official, and the accusation is specific — a missed jury summons, an expired professional or medical license, an open investigation, or, for people living in the U.S. on a visa, a supposed immigration violation. In a Public Service Announcement issued September 17, 2026, the FBI's Internet Crime Complaint Center described how far the staging has advanced: some scammers "wear fake police uniforms and use mock sets of official government facilities" for video calls, while others now use artificial intelligence to generate a convincing on-screen appearance of an official in real time, so the victim isn't just hearing a voice but watching what looks like a credentialed agent at a desk, on camera, in what appears to be a real government office.
 

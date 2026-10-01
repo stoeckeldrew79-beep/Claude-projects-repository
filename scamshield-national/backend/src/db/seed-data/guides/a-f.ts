@@ -341,7 +341,6 @@ A legitimate online pharmacy always requires a valid prescription, lists a real 
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/IRS_Building_Constitution_Avenue.jpg?width=1200',
     coverImageCredit: 'Photo: Cliff (CC BY 2.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     tags: ['guide', 'erc-tax-scam'],
     sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen-beware-of-aggressive-promoters-who-dupe-taxpayers-into-making-questionable-employee-retention-credit-claims-risks-continue-for-small-businesses-special-withdrawal-program-remains-available',
     body: `The Employee Retention Credit was a genuine, legitimate pandemic-era tax credit for businesses that kept paying employees through COVID-19 disruptions. The scam that grew up around it wasn't a fake credit — it was a wave of aggressive third-party "ERC mills" that aggressively marketed the credit to businesses that didn't actually qualify, collecting a fee either way. The IRS named ERC scams the single worst item on its 2023 "Dirty Dozen" list of tax scams, and has since pursued both civil penalties against promoters and criminal indictments against the worst offenders.
@@ -8874,7 +8873,6 @@ GuidesAF.push({
   author: 'ScamShield Editorial',
   tags: ['guide', 'recovery-scam', 'government-impersonation', 'ai-deepfake-scams'],
   sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260720',
-  // representative photo — replace with an exact match if found
   coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/J._Edgar_Hoover_FBI_Building,_Washington_DC_(5946589446).jpg?width=1200',
   coverImageCredit: 'Photo: Rob Young, CC BY 2.0, via Wikimedia Commons — FBI headquarters, whose IC3 identity was impersonated in this scam',
   coverImagePosition: 50,
@@ -9575,6 +9573,10 @@ GuidesAF.push({
   slug: 'amber-alert-registration-scam',
   author: 'ScamShield Editorial',
   tags: ['guide', 'amber-alert-scam', 'law-enforcement-impersonation', 'government-impersonation'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Central_Pkwy_td_(2021-06-07)_06.jpg?width=1200',
+  coverImageCredit: 'Photo: Tdorante10, CC BY-SA 4.0, via Wikimedia Commons',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: 'https://www.wctv.tv/2026/02/03/fdle-issues-warning-about-amber-alert-scam-requesting-childrens-information/',
   body: `A call comes in — sometimes followed by a knock at the door — from someone identifying themselves as being "with AMBER Alert." They explain that, for your child's safety, they'd like to pre-register them in the alert system now, before anything ever happens, so that if the child is ever abducted or goes missing, law enforcement can issue an alert immediately. All it takes is a few details: the child's full name, date of birth, physical description, school, and the parents' contact information — sometimes gathered over the phone, sometimes by scheduling an in-home "AMBER Alert kit" appointment where a "representative" comes to collect it in person, occasionally along with a photograph or fingerprints.
 

@@ -3552,6 +3552,10 @@ NotoriousTZ.push({
     slug: 'takata-airbag-inflator-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'corporate-fraud', 'international', 'product-safety-fraud', 'automotive-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Crash-test-with-airbag-and-safty-belt.jpg?width=1200',
+    coverImageCredit: 'Photo: Transport for NSW, Wikimedia Commons (CC BY-SA 4.0) — a crash-test dummy and deployed airbag',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Takata Corporation was, for decades, one of the world's largest suppliers of automotive airbags, supplying inflators to nearly every major automaker, including Honda, Toyota, Ford, BMW, and General Motors. To keep costs down, Takata built many of its inflators around ammonium nitrate, a cheaper propellant than the alternatives its competitors used — one that turned out to become unstable over years of exposure to heat and humidity, degrading in ways that could cause the inflator to rupture violently when the airbag deployed, spraying metal shrapnel into the vehicle cabin instead of cushioning a crash.
 
 Takata's own engineers found evidence of exactly that failure mode as early as the early 2000s. According to a U.S. Department of Justice indictment, Takata employees — including engineers Shinichi Tanaka, Hideo Nakajima, and Tsuneo Chikaraishi — responded not by redesigning the inflator or alerting automakers, but by manipulating and cherry-picking the test data submitted to the very customers relying on it to certify the parts as safe. Internal emails cited by prosecutors show Nakajima telling colleagues in February 2004 that he was "manipulating" test results for one inflator, and another employee writing the following year that the team had "no choice" but to hand automakers data that had been altered to hide the ruptures Takata's own testing kept turning up.
@@ -3568,6 +3572,10 @@ NotoriousTZ.push({
     slug: 'tian-wenhua-sanlu-melamine-milk-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'food-safety-fraud', 'china'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Milk_powder.jpg?width=1200',
+    coverImageCredit: 'Photo: ProjectManhattan, Wikimedia Commons (CC BY-SA 3.0) — powdered milk, the product category Sanlu adulterated with melamine',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Tian Wenhua spent decades building Sanlu Group into one of China's most trusted dairy brands, rising to chairwoman and general manager of a company that, by the mid-2000s, was one of the country's largest makers of infant formula and 43%-owned by the New Zealand dairy cooperative Fonterra — a partnership that lent Sanlu's products a reputation for quality well beyond most domestic Chinese competitors.
 
 That reputation concealed a supply chain built on outright chemical adulteration. To pad out milk that had been diluted with water — and to make thin, low-protein milk pass standard quality tests that measure nitrogen content as a proxy for protein — dairy farmers and middlemen supplying Sanlu and at least 21 other Chinese dairy companies added melamine, an industrial chemical used in plastics and fertilizer that has no place in food but that reliably fooled the nitrogen-based protein test into reading higher than the milk actually contained. Two of the middlemen who supplied the melamine-laced additive, dairy trader Zhang Yujun and milk-collection-station operator Geng Jinping, were later found to have produced more than 770 and 900 tonnes of it respectively between July 2007 and August 2008. Sanlu began receiving complaints from parents about infants developing kidney stones and other complications as early as December 2007, and internal testing confirmed the contamination by June 2008, but the company kept the findings from the public for months.
@@ -3585,6 +3593,10 @@ NotoriousTZ.push({
     slug: 'udo-proksch-lucona-insurance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'insurance-fraud', 'historical', 'austria', 'corruption'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A-Wien-Demel-shop-1.jpg?width=1200',
+    coverImageCredit: 'Photo: Bgabel, Wikimedia Commons (CC BY-SA 3.0) — the Demel confectionery in Vienna, which Proksch owned',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Udo Proksch owned Demel, Vienna's most famous confectionery and a fixture of Austrian high society, and used that social standing to move easily among the country's political elite — chancellors, ministers, and senior civil servants counted themselves among his friends and regular customers. In the mid-1970s, Proksch used those connections, and a company called Zapata AG, to put together a cargo-insurance scheme built around a freighter called the Lucona. He declared its cargo to insurers as a sophisticated, high-value uranium-processing plant and insured it for 212 million Austrian schillings, roughly $20 million at the time, when the crates actually held nothing more than scrap metal and obsolete mining equipment.
 
 On January 23, 1977, the Lucona sank near the Maldives after a bomb hidden aboard detonated, tearing through its hull. Six of the twelve crew members died; the other six survived and were rescued by a passing tanker. Austrian investigative journalist Hans Pretterebner began publishing articles within the year arguing the sinking looked less like an accident than a deliberately engineered insurance claim, but for more than a decade the case went essentially nowhere, even after prosecutors formally charged Proksch with murder and fraud in 1983.
