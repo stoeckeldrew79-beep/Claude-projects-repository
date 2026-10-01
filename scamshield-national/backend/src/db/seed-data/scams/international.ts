@@ -23398,3 +23398,28 @@ International.push({
   country: 'AF',
   isHistorical: true,
 });
+
+International.push({
+  name: 'Curaçao Fake Traffic Fine SMS and Email Phishing Scam',
+  slug: 'curacao-fake-traffic-fine-sms-phishing-scam',
+  description: `The Openbaar Ministerie (OM), Curaçao's Public Prosecutor's Office, issued a public warning on September 16, 2026 about fraudulent SMS messages and emails circulating on the island that impersonate official notices of unpaid traffic fines, in particular speeding violations. The fake messages contain a link that recipients are told will let them pay the outstanding fine, but the link leads instead to a page designed to harvest personal and financial information rather than process any real government payment. The OM stated plainly that these messages do not originate from its office and constitute fraud, and it gave residents a concrete way to tell a genuine notice from a fake one: legitimate OM payment requests that include a link are sent exclusively through SENTOO, the territory's official digital payment platform, and are always written in Papiamentu with the OM's own official phone numbers included, unlike the scam messages. The OM urged anyone who receives one of these texts or emails not to click the embedded link and not to enter any personal or banking information, to delete the message immediately, and to contact the OM directly through its verified channels if there is any doubt about a message's authenticity.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Openbaar Ministerie (Public Prosecutor\'s Office) Curaçao', 'Curacao.nu'],
+  sourceUrl: 'https://www.curacao.nu/nieuws/politie-justitie/95101/om-curacao-waarschuwt-voor-nepberichten-over-boetes',
+  country: 'CW',
+  firstRecorded: '2026-09-16',
+});
+
+International.push({
+  name: '"Maduro & Curiel\'s Bank" (MCB) Online Banking Phishing Scam',
+  slug: 'curacao-mcb-online-banking-phishing-scam',
+  description: `Curaçao Chronicle reported on April 16, 2021 that residents across the island had been receiving fraudulent emails made to look like official notices from Maduro & Curiel's Bank (MCB), one of Curaçao's largest and oldest banks, falsely claiming that the recipient's internet banking access code had expired and needed to be "reactivated" by clicking a link in the email. The fraudulent messages were traced to sender addresses built around the string "mcb.online" rather than the bank's real domain, a detail designed to look legitimate to a quick glance. MCB issued a public warning stating it never sends access codes or other confidential information by email, and that if it ever needs to verify a customer's identity, it does so only by phone, to confirm it is speaking with the right person, never by asking a customer to reveal a password, PIN, or personal access code to an unknown party. MCB encouraged affected and concerned customers to attend a free internet-banking-security webinar it scheduled the following week and to report any suspicious message rather than act on it.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: ['Maduro & Curiel\'s Bank (MCB)', 'Curaçao Chronicle'],
+  sourceUrl: 'https://www.curacaochronicle.com/post/local/mcb-warns-against-scams/',
+  country: 'CW',
+  isHistorical: true,
+  firstRecorded: '2021-04-16',
+});
