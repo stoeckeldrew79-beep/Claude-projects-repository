@@ -11281,3 +11281,20 @@ The criminal case took years to resolve, and even longer to finish. In 2002, a B
 What makes Banco Nacional worth remembering isn't the size of any single fraudulent transaction — individually, each of those 600-plus phantom loans was modest enough to pass unnoticed — but how long a fabricated balance sheet can keep a major bank looking solvent when the people responsible for the real numbers are the same people writing the fake ones. It took nearly ten years of quietly inventing borrowers who didn't exist to sink one of Brazil's largest banks, and nearly three decades for the legal system to finish with the man who did it — a reminder that accounting fraud rarely announces itself with a single dramatic number, and that unwinding it in court can take even longer than building it did.`,
     sourceUrl: 'https://conjur.com.br/2007-mar-27/diretores_banco_nacional_pena_reduzida/',
 });
+
+NotoriousGM.push({
+    title: 'Harris Scarfe: The Six Years of Fake Profits That Hid a Dying Department Store Chain',
+    slug: 'harris-scarfe-alan-hodgson-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'international'],
+    body: `Harris Scarfe was one of Adelaide's oldest names in retail, founded in 1849 as a hardware and ironmongery business and built, over more than a century, into a genuinely trusted department store chain. By the mid-1990s it had expanded well beyond South Australia to become the country's third-largest department store retailer, trading under 38 stores nationwide — the kind of long, steady growth that made it look like exactly the sort of company that couldn't possibly be in trouble.
+
+Behind that growth, Harris Scarfe's chief financial officer, Alan Hodgson, had been doing something much simpler than anyone suspected: starting around 1994, he directed company accountants to falsify the books, inflating profits and smoothing over a financial position that was actually deteriorating. What began as occasional adjustments became, over the following years, a routine of monthly changes to the accounts, keeping the company looking profitable enough to keep borrowing, keep expanding, and keep its listed share price intact — all while the underlying business was quietly sinking.
+
+The fiction finally gave out in early 2001. Harris Scarfe was placed into receivership in April that year, revealing unsecured creditors owed roughly $93 million and total debts that would later be put at around $160 million — a company that had reported healthy profits suddenly shown to have been insolvent, or close to it, for years. The collapse triggered one of the larger corporate failures in South Australian history and left auditors facing lawsuits from administrators and creditors over how the fraud went undetected for so long.
+
+Hodgson pleaded guilty to 32 charges, including giving false information to the Australian Securities Exchange and failing to act honestly as a company officer, and was sentenced in the Adelaide District Court in June 2002 to six years in prison; the Court of Criminal Appeal later reduced that to five years and six months. He was the only person ever convicted over the collapse — authorities considered but ultimately dropped charges against the company's chairman.
+
+Harris Scarfe's case is a reminder that a company's age and reputation are not evidence of its solvency — they're just evidence of how long people have been willing to extend it credit. A 150-year-old retailer with a household name was, for the better part of a decade, only as solid as the monthly journal entries one CFO was willing to fabricate, and nobody outside his office — not the board, not its outside auditors, not the stock exchange — caught it until the money had already run out.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Harris_Scarfe',
+});
