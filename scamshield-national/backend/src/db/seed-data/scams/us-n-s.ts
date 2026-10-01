@@ -10394,6 +10394,47 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Brecksville "Rolling Code Ticket Packages" Fake Investment Scheme (John E. Brown II)',
+    slug: 'ohio-brecksville-rolling-code-ticket-packages-investment-fraud',
+    description: `John E. Brown II, 45, of Brecksville, Ohio, ran a phony investment scheme he branded "rolling code ticket packages" — bundles of admission tickets to sporting events and theme parks that he marketed to investors as an asset whose value would rise and fall like a stock, tied to factors such as a theme park's share price or how well a professional sports team performed that season. Brown told investors the packages periodically "split," doubling the number of tickets in the bundle and supposedly doubling its value, and he recruited accomplices to pose as fellow investors and buyers to make the opportunity look legitimate and oversubscribed. Between May 2020 and May 2024, Brown used the scheme to take more than $3 million from victims in Ohio and Florida, and funneled nearly $1.4 million of it through various casinos to fund his own gambling, at times forging documents to make it appear he had purchased ticket bundles on victims' behalf when they asked about their missing returns. He pleaded guilty before U.S. District Judge Dan Aaron Polster in the Northern District of Ohio on September 29, 2026 to 17 counts of wire fraud and two counts of engaging in a monetary transaction in criminal proceeds.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Northern District of Ohio', 'Fox8 Cleveland (WJW)'],
+    sourceUrl: 'https://fox8.com/news/brecksville-man-pleads-guilty-in-3m-investment-fraud-scheme/',
+    country: 'US',
+    state: 'OH',
+    isHistorical: true,
+    firstRecorded: '2020-05-01',
+});
+
+UsNS.push({
+    name: 'Westlake Telehealth "Click-and-Sign" DME and Genetic Testing Medicare Fraud (Dr. Muna Orra)',
+    slug: 'ohio-westlake-doctor-click-and-sign-medicare-dme-fraud',
+    description: `Dr. Muna Orra, 42, of Westlake, Ohio, worked from February 2018 to September 2021 as an independent-contractor physician for an out-of-state telemedicine company that fed her pre-filled patient files — exam notes, a "recommended" treatment plan, and a ready-made order for durable medical equipment (mainly back, knee, and shoulder braces) or genetic testing — which she electronically approved, often within seconds of accessing the file, without meaningfully reviewing them or performing the in-person assessments her signed orders certified she had done, a pattern regulators call a "click-and-sign" scheme. The telemedicine company then used her signed orders to bill Medicare, generating $1,749,051 in claims for medically unnecessary braces (of which $933,452 was paid) and another $93,473 for medically unnecessary genetic testing (of which $64,189 was paid), a total of roughly $1.84 million billed. Orra pleaded guilty in January 2026 to making false statements relating to health care matters and was sentenced in the Northern District of Ohio to five years of probation and ordered to pay $997,641 in restitution to the Centers for Medicare and Medicaid Services — a reminder that the "doctor's order" behind a piece of medical equipment or a lab test offered through a telehealth come-on can be rubber-stamped by a real, licensed physician who never actually examined the patient.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, Northern District of Ohio', 'Cleveland19/WOIO'],
+    sourceUrl: 'https://www.cleveland19.com/2026/06/15/westlake-doctor-sentenced-probation-bilking-medicare-out-18m/',
+    country: 'US',
+    state: 'OH',
+    isHistorical: true,
+    firstRecorded: '2018-02-01',
+});
+
+UsNS.push({
+    name: 'Franklin County Publishers Clearing House Prize-Tax Scam (David Nelson)',
+    slug: 'ohio-franklin-county-publishers-clearing-house-prize-tax-scam',
+    description: `In March 2025, a senior citizen in Franklin County, Ohio reported to the Franklin County Sheriff's Office that she had been called by a man identifying himself as a Publishers Clearing House representative who told her she had won $3 million and that she needed to pay taxes on her winnings before the prize could be released. Over the following weeks she mailed more than $89,000 across multiple personal checks to an address in Little Rock, Arkansas. Detective Bill Duffer's investigation pulled bank surveillance video showing the suspect, David Nelson, 68, of Little Rock, personally cashing the victim's checks, and Nelson was arrested in Arkansas in April 2025 and charged with felony theft in Franklin County, Ohio while awaiting extradition. "We were able to find this individual on surveillance video in the banks, taking these checks," Duffer said. The real Publishers Clearing House never requires a winner to pay a fee or tax before releasing a prize, and never calls to announce a win ahead of an in-person "Prize Patrol" visit for its major sweepstakes.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['Franklin County Sheriff\'s Office', 'WHIO/Cox Media Group'],
+    sourceUrl: 'https://www.whio.com/news/local/ohio-woman-loses-nearly-90000-sweepstakes-scam-call/7DPOOE3TXBFZRDZWE4NHYD4OU4/',
+    country: 'US',
+    state: 'OH',
+    firstRecorded: '2025-03-01',
+});
+
+UsNS.push({
     name: 'New Hampshire Bankruptcy Filer Attorney-Impersonation Wire Scam',
     slug: 'new-hampshire-bankruptcy-filer-attorney-impersonation-scam',
     description: `Scammers mine publicly available New Hampshire bankruptcy court filings to identify people who have recently filed for bankruptcy, then call them using spoofed caller ID that displays the filer's actual attorney's name or law office, often late in the evening or outside business hours when the real attorney can't be reached to confirm. The caller, posing as the attorney, the attorney's partner, or law office staff, tells the filer a debt must be paid immediately and instructs them to wire money right away. New Hampshire Attorney General Joseph Foster issued a fraud alert on October 19, 2015 about the scheme, warning bankruptcy filers never to wire funds in response to such a call and to instead contact their actual attorney directly, using a number they already have, rather than one the caller provides.`,
@@ -10678,6 +10719,46 @@ UsNS.push({
     country: 'US',
     state: 'SC',
     firstRecorded: '2025-07-21',
+});
+
+UsNS.push({
+    name: 'Charleston Sweepstakes Fraud and Jamaica Money-Laundering Ring',
+    slug: 'south-carolina-charleston-sweepstakes-jamaica-money-laundering-ring',
+    description: `Four Charleston, South Carolina residents — Xavier Gordon, 25; Warner Gordon, 27; Kevin Milton Simpson, 30; and Kemar Christopher Edwards, 28 — along with Tashagae Narcia Leslie, 25, of Orlando, Florida, were indicted by a federal grand jury for running a sweepstakes-prize fraud scheme that defrauded more than 100 victims, many of them elderly, of more than $3.5 million since 2019. Victims were told they had won cash prizes in a sweepstakes drawing and were instructed that they first had to pay "taxes" and "fees" before the winnings could be released; victims mailed or hand-delivered cash and checks to the Charleston-based defendants, who then wired or hand-carried the proceeds to co-conspirators in Jamaica. The indictment was unsealed on March 30, 2026, charging the defendants with conspiracy to commit mail and wire fraud, mail fraud, wire fraud, and conspiracy to commit money laundering; each faces up to 30 years in prison and $500,000 in fines if convicted.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, District of South Carolina', 'Post and Courier'],
+    sourceUrl: 'https://www.justice.gov/usao-sc/pr/five-charged-35m-fraud-and-money-laundering-scheme',
+    country: 'US',
+    state: 'SC',
+    isHistorical: true,
+    firstRecorded: '2019-01-01',
+});
+
+UsNS.push({
+    name: 'South Carolina Internet Crimes Against Children Task Force Impersonation Scam',
+    slug: 'south-carolina-icac-task-force-impersonation-dating-app-scam',
+    description: `Scammers target men who connect with a woman on a dating app, then have a second scammer posing as the "woman's parent" contact the victim claiming he was actually messaging a minor; a third scammer then poses as an investigator with the SC Attorney General's Internet Crimes Against Children (ICAC) Task Force or local police, offering to let the victim pay a "fine" to avoid arrest and prosecution. To appear credible, the scammers have used the real name and credentials of an actual ICAC investigator. Attorney General Alan Wilson issued a public warning on July 23, 2024 after the task force began fielding multiple calls and emails daily from frightened victims, stating plainly that "law enforcement never asks for money" and urging anyone contacted this way to hang up and report it to local police rather than pay.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Office of South Carolina Attorney General Alan Wilson', 'ABC News 4 (WCIV)'],
+    sourceUrl: 'https://www.scag.gov/about-the-office/news/attorney-general-alan-wilson-warns-about-scammers-claiming-to-be-with-internet-crimes-against-children-task-force/',
+    country: 'US',
+    state: 'SC',
+    firstRecorded: '2024-07-23',
+});
+
+UsNS.push({
+    name: 'Upstate South Carolina Medicare Catheter Billing Fraud Targeting Veterans',
+    slug: 'south-carolina-upstate-medicare-catheter-billing-fraud',
+    description: `Identity thieves obtain South Carolina residents' Medicare numbers and use them to order durable medical equipment the victim never requested, then get a physician to improperly sign off on it so a bill — formatted to look like an official Medicare statement — can be mailed either to Medicare or directly to the victim. Wayne McCall, a veteran in Oconee County, received a bill for nearly $7,000 in urinary catheters he never ordered, supposedly shipped from a company in Austin, Texas, with roughly $1,500 listed as his personal "patient responsibility." The Oconee County Sheriff's Office received about five similar complaints from residents around the same time. Hunter Jones, president and CEO of the Better Business Bureau of Upstate South Carolina, warned in a December 16, 2025 report that "they'll have a physician sign off on equipment, and the next thing you know, either the consumer is billed through Medicare — or Medicare is billed — for something the consumer never signed up for," and urged victims to check their Medicare Summary Notices and report fraudulent charges to 1-800-MEDICARE.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of Upstate South Carolina', 'Oconee County Sheriff\'s Office', 'FOX Carolina (WHNS)'],
+    sourceUrl: 'https://www.foxcarolina.com/2025/12/16/medicare-scam-targets-upstate-seniors-veterans-with-fake-bills/',
+    country: 'US',
+    state: 'SC',
+    firstRecorded: '2025-11-01',
 });
 
 UsNS.push({
