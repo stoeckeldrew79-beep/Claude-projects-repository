@@ -10986,3 +10986,40 @@ UsNS.push({
     state: 'NJ',
     firstRecorded: '2026-05-30',
 });
+
+UsNS.push({
+    name: "St. Albans Man's Stolen-Wallet Identity Theft Funds $224,000 in Out-of-State Vehicle Purchases",
+    slug: 'vermont-st-albans-whalley-stolen-identity-vehicle-fraud',
+    description: `In March 2022, a Burlington man's wallet was stolen from his vehicle, and Jonathan Whalley, 52, of St. Albans, Vermont, used the stolen identity documents to travel to Georgia and fraudulently purchase six vehicles — a 2022 Ford Explorer, a 2022 Ford Bronco, a 2022 Chevrolet Silverado, a 2020 Kawasaki ATV, a 2021 CF Moto ATV, and a 2022 Honda dirt bike — together worth more than $224,000, financing and insuring them in the victim's name, registering them in Vermont, and opening a bank account to keep the scheme running. When Vermont law enforcement tried to stop him driving the fraudulently purchased Silverado on June 8, 2022, Whalley fled, dragging an officer more than 10 feet and speeding away at three times the posted limit. He pleaded guilty to mail fraud and aggravated identity theft, and on September 2, 2025 was sentenced by Judge William Geraci to 74 months in prison (50 months for mail fraud plus a mandatory consecutive 24 months for aggravated identity theft). The case illustrates how a single stolen wallet can cascade into tens of thousands of dollars in large-ticket fraud across state lines — banks, dealerships, and insurers rarely cross-check a new high-value financing application against a theft or fraud-alert flag on the named buyer's credit file, so victims of a stolen wallet or purse should place a fraud alert or credit freeze immediately, not just cancel cards.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice — District of Vermont', 'WCAX'],
+    sourceUrl: 'https://www.justice.gov/usao-vt/pr/st-albans-man-sentenced-74-months-prison-aggravated-identity-theft-and-mail-fraud',
+    country: 'US',
+    state: 'VT',
+});
+
+UsNS.push({
+    name: "Florida Man's Fake Passport Card Bank-Branch Impersonation Scheme Across Vermont",
+    slug: 'vermont-ashness-passport-card-bank-impersonation-fraud',
+    description: `Over two visits — six Vermont bank branches on September 19, 2023, and four more on September 26, 2023 — Scott Jamie Ashness, then 43, of Stuart, Florida, walked into each branch impersonating a different real bank customer and asked to withdraw that person's cash, presenting falsified U.S. passport cards and state driver's licenses that carried the real customer's name and biographical details paired with his own photograph. Expanding into New York and New Hampshire as well, Ashness ultimately entered fifteen bank branches across the three states in September and October 2023 impersonating eight different individuals, successfully withdrawing $80,150 from other people's accounts on twelve occasions and attempting to take another $22,800 on the rest. A federal grand jury indicted him in January 2024 on bank fraud, passport fraud, and aggravated identity theft charges; he pleaded guilty and on November 1, 2024 Chief U.S. District Judge Christina Reiss sentenced him to 48 months in prison plus three years of supervised release. Unlike phishing or card-skimming schemes, this fraud defeated in-person teller identity checks entirely, which is why bank customers are advised to set up account alerts for any over-the-counter withdrawal and to ask their branch about optional extra verification, such as a PIN or code word, on accounts holding significant balances, since a convincing fake ID can otherwise get a stranger your cash without you ever being contacted.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice — District of Vermont', 'WCAX'],
+    sourceUrl: 'https://www.justice.gov/usao-vt/pr/florida-man-sentenced-four-years-prison-passport-card-fraud-bank-fraud-identity-theft',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2023-09-19',
+});
+
+UsNS.push({
+    name: "Norwich Selectboard Member Charged With Draining Elderly Live-In Partner's Life Savings",
+    slug: 'vermont-norwich-layton-clauson-elder-financial-exploitation',
+    description: `Mary Layton, 72, a sitting member and former chair of the Norwich, Vermont Selectboard, met Bill Clauson, a well-known Upper Valley lawyer, on an online dating site in 2015; he moved into her Norwich home in 2016 with more than $200,000 in savings. Layton's name was added to his bank account, and over the following years prosecutors say roughly $327,000 in combined Social Security deposits and retirement-account withdrawals flowed into that joint account, including a nearly $8,000 family cruise and a $25,000 payment toward Layton's own divorce settlement. By July 2024, when Layton returned Clauson to a Hanover home, he had less than $1,400 left and needed round-the-clock care as his Alzheimer's and Lewy body dementia progressed from Stage 4 to Stage 6; he died in July 2025 at 81, which triggered the investigation. Vermont State Police charged Layton in May 2026 with one felony count of financial exploitation of a vulnerable adult, punishable by up to 10 years in prison and a $10,000 fine; she was arraigned May 26, 2026 and pleaded not guilty. The case is a reminder that financial exploitation of an elderly person is frequently committed not by a stranger but by a trusted live-in partner or caregiver with legitimate joint access to an account, so family members are advised to request duplicate statements on any account an aging relative shares with a partner or caregiver, especially one entered into after a cognitive decline begins.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Valley News', 'Vermont State Police'],
+    sourceUrl: 'https://vnews.com/2026/05/25/layton-arraignment-felony-charge/',
+    country: 'US',
+    state: 'VT',
+});
