@@ -11086,3 +11086,39 @@ UsAF.push({
     state: 'AS',
     firstRecorded: '2018-07-19',
 });
+
+UsAF.push({
+    name: 'INDXcoin "Faith-Based" Cryptocurrency Investment Fraud (Eli Regalado)',
+    slug: 'colorado-indxcoin-faith-based-cryptocurrency-fraud',
+    description: `Denver pastor Eli Regalado Jr. and his wife Kaitlyn created, marketed, and sold a cryptocurrency called INDXcoin to their own Christian congregation and other faith communities around Denver, raising nearly $3.4 million from more than 300 investors between June 2022 and April 2023 by claiming God had told him the coin would make investors wealthy. Neither Regalado had cryptocurrency experience, and an auditor they hired found the coin's code so unsafe it scored zero out of ten on security — a finding never disclosed to investors — while the token was promised to trade on a companion exchange, Kingdom Wealth Exchange, that collapsed after a single day of trading. Eli Regalado later admitted on a viral YouTube video to using investor money for a home remodel he said "the Lord told us to do," along with jewelry, a Range Rover, and luxury ski and yachting trips. In September 2025 a Denver District Court judge ruled the Regalados committed securities fraud under the Colorado Securities Act and entered a $3.34 million judgment against them; they also face a separate 40-count criminal indictment from a Denver grand jury. The case is a clear example of affinity fraud — exploiting trust inside a religious or community network — moving into cryptocurrency, and the Colorado Division of Securities urges anyone solicited for a crypto investment through a faith community or personal network to verify the offering is actually registered before investing.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['Colorado Division of Securities'],
+    sourceUrl: 'https://securities.colorado.gov/press-release/press-release-denver-district-court-rules-indxcoin-cryptocurrency-scheme-was-a-fraud',
+    country: 'US',
+    state: 'CO',
+});
+
+UsAF.push({
+    name: 'Colorado Marijuana Business Impersonation Extortion Scam (Fake Inspectors and Utility Providers)',
+    slug: 'colorado-marijuana-business-impersonation-extortion-scam',
+    description: `Licensed Colorado marijuana businesses have been targeted since at least 2020 by callers and texters who impersonate state Marijuana Enforcement Division inspectors, law enforcement investigating counterfeit currency, utility companies, or even the business's own out-of-town owner, manager, or attorney. The caller typically already knows the business owner or manager's real name and other accurate details about the operation, which lends false credibility, then claims a surprise inspection is underway and has employees photograph fire extinguishers, emergency alarms, exits, safes, and product, or warns of an unpaid utility bill or licensing fee that must be paid immediately to avoid a shutdown. Employees are pressured to deliver cash from the register to an off-site location or to read off prepaid card numbers, and because marijuana remains federally restricted and many dispensaries operate cash-heavy, the Marijuana Enforcement Division has reported roughly one in five attempts succeeding since 2020, across dozens of reported incidents statewide. The MED has issued repeated industry bulletins warning licensees about the scheme, including a more recent alert describing the tactic evolving toward demands for payment through cryptocurrency ATMs, and advises any employee contacted this way to hang up and verify independently with the license holder and the Division directly, never with a number or contact the caller provides.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Colorado Marijuana Enforcement Division', 'Westword'],
+    sourceUrl: 'https://med.colorado.gov/industry-bulletins',
+    country: 'US',
+    state: 'CO',
+});
+
+UsAF.push({
+    name: 'Colorado Mountain Resort-Town Vacation Rental Scam',
+    slug: 'colorado-mountain-resort-rental-scam',
+    description: `Scammers post fake vacation and short-term rental listings for homes and condos in Colorado's ski and mountain resort towns — including Vail and greater Summit County — on Craigslist and other listing sites, often lifting real photos from a legitimate for-sale or for-rent listing to make the post look authentic. Posing as the owner, frequently while claiming to be traveling or stationed overseas and unable to show the property in person, the scammer asks an eager renter to wire a deposit or first month's rent through Zelle, PayPal, or a wire transfer before ever meeting, then stops responding once the money is sent. In one documented case, Vail-area homeowner Carla Rosenblum discovered her own property had been listed and rented out by a stranger using photos lifted from her real estate agent's MLS listing, with victims wiring money to a fraudulent bank account opened in her name. The scams intensify ahead of ski season and other high-demand tourist periods, when rental inventory is tight and renters feel pressure to secure housing quickly; the Vail Police Department warns that overseas or out-of-state bank accounts, below-market pricing, and a refusal to meet in person or show the property are consistent red flags, and advises always meeting a landlord or verified agent in person, or booking only through an established platform, before sending any money.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Vail Police Department', 'CBS Colorado'],
+    sourceUrl: 'https://www.cbsnews.com/colorado/news/colorados-mountain-communities-targets-rental-scams/',
+    country: 'US',
+    state: 'CO',
+});
