@@ -1086,9 +1086,8 @@ The only reliable defense is verifying independently, every time, using contact 
     author: 'ScamShield Editorial',
     tags: ['guide', 'fema-impersonation-scam'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FEMA_-_33541_-_A_resident_speaks_with_a_FEMA_inspector_in_California.jpg?width=1200',
-    coverImageCredit: 'FEMA photo (public domain)',
+    coverImageCredit: 'FEMA photo by Susie Shapira (Public Domain) — a genuine FEMA inspector conducting a disaster damage assessment, the real process this scam impersonates',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fema.gov/press-release/20251205/beware-fraud-and-scams',
     body: `In the days after a hurricane, wildfire, or flood, scammers move into affected areas alongside the legitimate relief effort, posing as FEMA inspectors, disaster relief coordinators, or insurance adjusters. Some show up in person wearing FEMA-branded clothing or carrying fabricated badges, knocking on doors of visibly damaged homes before any real FEMA contact has occurred; others work by phone or text, often using a spoofed number that appears to be an official disaster-assistance line.
 
@@ -8394,10 +8393,9 @@ Anyone who has already clicked a suspicious settlement link or handed over finan
     author: 'ScamShield Editorial',
     tags: ['guide', 'florida-dmv-david-database-breach'],
     sourceUrl: 'https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Florida_2022_license_plate.png?width=1200',
-    coverImageCredit: 'Photo: Zcarstvnz (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Florida_State_Trooper_and_DMV;_Lakeland.jpg?width=1200',
+    coverImageCredit: 'Photo: DanTD, CC BY-SA 4.0, via Wikimedia Commons — a Florida Highway Patrol/DMV office in Lakeland, Florida',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `DAVID — the Driver and Vehicle Information Database — isn't a website ordinary Floridians ever log into. It's a restricted lookup system run by the Florida Department of Highway Safety and Motor Vehicles (FLHSMV) that law enforcement agencies, courts, and other authorized government users query to pull up a driver's full record on demand: driver's license number, photograph, signature, home address, date of birth, Social Security number, and vehicle registration details. On September 4, 2026, FLHSMV confirmed that database had been breached, after the extortion group ShinyHunters claimed responsibility and began publicizing what it said it had taken.
 
 According to FLHSMV's own investigation, the intrusion didn't come from hacking DAVID's systems directly. ShinyHunters said it exploited a password-reset flaw to gain access to multiple DAVID user accounts, including ones belonging to DMV employees and, the group claimed, an FBI agent — but FLHSMV traced the actual point of entry to a single Plant City Police Department employee's login credentials, which had been improperly stored on that employee's personal electronic device. Using that access, the attackers said they began systematically working through DAVID record IDs starting September 3, pulling associated pages and images before FLHSMV detected and shut down the activity the next day. ShinyHunters claims it downloaded more than 200,000 driver records and set a September 11 deadline to be paid before releasing the data publicly; FLHSMV has said the breach was "quickly mitigated" and that no further unauthorized access is ongoing, but as of this writing has not confirmed the attackers' 200,000-record figure. As proof of access, the group posted a screenshot of a DAVID record belonging to Jeffrey Epstein — a detail that generated its own wave of attention but says nothing about how many ordinary Floridians' records were actually exposed.
@@ -9537,6 +9535,10 @@ GuidesAF.push({
   slug: 'boi-filing-scam-corporate-transparency-act-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'business-filing-scam'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Treasury_Department_Building,_Washington,_D.C_LCCN2011635063.jpg?width=1200',
+  coverImageCredit: 'Photo: Carol M. Highsmith (Public Domain) — the U.S. Treasury Department, parent agency of FinCEN, which administers BOI reporting',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: 'https://www.fincen.gov/boi',
   body: `Starting in 2024, once the Corporate Transparency Act's new Beneficial Ownership Information (BOI) reporting requirement took effect, scammers began mailing, emailing, and texting small-business owners official-looking notices demanding they "file" their BOI or pay a "mandatory" fee. The letters cited the business's real, correct filing details — pulled from public state registries — to look authentic, invented fake form numbers like "Form 4022" or "Form 5102," and impersonated agencies that don't exist, such as the "United States Business Regulations Department." Victims were told to mail a check to pay a "filing fee," even though there has never been any fee to file BOI directly with the real Treasury agency that administers it, the Financial Crimes Enforcement Network (FinCEN), or to scan a QR code or click a link to a lookalike site built to harvest an owner's name, Social Security number, and banking details.
 
@@ -9554,6 +9556,10 @@ GuidesAF.push({
   slug: 'fake-eviction-notice-scam-guide',
   author: 'ScamShield Editorial',
   tags: ['guide', 'fake-eviction-notice-scam'],
+  coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/427_St_Ann%27s_Avenue,_The_Bronx,_New_Yotk,_2008_-_Flickr_-_PhillipC.jpg?width=1200",
+  coverImageCredit: 'Photo: Phillip Capper, CC BY 2.0, via Wikimedia Commons — an apartment building in the Bronx, New York City, where the featured predatory-outreach case was brought',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-shuts-down-predatory-law-firm-targeted-new-york-city',
   body: `A notice appears taped to a tenant's door or arrives in the mail, "EVICTION NOTICE" printed across the top in red, giving a tenant a handful of days to pay a demanded sum or move out before "legal action" follows. For anyone already behind on rent or simply unfamiliar with how an eviction actually works, the notice reads as final — and that fear is the entire mechanism, since a real eviction can never happen this way. In every U.S. state, a landlord has to win an eviction through a court, and only a sheriff or marshal executing a court order can actually remove a tenant or their belongings; no notice, letter, or phone call can lawfully skip that step no matter how official it looks or how urgently it's worded.
 
