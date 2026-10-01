@@ -9253,6 +9253,45 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Iowa DOT Fake Traffic Violation and Toll Text Message Scam',
+    slug: 'iowa-dot-fake-traffic-violation-toll-text-scam',
+    description: `The Iowa Department of Transportation issued a public warning on March 27, 2026 about a wave of fraudulent text messages and phone calls impersonating the Iowa DOT or "the DMV," falsely claiming the recipient has an unpaid traffic violation, toll, or vehicle registration fee and must pay immediately. The messages include a link to a fake website designed to look like an official Iowa DOT or DMV payment page, built to harvest personal information and credit card numbers once a recipient tries to "pay." The department pointed out a structural flaw in the scam: Iowa has no toll roads, and the Iowa DOT never sends unexpected fee-collection reminders or requests for financial information by text message — any real payment to the department happens through a transaction the customer themselves initiates, by mail, or in person. Iowa DOT urged recipients not to click any link in the message, not to paste the link into a browser, and not to reply to the text at all, but instead to use their phone's "report junk" feature or forward the message to 7726 (SPAM), then delete it. Anyone who already clicked a link or entered information was advised to contact local law enforcement, the FTC at reportfraud.ftc.gov or the FBI's Internet Crime Complaint Center at ic3.gov, and to pull a free credit report at annualcreditreport.com to check for new accounts opened in their name.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Iowa Department of Transportation'],
+    sourceUrl: 'https://iowadot.gov/news/2026-03-27/fraudulent-text-messages-and-calls-target-recipients-false-claims-unpaid-traffic-violations-or-tolls',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2026-03-27',
+});
+
+UsGM.push({
+    name: 'MidAmerican Energy Search-Engine Fake Customer-Service Number Scam',
+    slug: 'iowa-midamerican-energy-search-engine-fake-customer-service-scam',
+    description: `MidAmerican Energy, Iowa's largest utility with roughly 1.3 million customers, warned in mid-July 2026 that scammers are buying paid search-engine advertisements and manipulating search results to surface fraudulent 1-800 numbers that look like the company's real customer-service line. A customer searching online for MidAmerican's phone number is routed to one of these fake numbers instead, where a scammer posing as a company representative asks for personal and payment information or pressures the caller toward an unusual payment method. "These criminals have figured out that if you put a fraudulent number in enough places on the internet... it tricks internet search results," company spokesperson Dan Winters said. This is a distinct attack vector from a robocall-based "pay now or we'll shut off your power" scheme already documented for another Iowa utility — here the fraud begins with the customer's own search for help, not an inbound scare call. MidAmerican's real customer-service number, 888-427-5632, is published on paper bills, in its mobile app, and at midamericanenergy.com; the company said it never demands immediate payment by gift card or cryptocurrency, and urged customers to go directly to its official website rather than trusting a number surfaced by a search engine.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['MidAmerican Energy', 'KSCJ 1360'],
+    sourceUrl: 'https://www.kscj.com/2026/07/16/beware-new-scam-targets-iowa-utility-customers/',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2026-07-16',
+});
+
+UsGM.push({
+    name: 'Iowa Fraudulent Business-Registration Identity Theft Scheme (STOP Fraud Act)',
+    slug: 'iowa-fraudulent-business-registration-identity-theft-stop-fraud-act',
+    description: `Iowa homeowners have repeatedly contacted the Secretary of State's office after receiving letters congratulating them on starting a business they never registered — the result of fraudsters filing paperwork that lists a real Iowan's name and home address as the company's "registered agent" without that person's knowledge or consent, lending the sham business a veneer of legitimacy and directing any creditor or legal action straight at the unwitting homeowner. Before mid-2026, victims had no fast way to clear their name: the Secretary of State's office could determine a filing was fraudulent but lacked the authority to dissolve the company quickly, leaving homeowners to hire their own lawyers to disentangle themselves. Iowa Secretary of State Paul Pate said the scheme put "homeowners in a bad place," given "a lot of procedures involved" under the old process. On June 1, 2026, Governor Kim Reynolds signed House File 2678 (the "STOP Fraud Act"), which the Iowa Legislature passed unanimously; it gives the Secretary of State's office authority to investigate a fraudulent-filing complaint and strike the business from state records if the named registered agent doesn't respond to a certified letter within 21 days, and allows penalties for submitting fraudulent registration paperwork. Iowans who receive an unexpected business-registration notice, letter, or tax document for a company they didn't start should contact the Iowa Secretary of State's office and the Iowa Attorney General's Consumer Protection Division immediately, since their name and address being used this way is a form of identity theft that can expose them to creditor claims and legal liability for a business they have never operated.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Iowa Secretary of State (Paul Pate)', 'KTIV'],
+    sourceUrl: 'https://www.ktiv.com/2026/06/10/new-iowa-law-first-step-efforts-combat-fraudulent-businesses-iowa-secretary-state-says/',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2026-06-01',
+});
+
+UsGM.push({
     name: "Cottonwood County Organic Grain Fraud ($46 Million Wire Fraud Scheme)",
     slug: "minnesota-cottonwood-county-organic-grain-fraud-wolf",
     description: "James Clayton Wolf, 64, a certified organic farmer in Jeffers, Minnesota, ran a scheme from 2014 to 2020 in which he bought non-organic corn and soybeans and resold them as certified organic, using fraudulent National Organics Program paperwork while growing his own crops with prohibited chemical fertilizers and pesticides. Wolf received more than $46 million in fraudulent payments and operated without the legally required grain buyer's license; he was charged with three counts of wire fraud following a joint USDA Office of Inspector General and FBI investigation, with an initial court appearance on July 22, 2022. A second Cottonwood County farmer, Adam Clifford Olson, was later added in a superseding indictment for helping sell the mislabeled grain after Wolf's organic certification was revoked in 2020.\n\nThe case shows how an entire supply chain built on trust in a paper certification — rather than any physical inspection at the point of sale — can be exploited for years before buyers or regulators catch on, since a bag of \"certified organic\" corn looks identical to a bag of conventional corn once it leaves the farm. Grain buyers and co-ops that pay a premium for certified organic product can independently verify a seller's current certification status through the USDA's own organic integrity database rather than relying solely on paperwork the seller provides.",
