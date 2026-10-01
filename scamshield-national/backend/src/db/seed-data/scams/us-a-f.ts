@@ -10720,6 +10720,33 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Southcentral Alaska Bank-Branch Fraud Using Forged Military IDs and Passport Cards (McLeish & Walker)',
+    slug: 'alaska-southcentral-bank-branch-forged-id-identity-theft-mcleish-walker',
+    description: `In mid-April 2025, Karey McLeish, 25, of Texas, and Rebekah Walker, 45, of Connecticut, drove across Southcentral Alaska attempting to drain the bank accounts of real Alaska residents using forged identification. On April 14, Walker presented a fraudulent military ID and U.S. passport card — bearing a real account holder's name and date of birth but Walker's own photograph — at bank branches in Wasilla and Eagle River, each time requesting a withdrawal of exactly $9,500, deliberately kept just under the $10,000 threshold that triggers mandatory federal currency-transaction reporting; she successfully withdrew $9,500 at each of the two branches (a combined $19,000) before a similar attempt at an Anchorage branch failed. When officers searched the pair's Soldotna hotel room, they found 11 separate forged military ID cards and 11 forged U.S. passport cards — each carrying a different real Alaska resident's name and birthdate but all bearing Walker's photo — along with phones holding victims' Social Security numbers, addresses, and banking details. McLeish and Walker were indicted on conspiracy to commit bank fraud, five counts of aggravated identity theft, five counts of forgery or false use of a passport, and one count of fraud in connection with identification documents. Unlike Alaska's existing phishing- and account-takeover-driven identity theft cases, this scheme relied entirely on in-person impersonation at physical bank counters with synthetic forged credentials.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, District of Alaska', 'Alaska Public Media'],
+    sourceUrl: 'https://www.justice.gov/usao-ak/pr/two-out-state-residents-charged-stealing-alaskan-identities-target-local-financial',
+    country: 'US',
+    state: 'AK',
+    isHistorical: true,
+    firstRecorded: '2025-04-14',
+});
+
+UsAF.push({
+    name: 'FBI 2024 Internet Crime Report: Tech Support Scams Among Top Threats to Alaskans',
+    slug: 'alaska-fbi-2024-tech-support-scam-losses',
+    description: `The FBI's 2024 Internet Crime Report, released by the Anchorage Field Office in May 2025, showed that Alaskans filed 6,770 complaints with the Internet Crime Complaint Center (IC3) reporting a combined $26.2 million in losses for the year, with cryptocurrency-related losses making up 45% of the total ($11.7 million) and more than $118 million in cumulative reported losses since 2014. The report identified investment fraud, business email compromise, and tech support scams posing as customer-service representatives as the three primary categories of crime facing Alaskans. In the typical tech-support scheme, a victim's device displays a sudden pop-up warning claiming a virus or security breach has been detected, often accompanied by a phone number, or the victim receives an unsolicited call from someone impersonating a representative of a well-known technology company such as Microsoft or Apple; the caller convinces the victim to install remote-access software, then uses that access to steal funds, lock the victim out of accounts, or demand payment to "fix" a problem that was never real. FBI Anchorage Special Agent in Charge Rebecca Day said the losses represent "stolen savings and retirement funds of hardworking Americans, siphoned from our local economy," and urged residents to report online fraud to their financial institution and to IC3 at ic3.gov.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Bureau of Investigation, Anchorage Field Office'],
+    sourceUrl: 'https://www.upi.com/Top_News/US/2025/05/13/Cold-hard-truth-Alaskans-lose-26M-to-Internet-crime/4221747168951/',
+    country: 'US',
+    state: 'AK',
+    firstRecorded: '2025-05-13',
+});
+
+UsAF.push({
     name: 'Connecticut DMV Unpaid Traffic Ticket Text Scam',
     slug: 'connecticut-dmv-unpaid-ticket-text-scam',
     description: `The Connecticut DMV issued a "smishing scam alert" warning that fraudulent text messages are circulating claiming the recipient has an unresolved traffic citation, threatening vehicle-registration suspension, added fees, and possible court action unless paid immediately via a link in the text. The DMV states the message "is not legitimate and was not sent by the Connecticut Department of Motor Vehicles" and that it never sends payment demands by text, directing residents not to click the link or reply, to delete the message, and to report it to the FTC at reportfraud.ftc.gov.`,
@@ -10865,6 +10892,33 @@ UsAF.push({
     country: 'US',
     state: 'DE',
     isHistorical: true,
+});
+
+UsAF.push({
+    name: 'Wilmington Mail Theft, Check-Washing, and PPP/EIDL Fraud Scheme (Crandall Speights)',
+    slug: 'delaware-speights-mail-theft-check-washing-ppp-fraud',
+    description: `Crandall Speights, 43, of Wilmington, Delaware, spent years running two overlapping fraud schemes. From June 2019 to October 2021, he drove through residential neighborhoods at night, rifled through mailboxes, and stole outgoing checks, then "washed" them with chemicals to erase and rewrite the payee name and dollar amount before depositing them into bank accounts he controlled — defrauding individuals and banks of roughly $345,250. Separately, from June 2020 to April 2021, he submitted six fraudulent Paycheck Protection Program and Economic Injury Disaster Loan applications, each falsely claiming he or an associate owned a small business, obtaining about $559,999 from the Small Business Administration; combined, the two schemes netted him more than $900,000. A federal grand jury indicted Speights in September 2023, and after his release on his own recognizance he fled for about eight months before being apprehended in a New Jersey apartment, where investigators found additional stolen checks, bank cards, and other victims' identifying information. On September 18, 2025, the U.S. District Court for the District of Delaware sentenced him to 70 months in federal prison. The case is a reminder that "check washing" remains a live, rising threat tied to ordinary mail theft — checks should be dropped at a post office counter or a collection box before its last pickup, never left in an unlocked mailbox, and ideally paid electronically instead.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office for the District of Delaware', 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/serial-fraudster-sentenced-to-70-months-in-federal-prison',
+    country: 'US',
+    state: 'DE',
+    isHistorical: true,
+    firstRecorded: '2019-06-01',
+});
+
+UsAF.push({
+    name: 'Edward Jones Mutual Fund Commission Overcharge Multistate Settlement',
+    slug: 'delaware-edward-jones-mutual-fund-commission-settlement',
+    description: `On January 15, 2025, Delaware Attorney General Kathy Jennings announced that the Delaware Department of Justice's Investor Protection Unit had joined a $17 million multistate settlement with brokerage firm Edward D. Jones & Co., L.P., following a four-year investigation led by a working group of state securities regulators. Investigators found that Edward Jones customers paid upfront, "front-loaded" sales commissions to buy Class A mutual fund shares, and were then moved — often within two or three years, following the rollout of the 2016 U.S. Department of Labor Fiduciary Rule — into fee-based advisory accounts that charged an additional ongoing asset-based fee, without being reimbursed for the unamortized portion of the commission they had already paid on the same assets, effectively charging many customers twice to hold the same investments. As part of the settlement, Edward Jones agreed to pay Delaware's Investor Protection Unit an administrative fine of approximately $320,000 of the $17 million multistate total. The case is a reminder for investors to ask in writing, before transferring from a commission-based brokerage account into a fee-based advisory account, whether they will be reimbursed for any front-end commission already paid on the assets being moved.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Delaware Department of Justice — Investor Protection Unit'],
+    sourceUrl: 'https://news.delaware.gov/2025/01/15/ag-jennings-joins-17-million-settlement-with-edward-jones/',
+    country: 'US',
+    state: 'DE',
+    firstRecorded: '2025-01-15',
 });
 
 UsAF.push({
