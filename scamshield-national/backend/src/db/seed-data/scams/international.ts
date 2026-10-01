@@ -12498,6 +12498,29 @@ International.push(
 
 International.push(
   {
+    name: 'Fake "Secretary to the President" Government Impersonation Scam',
+    slug: 'sierra-leone-secretary-to-president-impersonation-scam',
+    description: `On October 27, 2025, the Sierra Leone Police (SLP) issued a public scam alert warning citizens about an individual operating from phone number +232 78 173470 who was falsely claiming to be the Secretary to the President, and at other times posing as a government minister or other senior official, in order to extort money from the public. Police said the impersonator offers fake job opportunities, recruitment promises, and other forms of assistance to people who respond to him, then demands payment before cutting off contact or blocking the victim once money has been sent. In its statement, the SLP said "this individual is using such false titles and identities with the intent to extort money from unsuspecting members of the public," and cautioned that "no legitimate government official conducts recruitment, job placement, or financial transactions through personal phone numbers," warning that anyone who falls for the scheme does so at their own risk. The police urged members of the public to verify any such claims through official government channels before sending money, and to report suspicious calls or messages claiming to be from senior officials directly to law enforcement.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Sierra Leone Police (SLP)', 'SierraLoaded'],
+    sourceUrl: 'https://sierraloaded.sl/news/police-issue-scam-alert/',
+    country: 'SL',
+  },
+  {
+    name: 'Fake Overseas Job Offers Used to Traffic Sierra Leoneans to the Gulf',
+    slug: 'sierra-leone-fake-overseas-job-trafficking-scam',
+    description: `Fraudulent recruitment agents operating in Sierra Leone — advertising largely through Facebook, TikTok, and posters — have for years lured young Sierra Leoneans, especially women, with promises of well-paid jobs abroad as nannies, hairdressers, maids, teachers, shop assistants, or hospitality and construction workers, according to analysis published by the Institute for Security Studies' ENACT Africa programme. Agents illegally charge victims between US$600 and US$1,000 in "recruitment fees" to forge travel documents and arrange the journey, in violation of international labour conventions; some recruits are told they are headed to the United States, the United Kingdom, or elsewhere in Europe, only to discover they have instead been routed — sometimes via Ghana or Senegal, where some are coerced into further unpaid labor along the way — to Gulf states operating under the kafala sponsorship system, where employers confiscate passports and force migrants into unpaid labor, sometimes for years. A September 2022 report by migrant-rights non-profit Do Bold, covered by Middle East Monitor, documented more than 400 Sierra Leonean women trafficked into forced domestic labor in Oman alone, with roughly a third reporting sexual abuse; one woman, Aisha, had been promised a domestic-work job in Baghdad, Iraq but was instead flown to Oman in January 2021, telling her recruiter, "I did not say I would come to this country. You told me you would send me to Baghdad. And now I'm in Oman." Sierra Leone's government has acknowledged the scale of the problem — imposing a two-year moratorium on new foreign-labor recruitment starting in 2020 and passing the Anti-Human Trafficking and Migrant Smuggling Act in 2022 — but both ENACT Africa and the U.S. State Department's Trafficking in Persons reports on Sierra Leone note that recruitment agencies on both ends of the pipeline continue operating with little enforcement, leaving the scheme a continuing threat to Sierra Leonean jobseekers.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['ENACT Africa (Institute for Security Studies)', 'Middle East Monitor', 'Do Bold', 'U.S. Department of State Trafficking in Persons Report'],
+    sourceUrl: 'https://issafrica.org/enactafrica/enact-observer/sierra-leonean-migrants-carry-the-cost-of-their-own-trafficking',
+    country: 'SL',
+  },
+);
+
+International.push(
+  {
     name: 'Lesotho SGK Pyramid App Scheme',
     slug: 'lesotho-sgk-pyramid-app-scheme',
     description: `Lesotho's Financial Intelligence Unit (FIU) traced at least M8.6 million (roughly $8.6 million) that moved through 11 local bank accounts between late 2025 and April 2026 as part of the collapse of "SGK," an online platform that promised daily payouts for watching and rating short video advertisements from major brands. The scheme spread almost entirely through social media, with promoters on TikTok and Facebook leaning on trusted community networks — church leaders and workplace colleagues among them — to recruit new participants, some of whom were encouraged to register their own companies using the SGK name and open physical storefronts to lend the operation an air of legitimacy. Early users really were paid out, which built confidence and drew larger deposits, with some individual investments reaching as high as M80,000. Once the scheme had drawn in enough money, it froze withdrawals and began demanding "activation fees" and fake tax payments before users could access their funds, and then locked accounts out entirely. The FIU described SGK as a "faceless," internationally run pyramid scheme whose ultimate beneficiaries remain unidentified, noting that funds were moved out of the country quickly through cash withdrawals or converted to cryptocurrency via payment gateways based in Bahrain. Several Basotho who were hired locally as "financial assistants" to help move money ended up acting, unknowingly, as money mules, and faced backlash from angry investors once the platform collapsed.`,
