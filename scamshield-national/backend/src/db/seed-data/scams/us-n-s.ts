@@ -10964,3 +10964,43 @@ UsNS.push({
     isHistorical: false,
     firstRecorded: '2026-02-01',
 });
+
+UsNS.push({
+    name: 'Nebraska Real Estate Commission Warns of Imposter Property Listing Scam',
+    slug: 'nebraska-real-estate-commission-imposter-listing-scam',
+    description: `On January 8, 2026, the Nebraska Real Estate Commission (NREC) issued a warning about a fast-growing scam in which fraudsters impersonate the real owners of vacant land, farmland, empty lots, rental houses, and second homes — properties that are harder for their actual owners to monitor — using publicly available property records to make the impersonation convincing. The imposter contacts a licensed real estate agent posing as the owner and asks them to list the property, often pricing it well below market value to draw a fast offer, while refusing live video or in-person identity verification, claiming to be out of the country, and pushing buyers toward a quick closing and unverifiable payment methods such as wiring funds through digital payment apps or using a seller-preferred notary. If the sale closes, the buyer loses their money and never obtains valid title, while the real property owner is left to untangle fraudulent paperwork recorded against their land. NREC urges buyers to verify a seller's identity in person or by live video, work only with trusted title companies and get title insurance, and independently confirm contact information rather than trusting what a "seller" provides; it urges property owners — especially of vacant land, farmland, or second homes — to enroll in free property-fraud alerts through their county Register of Deeds office and to claim their property on sites like Zillow and Redfin so they're notified of unauthorized listing activity.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['Nebraska Real Estate Commission'],
+    sourceUrl: 'https://nrec.nebraska.gov/trending-topics-and-regulatory-updates',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2026-01-08',
+});
+
+UsNS.push({
+    name: 'U.S. Attorney Susan Lehr Email and Phone Impersonation Scam',
+    slug: 'nebraska-us-attorney-susan-lehr-impersonation-scam',
+    description: `Beginning around May 15, 2024, the U.S. Attorney's Office for the District of Nebraska began fielding calls from concerned Nebraskans who had received fraudulent emails purporting to come from then-U.S. Attorney Susan Lehr herself, demanding payment under the guise of federal legal action. The office confirmed the emails were fake and publicly warned that "the only time the U.S. Attorney's Office is involved in the collection of money is for restitution purposes in a criminal case after a judicial finding" — meaning any email or call demanding money directly, outside that narrow restitution process, is fraudulent. None of the people who contacted the office reported an actual financial loss. The office directed anyone who received such a message not to open attachments or provide personal information, and to report it to the FBI's tip line and the FTC. The impersonation campaign continued into the following year: in April 2025 the U.S. Attorney's Office issued a further "phone spoof" warning after scammers began placing calls that displayed as coming from the office's own number or other trusted local numbers, sometimes using the actual names and office addresses of real federal employees to sound credible, while pressuring recipients to make payment through non-standard, hard-to-trace methods.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, District of Nebraska', '1011now (KOLN/KGIN)'],
+    sourceUrl: 'https://www.1011now.com/2024/05/17/scammers-impersonate-us-attorney-attempt-defraud-victims-via-email/',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2024-05-15',
+});
+
+UsNS.push({
+    name: 'Kearney Man\'s "Vanguard Nebraska" Fake Consultant Investment Fraud (Jeffery Sikes)',
+    slug: 'kearney-vanguard-nebraska-fake-consultant-investment-fraud',
+    description: `Jeffery S. Sikes, then of Kearney, Nebraska, ran a string of fraud schemes between early 2012 and around July 2014 that were prosecuted in federal court in Lincoln. In one, Sikes told real estate developers he had lined up tenants for their properties and demanded finder's fees for tenants who never existed. In another, he persuaded people to roll retirement savings into a supposed new research-and-development company that was entirely fictitious. In the scheme that caused the largest loss, Sikes posed as a consultant for "Vanguard Nebraska" — a company that did not exist — and convinced a Lincoln-based real estate firm, B & J Partnership, to put up $750,000 toward a fraudulent project, backing up the pitch with fabricated balance sheets, tax forms, and false subcontractor documentation; B & J ultimately lost $507,231.96. Sikes pleaded guilty to wire fraud in April 2017 but fled to Alabama under an alias rather than appear for sentencing in January 2018, where he committed further crimes before his 2022 arrest. He was finally sentenced on August 27, 2024, to 108 months (9 years) in federal prison and ordered to pay $819,169.96 in restitution across his victims.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, District of Nebraska', 'Omaha World-Herald'],
+    sourceUrl: 'https://omaha.com/news/state-regional/crime-courts/former-kearney-man-sentenced-for-819-000-fraud-in-nebraska/article_0c99f0c9-210e-564d-879a-05d33264956a.html',
+    country: 'US',
+    state: 'NE',
+    isHistorical: true,
+    firstRecorded: '2012-01-01',
+});
