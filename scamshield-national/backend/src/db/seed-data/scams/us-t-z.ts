@@ -6410,3 +6410,41 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2016-01-01',
 });
+
+UsTZ.push({
+    name: 'Blue Cross Blue Shield of Wyoming "Body Broker" Substance-Abuse Treatment Fraud Targeting Native Americans',
+    slug: 'wyoming-bcbswy-native-american-body-broker-treatment-fraud',
+    description: `Blue Cross Blue Shield of Wyoming (BCBSWY) issued a public fraud warning on May 22, 2025 after discovering a scheme recruiting vulnerable adults — particularly from the Wind River Indian Reservation around Riverton and homeless shelters such as the Wyoming Rescue Mission in Casper — into fraudulent substance-abuse treatment billing. So-called "body brokers" scouted shelters and the reservation, offering addicted or homeless individuals a one-way ticket and promises of good weather and appropriate treatment, then enrolled them — often using false identification or documents belonging to deceased people — in federal Health Insurance Marketplace plans underwritten by BCBSWY before shipping them to out-of-state facilities in California, Florida, and Arizona, where victims found rundown apartment complexes with little or no actual treatment while the insurer was billed for services never rendered. BCBSWY identified roughly 1,500 suspicious enrollments tied to residential treatment centers, of which only 50 to 70 could be confirmed as belonging to real people, and traced hundreds of victims and around 70 suspicious providers, often LLCs set up quickly and possibly tied to the same few bad actors. BCBSWY Director of Population Health Amy Scharaswak said Native American enrollment in its marketplace plans had jumped roughly 500% and related claims had jumped more than 1,000% by March 2025. Because Native American health coverage is regulated at the federal level, Wyoming officials acknowledged the state has limited direct power to intervene. BCBSWY urges anyone approached with an unsolicited offer of free transportation, housing, or treatment in exchange for enrolling in a health plan to refuse and to report it to the Wyoming Department of Insurance.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['Blue Cross Blue Shield of Wyoming', 'Cowboy State Daily'],
+    sourceUrl: 'https://www.bcbswy.com/2025/05/22/blue-cross-blue-shield-of-wyoming-issues-warning-on-fraud-scheme-targeting-vulnerable-adults-and-native-americans/',
+    country: 'US',
+    state: 'WY',
+    firstRecorded: '2025-05-22',
+});
+
+UsTZ.push({
+    name: 'Jackson Hole Rental Email-Interception Zelle Scam (Anastasia Bambo Nela)',
+    slug: 'wyoming-jackson-hole-rental-email-interception-zelle-scam',
+    description: `In December 2025, a prospective renter negotiating to lease a home in Jackson, Wyoming lost $9,500 after a scammer inserted a fraudulent Zelle payment request directly into an ongoing email conversation between the renter and the landlord — investigators believe the landlord's email account had been compromised, giving the scammer real-time visibility into the legitimate back-and-forth about rent and deposit amounts. Because the fraudulent instructions arrived seamlessly inside the same thread the renter had already been using to talk with the real landlord, the renter had no reason to doubt them and sent two electronic payments totaling $9,500 before discovering the landlord had never received the money. The Jackson Police Department traced the scheme by subpoenaing records from Zelle's parent company and the receiving bank, leading them to Anastasia Bambo Nela, 40, of Fort Worth, Texas, who was arrested in Texas and extradited to Jackson on May 5, 2026 to face a felony theft count carrying up to 10 years in prison and a $10,000 fine, with bond set at $20,000. Unlike a fake rental listing, both the property and the landlord here were real — only the payment instructions riding inside the legitimate email thread were fraudulent. Renters and landlords are advised to confirm any payment amount or account-number change by phone, using a number they already have on file rather than one found in the email itself, before sending any rent or deposit payment electronically.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Jackson Police Department', 'Jackson Hole News&Guide'],
+    sourceUrl: 'https://www.jhnewsandguide.com/news/cops_courts/texas-woman-charged-in-alleged-9-500-jackson-rental-scam/article_a948304d-0608-429b-9a37-7901927dc4b4.html',
+    country: 'US',
+    state: 'WY',
+});
+
+UsTZ.push({
+    name: 'Sheridan-Area Real Estate Closing Wire Fraud via Compromised Realtor Email',
+    slug: 'wyoming-sheridan-realtor-email-closing-wire-fraud',
+    description: `CyberWyoming's weekly "Hacker Brief," sponsored by First Federal Bank & Trust and distributed through the Sheridan Press and other Wyoming outlets, warned residents in an alert published August 4, 2026 about a wire-fraud scheme that hit a real estate closing in the Sheridan community after a local realtor's email account was compromised. Once inside the account, the scammer monitored the realtor's correspondence, identified an upcoming closing, and learned the title company's name and the names of its real employees. The scammer then generated fake closing paperwork closely mimicking the title company's actual documents — differing only in subtle details such as an incorrect business address — and emailed the buyers fraudulent wiring instructions from a Gmail account made to display the name of a real title company employee rather than that employee's actual business email address. The buyers wired their closing funds to the fraudulent account and discovered the fraud only when they arrived at the actual closing and learned the title company had never received their money. CyberWyoming noted a second, related attempt against a different title company but the same compromised realtor, confirming the hijacked realtor email account as the common point of failure. Buyers and real estate agents are urged to independently call the title company, using a phone number they already have on file rather than one in any email, to verbally confirm wiring instructions before sending closing funds, to treat any last-minute change in the receiving account as an automatic red flag, and for real estate professionals to enable multi-factor authentication on their email accounts.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['CyberWyoming', 'First Federal Bank & Trust', 'The Sheridan Press'],
+    sourceUrl: 'https://news.wyosupport.com/cyberwyoming-suspicious-cmmc-grant-site-and-real-estate-closing-scam/',
+    country: 'US',
+    state: 'WY',
+    firstRecorded: '2026-08-04',
+});

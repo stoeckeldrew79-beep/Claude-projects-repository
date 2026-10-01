@@ -12345,6 +12345,36 @@ International.push(
     sourceUrl: 'https://www.bma.bm/news-and-press-releases/public-warning-fraud-alert',
     country: 'BM',
   },
+  {
+    name: 'Bermuda Online Rental Listing Scam',
+    slug: 'bermuda-online-rental-listing-scam',
+    description: `Bermuda's Ministry of Home Affairs, through Consumer Affairs, issued a public alert in June 2026 warning residents about fraudsters posing as landlords, property managers, or real estate agents who post fake rental listings on online platforms using stolen photographs and copied details from genuine properties. Prospective tenants are pressured to hand over government ID, banking details, and an upfront deposit or "processing fee" electronically before any in-person viewing takes place, and Bermuda Police confirmed a related case in August 2026 in which a would-be tenant was asked to pay a deposit and fee online before viewing a unit. Minister Alexa Lightbourne said "no resident should lose money or peace of mind while trying to secure a home," and given Bermuda's notoriously tight and expensive rental market, scammers lean on urgency and below-market pricing to push renters into paying before they can verify a listing is real. Consumer Affairs and police urged residents to insist on in-person viewings, refuse to deal with anyone who won't meet, and verify a landlord's identity before paying anything.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Bermuda Government Consumer Affairs', 'Bermuda Police Service (BPS)', 'The Royal Gazette'],
+    sourceUrl: 'https://www.royalgazette.com/general/news/article/20260610/public-warned-of-online-property-rental-scam/',
+    country: 'BM',
+  },
+  {
+    name: 'Bermuda Online Dating Romance Scam',
+    slug: 'bermuda-online-dating-romance-scam',
+    description: `The Bermuda Police Service (BPS) and the Bermuda Bankers Association (BBA) jointly warned the public in February 2025 about romance scams in which fraudsters build a relationship over days, weeks, or months through dating apps or social media before asking for money. The scammer typically claims to live or work overseas, professes affection quickly, and then invents a crisis — a stuck shipment, a medical emergency, an inability to afford travel — that only a wire transfer, gift cards, or cryptocurrency can fix, and some also mail fraudulent "overpayment" checks. BPS and the BBA flagged rapid professions of love, inconsistencies in a match's online profile, and requests for money or financial details from someone never met in person as the clearest warning signs, and urged anyone who suspects they are being targeted to stop contact and report it to police immediately.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['Bermuda Police Service (BPS)', 'Bermuda Bankers Association (BBA)', 'Bernews'],
+    sourceUrl: 'https://bernews.com/2025/02/bps-bba-warn-romance-scams/',
+    country: 'BM',
+  },
+  {
+    name: 'Fake "Bermuda National Coin" Impersonation Scam',
+    slug: 'bermuda-national-coin-impersonation-scam',
+    description: `In February 2025, a fraudulent X (formerly Twitter) account impersonating Bermuda's Premier, David Burt, announced the supposed launch of a fake cryptocurrency token called "Bermuda National Coin," and the account carried a grey verification checkmark despite being newly created and having a prior history of posts in other languages. The real Premier publicly denounced it from his own verified account as "a fake account and a scam," criticizing the platform for granting verification badges "without controls," and the fraudulent posts and account were subsequently removed. The episode illustrates a distinct impersonation mechanism from Bermuda's existing regulatory-fraud cases: rather than forging a document from a financial regulator, it exploited a social media platform's own verification system to borrow the credibility of the head of government and push a fabricated crypto asset.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['Bernews', "Premier David Burt's official X account"],
+    sourceUrl: 'https://bernews.com/2025/02/fake-bermuda-national-coin-scam-on-x/',
+    country: 'BM',
+  },
 );
 
 International.push(
@@ -13373,6 +13403,26 @@ International.push(
     sourceUrl: 'https://www.gabonreview.com/fausses-offres-demploi-eramet-comilog-alerte-et-rappelle-sa-procedure-officielle-de-recrutement/',
     country: 'GA',
   },
+  {
+    name: 'Gabon Fake Land Sale Listings Scam Impersonating ANUTTC',
+    slug: 'gabon-fake-land-sale-anuttc-impersonation-scam',
+    description: `Fraudsters create fake Facebook and WhatsApp posts impersonating Gabon's Agence Nationale de l'Urbanisme, des Travaux Topographiques et du Cadastre (ANUTTC) — the national land-titling and cadastre authority — to advertise plots of land and homes for sale at unusually attractive prices, sometimes using state-domain land that was never for sale or that had already been allocated to someone else. Victims are pressured to send a deposit or the full price quickly via Airtel Money or Moov Money mobile-money transfer before the "seller" disappears, and in many cases the documentation shown is forged. ANUTTC stated flatly that no land transaction is ever conducted over social media and warned that legitimate land acquisition is a strict administrative procedure that can only be completed in person at an official ANUTTC office — never through a Facebook page, and never by mobile-money transfer. After receiving a growing volume of complaints, ANUTTC's communications unit, led by Martine Claude Nte, deployed field teams over the weekend of March 15, 2026 across Estuaire province communes (Libreville, Owendo, and Akanda) to run public-awareness campaigns and to coordinate with municipal leaders on steering residents toward the legal purchase process.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ["Agence Nationale de l'Urbanisme, des Travaux Topographiques et du Cadastre (ANUTTC)", 'Gabonreview'],
+    sourceUrl: 'https://www.gabonreview.com/arnaques-foncieres-en-ligne-descente-de-lanuttc-sur-le-terrain/',
+    country: 'GA',
+  },
+  {
+    name: 'Gabon Airtel Money "GMAC" Account-Takeover Fraud Network',
+    slug: 'gabon-airtel-money-gmac-account-takeover-scam',
+    description: `A multi-month fraud ring operating between Libreville and Franceville used a scheme the perpetrators called "GMAC" to take over victims' Airtel Money mobile-money accounts, reportedly by impersonating Airtel agents to extract PINs, passwords, or one-time verification codes before draining the accounts. Gabonese judicial police dismantled the network and placed suspects Kelly Ovouga Antsou (37), Ulrich Ndong Essone (35), an Airtel Money agency employee named Tanguy Massala Massala, and a discharged military officer, Aboubakar Mamadou Mavoungou, in custody on July 3, 2026, with further suspects later arrested in Franceville and Libreville and transferred to Haut-Ogooué for prosecution. Essone, based in Libreville's Charbonnages district, is accused of supplying SIM cards pre-activated under stolen identities to shield the group's real identities, while stolen funds were immediately moved into Moov Money accounts — a rival mobile-money network — to break the money trail before merchants and private individuals, including several foreign nationals, could trace the transfers. Investigators said the probe into additional accomplices was continuing as of the August 10, 2026 report.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Direction Générale de la Police Judiciaire, Gabon', 'Gabon Média Time'],
+    sourceUrl: 'https://gabonmediatime.com/franceville-trois-presumes-cybercriminels-ecroues-pour-arnaque-via-airtel-money/',
+    country: 'GA',
+  },
 );
 
 International.push(
@@ -13663,6 +13713,16 @@ International.push(
     sourceUrl: 'https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams',
     country: 'DM',
   },
+  {
+    name: 'Fake "Expediter" Agents Targeting Dominica Citizenship-by-Investment Applicants',
+    slug: 'dominica-cbi-fake-agent-scam',
+    description: `Dominica's Citizenship by Investment Unit (CBIU), the government body that administers the country's economic citizenship program, maintains and regularly updates a public blacklist of companies and individuals who market or process Dominica citizenship applications without authorisation — entities the CBIU states explicitly are not authorised agents or promoters under the program and bear no association with the Unit. Blacklisted entities include ALT Group, based in Sulaymaniyah, Iraq; Dina Sky Immigration Services (also operating as Dina Sky Company); Canadian Bureau, based in the UAE; and Mina Yousefi Immigration Services, operating under the brand Immiway. These unlicensed intermediaries solicit fees from prospective applicants abroad hoping to obtain a second passport by posing as authorised representatives or "expediters" who can process or guarantee a Dominica citizenship-by-investment application, when in fact Dominica law requires every application to be submitted through one of the CBIU's own list of Authorised Agents; applications filed through any unauthorised channel will not be considered valid, leaving victims out the money they paid with no citizenship to show for it. The CBIU cautions prospective applicants to verify any agent's status directly against its official Authorised Agents list before paying any fee or handing over personal or financial documents.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Dominica Citizenship by Investment Unit (CBIU)', 'IMI Daily'],
+    sourceUrl: 'https://www.cbiu.gov.dm/dominica-citizenship/blacklisted-agents/',
+    country: 'DM',
+  },
 );
 
 International.push(
@@ -13811,6 +13871,29 @@ International.push(
     alertLevel: 'medium',
     sources: ['Sermitsiaq'],
     sourceUrl: 'https://www.sermitsiaq.ag/samfund/falsk-hjemmeside-udnytter-danskernes-sympati-for-gronland/2352822',
+    country: 'GL',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake Staffing-Agency Wage Theft Targeting Craftsmen Recruited to Work in Greenland',
+    slug: 'greenland-fake-staffing-agency-wage-theft-scheme',
+    description: `Sermitsiaq and the Danish trade-union magazine Fagbladet 3F reported in December 2022 that Danish craftsmen recruited to work on construction projects in Greenland, including in Ilulissat, were being defrauded of wages and vacation pay by Jens Sam Andersen, a businessman previously known as Sam Overgaard, operating through the staffing companies Grønlands Byggeservice ApS and Din Bygge Service Grønland IVS, both since placed under forced dissolution. Workers who raised the issue of unpaid wages described being met with excuses, harassment, and threats; one craftsman had to take out a cash advance to cover living costs after his pay failed to arrive. A major Ilulissat client, construction firm Carl Lynge ApS, cut ties with Andersen after two leased craftsmen complained of unpaid wages, with its director saying Andersen had overbilled for the workers' hours. The pattern echoed Andersen's own history: a 2017 Danish TV documentary series had already shown him, then operating as Sam Overgaard through now-bankrupt Norwegian companies Nordic Crew and Nordisk Bemanning, defrauding at least 17 people of more than 600,000 kroner. The case illustrates a labor-recruitment fraud pattern specific to Greenland's reliance on imported Danish tradespeople for construction work in remote towns, where workers have little practical recourse once on-site and far from home. Anyone recruited by a staffing agency for work in Greenland is advised to get wage and vacation-pay terms in writing before travel, verify a company isn't under active dissolution via Denmark's CVR business register, and check a recruiter's history before accepting a contract.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Sermitsiaq', 'Fagbladet 3F'],
+    sourceUrl: 'https://www.sermitsiaq.ag/samfund/berygtet-forretningsmand-pa-spil-i-gronland/509383',
+    country: 'GL',
+  },
+  {
+    name: 'Fake "For Sale" Listings for Boats, Snowmobiles and Cars on Greenland\'s Facebook Marketplace Groups',
+    slug: 'greenland-fake-classified-equipment-listing-scam',
+    description: `Sermitsiaq reported on May 29, 2025 that Greenland's peak spring and summer demand for used boats, outboard motors, snowmobiles, and cars — essential transport and livelihood equipment in a country with no road network between towns — has made buyers vulnerable to a specific fraud pattern on the territory's main classifieds channel: large Facebook buy-and-sell groups, including one with roughly 20,500 members. Group administrators said they periodically receive reports of listings posted by people advertising boats or vehicles which they do not actually possess, with the fraudulent posts removed once discovered, after a buyer has typically already paid a deposit or the full price sight-unseen to someone who lives in another town and has no equipment to deliver. Attorney Gutti Harryson of Nuna Law said the risk is compounded by the fact that no standardized purchase contract exists for used boats in Greenland, that remote and distance sales are common because buyers and sellers are often in different settlements, and that disputes which do reach court can take up to two years to resolve with no guarantee of recovering the money. His advice was to get a seller's claims about a boat or vehicle's condition and ownership in writing before paying, rather than relying solely on message-app conversations, and to use bank escrow arrangements that release funds only once delivery and condition are verified, given how costly and slow legal recourse is in Greenland's small communities.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Sermitsiaq', 'Nuna Law'],
+    sourceUrl: 'https://www.sermitsiaq.ag/erhverv/stor-eftersporgsel-pa-brugte-bade/2236386',
     country: 'GL',
   },
 );
@@ -15774,6 +15857,16 @@ International.push(
     sourceUrl: 'https://www.cookislandsnews.com/internal/national/tourism/business/accommodation-providers-warned-of-global-fake-death-certificate-scam/',
     country: 'CK',
   },
+  {
+    name: '"Cook Islands Sustainability Bond" Fake Investment Scheme',
+    slug: 'cook-islands-sustainability-bond-investment-fraud',
+    description: `In October and November 2022, the Cook Islands Financial Intelligence Unit (CIFIU) and New Zealand's Financial Markets Authority (FMA) jointly warned investors about a fraudulent investment scheme marketed as "The Cook Islands Sustainability Bond," which falsely traded on both the Cook Islands' international reputation for climate leadership and the name of a real bank to extract money from New Zealand investors. People who registered interest through a lead-generation site were contacted by someone identifying himself as "Jacob Taylor," who claimed to be a senior investment manager at Rabobank, and were sent a polished prospectus bearing Rabobank's real logo and the name of its chief executive before being instructed to wire funds to a third-party account rather than to any account actually associated with Rabobank or the Cook Islands government. One investor's bank in New Zealand intercepted and blocked a transfer into the scheme before the money left the country, which is how CIFIU was first alerted to it in early October 2022. Cook Islands Prime Minister Mark Brown publicly condemned the scheme, saying it was "disappointing" that the country's genuine push toward sustainable and renewable energy was "being targeted by crooks" as a pretext for theft, while the Cook Islands government stated flatly that it "does not have any bonds or investment schemes that people can invest in." Rabobank confirmed it had no connection to the offer or to anyone named Jacob Taylor. The FMA's public alert noted the scheme had resurfaced more than once, warning that any unsolicited investment offer citing Cook Islands government bonds, "green" or sustainability bonds, or a named bank employee reached through a third-party comparison website should be independently verified directly with the bank and the Cook Islands government before any funds are transferred.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Cook Islands Financial Intelligence Unit (CIFIU)', 'New Zealand Financial Markets Authority (FMA)', 'Cook Islands News'],
+    sourceUrl: 'https://www.cookislandsnews.com/uncategorised/internal/national/local/economy/phony-cook-islands-bond-offer-rears-its-head-again/',
+    country: 'CK',
+  },
 );
 
 International.push(
@@ -16188,6 +16281,30 @@ International.push(
     sources: ['Le360 Afrique', 'Ministry of Housing, Urbanism and Territorial Planning (Mauritania)'],
     sourceUrl: 'https://afrique.le360.ma/mauritanie/politique/2020/09/01/31711-mauritanie-le-ministere-de-lhabitat-alerte-sur-des-escroqueries-foncieres-nouakchott-31711/',
     country: 'MR',
+  },
+  {
+    name: 'El Boussati Hajj Travel Agency Fraud',
+    slug: 'mauritania-el-boussati-hajj-travel-agency-fraud',
+    description: `In 2015, a Nouakchott travel agency called "El Boussati pour le tourisme et le pèlerinage," based in the capital's northern market district, collected a combined 42 million ouguiya — roughly 2.1 million ouguiya per person — from 20 Mauritanians who had signed up for that year's Hajj pilgrimage to Saudi Arabia. Following the agency's instructions, the pilgrims handed over their passports and were told to present themselves 24 hours before their scheduled flights; when they arrived, they found the agency's office shut, its owner unreachable, and his phone disconnected. The victims — now without their passports as well as their money — filed a complaint with the public prosecutor. The case illustrates a pattern distinct from Mauritania's other reported fraud types: an unlicensed or fraudulent travel operator using the once-a-year urgency and devotional weight of the Hajj season to collect large upfront payments — along with pilgrims' passports — before disappearing just before departure, leaving victims with no recourse once the agency vanishes.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'high',
+    sources: ['Cridem'],
+    sourceUrl: 'https://cridem.org/C_Info.php?article=675051',
+    country: 'MR',
+    isHistorical: true,
+    firstRecorded: '2015-09-07',
+  },
+  {
+    name: 'Bankily Mobile Money Insider SIM-Swap Fraud',
+    slug: 'mauritania-bankily-insider-sim-swap-fraud',
+    description: `Mauritania's national police announced in late October 2022 that it had broken up a four-person fraud ring that drained more than 81 million old ouguiya from a businessman's account on Bankily, the mobile-money app run by the Banque Populaire de Mauritanie (BPM). Unlike opportunistic phishing, the scheme depended on paid insiders at three different institutions: a bank employee allegedly supplied the victim's secret PIN/code, a telecommunications company agent issued a duplicate SIM card carrying the victim's phone number, and a civil-registry employee is suspected of having helped access the victim's private identity data needed to push the fraudulent SIM reissuance through — together giving the ring both the credentials and the phone-number control needed to take over the Bankily account and move the funds out. Police said three of the four suspects were arrested, while a fourth remained a fugitive under active search at the time of the announcement. The case is a documented example of mobile-money fraud in Mauritania relying on corrupt insiders inside the banking, telecom, and civil-registration systems rather than on victim-side phishing or app-based deception.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Essahraa.net', 'Mauritanian National Police'],
+    sourceUrl: 'http://www.essahraa.net/fr/node/10504',
+    country: 'MR',
+    isHistorical: true,
+    firstRecorded: '2022-10-28',
   },
 );
 
@@ -20822,100 +20939,6 @@ International.push(
     sourceUrl: 'https://www.comoresinfos.net/escroquerie-a-grande-echelle-la-sonelec-alerte-sur-les-agissements-dibrahim-abdallah-le-faussaire-de-confiance/',
     country: 'KM',
   },
-  {
-    name: 'Bermuda Online Rental Listing Scam',
-    slug: 'bermuda-online-rental-listing-scam',
-    description: `Bermuda's Ministry of Home Affairs, through Consumer Affairs, issued a public alert in June 2026 warning residents about fraudsters posing as landlords, property managers, or real estate agents who post fake rental listings on online platforms using stolen photographs and copied details from genuine properties. Prospective tenants are pressured to hand over government ID, banking details, and an upfront deposit or "processing fee" electronically before any in-person viewing takes place, and Bermuda Police confirmed a related case in August 2026 in which a would-be tenant was asked to pay a deposit and fee online before viewing a unit. Minister Alexa Lightbourne said "no resident should lose money or peace of mind while trying to secure a home," and given Bermuda's notoriously tight and expensive rental market, scammers lean on urgency and below-market pricing to push renters into paying before they can verify a listing is real. Consumer Affairs and police urged residents to insist on in-person viewings, refuse to deal with anyone who won't meet, and verify a landlord's identity before paying anything.`,
-    categorySlug: 'rental-housing',
-    alertLevel: 'medium',
-    sources: ['Bermuda Government Consumer Affairs', 'Bermuda Police Service (BPS)', 'The Royal Gazette'],
-    sourceUrl: 'https://www.royalgazette.com/general/news/article/20260610/public-warned-of-online-property-rental-scam/',
-    country: 'BM',
-  },
-  {
-    name: 'Bermuda Online Dating Romance Scam',
-    slug: 'bermuda-online-dating-romance-scam',
-    description: `The Bermuda Police Service (BPS) and the Bermuda Bankers Association (BBA) jointly warned the public in February 2025 about romance scams in which fraudsters build a relationship over days, weeks, or months through dating apps or social media before asking for money. The scammer typically claims to live or work overseas, professes affection quickly, and then invents a crisis — a stuck shipment, a medical emergency, an inability to afford travel — that only a wire transfer, gift cards, or cryptocurrency can fix, and some also mail fraudulent "overpayment" checks. BPS and the BBA flagged rapid professions of love, inconsistencies in a match's online profile, and requests for money or financial details from someone never met in person as the clearest warning signs, and urged anyone who suspects they are being targeted to stop contact and report it to police immediately.`,
-    categorySlug: 'romance-scams',
-    alertLevel: 'medium',
-    sources: ['Bermuda Police Service (BPS)', 'Bermuda Bankers Association (BBA)', 'Bernews'],
-    sourceUrl: 'https://bernews.com/2025/02/bps-bba-warn-romance-scams/',
-    country: 'BM',
-  },
-  {
-    name: 'Fake "Bermuda National Coin" Impersonation Scam',
-    slug: 'bermuda-national-coin-impersonation-scam',
-    description: `In February 2025, a fraudulent X (formerly Twitter) account impersonating Bermuda's Premier, David Burt, announced the supposed launch of a fake cryptocurrency token called "Bermuda National Coin," and the account carried a grey verification checkmark despite being newly created and having a prior history of posts in other languages. The real Premier publicly denounced it from his own verified account as "a fake account and a scam," criticizing the platform for granting verification badges "without controls," and the fraudulent posts and account were subsequently removed. The episode illustrates a distinct impersonation mechanism from Bermuda's existing regulatory-fraud cases: rather than forging a document from a financial regulator, it exploited a social media platform's own verification system to borrow the credibility of the head of government and push a fabricated crypto asset.`,
-    categorySlug: 'cryptocurrency-scams',
-    alertLevel: 'medium',
-    sources: ['Bernews', "Premier David Burt's official X account"],
-    sourceUrl: 'https://bernews.com/2025/02/fake-bermuda-national-coin-scam-on-x/',
-    country: 'BM',
-  },
-  {
-    name: 'Fake "Expediter" Agents Targeting Dominica Citizenship-by-Investment Applicants',
-    slug: 'dominica-cbi-fake-agent-scam',
-    description: `Dominica's Citizenship by Investment Unit (CBIU), the government body that administers the country's economic citizenship program, maintains and regularly updates a public blacklist of companies and individuals who market or process Dominica citizenship applications without authorisation — entities the CBIU states explicitly are not authorised agents or promoters under the program and bear no association with the Unit. Blacklisted entities include ALT Group, based in Sulaymaniyah, Iraq; Dina Sky Immigration Services (also operating as Dina Sky Company); Canadian Bureau, based in the UAE; and Mina Yousefi Immigration Services, operating under the brand Immiway. These unlicensed intermediaries solicit fees from prospective applicants abroad hoping to obtain a second passport by posing as authorised representatives or "expediters" who can process or guarantee a Dominica citizenship-by-investment application, when in fact Dominica law requires every application to be submitted through one of the CBIU's own list of Authorised Agents; applications filed through any unauthorised channel will not be considered valid, leaving victims out the money they paid with no citizenship to show for it. The CBIU cautions prospective applicants to verify any agent's status directly against its official Authorised Agents list before paying any fee or handing over personal or financial documents.`,
-    categorySlug: 'investment-fraud',
-    alertLevel: 'high',
-    sources: ['Dominica Citizenship by Investment Unit (CBIU)', 'IMI Daily'],
-    sourceUrl: 'https://www.cbiu.gov.dm/dominica-citizenship/blacklisted-agents/',
-    country: 'DM',
-  },
-  {
-    name: 'Gabon Fake Land Sale Listings Scam Impersonating ANUTTC',
-    slug: 'gabon-fake-land-sale-anuttc-impersonation-scam',
-    description: `Fraudsters create fake Facebook and WhatsApp posts impersonating Gabon's Agence Nationale de l'Urbanisme, des Travaux Topographiques et du Cadastre (ANUTTC) — the national land-titling and cadastre authority — to advertise plots of land and homes for sale at unusually attractive prices, sometimes using state-domain land that was never for sale or that had already been allocated to someone else. Victims are pressured to send a deposit or the full price quickly via Airtel Money or Moov Money mobile-money transfer before the "seller" disappears, and in many cases the documentation shown is forged. ANUTTC stated flatly that no land transaction is ever conducted over social media and warned that legitimate land acquisition is a strict administrative procedure that can only be completed in person at an official ANUTTC office — never through a Facebook page, and never by mobile-money transfer. After receiving a growing volume of complaints, ANUTTC's communications unit, led by Martine Claude Nte, deployed field teams over the weekend of March 15, 2026 across Estuaire province communes (Libreville, Owendo, and Akanda) to run public-awareness campaigns and to coordinate with municipal leaders on steering residents toward the legal purchase process.`,
-    categorySlug: 'mortgage-foreclosure-scams',
-    alertLevel: 'high',
-    sources: ["Agence Nationale de l'Urbanisme, des Travaux Topographiques et du Cadastre (ANUTTC)", 'Gabonreview'],
-    sourceUrl: 'https://www.gabonreview.com/arnaques-foncieres-en-ligne-descente-de-lanuttc-sur-le-terrain/',
-    country: 'GA',
-  },
-  {
-    name: 'Gabon Airtel Money "GMAC" Account-Takeover Fraud Network',
-    slug: 'gabon-airtel-money-gmac-account-takeover-scam',
-    description: `A multi-month fraud ring operating between Libreville and Franceville used a scheme the perpetrators called "GMAC" to take over victims' Airtel Money mobile-money accounts, reportedly by impersonating Airtel agents to extract PINs, passwords, or one-time verification codes before draining the accounts. Gabonese judicial police dismantled the network and placed suspects Kelly Ovouga Antsou (37), Ulrich Ndong Essone (35), an Airtel Money agency employee named Tanguy Massala Massala, and a discharged military officer, Aboubakar Mamadou Mavoungou, in custody on July 3, 2026, with further suspects later arrested in Franceville and Libreville and transferred to Haut-Ogooué for prosecution. Essone, based in Libreville's Charbonnages district, is accused of supplying SIM cards pre-activated under stolen identities to shield the group's real identities, while stolen funds were immediately moved into Moov Money accounts — a rival mobile-money network — to break the money trail before merchants and private individuals, including several foreign nationals, could trace the transfers. Investigators said the probe into additional accomplices was continuing as of the August 10, 2026 report.`,
-    categorySlug: 'account-takeover',
-    alertLevel: 'high',
-    sources: ['Direction Générale de la Police Judiciaire, Gabon', 'Gabon Média Time'],
-    sourceUrl: 'https://gabonmediatime.com/franceville-trois-presumes-cybercriminels-ecroues-pour-arnaque-via-airtel-money/',
-    country: 'GA',
-  },
-  {
-    name: '"Cook Islands Sustainability Bond" Fake Investment Scheme',
-    slug: 'cook-islands-sustainability-bond-investment-fraud',
-    description: `In October and November 2022, the Cook Islands Financial Intelligence Unit (CIFIU) and New Zealand's Financial Markets Authority (FMA) jointly warned investors about a fraudulent investment scheme marketed as "The Cook Islands Sustainability Bond," which falsely traded on both the Cook Islands' international reputation for climate leadership and the name of a real bank to extract money from New Zealand investors. People who registered interest through a lead-generation site were contacted by someone identifying himself as "Jacob Taylor," who claimed to be a senior investment manager at Rabobank, and were sent a polished prospectus bearing Rabobank's real logo and the name of its chief executive before being instructed to wire funds to a third-party account rather than to any account actually associated with Rabobank or the Cook Islands government. One investor's bank in New Zealand intercepted and blocked a transfer into the scheme before the money left the country, which is how CIFIU was first alerted to it in early October 2022. Cook Islands Prime Minister Mark Brown publicly condemned the scheme, saying it was "disappointing" that the country's genuine push toward sustainable and renewable energy was "being targeted by crooks" as a pretext for theft, while the Cook Islands government stated flatly that it "does not have any bonds or investment schemes that people can invest in." Rabobank confirmed it had no connection to the offer or to anyone named Jacob Taylor. The FMA's public alert noted the scheme had resurfaced more than once, warning that any unsolicited investment offer citing Cook Islands government bonds, "green" or sustainability bonds, or a named bank employee reached through a third-party comparison website should be independently verified directly with the bank and the Cook Islands government before any funds are transferred.`,
-    categorySlug: 'investment-fraud',
-    alertLevel: 'medium',
-    sources: ['Cook Islands Financial Intelligence Unit (CIFIU)', 'New Zealand Financial Markets Authority (FMA)', 'Cook Islands News'],
-    sourceUrl: 'https://www.cookislandsnews.com/uncategorised/internal/national/local/economy/phony-cook-islands-bond-offer-rears-its-head-again/',
-    country: 'CK',
-  },
-  {
-    name: 'El Boussati Hajj Travel Agency Fraud',
-    slug: 'mauritania-el-boussati-hajj-travel-agency-fraud',
-    description: `In 2015, a Nouakchott travel agency called "El Boussati pour le tourisme et le pèlerinage," based in the capital's northern market district, collected a combined 42 million ouguiya — roughly 2.1 million ouguiya per person — from 20 Mauritanians who had signed up for that year's Hajj pilgrimage to Saudi Arabia. Following the agency's instructions, the pilgrims handed over their passports and were told to present themselves 24 hours before their scheduled flights; when they arrived, they found the agency's office shut, its owner unreachable, and his phone disconnected. The victims — now without their passports as well as their money — filed a complaint with the public prosecutor. The case illustrates a pattern distinct from Mauritania's other reported fraud types: an unlicensed or fraudulent travel operator using the once-a-year urgency and devotional weight of the Hajj season to collect large upfront payments — along with pilgrims' passports — before disappearing just before departure, leaving victims with no recourse once the agency vanishes.`,
-    categorySlug: 'travel-vacation-scams',
-    alertLevel: 'high',
-    sources: ['Cridem'],
-    sourceUrl: 'https://cridem.org/C_Info.php?article=675051',
-    country: 'MR',
-    isHistorical: true,
-    firstRecorded: '2015-09-07',
-  },
-  {
-    name: 'Bankily Mobile Money Insider SIM-Swap Fraud',
-    slug: 'mauritania-bankily-insider-sim-swap-fraud',
-    description: `Mauritania's national police announced in late October 2022 that it had broken up a four-person fraud ring that drained more than 81 million old ouguiya from a businessman's account on Bankily, the mobile-money app run by the Banque Populaire de Mauritanie (BPM). Unlike opportunistic phishing, the scheme depended on paid insiders at three different institutions: a bank employee allegedly supplied the victim's secret PIN/code, a telecommunications company agent issued a duplicate SIM card carrying the victim's phone number, and a civil-registry employee is suspected of having helped access the victim's private identity data needed to push the fraudulent SIM reissuance through — together giving the ring both the credentials and the phone-number control needed to take over the Bankily account and move the funds out. Police said three of the four suspects were arrested, while a fourth remained a fugitive under active search at the time of the announcement. The case is a documented example of mobile-money fraud in Mauritania relying on corrupt insiders inside the banking, telecom, and civil-registration systems rather than on victim-side phishing or app-based deception.`,
-    categorySlug: 'account-takeover',
-    alertLevel: 'high',
-    sources: ['Essahraa.net', 'Mauritanian National Police'],
-    sourceUrl: 'http://www.essahraa.net/fr/node/10504',
-    country: 'MR',
-    isHistorical: true,
-    firstRecorded: '2022-10-28',
-  },
 );
 
 International.push({
@@ -21364,6 +21387,31 @@ International.push({
   sources: ['Centrale Bank van Curaçao en Sint Maarten (CBCS)', 'Curaçao Chronicle', '721news.com'],
   sourceUrl: 'https://www.curacaochronicle.com/post/unknown/cbcs-warns-public-about-quick-promo-korsou-legacy-capital-group-and-elite-wealth-forum',
   country: 'CW',
+});
+
+International.push({
+  name: 'Curaçao Fake Traffic Fine SMS and Email Phishing Scam',
+  slug: 'curacao-fake-traffic-fine-sms-phishing-scam',
+  description: `The Openbaar Ministerie (OM), Curaçao's Public Prosecutor's Office, issued a public warning on September 16, 2026 about fraudulent SMS messages and emails circulating on the island that impersonate official notices of unpaid traffic fines, in particular speeding violations. The fake messages contain a link that recipients are told will let them pay the outstanding fine, but the link leads instead to a page designed to harvest personal and financial information rather than process any real government payment. The OM stated plainly that these messages do not originate from its office and constitute fraud, and it gave residents a concrete way to tell a genuine notice from a fake one: legitimate OM payment requests that include a link are sent exclusively through SENTOO, the territory's official digital payment platform, and are always written in Papiamentu with the OM's own official phone numbers included, unlike the scam messages. The OM urged anyone who receives one of these texts or emails not to click the embedded link and not to enter any personal or banking information, to delete the message immediately, and to contact the OM directly through its verified channels if there is any doubt about a message's authenticity.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Openbaar Ministerie (Public Prosecutor\'s Office) Curaçao', 'Curacao.nu'],
+  sourceUrl: 'https://www.curacao.nu/nieuws/politie-justitie/95101/om-curacao-waarschuwt-voor-nepberichten-over-boetes',
+  country: 'CW',
+  firstRecorded: '2026-09-16',
+});
+
+International.push({
+  name: '"Maduro & Curiel\'s Bank" (MCB) Online Banking Phishing Scam',
+  slug: 'curacao-mcb-online-banking-phishing-scam',
+  description: `Curaçao Chronicle reported on April 16, 2021 that residents across the island had been receiving fraudulent emails made to look like official notices from Maduro & Curiel's Bank (MCB), one of Curaçao's largest and oldest banks, falsely claiming that the recipient's internet banking access code had expired and needed to be "reactivated" by clicking a link in the email. The fraudulent messages were traced to sender addresses built around the string "mcb.online" rather than the bank's real domain, a detail designed to look legitimate to a quick glance. MCB issued a public warning stating it never sends access codes or other confidential information by email, and that if it ever needs to verify a customer's identity, it does so only by phone, to confirm it is speaking with the right person, never by asking a customer to reveal a password, PIN, or personal access code to an unknown party. MCB encouraged affected and concerned customers to attend a free internet-banking-security webinar it scheduled the following week and to report any suspicious message rather than act on it.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: ['Maduro & Curiel\'s Bank (MCB)', 'Curaçao Chronicle'],
+  sourceUrl: 'https://www.curacaochronicle.com/post/local/mcb-warns-against-scams/',
+  country: 'CW',
+  isHistorical: true,
+  firstRecorded: '2021-04-16',
 });
 
 International.push({
@@ -23131,6 +23179,93 @@ International.push({
 });
 
 International.push({
+  name: 'WAAFI Brand-Impersonation Loan/Job/Grant Advance-Fee Scam',
+  slug: 'djibouti-waafi-brand-impersonation-advance-fee-scam',
+  description: `Djibouti's National Police announced on July 12, 2026 that they had begun formally registering victims of criminal networks that illegally used the name of WAAFI, a well-known regional mobile-money wallet service, to run fake Facebook pages and WhatsApp accounts. The networks told victims they could obtain loans, jobs, grants, or other services, but required them to first pay registration fees, file-opening charges, or verification costs — after which the scammers cut off communication, blocked the victim, or demanded still more money. Police stated WAAFI's name had been used illegally with no official connection to the real service, and opened a registration process collecting victims' identity documents, phone numbers, the Facebook/WhatsApp accounts involved, and proof of payment to size the losses and build the investigation.`,
+  categorySlug: 'employment-scams',
+  sources: ['Djibouti National Police'],
+  sourceUrl: 'https://www.dawan.africa/news/djibouti-registers-victims-waafi-fraud-scheme',
+  country: 'DJ',
+  isHistorical: false,
+  firstRecorded: '2026-07-12',
+});
+
+International.push({
+  name: 'Foundi Djibril Fake Spiritual Services and Charity Fraud',
+  slug: 'comoros-foundi-djibril-spiritual-charity-fraud',
+  description: `Chaehoi Mmadi, a Comorian preacher known publicly as "Foundi Djibril" and president of the humanitarian association Air Darassa, was pursued by Moroni prosecutors for fraud after a victim accused him of taking roughly two kilograms of jewelry and more than two million Comorian francs in cash in exchange for prayers and promised favors; he left for France without judicial authorization while under investigation, prompting an added flight charge. He was separately convicted in a case brought by a different victim and sentenced to two years' imprisonment, a 25,000-franc fine, and an order to pay her 41 million Comorian francs in damages — but fled the country again before serving the sentence. His charity, Air Darassa, which claimed to have disbursed roughly €2 million (about 1 billion Comorian francs) in 2020, was eventually banned by the Comorian government over unexplained opacity in its funding sources.`,
+  categorySlug: 'charity-scams',
+  sources: ['Al-watwan', 'Comores Infos'],
+  sourceUrl: 'https://alwatwan.net/societe/actions-caritatives-i-djibril,-le-tr%C3%A8s-%C2%ABcontrovers%C3%A9%C2%BB-pr%C3%A9dicateur-devenu-%C2%ABhumanitaire%C2%BB.html',
+  country: 'KM',
+  isHistorical: true,
+});
+
+International.push({
+  name: 'Fake Relative-Abroad "Seer" Ritual-Payment Scam',
+  slug: 'guinea-bissau-fake-relative-seer-ritual-scam',
+  description: `Guinea-Bissau's Polícia Judiciária issued a public alert about a scheme causing significant financial harm to citizens: fraudsters create fake social-media and WhatsApp profiles impersonating a family member working abroad who claims to be about to send the victim a large sum of money. The fake relative then insists the victim first contact a "vidente" (seer) who demands payment for supposed rituals before the transfer can proceed. To keep the deception going, the scammers send forged transfer receipts, such as fake Western Union receipts, as false proof the money is on its way, and the fraud only comes to light when the victim checks with an actual bank and finds no transfer exists. The PJ urged the public to distrust unsolicited money-transfer promises from "relatives," verify identities through independent channels, and report suspicious contacts to its emergency line.`,
+  categorySlug: 'family-emergency-scams',
+  sources: ['Polícia Judiciária da Guiné-Bissau'],
+  sourceUrl: 'https://www.pjguinebissau.com/artigos/alerta-a-populacao-novo-esquema-de-burla-identificado-pela-policia-judiciaria/',
+  country: 'GW',
+  isHistorical: false,
+});
+
+International.push({
+  name: 'Fake French Businessman "Roots" Purchase Scam',
+  slug: 'guinea-bissau-fake-french-businessman-roots-scam',
+  description: `Guinea-Bissau's Polícia Judiciária warned the public about an organized fraud scheme built around a fabricated business opportunity: victims are told a French businessman has purportedly purchased "raízes" (roots) and that they can profit by participating in the deal. An organized group works the scheme by phone, with one member supplying lists of potential victims' phone numbers to the rest of the network so they can be cold-called with the false proposition. The PJ stated the claims are fabricated and described the operation as "um esquema de burla cuidadosamente planeado" (a carefully planned fraud scheme), urging citizens not to share personal data or send payment without independently verifying the offer.`,
+  categorySlug: 'investment-fraud',
+  sources: ['Polícia Judiciária da Guiné-Bissau'],
+  sourceUrl: 'https://www.pjguinebissau.com/artigos/alerta-publico-atencao-a-esquema-de-burla/',
+  country: 'GW',
+  isHistorical: false,
+});
+
+International.push({
+  name: 'Fake Clandestine Boat-to-Portugal Smuggling Scheme (Bissau)',
+  slug: 'guinea-bissau-fake-clandestine-boat-europe-scam',
+  description: `Guinea-Bissau's Polícia Judiciária dismantled a trafficking network operating out of Bissau that used staged social-media videos showing people supposedly already aboard cargo ships departing Bissau's port for Europe to convince victims, primarily from Côte d'Ivoire and Mali, that a clandestine sea passage to Portugal was real and imminent. Victims paid roughly 1.5 million CFA francs (over €1,500) each, then traveled to Bissau where they were confined in residences holding more than 60 people at a time while waiting months for a boat that never came. The operation rescued more than 100 victims and detained seven foreign suspects.`,
+  categorySlug: 'employment-scams',
+  sources: ['Polícia Judiciária da Guiné-Bissau', 'RTP'],
+  sourceUrl: 'https://www.rtp.pt/noticias/mundo/cem-vitimas-de-trafico-de-pessoas-resgatadas-e-sete-suspeitos-detidos-em-bissau_n1653145',
+  country: 'GW',
+  isHistorical: false,
+});
+
+International.push({
+  name: 'Afghanistan Fake UNICEF Aid-Registration Fee Scam',
+  slug: 'afghanistan-fake-unicef-aid-registration-fee-scam',
+  description: `Individuals falsely claiming to represent UNICEF have been selling fraudulent "registrations" to Afghans seeking food and non-food humanitarian assistance, charging fees for paperwork that is supposed to be free. Pajhwok Afghan News reported in January 2026 that UNICEF confirmed awareness of its name being misused and was reviewing the reports, stating that "all support delivered by the organization... is provided solely on the basis of need and without any cost," and urging the public not to pay anyone claiming to facilitate aid access or to share personal information or documents with unverified individuals.`,
+  categorySlug: 'public-benefits-fraud',
+  sources: ['Pajhwok Afghan News', 'UNICEF Afghanistan'],
+  sourceUrl: 'https://pajhwok.com/2026/01/16/unicef-aid-is-free-reports-of-fraud-using-organizations-name-under-review/',
+  country: 'AF',
+});
+
+International.push({
+  name: 'Afghanistan AI-Cloned-Voice Family Emergency Scam',
+  slug: 'afghanistan-ai-cloned-voice-family-emergency-scam',
+  description: `Scammers hijack or clone a family member's or friend's Facebook account and identity, then use AI-generated images and audio to impersonate a relative abroad who claims to have been arrested or is facing deportation and urgently needs money wired through informal money changers. Afghanistan's independent newspaper Hasht-e Subh (8am.media) reported in September 2026 that one victim's aunt, living in Iran, lost roughly 300,000 Afghanis after scammers posed as her brother in Switzerland, claiming Swiss police had arrested him and sending AI-generated fake images as "proof"; the funds were transferred through a Pakistani bank account and withdrawn in Quetta. The outlet documented smaller-scale variants as well, including a hijacked friend's account used to request money for a "phone card," and noted the scheme particularly targets people with limited digital literacy and relatives separated across borders with no easy way to verify claims.`,
+  categorySlug: 'ai-deepfake-scams',
+  sources: ['Hasht-e Subh (8am.media)'],
+  sourceUrl: 'https://8am.media/eng/online-scammers-fake-ai-voices/',
+  country: 'AF',
+});
+
+International.push({
+  name: 'Afghanistan Unlicensed Forex Trading Broker Fraud',
+  slug: 'afghanistan-unlicensed-forex-trading-broker-fraud',
+  description: `Since forex trading was introduced in Afghanistan around 2005, unlicensed local brokers have drawn in money exchangers, business owners, youth, and low-income Afghans with promises of steady returns from currency trading, then vanished with client deposits. The Kabul-based Money Exchangers Union has estimated Afghans lost hundreds of millions of dollars this way, with more than 7,000 people in Kandahar province alone tied to the business over 14 years and most suffering losses; firms and individuals named in reporting include Vision Financial Services, which began operating forex trading among Afghan communities before being ordered to stop, and businessman Bashir Gulzada's FX Zone and Unifax, after defrauded traders publicly protested when their brokers disappeared.`,
+  categorySlug: 'investment-fraud',
+  sources: ['Money Exchangers Union (Kandahar)', 'Daily Outlook Afghanistan'],
+  sourceUrl: 'https://thefrontierpost.com/afghans-lose-hundreds-of-millions-of-dollars-in-forex-trading/',
+  country: 'AF',
+  isHistorical: true,
+});
+
+International.push({
     name: "Tonga Police Warning: \"Anthony Heich\" Facebook Romance Scam Using Forged Documents",
     slug: "anthony-heich-facebook-romance-scam-forged-documents",
     description:
@@ -23344,116 +23479,4 @@ International.push({
     sources: ["Brunei Darussalam Central Bank (BDCB) and Cyber Security Brunei (CSB) — joint reminder regarding counterfeit notes and financial scams"],
     sourceUrl: "https://www.csb.gov.bn/reminder-regarding-counterfeit-notes-and-financial-scams",
     country: "BN",
-});
-
-International.push({
-  name: 'WAAFI Brand-Impersonation Loan/Job/Grant Advance-Fee Scam',
-  slug: 'djibouti-waafi-brand-impersonation-advance-fee-scam',
-  description: `Djibouti's National Police announced on July 12, 2026 that they had begun formally registering victims of criminal networks that illegally used the name of WAAFI, a well-known regional mobile-money wallet service, to run fake Facebook pages and WhatsApp accounts. The networks told victims they could obtain loans, jobs, grants, or other services, but required them to first pay registration fees, file-opening charges, or verification costs — after which the scammers cut off communication, blocked the victim, or demanded still more money. Police stated WAAFI's name had been used illegally with no official connection to the real service, and opened a registration process collecting victims' identity documents, phone numbers, the Facebook/WhatsApp accounts involved, and proof of payment to size the losses and build the investigation.`,
-  categorySlug: 'employment-scams',
-  sources: ['Djibouti National Police'],
-  sourceUrl: 'https://www.dawan.africa/news/djibouti-registers-victims-waafi-fraud-scheme',
-  country: 'DJ',
-  isHistorical: false,
-  firstRecorded: '2026-07-12',
-});
-
-International.push({
-  name: 'Foundi Djibril Fake Spiritual Services and Charity Fraud',
-  slug: 'comoros-foundi-djibril-spiritual-charity-fraud',
-  description: `Chaehoi Mmadi, a Comorian preacher known publicly as "Foundi Djibril" and president of the humanitarian association Air Darassa, was pursued by Moroni prosecutors for fraud after a victim accused him of taking roughly two kilograms of jewelry and more than two million Comorian francs in cash in exchange for prayers and promised favors; he left for France without judicial authorization while under investigation, prompting an added flight charge. He was separately convicted in a case brought by a different victim and sentenced to two years' imprisonment, a 25,000-franc fine, and an order to pay her 41 million Comorian francs in damages — but fled the country again before serving the sentence. His charity, Air Darassa, which claimed to have disbursed roughly €2 million (about 1 billion Comorian francs) in 2020, was eventually banned by the Comorian government over unexplained opacity in its funding sources.`,
-  categorySlug: 'charity-scams',
-  sources: ['Al-watwan', 'Comores Infos'],
-  sourceUrl: 'https://alwatwan.net/societe/actions-caritatives-i-djibril,-le-tr%C3%A8s-%C2%ABcontrovers%C3%A9%C2%BB-pr%C3%A9dicateur-devenu-%C2%ABhumanitaire%C2%BB.html',
-  country: 'KM',
-  isHistorical: true,
-});
-
-International.push({
-  name: 'Fake Relative-Abroad "Seer" Ritual-Payment Scam',
-  slug: 'guinea-bissau-fake-relative-seer-ritual-scam',
-  description: `Guinea-Bissau's Polícia Judiciária issued a public alert about a scheme causing significant financial harm to citizens: fraudsters create fake social-media and WhatsApp profiles impersonating a family member working abroad who claims to be about to send the victim a large sum of money. The fake relative then insists the victim first contact a "vidente" (seer) who demands payment for supposed rituals before the transfer can proceed. To keep the deception going, the scammers send forged transfer receipts, such as fake Western Union receipts, as false proof the money is on its way, and the fraud only comes to light when the victim checks with an actual bank and finds no transfer exists. The PJ urged the public to distrust unsolicited money-transfer promises from "relatives," verify identities through independent channels, and report suspicious contacts to its emergency line.`,
-  categorySlug: 'family-emergency-scams',
-  sources: ['Polícia Judiciária da Guiné-Bissau'],
-  sourceUrl: 'https://www.pjguinebissau.com/artigos/alerta-a-populacao-novo-esquema-de-burla-identificado-pela-policia-judiciaria/',
-  country: 'GW',
-  isHistorical: false,
-});
-
-International.push({
-  name: 'Fake French Businessman "Roots" Purchase Scam',
-  slug: 'guinea-bissau-fake-french-businessman-roots-scam',
-  description: `Guinea-Bissau's Polícia Judiciária warned the public about an organized fraud scheme built around a fabricated business opportunity: victims are told a French businessman has purportedly purchased "raízes" (roots) and that they can profit by participating in the deal. An organized group works the scheme by phone, with one member supplying lists of potential victims' phone numbers to the rest of the network so they can be cold-called with the false proposition. The PJ stated the claims are fabricated and described the operation as "um esquema de burla cuidadosamente planeado" (a carefully planned fraud scheme), urging citizens not to share personal data or send payment without independently verifying the offer.`,
-  categorySlug: 'investment-fraud',
-  sources: ['Polícia Judiciária da Guiné-Bissau'],
-  sourceUrl: 'https://www.pjguinebissau.com/artigos/alerta-publico-atencao-a-esquema-de-burla/',
-  country: 'GW',
-  isHistorical: false,
-});
-
-International.push({
-  name: 'Fake Clandestine Boat-to-Portugal Smuggling Scheme (Bissau)',
-  slug: 'guinea-bissau-fake-clandestine-boat-europe-scam',
-  description: `Guinea-Bissau's Polícia Judiciária dismantled a trafficking network operating out of Bissau that used staged social-media videos showing people supposedly already aboard cargo ships departing Bissau's port for Europe to convince victims, primarily from Côte d'Ivoire and Mali, that a clandestine sea passage to Portugal was real and imminent. Victims paid roughly 1.5 million CFA francs (over €1,500) each, then traveled to Bissau where they were confined in residences holding more than 60 people at a time while waiting months for a boat that never came. The operation rescued more than 100 victims and detained seven foreign suspects.`,
-  categorySlug: 'employment-scams',
-  sources: ['Polícia Judiciária da Guiné-Bissau', 'RTP'],
-  sourceUrl: 'https://www.rtp.pt/noticias/mundo/cem-vitimas-de-trafico-de-pessoas-resgatadas-e-sete-suspeitos-detidos-em-bissau_n1653145',
-  country: 'GW',
-  isHistorical: false,
-});
-
-International.push({
-  name: 'Afghanistan Fake UNICEF Aid-Registration Fee Scam',
-  slug: 'afghanistan-fake-unicef-aid-registration-fee-scam',
-  description: `Individuals falsely claiming to represent UNICEF have been selling fraudulent "registrations" to Afghans seeking food and non-food humanitarian assistance, charging fees for paperwork that is supposed to be free. Pajhwok Afghan News reported in January 2026 that UNICEF confirmed awareness of its name being misused and was reviewing the reports, stating that "all support delivered by the organization... is provided solely on the basis of need and without any cost," and urging the public not to pay anyone claiming to facilitate aid access or to share personal information or documents with unverified individuals.`,
-  categorySlug: 'public-benefits-fraud',
-  sources: ['Pajhwok Afghan News', 'UNICEF Afghanistan'],
-  sourceUrl: 'https://pajhwok.com/2026/01/16/unicef-aid-is-free-reports-of-fraud-using-organizations-name-under-review/',
-  country: 'AF',
-});
-
-International.push({
-  name: 'Afghanistan AI-Cloned-Voice Family Emergency Scam',
-  slug: 'afghanistan-ai-cloned-voice-family-emergency-scam',
-  description: `Scammers hijack or clone a family member's or friend's Facebook account and identity, then use AI-generated images and audio to impersonate a relative abroad who claims to have been arrested or is facing deportation and urgently needs money wired through informal money changers. Afghanistan's independent newspaper Hasht-e Subh (8am.media) reported in September 2026 that one victim's aunt, living in Iran, lost roughly 300,000 Afghanis after scammers posed as her brother in Switzerland, claiming Swiss police had arrested him and sending AI-generated fake images as "proof"; the funds were transferred through a Pakistani bank account and withdrawn in Quetta. The outlet documented smaller-scale variants as well, including a hijacked friend's account used to request money for a "phone card," and noted the scheme particularly targets people with limited digital literacy and relatives separated across borders with no easy way to verify claims.`,
-  categorySlug: 'ai-deepfake-scams',
-  sources: ['Hasht-e Subh (8am.media)'],
-  sourceUrl: 'https://8am.media/eng/online-scammers-fake-ai-voices/',
-  country: 'AF',
-});
-
-International.push({
-  name: 'Afghanistan Unlicensed Forex Trading Broker Fraud',
-  slug: 'afghanistan-unlicensed-forex-trading-broker-fraud',
-  description: `Since forex trading was introduced in Afghanistan around 2005, unlicensed local brokers have drawn in money exchangers, business owners, youth, and low-income Afghans with promises of steady returns from currency trading, then vanished with client deposits. The Kabul-based Money Exchangers Union has estimated Afghans lost hundreds of millions of dollars this way, with more than 7,000 people in Kandahar province alone tied to the business over 14 years and most suffering losses; firms and individuals named in reporting include Vision Financial Services, which began operating forex trading among Afghan communities before being ordered to stop, and businessman Bashir Gulzada's FX Zone and Unifax, after defrauded traders publicly protested when their brokers disappeared.`,
-  categorySlug: 'investment-fraud',
-  sources: ['Money Exchangers Union (Kandahar)', 'Daily Outlook Afghanistan'],
-  sourceUrl: 'https://thefrontierpost.com/afghans-lose-hundreds-of-millions-of-dollars-in-forex-trading/',
-  country: 'AF',
-  isHistorical: true,
-});
-
-International.push({
-  name: 'Curaçao Fake Traffic Fine SMS and Email Phishing Scam',
-  slug: 'curacao-fake-traffic-fine-sms-phishing-scam',
-  description: `The Openbaar Ministerie (OM), Curaçao's Public Prosecutor's Office, issued a public warning on September 16, 2026 about fraudulent SMS messages and emails circulating on the island that impersonate official notices of unpaid traffic fines, in particular speeding violations. The fake messages contain a link that recipients are told will let them pay the outstanding fine, but the link leads instead to a page designed to harvest personal and financial information rather than process any real government payment. The OM stated plainly that these messages do not originate from its office and constitute fraud, and it gave residents a concrete way to tell a genuine notice from a fake one: legitimate OM payment requests that include a link are sent exclusively through SENTOO, the territory's official digital payment platform, and are always written in Papiamentu with the OM's own official phone numbers included, unlike the scam messages. The OM urged anyone who receives one of these texts or emails not to click the embedded link and not to enter any personal or banking information, to delete the message immediately, and to contact the OM directly through its verified channels if there is any doubt about a message's authenticity.`,
-  categorySlug: 'government-impersonation',
-  alertLevel: 'medium',
-  sources: ['Openbaar Ministerie (Public Prosecutor\'s Office) Curaçao', 'Curacao.nu'],
-  sourceUrl: 'https://www.curacao.nu/nieuws/politie-justitie/95101/om-curacao-waarschuwt-voor-nepberichten-over-boetes',
-  country: 'CW',
-  firstRecorded: '2026-09-16',
-});
-
-International.push({
-  name: '"Maduro & Curiel\'s Bank" (MCB) Online Banking Phishing Scam',
-  slug: 'curacao-mcb-online-banking-phishing-scam',
-  description: `Curaçao Chronicle reported on April 16, 2021 that residents across the island had been receiving fraudulent emails made to look like official notices from Maduro & Curiel's Bank (MCB), one of Curaçao's largest and oldest banks, falsely claiming that the recipient's internet banking access code had expired and needed to be "reactivated" by clicking a link in the email. The fraudulent messages were traced to sender addresses built around the string "mcb.online" rather than the bank's real domain, a detail designed to look legitimate to a quick glance. MCB issued a public warning stating it never sends access codes or other confidential information by email, and that if it ever needs to verify a customer's identity, it does so only by phone, to confirm it is speaking with the right person, never by asking a customer to reveal a password, PIN, or personal access code to an unknown party. MCB encouraged affected and concerned customers to attend a free internet-banking-security webinar it scheduled the following week and to report any suspicious message rather than act on it.`,
-  categorySlug: 'phishing',
-  alertLevel: 'medium',
-  sources: ['Maduro & Curiel\'s Bank (MCB)', 'Curaçao Chronicle'],
-  sourceUrl: 'https://www.curacaochronicle.com/post/local/mcb-warns-against-scams/',
-  country: 'CW',
-  isHistorical: true,
-  firstRecorded: '2021-04-16',
 });
