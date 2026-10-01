@@ -20852,6 +20852,16 @@ International.push(
     sourceUrl: 'https://bernews.com/2025/02/fake-bermuda-national-coin-scam-on-x/',
     country: 'BM',
   },
+  {
+    name: 'Fake "Expediter" Agents Targeting Dominica Citizenship-by-Investment Applicants',
+    slug: 'dominica-cbi-fake-agent-scam',
+    description: `Dominica's Citizenship by Investment Unit (CBIU), the government body that administers the country's economic citizenship program, maintains and regularly updates a public blacklist of companies and individuals who market or process Dominica citizenship applications without authorisation — entities the CBIU states explicitly are not authorised agents or promoters under the program and bear no association with the Unit. Blacklisted entities include ALT Group, based in Sulaymaniyah, Iraq; Dina Sky Immigration Services (also operating as Dina Sky Company); Canadian Bureau, based in the UAE; and Mina Yousefi Immigration Services, operating under the brand Immiway. These unlicensed intermediaries solicit fees from prospective applicants abroad hoping to obtain a second passport by posing as authorised representatives or "expediters" who can process or guarantee a Dominica citizenship-by-investment application, when in fact Dominica law requires every application to be submitted through one of the CBIU's own list of Authorised Agents; applications filed through any unauthorised channel will not be considered valid, leaving victims out the money they paid with no citizenship to show for it. The CBIU cautions prospective applicants to verify any agent's status directly against its official Authorised Agents list before paying any fee or handing over personal or financial documents.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Dominica Citizenship by Investment Unit (CBIU)', 'IMI Daily'],
+    sourceUrl: 'https://www.cbiu.gov.dm/dominica-citizenship/blacklisted-agents/',
+    country: 'DM',
+  },
 );
 
 International.push({
