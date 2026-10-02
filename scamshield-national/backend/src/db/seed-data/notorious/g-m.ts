@@ -11352,3 +11352,54 @@ The insurers refused to pay, and the dispute — Suez Fortune Investments v Talb
 The case is a stark illustration of how far a maritime insurance fraud can escalate once an investigation threatens to expose it — and of the gap that can remain between a civil court's clear finding of fraud and any criminal accountability for the people it names.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Brillante_Virtuoso',
 });
+
+NotoriousGM.push({
+    title: 'James Guerin and the ISC Fraud That Destroyed Ferranti',
+    slug: 'james-guerin-isc-ferranti-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud'],
+    body: `James Guerin founded International Signal and Control (ISC) in Lancaster County, Pennsylvania, building it into what appeared to be a fast-growing, profitable defense-electronics exporter. On paper, ISC's business consisted of a stream of international contracts; in reality, those contracts were fabricated and padded out with circular cash transfers designed to make the company look like a thriving, diversified business. ISC's real revenue came from a very different, concealed source: illegal arms sales, including missile tracking and guidance components sent to apartheid-era South Africa between 1984 and 1988, conducted at the behest of U.S. clandestine organizations — some of the underlying technology reportedly reached Iraq, including cluster-munition specifications later used against coalition forces in the 1991 Gulf War.
+
+In November 1987, the British conglomerate Ferranti plc — one of the UK's most storied defense and electronics manufacturers — acquired ISC and rebranded the combined business Ferranti International plc. The acquisition proved fatal almost by design: once Ferranti's ownership made continuing the illegal arms trafficking impossible, ISC's only real cash flow disappeared, leaving nothing behind but the fictitious paper business Guerin had built to disguise it.
+
+Ferranti announced the discovery of "serious irregularities" in September 1989, and the UK's Serious Fraud Office opened a criminal investigation. In the United States, a Philadelphia federal grand jury indicted Guerin on October 31, 1991; he pleaded guilty on December 5, 1991, to eight charges spanning fraud committed in both the U.S. and UK, and was sentenced to 15 years in prison, of which he ultimately served roughly 13. He died on February 10, 2022.
+
+Ferranti never recovered. Saddled with debt it could not absorb once ISC's real business vanished, the company spent years divesting divisions; a 1993 conditional takeover bid from General Electric Company (GEC), valuing Ferranti at just one penny per share, was withdrawn, and with no alternative Ferranti filed for bankruptcy and entered receivership in December 1993, ending more than a century of operation.
+
+The ISC/Ferranti case remains a stark illustration of how little daylight there can be between "fraud" and "front": a defense contractor's seemingly legitimate growth turned out to be a cover story for illegal arms trafficking, and the fiction was convincing enough that one of Britain's oldest and most respected engineering firms bought the company outright — only to discover, once its new subsidiary's underlying illegal business ceased, that there had never been a legitimate one to replace it.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/International_Signal_and_Control',
+});
+
+NotoriousGM.push({
+    title: 'The Jacobowitz Family and the Fraud Behind Allou Healthcare\'s Collapse',
+    slug: 'jacobowitz-family-allou-healthcare-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud'],
+    body: `Allou Health & Beauty Care — later Allou Healthcare, Inc. — was a Brooklyn, New York wholesale distributor of pharmaceuticals and health-and-beauty products, run for decades by the Jacobowitz family: Victor Jacobowitz chaired the company's board, his sons Herman and Jacob Jacobowitz served as CEO and executive vice president, and a fourth relative, Aaron Jacobowitz, managed a web of family-controlled affiliated companies. Beginning in the 1990s, the family turned Allou's asset-based credit facility — which let the company borrow against a percentage of its reported accounts receivable and inventory value — into the engine of a decade-long fraud, falsifying accounting records and earnings reports and materially overstating revenue and inventory to meet lenders' and Wall Street's expectations.
+
+The mechanism was straightforward in design and massive in scale: executives recorded sales and inventory that did not exist, then moved cash in a circular pattern through the family-controlled affiliated entities Aaron Jacobowitz managed, disguised as payments for nonexistent inventory purchases, to make the fabricated numbers appear to clear as real transactions — while personally siphoning millions of dollars from the company in the process.
+
+The fraud began to unravel after a September 2002 warehouse fire in Brooklyn, which New York City fire marshals ruled was arson. Rather than let that finding stand, Herman and Aaron Jacobowitz attempted to bribe an undercover fire marshal, paying $50,000 toward a promised $100,000 in exchange for a report calling the fire accidental — an attempt that was caught and triggered the broader investigation exposing the underlying accounting fraud. Allou collapsed into bankruptcy in April 2003, leaving an estimated $160 million in losses to creditors, investors, and other victims.
+
+Victor, Herman, Jacob, and Aaron Jacobowitz were indicted on federal bank fraud, securities fraud, and bribery charges; each pleaded guilty. As part of their 2005 plea agreements, Herman and Aaron agreed to forfeit up to $130 million and Jacob agreed to forfeit $10 million. On July 31, 2007, Herman — who had pleaded guilty to conspiracy to commit bank fraud, securities fraud, and mail fraud, and to filing a false annual report with the SEC — was sentenced to 15 years in prison, three years of supervised release, and ordered to pay $176,550,000 in restitution. The SEC separately brought civil fraud charges against the family.
+
+Allou's collapse is a reminder that an asset-based lending fraud doesn't need an exotic cover story — a distributor that said it was simply moving pharmaceuticals and beauty products through a credit line tied to its receivables and inventory was able to fabricate both for more than a decade, in part because the company and the "independent" entities it transacted with were controlled by the same family. And it was not an auditor or a bank examiner who finally cracked the case, but an arson investigation into a single warehouse fire and a clumsy bribe meant to cover it up.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/nye/pr/2005/2005nov22.html',
+});
+
+NotoriousGM.push({
+    title: 'Michael Nowak, Gregg Smith, and the JPMorgan Spoofing Ring That Cost the Bank $920 Million',
+    slug: 'michael-nowak-gregg-smith-jpmorgan-spoofing',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'market-manipulation', 'spoofing', 'commodities-fraud'],
+    body: `Between approximately 2008 and 2016, traders on JPMorgan Chase's global precious metals desk in New York ran a market-manipulation scheme that regulators would later call one of the most extensive spoofing cases ever prosecuted. At the center were Michael Nowak, the desk's managing director, and Gregg Smith, one of its senior gold traders, who worked alongside other colleagues placing orders for gold, silver, platinum, and palladium futures on COMEX and NYMEX — and, separately, U.S. Treasury futures on the Chicago Board of Trade — that they had no intention of ever executing.
+
+The mechanism was simple but effective at scale: traders entered large buy or sell orders designed to create a false impression of supply or demand, then canceled those orders in the instant before they could be filled, while executing genuine trades on the opposite side of the market to profit from the artificial price movement their fake orders had triggered. Over roughly eight years, regulators documented hundreds of thousands of these deceptive sequences, producing more than $10 million in identified losses to other market participants.
+
+JPMorgan itself faced the consequences first. On September 29, 2020, the bank entered a deferred prosecution agreement with the Department of Justice, admitting to wire fraud, while reaching parallel settlements with the Commodity Futures Trading Commission and the Securities and Exchange Commission. The combined penalty came to $920.2 million — the CFTC's order broke down into $311,737,008 in restitution, $172,034,790 in disgorgement, and a $436,431,811 civil penalty — which the CFTC called the largest monetary sanction it had ever imposed for this type of conduct.
+
+Criminal cases against the individual traders followed before a federal jury in Chicago. Nowak and Smith were convicted in August 2022 of wire fraud, attempted price manipulation, commodities fraud, and spoofing; a third trader, Christopher Jordan, who worked at JPMorgan from 2006 to late 2009, was convicted separately that December on a wire fraud count tied to spoof orders he placed between 2008 and 2010. Sentencing followed in 2023: Smith, described by a federal prosecutor as "the most prolific spoofer" the government had prosecuted, received two years in prison and a $50,000 fine; Nowak received one year and one day plus a $35,000 fine; Jordan was sentenced to six months in prison.
+
+What distinguishes this case from the lone-wolf rogue-trader archetype is that the fraud here was collaborative and institutionalized, carried out openly by multiple traders on a working desk for the better part of a decade without triggering the bank's own internal controls. It took outside regulators' trade-pattern surveillance, not JPMorgan's compliance systems, to reconstruct the pattern of order-and-cancel sequences and prove intent — a template for how electronic-market speed, the ability to flood an order book and withdraw in milliseconds, can be weaponized for the same purpose falsified books once served.`,
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8260-20',
+});
