@@ -11043,6 +11043,30 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Xcel Energy Prepaid-Card Disconnection-Threat Scam',
+    slug: 'minnesota-xcel-energy-prepaid-card-disconnection-scam',
+    description: `Scammers impersonating Xcel Energy call Minnesota customers claiming their account is overdue and threaten to disconnect service within the hour unless they pay immediately. Victims are instructed to buy a prepaid debit or credit card and call back to read off the card numbers as "payment." Callers often spoof caller ID to display Xcel Energy's name and sound like legitimate representatives. Xcel Energy has confirmed it never demands prepaid-card or wire payment, and always mails written notice before a formal disconnection notice is issued.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Xcel Energy'],
+    sourceUrl: 'https://kroc.com/xcel-energy-utility-payment-scam-minnesota/',
+    country: 'US',
+    state: 'MN',
+});
+
+UsGM.push({
+    name: 'MnDOT Fake Unpaid Toll/E-ZPass Text Scam',
+    slug: 'minnesota-mndot-fake-toll-ezpass-text-scam',
+    description: `The Minnesota Department of Transportation (MnDOT) has warned residents of fraudulent text messages impersonating MnDOT or E-ZPass claiming the recipient owes an unpaid toll, invoice, or violation. The texts create urgency with threats of escalating fines and include a link asking the victim to "verify" personal and payment information. MnDOT states plainly: "We will never text or email you asking for personal or sensitive information. For your security, we do not accept credit card numbers by mail, email, chat, or voicemail."`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Minnesota Department of Transportation (MnDOT)'],
+    sourceUrl: 'https://www.fox9.com/news/mndot-text-scams-toll-payments',
+    country: 'US',
+    state: 'MN',
+});
+
+UsGM.push({
     name: 'Studioplex Movie Studio Investment Fraud (Medient Studios / Moon River Studios)',
     slug: 'georgia-studioplex-medient-moon-river-studios-investment-fraud',
     description: `The SEC charged Manu Kumaran, founder and CEO of Medient Studios (later Moon River Studios), along with successor CEOs Jake Shapiro and Roger Miguel, with defrauding investors in "Studioplex," a purported project to build the largest movie studio in North America at a site outside Savannah in Effingham County, Georgia. The SEC alleged Kumaran and Shapiro claimed construction was underway and gave operational timelines while knowing the project lacked anywhere near sufficient funding, and that all three backdated and falsified promissory notes to issue stock in exchange for financing. Kumaran spent an average of $1,700 a day of company funds on personal travel and expenses, and Shapiro had the company pay for a house worth nearly $1 million; two outside directors, former New York Governor David Paterson and music producer Charles Koppelman, separately agreed to pay $25,000 penalties each over failing to report their own stock transactions. The promised studio complex was never built.`,
