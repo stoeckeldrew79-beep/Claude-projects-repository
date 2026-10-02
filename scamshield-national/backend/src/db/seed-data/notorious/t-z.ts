@@ -3629,3 +3629,20 @@ Years into their American sentences, the two men's cases diverged sharply. Xu Ch
 The Kaiping case stands as one of the clearest examples of how thin internal controls at a single branch of an otherwise enormous institution can let a fraud run for nearly a decade in plain sight of no one — and of how far two governments, without a formal extradition treaty between them, were still willing to go, across two separate criminal justice systems and more than twenty years, once hundreds of millions of dollars and a state bank's credibility were on the line.`,
     sourceUrl: 'https://www.pillsburylaw.com/en/news-and-insights/fugitive-china-life-imprisonment-corruption-embezzlement.html',
 });
+
+NotoriousTZ.push({
+    title: "Tom Noe and the Coingate Scandal That Toppled Ohio's Republican Party",
+    slug: 'tom-noe-coingate-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Thomas W. Noe was a Toledo-area rare-coin dealer and one of Ohio's most influential Republican fundraisers — chairman of the Lucas County GOP, the Bush-Cheney 2004 campaign in northwest Ohio, and the state Turnpike Commission — when, in March 1998, the Ohio Bureau of Workers' Compensation awarded his coin businesses a $50 million contract to invest injured workers' trust-fund money in rare coins. The bureau disbursed $25 million in 1998 and another $25 million in 2001, handing a politically connected donor sole discretion over how a chunk of a public insurance fund was converted into a physical, hard-to-verify collectible.
+
+The scheme surfaced through ordinary local reporting rather than a regulatory audit: a Toledo Blade investigation published April 3, 2005 first reported that two coins worth more than $300,000 had gone missing "in the mail," which triggered a broader inquiry that eventually found $10 million to $13 million of the fund unaccounted for. Investigators found Noe had kept a second set of books to disguise the shortfall and had used fund assets for personal and political purposes rather than the coin inventory he reported to the state.
+
+Noe faced two separate prosecutions. Ohio indicted him on 53 felony counts in February 2006; a jury convicted him on November 13, 2006 on 29 counts including theft, money laundering, forgery, and corrupt activity (Ohio's racketeering statute), and on November 20, 2006 he was sentenced to 18 years in state prison, a $213,000 fine, and $13.7 million in restitution to the workers' compensation fund. Separately, federal prosecutors charged him with funneling $45,400 in illegal "conduit" contributions to the Bush-Cheney 2004 campaign by reimbursing friends who donated in their own names; he pleaded guilty and was sentenced in September 2006 to 27 months in federal prison, to be served before the state term.
+
+The scandal's political fallout reached the governor's office: Republican Gov. Bob Taft pleaded no contest on August 18, 2005 to four ethics misdemeanors for failing to report golf outings and gifts from Noe over several years, paying a $4,000 fine and becoming the first Ohio governor charged with a crime while in office; his chief of staff was separately convicted on ethics charges. "Coingate" became a defining issue in Ohio's 2006 elections, which swept Republicans out of the governorship and several other statewide offices they had held for over a decade. (Noe was released early in April 2020 after Gov. Mike DeWine commuted his sentence over COVID-19 health concerns.)
+
+The case is a reminder that a public trust fund doesn't need a Ponzi structure to be looted — a politically connected insider with sole custody of an asset class nobody else at the agency could independently price was enough, and it took a newspaper, not a regulator, to notice the coins weren't adding up.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Coingate_scandal',
+});
