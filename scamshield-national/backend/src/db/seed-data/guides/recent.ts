@@ -801,6 +801,10 @@ GuidesRecent.push({
     slug: 'onlyfans-creator-deepfake-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'onlyfans-creator-impersonation-scam', 'ai-deepfake-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike MacKenzie, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — generic social-media app icons, evoking the platforms this scam spreads across; replace with an exact match if found
     sourceUrl: 'https://www.malwarebytes.com/blog/news/2026/08/scammers-target-onlyfans-users-with-deepfakes',
     body: `Scammers are stealing real OnlyFans creators' publicly posted photos and videos, running them through AI tools that animate a still image into speech and clone the creator's voice, and using the result to build fake accounts on platforms like TikTok — often with a handle just one or two characters off from the real creator's. From there, they pull a creator's existing fans into direct messages and steer the conversation off the discovery platform entirely, typically to Snapchat or Telegram, where the fake "creator" promises a private chat or exclusive content in exchange for payment sent through Cash App or a similar peer-to-peer app. Once the payment clears — instantly, and with no built-in buyer protection, since those apps are designed for sending money to people you already know rather than paying for commerce — the scammer blocks the fan and disappears, often moving on to repeat the same script with the next person who reaches out.
 
