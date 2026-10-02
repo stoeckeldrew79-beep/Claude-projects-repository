@@ -11360,3 +11360,40 @@ UsNS.push({
     state: 'PA',
     firstRecorded: '2026-01-16',
 });
+
+UsNS.push({
+    name: 'El Paso Electric Meter-Deposit Disconnection Threat Scam',
+    slug: 'el-paso-electric-meter-deposit-disconnection-scam',
+    description: `Scammers spoof El Paso Electric's caller ID and phone number to contact customers in southern New Mexico, falsely claiming the customer owes a "smart meter deposit" or needs an emergency meter replacement and must pay immediately — often within 15 to 30 minutes — by prepaid debit card or risk having power disconnected. In one documented case, a caller told Tracy Baker, co-owner of the Dragonfly Restaurant in Las Cruces, that she had 17 minutes to pay a $998 "smart meter deposit" before the restaurant's power would be shut off for 72 hours, timing the call around a bank holiday; she instead contacted El Paso Electric directly and learned she was "the second business that's come today" reporting a similar call. El Paso Electric — which serves Las Cruces, Sunland Park, and other southern New Mexico communities along with El Paso, Texas — says it never demands payment by prepaid debit card and never disconnects service without prior written notice, and urges customers to hang up and call its New Mexico line, (575) 526-5555, before paying any disconnection threat.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['El Paso Electric', 'CBS4Local (KDBC)'],
+    sourceUrl: 'https://www.epelectric.com/news/scam-alert-el-paso-electric-sees-rise-in-scams-1',
+    country: 'US',
+    state: 'NM',
+});
+
+UsNS.push({
+    name: 'New Mexico Gas Company 30-Minute Disconnection Threat Scam',
+    slug: 'new-mexico-gas-company-30-minute-disconnection-scam',
+    description: `New Mexico Gas Company has warned customers statewide about phone scammers who spoof the utility's own caller ID and threaten to shut off natural gas service unless payment is made immediately — in some versions within as little as 30 minutes — by giving a checking-account, debit-card, or credit-card number directly to the caller. The company says a genuine NMGC collections call never pressures a customer with that short a deadline, and that any employee visiting a home or business in person is required to carry company photo identification a customer can ask to see or verify by phone; legitimate home visits are limited to meter reading, service activation or deactivation, past-due collection with prior notice, emergency response, pilot-light relighting, and meter maintenance. NMGC advises anyone who gets a suspicious disconnection call to hang up immediately and call the company back directly at 1-888-NM-GAS-CO (1-888-664-2726) to confirm whether the account is actually past due.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['New Mexico Gas Company'],
+    sourceUrl: 'https://www.nmgco.com/en/scams',
+    country: 'US',
+    state: 'NM',
+});
+
+UsNS.push({
+    name: 'Bernalillo County Zoning Application "County Compensation Fee" Email Scam',
+    slug: 'bernalillo-county-zoning-compensation-fee-email-scam',
+    description: `Bernalillo County warned residents that scammers were targeting people who had filed zoning requests with the county, mining names and contact details from publicly posted county zoning-meeting agendas to make the fraud look informed and credible. Targets received an invoice-style email purporting to come from county planning officials, stating that "to finalize the approval process" for their zoning request they needed to pay a $25,500 "county compensation fee" to planning.bernco@usa.com — an address with no actual connection to Bernalillo County government. The county says it never requests payment by email or wire transfer and accepts zoning and permitting fees only in person at county offices, online through bernco.gov, or by mailed check, and urges anyone who gets a similar invoice to verify it independently by calling 505-468-7777 rather than replying to the email or using any payment link it contains.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Bernalillo County', 'Yahoo News'],
+    sourceUrl: 'https://www.yahoo.com/news/bernalillo-county-scammers-targeted-zoning-050208675.html',
+    country: 'US',
+    state: 'NM',
+    firstRecorded: '2025-01-30',
+});
