@@ -3635,6 +3635,10 @@ NotoriousTZ.push({
     slug: 'tom-noe-coingate-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Toledo_skyline_on_the_Maumee_River_at_night_-_Flickr_-_chris.rycroft.jpg?width=1200',
+    coverImageCredit: 'Photo: Chris Rycroft / Wikimedia Commons, CC BY 2.0 — Toledo, Ohio, where Noe ran his coin businesses',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Thomas W. Noe was a Toledo-area rare-coin dealer and one of Ohio's most influential Republican fundraisers — chairman of the Lucas County GOP, the Bush-Cheney 2004 campaign in northwest Ohio, and the state Turnpike Commission — when, in March 1998, the Ohio Bureau of Workers' Compensation awarded his coin businesses a $50 million contract to invest injured workers' trust-fund money in rare coins. The bureau disbursed $25 million in 1998 and another $25 million in 2001, handing a politically connected donor sole discretion over how a chunk of a public insurance fund was converted into a physical, hard-to-verify collectible.
 
 The scheme surfaced through ordinary local reporting rather than a regulatory audit: a Toledo Blade investigation published April 3, 2005 first reported that two coins worth more than $300,000 had gone missing "in the mail," which triggered a broader inquiry that eventually found $10 million to $13 million of the fund unaccounted for. Investigators found Noe had kept a second set of books to disguise the shortfall and had used fund assets for personal and political purposes rather than the coin inventory he reported to the state.
