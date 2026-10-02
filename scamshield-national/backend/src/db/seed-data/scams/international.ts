@@ -16362,6 +16362,47 @@ International.push(
 
 International.push(
   {
+    name: '"Fun Coffee" AI Smart Coffee Ecosystem Pyramid Scam (Macau)',
+    slug: 'macau-fun-coffee-ai-smart-coffee-ecosystem-pyramid-scam',
+    description: `A coffee shop called "Fun Coffee" opened near Avenida de Horta e Costa in Macau in November 2025, luring in customers with free coffee tastings before pitching a fictitious "AI Smart Coffee Ecosystem" investment project to middle-aged and elderly guests. Operators told participants their cash would be converted into cryptocurrency and deposited into a mobile app that supposedly used an AI-controlled allocation system to generate returns of 197% to 278%, while a pyramid-style referral structure paid 300 to 900 patacas for every new recruit and gave "uplines" a further 1% cut of their downline's investments. In reality, the app never ran a real investment of any kind — early participants were simply paid out with money collected from newer ones, a classic Ponzi structure. The scheme collapsed on July 22, 2026, when the app suddenly stopped working and the shop closed its doors, leaving investors unable to withdraw anything. Hong Kong and Macau police jointly arrested eight people linked to the operation; in Macau alone, at least 40 victims came forward, with nine formal complaints reporting individual losses of between 52,000 and 1.55 million patacas and group losses totaling roughly 3.6 million patacas, while Hong Kong logged 225 complaints totaling HK$94 million. Authorities are warning residents to treat any investment pitch built around coffee shops, "AI" trading systems, or recruitment bonuses as a red flag, regardless of how legitimate the storefront looks.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    isHistorical: true,
+    sources: ['The Macau Post Daily', 'Hong Kong Police Force', 'Judiciary Police of Macau (PJ)'],
+    sourceUrl: 'https://www.macaupostdaily.com/news/29008',
+    country: 'MO',
+  },
+);
+
+International.push(
+  {
+    name: 'MPay "QR Code Refund" E-Wallet Binding Scam (Macau)',
+    slug: 'macau-mpay-qr-code-refund-e-wallet-binding-scam',
+    description: `Macau's Judiciary Police (PJ) Anti-Fraud Coordination Centre held a special press conference after 36 residents lost a combined 240,000 patacas to a wave of "MPay QR code" scams over a single seven-day span beginning around July 7, 2026, with individual losses ranging from 428 to 37,000 patacas. The scam starts with fraudsters setting up fake social media pages that impersonate real businesses and advertise discounts or promotions; victims who respond are told they need to scan a QR code to claim a refund, confirm a booking, or complete the promotion. Scanning the code does not deliver any refund — it silently binds the victim's MPay e-wallet to a third-party online shopping platform account controlled by the scammers, who then run unauthorized purchases through the linked wallet and convert the proceeds to cash before the victim notices. PJ Anti-Fraud Coordination Centre head Cheong Un Hong urged residents to never scan a QR code from an unverified source or link their e-wallet to an unfamiliar platform, and Macau Pass representative Chu Kin Hang announced a new in-app alert that will warn users whenever their MPay wallet is about to be linked to a third-party shopping platform.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'high',
+    firstRecorded: '2026-07-07',
+    sources: ['The Macau Post Daily', 'Judiciary Police of Macau (PJ)', 'Macau Pass'],
+    sourceUrl: 'https://www.macaupostdaily.com/news/28787',
+    country: 'MO',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake "School Bulk Order" Advance-Fee Scam Targeting Macau Merchants',
+    slug: 'macau-fake-school-bulk-order-advance-fee-scam',
+    description: `Macau's Judiciary Police (PJ) described a scam pattern in which fraudsters call small shop owners posing as teachers from a local school, claiming the school wants to place a large bulk order but cannot order directly from its usual supplier because of an ongoing dispute. The caller asks the shop owner to act as a middleman: place the order with the supplier, pay for it up front, and in return receive a per-unit "commission" along with reimbursement once the school pays. In one case a retail shop owner was told the order was for a charity "big bowl feast" (poon choi) and was offered 350 patacas per order, leading the owner to pay a supplier HK$45,000 out of pocket. In another, a hardware store owner was told a group of nursing homes needed bulk paint tins and was offered 600 patacas per tin, paying a supplier HK$20,000. In both cases the fraudsters sent what looked like bank transfer screenshots "proving" the school or charity had already paid the shop owner back, but the screenshots were forgeries and the scammers vanished once the owners had already paid their suppliers with real money. PJ spokesman Chao Teng Hin urged merchants to independently verify any unsolicited bulk-order request that asks them to front payment to a supplier, and to treat a forwarded payment screenshot as unverified until confirmed directly with their own bank.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['The Macau Post Daily', 'Judiciary Police of Macau (PJ)'],
+    sourceUrl: 'https://www.macaupostdaily.com/news/23833',
+    country: 'MO',
+  },
+);
+
+International.push(
+  {
     name: 'Cheikh Ridha Real Estate Ponzi Scheme',
     slug: 'mauritania-cheikh-ridha-real-estate-ponzi-scheme',
     description: `Mauritanian religious scholar Cheikh Ridha Mohamed Nagi Said, nicknamed the "Mauritanian Madoff" in local press, was identified by Cridem, Le Calame, and Le360 Afrique as the figure behind what Mauritanian media described as the country's largest fraud, a real-estate-based Ponzi scheme run out of Nouakchott starting around 2012. Trading on his religious standing, Cheikh Ridha and five brokers (samsaras), mostly relatives holding permanent powers of attorney, offered to buy victims' land, homes, cars, and other property at prices well above market value, paying only a small cash deposit upfront and promising the remaining balance later on credit. Before that balance ever came due, the same property was quietly resold in full to a new buyer at ordinary market rates, and the proceeds funded the deposits offered to the next round of sellers — a Ponzi structure that required an ever-growing pool of victims to keep paying out. Reporting put the number of affected families at roughly 8,900 and the value of lost property and assets at approximately 70 billion old Mauritanian ouguiya (roughly $200 million). Victims, many of them women, formed a collective and held near-daily protests outside the presidency and courts, while Mauritanian courts for years declined to accept formal complaints and police repeatedly dispersed the demonstrations, fueling a widespread belief that Cheikh Ridha was protected by figures close to the government of then-president Mohamed Ould Abdel Aziz. He was finally brought in for questioning by Mauritania's anti-corruption police in November 2020; reporting at the time noted no conviction had followed.`,
