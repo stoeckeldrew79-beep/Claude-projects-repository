@@ -6562,3 +6562,15 @@ UsTZ.push({
     country: 'US',
     state: 'UT',
 });
+
+UsTZ.push({
+    name: 'West Virginia Tax Division Fraudulent Email and Phone Impersonation Scam',
+    slug: 'west-virginia-tax-division-impersonation-scam',
+    description: `The West Virginia Tax Division has received ongoing reports of fraudulent emails, text messages, and phone calls from people falsely claiming to represent the department, demanding the recipient pay a sum of money immediately and threatening official legal action if they don't comply, sometimes carrying malicious attachments or links. The Division states plainly that such communications "do not originate with the West Virginia Tax Department or the West Virginia Department of Revenue," and warns that opening an attachment in one of these messages can infect a computer or phone. Residents who receive one are told not to reply, click links, or open attachments, and to instead report it directly to the Division at (304) 558-3333 or 1-800-982-8297.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['West Virginia Tax Division'],
+    sourceUrl: 'https://tax.wv.gov/Pages/AlertRegardingFraudulentEmailAndTelephoneCalls.aspx',
+    country: 'US',
+    state: 'WV',
+});
