@@ -12180,6 +12180,45 @@ International.push(
 
 International.push(
   {
+    name: 'Togo Illegal Investment "Placement" Companies Ponzi Crackdown',
+    slug: 'togo-illegal-investment-placement-companies-ponzi-crackdown',
+    description: `On March 29, 2021, Togo's Minister of Economy and Finance, Sani Yaya, issued an official communiqué naming 15 unauthorized "investment placement" structures operating in the country, including Global Trade Corporation S.A.S., CACESPIC-IF Togo, Prosperity Investment Corporation (PIC) S.A., QNET, TIENS, Petronpay Togo, and Global Investment Trading (LIYEPLIMAL), among others. These firms solicited deposits from the public with promises of unusually high, flattering returns, operating on a Ponzi-style model where new members' money paid off earlier ones rather than any genuine economic activity. The Ministry stated that any activity soliciting public savings requires mandatory prior approval from BCEAO (the regional central bank) or other competent financial authorities, and ordered the 15 named structures to immediately cease all financial and advisory activity nationwide and reimburse funds collected from members without delay, or face criminal prosecution.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ["Ministère de l'Économie et des Finances (Togo)"],
+    sourceUrl: 'https://finances.gouv.tg/fin-de-course-pour-les-societes-de-placements-au-togo/',
+    country: 'TG',
+    isHistorical: true,
+    firstRecorded: '2021-03-29',
+  },
+  {
+    name: 'Togo Fake Land Ministry "Official Plot Sale" Facebook Scam',
+    slug: 'togo-fake-land-ministry-facebook-plot-sale-scam',
+    description: `On September 26, 2025, Togo's National Cybersecurity Agency (ANCy) issued an alert warning the public about a fake announcement circulating on Facebook that impersonated the Ministry of Urban Planning, Housing and Land Reform (MUHRF) and claimed to offer an "official sale of developed land parcels" through a link included in the post. ANCy verified with the Ministry that no such online plot-sale or subscription operation had ever been initiated, and found the linked site was built to harvest payments and personal data from anyone who tried to "register" or pay through it. The agency urged the public not to click the link or pay through any channel listed in the post, to verify land-sale announcements only through official government websites and certified social media accounts, and to report suspected fraud to CERT.tg.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Agence Nationale de Cybersécurité (ANCy - Togo)'],
+    sourceUrl: 'https://ancy.gouv.tg/alerte-a-la-population-fausse-information-en-circulation-sur-le-ministere-de-lurbanisme-de-lhabitat-et-de-la-reforme-fonciere-muhrf/',
+    country: 'TG',
+    isHistorical: true,
+    firstRecorded: '2025-09-26',
+  },
+  {
+    name: 'Togo QNET Afagnan Romance-to-Trafficking Recruitment Scam',
+    slug: 'togo-qnet-afagnan-romance-trafficking-recruitment-scam',
+    description: `In mid-August 2026, the Territorial Gendarmerie Brigade of Afagnan (Bas-Mono prefecture) arrested three suspects — identified as N. Mazama-Esso (35, alleged ringleader), A. Yawavi Françoise (26), and A. Ablavi Rosine (23) — for running a fraud network built around QNET, a Hong Kong-founded multi-level marketing company repeatedly characterized as a pyramid scheme by courts and regulators in multiple countries. One victim told gendarmes she was contacted on Facebook in 2025 by Mazama-Esso, who posed as a romantic interest before offering her a job in Cameroon; she paid 600,000 CFA francs for travel and placement but was instead trafficked to Nigeria, where she was coerced into recruiting further victims before escaping. Gendarmes said additional suspected members of the network remained at large, and presented the case as part of a broader pattern of fraudulent recruitment rings in the sub-region using fake romance and job offers as a pipeline into forced MLM recruitment and trafficking.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ["Gendarmerie Nationale Togolaise (Brigade Territoriale d'Afagnan)", 'République Togolaise'],
+    sourceUrl: 'https://www.republicoftogo.com/toutes-les-rubriques/faits-divers/qnet-une-structure-controversee-au-coeur-d-un-reseau-d-escroquerie-demantele-a-afagnan',
+    country: 'TG',
+    isHistorical: true,
+    firstRecorded: '2026-08-15',
+  },
+);
+
+International.push(
+  {
     name: 'Royal Bengal Logistics Trucking Investment Ponzi Scheme',
     slug: 'haiti-royal-bengal-logistics-trucking-ponzi-scheme',
     description: `A federal jury in the Southern District of Florida convicted Sanjay Singh, owner of the Coral Springs trucking firm Royal Bengal Logistics, Inc., on November 6, 2024, of wire fraud, money laundering, and conspiracy after prosecutors and the SEC showed he had run an elaborate Ponzi scheme through the company between 2020 and 2023. Singh sold contracts that promised investors an ownership stake in specific freight trucks and extremely high, steady interest payments, telling them the fleet was generating roughly $1 million a month and was about to expand to 200 trucks; in reality the trucking operation lost money, and new investors' cash was used to pay "returns" to earlier ones. Federal investigators found the scheme drew heavily on the Haitian-American community and ultimately collected more than $150 million from roughly 2,000 investors before it collapsed, with Singh diverting millions for a home renovation, a luxury vehicle, personal stock trading, and transfers to family overseas. He was sentenced on May 30, 2025 to 23 years in federal prison, and on February 9, 2026 a federal judge entered a $51,199,671 restitution judgment against him in favor of victims — a fraction of what was actually lost. The case is a reminder that a written contract and a real company name are not proof an investment is legitimate, especially when the promised returns are unusually high and steady regardless of market conditions.`,
