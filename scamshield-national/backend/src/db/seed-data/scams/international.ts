@@ -16362,6 +16362,47 @@ International.push(
 
 International.push(
   {
+    name: '"Fun Coffee" AI Smart Coffee Ecosystem Pyramid Scam (Macau)',
+    slug: 'macau-fun-coffee-ai-smart-coffee-ecosystem-pyramid-scam',
+    description: `A coffee shop called "Fun Coffee" opened near Avenida de Horta e Costa in Macau in November 2025, luring in customers with free coffee tastings before pitching a fictitious "AI Smart Coffee Ecosystem" investment project to middle-aged and elderly guests. Operators told participants their cash would be converted into cryptocurrency and deposited into a mobile app that supposedly used an AI-controlled allocation system to generate returns of 197% to 278%, while a pyramid-style referral structure paid 300 to 900 patacas for every new recruit and gave "uplines" a further 1% cut of their downline's investments. In reality, the app never ran a real investment of any kind — early participants were simply paid out with money collected from newer ones, a classic Ponzi structure. The scheme collapsed on July 22, 2026, when the app suddenly stopped working and the shop closed its doors, leaving investors unable to withdraw anything. Hong Kong and Macau police jointly arrested eight people linked to the operation; in Macau alone, at least 40 victims came forward, with nine formal complaints reporting individual losses of between 52,000 and 1.55 million patacas and group losses totaling roughly 3.6 million patacas, while Hong Kong logged 225 complaints totaling HK$94 million. Authorities are warning residents to treat any investment pitch built around coffee shops, "AI" trading systems, or recruitment bonuses as a red flag, regardless of how legitimate the storefront looks.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    isHistorical: true,
+    sources: ['The Macau Post Daily', 'Hong Kong Police Force', 'Judiciary Police of Macau (PJ)'],
+    sourceUrl: 'https://www.macaupostdaily.com/news/29008',
+    country: 'MO',
+  },
+);
+
+International.push(
+  {
+    name: 'MPay "QR Code Refund" E-Wallet Binding Scam (Macau)',
+    slug: 'macau-mpay-qr-code-refund-e-wallet-binding-scam',
+    description: `Macau's Judiciary Police (PJ) Anti-Fraud Coordination Centre held a special press conference after 36 residents lost a combined 240,000 patacas to a wave of "MPay QR code" scams over a single seven-day span beginning around July 7, 2026, with individual losses ranging from 428 to 37,000 patacas. The scam starts with fraudsters setting up fake social media pages that impersonate real businesses and advertise discounts or promotions; victims who respond are told they need to scan a QR code to claim a refund, confirm a booking, or complete the promotion. Scanning the code does not deliver any refund — it silently binds the victim's MPay e-wallet to a third-party online shopping platform account controlled by the scammers, who then run unauthorized purchases through the linked wallet and convert the proceeds to cash before the victim notices. PJ Anti-Fraud Coordination Centre head Cheong Un Hong urged residents to never scan a QR code from an unverified source or link their e-wallet to an unfamiliar platform, and Macau Pass representative Chu Kin Hang announced a new in-app alert that will warn users whenever their MPay wallet is about to be linked to a third-party shopping platform.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'high',
+    firstRecorded: '2026-07-07',
+    sources: ['The Macau Post Daily', 'Judiciary Police of Macau (PJ)', 'Macau Pass'],
+    sourceUrl: 'https://www.macaupostdaily.com/news/28787',
+    country: 'MO',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake "School Bulk Order" Advance-Fee Scam Targeting Macau Merchants',
+    slug: 'macau-fake-school-bulk-order-advance-fee-scam',
+    description: `Macau's Judiciary Police (PJ) described a scam pattern in which fraudsters call small shop owners posing as teachers from a local school, claiming the school wants to place a large bulk order but cannot order directly from its usual supplier because of an ongoing dispute. The caller asks the shop owner to act as a middleman: place the order with the supplier, pay for it up front, and in return receive a per-unit "commission" along with reimbursement once the school pays. In one case a retail shop owner was told the order was for a charity "big bowl feast" (poon choi) and was offered 350 patacas per order, leading the owner to pay a supplier HK$45,000 out of pocket. In another, a hardware store owner was told a group of nursing homes needed bulk paint tins and was offered 600 patacas per tin, paying a supplier HK$20,000. In both cases the fraudsters sent what looked like bank transfer screenshots "proving" the school or charity had already paid the shop owner back, but the screenshots were forgeries and the scammers vanished once the owners had already paid their suppliers with real money. PJ spokesman Chao Teng Hin urged merchants to independently verify any unsolicited bulk-order request that asks them to front payment to a supplier, and to treat a forwarded payment screenshot as unverified until confirmed directly with their own bank.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['The Macau Post Daily', 'Judiciary Police of Macau (PJ)'],
+    sourceUrl: 'https://www.macaupostdaily.com/news/23833',
+    country: 'MO',
+  },
+);
+
+International.push(
+  {
     name: 'Cheikh Ridha Real Estate Ponzi Scheme',
     slug: 'mauritania-cheikh-ridha-real-estate-ponzi-scheme',
     description: `Mauritanian religious scholar Cheikh Ridha Mohamed Nagi Said, nicknamed the "Mauritanian Madoff" in local press, was identified by Cridem, Le Calame, and Le360 Afrique as the figure behind what Mauritanian media described as the country's largest fraud, a real-estate-based Ponzi scheme run out of Nouakchott starting around 2012. Trading on his religious standing, Cheikh Ridha and five brokers (samsaras), mostly relatives holding permanent powers of attorney, offered to buy victims' land, homes, cars, and other property at prices well above market value, paying only a small cash deposit upfront and promising the remaining balance later on credit. Before that balance ever came due, the same property was quietly resold in full to a new buyer at ordinary market rates, and the proceeds funded the deposits offered to the next round of sellers — a Ponzi structure that required an ever-growing pool of victims to keep paying out. Reporting put the number of affected families at roughly 8,900 and the value of lost property and assets at approximately 70 billion old Mauritanian ouguiya (roughly $200 million). Victims, many of them women, formed a collective and held near-daily protests outside the presidency and courts, while Mauritanian courts for years declined to accept formal complaints and police repeatedly dispersed the demonstrations, fueling a widespread belief that Cheikh Ridha was protected by figures close to the government of then-president Mohamed Ould Abdel Aziz. He was finally brought in for questioning by Mauritania's anti-corruption police in November 2020; reporting at the time noted no conviction had followed.`,
@@ -23446,6 +23487,145 @@ International.push({
 });
 
 International.push({
+  name: `Fake "Lisungi" Government Cash-Transfer Mobile Money Scam`,
+  slug: 'congo-brazzaville-lisungi-cash-transfer-mobile-money-scam',
+  description: `Les Dépêches de Brazzaville reported that scammers were impersonating officials of Congo's Lisungi program — a state cash-transfer scheme launched in 2015 to aid vulnerable families — by calling mobile money customers and claiming a Lisungi payment was waiting for them. The caller asks the victim to read back a "validation code" sent by text to confirm receipt, but the code actually authorizes an outgoing transfer, letting the scammer drain whatever balance is already in the account. Victims interviewed, including Brazzaville resident Eugène Mbou and a woman identified as Lorraine — who said a caller later phoned back mocking her after revealing he already knew her exact account balance — were left with nothing, raising suspicion that fraudsters had some way of gauging balances in advance. The paper urged Lisungi beneficiaries and mobile money users to never read a verification code aloud to a caller, since a genuine deposit requires no code at all from the recipient.`,
+  categorySlug: 'public-benefits-fraud',
+  alertLevel: 'high',
+  sources: ['Les Dépêches de Brazzaville (adiac-congo.com)'],
+  sourceUrl: 'https://www.adiac-congo.com/content/projet-lisungi-les-societes-de-telephonie-mobile-indexees-pour-arnaques-116935',
+  country: 'CG',
+  firstRecorded: '2020-06-18',
+});
+
+International.push({
+  name: 'Fake 50,000 XAF Presidential Subsidy WhatsApp Scam',
+  slug: 'congo-brazzaville-fake-presidential-subsidy-whatsapp-scam',
+  description: `Messages circulated widely on WhatsApp across the Republic of Congo claiming President Denis Sassou Nguesso had authorized a 50,000 CFA franc subsidy for citizens, directing recipients to click a link to claim it. Fact-Check Congo's technical analysis found the linked site ran on an anonymously registered domain created only months earlier, with no connection to any government program; rather than paying anything out, the site instead harvests personal data by pushing visitors to answer surveys, hand over their phone number, download apps, click ads, and forward the message to ten WhatsApp contacts to keep it spreading. The outlet noted nearly identical fake-subsidy schemes were simultaneously targeting people in the Democratic Republic of Congo and Togo under the same template, and advised recipients to delete the message without forwarding it, never click the link, and verify any claimed government subsidy only through official state channels or established media.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Fact-Check Congo'],
+  sourceUrl: 'https://factcheck-congo.org/2025/06/01/attention-a-larnaque-a-la-subvention-de-50-000-xaf-au-nom-du-president-denis-sassou-nguesso/',
+  country: 'CG',
+  firstRecorded: '2025-06-01',
+});
+
+International.push({
+  name: 'Brazzaville Land Parcel Double-Sale Fraud',
+  slug: 'congo-brazzaville-land-parcel-double-sale-fraud',
+  description: `Congo's Chambre Nationale des Notaires and the newly elected leadership of Brazzaville's own notarial bureau publicly committed to crack down on illicit land sales after years of the same plots — hillside land, water-adjacent parcels, savanna and forest tracts around the capital — being sold repeatedly to multiple unrelated buyers without ever passing through a notarized deed. Bernard Pandi, president of the national notaries' chamber, and Richard Ossa, head of the Brazzaville bureau, said the practice persists because sellers bypass notarization, letting the same parcel be "sold" again to a new victim before an earlier buyer discovers the fraud. The bureau pledged to work with land administration, judicial, and urban planning authorities to verify sellers' documents and titles before a sale is recorded. Prospective land buyers in Brazzaville are advised to insist on a notarized deed and verify a parcel's title and chain of ownership through the relevant land administration office before paying anything, rather than relying on a seller's paperwork alone.`,
+  categorySlug: 'mortgage-foreclosure-scams',
+  alertLevel: 'medium',
+  sources: ['Les Dépêches de Brazzaville (adiac-congo.com)', 'Chambre Nationale des Notaires du Congo'],
+  sourceUrl: 'https://www.adiac-congo.com/content/brazzaville-le-bureau-des-notaires-entend-lutter-contre-les-ventes-illicites-de-parcelles',
+  country: 'CG',
+  firstRecorded: '2019-07-15',
+});
+
+International.push({
+  name: 'BCEAO Governor Deepfake Investment Platform Scam',
+  slug: 'ivory-coast-bceao-governor-deepfake-investment-scam',
+  description: `An AI-generated deepfake video circulated on social media in September 2026 showing the Governor of the regional central bank BCEAO, Jean-Claude Kassi Brou, falsely appearing to endorse an investment platform aimed at "populations of Côte d'Ivoire," urging viewers to deposit money for high returns. The BCEAO issued a formal denial on September 17, 2026, confirming the video was fabricated using artificial-intelligence tools and stating it offers no investment products, sponsors no investment platform, and never solicits fund transfers from the public. The bank urged citizens to rely only on its official channels and said it reserved the right to pursue legal action against whoever produced and spread the video.`,
+  categorySlug: 'ai-deepfake-scams',
+  alertLevel: 'high',
+  sources: ["Banque Centrale des États de l'Afrique de l'Ouest (BCEAO)", 'LeJecos'],
+  sourceUrl: 'https://www.lejecos.com/Diffusion-d-une-video-frauduleuse-de-son-gouverneur-La-Bceao-dement-et-appelle-les-populations-a-la-vigilance_a31518.html',
+  country: 'CI',
+  firstRecorded: '2026-09-17',
+});
+
+International.push({
+  name: 'Fake "PLCC" Case-Resolution Extortion Scam',
+  slug: 'ivory-coast-fake-plcc-case-resolution-scam',
+  description: `Fraudsters create fake Facebook pages and profiles impersonating Côte d'Ivoire's own cybercrime authority, the Plateforme de Lutte Contre la Cybercriminalité (PLCC), copying its real logo and posts to appear authentic. Posing as PLCC agents, they contact people online — often cybercrime victims seeking help — and offer to resolve their case or recover stolen funds for an upfront fee, which the real PLCC never charges. Police arrested a suspect who, during interrogation, admitted creating a fake "PLCC" page and several fraudulent profiles used specifically to extract money from online victims this way, and the real PLCC confirmed the accounts were not its own. Filing a complaint with the actual PLCC is always free, and it can only be reached via its Cocody Danga office or verified phone line, never through an unsolicited paid "case resolution" offer.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Plateforme de Lutte Contre la Cybercriminalité (PLCC)', 'Africa Cybersecurity Mag'],
+  sourceUrl: 'https://en.cybersecuritymag.africa/cote-ivoire-escroque-victimes-en-faisant-passer-pour-la-plcc',
+  country: 'CI',
+});
+
+International.push({
+  name: 'Wave "Fake Gift" Mobile Money Phishing Scam',
+  slug: 'ivory-coast-wave-fake-gift-phishing-scam',
+  description: `Fraudsters send SMS messages and social-media posts impersonating Wave, a mobile-payment operator used in Côte d'Ivoire, announcing a cash "gift" of about 37,000 CFA francs and pushing recipients to click a link to claim it. The link leads to a fake form asking for the victim's phone number and secret PIN code, which fraudsters then use to access the real mobile-money account and divert funds into third-party financial-service accounts such as Nafolo, Ting Business, and Smart Fin Patrimoine. The PLCC dismantled one such network in September 2026 after 503 complaints totaling more than 231 million CFA francs in losses, arresting the alleged ringleader — who said he had bought phishing links from other specialists via Facebook before assembling his team — while two accomplices remained at large.`,
+  categorySlug: 'phishing',
+  alertLevel: 'high',
+  sources: ['Plateforme de Lutte Contre la Cybercriminalité (PLCC)', 'Agence Ivoirienne de Presse (AIP)'],
+  sourceUrl: 'https://www.aip.ci/cote-divoire-aip-cybercriminalite-la-plcc-demantele-un-reseau-darnaque-aux-faux-cadeaux-mobile-money/',
+  country: 'CI',
+});
+
+International.push({
+  name: 'Niger Money-Transfer Agent Impersonation and Forged-ID Account Takeover',
+  slug: 'niger-money-transfer-agent-impersonation-forged-id-takeover',
+  description: `Niger's cybercrime division of the Police Judiciaire arrested a suspect in Niamey on May 21, 2026 who contacted victims by phone or WhatsApp posing as a money-transfer agent, claiming an account security issue required "password verification," then used the disclosed password to drain accounts. Separately, he collected discarded transfer receipts bearing victims' personal data, triggered password resets, and — again posing as an agent — talked victims into reading back the SMS reset code, taking over the account. To withdraw cash at transfer-agency counters, he used photo-editing software to forge ID documents, replacing the original photo with his own over a stolen identity document, drawing on his prior work as an identification agent for a different money-transfer company for inside knowledge of the platforms and access to customer ID records. He was charged with unauthorized computer access, digital fraud, digital identity theft, computer forgery, and use of falsified data.`,
+  categorySlug: 'account-takeover',
+  alertLevel: 'high',
+  sources: ['Direction de la Police Judiciaire (Division cybercriminalité), Niger', 'ActuNiger'],
+  sourceUrl: 'https://www.actuniger.com/faits-divers/22028-cybercriminalite-un-faux-agent-de-transfert-dargent-arrete-apres-plusieurs-fraudes-numerique.html',
+  country: 'NE',
+  firstRecorded: '2026-05-21',
+});
+
+International.push({
+  name: 'Niger Fake "ANPE" Facebook Job-Offer Advance-Fee Scam',
+  slug: 'niger-fake-anpe-facebook-job-offer-advance-fee-scam',
+  description: `Fraudulent Facebook pages posted fake part-time remote job offers bearing the logo of Niger's national employment agency ANPE and the Amazon brand, targeting job seekers amid high youth unemployment. Ads promised 1-2 hours of daily remote work paying 28,000-84,000 CFA francs a day, routed applicants through multi-step forms harvesting personal data, then demanded upfront "registration" fees up to 100,000 CFA francs — more than three times Niger's minimum wage — via mobile money or international transfer. ANPE publicly denied any connection to the pages on September 4, 2025; the pages were traced to administrators in Singapore, Hong Kong, Cambodia, and Vietnam, with one contact number tracing to Vietnam.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'medium',
+  sources: ["Agence Nigérienne pour la Promotion de l'Emploi (ANPE)", 'Les Échos du Niger'],
+  sourceUrl: 'https://lesechosduniger.com/2025/11/18/decryptage-des-fausses-opportunites-demploi-sur-les-reseaux-sociaux-au-niger/',
+  country: 'NE',
+  firstRecorded: '2025-09-04',
+});
+
+International.push({
+  name: 'Niger Online "You\'ve Been Selected" Aid and Prize-Release Advance-Fee Scams',
+  slug: 'niger-selected-for-aid-prize-release-advance-fee-scam',
+  description: `Niger's Direction de la Lutte contre la Cybercriminalité reported that advance-fee "selection" schemes accounted for a significant share of the 303 online-fraud complaints filed in Niamey in 2023 — roughly 30 percent of all cybercrime cases that year. Two recurring versions were documented: fraudsters impersonating NGOs or government officials telling victims they'd been selected for a grant or aid payment, and fraudsters posing as lottery or prize administrators — both requiring an upfront payment, usually via mobile money, before funds could be "unlocked," after which nothing materialized. A police commissioner said some victims lost amounts reaching 7 to 10 million CFA francs, some going into debt to make the payments, and cautioned the true total is likely higher since many victims never file a complaint.`,
+  categorySlug: 'lottery-sweepstakes-scams',
+  alertLevel: 'medium',
+  sources: ['Direction de la Lutte contre la Cybercriminalité, Police Judiciaire, Niger', 'Le Sahel'],
+  sourceUrl: 'https://www.lesahel.org/escroquerie-en-ligne-plus-de-300-plaintes-enregistrees-en-2023-dans-la-ville-de-niamey-selon-le-rapport-de-la-direction-de-la-cybercriminalite-a-la-police-judiciaire/',
+  country: 'NE',
+});
+
+International.push({
+  name: 'Fake Hajj Pilgrimage Document Fraud',
+  slug: 'tajikistan-fake-hajj-pilgrimage-document-fraud',
+  description: `Tajikistan's Committee on Religious Affairs announced on April 9, 2026 that a group of Tajik citizens had been defrauded by individuals who, for a fee, promised to arrange their mandatory Hajj pilgrimage to Saudi Arabia. The fraudsters produced fake badges and documents the Committee said carry no legal force and cannot guarantee a pilgrim's lawful presence in the Kingdom during Hajj season, leaving the group stranded and needing help from the Committee and the Tajik embassy in Saudi Arabia to get home. The Committee noted the official deadline for that year's Hajj paperwork had already passed when the fraud occurred — meaning no legitimate travel company could have produced valid documents — and urged citizens to book Hajj travel only through officially licensed agencies, pointing them to its hotline, +992 (37) 221-83-58.`,
+  categorySlug: 'travel-vacation-scams',
+  alertLevel: 'high',
+  sources: ['Tajikistan Committee on Religious Affairs', 'Asia-Plus'],
+  sourceUrl: 'https://asiaplus.news/en/2026/04/09/tajikistans-committee-on-religion-warns-citizens-about-fake-documents-for-hajj/',
+  country: 'TJ',
+  firstRecorded: '2026-04-09',
+});
+
+International.push({
+  name: 'Fake Medical and Crowdfunding Charity Scam Exploiting Sick and Deceased Migrants',
+  slug: 'tajikistan-fake-medical-crowdfunding-charity-scam',
+  description: `Reporting by CABAR.asia (Central Asian Bureau for Analytical Reporting) documented a pattern in Tajikistan of fraudsters using social media to solicit donations for sick children, hardship cases, or the deaths of labor migrants abroad, then keeping the money instead of passing it to the people pictured. In one case, organizers collected about 5,000 somoni (roughly $384) ostensibly to treat a girl with hydrocephalus; in another, a blogger's video soliciting roughly 17,000 somoni (about $1,310) for a "needy family" turned out to misrepresent the family's actual circumstances. Interior Ministry spokesman Nusratullo Makhmadzoda said the ministry had received no formal complaints from the people whose hardship was invoked but acknowledged that money is collected fraudulently using the plight of others, illness, or death during migration, while digital-security expert Farishtamoh Gulova urged donors to verify a fundraiser's authenticity before sending money.`,
+  categorySlug: 'charity-scams',
+  alertLevel: 'medium',
+  sources: ['CABAR.asia', 'Tajikistan Ministry of Internal Affairs'],
+  sourceUrl: 'https://longreads.cabar.asia/netrogue_eng',
+  country: 'TJ',
+});
+
+International.push({
+  name: 'Fake Tajikistan e-Visa Website Scam',
+  slug: 'tajikistan-fake-evisa-website-scam',
+  description: `Tajikistan's Ministry of Foreign Affairs warned that a fraudulent website, tajikistanevisagov.com, was impersonating the Republic of Tajikistan's official visa portals, www.evisa.tj and www.visa.gov.tj. The fraudulent site charges foreign nationals applying for a Tajik visa but never actually issues one, exploiting a domain name similar enough to the real portals to trick applicants into paying for a visa that never arrives. Tajik diplomatic missions abroad, including the embassy in Paris, republished the warning to reach prospective visa applicants, directing them to use only the genuine evisa.tj domain when applying online.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Ministry of Foreign Affairs of Tajikistan'],
+  sourceUrl: 'https://www.mfa.tj/en/paris/view/5748/warning-about-fraudulent-pseudo-website-similar-to-the-official-websites-for-issuing-of-visa-of-the-republic-of-tajikistan',
+  country: 'TJ',
+});
+
+International.push({
     name: "Tonga Police Warning: \"Anthony Heich\" Facebook Romance Scam Using Forged Documents",
     slug: "anthony-heich-facebook-romance-scam-forged-documents",
     description:
@@ -23659,143 +23839,4 @@ International.push({
     sources: ["Brunei Darussalam Central Bank (BDCB) and Cyber Security Brunei (CSB) — joint reminder regarding counterfeit notes and financial scams"],
     sourceUrl: "https://www.csb.gov.bn/reminder-regarding-counterfeit-notes-and-financial-scams",
     country: "BN",
-});
-
-International.push({
-  name: `Fake "Lisungi" Government Cash-Transfer Mobile Money Scam`,
-  slug: 'congo-brazzaville-lisungi-cash-transfer-mobile-money-scam',
-  description: `Les Dépêches de Brazzaville reported that scammers were impersonating officials of Congo's Lisungi program — a state cash-transfer scheme launched in 2015 to aid vulnerable families — by calling mobile money customers and claiming a Lisungi payment was waiting for them. The caller asks the victim to read back a "validation code" sent by text to confirm receipt, but the code actually authorizes an outgoing transfer, letting the scammer drain whatever balance is already in the account. Victims interviewed, including Brazzaville resident Eugène Mbou and a woman identified as Lorraine — who said a caller later phoned back mocking her after revealing he already knew her exact account balance — were left with nothing, raising suspicion that fraudsters had some way of gauging balances in advance. The paper urged Lisungi beneficiaries and mobile money users to never read a verification code aloud to a caller, since a genuine deposit requires no code at all from the recipient.`,
-  categorySlug: 'public-benefits-fraud',
-  alertLevel: 'high',
-  sources: ['Les Dépêches de Brazzaville (adiac-congo.com)'],
-  sourceUrl: 'https://www.adiac-congo.com/content/projet-lisungi-les-societes-de-telephonie-mobile-indexees-pour-arnaques-116935',
-  country: 'CG',
-  firstRecorded: '2020-06-18',
-});
-
-International.push({
-  name: 'Fake 50,000 XAF Presidential Subsidy WhatsApp Scam',
-  slug: 'congo-brazzaville-fake-presidential-subsidy-whatsapp-scam',
-  description: `Messages circulated widely on WhatsApp across the Republic of Congo claiming President Denis Sassou Nguesso had authorized a 50,000 CFA franc subsidy for citizens, directing recipients to click a link to claim it. Fact-Check Congo's technical analysis found the linked site ran on an anonymously registered domain created only months earlier, with no connection to any government program; rather than paying anything out, the site instead harvests personal data by pushing visitors to answer surveys, hand over their phone number, download apps, click ads, and forward the message to ten WhatsApp contacts to keep it spreading. The outlet noted nearly identical fake-subsidy schemes were simultaneously targeting people in the Democratic Republic of Congo and Togo under the same template, and advised recipients to delete the message without forwarding it, never click the link, and verify any claimed government subsidy only through official state channels or established media.`,
-  categorySlug: 'government-impersonation',
-  alertLevel: 'medium',
-  sources: ['Fact-Check Congo'],
-  sourceUrl: 'https://factcheck-congo.org/2025/06/01/attention-a-larnaque-a-la-subvention-de-50-000-xaf-au-nom-du-president-denis-sassou-nguesso/',
-  country: 'CG',
-  firstRecorded: '2025-06-01',
-});
-
-International.push({
-  name: 'Brazzaville Land Parcel Double-Sale Fraud',
-  slug: 'congo-brazzaville-land-parcel-double-sale-fraud',
-  description: `Congo's Chambre Nationale des Notaires and the newly elected leadership of Brazzaville's own notarial bureau publicly committed to crack down on illicit land sales after years of the same plots — hillside land, water-adjacent parcels, savanna and forest tracts around the capital — being sold repeatedly to multiple unrelated buyers without ever passing through a notarized deed. Bernard Pandi, president of the national notaries' chamber, and Richard Ossa, head of the Brazzaville bureau, said the practice persists because sellers bypass notarization, letting the same parcel be "sold" again to a new victim before an earlier buyer discovers the fraud. The bureau pledged to work with land administration, judicial, and urban planning authorities to verify sellers' documents and titles before a sale is recorded. Prospective land buyers in Brazzaville are advised to insist on a notarized deed and verify a parcel's title and chain of ownership through the relevant land administration office before paying anything, rather than relying on a seller's paperwork alone.`,
-  categorySlug: 'mortgage-foreclosure-scams',
-  alertLevel: 'medium',
-  sources: ['Les Dépêches de Brazzaville (adiac-congo.com)', 'Chambre Nationale des Notaires du Congo'],
-  sourceUrl: 'https://www.adiac-congo.com/content/brazzaville-le-bureau-des-notaires-entend-lutter-contre-les-ventes-illicites-de-parcelles',
-  country: 'CG',
-  firstRecorded: '2019-07-15',
-});
-
-International.push({
-  name: 'BCEAO Governor Deepfake Investment Platform Scam',
-  slug: 'ivory-coast-bceao-governor-deepfake-investment-scam',
-  description: `An AI-generated deepfake video circulated on social media in September 2026 showing the Governor of the regional central bank BCEAO, Jean-Claude Kassi Brou, falsely appearing to endorse an investment platform aimed at "populations of Côte d'Ivoire," urging viewers to deposit money for high returns. The BCEAO issued a formal denial on September 17, 2026, confirming the video was fabricated using artificial-intelligence tools and stating it offers no investment products, sponsors no investment platform, and never solicits fund transfers from the public. The bank urged citizens to rely only on its official channels and said it reserved the right to pursue legal action against whoever produced and spread the video.`,
-  categorySlug: 'ai-deepfake-scams',
-  alertLevel: 'high',
-  sources: ["Banque Centrale des États de l'Afrique de l'Ouest (BCEAO)", 'LeJecos'],
-  sourceUrl: 'https://www.lejecos.com/Diffusion-d-une-video-frauduleuse-de-son-gouverneur-La-Bceao-dement-et-appelle-les-populations-a-la-vigilance_a31518.html',
-  country: 'CI',
-  firstRecorded: '2026-09-17',
-});
-
-International.push({
-  name: 'Fake "PLCC" Case-Resolution Extortion Scam',
-  slug: 'ivory-coast-fake-plcc-case-resolution-scam',
-  description: `Fraudsters create fake Facebook pages and profiles impersonating Côte d'Ivoire's own cybercrime authority, the Plateforme de Lutte Contre la Cybercriminalité (PLCC), copying its real logo and posts to appear authentic. Posing as PLCC agents, they contact people online — often cybercrime victims seeking help — and offer to resolve their case or recover stolen funds for an upfront fee, which the real PLCC never charges. Police arrested a suspect who, during interrogation, admitted creating a fake "PLCC" page and several fraudulent profiles used specifically to extract money from online victims this way, and the real PLCC confirmed the accounts were not its own. Filing a complaint with the actual PLCC is always free, and it can only be reached via its Cocody Danga office or verified phone line, never through an unsolicited paid "case resolution" offer.`,
-  categorySlug: 'government-impersonation',
-  alertLevel: 'medium',
-  sources: ['Plateforme de Lutte Contre la Cybercriminalité (PLCC)', 'Africa Cybersecurity Mag'],
-  sourceUrl: 'https://en.cybersecuritymag.africa/cote-ivoire-escroque-victimes-en-faisant-passer-pour-la-plcc',
-  country: 'CI',
-});
-
-International.push({
-  name: 'Wave "Fake Gift" Mobile Money Phishing Scam',
-  slug: 'ivory-coast-wave-fake-gift-phishing-scam',
-  description: `Fraudsters send SMS messages and social-media posts impersonating Wave, a mobile-payment operator used in Côte d'Ivoire, announcing a cash "gift" of about 37,000 CFA francs and pushing recipients to click a link to claim it. The link leads to a fake form asking for the victim's phone number and secret PIN code, which fraudsters then use to access the real mobile-money account and divert funds into third-party financial-service accounts such as Nafolo, Ting Business, and Smart Fin Patrimoine. The PLCC dismantled one such network in September 2026 after 503 complaints totaling more than 231 million CFA francs in losses, arresting the alleged ringleader — who said he had bought phishing links from other specialists via Facebook before assembling his team — while two accomplices remained at large.`,
-  categorySlug: 'phishing',
-  alertLevel: 'high',
-  sources: ['Plateforme de Lutte Contre la Cybercriminalité (PLCC)', 'Agence Ivoirienne de Presse (AIP)'],
-  sourceUrl: 'https://www.aip.ci/cote-divoire-aip-cybercriminalite-la-plcc-demantele-un-reseau-darnaque-aux-faux-cadeaux-mobile-money/',
-  country: 'CI',
-});
-
-International.push({
-  name: 'Niger Money-Transfer Agent Impersonation and Forged-ID Account Takeover',
-  slug: 'niger-money-transfer-agent-impersonation-forged-id-takeover',
-  description: `Niger's cybercrime division of the Police Judiciaire arrested a suspect in Niamey on May 21, 2026 who contacted victims by phone or WhatsApp posing as a money-transfer agent, claiming an account security issue required "password verification," then used the disclosed password to drain accounts. Separately, he collected discarded transfer receipts bearing victims' personal data, triggered password resets, and — again posing as an agent — talked victims into reading back the SMS reset code, taking over the account. To withdraw cash at transfer-agency counters, he used photo-editing software to forge ID documents, replacing the original photo with his own over a stolen identity document, drawing on his prior work as an identification agent for a different money-transfer company for inside knowledge of the platforms and access to customer ID records. He was charged with unauthorized computer access, digital fraud, digital identity theft, computer forgery, and use of falsified data.`,
-  categorySlug: 'account-takeover',
-  alertLevel: 'high',
-  sources: ['Direction de la Police Judiciaire (Division cybercriminalité), Niger', 'ActuNiger'],
-  sourceUrl: 'https://www.actuniger.com/faits-divers/22028-cybercriminalite-un-faux-agent-de-transfert-dargent-arrete-apres-plusieurs-fraudes-numerique.html',
-  country: 'NE',
-  firstRecorded: '2026-05-21',
-});
-
-International.push({
-  name: 'Niger Fake "ANPE" Facebook Job-Offer Advance-Fee Scam',
-  slug: 'niger-fake-anpe-facebook-job-offer-advance-fee-scam',
-  description: `Fraudulent Facebook pages posted fake part-time remote job offers bearing the logo of Niger's national employment agency ANPE and the Amazon brand, targeting job seekers amid high youth unemployment. Ads promised 1-2 hours of daily remote work paying 28,000-84,000 CFA francs a day, routed applicants through multi-step forms harvesting personal data, then demanded upfront "registration" fees up to 100,000 CFA francs — more than three times Niger's minimum wage — via mobile money or international transfer. ANPE publicly denied any connection to the pages on September 4, 2025; the pages were traced to administrators in Singapore, Hong Kong, Cambodia, and Vietnam, with one contact number tracing to Vietnam.`,
-  categorySlug: 'employment-scams',
-  alertLevel: 'medium',
-  sources: ["Agence Nigérienne pour la Promotion de l'Emploi (ANPE)", 'Les Échos du Niger'],
-  sourceUrl: 'https://lesechosduniger.com/2025/11/18/decryptage-des-fausses-opportunites-demploi-sur-les-reseaux-sociaux-au-niger/',
-  country: 'NE',
-  firstRecorded: '2025-09-04',
-});
-
-International.push({
-  name: 'Niger Online "You\'ve Been Selected" Aid and Prize-Release Advance-Fee Scams',
-  slug: 'niger-selected-for-aid-prize-release-advance-fee-scam',
-  description: `Niger's Direction de la Lutte contre la Cybercriminalité reported that advance-fee "selection" schemes accounted for a significant share of the 303 online-fraud complaints filed in Niamey in 2023 — roughly 30 percent of all cybercrime cases that year. Two recurring versions were documented: fraudsters impersonating NGOs or government officials telling victims they'd been selected for a grant or aid payment, and fraudsters posing as lottery or prize administrators — both requiring an upfront payment, usually via mobile money, before funds could be "unlocked," after which nothing materialized. A police commissioner said some victims lost amounts reaching 7 to 10 million CFA francs, some going into debt to make the payments, and cautioned the true total is likely higher since many victims never file a complaint.`,
-  categorySlug: 'lottery-sweepstakes-scams',
-  alertLevel: 'medium',
-  sources: ['Direction de la Lutte contre la Cybercriminalité, Police Judiciaire, Niger', 'Le Sahel'],
-  sourceUrl: 'https://www.lesahel.org/escroquerie-en-ligne-plus-de-300-plaintes-enregistrees-en-2023-dans-la-ville-de-niamey-selon-le-rapport-de-la-direction-de-la-cybercriminalite-a-la-police-judiciaire/',
-  country: 'NE',
-});
-
-International.push({
-  name: 'Fake Hajj Pilgrimage Document Fraud',
-  slug: 'tajikistan-fake-hajj-pilgrimage-document-fraud',
-  description: `Tajikistan's Committee on Religious Affairs announced on April 9, 2026 that a group of Tajik citizens had been defrauded by individuals who, for a fee, promised to arrange their mandatory Hajj pilgrimage to Saudi Arabia. The fraudsters produced fake badges and documents the Committee said carry no legal force and cannot guarantee a pilgrim's lawful presence in the Kingdom during Hajj season, leaving the group stranded and needing help from the Committee and the Tajik embassy in Saudi Arabia to get home. The Committee noted the official deadline for that year's Hajj paperwork had already passed when the fraud occurred — meaning no legitimate travel company could have produced valid documents — and urged citizens to book Hajj travel only through officially licensed agencies, pointing them to its hotline, +992 (37) 221-83-58.`,
-  categorySlug: 'travel-vacation-scams',
-  alertLevel: 'high',
-  sources: ['Tajikistan Committee on Religious Affairs', 'Asia-Plus'],
-  sourceUrl: 'https://asiaplus.news/en/2026/04/09/tajikistans-committee-on-religion-warns-citizens-about-fake-documents-for-hajj/',
-  country: 'TJ',
-  firstRecorded: '2026-04-09',
-});
-
-International.push({
-  name: 'Fake Medical and Crowdfunding Charity Scam Exploiting Sick and Deceased Migrants',
-  slug: 'tajikistan-fake-medical-crowdfunding-charity-scam',
-  description: `Reporting by CABAR.asia (Central Asian Bureau for Analytical Reporting) documented a pattern in Tajikistan of fraudsters using social media to solicit donations for sick children, hardship cases, or the deaths of labor migrants abroad, then keeping the money instead of passing it to the people pictured. In one case, organizers collected about 5,000 somoni (roughly $384) ostensibly to treat a girl with hydrocephalus; in another, a blogger's video soliciting roughly 17,000 somoni (about $1,310) for a "needy family" turned out to misrepresent the family's actual circumstances. Interior Ministry spokesman Nusratullo Makhmadzoda said the ministry had received no formal complaints from the people whose hardship was invoked but acknowledged that money is collected fraudulently using the plight of others, illness, or death during migration, while digital-security expert Farishtamoh Gulova urged donors to verify a fundraiser's authenticity before sending money.`,
-  categorySlug: 'charity-scams',
-  alertLevel: 'medium',
-  sources: ['CABAR.asia', 'Tajikistan Ministry of Internal Affairs'],
-  sourceUrl: 'https://longreads.cabar.asia/netrogue_eng',
-  country: 'TJ',
-});
-
-International.push({
-  name: 'Fake Tajikistan e-Visa Website Scam',
-  slug: 'tajikistan-fake-evisa-website-scam',
-  description: `Tajikistan's Ministry of Foreign Affairs warned that a fraudulent website, tajikistanevisagov.com, was impersonating the Republic of Tajikistan's official visa portals, www.evisa.tj and www.visa.gov.tj. The fraudulent site charges foreign nationals applying for a Tajik visa but never actually issues one, exploiting a domain name similar enough to the real portals to trick applicants into paying for a visa that never arrives. Tajik diplomatic missions abroad, including the embassy in Paris, republished the warning to reach prospective visa applicants, directing them to use only the genuine evisa.tj domain when applying online.`,
-  categorySlug: 'government-impersonation',
-  alertLevel: 'medium',
-  sources: ['Ministry of Foreign Affairs of Tajikistan'],
-  sourceUrl: 'https://www.mfa.tj/en/paris/view/5748/warning-about-fraudulent-pseudo-website-similar-to-the-official-websites-for-issuing-of-visa-of-the-republic-of-tajikistan',
-  country: 'TJ',
 });
