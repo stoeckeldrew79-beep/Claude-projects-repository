@@ -12001,3 +12001,17 @@ UsGM.push({
     country: 'US',
     state: 'IN',
 });
+
+UsGM.push({
+    name: 'Guam Social Security Administration Impersonation / Bank-Transfer Scam',
+    slug: 'guam-social-security-administration-impersonation-bank-transfer-scam',
+    description: `The Office of the Attorney General of Guam's Consumer Protection Division warned residents on March 18, 2020 after receiving at least 10 separate fraud reports in a single day from people targeted by calls from someone claiming to work for the Social Security Administration. The scammers spoofed four or five different phone numbers, most commonly 217-717-2798, and ran two versions of the same pressure tactic: in some calls they already had the victim's full Social Security number and asked for banking information to "verify" or "protect" the account, while in others they had only the last four digits of the SSN and pressured the victim into moving money out of their own bank account, claiming it was at risk. The AG's office stated plainly that the Social Security Administration only initiates contact when a beneficiary has requested it or has ongoing business with the agency, and urged residents to immediately hang up on any unsolicited call like this rather than provide banking or personal information or move funds on a caller's instruction. Guam residents who received one of these calls were asked to report it to the Consumer Protection Division at 475-3324, ext. 3300, or by email.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Office of the Attorney General of Guam — Consumer Protection Division', 'The Guam Daily Post (postguam.com)'],
+    sourceUrl: 'https://www.postguam.com/news/local/ag-warns-of-new-social-security-scam/article_5687a97e-6823-11ea-8639-3f067b3e031a.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2020-03-18',
+});
