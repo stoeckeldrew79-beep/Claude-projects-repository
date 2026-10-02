@@ -6537,3 +6537,28 @@ UsTZ.push({
     state: 'VI',
     firstRecorded: '2025-06-03',
 });
+
+UsTZ.push({
+    name: 'Utah Business Registration QR Code Mailer Scam',
+    slug: 'utah-business-registration-qr-code-mailer-scam',
+    description: `Utah's Division of Corporations and Commercial Code warned businesses statewide after physical mailers began circulating that contain a QR code directing recipients to a website closely resembling the division's own official business-registration portal. The fake site charges $175 for routine renewal services that are free or far cheaper when handled directly through the real portal at corporations.utah.gov. The division cautioned business owners not to scan unsolicited QR codes or pay through a site reached that way, and urged anyone who already paid through the fraudulent site to report it to the division.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Utah Division of Corporations and Commercial Code'],
+    sourceUrl: 'https://commerce.utah.gov/2025/07/01/advisory-for-business-registrants-important-mail-alert-2/',
+    country: 'US',
+    state: 'UT',
+    firstRecorded: '2025-07-01',
+});
+
+UsTZ.push({
+    name: 'Utah "Leftover Materials" Driveway Repair Scam',
+    slug: 'utah-leftover-materials-driveway-repair-scam',
+    description: `Utah's Division of Occupational and Professional Licensing (DOPL) has repeatedly warned homeowners about a recurring warm-weather con in which unlicensed pavers offer cut-rate asphalt driveway work, claiming to have leftover materials from a nearby job. Some take an upfront payment and disappear without finishing; others complete the job with inferior material, then inflate the final price and threaten to place a lien on the home if the homeowner won't pay. DOPL Director Mark Steinagel has urged residents to verify a contractor's license at dopl.utah.gov before hiring and to get a signed, fixed-price written contract before any work begins.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Utah Division of Occupational and Professional Licensing (DOPL)'],
+    sourceUrl: 'https://commerce.utah.gov/2021/05/28/be-on-alert-for-driveway-repair-scam-this-summer/',
+    country: 'US',
+    state: 'UT',
+});
