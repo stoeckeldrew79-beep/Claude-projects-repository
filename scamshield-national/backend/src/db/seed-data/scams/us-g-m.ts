@@ -11817,3 +11817,39 @@ UsGM.push({
     country: 'US',
     state: 'MS',
 });
+
+UsGM.push({
+    name: 'Sulphur Entergy Fake Disconnection Barcode Payment Scam',
+    slug: 'louisiana-sulphur-entergy-fake-disconnection-barcode-scam',
+    description: `Scammers impersonating Entergy called Aimee Lacy, owner of the Sulphur, Louisiana ice cream shop A Sprinkle in Time Too, demanding $2,600 to avoid an immediate power disconnection and threatening to cut service by "12:30 to one o'clock" that same day. Panicked about her refrigerated inventory melting, Lacy paid $1,000 by scanning a barcode at Walmart as instructed, after which the callers phoned back demanding the remaining $1,700. Her power was never actually scheduled for disconnection, and she reported the scam to Sulphur police. Entergy does not collect payment through barcode-scan transactions at retail stores, and customers who receive a sudden same-day disconnection threat should hang up and call the number on their own bill to verify their account status before paying anyone.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Entergy', 'Sulphur Police Department'],
+    sourceUrl: 'https://www.yahoo.com/news/us/articles/fake-entergy-shutoff-call-sent-141446992.html',
+    country: 'US',
+    state: 'LA',
+});
+
+UsGM.push({
+    name: 'Louisiana Department of Revenue Phone Impersonation Tax Scam',
+    slug: 'louisiana-department-of-revenue-phone-impersonation-tax-scam',
+    description: `The Louisiana Department of Revenue has warned residents that callers claiming to be LDR agents and demanding immediate payment of a tax debt over the phone are impersonators, not real department staff. As the agency states, "Louisiana Department of Revenue agents will never make initial contact by phone to demand payment of a tax debt. Contact with delinquent taxpayers is always initiated through the mail with a letter that explains in detail what is owed and provides contact information for the department." Anyone who receives an unsolicited call demanding immediate tax payment should hang up and, if concerned about a genuine balance, contact LDR directly using the phone number listed on revenue.louisiana.gov rather than any number the caller provides.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Louisiana Department of Revenue'],
+    sourceUrl: 'https://revenue.louisiana.gov/news-and-announcements/2019/protect-yourself-from-filing-season-tax-scams/',
+    country: 'US',
+    state: 'LA',
+});
+
+UsGM.push({
+    name: 'Louisiana SHIIP Medicare Open Enrollment Plan-Switching Scam',
+    slug: 'louisiana-shiip-medicare-open-enrollment-scam',
+    description: `During Medicare's fall open enrollment period, the Louisiana Department of Insurance's Senior Health Insurance Information Program (SHIIP) has warned seniors to be vigilant against outside marketers and callers who pressure them into switching Medicare plans without properly explaining the change or obtaining valid consent, sometimes leaving the senior in a worse plan than the one they started with. SHIIP Director Vicki Dufrene noted that open enrollment is a period when seniors are overwhelmed by phone calls, TV ads, emails, and mailers from parties with no official role in their coverage. Louisiana residents with questions about a plan change or a suspicious enrollment call are urged to contact SHIIP directly at 1-800-259-5300 before agreeing to any switch, rather than relying on an unsolicited caller's claims.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Louisiana Department of Insurance (SHIIP)'],
+    sourceUrl: 'https://www.kedm.org/louisiana-news/2023-11-17/ldi-urges-senior-citizens-to-be-vigilant-against-medicare-scams-during-open-enrollment',
+    country: 'US',
+    state: 'LA',
+});
