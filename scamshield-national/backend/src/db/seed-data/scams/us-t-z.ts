@@ -6353,6 +6353,43 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Wisconsin DMV Text-Message Impersonation Scam',
+    slug: 'wisconsin-dmv-text-message-impersonation-scam',
+    description: `Wisconsin residents have been receiving mass text messages falsely claiming to be from the Wisconsin DMV/Department of Transportation, labeled as a "Final Notice" and alleging unpaid traffic violations or a revoked or suspended license. The messages demand immediate payment through an included link to avoid registration suspension or further fines. WisDOT confirms the real Wisconsin DMV will never text to demand payment for a service, warns the links often don't end in .gov and may contain misspellings, and directs residents to go only to wisconsindmv.gov directly rather than clicking message links.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Department of Transportation (WisDOT)'],
+    sourceUrl: 'https://wisconsindot.gov/Pages/about-wisdot/newsroom/statistics/scams.aspx',
+    country: 'US',
+    state: 'WI',
+});
+
+UsTZ.push({
+    name: 'Wood County "Sgt. Davenport" Jury Duty Warrant Phone Scam',
+    slug: 'wisconsin-wood-county-jury-duty-warrant-phone-scam',
+    description: `On June 29, 2026, the Wood County Sheriff's Office warned residents of callers impersonating a "Sgt. Davenport," who falsely claims the victim missed jury duty, has an outstanding warrant, and must pay immediately to avoid arrest. The Sheriff's Office confirmed it has no employee by that name and that it will never call residents to demand money over the phone. Residents who receive such a call are advised to give no personal or financial information, make no payment, and verify any claim by calling the office directly at its published number.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Wood County Sheriff's Office"],
+    sourceUrl: 'https://www.wsaw.com/2026/06/29/wood-county-sheriffs-office-warns-jury-duty-phone-scam/',
+    country: 'US',
+    state: 'WI',
+    firstRecorded: '2026-06-29',
+});
+
+UsTZ.push({
+    name: 'Rock County 4-H Fair Vendor Email Solicitation Scam',
+    slug: 'wisconsin-rock-county-4h-fair-vendor-scam',
+    description: `Ahead of the 2026 Rock County 4-H Fair, the Rock County Sheriff's Office warned that prospective vendors were being contacted by email from someone posing as a fair representative and asked to pay a "vendor fee" through a payment link in the message. The sender was not actually employed by the 4-H Fair, and the office confirmed legitimate fair staff do not solicit vendor payments by email. Vendors are advised to verify any fee request directly with fair organizers before paying and to report suspicious solicitations to the Sheriff's Office.`,
+    categorySlug: 'phishing',
+    alertLevel: 'low',
+    sources: ["Rock County Sheriff's Office"],
+    sourceUrl: 'https://www.rockfordnewsfirst.com/2026/05/06/rock-county-sheriffs-office-warns-scams-following-fraud-investigation/',
+    country: 'US',
+    state: 'WI',
+});
+
+UsTZ.push({
     name: 'Email Extortion "Sextortion" Scam Using Home Map Images',
     slug: 'vermont-email-extortion-home-image-scam',
     description: `Vermont's Attorney General's Office reported that the email extortion scam — threatening to release compromising photos and personal information unless paid — returned to the state's Top 10 Scams list in 2024 after a four-year absence, ranking 7th with 141 reports to the Consumer Assistance Program. A newer, more unsettling variant embeds screen-captured images of the recipient's own home, pulled from online mapping services, directly into the extortion email to make the threat feel more credible and pressure faster compliance. Attorney General Charity Clark's office notes most of these scams originate overseas and are difficult to shut down, and directs Vermonters who receive one to report it to CAP at 800-649-2424 or AGO.CAP@vermont.gov rather than pay.`,
