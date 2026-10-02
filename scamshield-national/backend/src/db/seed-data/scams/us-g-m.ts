@@ -11926,3 +11926,78 @@ UsGM.push({
     country: 'US',
     state: 'MD',
 });
+
+UsGM.push({
+    name: 'Evergy Utility Impersonation Scam',
+    slug: 'missouri-evergy-utility-impersonation-scam',
+    description: `Evergy, the electric utility serving the Kansas City metro and western Missouri, warned customers of a summer surge in scams combining spoofed caller ID, cloned look-alike websites, and in-person impersonators posing as company technicians. Callers falsely threaten immediate service disconnection — frequently during extreme heat — unless the customer pays on the spot, and demand payment through Cash App, Venmo, Zelle, gift cards, or card numbers read over the phone. Evergy says it "will never call or send someone to a residence or business asking customers to pay via third-party payment apps," and that real disconnection always follows multiple prior notifications, never a sudden threat. Customers are urged to ask for company ID or call Evergy's Customer Contact Center directly — 1-888-471-5275 for Evergy Metro/Missouri West — before paying anyone.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Evergy', 'WIBW'],
+    sourceUrl: 'https://www.wibw.com/2025/07/29/evergy-urges-customers-watch-out-scammers-this-summer/',
+    country: 'US',
+    state: 'MO',
+});
+
+UsGM.push({
+    name: 'Spire Natural Gas Utility Impersonation Scam',
+    slug: 'missouri-spire-utility-impersonation-scam',
+    description: `Spire, the St. Louis-based natural gas utility serving most of Missouri, has repeatedly warned customers about callers impersonating Spire representatives who claim a bill is overdue and threaten to cancel gas service unless the customer pays immediately during the call, pushing payment through cash apps such as Venmo, Zelle, or Google Pay. Spire says plainly that it "will never ask for payment through cash apps," and that any legitimate in-person payment collector carries official Spire identification a customer can ask to see. Anyone who gets a suspicious call is urged to hang up immediately and call Spire directly, 24/7, at 800-887-4173 to verify their account before paying anything.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Spire', 'KOAM News Now'],
+    sourceUrl: 'https://spireenergy.com/scam-alert-news-release-february-2024',
+    country: 'US',
+    state: 'MO',
+});
+
+UsGM.push({
+    name: 'Missouri Medicare Open Enrollment Scam Warning',
+    slug: 'missouri-dci-medicare-open-enrollment-scam-warning',
+    description: `The Missouri Department of Commerce and Insurance (DCI) issues an annual consumer alert ahead of the federal Medicare Open Enrollment period warning that "fraudsters often use the Medicare open enrollment period to target seniors and other vulnerable individuals through deceptive sales tactics, such as commercials, online ads, or even personal phone calls" — including offers of free meals in exchange for attending a sales pitch, itself illegal under federal law. DCI warns Missourians to never give their Medicare or Social Security number to an unsolicited caller or unverified salesperson claiming to represent Medicare. The release directs residents to Missouri's free, state-certified SHIP counseling program (formerly branded "Missouri CLAIM") for unbiased plan comparisons, reachable at 1-800-390-3330 or missouriship.org.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Missouri Department of Commerce and Insurance', 'Missouri SHIP (formerly Missouri CLAIM)'],
+    sourceUrl: 'https://dci.mo.gov/node/2356',
+    country: 'US',
+    state: 'MO',
+    firstRecorded: '2025-10-08',
+});
+
+UsGM.push({
+    name: 'Indiana IDOI "Pay for Your New Medicare Card" Scam',
+    slug: 'indiana-idoi-medicare-card-replacement-scam',
+    description: `The Indiana Department of Insurance warned Hoosiers that scammers exploited the rollout of redesigned Medicare cards, which removed beneficiaries' Social Security numbers, by calling and claiming a fee, personal data, or a Medicare number was required to receive or keep the new card, or that coverage would be canceled without it. IDOI stated "NEVER give your SSN, bank or credit card information, or send cash to anyone who says it is required," stressing that new cards are mailed automatically at no cost and that no legitimate Medicare, CMS, or government representative will ever ask a beneficiary to pay for one or supply a Social Security number, bank, or credit card information over the phone.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'low',
+    isHistorical: true,
+    sources: ['Indiana Department of Insurance (IDOI)'],
+    sourceUrl: 'https://events.in.gov/event/idoi-warns-hoosiers-to-beware-medicare-card-changes-could-trigger-scams',
+    country: 'US',
+    state: 'IN',
+});
+
+UsGM.push({
+    name: 'Allen County Treasurer Property Tax Sale Scam',
+    slug: 'indiana-allen-county-tax-sale-scam',
+    description: `Residents of Allen County (Fort Wayne) reported receiving unsolicited phone calls and text messages warning that their property was being placed, or was at risk of being placed, on a tax sale list and that they could lose their home. The Allen County Treasurer's Office confirmed "these phone calls and text messages are not coming from their office, as they do not call or text regarding tax sale properties," urging recipients to hang up or delete the message and call the Treasurer's Office directly at 260-449-7693 to verify their actual property-tax status.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Allen County Treasurer's Office", '21Alive (WPTA-TV, Fort Wayne)'],
+    sourceUrl: 'https://www.21alivenews.com/2024/06/30/scam-alert-allen-county-treasurers-office-warns-homeowners-tax-sale-scam/',
+    country: 'US',
+    state: 'IN',
+    firstRecorded: '2024-06-30',
+});
+
+UsGM.push({
+    name: 'Indiana SNAP/EBT Card Skimming and Cloning Fraud',
+    slug: 'indiana-snap-ebt-card-skimming-cloning',
+    description: `Criminals in Indiana have placed illegal skimming devices on ATMs and retail card readers to copy SNAP/EBT card data, then used the stolen data to clone cards and drain benefits before the legitimate cardholder could spend them, with Terre Haute police and other local departments fielding multiple reports. Indiana's Family and Social Services Administration (FSSA), Division of Family Resources, confirms a federal Continuing Resolution passed December 21, 2024 eliminated reimbursement for stolen SNAP benefits, stating "any SNAP benefits stolen from December 21, 2024, forward cannot be replaced" — though stolen TANF benefits can still potentially be reimbursed with documentation. FSSA urges recipients to lock their EBT card through connectebt.com, avoid simple PINs, and change the PIN after each use.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Indiana Family and Social Services Administration (FSSA), Division of Family Resources', 'Terre Haute Police Department'],
+    sourceUrl: 'https://www.in.gov/fssa/dfr/snap-benefit-fraud-by-card-skimming/',
+    country: 'US',
+    state: 'IN',
+});
