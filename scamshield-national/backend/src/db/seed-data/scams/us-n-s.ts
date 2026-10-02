@@ -11397,3 +11397,30 @@ UsNS.push({
     state: 'NM',
     firstRecorded: '2025-01-30',
 });
+
+UsNS.push({
+    name: 'LUMA Energy "Bill Discount" Impersonation Call Scam (Puerto Rico)',
+    slug: 'puerto-rico-luma-energy-bill-discount-impersonation-scam',
+    description: `A man in the Mameyes neighborhood of Utuado, Puerto Rico lost $500 on August 30, 2023 after a caller posing as a LUMA Energy representative told him his account needed to be "updated" and offered him a discount on his electric bill. To apply the discount, the caller asked for his LUMA account number along with his bank account number and other personal details — information the scammer then used to withdraw money directly from his bank account. The case was referred to the Puerto Rico Police Department's Criminal Investigations Division, Property Crimes Unit. LUMA Energy has stated publicly that it never requests payment through prepaid debit cards, gift cards, PayPal, or Venmo, and directs customers to verify any account activity or pending balance only through its own Mi LUMA mobile app or official customer line, 1-844-888-LUMA, rather than through a number a caller provides.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Metro Puerto Rico', 'Puerto Rico Police Department'],
+    sourceUrl: 'https://www.metro.pr/noticias/2023/08/31/hombre-cae-en-pescaito-con-supuesto-descuento-de-factura-de-luz/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2023-08-30',
+});
+
+UsNS.push({
+    name: 'Humacao "Surprise Gift Box" Advance-Fee Extortion Scam (Puerto Rico)',
+    slug: 'puerto-rico-humacao-surprise-gift-box-extortion-scam',
+    description: `A 52-year-old woman in Humacao, Puerto Rico lost a combined $15,200 after a man identifying himself as "Benny Pérez" contacted her claiming he was sending her a surprise gift package from New York. Accomplices then called her posing as representatives of a shipping or courier company, telling her the package — which they claimed contained a large sum of cash — was being held and that she needed to pay a series of supposed legal fees, taxes, and storage charges before it could be released, with each new fee presented as the final one standing between her and the package. She paid every demand using Apple gift cards, an untraceable form of payment common to this kind of advance-fee scheme, before realizing the "gift" was never coming and filing a police report with the Humacao district, which referred the case to its robbery, extortion, and missing-persons investigative unit. Anyone contacted about an unexpected package or gift that requires paying fees, taxes, or storage costs before it can be delivered should treat the request as fraudulent and never pay with gift cards, which cannot be reversed or traced once the codes are shared.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['Metro Puerto Rico', 'Humacao Police Department'],
+    sourceUrl: 'https://www.metro.pr/noticias/2025/08/01/le-prometen-caja-de-regalo-a-mujer-en-humacao-y-esta-pierde-15200/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+});
