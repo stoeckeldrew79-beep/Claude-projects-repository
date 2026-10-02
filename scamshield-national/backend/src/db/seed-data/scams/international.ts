@@ -23765,3 +23765,37 @@ International.push({
   sourceUrl: 'https://www.lesahel.org/escroquerie-en-ligne-plus-de-300-plaintes-enregistrees-en-2023-dans-la-ville-de-niamey-selon-le-rapport-de-la-direction-de-la-cybercriminalite-a-la-police-judiciaire/',
   country: 'NE',
 });
+
+International.push({
+  name: 'Fake Hajj Pilgrimage Document Fraud',
+  slug: 'tajikistan-fake-hajj-pilgrimage-document-fraud',
+  description: `Tajikistan's Committee on Religious Affairs announced on April 9, 2026 that a group of Tajik citizens had been defrauded by individuals who, for a fee, promised to arrange their mandatory Hajj pilgrimage to Saudi Arabia. The fraudsters produced fake badges and documents the Committee said carry no legal force and cannot guarantee a pilgrim's lawful presence in the Kingdom during Hajj season, leaving the group stranded and needing help from the Committee and the Tajik embassy in Saudi Arabia to get home. The Committee noted the official deadline for that year's Hajj paperwork had already passed when the fraud occurred — meaning no legitimate travel company could have produced valid documents — and urged citizens to book Hajj travel only through officially licensed agencies, pointing them to its hotline, +992 (37) 221-83-58.`,
+  categorySlug: 'travel-vacation-scams',
+  alertLevel: 'high',
+  sources: ['Tajikistan Committee on Religious Affairs', 'Asia-Plus'],
+  sourceUrl: 'https://asiaplus.news/en/2026/04/09/tajikistans-committee-on-religion-warns-citizens-about-fake-documents-for-hajj/',
+  country: 'TJ',
+  firstRecorded: '2026-04-09',
+});
+
+International.push({
+  name: 'Fake Medical and Crowdfunding Charity Scam Exploiting Sick and Deceased Migrants',
+  slug: 'tajikistan-fake-medical-crowdfunding-charity-scam',
+  description: `Reporting by CABAR.asia (Central Asian Bureau for Analytical Reporting) documented a pattern in Tajikistan of fraudsters using social media to solicit donations for sick children, hardship cases, or the deaths of labor migrants abroad, then keeping the money instead of passing it to the people pictured. In one case, organizers collected about 5,000 somoni (roughly $384) ostensibly to treat a girl with hydrocephalus; in another, a blogger's video soliciting roughly 17,000 somoni (about $1,310) for a "needy family" turned out to misrepresent the family's actual circumstances. Interior Ministry spokesman Nusratullo Makhmadzoda said the ministry had received no formal complaints from the people whose hardship was invoked but acknowledged that money is collected fraudulently using the plight of others, illness, or death during migration, while digital-security expert Farishtamoh Gulova urged donors to verify a fundraiser's authenticity before sending money.`,
+  categorySlug: 'charity-scams',
+  alertLevel: 'medium',
+  sources: ['CABAR.asia', 'Tajikistan Ministry of Internal Affairs'],
+  sourceUrl: 'https://longreads.cabar.asia/netrogue_eng',
+  country: 'TJ',
+});
+
+International.push({
+  name: 'Fake Tajikistan e-Visa Website Scam',
+  slug: 'tajikistan-fake-evisa-website-scam',
+  description: `Tajikistan's Ministry of Foreign Affairs warned that a fraudulent website, tajikistanevisagov.com, was impersonating the Republic of Tajikistan's official visa portals, www.evisa.tj and www.visa.gov.tj. The fraudulent site charges foreign nationals applying for a Tajik visa but never actually issues one, exploiting a domain name similar enough to the real portals to trick applicants into paying for a visa that never arrives. Tajik diplomatic missions abroad, including the embassy in Paris, republished the warning to reach prospective visa applicants, directing them to use only the genuine evisa.tj domain when applying online.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Ministry of Foreign Affairs of Tajikistan'],
+  sourceUrl: 'https://www.mfa.tj/en/paris/view/5748/warning-about-fraudulent-pseudo-website-similar-to-the-official-websites-for-issuing-of-visa-of-the-republic-of-tajikistan',
+  country: 'TJ',
+});

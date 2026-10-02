@@ -287,8 +287,8 @@ If you get a call like this, hang up — don't use any number or callback line t
     slug: 'fake-process-server-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-process-server-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wooden_gavel_20170417.jpg?width=1200',
-    coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hamilton_County_Courthouse,_Cincinnati,_OH.jpg?width=1200',
+    coverImageCredit: 'Photo: Warren LeMay (CC0) — Hamilton County Courthouse, Cincinnati, OH',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/scams/28919-bbb-scam-alert-this-phishing-scam-claims-a-process-server-is-looking-for-you',
@@ -1103,8 +1103,8 @@ If someone claiming to be from FEMA contacts you: ask for identification and you
     slug: 'ai-companion-chatbot-romance-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ai-companion-chatbot-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/WhatsApp_chatting.jpg?width=1200',
-    coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hand_holding_smartphone_with_ChatGPT_(52917076309).jpg?width=1200',
+    coverImageCredit: 'Photo: Jernej Furman (CC BY 2.0) — smartphone with an AI chatbot open',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/business-guidance/blog/2023/03/chatbots-deepfakes-voice-clones-ai-deception-sale',

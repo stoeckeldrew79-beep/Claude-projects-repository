@@ -11401,3 +11401,103 @@ UsNS.push({
     country: 'US',
     state: 'NV',
 });
+
+UsNS.push({
+    name: 'New Jersey MVC Text Message Impersonation (SMiShing)',
+    slug: 'new-jersey-mvc-text-scam-smishing',
+    description: `Scam text messages impersonating the New Jersey Motor Vehicle Commission claim the recipient has an outstanding traffic ticket or fee and threaten suspension of their vehicle registration and driving privileges, referral to collections, and legal action unless they pay immediately. The messages link to fraudulent pages built to look like official MVC sites, often using a URL containing "njmvc" paired with a deceptive top-level domain such as .icu instead of .gov, and instruct recipients to reply "Y" and reopen the message before clicking. The NJCCIC has issued repeated alerts as the campaign recurred through 2025-2026, noting the genuine MVC only texts to remind residents of scheduled appointments and never messages about license or registration status.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['New Jersey Cybersecurity and Communications Integration Cell (NJCCIC)'],
+    sourceUrl: 'https://www.cyber.nj.gov/Home/Components/News/News/1831/214',
+    country: 'US',
+    state: 'NJ',
+});
+
+UsNS.push({
+    name: '"NJ Turnpike Toll Services" Fake Unpaid-Toll Text Scam',
+    slug: 'new-jersey-ezpass-turnpike-toll-text-scam',
+    description: `Text messages claiming to be from "NJ Turnpike toll services" tell recipients they have an outstanding toll balance and will be charged a late fee unless they click a link to pay immediately; the link leads to a fraudulent site that harvests credit card information. The New Jersey Turnpike Authority confirmed "NJ Turnpike toll services is not associated with the New Jersey Turnpike Authority or any other toll agency in the New Jersey E-ZPass Group. The outstanding toll balances described in the text messages are not real," and noted the campaign indiscriminately targets any New Jersey-area-code phone number regardless of whether the recipient has E-ZPass. The Authority first received reports of the scheme in April and recommends deleting such texts without clicking any link, and contacting your bank immediately if you already provided information.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['New Jersey Turnpike Authority', 'New Jersey Cybersecurity and Communications Integration Cell (NJCCIC)'],
+    sourceUrl: 'https://www.njta.gov/newsroom/text-message-scam-targets-new-jersey-tollpayers/',
+    country: 'US',
+    state: 'NJ',
+});
+
+UsNS.push({
+    name: 'New Jersey Lottery Fake Prize Claim-Fee Scam',
+    slug: 'new-jersey-lottery-prize-claim-fee-scam',
+    description: `The New Jersey Lottery has warned residents about callers who falsely claim the recipient won a Mega Millions prize — in one documented case, paired with a free car — and must mail a "claim fee" of around $450 to release the winnings. The Lottery states that "Lottery prizes are awarded to players once an authentic, validated, winning New Jersey Lottery ticket is presented for claim," and that legitimate officials never request upfront fees, credit card numbers, or other financial information. Residents uncertain about a notification are directed to call the NJ Lottery Security Office directly at 609-599-6100 to verify before sending anything.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['New Jersey Lottery'],
+    sourceUrl: 'https://www.megamillions.com/news-releases/new-jersey-lottery-scam-alert',
+    country: 'US',
+    state: 'NJ',
+});
+
+UsNS.push({
+    name: 'Oregon Department of Revenue "Refund Approved" Text Phishing Scam',
+    slug: 'oregon-dor-refund-text-phishing-scam',
+    description: `Oregon taxpayers have received unsolicited text messages impersonating the Oregon Department of Revenue, falsely claiming their tax refund has been "approved and processed" and directing them to click a link and update their banking information to receive it. The Department of Revenue issued a public warning on September 15, 2025, stating it "will never send unsolicited texts asking for personal data," and urged recipients not to click the link or reply, and to verify refund status directly through the agency's official site instead.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Oregon Department of Revenue'],
+    sourceUrl: 'https://apps.oregon.gov/oregon-newsroom/OR/DOR/Posts/Post/DOR-to-taxpayers-Dont-engage-with-text-message-scam',
+    country: 'US',
+    state: 'OR',
+    firstRecorded: '2025-09-15',
+});
+
+UsNS.push({
+    name: 'Oregon Medicare Open Enrollment Scam Targeting Seniors',
+    slug: 'oregon-shiba-medicare-open-enrollment-scam',
+    description: `During Medicare's annual Open Enrollment period, scammers contact Oregon seniors by mail, phone, text, and email, falsely claiming the recipient needs a new Medicare card or offering "free" medical equipment in order to obtain their Medicare Beneficiary Identifier and commit billing fraud. The Oregon Department of Human Services' Office of Aging and People with Disabilities, which runs the state's SHIBA program, issued a public alert on October 21, 2025 noting that "common scams include claiming beneficiaries need a new card or offers of free medical equipment," and urged beneficiaries to use free SHIBA counselors to verify any contact before sharing personal Medicare information.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Oregon Department of Human Services', 'Senior Health Insurance Benefits Assistance (SHIBA)'],
+    sourceUrl: 'https://apps.oregon.gov/oregon-newsroom/OR/ODHS/Posts/Post/state-program-offers-free-help-fraud-prevention-tips-for-medicare-open-enrollment',
+    country: 'US',
+    state: 'OR',
+    firstRecorded: '2025-10-21',
+});
+
+UsNS.push({
+    name: 'Multnomah County Jail Release Scam Targeting Families of Adults in Custody',
+    slug: 'oregon-multnomah-jail-release-scam',
+    description: `Scammers call friends and family members of people in custody at Multnomah County jails, impersonating law enforcement and falsely claiming they can secure the inmate's immediate release in exchange for payment by gift card, wire transfer, or online money transfer. The Multnomah County Sheriff's Office issued a public warning on December 11, 2025, with Chief Deputy Stephen Reardon stating "if someone is on the phone claiming to be a law enforcement member and asking you for money, you're on the phone with someone trying to steal from you, not help you." The only legitimate ways to pay for a release are the Sheriff's Office's official TouchPay Online portal or in-person payment at the Inverness Jail or Multnomah County Detention Center.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ["Multnomah County Sheriff's Office"],
+    sourceUrl: 'https://www.mcso.us/public-information/mcso-warns-public-jail-release-scam-targeting-families-adults-custody',
+    country: 'US',
+    state: 'OR',
+    firstRecorded: '2025-12-11',
+});
+
+UsNS.push({
+    name: 'PECO Utility Shutoff Phone-Spoofing Scam',
+    slug: 'pennsylvania-peco-utility-shutoff-spoofing-scam',
+    description: `Callers spoof caller ID to display PECO's real phone number, then tell Philadelphia-area customers their electricity will be shut off within the hour over a supposed unpaid bill or meter problem unless they pay immediately — in some cases reciting the victim's real account number to sound credible before directing them to buy a gift card or deposit cash at a retailer and read off the code over the phone. A PECO representative said scam reports have risen by as much as 30%, and emphasized "we will never demand immediate payment. We will not call you and say pay us right now, pay us via Bitcoin, go get a gift card, send it to this particular account." Customers are urged to hang up and check their account independently at peco.com or by calling PECO's official number, 1-800-494-4000, rather than any number given by the caller.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['PECO Energy Company', '6abc Philadelphia (WPVI-TV)'],
+    sourceUrl: 'https://6abc.com/post/consumer-alert-peco-utility-customer-scams-spoofing/14353384/',
+    country: 'US',
+    state: 'PA',
+});
+
+UsNS.push({
+    name: 'Philadelphia Chinese Police Impersonation Scam Targeting International Students',
+    slug: 'pennsylvania-philadelphia-chinese-police-impersonation-international-students-scam',
+    description: `The FBI's Philadelphia Field Office warned on January 16, 2026 of an ongoing scheme, active since 2022, in which criminal actors impersonate Chinese police officers to extort money from Chinese international students attending universities in the Philadelphia area. Victims are first contacted by someone claiming to be from a phone carrier, retailer, delivery service, or the Chinese Embassy/Consulate who says their information is tied to a financial-fraud investigation in China; the call is then transferred to a fake police officer who threatens arrest and forced return to China unless the student submits to 24/7 video and audio monitoring, stays silent about the case, and wires money or sends cryptocurrency to "prove innocence" or post bail. The FBI said "these scams leave real and lasting harm that extends far beyond a financial loss," and directs victims to report the scam to their local FBI field office or the Internet Crime Complaint Center (IC3) rather than comply with any payment or monitoring demand.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FBI Philadelphia Field Office', 'NBC10 Philadelphia (WCAU-TV)'],
+    sourceUrl: 'https://www.nbcphiladelphia.com/news/local/police-impersonators-target-chinese-students-in-philly-fbi-says/4334628/',
+    country: 'US',
+    state: 'PA',
+    firstRecorded: '2026-01-16',
+});
