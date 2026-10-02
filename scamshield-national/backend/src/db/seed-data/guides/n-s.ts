@@ -5284,6 +5284,9 @@ GuidesNS.push({
     slug: 'remote-patient-monitoring-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'remote-patient-monitoring-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pulox_Pulse_Oximeter.JPG?width=1200',
+    coverImageCredit: 'Photo: Stefan Bellini, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `A Medicare beneficiary gets an unsolicited phone call, text, internet ad, or TV commercial offering a "free" or low-cost remote patient monitoring (RPM) device — a glucose monitor, blood pressure cuff, pulse oximeter, or similar gadget pitched as a way to keep a chronic condition like diabetes or hypertension under watch from home. The caller or ad, often fronted by a durable medical equipment (DME) company or pharmacy the beneficiary has never dealt with, just needs the beneficiary's Medicare number to "process" the free device.
 
 Remote patient monitoring is a real and legitimate part of modern chronic-care management — a doctor can prescribe a connected scale, glucose monitor, or cardiac device so a care team can watch for dangerous trends between office visits. That legitimacy is exactly what the fraud borrows: once a beneficiary hands over their Medicare number, the company bills Medicare every month for equipment setup, patient education, and ongoing monitoring, regardless of whether a device was ever actually shipped, used, or medically necessary, and regardless of whether any clinician ever reviewed the readings. The HHS Office of Inspector General warns that in the most common pattern, "the monthly monitoring never happens, but the enrollee is billed monthly anyway."
