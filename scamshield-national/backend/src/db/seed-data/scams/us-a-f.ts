@@ -11495,3 +11495,17 @@ UsAF.push({
     country: 'US',
     state: 'CT',
 });
+
+UsAF.push({
+    name: 'American Samoa Facebook Pyramid Scheme Recruitment Scam',
+    slug: 'american-samoa-facebook-pyramid-scheme-recruitment-scam',
+    description: `American Samoa's Department of Legal Affairs and Department of Public Safety issued a joint public warning on February 7, 2021 after organizers began recruiting residents into pyramid schemes through American Samoa Facebook groups. The pitch asked new participants to pay a $500 "registration fee" and recruit two additional people, in exchange for a promised $4,000 payout — with money flowing upward from each new round of recruits to the people who joined earlier, rather than from any real product or service. The structure works only as long as recruitment keeps growing, and officials said several residents had already lost money by the time the warning went out, since the payouts stop the moment new recruits stop joining and the people who joined last are left with nothing. The two departments warned that organizing or profiting from one of these schemes is itself a crime in the territory, exposing organizers to prosecution under ASCA 46.4129, a class C felony, in addition to the losses suffered by participants who join further down the chain.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ['American Samoa Department of Legal Affairs', 'American Samoa Department of Public Safety'],
+    sourceUrl: 'https://www.samoanews.com/node/116349',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2021-02-07',
+});
