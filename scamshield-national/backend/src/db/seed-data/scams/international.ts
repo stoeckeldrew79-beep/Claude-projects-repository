@@ -14461,6 +14461,19 @@ The same evaluation report notes that Niue's tiny population — roughly 1,700 p
 
 International.push(
   {
+    name: 'Niue Customs Package Clearance Scam',
+    slug: 'niue-customs-package-clearance-scam',
+    description: `Niue Police issued a public warning after online scammers began impersonating Niue Police and Niue Customs to tell targets that a package — in one documented case, said to be from "a retirement plan in New Hampshire, USA" — was being held pending customs or police clearance, and that a payment was needed to release it. Rather than directing victims to pay Customs directly, the scammers instructed them to send the payment online to a third party, and one victim lost approximately NZD $30,000 this way. Niue's Chief of Police, Tim Wilson, told Midday News that anyone notified of a package awaiting clearance at Customs should contact Customs directly to confirm it rather than pay whoever reaches out first, and the same police warning separately flagged a pattern of fake Facebook and Instagram profiles cloning the photos and usernames of real, known members of Niue's small community to befriend other residents before attempting to extract money or personal information. Niue Police urged anyone contacted by either scheme to call the police line at 4333 rather than pay or engage.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['TV Niue', 'Niue Police'],
+    sourceUrl: 'https://tvniue.com/niue-police-warns-over-online-scammers/',
+    country: 'NU',
+  },
+);
+
+International.push(
+  {
     name: 'WorldBuy Fake Crypto Trading App Collapse',
     slug: 'mauritania-worldbuy-crypto-trading-app-collapse',
     description: `Mauritanian outlets Cridem and Radiodiffusion Mauritanie Internationale reported that a mobile application called WorldBuy, along with a related platform known as VCT, drew in large numbers of young Mauritanians during 2024 by promising rapid, outsized returns on cryptocurrency trading. The operators encouraged users to open multiple accounts and keep depositing funds, telling them that additional accounts and larger deposits would generate bigger profits. Reporting described the schemes as deliberately targeting people of modest income, with individual victims said to have lost sums as high as 900,000 Mauritanian ouguiya and total losses across victims estimated in the hundreds of millions of old ouguiya. On May 13, 2024, WorldBuy abruptly stopped allowing withdrawals, the app disappeared from download platforms, and its Nouakchott office was found closed with staff gone, leaving depositors unable to recover their money. Victims organized in WhatsApp groups to seek legal recourse and publicly accused banks and mobile payment services of having facilitated the transfers without adequate warning, while also criticizing the state for a lack of consumer protection against the scheme. No arrests or prosecutions of the operators were reported at the time of the coverage.`,
