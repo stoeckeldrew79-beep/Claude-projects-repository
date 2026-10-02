@@ -11853,3 +11853,76 @@ UsGM.push({
     country: 'US',
     state: 'LA',
 });
+
+UsGM.push({
+    name: 'Illinois Department of Revenue Fake Refund Text Scam',
+    slug: 'illinois-department-of-revenue-fake-refund-text-scam',
+    description: `Illinois taxpayers are receiving unsolicited text messages impersonating the Illinois Department of Revenue (IDOR) that falsely claim a state tax refund has been processed and pressure the recipient to "verify" their banking information or lose the refund. IDOR Director David Harris said "there has been a significant rise in fake text messages impersonating state revenue departments," designed to pressure taxpayers into revealing sensitive financial information, and confirmed the agency never sends unsolicited texts, emails, or social-media messages requesting banking or personal information. The department urges recipients not to click any links, to delete the message, and to confirm any refund status directly via tax.illinois.gov, the MyTax Illinois portal, or by calling 1-800-732-8866.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Illinois Department of Revenue', 'NBC Chicago (WMAQ)'],
+    sourceUrl: 'https://www.nbcchicago.com/news/local/officials-warn-of-new-scam-targeting-taxpayers-and-their-refunds-what-to-look-for/3834845/',
+    country: 'US',
+    state: 'IL',
+});
+
+UsGM.push({
+    name: 'Illinois Medicare Open Enrollment Impersonation Scam',
+    slug: 'illinois-medicare-open-enrollment-ship-impersonation-scam',
+    description: `During Medicare's annual Open Enrollment Period, Illinois seniors are targeted by callers and door-knockers posing as official Medicare agents who push supposedly discounted plans, or who falsely claim a senior's existing Medicare benefits will be "terminated" unless they buy a new prescription-drug or Medicare Advantage plan immediately — sometimes requesting a birth date, Social Security number, bank account, and Medicare number to "deposit a refund." The Illinois Attorney General's office and the Illinois Department on Aging warn that genuine Medicare representatives never cold-call demanding personal information, and direct residents to the state's free, unbiased Senior Health Insurance Program (SHIP) counseling line at 1-800-252-8966, or the Attorney General's Senior Citizens Consumer Fraud Helpline at 1-800-243-5377, instead of any unsolicited "agent."`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ["Illinois Attorney General's Office", 'Illinois Department on Aging (SHIP)'],
+    sourceUrl: 'https://illinoisattorneygeneral.gov/Page-Attachments/MedicareOpenEnrollementScam.pdf',
+    country: 'US',
+    state: 'IL',
+});
+
+UsGM.push({
+    name: 'BBB Recovery/Refund Scam Targeting Prior Scam Victims (Chicago/Northern Illinois)',
+    slug: 'illinois-bbb-recovery-refund-scam-targeting-prior-victims',
+    description: `The Better Business Bureau serving Chicago and Northern Illinois warns that people who have already lost money to a scam are being targeted a second time by a "recovery" or "refund" scam. Callers pose as government agents or bank representatives and promise to retrieve the victim's stolen funds, pressuring them to act fast and keep the transaction a secret — but only after the victim pays an upfront fee, after which the caller and the money both disappear. The BBB notes legitimate recovery assistance never requires an advance fee or unverifiable claims of government or law-enforcement affiliation, and urges anyone contacted this way to hang up and report it via BBB ScamTracker or the FTC at ReportFraud.ftc.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau serving Chicago & Northern Illinois', 'CBS News Chicago'],
+    sourceUrl: 'https://www.cbsnews.com/chicago/news/better-business-bureau-warning-crooks-targeting-scam-victims/',
+    country: 'US',
+    state: 'IL',
+});
+
+UsGM.push({
+    name: 'Baltimore City Sheriff\'s Office Jury Duty / Warrant Phone Impersonation Scam',
+    slug: 'baltimore-city-sheriff-jury-duty-warrant-phone-scam',
+    description: `Callers impersonating law enforcement tell Baltimore-area residents they have an outstanding warrant, an unpaid traffic violation, or missed jury duty, then create urgency by claiming the person has only minutes before arrest. Victims are pressured to pay hundreds or thousands of dollars via prepaid debit cards, gift cards, wire transfer, cryptocurrency, or apps like PayPal, Cash App, or Venmo. The Baltimore City Sheriff's Office, under Sheriff Sam Cogen, issued a public warning on April 4, 2026 stating that "no legitimate government agency will request payment of a fine through those methods," and urged residents to hang up and report the call.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["FOX45 Baltimore (WBFF)", "Baltimore City Sheriff's Office (Sheriff Sam Cogen)"],
+    sourceUrl: 'https://foxbaltimore.com/news/local/baltimore-sheriffs-office-warns-of-phone-scams-people-impersonating-law-enforcement',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2026-04-04',
+});
+
+UsGM.push({
+    name: 'Delmarva Power "Green Dot" Prepaid-Card Disconnection Scam (Eastern Shore)',
+    slug: 'delmarva-power-green-dot-prepaid-card-scam-eastern-shore',
+    description: `Scammers spoof caller ID to display Delmarva Power's real customer-service number and call Eastern Shore Maryland customers claiming their account is delinquent and service will be shut off unless they immediately buy a Green Dot MoneyPak prepaid card from a nearby store such as Rite Aid or Wawa and read the card number back over the phone. Once the scammer has the card's numbers, "the value is downloaded, swept and stolen," in untraceable transactions. Delmarva Power — the electric utility serving Maryland's Eastern Shore, distinct from BGE in central Maryland and Pepco in the D.C. suburbs — says it never demands a specific payment method for a delinquent account and always offers multiple payment options, and directs customers to hang up and call 1-800-375-7117 directly to verify any account claim.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Dorchester Star / MyEasternShoreMD', 'Delmarva Power'],
+    sourceUrl: 'https://www.myeasternshoremd.com/dorchester_star/news/phone-scammers-reported-by-delmarva-power-customers/article_e80d0ad5-589d-5bb0-b288-a8a9e0669877.html',
+    country: 'US',
+    state: 'MD',
+});
+
+UsGM.push({
+    name: 'Maryland Health Connection Copycat Website Scam',
+    slug: 'maryland-health-connection-copycat-website-scam',
+    description: `The Maryland Attorney General's Health Education and Advocacy Unit (HEAU) warns that scammers build copycat websites mimicking Maryland Health Connection, the state's official ACA marketplace, that can surface prominently when residents search generic terms like "health insurance Maryland," then harvest the personal and financial information victims enter believing they are enrolling for real coverage. HEAU advises consumers to go directly to the official Maryland Health Connection website rather than through a search-result link or pop-up, confirm the URL begins with "https://" and ends in ".gov," and report any suspected fraudulent site to HEAU at 410-528-1840 or 877-261-8807.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ["Maryland Attorney General's Office – Health Education and Advocacy Unit (HEAU)", 'Maryland Health Connection'],
+    sourceUrl: 'https://www.newcarrolltonmd.gov/1201/Beware-of-Health-Insurance-Scams',
+    country: 'US',
+    state: 'MD',
+});
