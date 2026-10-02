@@ -10939,6 +10939,19 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Warwick "Bail Money" Grandparent Scam Cash-Courier Ring (Rhodes & Munoz)',
+    slug: 'rhode-island-warwick-grandparent-bail-scam-rhodes-munoz',
+    description: `Federal prosecutors charged Jason Rhodes, 34, of Flushing, NY, and Robert Munoz, 29, of Miami, FL, with conspiracy to commit wire fraud and aggravated identity theft after they allegedly served as cash-pickup couriers in a "grandparent scam" ring that called Rhode Island and Massachusetts seniors claiming a grandchild had been arrested and needed bail money immediately. In March 2024, Warwick police arrested Rhodes after a foot pursuit when he arrived at a victim's home to collect cash; Munoz, the alleged getaway driver, was later tied to the scheme after roughly $60,000 in cash was recovered from his hotel room. Investigators attributed about $230,000 in total losses to the pair across more than a dozen communities.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Rhode Island", 'Warwick Police Department'],
+    sourceUrl: 'https://www.foxbangor.com/news/national/alleged-grandparent-scammers-charged-in-rhode-island-for-role-in-targeting-seniors/article_2950b047-74bc-557c-a89e-bff3920cf37d.html',
+    country: 'US',
+    state: 'RI',
+    isHistorical: true,
+});
+
+UsNS.push({
     name: 'Puerto Rico "Trump Invest" Social Media Investment Scam',
     slug: 'puerto-rico-trump-invest-social-media-investment-scam',
     description: `Puerto Rico's Department of Consumer Affairs (DACO) warned on January 9, 2025, about false information spreading on social media for a supposed program called "Trump Invest," which promised subscribers monthly earnings of $8,500 in exchange for an initial deposit of just $250 — a return with no legitimate financial basis. The pitch traded on the incoming presidential administration's name to create an impression of a real, high-level opportunity, a tactic DACO said was designed to pressure people into acting before verifying anything. The agency reiterated the same warning again that March after continuing reports of financial fraud spreading through social media platforms, telling consumers "¡No caiga en engaños! Proteja su dinero y su seguridad" ("Don't fall for scams! Protect your money and your safety"). DACO advised consumers never to send payment or deposit money with an unknown source promoted only through social media, never to share banking information or a Social Security number with an unverified third party, to be wary of unsolicited investment pitches that arrive by message or email, and to verify any investment opportunity through official, independently confirmed channels before committing any money — reporting suspected fraud to DACO at (787) 722-7555.`,
