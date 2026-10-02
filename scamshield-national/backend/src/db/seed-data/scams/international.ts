@@ -6829,6 +6829,36 @@ export const International: SeedScam[] = [
     sourceUrl: 'https://cybercrimepolice.ch/de/faelle/angeblicher-twint-gutschein-entpuppt-sich-als-account-takeover',
   },
 {
+    name: 'Fake Swiss Tax Administration (ESTV) Refund Phishing Scam',
+    slug: 'switzerland-estv-tax-refund-phishing-scam',
+    description: `Fraudsters email Swiss taxpayers claiming the Federal Tax Administration (ESTV) owes them a refund — one wave cited exactly CHF 736 — linking to a convincing fake ESTV website that collects name, email, and credit-card details under the pretext of processing the "refund." After submission, the criminals intercept the one-time SMS code meant to authorize the victim's own card and use it to push through a real charge, defeating two-factor authentication rather than just harvesting static data. The emails impose an artificial short deadline, in some cases as little as two hours, and have been sent from spoofed domains rather than the genuine "@admin.ch," with telltale signs including stray German characters that don't appear in Swiss German and awkward machine-translated phrasing. ESTV states it never requests credit-card details or promises refunds by email, and that legitimate communications only ever come from an @admin.ch address, with any real refund paid to an IBAN rather than a card.`,
+    categorySlug: 'tax-scams',
+    country: 'CH',
+    alertLevel: 'high',
+    sources: ['Federal Tax Administration (ESTV)', 'Federal Office for Cybersecurity (BACS)', 'cybercrimepolice.ch', 'Blick'],
+    sourceUrl: 'https://www.blick.ch/schweiz/betrueger-haben-dazugelernt-achtung-vor-dieser-steuer-betrugsmasche-id20488824.html',
+  },
+{
+    name: 'Fake AHV Supplementary-Benefits "Eligibility Review" Phishing Scam',
+    slug: 'switzerland-ahv-supplementary-benefits-phishing-scam',
+    description: `Professionally designed emails impersonating the Federal Social Insurance Office (BSV) tell recipients that, because of alleged regulatory changes taking effect January 1, 2026, their eligibility for AHV supplementary benefits (Ergänzungsleistungen) must be reviewed, linking to a cloned fake BSV portal. The flow runs in stages to build trust: it first collects personal details and an AHV number, then shows a fabricated benefit calculation to make the payout feel earned, asks for banking details to "pay out" the entitlement, and finally claims the supplied IBAN "failed verification" so the victim hands over full credit-card details instead, including expiry date and security code. Cybercrimepolice.ch, run by Swiss cantonal police, published the alert after the campaign began circulating, advising recipients to never click the links, to verify any claimed status change directly with their cantonal AHV compensation office, and — if card details were already given — to contact their bank immediately to block the card and file a police report.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'CH',
+    alertLevel: 'high',
+    sources: ['cybercrimepolice.ch (Swiss cantonal police)', 'Federal Social Insurance Office (BSV) (impersonated)'],
+    sourceUrl: 'https://cybercrimepolice.ch/de/faelle/betrueger-locken-mit-ahv-ergaenzungsleistungen',
+  },
+{
+    name: 'Unauthorized "Swiss-Regulated" Investment Firms on FINMA\'s Warning List',
+    slug: 'switzerland-finma-unauthorized-investment-firms',
+    description: `Switzerland's Financial Market Supervisory Authority (FINMA) maintains a public warning list of companies and individuals suspected of offering banking, investment, or insurance services in Switzerland without the required authorization — frequently while implying or outright claiming Swiss regulatory approval they do not actually have. FINMA opened roughly 450 investigations into potentially unauthorized providers in 2025 and added more than 300 new entries to the warning list over the year, a volume the regulator itself called a high point, with listed entities including Wintons Investment S.A., Novapago AG, and Value Capital AG. Because an entry only flags a lack of authorization rather than proving fraud outright, and the list is neither exhaustive nor updated daily, FINMA tells consumers to independently check any firm soliciting their money against its separate registry of licensed institutions before investing, and to treat any unlicensed firm claiming Swiss bank or broker status as a serious red flag regardless of how official its marketing looks.`,
+    categorySlug: 'investment-fraud',
+    country: 'CH',
+    alertLevel: 'high',
+    sources: ['Swiss Financial Market Supervisory Authority (FINMA)', 'SWI swissinfo.ch'],
+    sourceUrl: 'https://www.swissinfo.ch/eng/various/finma-closes-significantly-more-proceedings-in-2025/91289905',
+  },
+{
     name: 'Forex-3D Foreign-Exchange Ponzi Scheme',
     slug: 'thailand-forex-3d-ponzi-scheme',
     description: `Starting November 25, 2015, an invitation-only Facebook trading group calling itself Forex-3D, run through the website forex-3d.com, recruited Thai investors with promises of 60–80% returns from currency trading, split 60/40 in the investor's favor, for a minimum buy-in of about $2,000. Early "profits" were paid out on schedule and investors with large social-media followings encouraged their own followers to join, letting the group snowball for nearly five years before payments collapsed on September 8, 2020. Thailand's Department of Special Investigation (DSI), which built the case as Special Case No. 153/2562, ultimately tied the scheme to 9,825 victims who had invested a combined 2.49 billion baht. Alleged mastermind Apirak Kotethi fled after DSI obtained an arrest warrant for him in March 2020, and was tracked down and arrested at a Thonglor condominium in Bangkok on January 15, 2021, where investigators seized a Lamborghini Huracan (repainted from orange to blue to avoid recognition), a luxury watch, and other assets. On December 27, 2024, the Criminal Court convicted three co-defendants — Chatchai Khotchathin, Theeraphassakorn Kimwangtako, and Suranart Nakmusik — on one count of fraud for each of the 9,825 victims, technically sentencing each of them to 49,125 years in prison, a term Thai law caps at 20 years actually served, while acquitting several other defendants, including two Thai celebrities accused of promoting the scheme. The court additionally ordered 2.47 billion baht in restitution plus 7.5% annual interest running from April 2021, though further defendants — including an actress cleared in that same trial — continued moving through additional court proceedings well into 2026. DSI's case stands as one of Thailand's largest documented investment-fraud prosecutions and illustrates how quickly a closed, invitation-only "trading club" seeded through personal social-media endorsements can scale into a nationwide Ponzi scheme before regulators or victims recognize the payouts were never coming from real trading.`,
@@ -12150,6 +12180,45 @@ International.push(
 
 International.push(
   {
+    name: 'Togo Illegal Investment "Placement" Companies Ponzi Crackdown',
+    slug: 'togo-illegal-investment-placement-companies-ponzi-crackdown',
+    description: `On March 29, 2021, Togo's Minister of Economy and Finance, Sani Yaya, issued an official communiqué naming 15 unauthorized "investment placement" structures operating in the country, including Global Trade Corporation S.A.S., CACESPIC-IF Togo, Prosperity Investment Corporation (PIC) S.A., QNET, TIENS, Petronpay Togo, and Global Investment Trading (LIYEPLIMAL), among others. These firms solicited deposits from the public with promises of unusually high, flattering returns, operating on a Ponzi-style model where new members' money paid off earlier ones rather than any genuine economic activity. The Ministry stated that any activity soliciting public savings requires mandatory prior approval from BCEAO (the regional central bank) or other competent financial authorities, and ordered the 15 named structures to immediately cease all financial and advisory activity nationwide and reimburse funds collected from members without delay, or face criminal prosecution.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ["Ministère de l'Économie et des Finances (Togo)"],
+    sourceUrl: 'https://finances.gouv.tg/fin-de-course-pour-les-societes-de-placements-au-togo/',
+    country: 'TG',
+    isHistorical: true,
+    firstRecorded: '2021-03-29',
+  },
+  {
+    name: 'Togo Fake Land Ministry "Official Plot Sale" Facebook Scam',
+    slug: 'togo-fake-land-ministry-facebook-plot-sale-scam',
+    description: `On September 26, 2025, Togo's National Cybersecurity Agency (ANCy) issued an alert warning the public about a fake announcement circulating on Facebook that impersonated the Ministry of Urban Planning, Housing and Land Reform (MUHRF) and claimed to offer an "official sale of developed land parcels" through a link included in the post. ANCy verified with the Ministry that no such online plot-sale or subscription operation had ever been initiated, and found the linked site was built to harvest payments and personal data from anyone who tried to "register" or pay through it. The agency urged the public not to click the link or pay through any channel listed in the post, to verify land-sale announcements only through official government websites and certified social media accounts, and to report suspected fraud to CERT.tg.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Agence Nationale de Cybersécurité (ANCy - Togo)'],
+    sourceUrl: 'https://ancy.gouv.tg/alerte-a-la-population-fausse-information-en-circulation-sur-le-ministere-de-lurbanisme-de-lhabitat-et-de-la-reforme-fonciere-muhrf/',
+    country: 'TG',
+    isHistorical: true,
+    firstRecorded: '2025-09-26',
+  },
+  {
+    name: 'Togo QNET Afagnan Romance-to-Trafficking Recruitment Scam',
+    slug: 'togo-qnet-afagnan-romance-trafficking-recruitment-scam',
+    description: `In mid-August 2026, the Territorial Gendarmerie Brigade of Afagnan (Bas-Mono prefecture) arrested three suspects — identified as N. Mazama-Esso (35, alleged ringleader), A. Yawavi Françoise (26), and A. Ablavi Rosine (23) — for running a fraud network built around QNET, a Hong Kong-founded multi-level marketing company repeatedly characterized as a pyramid scheme by courts and regulators in multiple countries. One victim told gendarmes she was contacted on Facebook in 2025 by Mazama-Esso, who posed as a romantic interest before offering her a job in Cameroon; she paid 600,000 CFA francs for travel and placement but was instead trafficked to Nigeria, where she was coerced into recruiting further victims before escaping. Gendarmes said additional suspected members of the network remained at large, and presented the case as part of a broader pattern of fraudulent recruitment rings in the sub-region using fake romance and job offers as a pipeline into forced MLM recruitment and trafficking.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ["Gendarmerie Nationale Togolaise (Brigade Territoriale d'Afagnan)", 'République Togolaise'],
+    sourceUrl: 'https://www.republicoftogo.com/toutes-les-rubriques/faits-divers/qnet-une-structure-controversee-au-coeur-d-un-reseau-d-escroquerie-demantele-a-afagnan',
+    country: 'TG',
+    isHistorical: true,
+    firstRecorded: '2026-08-15',
+  },
+);
+
+International.push(
+  {
     name: 'Royal Bengal Logistics Trucking Investment Ponzi Scheme',
     slug: 'haiti-royal-bengal-logistics-trucking-ponzi-scheme',
     description: `A federal jury in the Southern District of Florida convicted Sanjay Singh, owner of the Coral Springs trucking firm Royal Bengal Logistics, Inc., on November 6, 2024, of wire fraud, money laundering, and conspiracy after prosecutors and the SEC showed he had run an elaborate Ponzi scheme through the company between 2020 and 2023. Singh sold contracts that promised investors an ownership stake in specific freight trucks and extremely high, steady interest payments, telling them the fleet was generating roughly $1 million a month and was about to expand to 200 trucks; in reality the trucking operation lost money, and new investors' cash was used to pay "returns" to earlier ones. Federal investigators found the scheme drew heavily on the Haitian-American community and ultimately collected more than $150 million from roughly 2,000 investors before it collapsed, with Singh diverting millions for a home renovation, a luxury vehicle, personal stock trading, and transfers to family overseas. He was sentenced on May 30, 2025 to 23 years in federal prison, and on February 9, 2026 a federal judge entered a $51,199,671 restitution judgment against him in favor of victims — a fraction of what was actually lost. The case is a reminder that a written contract and a real company name are not proof an investment is legitimate, especially when the promised returns are unusually high and steady regardless of market conditions.`,
@@ -16431,6 +16500,36 @@ International.push(
     sourceUrl: 'https://www.fontanka.ru/2023/05/15/72304694/',
     country: 'RU',
   },
+  {
+    name: 'USSD Code "Mobile Operator Check" SIM-Hijack Scam',
+    slug: 'russia-ussd-code-mobile-operator-simswap-scam',
+    description: `Russia's Ministry of Internal Affairs (MVD) warned in March 2025 of a scheme in which callers pose as technical staff from the victim's mobile carrier, claim they need to "check the phone line," and talk the victim into dialing a short on-device code such as #90 or #09 — in reality a USSD command that redirects the victim's calls and SMS, including one-time banking codes, to a number the fraudsters control. A related, escalated version has the caller impersonate a Gosuslugi (state services portal) representative or a credit-bureau employee, falsely claiming the victim's credit-freeze setting is wrong, then directing them to a messenger link to "confirm" login credentials. Once calls or SMS are rerouted, or credentials are captured, criminals access mobile-banking apps and the victim's Gosuslugi account. The ministry's guidance is to hang up immediately on anyone claiming to be a telecom engineer and never enter a code or symbol combination a caller dictates.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Russian Ministry of Internal Affairs (MVD)', 'Rossiyskaya Gazeta'],
+    sourceUrl: 'https://rg.ru/2025/03/16/moshenniki-izobreli-shemu-dlia-polucheniia-dostupa-k-sim-karte-i-mobilnomu-banku.html',
+    country: 'RU',
+  },
+  {
+    name: 'Crypto-Era Financial Pyramids and Fake Broker Platforms',
+    slug: 'russia-crypto-financial-pyramids-fake-brokers',
+    description: `The Bank of Russia (CBR) reported identifying more than 7,000 financial pyramids and other illegal financial-market schemes in 2025, with over 5,700 operating purely online, and some organizers republishing the identical scheme under more than 300 different brand names to dodge website blocking. The regulator said over 4,600 cryptocurrency wallets were used by victims of financial pyramids to deposit funds or by fake "brokers" to top up trading accounts, with organizers favoring crypto specifically for the anonymity it provides and increasingly using AI-generated content to recruit younger participants into schemes pitched as crypto, real-estate, or precious-metals investments. At the CBR's initiative, 21,500 fraudulent online resources were blocked in 2025, leading to more than 400 civil lawsuits and over 650 other enforcement actions. The CBR's consumer guidance urges the public to check any investment platform or "broker" against the Bank of Russia's official registry of licensed market participants before depositing funds, especially a scheme promising above-market returns paid in cryptocurrency.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Bank of Russia (Central Bank of the Russian Federation)'],
+    sourceUrl: 'https://cbr.ru/eng/press/event/?id=28356',
+    country: 'RU',
+  },
+  {
+    name: 'Courier Cash-Pickup Fraud Targeting Pensioners',
+    slug: 'russia-courier-cash-pickup-pensioner-fraud',
+    description: `Russia's Ministry of Internal Affairs recorded a 40 percent rise in courier-based fraud schemes in the first half of 2026. In the scheme, callers impersonating bank security staff, police, or an "investigator" frighten an elderly victim into believing their savings are at risk, then — instead of directing a bank transfer that automated anti-fraud systems are increasingly able to flag — instruct the victim to withdraw the money in cash and hand it to a "trusted representative" or courier who arrives at their home. The couriers themselves are frequently unwitting gig workers recruited through informal messenger-app job ads with no real employment contract, hired to "deliver a package" without being told it contains a victim's life savings, which leaves them exposed to fraud-related criminal liability even though they did not knowingly participate in the deception. The Bank of Russia recorded 458,600 unauthorized transactions totaling roughly 7.3 billion rubles in the period, underscoring why authorities stress that no legitimate bank, investigator, or government agency will ever send a courier to collect cash from a customer's home.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Russian Ministry of Internal Affairs (MVD)', 'Bank of Russia (Central Bank of the Russian Federation)', 'Kommersant'],
+    sourceUrl: 'https://www.kommersant.ru/doc/8910103',
+    country: 'RU',
+  },
 );
 
 International.push(
@@ -19187,6 +19286,41 @@ International.push({
     firstRecorded: '2026-07-13',
 });
 
+International.push({
+    name: 'Mobile Money Agent "Fake Network Confirmation" Float-Theft Scheme',
+    slug: 'tz-mobile-money-agent-float-theft-scheme',
+    description: `Fraudsters build trust with mobile money agents through small legitimate transactions, then send fabricated SMS messages designed to look like official network-operator transaction confirmations to trick agents into releasing cash for withdrawals that were never actually funded, often coordinating with accomplices to withdraw in quick increments before the agent notices. In Kariakoo, Dar es Salaam, agent Sifa Mwakibete lost Sh7 million this way after fraudsters posed as customers requesting large withdrawals; in another reported case, Dar es Salaam agent Leila Kisiel's customer was defrauded of Sh1.8 million through the same SMS-spoofing tactic, after the fraudster asked to use the agent's transaction phone and inserted their own number to impersonate the network operator. The Tanzania Police Force ran agent-training sessions in April 2026, with Inspector Ferister Kaywanga urging agents to verify funds before releasing cash and to never hand their transaction phone to a customer.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['The Citizen (Tanzania)', 'Tanzania Police Force'],
+    sourceUrl: 'https://www.thecitizen.co.tz/tanzania/news/national/mobile-money-agents-hit-by-rising-wave-of-fraud-cases-5463682',
+    country: 'TZ',
+});
+
+International.push({
+    name: 'Zanzibar Government Reserve Land Broker Fraud',
+    slug: 'tz-zanzibar-reserve-land-broker-fraud',
+    description: `Zanzibar Land Commission Executive Secretary Mussa Kombo Bakari warned on September 30, 2026 that unlicensed brokers are advertising and selling government agricultural and forest reserve land on social media in Paje, Jambiani, Fumba, Bwejuu, Michamvi, Makunduchi, and Kendwa without verifying ownership, stating that "some of these areas do not belong to the people using brokers to advertise them for sale. Some are Government agricultural and forest reserves." Bakari said the Commission would begin arresting those who advertise such land and require them to identify who hired them, with violations of the Land Commission Act No. 6 of 2015 and Land Tenure Act No. 12 of 1992 carrying fines and imprisonment. Prospective buyers are advised to verify a plot's ownership and status with the Land Commission before paying anything.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['Zanzibar Land Commission', 'The Citizen (Tanzania)'],
+    sourceUrl: 'https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-warns-land-brokers-over-sale-of-government-plots-5615548',
+    country: 'TZ',
+    firstRecorded: '2026-09-30',
+});
+
+International.push({
+    name: 'Fake Police Officer Abduction and Extortion Scheme',
+    slug: 'tz-fake-police-officer-abduction-extortion',
+    description: `Geita Regional Police Commander Safia Jongo publicly warned on April 8, 2025 of increasing reports of abductions by individuals dressed in police uniforms and using vehicles believed to be government-owned, who fail to identify themselves or their station before detaining people, stating that "if someone cannot do that, they are not a police officer; they could be a bandit or criminal impersonating law enforcement." Jongo also said it is illegal for ward or village executive officers to run unofficial local detention centers, a practice tied to the same pattern of unauthorized detention, excessive force, and extortion. The public is advised to demand a valid police ID, the officer's home station, and a search warrant before submitting to any arrest or search.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Tanzania Police Force', 'The Citizen (Tanzania)'],
+    sourceUrl: 'https://www.thecitizen.co.tz/tanzania/news/national/no-arrest-without-id-tanzania-s-police-warns-public-against-fake-officers-4996062',
+    country: 'TZ',
+    firstRecorded: '2025-04-08',
+});
+
 International.push(
   {
     name: 'ADV Advertising "ADVAPP" Vending-Machine Pyramid Scheme',
@@ -20984,66 +21118,6 @@ International.push(
     sources: ['Comores Infos', 'SONELEC (Société Nationale d\'Électricité)'],
     sourceUrl: 'https://www.comoresinfos.net/escroquerie-a-grande-echelle-la-sonelec-alerte-sur-les-agissements-dibrahim-abdallah-le-faussaire-de-confiance/',
     country: 'KM',
-  },
-{
-    name: 'Fake Swiss Tax Administration (ESTV) Refund Phishing Scam',
-    slug: 'switzerland-estv-tax-refund-phishing-scam',
-    description: `Fraudsters email Swiss taxpayers claiming the Federal Tax Administration (ESTV) owes them a refund — one wave cited exactly CHF 736 — linking to a convincing fake ESTV website that collects name, email, and credit-card details under the pretext of processing the "refund." After submission, the criminals intercept the one-time SMS code meant to authorize the victim's own card and use it to push through a real charge, defeating two-factor authentication rather than just harvesting static data. The emails impose an artificial short deadline, in some cases as little as two hours, and have been sent from spoofed domains rather than the genuine "@admin.ch," with telltale signs including stray German characters that don't appear in Swiss German and awkward machine-translated phrasing. ESTV states it never requests credit-card details or promises refunds by email, and that legitimate communications only ever come from an @admin.ch address, with any real refund paid to an IBAN rather than a card.`,
-    categorySlug: 'tax-scams',
-    country: 'CH',
-    alertLevel: 'high',
-    sources: ['Federal Tax Administration (ESTV)', 'Federal Office for Cybersecurity (BACS)', 'cybercrimepolice.ch', 'Blick'],
-    sourceUrl: 'https://www.blick.ch/schweiz/betrueger-haben-dazugelernt-achtung-vor-dieser-steuer-betrugsmasche-id20488824.html',
-  },
-{
-    name: 'Fake AHV Supplementary-Benefits "Eligibility Review" Phishing Scam',
-    slug: 'switzerland-ahv-supplementary-benefits-phishing-scam',
-    description: `Professionally designed emails impersonating the Federal Social Insurance Office (BSV) tell recipients that, because of alleged regulatory changes taking effect January 1, 2026, their eligibility for AHV supplementary benefits (Ergänzungsleistungen) must be reviewed, linking to a cloned fake BSV portal. The flow runs in stages to build trust: it first collects personal details and an AHV number, then shows a fabricated benefit calculation to make the payout feel earned, asks for banking details to "pay out" the entitlement, and finally claims the supplied IBAN "failed verification" so the victim hands over full credit-card details instead, including expiry date and security code. Cybercrimepolice.ch, run by Swiss cantonal police, published the alert after the campaign began circulating, advising recipients to never click the links, to verify any claimed status change directly with their cantonal AHV compensation office, and — if card details were already given — to contact their bank immediately to block the card and file a police report.`,
-    categorySlug: 'public-benefits-fraud',
-    country: 'CH',
-    alertLevel: 'high',
-    sources: ['cybercrimepolice.ch (Swiss cantonal police)', 'Federal Social Insurance Office (BSV) (impersonated)'],
-    sourceUrl: 'https://cybercrimepolice.ch/de/faelle/betrueger-locken-mit-ahv-ergaenzungsleistungen',
-  },
-{
-    name: 'Unauthorized "Swiss-Regulated" Investment Firms on FINMA\'s Warning List',
-    slug: 'switzerland-finma-unauthorized-investment-firms',
-    description: `Switzerland's Financial Market Supervisory Authority (FINMA) maintains a public warning list of companies and individuals suspected of offering banking, investment, or insurance services in Switzerland without the required authorization — frequently while implying or outright claiming Swiss regulatory approval they do not actually have. FINMA opened roughly 450 investigations into potentially unauthorized providers in 2025 and added more than 300 new entries to the warning list over the year, a volume the regulator itself called a high point, with listed entities including Wintons Investment S.A., Novapago AG, and Value Capital AG. Because an entry only flags a lack of authorization rather than proving fraud outright, and the list is neither exhaustive nor updated daily, FINMA tells consumers to independently check any firm soliciting their money against its separate registry of licensed institutions before investing, and to treat any unlicensed firm claiming Swiss bank or broker status as a serious red flag regardless of how official its marketing looks.`,
-    categorySlug: 'investment-fraud',
-    country: 'CH',
-    alertLevel: 'high',
-    sources: ['Swiss Financial Market Supervisory Authority (FINMA)', 'SWI swissinfo.ch'],
-    sourceUrl: 'https://www.swissinfo.ch/eng/various/finma-closes-significantly-more-proceedings-in-2025/91289905',
-  },
-  {
-    name: 'USSD Code "Mobile Operator Check" SIM-Hijack Scam',
-    slug: 'russia-ussd-code-mobile-operator-simswap-scam',
-    description: `Russia's Ministry of Internal Affairs (MVD) warned in March 2025 of a scheme in which callers pose as technical staff from the victim's mobile carrier, claim they need to "check the phone line," and talk the victim into dialing a short on-device code such as #90 or #09 — in reality a USSD command that redirects the victim's calls and SMS, including one-time banking codes, to a number the fraudsters control. A related, escalated version has the caller impersonate a Gosuslugi (state services portal) representative or a credit-bureau employee, falsely claiming the victim's credit-freeze setting is wrong, then directing them to a messenger link to "confirm" login credentials. Once calls or SMS are rerouted, or credentials are captured, criminals access mobile-banking apps and the victim's Gosuslugi account. The ministry's guidance is to hang up immediately on anyone claiming to be a telecom engineer and never enter a code or symbol combination a caller dictates.`,
-    categorySlug: 'account-takeover',
-    alertLevel: 'high',
-    sources: ['Russian Ministry of Internal Affairs (MVD)', 'Rossiyskaya Gazeta'],
-    sourceUrl: 'https://rg.ru/2025/03/16/moshenniki-izobreli-shemu-dlia-polucheniia-dostupa-k-sim-karte-i-mobilnomu-banku.html',
-    country: 'RU',
-  },
-  {
-    name: 'Crypto-Era Financial Pyramids and Fake Broker Platforms',
-    slug: 'russia-crypto-financial-pyramids-fake-brokers',
-    description: `The Bank of Russia (CBR) reported identifying more than 7,000 financial pyramids and other illegal financial-market schemes in 2025, with over 5,700 operating purely online, and some organizers republishing the identical scheme under more than 300 different brand names to dodge website blocking. The regulator said over 4,600 cryptocurrency wallets were used by victims of financial pyramids to deposit funds or by fake "brokers" to top up trading accounts, with organizers favoring crypto specifically for the anonymity it provides and increasingly using AI-generated content to recruit younger participants into schemes pitched as crypto, real-estate, or precious-metals investments. At the CBR's initiative, 21,500 fraudulent online resources were blocked in 2025, leading to more than 400 civil lawsuits and over 650 other enforcement actions. The CBR's consumer guidance urges the public to check any investment platform or "broker" against the Bank of Russia's official registry of licensed market participants before depositing funds, especially a scheme promising above-market returns paid in cryptocurrency.`,
-    categorySlug: 'ponzi-pyramid-schemes',
-    alertLevel: 'high',
-    sources: ['Bank of Russia (Central Bank of the Russian Federation)'],
-    sourceUrl: 'https://cbr.ru/eng/press/event/?id=28356',
-    country: 'RU',
-  },
-  {
-    name: 'Courier Cash-Pickup Fraud Targeting Pensioners',
-    slug: 'russia-courier-cash-pickup-pensioner-fraud',
-    description: `Russia's Ministry of Internal Affairs recorded a 40 percent rise in courier-based fraud schemes in the first half of 2026. In the scheme, callers impersonating bank security staff, police, or an "investigator" frighten an elderly victim into believing their savings are at risk, then — instead of directing a bank transfer that automated anti-fraud systems are increasingly able to flag — instruct the victim to withdraw the money in cash and hand it to a "trusted representative" or courier who arrives at their home. The couriers themselves are frequently unwitting gig workers recruited through informal messenger-app job ads with no real employment contract, hired to "deliver a package" without being told it contains a victim's life savings, which leaves them exposed to fraud-related criminal liability even though they did not knowingly participate in the deception. The Bank of Russia recorded 458,600 unauthorized transactions totaling roughly 7.3 billion rubles in the period, underscoring why authorities stress that no legitimate bank, investigator, or government agency will ever send a courier to collect cash from a customer's home.`,
-    categorySlug: 'government-impersonation',
-    alertLevel: 'high',
-    sources: ['Russian Ministry of Internal Affairs (MVD)', 'Bank of Russia (Central Bank of the Russian Federation)', 'Kommersant'],
-    sourceUrl: 'https://www.kommersant.ru/doc/8910103',
-    country: 'RU',
   },
 );
 
@@ -23585,39 +23659,4 @@ International.push({
     sources: ["Brunei Darussalam Central Bank (BDCB) and Cyber Security Brunei (CSB) — joint reminder regarding counterfeit notes and financial scams"],
     sourceUrl: "https://www.csb.gov.bn/reminder-regarding-counterfeit-notes-and-financial-scams",
     country: "BN",
-});
-
-International.push({
-    name: 'Mobile Money Agent "Fake Network Confirmation" Float-Theft Scheme',
-    slug: 'tz-mobile-money-agent-float-theft-scheme',
-    description: `Fraudsters build trust with mobile money agents through small legitimate transactions, then send fabricated SMS messages designed to look like official network-operator transaction confirmations to trick agents into releasing cash for withdrawals that were never actually funded, often coordinating with accomplices to withdraw in quick increments before the agent notices. In Kariakoo, Dar es Salaam, agent Sifa Mwakibete lost Sh7 million this way after fraudsters posed as customers requesting large withdrawals; in another reported case, Dar es Salaam agent Leila Kisiel's customer was defrauded of Sh1.8 million through the same SMS-spoofing tactic, after the fraudster asked to use the agent's transaction phone and inserted their own number to impersonate the network operator. The Tanzania Police Force ran agent-training sessions in April 2026, with Inspector Ferister Kaywanga urging agents to verify funds before releasing cash and to never hand their transaction phone to a customer.`,
-    categorySlug: 'phishing',
-    alertLevel: 'high',
-    sources: ['The Citizen (Tanzania)', 'Tanzania Police Force'],
-    sourceUrl: 'https://www.thecitizen.co.tz/tanzania/news/national/mobile-money-agents-hit-by-rising-wave-of-fraud-cases-5463682',
-    country: 'TZ',
-});
-
-International.push({
-    name: 'Zanzibar Government Reserve Land Broker Fraud',
-    slug: 'tz-zanzibar-reserve-land-broker-fraud',
-    description: `Zanzibar Land Commission Executive Secretary Mussa Kombo Bakari warned on September 30, 2026 that unlicensed brokers are advertising and selling government agricultural and forest reserve land on social media in Paje, Jambiani, Fumba, Bwejuu, Michamvi, Makunduchi, and Kendwa without verifying ownership, stating that "some of these areas do not belong to the people using brokers to advertise them for sale. Some are Government agricultural and forest reserves." Bakari said the Commission would begin arresting those who advertise such land and require them to identify who hired them, with violations of the Land Commission Act No. 6 of 2015 and Land Tenure Act No. 12 of 1992 carrying fines and imprisonment. Prospective buyers are advised to verify a plot's ownership and status with the Land Commission before paying anything.`,
-    categorySlug: 'mortgage-foreclosure-scams',
-    alertLevel: 'medium',
-    sources: ['Zanzibar Land Commission', 'The Citizen (Tanzania)'],
-    sourceUrl: 'https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-warns-land-brokers-over-sale-of-government-plots-5615548',
-    country: 'TZ',
-    firstRecorded: '2026-09-30',
-});
-
-International.push({
-    name: 'Fake Police Officer Abduction and Extortion Scheme',
-    slug: 'tz-fake-police-officer-abduction-extortion',
-    description: `Geita Regional Police Commander Safia Jongo publicly warned on April 8, 2025 of increasing reports of abductions by individuals dressed in police uniforms and using vehicles believed to be government-owned, who fail to identify themselves or their station before detaining people, stating that "if someone cannot do that, they are not a police officer; they could be a bandit or criminal impersonating law enforcement." Jongo also said it is illegal for ward or village executive officers to run unofficial local detention centers, a practice tied to the same pattern of unauthorized detention, excessive force, and extortion. The public is advised to demand a valid police ID, the officer's home station, and a search warrant before submitting to any arrest or search.`,
-    categorySlug: 'government-impersonation',
-    alertLevel: 'medium',
-    sources: ['Tanzania Police Force', 'The Citizen (Tanzania)'],
-    sourceUrl: 'https://www.thecitizen.co.tz/tanzania/news/national/no-arrest-without-id-tanzania-s-police-warns-public-against-fake-officers-4996062',
-    country: 'TZ',
-    firstRecorded: '2025-04-08',
 });

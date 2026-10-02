@@ -11337,6 +11337,10 @@ NotoriousGM.push({
     slug: 'marios-iliopoulos-brillante-virtuoso-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_Navy_110706-N-ZZ999-063_Sailors_assigned_to_USS_Philippine_Sea_(CG_58)_approach_a_life_boat_to_rescue_crew_members_from_MT_Brilliante_Virtuoso.jpg?width=1200',
+    coverImageCredit: 'Photo: Chief Intelligence Specialist Raynald Lenieux, U.S. Navy (public domain)',
+    coverImagePosition: 50,
     body: `On July 6, 2011, the Suezmax oil tanker Brillante Virtuoso was sailing through the Gulf of Aden, roughly 20 nautical miles southwest of Aden, Yemen, carrying fuel oil cargo reported to be worth around $100 million, when its crew radioed that they were under attack by Somali pirates armed with small arms and a rocket-propelled grenade. A fire broke out on board, the crew abandoned ship, and the USS Philippine Sea responded to rescue all 26 Filipino crew members. No pirates were found anywhere near the scene.
 
 The story started falling apart almost as soon as marine surveyors got a close look at the damage. Rather than the outside-in penetration a real pirate attack would leave, investigators found that AK-47 rounds had been fired from inside the ship. The English High Court later found that the attack had been staged from the start: hired men posing as Somali pirates — actually present or former members of the Yemeni coast guard or navy — had been brought aboard with the cooperation of the vessel's own officers, while a local salvage firm stood ready to profit from the "rescue." The ship's beneficial owner, Greek shipping magnate Marios Iliopoulos, who was facing significant financial difficulties at the time, was found to have orchestrated the entire scheme in order to collect on a war-risk insurance policy covering the vessel.

@@ -3614,6 +3614,10 @@ NotoriousTZ.push({
     author: 'ScamShield Editorial',
     slug: 'xu-chaofan-xu-guojun-bank-of-china-kaiping-fraud',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Majianlong_Village_18653-Kaiping_(49037645438).jpg?width=1200',
+    coverImageCredit: 'Photo: Xiquinho Silva, Kaiping diaolou towers, Guangdong (CC BY 2.0)',
+    coverImagePosition: 50,
     body: `The Kaiping sub-branch of the Bank of China, in Guangdong province, was an unremarkable outpost of one of China's largest state-owned banks — which made it an almost perfect place to hide a decade-long theft. From 1992 to 2001, three men who successively served as the branch's president — Xu Chaofan, Xu Guojun, and Yu Zhendong — used their authority over the branch's books to siphon out roughly $482 million through fabricated loans and falsified account records, making it the largest bank-embezzlement scandal in Chinese history at the time it came to light.
 
 The three men laundered the stolen funds through shell companies registered in Hong Kong before moving the money into personal and investment accounts in Canada and the United States; a significant portion was gambled away at Las Vegas casinos. In October 2001, with bank auditors closing in, all three fled China for the United States on fraudulently obtained visas based on sham marriages, along with their wives. Yu Zhendong was arrested in Los Angeles in December 2002 on visa-fraud charges; facing prosecution, he agreed to cooperate with both American and Chinese authorities and in 2004 became the first corrupt mainland Chinese official voluntarily repatriated to China under a bilateral law-enforcement arrangement, where a Chinese court sentenced him to 12 years. Xu Chaofan and Xu Guojun, arrested in the U.S. in 2004 along with their wives, chose instead to fight the case.

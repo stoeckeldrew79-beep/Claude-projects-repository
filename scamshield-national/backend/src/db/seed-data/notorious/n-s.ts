@@ -7903,6 +7903,9 @@ NotoriousNS.push({
     slug: 'rana-kapoor-yes-bank-dhfl-kickback-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rana_Kapoor,_CEO_of_Yes_bank,_at_the_World_Economic_Forum_on_India_2012.jpg?width=1200',
+    coverImageCredit: 'Photo: Benedikt von Loebell / World Economic Forum (CC BY-SA 2.0)',
+    coverImagePosition: 30,
     body: `Rana Kapoor co-founded Yes Bank in 2003 with his brother-in-law Ashok Kapoor and investor Harkirat Singh, after Rabobank backed their application for one of the last new private banking licenses India's central bank issued that decade. Under Kapoor's leadership as CEO, Yes Bank grew rapidly into one of India's largest private lenders, building a reputation — and a loan book — around a willingness to extend large credit lines to stressed companies and promoters that more conservative banks had already turned away.
 
 That lending pattern became the basis for a criminal case. Indian investigators allege that between April and June 2018, Yes Bank invested roughly ₹3,700 crore (about $500 million) in short-term debentures of Dewan Housing Finance Corporation Ltd. (DHFL), a non-bank lender that was itself unraveling under its own fraud allegations. In exchange, the Central Bureau of Investigation says DHFL's promoters, Kapil and Dheeraj Wadhawan, funneled a kickback — reported at well over $100 million — back to Kapoor, structured as a loan to DoIT Urban Ventures, a company controlled by his wife and daughters, who used the money to buy premium real estate in Delhi and Mumbai. Investigators describe this as one instance of a broader pattern across Kapoor's tenure: India's Enforcement Directorate has alleged roughly ₹4,300 crore (more than $500 million) in total illicit benefits to Kapoor and his family tied to loans Yes Bank extended to various stressed corporate borrowers.
@@ -7937,6 +7940,10 @@ NotoriousNS.push({
     slug: 'patrice-lescaudron-credit-suisse-private-banking-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'bank-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cr%C3%A9dit_Suisse_@_Place_de_Bel_Air_@_Gen%C3%A8ve_(50686996237).jpg?width=1200',
+    coverImageCredit: 'Photo: Guilhem Vellut, Credit Suisse building, Geneva (CC BY 2.0)',
+    coverImagePosition: 50,
     body: `Patrice Lescaudron was, by his bank's own account, a star. A French private banker on Credit Suisse's Geneva desk serving wealthy clients from Russia, Ukraine, and Central Asia, he built a client roster that included Bidzina Ivanishvili, the billionaire businessman who would go on to serve as Georgia's prime minister, and Vitaly Malkin, a prominent Russian businessman and former senator. Inside the bank, Lescaudron was treated as exactly the kind of rainmaker private banking is built around — someone who could be trusted to manage enormous, sensitive fortunes with minimal oversight.
 
 For roughly eight years, that trust let him run one of the more brazen private-banking frauds in recent memory. When trades he made for clients lost money, Lescaudron didn't disclose the losses — he hid them, using forged documents to make his unauthorized activity invisible. Investigators later described how he copy-pasted clients' signatures onto transfer orders and trade confirmations they had never approved, moved money between different clients' accounts without permission to plug the holes his losing trades had created, and fabricated account statements so that none of the affected clients saw what was actually happening to their money. By the time the scheme was uncovered, the fraud had produced losses of 143 million Swiss francs, while Lescaudron personally pocketed around 30 million francs, funding a visibly lavish lifestyle that, in hindsight, should have raised questions on its own.

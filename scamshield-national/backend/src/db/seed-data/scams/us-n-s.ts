@@ -11351,3 +11351,16 @@ UsNS.push({
     state: 'NC',
     firstRecorded: '2026-03-27',
 });
+
+UsNS.push({
+    name: 'Warwick "Bail Money" Grandparent Scam Cash-Courier Ring (Rhodes & Munoz)',
+    slug: 'rhode-island-warwick-grandparent-bail-scam-rhodes-munoz',
+    description: `Federal prosecutors charged Jason Rhodes, 34, of Flushing, NY, and Robert Munoz, 29, of Miami, FL, with conspiracy to commit wire fraud and aggravated identity theft after they allegedly served as cash-pickup couriers in a "grandparent scam" ring that called Rhode Island and Massachusetts seniors claiming a grandchild had been arrested and needed bail money immediately. In March 2024, Warwick police arrested Rhodes after a foot pursuit when he arrived at a victim's home to collect cash; Munoz, the alleged getaway driver, was later tied to the scheme after roughly $60,000 in cash was recovered from his hotel room. Investigators attributed about $230,000 in total losses to the pair across more than a dozen communities.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Rhode Island", 'Warwick Police Department'],
+    sourceUrl: 'https://www.foxbangor.com/news/national/alleged-grandparent-scammers-charged-in-rhode-island-for-role-in-targeting-seniors/article_2950b047-74bc-557c-a89e-bff3920cf37d.html',
+    country: 'US',
+    state: 'RI',
+    isHistorical: true,
+});

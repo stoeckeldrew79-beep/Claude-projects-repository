@@ -11908,3 +11908,27 @@ UsGM.push({
     country: 'US',
     state: 'MI',
 });
+
+UsGM.push({
+    name: 'Xcel Energy Prepaid-Card Disconnection-Threat Scam',
+    slug: 'minnesota-xcel-energy-prepaid-card-disconnection-scam',
+    description: `Scammers impersonating Xcel Energy call Minnesota customers claiming their account is overdue and threaten to disconnect service within the hour unless they pay immediately. Victims are instructed to buy a prepaid debit or credit card and call back to read off the card numbers as "payment." Callers often spoof caller ID to display Xcel Energy's name and sound like legitimate representatives. Xcel Energy has confirmed it never demands prepaid-card or wire payment, and always mails written notice before a formal disconnection notice is issued.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Xcel Energy'],
+    sourceUrl: 'https://kroc.com/xcel-energy-utility-payment-scam-minnesota/',
+    country: 'US',
+    state: 'MN',
+});
+
+UsGM.push({
+    name: 'MnDOT Fake Unpaid Toll/E-ZPass Text Scam',
+    slug: 'minnesota-mndot-fake-toll-ezpass-text-scam',
+    description: `The Minnesota Department of Transportation (MnDOT) has warned residents of fraudulent text messages impersonating MnDOT or E-ZPass claiming the recipient owes an unpaid toll, invoice, or violation. The texts create urgency with threats of escalating fines and include a link asking the victim to "verify" personal and payment information. MnDOT states plainly: "We will never text or email you asking for personal or sensitive information. For your security, we do not accept credit card numbers by mail, email, chat, or voicemail."`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Minnesota Department of Transportation (MnDOT)'],
+    sourceUrl: 'https://www.fox9.com/news/mndot-text-scams-toll-payments',
+    country: 'US',
+    state: 'MN',
+});

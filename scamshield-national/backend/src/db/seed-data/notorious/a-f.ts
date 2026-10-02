@@ -10900,6 +10900,10 @@ NotoriousAF.push({
     slug: 'david-smith-olint-forex-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'ponzi-scheme'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Providenciales_(Turks_and_Caicos_Islands)_banner_Chalk_Sound.jpg?width=1200',
+    coverImageCredit: 'Photo: Tim Sackton, Chalk Sound, Providenciales, Turks and Caicos (CC BY-SA 2.0)',
+    coverImagePosition: 50,
     body: `David Smith founded Olint Corporation in Jamaica in 2004, presenting it as an exclusive foreign-currency trading club that could turn ordinary savings into extraordinary wealth. Smith told investors he was generating roughly 10 percent in monthly returns through sophisticated currency trading, and word of the returns spread through Jamaica's professional and political classes by referral — tens of millions of dollars flowed in from everyday savers alongside high-ranking Jamaican officials who wanted in. Smith cultivated the image of a local financial genius, and for several years Olint seemed to deliver exactly what it promised.
 
 It was a Ponzi scheme from the start. Smith was not generating meaningful trading profits; he admitted in his plea agreement that he paid "returns" to existing investors out of their own money or money supplied by subsequent investors, while diverting a substantial share into his own accounts to fund political contributions, gambling, a down payment on a Learjet, and sponsorship of the Jamaica Jazz and Blues Festival. When Jamaica's Financial Services Commission began scrutinizing Olint around 2006, Smith did not shut the scheme down — he relocated its base of operations to the Turks and Caicos Islands, a jurisdiction with lighter securities oversight, and kept recruiting. By the time it collapsed, Olint had drawn in roughly 6,000 investors across Jamaica, the Turks and Caicos, and the United States, and taken in more than $220 million.
