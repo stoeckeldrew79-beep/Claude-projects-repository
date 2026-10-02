@@ -11364,3 +11364,40 @@ UsNS.push({
     state: 'RI',
     isHistorical: true,
 });
+
+UsNS.push({
+    name: 'NV Energy Phone and Door-to-Door Impersonation Scam',
+    slug: 'nv-energy-phone-door-to-door-impersonation-scam',
+    description: `Scammers spoof NV Energy's caller ID or show up in person claiming a meter upgrade or overdue bill requires immediate payment, threatening to shut off power within the hour if the customer doesn't pay on the spot. They demand payment via gift cards, Zelle, Venmo, MoneyPak, Bitcoin, or a QR/bar code — methods NV Energy says it never uses — and some calls use recordings that mimic the utility's real automated phone system. NV Energy says it "will not call customers to demand an immediate payment for any reason," confirms its employees and contractors always carry identification, and urges customers to hang up and call the utility directly — 702-402-5555 in Southern Nevada or 775-834-4444 in Northern Nevada — to verify any account issue.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['NV Energy', 'News 3 Las Vegas (KSNV)'],
+    sourceUrl: 'https://news3lv.com/news/local/nv-energy-warns-of-new-phone-scam-related-to-meter-upgrades-electricity-utility-fraud-southern-nevada-las-vegas-scam-alert',
+    country: 'US',
+    state: 'NV',
+});
+
+UsNS.push({
+    name: 'Las Vegas Metro Police Jury Duty and Missed Court Date Warrant Scam',
+    slug: 'las-vegas-metro-jury-duty-missed-court-date-warrant-scam',
+    description: `Callers impersonating Las Vegas Metropolitan Police officers or court officials tell residents they missed jury duty or a court appearance and that a warrant has been issued for their arrest, sometimes using the real names of officers to sound more credible. They may follow up with a fabricated warrant document showing the victim's name and a bogus bond amount, then pressure the victim to withdraw cash or send money immediately to avoid arrest. LVMPD reported "numerous reports" of these calls surging in late July 2026 and says real officers and courts never demand payment by phone or text — anyone contacted this way should hang up and verify independently with LVMPD or the courts rather than engage the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Las Vegas Metropolitan Police Department', 'FOX5 Las Vegas'],
+    sourceUrl: 'https://www.fox5vegas.com/2026/07/21/las-vegas-police-warns-scam-calls-threatening-arrest-over-missed-court-dates-jury-duty/',
+    country: 'US',
+    state: 'NV',
+    firstRecorded: '2026-07-21',
+});
+
+UsNS.push({
+    name: 'Nevada Department of Taxation Fraudulent Notice and Text Message Scam',
+    slug: 'nevada-department-of-taxation-fraudulent-notice-text-scam',
+    description: `The Nevada Department of Taxation has warned of fraudulent notices and text messages impersonating the agency, with some claiming an unpaid tax debt will trigger seizure of Social Security benefits or garnishment of wages and bank accounts unless the recipient pays immediately — enforcement the Department says it has no authority to take without further legal action. Other versions send texts linking to counterfeit webpages built to steal credit card, banking, and personal information. The Department does not request payment over the phone or by untraceable methods, and asks anyone who receives a suspicious notice to call 1-866-962-3707 to report it.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Nevada Department of Taxation'],
+    sourceUrl: 'https://www.2news.com/townnews/law/nevada-department-of-taxation-warns-taxpayers-of-fraudulent-notice/article_43f5586c-baae-11ec-8317-e3821bfd8dfb.html',
+    country: 'US',
+    state: 'NV',
+});

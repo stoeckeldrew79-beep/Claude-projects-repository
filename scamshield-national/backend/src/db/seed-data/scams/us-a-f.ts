@@ -11458,3 +11458,40 @@ UsAF.push({
     country: 'US',
     state: 'AL',
 });
+
+UsAF.push({
+    name: 'MV Realty 40-Year "Homeowner Benefit Agreement" Predatory Listing Scheme',
+    slug: 'mv-realty-homeowner-benefit-agreement-connecticut',
+    description: `Florida-based MV Realty offered Connecticut homeowners a small upfront cash payment — often just a few hundred dollars — in exchange for an exclusive right to list their home for sale for 40 years, recorded as a lien directly on the property's land records. Homeowners who canceled early or sold through another agent faced a penalty equal to 3% of their home's market value, often thousands of dollars, and many did not discover the lien until they tried to sell or refinance. An investigation by Attorney General William Tong's office found nearly 400 Connecticut homeowners had signed these agreements, leading him to say "MV Realty preyed on hundreds of Connecticut homeowners with scam deals" and to push successfully for a state law voiding any such exclusive listing deal lasting longer than one year or recorded on land records.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['Connecticut Office of the Attorney General'],
+    sourceUrl: 'https://portal.ct.gov/AG/Press-Releases/2024-Press-Releases/Attorney-General-Tong-Seeks-to-Ban-Predatory-Real-Estate-Listing-Agreements-Following-Investigation',
+    country: 'US',
+    state: 'CT',
+    firstRecorded: '2024-02-29',
+});
+
+UsAF.push({
+    name: 'Quit Claim Deed Property Title Theft Fraud',
+    slug: 'connecticut-quit-claim-deed-title-fraud',
+    description: `Fraudsters identify a Connecticut property — sometimes vacant land or a home with an absent or elderly owner — and file a forged quit claim deed on the town land records purporting to transfer ownership to themselves, then attempt to sell or borrow against the property before the real owner notices. As one Connecticut town clerk put it, property fraud happens "when someone attempts to steal a property by filing a quit claim deed on the parcel without the property owner knowing, or by forging someone's identity." In response, Manchester and other Connecticut towns now offer a free PropertyCheck alert service that automatically texts or emails a property owner whenever any new document is recorded against their parcel, letting them catch a fraudulent filing before a sale or refinance can close.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ["Town of Manchester, Connecticut (Town Clerk's Office)"],
+    sourceUrl: 'https://www.manchesterct.gov/Government/Latest-News/PropertyCheck-Service-is-Now-Available-to-Manchester-Residents',
+    country: 'US',
+    state: 'CT',
+});
+
+UsAF.push({
+    name: '"Operation Black Pistol" Healthcare-License Extortion Calls Targeting Connecticut Doctors',
+    slug: 'connecticut-healthcare-license-extortion-scam',
+    description: `Scammers posing as FBI or DEA agents call Connecticut physicians and other professionals licensed to prescribe controlled substances, falsely claiming the victim is under federal investigation for drug trafficking — citing a fabricated operation name such as "Operation Black Pistol" — and that their prescribing license will be revoked unless they act immediately. Callers use real federal agents' names, send a fake arrest-warrant document by email to look official, and instruct the victim not to contact an attorney or family member while staying on the phone until money is sent. FBI New Haven special agent in charge Steven Shapiro said "we will never ask you to provide cash to make an arrest warrant go away," and DEA Hartford resident agent in charge Brian Malagrida noted that a genuine court document "wouldn't have any operation details or any investigation details." Connecticut victims have lost between $30,000 and $800,000 to the scheme, part of roughly $10 million lost nationwide; anyone contacted this way should hang up and report it at ic3.gov or NewHaven@FBI.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['Federal Bureau of Investigation (FBI) New Haven Field Office', 'U.S. Drug Enforcement Administration (DEA), Hartford'],
+    sourceUrl: 'https://www.wfsb.com/2025/02/04/fbi-scammers-targeting-connecticut-doctors/',
+    country: 'US',
+    state: 'CT',
+});

@@ -23696,3 +23696,37 @@ International.push({
   country: 'CG',
   firstRecorded: '2019-07-15',
 });
+
+International.push({
+  name: 'BCEAO Governor Deepfake Investment Platform Scam',
+  slug: 'ivory-coast-bceao-governor-deepfake-investment-scam',
+  description: `An AI-generated deepfake video circulated on social media in September 2026 showing the Governor of the regional central bank BCEAO, Jean-Claude Kassi Brou, falsely appearing to endorse an investment platform aimed at "populations of Côte d'Ivoire," urging viewers to deposit money for high returns. The BCEAO issued a formal denial on September 17, 2026, confirming the video was fabricated using artificial-intelligence tools and stating it offers no investment products, sponsors no investment platform, and never solicits fund transfers from the public. The bank urged citizens to rely only on its official channels and said it reserved the right to pursue legal action against whoever produced and spread the video.`,
+  categorySlug: 'ai-deepfake-scams',
+  alertLevel: 'high',
+  sources: ["Banque Centrale des États de l'Afrique de l'Ouest (BCEAO)", 'LeJecos'],
+  sourceUrl: 'https://www.lejecos.com/Diffusion-d-une-video-frauduleuse-de-son-gouverneur-La-Bceao-dement-et-appelle-les-populations-a-la-vigilance_a31518.html',
+  country: 'CI',
+  firstRecorded: '2026-09-17',
+});
+
+International.push({
+  name: 'Fake "PLCC" Case-Resolution Extortion Scam',
+  slug: 'ivory-coast-fake-plcc-case-resolution-scam',
+  description: `Fraudsters create fake Facebook pages and profiles impersonating Côte d'Ivoire's own cybercrime authority, the Plateforme de Lutte Contre la Cybercriminalité (PLCC), copying its real logo and posts to appear authentic. Posing as PLCC agents, they contact people online — often cybercrime victims seeking help — and offer to resolve their case or recover stolen funds for an upfront fee, which the real PLCC never charges. Police arrested a suspect who, during interrogation, admitted creating a fake "PLCC" page and several fraudulent profiles used specifically to extract money from online victims this way, and the real PLCC confirmed the accounts were not its own. Filing a complaint with the actual PLCC is always free, and it can only be reached via its Cocody Danga office or verified phone line, never through an unsolicited paid "case resolution" offer.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Plateforme de Lutte Contre la Cybercriminalité (PLCC)', 'Africa Cybersecurity Mag'],
+  sourceUrl: 'https://en.cybersecuritymag.africa/cote-ivoire-escroque-victimes-en-faisant-passer-pour-la-plcc',
+  country: 'CI',
+});
+
+International.push({
+  name: 'Wave "Fake Gift" Mobile Money Phishing Scam',
+  slug: 'ivory-coast-wave-fake-gift-phishing-scam',
+  description: `Fraudsters send SMS messages and social-media posts impersonating Wave, a mobile-payment operator used in Côte d'Ivoire, announcing a cash "gift" of about 37,000 CFA francs and pushing recipients to click a link to claim it. The link leads to a fake form asking for the victim's phone number and secret PIN code, which fraudsters then use to access the real mobile-money account and divert funds into third-party financial-service accounts such as Nafolo, Ting Business, and Smart Fin Patrimoine. The PLCC dismantled one such network in September 2026 after 503 complaints totaling more than 231 million CFA francs in losses, arresting the alleged ringleader — who said he had bought phishing links from other specialists via Facebook before assembling his team — while two accomplices remained at large.`,
+  categorySlug: 'phishing',
+  alertLevel: 'high',
+  sources: ['Plateforme de Lutte Contre la Cybercriminalité (PLCC)', 'Agence Ivoirienne de Presse (AIP)'],
+  sourceUrl: 'https://www.aip.ci/cote-divoire-aip-cybercriminalite-la-plcc-demantele-un-reseau-darnaque-aux-faux-cadeaux-mobile-money/',
+  country: 'CI',
+});
