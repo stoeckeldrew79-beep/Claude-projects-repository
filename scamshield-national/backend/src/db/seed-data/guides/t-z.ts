@@ -1253,9 +1253,8 @@ The reason this breach is worth knowing about even though the stolen data looks 
 If your employer uses Workday for payroll, benefits, or HR self-service, be skeptical of any unexpected email or text referencing Workday, HR, IT support, or a "login problem" that asks you to click a link, verify your password, or read back a one-time code — go directly to your company's official Workday login page or contact your own HR or IT department using a number or address you already know, rather than anything provided in the message. Never approve a connection request or "support app" you didn't initiate yourself, and never read a verification code to someone who called you rather than the other way around. No Social Security numbers or financial data were reported stolen in this specific incident, so there's no need to freeze credit on that basis alone, but any phishing attempt that references this breach or invokes Workday's name can still be reported to the FTC at ReportFraud.ftc.gov.`,
     sourceUrl: "https://www.security.org/identity-theft/breach/workday/",
     coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Workday_Headquarters.jpg?width=1200",
-    coverImageCredit: "Photo: Coolcaesar, CC BY-SA 4.0, via Wikimedia Commons — Workday's headquarters in Pleasanton, California",
+    coverImageCredit: "Photo: Coolcaesar, CC BY-SA 4.0, via Wikimedia Commons — Workday's own Pleasanton, California headquarters, the company actually named in this breach",
     coverImagePosition: 50,
-    // representative photo — Workday's headquarters building, not the specific Salesforce system that was breached; replace with an exact match if found
   },
   {
     title: "The WestJet Data Breach: How a Hacked Airline System Exposed Passport and ID Details for 1.2 Million Travelers",
