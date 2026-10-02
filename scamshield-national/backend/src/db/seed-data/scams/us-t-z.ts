@@ -6598,3 +6598,40 @@ UsTZ.push({
     country: 'US',
     state: 'WV',
 });
+
+UsTZ.push({
+    name: "Knox County Sheriff's Office GPS-Monitor-Fee Scam Targeting Domestic Violence Victims",
+    slug: 'tennessee-knox-county-domestic-violence-gps-monitor-scam',
+    description: `Scammers make sequential calls to domestic violence victims: a first call falsely claims the victim's abuser is being released from jail, and a follow-up call demands roughly $800 for a "GPS monitor" to track the supposed release. The Knox County Sheriff's Office warned in February 2026 that "victims are never responsible for monitoring devices or services related to an offender's release," and that law enforcement will never request money via payment apps, gift cards, or wire transfers. Victims are urged to hang up, share no personal information, and contact law enforcement or a victim advocate through a verified number.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Knox County Sheriff's Office", 'WVLT News'],
+    sourceUrl: 'https://www.wvlt.tv/2026/02/19/knox-co-sheriffs-office-warns-scam-targeting-domestic-violence-victims/',
+    country: 'US',
+    state: 'TN',
+    firstRecorded: '2026-02-19',
+});
+
+UsTZ.push({
+    name: 'Nashville Electric Service (NES) Door-to-Door Fake Subcontractor Home-Entry Scam',
+    slug: 'tennessee-nashville-nes-door-to-door-subcontractor-scam',
+    description: `Scammers posing as Nashville Electric Service subcontractors show up in person claiming a meter is malfunctioning or a power line is "shooting fire," pressuring homeowners into letting them inside to "inspect" outlets before presenting a fake invoice demanding on-the-spot payment. NES says the tactic disproportionately targets small business owners, non-English speakers, and elderly customers, using intimidation about a supposedly life-threatening situation while discouraging victims from calling NES to verify. NES states plainly that it "never goes door-to-door to solicit payment for any type of service," and that legitimate employees wear uniforms, carry photo ID, and drive marked company vehicles. Customers are urged to call NES Customer Relations at 615-736-6900 before letting anyone inside or paying anything.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Nashville Electric Service'],
+    sourceUrl: 'https://nespowernews.com/nes-customers-targeted-by-scammers/',
+    country: 'US',
+    state: 'TN',
+});
+
+UsTZ.push({
+    name: 'TVA/MLGW Fake Rolling-Blackout Phishing Text and Email Scam',
+    slug: 'tennessee-tva-mlgw-rolling-blackout-phishing-text-scam',
+    description: `During a January 2026 winter storm, the Tennessee Valley Authority and Memphis Light, Gas and Water jointly warned customers about fraudulent texts and emails impersonating either utility, falsely claiming scheduled "rolling blackouts" or urgent grid-condition updates and urging recipients to click a link. Both utilities confirmed no rolling blackouts were actually planned — MLGW noted it has had only one rolling blackout in 87 years of operation — and said real outage or grid information is never sent as a text or email requiring a click-through. The links in these messages lead to phishing pages built to harvest personal information rather than deliver any real outage schedule. Customers are advised never to click such links and to verify grid or outage status only through TVA's official website or their local utility's own published number.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Tennessee Valley Authority', 'Memphis Light, Gas and Water Division'],
+    sourceUrl: 'https://www.yahoo.com/news/articles/mlgw-not-planning-rolling-blackouts-182616924.html',
+    country: 'US',
+    state: 'TN',
+});
