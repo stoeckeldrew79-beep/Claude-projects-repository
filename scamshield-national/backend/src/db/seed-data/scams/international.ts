@@ -23660,3 +23660,39 @@ International.push({
     sourceUrl: "https://www.csb.gov.bn/reminder-regarding-counterfeit-notes-and-financial-scams",
     country: "BN",
 });
+
+International.push({
+  name: `Fake "Lisungi" Government Cash-Transfer Mobile Money Scam`,
+  slug: 'congo-brazzaville-lisungi-cash-transfer-mobile-money-scam',
+  description: `Les Dépêches de Brazzaville reported that scammers were impersonating officials of Congo's Lisungi program — a state cash-transfer scheme launched in 2015 to aid vulnerable families — by calling mobile money customers and claiming a Lisungi payment was waiting for them. The caller asks the victim to read back a "validation code" sent by text to confirm receipt, but the code actually authorizes an outgoing transfer, letting the scammer drain whatever balance is already in the account. Victims interviewed, including Brazzaville resident Eugène Mbou and a woman identified as Lorraine — who said a caller later phoned back mocking her after revealing he already knew her exact account balance — were left with nothing, raising suspicion that fraudsters had some way of gauging balances in advance. The paper urged Lisungi beneficiaries and mobile money users to never read a verification code aloud to a caller, since a genuine deposit requires no code at all from the recipient.`,
+  categorySlug: 'public-benefits-fraud',
+  alertLevel: 'high',
+  sources: ['Les Dépêches de Brazzaville (adiac-congo.com)'],
+  sourceUrl: 'https://www.adiac-congo.com/content/projet-lisungi-les-societes-de-telephonie-mobile-indexees-pour-arnaques-116935',
+  country: 'CG',
+  firstRecorded: '2020-06-18',
+});
+
+International.push({
+  name: 'Fake 50,000 XAF Presidential Subsidy WhatsApp Scam',
+  slug: 'congo-brazzaville-fake-presidential-subsidy-whatsapp-scam',
+  description: `Messages circulated widely on WhatsApp across the Republic of Congo claiming President Denis Sassou Nguesso had authorized a 50,000 CFA franc subsidy for citizens, directing recipients to click a link to claim it. Fact-Check Congo's technical analysis found the linked site ran on an anonymously registered domain created only months earlier, with no connection to any government program; rather than paying anything out, the site instead harvests personal data by pushing visitors to answer surveys, hand over their phone number, download apps, click ads, and forward the message to ten WhatsApp contacts to keep it spreading. The outlet noted nearly identical fake-subsidy schemes were simultaneously targeting people in the Democratic Republic of Congo and Togo under the same template, and advised recipients to delete the message without forwarding it, never click the link, and verify any claimed government subsidy only through official state channels or established media.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Fact-Check Congo'],
+  sourceUrl: 'https://factcheck-congo.org/2025/06/01/attention-a-larnaque-a-la-subvention-de-50-000-xaf-au-nom-du-president-denis-sassou-nguesso/',
+  country: 'CG',
+  firstRecorded: '2025-06-01',
+});
+
+International.push({
+  name: 'Brazzaville Land Parcel Double-Sale Fraud',
+  slug: 'congo-brazzaville-land-parcel-double-sale-fraud',
+  description: `Congo's Chambre Nationale des Notaires and the newly elected leadership of Brazzaville's own notarial bureau publicly committed to crack down on illicit land sales after years of the same plots — hillside land, water-adjacent parcels, savanna and forest tracts around the capital — being sold repeatedly to multiple unrelated buyers without ever passing through a notarized deed. Bernard Pandi, president of the national notaries' chamber, and Richard Ossa, head of the Brazzaville bureau, said the practice persists because sellers bypass notarization, letting the same parcel be "sold" again to a new victim before an earlier buyer discovers the fraud. The bureau pledged to work with land administration, judicial, and urban planning authorities to verify sellers' documents and titles before a sale is recorded. Prospective land buyers in Brazzaville are advised to insist on a notarized deed and verify a parcel's title and chain of ownership through the relevant land administration office before paying anything, rather than relying on a seller's paperwork alone.`,
+  categorySlug: 'mortgage-foreclosure-scams',
+  alertLevel: 'medium',
+  sources: ['Les Dépêches de Brazzaville (adiac-congo.com)', 'Chambre Nationale des Notaires du Congo'],
+  sourceUrl: 'https://www.adiac-congo.com/content/brazzaville-le-bureau-des-notaires-entend-lutter-contre-les-ventes-illicites-de-parcelles',
+  country: 'CG',
+  firstRecorded: '2019-07-15',
+});

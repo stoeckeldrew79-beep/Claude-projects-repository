@@ -11434,3 +11434,27 @@ UsAF.push({
     state: 'DC',
     isHistorical: false,
 });
+
+UsAF.push({
+    name: 'Spire Energy In-Person Gas Disconnection Scam',
+    slug: 'alabama-spire-energy-in-person-disconnection-scam',
+    description: `An imposter wearing an orange vest and posing as a Spire Energy employee knocked on a Tuscaloosa-area customer's door, threatened to disconnect the home's natural gas service unless payment was made immediately, and used a handheld credit-card payment device to collect an on-the-spot payment from the resident. Spire states plainly that it "does not request or accept any form of payment at a customer's home or business," and is warning Alabama customers to call its official customer-service line to verify any disconnection threat before paying anyone in person. Customers who encounter a similar incident are urged to report it by calling 800-292-4008 or visiting spireenergy.com/stop-scams.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Spire Energy'],
+    sourceUrl: 'https://spireenergy.com/tuscaloosa-scam-news-release',
+    country: 'US',
+    state: 'AL',
+});
+
+UsAF.push({
+    name: 'BBB Passport Renewal Website Scam (North Alabama)',
+    slug: 'alabama-bbb-passport-renewal-website-scam',
+    description: `Alabama travelers searching online for passport renewal have clicked sponsored ads leading to fake, official-looking sites where they enter personal data — name, date of birth, Social Security number — and pay roughly $160 for a copy of State Department Form DS-82, a document that is actually free on the government's own site, travel.state.gov. The Better Business Bureau's Scam Tracker logged about 80 reports of the scheme within a few months, and warns that passport renewals cannot be completed entirely online — the real process always requires mailing original documents directly to the State Department.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau'],
+    sourceUrl: 'https://www.waff.com/2026/04/13/better-business-bureau-warns-passport-renewal-scam-targeting-travelers-north-alabama/',
+    country: 'US',
+    state: 'AL',
+});
