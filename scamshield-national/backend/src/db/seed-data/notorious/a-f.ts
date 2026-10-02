@@ -10919,6 +10919,10 @@ NotoriousAF.push({
     slug: 'frederick-soudan-salem-supertanker-insurance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'insurance-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Durban_Harbour.jpg?width=1200',
+    coverImageCredit: 'Photo: Nzukiso Jalubani / Wikimedia Commons, CC BY-SA 4.0 — Durban, where the embezzled oil was secretly discharged',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `The Salem began its life in 1969 as the Sea Sovereign, a Swedish-built Very Large Crude Carrier later renamed South Sun and finally Salem after changing hands twice more by 1979. Frederick Ed Soudan, a Houston-based oil and insurance broker, assembled the ownership group behind that last sale — buying the aging tanker on credit with none of the parties putting up real capital of their own. In December 1979 the ship loaded roughly 194,000 tons of Kuwaiti crude at Mina Al Ahmadi, cargo owned by Shell and insured at Lloyd's of London, nominally bound for Genoa, Italy.
 
 Instead, sailing under the false name "Lema," the Salem diverted to Durban, South Africa in late December 1979 — in defiance of the international oil embargo imposed on apartheid South Africa — and secretly discharged the great majority of its cargo while taking on seawater as ballast to disguise the ship's draft. The embezzled oil was sold to the South African state oil company Sasol for roughly $43-45 million, money that went to Soudan and his co-conspirators rather than to Shell, the oil's actual owner.
