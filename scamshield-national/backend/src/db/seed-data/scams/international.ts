@@ -23514,3 +23514,38 @@ International.push({
   sourceUrl: 'https://www.aip.ci/cote-divoire-aip-cybercriminalite-la-plcc-demantele-un-reseau-darnaque-aux-faux-cadeaux-mobile-money/',
   country: 'CI',
 });
+
+International.push({
+  name: 'Niger Money-Transfer Agent Impersonation and Forged-ID Account Takeover',
+  slug: 'niger-money-transfer-agent-impersonation-forged-id-takeover',
+  description: `Niger's cybercrime division of the Police Judiciaire arrested a suspect in Niamey on May 21, 2026 who contacted victims by phone or WhatsApp posing as a money-transfer agent, claiming an account security issue required "password verification," then used the disclosed password to drain accounts. Separately, he collected discarded transfer receipts bearing victims' personal data, triggered password resets, and — again posing as an agent — talked victims into reading back the SMS reset code, taking over the account. To withdraw cash at transfer-agency counters, he used photo-editing software to forge ID documents, replacing the original photo with his own over a stolen identity document, drawing on his prior work as an identification agent for a different money-transfer company for inside knowledge of the platforms and access to customer ID records. He was charged with unauthorized computer access, digital fraud, digital identity theft, computer forgery, and use of falsified data.`,
+  categorySlug: 'account-takeover',
+  alertLevel: 'high',
+  sources: ['Direction de la Police Judiciaire (Division cybercriminalité), Niger', 'ActuNiger'],
+  sourceUrl: 'https://www.actuniger.com/faits-divers/22028-cybercriminalite-un-faux-agent-de-transfert-dargent-arrete-apres-plusieurs-fraudes-numerique.html',
+  country: 'NE',
+  firstRecorded: '2026-05-21',
+});
+
+International.push({
+  name: 'Niger Fake "ANPE" Facebook Job-Offer Advance-Fee Scam',
+  slug: 'niger-fake-anpe-facebook-job-offer-advance-fee-scam',
+  description: `Fraudulent Facebook pages posted fake part-time remote job offers bearing the logo of Niger's national employment agency ANPE and the Amazon brand, targeting job seekers amid high youth unemployment. Ads promised 1-2 hours of daily remote work paying 28,000-84,000 CFA francs a day, routed applicants through multi-step forms harvesting personal data, then demanded upfront "registration" fees up to 100,000 CFA francs — more than three times Niger's minimum wage — via mobile money or international transfer. ANPE publicly denied any connection to the pages on September 4, 2025; the pages were traced to administrators in Singapore, Hong Kong, Cambodia, and Vietnam, with one contact number tracing to Vietnam.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'medium',
+  sources: ["Agence Nigérienne pour la Promotion de l'Emploi (ANPE)", 'Les Échos du Niger'],
+  sourceUrl: 'https://lesechosduniger.com/2025/11/18/decryptage-des-fausses-opportunites-demploi-sur-les-reseaux-sociaux-au-niger/',
+  country: 'NE',
+  firstRecorded: '2025-09-04',
+});
+
+International.push({
+  name: 'Niger Online "You\'ve Been Selected" Aid and Prize-Release Advance-Fee Scams',
+  slug: 'niger-selected-for-aid-prize-release-advance-fee-scam',
+  description: `Niger's Direction de la Lutte contre la Cybercriminalité reported that advance-fee "selection" schemes accounted for a significant share of the 303 online-fraud complaints filed in Niamey in 2023 — roughly 30 percent of all cybercrime cases that year. Two recurring versions were documented: fraudsters impersonating NGOs or government officials telling victims they'd been selected for a grant or aid payment, and fraudsters posing as lottery or prize administrators — both requiring an upfront payment, usually via mobile money, before funds could be "unlocked," after which nothing materialized. A police commissioner said some victims lost amounts reaching 7 to 10 million CFA francs, some going into debt to make the payments, and cautioned the true total is likely higher since many victims never file a complaint.`,
+  categorySlug: 'lottery-sweepstakes-scams',
+  alertLevel: 'medium',
+  sources: ['Direction de la Lutte contre la Cybercriminalité, Police Judiciaire, Niger', 'Le Sahel'],
+  sourceUrl: 'https://www.lesahel.org/escroquerie-en-ligne-plus-de-300-plaintes-enregistrees-en-2023-dans-la-ville-de-niamey-selon-le-rapport-de-la-direction-de-la-cybercriminalite-a-la-police-judiciaire/',
+  country: 'NE',
+});
