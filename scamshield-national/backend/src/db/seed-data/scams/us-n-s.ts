@@ -11565,3 +11565,29 @@ UsNS.push({
     state: 'PR',
     isHistorical: true,
 });
+
+UsNS.push({
+    name: 'Nebraska Unemployment Insurance Identity-Theft Fraud',
+    slug: 'nebraska-unemployment-insurance-identity-theft-fraud',
+    description: `The Nebraska Department of Labor (NDOL) warns that identity thieves are filing fraudulent unemployment insurance claims using stolen personal information belonging to Nebraskans who never applied for benefits. Victims typically first learn something is wrong when they receive an official NDOL determination letter about a claim they never filed, or a 1099-G tax form reporting unemployment income they never received, which can also create confusing tax-filing problems. Separately, NDOL warns that scammers nationwide have set up fake Facebook pages mimicking state workforce agencies and send text messages impersonating NDOL to trick claimants into handing over personal information. NDOL states plainly that it "does NOT use text messages to issue decisions regarding a claim, nor does it contact claimants via social media regarding their claim," and that claimants should only trust the official page carrying a blue verification checkmark. Anyone who receives a 1099-G for a claim they didn't file is told to email NDOL.1099fraud@nebraska.gov and file a police report, while anyone who suspects a fraudulent claim or impersonation can contact NDOL's Benefit Integrity Unit at 402-471-2865.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Nebraska Department of Labor'],
+    sourceUrl: 'https://dol.nebraska.gov/UIBenefits/UIBenefitsOverview/Fraud',
+    country: 'US',
+    state: 'NE',
+});
+
+UsNS.push({
+    name: 'Metropolitan Utilities District (Omaha) "Green Dot" Prepaid Card Shutoff Scam',
+    slug: 'nebraska-mud-green-dot-card-scam',
+    description: `Metropolitan Utilities District (M.U.D.), which supplies natural gas and water to the Omaha area, warned customers about scammers impersonating M.U.D. representatives by phone and manipulating caller ID so the call appears to come from the utility itself. The caller falsely claims the customer's service is about to be shut off for nonpayment and demands immediate payment using a Green Dot prepaid debit card, purchasable at retailers like Walgreens or CVS, then asks the victim to read off the card's number over the phone. Because a Green Dot card functions like cash once its number is given out, M.U.D. states that money paid this way is gone permanently, unlike a credit card or bank-account payment, which carries fraud protections. M.U.D. stresses it never demands a specific payment method and offers multiple legitimate ways to pay a bill, including online, by phone, bank draft, mail, or in person. Customers who get a suspicious shutoff call are told to hang up and call M.U.D. customer service directly at 402-554-6666 (or 402-554-7777 after hours) to verify their account status before paying anything.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Metropolitan Utilities District'],
+    sourceUrl: 'https://www.mudomaha.com/news/beware-of-utility-bill-payment-scams/',
+    country: 'US',
+    state: 'NE',
+    isHistorical: true,
+    firstRecorded: '2022-11-11',
+});
