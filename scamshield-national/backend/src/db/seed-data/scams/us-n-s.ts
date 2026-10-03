@@ -11518,3 +11518,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-03-20',
 });
+
+UsNS.push({
+    name: 'Newport Planning Commission Fake Permit-Fee Invoice Scam',
+    slug: 'rhode-island-newport-planning-commission-permit-fee-scam',
+    description: `The City of Newport, Rhode Island issued a public warning on March 11, 2026 after scammers began sending fraudulent invoices to people with pending land-use or development applications before the city's Planning Board, mining real, specific application details from publicly posted meeting dockets to make the fakes convincing. The emails use the city's official branding, reference an applicant's actual project by name and address, and purport to come from the "City of Newport Planning Commission" demanding payment of permit or application-review fees — but arrive from generic domains like Gmail or USA.com rather than an official @newportri.gov address, and instruct the recipient to reply by email to receive wire-transfer instructions. The city stated plainly that it "will never request permit or application fees via wire transfer and will never ask for payment outside of formal channels." Anyone who receives one of these invoices is told not to reply or send payment, and anyone who already paid is urged to contact their bank immediately and report the incident to the Newport Police Department (401-847-1306) or the city's IT Department (401-845-5400).`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['City of Newport, Rhode Island'],
+    sourceUrl: 'https://whatsupnewp.com/?p=525313',
+    country: 'US',
+    state: 'RI',
+    isHistorical: true,
+    firstRecorded: '2026-03-11',
+});
