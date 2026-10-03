@@ -11671,6 +11671,20 @@ International.push(
 
 International.push(
   {
+    name: 'MerrJep Fake-Buyer Classifieds Phishing Scam (Kosovo)',
+    slug: 'kosovo-merrjep-fake-buyer-classifieds-phishing-scam',
+    description: `Scammers in Kosovo have been monitoring new listings on MerrJep, the country's largest online classifieds marketplace, and contacting sellers within minutes over Viber or WhatsApp while posing as an interested buyer. In one documented case, a Prishtina resident who had just posted an item was contacted by a "buyer" using a feminine Albanian name but a Croatian phone prefix, who claimed payment had already been sent and that the seller only needed to "confirm" it by clicking a link and entering their bank card number, expiry date, CVV, and current account balance. When the seller refused, the buyer disappeared. Sentry security firm director Kujtim Kryeziu described these schemes as especially dangerous because they target human psychology rather than a technical vulnerability, while BugStream's George Papariga noted that scammers deliberately move the conversation off the marketplace's own platform and onto a messaging app before sending a phishing link disguised as a payment confirmation or refund. MerrJep itself confirmed it offers no such payment, delivery, or payment-confirmation service requiring a bank card number or balance, stating plainly that "any message requesting such information is fraud" and that it reports suspicious activity to Kosovo Police's cybercrime unit when identified. Sellers on any classifieds platform should treat a "buyer" who claims to have already paid and asks for card details to "confirm" the transaction as fraudulent, and should never enter banking information into a link sent over a messaging app rather than the marketplace's own verified checkout.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Radio Evropa e Lirë (RFE/RL Kosovo)', 'MerrJep'],
+    sourceUrl: 'https://www.evropaelire.org/a/shitesit-online-cak-i-mashtruesve/33801986.html',
+    country: 'XK',
+    firstRecorded: '2026-07-12',
+  },
+);
+
+International.push(
+  {
     name: `"Guess Who?" Family Emergency Phone Scam`,
     slug: 'saint-lucia-guess-who-family-emergency-phone-scam',
     description: `The Royal Saint Lucia Police Force (RSLPF) confirmed a sharp increase in scam reports between January and April 2026, warning residents that fraudsters are becoming more calculated in how they exploit trust in family relationships. In the most common version, a caller speaks in a low, muffled voice and waits for the confused person who picked up to guess who is calling — "is that you, John?" — and the moment a victim supplies a relative's name, the scammer immediately adopts that identity, claims to be facing an emergency (often medical) or to be in police custody, and pressures the victim into sending urgent financial help, typically between US$50 and US$1,500, or purchasing mobile phone credit to "call a relative." The RSLPF said this exact "guess who" pattern had already been flagged in a public warning in February 2025 and has persisted and intensified since, with callers relying on the victim's own emotional panic to skip past questions that would otherwise expose the fraud. Investigators have also traced cases where a caller instructs the panicked victim to physically drop off cash at a specific public location rather than wire it — in one such case, Superintendent Eldeen Henry said a scammer directed a victim to leave money at Tapion Hospital, which led the Gros Islet Criminal Investigations Department to launch an operation that ended in an arrest. The RSLPF is urging the public not to comply with sudden emotional demands for money over the phone, to hang up and independently verify a relative's identity and situation by calling them back on a known number before sending anything, and to report suspected scam calls to the police immediately.`,
