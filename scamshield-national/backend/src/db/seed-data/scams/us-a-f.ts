@@ -11381,3 +11381,43 @@ UsAF.push({
     country: 'US',
     state: 'AK',
 });
+
+UsAF.push({
+    name: 'Arkansas DMV and Toll Road Text Smishing Scam',
+    slug: 'arkansas-dmv-toll-road-smishing-scam',
+    description: `Arkansas Attorney General Tim Griffin issued consumer alerts on February 27, 2025 and again in early August 2025 warning residents about fraudulent text messages impersonating out-of-state toll road services and the DMV, falsely claiming the recipient owes unpaid toll fees or vehicle-registration and parking fines and must pay immediately through a link in the message, sometimes threatening jail time if they don't. The scam specifically exploits the fact that Arkansas has no toll roads of its own, and the August wave coincided with the peak of summer travel season, when Arkansans are more likely to have actually driven through a state that does have tolls. The AG's office stated plainly that "the DMV will never text you about an unpaid parking ticket" and "will never threaten you with jail time," and urged recipients to delete the message, report it as junk, and never click the embedded link. Residents who want to verify any real toll or registration balance should contact the relevant state agency directly using a phone number looked up independently, not one provided in the text, and can report suspected scams to the Arkansas Attorney General's Office at (501) 682-2007.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Arkansas Attorney General\'s Office'],
+    sourceUrl: 'https://arkansasag.gov/news-release/consumer-alert-dmv-and-toll-road-scams-return/',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2025-02-27',
+});
+
+UsAF.push({
+    name: 'Arkansas Law Enforcement Impersonation Arrest-Threat Robocall Scam',
+    slug: 'arkansas-law-enforcement-impersonation-robocall-scam',
+    description: `Arkansas Attorney General Tim Griffin issued a consumer alert on July 18, 2024 warning residents about scammers who use caller-ID spoofing to make live calls and prerecorded robocalls appear to come from the Arkansas State Police or a local police department, often targeting numbers on the National Do Not Call Registry. The callers falsely claim the recipient faces imminent arrest for a criminal offense unless they pay immediately, or dangle a fake "rehabilitation enrollment program" aimed at someone recently arrested, demanding payment by wire transfer, prepaid debit cards, gift cards, or bitcoin — payment methods no real law enforcement agency accepts to resolve a criminal matter. Griffin called the scheme "especially heinous" for exploiting the trust Arkansans place in law enforcement. The AG's office advised residents never to send money to someone claiming to be a police officer over the phone, to independently verify any claim by calling the agency's official number rather than one provided by the caller, to remember that caller ID can be spoofed to display a real department's name, and to meet with actual law enforcement only in person at a police station if there is ever a genuine question about a case. Suspected scam calls can be reported using the robocall reporting form on the Arkansas Attorney General's website or by calling (501) 682-2007.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Arkansas Attorney General\'s Office'],
+    sourceUrl: 'https://arkansasag.gov/news-release/consumer-alert-beware-fraudulent-callers-claiming-to-be-law-enforcement-officers/',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2024-07-18',
+});
+
+UsAF.push({
+    name: '"Investment Education Foundation" Crypto Trading-Bot Scam',
+    slug: 'arkansas-investment-education-foundation-crypto-scam',
+    description: `The Arkansas Securities Department issued an "Emerging Scam Alert" describing a multi-stage cryptocurrency fraud that recruits victims through social-media ads funneling them into WhatsApp groups run by a fake "founder" and automated bots posing as investment educators. Once inside, the group introduces a fraudulent crypto exchange and gives victims free tokens to test a proprietary AI trading bot that displays fabricated on-screen profits, conditioning them to believe the platform is legitimate before they deposit real money. When a victim's funds run low, accomplices posing as lenders on Telegram offer loans paid directly into the fraudulent exchange; withdrawals then become impossible until the victim "repays" the fake loan plus inflated commissions, the account gets frozen under a pretextual regulatory violation, and the operation eventually disappears and relaunches under a new name. The scammers falsely claim U.S. Treasury or SEC registration and buy aged website domains to appear more credible. The Arkansas Securities Department advises verifying any investment platform's registration directly with the agency before depositing money, treating "free" trial tokens and on-screen trading gains with skepticism, and never accepting a loan from someone inside the same platform where the money is already invested; suspected scams can be reported to the ASD at (800) 981-4429 or securities.arkansas.gov.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Arkansas Securities Department'],
+    sourceUrl: 'https://securities.arkansas.gov/emerging-scam-alert-investment-education-foundations/',
+    country: 'US',
+    state: 'AR',
+});
