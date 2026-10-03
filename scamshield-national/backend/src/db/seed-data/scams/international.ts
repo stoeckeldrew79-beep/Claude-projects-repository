@@ -23923,3 +23923,14 @@ International.push({
   isHistorical: true,
   firstRecorded: '2025-03-13',
 });
+
+International.push({
+  name: 'LUCELEC Utility-Worker Impersonation Scam',
+  slug: 'saint-lucia-lucelec-utility-worker-impersonation-scam',
+  description: `St. Lucia Electricity Services Limited (LUCELEC), the island's electricity utility, has repeatedly warned the public — in advisories reported by The Voice St. Lucia on January 26, 2018 and again on July 18, 2019 — that individuals have been presenting themselves at homes and businesses claiming to be LUCELEC employees or contractors and asking for permission to enter the premises, typically under the pretext of conducting a meter inspection or other work. LUCELEC stressed that this kind of in-person access request is itself a red flag, stating that "instances where LUCELEC employees and contractors would need to get into a building to carry out any work are rare" since "most of LUCELEC's work stops at the electricity meter." The company's advice, repeated in both warnings, is to always ask anyone claiming to represent LUCELEC or one of its contractors for proper picture identification and to call LUCELEC's Customer Service Department directly (457-4400) to confirm whether a crew was actually dispatched to that address before allowing entry. The recurrence of near-identical advisories over multiple years indicates this is a persistent, ongoing threat rather than an isolated incident.`,
+  categorySlug: 'utility-scams',
+  alertLevel: 'medium',
+  sources: ['St. Lucia Electricity Services Limited (LUCELEC)', 'The Voice St. Lucia'],
+  sourceUrl: 'https://thevoiceslu.com/2019/07/lucelec-issues-advisory-on-imposters/',
+  country: 'LC',
+});
