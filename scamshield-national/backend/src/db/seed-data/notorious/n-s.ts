@@ -7985,3 +7985,20 @@ The company itself settled separately. On December 18, 2019, SNC-Lavalin Constru
 The SNC-Lavalin case illustrates how foreign bribery in pursuit of infrastructure contracts in an authoritarian state can combine with ordinary embezzlement by the executives running the scheme, and how the fallout from a major corporate-fraud prosecution can extend well past the courtroom, reshaping how a national government is seen to treat corporate accountability.`,
     sourceUrl: 'https://www.theglobeandmail.com/business/article-snc-lavalin-reaches-agreement-to-plead-guilty-to-charges-of-corruption/',
 });
+
+NotoriousNS.push({
+    title: 'Pedro Paulo de Souza and the Encol Collapse That Left 42,000 Brazilians Without Their Homes',
+    slug: 'pedro-paulo-de-souza-encol-collapse-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'real-estate-fraud', 'ponzi-scheme', 'brazil'],
+    body: `Pedro Paulo de Souza, an engineer, founded Encol in Goiânia, Brazil in 1961 as a construction company. Over more than three decades it grew into Brazil's largest real-estate developer, diversifying into paints, doors, and window frames along the way, and selling apartments nationwide under a standard Brazilian financing model in which buyers paid for their units before construction was finished.
+
+What auditors later established was that Encol never actually used a given project's buyer payments to finish that project. Instead, money raised from newly launched developments was funneled into construction on older developments that had already been sold — a structure that functioned as a Ponzi scheme built on real-estate pre-sales rather than securities, one that could keep rolling over new buyers' money into old projects only as long as the company kept launching new developments fast enough to cover the last round's shortfall.
+
+Brazil's 1994 "Plano Real" economic stabilization plan — which sharply brought down inflation and raised real interest rates — removed the inflationary conditions the model depended on to keep working. Audits beginning in 1997 found accounting chaos, suspected tax evasion, and unexplained offshore financial movements, and Encol's bankruptcy was formally declared in 1999. The collapse left roughly 42,000 buyers across 23 Brazilian states and the Federal District without the properties they had already paid for, 710 construction projects unfinished nationwide, and some 23,000 workers unemployed.
+
+Pedro Paulo de Souza was convicted in 2000 of crimes against the financial system and sentenced to four years and two months in a semi-open prison regime plus 266 days of fines. He was not arrested until April 2010, when a court granted him habeas corpus release the very next day — and his defense successfully argued the sentence had already become time-barred in 2006, the year he turned 70, meaning the prison term was never actually served. The fallout from the bankruptcy dragged on for more than two decades: a former trustee of the Encol estate was separately ordered in recent years to repay more than R$4 million for double-collecting commissions during the long liquidation, and former employees were still receiving partial labor-claim payments as late as January 2023.
+
+Encol shows how a pre-sale financing model that works perfectly well under one set of economic conditions can turn into a slow-motion Ponzi scheme the moment those conditions change — and how a sentence handed down years after a collapse can still expire unserved if the legal process drags on long enough, leaving tens of thousands of buyers who lost their homes with no corresponding accountability from the man who ran the company into the ground.`,
+    sourceUrl: 'https://www.sindiconet.com.br/informese/falencia-da-encol-noticias-juridico',
+});
