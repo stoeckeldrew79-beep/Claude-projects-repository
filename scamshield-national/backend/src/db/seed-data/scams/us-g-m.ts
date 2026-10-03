@@ -12141,3 +12141,87 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2016-08-05',
 });
+
+UsGM.push({
+    name: 'Fake Corporate Transparency Act Registration Portal Scam',
+    slug: 'iowa-fake-corporate-transparency-act-boi-portal-scam',
+    description: `Iowa Attorney General Brenna Bird warned Iowa business owners on January 9, 2025 about fake websites mimicking the legitimate federal Corporate Transparency Act beneficial-ownership-information (BOI) registration portal. Scammers register look-alike or misspelled domains to intercept business owners searching online for registration information, then demand a "registration fee" to file — but the real federal system, run through fincen.gov/boi, charges no fee at all. Bird's office stated plainly that "Corporate Transparency Act registration does NOT include a registration fee" and that any website demanding payment is a scam. The alert advised business owners to register only at the official fincen.gov/boi address, to examine any registration website's URL carefully for spelling errors or suspicious domains before entering business information or payment details, and to report suspected scam sites to the Iowa Attorney General's Office at 1-888-777-4590 or through its online complaint portal.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Iowa Attorney General\'s Office'],
+    sourceUrl: 'https://www.iowaattorneygeneral.gov/newsroom/attorney-general-bird-warns-iowans-of-scam-corporate-transparency-act-links-meant-to-trick-busines',
+    country: 'US',
+    state: 'IA',
+    isHistorical: true,
+    firstRecorded: '2025-01-09',
+});
+
+UsGM.push({
+    name: 'Western Iowa Fake Online Farm-Equipment Auction Scam',
+    slug: 'iowa-fake-farm-equipment-auction-scam',
+    description: `A farmer in western Iowa wired $100,000 to purchase a tractor through a fraudulent online auction website, reported by Brownfield Ag News in January 2024. Jon Tofte, president of north Iowa's I-35 Auctions, explained that fraudsters use commonly available software to build convincing fake auction websites and lift photos of real equipment from legitimate dealer or auction listings, then post popular, high-demand items at unrealistically attractive "buy it now" prices to lure buyers. When a buyer asks to inspect the equipment in person before paying, as any legitimate seller would allow, the scammers offer excuses to prevent it and pressure the buyer into wiring the full amount sight-unseen. Tofte's advice: a seller who won't let you see and inspect large equipment in person before purchase is a clear warning sign, and buyers should stick to established, verifiable auction houses and report suspected fake listings to their state's auctioneer association or law enforcement rather than wiring money to an unfamiliar site.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Brownfield Ag News', 'I-35 Auctions'],
+    sourceUrl: 'https://www.brownfieldagnews.com/news/farmers-warned-of-large-equipment-online-auction-scams/',
+    country: 'US',
+    state: 'IA',
+    isHistorical: true,
+    firstRecorded: '2024-01-08',
+});
+
+UsGM.push({
+    name: 'Fraudulent Medicare.gov Account-Creation Scheme Affecting Iowans',
+    slug: 'iowa-fraudulent-medicare-gov-account-creation-scheme',
+    description: `The Iowa Insurance Division issued a fraud alert to Iowans on July 16, 2025 after the Centers for Medicare & Medicaid Services (CMS) discovered that unknown bad actors had fraudulently created roughly 103,000 fake Medicare.gov accounts nationwide using stolen beneficiary data — Medicare Beneficiary Identifiers, coverage start dates, last names, dates of birth, and zip codes — obtained from an unknown third-party source rather than from any breach of CMS's own systems. Once created, the fraudulent accounts could expose additional personal information tied to the beneficiary, including provider details, service dates, diagnosis codes, and premium information. CMS deactivated the fraudulent accounts, blocked new account creation from foreign IP addresses, and began mailing affected beneficiaries new Medicare cards bearing a new Medicare Number; the Iowa Insurance Division confirmed Iowans were among those who received CMS notification letters. Beneficiaries who receive such a letter are advised to follow CMS's instructions to secure their account, watch for any unfamiliar activity on their Medicare Summary Notices, and report concerns to the Iowa Insurance Division or directly to 1-800-MEDICARE.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Iowa Insurance Division', 'Centers for Medicare & Medicaid Services (CMS)', 'KCRG'],
+    sourceUrl: 'https://www.kcrg.com/2025/07/16/iowa-insurance-division-warns-fraudulent-medicare-accounts',
+    country: 'US',
+    state: 'IA',
+    isHistorical: true,
+    firstRecorded: '2025-07-16',
+});
+
+UsGM.push({
+    name: 'Idaho Central Credit Union Employee Embezzlement (Macey Lee Wymore)',
+    slug: 'idaho-central-credit-union-wymore-embezzlement',
+    description: `The Idaho Department of Finance issued a Cease and Desist Order against Macey Lee Wymore, a former employee of Idaho Central Credit Union (ICCU) in Nez Perce County, after finding that between December 2023 and June 2024 she used her position to embezzle and steal at least $63,400 belonging to or entrusted to the credit union, in violation of the Idaho Financial Fraud Prevention Act. The May 27, 2026 order bars Wymore from seeking or accepting employment with any Idaho-chartered or licensed financial institution without the Director's prior written consent, and prohibits any further violations of the Act. Separately, Wymore pleaded guilty to a felony grand theft charge on October 1, 2024 in Idaho's Second Judicial District (Nez Perce County), and was ordered to pay the full $63,400 in restitution along with 30 days in jail and 7 years of probation. The case is a reminder that credit union and bank customers can ask their institution about its internal fraud-detection and employee-audit controls, and should review account and transaction statements regularly rather than assuming insider access makes employee theft impossible to detect.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Idaho Department of Finance'],
+    sourceUrl: 'https://www.finance.idaho.gov/cease-and-desist-order-issued-to-macey-lee-wymore/',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2026-05-27',
+});
+
+UsGM.push({
+    name: 'Eastern Idaho Potato Farmers\' COVID Relief (CFAP) Fraud Settlement',
+    slug: 'idaho-potato-farmers-cfap-fraud-settlement',
+    description: `Three eastern Idaho farmers — Merrill Hanny, Roger Burke, and Robert Sollis — agreed to pay a combined $500,000 to settle False Claims Act allegations that they submitted fraudulent applications to the USDA's Coronavirus Food Assistance Program (CFAP). According to the settlement announced in March 2023 by the U.S. Attorney's Office for the District of Idaho and USDA's Office of Inspector General, Burke's and Sollis's applications listed millions of pounds of potatoes that were actually owned by Hanny, a scheme that let the group circumvent CFAP's $250,000 per-applicant funding cap by splitting one operation's potato inventory across multiple separate applications. U.S. Attorney Josh Hurwit said the case showed that "some individuals have sought to line their pockets by defrauding taxpayer-funded pandemic relief programs" like CFAP. The case illustrates how a benefit program's per-applicant funding caps can be circumvented simply by reassigning ownership of the same underlying inventory across several related applicants on paper, and why USDA's Office of Inspector General investigates inventory claims rather than treating self-reported figures as automatically reliable.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, District of Idaho', 'USDA Office of Inspector General'],
+    sourceUrl: 'https://int.idahonews.com/news/local/3-idaho-farmers-pay-500000-to-resolve-allegations',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2023-03-15',
+});
+
+UsGM.push({
+    name: 'Idaho Joins $15.5 Million Multistate Settlement With NewRez Over Force-Placed Insurance Overcharges',
+    slug: 'idaho-newrez-force-placed-insurance-settlement',
+    description: `The Idaho Department of Finance joined 48 state financial regulators in a $15.5 million multistate settlement announced in August 2026 with mortgage servicer NewRez LLC, which does business in Idaho as Shellpoint Mortgage Servicing. A multistate examination found NewRez had improperly charged more than 4,200 borrowers nationwide for "force-placed" hazard insurance — coverage a servicer imposes and bills to a homeowner when it believes a property lacks adequate insurance — even though those borrowers already had their own active homeowners insurance in place, effectively double-charging them for coverage they didn't need. NewRez self-identified the issue and proactively refunded more than $4.5 million to affected borrowers nationwide, including $22,419.20 refunded to 16 Idaho borrowers, with Idaho's share of the settlement's penalties and costs set at $84,016.09. As part of the settlement, NewRez must implement enhanced monitoring and strengthen internal controls to prevent duplicate or unnecessary force-placed insurance charges going forward. Homeowners with a mortgage should keep proof of their own active homeowners insurance policy on hand and contact their servicer immediately, with documentation, if they're ever billed for force-placed coverage despite already being insured.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Idaho Department of Finance'],
+    sourceUrl: 'https://www.finance.idaho.gov/?p=22866',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2026-08-01',
+});
