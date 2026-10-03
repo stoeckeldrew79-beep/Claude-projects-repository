@@ -6651,3 +6651,30 @@ UsTZ.push({
     country: 'US',
     state: 'WV',
 });
+
+UsTZ.push({
+    name: 'Virginia E-ZPass/Toll Unpaid-Balance Text Scam',
+    slug: 'virginia-ezpass-toll-text-scam',
+    description: `A recurring "smishing" (SMS phishing) scheme sends Virginia residents text messages posing as E-ZPass Virginia or a specific Virginia toll facility, claiming the recipient has an unpaid toll balance that must be paid immediately to avoid late fees. The message contains a link designed to look like a legitimate toll-payment page but built to harvest credit card numbers and other personal or financial information. The Virginia Department of Transportation has issued repeated public alerts about this pattern, including on January 22, 2025, after the FBI's Internet Crime Complaint Center (IC3) reported that people nationwide — not just E-ZPass customers — were getting nearly identical texts impersonating toll collection services in different states, with the phone numbers and toll-facility names changing by region. VDOT has stated it is not aware of confirmed cases of actual Virginia E-ZPass customers losing money to the scheme, but keeps re-issuing the warning because the wording and format keep recurring in fresh waves. VDOT's advice: never click the link in an unsolicited toll-balance text; check any real balance only by contacting toll customer service directly using a number looked up independently, not one in the text; and report suspected smishing texts to the FBI's IC3 (ic3.gov), including the sender's number and the link in the message.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Virginia Department of Transportation (VDOT)', 'WSLS'],
+    sourceUrl: 'https://www.wsls.com/news/virginia/2025/01/22/scam-alert-vdot-warns-of-toll-payment-text-scam',
+    country: 'US',
+    state: 'VA',
+    isHistorical: true,
+});
+
+UsTZ.push({
+    name: 'Hampton Planning Department Permit-Payment Email Impersonation Scam',
+    slug: 'virginia-hampton-planning-department-email-scam',
+    description: `The City of Hampton, Virginia issued an official public alert warning residents, builders, and contractors about fraudulent emails impersonating its Planning Department. The scam targets people with active, publicly trackable permit or development applications on file with the city, and the fake emails demand wire transfers or additional payments supposedly tied to those permits — a tactic that works because real permit details (applicant names, project addresses) are often public record the scammers can reference to make a fraudulent invoice look authentic. In its September 17, 2025 alert, the City of Hampton stated it will never request payment by wire transfer through email, that its fee schedules are public information, that all legitimate payments go through official city channels, and that genuine city correspondence will only come from an "@hampton.gov" address. Residents who receive one of these emails are told not to reply or send money, and to report it to the Hampton Police Division's non-emergency line (757-727-6111); anyone with a genuine question about a real permit fee is directed to call Hampton's Community Development Department using a number looked up independently, not one found in the email.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['City of Hampton'],
+    sourceUrl: 'https://www.hampton.gov/CivicAlerts.aspx?AID=5911',
+    country: 'US',
+    state: 'VA',
+    isHistorical: true,
+    firstRecorded: '2025-09-17',
+});
