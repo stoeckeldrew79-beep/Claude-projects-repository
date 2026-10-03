@@ -2797,6 +2797,10 @@ If you receive a suspicious call, the safest response is to hang up and independ
 GuidesTZ.push({
   title: 'Trusted Contact Person: The Free Account Safeguard That Lets Your Bank or Broker Flag Suspicious Activity Before It\'s Too Late',
   slug: 'trusted-contact-person-brokerage-bank-safeguard-guide',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Drive-thru_bank_teller_window_(224159570).jpg?width=1200',
+  coverImageCredit: 'Photo: Frank Hebbert, CC BY 2.0, via Wikimedia Commons',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   author: 'ScamShield Editorial',
   tags: ['guide', 'trusted-contact-person', 'elder-financial-exploitation', 'investor-protection'],
   sourceUrl: 'https://www.finra.org/investors/insights/trusted-contact',
