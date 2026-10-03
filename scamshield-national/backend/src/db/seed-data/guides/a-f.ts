@@ -164,10 +164,9 @@ The clearest warning signs are any request for payment before work is done, inst
     slug: 'auto-warranty-robocall-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'auto-warranty'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Classic_car_interior_with_old_dashboard_and_worn_upholstery_in_a_neglected_state.jpg?width=1200',
-    coverImageCredit: 'Photo: Nenad Stojković (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/123,456_kilometres!_(7948500820).jpg?width=1200',
+    coverImageCredit: 'Photo: Riley (NZ Car Freak), CC BY 2.0, via Wikimedia Commons.',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2021/05/hang-auto-warranty-robocalls',
     body: `The call starts with a recording, not a person: an automated voice claiming to represent a "Vehicle Service Department" warns that your car's warranty is about to expire, that the company has "sent you several notices in the mail," and that your file will be closed soon if you don't respond. Pressing a number to "renew" connects you to a live agent selling what's actually a third-party service contract, not a real manufacturer warranty, often for hundreds or thousands of dollars, riddled with exclusions and restrictions that leave real repairs uncovered anyway.
 
