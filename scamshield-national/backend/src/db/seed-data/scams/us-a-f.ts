@@ -11509,3 +11509,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2021-02-07',
 });
+
+UsAF.push({
+    name: 'Delaware State Police Spoofed-Number Bail Scam',
+    slug: 'delaware-state-police-spoofed-number-bail-scam',
+    description: `Delaware State Police warned residents on March 16, 2023 about scammers calling and falsely identifying themselves as DSP troopers, telling victims they are "wanted" or owe bail money and must pay immediately to avoid arrest. The callers use caller-ID "spoofing" to disguise their real number and make the call appear to come from a legitimate source, and DSP noted that many of the victims targeted by this particular scheme have been individuals listed on the Delaware sex offender registry — a population the scammers apparently calculated would be less likely to question a claim of police attention or report the attempted fraud. DSP stated plainly that troopers will never request payment for fines, traffic tickets, or bail over the phone, since any real bail or fine payment goes through the court system, not a phone call from an officer. Anyone who receives a call like this is advised to hang up and verify any claim by contacting Delaware State Police directly through a number looked up independently rather than one provided by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Delaware State Police'],
+    sourceUrl: 'https://dsp.delaware.gov/2023/03/16/troopers-warn-public-about-scammers-posing-as-delaware-state-police/',
+    country: 'US',
+    state: 'DE',
+    isHistorical: true,
+    firstRecorded: '2023-03-16',
+});
