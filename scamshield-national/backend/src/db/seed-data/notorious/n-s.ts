@@ -7990,6 +7990,10 @@ NotoriousNS.push({
     title: 'Pedro Paulo de Souza and the Encol Collapse That Left 42,000 Brazilians Without Their Homes',
     slug: 'pedro-paulo-de-souza-encol-collapse-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_Goi%C3%A2nia_2023.jpg?width=1200',
+    coverImageCredit: 'Photo: Boaventuravinicius, CC BY-SA 4.0, via Wikimedia Commons — Goiânia, Brazil, where Encol was founded',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'real-estate-fraud', 'ponzi-scheme', 'brazil'],
     body: `Pedro Paulo de Souza, an engineer, founded Encol in Goiânia, Brazil in 1961 as a construction company. Over more than three decades it grew into Brazil's largest real-estate developer, diversifying into paints, doors, and window frames along the way, and selling apartments nationwide under a standard Brazilian financing model in which buyers paid for their units before construction was finished.
 
