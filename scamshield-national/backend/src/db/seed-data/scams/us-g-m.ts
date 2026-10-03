@@ -12214,3 +12214,45 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2022-04-07',
 });
+
+UsGM.push({
+    name: 'Prepaid Heating-Oil Non-Delivery Scheme (Nicholas Curro)',
+    slug: 'maine-curro-prepaid-heating-oil-non-delivery-scheme',
+    description: `A Biddeford-area heating-oil dealer, Nicholas Curro, operating as Price-Rite Fuel, Veilleux Oil, and Perron Oil, took upfront payment from customers under "guaranteed price" prepaid contracts for winter heating oil, then failed to deliver the oil during the winter of 2007-08 and refused refund requests. Maine's Attorney General's office received complaints from customers who had paid in advance but never got their oil, and a York County Superior Court justice ordered Curro and his companies to pay $393,735 in restitution to 313 customers, imposed a $250,000 civil penalty, and barred Curro from entering prepaid fuel contracts for five years. The Maine Supreme Judicial Court unanimously upheld the judgment on appeal in July 2011, rejecting Curro's arguments about notice and intent. The case is part of the basis for Maine's requirement that any heating-oil, kerosene, or propane dealer offering prepaid "guaranteed price" contracts register annually with the state and maintain financial security for those contracts; consumers are advised to confirm a dealer is properly registered before prepaying for a season's fuel, especially when offered a steep discount for paying far in advance.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Maine Attorney General', 'Bangor Daily News'],
+    sourceUrl: 'https://www.bangordailynews.com/2011/07/06/news/man-who-failed-to-deliver-prepaid-oil-loses-appeal/',
+    country: 'US',
+    state: 'ME',
+    isHistorical: true,
+    firstRecorded: '2011-07-06',
+});
+
+UsGM.push({
+    name: 'Maine Job Bank Fake-Posting Prepaid-Card Hiring Scam',
+    slug: 'maine-job-bank-prepaid-card-hiring-scam',
+    description: `A scammer posted a fraudulent job listing directly on the state-run Maine Job Bank, impersonating a real company and claiming to be hiring laborers. After contacting applicants, the scammer told them they were hired and needed to buy a $60 "Green Dot" prepaid debit card from Walmart before their first day of work, supposedly for uniforms or training, then asked them to read the card's code back over the phone. Maine Attorney General Janet Mills and Labor Commissioner Jeanne Paquette jointly warned that legitimate employers never require a job applicant to pay for anything to secure a position, and the Department of Labor urged job seekers to insist on an in-person meeting before accepting any job offer and to report suspicious postings to the department at 207-623-7900. A similar posting later surfaced impersonating a different, well-known Maine employer, suggesting the scheme or copycats of it continued to target the state's job-seeker population through the official Job Bank listing system.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'low',
+    sources: ['Maine Attorney General', 'Maine Department of Labor'],
+    sourceUrl: 'https://www.maine.gov/labor/news_events/article.shtml?id=603847',
+    country: 'US',
+    state: 'ME',
+    isHistorical: true,
+    firstRecorded: '2013-09-17',
+});
+
+UsGM.push({
+    name: 'Fake Vacation-Rental "Beach House" Craigslist Listing Scam',
+    slug: 'maine-fake-vacation-rental-listing-scam',
+    description: `Scammers copy real photos and descriptions from legitimate vacation-property listings along the Maine coast and repost them as phony rental ads on Craigslist, posing as the owner. In a documented case, Lorraine MacLain found what looked like an ideal summer rental in Wells, Maine, emailed the "owner," received rental paperwork, and wired a $1,175 deposit in August 2016 — after which the scammers stopped responding. York County Sheriff's deputies confirmed it was at least the third known case of the same ad being used to scam renters interested in that stretch of coast, and found the listed property wasn't actually a rental at all; deputies subpoenaed the receiving bank to try to identify the account holder, though they noted the money was likely already withdrawn. The pattern — prices set suspiciously below market, requests to pay via wire transfer, and refusal to let renters view the property first — disproportionately hits popular vacation destinations, which Maine's coastal tourist towns are during peak summer rental season. Advice from police: never wire a deposit or pay by gift card or money transfer for a rental sight-unseen, be suspicious of below-market pricing, and insist on viewing the property or verifying ownership through county property records before paying anything.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['York County Sheriff\'s Office', 'WGME'],
+    sourceUrl: 'https://wgme.com/news/local/family-scammed-by-fake-beach-house-listing-in-wells',
+    country: 'US',
+    state: 'ME',
+    isHistorical: true,
+    firstRecorded: '2016-08-05',
+});
