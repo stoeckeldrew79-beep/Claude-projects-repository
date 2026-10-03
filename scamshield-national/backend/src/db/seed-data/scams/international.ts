@@ -11489,6 +11489,36 @@ International.push(
 
 International.push(
   {
+    name: 'Fake "Oxfam Representative" Donation Scam (Vanuatu)',
+    slug: 'vanuatu-fake-oxfam-representative-donation-scam',
+    description: `Oxfam issued a public warning in January 2018 after a person using the name "Alison Kalotiti" visited communities in north and north-east Efate the previous month, falsely claiming to represent Oxfam and demanding money and other services from residents in exchange for a promised "poultry project" that Oxfam would supposedly fund. Oxfam confirmed publicly that no one by that name worked for the organization and that it had no poultry, boat, or related project in the area, directly contradicting the pitch used to extract payment from residents. The charity urged communities not to give money to anyone claiming to work for Oxfam and to report anyone approaching them this way to police. The case illustrates how a real, respected aid organization's name can be borrowed to lend false credibility to a demand for upfront payment toward a project that was never going to exist, and residents approached by someone claiming to represent an NGO should verify that claim directly with the organization before handing over any money.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['RNZ Pacific', 'Oxfam'],
+    sourceUrl: 'https://www.rnz.co.nz/international/pacific-news/347901/oxfam-warns-vanuatu-communities-of-donation-scam',
+    country: 'VU',
+    isHistorical: true,
+    firstRecorded: '2017-12-01',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake Au Bon Marche Facebook Gift-Card Scam (Vanuatu)',
+    slug: 'vanuatu-au-bon-marche-facebook-gift-card-scam',
+    description: `CERT Vanuatu, under the Department of Communications and Digital Transformation, issued a High/Critical consumer advisory on July 8, 2025 after a fraudulent video advertisement began circulating on Facebook falsely claiming that Au Bon Marche, Vanuatu's major supermarket chain, was rewarding customers aged 40 to 44 with a gift card. The ad linked to a lookalike domain designed to resemble Au Bon Marche's real site, which then redirected victims to a separate malicious site, such as luckycardwin.com, built to harvest personal information under the pretense of claiming the reward. CERT Vanuatu stated plainly that "the link in the message does not lead to the official Au Bon Marché website" and that it instead "redirects to a malicious site designed to steal personal information and facilitate criminal activities." Au Bon Marche itself posted a public notice on its own Facebook page disclaiming any connection to the promotion, and CERT Vanuatu advised anyone who had already clicked the link to reset their passwords immediately, particularly for online banking. Residents should treat any social media ad promising a reward tied to a specific age bracket, with a link to a domain that merely resembles a trusted retailer's real site, as a red flag rather than a genuine promotion.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['CERT Vanuatu', 'Department of Communications and Digital Transformation'],
+    sourceUrl: 'https://cert.gov.vu/index.php/advisories/81-advisory-91',
+    country: 'VU',
+    isHistorical: true,
+    firstRecorded: '2025-07-08',
+  },
+);
+
+International.push(
+  {
     name: 'Fake "Amazon Mall" Self-Employment Job-Task Scam',
     slug: 'nicaragua-fake-amazon-centro-autoempleo-job-task-scam',
     description: `A 19-year-old Nicaraguan woman named Esperanza was contacted through a Facebook job ad promising well-paid remote work and displaying the logos of recognizable brands to look legitimate; after filling out a short form, she was routed to a WhatsApp Business account run by people claiming to represent a "Centro de Autoempleo de Amazon Mall" — a fabricated operation with no real connection to Amazon — where handlers using the aliases "Sofi" and "Kesly Sandoval" told her the position required completing paid "training" tasks inside a fake online dashboard. The dashboard displayed nonexistent orders, investments, and commissions, and — as with classic task-scam schemes — the very first payment demanded was small, just 129 córdobas (about US$3.50), before a rapid escalating sequence of further "deposits" (200, 94, 800, 620.39, 2,200, 4,900, 12,152, 4,252, and 7,300 córdobas) that the fake dashboard falsely showed growing toward a supposed balance of 108,000 córdobas in commissions she could withdraw once she paid one more fee. Between 8:01 a.m. and 12:28 p.m. on a single day, Esperanza transferred her family's entire savings — a combined 20,766.39 córdobas (roughly US$570) — chasing a payout that never existed. The family filed a complaint with the Superintendencia de Bancos y de Otras Instituciones Financieras (SIBOIF), and Superintendent Sara Amelia Rosales Castellón was reported in July 2026 to have formally demanded that the financial institution involved explain an eight-month delay in responding to the case and turn over transaction records, communications with the accounts that received the funds, ATM withdrawal footage, and its own internal fraud-investigation findings — with the family's reimbursement still pending as of that report. Nicaraguans are advised to treat any "job" that requires paying money up front to unlock training, tasks, or commissions as a scam regardless of how professional the branding or dashboard looks, to verify any supposed employer's real identity independently of a WhatsApp Business account or Facebook page, and to report suspected fraud to SIBOIF rather than continuing to send money chasing a rising on-screen balance.`,
