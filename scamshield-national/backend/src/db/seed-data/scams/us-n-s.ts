@@ -11478,3 +11478,43 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-05-01',
 });
+
+UsNS.push({
+    name: 'Toledo AI Voice-Cloning "Grandson Arrested" Scam',
+    slug: 'ohio-toledo-ai-voice-cloning-grandparent-scam',
+    description: `An 82-year-old Toledo woman received a call from an unknown number, about a year before she went public with her story in February 2026, from someone who used AI-cloned audio to sound exactly like her 18-year-old grandson. The caller claimed to have been arrested after police found drugs in a car he was riding in and said "I'm at the jail now and we need some money so I can get bailed out," requesting $8,000 while pressuring her not to tell his parents. She grew suspicious as the caller elaborated extensively on the story, hung up without paying, and called her daughter-in-law, who confirmed the grandson was safe at home. Cybersecurity consultant Dave Hatter of Intrust-IT, interviewed for the story, explained that scammers can harvest a short audio sample — even just someone's own voicemail greeting — to train a voice-cloning model convincing enough to fool a close relative: "Anyone right now can go online and find a tool, a free online website that will allow you to clone a voice." The case was reported alongside similar police warnings from Celina, Ohio. Protective advice: hang up and call the person back on a number you already have saved, verify through a third family member, and be skeptical of any urgent money request from a "relative" who also demands secrecy.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['13abc (WTVG, Toledo)', 'Intrust-IT'],
+    sourceUrl: 'https://13abc.com/2026/02/05/toledo-grandmother-warns-ai-voice-cloning-scams/',
+    country: 'US',
+    state: 'OH',
+});
+
+UsNS.push({
+    name: 'Cleveland FBI Crypto ATM Warning-Sign Initiative',
+    slug: 'ohio-fbi-crypto-atm-warning-signs-scam',
+    description: `The FBI's Cleveland field office, through Special Agent Milan Kosanovich, disclosed in June 2025 that it had begun placing physical warning notices directly at cryptocurrency ATM kiosks across Northeast Ohio after a wave of "emergency" impersonation scams that route victims to those machines. In the case the FBI used to illustrate the problem, a Shaker Heights man was contacted by a caller impersonating his son, who claimed to be in jail and needed $9,000 sent immediately; the man was instructed to deposit cash into a local crypto ATM, but the transaction was interrupted when an alert clerk recognized the warning signs and stopped him. Kosanovich explained the initiative's purpose: "If you're using the crypto ATM because somebody that you don't know has told you you have to do this in order to avoid arrest, prosecution, or to escrow your money or something, we want to give you that chance to take a second thought." The signage is aimed at first-time ATM users, warning them to pause if a stranger is directing them to use the machine to avoid arrest, release an "escrowed" payment, or help a relative in a supposed crisis. Protective advice: stop before completing any crypto ATM transaction a stranger has instructed you to make, since the funds cannot be recovered once sent, and verify any jailed or arrested relative's story independently before sending money.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['FBI Cleveland Field Office'],
+    sourceUrl: 'https://www.cleveland19.com/2025/06/05/fbi-places-warning-signs-northeast-ohio-crypto-atms-stop-would-be-scam-victims',
+    country: 'US',
+    state: 'OH',
+    isHistorical: true,
+    firstRecorded: '2025-06-05',
+});
+
+UsNS.push({
+    name: 'AEP Ohio "Service Interruption Credit" Phishing Email Scam',
+    slug: 'ohio-aep-service-interruption-credit-email-scam',
+    description: `Following a stretch of severe Ohio weather — wind storms, tornadoes, and winter weather that knocked out power across the state — American Electric Power (AEP) Ohio issued a consumer warning on March 20, 2026 about a phishing campaign impersonating the utility. The fraudulent emails dangle a "service interruption credit," using the outages as bait, and try to get recipients to click an embedded link or hand over personal information under the guise of claiming the credit. AEP's statement was direct: "If you receive something like this or any suspicious call, email or text, do not click any links or provide any personal information." The company also used the alert to correct a related misconception scammers exploit — that customers get billed even when their power is out — clarifying that customers are charged only for the power they use and are not charged if their electricity is off. AEP directed anyone who receives a suspicious message to report it via the company's social media channels or by calling 800-672-2231, rather than clicking anything in the email itself.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['American Electric Power (AEP) Ohio', 'Spectrum News 1'],
+    sourceUrl: 'https://spectrumnews1.com/oh/columbus/news/2026/03/20/aep-warns-of-scam',
+    country: 'US',
+    state: 'OH',
+    isHistorical: true,
+    firstRecorded: '2026-03-20',
+});
