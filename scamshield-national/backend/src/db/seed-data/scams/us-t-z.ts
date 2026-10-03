@@ -6625,3 +6625,29 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2017-12-14',
 });
+
+UsTZ.push({
+    name: 'Appalachian Power and Mon Power Disconnection Threat Impersonation Scam',
+    slug: 'west-virginia-appalachian-power-mon-power-disconnection-scam',
+    description: `Scammers impersonating West Virginia's two largest electric utilities — Appalachian Power (APCo) and Mon Power, a FirstEnergy company — call, text, and email customers claiming an overdue bill will trigger same-day disconnection unless they pay immediately. Mon Power first issued a public warning on July 19, 2024 after customers reported calls demanding they buy a prepaid money card and read the number back over the phone, or hand over a Social Security number or bank details, to "settle" an account; the company stressed real representatives never call demanding immediate payment this way and that legitimate disconnection notices arrive in writing well in advance. Appalachian Power continued seeing the same tactic and used the utility industry's National Utility Scam Awareness Day on November 19, 2025 to warn its own customers that scammers now also demand payment via gift cards, cryptocurrency, or third-party payment apps — methods the company says it never requests — while manufacturing urgency so the customer has no time to verify. Caller ID can be spoofed to display the real utility's name and number. Both companies advise the same response: hang up, then call the number printed on your own bill or listed on the official company website, never a callback number the caller supplies; Appalachian Power frames this as "Slow Down, Verify, Stop the Scam."`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Mon Power', 'Appalachian Power', 'WDTV', 'WVVA'],
+    sourceUrl: 'https://www.wvva.com/2025/11/19/utility-scam-awareness-day-appalachian-power-warns-customers-impostor-threats',
+    country: 'US',
+    state: 'WV',
+    isHistorical: true,
+    firstRecorded: '2024-07-19',
+});
+
+UsTZ.push({
+    name: 'Cryptocurrency Kiosk ("Crypto ATM") Fraud Draining West Virginians\' Cash',
+    slug: 'west-virginia-cryptocurrency-kiosk-atm-scam',
+    description: `Criminals are directing West Virginia scam victims — often as the final step of a separate tech-support, IRS-impersonation, or romance/"pig-butchering" con — to physical cryptocurrency kiosks found in gas stations, convenience stores, and laundromats, where the victim feeds in cash that is converted to crypto and sent, irreversibly, to a wallet typically controlled by criminals operating overseas. AARP West Virginia Associate State Director Tom Hunter said the kiosks were "the wild west" in terms of how criminals exploit the lack of oversight, noting $7.5 million was stolen from West Virginians through crypto scams in 2024 alone, and cited FBI data putting nationwide losses tied to crypto kiosks at $333 million. Once sent, the funds are essentially unrecoverable since they move through anonymous overseas wallets. In response, Governor Patrick Morrisey signed HB5353 on April 1, 2026, bringing crypto kiosks under state money-transmission licensure and requiring withdrawal limits and paper receipts, joining 37 other states that regulate crypto kiosks. Consumers are advised to treat any instruction — from a caller, texter, or online contact of any kind — to pay or "verify" something via a cryptocurrency kiosk as a scam red flag, since no legitimate government agency, business, or utility accepts payment that way.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['AARP West Virginia', 'WVNS 59News', 'Broadband Breakfast'],
+    sourceUrl: 'https://digital-release.wvnstv.com/news/modern-scams-with-cryptocurrency-in-west-virginia/',
+    country: 'US',
+    state: 'WV',
+});
