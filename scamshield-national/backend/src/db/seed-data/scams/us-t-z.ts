@@ -6678,3 +6678,31 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-09-17',
 });
+
+UsTZ.push({
+    name: 'Solgen Power Deceptive Rooftop Solar Sales Scheme',
+    slug: 'washington-solgen-power-deceptive-solar-sales',
+    description: `Pasco-based solar installer Solgen Power used high-pressure, misleading sales tactics on Washington homeowners, including a Longview couple who sued the company with the help of Seattle attorney Christina Henry. The suit alleged Solgen misrepresented that an expensive 77-panel system would cut the couple's electricity bill by more than 85%, when in reality it produced only about $15 to $20 in monthly savings; the installation itself was also defective, with the electricity meter installed backward and tar spread across the roof, and the company misrepresented the tax-credit benefits the couple would receive. The case settled through mediation in January 2024 and became a central example lawmakers cited in passing Washington's 2024 Solar Consumer Protection Act (HB 2156), which now requires solar installers to give homeowners written savings estimates, itemized costs, licensed-contractor solicitation, and a pre-installation utility interconnection agreement before signing anyone up. Solgen Power was not a member of the Washington Solar Industries Association and did not respond to requests for comment on the lawsuit; the company later filed for bankruptcy and ceased all operations. Washington homeowners considering rooftop solar should get all savings and cost estimates in writing before signing anything, verify a contractor's licensing status independently, and be skeptical of any installer who promises an exact percentage reduction in your power bill without a site-specific, written calculation.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Washington State Standard', 'Spokane Public Radio'],
+    sourceUrl: 'https://washingtonstatestandard.com/2024/03/01/washington-lawmakers-move-to-rein-in-unscrupulous-rooftop-solar-companies/',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2024-03-01',
+});
+
+UsTZ.push({
+    name: 'Renton Physician\'s Medicare Genetic-Testing Kickback Scheme (Christopher Bjarke)',
+    slug: 'washington-renton-bjarke-genetic-testing-medicare-kickback',
+    description: `Dr. Christopher B. Bjarke, a 61-year-old physician from Renton, Washington, pleaded guilty to conspiring to accept kickbacks in a fraudulent genetic-testing scheme that targeted elderly Medicare beneficiaries nationwide. Telemarketers connected Medicare beneficiaries to Bjarke for brief phone calls lasting only a few minutes — his sole contact with patients he had no actual doctor-patient relationship with — after which he ordered genetic and cancer-risk tests for them regardless of medical need. Laboratories then billed Medicare for the unnecessary tests, and a separate company billed for purported telemedicine visits that never substantively occurred. Between December 2020 and September 2021, Medicare paid out more than $18.6 million as a result of tests Bjarke ordered, and he personally received $167,996.73 in kickbacks from his co-conspirators in exchange. The Department of Justice emphasized that the scheme specifically targeted the elderly, who are "often most in need of a doctor's independent judgment" rather than a rubber-stamp signature from a physician they never actually saw. Medicare beneficiaries are urged to review the Medicare Summary Notice mailed after any claim and to question or report any genetic test, brace, or other item billed in their name that they don't recall actually being examined for by their own treating physician.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice'],
+    sourceUrl: 'https://www.oversight.gov/renton-doctor-pleads-guilty-conspiring-accept-kickbacks-connection-fraudulent-genetic-testing',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2022-09-28',
+});
