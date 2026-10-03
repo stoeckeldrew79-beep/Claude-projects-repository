@@ -11277,3 +11277,41 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2026-03-02',
 });
+
+UsAF.push({
+    name: 'PG&E Impersonator Scam: Barcode/QR Code "Scan to Pay" Tactic',
+    slug: 'california-pge-barcode-qr-code-impersonation-scam',
+    description: `Scammers impersonate PG&E (Pacific Gas & Electric) employees by phone, often with caller ID spoofed to display "PG&E," falsely claiming the customer's account is past due and threatening to cut power within the hour unless payment is made immediately. A newer variant layers on a different payment mechanism than the typical gift-card or wire demand: after the disconnection threat, scammers text or email the victim a barcode or QR code and instruct them to take it to a retail store and have a cashier scan it to complete payment. PG&E reports it received nearly 24,000 scam-impersonation reports from customers in 2025, with losses exceeding $301,000 that year (average loss $590); through mid-2026 losses had already topped $211,000 (average loss $969), putting 2026 on pace to exceed 2025. Regional reports concentrated in PG&E's Central Valley service area included 219 victims in Fresno County, 49 in Merced County, 35 in Madera County, and 8 in Tulare County. PG&E states flatly it "will never ask you for financial information over the phone or for payment via bar code, QR code or pre-paid debit cards," and advises customers to hang up, verify account status only through the number on their bill or PG&E's official site, and call PG&E's fraud line (1-833-500-SCAM) to confirm before paying anything.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Pacific Gas & Electric (PG&E)', 'KMPH (Fresno)'],
+    sourceUrl: 'https://kmph.com/news/crime/pge-warns-of-rising-impersonator-scams-including-new-barcode-and-qr-code-payment-ploy-pacific-gas-electric-fresno-county-merced-madera-tulare-zelle-gift-card-sophisticated-tactics-demanding-immediate-payment',
+    country: 'US',
+    state: 'CA',
+});
+
+UsAF.push({
+    name: 'FasTrak "Overdue Toll" Text Smishing Scam',
+    slug: 'california-fastrak-text-toll-scam',
+    description: `California Attorney General Rob Bonta issued a formal consumer alert on July 1, 2024 warning residents about a surge in text messages falsely claiming the recipient owes "overdue toll charges" — invoking FasTrak or other California toll/express-lane systems — and urging an urgent click-through to pay and avoid late fees. The links lead to convincing lookalike payment pages designed to harvest personal information and credit card numbers, risking both identity theft and direct financial loss for victims who enter payment details. The alert states FasTrak "does not request payment by text with a link to a website" and ties the California wave to a broader nationwide smishing campaign the FBI separately reported received more than 60,000 complaints in 2024. Bonta's office advised Californians to resist the manufactured urgency, verify any real toll balance only by calling FasTrak customer service directly at 877-229-8655 — a number looked up independently, not one in the text — report the text via their phone's "report junk" feature or by forwarding it to 7726 (SPAM), and delete it without clicking any link.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['California Attorney General', 'FasTrak'],
+    sourceUrl: 'https://www.oag.ca.gov/news/press-releases/attorney-general-bonta-issues-consumer-alert-warns-californians-about-text-based',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2024-07-01',
+});
+
+UsAF.push({
+    name: 'AI Voice-Cloning "Virtual Kidnapping" Cartel Extortion Scam (Martinez)',
+    slug: 'california-martinez-ai-voice-cloning-virtual-kidnapping-extortion',
+    description: `A Martinez, California woman, Debra Del Mastro, was targeted by a telephone extortion scheme in which a caller falsely claimed her adult daughter had been kidnapped by a Mexican cartel. To make the threat credible, the scammer played an AI-generated audio clip of a crying, pleading voice saying lines such as "I am so sorry Mom, I love you" — a clone likely built from audio pulled from the daughter's public social media posts. Believing the call was real, Del Mastro wired roughly $5,000 toward a $20,000 ransom demand before discovering her daughter was safe at work the entire time and unaware anything had happened. The case was reported alongside an FBI warning that AI-enabled fraud is surging, with the Bureau's Internet Crime Complaint Center reporting Americans lost over $893 million to AI-related fraud in its most recent reporting cycle — the first year AI fraud was tracked as its own distinct category. Recommended protective measures include setting up a family code word known only to immediate family to verify a real emergency, staying calm and independently contacting the "victim" through a separately known phone number before sending any money, and being cautious about answering calls from unfamiliar numbers, since voice samples can be harvested from an answered call.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'critical',
+    sources: ['FBI', 'NBC Palm Springs'],
+    sourceUrl: 'https://www.nbcpalmsprings.com/2026/06/01/fbi-warns-of-surging-ai-voice-cloning-scams-as-california-mother-shares-terrifying-extortion-experience',
+    country: 'US',
+    state: 'CA',
+});
