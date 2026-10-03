@@ -12057,3 +12057,45 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2019-04-02',
 });
+
+UsGM.push({
+    name: 'Fake Hawaii "DMV" Traffic Citation Text Scam',
+    slug: 'hawaii-fake-dmv-traffic-citation-text-scam',
+    description: `Hawaii residents statewide have been targeted by unsolicited text messages and emails impersonating a "Department of Motor Vehicles" — an agency that does not formally exist by that name in Hawaii's county-run vehicle registration system. The messages, sent from unknown numbers, open with lines like "Important: Your Traffic Fine is Pending Payment" and threaten that the recipient's vehicle registration will be cancelled, their driver's license suspended, or legal proceedings initiated unless an outstanding fine is paid immediately through a link in the text. The City and County of Honolulu's Office of the Mayor issued a public warning on February 3, 2026 confirming the messages are fraudulent, stressing that legitimate traffic citations and registration notices are sent only by U.S. mail, never by text or email. Recipients are urged to block the sender, delete the message, and never click embedded links or reply, and anyone who already paid should immediately contact their bank or credit card company to secure their account.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['City and County of Honolulu Office of the Mayor'],
+    sourceUrl: 'https://www.honolulu.gov/mayor/city-warns-o%ca%bbahu-residents-about-dmv-text-and-email-scam/',
+    country: 'US',
+    state: 'HI',
+    isHistorical: true,
+    firstRecorded: '2026-02-03',
+});
+
+UsGM.push({
+    name: 'Hawaii Vacation "Travel Club" Presentation Bait-and-Switch Scam',
+    slug: 'hawaii-vacation-club-presentation-bait-and-switch-scam',
+    description: `A Texas visitor booking Hawaii activities online was lured into paying for a seemingly small discount: after buying luau tickets, she was offered a $40 discount for sitting through a Zoom "travel deals" presentation run by a company called Aloha Hawaii Tours and Travel. During that presentation she was pressured into providing her credit card for what she understood was an approved $199 discount payment, but was later billed an additional $2,000 split across 18 monthly installments for a travel-club membership she had not knowingly agreed to, and she was then unable to reach the company by phone. Hawaii News Now reported the case in August 2022, noting the operator traded on a name deceptively similar to a legitimate, unrelated local travel business, making it easy for shoppers to confuse the two. The victim filed complaints with the Better Business Bureau and Hawaii state authorities; a BBB representative and a travel-industry expert quoted in the story warned that near-identical company names and guarantees of prices well below major travel sites are red flags, and recommended researching any unfamiliar vendor and reviewing full membership terms before handing over payment information for a "discount."`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Hawaii News Now', 'Better Business Bureau'],
+    sourceUrl: 'https://www.hawaiinewsnow.com/2022/08/17/texas-visitor-claims-she-got-ripped-off-by-online-presentation-hawaii/',
+    country: 'US',
+    state: 'HI',
+    isHistorical: true,
+    firstRecorded: '2022-08-16',
+});
+
+UsGM.push({
+    name: 'Hawaii DLIR Unemployment Insurance Phishing Scam',
+    slug: 'hawaii-dlir-unemployment-insurance-phishing-scam',
+    description: `Hawaii's Department of Labor and Industrial Relations (DLIR) warned of a rise in phishing schemes that impersonate the state's unemployment insurance (UI) system through text messages, emails, and social-media posts. The messages direct unemployment claimants to fake websites built to closely resemble the real Hawaii UI portal, where victims are prompted to enter their login credentials and personal information; criminals then use those credentials to hijack existing accounts and steal benefit payments from legitimate claimants, or to commit broader identity theft. DLIR Director Anne Perreira-Eustaquio said the fraudulent sites can look "very real," designed closely enough that claimants may not realize they are fake until their benefits are already compromised. The department emphasized that the only legitimate UI benefits portal is huiclaims.hawaii.gov, that DLIR never requests personal information by text message, and that anyone targeted or affected should report it to the Unemployment Insurance Call Center at (808) 762-5751 or 5752 (option 4) or to the National Center for Disaster Fraud at (866) 720-5721.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Hawaii Department of Labor and Industrial Relations'],
+    sourceUrl: 'https://labor.hawaii.gov/?p=7872',
+    country: 'US',
+    state: 'HI',
+    isHistorical: true,
+    firstRecorded: '2022-04-07',
+});
