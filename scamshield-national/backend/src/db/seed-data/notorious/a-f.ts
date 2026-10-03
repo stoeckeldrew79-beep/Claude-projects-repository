@@ -10955,6 +10955,10 @@ NotoriousAF.push({
     slug: 'chen-jihong-dezheng-qingdao-metals-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'corporate-fraud', 'bank-fraud', 'china'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Maersk_container_being_loaded_in_the_Port_of_Qingdao,_China_(7178519730).jpg?width=1200',
+    coverImageCredit: 'Port of Qingdao, China, 2012. Photo: Maersk Line / Wikimedia Commons, CC BY-SA 2.0.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Chen Jihong founded Dezheng Resources Holding Co. Ltd. in 2004, building it into a commodity trading company that moved real aluminum ingots, alumina, and refined copper through the Chinese ports of Qingdao and Penglai. That physical inventory, warehoused at the ports, became the collateral Dezheng used to borrow money — and between November 2012 and May 2014, Chen's company found a way to borrow far more against it than the metal was actually worth.
 
 The mechanism was straightforward once it surfaced: Dezheng forged and duplicated the warehouse receipts documenting what metal it actually had in storage, then used those overlapping, often outright fake receipts to pledge the very same stockpiles of aluminum, alumina, and copper as collateral to more than a dozen banks and trading houses at once. Each lender believed it held a secured claim on real metal sitting in a bonded warehouse; in reality, the same physical cargo was backing loans and letters of credit many times over, inflating Dezheng's apparent collateral into financing that reporting put at roughly RMB 12.3 billion (about $1.78 billion), including some RMB 3.6 billion (about $520.8 million) in loans, letters of credit, and bank acceptance bills obtained specifically by re-pledging cargo that had already been pledged elsewhere.

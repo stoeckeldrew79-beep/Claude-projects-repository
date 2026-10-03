@@ -3690,6 +3690,9 @@ NotoriousTZ.push({
     slug: 'thomas-kwok-rafael-hui-sun-hung-kai-bribery',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'corruption', 'bribery', 'corporate-fraud', 'china'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thomas_Kwok.png?width=1200',
+    coverImageCredit: 'Thomas Kwok, cropped from a 2008 photo by Wikimedia Commons user WiNG, CC BY-SA 3.0.',
+    coverImagePosition: 50,
     body: `Rafael Hui Si-yan spent decades inside Hong Kong's government, rising to Chief Secretary for Administration — the territory's second-highest official — before leaving public service to sit on private boards and, prosecutors say, sell the access he still had. Between 2000 and 2009, while Hui held senior government and quasi-government posts, he accepted free use of two luxury apartments and unsecured loans totaling millions of Hong Kong dollars from Thomas Kwok Ping-kwong, joint chairman of Sun Hung Kai Properties (SHKP), one of Hong Kong's largest and most politically connected property developers.
 
 Hong Kong's Independent Commission Against Corruption (ICAC) charged Hui, Thomas Kwok, his brother Raymond Kwok, SHKP executive director Thomas Chan Kui-yuen, and businessman Francis Kwan Hung-sang in 2012, alleging that once Hui was appointed Chief Secretary in 2005, the arrangement escalated into direct cash payments — including HK$8.5 million paid to Hui between March 2005 and June 2007, part of a scheme prosecutors said was designed to make him the Kwoks' "eyes and ears" inside the government, and a further HK$11.182 million paid to Hui as a reward for favorable treatment between mid-2005 and January 2009.
