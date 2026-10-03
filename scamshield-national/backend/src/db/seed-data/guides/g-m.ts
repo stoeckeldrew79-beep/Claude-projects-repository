@@ -4985,6 +4985,9 @@ GuidesGM.push({
     slug: 'holiday-seasonal-hiring-job-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'employment-scams', 'identity-theft', 'job-task-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Warehouse_interior_showcasing_organized_shelving_and_packages.jpg?width=1200',
+    coverImageCredit: "Photo: 'Warehouse interior showcasing organized shelving and packages' by Shixart1985, Wikimedia Commons, CC BY 2.0.",
+    coverImagePosition: 50,
     body: `Every fall, real retailers, delivery carriers, and warehouses ramp up seasonal hiring for the October-through-December rush, posting thousands of genuine "package handler," "seasonal associate," and work-from-home "holiday data entry" openings on job boards like Indeed, LinkedIn, and Facebook. Scammers exploit that real surge by posting fake listings alongside the legitimate ones — sometimes impersonating a recognizable seasonal employer like a major delivery carrier or retailer, sometimes inventing a generic-sounding company — and skipping the one step that would normally expose the fraud: an actual interview. Instead, an applicant gets an almost-instant "congratulations, you're hired" message over chat or text.
 
 Once "hired," the scam branches in a few directions. Some postings demand an upfront fee for a starter kit, uniform, badge, or an "expedited" background check before the first day — something the FTC states plainly no legitimate job will ever require. Others collect a Social Security number and bank account details very early, framed as routine "payroll and direct-deposit setup" paperwork, before any real, signed offer letter exists. And a significant share of these fake postings are actually package-reshipping jobs in disguise, recruiting the "new hire" as an unwitting money mule rather than a real employee.
