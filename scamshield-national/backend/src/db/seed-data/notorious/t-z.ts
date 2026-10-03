@@ -3707,6 +3707,10 @@ NotoriousTZ.push({
     title: "Beny Steinmetz and the Guinea Bribery Scheme Behind the World's Richest Iron Ore Deposit",
     slug: 'beny-steinmetz-bsgr-guinea-simandou-bribery',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2013_Conakry_Guinea_14418728438.jpg?width=1200',
+    coverImageCredit: 'Photo: Maarten van der Bent, CC BY-SA 2.0, via Wikimedia Commons — a street in Conakry, Guinea',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international', 'bribery', 'corruption', 'switzerland'],
     body: `Beny Steinmetz is an Israeli mining magnate who founded BSG Resources (BSGR), a company that in 2008 won exploration rights to part of the Simandou mountain range in Guinea — widely described as the world's richest untapped deposit of iron ore. Those rights had previously been held in part by mining giant Rio Tinto before Guinea's government stripped and reallocated them, and BSGR's sudden acquisition of such a valuable concession, at a fraction of its eventual market value, drew scrutiny for years afterward.
 
