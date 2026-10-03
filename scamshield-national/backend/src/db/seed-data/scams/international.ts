@@ -23718,3 +23718,16 @@ International.push({
   sourceUrl: 'https://thevoiceslu.com/2019/07/lucelec-issues-advisory-on-imposters/',
   country: 'LC',
 });
+
+International.push({
+  name: 'Fake Instagram Account Impersonating Montserrat\'s Premier Over Promised Financial Grants',
+  slug: 'montserrat-fake-premier-instagram-financial-grants-scam',
+  description: `On July 8, 2020, the Office of the Premier of Montserrat issued a public warning that a fake Instagram profile had been created using Premier Joseph E. Farrell's photo and name, falsely posing as an official page of the sitting Premier. The imposter account claimed that "the Government of Montserrat will be giving out financial grants to individuals" — a claim officials stated was entirely false. The government's notice stated plainly that "Premier Farrell does not have an account on Instagram and the public is therefore advised not to accept any requests from this false account," warning residents against engaging with the profile or any claims about government payouts made through it. Anyone with information identifying who was operating the fake account was asked to contact the Royal Montserrat Police Service at police@gov.ms or (664) 491-2555, and the public was directed to rely only on the verified "Government Information Unit-Montserrat" and "Office of the Premier-Montserrat" Facebook pages for authentic government announcements.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Office of the Premier of Montserrat', 'Royal Montserrat Police Service'],
+  sourceUrl: 'https://www.gov.ms/2020/07/08/office-of-the-premier-warns-of-fake-social-media-account-of-the-hon-premier-joseph-e-farrell/',
+  country: 'MS',
+  isHistorical: true,
+  firstRecorded: '2020-07-08',
+});
