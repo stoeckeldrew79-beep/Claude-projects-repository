@@ -5001,6 +5001,10 @@ Red flags include a job offer with no live interview of any kind — just a text
 GuidesGM.push({
     title: "Mortgage Protection Insurance Mailers: The \"Official\" Letter That Isn't From Your Lender",
     slug: 'mortgage-protection-insurance-mailer-scam-guide',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Black_mailbox_with_the_image_of_an_envelope,_Overschie,_Rotterdam_(2021)_01.jpg?width=1200',
+    coverImageCredit: 'Photo: Donald Trung, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     author: 'ScamShield Editorial',
     tags: ['guide', 'homeowner-mail-scam', 'insurance-fraud'],
     body: `The moment a home purchase or refinance closes, the deed and mortgage become public record — the lender's name, the loan amount, and the homeowner's address are all there for anyone to look up. Marketers and outright fraudsters buy that data and mail new homeowners letters engineered to look like official correspondence from their own mortgage company, often formatted like an actual check, complete with tear-away perforated sides and a printed "Renewal Fee Voucher" for somewhere between $199 and $234. The letter claims the homeowner's "home warranty" or mortgage-related insurance is about to lapse unless they "renew" it right away, with the renewal handled by a vaguely named "Home Warranty Dept." A callback number is printed directly on the mailer — but calling it reaches the company that sent the letter, not the homeowner's actual lender.
