@@ -11355,3 +11355,29 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2016-12-13',
 });
+
+UsAF.push({
+    name: 'Juneau Fake Flood-Repair Contractor Invoice Scam',
+    slug: 'alaska-juneau-fake-flood-contractor-invoice-scam',
+    description: `After Juneau's record August 2023 Mendenhall River glacial outburst flood damaged homes along Marion Drive and River Drive, scammers impersonated a real, already-hired local contractor doing riverbank-armoring and rebuilding work for flood victims. Posing as the legitimate contractor, they emailed homeowners mid-project with fake invoices carrying the real contractor's logo and address for work that was never performed, exchanging emails over several weeks and answering questions about supposed work progress to build trust before pushing for payment. One Marion Drive homeowner lost $54,310 total — an initial $10,500 payment followed by two further wire transfers totaling $43,810 — after scammers who initially requested Zelle and Venmo payments escalated to wire transfers sent to a Wells Fargo account held under the name "J&J Ventures." At least nine households on that one street received the fraudulent emails. Juneau Police Lieutenant Krag Campbell confirmed multiple reports and an open investigation, and the FBI's local office was also alerted. One resident who avoided the scam noticed the impersonator's unusually wordy email tone differed from the real contractor's typical communication style, prompting a verification call that exposed the fraud. Homeowners working with contractors after a disaster should independently verify any mid-project invoice by calling the contractor directly using a phone number obtained before the work began, never one provided in an email, and should be wary of any request to switch from a known payment method to a wire transfer.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Juneau Police Department', 'Alaska Public Media'],
+    sourceUrl: 'https://alaskapublic.org/news/2023-10-05/scammers-posing-as-a-local-contractor-are-targeting-juneau-flood-victims',
+    country: 'US',
+    state: 'AK',
+    isHistorical: true,
+    firstRecorded: '2023-10-05',
+});
+
+UsAF.push({
+    name: 'Third-Party "U.S. Vessel Documentation" Coast Guard Impersonation Scam',
+    slug: 'alaska-coast-guard-vessel-documentation-scam',
+    description: `A private company calling itself "U.S. Vessel Documentation" mails letters designed to closely resemble official U.S. Coast Guard correspondence, warning commercial vessel owners that their federal documentation is about to lapse and directing them to renew through the company's own website, uscgdocumentation.us, at inflated prices. Haines, Alaska commercial fisherman Norm Hughes received one of these letters and paid $150 for what he believed was his official two-year Coast Guard renewal — roughly three times the real cost, since the Coast Guard's own fee is $26 for a one-year renewal. The letters include disclaimers and terms of service in small print disclosing that the sender is not the Coast Guard, but the overall letter is formatted to look like an official government notice. Steve Ramp of the Coast Guard's Sitka detachment confirmed the company isn't doing anything illegal, since its disclaimers technically exist, but said it is "offering a service" homeowners and boat owners could get directly from the Coast Guard for a small fraction of the price. The practice has been reported as an ongoing, nationwide issue affecting documented-vessel owners, with Alaska's commercial fishing fleet among those targeted. Vessel owners are advised to renew documentation only directly through the Coast Guard's National Vessel Documentation Center, and to treat any renewal letter from an unfamiliar company — even one that looks official — as a sign to verify the sender before paying anything.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['KHNS (Haines)', 'National Fisherman'],
+    sourceUrl: 'https://khns.org/?p=20004',
+    country: 'US',
+    state: 'AK',
+});
