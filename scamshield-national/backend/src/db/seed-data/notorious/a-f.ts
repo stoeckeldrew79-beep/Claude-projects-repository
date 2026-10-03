@@ -10949,3 +10949,20 @@ The fraud surfaced as Taisei Fire & Marine, dragged down in part by the conceale
 No criminal charges against Sabbah or Kornfeld have been confirmed; the case was resolved through arbitration findings of fraud and civil settlement rather than a DOJ or SEC prosecution. That doesn't make the underlying scheme any less instructive: a managing general agent sits in a position of enormous informational advantage over the insurers who rely on its own books to know what they're actually on the hook for, and Fortress Re shows how many years — and how much money — that advantage can be exploited for before the people footing the bill find out the number they were given was never real.`,
     sourceUrl: 'https://www.businessinsurance.com/mga-officers-face-fraud-charges/',
 });
+
+NotoriousAF.push({
+    title: "Chen Jihong and the $1.8 Billion Fraud That Shook the World's Metals Markets From a Chinese Port",
+    slug: 'chen-jihong-dezheng-qingdao-metals-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'corporate-fraud', 'bank-fraud', 'china'],
+    body: `Chen Jihong founded Dezheng Resources Holding Co. Ltd. in 2004, building it into a commodity trading company that moved real aluminum ingots, alumina, and refined copper through the Chinese ports of Qingdao and Penglai. That physical inventory, warehoused at the ports, became the collateral Dezheng used to borrow money — and between November 2012 and May 2014, Chen's company found a way to borrow far more against it than the metal was actually worth.
+
+The mechanism was straightforward once it surfaced: Dezheng forged and duplicated the warehouse receipts documenting what metal it actually had in storage, then used those overlapping, often outright fake receipts to pledge the very same stockpiles of aluminum, alumina, and copper as collateral to more than a dozen banks and trading houses at once. Each lender believed it held a secured claim on real metal sitting in a bonded warehouse; in reality, the same physical cargo was backing loans and letters of credit many times over, inflating Dezheng's apparent collateral into financing that reporting put at roughly RMB 12.3 billion (about $1.78 billion), including some RMB 3.6 billion (about $520.8 million) in loans, letters of credit, and bank acceptance bills obtained specifically by re-pledging cargo that had already been pledged elsewhere.
+
+The fraud came apart in mid-2014, when a separate corruption investigation into port officials at Qingdao triggered independent inventory audits — and auditors discovered that the metal named on many of Dezheng's warehouse receipts simply wasn't there in the quantities claimed, because it had already been claimed by someone else's receipt. The discovery set off an immediate, internationally reported crisis of confidence in Chinese commodity-financing markets, as major global trading houses and banks scrambled to assess their own exposure to warehouse receipts they could no longer be sure represented real, unpledged metal.
+
+The Qingdao Intermediate People's Court tried Chen Jihong and several senior Dezheng staff on charges tied to the forged and duplicated receipts. On December 10, 2018, the court convicted Chen on five counts of financial crimes, sentencing him to 23 years in prison and fining Dezheng Resources RMB 3.012 billion (about $436.57 million).
+
+The Dezheng case is a reminder that a warehouse receipt is only as trustworthy as the system verifying that the commodity behind it hasn't already been claimed somewhere else — and that a fraud built on physically real, visible cargo, rather than a wholly invented asset, can still multiply itself many times over simply by describing the same inventory differently to each lender who never checks with the others.`,
+    sourceUrl: 'https://www.caixinglobal.com/2018-12-11/dezheng-founder-gets-32-years-in-prison-over-port-forgery-scandal-101358154.html',
+});
