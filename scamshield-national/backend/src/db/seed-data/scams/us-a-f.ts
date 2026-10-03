@@ -11315,3 +11315,43 @@ UsAF.push({
     country: 'US',
     state: 'CA',
 });
+
+UsAF.push({
+    name: '"Colorado Fire Relief Foundation" Fake Wildfire-Relief Charity Scam',
+    slug: 'colorado-fire-relief-foundation-fake-charity-scam',
+    description: `In the aftermath of major Colorado wildfires, the Boulder County Sheriff's Office identified and warned residents about a nonprofit calling itself the "Colorado Fire Relief Foundation" that was soliciting donations for fire-relief assistance despite two clear red flags: it was not registered with the State of Colorado, and its website domain appeared to originate from outside the United States. The Sheriff's Office's advice was straightforward — anyone wanting to donate to a wildfire-relief effort should search and verify a nonprofit's registration status before giving any money, rather than trusting a name or website alone. The case is a reminder that disaster-relief charity fraud is a distinct risk from contractor fraud: here the money is taken by an organization that never intended to help survivors at all.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Boulder County Sheriff\'s Office'],
+    sourceUrl: 'https://www.cbsnews.com/colorado/news/boulder-county-fake-nonprofit-colorado-fire-relief-wildfires',
+    country: 'US',
+    state: 'CO',
+    isHistorical: true,
+    firstRecorded: '2021-02-05',
+});
+
+UsAF.push({
+    name: 'Unclaimed Life Insurance "Lost Relative" Inheritance Scam Targeting Coloradans',
+    slug: 'colorado-unclaimed-life-insurance-inheritance-scam',
+    description: `A revived version of a classic advance-fee scam has been contacting Colorado families: scammers posing as attorneys or law-firm representatives reach out by letter, email, or phone claiming the recipient is the heir to a multi-million-dollar life insurance policy or inheritance left by someone they've never heard of, often someone sharing their last name. The pitch typically claims the payout will be split between the recipient, a charity, and the "law firm" handling the matter, and is designed to build trust before the scammer pushes for sensitive personal information or an upfront "tax" or "legal fee" payment — the inheritance does not exist. Denver7 Investigates documented a specific Colorado case: Eric Lozano of Morrison filed a report with BBB Scam Tracker after someone contacted multiple members of his family claiming to have information about a life-insurance policy tied to his aunt. The FTC's consumer alert flagged the warning signs: an unexpected windfall from an unknown relative, pressure to act quickly, requests for sensitive personal data, and any demand for payment before money is released. Protective advice: do not respond to or engage with the letter or call, never send money or personal information to claim an unexpected inheritance, and report the contact to ReportFraud.ftc.gov.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission', 'Denver7 Investigates'],
+    sourceUrl: 'https://www.denver7.com/news/investigations/ftc-warns-of-revived-unclaimed-life-insurance-scam-which-has-targeted-coloradans-denver7-investigates',
+    country: 'US',
+    state: 'CO',
+});
+
+UsAF.push({
+    name: 'Colorado Real Estate Closing Wire-Transfer Email Fraud',
+    slug: 'colorado-real-estate-wire-transfer-email-fraud',
+    description: `The Colorado Division of Real Estate, part of the Department of Regulatory Agencies (DORA), issued a consumer alert warning home buyers and sellers about a business-email-compromise scheme that hijacks real-estate closings. Cybercriminals hack the email accounts of real estate brokers, title companies, or the buyers and sellers themselves — or register lookalike email addresses with a single altered character that goes unnoticed — then, timed right around closing, send fraudulent wiring instructions that redirect the sale proceeds into an account the criminals control. Division of Real Estate Director Marcia Waters warned: "Unless you pay very close attention, everything may look right — the email signature, address and the website. But, by the time homebuyers realize something is wrong, the money is already gone and in an untraceable bank account, leaving them at the closing table with no money and eliminating their ability to purchase the home." The alert cited a Colorado seller who lost more than $80,000 this way. The Division's protective advice: always verbally confirm wiring instructions directly with your broker using a phone number you already have on file — never one provided in the suspicious email — before transferring any money; never send financial information by email or text; and don't click links in emails, navigating to a company's website directly instead.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Colorado Division of Real Estate (DORA)'],
+    sourceUrl: 'https://coloradorealtors.com/2016/12/13/consumer-alert-division-of-real-estate-urges-colorado-home-buyers-and-sellers-to-be-on-alert-for-email-scams-with-fraudulent-wire-transfer-instructions/',
+    country: 'US',
+    state: 'CO',
+    isHistorical: true,
+    firstRecorded: '2016-12-13',
+});
