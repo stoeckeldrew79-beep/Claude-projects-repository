@@ -12144,3 +12144,31 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2023-08-30',
 });
+
+UsGM.push({
+    name: 'Western Kentucky Tornado Disaster-Relief and Contractor Fraud',
+    slug: 'kentucky-2021-tornado-disaster-relief-contractor-fraud',
+    description: `After the catastrophic December 10-11, 2021 tornado outbreak that killed dozens of people across Western and Central Kentucky, Kentucky Attorney General Daniel Cameron issued a consumer alert on December 14, 2021, warning survivors about fraud converging on storm victims at once: people impersonating FEMA representatives, American Red Cross workers, and insurance adjusters in order to collect banking or personal information under the guise of processing aid, and out-of-town contractors going door-to-door offering debris removal or rebuilding work without proper local licensing or making unrealistic promises. "Kentuckians in many of our Western and Central counties have already suffered devastating losses," Cameron said, directing residents to report suspected fraud at ag.ky.gov/scams and to donate only through the official Team Western Kentucky Tornado Relief Fund at TeamWKYReliefFund.ky.gov rather than unknown solicitors claiming to collect on survivors' behalf. The Kentucky State Police's Mayfield post separately warned on December 21, 2021 about the same fraudulent-FEMA, fake-Red-Cross, and phony-adjuster patterns, advising residents that legitimate FEMA representatives carry photo-ID badges, never charge for assistance, and are not authorized to collect personal financial information, and that any contractor hired for storm repairs should be properly licensed, provide multiple estimates, and sign a written contract before work begins.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Kentucky Attorney General', 'Kentucky State Police', 'WBKO', 'WKYT'],
+    sourceUrl: 'https://www.wbko.com/2021/12/14/ky-attorney-general-warns-scams-following-tornados-storms-across-state',
+    country: 'US',
+    state: 'KY',
+    isHistorical: true,
+    firstRecorded: '2021-12-14',
+});
+
+UsGM.push({
+    name: 'Louisville DNA-Swab-for-Cash Pop-Up Scheme',
+    slug: 'kentucky-louisville-dna-swab-medicaid-scam',
+    description: `Starting around April 2019, a group identifying its workers as "Freedom Health" employees operated out of an unmarked white van with a folding table in parking lots across several of Louisville's lower-income neighborhoods, offering $20 in cash to residents in exchange for a cheek-swab DNA sample. The group implied an affiliation with "Passport," a real Kentucky health plan, which told reporters the group was not actually affiliated with it. No informed-consent document was given to participants, no identification was shown by the people running the table, and no results were ever delivered to the people who gave samples — hallmarks reporters and the Kentucky Attorney General's office said should raise suspicion about any "research" operation that collects cash-incentivized DNA or personal data this way. A near-identical pop-up table resurfaced in Louisville again in September 2019, this time offering free watches instead of cash, indicating the scheme or copycats of it continued after the initial warning. Kentuckians were advised never to hand over a DNA sample or personal information in exchange for cash or a "free" incentive without a real consent form and verifiable researcher identification, and to report suspicious DNA-collection operations to the Attorney General's Medicaid Fraud Control hotline at 877-228-7384.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['Kentucky Attorney General', 'LEX 18', 'WDRB'],
+    sourceUrl: 'https://lex18.com/news/covering-kentucky/2019/04/02/dna-for-cash-offer-has-some-louisville-residents-concerned',
+    country: 'US',
+    state: 'KY',
+    isHistorical: true,
+    firstRecorded: '2019-04-02',
+});

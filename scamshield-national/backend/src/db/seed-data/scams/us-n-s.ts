@@ -11591,3 +11591,31 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2022-11-11',
 });
+
+UsNS.push({
+    name: 'South Dakota Cryptocurrency Kiosk ("Crypto ATM") Scam',
+    slug: 'south-dakota-cryptocurrency-kiosk-scam',
+    description: `Scammers impersonating government agencies, banks, or tech-support staff tell victims — disproportionately older adults — that their money or identity is in danger and that the only way to "protect" it is to withdraw cash and feed it into a cryptocurrency kiosk, where it is instantly and irreversibly converted and sent to the scammer's own wallet. The Sioux Falls Police Department's Fraud Division identified the pattern as a growing local problem and, starting in November 2025, began posting warning signs directly next to crypto ATMs around the city; Sergeant Jake Harris said it is "not uncommon to see some of these victims put tens of thousands of dollars into these crypto ATMs," with recovery nearly impossible once the funds convert. The problem was serious enough that the South Dakota Legislature passed Senate Bill 98, which Governor Larry Rhoden signed on March 11, 2026, creating the state's first consumer safeguards for virtual-currency kiosks: operators must register with the state, daily transactions are capped at $1,000, kiosks must post fraud warnings and issue transaction receipts, and victims of confirmed fraud are entitled to refunds. The law took effect July 1, 2026. Residents are advised to hang up on any unsolicited call demanding payment via crypto kiosk, independently look up and call back the agency or company the caller claims to represent, and treat any request to "secure" money at a crypto ATM as a red flag rather than legitimate guidance. Suspected scam contacts can be reported to the Sioux Falls Police Department's non-emergency line at 605-367-7000.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Sioux Falls Police Department', 'AARP South Dakota', 'Dakota News Now'],
+    sourceUrl: 'https://www.dakotanewsnow.com/2025/11/06/sfpd-puts-up-signs-warning-crypto-atm-scams/',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2025-11-06',
+});
+
+UsNS.push({
+    name: 'South Dakota StarID/REAL ID Deadline Phishing Scam',
+    slug: 'south-dakota-starid-real-id-phishing-scam',
+    description: `Ahead of the May 7, 2025 federal deadline requiring a REAL ID-compliant license (branded "StarID" in South Dakota) or a passport to board domestic flights, scammers began sending phishing calls, texts, and emails posing as the Department of Motor Vehicles or the Department of Homeland Security and offering to "expedite" a StarID application for a fee. The Better Business Bureau warned that the real goal is harvesting sensitive personal data — Social Security numbers, passport numbers, and credit card details — rather than actually producing any ID. BBB representative Carl Bates stressed there is no legitimate paid "fast track": a StarID can only be obtained in person at an official South Dakota driver's license exam station with the required documents, never online, by mail, or through a third party who contacts you first. Residents were advised to never give personal or financial information to anyone who calls, texts, or emails claiming they can speed up REAL ID/StarID issuance, and to go only through the state DMV directly.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'Dakota News Now'],
+    sourceUrl: 'https://www.dakotanewsnow.com/2025/05/01/scammers-taking-advantage-approaching-real-idstar-id-deadline/',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2025-05-01',
+});

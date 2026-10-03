@@ -23897,3 +23897,29 @@ International.push({
     sourceUrl: "https://www.csb.gov.bn/reminder-regarding-counterfeit-notes-and-financial-scams",
     country: "BN",
 });
+
+International.push({
+  name: 'São Tomé Fuel Station Short-Measure Fraud',
+  slug: 'sao-tome-fuel-station-short-measure-fraud',
+  description: `In August 2024, São Tomé and Príncipe's own economic-regulation authority, the Direcção de Regulação e Controlo das Actividades Económicas (DERCAE), publicly accused nearly ten fuel stations across the country of systematically shortchanging customers at the pump. Following inspections, DERCAE director Anísio Quintas reported that for every 1,000 liters of fuel a station recorded as sold, the pumps were rigged or miscalibrated to actually deliver 20 to 60 liters less than what customers paid for — a shortfall DERCAE estimated at more than 53,000 dobras (about €2,151) in illegal monthly profit per offending station, with eight establishments identified as violators during the inspection sweep. As enforcement, the regulator temporarily closed the worst-offending stations, especially where owners refused to cooperate with inspectors, and issued fines ranging from 20,000 to 200,000 dobras (roughly €813 to €8,119). In the wake of the enforcement action, taxi and motorcycle-taxi drivers in the capital began buying fuel into plastic bottles on the spot to verify the quantity they received, and motorists publicly called on DERCAE to step up routine monitoring of fuel pumps, especially at informal fuel outlets.`,
+  categorySlug: 'utility-scams',
+  alertLevel: 'medium',
+  sources: ['Direcção de Regulação e Controlo das Actividades Económicas (DERCAE)', 'Forbes África Lusófona'],
+  sourceUrl: 'https://forbesafricalusofona.com/?p=107955',
+  country: 'ST',
+  isHistorical: true,
+  firstRecorded: '2024-08-21',
+});
+
+International.push({
+  name: 'São Tomé Fake Vocational-Training-in-Portugal Placement Scheme',
+  slug: 'sao-tome-fake-vocational-training-portugal-scheme',
+  description: `On March 13, 2025, São Tomé and Príncipe's Minister of Education, Isabel Abreu, publicly denounced a scheme in which intermediaries and associations based in both São Tomé and Portugal profit by registering São Tomean students into supposed technical-vocational training programs in Portugal that, once the students arrive, turn out to lack even minimum conditions for housing and study materials. "Some even make business with student enrollment in professional training," Abreu said, adding that "students who go are not prepared, there is no meeting beforehand" and that "parents sacrifice everything they have" to cover enrollment fees and plane tickets, only to discover after their children arrived in Portugal that the promised training institutions were substandard. In response, the ministry said it would set criteria for future student departures and create a dedicated office through which all such placements must be screened and approved going forward, effectively requiring vetting of intermediaries and host schools before any more students are sent.`,
+  categorySlug: 'student-loan-education',
+  alertLevel: 'medium',
+  sources: ["São Tomé and Príncipe Ministry of Education", 'Forbes África Lusófona'],
+  sourceUrl: 'https://forbesafricalusofona.com/?p=153105',
+  country: 'ST',
+  isHistorical: true,
+  firstRecorded: '2025-03-13',
+});
