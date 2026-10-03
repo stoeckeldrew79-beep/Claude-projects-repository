@@ -8002,3 +8002,20 @@ Pedro Paulo de Souza was convicted in 2000 of crimes against the financial syste
 Encol shows how a pre-sale financing model that works perfectly well under one set of economic conditions can turn into a slow-motion Ponzi scheme the moment those conditions change — and how a sentence handed down years after a collapse can still expire unserved if the legal process drags on long enough, leaving tens of thousands of buyers who lost their homes with no corresponding accountability from the man who ran the company into the ground.`,
     sourceUrl: 'https://www.sindiconet.com.br/informese/falencia-da-encol-noticias-juridico',
 });
+
+NotoriousNS.push({
+    title: "Peter Lombardi and the Mutual Benefits Corp. Viatical Fraud That Cost 28,000 Investors $800 Million",
+    slug: 'peter-lombardi-mutual-benefits-viatical-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'securities-fraud', 'insurance-fraud', 'sec-enforcement'],
+    body: `Peter Lombardi was president and sole shareholder of Mutual Benefits Corp., a South Florida company that built a business out of "viatical settlements" — buying the right to collect a terminally ill or elderly person's life insurance death benefit, in exchange for paying that policyholder a lump sum while they were still alive, and then selling fractional interests in that future payout to outside investors. From October 1994 through roughly May 2004, Lombardi and other MBC principals sold these investment interests to the general public nationwide, pitching them as safe, fixed-return investments backed by real insurance policies.
+
+The fraud lived in the fine print investors never got to see: MBC assigned fraudulently short life-expectancy estimates to the insureds whose policies it was reselling, which let the company understate how long it would need to keep paying each policy's ongoing premiums and overstate how soon investors would be paid off. When insureds lived well past their rigged estimates, the premium reserves MBC had set aside for each investor pool fell short, and the company covered the gap by taking money from newly sold policies to pay premium obligations on older, unmatured ones — a Ponzi structure dressed up as an insurance product. An international network of sales agents and marketing directors kept new investor money flowing in by misrepresenting how safe and well-funded the investments actually were.
+
+The scheme ran for a decade before it collapsed, by which point roughly 28,000 investors around the world had put in money through MBC, and the SEC's own accounting put total investor losses at approximately $956 million — a figure contemporaneous DOJ reporting rounded to "over $800 million." The SEC filed a civil fraud action against Lombardi in May 2004, and a federal court entered a permanent injunction against him in December 2005, ordering him to disgorge $5,774,160 in ill-gotten gains plus $105,840 in prejudgment interest and a $120,000 civil penalty — a fraction of the total investor losses, reflecting what regulators could trace directly to him personally rather than the scheme's full scale.
+
+On the criminal side, Lombardi pleaded guilty to securities fraud on October 23, 2006, and U.S. District Judge Paul C. Huck sentenced him on January 19, 2007 to 20 years in federal prison, to be followed by three years of supervised release. The case was investigated jointly by the FBI and the SEC's Southeast Regional Office and prosecuted by the U.S. Attorney's Office for the Southern District of Florida.
+
+Mutual Benefits Corp. remains the case that gave viatical and life-settlement investing its lasting scam reputation, and it illustrates a particular kind of fraud risk: an investment built on a genuinely real, tangible asset — someone else's real life insurance policy — can still be a Ponzi scheme if the input the whole pricing model depends on, in this case a life-expectancy estimate, is simply fabricated to make the numbers work on paper rather than in reality.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/2007/lr19978.htm',
+});
