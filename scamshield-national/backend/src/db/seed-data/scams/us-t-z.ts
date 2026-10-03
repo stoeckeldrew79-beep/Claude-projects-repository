@@ -6611,3 +6611,17 @@ UsTZ.push({
     country: 'US',
     state: 'TN',
 });
+
+UsTZ.push({
+    name: 'Rocky Mountain Power "Disconnection Department" Scam',
+    slug: 'wyoming-rocky-mountain-power-disconnection-department-scam',
+    description: `Rocky Mountain Power warned Wyoming customers about scammers calling and claiming to represent the utility's "Disconnection Department" — a department that does not exist — telling customers their bill is overdue and threatening to cut off service within the hour unless they pay immediately. The callers push victims toward credit card information or a prepaid card code read over the phone, payment methods a real utility never requires for a legitimate past-due balance. Rocky Mountain Power noted that a genuine representative will always already have the customer's real account number on file, so anyone who calls back the utility directly can check a caller's claimed account number against their own bill to confirm whether the call was legitimate. Customers who receive a suspicious call like this are urged to hang up and report it to Rocky Mountain Power's customer service line at 1-888-221-7070.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Rocky Mountain Power', 'KOWB 1290 (Laramie, WY)'],
+    sourceUrl: 'https://kowb1290.com/rocky-mountain-power-warns-of-electric-bill-scam-in-wyoming/',
+    country: 'US',
+    state: 'WY',
+    isHistorical: true,
+    firstRecorded: '2017-12-14',
+});
