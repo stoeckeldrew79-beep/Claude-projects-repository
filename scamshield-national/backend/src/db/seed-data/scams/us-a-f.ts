@@ -11250,3 +11250,30 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2023-03-16',
 });
+
+UsAF.push({
+    name: 'Mexican Timeshare Resale Upfront-Fee Scam',
+    slug: 'arizona-mexico-timeshare-resale-fee-scam',
+    description: `Arizonans who own timeshare interests in Mexico are contacted — often years after the original purchase — by callers posing as real estate brokers who claim a buyer is ready to pay a large sum for the timeshare, but that the owner must first wire money to an account in Mexico to cover "taxes," escrow, or closing fees before the sale can close. Once the first payment is sent, the callers invent additional fees and keep extracting money until the victim runs out of funds or realizes no buyer ever existed. The pattern was documented in a KVOA (Tucson) investigation centered on a 68-year-old Tucson retiree, Terry Beall, who originally bought a timeshare at the Grand Mayan resort in Rocky Point (Puerto Peñasco) for $30,000 in 2004, was later targeted by a fake "buyer" claiming to have a $63,000 offer in 2017, and lost a combined $63,000 between the original purchase, escalating monthly maintenance fees of up to $900, and the resale-fee scam before realizing it was fraudulent. Arizona Attorney General Mark Brnovich separately issued a consumer alert referencing the same scenario that victimized Beall, calling the scammers "a bunch of degenerates that are stealing money from vulnerable people." Protective advice given: never wire money to a stranger in another country to facilitate a sale, independently verify any broker or buyer rather than trusting the caller's own contact information, and report suspected cases to the Arizona Attorney General's Office or FBI.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'high',
+    sources: ['KVOA (Tucson)', 'Arizona Attorney General\'s Office'],
+    sourceUrl: 'https://www.kvoa.com/news/local/n4t-investigators-timeshare-trouble/article_98d9abb6-0950-51ab-bbff-168bf29aa5d2.html',
+    country: 'US',
+    state: 'AZ',
+    isHistorical: true,
+});
+
+UsAF.push({
+    name: 'APS Utility Imposter Scam',
+    slug: 'arizona-aps-utility-imposter-scam',
+    description: `Scammers impersonate Arizona Public Service (APS), one of the state's major electric utilities, contacting customers by phone, text, email, and even in-person door-to-door visits, falsely claiming an overdue bill and threatening immediate disconnection unless payment is made right away. Victims are pushed toward non-reversible payment methods — gift cards, prepaid debit cards, cryptocurrency, or peer-to-peer payment apps — that a legitimate utility never requires. A documented variant uses sponsored search-engine ads and QR codes in texts or emails to steer victims to convincing fake payment websites that mimic APS's real billing portal, harvesting payment and personal information directly. APS issued warnings on this during National Consumer Protection Week (March 2, 2026), working with the industry coalition Utilities United Against Scams, and separately flagged the fake-payment-website variant in March 2024. APS's stated advice: never trust a caller's own phone number or a link/QR code in an unsolicited message, ask a door-to-door visitor for photo ID, and instead verify any balance or shutoff notice by calling APS directly at (602) 371-7171 (Phoenix) or (800) 253-9405 (statewide).`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Arizona Public Service (APS)'],
+    sourceUrl: 'https://www.aps.com/en/About/Our-Company/Newsroom/Articles/APS_Warns_of_Utility_Imposters_During_National_Consumer_Protection_Week',
+    country: 'US',
+    state: 'AZ',
+    isHistorical: true,
+    firstRecorded: '2026-03-02',
+});
