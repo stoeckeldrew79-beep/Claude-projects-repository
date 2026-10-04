@@ -16279,6 +16279,39 @@ International.push(
 
 International.push(
   {
+    name: 'Cayman Islands "Cayman Crypto Bank" Fraudulent Website Scam',
+    slug: 'cayman-islands-cayman-crypto-bank-fraudulent-website-scam',
+    description: `On 18 December 2024, the Cayman Islands Financial Reporting Authority (FRA) warned the public about a fraudulent website, caymancryptobank.com, operating under the name "Cayman Crypto Bank" and billing itself as "The Banking of the Future. Based in Cayman Islands." The site falsely claimed to be "registered and licensed with the Financial Intelligence Unit (FIU) of Cayman Islands for financial regulation," but the FRA clarified it has no supervisory or regulatory function at all, and the Cayman Islands Monetary Authority (CIMA) confirmed no entity by that name exists in the Cayman Islands Companies Registry or holds any CIMA license. Authorities identified it as a phishing operation designed to collect money transfers and personal or financial details from victims who believed they were opening an account with a real, regulated Cayman "crypto bank." The public was urged to check CIMA's public register of regulated entities before engaging with any firm claiming Cayman licensing, and anyone who had interacted with the site was told to file a Suspicious Activity Report with the FRA.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Cayman Islands Financial Reporting Authority (FRA)', 'Cayman Islands Monetary Authority (CIMA)'],
+    sourceUrl: 'https://www.rcips.ky/financial-reporting-authority-warns-of-fraudulent-cayman-crypto-bank-18-december',
+    country: 'KY',
+  },
+  {
+    name: 'Cayman Islands "Andrei Wolfman" Romance Scam',
+    slug: 'cayman-islands-andrei-wolfman-romance-scam',
+    description: `On 8 November 2024, the Royal Cayman Islands Police Service (RCIPS) issued a public warning about an active romance-fraud persona operating under the name "Andrei Wolfman" on social media, chiefly via Facebook Messenger. The scammer builds a fabricated online relationship over time, using emotionally manipulative language to earn the victim's trust, then requests money — often framed around medical emergencies or travel costs to visit the victim — or asks the victim to receive and forward funds sent from another source, which police warned could expose the victim to money-laundering or fraud liability of their own. RCIPS asked anyone who has been contacted by or financially involved with "Andrei Wolfman" to report it to their nearest police station or to the Financial Crime Unit at RCIPS.FCU@rcips.ky.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['Royal Cayman Islands Police Service (RCIPS)'],
+    sourceUrl: 'https://www.rcips.ky/police-warn-of-romance-scams-involving-andrei-wolfman-8-november',
+    country: 'KY',
+  },
+  {
+    name: 'Cayman Islands "Hotel Grand Cayman" Employment Scam',
+    slug: 'cayman-islands-hotel-grand-cayman-employment-scam',
+    description: `The RCIPS Financial Crime Unit warned on 8 January 2018 of an employment scam targeting job-seekers outside the Cayman Islands, mainly for hospitality and nursing positions. Fraudsters posing as recruiters — using the names "Odiki Mandalay" and "Carlos Chung," the latter claiming to be the owner of a "Hotel Grand Cayman," which does not exist — advertised jobs on Facebook, Tagged, Tango, and Badoo and promised help covering airfare and Cayman work-permit fees. Victims who engaged were asked to wire money for "work permit processing" via bank transfer or Western Union; police said the scheme was believed to be run out of Jamaica, with local Cayman accounts used to receive and re-route victims' funds back to the organizers. The FCU urged people to verify any Cayman employer directly — named hotels confirmed no knowledge of the recruitment — and never to send money in response to a job offer.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Royal Cayman Islands Police Service (RCIPS) Financial Crime Unit'],
+    sourceUrl: 'https://www.rcips.ky/rcips-fcu-warns-of-employment-scams-targeting-job-seekers-from-other-jurisdictions',
+    country: 'KY',
+  },
+);
+
+International.push(
+  {
     name: 'Liechtenstein "Novum Asset Management" Clone-Firm Investment Fraud',
     slug: 'liechtenstein-novum-asset-management-clone-firm-fraud',
     description: `Liechtenstein's Financial Market Authority (FMA) issued a public warning in April 2026 after fraudsters began impersonating Novum Asset Management AG, a licensed asset manager genuinely based in Vaduz, in a "clone-firm" scheme. The perpetrators copied the real company's name, logo, and Vaduz address onto forged letters and a lookalike website, registered deceptive domains and email addresses designed to resemble the legitimate firm's own, and used the borrowed credibility to approach prospective investors with professionally worded correspondence aimed at moving them toward a wire transfer or signed contract. The FMA stated there is "no connection whatsoever" between the genuine, FMA-supervised Novum Asset Management AG and the fraudulent operation, and explained that clone-firm fraud works precisely because a victim who searches the impersonated name finds a real, licensed company and lets their guard down. The regulator advised anyone contacted this way not to reply or send any payment, to preserve all correspondence, to independently verify a firm's identity and license status through the FMA's public register rather than any contact details supplied by the caller or letter, and — for anyone who has already transferred funds — to contact their bank immediately to attempt to halt or reverse the payment and to consider filing a criminal complaint.`,
