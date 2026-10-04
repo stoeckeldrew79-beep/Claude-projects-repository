@@ -11002,6 +11002,30 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'CNMI Prosperity.com and Power Homes Pyramid Investment Scheme',
+    slug: 'cnmi-prosperity-power-homes-pyramid-scheme',
+    description: `CNMI Department of Public Safety Police Commissioner Charles W. Ingram Jr. publicly warned that a number of CNMI residents had been recruited into two Philippines-based online pyramid schemes, Prosperity.com and Power Homes Unlimited Corporation, which had already taken hundreds of dollars from local investors. Both required an upfront membership or enrollment fee of $234 to $294 and paid out only for recruiting more people: Prosperity.com promised a $2,700 "prosperity coupon" plus a $92 "redemption coupon" for every two new recruits, while Power Homes paid $92 in commissions for every two additional investors signed up under its "leveraged real-estate marketing" cover story. The Philippine Securities and Exchange Commission had already issued cease-and-desist orders against both companies for illegally recruiting investors without a permit, noting both were registered for unrelated purposes (software services and real estate development) rather than investment sales. CNMI police asked anyone with knowledge of the scheme to come forward; the red flag is an "investment" whose payout comes from recruiting fees rather than any real product, service, or trade.`,
+    categorySlug: 'investment-fraud',
+    sources: ['CNMI Department of Public Safety', 'Philippine Securities and Exchange Commission'],
+    sourceUrl: 'https://www.saipantribune.com/index.php/96c22511-1dfb-11e4-aedf-250bc8c9958e/',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+});
+
+UsNS.push({
+    name: 'Rota G-RAP Recruiting Fraud Using Stolen Identities',
+    slug: 'rota-g-rap-recruiting-fraud-stolen-identities-mendiola',
+    description: `Rota resident Ana Maria A. Mendiola registered in January 2009 as a paid recruiting assistant under the Army National Guard's Recruiting Assistance Program (G-RAP), which paid recruiters up to $2,000 per person they referred into enlistment. Over roughly two years she filed fraudulent nominations for at least four "potential soldiers" using other people's personally identifying information obtained without their knowledge; when Army investigators later interviewed those individuals, several said they had never heard of Mendiola, communicated with her, or given her their personal information. The U.S. government sued her in the U.S. District Court for the NMI under the False Claims Act after she collected roughly $7,000 in fraudulent referral payments, seeking $21,000 in damages plus penalties and costs. The case is a documented example of stolen identity data being weaponized to fraudulently extract payments from a government incentive program in the victims' names, without the victims ever being contacted for money directly.`,
+    categorySlug: 'identity-theft',
+    sources: ['U.S. Army Criminal Investigation Division', 'U.S. District Court for the Northern Mariana Islands'],
+    sourceUrl: 'https://www.saipantribune.com/index.php/ex-national-guard-recruiter-sued-alleged-scam/',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+});
+
+UsNS.push({
     name: 'Nevada Casino Cage Executive-Impersonation Scam',
     slug: 'nevada-casino-cage-executive-impersonation-scam',
     description: `The Nevada Gaming Control Board warned licensees in a July 2023 industry notice about a sophisticated social-engineering scam in which callers impersonate high-level casino executives, first through a spoofed internal phone call and then a confirming text purporting to come from a second manager, to pressure cage employees into withdrawing large sums of cash and taking it offsite for a supposed "emergency payment." The largest known case cost Circa Las Vegas $1.17 million before Las Vegas Metropolitan Police arrested Erik Gutierrez Martinez, 23, on theft charges; regulators say the still-evolving, nationwide scheme has since expanded to target gaming pits and other casino money-handling areas.`,
