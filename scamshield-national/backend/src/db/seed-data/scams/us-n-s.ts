@@ -11558,6 +11558,44 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'East Greenwich NEIT Student Telegram Sextortion Plot',
+    slug: 'rhode-island-neit-sextortion-telegram-extortion',
+    description: `An 18-year-old New England Institute of Technology student was contacted on the messaging app Telegram on November 17, 2025 by someone he believed he knew. The contact asked him to send illicit photos, then photos of his face, and once the student complied, the blackmailer drafted a social media post threatening to publicly expose him unless he paid $200. The student reported it before the post went public, and East Greenwich Police confirmed the case, warning it follows the classic "sextortion" pattern: rapid trust-building, an escalating request for images, then a cash demand backed by a threat to publish them.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'medium',
+    sources: ['East Greenwich Police Department'],
+    sourceUrl: 'https://patch.com/rhode-island/eastgreenwich/amp/33218683/college-student-targeted-in-nude-photo-extortion-plot-east-greenwich-pd',
+    country: 'US',
+    state: 'RI',
+    isHistorical: true,
+    firstRecorded: '2025-11-17',
+});
+
+UsNS.push({
+    name: 'RISLA Student Loan Forgiveness Fee Scam',
+    slug: 'rhode-island-risla-student-loan-forgiveness-scam',
+    description: `The Rhode Island Student Loan Authority (RISLA) warned that scammers were exploiting the federal student loan forgiveness program by impersonating the Department of Education, building lookalike websites, and charging upfront "processing fees" to submit forgiveness applications that are actually free. RISLA's Noel Simpson said "don't ever pay a fee to anyone for loan forgiveness — there are no fees," and advised borrowers to check that any forgiveness-related site ends in ".gov" and to share only basic identifying information, never a payment.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ['Rhode Island Student Loan Authority (RISLA)'],
+    sourceUrl: 'https://www.wpri.com/money/scammers-targeting-students-seeking-loan-forgiveness/amp',
+    country: 'US',
+    state: 'RI',
+});
+
+UsNS.push({
+    name: 'East Providence Facebook Marketplace Puppy-Scam Identity Theft Ring',
+    slug: 'rhode-island-east-providence-facebook-puppy-scam',
+    description: `East Providence Police Chief Christopher Francesconi warned that a fraud ring was creating fake Facebook accounts using real East Providence residents' stolen identities and driver's-license images, then posting puppies for sale at those residents' real addresses to appear legitimate. Buyers who paid $50 to $125 via PayPal or Venmo found the seller's payment account and the Facebook listing both deleted soon after, with no puppy ever delivered and the real resident's identity left looking tied to the fraud. Police urged extreme caution before sending electronic payment to an unknown seller for an animal never seen in person.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['East Providence Police Department'],
+    sourceUrl: 'https://www.wpri.com/news/local-news/providence/police-warn-of-puppy-scam-on-facebook-marketplace/amp',
+    country: 'US',
+    state: 'RI',
+});
+
+UsNS.push({
     name: 'Bowman AI Voice-Cloning "Relative Arrested" Scam',
     slug: 'north-dakota-bowman-ai-voice-cloning-arrest-scam',
     description: `A Bowman, North Dakota resident received a call in March 2024 from someone using AI voice-cloning software to impersonate a male relative, claiming to have been arrested and urgently needing money. The resident grew suspicious and asked the caller to name the relative's wife — a detail the scammer couldn't produce, causing them to respond aggressively and visibly alter their voice before hanging up, unmasking the fraud. Bowman Police Chief Charles R. Headley publicized the case to warn residents that criminals can now clone a known voice convincingly enough to fool a close relative over the phone. The department's advice: verify any distress call from a seemingly familiar voice by asking a personal question only the real family member would know the answer to, and hang up and call that person back directly on a number already known to be theirs before sending any money.`,
