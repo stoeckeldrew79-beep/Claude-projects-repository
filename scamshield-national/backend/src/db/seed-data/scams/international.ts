@@ -16279,6 +16279,39 @@ International.push(
 
 International.push(
   {
+    name: 'Cayman Islands "Cayman Crypto Bank" Fraudulent Website Scam',
+    slug: 'cayman-islands-cayman-crypto-bank-fraudulent-website-scam',
+    description: `On 18 December 2024, the Cayman Islands Financial Reporting Authority (FRA) warned the public about a fraudulent website, caymancryptobank.com, operating under the name "Cayman Crypto Bank" and billing itself as "The Banking of the Future. Based in Cayman Islands." The site falsely claimed to be "registered and licensed with the Financial Intelligence Unit (FIU) of Cayman Islands for financial regulation," but the FRA clarified it has no supervisory or regulatory function at all, and the Cayman Islands Monetary Authority (CIMA) confirmed no entity by that name exists in the Cayman Islands Companies Registry or holds any CIMA license. Authorities identified it as a phishing operation designed to collect money transfers and personal or financial details from victims who believed they were opening an account with a real, regulated Cayman "crypto bank." The public was urged to check CIMA's public register of regulated entities before engaging with any firm claiming Cayman licensing, and anyone who had interacted with the site was told to file a Suspicious Activity Report with the FRA.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Cayman Islands Financial Reporting Authority (FRA)', 'Cayman Islands Monetary Authority (CIMA)'],
+    sourceUrl: 'https://www.rcips.ky/financial-reporting-authority-warns-of-fraudulent-cayman-crypto-bank-18-december',
+    country: 'KY',
+  },
+  {
+    name: 'Cayman Islands "Andrei Wolfman" Romance Scam',
+    slug: 'cayman-islands-andrei-wolfman-romance-scam',
+    description: `On 8 November 2024, the Royal Cayman Islands Police Service (RCIPS) issued a public warning about an active romance-fraud persona operating under the name "Andrei Wolfman" on social media, chiefly via Facebook Messenger. The scammer builds a fabricated online relationship over time, using emotionally manipulative language to earn the victim's trust, then requests money — often framed around medical emergencies or travel costs to visit the victim — or asks the victim to receive and forward funds sent from another source, which police warned could expose the victim to money-laundering or fraud liability of their own. RCIPS asked anyone who has been contacted by or financially involved with "Andrei Wolfman" to report it to their nearest police station or to the Financial Crime Unit at RCIPS.FCU@rcips.ky.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['Royal Cayman Islands Police Service (RCIPS)'],
+    sourceUrl: 'https://www.rcips.ky/police-warn-of-romance-scams-involving-andrei-wolfman-8-november',
+    country: 'KY',
+  },
+  {
+    name: 'Cayman Islands "Hotel Grand Cayman" Employment Scam',
+    slug: 'cayman-islands-hotel-grand-cayman-employment-scam',
+    description: `The RCIPS Financial Crime Unit warned on 8 January 2018 of an employment scam targeting job-seekers outside the Cayman Islands, mainly for hospitality and nursing positions. Fraudsters posing as recruiters — using the names "Odiki Mandalay" and "Carlos Chung," the latter claiming to be the owner of a "Hotel Grand Cayman," which does not exist — advertised jobs on Facebook, Tagged, Tango, and Badoo and promised help covering airfare and Cayman work-permit fees. Victims who engaged were asked to wire money for "work permit processing" via bank transfer or Western Union; police said the scheme was believed to be run out of Jamaica, with local Cayman accounts used to receive and re-route victims' funds back to the organizers. The FCU urged people to verify any Cayman employer directly — named hotels confirmed no knowledge of the recruitment — and never to send money in response to a job offer.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Royal Cayman Islands Police Service (RCIPS) Financial Crime Unit'],
+    sourceUrl: 'https://www.rcips.ky/rcips-fcu-warns-of-employment-scams-targeting-job-seekers-from-other-jurisdictions',
+    country: 'KY',
+  },
+);
+
+International.push(
+  {
     name: 'Liechtenstein "Novum Asset Management" Clone-Firm Investment Fraud',
     slug: 'liechtenstein-novum-asset-management-clone-firm-fraud',
     description: `Liechtenstein's Financial Market Authority (FMA) issued a public warning in April 2026 after fraudsters began impersonating Novum Asset Management AG, a licensed asset manager genuinely based in Vaduz, in a "clone-firm" scheme. The perpetrators copied the real company's name, logo, and Vaduz address onto forged letters and a lookalike website, registered deceptive domains and email addresses designed to resemble the legitimate firm's own, and used the borrowed credibility to approach prospective investors with professionally worded correspondence aimed at moving them toward a wire transfer or signed contract. The FMA stated there is "no connection whatsoever" between the genuine, FMA-supervised Novum Asset Management AG and the fraudulent operation, and explained that clone-firm fraud works precisely because a victim who searches the impersonated name finds a real, licensed company and lets their guard down. The regulator advised anyone contacted this way not to reply or send any payment, to preserve all correspondence, to independently verify a firm's identity and license status through the FMA's public register rather than any contact details supplied by the caller or letter, and — for anyone who has already transferred funds — to contact their bank immediately to attempt to halt or reverse the payment and to consider filing a criminal complaint.`,
@@ -23683,6 +23716,108 @@ International.push({
 });
 
 International.push({
+  name: 'São Tomé Fuel Station Short-Measure Fraud',
+  slug: 'sao-tome-fuel-station-short-measure-fraud',
+  description: `In August 2024, São Tomé and Príncipe's own economic-regulation authority, the Direcção de Regulação e Controlo das Actividades Económicas (DERCAE), publicly accused nearly ten fuel stations across the country of systematically shortchanging customers at the pump. Following inspections, DERCAE director Anísio Quintas reported that for every 1,000 liters of fuel a station recorded as sold, the pumps were rigged or miscalibrated to actually deliver 20 to 60 liters less than what customers paid for — a shortfall DERCAE estimated at more than 53,000 dobras (about €2,151) in illegal monthly profit per offending station, with eight establishments identified as violators during the inspection sweep. As enforcement, the regulator temporarily closed the worst-offending stations, especially where owners refused to cooperate with inspectors, and issued fines ranging from 20,000 to 200,000 dobras (roughly €813 to €8,119). In the wake of the enforcement action, taxi and motorcycle-taxi drivers in the capital began buying fuel into plastic bottles on the spot to verify the quantity they received, and motorists publicly called on DERCAE to step up routine monitoring of fuel pumps, especially at informal fuel outlets.`,
+  categorySlug: 'utility-scams',
+  alertLevel: 'medium',
+  sources: ['Direcção de Regulação e Controlo das Actividades Económicas (DERCAE)', 'Forbes África Lusófona'],
+  sourceUrl: 'https://forbesafricalusofona.com/?p=107955',
+  country: 'ST',
+  isHistorical: true,
+  firstRecorded: '2024-08-21',
+});
+
+International.push({
+  name: 'São Tomé Fake Vocational-Training-in-Portugal Placement Scheme',
+  slug: 'sao-tome-fake-vocational-training-portugal-scheme',
+  description: `On March 13, 2025, São Tomé and Príncipe's Minister of Education, Isabel Abreu, publicly denounced a scheme in which intermediaries and associations based in both São Tomé and Portugal profit by registering São Tomean students into supposed technical-vocational training programs in Portugal that, once the students arrive, turn out to lack even minimum conditions for housing and study materials. "Some even make business with student enrollment in professional training," Abreu said, adding that "students who go are not prepared, there is no meeting beforehand" and that "parents sacrifice everything they have" to cover enrollment fees and plane tickets, only to discover after their children arrived in Portugal that the promised training institutions were substandard. In response, the ministry said it would set criteria for future student departures and create a dedicated office through which all such placements must be screened and approved going forward, effectively requiring vetting of intermediaries and host schools before any more students are sent.`,
+  categorySlug: 'student-loan-education',
+  alertLevel: 'medium',
+  sources: ["São Tomé and Príncipe Ministry of Education", 'Forbes África Lusófona'],
+  sourceUrl: 'https://forbesafricalusofona.com/?p=153105',
+  country: 'ST',
+  isHistorical: true,
+  firstRecorded: '2025-03-13',
+});
+
+International.push({
+  name: 'LUCELEC Utility-Worker Impersonation Scam',
+  slug: 'saint-lucia-lucelec-utility-worker-impersonation-scam',
+  description: `St. Lucia Electricity Services Limited (LUCELEC), the island's electricity utility, has repeatedly warned the public — in advisories reported by The Voice St. Lucia on January 26, 2018 and again on July 18, 2019 — that individuals have been presenting themselves at homes and businesses claiming to be LUCELEC employees or contractors and asking for permission to enter the premises, typically under the pretext of conducting a meter inspection or other work. LUCELEC stressed that this kind of in-person access request is itself a red flag, stating that "instances where LUCELEC employees and contractors would need to get into a building to carry out any work are rare" since "most of LUCELEC's work stops at the electricity meter." The company's advice, repeated in both warnings, is to always ask anyone claiming to represent LUCELEC or one of its contractors for proper picture identification and to call LUCELEC's Customer Service Department directly (457-4400) to confirm whether a crew was actually dispatched to that address before allowing entry. The recurrence of near-identical advisories over multiple years indicates this is a persistent, ongoing threat rather than an isolated incident.`,
+  categorySlug: 'utility-scams',
+  alertLevel: 'medium',
+  sources: ['St. Lucia Electricity Services Limited (LUCELEC)', 'The Voice St. Lucia'],
+  sourceUrl: 'https://thevoiceslu.com/2019/07/lucelec-issues-advisory-on-imposters/',
+  country: 'LC',
+});
+
+International.push({
+  name: 'Fake Instagram Account Impersonating Montserrat\'s Premier Over Promised Financial Grants',
+  slug: 'montserrat-fake-premier-instagram-financial-grants-scam',
+  description: `On July 8, 2020, the Office of the Premier of Montserrat issued a public warning that a fake Instagram profile had been created using Premier Joseph E. Farrell's photo and name, falsely posing as an official page of the sitting Premier. The imposter account claimed that "the Government of Montserrat will be giving out financial grants to individuals" — a claim officials stated was entirely false. The government's notice stated plainly that "Premier Farrell does not have an account on Instagram and the public is therefore advised not to accept any requests from this false account," warning residents against engaging with the profile or any claims about government payouts made through it. Anyone with information identifying who was operating the fake account was asked to contact the Royal Montserrat Police Service at police@gov.ms or (664) 491-2555, and the public was directed to rely only on the verified "Government Information Unit-Montserrat" and "Office of the Premier-Montserrat" Facebook pages for authentic government announcements.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Office of the Premier of Montserrat', 'Royal Montserrat Police Service'],
+  sourceUrl: 'https://www.gov.ms/2020/07/08/office-of-the-premier-warns-of-fake-social-media-account-of-the-hon-premier-joseph-e-farrell/',
+  country: 'MS',
+  isHistorical: true,
+  firstRecorded: '2020-07-08',
+});
+
+International.push({
+  name: 'Paul Petersen Marshallese Illegal Adoption and Medicaid Fraud Scheme',
+  slug: 'marshall-islands-petersen-adoption-medicaid-fraud',
+  description: `Paul Petersen, then the elected Maricopa County, Arizona Assessor and a licensed adoption attorney, ran a years-long scheme, from at least 2015 to 2019, in which recruiters paid pregnant women from the Marshall Islands roughly $1,000 a month to fly to Arizona, Utah, or Arkansas and give up their babies for adoption — directly violating a provision of the US-Marshall Islands Compact of Free Association that specifically bars Marshallese citizens from entering the US for the purpose of adoption, a rule enacted after earlier exploitation of Marshallese birth mothers. Petersen housed the women in properties he owned, instructed them to lie to federal officials about the purpose of their travel, charged adoptive American parents up to $41,000 per placement, and fraudulently enrolled the women in state Medicaid programs to cover delivery costs rather than paying for the care himself, a scheme Arizona authorities estimated cost the state's Medicaid system more than $800,000. Petersen was indicted on a combined 62 state and federal charges across Arizona, Utah, and Arkansas, pleaded guilty to conspiracy to commit human smuggling for financial gain, and was sentenced to just over six years in federal prison with restitution ordered to Arizona's Medicaid system; Utah Attorney General Sean Reyes said "the commercialism of children is illegal, and the commoditization of children is simply evil." Authorities said completed adoptions by the American families involved were not placed in jeopardy by the prosecution.`,
+  categorySlug: 'public-benefits-fraud',
+  alertLevel: 'high',
+  sources: ['Arizona Attorney General\'s Office', 'Utah Attorney General\'s Office', 'ABA Journal'],
+  sourceUrl: 'https://abajournal.com/news/article/lawyer-accused-of-flying-pregnant-marshallese-women-to-us-to-place-children-for-adoption',
+  country: 'MH',
+  isHistorical: true,
+  firstRecorded: '2019-10-08',
+});
+
+International.push({
+  name: 'Fake "Subsidy Gift" Brand-Impersonation Scam (Samoa Airways, Vodafone Samoa, BSP)',
+  slug: 'samoa-subsidy-gift-brand-impersonation-scam',
+  description: `In early December 2025, fraudulent Facebook posts impersonated Samoa Airways, Vodafone Samoa, and the Bank of the South Pacific (BSP), falsely claiming the companies and the government were giving away "subsidy gifts" of up to $10,000 to anyone who answered a few questions or clicked an embedded link. Samoa Airways publicly confirmed the posts were fake, stating "the post is a scam designed to deceive people and potentially collect personal information" and that the airline was "not giving any gifts, subsidies, cash prizes, or promotional payments." Vodafone Samoa and BSP representatives separately confirmed identical impersonation posts had circulated under their own names. The companies warned that engaging with the posts risked exposing users to phishing, malware, or identity theft, and urged the public to verify any such promotion only through each company's official website or by calling its listed phone number directly, rather than clicking a link or sharing the post further.`,
+  categorySlug: 'lottery-sweepstakes-scams',
+  alertLevel: 'medium',
+  sources: ['Samoa Airways', 'Samoa Observer'],
+  sourceUrl: 'https://www.samoaobserver.ws/category/samoa/117192',
+  country: 'WS',
+  isHistorical: true,
+  firstRecorded: '2025-12-03',
+});
+
+International.push({
+  name: 'Fake "Community Assistance Program" Church Registration-Fee Fraud',
+  slug: 'samoa-fake-community-assistance-program-church-fraud',
+  description: `A man using the aliases "Jeremy Bulu" and "Michael Toki," claiming to be from New Caledonia, approached leaders of two Pentecostal churches in Samoa claiming to represent a community assistance program for low-income families, and convinced them to pay a "registration" fee to take part. When he returned demanding additional money, the church leaders grew suspicious and alerted police, who found through immigration records that the man had already fled the country, having defrauded the two churches of roughly $200,000 combined. Acting Assistant Police Commissioner Sala'a Moananu Sala'a warned that "once they take the money, that's it, you won't hear from them," and urged residents to be skeptical of unsolicited offers that sound too good to be true and to verify who they're really dealing with before handing over any registration or participation fee for a program claiming to help low-income families.`,
+  categorySlug: 'charity-scams',
+  alertLevel: 'high',
+  sources: ['Samoa Police Service', 'Samoa Observer'],
+  sourceUrl: 'https://www.samoaobserver.ws/category/samoa/221',
+  country: 'WS',
+  isHistorical: true,
+  firstRecorded: '2017-07-08',
+});
+
+International.push({
+  name: 'Fake "You Won a Samsung Galaxy" Prize Scam Impersonating Samoa Post',
+  slug: 'samoa-post-fake-samsung-galaxy-prize-scam',
+  description: `A recurring spam message circulating through Google and social media under the Samoa Post brand tells recipients "Congratulations! You won the Samsung Galaxy S10 mobile phone!" and directs them to submit their home address and pay an upfront "shipping cost" for a phone that never arrives. Samoa Post CEO Tupa'i Tupe Ualolo Nun Yan publicly confirmed the company runs no such promotion, saying "it's nothing new, it started last year and we're just reminding everyone that we still have no game or competition like that going on and that it's a spam," while noting the company lacks the authority to identify who is actually behind the recurring message. Samoans who receive the message are advised to ignore it rather than respond, since no legitimate Samoa Post promotion requires an upfront payment to receive a prize.`,
+  categorySlug: 'lottery-sweepstakes-scams',
+  alertLevel: 'medium',
+  sources: ['Samoa Post', 'Samoa Observer'],
+  sourceUrl: 'https://www.samoaobserver.ws/category/samoa/62365',
+  country: 'WS',
+  isHistorical: true,
+  firstRecorded: '2020-05-04',
+});
+
+International.push({
     name: "Tonga Police Warning: \"Anthony Heich\" Facebook Romance Scam Using Forged Documents",
     slug: "anthony-heich-facebook-romance-scam-forged-documents",
     description:
@@ -23896,106 +24031,4 @@ International.push({
     sources: ["Brunei Darussalam Central Bank (BDCB) and Cyber Security Brunei (CSB) — joint reminder regarding counterfeit notes and financial scams"],
     sourceUrl: "https://www.csb.gov.bn/reminder-regarding-counterfeit-notes-and-financial-scams",
     country: "BN",
-});
-
-International.push({
-  name: 'São Tomé Fuel Station Short-Measure Fraud',
-  slug: 'sao-tome-fuel-station-short-measure-fraud',
-  description: `In August 2024, São Tomé and Príncipe's own economic-regulation authority, the Direcção de Regulação e Controlo das Actividades Económicas (DERCAE), publicly accused nearly ten fuel stations across the country of systematically shortchanging customers at the pump. Following inspections, DERCAE director Anísio Quintas reported that for every 1,000 liters of fuel a station recorded as sold, the pumps were rigged or miscalibrated to actually deliver 20 to 60 liters less than what customers paid for — a shortfall DERCAE estimated at more than 53,000 dobras (about €2,151) in illegal monthly profit per offending station, with eight establishments identified as violators during the inspection sweep. As enforcement, the regulator temporarily closed the worst-offending stations, especially where owners refused to cooperate with inspectors, and issued fines ranging from 20,000 to 200,000 dobras (roughly €813 to €8,119). In the wake of the enforcement action, taxi and motorcycle-taxi drivers in the capital began buying fuel into plastic bottles on the spot to verify the quantity they received, and motorists publicly called on DERCAE to step up routine monitoring of fuel pumps, especially at informal fuel outlets.`,
-  categorySlug: 'utility-scams',
-  alertLevel: 'medium',
-  sources: ['Direcção de Regulação e Controlo das Actividades Económicas (DERCAE)', 'Forbes África Lusófona'],
-  sourceUrl: 'https://forbesafricalusofona.com/?p=107955',
-  country: 'ST',
-  isHistorical: true,
-  firstRecorded: '2024-08-21',
-});
-
-International.push({
-  name: 'São Tomé Fake Vocational-Training-in-Portugal Placement Scheme',
-  slug: 'sao-tome-fake-vocational-training-portugal-scheme',
-  description: `On March 13, 2025, São Tomé and Príncipe's Minister of Education, Isabel Abreu, publicly denounced a scheme in which intermediaries and associations based in both São Tomé and Portugal profit by registering São Tomean students into supposed technical-vocational training programs in Portugal that, once the students arrive, turn out to lack even minimum conditions for housing and study materials. "Some even make business with student enrollment in professional training," Abreu said, adding that "students who go are not prepared, there is no meeting beforehand" and that "parents sacrifice everything they have" to cover enrollment fees and plane tickets, only to discover after their children arrived in Portugal that the promised training institutions were substandard. In response, the ministry said it would set criteria for future student departures and create a dedicated office through which all such placements must be screened and approved going forward, effectively requiring vetting of intermediaries and host schools before any more students are sent.`,
-  categorySlug: 'student-loan-education',
-  alertLevel: 'medium',
-  sources: ["São Tomé and Príncipe Ministry of Education", 'Forbes África Lusófona'],
-  sourceUrl: 'https://forbesafricalusofona.com/?p=153105',
-  country: 'ST',
-  isHistorical: true,
-  firstRecorded: '2025-03-13',
-});
-
-International.push({
-  name: 'LUCELEC Utility-Worker Impersonation Scam',
-  slug: 'saint-lucia-lucelec-utility-worker-impersonation-scam',
-  description: `St. Lucia Electricity Services Limited (LUCELEC), the island's electricity utility, has repeatedly warned the public — in advisories reported by The Voice St. Lucia on January 26, 2018 and again on July 18, 2019 — that individuals have been presenting themselves at homes and businesses claiming to be LUCELEC employees or contractors and asking for permission to enter the premises, typically under the pretext of conducting a meter inspection or other work. LUCELEC stressed that this kind of in-person access request is itself a red flag, stating that "instances where LUCELEC employees and contractors would need to get into a building to carry out any work are rare" since "most of LUCELEC's work stops at the electricity meter." The company's advice, repeated in both warnings, is to always ask anyone claiming to represent LUCELEC or one of its contractors for proper picture identification and to call LUCELEC's Customer Service Department directly (457-4400) to confirm whether a crew was actually dispatched to that address before allowing entry. The recurrence of near-identical advisories over multiple years indicates this is a persistent, ongoing threat rather than an isolated incident.`,
-  categorySlug: 'utility-scams',
-  alertLevel: 'medium',
-  sources: ['St. Lucia Electricity Services Limited (LUCELEC)', 'The Voice St. Lucia'],
-  sourceUrl: 'https://thevoiceslu.com/2019/07/lucelec-issues-advisory-on-imposters/',
-  country: 'LC',
-});
-
-International.push({
-  name: 'Fake Instagram Account Impersonating Montserrat\'s Premier Over Promised Financial Grants',
-  slug: 'montserrat-fake-premier-instagram-financial-grants-scam',
-  description: `On July 8, 2020, the Office of the Premier of Montserrat issued a public warning that a fake Instagram profile had been created using Premier Joseph E. Farrell's photo and name, falsely posing as an official page of the sitting Premier. The imposter account claimed that "the Government of Montserrat will be giving out financial grants to individuals" — a claim officials stated was entirely false. The government's notice stated plainly that "Premier Farrell does not have an account on Instagram and the public is therefore advised not to accept any requests from this false account," warning residents against engaging with the profile or any claims about government payouts made through it. Anyone with information identifying who was operating the fake account was asked to contact the Royal Montserrat Police Service at police@gov.ms or (664) 491-2555, and the public was directed to rely only on the verified "Government Information Unit-Montserrat" and "Office of the Premier-Montserrat" Facebook pages for authentic government announcements.`,
-  categorySlug: 'government-impersonation',
-  alertLevel: 'medium',
-  sources: ['Office of the Premier of Montserrat', 'Royal Montserrat Police Service'],
-  sourceUrl: 'https://www.gov.ms/2020/07/08/office-of-the-premier-warns-of-fake-social-media-account-of-the-hon-premier-joseph-e-farrell/',
-  country: 'MS',
-  isHistorical: true,
-  firstRecorded: '2020-07-08',
-});
-
-International.push({
-  name: 'Paul Petersen Marshallese Illegal Adoption and Medicaid Fraud Scheme',
-  slug: 'marshall-islands-petersen-adoption-medicaid-fraud',
-  description: `Paul Petersen, then the elected Maricopa County, Arizona Assessor and a licensed adoption attorney, ran a years-long scheme, from at least 2015 to 2019, in which recruiters paid pregnant women from the Marshall Islands roughly $1,000 a month to fly to Arizona, Utah, or Arkansas and give up their babies for adoption — directly violating a provision of the US-Marshall Islands Compact of Free Association that specifically bars Marshallese citizens from entering the US for the purpose of adoption, a rule enacted after earlier exploitation of Marshallese birth mothers. Petersen housed the women in properties he owned, instructed them to lie to federal officials about the purpose of their travel, charged adoptive American parents up to $41,000 per placement, and fraudulently enrolled the women in state Medicaid programs to cover delivery costs rather than paying for the care himself, a scheme Arizona authorities estimated cost the state's Medicaid system more than $800,000. Petersen was indicted on a combined 62 state and federal charges across Arizona, Utah, and Arkansas, pleaded guilty to conspiracy to commit human smuggling for financial gain, and was sentenced to just over six years in federal prison with restitution ordered to Arizona's Medicaid system; Utah Attorney General Sean Reyes said "the commercialism of children is illegal, and the commoditization of children is simply evil." Authorities said completed adoptions by the American families involved were not placed in jeopardy by the prosecution.`,
-  categorySlug: 'public-benefits-fraud',
-  alertLevel: 'high',
-  sources: ['Arizona Attorney General\'s Office', 'Utah Attorney General\'s Office', 'ABA Journal'],
-  sourceUrl: 'https://abajournal.com/news/article/lawyer-accused-of-flying-pregnant-marshallese-women-to-us-to-place-children-for-adoption',
-  country: 'MH',
-  isHistorical: true,
-  firstRecorded: '2019-10-08',
-});
-
-International.push({
-  name: 'Fake "Subsidy Gift" Brand-Impersonation Scam (Samoa Airways, Vodafone Samoa, BSP)',
-  slug: 'samoa-subsidy-gift-brand-impersonation-scam',
-  description: `In early December 2025, fraudulent Facebook posts impersonated Samoa Airways, Vodafone Samoa, and the Bank of the South Pacific (BSP), falsely claiming the companies and the government were giving away "subsidy gifts" of up to $10,000 to anyone who answered a few questions or clicked an embedded link. Samoa Airways publicly confirmed the posts were fake, stating "the post is a scam designed to deceive people and potentially collect personal information" and that the airline was "not giving any gifts, subsidies, cash prizes, or promotional payments." Vodafone Samoa and BSP representatives separately confirmed identical impersonation posts had circulated under their own names. The companies warned that engaging with the posts risked exposing users to phishing, malware, or identity theft, and urged the public to verify any such promotion only through each company's official website or by calling its listed phone number directly, rather than clicking a link or sharing the post further.`,
-  categorySlug: 'lottery-sweepstakes-scams',
-  alertLevel: 'medium',
-  sources: ['Samoa Airways', 'Samoa Observer'],
-  sourceUrl: 'https://www.samoaobserver.ws/category/samoa/117192',
-  country: 'WS',
-  isHistorical: true,
-  firstRecorded: '2025-12-03',
-});
-
-International.push({
-  name: 'Fake "Community Assistance Program" Church Registration-Fee Fraud',
-  slug: 'samoa-fake-community-assistance-program-church-fraud',
-  description: `A man using the aliases "Jeremy Bulu" and "Michael Toki," claiming to be from New Caledonia, approached leaders of two Pentecostal churches in Samoa claiming to represent a community assistance program for low-income families, and convinced them to pay a "registration" fee to take part. When he returned demanding additional money, the church leaders grew suspicious and alerted police, who found through immigration records that the man had already fled the country, having defrauded the two churches of roughly $200,000 combined. Acting Assistant Police Commissioner Sala'a Moananu Sala'a warned that "once they take the money, that's it, you won't hear from them," and urged residents to be skeptical of unsolicited offers that sound too good to be true and to verify who they're really dealing with before handing over any registration or participation fee for a program claiming to help low-income families.`,
-  categorySlug: 'charity-scams',
-  alertLevel: 'high',
-  sources: ['Samoa Police Service', 'Samoa Observer'],
-  sourceUrl: 'https://www.samoaobserver.ws/category/samoa/221',
-  country: 'WS',
-  isHistorical: true,
-  firstRecorded: '2017-07-08',
-});
-
-International.push({
-  name: 'Fake "You Won a Samsung Galaxy" Prize Scam Impersonating Samoa Post',
-  slug: 'samoa-post-fake-samsung-galaxy-prize-scam',
-  description: `A recurring spam message circulating through Google and social media under the Samoa Post brand tells recipients "Congratulations! You won the Samsung Galaxy S10 mobile phone!" and directs them to submit their home address and pay an upfront "shipping cost" for a phone that never arrives. Samoa Post CEO Tupa'i Tupe Ualolo Nun Yan publicly confirmed the company runs no such promotion, saying "it's nothing new, it started last year and we're just reminding everyone that we still have no game or competition like that going on and that it's a spam," while noting the company lacks the authority to identify who is actually behind the recurring message. Samoans who receive the message are advised to ignore it rather than respond, since no legitimate Samoa Post promotion requires an upfront payment to receive a prize.`,
-  categorySlug: 'lottery-sweepstakes-scams',
-  alertLevel: 'medium',
-  sources: ['Samoa Post', 'Samoa Observer'],
-  sourceUrl: 'https://www.samoaobserver.ws/category/samoa/62365',
-  country: 'WS',
-  isHistorical: true,
-  firstRecorded: '2020-05-04',
 });
