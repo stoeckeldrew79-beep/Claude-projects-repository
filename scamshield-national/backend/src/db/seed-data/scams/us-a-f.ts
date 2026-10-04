@@ -11736,3 +11736,84 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2022-07-28',
 });
+
+UsAF.push({
+    name: 'FLHSMV "Final Notice" Traffic Ticket Text Scam',
+    slug: 'flhsmv-final-notice-traffic-ticket-text-scam',
+    description: `The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) warned residents about text messages impersonating the agency that claim the recipient has an unpaid traffic ticket and threaten to suspend their driver license and vehicle registration unless payment is made immediately through a link embedded in the message. FLHSMV's own consumer scam-alert page states plainly that it "will never contact you via text message demanding payment or threatening suspension or arrest," and Florida's Department of Financial Services "Scam Stoppers" program separately flagged the same traffic-ticket text pattern. Recipients are advised not to click the embedded link, to delete the message, and to verify any actual citation or registration status only through FLHSMV's own website rather than a link sent by text.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Florida Department of Highway Safety and Motor Vehicles (FLHSMV)', 'Florida Department of Financial Services'],
+    sourceUrl: 'https://www.flhsmv.gov/safety-center/consumer-education/scam-alert',
+    country: 'US',
+    state: 'FL',
+});
+
+UsAF.push({
+    name: 'Miami Staged Collision PIP Insurance Fraud Ring',
+    slug: 'miami-staged-collision-pip-insurance-fraud-ring',
+    description: `Florida's Chief Financial Officer announced on May 18, 2026 the arrest of five Miami-area defendants — Yumilka Melendez Pagan, Yancenia Diaz, Milaimi Gonzalez Acosta, Alfredo Ernesto Phinney Estrada, and Vidal Jose Rojas Balbas — for staging a one-car collision into a tree and then using a Miami physical therapy clinic, where three of the suspects worked, to submit claims for treatment that was never actually provided. The scheme exploited Florida's no-fault Personal Injury Protection (PIP) law, which pays medical bills after a crash regardless of fault, to steal a combined $30,936.80. The defendants face charges including insurance fraud, grand theft, and organized scheme to defraud, carrying potential sentences of up to 20 years. It fits a recurring Miami-Dade "cash-for-crash" pattern in which a staged wreck is paired with a cooperating clinic willing to bill for fabricated treatment to build a paper trail; this case was uncovered after an insurance company flagged the suspicious claim to investigators. Anyone involved in a collision where the other party is routed to a specific clinic immediately afterward, or where injuries seem exaggerated relative to the crash, can report suspected PIP fraud to Florida's Division of Insurance Fraud.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ["Florida Chief Financial Officer's Office (Blaise Ingoglia)"],
+    sourceUrl: 'https://www.myfloridacfo.com/news/pressreleases/press-release-details/2026/05/18/chief-financial-officer-blaise-ingoglia-announces-arrest-of-five-suspects-following-staged-motor-vehicle-collision-scheme',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2026-05-18',
+});
+
+UsAF.push({
+    name: 'Florida Lottery Retailer Winning-Ticket Theft Scam',
+    slug: 'florida-lottery-retailer-winning-ticket-theft-scam',
+    description: `Florida Lottery retail clerks have repeatedly been caught scanning a customer's winning ticket and then lying about its value to keep the prize themselves. In an August 19, 2026 sting, Tampa Zoya Shell clerk Amar Yasser Hamden scanned a ticket the terminal confirmed was worth $1,000 and told an undercover Florida Lottery agent it was worth only $5, with the terminal's own player claim instructions receipt confirming the ticket's actual value was over $599. In a separately reported Fort Myers case, a Winn-Dixie clerk told a customer a $600 winning ticket was worth only $5 and paid them from her own purse rather than through the register. The Florida Lottery's Division of Security investigates these reports and can revoke a retailer's lottery license; players are advised to always scan their own ticket using the free Florida Lottery app rather than relying on a clerk's stated value.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Florida Lottery', 'FOX 13 News Tampa'],
+    sourceUrl: 'https://www.fox13news.com/news/florida-lottery-agents-catch-tampa-store-clerk-trying-steal-1000-prize-officials-say',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2026-08-19',
+});
+
+UsAF.push({
+    name: 'Delaware Unemployment Insurance Identity-Theft Claims Fraud',
+    slug: 'delaware-unemployment-insurance-identity-theft-fraud',
+    description: `Delaware State Police warned on April 12, 2021 of identity-theft-driven unemployment insurance fraud, in which criminals use a victim's stolen name and Social Security number to open an online account and file a claim the victim never submitted. Victims typically first learn about it when the Delaware Department of Labor mails them a letter indicating their unemployment claim was denied, since they never actually filed one. The Division of Unemployment Insurance's fraud unit asks anyone who receives an unexpected monetary determination, a "failed identity verification" notice, or an unemployment-related letter they never applied for to contact the agency's fraud unit immediately rather than ignore it. This is mechanically distinct from the state's existing SNAP EBT card-skimming entry, since it targets the unemployment claims system through stolen identity rather than card-present benefit theft.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Delaware State Police', 'Delaware Department of Labor'],
+    sourceUrl: 'https://dsp.delaware.gov/2021/04/12/delaware-state-police-warn-citizens-about-identity-theft-cases-involving-fraudulent-unemployment-claims-delaware/',
+    country: 'US',
+    state: 'DE',
+    isHistorical: true,
+    firstRecorded: '2021-04-12',
+});
+
+UsAF.push({
+    name: 'Delaware Electric Meter Tampering "Energy-Saving Device" Scam',
+    slug: 'delaware-electric-meter-tampering-device-scam',
+    description: `James E. Nordhausen, 51, of Ellicott City, Maryland, pleaded guilty in the U.S. District Court for the District of Delaware to running a scheme in which he and co-conspirators solicited Delaware homeowners and business owners with a flier claiming to represent "eShield Technologies," promising to install an "energy-efficient device" on their electric meter that would cut their bill. They charged $500 per residential installation and roughly a month's average bill for commercial sites, then altered the meters so they under-reported usage, tampering with at least 37 meters at 24 or more Delaware-area locations and collecting at least $12,000 in fees before power-company technicians caught the tampering and billed victims for the previously unrecorded energy. Delaware Electric Cooperative separately warned members of a related live variant: a caller giving a fake name and "badge number" who offers a discount — in one reported case, 30% off the member's bill — in exchange for debit-card information, with the cooperative stating it "would never ask for that kind of personal information over the phone." This is distinct from the already-catalogued Delmarva Power shutoff-threat phone scam, since it targets a different utility with a device-installation or billing-discount pretext rather than a disconnection threat.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office for the District of Delaware', 'Delaware Electric Cooperative'],
+    sourceUrl: 'https://www.justice.gov/usao-de/pr/guilty-plea-electric-meter-tampering-scam',
+    country: 'US',
+    state: 'DE',
+    isHistorical: true,
+});
+
+UsAF.push({
+    name: 'Dewey Beach $2.2 Million Real-Estate Closing Wire Fraud',
+    slug: 'delaware-dewey-beach-closing-wire-fraud',
+    description: `Johanna Berkowitz, who was under contract to buy a property in Dewey Beach with closing scheduled for November 21, 2025, filed a federal lawsuit in the U.S. District Court for the District of Delaware on January 29, 2026 against a list of unidentified "John Doe" defendants after fraudsters intercepted her closing funds. On November 19, 2025, she received a spoofed email from "title.closer.office@gmail.com" impersonating a real-estate coordinator, with wire instructions redirecting the closing payment to a Truist Bank account the fraudsters controlled; $2,209,240.11 was wired that day, and Truist later confirmed the funds were immediately withdrawn or moved out of the account. The suit alleges violations of the Computer Fraud and Abuse Act, the Stored Communications Act, and the Electronic Communications Privacy Act, plus state-law conversion and unjust-enrichment claims, seeking recovery of the full amount plus punitive damages and attorneys' fees. Unlike the state's already-catalogued generic business-email-compromise entries, this is a last-minute interception of a live closing's wire instructions rather than seller or deed impersonation.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['WDEL News'],
+    sourceUrl: 'https://www.wdel.com/news/dewey-beach-buyer-sues-over-2-2m-wire-fraud-in-closing/article_30c3541e-e66d-44ff-b15d-24aa6bfdb8bb.html',
+    country: 'US',
+    state: 'DE',
+    isHistorical: true,
+    firstRecorded: '2025-11-19',
+});
