@@ -23960,3 +23960,42 @@ International.push({
   isHistorical: true,
   firstRecorded: '2019-10-08',
 });
+
+International.push({
+  name: 'Fake "Subsidy Gift" Brand-Impersonation Scam (Samoa Airways, Vodafone Samoa, BSP)',
+  slug: 'samoa-subsidy-gift-brand-impersonation-scam',
+  description: `In early December 2025, fraudulent Facebook posts impersonated Samoa Airways, Vodafone Samoa, and the Bank of the South Pacific (BSP), falsely claiming the companies and the government were giving away "subsidy gifts" of up to $10,000 to anyone who answered a few questions or clicked an embedded link. Samoa Airways publicly confirmed the posts were fake, stating "the post is a scam designed to deceive people and potentially collect personal information" and that the airline was "not giving any gifts, subsidies, cash prizes, or promotional payments." Vodafone Samoa and BSP representatives separately confirmed identical impersonation posts had circulated under their own names. The companies warned that engaging with the posts risked exposing users to phishing, malware, or identity theft, and urged the public to verify any such promotion only through each company's official website or by calling its listed phone number directly, rather than clicking a link or sharing the post further.`,
+  categorySlug: 'lottery-sweepstakes-scams',
+  alertLevel: 'medium',
+  sources: ['Samoa Airways', 'Samoa Observer'],
+  sourceUrl: 'https://www.samoaobserver.ws/category/samoa/117192',
+  country: 'WS',
+  isHistorical: true,
+  firstRecorded: '2025-12-03',
+});
+
+International.push({
+  name: 'Fake "Community Assistance Program" Church Registration-Fee Fraud',
+  slug: 'samoa-fake-community-assistance-program-church-fraud',
+  description: `A man using the aliases "Jeremy Bulu" and "Michael Toki," claiming to be from New Caledonia, approached leaders of two Pentecostal churches in Samoa claiming to represent a community assistance program for low-income families, and convinced them to pay a "registration" fee to take part. When he returned demanding additional money, the church leaders grew suspicious and alerted police, who found through immigration records that the man had already fled the country, having defrauded the two churches of roughly $200,000 combined. Acting Assistant Police Commissioner Sala'a Moananu Sala'a warned that "once they take the money, that's it, you won't hear from them," and urged residents to be skeptical of unsolicited offers that sound too good to be true and to verify who they're really dealing with before handing over any registration or participation fee for a program claiming to help low-income families.`,
+  categorySlug: 'charity-scams',
+  alertLevel: 'high',
+  sources: ['Samoa Police Service', 'Samoa Observer'],
+  sourceUrl: 'https://www.samoaobserver.ws/category/samoa/221',
+  country: 'WS',
+  isHistorical: true,
+  firstRecorded: '2017-07-08',
+});
+
+International.push({
+  name: 'Fake "You Won a Samsung Galaxy" Prize Scam Impersonating Samoa Post',
+  slug: 'samoa-post-fake-samsung-galaxy-prize-scam',
+  description: `A recurring spam message circulating through Google and social media under the Samoa Post brand tells recipients "Congratulations! You won the Samsung Galaxy S10 mobile phone!" and directs them to submit their home address and pay an upfront "shipping cost" for a phone that never arrives. Samoa Post CEO Tupa'i Tupe Ualolo Nun Yan publicly confirmed the company runs no such promotion, saying "it's nothing new, it started last year and we're just reminding everyone that we still have no game or competition like that going on and that it's a spam," while noting the company lacks the authority to identify who is actually behind the recurring message. Samoans who receive the message are advised to ignore it rather than respond, since no legitimate Samoa Post promotion requires an upfront payment to receive a prize.`,
+  categorySlug: 'lottery-sweepstakes-scams',
+  alertLevel: 'medium',
+  sources: ['Samoa Post', 'Samoa Observer'],
+  sourceUrl: 'https://www.samoaobserver.ws/category/samoa/62365',
+  country: 'WS',
+  isHistorical: true,
+  firstRecorded: '2020-05-04',
+});

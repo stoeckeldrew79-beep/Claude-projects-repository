@@ -11701,3 +11701,29 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-01-17',
 });
+
+UsNS.push({
+    name: "U.S. Attorney's Office Phone Impersonation Scam (New Hampshire)",
+    slug: 'new-hampshire-usao-phone-impersonation-scam',
+    description: `Callers falsely claiming to be officials from the U.S. Attorney's Office for the District of New Hampshire — a federal office, not the state Attorney General — contact residents and attempt to obtain personal information or demand payment over the phone. The office posted a direct warning on its own government webpage stating plainly that "the U.S. Attorney's Office will never ask for money or sensitive information over the phone." Anyone who receives such a call is instructed to hang up and report it to the FBI at tips.fbi.gov, and anyone who has already shared personal or financial information is urged to contact their financial institutions immediately. The scam is distinct from New Hampshire's state-level impersonation scams — a fake mailed account-seizure letter from the state Attorney General's office, and a Rockingham County Sheriff impersonation warrant scam — since this one spoofs a federal prosecutorial office over a live phone call rather than a mailed letter or a local sheriff's warrant pretext.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of New Hampshire"],
+    sourceUrl: 'https://www.justice.gov/usao-nh',
+    country: 'US',
+    state: 'NH',
+});
+
+UsNS.push({
+    name: 'Post-Tornado Storm-Chaser Contractor Fraud (Purcell-Area Storms)',
+    slug: 'oklahoma-purcell-storm-chaser-contractor-fraud',
+    description: `Following a preliminary EF1 tornado and severe storms that struck central and eastern Oklahoma on January 8, 2026 — with notable damage reported in the Purcell area — the Oklahoma Insurance Department warned residents about storm-chasing contractors using illegal tactics to win repair work in the aftermath. The department flagged contractors who illegally waive a homeowner's insurance deductible or offer an illegal rebate to secure the job, who demand payment upfront before any work begins, and who pressure homeowners into paying the final balance before the work is actually complete. Commissioner Glen Mulready said "as we begin recovery after this severe weather, the Oklahoma Insurance Department is here to help." Residents were directed to get multiple bids, verify a contractor's license and insurance through the state's Construction Industries Board, never sign a contract with blank spaces left in it, and keep copies of every agreement and receipt; suspected contractor fraud can be reported to the Attorney General's Consumer Protection Unit at 833-681-1895 or to the Insurance Department's Consumer Assistance line at 800-522-0071.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Oklahoma Insurance Department'],
+    sourceUrl: 'https://www.oid.ok.gov/release_010926/',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+    firstRecorded: '2026-01-09',
+});
