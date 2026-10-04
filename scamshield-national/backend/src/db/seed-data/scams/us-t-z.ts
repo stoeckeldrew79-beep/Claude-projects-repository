@@ -6390,6 +6390,47 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Wisconsin Dells Kwik Trip ATM Card-Skimming Ring',
+    slug: 'wisconsin-dells-kwik-trip-atm-skimming-ring',
+    description: `Two Romanian nationals, Florin Dan Balan, 47, and Bogdan Alexandru Ardei, 36, installed hidden card-skimming devices on ATMs at three Kwik Trip convenience stores in the Wisconsin Dells area — on Broadway in Wisconsin Dells, West Munroe Avenue in Lake Delton, and West Pine Street in West Baraboo — with the devices active for stretches between May 17 and May 23, 2025. A joint investigation by the Wisconsin Dells and Lake Delton Police Departments and the Sauk County Sheriff's Office led to a search warrant executed May 27, 2025 at a residence on Vine Street in Wisconsin Dells, where officers seized additional skimming devices and skimmer-making equipment; both men were charged with at least 13 felony counts each of improperly possessing a credit card scanning device. The case illustrates a physical-device skimming threat concentrated in a major tourist corridor, distinct from Wisconsin's many phone and text impersonation scams. Travelers and locals alike are advised to inspect a card reader for a loose or add-on slot before inserting a card and to cover the keypad when entering a PIN.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Dells Police Department', 'WMTV (NBC15)'],
+    sourceUrl: 'https://www.wmtv15news.com/2025/06/05/2-men-arrested-atm-skimmer-operation-multiple-kwik-trips-wisconsin-dells-area/',
+    country: 'US',
+    state: 'WI',
+    isHistorical: true,
+    firstRecorded: '2025-05-17',
+});
+
+UsTZ.push({
+    name: 'Wisconsin Unclaimed-Property Fraud and New Felony Law',
+    slug: 'wisconsin-unclaimed-property-fraud-felony-law',
+    description: `A Wisconsin Department of Revenue investigation blocked an $800,000 fraudulent unclaimed-property claim after a Georgia bank flagged a check before payout. DOR data showed 126 fraudulent claims worth a combined $2.6 million were denied in 2025 out of the state's unclaimed-property inventory. In response, Assembly Bill 666 — signed into law as 2025 Wisconsin Act 112 on March 20, 2026 — made it a Class I felony, with a civil penalty equal to the property's value, to knowingly file a claim for someone else's unclaimed property without their consent and with intent to deprive the rightful owner, and added penalties for noncompliant third-party "locator service" claims. Wisconsin residents can check whether they have unclaimed property waiting through the Department of Revenue's own website and should be wary of any third party that contacts them first offering to "recover" funds for a fee.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Department of Revenue'],
+    sourceUrl: 'https://www.revenue.wi.gov/Pages/News/2025/Unclaimed-Property-Fraud-Investigation.pdf',
+    country: 'US',
+    state: 'WI',
+    isHistorical: true,
+});
+
+UsTZ.push({
+    name: 'Wisconsin Cyber Romance Fraud Ring (Ugbah/Adegoke)',
+    slug: 'wisconsin-cyber-romance-fraud-ring-ugbah',
+    description: `From October 2013 to August 2015, Richard Ugbah, a Nigerian citizen living in Atlanta, and Michael Adegoke, a Nigerian citizen living in Chicago, created fake profiles on internet dating services to defraud victims across the United States and Canada out of more than $12.9 million, often through false "inheritance" demands. The pair recruited a romance-scam victim, U.S. citizen Jon Whipple, to unknowingly launder proceeds by distributing counterfeit checks for the scheme. The case was prosecuted in the U.S. District Court for the Western District of Wisconsin before Judge James D. Peterson; Ugbah and Adegoke were each sentenced to 12 years in federal prison, while Whipple was sentenced to five years of probation. Anyone who meets someone on a dating site who later claims to need help accessing an inheritance or large sum of money is advised to stop communicating and never send money, cash checks on the person's behalf, or share financial account information.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Immigration and Customs Enforcement (ICE)'],
+    sourceUrl: 'https://www.ice.gov/news/releases/3-sentenced-wisconsin-cyber-romance-scheme-bilked-14-million-us-and-canadian-victims',
+    country: 'US',
+    state: 'WI',
+    isHistorical: true,
+    firstRecorded: '2013-10-01',
+});
+
+UsTZ.push({
     name: 'Email Extortion "Sextortion" Scam Using Home Map Images',
     slug: 'vermont-email-extortion-home-image-scam',
     description: `Vermont's Attorney General's Office reported that the email extortion scam — threatening to release compromising photos and personal information unless paid — returned to the state's Top 10 Scams list in 2024 after a four-year absence, ranking 7th with 141 reports to the Consumer Assistance Program. A newer, more unsettling variant embeds screen-captured images of the recipient's own home, pulled from online mapping services, directly into the extortion email to make the threat feel more credible and pressure faster compliance. Attorney General Charity Clark's office notes most of these scams originate overseas and are difficult to shut down, and directs Vermonters who receive one to report it to CAP at 800-649-2424 or AGO.CAP@vermont.gov rather than pay.`,
