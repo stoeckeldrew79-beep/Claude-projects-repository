@@ -12017,6 +12017,34 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Guam Waterworks Authority Bogus Meter Reader Scam',
+    slug: 'guam-gwa-bogus-meter-reader-scam',
+    description: `The Guam Waterworks Authority (GWA) warned residents of the Machanaonao area of Dededo in February 2018 after two men went door-to-door posing as GWA employees, telling residents they needed to "check and change" their water meters. GWA utility services administrator Lisa San Agustin described the impostors as men in their 30s to 40s driving a grey Nissan Altima; GWA had no employees dispatched to those addresses and notified Guam Police. GWA reminded residents that legitimate employees wear an official GWA badge and use a marked GWA vehicle with the GWA logo prominently displayed, and urged anyone approached by an unverified "meter reader" to call GWA's 24-hour line or 911.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Guam Waterworks Authority (GWA)', 'The Guam Daily Post (postguam.com)'],
+    sourceUrl: 'https://www.postguam.com/news/local/gwa-beware-of-bogus-meter-readers/article_0a0ad552-12db-11e8-a8a4-bb902149761a.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2018-02-17',
+});
+
+UsGM.push({
+    name: 'Guam "Home Depot Voucher" Social Media Giveaway Scam',
+    slug: 'guam-home-depot-voucher-social-media-scam',
+    description: `In late August 2020, a link circulated on social media in Guam promising a "Home Depot Voucher" worth $175 to anyone who reshared the post, prompting a joint warning from Guam Homeland Security/Office of Civil Defense and the Mariana Regional Fusion Center. Like other viral reshare-giveaway scams, clicking the link risked exposing personal information or installing malware rather than delivering any real voucher. Authorities advised residents to verify any giveaway only through a business's official website and to delete suspicious shared links rather than engage with them.`,
+    categorySlug: 'phishing',
+    alertLevel: 'low',
+    sources: ['Guam Homeland Security/Office of Civil Defense', 'Mariana Regional Fusion Center', 'The Guam Daily Post (postguam.com)'],
+    sourceUrl: 'https://www.postguam.com/news/local/beware-of-latest-social-media-scam-home-depot-voucher/article_4a230374-e99a-11ea-8771-8f624c7ea7df.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2020-08-29',
+});
+
+UsGM.push({
     name: 'Evergy Fake Disconnection and Discount Scam (Kansas)',
     slug: 'kansas-evergy-fake-disconnection-discount-scam',
     description: `Evergy, Kansas's main electric utility, warned customers on August 30, 2023 about two related scam tactics. In one, an impersonator dressed like a company employee visited a small business in person in July 2023 and offered the owner a 15% discount on his bill if he paid immediately through CashApp; the owner complied and received a fake payment confirmation text, but Evergy later disconnected the account for non-payment after discovering the scammer had processed two card payments on the account that were themselves fraudulent and were later reversed. In the second, phone scammers called a customer in August 2023 claiming $950 was still owed and threatening imminent disconnection unless the customer paid immediately with cash or gift cards from Walmart or Dollar General — even though the customer had just settled their bill and verified with Evergy's Connect Center that the account had a zero balance; scammers called the same customer twice more attempting to pressure payment before an Evergy employee intervened. Evergy stated plainly that it never requests payment through third-party payment apps, never offers discounts for immediate cash payment, and never accepts gift cards as payment, and urged customers to verify any claimed balance directly through their own account rather than trusting a caller's figure.`,
