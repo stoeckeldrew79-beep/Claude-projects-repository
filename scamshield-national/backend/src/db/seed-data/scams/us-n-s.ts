@@ -11532,3 +11532,31 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-03-11',
 });
+
+UsNS.push({
+    name: 'Bowman AI Voice-Cloning "Relative Arrested" Scam',
+    slug: 'north-dakota-bowman-ai-voice-cloning-arrest-scam',
+    description: `A Bowman, North Dakota resident received a call in March 2024 from someone using AI voice-cloning software to impersonate a male relative, claiming to have been arrested and urgently needing money. The resident grew suspicious and asked the caller to name the relative's wife — a detail the scammer couldn't produce, causing them to respond aggressively and visibly alter their voice before hanging up, unmasking the fraud. Bowman Police Chief Charles R. Headley publicized the case to warn residents that criminals can now clone a known voice convincingly enough to fool a close relative over the phone. The department's advice: verify any distress call from a seemingly familiar voice by asking a personal question only the real family member would know the answer to, and hang up and call that person back directly on a number already known to be theirs before sending any money.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['Bowman Police Department'],
+    sourceUrl: 'https://www.govtech.com/artificial-intelligence/police-in-north-dakota-warn-of-ai-assisted-phone-scams',
+    country: 'US',
+    state: 'ND',
+    isHistorical: true,
+    firstRecorded: '2024-03-19',
+});
+
+UsNS.push({
+    name: 'North Dakota Federal Court Jury-Duty Impersonation Scam',
+    slug: 'north-dakota-federal-court-jury-duty-scam',
+    description: `The U.S. District Court for the District of North Dakota issued a public notice on January 17, 2025 warning that callers impersonating law enforcement or court officials were telling residents they had missed jury duty and owed a court fine, sometimes invoking the names of real local judges for credibility, and threatening immediate arrest unless they paid right away. Victims are pressured to pay by wire transfer, a bitcoin ATM, a Walmart-to-Walmart money transfer, or gift cards, and some callers also fish for Social Security numbers. The court stated plainly that "a federal court or law enforcement agency will never call and threaten an individual or demand immediate payment — either over the telephone or money wire service — for fines or for not responding to a jury summons." Anyone who receives such a call is advised to refuse any payment or personal information, report the call to local law enforcement, and verify any genuine jury-duty question by calling the Clerk of Court directly at 701-530-2300.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['U.S. District Court for the District of North Dakota'],
+    sourceUrl: 'https://www.ndcourts.gov/news/federal-courts/related-courts/general-news/u-s-district-court-for-the-district-of-north-dakota-raises-awareness-of-scams-targeting-potential-jurors',
+    country: 'US',
+    state: 'ND',
+    isHistorical: true,
+    firstRecorded: '2025-01-17',
+});
