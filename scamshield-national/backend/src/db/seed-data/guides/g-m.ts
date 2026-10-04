@@ -5021,6 +5021,9 @@ GuidesGM.push({
     title: 'Manufactured Home "Chattel Loans": How Buying a Mobile Home Can Mean Fewer Protections and a Faster Repossession',
     slug: 'manufactured-home-chattel-loan-risks-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_Cavco_Manufactured_Home.jpg?width=1200',
+    coverImageCredit: 'A manufactured home, the type of home financed through chattel loans. Photo courtesy of Cavco Industries, CC BY-SA 4.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
     tags: ['guide', 'manufactured-home-chattel-loan', 'predatory-lending'],
     body: `A buyer shopping for a manufactured home at a dealer's lot is usually offered financing on the spot, through a lender the dealer works with routinely. If the home will sit on land the buyer doesn't own, or the buyer titles the home as personal property rather than real estate, that financing is typically a "chattel loan" — a loan secured only by the home itself, not by any land underneath it. According to a May 2021 Consumer Financial Protection Bureau report, around 42% of all manufactured home purchase loans nationally are chattel loans rather than mortgages, making this one of the most common ways Americans finance a home with far less consumer protection than they'd assume.
 
