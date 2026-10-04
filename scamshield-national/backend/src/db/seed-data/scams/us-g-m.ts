@@ -11582,6 +11582,46 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Michigan Ice Storm Price-Gouging and Storm-Chaser Tree Removal Scam',
+    slug: 'michigan-ice-storm-price-gouging-storm-chaser-scam',
+    description: `After a severe ice storm devastated Northern Michigan in late March 2025 with widespread, multi-day power outages, Attorney General Dana Nessel issued consumer alerts in late March and April 2025 warning residents that unlicensed tree-removal and storm-cleanup crews were exploiting the disaster by inflating prices or using deceptive contract practices. "Bad actors often see emergencies as an opportunity to take advantage of people in need," Nessel said. Her office pointed to a prior related case — a March 2024 settlement against Rockford business owner David Foster and his companies, Michigan's Choice Tree Service and Storm Support Emergency Tree Removal, after Foster admitted to operating without the required certificate and to violating the Michigan Consumer Protection Act. Michigan law bars service providers from charging prices "grossly in excess" of what others charge for similar services, and residents hiring cleanup crews are advised to get a written quote for the total project cost before any work begins.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Michigan Attorney General's Office"],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2025/04/30/ag-nessel-urges-residents-to-report-suspected-price-gouging-during-ice-storm-clean-up',
+    country: 'US',
+    state: 'MI',
+    firstRecorded: '2025-03-31',
+});
+
+UsGM.push({
+    name: "Wayne County Treasurer's Office Insider Deed-Fraud Bribery Scheme",
+    slug: 'michigan-wayne-county-treasurer-deed-fraud-bribery-scheme',
+    description: `Zina Thomas, Director of Homeownership Programs at the nonprofit United Community Housing Coalition (UCHC), paid bribes to Jontae Jackson, a taxpayer assistant in the Wayne County Treasurer's Office, to identify Detroit homeowners facing potential property-tax foreclosure. The pair used fraudulent quitclaim deeds to seize control of roughly 100 properties worth an estimated $6.4 million, then sold them, with victims drawn predominantly from low-income homeowners who had sought the nonprofit's help in the first place. Both were convicted; Thomas was sentenced to 90 months and Jackson to 66 months in federal prison. Wayne County Register of Deeds Bernard Youngblood called it "a growing crime wave, and it started here, it appears, and has transferred across the country," noting that victims can spend tens of thousands of dollars in legal fees trying to reclaim a stolen property.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office for the Eastern District of Michigan', 'ClickOnDetroit (WDIV-TV)'],
+    sourceUrl: 'https://www.clickondetroit.com/news/investigations/2026/07/20/deed-fraud-is-growing-crime-wave-what-to-know/',
+    country: 'US',
+    state: 'MI',
+    isHistorical: true,
+});
+
+UsGM.push({
+    name: 'Michigan No-Fault Auto Insurance "1-800-USLawyer" Medical-Mill Fraud Ring',
+    slug: 'michigan-no-fault-auto-insurance-fraud-ring',
+    description: `Starting in 2013, New Jersey resident Michael Angelo ran a lawyer-referral hotline, "1-800-USLawyer," that funneled Michigan auto-accident victims to law firms including Michigan Accidents Associates, which in turn directed victims to medical entities Angelo is alleged to have owned or controlled — Mercyland Health Services, Greater Lakes Ambulatory Surgical Center, Tox Testing (dba Paragon Diagnostics), and US Health Pharmaceuticals (dba Meds Direct) — for a predetermined protocol of office visits, injections, prescriptions, and diagnostic imaging billed to Michigan's no-fault auto insurance system. Michigan Attorney General Dana Nessel and Department of Insurance and Financial Services Director Anita Fox announced charges on April 27, 2023 against six defendants, including Angelo, who faces counts of conducting a criminal enterprise, insurance fraud, false pretenses, and prescribing/dispensing controlled substances. Nessel said, "This type of fraud is not just dangerous to the wellbeing of accident victims and a drain on the no-fault system; it exploits citizens who may be financially vulnerable."`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Michigan Department of Insurance and Financial Services (DIFS)', "Michigan Attorney General's Office"],
+    sourceUrl: 'https://www.michigan.gov/difs/news-and-outreach/press-releases/2023/04/27/six-people-charged-with-criminal-enterprise-targeting-accident-victims',
+    country: 'US',
+    state: 'MI',
+    isHistorical: true,
+    firstRecorded: '2023-04-27',
+});
+
+UsGM.push({
     name: "Kenilworth Insurance Agent's $1 Million Fake Annuity Fraud (Daniel Rosenbaum)",
     slug: 'illinois-rosenbaum-kenilworth-fake-annuity-fraud',
     description: `Daniel M. Rosenbaum, an insurance agent operating as Alexander & Rosenbaum Financial Group LLC out of Kenilworth, Illinois, persuaded at least 18 clients — many of them elderly — to hand over more than $1 million for annuities that did not exist, going back to at least 2016. He gave victims fabricated account statements and documents with cut-and-pasted insurance-company logos to make the fake investments look real. Separately, Rosenbaum also fraudulently obtained $53,537 in Paycheck Protection Program funds and $65,826 in unemployment benefits he was not entitled to. He pleaded guilty to wire fraud and was sentenced to seven years in federal prison on February 13, 2024.`,
