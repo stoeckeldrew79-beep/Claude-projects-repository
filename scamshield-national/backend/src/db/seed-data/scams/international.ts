@@ -13016,6 +13016,39 @@ International.push(
   },
 );
 
+International.push(
+  {
+    name: 'Turks and Caicos Forged Settlement Cheque Fraud Targeting Attorneys',
+    slug: 'turks-and-caicos-forged-settlement-cheque-fraud-targeting-attorneys',
+    description: `The Royal Turks and Caicos Islands Police Force warned the business community and local attorneys about a fraud trend in which fraudsters solicit an attorney's services to recover alleged outstanding funds — owed for goods obtained on credit — from a locally based company. The fraudster poses as the creditor's representative and tells the attorney the debtor client has agreed to settle out of court; a cheque, normally for hundreds of thousands of dollars, is then sent to the attorney with instructions to deduct their fee and forward the balance to the fraudster, sometimes with a request for a percentage of the total before the cheque clears. The cheque is forged and ultimately bounces, leaving the attorney or firm liable for any funds already forwarded. Police urged the business community and attorneys to report any such approach to the Financial Crime Unit, police, or Crime Stoppers.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Royal Turks and Caicos Islands Police Force'],
+    sourceUrl: 'https://tcipolice.tc/?p=181',
+    country: 'TC',
+  },
+  {
+    name: 'Turks and Caicos "Island Expertsperfect Investment" Unlicensed Investment Scam',
+    slug: 'turks-and-caicos-island-expertsperfect-investment-unlicensed-scam',
+    description: `The Turks and Caicos Islands Financial Services Commission (TCIFSC) issued a public advisory on April 7, 2026 after being notified that an entity calling itself "Turks and Caicos Island Expertsperfect Investment" was representing itself as a regulated investment firm with ties to the Commission and operating in or from the Islands. The TCIFSC confirmed the entity is not licensed or registered with the Commission and is not authorised to provide financial services in or from the TCI. The Commission urged members of the public and prospective investors to carry out thorough due diligence before entering any business arrangement with firms claiming TCIFSC regulation, to check the Commission's published list of licensed investment dealers and advisors before investing, and to report any entity purporting to operate from the Islands without proper authorisation directly to the Commission.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Turks and Caicos Islands Financial Services Commission (TCIFSC)'],
+    sourceUrl: 'https://www.tcifsc.tc/assets/documents/07.04.2026-TC-ISLAND-EXPERTS-PERFECT-INVESTMENT-NOT-LICENSED-BY-TCIFSC-20260407145334.pdf',
+    country: 'TC',
+  },
+  {
+    name: 'Turks and Caicos Illegal Ponzi and Circle Scheme Scam',
+    slug: 'turks-and-caicos-ponzi-circle-scheme-scam',
+    description: `Royal Turks and Caicos Islands Police Force Commissioner Trevor Botting issued a public statement, made jointly with the Financial Services Commission, responding to a wave of social media posts promoting so-called "Ponzi" or "Circle Schemes" in the Turks and Caicos Islands. Botting said such schemes may look like an attractive, risk-free way to make money, but are in fact illegal, carry no guarantee that invested money will ever be returned, and can expose participants themselves to criminal liability for taking part. He discouraged anyone already involved, or considering investing, from continuing, and said the RTCIPF Financial Crimes Unit would investigate complaints.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    sources: ['Royal Turks and Caicos Islands Police Force', 'Turks and Caicos Islands Financial Services Commission'],
+    sourceUrl: 'https://www.tcipolice.tc/?p=3902',
+    country: 'TC',
+  },
+);
+
 
 International.push(
   {
