@@ -6669,6 +6669,48 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Saratoga "Hole in Won" Fake Prize-Insurance Fraud',
+    slug: 'wyoming-saratoga-hole-in-won-prize-insurance-fraud',
+    description: `Kevin Kolenda, of Norwalk, Connecticut, ran shell companies — Hole in Won LLC, Compliance HIW LLC, and Hole in Won Worldwide — selling unlicensed "prize insurance" to civic and charitable groups nationwide, a policy meant to cover a contest's advertised jackpot so the organization wouldn't have to pay it out of pocket if someone actually won. The Platte Valley Chamber of Commerce in Saratoga, Wyoming bought one of these policies for its 2018 ice fishing derby to cover a tagged fish worth $10,000; when a Colorado angler caught that fish in June 2018, Kolenda refused to pay, directed the chamber to a nonexistent Washington, D.C. "claims department," then threatened legal action and cut off contact — the chamber had to cover the $12,500 prize itself through Farm Bureau. Wyoming Insurance Commissioner Jeff Rude confirmed Kolenda's company showed as "no company known" in the state's licensing database. A federal grand jury indicted Kolenda on six counts of wire fraud in April 2024 for defrauding dozens of organizations nationwide out of nearly $1 million; he pleaded guilty to one count in September 2026, facing up to 20 years, with sentencing set for December 15, 2026. Any civic group buying "prize indemnity" or "hole-in-one" insurance for a raffle, derby, or tournament should verify the insurer's license directly with the state insurance department before paying a premium, rather than trusting a certificate the seller provides.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Wyoming Insurance Commissioner', 'Cowboy State Daily'],
+    sourceUrl: 'https://cowboystatedaily.com/2026/09/21/connecticut-man-pleads-guilty-to-2018-saratoga-fishing-derby-scam-faces-20-years/',
+    country: 'US',
+    state: 'WY',
+    isHistorical: true,
+    firstRecorded: '2018-06-01',
+});
+
+UsTZ.push({
+    name: 'Wyoming AARP PACT Act Veteran-Benefits Phone Scam',
+    slug: 'wyoming-aarp-pact-act-veteran-benefits-scam',
+    description: `Wyoming AARP issued a public warning on August 16, 2023 after an AARP survey found Wyoming veterans and active-duty service members are being targeted by callers posing as VA representatives offering to help file PACT Act claims, the 2022 law expanding benefits for toxic-exposure-related conditions from Vietnam, the Gulf War, and post-9/11 service. One in six surveyed veterans reported receiving such a call, and one in ten of those were promised an unusually lucrative payout — a hallmark red flag, since the real VA does not run outbound phone campaigns promoting PACT Act benefits and never guarantees a payout amount. Callers press for personal, medical, financial, or VA file information, and Wyoming AARP stressed that veterans never have to pay anyone for benefits they've already earned or for copies of their own service records. Veterans are advised to register with the National Do Not Call list, never sign a blank or not-fully-understood form, and verify any claim-related call by phoning the VA benefits hotline directly at 1-800-827-1000 rather than calling back a number the caller supplied.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['AARP Wyoming'],
+    sourceUrl: 'https://www.wyomingpublicmedia.org/news/2023-08-16/wyoming-aarp-asks-veterans-and-military-personnel-to-beware-of-scams',
+    country: 'US',
+    state: 'WY',
+    isHistorical: true,
+    firstRecorded: '2023-08-16',
+});
+
+UsTZ.push({
+    name: 'CyberWyoming "Brown and Gold Medicare Card" Phone Scam',
+    slug: 'wyoming-cyberwyoming-brown-and-gold-medicare-card-scam',
+    description: `CyberWyoming, the state's cybersecurity nonprofit, publicized a case in a February 2, 2024 release in which an elderly central Wyoming resident was called late on a Friday afternoon — deliberately timed for when banks are closed and harder to reach — by a scammer claiming Medicare was "replacing your paper card with a plastic one" and, because the victim was "on Wyoming Medicare," the card's colors were being changed to "brown and gold," the University of Wyoming's school colors, used here as a homegrown, state-flavored detail to sound official. The victim ended up disclosing their Social Security and/or Medicare number over the phone. Real Medicare never calls out of the blue asking a beneficiary to confirm or supply their Medicare or Social Security number for a card reissue. CyberWyoming's advice: hang up on any unsolicited call asking for a Medicare or Social Security number, then independently call 1-800-MEDICARE to verify, freeze credit with the major bureaus if numbers were already given out, and report the exposure to your bank and the nearest Social Security Administration office.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['CyberWyoming'],
+    sourceUrl: 'https://lovellchronicle.com/content/medicare-scams-reported-across-state',
+    country: 'US',
+    state: 'WY',
+    isHistorical: true,
+    firstRecorded: '2024-02-02',
+});
+
+UsTZ.push({
     name: 'Appalachian Power and Mon Power Disconnection Threat Impersonation Scam',
     slug: 'west-virginia-appalachian-power-mon-power-disconnection-scam',
     description: `Scammers impersonating West Virginia's two largest electric utilities — Appalachian Power (APCo) and Mon Power, a FirstEnergy company — call, text, and email customers claiming an overdue bill will trigger same-day disconnection unless they pay immediately. Mon Power first issued a public warning on July 19, 2024 after customers reported calls demanding they buy a prepaid money card and read the number back over the phone, or hand over a Social Security number or bank details, to "settle" an account; the company stressed real representatives never call demanding immediate payment this way and that legitimate disconnection notices arrive in writing well in advance. Appalachian Power continued seeing the same tactic and used the utility industry's National Utility Scam Awareness Day on November 19, 2025 to warn its own customers that scammers now also demand payment via gift cards, cryptocurrency, or third-party payment apps — methods the company says it never requests — while manufacturing urgency so the customer has no time to verify. Caller ID can be spoofed to display the real utility's name and number. Both companies advise the same response: hang up, then call the number printed on your own bill or listed on the official company website, never a callback number the caller supplies; Appalachian Power frames this as "Slow Down, Verify, Stop the Scam."`,
