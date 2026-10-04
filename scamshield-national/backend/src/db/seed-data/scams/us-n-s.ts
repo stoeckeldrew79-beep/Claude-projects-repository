@@ -10760,6 +10760,46 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'North Carolina "ncKIDSCard" Child-Support Text Scam',
+    slug: 'north-carolina-nckidscard-child-support-text-scam',
+    description: `Text messages impersonating the North Carolina Department of Health and Human Services claimed a problem with the recipient's ncKIDSCard — the prepaid debit card the state uses to disburse child-support payments to custodial parents — and gave a phone number to call; many recipients had never even held an ncKIDSCard account. Callers who phoned the number were asked for the card's account number, bank information, and other personal identifiers, which were then used to drain the account. Then-Attorney General Roy Cooper warned the public about the scheme in December 2013, saying, "The heartlessness of con artists is well known. They seek out vulnerable people, often those who are struggling to make ends meet, and they have no qualms about stealing from them." Residents who receive a suspicious text claiming to be about a benefits card are advised not to call the number in the text and to report it to the Attorney General's Consumer Protection Division.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["North Carolina Attorney General's Office", 'WSOC-TV'],
+    sourceUrl: 'https://www.wsoctv.com/news/local/scammers-target-child-support-dollars-texting-sche/223401064/',
+    country: 'US',
+    state: 'NC',
+    isHistorical: true,
+    firstRecorded: '2013-12-16',
+});
+
+UsNS.push({
+    name: 'North Carolina EBT/SNAP Card-Skimming and Benefit Theft',
+    slug: 'north-carolina-ebt-card-skimming-benefit-theft',
+    description: `North Carolina's Department of Health and Human Services (NCDHHS) has warned that EBT/FNS benefit cards are being targeted through card-skimming devices attached to point-of-sale card readers and through "re-pinning" — resetting a card's PIN through the online cardholder portal — to divert benefits into fraudulent purchases. NCDHHS reported that more than $2.7 million in Food and Nutrition Services benefits had been stolen statewide since October 2022, with Mecklenburg County alone losing close to $500,000 in a single year; NCDHHS Deputy Director Jerquitta Hicks-Smallwood said, "These criminals are sophisticated, and the methods they're using to target EBT cards seem to be changing and evolving all the time." The U.S. Secret Service ran a North Carolina-specific skimming and EBT-fraud outreach operation in late May 2025, visiting more than 400 NC businesses and recovering 17 skimming devices. As of December 20, 2024, the federal government ended its program allowing replacement of stolen FNS benefits, meaning North Carolina households whose benefits are stolen through skimming or re-pinning can no longer get that money restored. Beneficiaries are advised to check their EBT balance often, choose a hard-to-guess PIN and change it regularly, and inspect card readers for signs of tampering before using them.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['North Carolina Department of Health and Human Services', 'ABC11 (WTVD)'],
+    sourceUrl: 'https://ncdhhs.gov/divisions/child-and-family-well-being/food-and-nutrition-services-food-stamps/card-skimmers-and-stolen-fns-benefits',
+    country: 'US',
+    state: 'NC',
+});
+
+UsNS.push({
+    name: "SECU Reconciliation-Exploit Bank Fraud Scheme",
+    slug: 'north-carolina-secu-reconciliation-exploit-bank-fraud',
+    description: `A federal grand jury in the Eastern District of North Carolina indicted four men — Keyondre Deionta Purvis, Calvin Daminice Stewart, Michael Raekwon Ryner, and Quavedrian Da'mon Gibson — in September 2025 for a scheme that exploited a security vulnerability in the account-reconciliation process of the State Employees' Credit Union (SECU), headquartered in Raleigh and one of the largest credit unions in the country. According to the indictment, the group recruited others to hand over SECU debit cards and PINs, then used repeated sham deposit-and-withdrawal transactions during a reconciliation period in the summer of 2022 to artificially inflate account balances and withdraw cash in excess of the real balance, leaving the accounts negative and unrepaid. All four face charges of conspiracy to commit bank fraud, bank fraud, and aiding and abetting, in a case the FBI investigated and the U.S. Attorney's Office for the Eastern District of North Carolina is prosecuting.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Eastern District of North Carolina", 'Hoodline'],
+    sourceUrl: 'https://hoodline.com/2025/09/four-men-indicted-for-alleged-fraud-scheme-against-state-employees-credit-union-in-north-carolina/',
+    country: 'US',
+    state: 'NC',
+    isHistorical: true,
+    firstRecorded: '2022-06-01',
+});
+
+UsNS.push({
     name: 'SC Department of Insurance Door-to-Door Impersonation Scam',
     slug: 'south-carolina-department-of-insurance-door-to-door-scam',
     description: `The South Carolina Department of Insurance warned residents that individuals were going door to door falsely claiming to represent the Department. SC DOI said it is a regulatory agency, not an insurer, does not issue or sell insurance products, and never conducts unsolicited home visits — so anyone appearing at the door claiming to represent it is impersonating the agency. Residents were urged not to give personal or financial information to such visitors and to report the activity to local law enforcement.`,
@@ -11383,6 +11423,46 @@ UsNS.push({
     country: 'US',
     state: 'PA',
     firstRecorded: '2026-01-16',
+});
+
+UsNS.push({
+    name: 'Lebanon County TikTok-to-Telegram Romance Scam',
+    slug: 'pennsylvania-lebanon-county-tiktok-telegram-romance-scam',
+    description: `A 63-year-old Lebanon County woman lost nearly $400,000 — more than $384,000 plus hundreds of dollars in Apple gift cards — in a romance scam, Pennsylvania State Police (Troop R, Jonestown) announced around September 9, 2026. She met the suspect on TikTok and the conversation quickly moved to the encrypted app Telegram, where he posed as an up-and-coming country music artist who needed money to further his career; the victim's children eventually discovered the scam. Trooper Ethan Brownback said the suspect "repeatedly told the victim not to tell any family members or friends about their relationship" — a classic isolation tactic — and warned residents to "never send any money, gift cards, cryptocurrency, any type of financial information to someone that you only met online." No arrests had been announced as investigators reviewed financial records to determine the exact losses.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Pennsylvania State Police', 'WFMZ-TV'],
+    sourceUrl: 'https://www.wfmz.com/news/area/berks/63-year-old-lebanon-county-woman-loses-nearly-400k-in-reported-romance-scam/article_1e257c9b-9642-4254-8cee-c6e2a513f149.html',
+    country: 'US',
+    state: 'PA',
+    isHistorical: true,
+    firstRecorded: '2026-09-09',
+});
+
+UsNS.push({
+    name: 'Pittsburgh "Tickets for Kids" Charity Diversion Scheme',
+    slug: 'pennsylvania-pittsburgh-wilkes-tickets-for-kids-charity-scam',
+    description: `Ramona Wilkes, 65, an employee at Pittsburgh Mercy, was convicted in July 2026 of six felonies — corrupt organizations, criminal conspiracy, theft by deception, receiving stolen property, deceptive business practices, and criminal use of a communication facility — after diverting event tickets meant for underprivileged children served by Pittsburgh Mercy's "Tickets for Kids" program, instead keeping or reselling them with co-conspirators for personal profit. She was ordered to pay $57,346.65 in restitution and sentenced to five years' probation with the first year on house arrest. Pennsylvania Attorney General Dave Sunday's office said, "Tickets for Kids exists to create opportunities for children who otherwise might never experience a concert, sporting event or other special outing. Instead of helping fulfill that mission, this defendant exploited it for personal gain."`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Pennsylvania Attorney General's Office"],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-sunday-announces-guilty-verdict-against-non-profit-employee-in-pittsburgh-based-tickets-for-kids-charity-scam/',
+    country: 'US',
+    state: 'PA',
+    isHistorical: true,
+});
+
+UsNS.push({
+    name: 'Pennsylvania Department of Revenue Fake Refund Phishing Text',
+    slug: 'pennsylvania-department-of-revenue-refund-phishing-text-scam',
+    description: `Starting around September 2025, Pennsylvanians began receiving unsolicited text messages impersonating the Pennsylvania Department of Revenue claiming a tax refund had been "processed and approved" and asking the recipient to confirm banking details via a link to receive the deposit. Secretary of Revenue Pat Browne issued a public alert on September 23, 2025 stating plainly, "We want to make it absolutely clear that the Pennsylvania Department of Revenue does not send unsolicited text messages asking for banking information," and noted similar scam waves had hit taxpayers in several other states. The agency directed residents to verify any refund only through its official myPATH portal or by phone, and to report suspicious texts rather than click the embedded link.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Pennsylvania Department of Revenue'],
+    sourceUrl: 'https://www.pa.gov/agencies/revenue/newsroom/phishing-alert--fraudulent-texts-target-pennsylvanians-in-refund-scam',
+    country: 'US',
+    state: 'PA',
+    firstRecorded: '2025-09-23',
 });
 
 UsNS.push({
