@@ -11057,6 +11057,10 @@ NotoriousAF.push({
     title: 'Frederick Schultz: The Antiquities Dealer Who Invented a Fake Collection to Launder Looted Egyptian Treasures',
     slug: 'frederick-schultz-egyptian-antiquities-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Quartzite_head_of_Amenhotep_III.jpg?width=1200',
+    coverImageCredit: 'A quartzite head of Amenhotep III, the pharaoh whose smuggled statue was at the center of the Schultz case. Photo by Jon Bodsworth.',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['notorious', 'notorious-scammer', 'art-fraud', 'smuggling', 'historical'],
     body: `Frederick Schultz was one of New York's most prominent antiquities dealers, a gallery owner respected enough in his field to serve as president of the National Association of Dealers in Ancient, Oriental and Primitive Art. In 1991 he was introduced to Jonathan Tokeley-Parry, a British national who showed him a photograph of a sculpted head of the Egyptian pharaoh Amenhotep III. Parry explained that he had obtained the piece in Egypt and smuggled it out of the country by coating it in plastic to make it look like a cheap tourist souvenir, removing the coating once it reached England. Rather than walk away, Schultz offered to act as the sculpture's selling agent, the start of a partnership that ran for years.
 
@@ -11074,6 +11078,10 @@ NotoriousAF.push({
     title: 'C.C. Julian and the Julian Petroleum Scandal That Swindled 40,000 Investors',
     slug: 'cc-julian-petroleum-corporation-scandal',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Oil_well_no1_signalhill1921.jpg?width=1200',
+    coverImageCredit: 'Signal Hill oil well no. 1, 1921, during the same Southern California oil boom that fueled the Julian Petroleum scheme. Public domain.',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Courtney Chauncey "C.C." Julian arrived in Los Angeles fresh off a lucky oil strike in Santa Fe Springs and, in May 1923, turned that one success into a company built almost entirely on advertising. Julian Petroleum Corporation's newspaper pitches were deliberately provocative — "Widows and Orphans, This Is No Investment for You! My appeal is addressed to people who can legitimately afford to take a chance" — and in the speculative frenzy of California's 1920s oil boom, that reverse-psychology sales pitch worked spectacularly well, pulling in cash from tens of thousands of ordinary investors who wanted in on the next gusher.
 
