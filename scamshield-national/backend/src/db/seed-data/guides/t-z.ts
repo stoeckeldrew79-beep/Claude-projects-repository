@@ -2834,3 +2834,20 @@ If a veteran or servicemember receives one of these offers, do not sign anything
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Veterans_Administration_Building_-_Washington,_D.C.jpg?width=1200',
     coverImageCredit: 'The Department of Veterans Affairs headquarters in Washington, D.C. Photo by APK, CC BY-SA 4.0, via Wikimedia Commons.',
 });
+
+GuidesTZ.push({
+  title: "Voice Clone Bank Fraud: How AI Defeats the 'Voiceprint' Your Bank Still Trusts",
+  slug: 'voice-clone-bank-voiceprint-authentication-fraud-guide',
+  author: 'ScamShield Editorial',
+  tags: ['guide', 'voice-clone-bank-fraud', 'ai-fraud', 'account-takeover', 'voice-biometrics'],
+  sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA241203',
+  body: `For more than a decade, banks, brokerages, and insurance call centers have offered customers a tempting convenience: instead of answering security questions or typing a PIN, just say a phrase and your voice becomes your password. These "voiceprint" or voice-biometric systems were sold as harder to steal than a four-digit code, since no one else supposedly sounds like you. Generative AI has quietly eroded that advantage. A scammer who has even a short recording of a target's voice — pulled from a voicemail greeting, a podcast appearance, a recorded customer-service call, or a public social media video — can run it through a voice-cloning tool and produce synthetic audio convincing enough to pass as the real account holder, whether the listener is an automated voiceprint system or a live call-center agent.
+
+This is not a hypothetical risk. The FBI's Internet Crime Complaint Center issued a nationwide alert on December 3, 2024 (I-120324-PSA) warning that "criminals obtain access to bank accounts using AI-generated audio clips of individuals and impersonating them," in addition to the by-now-familiar "family emergency" voice-clone call. Industry voices have echoed the same warning: speaking at a Federal Reserve conference in July 2025, OpenAI CEO Sam Altman told the banking industry that AI had "fully defeated" voiceprint authentication, adding that any financial institution still relying on it as a sole security check was doing something "crazy."
+
+What makes voice-based authentication especially exploitable is the same thing that once made it appealing: it relies on a single biometric signal that, unlike a password, can't be changed once it's compromised, and that most people broadcast constantly and unknowingly through recorded calls, social media, interviews, and even their own outgoing voicemail greeting. A fraud built on this gap doesn't require elite hacking skills — cloning tools have become cheap and easy to use, meaning the barrier that used to limit this kind of attack to sophisticated operations has largely disappeared.
+
+Red flags include being asked to "just verify your voice" during a call you didn't initiate, especially one that skips the other security steps you're used to; a customer-service interaction that moves unusually fast toward authorizing a transfer or account change once a voice match is confirmed; a request that specifically avoids multi-factor steps like a one-time code to your phone or email; and, after the fact, a notification about a phone-authorized transaction or account change you never made.
+
+If you bank or invest somewhere that offers voice authentication, call and ask directly whether it's used as a sole verification factor, and request it be paired with — or replaced by — a second factor such as an app-based push approval, a one-time code, or a pre-set security phrase that isn't simply your spoken voice. Set up a family verification code word for financial requests as the FBI recommends, and consider limiting how much of your voice and face are publicly posted online. If you discover a fraudulent transaction, call your bank immediately to attempt a wire recall or freeze, document exactly what happened, and file a report with the FBI's Internet Crime Complaint Center at ic3.gov and the FTC at ReportFraud.ftc.gov.`,
+});
