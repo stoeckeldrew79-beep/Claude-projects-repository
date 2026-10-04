@@ -23731,3 +23731,16 @@ International.push({
   isHistorical: true,
   firstRecorded: '2020-07-08',
 });
+
+International.push({
+  name: 'Paul Petersen Marshallese Illegal Adoption and Medicaid Fraud Scheme',
+  slug: 'marshall-islands-petersen-adoption-medicaid-fraud',
+  description: `Paul Petersen, then the elected Maricopa County, Arizona Assessor and a licensed adoption attorney, ran a years-long scheme, from at least 2015 to 2019, in which recruiters paid pregnant women from the Marshall Islands roughly $1,000 a month to fly to Arizona, Utah, or Arkansas and give up their babies for adoption — directly violating a provision of the US-Marshall Islands Compact of Free Association that specifically bars Marshallese citizens from entering the US for the purpose of adoption, a rule enacted after earlier exploitation of Marshallese birth mothers. Petersen housed the women in properties he owned, instructed them to lie to federal officials about the purpose of their travel, charged adoptive American parents up to $41,000 per placement, and fraudulently enrolled the women in state Medicaid programs to cover delivery costs rather than paying for the care himself, a scheme Arizona authorities estimated cost the state's Medicaid system more than $800,000. Petersen was indicted on a combined 62 state and federal charges across Arizona, Utah, and Arkansas, pleaded guilty to conspiracy to commit human smuggling for financial gain, and was sentenced to just over six years in federal prison with restitution ordered to Arizona's Medicaid system; Utah Attorney General Sean Reyes said "the commercialism of children is illegal, and the commoditization of children is simply evil." Authorities said completed adoptions by the American families involved were not placed in jeopardy by the prosecution.`,
+  categorySlug: 'public-benefits-fraud',
+  alertLevel: 'high',
+  sources: ['Arizona Attorney General\'s Office', 'Utah Attorney General\'s Office', 'ABA Journal'],
+  sourceUrl: 'https://abajournal.com/news/article/lawyer-accused-of-flying-pregnant-marshallese-women-to-us-to-place-children-for-adoption',
+  country: 'MH',
+  isHistorical: true,
+  firstRecorded: '2019-10-08',
+});
