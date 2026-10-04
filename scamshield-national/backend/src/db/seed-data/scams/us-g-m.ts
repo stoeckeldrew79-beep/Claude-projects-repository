@@ -12340,3 +12340,45 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-08-01',
 });
+
+UsGM.push({
+    name: 'Eversource "Direct Energy" Imposter Gift-Card Scam',
+    slug: 'massachusetts-eversource-direct-energy-gift-card-scam',
+    description: `The Boston Police Department has tracked an ongoing wave of imposter calls, documented since January 2025, in which scammers falsely claim to represent "Direct Energy," a third-party electric supplier, or Eversource itself, telling primarily senior victims their electric bill is overdue and that service will be shut off that same day unless they pay immediately. The callers, using a Boston-area phone number linked to a company called Harbor Electric Energy Company, pressure victims into buying gift cards to cover the supposed balance, with MoneyGram or Western Union payment requests cited by police as an equally reliable sign of fraud. Eversource never demands payment by gift card, MoneyGram, or Western Union, and never threatens same-day disconnection over an unsolicited phone call. Boston Police advise anyone who receives such a call to hang up and verify any real balance by calling Eversource directly using the number on a past bill, and to report the attempt to local police.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Boston Police Department'],
+    sourceUrl: 'https://police.boston.gov/?p=41377',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+    firstRecorded: '2025-01-01',
+});
+
+UsGM.push({
+    name: 'Xcel Energy Text-Message Shutoff Scam',
+    slug: 'minnesota-xcel-energy-text-shutoff-scam',
+    description: `A Moorhead, Minnesota woman received a text message in March 2026 impersonating Xcel Energy, falsely claiming her account was past due and that her heat would be shut off unless she paid immediately — and sweetening the pressure with an on-the-spot "$30 discount" if she paid right away by handing over credit card or bank account details. She avoided being scammed only because she had just hung up with an actual Xcel Energy representative moments earlier and recognized the inconsistency. Valley News Live reporter Devin Fry called the scam number back on camera to demonstrate the tactic for viewers. Xcel Energy does not disconnect service in Minnesota between mid-October and mid-April, never offers a discount for immediate payment, and never demands prepaid-card, wire, or direct bank-card payment over text. Customers who receive a similar text are advised not to click any link or provide payment information, to verify any real balance by calling Xcel directly using the number on a past bill, and to report the message to the FTC at ReportFraud.ftc.gov.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Valley News Live (KVLY)'],
+    sourceUrl: 'https://www.valleynewslive.com/2026/03/10/moorhead-woman-targeted-by-xcel-energy-scam-so-we-called-scammer-back/',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2026-03-10',
+});
+
+UsGM.push({
+    name: 'AI Voice-Cloning Family-Emergency Scam Targeting a Minnesota Marine\'s Family',
+    slug: 'minnesota-ai-voice-cloning-marine-family-emergency-scam',
+    description: `Minnesota resident Tim Nelson, whose son serves in the U.S. Marine Corps, received a phone call that sounded exactly like his son in apparent distress — an AI-cloned voice built from as little as a few seconds of audio scraped from the internet. Nelson grew suspicious because the details offered were thin and the emotional distress sounded artificial, paused rather than reacting immediately, and avoided being scammed. The case was cited by U.S. Senator Amy Klobuchar in her push for the FTC and FCC to act on AI voice-cloning fraud; Klobuchar said "it literally takes three seconds — three seconds — for someone to scrape your voice off the internet, then that voice is used for criminal operation." Families are advised to agree in advance on a private verification question or codeword that only a real relative would know, and to hang up and call the person back on a number already known to be theirs before sending any money in response to a distress call, however convincing the voice sounds.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['KSTP', 'Office of Sen. Amy Klobuchar'],
+    sourceUrl: 'https://kstp.com/kstp-news/local-news/scam-callers-are-using-ai-to-replicate-voices-senator-klobuchar-calls-on-ftc-and-fcc-to-act/',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2023-11-01',
+});
