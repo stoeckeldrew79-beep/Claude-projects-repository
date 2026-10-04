@@ -13072,6 +13072,39 @@ International.push(
 
 International.push(
   {
+    name: 'British Virgin Islands Cryptocurrency Sextortion/Blackmail Scam',
+    slug: 'british-virgin-islands-cryptocurrency-sextortion-blackmail-scam',
+    description: `On November 5, 2024, the Royal Virgin Islands Police Force (RVIPF) warned of a wave of blackmail text messages hitting residents territory-wide, demanding payment in bitcoin under threat of exposing allegedly compromising photos or sensitive personal information. Detective Chief Inspector Kenrick Davis said the RVIPF was "actively investigating these cases to safeguard our communities" and urged residents not to respond or engage, since doing so can invite further extortion attempts. The RVIPF advised tightening social-media privacy settings, limiting personal information shared online, and reporting any attempt to its Intelligence Unit rather than paying.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'medium',
+    sources: ['Royal Virgin Islands Police Force (RVIPF)'],
+    sourceUrl: 'https://jahphixtelevision.com/2024/11/05/rvipf-alerts-residents-to-surge-in-cryptocurrency-blackmail-scams/',
+    country: 'VG',
+  },
+  {
+    name: 'British Virgin Islands Cancer Society WhatsApp Impersonation Scam',
+    slug: 'british-virgin-islands-cancer-society-whatsapp-impersonation-scam',
+    description: `On January 11, 2025, the BVI Cancer Society publicly warned that it had received multiple reports from community members contacted by individuals falsely claiming to represent the charity over WhatsApp. Scammers invited targets to Zoom calls using false claims tied to the charity's Bingo fundraising events, even though the Society does not use WhatsApp to send Zoom invitations or promote events, and never requests personal information or financial contributions through the app. The charity asked anyone contacted this way to avoid clicking links or sharing personal details and to verify directly with the Society by phone or email before engaging.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['BVI Cancer Society'],
+    sourceUrl: 'https://jahphixtelevision.com/2025/01/11/whatsapp-scammers-target-bvi-cancer-society-in-deceptive-scheme/',
+    country: 'VG',
+  },
+  {
+    name: 'British Virgin Islands Fake "BVI Beacon" Tax Refund Website Scam',
+    slug: 'british-virgin-islands-fake-bvi-beacon-tax-refund-website-scam',
+    description: `On January 13, 2025, a fraudulent website cloned the design and masthead of the territory's leading newspaper, the BVI Beacon, and published a fabricated article claiming the Virgin Islands Government was processing tax refunds of up to $3,000 per month per person, complete with an invented interview between Premier Natalio Wheatley and a fictional "Ronn A. Grant." BVI Beacon editor Freeman Rogers said "this is a scam that appears to have stolen our masthead," and the Acting Director of Communications in the Office of the Premier, Karia J. Christopher, confirmed the article was fake. The BVI Beacon urged readers to verify that any article claiming to be theirs is hosted at an address starting "https://www.bvibeacon.com" before trusting an unusually generous financial claim.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['BVI Beacon', 'Office of the Premier (BVI)'],
+    sourceUrl: 'https://virginislandsnewsonline.com/en/news/fake-bvi-beacon-website-reporting-false-info-about-tax-refunds',
+    country: 'VG',
+  },
+);
+
+International.push(
+  {
     name: 'St. Kitts-Nevis-Anguilla National Bank Impersonation Phone Scam',
     slug: 'st-kitts-nevis-anguilla-national-bank-impersonation-phone-scam',
     description: `The St. Kitts-Nevis-Anguilla National Bank Limited issued a public advisory published March 15, 2026 warning customers to remain vigilant amid reports of fraudulent telephone calls targeting bank clients. The bank said scammers are calling from unfamiliar or foreign numbers and, in some cases, reaching out through messaging platforms such as WhatsApp, while impersonating the bank to request card details, PINs, passwords, security codes, or other personal and financial information. The advisory stressed that National Bank will never contact customers from a foreign mobile number or ask for PINs or card details over the phone or through a messaging app. Customers were urged not to answer suspicious calls, to hang up immediately if one gets through, to never return a missed call from an unfamiliar or foreign number, and to verify any request for personal information by contacting the bank directly through its official channels rather than a number or link supplied by the caller.`,
