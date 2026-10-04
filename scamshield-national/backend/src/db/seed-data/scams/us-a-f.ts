@@ -11238,6 +11238,20 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'American Samoa Counterfeit "Movie-Prop" Currency Warning',
+    slug: 'american-samoa-dhs-counterfeit-movie-prop-currency-warning',
+    description: `The American Samoa Department of Homeland Security (AS-DHS) issued a special bulletin on October 4, 2024 warning all businesses and banks in the territory that "movie-prop/counterfeit money" — the kind of fake currency manufactured to look convincing on camera for film and TV production — was being passed off as real cash to pay for purchases around the territory. Because prop bills are printed to look genuine at a glance but lack real security features, a cashier who doesn't inspect a bill closely (watermark, security strip, texture) can accept one as real, leaving the business to absorb the loss once the fake note is discovered at the bank. AS-DHS asked residents and merchants to stay vigilant and report any instance of the fraudulent currency immediately to the Department of Public Safety (633-1111) or the Department of Homeland Security EOC (699-3800), rather than wait to discover the loss when a bank refuses the deposit.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['American Samoa Department of Homeland Security'],
+    sourceUrl: 'https://samoanews.com/node/130404',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2024-10-04',
+});
+
+UsAF.push({
     name: 'Delaware State Police Spoofed-Number Bail Scam',
     slug: 'delaware-state-police-spoofed-number-bail-scam',
     description: `Delaware State Police warned residents on March 16, 2023 about scammers calling and falsely identifying themselves as DSP troopers, telling victims they are "wanted" or owe bail money and must pay immediately to avoid arrest. The callers use caller-ID "spoofing" to disguise their real number and make the call appear to come from a legitimate source, and DSP noted that many of the victims targeted by this particular scheme have been individuals listed on the Delaware sex offender registry — a population the scammers apparently calculated would be less likely to question a claim of police attention or report the attempted fraud. DSP stated plainly that troopers will never request payment for fines, traffic tickets, or bail over the phone, since any real bail or fine payment goes through the court system, not a phone call from an officer. Anyone who receives a call like this is advised to hang up and verify any claim by contacting Delaware State Police directly through a number looked up independently rather than one provided by the caller.`,
