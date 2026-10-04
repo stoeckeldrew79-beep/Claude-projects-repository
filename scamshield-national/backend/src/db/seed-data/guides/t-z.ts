@@ -2839,6 +2839,10 @@ GuidesTZ.push({
   title: "Voice Clone Bank Fraud: How AI Defeats the 'Voiceprint' Your Bank Still Trusts",
   slug: 'voice-clone-bank-voiceprint-authentication-fraud-guide',
   author: 'ScamShield Editorial',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seattle_-_1015_2nd_Avenue_01.jpg?width=1200',
+  coverImageCredit: 'The former Federal Reserve Bank building in Seattle. Photo by Joe Mabel, CC BY-SA 3.0, via Wikimedia Commons.',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   tags: ['guide', 'voice-clone-bank-fraud', 'ai-fraud', 'account-takeover', 'voice-biometrics'],
   sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA241203',
   body: `For more than a decade, banks, brokerages, and insurance call centers have offered customers a tempting convenience: instead of answering security questions or typing a PIN, just say a phrase and your voice becomes your password. These "voiceprint" or voice-biometric systems were sold as harder to steal than a four-digit code, since no one else supposedly sounds like you. Generative AI has quietly eroded that advantage. A scammer who has even a short recording of a target's voice — pulled from a voicemail greeting, a podcast appearance, a recorded customer-service call, or a public social media video — can run it through a voice-cloning tool and produce synthetic audio convincing enough to pass as the real account holder, whether the listener is an automated voiceprint system or a live call-center agent.

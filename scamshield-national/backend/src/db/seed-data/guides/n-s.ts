@@ -5321,6 +5321,10 @@ GuidesNS.push({
     title: "Prescription Discount Card and Patient Assistance Program Scams: Paying for Help That's Already Free",
     slug: 'prescription-discount-card-patient-assistance-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Abilene,_KS_(14340740946).jpg?width=1200',
+    coverImageCredit: 'A small-town American pharmacy storefront. Photo by The All-Nite Images, CC BY-SA 2.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'prescription-discount-card-scam', 'patient-assistance-program-scam', 'healthcare-fraud', 'senior-scam'],
     body: `An unsolicited phone call or piece of mail offers help with the cost of prescription drugs in one of two closely related ways. In the first, a telemarketer sells a "prescription drug discount card" for a one-time fee, sometimes implying — falsely — that the card is somehow required to keep collecting Medicare, Social Security, or private insurance benefits. In the second, a company charges an upfront enrollment fee to help a low-income or uninsured consumer apply for a pharmaceutical manufacturer's Patient Assistance Program (PAP), which provides free or deeply discounted brand-name medication to people who qualify. Both versions share the same basic con: the product or service being sold — a discount card, or help filling out a PAP application — is already available free of charge directly from the government, the drug manufacturer, or a nonprofit clearinghouse, and the fee buys nothing but access to information anyone could get on their own.
 
