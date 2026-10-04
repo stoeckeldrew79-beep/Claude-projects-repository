@@ -11468,6 +11468,9 @@ Barclay Grayson was sentenced on November 20, 2001, to two years in prison. Fede
 
 The Capital Consultants case illustrates that a Ponzi-style concealment scheme doesn't require a flashy standalone investment product sold to the public — it can metastasize quietly inside a decades-old, seemingly conservative pension-fund advisory relationship, hidden from trustees who lacked the independence or sophistication to catch a manager covering one bad loan with other clients' retirement money. It is also a stark example of a central perpetrator escaping any real legal reckoning: the person regulators held most responsible for $350 million in losses to union retirees was never imprisoned, due to a medical incapacity that arrived just as his case reached sentencing.`,
     sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-17490',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Portland_panorama3.jpg?width=1200',
+    coverImageCredit: 'Portland, Oregon, where Capital Consultants was based. Photo by Eric Baetscher, CC BY-SA 2.5, via Wikimedia Commons.',
 });
 
 NotoriousGM.push({
@@ -11498,4 +11501,7 @@ The fraud drew scrutiny from the Florida Attorney General and the FTC through th
 
 Gulf American itself survived the scandal only briefly: the Rosens sold the company in 1969, and the successor firm collapsed into Chapter 11 bankruptcy in 1975 amid recession, rising interest rates, and continuing regulatory and environmental scrutiny over the canal system that had drained an enormous volume of fresh water into Naples Bay every year. The case is now the textbook example behind the idiom "selling swampland in Florida," and it illustrates a durable fraud pattern still seen in modern land-banking and timeshare scams: selling an asset the buyer is actively prevented from inspecting, through travel incentives and time pressure designed to convert curiosity into a signed contract before anyone can verify what they actually bought.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Gulf_American_Land_Corporation',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cape_Coral,_Florida.jpg?width=1200',
+    coverImageCredit: 'Aerial view of Cape Coral, the subdivision Gulf American carved out of Everglades swampland. Photo by David Wilson, CC BY 2.0, via Wikimedia Commons.',
 });
