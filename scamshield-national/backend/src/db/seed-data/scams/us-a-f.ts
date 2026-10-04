@@ -11187,6 +11187,34 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Legend Windows Deposit-and-Vanish Home Improvement Fraud',
+    slug: 'alabama-legend-windows-deposit-fraud',
+    description: `Legend Windows, LLC, a Shelby County window-and-door installer, took deposits from homeowners across Alabama for new windows and doors and then simply never delivered the products. Alabama Attorney General Steve Marshall's office obtained an emergency temporary restraining order and asset freeze from the Shelby County Circuit Court on June 28, 2024, alleging violations of the state's Deceptive Trade Practices Act tied to more than 40 known victims owed a combined $181,042.80. Bank records cited in the complaint showed the company's account was instead used for over 1,100 Amazon purchases and thousands of dollars at retailers like Temu, Etsy, JCPenney, TJ Maxx, and Nordstrom while customers' orders sat unfulfilled. Consumers hiring any contractor should check for a history of complaints with the Alabama Attorney General's Consumer Interest Division before paying a deposit, insist on a written contract with a realistic timeline, and avoid large upfront payments before work begins.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Office of the Alabama Attorney General'],
+    sourceUrl: 'https://www.alabamaag.gov/wp-content/uploads/2024/06/2024.6.28-Attorney-General-Marshall-Restraining-Order-Issued-Against-Legend-Windows.pdf',
+    country: 'US',
+    state: 'AL',
+    isHistorical: true,
+    firstRecorded: '2024-06-28',
+});
+
+UsAF.push({
+    name: 'Fake Heavy-Equipment Dealer Website Impersonation Scam',
+    slug: 'alabama-heavy-equipment-dealer-website-impersonation-scam',
+    description: `Scammers built a convincing fake website, stephenstruckequipment.com, copying the name and branding of Stephens Truck & Equipment, a real but long-closed Millbrook, Alabama heavy-equipment dealer, complete with staff photos actually scraped from California real-estate agents' listings. They posted trucks, tractors, and construction equipment for sale on Craigslist, Facebook Marketplace, and TruckTrader; buyers who wired deposits never received any equipment, and victims across at least five states collectively lost hundreds of thousands of dollars to this single scheme. The fraudulent site was registered out of Kuala Lumpur, Malaysia in April 2022, and the Better Business Bureau serving Central & South Alabama, which first flagged the pattern in July 2022, turned its findings over to the FBI and the U.S. Secret Service's cyber-criminal division as copycat sites targeting other closed Alabama dealers kept appearing. Buyers should independently search a seller's phone number and business name before wiring any deposit, and treat a seller with no verifiable current storefront or listed inventory as a red flag.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (Central & South Alabama)', 'WBRC'],
+    sourceUrl: 'https://www.wbrc.com/2022/07/28/bbb-al-warns-craftiest-scam-theyve-ever-seen/',
+    country: 'US',
+    state: 'AL',
+    isHistorical: true,
+    firstRecorded: '2022-07-28',
+});
+
+UsAF.push({
     name: 'MV Realty 40-Year "Homeowner Benefit Agreement" Predatory Listing Scheme',
     slug: 'mv-realty-homeowner-benefit-agreement-connecticut',
     description: `Florida-based MV Realty offered Connecticut homeowners a small upfront cash payment — often just a few hundred dollars — in exchange for an exclusive right to list their home for sale for 40 years, recorded as a lien directly on the property's land records. Homeowners who canceled early or sold through another agent faced a penalty equal to 3% of their home's market value, often thousands of dollars, and many did not discover the lien until they tried to sell or refinance. An investigation by Attorney General William Tong's office found nearly 400 Connecticut homeowners had signed these agreements, leading him to say "MV Realty preyed on hundreds of Connecticut homeowners with scam deals" and to push successfully for a state law voiding any such exclusive listing deal lasting longer than one year or recorded on land records.`,
