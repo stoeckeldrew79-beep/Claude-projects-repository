@@ -16193,6 +16193,30 @@ International.push(
     sourceUrl: 'https://gov.fm/fsm-government-charges-department-of-finance-administration-employee-with-conflict-of-interest-theft-money-laundering-unauthorized-possession-or-removal-of-property/',
     country: 'FM',
   },
+  {
+    name: 'FSM "Western Union $800,000" Advance-Fee Email Scam',
+    slug: 'fsm-western-union-advance-fee-email-scam',
+    description: `On August 20, 2010, FSM Information Services — acting with the FSM Banking Board, the Financial Intelligence Unit of the National Police, and the Department of Justice — issued a public warning after a surge of unsolicited emails targeting FSM residents. One email, received personally by FSM Banking Commissioner Wilson Waguk, told him "Contact Western Union money transfer office immediate to give you $5000.00 dollars. I told them to keep sending you $5,000.00 daily until the payment of $800,000 USD is completed," with the scam requiring victims to hand over their name, address, phone number, and bank account details to "process" the nonexistent payout. Assistant Attorney General John Mahan warned residents that "if it sounds too good to be true, it probably is," and officials attributed the wave of scams to the recent arrival of Western Union and MoneyGram wire-transfer offices in the FSM, which gave the pretext new local plausibility.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['FSM Information Services', 'FSM Department of Justice'],
+    sourceUrl: 'https://unmission.fm/beware-of-e-mail-scams-coming-to-the-fsm/',
+    country: 'FM',
+    isHistorical: true,
+    firstRecorded: '2010-08-20',
+  },
+  {
+    name: "Peter Foster's Forged-Document Resort Loan Fraud Against the Bank of the FSM",
+    slug: 'fsm-peter-foster-forged-loan-fraud',
+    description: `Australian conman Peter Foster forged documents to obtain a loan of roughly $300,000 USD from the Bank of the Federated States of Micronesia, falsely claiming the funds would develop a tourist resort on a Fijian beach he did not actually hold the lease to and where no construction had begun. Between August and October 2006 he diverted the loan proceeds into Australian accounts over roughly ten weeks, using the money to pay personal debts, credit cards, and his girlfriend's rent instead of the promised development. Foster pleaded guilty in the Brisbane Supreme Court to money laundering, and on December 7, 2007 Justice James Douglas sentenced him to 4.5 years in prison with a non-parole period of two years and four months. The case illustrates how a small Pacific nation's bank can be targeted with forged collateral and progress documents to extract a large fraudulent loan for a fictitious offshore development that was never going to exist.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['ABC Radio Australia'],
+    sourceUrl: 'https://www.abc.net.au/radio/programs/pm/foster-jailed-for-money-laundering/982770',
+    country: 'FM',
+    isHistorical: true,
+    firstRecorded: '2006-08-01',
+  },
 );
 
 International.push(
