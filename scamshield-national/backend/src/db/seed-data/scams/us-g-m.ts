@@ -12377,6 +12377,47 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Action Oil of Oxford Prepaid Heating-Oil Fraud',
+    slug: 'massachusetts-action-oil-oxford-prepaid-heating-oil-scam',
+    description: `Massachusetts Attorney General Martha Coakley's office obtained a Worcester Superior Court order freezing the assets of Kalami Fuels Inc., doing business as Action Oil & Septic in Oxford, after owner George Papageorge took customers' prepayments for winter heating oil under "guaranteed price" contracts but then failed to deliver the oil paid for, while continuing deliveries to cash-paying customers. In one case, a customer who had prepaid $3,400 returned home to find her oil tank empty; when she complained, the company allegedly canceled her contract while keeping her money, prompting her to say, "I want my money back! I NEED my money back." The Attorney General's office sought more than $37,000 in restitution for affected customers and $75,000 in civil penalties, and the court barred Papageorge from destroying business records. Consumers are advised to confirm a prepaid-fuel dealer is in good standing and to avoid prepaying for a full season of heating oil to any company without a verifiable delivery track record.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ["Massachusetts Attorney General's Office", 'WHDH-TV'],
+    sourceUrl: 'https://whdh.com/news/coakley-cracks-down-on-oil-company/',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+});
+
+UsGM.push({
+    name: "RMV \"Mimic Site\" License-Fee Scam Targeting New Driver's License Applicants",
+    slug: 'massachusetts-rmv-mimic-site-wfma-license-fee-scam',
+    description: `Ahead of the July 1, 2023 implementation of Massachusetts' Work and Family Mobility Act, which let residents apply for a driver's license regardless of immigration status, Attorney General Andrea Campbell and RMV Registrar Colleen Ogilvie warned that fraudulent "mimic" websites and third parties were charging fees for RMV appointments, status checks, address changes, and forms that the real Registry provides free. Officials warned that scammers were specifically targeting newly eligible immigrant applicants who might be unfamiliar with the process, with Ogilvie stating flatly, "Registry customers needing credentials should never pay someone for an RMV appointment." Residents were advised to use only the official mass.gov/RMV website or an in-person RMV location, never a link found through a general web search.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Massachusetts Attorney General's Office", 'Massachusetts Registry of Motor Vehicles', 'NBC10 Boston'],
+    sourceUrl: 'https://www.nbcboston.com/news/local/immigrants-urged-to-beware-of-licensing-scams/3073110',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+    firstRecorded: '2023-07-01',
+});
+
+UsGM.push({
+    name: '"Compliance Services" Fake Annual Corporate Filing Scam',
+    slug: 'massachusetts-compliance-services-annual-filing-scam',
+    description: `Around 2009, Massachusetts corporations received an official-looking mailer titled "Annual Minutes Requirement Statement" from an organization calling itself "Compliance Services," requesting corporate information along with a $125 "annual fee" — an amount matching the real fee for filing an annual report with the Secretary of the Commonwealth, inviting confusion with a genuine state filing. The Massachusetts Secretary of State's office confirmed Compliance Services has no relationship to the Secretary of State or any Massachusetts government office, that corporate meeting minutes are not required to be filed under Massachusetts law, and that the mailer could be safely discarded. Similar mailers were sent to companies in other states around the same time, part of a template scam that exploits public business-registration records to overcharge for an unnecessary filing.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'low',
+    sources: ['Massachusetts Secretary of the Commonwealth', "Ropes & Gray LLP"],
+    sourceUrl: 'https://www.ropesgray.com/en/insights/alerts/2009/04/annual-filing-scam-targets-massachusetts-companies',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+    firstRecorded: '2009-04-01',
+});
+
+UsGM.push({
     name: 'Xcel Energy Text-Message Shutoff Scam',
     slug: 'minnesota-xcel-energy-text-shutoff-scam',
     description: `A Moorhead, Minnesota woman received a text message in March 2026 impersonating Xcel Energy, falsely claiming her account was past due and that her heat would be shut off unless she paid immediately — and sweetening the pressure with an on-the-spot "$30 discount" if she paid right away by handing over credit card or bank account details. She avoided being scammed only because she had just hung up with an actual Xcel Energy representative moments earlier and recognized the inconsistency. Valley News Live reporter Devin Fry called the scam number back on camera to demonstrate the tactic for viewers. Xcel Energy does not disconnect service in Minnesota between mid-October and mid-April, never offers a discount for immediate payment, and never demands prepaid-card, wire, or direct bank-card payment over text. Customers who receive a similar text are advised not to click any link or provide payment information, to verify any real balance by calling Xcel directly using the number on a past bill, and to report the message to the FTC at ReportFraud.ftc.gov.`,
