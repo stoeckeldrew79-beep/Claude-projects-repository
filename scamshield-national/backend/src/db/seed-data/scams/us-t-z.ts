@@ -6831,3 +6831,28 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2022-09-28',
 });
+
+UsTZ.push({
+    name: 'Washington DSHS EBT/SNAP Card-Skimming Benefit-Theft Surge',
+    slug: 'washington-dshs-ebt-snap-card-skimming-surge',
+    description: `Washington's Department of Social and Health Services (DSHS) reported that card-skimming devices clipped onto point-of-sale card readers drained $5.5 million from Washington SNAP and cash-assistance recipients' EBT accounts since it began tracking the scheme in April 2022, with $4 million of that total stolen from SNAP benefits specifically. The skimmers capture a card's information and PIN during an ordinary transaction, letting thieves clone the card and drain benefits before the recipient notices anything missing. DSHS urges EBT cardholders to use the ebtEDGE app or website to freeze their card whenever it isn't actively being used, block out-of-state or online transactions if they don't travel, change their PIN periodically, and inspect card readers for signs of tampering before swiping.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Washington Department of Social and Health Services', 'FOX 13 Seattle'],
+    sourceUrl: 'https://www.fox13seattle.com/news/wa-dshs-card-skimming',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2022-04-01',
+});
+
+UsTZ.push({
+    name: 'Washington DOL REAL ID "Skip-the-Line" Expedite Fee Scam',
+    slug: 'washington-dol-real-id-expedite-fee-scam',
+    description: `Washington's Department of Licensing maintains a standing scam alert warning that scammers send emails and texts falsely claiming the recipient can skip DMV lines and get a REAL ID-compliant driver's license or ID card faster by paying a fee or handing over personal information. The department states plainly: "The only way to get a new enhanced driver license, which is a REAL ID-compliant document, is to go to a driver licensing office. There is no phone number to call or money to pay to speed up the process." Washingtonians who receive a message like this are advised not to click any link or reply with payment or personal information, and to schedule any real REAL ID appointment only through the official dol.wa.gov website.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Washington State Department of Licensing'],
+    sourceUrl: 'https://dol.wa.gov/node/3445',
+    country: 'US',
+    state: 'WA',
+});
