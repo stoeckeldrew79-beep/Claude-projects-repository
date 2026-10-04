@@ -11142,6 +11142,46 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Georgia Peach Pass Toll Smishing Scam',
+    slug: 'georgia-peach-pass-toll-smishing-scam',
+    description: `Fraudulent text messages impersonating "Georgia Tolls Services" or "Peach Pass Tolls Services" tell recipients they have an outstanding toll invoice or unpaid balance and must click a link to settle it immediately. The link leads to a fake payment page designed to harvest personal and financial information; the State Road and Tollway Authority (SRTA), which operates Peach Pass, says it will never verify customer information or toll trips, or request account details, by text or email. SRTA tells anyone who receives such a text to delete it without clicking, and anyone who already clicked or shared information to contact their bank and notify Peach Pass directly.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['State Road and Tollway Authority (SRTA)'],
+    sourceUrl: 'https://srta.ga.gov/accountsafetyalert/',
+    country: 'US',
+    state: 'GA',
+});
+
+UsGM.push({
+    name: 'Hall County Real-Estate Closing Wire-Fraud Scheme (Stella Mae Zebic)',
+    slug: 'georgia-hall-county-real-estate-closing-wire-fraud-zebic',
+    description: `In June 2021, a Hall County homebuyer received an email spoofed to look like it came from her real-estate closing attorney, with "updated" wire instructions for her closing funds; she wired $155,477.46 to the account the scammer controlled, money that belonged to no attorney or title company. The Georgia Bureau of Investigation's Cyber Crime Center, working with the Georgia Attorney General's Cyber Fraud Task Force, the DeKalb County District Attorney's Office, and the FBI Atlanta Cyber Task Force, traced the receiving account to Stella Mae Zebic, 42, of Brookhaven, who was arrested April 28, 2022 and charged with felony theft by taking after investigators found she controlled and distributed the stolen funds from DeKalb County. The large, one-time nature of closing wires makes last-minute "updated instructions" especially dangerous, since the loss is unrecoverable once sent.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Georgia Bureau of Investigation (GBI) Cyber Crime Center'],
+    sourceUrl: 'https://gbi.georgia.gov/node/25621',
+    country: 'US',
+    state: 'GA',
+    isHistorical: true,
+    firstRecorded: '2021-06-01',
+});
+
+UsGM.push({
+    name: 'Atlanta Fake Parking Ticket QR Code Scam',
+    slug: 'georgia-atlanta-fake-parking-ticket-qr-code-scam',
+    description: `Scammers place counterfeit parking citations on vehicles parked on Atlanta streets, printed with a QR code that routes to a PayPal account or a Gmail-address-linked payment page rather than the city's real parking-enforcement system. The Atlanta Police Department warned on December 4, 2024 that these fake tickets contain typos and other errors and lack features present on genuine citations issued by ATLPlus, the city's parking-enforcement contractor, and urged drivers to scrutinize any ticket found on their windshield — especially if they believe they were legally parked — and to verify a citation's authenticity directly with ATLPlus rather than scanning the QR code. Genuine Atlanta parking-ticket payments are processed only through Atlanta Municipal Court or ATLPlus's own channels, never a QR code leading to a personal PayPal or Gmail account.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Atlanta Police Department'],
+    sourceUrl: 'https://roughdraftatlanta.com/2024/12/04/atlanta-police-department-warns-drivers-of-fake-parking-ticket-scam/',
+    country: 'US',
+    state: 'GA',
+    isHistorical: true,
+    firstRecorded: '2024-12-04',
+});
+
+UsGM.push({
     name: 'Indiana Department of Revenue Fake Tax Refund Text Scam',
     slug: 'indiana-dor-fake-tax-refund-text-scam',
     description: `Scammers send Indiana residents text messages claiming their state tax refund request has been "processed and approved," directing them to click a link and submit bank account information to receive the deposit, with the messages instructing recipients to "provide valid payment information" by a manufactured deadline and promising a deposit within 1-2 business days. The Indiana Department of Revenue issued a public warning in October 2025 stating it never sends text messages requesting payment or personal information from taxpayers, and urged recipients not to click links or reply, and to report suspicious texts to the department directly at 317-232-2240.`,
