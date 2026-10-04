@@ -11869,3 +11869,31 @@ UsNS.push({
     state: 'PA',
     firstRecorded: '2025-09-23',
 });
+
+UsNS.push({
+    name: 'Fort Jackson Basic Training Graduation Livestream Scam',
+    slug: 'south-carolina-fort-jackson-graduation-livestream-scam',
+    description: `Scammers post fake links to Fort Jackson Basic Combat Training graduation livestreams on unofficial Facebook pages that mimic the installation's real accounts, directing family members of new soldiers to pages that demand registration or payment to "watch" the ceremony — actually a credential and personal-information phishing page. Fort Jackson Social Media Manager LaTrice Langston stated, "We will never charge you to view a Basic Combat Training graduation or any ceremony that we live stream on our social media sites," noting the only legitimate livestream is on Fort Jackson's official, verified social media accounts. Families are advised not to click links posted in comments, to check for official verification badges, and to confirm any unit or battalion links through the installation's official weekly update posts rather than a shared link.`,
+    categorySlug: 'phishing',
+    alertLevel: 'low',
+    sources: ['Fort Jackson Public Affairs', 'Army.mil'],
+    sourceUrl: 'https://www.army.mil/article/243508/fort_jackson_warns_of_graduation_scams',
+    country: 'US',
+    state: 'SC',
+    isHistorical: true,
+    firstRecorded: '2021-02-19',
+});
+
+UsNS.push({
+    name: 'Medley "Door Tag" Fake Civil Warrant Process-Server Scheme',
+    slug: 'south-carolina-medley-door-tag-fake-process-server-scheme',
+    description: `Medley Serves & Investigations, a Tennessee LLC serving debt-collection lawsuits in South Carolina on behalf of OneMain Financial Group and similarly named entities, left "door tags" on defendants' homes that improperly displayed the Seal of the South Carolina Supreme Court and falsely referenced a "Civil Warrant" — a document that does not exist under South Carolina law — directing recipients to call a listed phone number. After the Office of the Clerk of the Supreme Court began fielding calls in January 2023 from frightened residents who believed the Supreme Court itself was summoning them, Chief Justice Donald W. Beatty issued a formal Order to Cease and Desist on April 20, 2023, finding the door tags deceptive and ordering Medley to stop the practice statewide. Anyone who receives a door tag referencing a "civil warrant" or displaying a court seal from a private process server is advised to verify any actual court date directly with the clerk of court rather than calling a number left on the tag.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'medium',
+    sources: ['South Carolina Supreme Court'],
+    sourceUrl: 'https://sccourts.org/CourtOrders/PDFS/2023-04-20-02.PDF',
+    country: 'US',
+    state: 'SC',
+    isHistorical: true,
+    firstRecorded: '2023-01-01',
+});
