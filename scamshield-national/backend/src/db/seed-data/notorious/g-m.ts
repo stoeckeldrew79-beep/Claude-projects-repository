@@ -11540,6 +11540,10 @@ NotoriousGM.push({
     title: 'Kareem Serageldin: The Only Wall Street Banker Jailed Over the 2008 Mortgage Crisis',
     slug: 'kareem-serageldin-credit-suisse-mismarking',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Z%C3%BCrich%20(CH)%2C%20Paradeplatz%20--%202011%20--%201381.jpg?width=1200',
+    coverImageCredit: 'Credit Suisse\'s historic headquarters building at Paradeplatz, Zurich. Photo by Dietmar Rabich, CC BY-SA 4.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'securities-fraud', 'historical'],
     body: `Kareem Serageldin, a Yale-educated banker, rose to become Credit Suisse's global head of structured credit trading, overseeing a book of asset-backed securities — subprime and commercial mortgage-backed bonds — inside the bank's investment banking division in New York. It was, by 2007, one of the more consequential and least scrutinized corners of a bank that had bet heavily on the housing boom continuing.
 
@@ -11555,6 +11559,10 @@ NotoriousGM.push({
     title: 'Guy Aplogan and the ICC Services Collapse That Looted 150,000 Beninese Savers',
     slug: 'guy-aplogan-icc-services-benin-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cotonouskyline.jpg?width=1200',
+    coverImageCredit: 'The skyline of Cotonou, Benin, where ICC Services operated. Photo by MVN, CC BY 2.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international', 'ponzi-scheme', 'benin'],
     body: `Guy Aplogan ran ICC Services (Investment Consultancy and Computering Services) out of Benin's commercial capital, Cotonou, as one of dozens of unlicensed microfinance-style savings operators that sprang up across West Africa in the 2000s to serve ordinary people the formal banking sector had never reached. ICC Services took in small, recurring deposits from traders, civil servants, farmers, and market women, promising returns that read like a fantasy next to anything a real bank could offer: deposit a sum, and ICC Services would pay back roughly 160 percent of it within a single quarter.
 
