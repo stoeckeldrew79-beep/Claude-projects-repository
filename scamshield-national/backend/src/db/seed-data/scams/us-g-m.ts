@@ -12059,6 +12059,34 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Wichita "Unclaimed Life Insurance Policy" Advance-Fee Letter Scam',
+    slug: 'kansas-wichita-unclaimed-life-insurance-letter-scam',
+    description: `The Sedgwick County District Attorney's Office publicized a letter received by a Wichita resident in November 2024 from a purported Canadian law firm, "Woodland, Brent and Partners LLP," claiming to represent a deceased client who left behind a multimillion-dollar unclaimed life insurance policy. Because the recipient supposedly shared the deceased's last name and nationality, the letter offers to add them to the policy and split the payout between the recipient, the firm, and a charity, asking only that the recipient keep it secret and email immediately. Similar letters, sometimes citing figures up to $10 million, have circulated in other Kansas counties; there is no lawyer, no deceased client, and no policy, and anyone who responds is asked for personal information or money, or both. The DA's office urges recipients not to respond or share information, and to report the letter to the FTC at ReportFraud.ftc.gov.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Sedgwick County District Attorney\'s Office'],
+    sourceUrl: 'https://sedgwickcounty.org/media/67715/life-insurance-scam-news-release-002.pdf',
+    country: 'US',
+    state: 'KS',
+    isHistorical: true,
+    firstRecorded: '2024-11-13',
+});
+
+UsGM.push({
+    name: 'Lenexa "Senior Community Care" Medicare Genetic-Testing Kickback Fraud',
+    slug: 'kansas-lenexa-senior-community-care-genetic-testing-medicare-fraud',
+    description: `Timothy A. Chin and Lauren M. Sword of Lenexa, Kansas operated Senior Community Care LLC, marketing "free" genetic tests to Medicare beneficiaries by sending recruiters into senior residential communities and pressuring seniors into cheek-swab testing regardless of medical necessity. A federal grand jury indicted the pair on December 1, 2022, on a conspiracy and wire fraud indictment alleging they took kickbacks from a Florida lab-marketing company in exchange for referring Medicare beneficiaries whose information was used to bill Medicare roughly $2.9 million between February and September 2019; Medicare actually paid out about $861,399 of that. Sword pleaded guilty in January 2024 to theft of government money and was sentenced to probation and restitution. The case illustrates a recurring red flag: a stranger offering a "free" genetic or DNA test in exchange for a Medicare card number is typically harvesting that number to bill Medicare fraudulently, not providing a medical service.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Health and Human Services Office of Inspector General (HHS-OIG)'],
+    sourceUrl: 'https://oig.hhs.gov/fraud/enforcement/lenexa-man-woman-indicted-for-29-million-medicare-fraud-conspiracy',
+    country: 'US',
+    state: 'KS',
+    isHistorical: true,
+    firstRecorded: '2022-12-01',
+});
+
+UsGM.push({
     name: 'Western Kentucky Tornado Disaster-Relief and Contractor Fraud',
     slug: 'kentucky-2021-tornado-disaster-relief-contractor-fraud',
     description: `After the catastrophic December 10-11, 2021 tornado outbreak that killed dozens of people across Western and Central Kentucky, Kentucky Attorney General Daniel Cameron issued a consumer alert on December 14, 2021, warning survivors about fraud converging on storm victims at once: people impersonating FEMA representatives, American Red Cross workers, and insurance adjusters in order to collect banking or personal information under the guise of processing aid, and out-of-town contractors going door-to-door offering debris removal or rebuilding work without proper local licensing or making unrealistic promises. "Kentuckians in many of our Western and Central counties have already suffered devastating losses," Cameron said, directing residents to report suspected fraud at ag.ky.gov/scams and to donate only through the official Team Western Kentucky Tornado Relief Fund at TeamWKYReliefFund.ky.gov rather than unknown solicitors claiming to collect on survivors' behalf. The Kentucky State Police's Mayfield post separately warned on December 21, 2021 about the same fraudulent-FEMA, fake-Red-Cross, and phony-adjuster patterns, advising residents that legitimate FEMA representatives carry photo-ID badges, never charge for assistance, and are not authorized to collect personal financial information, and that any contractor hired for storm repairs should be properly licensed, provide multiple estimates, and sign a written contract before work begins.`,
