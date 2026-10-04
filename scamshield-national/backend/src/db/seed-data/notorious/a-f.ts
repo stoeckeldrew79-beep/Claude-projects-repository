@@ -11033,4 +11033,7 @@ The government won convictions, and in 1977 the individual defendants were sente
 
 The case remains a significant precedent in land-sales-fraud law and in the regulatory history of the Interstate Land Sales Full Disclosure Act, and it illustrates how an investment-framed real-estate pitch — "this will double in value" — can constitute serious fraud even when the product being sold is a literal, tangible piece of land: the misrepresentation wasn't about the dirt itself but about a nonexistent market for reselling it, a distinction courts and regulators had to work out case by case through the 1970s and 1980s.`,
     sourceUrl: 'https://law.resource.org/pub/us/case/reporter/F2/768/768.F2d.1171.84-1434.html',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rio_Rancho_welcome_sign_NM_2023-10-15_10-37-10.jpg?width=1200',
+    coverImageCredit: 'The welcome sign for Rio Rancho, New Mexico, the subdivision AMREP built and sold. Photo by G. Edward Johnson, CC BY 4.0, via Wikimedia Commons.',
 });
