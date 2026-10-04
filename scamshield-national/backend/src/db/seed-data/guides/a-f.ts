@@ -9647,6 +9647,10 @@ GuidesAF.push({
     title: 'Continuing Care Retirement Community Entrance Fees: What Happens to Your Six-Figure Deposit If the Community Goes Bankrupt',
     slug: 'continuing-care-retirement-community-entrance-fee-risk-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Spring_Harbor_Retirement_Community,_Columbus_Georgia.jpg?width=1200',
+    coverImageCredit: 'A continuing care retirement community campus. Photo by Garydunncolumbusgausa, CC BY-SA 3.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'continuing-care-retirement-community', 'senior-living-risk'],
     body: `A continuing care retirement community (CCRC) sells older adults on a specific promise: pay a large "entrance fee" — commonly $250,000 to $400,000 or more, with some real examples running to $840,000 — plus ongoing monthly charges, and you're guaranteed a home for life that moves with you from independent living into assisted living or nursing care without ever having to relocate again. Many contracts sweeten the deal further by promising to refund a large share of that entrance fee, often up to 90%, to the resident or their estate when they move out or die.
 
@@ -9684,6 +9688,9 @@ GuidesAF.push({
     title: 'Falling for Scams Repeatedly Can Be an Early Sign of Dementia — Not Just Gullibility',
     slug: 'scam-susceptibility-early-dementia-warning-sign-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/RUMC_-_new_tower.jpg?width=1200',
+    coverImageCredit: 'Rush University Medical Center in Chicago, home to the Rush Alzheimer\'s Disease Center study cited in this guide. Photo by Nathan Hicks, CC BY 3.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
     tags: ['guide', 'cognitive-decline-scam-vulnerability', 'elder-financial-exploitation', 'dementia', 'caregiver-resources'],
     sourceUrl: 'https://www.rushu.rush.edu/news/scam-susceptibility-may-early-sign-dementia',
     body: `When an older adult falls for the same kind of scam more than once, families often explain it away as a one-time lapse, isolation, or simple gullibility — and then feel blindsided when it happens again. Research out of the Rush Alzheimer's Disease Center suggests something different may be going on in some cases: a declining ability to recognize a scam can be an early biological sign of Alzheimer's disease, showing up years before memory loss or any other symptom a family would normally notice.
