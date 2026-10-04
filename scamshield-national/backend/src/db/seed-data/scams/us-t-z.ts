@@ -6730,3 +6730,45 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2022-09-28',
 });
+
+UsTZ.push({
+    name: 'Harrisville, Utah "Sick Child" Cash Donation Scam',
+    slug: 'utah-harrisville-stolen-sick-child-cash-donation-scam',
+    description: `In July 2018, Harrisville Police identified Melissa White as the woman distributing flyers and soliciting cash, door-to-door and from local businesses, using the photo and story of 8-year-old Teagan Stewart — a real local child with a documented rare heart condition who had already undergone three open-heart surgeries — to collect donations for his "heart transplant," without the family's knowledge or consent. Teagan's mother, Amanda Stewart, publicly stated the family was not seeking donations and had not authorized anyone to raise money on their son's behalf, urging anyone approached to "make sure it's legit" and check with the family directly if anything about the solicitation seemed off. Harrisville Police released surveillance photos and publicly identified White within about an hour of posting them to social media, asking any additional victims to come forward. Unlike a fake-charity or disaster-relief GoFundMe scam, this case involved an in-person, cash-only solicitation that borrowed a real, identifiable local child's medical story rather than fabricating one — a reminder that even a legitimate, visible family tragedy doesn't mean whoever is collecting cash "for" that family in person has any connection to or authorization from them.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Harrisville Police Department'],
+    sourceUrl: 'https://fox13now.com/2018/07/25/harrisville-police-identify-woman-they-say-used-sick-childs-story-in-scam-ask-for-help-locating-her/',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    firstRecorded: '2018-07-25',
+});
+
+UsTZ.push({
+    name: 'Park City Airbnb/VRBO Rent-and-Resublet Scam',
+    slug: 'utah-park-city-airbnb-vrbo-resublet-scam',
+    description: `The Park City Police Department warned residents in February 2024 about scammers who legitimately book a real Park City property through Airbnb or VRBO for just a few days, then list that same property on a different site as if it were available for a long-term lease of several months to a year. Victims who respond are asked to pay roughly $6,000 up front for first and last month's rent, after which the "landlord" stops responding — leaving the victim not only out the deposit but needing to scramble for alternate housing once the real short-term booking expires and they discover they were never actually given a key. This differs from a typical hijacked-listing rental scam, where a scammer merely copies someone else's active for-rent ad: here the scammer actually controls the property, however briefly, which lets them pass a skeptical renter's request to see photos or even visit in person. Police urged anyone who believes they've been defrauded this way to contact Park City Police Dispatch at 435-615-5500.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Park City Police Department'],
+    sourceUrl: 'https://townlift.com/2024/02/pcpd-warns-of-new-rental-scam-in-park-city/',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    firstRecorded: '2024-02-28',
+});
+
+UsTZ.push({
+    name: 'Utah Joins FTC Suit Against Hims & Hers Over Subscription Trap and Health-Data Sharing',
+    slug: 'utah-hims-hers-subscription-trap-health-data-lawsuit',
+    description: `The Utah Division of Consumer Protection and the Utah Attorney General's Office joined the FTC and the State of California in a federal lawsuit filed July 29, 2026 in the Northern District of California against telehealth company Hims & Hers Health, Inc., alleging it violated the Utah Consumer Sales Practices Act by enrolling consumers into recurring prescription subscriptions based on nothing more than an online intake form — no real consultation with a healthcare provider — and then routing anyone who tried to cancel through a deliberately convoluted flow with multiple survey screens designed to obscure the exit option. The suit also alleges Hims promised consumers their health information would stay "private and secure" while in fact sharing sensitive health data with third-party advertisers including Meta and Snap. Utah Attorney General Derek Brown said "Hims promised a free consult and secure care. What Utahns actually got was a subscription trap and their most personal health data shipped to advertisers," and Commerce Commissioner Margaret Woolley Busse added that "this lawsuit is a clear message: deceptive practices will not be tolerated in Utah." The suit seeks a permanent injunction, consumer restitution, civil penalties, and disgorgement of profits; consumers can file complaints at consumerprotection.utah.gov.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ['Utah Division of Consumer Protection', 'Utah Attorney General\'s Office', 'Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://commerce.utah.gov/2026/08/10/utah-sues-hims-hers/',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    firstRecorded: '2026-07-29',
+});
