@@ -2830,4 +2830,7 @@ Ginnie Mae, the VA, and the CFPB have each taken steps to curb this. Ginnie Mae 
 
 If a veteran or servicemember receives one of these offers, do not sign anything or provide a Social Security number or loan account number based on mail, a call, or a text — call the loan servicer listed on an existing mortgage statement directly, using a number looked up independently, to confirm any offer is legitimate and to get a true side-by-side comparison of total costs over the life of both loans. Free help comparing terms is available through a base legal assistance office, Military OneSource, HUD-approved housing counselors, or by calling the VA's home loan guaranty staff directly at 1-877-827-3702. Complaints about deceptive refinance marketing can be filed with the CFPB at consumerfinance.gov/complaint and with the VA's Office of Inspector General.`,
     sourceUrl: 'https://www.consumerfinance.gov/about-us/newsroom/cfpb-orders-newday-usa-to-pay-2-25-million-for-illegally-luring-veterans-and-military-families-into-cash-out-refinance-loans/',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Veterans_Administration_Building_-_Washington,_D.C.jpg?width=1200',
+    coverImageCredit: 'The Department of Veterans Affairs headquarters in Washington, D.C. Photo by APK, CC BY-SA 4.0, via Wikimedia Commons.',
 });
