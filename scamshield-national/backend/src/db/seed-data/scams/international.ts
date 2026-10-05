@@ -21252,6 +21252,28 @@ International.push(
     country: 'HR',
     firstRecorded: '2026-06-27',
   },
+  {
+    name: 'Fake Tax Refund Phishing and Smishing Messages Impersonating Porezna uprava',
+    slug: 'croatia-porezna-uprava-fake-tax-refund-phishing-smishing',
+    description: `Croatia's Tax Administration (Porezna uprava), part of the Ministry of Finance, published an official warning on July 29, 2026 about a phishing and smishing (SMS) campaign in which messages falsely claim to come from the Tax Administration and tell recipients they are owed a tax refund, prompting them to submit personal and banking information. The agency identified specific fraudulent senders used in the campaign, including the domain porezna-uprava.info and the email address noreply.taxgov@meetgovtax.com, and stated that its only genuine domains are porezna-uprava.hr and porezna-uprava.gov.hr, with no extra characters or altered spelling. Citizens are advised to check the sender domain carefully, never submit personal or financial data through a link in an unsolicited message without first verifying it directly with the Tax Administration, and to report suspicious messages rather than act on them.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Porezna uprava (Croatian Tax Administration, Ministry of Finance)'],
+    sourceUrl: 'https://porezna-uprava.gov.hr/hr/upozorenje-phishing-smishing-kampanja/8827',
+    country: 'HR',
+    firstRecorded: '2026-07-29',
+  },
+  {
+    name: 'Taxi Overcharging Scam Targeting Tourists Prompts National Fare-Cap Crackdown',
+    slug: 'croatia-tourist-taxi-overcharging-scam',
+    description: `Croatia Week reported on August 28, 2025 that tourists have been charged extortionate taxi fares for short trips, including a case in Zagreb where a visitor from New Zealand was quoted €185 for a ride but, after paying by card, was debited roughly ten times that amount — about €1,506 — for a journey actually worth only a few euros. In response, Transport Minister Oleg Butković announced on Nova TV's Dnevnik program that the government would reintroduce national maximum taxi fare caps, stating, "We see prices rising without any clear criteria. We will calculate what the maximum should be and set it accordingly." Planned measures include amending the Road Transport Act, requiring taxis to carry distinctive number plates to curb unmarked and unlicensed operators, and tightening oversight of ride-hailing platforms. Tourists are advised to agree on a fare or confirm the meter is running before a ride begins, use licensed, clearly marked taxis or regulated ride-hailing apps, and check the card receipt amount before authorizing payment.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Croatia Week', 'Croatian Ministry of the Sea, Transport and Infrastructure'],
+    sourceUrl: 'https://www.croatiaweek.com/croatia-to-introduce-taxi-fare-caps-after-tourist-scams/',
+    country: 'HR',
+    firstRecorded: '2025-08-28',
+  },
 );
 
 International.push(
