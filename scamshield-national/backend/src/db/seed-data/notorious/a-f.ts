@@ -11213,6 +11213,23 @@ The Oustric affair is a useful reminder that the "fake discovery" playbook — m
 });
 
 NotoriousAF.push({
+    title: 'Christopher Dinelli, Jacob Frankel, and the Veterans Recruited Into a Fake Pre-IPO Fund',
+    slug: 'christopher-dinelli-jacob-frankel-beyond-alpha-ventures-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/files/litigation/complaints/2026/comp-pr2026-97.pdf',
+    body: `Note: this case is a civil enforcement action. The Securities and Exchange Commission's complaint describes allegations only — Christopher Dinelli and Jacob Frankel have not been criminally charged in this matter, and neither they nor Beyond Alpha Ventures LLC has been found liable by a court as of this writing.
+
+Christopher Dinelli, a former U.S. Navy officer, built his client base in Pensacola, Florida by recruiting fellow veterans and staff at a local VA clinic into Beyond Alpha Ventures LLC, an investment firm he ran alongside Jacob Frankel, a Series 7- and Series 63-licensed broker. According to a civil complaint the SEC filed September 29, 2026 in the Southern District of New York (SEC v. Dinelli and Frankel, 26 Civ. 8564), the two raised more than $8.7 million from 35 investors across a proprietary "Trading Fund" and two special-purpose vehicles pitched as pre-IPO access to SandboxAQ and Kraken.
+
+The marketing didn't match the reality, the complaint alleges. A "Trading Fund Overview" document BAV circulated claimed a "153% Net Average Return" and "1,340+ Clients," when in fact the fund had fewer than 40 investors and had lost more than 200% of its value. Frankel's own website separately advertised "current investments" in SpaceX and xAI; the complaint alleges BAV held no such investments at all — the real money that did go toward pre-IPO deals went into the SandboxAQ and Kraken SPVs. Even those were allegedly diverted: rather than routing investor funds to the actual third-party SPV administrators, Dinelli and Frankel redirected the money into BAV's own commingled accounts, so that only about $1 million of the $4.2 million raised for the SandboxAQ vehicle, and only about $2 million of the $2.5 million raised for Kraken, ever actually reached those investments.
+
+Dinelli is accused of personally fabricating proof of returns, hand-delivering an altered brokerage statement in April 2025 that showed an investor's account growing from $750,000 to $4.1 million, a jump the complaint says never happened. Internally, the complaint cites a WhatsApp exchange in which Frankel told Dinelli he was prepared to "blow up their account" rather than admit the fund's real losses to investors. The SEC alleges Frankel personally misappropriated more than $1 million of investor money, including $35,000 paid to his own criminal defense attorney directly out of investor funds — a defense tied to a separate March 2026 conviction for grand larceny and identity theft. Frankel had also been suspended by FINRA for four months in December 2023 for failing to disclose an earlier criminal history, and the complaint alleges he went on to falsely certify on six separate Form ADV filings that he had no felony record, even after his 2026 conviction.
+
+The case illustrates two separate warning signs stacked on top of each other: an affinity-fraud recruitment pattern that used trust built inside a veteran and VA-clinic community to open doors a stranger's cold call never could, and a credentialed-broker veneer — Frankel's Series 7 and 63 licenses — that gave the fund's claims a legitimacy his undisclosed felony history and FINRA suspension should have undercut. A regulator's license check (FINRA BrokerCheck, in Frankel's case) and a direct call to a fund's actual third-party administrator, rather than trusting a glossy "overview" document or an altered brokerage statement handed over in person, are the kinds of verification steps this case shows investors skipped at real cost.`,
+});
+
+NotoriousAF.push({
     title: 'The Charitable Corporation: The 18th-Century Pawnbroking Charity That Lent Fortunes Against Pledges That Didn\'t Exist',
     slug: 'charitable-corporation-1731-fraud',
     author: 'ScamShield Editorial',
