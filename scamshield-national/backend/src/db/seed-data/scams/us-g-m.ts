@@ -11862,6 +11862,34 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Flathead County Contractor Fraud Settlement (Nathainel Lewis / From the Ground Up Construction)',
+    slug: 'montana-flathead-nathainel-lewis-contractor-fraud-settlement',
+    description: `The Montana Attorney General's Office of Consumer Protection announced a settlement on March 12, 2025 with Flathead County contractor Nathainel Gevern Lewis, who operated under the names "From the Ground Up Construction" and "NGL Construction." Investigators found Lewis violated Montana's Unfair Trade Practices and Consumer Protection Act by soliciting customers, demanding upfront payments of more than 50% of a project's total cost, and then failing to complete the work. In some cases, Lewis demolished walls or decks without the homeowner's approval — sometimes falsely claiming rot or a code violation required it — and then demanded additional money before he would finish the job, leaving customers with unfinished or exposed structures. Under the settlement, Lewis agreed to pay $200,000 in restitution to affected customers and to stop doing business in Montana. Montana homeowners hiring a contractor are advised to get a written contract specifying the full scope of work before any money changes hands, avoid any contractor who demands more than a modest deposit up front, and verify a contractor isn't already facing a consumer-protection complaint before paying anything.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2025-03-12',
+    sources: ['KPAX', 'Montana Attorney General Office of Consumer Protection'],
+    sourceUrl: 'https://kpax.com/news/local-news/flathead-county/flathead-contractor-agrees-to-pay-200-000-in-restitution-to-victims-of-scam',
+    country: 'US',
+    state: 'MT',
+});
+
+UsGM.push({
+    name: 'Montana Flood-Damage FEMA Impersonation Scam Alert',
+    slug: 'montana-2022-flood-fema-impersonation-contractor-scam',
+    description: `Following severe flooding across Montana, Attorney General Austin Knudsen's office issued a consumer alert on July 1, 2022 warning residents of two schemes specifically targeting flood-damaged properties: unlicensed or fraudulent contractors offering repairs, and scammers impersonating FEMA representatives to extract personal or financial information from homeowners applying for disaster assistance. "As homeowners and business owners begin to repair their properties following recent flooding, fraudsters will undoubtedly use this as an opportunity to prey on unsuspecting Montanans," Knudsen said. His office urged residents to get written bids and check contractor references before hiring anyone, contact their insurer before authorizing repairs, and demand identification from anyone claiming to represent FEMA, since real FEMA representatives always carry official photo identification and never charge a fee to inspect damage or process a disaster-assistance application.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2022-07-01',
+    sources: ['NBC Montana', 'Montana Attorney General Office of Consumer Protection'],
+    sourceUrl: 'https://nbcmontana.com/news/local/ag-warns-montanans-of-contractor-scams-following-severe-flooding',
+    country: 'US',
+    state: 'MT',
+});
+
+UsGM.push({
     name: 'Fake Online Gambling Ads Impersonating Mississippi Gulf Coast Casinos',
     slug: 'mississippi-fake-online-casino-gambling-ads-scam',
     description: `Scammers posted dozens of fake Facebook, Instagram, and Messenger ads using stolen Beau Rivage Resort & Casino logos and photos to falsely claim the Biloxi casino now offers online gambling, complete with a "$1,000 welcome bonus" and 100 free spins. Clicking through led not to the real casino but to a third-party site requesting personal identification before enabling paid gameplay, with no actual connection to Beau Rivage — and since online gambling is illegal in Mississippi outside licensed in-casino sports betting apps, the ads were an obvious red flag in hindsight. Beau Rivage's own public relations office and Mississippi Gaming Commission Executive Director Jay McDaniel both confirmed the ads were a hoax, with McDaniel noting such scams are "becoming more prevalent" and are typically run by groups outside the country that are difficult to trace or hold accountable. Anyone who sees an ad offering "online gambling" or a sign-up bonus tied to a Mississippi casino's name or branding should assume it is fraudulent, verify directly through the casino's own official website or app, and never enter personal or financial information on a site reached through a social media ad.`,
