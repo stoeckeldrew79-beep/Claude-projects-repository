@@ -12587,3 +12587,128 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2024-04-25',
 });
+
+UsGM.push({
+    name: 'Minnesota Home Warranty Direct Renewal Letter Scam',
+    slug: 'minnesota-home-warranty-direct-renewal-letter-scam',
+    description: `Minnesota homeowners have received unsolicited letters from entities calling themselves "Home Warranty Direct" or "Home Warranty Solutions," warning in bold, urgent language that a home warranty is expiring or may have already expired and implying an official connection to the homeowner's mortgage lender or county deeds office by citing the homeowner's real mortgage company, pulled from public property records, to appear legitimate. Many recipients never purchased a warranty of any kind from any company; the letters exist solely to pressure homeowners into calling a number and handing over credit card or bank account information to "renew" a policy that never existed. The Minnesota Department of Commerce warned on February 8, 2023 that homeowners should never respond to an unsolicited warranty notice with financial information, and Assistant Commissioner for Enforcement Jacqueline Olson advised asking for referrals, checking a warranty company's own website independently, and understanding actual coverage and exclusions before paying anything. Suspicious letters can be reported to the Department's Consumer Protection Division at consumer.protection@state.mn.us or 651-539-1600.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Minnesota Department of Commerce', 'Echo Press'],
+    sourceUrl: 'https://www.echopress.com/news/scam-warranty-letters-target-homeowners-in-minn-other-states',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2023-02-08',
+});
+
+UsGM.push({
+    name: 'Affordable Home Remodeling Unlicensed Contractor Fraud (Ryan Pietron)',
+    slug: 'minnesota-affordable-home-remodeling-pietron-unlicensed-contractor-fraud',
+    description: `Ryan David Pietron ran Affordable Home Remodeling, LLC, taking on home-renovation jobs across Minnesota while falsely telling customers he was a licensed contractor. In a lawsuit Minnesota Attorney General Keith Ellison's office filed in Hennepin County District Court on October 14, 2025 — the same day it sued a separate unlicensed contractor, Earl Rode of High Road Builders — the office alleged Pietron collected substantial upfront payments for remodeling work, then performed little or no work, strung customers along with fabricated invoices and false progress updates, and refused refunds when they asked where their money had gone. The Attorney General's office said Pietron and Affordable Home Remodeling took nearly $400,000 total from at least 16 Minnesota families, and that he had actually been banned from even applying for a contractor's license, in violation of the state's Prevention of Consumer Fraud Act, Uniform Deceptive Trade Practices Act, and False Statements in Advertisement Act. The Attorney General's office urges anyone hiring a contractor to verify the person's license status directly through the Department of Labor and Industry's license lookup before signing a contract or making a payment, and to be wary of a contractor who demands a large deposit for work that has not yet begun.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ["Minnesota Attorney General's Office"],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2025/10/14_Contractors.asp',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2025-10-14',
+});
+
+UsGM.push({
+    name: 'Dilworth Phone-Based Storm-Damage Inspection Pretext Scam',
+    slug: 'minnesota-dilworth-phone-storm-damage-inspection-scam',
+    description: `The Dilworth Police Department warned residents on July 8, 2026 about a phone-based variation on the familiar storm-chasing roofing scam: rather than going door-to-door after severe weather, callers phone homeowners directly, claim to already be "on the way" to inspect storm damage or to offer a free estimate the homeowner never requested, and press for personal information or insurance policy details over the phone before any in-person visit occurs — some never show up at all, having gotten what they wanted from the call itself, while others use the information to pressure a homeowner into signing a contract. Police noted that a legitimate business will not show up uninvited or call out of the blue insisting it is already on its way, and urged residents to hang up on an unsolicited call offering roofing or storm-repair services, to never share personal or insurance information with a caller they did not contact first, and — for anyone claiming to be an insurance adjuster — to verify that person's identity by calling their own insurer directly before allowing access to the property.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Dilworth Police Department', 'Valley News Live (KVLY)'],
+    sourceUrl: 'https://www.valleynewslive.com/2026/07/08/police-warn-roofing-scams-following-severe-storms/',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2026-07-08',
+});
+
+UsGM.push({
+    name: 'SmartEnergy Holdings Telemarketing "Slamming" Scheme',
+    slug: 'maryland-smartenergy-telemarketing-slamming-scheme',
+    description: `SmartEnergy Holdings, Inc., a New York City-based retail energy supplier, enrolled Maryland customers in its electric supply contracts through inbound telephone solicitation between February 2017 and May 2019 without ever obtaining their signatures on an enrollment contract, in violation of the Maryland Telephone Solicitations Act, and falsely implied an affiliation with the customer's actual utility to gain trust. The Maryland Public Service Commission first ordered contract cancellations, customer refunds, and a ban on new solicitations in 2021, a finding SmartEnergy unsuccessfully appealed through the Montgomery County Circuit Court, the Appellate Court of Maryland, and ultimately the Maryland Supreme Court in February 2024. The company argued it owed only $6 million, while the Office of People's Counsel estimated the true liability closer to $16 million and the PSC found evidence SmartEnergy had made substantial distributions to insiders while ignoring its obligation to consumers; after the company sued the PSC and later applied to surrender its Maryland license, the Commission issued a final order on April 29, 2025 requiring SmartEnergy to refund $6.5 million to more than 32,000 former customers, plus a $250,000 civil penalty. The case is a reminder that a caller offering to switch an electric or gas supply contract over the phone is never entitled to sign someone up without their actual, verifiable consent, and that any such offer should be verified directly with the customer's own utility before agreeing to anything.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Maryland Public Service Commission', 'The Baltimore Banner'],
+    sourceUrl: 'https://www.thebanner.com/economy/smartenergy-holdings-customers-maryland-BPJF5HIT5BAP5CZVS3RFFTJNZI/',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    firstRecorded: '2025-04-29',
+});
+
+UsGM.push({
+    name: 'Fake Commercial Insurance Offers Targeting Maryland Painting, Construction, and Cleaning Businesses',
+    slug: 'maryland-mia-commercial-insurance-scam-small-businesses',
+    description: `Scammers posing as insurance agents or brokers have been cold-contacting small Maryland painting, construction, and cleaning businesses by email, text, and phone, offering general liability or workers' compensation policies at attractive rates while using fabricated company and contact information, and pressing the business to pay or hand over information before any verification is possible. The Maryland Insurance Administration issued a formal advisory on February 16, 2024 warning businesses never to use the contact information provided inside the offer itself, and instead to independently verify any agent, broker, or insurer through MIA's own "producer search" tool at insurance.maryland.gov, to contact that producer using the independently verified information rather than any number in the offer, and to call the MIA directly at 410-468-2000, 1-800-492-6116, or its Fraud Division at 1-800-846-4069 with questions before providing any information or payment.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Maryland Insurance Administration'],
+    sourceUrl: 'https://insurance.maryland.gov/Pages/newscenter/NewsDetails.aspx?NR=2024338',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    firstRecorded: '2024-02-16',
+});
+
+UsGM.push({
+    name: 'Maryland EBT/SNAP Card-Skimming Crisis and Tap-and-Go Card Rollout',
+    slug: 'maryland-ebt-snap-card-skimming-crisis',
+    description: `Criminals have installed card-skimming devices on point-of-sale terminals, gas pumps, and ATMs across Maryland to clone the magnetic stripe on recipients' older EBT cards and drain SNAP and cash benefits as soon as they post each month. Maryland became the first state in the nation to use federal SNAP funds to reimburse skimming victims, announcing on March 27, 2023 that it had approved nearly 1,300 claims totaling $761,584 for thefts occurring between October 1, 2022 and February 28, 2023, after more than 2,300 Marylanders reported losses exceeding $1.6 million in that window alone. The problem persisted and escalated: in October 2025, a U.S. Secret Service operation removed 22 illegal skimming devices from businesses across Baltimore, Anne Arundel, Howard, and Cecil counties, an action officials estimated prevented roughly $22.9 million in further losses. In response, Governor Wes Moore's administration began mailing chip-enabled "tap-and-go" EBT cards — far harder to clone than the old swipe-only design — to all 943,000 Maryland benefit recipients starting in mid-July 2026, with the older swipe-only cards set to stop working on September 30, 2026. State Comptroller Brooke Lierman said of the theft, "We are losing state resources and people are losing their funds every day." Recipients are advised to freeze their EBT card whenever it isn't actively being used, change their PIN regularly, and report any suspected theft to the Department of Human Services immediately.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Office of the Governor of Maryland', 'Maryland Comptroller', 'WTOP'],
+    sourceUrl: 'https://wtop.com/maryland/2026/07/marylands-ebt-cards-are-getting-tap-and-go-upgrades-to-address-theft-concerns/',
+    country: 'US',
+    state: 'MD',
+    isHistorical: false,
+});
+
+UsGM.push({
+    name: 'Kentwood Gold-Bar "Frozen Account" Extortion Scam (Nigam Bhatt)',
+    slug: 'louisiana-kentwood-nigam-bhatt-gold-extortion-scam',
+    description: `Nigam Bhatt, 25, of Parsippany, New Jersey, in the U.S. on a work visa from India, called an elderly resident of Kentwood, in Tangipahoa Parish, falsely claiming her bank account and Social Security benefits had been frozen and that the only way to release the funds was to hand over gold. The Tangipahoa Parish Sheriff's Office, working with the Collin County, Texas Sheriff's Office, arrested Bhatt on April 7, 2026 and charged him with extortion, seizing more than $800,000 in gold before the victim could be defrauded further. Sheriff Gerald Sticker urged residents to "hang up and call your banking institution to verify the caller's claims" rather than trust an unsolicited call about a frozen account, and never to send money, gold, or any other valuables to an unknown party based on a phone call alone.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Tangipahoa Parish Sheriff\'s Office'],
+    sourceUrl: 'https://www.tpso.org/post/2026-04-001',
+    country: 'US',
+    state: 'LA',
+    isHistorical: true,
+    firstRecorded: '2026-04-07',
+});
+
+UsGM.push({
+    name: 'Washington Parish "Hancock Whitney Fraud Department" Mailbox Cash-Pickup Scam',
+    slug: 'louisiana-washington-parish-hancock-whitney-mailbox-cash-pickup-scam',
+    description: `An 82-year-old retired dairy farmer in Washington Parish was targeted in August 2026 by a caller impersonating Hancock Whitney's fraud department, who first called his daughter and then reached him directly, claiming his account showed fraudulent activity. Kept on the phone throughout his trip to the bank and back, the man was told he needed to withdraw cash so counterfeit bills already in his account could be swapped out, then instructed to leave the cash in his mailbox for pickup; it was collected by someone in a silver SUV within minutes of being left. He lost $30,000 — about 40% of his life savings, built up over three decades of dairy farming — and investigators said the money would likely never be recovered. The Washington Parish Sheriff's Office had already warned of the identical Hancock Whitney-impersonation pattern in April 2024, after another resident was tricked into sending $12,000 and scammers attempted to extract a further $50,000 by FedEx. A real bank fraud department will never ask a customer to stay on the phone during a withdrawal or to leave cash anywhere for a courier to collect; anyone contacted this way should hang up and call their bank directly using the number on their card or statement.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Washington Parish Sheriff\'s Office', 'Hoodline'],
+    sourceUrl: 'https://hoodline.com/2026/08/northshore-dairy-farmer-82-loses-30k-savings-in-bank-imposter-scam/',
+    country: 'US',
+    state: 'LA',
+    isHistorical: true,
+    firstRecorded: '2024-04-01',
+});
+
+UsGM.push({
+    name: 'Pointe Coupee Parish "Check Washing" Mail-Theft Scheme',
+    slug: 'louisiana-pointe-coupee-check-washing-mail-theft-scheme',
+    description: `The Pointe Coupee Parish Sheriff's Office warned residents on December 3, 2025 of a rash of "check washing" incidents, in which thieves steal outgoing mail — targeting checks left in the blue collection bins outside post offices — then chemically erase and rewrite the payee name and dollar amount before cashing them, driving a rise in identity theft and bank fraud cases in the parish. The sheriff's office advised residents to hand outgoing checks directly to a postal clerk instead of leaving them in an outdoor collection box, to monitor bank accounts regularly, and to report any questionable transactions right away; suspected fraud can be reported to the Pointe Coupee Parish Sheriff's Office at (225) 694-3737.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Pointe Coupee Parish Sheriff\'s Office', 'WBRZ'],
+    sourceUrl: 'https://www.wbrz.com/news/pointe-coupee-sheriff-s-office-warning-residents-of-check-washing-scheme',
+    country: 'US',
+    state: 'LA',
+    isHistorical: true,
+    firstRecorded: '2025-12-03',
+});
