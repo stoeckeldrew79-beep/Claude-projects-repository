@@ -11927,6 +11927,32 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Unlicensed "Public Adjuster" Disaster-Fraud Scam (Mississippi Insurance Department)',
+    slug: 'mississippi-unlicensed-public-adjuster-disaster-scam',
+    description: `Mississippi Insurance Commissioner Mike Chaney has warned that after natural disasters, people posing as insurance adjusters tell storm-damage victims they can speed up or guarantee a larger payout, despite holding no state adjuster license, then demand money upfront and hand over a business card carrying a bogus phone number and no real agency name. "Adjusters, you think can get you paid from the insurance companies, and they cannot because they aren't licensed," Chaney said. "They want money up front; they give you a bogus card with a bogus number." His office says this is "not a victimless crime" and urges anyone contacted this way to verify licensing and report it to the Mississippi Insurance Department at 1-800-562-2957 or mid.ms.gov rather than pay anything upfront.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Mississippi Insurance Department (Commissioner Mike Chaney)', 'WLOX'],
+    sourceUrl: 'https://www.wlox.com/2026/02/26/mississippi-insurance-commissioner-warns-rising-insurance-fraud-scams/',
+    country: 'US',
+    state: 'MS',
+});
+
+UsGM.push({
+    name: 'Mississippi Secretary of State Unregistered Charity Crackdown',
+    slug: 'mississippi-unregistered-charity-cease-and-desist-scam',
+    description: `The Mississippi Secretary of State's Office, which registers and polices charitable solicitation in the state, issued a Cease-and-Desist Order on July 10, 2024 against Restoration Houston Ministry, a Houston, Texas-based group that had solicited Mississippi donors for roughly a decade without ever registering with the state's Charities Division or responding to the office's inquiries. Secretary of State Michael Watson said "we know Mississippians are some of the most generous and hospitable folks in the nation, but it is important to always check the validity of a charity prior to donating," and his office urges residents to verify any charity through its free Charity Search portal or by calling the Charities Division directly before giving, noting that federal 501(c)(3) tax-exempt status alone does not mean an organization has met Mississippi's separate state registration requirement.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2024-07-10',
+    sources: ["Mississippi Secretary of State's Office (Michael Watson)", 'The Gazebo Gazette'],
+    sourceUrl: 'https://thegazebogazette.com/2024/08/secretary-of-state-warns-about-potential-scams-from-fraudulent-charities/',
+    country: 'US',
+    state: 'MS',
+});
+
+UsGM.push({
     name: 'Sulphur Entergy Fake Disconnection Barcode Payment Scam',
     slug: 'louisiana-sulphur-entergy-fake-disconnection-barcode-scam',
     description: `Scammers impersonating Entergy called Aimee Lacy, owner of the Sulphur, Louisiana ice cream shop A Sprinkle in Time Too, demanding $2,600 to avoid an immediate power disconnection and threatening to cut service by "12:30 to one o'clock" that same day. Panicked about her refrigerated inventory melting, Lacy paid $1,000 by scanning a barcode at Walmart as instructed, after which the callers phoned back demanding the remaining $1,700. Her power was never actually scheduled for disconnection, and she reported the scam to Sulphur police. Entergy does not collect payment through barcode-scan transactions at retail stores, and customers who receive a sudden same-day disconnection threat should hang up and call the number on their own bill to verify their account status before paying anyone.`,
@@ -12248,6 +12274,33 @@ UsGM.push({
     state: 'KY',
     isHistorical: true,
     firstRecorded: '2019-04-02',
+});
+
+UsGM.push({
+    name: 'Kentucky Black Lung Association Medicare Oxygen-Equipment Fraud (Pikeville)',
+    slug: 'kentucky-black-lung-association-medicare-fraud',
+    description: `Carolyn Sue Davis helped found the Kentucky Black Lung Association in Pikeville, ostensibly to help coal miners obtain black-lung benefits, then steered KBLA-affiliated miners to a specific pulmonologist for testing and on to a durable-medical-equipment supplier, J&J Medical, owned by her husband, retired coal miner Otis Davis. According to trial testimony from office staff, billing agents, and a volunteer, Carolyn Davis forged the doctor's signature on Medicare "certificate of medical necessity" forms and filled in fabricated blood-oxygen test data herself, and the couple tried to destroy a garbage bag of falsified forms once a Department of Health and Human Services investigation began in March 2002. A jury convicted both on August 25, 2005 on twelve counts of aiding and abetting Medicare fraud plus one obstruction count; Carolyn Davis was sentenced to 60 months and Otis Davis to 36 months, with both ordered to pay $171,933 in restitution, and the U.S. Court of Appeals for the Sixth Circuit affirmed the convictions in full.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    isHistorical: true,
+    sources: ['U.S. Court of Appeals for the Sixth Circuit', 'U.S. District Court, Eastern District of Kentucky at Pikeville'],
+    sourceUrl: 'https://cases.justia.com/federal/appellate-courts/ca6/06-5074/920070622/0.pdf',
+    country: 'US',
+    state: 'KY',
+});
+
+UsGM.push({
+    name: 'Kentucky Discount Vacation Robocall Scam (Orlando/Bahamas)',
+    slug: 'kentucky-discount-vacation-robocall-scam',
+    description: `Kentucky's Attorney General's Office issued a Scam Alert on April 8, 2018 after residents in nine counties — including Fayette, Jefferson, and Madison — reported robocalls claiming they had qualified for a week in Orlando near Disney plus a three-day Bahamas beach stay at 75% off, with bonus cruises, gifts, or meals thrown in to sweeten the pitch. Victims who called back were pressured into paying an upfront fee and handing over financial information for a vacation package they never actually received. The AG's office advised verifying any confirmation number directly with the cruise line or resort itself and never paying by wire transfer, gift card, or cash for a travel offer that arrived as an unsolicited robocall.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2018-04-08',
+    sources: ["Kentucky Attorney General's Office", 'Northern Kentucky Tribune'],
+    sourceUrl: 'https://nkytribune.com/?p=143346',
+    country: 'US',
+    state: 'KY',
 });
 
 UsGM.push({
