@@ -6466,6 +6466,48 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Medicare Card and Social Security Number Phishing Scam',
+    slug: 'vermont-medicare-card-ssn-phishing-scam',
+    description: `Scammers place live calls from spoofed local numbers posing as Medicare representatives, telling Vermonters they must provide their Medicare card number or Social Security number to "keep coverage active," "verify medical information," or receive a "new Medicare card." The Vermont Attorney General's Consumer Assistance Program (CAP) warns that Medicare does not call consumers this way and never asks for this information by phone. The scam spikes during open enrollment but runs year-round, and ranked #4 on CAP's official Top 10 Scams of 2024 report with 184 reports, remaining active enough to place again on the 2025 list. Victims are directed to Vermont's State Health Insurance Assistance Program (SHIP) at 800-642-5119 or CAP at 800-649-2424 to verify whether a call claiming to be from Medicare is genuine.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Vermont Attorney General Consumer Assistance Program'],
+    sourceUrl: 'https://blog.uvm.edu/cap/open-enrollment-medicare-card-and-social-security-number-phishing-scam-alert/',
+    country: 'US',
+    state: 'VT',
+    isHistorical: true,
+    firstRecorded: '2024-01-01',
+});
+
+UsTZ.push({
+    name: 'AI Voice-Cloned "Relationship Imposter" Scam',
+    slug: 'vermont-ai-voice-clone-relationship-imposter-scam',
+    description: `Vermont's Attorney General Consumer Assistance Program documented, in its Top 10 Scams of 2024 report, that "relationship imposter" callers — posing as grandchildren, other relatives, or romantic partners facing a fabricated crisis and demanding urgent money — are sometimes using AI-generated voice cloning so that "the voices in the phone call sound like relatives." The office's guidance is to set a family verification code word in advance and independently confirm the emergency through a trusted phone number before sending any money, noting that some versions of the scheme also use an in-person courier to collect cash rather than a wire transfer or gift cards.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['Vermont Attorney General Office'],
+    sourceUrl: 'https://ago.vermont.gov/sites/ago/files/2025-01/2024%20Top%2010%20Scams%20Details.pdf',
+    country: 'US',
+    state: 'VT',
+    isHistorical: true,
+    firstRecorded: '2024-01-01',
+});
+
+UsTZ.push({
+    name: 'Order Fraud and Fake-Listing Scams Targeting Vermont Small Businesses',
+    slug: 'vermont-order-fraud-overpayment-small-business-scam',
+    description: `The Vermont Attorney General's Consumer Assistance Program identified "Order Fraud" as the single most-reported scam category among Vermont businesses in 2024, accounting for 65 of 191 total business complaints that year. In one pattern, scammers pose as customers placing large orders paid for with bad checks or stolen credit cards, or send a business a deliberately inflated check and ask for the "overpayment" to be refunded via Venmo, PayPal, or wire transfer before the original check has a chance to bounce. The same report found the pattern reaching beyond retail: several Vermont Justices of the Peace received fraudulent requests to officiate weddings, and Vermont real estate agents were targeted by scammers who used real property owners' names pulled from public deed records to request fake home or land sale listings. The office advises any business to wait for a check to fully clear before refunding any portion of it, and to independently verify a customer's or property owner's identity before accepting an order or listing that arrived unsolicited.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Vermont Attorney General Office'],
+    sourceUrl: 'https://ago.vermont.gov/sites/ago/files/2025-01/2024%20Top%2010%20Scams%20Details.pdf',
+    country: 'US',
+    state: 'VT',
+    isHistorical: true,
+    firstRecorded: '2024-01-01',
+});
+
+UsTZ.push({
     name: 'Wave Finance LLC ("WaveFinances") Fake Loan Text Scam',
     slug: 'washington-wavefinances-loan-scam',
     description: `In an October 14, 2025 consumer alert, the Washington State Department of Financial Institutions warned that a company calling itself "Wave Finance LLC" / "WaveFinances" was texting Washington consumers offering loans. A representative identifying himself as "Jeff Brown" followed up by phone, and the scheme sent victims a link asking them to "verify" their bank information, harvesting login credentials. DFI listed the associated phone numbers and website (wavefinances.us) and confirmed the company is not licensed to lend in Washington, directing consumers to verify any lender's license using DFI's "Verify a License" tool.`,
