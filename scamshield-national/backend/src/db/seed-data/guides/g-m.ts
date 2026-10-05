@@ -5014,7 +5014,7 @@ The pitch works because it opens with real, accurate details pulled straight fro
 Red flags include a mailer formatted like a check or "fee voucher," especially one demanding roughly $199 or more; a letter marked "Final Notice" or otherwise using urgency language about a home warranty or mortgage insurance lapsing; a disclaimer buried in small print stating the sender is "not affiliated with your current mortgage" — easy to miss, but a direct admission the letter isn't from the real lender; and a callback number printed on the mailer itself rather than the number on an actual monthly mortgage statement.
 
 Homeowners who receive one of these letters should never call the number printed on it. Any question about a mortgage, insurance, or warranty should go through the lender's own number, found on a real billing statement or the lender's verified official website, not through anything in the mailer. Anyone who has already called and given card information should contact their bank about a possible reversal and watch for unauthorized charges. The mailer can be reported to the Better Business Bureau's Scam Tracker, a state insurance department or Attorney General's consumer protection division, and, if it falsely implies a connection to a real loan servicer, to the CFPB at consumerfinance.gov/complaint.`,
-    sourceUrl: 'https://www.bbb.org/article/scams/28701-bbb-scam-alert-this-solicitation-looks-like-a-notice-about-your-mortgage-heres-how-to-spot-it',
+    sourceUrl: 'https://truthinadvertising.org/articles/mortgage-insurance-scam-goes-blue/',
 });
 
 GuidesGM.push({
