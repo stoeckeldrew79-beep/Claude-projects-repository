@@ -12754,3 +12754,45 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-08-06',
 });
+
+UsGM.push({
+    name: 'Knoxville USPS Employee Mail-Theft Check Scheme (Dontray Ligon)',
+    slug: 'tennessee-knoxville-ligon-postal-worker-mail-check-theft',
+    description: `A Knox County Sheriff's Office deputy stopped a vehicle on Clinton Highway on October 5, 2025 and found two lunchboxes containing undelivered mail, including checks totaling $972,051.63 in face value tied to roughly 100 victims — about $450,000 of it addressed to the Knoxville Livestock Auction Center. The passenger, Dontray Ligon, 29, identified himself as a U.S. Postal Service employee in Knoxville, though USPS later confirmed he was no longer employed there. Ligon told investigators he had taken mail containing checks and tried, unsuccessfully, to sell them on the black market; additional stolen checks were later recovered from an apartment connected to his girlfriend, and U.S. Postal Inspectors joined the investigation. He was charged with theft over $250,000 and mail theft of $250,000 or more, and a Knox County judge found probable cause and referred the case to a grand jury on May 7, 2026. Consumer advocates advise paying bills online instead of mailing checks when possible, mailing checks directly at a post office counter rather than an outdoor collection box, using gel-ink pens to resist "check washing," and reporting suspected mail theft by a postal employee to the USPS Office of Inspector General.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Knox County Sheriff\'s Office', 'WVLT', 'Hoodline'],
+    sourceUrl: 'https://www.wvlt.tv/2025/10/08/avoid-physical-check-experts-speak-out-knoxville-man-charged-mail-theft/',
+    country: 'US',
+    state: 'TN',
+    isHistorical: true,
+    firstRecorded: '2025-10-05',
+});
+
+UsGM.push({
+    name: 'Indianapolis Mail-Theft "Arrow Key" Card-Cracking Ring',
+    slug: 'indiana-indianapolis-mail-theft-card-cracking-scheme',
+    description: `Cortez Venable, Ephraim Aung, and Brooke Bryan ran a mail-theft and bank-fraud scheme across Indianapolis between October 2021 and April 2022, built on robbing USPS letter carriers of their master "arrow keys" — universal keys capable of opening blue collection boxes citywide. Venable robbed a letter carrier at gunpoint on October 4, 2021, and prosecutors say Aung directed him to also take the carrier's mail bag and look specifically for checks, while Bryan and Aung served as lookouts during other attempted robberies of letter carriers. The group stole checks and money orders from the mail, then altered payee information or recruited people to deposit the fraudulent instruments into their own bank accounts for a cut — a practice known as "card cracking." More than 150 victims lost a combined $104,747.09 before investigators recovered $70,121.44 in stolen financial instruments along with 247 pieces of stolen mail, three arrow keys, and firearms. U.S. District Judge Sarah Evans Barker sentenced Venable to roughly 130 months (about 10.8 years), Aung to 5 years, and Bryan to 18 months, combining for more than 16 years in federal prison. Residents can reduce their exposure by depositing outgoing checks directly inside a post office rather than a blue collection box, using a gel pen when writing a check to resist chemical "washing," enrolling in free Informed Delivery through USPS.com to spot mail that never arrives, and switching to electronic bill pay wherever possible.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office for the Southern District of Indiana', 'U.S. Postal Service Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/usao-sdin/pr/trio-sentenced-more-16-years-federal-prison-mail-theft-and-card-cracking-scheme',
+    country: 'US',
+    state: 'IN',
+    isHistorical: true,
+    firstRecorded: '2021-10-04',
+});
+
+UsGM.push({
+    name: 'Johnson County Fake-ID Bank-Account Drain Spree (Joseph Ferrigno)',
+    slug: 'indiana-johnson-county-ferrigno-fake-id-bank-fraud',
+    description: `Joseph Ferrigno, 50, of New Port, Florida, used counterfeit driver's licenses bearing victims' stolen identities to walk into Indiana credit union and bank branches in person and withdraw cash directly from victims' accounts. He took $3,500 from a Crane Credit Union branch in Plainfield on November 19, 2024, then on November 27 withdrew $200 using a fake Illinois license at a Crane branch in Franklin, had an attempted withdrawal flagged and blocked at a Forum Credit Union branch in Greenwood, and withdrew $1,700 from a Forum Credit Union account in Indianapolis, part of a spree that also hit Hendricks and Clinton counties before he was arrested inside a First Financial Bank in Rossville. On August 11, 2026, Johnson County Superior Court 3 Judge Douglas Cummins sentenced Ferrigno to 6 years on two Level 5 felony fraud counts, to run consecutively with an earlier 4-year Hendricks County sentence for a combined decade behind bars. Johnson County Prosecuting Attorney Lance Hamner said Ferrigno would spend "more than half a decade in a steel cage for defrauding our citizens." The case is a reminder that identity theft doesn't always happen online — a counterfeit ID presented in person at a teller window can be enough to drain an account, so banks and credit unions encourage customers to set up account alerts for any withdrawal and to report suspicious in-branch activity immediately.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["Johnson County Prosecuting Attorney's Office"],
+    sourceUrl: 'https://hoodline.com/2026/08/florida-man-gets-six-years-for-fraud-spree-at-johnson-county-banks/',
+    country: 'US',
+    state: 'IN',
+    isHistorical: true,
+    firstRecorded: '2024-11-19',
+});

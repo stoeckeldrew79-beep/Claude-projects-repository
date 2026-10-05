@@ -11993,3 +11993,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2021-04-05',
 });
+
+UsNS.push({
+    name: '"Pig Butchering" Crypto-Romance Investment Scam (TDCI Securities Alert)',
+    slug: 'tennessee-pig-butchering-crypto-romance-scam',
+    description: `The Tennessee Department of Commerce & Insurance (TDCI) Securities Division issued a public alert on February 11, 2026, ahead of Valentine's Day, warning about "pig butchering" scams that combine a romance con with a fake cryptocurrency-investment platform. The scheme typically opens with an unsolicited "wrong number" text or voicemail from a stranger, who builds a friendly or romantic relationship with the recipient over weeks or months through regular conversation before steering the discussion toward cryptocurrency investing. The victim is coached to deposit progressively larger sums into a fake trading app or platform that displays fabricated gains, continuing until most or all of their savings is gone. TDCI Assistant Commissioner Elizabeth Bowling said, "Pig Butchering scammers create a false sense of trust and friendship all in an elaborate effort to rob their victims." Red flags include an unsolicited text from a stranger, a relationship that moves toward investment advice, pressure to deposit increasing amounts into an unfamiliar trading app, and frequent requests to switch communication platforms. Suspected cases can be reported to local law enforcement, the FBI, or Tennessee's Securities Division at 800-863-9117 or securities.1@tn.gov.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Tennessee Department of Commerce & Insurance (TDCI) Securities Division'],
+    sourceUrl: 'https://www.tn.gov/commerce/news/2026/2/11/tdci-learn-to-spot-the-red-flags-of-pig-butchering-romance-scams.html',
+    country: 'US',
+    state: 'TN',
+    isHistorical: true,
+    firstRecorded: '2026-02-11',
+});
