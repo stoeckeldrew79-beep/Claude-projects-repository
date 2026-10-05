@@ -11817,3 +11817,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2025-11-19',
 });
+
+UsAF.push({
+    name: 'Harris Jewelry Predatory Financing Scheme Targeting Connecticut Servicemembers',
+    slug: 'connecticut-harris-jewelry-servicemember-settlement',
+    description: `Connecticut Attorney General William Tong announced on July 21, 2022 that an 18-state, FTC-joined settlement required national retailer Harris Jewelry to pay $34.2 million after it targeted active-duty servicemembers and veterans through its in-house financing program. Harris falsely claimed financing a purchase would improve a servicemember's credit score, ran a sham "Operation Teddy Bear" marketing campaign advertising teddy bears in military uniforms with promised charitable donations, based credit decisions on military branch and time remaining on enlistment rather than real creditworthiness, and marked up jewelry well above wholesale cost while adding undisclosed "protection plan" fees to contracts. Over 100 Connecticut servicemembers and veterans received $128,964.50 in refunds and debt relief, Connecticut collected a $50,000 penalty, and the settlement required Harris Jewelry to stop collecting more than $21 million in outstanding debt nationwide, provide nearly $13 million in refunds to 46,204 servicemembers, and dissolved all of Harris Jewelry's businesses.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ["Connecticut Attorney General's Office", 'Federal Trade Commission'],
+    sourceUrl: 'https://portal.ct.gov/AG/Press-Releases/2022-Press-Releases/Tong-Announces-Agreement-Recovering-34-Million-for-Servicemembers-Defrauded-by-Harris-Jewelry',
+    country: 'US',
+    state: 'CT',
+    isHistorical: true,
+    firstRecorded: '2022-07-21',
+});
