@@ -8119,6 +8119,23 @@ Sanchaita's legal victory could not save it financially. With public confidence 
 });
 
 NotoriousNS.push({
+    title: 'Owen Meyer and the SpaceX Funds That Forfeited Their Only Asset',
+    slug: 'owen-meyer-meyer-global-management-spacex-forfeiture-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/files/litigation/complaints/2026/comp-pr2026-98.pdf',
+    body: `Note: this case is a civil enforcement action. The Securities and Exchange Commission's complaint describes allegations only — Owen E.H. Meyer has not been criminally charged, and neither he nor Meyer Global Management, LLC has been found liable by a court as of this writing.
+
+Owen E.H. Meyer ran Meyer Global Management, LLC out of New York, raising at least $18.5 million since November 2019 from roughly 100 investors across about sixteen special-purpose funds pitched as a way for ordinary investors to buy pre-IPO stakes in high-profile private companies, chiefly SpaceX and OpenAI. According to a civil complaint the SEC filed September 30, 2026 in the Southern District of New York (SEC v. Meyer Global Management, LLC and Owen E.H. Meyer, No. 1:26-cv-08607), Meyer ran at least five distinct schemes to divert investor money for himself rather than deploy it as promised.
+
+In one, a fund called Starship VI, Meyer told investors in an email with the subject line "Starship VI – Closed!" that the fund had successfully closed on $1,035,000 in SpaceX shares, when the complaint alleges no such purchase ever happened; he later returned $600,000 to investors while keeping roughly $570,000 for himself. In another, involving a fund called MGP I and a company called Playstar, Meyer is accused of taking an interest-free loan from pooled investor money, including transactions timestamped between 4:41 and 4:44 a.m. that the complaint ties to a payment at a strip club. A separate MGP I scheme involving OpenAI shares allegedly saw Meyer charge investors overlapping fees worth $114,000 more than disclosed. In a fourth scheme, after a receiver appointed in a related case wired $13,829,158.01 in liquidated SpaceX fund proceeds, Meyer allegedly misappropriated $636,406 of it to his personal bank account, spending some of it on payments to his father and purchases at Bloomingdale's and Amazon.
+
+The fifth scheme, involving a fund called Starship X, shows the furthest reach of the alleged deception: a Florida court had already entered a default judgment on November 19, 2024 stripping Starship X of all its SpaceX interests over an unrelated dispute, meaning the fund's investors had no remaining stake in SpaceX from that date forward. Yet on June 12, 2026 — the same day SpaceX's initial public offering priced — Meyer sent Starship X investors an email telling them to "stay tuned for further updates as to your distribution of shares," despite there being no shares left to distribute.
+
+Meyer's case is a reminder that the credibility of "pre-IPO access" investing rests entirely on paperwork most investors never see — a fund's actual brokerage confirmations, its real share counts, and whether a forfeiture or default judgment from an unrelated lawsuit has already wiped out the asset being pitched. An email announcing a "closing," without the underlying trade confirmation to back it up, is a claim, not a transaction, and the lag between when a fund actually loses its only asset and when its manager admits as much to investors is exactly the gap scammers like Meyer are alleged to have operated in.`,
+});
+
+NotoriousNS.push({
     title: 'The Royal British Bank: The Chartered Bank Whose Directors Conspired to Defraud Its Own Depositors',
     slug: 'royal-british-bank-1856-fraud-collapse',
     author: 'ScamShield Editorial',
