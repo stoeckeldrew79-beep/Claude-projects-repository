@@ -11725,3 +11725,20 @@ The SEC alleges Williams misappropriated roughly $384,000 of investor money for 
 
 Williams's case is a reminder that affinity fraud doesn't require a stranger's cold call — his standing with a pension-plan administrator gave him exactly the kind of institutional-adjacent credibility that let him target a specific, trusting community of police and firefighter retirees. Moot's own warning applies well beyond this case: "We strongly urge all investors to use caution when entrusting their funds to others and to be wary of anyone promising high returns with little to no risk" — and a screenshot of an account balance, however convincing, is not independent proof of anything, since it shows only what the person sending it wants shown.`,
 });
+
+NotoriousGM.push({
+    title: 'Jonathan Frost, Paul Croft, Matthew Dira, and the Chattanooga Hydrogen-Fund Ponzi Scheme',
+    slug: 'jonathan-frost-paul-croft-chattanooga-hydrogen-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26638',
+    body: `Note: the SEC's civil complaint against Paul Croft and Matthew Dira describes allegations only — neither man has been found liable by a court as of this writing. Jonathan Frost's case is different: he has pleaded guilty to related federal criminal charges, though he had not yet been sentenced as of this writing.
+
+Jonathan David Frost and Paul Thomas Croft ran a Chattanooga, Tennessee accounting and investment operation that, from January 2021 to September 2023, raised roughly $64 million from more than 230 investors by selling promissory notes and LLC membership interests. Investors were told the money would fund small-business loans, real estate, and — the operation's most distinctive pitch — a facility using solar power to extract hydrogen gas from water. According to the SEC's civil complaint, filed September 11, 2026 in the U.S. District Court for the Eastern District of Tennessee, at least $53 million of that money never went anywhere near those stated purposes: roughly $33 million covered the pair's own accounting-firm salaries and commissions, and about $11 million funded personal luxuries including vehicles, residences, and charter services. As the scheme matured, newer investors' money was used to make Ponzi-style payments to earlier investors.
+
+Matthew William Dira worked as a securities salesperson and administrator for the operation, earning more than $500,000 in salary and commissions. The SEC alleges he kept selling notes to new investors even after receiving communications warning him that Croft and Frost were likely running a Ponzi scheme.
+
+Frost faced a separate criminal prosecution and pleaded guilty on February 11, 2026 in federal court in Chattanooga to three felonies — conspiracy to commit wire fraud, conspiracy to commit money laundering, and conspiracy to defraud the United States — admitting that investor money raised for the purported hydrogen plant was instead converted to personal use by him and his co-conspirators. His plea agreement includes a monetary judgment of not less than $70 million, and he faces up to a combined 45 years in prison; as of this writing his sentencing has been delayed and a status hearing was set for December 15, 2026.
+
+The "green hydrogen" pitch at the center of this case illustrates a durable trick in investment fraud: wrapping an ordinary cash-diversion scheme in whatever technology or industry happens to be generating genuine excitement at the time. A facility that turns solar power into hydrogen gas is a real category of investment that legitimate companies pursue, which is exactly why it worked as cover — investors evaluating the pitch were evaluating a real industry trend rather than scrutinizing whether this particular company's finances made any sense. Checking a fund's actual bank and brokerage records against its stated use of proceeds remains the step no futuristic pitch can substitute for.`,
+});
