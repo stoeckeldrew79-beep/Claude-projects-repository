@@ -5342,6 +5342,10 @@ GuidesNS.push({
   title: "Opt Out of Prescreened Credit and Insurance Offers: The Free Tool Most People Don't Know They Have",
   slug: 'prescreened-credit-insurance-offers-opt-out-guide',
   author: 'ScamShield Editorial',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blue_USPS_Mailbox.jpg?width=1200',
+  coverImageCredit: 'A USPS mailbox, where prescreened credit and insurance offers typically arrive. Photo by Elliott R. Plack, CC0, via Wikimedia Commons.',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   tags: ['guide', 'identity-theft', 'consumer-protection-tools'],
   body: `Prescreened offers — the "pre-approved" credit card and insurance mailers that show up unsolicited — are generated under a specific Fair Credit Reporting Act mechanism: a creditor or insurance company decides what the requirements are to qualify for their products, based on information in people's credit reports, then asks a credit bureau for a list of consumers who meet them. This is a "soft" inquiry that doesn't hurt a credit score, even though it shows up on a credit report as an inquiry showing which companies received the information.
 
