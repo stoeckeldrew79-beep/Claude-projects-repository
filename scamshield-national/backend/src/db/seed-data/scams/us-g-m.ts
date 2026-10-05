@@ -12559,3 +12559,31 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2009-04-01',
 });
+
+UsGM.push({
+    name: 'Ameren Illinois Fake-Utility-Worker Distraction Burglary Scheme',
+    slug: 'illinois-ameren-fake-utility-worker-distraction-burglary',
+    description: `In Madison County, Illinois, a woman posing as an Ameren Illinois employee approaches a homeowner claiming she needs to check the backyard for tree limbs near power lines; while she distracts the resident outside, a male accomplice enters the home and steals valuables. The pair has been reported traveling in a gray Jeep Compass or a white pickup rigged with ladders and storage bins to resemble a utility vehicle. Madison County Sheriff Jeff Connor warned residents in a public alert that "these suspects are just preying on the people who actually trust people," and Ameren Illinois confirmed real employees always wear uniforms, carry identification, and drive clearly marked company vehicles, urging anyone suspicious of a visitor claiming to be from the utility to call Ameren directly at 1-800-755-5000 before letting them onto the property.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Madison County Sheriff\'s Office', 'Belleville News-Democrat'],
+    sourceUrl: 'https://www.yahoo.com/news/madison-co-sheriff-warns-residents-030929652.html',
+    country: 'US',
+    state: 'IL',
+    isHistorical: true,
+    firstRecorded: '2025-06-03',
+});
+
+UsGM.push({
+    name: 'Illinois State Police "Identity Theft Investigator" Impersonation Phone Scam',
+    slug: 'illinois-state-police-identity-theft-investigator-phone-scam',
+    description: `Starting around April 2024, the Illinois State Police warned of a wave of calls from scammers posing as ISP investigators who tell the recipient their identity has been stolen, then press for financial or personal information to "resolve" it. ISP stated on the record that its investigators "do not make cold calls and will never request personal or financial information over the phone," and advised anyone contacted to demand the caller's name, badge number, and callback number, then verify independently through ISP's official regional office listings rather than calling back a number the caller provides. Residents who have already shared information are advised to place credit freezes with the three major credit bureaus and report the call to the Illinois Attorney General's Identity Theft Hotline at 1-866-999-5630.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Illinois State Police'],
+    sourceUrl: 'https://shawlocal.com/the-herald-news/2024/04/25/state-police-warns-residents-of-scam-callers-impersonating-officers',
+    country: 'US',
+    state: 'IL',
+    isHistorical: true,
+    firstRecorded: '2024-04-25',
+});
