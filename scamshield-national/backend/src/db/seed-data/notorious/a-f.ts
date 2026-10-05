@@ -11107,3 +11107,48 @@ By then Bhansali had been covering investor redemptions by having CRB instruct t
 What CRB illustrates is a regulatory seam, not just one man's greed: as a non-banking financial company, CRB Caps fell between the RBI, which regulated its deposit-taking, and SEBI, which regulated its securities and mutual-fund business, and neither watched the group's overall solvency. The public finger-pointing between the two regulators after the collapse became a direct catalyst for India's modern NBFC oversight regime — mandatory registration, minimum net-owned-fund requirements, and tighter audit and disclosure rules — and the case remains a textbook example of fraud thriving in the gap between two regulators each confident the other was watching.`,
     sourceUrl: 'https://www.watchoutinvestors.com/Press_Rel-T/sebi/1997056.asp',
 });
+
+NotoriousAF.push({
+    title: 'Bill Gouldd and the Equinox International Pyramid Scheme',
+    slug: 'bill-gouldd-equinox-international-pyramid-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-pyramid-schemes', 'historical'],
+    body: `Bill Gouldd founded Equinox International in Las Vegas in 1991, building a multi-level-marketing operation that sold water and air filtration systems, dietary and personal-care products, household cleaners, and cosmetics through independent "distributors." The company grew explosively, reaching No. 1 on Inc. magazine's 1996 list of the 500 fastest-growing private companies — a mainstream business-press credential that masked a compensation structure built largely on recruitment rather than retail sales.
+
+Beginning in 1997, investors and regulators in multiple states filed suit alleging Equinox was an illegal pyramid scheme. On August 3, 1999, the FTC joined with law enforcement authorities from eight states — Hawaii, Maryland, Michigan, Nevada, North Carolina, Pennsylvania, Tennessee, and Virginia — in a federal suit in the U.S. District Court in Las Vegas charging Gouldd, Equinox, Advanced Marketing Seminars, Inc., and BG Management, Inc. with operating an illegal pyramid and making deceptive earnings claims.
+
+Trial began April 3, 2000, and the case settled mid-trial on April 25, 2000. The settlement permanently barred Gouldd for life from any future involvement in multi-level marketing, ordered the dissolution of all three corporate defendants, and required liquidation of assets with an estimated book value of nearly $50 million by a court-appointed receiver, expected to yield approximately $40 million for defrauded consumers — one of the largest FTC pyramid-scheme judgments on record at the time.
+
+The case illustrates how a pyramid scheme can wear the costume of a legitimate, celebrated growth company — an Inc. 500 ranking, national distribution, household-name product categories — while its underlying economics depend on new recruits' sign-up fees rather than end-consumer product sales. It also shows that the biggest dollar judgments against pyramid schemes typically come not from criminal prosecution but from coordinated federal-state civil enforcement, with a lifetime industry ban functioning as the real deterrent once the money is gone.`,
+    sourceUrl: 'https://www.ftc.gov/node/40336',
+});
+
+NotoriousAF.push({
+    title: 'Edward M. Fuller, William McGee, and the Bucket-Shop Scandal That Trapped Arnold Rothstein\'s Lawyer',
+    slug: 'edward-fuller-william-mcgee-bucket-shop-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Edward M. Fuller and William Frank McGee founded the New York brokerage E.M. Fuller & Company in 1914. By the early 1920s it had become the largest brokerage house on the Consolidated Stock Exchange, a smaller rival to the NYSE, with offices in several East Coast and Midwest cities and thousands of customer accounts nationwide. Rather than executing customers' buy and sell orders on the real exchange, the partners engaged in "bucketing" — simply recording the orders internally and betting against their own clients, pocketing the difference while never actually owning the underlying securities, the classic fraud mechanism that gave Jazz Age "bucket shops" their name.
+
+The firm failed on June 27, 1922, with liabilities reported at roughly $6 million; customers were defrauded of an estimated $4 million through the bucketing scheme. Investigative reporting into the vanished assets triggered a grand jury probe that uncovered more than brokerage fraud: Fuller & Co. had written large sums in checks to the gambler Arnold Rothstein, and when the firm failed, Fuller and McGee hid out at Rothstein's home before surrendering — only after Rothstein retained the flamboyant criminal defense attorney William J. Fallon to represent them.
+
+Fallon was separately tried, and acquitted, on charges that he had bribed a juror to hang an earlier Fuller-McGee jury, the episode that later made him famous as "The Great Mouthpiece." Fuller and McGee ultimately pleaded guilty to operating a bucket shop and were sentenced on June 6, 1923 to terms of fifteen months to four years, though years of appeals delayed their actually entering prison until June 1927.
+
+The case is a textbook illustration of the bucket shop as a predecessor to modern "no real execution" trading fraud: a firm borrows the legitimacy of a real, regulated exchange while quietly taking the other side of every customer trade instead of ever sending it to market. It also shows how financial fraud in that era intersected with underworld finance and celebrity criminal defense — Rothstein's bankrolling, Fallon's theatrics, and a single reporter's dogged digging into "disappeared" assets — turning a mid-sized brokerage failure into a scandal that reshaped how New York policed its own exchanges.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Fuller_case',
+});
+
+NotoriousAF.push({
+    title: 'Direct Access Partners and the $66 Million Bribery Scheme That Looted Venezuela\'s State Development Bank',
+    slug: 'direct-access-partners-bandes-venezuela-bribery-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'business-email-compromise'],
+    body: `Direct Access Partners (DAP) was a small New York broker-dealer whose Global Markets Group built its fixed-income desk almost entirely around one client: Banco de Desarrollo Económico y Social de Venezuela (BANDES), the Venezuelan state development bank. From around 2009 through 2012, DAP executed "riskless principal" trades in Venezuelan sovereign and state-sponsored bonds for BANDES, generating tens of millions of dollars in markup and markdown revenue — an extraordinary sum for a firm of DAP's size, and one that depended entirely on one person keeping the business flowing to DAP rather than a competitor.
+
+That person was María de los Ángeles González de Hernández, BANDES's Vice President of Finance, who directed the bank's trading business to DAP in exchange for a cut of the proceeds. DAP executives — including senior vice president Tomás Alberto Clarke Bethancourt, who ran the scheme from DAP's Miami office — funneled millions of dollars in kickbacks to González through sham "finder's fee" arrangements, offshore accounts, and a shell company controlled by a relative, concealing the true nature of the trading volume from DAP's own clearing brokers.
+
+The SEC and the U.S. Attorney's Office for the Southern District of New York built the case in stages, charging Clarke and three others in May 2013 before separately charging DAP co-founder and CEO Benito Chinea and managing partner Joseph DeMeneses in April 2014 for devising the concealment schemes; DeMeneses was also charged with instructing subordinates to delete emails describing the scheme. Nearly everyone involved ultimately pleaded guilty. González de Hernández pleaded guilty to conspiracy and substantive Travel Act and money-laundering charges, and on January 19, 2016 was sentenced to time served — about 16 and a half months — and ordered to forfeit more than $8 million. Clarke Bethancourt was sentenced to two years in prison and ordered to forfeit nearly $5.8 million. Chinea and DeMeneses, as the firm's top executives, pleaded guilty to conspiring to violate the Foreign Corrupt Practices Act and the Travel Act and were later ordered to pay disgorgement of $3,636,432 and $2,670,612 respectively.
+
+The case is a clean illustration of a fraud mechanism that gets far less attention than Ponzi schemes or accounting fraud: a legitimate, licensed U.S. broker-dealer turning itself into a vehicle for foreign official bribery by hiding kickbacks inside ordinary-looking trading markups. Nothing about DAP's BANDES business looked unusual on its face — it was just bond trading, with fees embedded in bid-ask spreads rather than itemized bribes — which is exactly what let tens of millions of dollars move through a small firm for years before regulators caught it, and why a single client generating a wildly disproportionate share of a small broker-dealer's revenue is itself a red flag worth independent scrutiny, regardless of how clean the trade tickets look.`,
+    sourceUrl: 'https://www.sec.gov/news/press/2013/2013-84.htm',
+});
