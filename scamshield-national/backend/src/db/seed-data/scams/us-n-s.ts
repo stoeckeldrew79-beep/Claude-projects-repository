@@ -11422,6 +11422,44 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Harry Reid International Airport Fake Rideshare Driver Scam',
+    slug: 'nevada-harry-reid-airport-fake-rideshare-driver-scam',
+    description: `Harry Reid International Airport officials and the Nevada Transportation Authority have warned arriving travelers that impostors pose as Uber and Lyft drivers near the airport's designated rideshare pickup zones, soliciting cash rides from passengers who assume they're approaching a legitimate driver. These impostor drivers aren't vetted, insured, or background-checked by any rideshare platform, since the ride never actually goes through the Uber or Lyft app. The Nevada Transportation Authority stated plainly that "the public should never accept a cash offer ride as those people cannot be tracked or as easily identified." Travelers are advised to request their ride only through the official app at the airport's marked rideshare pickup area, confirm the driver's name, license plate, and vehicle match what the app displays before getting in, and never agree to a cash-only ride solicited in person.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['KTNV', 'Nevada Transportation Authority'],
+    sourceUrl: 'https://www.ktnv.com/news/las-vegas-airport-officials-warn-of-people-posing-as-rideshare-drivers',
+    country: 'US',
+    state: 'NV',
+});
+
+UsNS.push({
+    name: 'Nevada "Vacant Lot Fraud" Seller Impersonation Real Estate Scam',
+    slug: 'nevada-vacant-lot-seller-impersonation-fraud',
+    description: `The Nevada Division of Insurance and the Nevada Real Estate Division issued a joint consumer alert on August 31, 2023 warning of scammers who search public property records for mortgage-free, non-owner-occupied parcels — especially vacant lots and investment or vacation rentals — then impersonate the real owner to list the property with an unwitting real estate agent. After accepting an offer, the impostor submits falsified closing documents and has the sale proceeds wired to an account they control, a theft that typically isn't discovered until well after the fraudulent deed is recorded with the county. Red flags identified in the alert, sourced from the American Land Title Association, include a "seller" who refuses video calls, insists on using their own notary, demands wired proceeds, or whose contact address doesn't match the property's tax records. Real estate agents and title companies are advised to independently verify a seller's identity through government-issued ID and a live video call before listing or closing on any property, particularly one that is vacant or owned by someone who doesn't appear to live in Nevada.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Nevada Division of Insurance', 'Nevada Real Estate Division'],
+    sourceUrl: 'https://red.nv.gov/uploadedFiles/rednvgov/Content/Publications/Press_Releases/NRED_Consumer-Alert_Real-Estate-Identity-Theft-and-Fraud_Aug-2023.pdf',
+    country: 'US',
+    state: 'NV',
+    firstRecorded: '2023-08-31',
+});
+
+UsNS.push({
+    name: 'Nevada Contractor Materials Drop-Off and Canceled Check Scam',
+    slug: 'nevada-contractor-materials-drop-off-canceled-check-scam',
+    description: `The Nevada State Contractors Board warned on September 19, 2025 of a payment scam in which an unlicensed individual posing as a contractor collects an upfront payment from a homeowner or supplier via Zelle or a bank draft, orders construction materials delivered to the job site, pays the supplier for those materials with a check, and then cancels or stops payment on that check before any actual work begins — leaving the supplier or homeowner to absorb the loss. NSCB Executive Officer David Behar confirmed the scheme is active in the state. Nevada law caps a legitimate licensed contractor's allowable down payment at $1,000 or 10% of the total contract price, whichever is less, so any contractor demanding significantly more upfront is already violating state law regardless of what happens afterward. Homeowners are advised to verify a contractor's license number directly with the Nevada State Contractors Board before paying anything, and suppliers are advised not to release materials against a check until it has fully cleared.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['FOX5 Las Vegas', 'Nevada State Contractors Board'],
+    sourceUrl: 'https://www.fox5vegas.com/2025/09/19/nevada-state-contractors-board-warns-new-payment-scam/',
+    country: 'US',
+    state: 'NV',
+    firstRecorded: '2025-09-19',
+});
+
+UsNS.push({
     name: 'New Jersey MVC Text Message Impersonation (SMiShing)',
     slug: 'new-jersey-mvc-text-scam-smishing',
     description: `Scam text messages impersonating the New Jersey Motor Vehicle Commission claim the recipient has an outstanding traffic ticket or fee and threaten suspension of their vehicle registration and driving privileges, referral to collections, and legal action unless they pay immediately. The messages link to fraudulent pages built to look like official MVC sites, often using a URL containing "njmvc" paired with a deceptive top-level domain such as .icu instead of .gov, and instruct recipients to reply "Y" and reopen the message before clicking. The NJCCIC has issued repeated alerts as the campaign recurred through 2025-2026, noting the genuine MVC only texts to remind residents of scheduled appointments and never messages about license or registration status.`,
@@ -11705,6 +11743,33 @@ UsNS.push({
     state: 'SD',
     isHistorical: true,
     firstRecorded: '2025-05-01',
+});
+
+UsNS.push({
+    name: 'Fake ICAC "Sgt. Walker" Blackmail Text Scam',
+    slug: 'south-dakota-icac-sgt-walker-blackmail-text-scam',
+    description: `South Dakota Attorney General Marty Jackley warned residents in August 2025 about text-message scams in which fraudsters impersonate law enforcement to extort cash. In one documented case, a man who had exchanged texts with someone on a dating site received a follow-up message from a scammer posing as "Sgt. Walker" of South Dakota's Internet Crimes Against Children (ICAC) Task Force, falsely claiming the recipient had been communicating with a minor online and demanding $1,000 to avoid prosecution — South Dakota's real ICAC task force confirmed no agent by that name exists. A related version of the scam sends texts falsely accusing the recipient of being caught viewing pornographic websites, followed by the same kind of payment demand. Jackley's office stated that legitimate law enforcement will never demand payment or threaten arrest by text message, and urged anyone who receives a message like this to report it to the Attorney General's Consumer Protection Division rather than pay.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Dakota News Now', 'South Dakota Attorney General'],
+    sourceUrl: 'https://www.dakotanewsnow.com/2025/08/06/ag-jackley-warns-against-blackmail-text-scams/',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2025-08-06',
+});
+
+UsNS.push({
+    name: 'H&I Grain Ponzi-Style Grain-Buying Collapse (Steffensen)',
+    slug: 'south-dakota-hi-grain-steffensen-ponzi-scheme',
+    description: `Jared and Tami Steffensen ran H&I Grain, a private grain elevator based in Hetland and De Smet, South Dakota, and between 2016 and 2017 kept accepting grain deliveries from roughly 32 farmers and companies across eastern South Dakota even as Jared engaged in risky commodity speculation and knew the business could not pay for what it was taking in — conduct a Beadle County judge later called a "deliberate, systematic scheme." The collapse left farmers owed an estimated $8 million out of roughly $15.3 million in total documented losses, with Great Western Bank owed a further $7-8 million. On September 17, 2021, Circuit Judge Kent A. Shelton sentenced Jared and Tami Steffensen each to five years in the state penitentiary and ordered $4,966,491.80 in restitution to farmers, while Jared's mother and company officer JoAnn Steffensen received a suspended sentence with 120 days in county detention. Farmers delivering grain to any elevator are advised to watch for warning signs of insolvency — delayed payments, excuses for not issuing scale tickets promptly, or a buyer who keeps accepting new deliveries while falling behind on older ones — and to check whether a grain buyer is properly licensed and bonded with the state before delivering a season's harvest.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2016-01-01',
+    sources: ['AgWeek'],
+    sourceUrl: 'https://www.agweek.com/news/south-dakota-judge-sentences-grain-elevator-fraudsters-to-5-years',
+    country: 'US',
+    state: 'SD',
 });
 
 UsNS.push({
