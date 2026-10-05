@@ -11496,6 +11496,34 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Jersey Shore Boardwalk Rigged Amusement Game Scheme (Christine Strothers)',
+    slug: 'new-jersey-jersey-shore-boardwalk-rigged-amusement-games',
+    description: `New Jersey's Legalized Games of Chance Control Commission, part of the state Division of Consumer Affairs, found during summer 2022 inspections that boardwalk amusement games in Wildwood and North Wildwood run by operator Christine Strothers used basketballs inflated to nearly three times the manufacturer's recommended PSI, displayed oversized plush prizes that were not actually winnable, and in one instance failed to immediately return change after a customer overpaid on a quarterback-challenge game. In February 2023 the Commission banned Strothers from holding an Amusement Games License for ten years and fined her $15,500, part of a broader statewide effort that ran roughly 7,000 boardwalk-game inspections in 2022 alone. Attorney General Matthew J. Platkin said every person who plays an amusement game in New Jersey is entitled to a fair chance of winning it.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2023-02-15',
+    sources: ['New Jersey Office of the Attorney General', 'Legalized Games of Chance Control Commission'],
+    sourceUrl: 'https://njoag.gov/?p=105907',
+    country: 'US',
+    state: 'NJ',
+});
+
+UsNS.push({
+    name: 'Jones Road Wildfire Smoke-Odor-Removal Home Repair Scam',
+    slug: 'new-jersey-jones-road-wildfire-smoke-odor-removal-scam',
+    description: `After the Jones Road Wildfire burned more than 15,000 acres across Ocean and Lacey Townships in spring 2025, door-to-door operators targeted affected homeowners with offers to remove smoke odor from their houses, charging as much as $30,000 per job and pressuring residents into signing loan agreements. The operators falsely told homeowners the cost would be reimbursed because FEMA had issued a disaster declaration and New Jersey had declared a state of emergency; the New Jersey Forest Fire Service and Ocean County officials confirmed no FEMA disaster declaration had actually been issued for the fire and urged residents to report suspicious solicitations to local law enforcement.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    isHistorical: true,
+    firstRecorded: '2025-05-02',
+    sources: ['6abc/WPVI-TV', 'News 12 New Jersey', 'New Jersey Forest Fire Service'],
+    sourceUrl: 'https://6abc.com/post/ocean-county-officials-warning-scammers-targeting-residents-jones-road-wildfire-allegedly-charging-30k-remove-smoke/16303489/',
+    country: 'US',
+    state: 'NJ',
+});
+
+UsNS.push({
     name: 'Oregon Department of Revenue "Refund Approved" Text Phishing Scam',
     slug: 'oregon-dor-refund-text-phishing-scam',
     description: `Oregon taxpayers have received unsolicited text messages impersonating the Oregon Department of Revenue, falsely claiming their tax refund has been "approved and processed" and directing them to click a link and update their banking information to receive it. The Department of Revenue issued a public warning on September 15, 2025, stating it "will never send unsolicited texts asking for personal data," and urged recipients not to click the link or reply, and to verify refund status directly through the agency's official site instead.`,
