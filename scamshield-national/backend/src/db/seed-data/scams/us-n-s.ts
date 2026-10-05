@@ -11897,3 +11897,72 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2023-01-01',
 });
+
+UsNS.push({
+    name: 'Liberty Utilities In-Person and Phone Impersonation Scam (New Hampshire)',
+    slug: 'new-hampshire-liberty-utilities-impersonation-scam',
+    description: `Liberty Utilities, which serves New Hampshire towns including Salem, Lebanon, and Walpole, issued a scam alert in August 2016 after customers were approached both in person and by phone by scammers claiming either that "another company has purchased Liberty Utilities and they need to verify customer information" or that they were contractors hired by Liberty Utilities to collect customer data, in both cases asking for Social Security numbers, billing details, and banking information. Liberty advised customers that all genuine Liberty Utilities personnel carry photo ID badges with their name and the company logo, and recommended asking to see that ID, hanging up on unexpected calls, or refusing entry to unannounced visitors, then calling the utility back directly to confirm legitimacy before sharing any information.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Liberty Utilities'],
+    sourceUrl: 'https://new-hampshire.libertyutilities.com/bath/acworth/scam-alert-individuals-posing-as-utility-representatives.html',
+    country: 'US',
+    state: 'NH',
+    isHistorical: true,
+    firstRecorded: '2016-08-01',
+});
+
+UsNS.push({
+    name: 'New Hampshire Supreme Court Spoofed-Number Jury Duty Scam ("Officer Edwards")',
+    slug: 'new-hampshire-supreme-court-spoofed-jury-duty-scam',
+    description: `New Hampshire residents reported receiving calls that spoofed the real New Hampshire Supreme Court phone number, (603) 271-2646, in which a caller identifying himself as "Officer Edwards" claimed the recipient had missed jury duty and must pay a fine immediately to avoid an arrest warrant. The New Hampshire Department of Justice, under Attorney General Gordon J. MacDonald, confirmed the Supreme Court will never call potential jurors about missed jury service and the Judiciary will never request payment over the phone for a failure to appear, stating any attempt to solicit money or personal information this way is a scam. Recipients are advised to hang up, never share money or personal information, report the call to local police, and verify any genuine jury-service question by calling the court directly using a number looked up independently rather than the spoofed one on their caller ID.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Justice'],
+    sourceUrl: 'https://doj.nh.gov/news-and-media/consumer-alert-new-hampshire-supreme-court-telephone-number-being-spoofed-jury-duty',
+    country: 'US',
+    state: 'NH',
+    isHistorical: true,
+});
+
+UsNS.push({
+    name: 'New Hampshire Extended Warranty Fraud Targeting Seniors',
+    slug: 'new-hampshire-extended-warranty-senior-fraud',
+    description: `The New Hampshire Insurance Department reported in December 2023 that it had fielded 97 complaints that year about fraudulent extended-warranty, or "consumer guarantee contract," offers using high-pressure sales tactics, misleading mailers, and impersonation of government or insurance entities to target seniors, recovering nearly $30,000 for victims, including $5,000 returned to one person who had bought a phony furnace warranty. Commissioner D.J. Bettencourt said seniors were increasingly targeted with unsolicited calls and mail using fear-mongering and misleading language. In response, Senate Bill 515 — which requires warranty-seller registration with the state, bars marketing flyers that omit the selling company's name, and gives the Insurance Department more authority to act against companies selling phony warranties — passed and was signed into law by Governor Chris Sununu on July 3, 2024.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Insurance Department', 'New Hampshire Bulletin'],
+    sourceUrl: 'https://newhampshirebulletin.com/2023/12/20/seniors-being-targeted-with-fraudulent-extended-warranty-offers/',
+    country: 'US',
+    state: 'NH',
+    isHistorical: true,
+    firstRecorded: '2023-12-20',
+});
+
+UsNS.push({
+    name: 'Fake "$1,200 Bono Mujer" Government Benefit Phishing Scam (Puerto Rico)',
+    slug: 'puerto-rico-bono-mujer-fake-benefit-phishing-scam',
+    description: `On September 25, 2025, Puerto Rico's Department of Treasury (Hacienda), the Office of the Women's Advocate (Procuraduría de las Mujeres), and the Puerto Rico Innovation and Technology Service (PRITS) issued a joint alert that a supposed $1,200 "Bono Mujer" government bonus for women does not exist and is a scam. Fraudulent messages spread via social media and email, directing recipients to fake forms and links designed to mimic official government sites and harvest personal and banking information. Secretary Ángel Pantoja Rodríguez stated, "Any communication not directly from our Department should be viewed as fraud. We urge citizens not to share personal information," while Women's Advocate Astrid Piñeiro said it was "preoccupying to witness attempts to exploit our women's economic needs." Residents are advised to verify any claimed government benefit only through official channels and never through a link shared on social media or by email.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Puerto Rico Department of Treasury (Hacienda)', 'Office of the Women\'s Advocate', 'PRITS'],
+    sourceUrl: 'https://hacienda.pr.gov/node/5728',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2025-09-25',
+});
+
+UsNS.push({
+    name: 'Hacienda Fake "Portal de Reembolsos" Tax Refund Phishing Email (Puerto Rico)',
+    slug: 'puerto-rico-hacienda-fake-refund-portal-phishing-email',
+    description: `On November 23, 2025, Puerto Rico's Department of Treasury (Hacienda) warned that a fraudulent email illegally using the department's name and logo was circulating, with the subject line "Aviso Anual de Reembolso" ("Annual Refund Notice"), inviting recipients to "validate information" through a fake "Portal de Reembolsos" (Refund Portal). The department stated plainly, "Este mensaje no proviene del Departamento de Hacienda y no es oficial" ("This message does not come from the Department of the Treasury and is not official"), and that all genuine tax procedures and notifications go exclusively through SURI (Sistema Unificado de Rentas Internas), its official online system. Recipients are advised not to open the email, click any link, or share personal or banking information.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Puerto Rico Department of Treasury (Hacienda)', 'Metro Puerto Rico'],
+    sourceUrl: 'https://www.metro.pr/noticias/2025/11/23/departamento-de-hacienda-advierte-sobre-nueva-estafa-por-correo-electronico/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2025-11-23',
+});

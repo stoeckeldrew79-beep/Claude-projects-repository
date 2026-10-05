@@ -24158,3 +24158,42 @@ International.push({
     sourceUrl: "https://www.csb.gov.bn/reminder-regarding-counterfeit-notes-and-financial-scams",
     country: "BN",
 });
+
+International.push({
+  name: 'Jumhouria Bank Fake Mobile App Impersonation (Libya)',
+  slug: 'libya-jumhouria-bank-fake-mobile-app',
+  description: `Jumhouria Bank, one of Libya's largest state banks, issued public warnings on two separate occasions — March 12, 2025 and again on December 28, 2025 — after discovering fraudulent mobile apps circulating on social media that copied its name and logo. The bank warned that such counterfeit apps could put users' bank accounts at risk of hacking and theft of personal and financial information. Customers were advised to download the official banking app only from trusted, verified app stores, never to share sensitive information through suspicious links, and were told the bank disclaims liability for losses resulting from the use of unverified apps.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: ['Jumhouria Bank', 'Libya Observer'],
+  sourceUrl: 'https://libyaobserver.ly/inbrief/jumhouria-bank-warns-fake-app-targeting-customers',
+  country: 'LY',
+  isHistorical: true,
+  firstRecorded: '2025-03-12',
+});
+
+International.push({
+  name: 'Fake "Test-Drive" Vehicle Theft Scam (Libya)',
+  slug: 'libya-fake-test-drive-car-theft-scam',
+  description: `Libya's Criminal Investigation Agency announced on May 12, 2026 that it had arrested a man-and-woman duo who targeted vehicle sellers advertising on social media. Posing as serious buyers, the pair would ask for a test drive to "check the engine," and once handed the keys, one of them would drive off with the car entirely, cutting off contact with the seller; incidents spanned multiple areas, including one case in Sousa where the stolen vehicle was swapped for a BMW before investigators caught up with the suspects. Officers tracked the stolen vehicles' routes to locate and apprehend the pair, who are being held pending legal proceedings while authorities investigate further incidents using the same method. Anyone selling a vehicle through social media is advised to accompany any test drive in person, verify a prospective buyer's identity before handing over keys, and avoid meeting alone in an isolated location.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'medium',
+  sources: ['Libya Criminal Investigation Agency'],
+  sourceUrl: 'https://www.okaz.com.sa/variety/na/2248313',
+  country: 'LY',
+  isHistorical: true,
+  firstRecorded: '2026-05-12',
+});
+
+International.push({
+  name: 'Facebook Fake Fiancée Jewelry Theft Scam (Libya)',
+  slug: 'libya-facebook-fake-fiancee-jewelry-theft-scam',
+  description: `In the Sidi Hasan area of Libya, a man met a woman on Facebook who, after cultivating an online relationship, arranged for him to formally propose marriage to a man she introduced as her father — who was in fact her husband. The pair rented a house together to receive the victim as a suitor, and within days the woman took him shopping and had him buy roughly 15,000 Libyan dinars (about $2,400) worth of jewelry; two days later both she and her accomplice disappeared and switched off their phones. Libya's General Security Directorate investigated after the victim filed a complaint, and both suspects were subsequently arrested. Anyone who meets a romantic partner online and is quickly asked to buy jewelry, pay a "bride price," or spend money to meet a family member is advised to slow down and independently verify the other person's identity and circumstances before spending anything.`,
+  categorySlug: 'romance-scams',
+  alertLevel: 'medium',
+  sources: ['Libya General Security Directorate', 'Emirates Today'],
+  sourceUrl: 'https://www.emaratalyoum.com/life/four-sides/2024-07-15-1.1868390',
+  country: 'LY',
+  isHistorical: true,
+  firstRecorded: '2024-07-15',
+});
