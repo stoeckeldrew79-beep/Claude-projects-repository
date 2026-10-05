@@ -5050,4 +5050,8 @@ The red flags show up the moment you try to actually watch: a flood of pop-ups o
 
 The FTC's own guidance on this is blunt: if you want to avoid downloading malware when you stream video, don't watch pirated content, period — not on a website, and not through an illegal add-on for a streaming box or device. If you've already clicked through and installed something, update your device's security software and run a full scan immediately, and do the same for every other device on the same home network, since malware that gets a foothold on one device can try to spread to others sharing the connection. If you entered a credit card number anywhere on a suspected pirate-stream site, contact your card issuer to flag or replace the card and watch your statement closely for unfamiliar charges. Change any password you may have reused on that site, and if a device was asked to grant unusual permissions, check and revoke them. Report the site and any resulting fraud to the FTC at ReportFraud.ftc.gov, and if money was taken, file a complaint with the FBI's Internet Crime Complaint Center at IC3.gov.`,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2019/05/malware-illegal-video-streaming-apps-what-know',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Well_lit_soccer_stadium_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Mario Klassen (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
 });
