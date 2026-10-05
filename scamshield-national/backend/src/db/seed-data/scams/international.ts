@@ -21192,6 +21192,27 @@ International.push(
     country: 'HU',
     isHistorical: false,
   },
+  {
+    name: 'Fake NAV Tax-Refund and Tax-Debt Phishing Emails',
+    slug: 'hungary-nav-tax-refund-phishing-emails',
+    description: `Phishing emails impersonating Hungary's National Tax and Customs Administration (NAV) use the agency's official colors, logos, and Client Portal branding to falsely tell recipients they are entitled to a specific tax refund — one documented version claims a 140,000 forint refund "based on your 2025 personal income tax return" — while other versions instead demand immediate payment of a supposed tax debt. Both variants push the recipient to click an embedded link designed to harvest personal or login data. NAV has stated publicly that it never communicates about refunds, debts, or account balances by email or SMS, and that it only ever contacts taxpayers through secure messages in their registered online account (DÁP / Client Portal+) or by physical mail.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Nemzeti Adó- és Vámhivatal (NAV)', 'economx.hu'],
+    sourceUrl: 'https://www.economx.hu/gazdasag/nav-adathalaszat-csalo-e-mailek.822649.html',
+    country: 'HU',
+  },
+  {
+    name: 'Fake "Maintenance Contract" Property-Theft Scheme Targeting Elderly Homeowners',
+    slug: 'hungary-maintenance-contract-elderly-property-fraud',
+    description: `In Budapest's 3rd district (Óbuda), the Óbuda Housing Cooperative No. 5 issued a public warning after documenting a pattern over the past five years in which elderly, often isolated homeowners are persuaded to sign "maintenance contracts" that transfer ownership of their apartment to a stranger in exchange for a small monthly payment — one documented case around €282, roughly 100,000 forints — plus promised care, with multiple signers found dead within one to two weeks of signing. An undercover journalist recorded a direct confession from one perpetrator describing how he obtained his own apartment this way, offering a roughly 30-million-forint property in exchange for the same small monthly payment, and proposing to pay the journalist around 500,000 forint via Revolut specifically to avoid leaving a taxable, traceable record. The housing cooperative's warning advises residents to be extremely cautious about who they enter such contracts with.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['Óbuda Housing Cooperative No. 5', 'Daily News Hungary'],
+    sourceUrl: 'https://dailynewshungary.com/warning-suspicious-deaths-of-elderly-in-budapests-property-market/',
+    country: 'HU',
+    isHistorical: false,
+  },
 );
 
 International.push(
