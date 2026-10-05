@@ -11831,3 +11831,31 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2022-07-21',
 });
+
+UsAF.push({
+    name: 'Arizona "Unpaid Toll" Text Scam (No Toll Roads Exist)',
+    slug: 'arizona-unpaid-toll-text-scam-no-toll-roads',
+    description: `ADOT (the Arizona Department of Transportation) renewed a public warning on January 9, 2026 about a fresh wave of smishing texts falsely claiming the recipient owes an unpaid toll violation, following earlier waves the agency had already flagged in prior months. The fraudulent messages threaten vehicle registration suspension, driver's license revocation, collection fees, or legal action unless the recipient pays immediately through an embedded link, and sometimes carry the Motor Vehicle Division's logo to appear official. ADOT's own debunking line cuts straight to the scam's core flaw: Arizona's state highway system has no toll roads at all, so any text demanding a toll payment is fabricated on its face. Other red flags ADOT identified include the scammers using "DMV" instead of Arizona's actual agency name "MVD," referencing a fictitious "Ministry of Transportation," spelling and grammar errors, and sender numbers originating out of state or internationally. ADOT directs anyone who receives one of these texts not to click the link, to delete the message, and to verify any real account status only at azmvdnow.gov or in person at an MVD office.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Arizona Department of Transportation (ADOT)'],
+    sourceUrl: 'https://www.azfamily.com/2026/01/09/adot-warns-about-new-round-unpaid-toll-scam-texts-targeting-arizona',
+    country: 'US',
+    state: 'AZ',
+    isHistorical: true,
+    firstRecorded: '2026-01-09',
+});
+
+UsAF.push({
+    name: 'Arizona DES Unemployment-Insurance Bribery Scheme (Espino & Lorenzen)',
+    slug: 'arizona-des-unemployment-insurance-bribery-scheme',
+    description: `Jacqueline Espino, 53, of Phoenix, and Brandilyn Lorenzen, 48, of Gilbert, both worked as adjudicators at the Arizona Department of Economic Security (DES), evaluating unemployment insurance and Pandemic Unemployment Assistance claims. Between 2020 and 2022, both pleaded guilty to accepting cash bribes in exchange for approving claims from people who did not actually qualify, while separately embezzling additional DES funds for themselves. Lorenzen accepted bribes tied to 24 fraudulent claims that caused $532,964 in improper payments and embezzled nearly $2.5 million on top of that; she was sentenced on January 22, 2025 to 30 months in prison and ordered to pay over $2.9 million in restitution. Espino accepted bribes tied to nine fraudulent claims causing $140,298 in improper payments and embezzled $600,672, with her sentencing scheduled for May 5, 2025. Combined, the two women's embezzlement totaled roughly $3.6 million, and both were charged with bribery concerning a program that receives federal funds. Federal prosecutors said the case shows that government employees entrusted with safeguarding benefit programs will be held accountable for betraying that trust.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office', 'azfamily.com (KTVK/KPHO)'],
+    sourceUrl: 'https://www.azfamily.com/2025/02/11/2-arizona-des-workers-admit-accepting-bribes-claim-approvals',
+    country: 'US',
+    state: 'AZ',
+    isHistorical: true,
+    firstRecorded: '2025-02-11',
+});
