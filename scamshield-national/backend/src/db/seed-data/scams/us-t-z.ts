@@ -6820,6 +6820,33 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Clearfiber USDA Rural Broadband Grant Fraud (Timothy Chad Henson)',
+    slug: 'west-virginia-clearfiber-broadband-grant-fraud-henson',
+    description: `Morgantown internet service provider Timothy Chad Henson, owner of Clearfiber, Inc., was awarded a $1.96 million USDA Community Connect Program grant to bring high-speed broadband to rural areas of Monongalia and Marion counties. Prosecutors say Henson submitted a series of false invoices to the USDA to draw down more than $340,000 in reimbursements, then transferred $322,900 of that money into a separate account for his personal use rather than spending it on the broadband buildout. He was convicted of money laundering, sentenced to 18 months in federal prison plus three years of supervised release, and ordered to pay $1,401,849.06 in restitution.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    isHistorical: true,
+    sources: ['Internal Revenue Service Criminal Investigation (IRS-CI)', "U.S. Attorney's Office, Northern District of West Virginia"],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/morgantown-business-owner-sentenced-for-federal-broadband-funding-fraud',
+    country: 'US',
+    state: 'WV',
+});
+
+UsTZ.push({
+    name: 'PACT Act Veterans Benefits Fee Scam',
+    slug: 'west-virginia-pact-act-veterans-benefits-fee-scam',
+    description: `In a December 2022 consumer alert, West Virginia Attorney General Patrick Morrisey warned the state's veterans — particularly older veterans — about scammers exploiting the PACT Act, the 2022 law expanding VA benefits for those exposed to toxins such as Agent Orange and burn pits. The scammers contact veterans by phone, email, and social media falsely claiming to represent the VA, then offer to "rapidly process" additional PACT Act benefits in exchange for an upfront fee, with some contacts also resulting in identity theft. The alert urged veterans never to share personal, medical, or financial information with unsolicited callers and to work only with recognized VA or veterans-service providers.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2022-12-14',
+    sources: ["West Virginia Attorney General's Office", 'WHSV'],
+    sourceUrl: 'https://www.whsv.com/2022/12/14/wv-attorney-general-morrisey-warns-veterans-scams',
+    country: 'US',
+    state: 'WV',
+});
+
+UsTZ.push({
     name: 'Virginia E-ZPass/Toll Unpaid-Balance Text Scam',
     slug: 'virginia-ezpass-toll-text-scam',
     description: `A recurring "smishing" (SMS phishing) scheme sends Virginia residents text messages posing as E-ZPass Virginia or a specific Virginia toll facility, claiming the recipient has an unpaid toll balance that must be paid immediately to avoid late fees. The message contains a link designed to look like a legitimate toll-payment page but built to harvest credit card numbers and other personal or financial information. The Virginia Department of Transportation has issued repeated public alerts about this pattern, including on January 22, 2025, after the FBI's Internet Crime Complaint Center (IC3) reported that people nationwide — not just E-ZPass customers — were getting nearly identical texts impersonating toll collection services in different states, with the phone numbers and toll-facility names changing by region. VDOT has stated it is not aware of confirmed cases of actual Virginia E-ZPass customers losing money to the scheme, but keeps re-issuing the warning because the wording and format keep recurring in fresh waves. VDOT's advice: never click the link in an unsolicited toll-balance text; check any real balance only by contacting toll customer service directly using a number looked up independently, not one in the text; and report suspected smishing texts to the FBI's IC3 (ic3.gov), including the sender's number and the link in the message.`,
