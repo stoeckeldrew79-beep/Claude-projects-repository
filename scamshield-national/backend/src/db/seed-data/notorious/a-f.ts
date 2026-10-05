@@ -11112,6 +11112,10 @@ NotoriousAF.push({
     title: 'Bill Gouldd and the Equinox International Pyramid Scheme',
     slug: 'bill-gouldd-equinox-international-pyramid-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Las_Vegas_Skyline_from_the_Northeast_February_2013.jpg?width=1200',
+    coverImageCredit: 'The Las Vegas skyline, where Equinox International was based. Photo by David Starner, CC BY-SA 3.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'ponzi-pyramid-schemes', 'historical'],
     body: `Bill Gouldd founded Equinox International in Las Vegas in 1991, building a multi-level-marketing operation that sold water and air filtration systems, dietary and personal-care products, household cleaners, and cosmetics through independent "distributors." The company grew explosively, reaching No. 1 on Inc. magazine's 1996 list of the 500 fastest-growing private companies — a mainstream business-press credential that masked a compensation structure built largely on recruitment rather than retail sales.
 
@@ -11142,6 +11146,10 @@ NotoriousAF.push({
     title: 'Direct Access Partners and the $66 Million Bribery Scheme That Looted Venezuela\'s State Development Bank',
     slug: 'direct-access-partners-bandes-venezuela-bribery-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Caracas_City_from_Bello_Monte.jpg?width=1200',
+    coverImageCredit: 'Caracas, Venezuela, home to BANDES, the state development bank at the center of the scheme. Photo by Paolo Costa Baldi, CC BY-SA 3.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'international', 'business-email-compromise'],
     body: `Direct Access Partners (DAP) was a small New York broker-dealer whose Global Markets Group built its fixed-income desk almost entirely around one client: Banco de Desarrollo Económico y Social de Venezuela (BANDES), the Venezuelan state development bank. From around 2009 through 2012, DAP executed "riskless principal" trades in Venezuelan sovereign and state-sponsored bonds for BANDES, generating tens of millions of dollars in markup and markdown revenue — an extraordinary sum for a firm of DAP's size, and one that depended entirely on one person keeping the business flowing to DAP rather than a competitor.
 
