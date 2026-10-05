@@ -9456,10 +9456,9 @@ GuidesAF.push({
     slug: 'fake-celebrity-endorsement-product-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-celebrity-endorsement-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Centrum_multivitamin_pills.jpg?width=1200',
-    coverImageCredit: 'Photo: Daderot (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CBD_gummies.jpg?width=1200',
+    coverImageCredit: 'Photo: Elsa Olofsson (CC BY 2.0) — supplement gummies',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/02/did-your-favorite-shark-tank-celebrity-really-endorse-probably-not',
     body: `The ad shows up in a social media feed or a search result formatted to look exactly like a news story: a familiar masthead, a headline claiming a Shark Tank judge or a well-known celebrity "invested in" or "can't stop talking about" a new weight-loss gummy, keto pill, or skincare product, and a doctored photo or video meant to make the endorsement look real. The FTC has specifically warned that scammers use "fake Shark Tank celebrity testimonials and endorsements — complete with doctored photos and videos" to promote miracle inventions and weight-loss products the celebrities never touched. Clicking through leads to a landing page with fabricated quotes, fake before-and-after photos, and urgency pressure like a countdown timer claiming stock is about to sell out.
 
@@ -9572,10 +9571,9 @@ GuidesAF.push({
   slug: 'amber-alert-registration-scam',
   author: 'ScamShield Editorial',
   tags: ['guide', 'amber-alert-scam', 'law-enforcement-impersonation', 'government-impersonation'],
-  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Central_Pkwy_td_(2021-06-07)_06.jpg?width=1200',
-  coverImageCredit: 'Photo: Tdorante10, CC BY-SA 4.0, via Wikimedia Commons',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Amber_Alert.jpg?width=1200',
+  coverImageCredit: 'Photo: Bob Bobster (CC BY 2.0) — AMBER Alert highway sign',
   coverImagePosition: 50,
-  // representative photo — replace with an exact match if found
   sourceUrl: 'https://www.wctv.tv/2026/02/03/fdle-issues-warning-about-amber-alert-scam-requesting-childrens-information/',
   body: `A call comes in — sometimes followed by a knock at the door — from someone identifying themselves as being "with AMBER Alert." They explain that, for your child's safety, they'd like to pre-register them in the alert system now, before anything ever happens, so that if the child is ever abducted or goes missing, law enforcement can issue an alert immediately. All it takes is a few details: the child's full name, date of birth, physical description, school, and the parents' contact information — sometimes gathered over the phone, sometimes by scheduling an in-home "AMBER Alert kit" appointment where a "representative" comes to collect it in person, occasionally along with a photograph or fingerprints.
 
@@ -9591,10 +9589,9 @@ GuidesAF.push({
     slug: 'fake-stablecoin-token-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-stablecoin-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Casascius_coin.jpg?width=1200',
-    coverImageCredit: 'Photo: Steve Jurvetson, CC BY 2.0, via Wikimedia Commons — a physical novelty crypto token, not a genuine stablecoin',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/USDT_Logo.png?width=1200',
+    coverImageCredit: 'Public domain — Tether (USDT) logo',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `When Congress passed the GENIUS Act in July 2025 — the first federal law creating a licensing and reserve framework for U.S. dollar-pegged "stablecoins" — it also handed scammers a fresh cover story. Blockchain security firm Blockaid tracked what happened next: of more than 17 million new crypto tokens deployed in the months after the law's passage, over 54,000 were counterfeits built to impersonate an already-trusted stablecoin brand, most commonly Tether's USDT (more than 34,000 fakes) and Circle's USDC (roughly 12,000), with smaller numbers mimicking PayPal's PYUSD and the decentralized stablecoin DAI. Unlike a classic "rug pull," where a scammer launches a brand-new token, hypes it, and vanishes with real investors' money, a fake stablecoin doesn't ask anyone to buy in. It's designed to already look like money you trust, sitting right there in your wallet or favorite app.
 
 Blockaid identified two main delivery methods. The first, called "dusting," sends a tiny amount of a worthless, lookalike token directly into an active wallet, unprompted, the same way a real airdrop might arrive; a curious recipient who tries to swap, "claim," or move that token on a decentralized exchange can trigger a malicious approval that drains real holdings from the same wallet, not just the fake token itself. The second, "memo injection," exploits the free-text memo field that networks like Solana attach to transactions, inserting a fake token symbol or a scammer's contract address into what looks like routine transaction metadata; a victim who later copies that address from their own transaction history, assuming it belongs to a real stablecoin, ends up sending funds straight into the scammer's contract. Blockaid also found more than 4,200 fraudulent apps built to mimic real stablecoin-related platforms, often reached through look-alike web addresses that swap a single Latin letter for a visually identical Cyrillic character, so a URL like "usdc.com" can read as correct at a glance while pointing somewhere else entirely.
@@ -9717,4 +9714,8 @@ What makes this version of investment fraud unusually effective is that it hides
 The clearest red flags mirror the CFTC's own guidance: a "trader" whose posted results show no losing trades or periods, ever; pressure to deposit into a platform, wallet, or "VIP" tier that isn't the trader's own regulated brokerage account; guaranteed or near-certain daily or weekly returns; a signal seller who cannot produce verifiable registration with a real regulator; and, the moment that usually reveals the scam, a sudden new fee, tax, or "minimum balance" demanded before a withdrawal can be processed, after months of watching a balance that only ever went up. The CFTC advisory also describes the typical endgame: communication eventually stops entirely, often followed by a second scam in which someone posing as a lawyer, government investigator, or "recovery service" offers to get the lost funds back for an upfront fee, warning plainly to "never pay more money up-front to get your stolen losses back."
 
 Before following anyone's trades or signals, verify independently whether the person and the platform are actually registered — the National Futures Association's BASIC system (nfa.futures.org), FINRA BrokerCheck, and the SEC's Investor.gov let anyone check a broker's or adviser's registration and disciplinary history in a few minutes, and an unregistered platform soliciting U.S. customers is itself breaking the law regardless of how its dashboard looks. If you're on a real exchange's genuine copy-trading feature, confirm that independently through the exchange's own verified app or website rather than a link a "trader" sent you. Anyone who has already deposited money into a copy-trading or signal-selling scheme should stop sending any further payment immediately, including any "fee" demanded to unlock a withdrawal, save every message and transaction record, and report it to the CFTC at CFTC.gov/complaint, the FBI's Internet Crime Complaint Center at ic3.gov, and the FTC at ReportFraud.ftc.gov.`,
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Trading_apps_on_an_iPhone_screen.jpg?width=1200',
+    coverImageCredit: 'Photo: forextime.com (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
 });
