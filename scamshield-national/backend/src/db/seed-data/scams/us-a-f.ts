@@ -11873,3 +11873,41 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2020-07-17',
 });
+
+UsAF.push({
+    name: 'DC Office of Inspector General Telephone Spoofing Scam',
+    slug: 'dc-oig-telephone-spoofing-scam',
+    description: `The DC Office of the Inspector General confirmed in a fraud alert that scammers were spoofing its official telephone number, 202-727-2540, on caller ID to target Medicaid, Social Security, and Disability benefit recipients. Callers posing as DC OIG employees used the spoofed number to pressure victims into verifying or disclosing personal information — Social Security numbers, dates of birth, and bank account details — which could then be used to commit further fraud. The office stressed that it does not call beneficiaries demanding this kind of information over the phone and that a familiar-looking caller ID number proves nothing about who is actually calling, since caller ID is trivial to spoof.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['DC Office of the Inspector General'],
+    sourceUrl: 'https://www.oig.dc.gov/sites/default/files/Documents/Fraud%20Alert%20-%20%20District%20of%20Columbia%20Office%20of%20the%20Inspector%20General%20Telephone%20Number%20Used%20in%20Scam.pdf',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    firstRecorded: '2023-05-25',
+});
+
+UsAF.push({
+    name: 'DC Check Washing Mail Theft Scam',
+    slug: 'dc-check-washing-mail-theft-scam',
+    description: `DC's Department of Insurance, Securities and Banking (DISB) warned residents that criminals are stealing checks from mailboxes and USPS collection boxes, using household chemicals to "wash" out the handwritten payee and amount, then rewriting the check to themselves for a larger sum before cashing or depositing it. DISB cited U.S. Postal Inspection Service data showing a 161% nationwide increase in check-washing incidents and urged residents to rely on electronic payments, opaque mailing envelopes, and daily account monitoring instead of mailed paper checks.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['DC Department of Insurance, Securities and Banking (DISB)', 'U.S. Postal Inspection Service'],
+    sourceUrl: 'https://disb.dc.gov/node/1766356',
+    country: 'US',
+    state: 'DC',
+});
+
+UsAF.push({
+    name: 'DC Tokenized Real Estate Investment Fraud',
+    slug: 'dc-tokenized-real-estate-investment-fraud',
+    description: `DC's Department of Insurance, Securities and Banking (DISB) warned District residents about online pitches selling "tokenized real estate" — digital tokens marketed as fractional ownership stakes in a property or real estate project, sometimes for as little as $10 — promoted through social media, influencers, webinars, and multi-level-marketing-style recruitment. DISB cautioned that these offers often rest on unverified property-ownership claims and guaranteed-return promises, and warned that using blockchain or digital tokens does not exempt an investment from federal or DC securities registration requirements.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['DC Department of Insurance, Securities and Banking (DISB)'],
+    sourceUrl: 'https://disb.dc.gov/page/be-cautious-%E2%80%9Ctokenized-real-estate%E2%80%9D-investment-opportunities',
+    country: 'US',
+    state: 'DC',
+});
