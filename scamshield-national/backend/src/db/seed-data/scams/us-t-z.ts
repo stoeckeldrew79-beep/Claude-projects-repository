@@ -6856,3 +6856,17 @@ UsTZ.push({
     country: 'US',
     state: 'WA',
 });
+
+UsTZ.push({
+    name: 'Tennessee Sweepstakes Casino Cease-and-Desist Crackdown',
+    slug: 'tennessee-online-sweepstakes-casino-crackdown',
+    description: `Tennessee Attorney General Jonathan Skrmetti announced on December 29, 2025 that his office sent formal cease-and-desist letters to nearly 40 online "sweepstakes casinos" operating illegally in Tennessee. These platforms use a dual-currency system — one virtual, one redeemable for cash or prizes — as a facade for unregulated real-money gambling; the Attorney General's office found this sweepstakes model constitutes an illegal lottery under the Tennessee Constitution and violates state gambling and consumer-protection law. All targeted platforms disabled the illegal components or agreed to wind down. Skrmetti said, "The only thing you can be sure about with an online sweepstakes casino is that it's going to take your money... They work hard to make these sweepstakes casinos look legitimate, but at the end of the day, they are not." Tennesseans struggling with gambling can reach the state's REDLINE help line at 1-800-889-9789, and suspected illegal gambling operations can be reported to the Attorney General's office.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Tennessee Attorney General\'s Office'],
+    sourceUrl: 'https://www.tn.gov/attorneygeneral/news/2025/12/29/pr25-61.html',
+    country: 'US',
+    state: 'TN',
+    isHistorical: true,
+    firstRecorded: '2025-12-29',
+});
