@@ -12712,3 +12712,45 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-12-03',
 });
+
+UsGM.push({
+    name: 'NIPR "Past-Due Invoice" Phishing Scam Targeting Missouri Insurance Producers',
+    slug: 'missouri-nipr-past-due-invoice-phishing-scam',
+    description: `Insurance producers and other users of the National Insurance Producer Registry (NIPR) licensing platform have received phishing emails referencing a past-due invoice and demanding payment, with the messages spoofed to appear as though they came from familiar or trusted domains including @nipr.com, @naic.org, or @stripe. The Missouri Department of Commerce and Insurance issued Insurance Bulletin 26-07 on April 9, 2026, signed by Director Angela L. Nelson, confirming these emails were not sent from any official NIPR email address or account and warning recipients to stop immediately upon receiving an unexpected invoice email, never open attachments, click links, or submit payment in response, and to contact NIPR's own billing department directly at niprbillingdept@nipr.com before responding if there is any doubt about an invoice's legitimacy. NIPR's and the National Association of Insurance Commissioners' cybersecurity teams were actively investigating and monitoring the campaign at the time of the bulletin.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Missouri Department of Commerce and Insurance'],
+    sourceUrl: 'https://insurance.mo.gov/sites/insurance/files/2026-04/Bulletin%20%28Accessible%29%20-%20NIPR%20Phishing%20Scam.pdf',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    firstRecorded: '2026-04-09',
+});
+
+UsGM.push({
+    name: 'Kansas City EBT/SNAP Card Skimming Fraud (Independence Avenue)',
+    slug: 'missouri-kansas-city-ebt-snap-card-skimming-fraud',
+    description: `Criminals installed concealed skimming devices at self-checkout terminals inside small grocery stores and bodegas along Independence Avenue and similar corridors on Kansas City's northeast side, capturing the unencrypted card and PIN data of Missouri SNAP recipients' Electronic Benefit Transfer (EBT) cards during the summer of 2024. The stolen data was used to clone cards and drain roughly 1,500 households' benefit accounts through fraudulent transactions, with criminals later using the stolen information at storefronts as far away as New York City. Dana Carrington, chief of investigations with Missouri's Department of Social Services, said of the ongoing threat that criminals "will come up with another scheme." Missouri's Family Support Division urged SNAP participants to download the state's ebtEDGE app to freeze their card when not in use and block out-of-state transactions, advice made more urgent after federal funding for replacing electronically stolen SNAP benefits lapsed on December 20, 2024, leaving many victims of this kind of theft unable to recover what was stolen.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Missouri Department of Social Services', 'The Beacon'],
+    sourceUrl: 'https://content.govdelivery.com/accounts/MODSS/bulletins/3b88799',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    firstRecorded: '2024-10-03',
+});
+
+UsGM.push({
+    name: 'Jackson County Jury-Service Arrest-Threat Phone Scam',
+    slug: 'missouri-jackson-county-jury-duty-phone-scam',
+    description: `Callers impersonating court officials, sometimes using the name of an actual sitting Jackson County circuit judge and spoofing caller ID to display an official-looking number, have told Missouri residents they missed jury service and face arrest unless they pay money over the phone or through a website. The 16th Judicial Circuit of Missouri issued a public warning on August 6, 2025 stating plainly that it "does not threaten to arrest people in connection with jury service, and it does not ask anyone to pay fines over the phone." The scheme resurfaced seriously enough by mid-2026 that the Jackson County Sheriff's Office said at least six people had come to its office after receiving such calls, including one Kansas City man a caller nearly talked into sending $20,000; newer versions combine the urgent call with spoofed caller ID, official-looking documents, and demands for payment through apps, cryptocurrency, gift cards, or wire transfers. Anyone with a real question about jury service is directed to call the circuit's own jury office directly at 816-881-3602 rather than any number provided by the caller, and suspected scams can be reported to the Jackson County Sheriff's Office Investigations Division at 816-524-4302.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['16th Judicial Circuit of Missouri', 'Jackson County Sheriff\'s Office', 'Hoodline'],
+    sourceUrl: 'https://www.16thcircuit.org/Data/Sites/1/media/news/news_releases/court-warns-of-jury-service-scam.pdf',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    firstRecorded: '2025-08-06',
+});
