@@ -11859,3 +11859,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2025-02-11',
 });
+
+UsAF.push({
+    name: 'American Samoa Fono CARES Act Stipend Misuse',
+    slug: 'american-samoa-fono-cares-act-stipend-misuse',
+    description: `In mid-2020, the American Samoa Government issued CARES Act-funded stipend checks of $20,000 each to the Fono's Senate President and House Speaker, and $10,000 each to the territory's other senators and representatives — more than $410,000 total — officially described as funding for home offices to support telework during the pandemic, even though Fono members had already been working remotely for an unrelated reason: ongoing construction on the legislature's building. The U.S. Department of the Treasury's Office of Inspector General reviewed the payments and determined they were "unrelated to the COVID-19 health emergency," with Deputy Inspector General Richard K. Delmar stating that any funds lawmakers had already spent would be subject to federal recoupment. The ruling followed a formal complaint filed with Treasury's OIG by an American Samoa resident alleging broader misuse of the territory's $35 million CARES Act allocation, which separately flagged a $390,000 lease for legislative office space at a local hotel. The American Samoa Government's Treasurer later stated in a sworn declaration that the stipend funds were transferred out of the Coronavirus Relief Fund account and the fund was reimbursed in full, though public reporting left unclear whether individual lawmakers personally repaid their checks or the government covered the shortfall from its general fund.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Samoa News', 'U.S. Department of the Treasury Office of Inspector General'],
+    sourceUrl: 'https://www.samoanews.com/node/113991',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2020-07-17',
+});
