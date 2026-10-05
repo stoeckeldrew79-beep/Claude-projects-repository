@@ -24233,3 +24233,42 @@ International.push({
   isHistorical: true,
   firstRecorded: '2024-07-15',
 });
+
+International.push({
+  name: 'Fake JPS Worker Extorts Cash, Steals Electricity Meter from Kingston Homeowner',
+  slug: 'jamaica-jps-worker-impersonation-meter-theft-extortion',
+  description: `On October 15, 2025, a man identifying himself as "Dwayne Williams" arrived at a home in Barbican, Kingston 8, claiming to be a Jamaica Public Service Company (JPS) employee and alleging an irregularity with the property's electricity meter. When the homeowner asked for identification, he refused, demanded cash to avoid being prosecuted for the supposed irregularity, and — after the payment was refused — removed the JPS meter from the property entirely and fled in a white Toyota Probox. Police later identified the man as Sheldon Williams, 24, an electrician from Kingston 8, and arrested him on November 15, 2025, charging him with eight counts of fraud for trespassing on JPS property and impersonating a utility worker. A search of his vehicle recovered an altered JPS identification card, a tablet, and additional stolen JPS meters, suggesting the scheme had been run against more than one household. JPS and the St. Andrew North Police Division pointed to the arrest in renewing standing guidance that every legitimate JPS employee carries visible photo identification and wears branded safety gear, that no JPS worker or contractor will ever collect cash on-site, and that any genuine payment must go through official channels such as JPS's customer line — never handed directly to someone who shows up at the door threatening disconnection or prosecution.`,
+  categorySlug: 'utility-scams',
+  alertLevel: 'high',
+  sources: ['Jamaica Gleaner', 'Jamaica Public Service Company (JPS)', 'St. Andrew North Police Division'],
+  sourceUrl: 'https://web5.jamaica-gleaner.com/article/news/20251119/police-cracking-down-persons-pretending-be-jps-employees',
+  country: 'JM',
+  isHistorical: true,
+  firstRecorded: '2025-10-15',
+});
+
+International.push({
+  name: 'Fraudsters Impersonate Customs Agency Leadership to Sell Fake Government Vehicle Auction Access',
+  slug: 'jamaica-customs-agency-leadership-impersonation-fake-vehicle-auctions',
+  description: `In late November 2023, the Jamaica Customs Agency (JCA) warned the public that fraudsters were impersonating its own senior leadership — using the names and likenesses of CEO/Commissioner Velma Ricketts Walker and Deputy CEO Marlon Lowe — to contact prospective victims by phone and email with claims that they could secure access to government motor-vehicle auctions in exchange for payment. JCA confirmed publicly that neither executive was involved and that the contacts were entirely fraudulent, stating flatly that "under no circumstances should members of the public engage these individuals or make any payments to them," and explaining that genuine Customs vehicle auctions are held only on designated dates under procedures set out in the Customs Act, with authentic details published solely at www.jacustoms.gov.jm. The agency urged anyone contacted this way to report it to the police rather than send money, underscoring that borrowing the name and likeness of a real, named official is a tactic scammers use specifically to make a fake government offer feel too official to question — verifying directly through an agency's own published channel, not the contact information the caller provides, is the only reliable check.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Jamaica Customs Agency (JCA)', 'Jamaica Observer'],
+  sourceUrl: 'https://www.jamaicaobserver.com/news/beware-of-imposters-posing-as-customs-officials/',
+  country: 'JM',
+  isHistorical: true,
+  firstRecorded: '2023-11-29',
+});
+
+International.push({
+  name: 'Fake Police Accuse Vehicle Sellers of Selling Stolen Cars, Use Ride-Share Drivers as Unwitting Cash Couriers',
+  slug: 'jamaica-fake-police-vehicle-seller-extortion-rideshare-couriers',
+  description: `In a warning issued December 1, 2025, the Jamaica Constabulary Force's Counter-Terrorism and Organised Crime Investigation Branch (C-TOC) described a scheme targeting people who had recently sold a vehicle: callers impersonating police officers phone the seller, falsely claim the car has been identified as stolen property, and demand an immediate cash payment to avoid prosecution — sometimes instead telling the buyer a "reimbursement" is owed to resolve the supposed theft. To collect the money while keeping themselves at a distance, the fraudsters recruit ride-share drivers, who are not told what they are transporting, to pick up the cash and deliver it to a drop-off location on the scammers' behalf. "These fraudsters are using fear and urgency to manipulate victims into bypassing their better judgement," said Superintendent Victor Barrett of C-TOC. The pattern is a reminder that real police do not resolve a stolen-vehicle report over the phone with a demand for cash, and that anyone contacted this way should hang up and verify directly with a police station rather than pay, or agree to transport payment for, a stranger making that claim by phone.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Jamaica Constabulary Force (JCF)', 'Counter-Terrorism and Organised Crime Investigation Branch (C-TOC)'],
+  sourceUrl: 'https://www.jamaicaobserver.com/2025/12/01/jcf-warns-public-scam-targeting-vehicle-sellers-ride-share-drivers/',
+  country: 'JM',
+  isHistorical: true,
+  firstRecorded: '2025-12-01',
+});
