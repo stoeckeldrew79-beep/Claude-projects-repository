@@ -11292,6 +11292,20 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Harris Jewelry Predatory Financing Scheme Targeting Connecticut Servicemembers',
+    slug: 'connecticut-harris-jewelry-servicemember-settlement',
+    description: `Connecticut Attorney General William Tong announced on July 21, 2022 that an 18-state, FTC-joined settlement required national retailer Harris Jewelry to pay $34.2 million after it targeted active-duty servicemembers and veterans through its in-house financing program. Harris falsely claimed financing a purchase would improve a servicemember's credit score, ran a sham "Operation Teddy Bear" marketing campaign advertising teddy bears in military uniforms with promised charitable donations, based credit decisions on military branch and time remaining on enlistment rather than real creditworthiness, and marked up jewelry well above wholesale cost while adding undisclosed "protection plan" fees to contracts. Over 100 Connecticut servicemembers and veterans received $128,964.50 in refunds and debt relief, Connecticut collected a $50,000 penalty, and the settlement required Harris Jewelry to stop collecting more than $21 million in outstanding debt nationwide, provide nearly $13 million in refunds to 46,204 servicemembers, and dissolved all of Harris Jewelry's businesses.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ["Connecticut Attorney General's Office", 'Federal Trade Commission'],
+    sourceUrl: 'https://portal.ct.gov/AG/Press-Releases/2022-Press-Releases/Tong-Announces-Agreement-Recovering-34-Million-for-Servicemembers-Defrauded-by-Harris-Jewelry',
+    country: 'US',
+    state: 'CT',
+    isHistorical: true,
+    firstRecorded: '2022-07-21',
+});
+
+UsAF.push({
     name: 'American Samoa Facebook Pyramid Scheme Recruitment Scam',
     slug: 'american-samoa-facebook-pyramid-scheme-recruitment-scam',
     description: `American Samoa's Department of Legal Affairs and Department of Public Safety issued a joint public warning on February 7, 2021 after organizers began recruiting residents into pyramid schemes through American Samoa Facebook groups. The pitch asked new participants to pay a $500 "registration fee" and recruit two additional people, in exchange for a promised $4,000 payout — with money flowing upward from each new round of recruits to the people who joined earlier, rather than from any real product or service. The structure works only as long as recruitment keeps growing, and officials said several residents had already lost money by the time the warning went out, since the payouts stop the moment new recruits stop joining and the people who joined last are left with nothing. The two departments warned that organizing or profiting from one of these schemes is itself a crime in the territory, exposing organizers to prosecution under ASCA 46.4129, a class C felony, in addition to the losses suffered by participants who join further down the chain.`,
