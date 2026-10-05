@@ -9956,6 +9956,33 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Iconic Resources Mineral-Rights Purchase Fraud (Jordan Simon)',
+    slug: 'oklahoma-iconic-resources-mineral-rights-purchase-fraud',
+    description: `From November 2011 through March 2013, Jordan Simon of Baton Rouge, Louisiana, operating as Iconic Resources, induced an Oklahoma woman to sell her mineral rights to his company with a promise of payment. Instead of paying her, Simon sold the same mineral rights to third parties, sent the woman checks that were rejected for insufficient funds, and mailed her a bogus mineral deed purporting to convey the rights back to her so she wouldn't immediately realize they had already been resold. Following an FBI investigation, U.S. District Judge Joe Heaton sentenced Simon to 32 months in federal prison plus three years of supervised release, and ordered $1,054,143.86 in restitution to his victims, including others he had defrauded of their mineral rights the same way. Mineral owners approached about selling severed mineral rights are advised to verify a buyer's identity and track record independently, confirm any payment check has actually cleared before considering the sale final, and be suspicious of any "return" deed offered in place of the payment they were originally promised.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Western District of Oklahoma"],
+    sourceUrl: 'https://www.justice.gov/usao-wdok/pr/mail-fraud-involving-mineral-rights-results-32-months-prison-and-1-million-restitution',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+});
+
+UsNS.push({
+    name: 'Farmers Insurance Oklahoma Earthquake-Claim Denial Settlement',
+    slug: 'oklahoma-farmers-insurance-earthquake-claims-settlement',
+    description: `Oklahoma's earthquake frequency rose sharply starting in late 2013 because of injection-induced seismicity tied to oil-and-gas wastewater disposal wells. The Oklahoma Attorney General and Insurance Commissioner found that Farmers Insurance had denied or failed to properly pay roughly 1,000 earthquake-damage claims filed by Oklahoma policyholders who had purchased earthquake coverage. On April 5, 2021, the state announced a $25 million settlement requiring Farmers to fund an earthquake claims review process, using an independent third-party administrator with no prior relationship to Farmers, to re-examine every eligible denied or underpaid claim and send affected policyholders written notice that their claim was being reopened. Farmers did not admit wrongdoing as part of the settlement. Oklahoma policyholders whose earthquake claims were denied or paid less than expected during this period are advised to contact the Oklahoma Insurance Department if they believe their claim was never properly re-reviewed.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Oklahoma Insurance Department', "Oklahoma Attorney General's Office"],
+    sourceUrl: 'https://www.oid.ok.gov/release_040521/',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+    firstRecorded: '2021-04-05',
+});
+
+UsNS.push({
     name: 'Henderson Doctor Charged in $95 Million Medicare Wound-Care Fraud Scheme',
     slug: 'nevada-henderson-doctor-dubin-medicare-wound-care-fraud',
     description: `A federal grand jury in the District of Nevada indicted Dr. Stephen Dubin, 74, of Henderson, on August 4, 2026, alleging he billed Medicare roughly $95 million, with about $54 million actually paid out, for medically unnecessary amniotic wound allografts applied to elderly and hospice patients. Prosecutors say Dubin took illegal kickbacks from allograft distributors, chose which product to apply based on which maximized his own profit rather than patient need, and falsified medical records to justify the treatments. He faces one count of conspiracy to commit health care fraud and five counts of health care fraud, each carrying up to 10 years in prison. The case is part of a broader wave of wound-care and allograft fraud prosecutions naming other Las Vegas-area defendants, underscoring how a single expensive-but-legitimate-sounding wound treatment can become a nationwide billing-fraud vehicle once distributors and providers are paid based on volume rather than patient outcomes.`,
