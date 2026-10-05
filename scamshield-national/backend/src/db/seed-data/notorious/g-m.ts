@@ -11589,6 +11589,9 @@ Zumwinkel admitted the facts in proceedings before the Bochum Regional Court, an
 
 The Zumwinkel case became a signature illustration of how a single leaked dataset — stolen by an insider rather than uncovered by a regulator — can unravel elite tax fraud that routine audits never touch, and of how a "boring," passive form of financial fraud (hiding money in an offshore foundation rather than running an active con) still carries real criminal consequences for even the most senior corporate figures. It's also a useful counterpoint to flashier Ponzi and accounting-fraud profiles elsewhere in this collection: this was concealment of personal wealth by a sitting CEO of a major public company, exposed only because stolen bank data happened to surface, and it triggered a wave of tax enforcement far beyond Germany's borders.`,
     sourceUrl: 'https://www.upi.com/Business_News/2008/02/18/German-tax-probe-triggers-CEO-resignation/83631203350013/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/KlausZumwinkel2007.jpg?width=1200',
+    coverImageCredit: 'Photo: Kandschwar (CC BY-SA 2.0 DE) — Klaus Zumwinkel',
+    coverImagePosition: 50,
 });
 
 NotoriousGM.push({
@@ -11619,6 +11622,10 @@ On the market-manipulation side, Glencore Ltd.'s Stamford, Connecticut-based U.S
 
 The case illustrates how "legitimate" multinational trading houses can institutionalize corruption as an ordinary cost of doing business across many jurisdictions at once, and how the same company can commit two structurally different frauds in parallel — one about buying access through bribery, the other about rigging the market itself — without either one surfacing until a coordinated, multi-country law-enforcement effort catches up with a decade of conduct.`,
     sourceUrl: 'https://www.justice.gov/criminal/criminal-fraud/united-states-v-glencore-international-ag',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Glencore_Headquarters_in_Baar,_Switzerland.jpg?width=1200',
+    coverImageCredit: 'Photo: Paradise Chronicle (CC BY-SA 4.0) — Glencore headquarters, Baar',
+    coverImagePosition: 50,
+    // representative photo — replace with a more specific case photo if found
 });
 
 NotoriousGM.push({
