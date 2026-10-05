@@ -2860,6 +2860,10 @@ GuidesTZ.push({
   title: "Verify Your Financial Advisor Before You Invest: What FINRA BrokerCheck and the SEC's IAPD Database Actually Show",
   slug: 'verify-financial-advisor-brokercheck-iapd-guide',
   author: 'ScamShield Editorial',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wall_Street_Sign_NYC.jpg?width=1200',
+  coverImageCredit: 'The Wall Street sign in Manhattan\'s Financial District. Photo by JSquish, CC BY-SA 3.0, via Wikimedia Commons.',
+  coverImagePosition: 50,
+  // representative photo — replace with an exact match if found
   tags: ['guide', 'investment-fraud', 'consumer-protection-tools'],
   body: `Nearly every investment pitch — legitimate or fraudulent — eventually invokes the same reassurance: "I'm registered," "my firm is SEC-regulated," or "you can look us up." That advice is correct as far as it goes, but almost nobody is told exactly where to look or what the lookup actually proves. The two primary tools are free and built for exactly this purpose: FINRA's BrokerCheck (brokercheck.finra.org), which covers individual stockbrokers and brokerage firms, and the SEC's Investment Adviser Public Disclosure database, or IAPD (adviserinfo.sec.gov), which covers investment advisers and firms that manage money on a fee basis rather than a commission basis. The two overlap and link to each other because many financial professionals are registered under both frameworks at once, but a search on either one is a meaningful first screen before sending anyone a dollar.
 
