@@ -21490,6 +21490,36 @@ International.push(
     country: 'HU',
     isHistorical: false,
   },
+{
+    name: 'Dating App Romance Scam Ring',
+    slug: 'chile-dating-app-romance-scam',
+    description: `Chile's Policía de Investigaciones (PDI) Metropolitan Cybercrime Brigade issued a public warning in late April 2022 about a rising wave of romance scams run through dating apps including Tinder, Badoo, Bumble, Grindr and Facebook Dating. Comisario Patricia Rojas said formal reports climbed from 10 cases in 2020 to 28 in 2021 — roughly a 200% increase — while Subcomisario Julio Vargas separately cited an overall 300% rise in cases from 2021 onward, cautioning that the real number is likely higher since many victims don't report out of embarrassment. In the pattern described, a scammer builds a fabricated romantic relationship over weeks or months, moving the conversation off the dating platform, before inventing a financial emergency, investment opportunity, or request for money, a credit card, or banking details. PDI's guidance is to reverse-image-search profile photos, verify the person's identity independently, meet only in safe public places, and never send money or share financial information with someone met online.`,
+    categorySlug: 'romance-scams',
+    country: 'CL',
+    alertLevel: 'medium',
+    sources: ['PDI (Policía de Investigaciones de Chile)', 'BioBioChile', '24horas.cl'],
+    sourceUrl: 'https://www.biobiochile.cl/especial/bbcl-investiga/noticias/cronicas/2022/04/27/amor-ingrato-nuevo-fenomeno-de-estafas-por-aplicaciones-de-citas-que-advierte-la-pdi.shtml',
+  },
+{
+    name: 'Holiday Reñaca Fake Vacation Rental Scam',
+    slug: 'chile-renaca-fake-vacation-rental-scam',
+    description: `In Chile's Dec–Jan 2025–26 summer holiday season, scammers built a fake vacation-rental brand called "Holiday Reñaca," complete with its own website, a WhatsApp Business account bearing the verified blue checkmark, and an Instagram profile with paid ads, to advertise nonexistent beachfront apartments in Reñaca, Viña del Mar. The operation copied real photos and guest reviews from a legitimate Booking.com listing to look credible and collected advance bank transfers from vacationers — Meganoticias reported over 200 Argentine tourists were defrauded, including a Mendoza group that paid 1,300,000 Chilean pesos for a 13-night New Year's booking after being offered a fake 20% discount. After the real property owner filed a complaint, Chile's Policía de Investigaciones (PDI) opened an inquiry and in April arrested two Chilean nationals, seizing more than 190 forged identity documents bearing the suspects' photos under different names; the pair were charged with illicit association and falsification and use of public instruments, and the Viña del Mar Fiscalía said it believed they were part of a larger organized group with a history of virtual scams. Authorities' standing advice is to book only through established platforms, verify a listing's reviews and host independently, and be wary of unusually steep discounts for peak-season dates.`,
+    categorySlug: 'rental-housing',
+    country: 'CL',
+    alertLevel: 'high',
+    sources: ['PDI (Policía de Investigaciones de Chile)', 'Meganoticias', 'DiarioUno (Mendoza)'],
+    sourceUrl: 'https://www.meganoticias.cl/nacional/511368-mas-de-200-argentinos-estafados-por-falso-alojamiento-en-renaca-06-01-2026.html',
+  },
+{
+    name: 'TikTok "Watch and Earn" Job Task Scam',
+    slug: 'chile-tiktok-watch-and-earn-job-scam',
+    description: `Chile's Policía de Investigaciones (PDI) Metropolitan Cybercrime Brigade warned on May 30, 2024 about a job-offer scam run over TikTok and phone calls. Victims are contacted out of the blue, often from an international number, and offered paid work that consists of watching or liking TikTok videos; after completing a first small batch of tasks and receiving a token payment to build trust, the victim is told they must send an upfront payment — larger than anything they've earned — to "unlock" bigger payouts or continue the job, and scammers press or threaten those who refuse to pay. PDI described the scheme as "simpler than it looks" and urged people not to share banking or personal information with strangers offering this kind of remote work, and to report suspicious contacts to police.`,
+    categorySlug: 'job-task-scams',
+    country: 'CL',
+    alertLevel: 'medium',
+    sources: ['PDI (Policía de Investigaciones de Chile)', 'CNN Chile'],
+    sourceUrl: 'https://www.cnnchile.com/pais/pdi-alerta-estafa-utiliza-tiktok_20240604/',
+  },
 );
 
 International.push({
