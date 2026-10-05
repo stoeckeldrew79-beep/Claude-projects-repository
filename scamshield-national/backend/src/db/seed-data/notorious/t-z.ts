@@ -3755,3 +3755,20 @@ Patrick himself never stood trial for the pyramid scheme: he died on June 9, 197
 Holiday Magic is now studied as one of the foundational cases in U.S. pyramid-scheme law, cited for defining what regulators look for in multi-level marketing: compensation tied to recruitment rather than genuine retail sales to ultimate consumers. It also illustrates a pattern distinct from ordinary affinity fraud — rather than exploiting an existing community's trust, Patrick manufactured loyalty from scratch using coercive psychological "training" that kept distributors from questioning a business model that was mathematically guaranteed to fail almost everyone in it.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Holiday_Magic',
 });
+
+NotoriousTZ.push({
+    title: "Tarek Obaid and Patrick Mahony: The PetroSaudi Executives a Swiss Court Convicted Over $1.8 Billion of 1MDB's Money",
+    slug: 'tarek-obaid-patrick-mahony-petrosaudi-1mdb-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international', 'embezzlement', 'money-laundering'],
+    body: `Tarek Obaid, a Saudi-Swiss dual national, and Patrick Mahony, a British-Swiss national, co-ran PetroSaudi International, a Saudi-linked oil exploration company they used to pull off one side of the 1MDB scandal this site profiles elsewhere through Malaysian financier Jho Low and Goldman Sachs bankers Tim Leissner and Roger Ng. Where those men worked the Goldman Sachs bond side of the fraud, Obaid and Mahony ran the scheme's opening act: the 2009 joint venture that first gave 1Malaysia Development Berhad, Malaysia's state investment fund, somewhere to send its money.
+
+Obaid and Mahony persuaded 1MDB's board to sign up for the venture by creating the false impression that PetroSaudi was itself backed by the government of Saudi Arabia — it was not — lending the arrangement a credibility it never possessed. Swiss prosecutors found that from September 2009 through at least July 2015, the two men used that credibility to siphon roughly $1.8 billion out of 1MDB through staged transactions, routing the money into Swiss bank accounts and from there into real estate in Switzerland and London, jewelry, and private-equity stakes that funded a lavish lifestyle. Obaid personally took at least $805 million of it; Mahony took at least $37 million.
+
+The case took nearly a decade to reach trial. On August 28, 2024, the Swiss Federal Criminal Court convicted both men — who were present in court and denied wrongdoing throughout — of fraud, criminal mismanagement, and money laundering. Obaid received a seven-year prison sentence and Mahony six years; the court also ordered confiscation of their property holdings in Switzerland and the United Kingdom, plus more than $240 million held across multiple bank accounts, to be returned to 1MDB.
+
+The verdict closed out one of the last major unresolved strands of the 1MDB affair, alongside Goldman Sachs's 2020 guilty plea and multibillion-dollar global settlement, Roger Ng's 2022 US conviction, and Tim Leissner's own US sentencing. Jho Low himself, the scheme's architect, has never been arrested and remains a fugitive to this day.
+
+Obaid and Mahony's case is a reminder that an investment's legitimacy is only as real as the institutional backing behind it — claiming a government's name, rather than actually having its support, was enough to get a sovereign fund's own board to sign off on a billion-dollar wire transfer. It's also a case study in how long real accountability can take: the fraud began in 2009, and the men who ran it weren't convicted until 2024, in a country neither of their victims' money was ever supposed to touch.`,
+    sourceUrl: 'https://www.aljazeera.com/news/2024/8/28/swiss-court-convicts-two-executives-of-embezzling-1-8bn-from-1mdb',
+});
