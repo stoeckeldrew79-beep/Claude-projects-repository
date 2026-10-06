@@ -11680,3 +11680,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2024-01-01',
 });
+
+UsAF.push({
+    name: 'FBI Little Rock Border-Impersonation Mailed-Cash Extortion Scam',
+    slug: 'arkansas-fbi-little-rock-border-impersonation-extortion',
+    description: `The FBI's Little Rock Field Office warned that Arkansans have lost nearly $5 million since 2021 to an extortion scheme in which callers spoof phone numbers from the US-Mexico border region and falsely claim to be federal law enforcement. The caller tells the victim that their identity has been connected to a drug-trafficking incident at the border, then pressures them to mail cash directly, under strict secrecy, in exchange for a false promise to "protect" the victim's assets and provide them with a new identity or Social Security number. Special Agent in Charge James A. Dawson's office stressed that real law enforcement and government officials will never demand payment or request personal or sensitive information over the phone, and that any legitimate investigation involving someone directly is carried out in person or through an official letter, not a call demanding cash be mailed somewhere. The FBI noted that once a victim has actually mailed funds, the chances of recovering that money afterward drop sharply, since by the time the loss is reported the cash has typically already changed hands multiple times.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FBI Little Rock Field Office'],
+    sourceUrl: 'https://www.katv.com/news/local/fbi-little-rock-warns-of-extortion-scams-affecting-senior-citizens-impersonation-scheme-extortion-arkansas-law-enforcement-government-officials-losing-nearly-5-million-to-imposters-sac-james-a-dawson',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2021-01-01',
+});
