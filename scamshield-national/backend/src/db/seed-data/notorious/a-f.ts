@@ -11269,6 +11269,10 @@ NotoriousAF.push({
     slug: 'christopher-knight-lopez-katy-texas-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Katysign.JPG?width=1200',
+    coverImageCredit: "Katy, Texas welcome sign. Photo: WhisperToMe (public domain)",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Christopher Knight Lopez, of Katy, Texas, ran an investment business with his brother, Jayson Lopez of Orlando, Florida, from May 2015 to January 2025, telling clients their money would be placed into legitimate investment opportunities. To make those opportunities look credible, the brothers gave clients false information about the companies they were supposedly investing in, backed up with forged bank letters and fabricated account statements overstating those companies' financial strength. At one point they claimed access to $2 billion in U.S. Treasury bonds and collected advance fees for loans that were never actually issued.
 
 None of it held up to scrutiny because none of it was real. Rather than investing client money as promised, the Lopez brothers spent a share of it on themselves and used additional investor funds to pay fabricated "returns" to earlier investors — the same mechanism that defines every Ponzi scheme, dressed up here with forged paperwork rather than a flashy cover story. In total, the scheme took in more than $17 million from more than 40 victims, among them senior citizens investing their retirement savings, parents saving for their children's college education, and local and international businesses.
