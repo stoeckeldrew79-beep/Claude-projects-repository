@@ -3806,3 +3806,18 @@ The SEC's complaint charges violations of Section 17(a) of the Securities Act of
 
 Moore's case is a reminder that an undisclosed lawsuit history is exactly the kind of information a company's own marketing will never volunteer — a prospective investor who asked whether anyone else had ever sued over unpaid returns, and then actually checked state and federal court records before investing, would have found the answer sitting in plain sight months or years before the SEC did.`,
 });
+
+NotoriousTZ.push({
+    title: 'Mfundo Manci and the Crypto Mzansi Group Ponzi Scheme',
+    slug: 'mfundo-manci-crypto-mzansi-group-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    body: `Mfundo Manci, a 33-year-old South African, ran Crypto Mzansi Group (Pty) Ltd as what first appeared to be a legitimate online cryptocurrency trading platform, built a following largely through social media, and recruited associates to solicit investors in exchange for referral commissions — a structure that gave the scheme a built-in sales force with a direct financial incentive to keep bringing in new money. Operating mainly in and around Durban between June 2020 and April 2021, Manci promised investors "abnormally large returns," often exceeding 1,000%, on their cryptocurrency investments.
+
+Those returns never came from real trading. According to South African authorities, Manci never actually invested the money he collected; instead, he paid earlier investors using funds raised from new ones, the defining structure of a Ponzi scheme, while keeping a share for himself. The scheme fell apart in April 2021 when Manci disappeared during what he told investors was a business trip to Cape Town, triggering a wave of complaints that led investigators to freeze more than R4.5 million (roughly $245,000) tied to the operation in August 2022, with the funds formally forfeited to the state's Criminal Asset Recovery Account in March 2023.
+
+The Durban Specialised Commercial Crimes Court sentenced Manci on March 27, 2025, to an effective 10 years in prison: 15 years for fraud with five suspended, plus concurrent five-year sentences for violating South Africa's Banks Act and Financial Advisory and Intermediary Services (FAIS) Act, and a 10-year sentence for violating the Prevention of Organised Crime Act. Victims who went to the High Court seeking to recover their losses from the forfeited funds had that application rejected in September 2024, leaving them without a clear path to repayment even after a conviction.
+
+The case illustrates how a referral-commission structure can accelerate a Ponzi scheme's growth and its reach, turning early investors into unwitting recruiters for the very scheme that would eventually default on them, and how a return rate advertised in the thousands of percent — far beyond anything a real trading strategy could sustain — is itself the clearest available warning sign, regardless of how credible the platform or its social-media following appears.`,
+    sourceUrl: 'https://www.moonstone.co.za/ponzi-scheme-operator-sentenced-to-10-years-for-crypto-fraud/',
+});
