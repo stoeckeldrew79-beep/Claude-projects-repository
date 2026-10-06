@@ -5061,6 +5061,10 @@ GuidesGM.push({
     slug: 'google-business-profile-verification-call-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'google-business-profile-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fraudulent_call_center_in_Kyiv,_September_2023_-_office_workplaces,_01.jpg?width=1200',
+    coverImageCredit: 'Photo: National Police of Ukraine / Ministry of Internal Affairs of Ukraine (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://blog.google/innovation-and-ai/technology/safety-security/protecting-small-businesses-from-scammers/',
     body: `A small business owner gets a cold call from someone claiming to be with Google, warning that their free Google Business Profile listing — the one that shows up on Google Maps and in search results — needs to be "verified" right away or it will be suspended or removed. The caller asks for payment to complete the verification, or pushes a paid "optimization" package to keep the listing visible. Either way, the pitch depends on the owner not knowing a simple fact: a Google Business Profile is free, and Google does not call businesses to charge for creating, verifying, or maintaining one.
 
