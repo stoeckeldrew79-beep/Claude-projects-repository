@@ -12856,3 +12856,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-10-14',
 });
+
+UsGM.push({
+    name: 'Fake "Lantern Fest" VIP Ticket Website Targeting Brookdale Farms (Missouri)',
+    slug: 'missouri-brookdale-farms-fake-lantern-fest-vip-ticket-scam',
+    description: `In 2018, a company called Happy Fun Events sold 2,393 tickets totaling roughly $231,000 to a lantern-release festival it planned to hold at Brookdale Farms in Eureka, Missouri. The event was postponed twice for weather, rescheduled into 2019, and then the organizers went silent — no event ever happened, and no refunds were issued, leading to a lawsuit that wasn't settled until April 2022, when the defendants were ordered to pay full restitution to ticket buyers. The collapse didn't end the exploitation of the Lantern Fest name: Brookdale Farms owner Jerry Kirk said his farm started fielding calls from people asking about a lantern festival event the farm wasn't actually hosting, after an unrelated website began advertising "VIP" lantern-festival experiences at Brookdale Farms, pricing tickets at $600 to $700. The site wasn't indexed by search engines, and the contact email it listed was a dead end — Brookdale Farms had no connection to it at all. The case is a reminder that a real, well-known local venue's name doesn't guarantee a ticket-selling website is legitimate, and that a canceled or litigated event can keep generating new scams years after the original fraud, as copycats exploit a brand name and a venue the public already recognizes. Before buying tickets to any festival or seasonal event, confirm directly with the venue's own official website or phone number that the event is actually happening and that the seller is authorized, rather than trusting a search result or social media ad.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['KSDK'],
+    sourceUrl: 'https://ksdk.com/article/news/local/scammers-promote-fake-festival-brookdale-farms/63-2cad758a-18c4-4f68-a98d-58782a648068',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    firstRecorded: '2021-01-01',
+});
