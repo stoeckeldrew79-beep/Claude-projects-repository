@@ -8155,6 +8155,10 @@ NotoriousNS.push({
     slug: 'richard-ramirez-jmj-capital-group-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CarlsbadSignDowntownJune2020.jpeg?width=1200',
+    coverImageCredit: 'Downtown Carlsbad, California, where JMJ Capital Group was based. Photo: Zach Zannoni (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Richard Lee Ramirez ran JMJ Capital Group out of the Carlsbad and San Diego area, telling investors their money was funding a string of plausible-sounding business ventures: buying and reselling personal protective equipment during the pandemic, factoring accounts receivable, selling furniture to major home-improvement retailers, and a contract to refurbish air conditioning units on cruise ships. None of it amounted to a real, functioning business capable of generating the returns Ramirez described.
 
 From 2018 to 2022, Ramirez raised more than $8.1 million from dozens of investors, prosecutors said, and ran the operation as a Ponzi scheme — paying earlier investors with money collected from newer ones to keep the appearance of a profitable enterprise alive, while personally spending investor funds on luxury vehicles, travel, and jewelry. Thirty-four identified victims lost amounts ranging from several thousand dollars to more than $1.4 million each.

@@ -11765,6 +11765,10 @@ NotoriousGM.push({
     slug: 'jose-rocha-boston-cape-verdean-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/BrocktonCityHall.jpg?width=1200',
+    coverImageCredit: 'Brockton, Massachusetts City Hall. Photo: Timothy Valentine (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Jose D. Rocha solicited members of the Cape Verdean community in the Boston area, promising investors he would place their money into securities trading that would generate guaranteed returns of 12% per month — a rate roughly 48 times what a typical stock market investment returns annually, let alone monthly. The guarantee alone should have been a warning sign: no legitimate securities investment can promise a fixed, guaranteed return, since market returns are inherently variable and unpredictable.
 
 In reality, the SEC alleged, Rocha used only a small portion of investor money for leveraged stock trades that lost money, rather than the profitable trading he described. He spent most of what he raised on personal gambling and a luxury lifestyle, and kept the scheme running the way every Ponzi scheme does: by using money from newer investors to make "return" payments to earlier ones, creating the appearance of a successful, legitimate investment program for as long as new money kept coming in.
@@ -11780,6 +11784,10 @@ NotoriousGM.push({
     slug: 'justin-kimbrough-prosperity-consultants-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Legacy_West.jpg?width=1200',
+    coverImageCredit: 'Legacy West, Plano, Texas. Photo: Mohidshahab (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Justin R. Kimbrough ran Prosperity Consultants, LLC, telling investors from June 2020 through at least April 2021 that their money would finance a real-estate wholesale business and fund the purchase of medical products for resale by a company in India — a pitch that gave the scheme a veneer of pandemic-era relevance, since medical-supply shortages were widely in the news at the time. The SEC alleged neither business line was real in the way investors were told; the money instead went largely to Kimbrough himself.
 
 According to the SEC's complaint, Kimbrough and Prosperity Consultants raised at least $3 million from at least 31 investors, kept at least $1.75 million of it for themselves, and paid roughly $1.05 million back to existing investors as fake "dividend" or "interest" payments — the classic Ponzi mechanism of using new money to simulate returns on old money rather than generating any real profit at all.
@@ -11795,6 +11803,10 @@ NotoriousGM.push({
     slug: 'milendophe-duperier-haitian-community-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Randolph_Town_Hall.JPG?width=1200',
+    coverImageCredit: 'Randolph, Massachusetts Town Hall. Photo: Marc N. Belanger (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Milendophe Duperier posed as an investment advisor in Massachusetts, soliciting money from dozens of individual investors — many of them drawn from the state's Haitian community, a connection helped along by the fact that his own father served as a pastor at a Haitian church. From early 2018 to December 2022, Duperier told investors he would use their money to purchase securities, while his girlfriend and business partner, Vanessa Joseph, assisted in running the operation.
 
 In reality, prosecutors said, the money was never invested as promised. Duperier and Joseph used new investors' funds to pay "returns" to earlier investors — the defining structure of a Ponzi scheme — and to cover personal expenses, including luxury vehicles, mortgage payments, and credit card debt. The scheme took on an added layer during the pandemic: the pair applied for and received Small Business Administration and Paycheck Protection Program loans totaling more than $1.42 million for various entities, then used that COVID-relief money to help pay purported investment returns to victims rather than for payroll or the business purposes the loans were meant to fund.
