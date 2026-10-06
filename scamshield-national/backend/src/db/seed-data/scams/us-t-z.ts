@@ -6963,3 +6963,31 @@ UsTZ.push({
     country: 'US',
     state: 'WV',
 });
+
+UsTZ.push({
+    name: 'WAPA Door-to-Door Impersonation Scam (US Virgin Islands)',
+    slug: 'us-virgin-islands-wapa-door-to-door-impersonation-scam',
+    description: `The Virgin Islands Water and Power Authority (WAPA) and the Virgin Islands Police Department jointly warned residents on September 28, 2016 that individuals were impersonating WAPA employees in person to gain entry into homes, falsely claiming they needed to install shower fixtures or "energy-saving devices." WAPA Executive Director Julio A. Rhymer, Sr. stated plainly that WAPA "does not have any employees who need to enter homes in order to carry out their duties," and urged residents to call 911 immediately if an unknown person approaches their home claiming to be from WAPA. The warning also addressed social-media rumors of armed robberies following these fake visits, which VIPD said had not actually been reported to police as of the alert — underscoring that the real, confirmed risk is the impersonation and attempted home entry itself. Residents were advised to lock their doors, remain alert to unsolicited visitors claiming utility-related business, and verify any WAPA employee's identity by calling WAPA directly before letting them inside.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Virgin Islands Water and Power Authority', 'Virgin Islands Police Department', 'The Virgin Islands Consortium'],
+    sourceUrl: 'https://viconsortium.com/vi-crime/wapa-scammers-usvi',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2016-09-28',
+});
+
+UsTZ.push({
+    name: 'Fake "Sugar Mill Resort" Investment and Job-Offer Website (St. Croix)',
+    slug: 'st-croix-sugar-mill-resort-fake-investment-scam',
+    description: `The V.I. Department of Licensing and Consumer Affairs (DLCA) warned on February 3, 2013 that a website, thesugarmillresort.com, had invented an entirely fictitious luxury resort and casino supposedly under construction on the West End of St. Croix, described as just ten minutes from Henry E. Rohlsen Airport. The site advertised 320 "under construction" two-bedroom luxury condo suites and solicited pre-purchase deposits from prospective buyers and investors, listed a fabricated contact entity called "L.F. Wright Global Construction Management Group, LLC," and even posted eight fake job openings to collect applicants' personal information. DLCA Commissioner Wayne Biggs stated flatly that "the Web site for the Sugar Mill Resort is a scam," warning that scammers could use the personal and financial information collected through the site to steal victims' identities. DLCA coordinated with the V.I. Department of Planning and Natural Resources and the V.I. Casino Control Commission and confirmed no such resort, construction project, or company actually existed.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['V.I. Department of Licensing and Consumer Affairs'],
+    sourceUrl: 'https://visourcearchives.com/?p=93181',
+    country: 'US',
+    state: 'VI',
+    isHistorical: true,
+    firstRecorded: '2013-02-03',
+});
