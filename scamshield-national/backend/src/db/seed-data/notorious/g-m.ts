@@ -11816,3 +11816,18 @@ In total, Duperier and Joseph defrauded investors — many of whom had put in th
 The case illustrates how affinity fraud and pandemic-era relief fraud can compound each other: the same trust that let Duperier recruit investors through his father's church also meant victims were less likely to publicly question him, while the COVID loan programs gave the scheme a second, government-backed source of cash to keep the appearance of "returns" flowing even as the underlying investment business remained entirely fictional.`,
     sourceUrl: 'https://www.wealthmanagement.com/regulation-compliance/couple-sentenced-for-using-covid-loans-to-fund-advisory-scheme',
 });
+
+NotoriousGM.push({
+    title: 'Helmut Kiener and the K1 Group Hedge Fund Fraud That Shook German Finance',
+    slug: 'helmut-kiener-k1-group-hedge-fund-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    body: `Helmut Kiener ran K1 Group, a German holding company marketing a family of speculative hedge funds — K1 Global and K1 Invest — to institutional investors across Europe, including major banks like Barclays and BNP Paribas. For years, Kiener told investors the funds were posting steady, attractive profits. Germany's financial regulator, BaFin, had already been watching K1 closely, and had barred the firm from operating in Germany as far back as June 2004 — a warning sign that didn't stop the funds from continuing to raise money from investors abroad.
+
+The profits were fiction. The funds were actually suffering massive losses, and Kiener covered the gap the way Ponzi schemes always do: using money from new investors to make it look like the existing funds were performing, while fabricating account statements that showed returns which had never occurred. German prosecutors in Würzburg eventually calculated total investor losses of roughly €345 million; one investor-side lawyer, drawing comparisons to Bernard Madoff, estimated the real damage could run as high as €500 million to €1 billion once every affected institutional investor was counted.
+
+Kiener was arrested on October 29, 2009, and the Würzburg prosecutor's office filed formal charges in November 2010. Rather than fight the case, Kiener confessed in court in 2011, describing exactly how he had manipulated account statements and used incoming investor funds to paper over the funds' real losses. The Regional Court of Würzburg convicted him on charges of fraud, forgery, and tax evasion, sentencing him on July 22, 2011, to 10 years and 8 months in prison.
+
+The case stands as one of Germany's largest hedge-fund frauds, and a reminder that institutional sophistication is no shield against a Ponzi structure: Barclays and BNP Paribas were professional, well-resourced investors with their own due-diligence teams, and they still relied on fabricated statements rather than independently verifying that K1's claimed trading profits actually existed. A regulator's prior ban on a fund operating in its home country — as BaFin had already imposed on K1 years before the fraud was exposed — is exactly the kind of red flag that's easy to treat as a technicality when the reported returns keep looking good.`,
+    sourceUrl: 'https://www.cityam.com/k1-founder-charged-fraud-ponzi-scheme/',
+});
