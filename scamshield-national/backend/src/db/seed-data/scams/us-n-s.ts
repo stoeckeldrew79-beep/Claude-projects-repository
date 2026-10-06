@@ -12168,3 +12168,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-11-01',
 });
+
+UsNS.push({
+    name: 'New York "Inflation Refund" Check Phishing and Smishing Scam',
+    slug: 'new-york-inflation-refund-check-phishing-scam',
+    description: `Ahead of New York's brand-new, one-time "inflation refund" program — automatic checks the state began mailing in October and November 2025 to more than 8.2 million eligible households that had already filed a tax return, fell under an income threshold, and weren't claimed as a dependent, with no application required — scammers moved fast to exploit it. Governor Kathy Hochul's office warned on September 28, 2025 that fraudulent text messages, emails, voice messages, and even direct mail were circulating falsely claiming recipients must "submit payment information" to receive their check, with some messages threatening forfeiture of the refund if the recipient didn't act by a fake deadline. The messages route to phishing pages designed to harvest bank account numbers, Social Security numbers, and other personal information. "New Yorkers do not have to do anything to receive an inflation refund check outside of meeting the eligibility requirements," Hochul said, and the Tax Department stressed that neither it nor the IRS ever calls, texts, or emails asking for payment or banking information to release a refund. Anyone contacted about the inflation refund program is advised to block the sender and delete the message, never click a link or provide personal information in response, hang up immediately on any threatening call claiming to be about the refund, and report the attempt to the Tax Department or the IRS — eligible households don't need to request or verify anything to receive the real check.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Office of Governor Kathy Hochul'],
+    sourceUrl: 'https://www.governor.ny.gov/news/governor-hochul-warns-against-scams-targeting-new-yorks-inflation-refund-initiative',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2025-09-28',
+});
