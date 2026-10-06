@@ -12842,3 +12842,17 @@ UsGM.push({
     country: 'US',
     state: 'ID',
 });
+
+UsGM.push({
+    name: 'Minnesota "Strategic Limited Partners" Unlicensed Health Plan Settlement',
+    slug: 'minnesota-strategic-limited-partners-health-plan-settlement',
+    description: `Minnesota's Department of Commerce Enforcement Division reached a settlement on October 14, 2025 with Strategic Limited Partners (SLP), an operation that marketed itself to Minnesotans as offering Affordable Care Act-compliant health coverage despite never being licensed to sell insurance in the state — the same unlicensed junk-plan operator Montana regulators separately shut down with a cease-and-desist order in April 2026. Some Minnesota consumers believed they were dealing with MNsure, the state's official ACA marketplace, after seeing SLP's misleading advertising, only for health care providers to later refuse the coverage or for SLP to deny and fail to pay claims, leaving policyholders with large, unexpected medical bills. More than 1,700 Minnesotans were affected. Under the settlement, SLP agreed to pay a $290,000 civil penalty, with $250,000 of it stayed unless the company violates the agreement again, to cease all insurance operations in Minnesota by the end of 2025, and to pay outstanding claims to affected consumers; MNsure opened a special enrollment period so policyholders left without real coverage could re-enroll. "If it sounds too good to be true, or if the company isn't licensed in Minnesota, that's a red flag," Assistant Commissioner of Enforcement Jacqueline Olson said in announcing the settlement. Before buying any health plan sold outside the official marketplace or through an unfamiliar seller, Minnesotans can confirm a company is actually a licensed insurer through the Department of Commerce, and should verify any ACA enrollment directly at MNsure.org rather than trusting an ad or cold call that merely resembles the real thing.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Minnesota Department of Commerce', 'Duluth News Tribune'],
+    sourceUrl: 'https://www.duluthnewstribune.com/health/state-commerce-department-reaches-settlement-with-company-that-sold-deceptive-health-plans',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2025-10-14',
+});
