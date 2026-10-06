@@ -72,10 +72,9 @@ Veterans should apply for benefits directly and for free at benefits.va.gov, or 
     title: 'Tax Identity Theft: When Someone Else Files a Return in Your Name',
     slug: 'tax-identity-theft-fraudulent-refund-guide',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Close-up_of_sign_for_the_Internal_Revenue_Service_building_Washington_DC_2025-02-07_13-21-58_1.jpg?width=1200',
-    coverImageCredit: 'Photo: G. Edward Johnson (CC BY 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Form_1040,_2005.jpg?width=1200',
+    coverImageCredit: 'IRS Form 1040 (2005), public domain U.S. government work, via Wikimedia Commons',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     tags: ['guide', 'tax-identity-theft'],
     sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-tax-identity-theft',
     body: `Tax identity theft happens when someone else uses your Social Security number to file a federal tax return in your name, claiming a refund for themselves before you ever file your own. Because the IRS generally processes the first return filed under a given SSN, a criminal who files early with fabricated income and withholding information can walk away with a refund paid out to their own account — leaving the real taxpayer to sort out the mess months later. A related version of the same underlying problem is employment-related identity theft, where someone uses a stolen SSN to get a job, which shows up as unfamiliar income on the real person's Social Security earnings record rather than as a stolen refund.
