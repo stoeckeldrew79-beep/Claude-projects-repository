@@ -12013,3 +12013,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2022-11-09',
 });
+
+UsNS.push({
+    name: 'Duke Energy Ohio & Kentucky Prepaid-Card and Cryptocurrency Disconnection Scam',
+    slug: 'ohio-duke-energy-crypto-disconnection-scam',
+    description: `Duke Energy Ohio & Kentucky and the Better Business Bureau serving Cincinnati jointly warned customers that the utility had received nearly 900 scam reports in 2025 through the end of October alone. Scammers call or text posing as Duke Energy representatives, demand immediate payment, and threaten to cut off service right away unless the customer pays using a prepaid card or cryptocurrency — payment methods the utility says it will never specify or accept. Duke Energy stressed it will never threaten an immediate disconnection without advance written notice and never dictates a specific payment method over the phone. Customers who receive a suspicious call or text are advised to hang up, close the message, or shut the door, then contact Duke Energy directly using the number on a past bill or the utility's official website rather than any number the caller provides, and to report the attempt to the BBB.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Duke Energy Ohio & Kentucky', 'Better Business Bureau (Cincinnati)'],
+    sourceUrl: 'https://nkytribune.com/2025/11/duke-energy-bbb-warn-against-scammers-offer-advice-on-how-to-avoid-being-a-victim/',
+    country: 'US',
+    state: 'OH',
+    isHistorical: true,
+    firstRecorded: '2025-11-01',
+});
