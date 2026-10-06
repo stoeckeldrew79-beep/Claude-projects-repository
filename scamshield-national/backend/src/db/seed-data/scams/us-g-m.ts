@@ -12788,3 +12788,57 @@ UsGM.push({
     country: 'US',
     state: 'GU',
 });
+
+UsGM.push({
+    name: 'Lahaina Wildfire Unsolicited Land-Purchase Offers (Hawaii)',
+    slug: 'hawaii-lahaina-wildfire-unsolicited-land-purchase-offers',
+    description: `After the Lahaina wildfire killed 115 people and destroyed roughly 1,800 to 1,900 homes in the town of 12,000 on August 8, 2023, leaving about 6,000 displaced residents staying in temporary hotel and rental housing, outside investors and buyers began making unsolicited offers to purchase fire-damaged Maui properties directly from grieving, displaced owners, often at depressed prices and with pressure to decide quickly before residents had time to consider rebuilding or consult an attorney. Hawaii Governor Josh Green signed an emergency proclamation on August 19, 2023 prohibiting unsolicited purchase offers on properties affected by the fire, stating the order was meant to prevent land in the historic coastal community from "flowing into the hands of outside buyers" and to give residents "breathing room" to decide whether to build back on land many families had held for generations. Violating the prohibition carries penalties of up to one year in prison and a $5,000 fine, and the Hawaii Attorney General's office received and investigated complaints about unsolicited offers in the proclamation's aftermath. This is a distinct risk from the fake-charity and unlicensed-contractor fraud this database already documents after the same fire — this scheme doesn't fabricate a cause or a repair job at all, it simply exploits a disaster victim's vulnerability to acquire real property below its real value before they have time to weigh their options.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['Office of the Governor of Hawaii', 'PBS NewsHour / Associated Press'],
+    sourceUrl: 'https://www.pbs.org/newshour/nation/unsolicited-land-offers-under-investigation-as-hawaii-tries-to-keep-lahaina-in-local-hands',
+    country: 'US',
+    state: 'HI',
+    isHistorical: true,
+    firstRecorded: '2023-08-19',
+});
+
+UsGM.push({
+    name: 'Hawaii Cryptocurrency Kiosk Scams Targeting Kupuna',
+    slug: 'hawaii-cryptocurrency-kiosk-kupuna-scam-hearing',
+    description: `Hawaii lawmakers and advocates held an informational hearing at the State Capitol in early December 2025 examining a surge in scams that direct victims to deposit cash into cryptocurrency kiosks — machines now installed in convenience stores and malls across the islands, with AARP estimating more than 100 of them operating statewide. In the scheme, callers impersonate police, a utility company, or another government agency, threaten arrest or service shutoff, and instruct the target to withdraw cash and feed it into the nearest crypto kiosk, which converts it to cryptocurrency and sends it to a wallet the scammer controls — a transaction that is effectively irreversible once completed. At the time of the hearing, Hawaii had logged 68 complaints totaling nearly $1 million in losses, and elderly residents, known in Hawaii as kupuna, are disproportionately targeted. State Representative Scot Matayoshi argued the kiosks' legitimate use is dwarfed by the harm they enable, saying "the few people who have an interest in turning cash directly into crypto just doesn't outweigh the number of people getting scammed," and some officials discussed the possibility of stricter regulation or an outright ban, though no such law had been enacted as of the hearing. The FBI has reported that losses from this exact kiosk-based mechanism roughly doubled nationwide year over year, reaching an estimated $250 million in 2024 — a reminder that a crypto kiosk's physical presence in an everyday retail store doesn't make a caller's demand to use one any more legitimate.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Hawaii News Now', 'AARP Hawaii', 'Hawaii State Legislature'],
+    sourceUrl: 'https://www.hawaiinewsnow.com/2025/12/04/protecting-consumers-cryptocurrency-kiosk-scams',
+    country: 'US',
+    state: 'HI',
+    isHistorical: true,
+    firstRecorded: '2025-12-04',
+});
+
+UsGM.push({
+    name: 'Predatory Farmland Purchase Solicitation Scheme (Iowa)',
+    slug: 'iowa-predatory-farmland-purchase-solicitation-scheme',
+    description: `Starting around late 2021, three out-of-state companies — CRT Acres (owned by Christopher Michael Neal), Land Acquisitions (owned by Brandon Waterson), and Westward Land Holdings (owned by Jon Burnett) — mailed unsolicited "Purchase Agreements" directly to rural Iowa landowners offering to buy their farmland at a fraction of its real market value. One Clayton County landowner was offered roughly a tenth of fair market value for 16.38 acres, and a Guthrie County landowner was offered $7,616.31 for 51.39 acres of land that, at Iowa's roughly $9,400-per-acre average 2022 farmland value, was worth closer to $483,000. The agreements were structured so that simply signing and returning the document created a binding sale, with no step verifying that the person who signed actually had the legal authority to sell the land in question. The Iowa Attorney General's office alleged this business model violated the Iowa Consumer Fraud Act's prohibition on unfair conduct, and all three companies and their named owners signed Assurances of Voluntary Compliance — agreeing, without admitting wrongdoing, to permanently stop soliciting the purchase of Iowa agricultural land this way. The case is a reminder that a legitimate-looking real estate offer mailed directly to a landowner's home is not itself proof of a fair price; getting an independent appraisal or at least checking recent comparable sales before signing anything is the only real protection against a lowball offer dressed up as paperwork.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ["Iowa Attorney General's Office", 'River Cities Reader'],
+    sourceUrl: 'https://www.rcreader.com/node/60640',
+    country: 'US',
+    state: 'IA',
+    isHistorical: true,
+    firstRecorded: '2021-12-01',
+});
+
+UsGM.push({
+    name: 'Fake Federal Arrest Warrant "Settlement" Phone Scam (Idaho)',
+    slug: 'idaho-fake-federal-arrest-warrant-settlement-scam',
+    description: `The U.S. Attorney's Office for the District of Idaho and the U.S. Marshals Service warned Idaho residents about callers falsely claiming to be federal law enforcement, investigators, or an affiliated law firm, telling victims a federal arrest warrant has been issued against them and that it can be "settled" or canceled immediately with a payment. In one reported case, a caller identifying herself as "Leslie," an investigator with the "Tate Law Firm" in Texas, told a target she owed $2,700 to have the warrant canceled, later negotiating the demand down to roughly $1,500. The warning states plainly that real law enforcement does not notify someone of an arrest warrant by phone call — a valid federal warrant is served in person by a Deputy U.S. Marshal, not announced over the phone with an offer to pay it away. Residents who receive a call like this are urged to hang up without providing any payment or personal information and to verify any claimed warrant by contacting their local federal courthouse directly, using a phone number they look up independently rather than one given by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Idaho", 'U.S. Marshals Service', 'KIVI-TV'],
+    sourceUrl: 'https://www.kivitv.com/news/arrest-warrant-scam-hits-idaho',
+    country: 'US',
+    state: 'ID',
+});
