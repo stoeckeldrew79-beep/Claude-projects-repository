@@ -3772,3 +3772,37 @@ The verdict closed out one of the last major unresolved strands of the 1MDB affa
 Obaid and Mahony's case is a reminder that an investment's legitimacy is only as real as the institutional backing behind it — claiming a government's name, rather than actually having its support, was enough to get a sovereign fund's own board to sign off on a billion-dollar wire transfer. It's also a case study in how long real accountability can take: the fraud began in 2009, and the men who ran it weren't convicted until 2024, in a country neither of their victims' money was ever supposed to touch.`,
     sourceUrl: 'https://www.aljazeera.com/news/2024/8/28/swiss-court-convicts-two-executives-of-embezzling-1-8bn-from-1mdb',
 });
+
+NotoriousTZ.push({
+    title: "Trevor Uhls and the $2.1 Million Lee's Summit Promissory Note Ponzi Scheme",
+    slug: 'trevor-uhls-lees-summit-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    sourceUrl: 'https://www.irs.gov/node/162966',
+    body: `Note: this case is a pending criminal matter. Trevor Uhls has been charged by federal criminal complaint, not convicted or found liable by a court, and the facts described below are allegations as of this writing.
+
+Trevor Uhls, 29, of Lee's Summit, Missouri, was formerly an independent contractor associated with a broker-dealer but was never himself a FINRA-registered representative; that contractor relationship was terminated in December 2025 once the fraud came to light, and FINRA barred him in May 2026 for refusing to cooperate with its investigation. From at least September 2024 into 2026, Uhls solicited at least 24 investors into promissory note contracts promising guaranteed returns of 10% to 15% over 30-, 60-, or 90-day terms, pitched as pooled investments in things like storage units, short-term construction and private-equity deals, and crowdfunded real estate secured by promissory notes. In total, prosecutors say he obtained more than $2.1 million this way.
+
+The money wasn't invested as described. Between September 2024 and December 2025, Uhls made more than $800,000 in credit card payments and spent over $600,000 on sports betting and cryptocurrency exchanges using investor funds, according to court documents. The average investor received only a few interest payments, if any, and multiple investors have been unable to recover any of their principal or accrued interest.
+
+On July 20, 2026, U.S. District Judge Stephen R. Bough granted a temporary restraining order in the Western District of Missouri barring Uhls from further soliciting or contacting victims, with an injunction hearing scheduled for August 3, 2026. A federal criminal complaint followed, charging wire fraud, which carries up to 20 years, and money laundering, which carries up to 10 years.
+
+Uhls's case illustrates how little formal credibility a promissory-note pitch actually needs to work: he wasn't a licensed broker, didn't need to be one to collect money from 24 separate investors, and the "guaranteed" 10-15% short-term return he offered was never achievable through any of the investments he claimed to be making. A guaranteed return on a short-term private loan, offered by someone who isn't a registered investment professional, is itself the clearest warning sign — real short-term private lending carries real risk, and nobody can guarantee a specific return on it.`,
+});
+
+NotoriousTZ.push({
+    title: 'Thomas J. Moore III and the Mississippi Green Oil Investment Fraud',
+    slug: 'thomas-moore-mississippi-green-oil-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26663',
+    body: `Note: this case is a civil enforcement action. The Securities and Exchange Commission's complaint describes allegations only — Thomas J. Moore III has not been found liable by a court as of this writing.
+
+Thomas J. Moore III, of D'Iberville, Mississippi, solicited equity investments in Mississippi Green Oil, LLC, a medical-marijuana business based in Prentiss, Mississippi, telling investors their money would go toward developing the company. According to a civil complaint the SEC filed September 30, 2026 in the U.S. District Court for the Southern District of Mississippi (Case No. 1:26-cv-00286-LG-BWR), Moore ran the scheme from December 2021 through August 2024, raising approximately $4.94 million from about 20 investors.
+
+The SEC alleges Moore spent roughly $1.94 million of that money on personal expenses unrelated to the business, including jewelry and travel. He had told investors they would receive short-term profit distributions proportional to their equity stakes, but the complaint says he never paid any investor a distribution. Moore also failed to disclose to prospective investors that he was already facing lawsuits from other investors over unpaid distributions and unreturned principal — information that would have told a reasonable investor the pattern was already repeating itself before they ever wrote a check.
+
+The SEC's complaint charges violations of Section 17(a) of the Securities Act of 1933 and Section 10(b) of the Securities Exchange Act of 1934 along with Rule 10b-5, and the agency is seeking a permanent injunction, a conduct-based injunction, disgorgement with prejudgment interest, and a civil penalty.
+
+Moore's case is a reminder that an undisclosed lawsuit history is exactly the kind of information a company's own marketing will never volunteer — a prospective investor who asked whether anyone else had ever sued over unpaid returns, and then actually checked state and federal court records before investing, would have found the answer sitting in plain sight months or years before the SEC did.`,
+});
