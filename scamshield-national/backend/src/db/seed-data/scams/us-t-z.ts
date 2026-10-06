@@ -6967,3 +6967,16 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2013-02-03',
 });
+
+UsTZ.push({
+    name: 'AI Voice-Clone Impersonation of Secretary of State Marco Rubio Targets Senior Officials',
+    slug: 'ai-voice-clone-impersonation-secretary-rubio',
+    description: `In June 2025, an unidentified actor used AI-generated voice cloning to impersonate Secretary of State Marco Rubio, creating a Signal account under a fake "Marco.Rubio@state.gov" handle and sending at least two AI-voiced voicemails and a text message to at least three foreign ministers, a sitting U.S. senator, and a U.S. governor. A State Department memo dated July 3, 2025 confirmed the department was investigating, and officials said the apparent goal was to manipulate recipients into revealing sensitive information or granting access to their accounts by impersonating a trusted senior official rather than a stranger. The incident wasn't isolated: a separate AI-voice deepfake had targeted President Trump's chief of staff, Susie Wiles, the previous month, and the FBI separately warned in May 2025 that a broader campaign active since April 2025 was using AI-generated voice messages and smishing texts to impersonate senior federal and state officials in order to compromise their contacts' accounts and information. The pattern illustrates how convincingly AI voice cloning can now impersonate a specific, recognizable public figure — not just a stranger claiming authority — making a call or voicemail that appears to come from a known official's number or an account bearing their name no safer to trust at face value than any other unsolicited contact. Anyone who receives an unexpected message, call, or voicemail appearing to be from a government official — however senior or convincing the voice sounds — should independently verify the request through official channels before acting on it or sharing any information, rather than responding directly to the number or account that reached out.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of State', 'New England Public Media (NEPM)'],
+    sourceUrl: 'https://www.nepm.org/national-world-news/2025-07-10/state-department-investigating-incident-in-which-ai-used-to-impersonate-marco-rubio',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2025-07-03',
+});
