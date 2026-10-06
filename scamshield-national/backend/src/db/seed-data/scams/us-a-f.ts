@@ -11638,3 +11638,31 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2025-02-11',
 });
+
+UsAF.push({
+    name: 'ASNAP Counterfeit Food Coupon Scheme (American Samoa)',
+    slug: 'american-samoa-asnap-counterfeit-food-coupon-scheme',
+    description: `Two employees of American Samoa's Department of Human and Social Services (DHSS) and a local businessman were arrested in January 2018 after a review found that ANZ Bank had redeemed significantly more in food coupons than the American Samoa Nutrition Assistance Program (ASNAP) — the territory's own federally funded food-stamp program — had actually issued for the quarter. A follow-up investigation found a high volume of counterfeit ASNAP coupons being redeemed through several ASNAP vendors, with roughly $700,000 alleged to be involved in the overall fraud and counterfeiting case, according to court documents. DHSS officials and the Governor's office publicly addressed the case and sought to reassure recipients that ongoing legitimate benefits would not be affected, while the FBI's Honolulu office said at the time that it was not separately conducting its own probe into the matter. The case illustrates a risk specific to ASNAP's closed-loop paper-coupon system, which differs from the electronic EBT cards used for SNAP in the fifty states and depends on individual vendors correctly redeeming only genuine coupons.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Samoa News'],
+    sourceUrl: 'https://www.samoanews.com/local-news/fbi-not-conducting-probe-alleged-food-stamp-scheme',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2018-01-26',
+});
+
+UsAF.push({
+    name: 'Tropical Storm Gita Disaster-Assistance Misuse Warning (American Samoa)',
+    slug: 'american-samoa-tropical-storm-gita-fema-misuse-warning',
+    description: `Following Tropical Storm Gita in early 2018, FEMA approved more than $22.22 million in Individual and Households Program assistance for American Samoa as of July 18, 2018 — over $13.1 million in Housing Assistance and more than $6.81 million in Other Needs Assistance across 6,062 approved applications — plus over $10 million in Small Business Administration disaster loans. Amid reports that some recipients were spending disaster-relief funds on vehicles, trips, and other purchases unrelated to storm recovery, Secretary of Samoan Affairs Mauga T. Asuega publicly warned residents to "use the money for the purpose it was awarded," cautioning that federal reviewers would later inspect how the funds were actually used and that documented misuse could cost the territory a passing compliance grade on future disaster assistance. The warning highlights that disaster assistance fraud isn't limited to outside scammers impersonating FEMA — misusing legitimately received relief funds is itself a federal compliance violation that can jeopardize a recipient's own eligibility and the territory's future aid.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'low',
+    sources: ['Samoa News', 'FEMA'],
+    sourceUrl: 'https://samoanews.com/node/104794',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2018-07-18',
+});
