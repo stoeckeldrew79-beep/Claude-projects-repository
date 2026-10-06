@@ -6980,3 +6980,31 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-07-03',
 });
+
+UsTZ.push({
+    name: 'Camp Mystic Flood Victim-Impersonation GoFundMe Fraud (Maitlin Paige White)',
+    slug: 'texas-camp-mystic-flood-victim-impersonation-gofundme-fraud',
+    description: `Four days after the catastrophic July 4, 2025 flash flooding along the Guadalupe River that killed more than 100 people in Texas Hill Country — including 18-year-old Chloe Childress, a counselor at Camp Mystic in Kerr County — Maitlin Paige White, 28, of Florida, created a GoFundMe and a Spotfund fundraiser impersonating Chloe's real father, Matthew Childress, using his name alongside Chloe's name and photo to solicit "funeral expense" donations. Childress discovered the fake campaigns and reported them to authorities on July 10, 2025; when investigators tracked down White, she admitted creating the accounts in his name, telling detectives she was a single mother of two looking for "a quick way to make some money." White was charged with two felony counts of online impersonation and arrested in Okaloosa County, Florida by a U.S. Marshals task force; she was later sentenced to three years in prison. The case is distinct from the broader wave of fake charities and unaccountable crowdfunders that typically follow a high-profile disaster, because White didn't invent a fictional relief organization — she stole the identity of a real, specific grieving parent and his already-public tragedy to make her fundraiser look unmistakably authentic. Before donating to any individual's crowdfunding page tied to a disaster, verify directly with the family or organization named — through a channel you find independently, not a link in the campaign itself — that they actually created or authorized it.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Harris County Precinct 1 Constable\'s Office', 'ABC13 Houston'],
+    sourceUrl: 'https://abc13.com/post/florida-woman-maitlin-white-arrested-posing-father-camp-mystic-flood-victim-requested-money-gofundme-sheriff/18416105/',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2025-07-08',
+});
+
+UsTZ.push({
+    name: 'Grays Harbor PUD AI Voice-Clone Power-Shutoff Threat Scam',
+    slug: 'washington-grays-harbor-pud-ai-voice-clone-shutoff-scam',
+    description: `Grays Harbor Public Utility District in Washington warned customers that scammers had obtained short voice samples of real PUD staff members and used AI software to generate fake phone messages that sound like those actual employees, then paired the cloned voice with a manipulated caller ID designed to look like a legitimate PUD call. The calls threaten an imminent power shutoff unless the customer pays immediately through an electronic payment service or gift cards — a pressure tactic built specifically to short-circuit the hesitation a stranger's voice might otherwise trigger. "If scammers can get a hold of a short voice sample of a person, they can use AI software to create a message that sounds like it was recorded by that person," PUD Communications and Government Relations Director Ian Cope said, while Customer Service Supervisor Megan Warner urged customers to stay alert specifically because the fake messages are convincing enough that outside vigilance can't rely on the voice alone. The case shows how AI voice cloning is moving beyond impersonating specific named public figures or relatives, into impersonating ordinary front-line utility staff whose voices a scammer only needs a short clip of to clone convincingly. Customers who get an unsolicited call threatening disconnection, even one that sounds exactly like a familiar PUD employee, should hang up and call the utility's customer service line directly using a number from a past bill or the official website, and verify their account status themselves rather than trusting anything the caller says.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['Grays Harbor Public Utility District', 'American Public Power Association'],
+    sourceUrl: 'https://www.publicpower.org/periodical/article/grays-harbor-pud-says-scammers-are-using-ai-threaten-power-shutoffs',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2024-10-28',
+});
