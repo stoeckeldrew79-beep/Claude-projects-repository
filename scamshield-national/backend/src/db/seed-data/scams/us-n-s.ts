@@ -12100,3 +12100,57 @@ UsNS.push({
     country: 'US',
     state: 'NJ',
 });
+
+UsNS.push({
+    name: 'Nebraska Fake Law Enforcement Extortion Threats (Lancaster County)',
+    slug: 'nebraska-lancaster-county-extortion-threats',
+    description: `Nebraska Attorney General Mike Hilgers and Lancaster County Sheriff Terry Wagner issued a joint consumer alert warning that residents have received threats by phone or email from people demanding money and threatening to harm them or their families if they don't pay. The scammers add a layer of false credibility by already possessing specific personal details about the victim — their home address, family members' names, or other identifying information — and in some cases send violent imagery to intensify the fear, while falsely claiming to represent law enforcement agencies such as the FBI or local police. The alert instructs anyone who receives this kind of threat to contact local law enforcement and file a report, or to call Nebraska's Consumer Protection Division's Consumer Affairs Response Team at 402-471-2682 for help identifying whether a contact is a scam.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Nebraska Attorney General\'s Office', 'Lancaster County Sheriff\'s Office'],
+    sourceUrl: 'https://protectthegoodlife.nebraska.gov/node/508',
+    country: 'US',
+    state: 'NE',
+});
+
+UsNS.push({
+    name: 'BBB Nebraska AI Voice-Cloning Imposter Scam Warning',
+    slug: 'nebraska-bbb-ai-voice-cloning-imposter-scam',
+    description: `The Better Business Bureau serving Nebraska warned in April 2025 of a rise in scams that use artificial intelligence to clone a real person's voice from only a short recorded snippet, then generate a script letting the cloned voice convincingly "say" anything the scammer wants. BBB spokesperson Josh Planos described the technique directly: "Now, with a snippet of somebody's voice you can create a script and effectively have them say anything that can be very convincing." Fraudsters use the cloned voice to call victims pretending to be a grandchild, another relative, or a company's CEO, pressuring them into sending money immediately. Planos pointed to Federal Trade Commission data showing imposter scams were the most-reported scam type in Omaha during 2023, affecting 3,238 people, and said BBB had already logged more scam reports in 2025 than the prior year as AI-driven fraud increased. The BBB recommends verifying any unusual request for money face-to-face when possible, enabling multi-factor authentication on financial and email accounts, asking questions before agreeing to anything over the phone, and reporting suspected scams through BBB's Scam Tracker.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau serving Nebraska', 'WOWT Omaha'],
+    sourceUrl: 'https://www.wowt.com/2025/04/11/bbb-nebraska-warning-uptick-ai-theft-identity-scams',
+    country: 'US',
+    state: 'NE',
+    isHistorical: true,
+    firstRecorded: '2025-04-11',
+});
+
+UsNS.push({
+    name: 'Ogallala Livestock Market $1.24 Million Cattle Identity-Theft Fraud (Amanda Gentry)',
+    slug: 'nebraska-ogallala-cattle-identity-theft-fraud-gentry',
+    description: `Nebraska Brand Committee investigators found that Amanda Gentry, 34, of McCook, fraudulently purchased 453 head of cattle worth approximately $1.24 million from the Ogallala Livestock Market on October 16, 2025, had them delivered to a feedlot in Red Willow County, and never paid for them. The purchase was billed under the identity of a Texas farm belonging to Gentry's former divorce attorney, who told investigators he had never authorized the purchase and that Gentry had previously used his identity without permission. Gentry was arrested on November 18, 2025 and charged with felony theft by deception and identity theft, both tied to amounts exceeding $5,000; she posted 10% of a $50,000 bond, with a court date set for January 9. The case illustrates how livestock-market transactions, which often rely on billing an established buyer's name and credit rather than upfront payment, can be exploited through stolen identity to walk away with hundreds of thousands of dollars in animals before the fraud is discovered.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Nebraska Brand Committee', 'Western Livestock Journal'],
+    sourceUrl: 'https://www.wlj.net/ne-woman-charged-in-cattle-theft/',
+    country: 'US',
+    state: 'NE',
+    isHistorical: true,
+    firstRecorded: '2025-10-16',
+});
+
+UsNS.push({
+    name: 'Hansen Elevator Service Grain Elevator and Condominium Repair Fraud',
+    slug: 'north-dakota-hansen-elevator-service-repair-fraud',
+    description: `David Alex Hansen of Elbow Lake, Minnesota, doing business as Hansen Elevator Service, contracted with North Dakota customers — including condominium associations in Valley City and grain elevators in Streeter and Doyon — to perform elevator service and repair work, took payment, and then failed to complete the work. A Stutsman County District Court judgment entered November 9, 2022 banned Hansen from elevator servicing and repair in North Dakota for a second time, ordering $26,000 in restitution, $4,000 in civil penalties, $1,400 in the Attorney General's investigative costs, a $2,000-per-day penalty for any future violations, and $1,000-per-month restitution payments, with 30 days of jail time suspended. The second judgment followed an earlier Cass County District Court judgment in November 2021 over similar conduct against four other victims — three condominium associations and a grain elevator — which had already banned Hansen from the business for five years and ordered $100,000 in restitution. North Dakota Attorney General Drew Wrigley's office pursued both cases after Hansen kept taking deposits for elevator work he never completed despite the existing ban.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['North Dakota Attorney General\'s Office'],
+    sourceUrl: 'https://attorneygeneral.nd.gov/?p=2586',
+    country: 'US',
+    state: 'ND',
+    isHistorical: true,
+    firstRecorded: '2022-11-09',
+});
