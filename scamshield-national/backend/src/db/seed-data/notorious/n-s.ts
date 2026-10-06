@@ -8149,3 +8149,18 @@ The eight directors who remained were put on trial in February 1858 before the L
 The Royal British Bank's collapse is a reminder, from more than 165 years before Wirecard or FTX, that a charter, a government-sounding name, or a board stocked with respectable-looking men proves nothing about whether an institution's books are real. Its depositors had every reason, by the standards of 1849, to think they were dealing with one of the most credible banks in London; what actually protected their money was never the charter, but whether anyone outside the bank's own directors was independently checking what was really behind the published balance sheet — a question regulators were forced to start asking only after thousands of ordinary savers had already lost everything.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Royal_British_Bank',
 });
+
+NotoriousNS.push({
+    title: 'Richard Lee Ramirez and the JMJ Capital Group Ponzi Scheme',
+    slug: 'richard-ramirez-jmj-capital-group-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    body: `Richard Lee Ramirez ran JMJ Capital Group out of the Carlsbad and San Diego area, telling investors their money was funding a string of plausible-sounding business ventures: buying and reselling personal protective equipment during the pandemic, factoring accounts receivable, selling furniture to major home-improvement retailers, and a contract to refurbish air conditioning units on cruise ships. None of it amounted to a real, functioning business capable of generating the returns Ramirez described.
+
+From 2018 to 2022, Ramirez raised more than $8.1 million from dozens of investors, prosecutors said, and ran the operation as a Ponzi scheme — paying earlier investors with money collected from newer ones to keep the appearance of a profitable enterprise alive, while personally spending investor funds on luxury vehicles, travel, and jewelry. Thirty-four identified victims lost amounts ranging from several thousand dollars to more than $1.4 million each.
+
+A federal grand jury indicted Ramirez in September 2022, and he pleaded guilty in August 2023 to securities fraud and money laundering. He was sentenced on January 22, 2024 to 90 months — seven and a half years — in federal prison, with forfeiture of roughly $8.19 million and restitution to victims of roughly $5.44 million.
+
+Ramirez's scheme stands out for the sheer range of unrelated businesses he claimed to be running at once — PPE resale, receivables factoring, furniture wholesale, and marine air conditioning repair, each entirely different from the others. That breadth is itself a red flag common to Ponzi schemes: a legitimate operator typically specializes, while a fraudster juggling several unrelated "business lines" at once is often doing so because none of them actually needs to perform, so long as new investor money keeps the whole structure moving.`,
+    sourceUrl: 'https://www.10news.com/news/local-news/carlsbad-man-sentenced-for-defrauding-investors-in-ponzi-scheme',
+});
