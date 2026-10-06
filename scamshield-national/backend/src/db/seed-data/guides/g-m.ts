@@ -5055,3 +5055,18 @@ The FTC's own guidance on this is blunt: if you want to avoid downloading malwar
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
 });
+
+GuidesGM.push({
+    title: 'Google Business Profile "Verification" Call Scams: How Scammers Target Small Business Owners by Phone',
+    slug: 'google-business-profile-verification-call-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'google-business-profile-scam'],
+    sourceUrl: 'https://blog.google/innovation-and-ai/technology/safety-security/protecting-small-businesses-from-scammers/',
+    body: `A small business owner gets a cold call from someone claiming to be with Google, warning that their free Google Business Profile listing — the one that shows up on Google Maps and in search results — needs to be "verified" right away or it will be suspended or removed. The caller asks for payment to complete the verification, or pushes a paid "optimization" package to keep the listing visible. Either way, the pitch depends on the owner not knowing a simple fact: a Google Business Profile is free, and Google does not call businesses to charge for creating, verifying, or maintaining one.
+
+Google itself has taken this scam seriously enough to sue over it. In a lawsuit filed in November 2022, Google alleged that a scam operation defrauded hundreds of small businesses through telemarketing calls that impersonated the company, charging for a service that costs nothing, while separately running fraudulent websites that sold fake reviews — both positive reviews to inflate a business's own listing and negative reviews to damage a competitor's. The scale of the broader problem is large: Google says that in 2021 alone, it blocked more than 12 million attempts to create fake Business Profiles and nearly 8 million attempts by bad actors to claim a Business Profile that didn't actually belong to them, figures that give a sense of just how much automated and human effort goes into working this one free listing for profit.
+
+The clearest warning signs are an unsolicited call claiming to be from Google about a Business Profile, any request for payment to "verify," "activate," or "protect" a listing, caller ID that shows a local-looking number (easily spoofed and no proof of who's actually calling), and unsolicited offers to sell reviews — for your own business or a competitor's — since manipulated reviews violate Google's policies and can get a legitimate listing suspended if discovered. A real Google representative, on the rare occasion one does reach out, will never ask for a credit card number or login credentials over an unsolicited call.
+
+Business owners should never give payment information or account credentials to a caller claiming to represent Google, and should manage their Business Profile only by logging into the account directly through google.com/business rather than through any link, number, or instruction supplied by a caller. If you've already paid or handed over credentials, change the password on the Google account tied to the listing and review its recent activity for unauthorized changes. Report telemarketing scam calls to the FTC's Do Not Call complaint line at donotcall.gov or 1-888-382-1222, and report suspected fake-review activity directly to Google through the Business Profile's own support tools.`,
+});
