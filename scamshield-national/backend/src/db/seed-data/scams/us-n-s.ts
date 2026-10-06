@@ -12182,3 +12182,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-09-28',
 });
+
+UsNS.push({
+    name: 'Equine Assisted Programs of Southern New Mexico Medicaid Fraud (Nancy Marshall)',
+    slug: 'new-mexico-equine-assisted-programs-medicaid-fraud',
+    description: `Nancy Marshall, a Las Cruces therapist who owned and ran Equine Assisted Programs of Southern New Mexico (EAP), billed New Mexico's Medicaid program for horse-therapy counseling sessions that were never actually provided — including sessions billed for children who were, according to investigators, in school at the time the supposed treatment took place. To make the fraudulent claims look legitimate, Marshall allegedly used other real therapists' National Provider Identifier numbers rather than her own, a form of identity theft layered on top of the billing fraud itself. The scheme came to light after two former EAP staff members quit and reported concerns about what they'd witnessed to New Mexico's Department of Justice. A Doña Ana County grand jury indicted Marshall in March 2025 on 18 felony counts — one count of fraud, nine counts of Medicaid fraud, six counts of falsification of documents, and two counts of identity theft — tied to roughly two and a half years of false billing totaling $970,108.31. Marshall pleaded guilty in June 2025 to six felony counts (two each of Medicaid fraud, falsification of documents, and identity theft) and was sentenced to five years in prison. The case illustrates how a provider running a less common, harder-to-audit specialty therapy — equine-assisted counseling isn't something a typical Medicaid reviewer can easily spot-check — can use that obscurity to bill for sessions that never happened, and how identity theft against colleagues can be baked directly into a billing-fraud scheme to spread suspicion across more provider numbers than just the fraudster's own.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ["New Mexico Department of Justice", 'KFOX14'],
+    sourceUrl: 'https://nmdoj.gov/press-release/the-new-mexico-department-of-justice-charges-nancy-marshall-with-18-felony-counts-related-to-fraudulent-medicaid-claims-totaling-nearly-1-million/',
+    country: 'US',
+    state: 'NM',
+    isHistorical: true,
+    firstRecorded: '2025-03-05',
+});

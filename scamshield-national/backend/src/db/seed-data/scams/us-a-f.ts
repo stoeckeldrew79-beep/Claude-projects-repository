@@ -11981,3 +11981,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2024-12-20',
 });
+
+UsAF.push({
+    name: 'Eaton Fire Unlicensed Storm-Chaser Contractor Sting (Altadena)',
+    slug: 'california-eaton-fire-unlicensed-contractor-sting',
+    description: `The January 2025 Eaton Fire destroyed roughly 9,000 structures and killed 19 people in and around Altadena, California, leaving thousands of residents needing debris removal and rebuilding work exactly when they were most vulnerable to being taken advantage of. The Los Angeles County District Attorney's Office, working with the California Contractors State License Board, ran an undercover sting operation targeting unlicensed contractors soliciting fire-rebuild and debris-removal work in the Altadena burn zone, announcing felony charges against five unlicensed contractors on December 12, 2025 — a companion sting following the Palisades Fire separately charged six more. Operating without a license in connection with a declared disaster is a felony under California law, carrying up to three years in prison and a $10,000 fine, specifically because lawmakers recognized that fire victims soliciting rebuild bids in the weeks after losing their homes are an unusually easy target for a contractor with no license, no insurance, and no accountability. "We are cracking down on criminal contractors who prey on residents who have already lost so much," District Attorney Nathan Hochman said in announcing the charges, and his office paired the enforcement action with a multilingual (English, Spanish, Chinese, Korean, and Armenian) public-awareness campaign warning Altadena residents what to look for. Before paying any contractor for fire-recovery work, verify their license number directly through the California Contractors State License Board at cslb.ca.gov, get multiple written bids, and avoid paying a large sum upfront — a legitimate, licensed contractor doesn't need the bulk of the payment before any work begins.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Los Angeles County District Attorney\'s Office', 'California Contractors State License Board', 'Los Angeles Magazine'],
+    sourceUrl: 'https://lamag.com/crimeinla/unlicensed-contractors-hit-with-charges-connected-eaton-fire/',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2025-12-12',
+});
