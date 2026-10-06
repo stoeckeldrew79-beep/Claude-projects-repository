@@ -11759,3 +11759,33 @@ Gu applied for state compensation over the excess detention, and on January 7, 2
 Gu Chujun's case cuts in two directions at once: the original prosecution, built on allegations of asset-stripping and accounting fraud at companies he controlled, resulted in a real conviction for misappropriating company funds that stood up through retrial. But two of the three original charges against him were eventually thrown out entirely, more than a decade after he'd already served time for them — a reminder that even a well-publicized fraud conviction isn't necessarily the final word, and that compensation for a wrongful conviction, when it comes, is calculated by a fixed legal formula rather than by what the wrongly convicted person believes they actually lost.`,
     sourceUrl: 'https://www.court.gov.cn/zixun/xiangqing/398112.html',
 });
+
+NotoriousGM.push({
+    title: 'Jose D. Rocha and the Boston Ponzi Scheme That Targeted His Own Community',
+    slug: 'jose-rocha-boston-cape-verdean-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    body: `Jose D. Rocha solicited members of the Cape Verdean community in the Boston area, promising investors he would place their money into securities trading that would generate guaranteed returns of 12% per month — a rate roughly 48 times what a typical stock market investment returns annually, let alone monthly. The guarantee alone should have been a warning sign: no legitimate securities investment can promise a fixed, guaranteed return, since market returns are inherently variable and unpredictable.
+
+In reality, the SEC alleged, Rocha used only a small portion of investor money for leveraged stock trades that lost money, rather than the profitable trading he described. He spent most of what he raised on personal gambling and a luxury lifestyle, and kept the scheme running the way every Ponzi scheme does: by using money from newer investors to make "return" payments to earlier ones, creating the appearance of a successful, legitimate investment program for as long as new money kept coming in.
+
+The SEC filed a civil complaint against Rocha in the U.S. District Court for the District of Massachusetts in August 2023, alleging he took more than $1 million from 13 investors and violated the antifraud provisions of the Securities Act and the Securities Exchange Act, as well as the Investment Advisers Act's prohibitions on fraud by an unregistered investment adviser. Rocha consented to a final judgment entered July 29, 2025, permanently barring him from committing further securities fraud and from offering or selling securities going forward.
+
+The case is a reminder that affinity fraud — a scheme that specifically targets a shared community, whether ethnic, religious, or social — remains one of the most effective and durable forms of investment fraud, because the trust that holds a community together is exactly what a fraudster like Rocha exploits to get money in the door before anyone starts asking harder questions.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26365',
+});
+
+NotoriousGM.push({
+    title: 'Justin R. Kimbrough and the Prosperity Consultants Ponzi Scheme',
+    slug: 'justin-kimbrough-prosperity-consultants-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    body: `Justin R. Kimbrough ran Prosperity Consultants, LLC, telling investors from June 2020 through at least April 2021 that their money would finance a real-estate wholesale business and fund the purchase of medical products for resale by a company in India — a pitch that gave the scheme a veneer of pandemic-era relevance, since medical-supply shortages were widely in the news at the time. The SEC alleged neither business line was real in the way investors were told; the money instead went largely to Kimbrough himself.
+
+According to the SEC's complaint, Kimbrough and Prosperity Consultants raised at least $3 million from at least 31 investors, kept at least $1.75 million of it for themselves, and paid roughly $1.05 million back to existing investors as fake "dividend" or "interest" payments — the classic Ponzi mechanism of using new money to simulate returns on old money rather than generating any real profit at all.
+
+The SEC filed its civil action on July 1, 2022, in federal court; litigation continued against co-defendant Terry Nikopoulos and several entities he controlled even after Kimbrough's case concluded. Final consent judgments against Kimbrough were entered August 5, 2025, imposing a permanent injunction against securities fraud, an officer-and-director bar, a bar from participating in future securities offerings (apart from trading his own personal account), and disgorgement of $1,137,437.45 plus $86,882.82 in prejudgment interest. A parallel criminal case against Kimbrough resulted in forfeiture of $2,560,938.87.
+
+Kimbrough's case illustrates how a Ponzi scheme doesn't need an exotic or glamorous cover story to work — a mundane-sounding "wholesale real estate and medical supply resale" business was enough to collect millions of dollars from investors who had no independent way to verify that the underlying business activity Kimbrough described was actually happening at all.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26402',
+});
