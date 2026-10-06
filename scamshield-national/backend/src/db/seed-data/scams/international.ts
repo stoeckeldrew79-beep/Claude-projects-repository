@@ -24164,3 +24164,16 @@ International.push({
   isHistorical: true,
   firstRecorded: '2025-12-01',
 });
+
+International.push({
+  name: 'AI-Generated Fake WAAFI Mobile Payment Receipts Used to Defraud Djibouti Merchants',
+  slug: 'djibouti-ai-fake-waafi-payment-receipt-merchant-fraud',
+  description: `In the PK12 district of Djibouti City, a suspect used AI-generated fake payment confirmation screenshots — made to look identical to a real WAAFI mobile-money transfer receipt — to convince shop owners that payment for electronics and clothing had already gone through, then walked out with the merchandise before the shopkeeper realized no money had actually arrived. At least six traders were defrauded this way before the primary suspect was caught attempting the same scheme again; two additional suspects, believed to have received or helped move the stolen goods, were also arrested. All three were referred to the prosecutor's office and held at Gabode Civil Prison pending trial, following complaints filed at the Hodan police station. The case is a distinct mechanism from more familiar advance-fee or job-recruitment scams that impersonate WAAFI's brand to lure victims into sending money first — here, the fraud runs in the opposite direction, targeting the merchant at the point of sale by faking proof that money has already been sent. Shop owners accepting mobile-money payment are advised to confirm a transfer has actually landed by checking their own WAAFI balance or transaction history directly — never by trusting a screenshot, PDF, or text message a customer shows them on their own phone, since any of those can now be convincingly fabricated.`,
+  categorySlug: 'ai-deepfake-scams',
+  alertLevel: 'medium',
+  sources: ['Dawan Africa'],
+  sourceUrl: 'https://www.dawan.africa/news/djibouti-arrests-suspect-accused-of-using-ai-to-create-fake-electronic-payments',
+  country: 'DJ',
+  isHistorical: true,
+  firstRecorded: '2026-08-06',
+});
