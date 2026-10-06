@@ -11263,3 +11263,18 @@ Yuill was convicted on multiple charges under the New South Wales Companies Code
 Spedley's collapse is a reminder that balance-sheet fraud doesn't require a single dramatic lie — it requires only enough transactions, run through enough related entities, timed to enough reporting dates, that nobody outside the inner circle can reconstruct what actually happened before the auditor signs off. A $275 million "round robin" sounds impossibly large to hide, but broken into dozens of smaller transfers between related companies over a few days, it looked, to anyone not specifically tracing every leg, like ordinary business.`,
     sourceUrl: 'https://download.asic.gov.au/media/1347188/spedley.pdf',
 });
+
+NotoriousAF.push({
+    title: 'Christopher Knight Lopez and the $17 Million Katy, Texas Ponzi Scheme',
+    slug: 'christopher-knight-lopez-katy-texas-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    body: `Christopher Knight Lopez, of Katy, Texas, ran an investment business with his brother, Jayson Lopez of Orlando, Florida, from May 2015 to January 2025, telling clients their money would be placed into legitimate investment opportunities. To make those opportunities look credible, the brothers gave clients false information about the companies they were supposedly investing in, backed up with forged bank letters and fabricated account statements overstating those companies' financial strength. At one point they claimed access to $2 billion in U.S. Treasury bonds and collected advance fees for loans that were never actually issued.
+
+None of it held up to scrutiny because none of it was real. Rather than investing client money as promised, the Lopez brothers spent a share of it on themselves and used additional investor funds to pay fabricated "returns" to earlier investors — the same mechanism that defines every Ponzi scheme, dressed up here with forged paperwork rather than a flashy cover story. In total, the scheme took in more than $17 million from more than 40 victims, among them senior citizens investing their retirement savings, parents saving for their children's college education, and local and international businesses.
+
+Christopher Knight Lopez pleaded guilty on February 19, 2026 to conspiracy to commit wire fraud. At sentencing, U.S. District Judge Keith Ellison heard statements from 13 victims and told the court he had never seen a white-collar crime more offensive in his time on the bench, then sentenced Lopez to 120 months — ten years — in federal prison, to be followed by three years of supervised release.
+
+The case is a reminder that forged documentation can substitute for an actual track record for a surprisingly long time — nearly a decade, in this instance — when the people relying on it have no independent way to verify a bank letter or account statement actually came from the institution it claims to be from, rather than from the person asking them to trust it.`,
+    sourceUrl: 'https://coveringkaty.com/news/katy/katy-man-pleads-guilty-in-17-million-investment-fraud-scheme/',
+});
