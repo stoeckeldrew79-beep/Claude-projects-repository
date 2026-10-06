@@ -11967,3 +11967,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2021-01-01',
 });
+
+UsAF.push({
+    name: 'Vault of Gems and Faceless NFT Rug-Pull Scheme (Hay and Mayo)',
+    slug: 'california-vault-of-gems-faceless-nft-rug-pull-scheme',
+    description: `From May 2021 to May 2024, Gabriel Hay of Beverly Hills and Gavin Mayo of Thousand Oaks allegedly ran a repeated "rug pull" operation across at least nine separate NFT and digital-asset projects minted on Ethereum and Solana, including Vault of Gems, Faceless, Sinful Souls, Clout Coin, Dirty Dogs, Uncovered, MoonPortal, Squiggles, and Roost Coin. Prosecutors say the pair promoted each project with false and misleading roadmap and utility promises — Vault of Gems, for instance, was falsely marketed as the "first NFT project to be pegged to a hard asset" — to get investors to mint or buy in, then abandoned development on each project after collecting the proceeds rather than delivering what was promised. A federal grand jury indicted Hay and Mayo in December 2024 on one count of conspiracy to commit wire fraud and two counts of wire fraud, with prosecutors describing it as the largest NFT fraud scheme the Department of Justice has ever prosecuted, totaling more than $22 million in investor losses. Mayo was additionally charged with stalking after allegedly harassing a project manager who had publicly exposed the scheme. Each conspiracy and wire fraud count carries a maximum sentence of 20 years, with an additional five years possible on the stalking charge. The case illustrates a pattern distinct from a single rug pull: rather than one failed project, the same operators allegedly moved from launch to launch, reusing the same playbook of inflated promises and abandoned roadmaps, which is why a buyer's best protection is treating any new NFT or token project's roadmap claims as unproven until a working product actually exists, rather than assuming legitimacy because a founder has launched multiple projects before.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Central District of California"],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/beverly-hills-and-ventura-county-men-indicted-allegedly-running-nft-crypto-fraud',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2024-12-20',
+});
