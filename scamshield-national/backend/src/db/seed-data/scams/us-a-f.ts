@@ -11939,3 +11939,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2018-07-18',
 });
+
+UsAF.push({
+    name: 'DC Imposter Scam Complaints Top $1.6 Million in a Single Year',
+    slug: 'dc-disb-imposter-scam-complaint-statistics',
+    description: `The DC Department of Insurance, Securities and Banking (DISB) reported that District residents filed 92 impersonation-scam complaints in 2024 alone, totaling $1.6 million in losses. These cases follow a common playbook: a scammer poses as a business or a government agency, using a spoofed caller ID number, a counterfeit employee identification badge, or an email with subtle errors in the sender's address to appear legitimate, then pressures the target with an urgent demand for payment or personal information before the person has time to independently verify who is actually calling. DISB's Enforcement and Consumer Protection Division directs DC residents who encounter a suspected impersonation attempt to contact the agency directly at 202-727-8000 rather than relying on any contact information the caller themselves provided, and to report the attempt so it can be tracked alongside the District's broader complaint data. The specific statistic — 92 complaints and $1.6 million lost in a single year — is a reminder of how much is actually at stake behind a single phone call, even when no particular agency, company, or scammer is yet named in a given incident.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['DC Department of Insurance, Securities and Banking (DISB)'],
+    sourceUrl: 'https://disb.dc.gov/node/1790446',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    firstRecorded: '2024-01-01',
+});
