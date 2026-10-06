@@ -12762,3 +12762,29 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2024-11-19',
 });
+
+UsGM.push({
+    name: 'Typhoon Mawar FEMA Disaster-Assistance Impersonation Scam (Guam)',
+    slug: 'guam-typhoon-mawar-fema-impersonation-scam',
+    description: `After Super Typhoon Mawar struck Guam in May 2023, roughly 13,000 residents applied for federal disaster assistance, and Guam's Joint Information Center — part of the territory's Office of Civil Defense — warned on June 8, 2023 that "potential con artists or criminals" could pose as FEMA disaster-assistance workers, housing inspectors, or Small Business Administration representatives to extract money or steal personal information under the cover of a legitimate recovery effort. The advisory laid out the real markers of a genuine FEMA or SBA official: they never charge a fee for an application, an inspection, or help filling out paperwork, they always carry visible photo identification, and they can reference the applicant's specific FEMA case number on request — a caller or visitor who can't produce that number, or who asks for payment of any kind, is not who they claim to be. Residents were urged to independently verify anyone claiming to represent FEMA or the SBA before sharing personal information or granting access to their property, and to report suspected fraud to the Mariana Regional Fusion Center at (671) 475-0400 or mrfc@ghs.guam.gov. This is a distinct risk from the price-gouging this database already documents among electricians certifying storm-damaged weatherheads after the same typhoon — that scheme exploited a licensing bottleneck for profit, while this one uses the federal aid process itself as a cover for outright identity theft and fraud.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Guam Joint Information Center / Office of Civil Defense', 'Pacific Daily News (postguam.com)'],
+    sourceUrl: 'https://www.postguam.com/news/local/jic-warns-the-community-to-be-wary-of-fema-fraud/article_21da7c62-05a3-11ee-b53c-e353ec73f4f0.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2023-06-08',
+});
+
+UsGM.push({
+    name: 'Fake Cruise Line "Prize Party" Identity-Theft Scam (Guam)',
+    slug: 'guam-cruise-line-prize-party-identity-theft-scam',
+    description: `The Office of the Guam Attorney General, under then-Attorney General Leonardo Rapadas, warned residents about telephone scammers operating under fake travel-agency names — including "Asia Pacific Travel," "Classical Traveling," "Crystal Line Tourism," and "Viva Travel Agency," some reportedly based in Malaysia — who called Guam residents claiming they had won a prize, in at least two reported cases $130,000, from a cruise line calling itself "Aloha Travel Cruise Ship." Victims were invited to "promotion parties" at Guam beach locations including FaiFai, Family, Gun, Hagåtña Harbor, Port Authority, and Tagåchang to collect their winnings, but the real purpose was to collect personal identification information for identity theft. Investigators found a telling inconsistency in one version of the pitch: scammers told two victims the "cruise ship" would dock at Hagåtña Harbor, but the Consumer Protection Unit's Bernie Alvarez pointed out that a cruise ship cannot physically dock at that boat basin at all. The scam reportedly resurged around the time the real cruise ship Sun Princess made an actual port call in Guam, lending it extra plausibility. Rapadas's office urged residents who receive this kind of call to hang up and never provide personal or financial information, particularly a Social Security number or bank details, to anyone claiming to award a prize over the phone.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ["Office of the Guam Attorney General"],
+    sourceUrl: 'https://www.lipcon.com/blog/guam-attorney-general-warns-residents-to-be-wary-of-cruise-ship-crime-scams/',
+    country: 'US',
+    state: 'GU',
+});
