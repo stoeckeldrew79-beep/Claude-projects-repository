@@ -5362,6 +5362,10 @@ GuidesNS.push({
     slug: 'onepay-walmart-impersonation-loan-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'onepay-impersonation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Walmart_Store_sign.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike Mozart (JeepersMedia), CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.propublica.org/article/after-walmart-bought-finance-app-one-complaints-soared',
     body: `OnePay, originally called "One," is a fintech app Walmart co-created with Ribbit Capital in 2021 and took fuller control of starting in 2022, offering banking, debit and credit cards, loans, and — after a March 2025 rebrand — wireless service and crypto trading to the general public, not just Walmart's 1.6 million employees and Spark delivery drivers. After Walmart tightened its grip on the company, it weakened the app's security rather than strengthening it: mobile users no longer need a password at all, logging in with just a phone number and a one-time SMS passcode, while resetting a PIN requires only the last four digits of a Social Security number. As security researcher Allison Nixon put it, "possession of a phone number plus a PIN that isn't really required because you can just reset it is one-factor authentication" — and because the same phone number serves as both the username and the delivery channel for that one factor, anyone who can intercept or social-engineer access to a victim's phone number has effectively unlocked the account.
 
@@ -5379,6 +5383,10 @@ GuidesNS.push({
     slug: 'pinkwashing-breast-cancer-awareness-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pinkwashing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Pink_Ribbon_757_(Susan_G._Komen_for_the_Cure)_(5229095220).jpg?width=1200',
+    coverImageCredit: 'Photo: Cory W. Watts, CC BY-SA 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://ago.vermont.gov/blog/2023/10/06/consumer-advisory-avoid-pink-pitfalls-breast-cancer-awareness-month',
     body: `Every October, store shelves fill with pink-ribbon products — kitchen gadgets, apparel, snack foods, car-wash packages — implicitly or explicitly suggesting that buying them supports breast cancer research or patients. The practice has a name, "pinkwashing," and the core problem behind it is simple: the pink ribbon isn't a licensed or regulated symbol. No law requires a company that puts one on a product to actually donate anything, to disclose what share of the sale price goes to a cause, or to say which charity, if any, receives the money.
 

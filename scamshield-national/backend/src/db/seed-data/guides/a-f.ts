@@ -1923,6 +1923,10 @@ Before mailing anything, get a baseline value: check the current spot price of g
     slug: 'traveling-cash-for-gold-hotel-buying-event-scam',
     author: 'ScamShield Editorial',
     tags: ['guide', 'cash-for-gold-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cash_for_Gold_Pawn_Store,_Griffin.JPG?width=1200',
+    coverImageCredit: 'Photo: Michael Rivera (Mjrmtg), CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://levittownnow.com/2025/10/05/consumer-corner-the-price-of-gold-scams-are-on-the-rise/',
     body: `A flyer, local radio ad, or Facebook post announces a "gold and silver buying event" coming to a hotel ballroom, conference center, or mall kiosk for just two or three days before moving on to the next town. The pitch promises the "highest prices paid" for old jewelry, coins, dental gold, or scrap silver, and draws a steady line of sellers — often older adults clearing out a jewelry box — eager to turn unused pieces into quick cash before the event packs up and leaves.
 
