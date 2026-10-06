@@ -11789,3 +11789,18 @@ The SEC filed its civil action on July 1, 2022, in federal court; litigation con
 Kimbrough's case illustrates how a Ponzi scheme doesn't need an exotic or glamorous cover story to work — a mundane-sounding "wholesale real estate and medical supply resale" business was enough to collect millions of dollars from investors who had no independent way to verify that the underlying business activity Kimbrough described was actually happening at all.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26402',
 });
+
+NotoriousGM.push({
+    title: 'Milendophe Duperier and the Ponzi Scheme That Targeted Massachusetts\' Haitian Community',
+    slug: 'milendophe-duperier-haitian-community-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    body: `Milendophe Duperier posed as an investment advisor in Massachusetts, soliciting money from dozens of individual investors — many of them drawn from the state's Haitian community, a connection helped along by the fact that his own father served as a pastor at a Haitian church. From early 2018 to December 2022, Duperier told investors he would use their money to purchase securities, while his girlfriend and business partner, Vanessa Joseph, assisted in running the operation.
+
+In reality, prosecutors said, the money was never invested as promised. Duperier and Joseph used new investors' funds to pay "returns" to earlier investors — the defining structure of a Ponzi scheme — and to cover personal expenses, including luxury vehicles, mortgage payments, and credit card debt. The scheme took on an added layer during the pandemic: the pair applied for and received Small Business Administration and Paycheck Protection Program loans totaling more than $1.42 million for various entities, then used that COVID-relief money to help pay purported investment returns to victims rather than for payroll or the business purposes the loans were meant to fund.
+
+In total, Duperier and Joseph defrauded investors — many of whom had put in their life savings — of more than $3.2 million. Both pleaded guilty to one count of conspiracy to commit wire fraud, and U.S. District Judge Myong J. Joun sentenced them in Massachusetts federal court on October 14, 2025: Duperier to five years in prison followed by two years of supervised release, and Joseph to time served (one day) followed by two years of supervised release.
+
+The case illustrates how affinity fraud and pandemic-era relief fraud can compound each other: the same trust that let Duperier recruit investors through his father's church also meant victims were less likely to publicly question him, while the COVID loan programs gave the scheme a second, government-backed source of cash to keep the appearance of "returns" flowing even as the underlying investment business remained entirely fictional.`,
+    sourceUrl: 'https://www.wealthmanagement.com/regulation-compliance/couple-sentenced-for-using-covid-loans-to-fund-advisory-scheme',
+});
