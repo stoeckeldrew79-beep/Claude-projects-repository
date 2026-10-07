@@ -12985,3 +12985,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2021-01-01',
 });
+
+UsGM.push({
+    name: 'Plainville Livestock Commission Check-Kiting Scheme (Tyler Gillum)',
+    slug: 'kansas-plainville-livestock-commission-check-kiting-scheme',
+    description: `Tyler Gillum owned Plainville Livestock Commission, a cattle sale barn in Rooks County, Kansas, where ranchers brought livestock to be auctioned and expected payment soon after the sale. From January 2015 to August 2017, Gillum instead ran a check-kiting scheme, writing checks and wire transfers back and forth across multiple bank accounts he controlled to fraudulently inflate the balances and keep the business appearing solvent, causing more than $10 million in losses to the banking system. The scheme left ranchers waiting — some more than ten months — for payment on cattle they had already sold, with over $900,000 owed across two livestock auctions by the time the business finally collapsed into bankruptcy on March 1, 2019; Almena State Bank, one of the defrauded banks, failed in October 2020. A federal jury convicted Gillum on 33 counts: 31 counts of bank fraud, one count of making a false SBA loan statement, and one count of making a false statement on a credit application. On November 29, 2022, U.S. District Judge Daniel Crabtree sentenced Gillum to 60 months in prison and three years of supervised release, ordering restitution of $6.8 million to Landmark National Bank of Manhattan, Kansas, $250,000 to Federal Insurance Company, and $208,000 to TBK Bank of Dallas. The case is a reminder that a livestock sale barn's apparent activity and cash flow aren't proof it's actually solvent — ranchers and other sellers working with any sale barn or commission house can ask how quickly after a sale payment is issued and watch for any pattern of delayed or partial payments, since a kiting scheme depends on continuing to take in new sales to cover what's already owed on old ones.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office for the District of Kansas', 'High Plains Journal'],
+    sourceUrl: 'https://hpj.com/2022/12/01/former-plainville-livestock-commission-owner-sentenced-to-prison-millions-in-restitution/',
+    country: 'US',
+    state: 'KS',
+    isHistorical: true,
+    firstRecorded: '2022-11-29',
+});

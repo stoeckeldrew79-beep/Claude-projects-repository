@@ -11995,3 +11995,30 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2025-12-12',
 });
+
+UsAF.push({
+    name: 'FBI "Operation Token Mirrors" Fake-Token Market-Manipulation Sting',
+    slug: 'fbi-operation-token-mirrors-fake-token-wash-trading-sting',
+    description: `In an unprecedented step, the FBI created its own cryptocurrency token and company — an Ethereum-based token called NexFundAI — and used it to approach real crypto "market making" firms, posing as the token's founders. Several firms, including CLS Global, Gotbit, ZM Quant, and MyTrade, agreed to perform "wash trading" for NexFundAI: using bots to execute self-trades across multiple wallets on exchanges including Uniswap, artificially inflating the token's trading volume and price to make it look like a legitimate, actively traded asset meeting exchange listing requirements. Wash trading is exactly the kind of fake liquidity signal that convinces real investors a token is worth buying — manufactured proof of demand that doesn't actually exist, sold as a paid service to anyone willing to pay for it. The Department of Justice announced the operation, dubbed "Operation Token Mirrors," on October 9, 2024, charging 18 individuals and entities; the SEC separately filed civil securities charges against several of the same firms and employees. CLS Global, a UAE-registered firm, pleaded guilty to wire fraud and fraudulent manipulation of cryptocurrency trading volume, agreeing to pay a $428,059 fine, forfeit funds held on Binance and KuCoin, and be barred from serving U.S. crypto customers going forward; several other defendants have also pleaded or agreed to plead guilty. More than $25 million in crypto was seized, with defendants arrested in Texas, the United Kingdom, and Portugal. The case exposes a mechanism most retail investors never see: before a token or exchange listing ever reaches an ordinary buyer, paid "market makers" can be hired specifically to fake the trading activity that makes a new asset look liquid and credible, meaning high trading volume alone is never proof that real, independent buyers and sellers are actually behind it.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice', 'U.S. Attorney\'s Office for the District of Massachusetts', 'Securities and Exchange Commission'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/cryptocurrency-financial-services-firm-agrees-plead-guilty-charges-related',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2024-10-09',
+});
+
+UsAF.push({
+    name: 'Cloned Connecticut Car Dealer Identities Used in Wire-Payment Vehicle Scams',
+    slug: 'connecticut-cloned-dealer-identity-vehicle-wire-fraud',
+    description: `Scammers have repeatedly cloned the online identities of real, licensed Connecticut used and classic-car dealerships to sell vehicles that don't exist, pressuring out-of-state buyers to wire full payment before any "delivery" that never comes. In one case reported by WFSB, Dale Frye of California wired $25,000 for a 1934 Ford Cabriolet listed under the name of "Auto Store CT Quality Used Cars," a business address that turned out to be an empty storage unit on New Park Avenue in West Hartford; the seller, who identified himself only as "James," stopped responding once Frye traveled to Connecticut and discovered there was no actual dealership there. The pattern has repeated under other cloned dealership identities as well, including Classic Leyland Restorations of Prospect and Premier Motorsports LLC of Canton — in one instance an 80-year-old disabled veteran lost $30,000 and an Idaho buyer lost $25,000 to a scammer using the alias "Josh." The Better Business Bureau has separately tracked the same wire-payment mechanism statewide, including a Vernon, Connecticut man who lost $36,000 on a 1970 Chevelle that was never real, and named "virtual vehicle scams" among the most expensive online purchase scams Connecticut consumers reported in 2025. BBB Communications Director Kristen Johnson pointed to the core red flag in every version: "The fact that he had to wire the money, because that's like handing someone cash and making it impossible to get your money back, and the fact that the seller offered to ship it at a discount — those are all red flags." Anyone buying a vehicle sight-unseen should call the dealership directly using a phone number looked up independently (not one listed on the ad itself), confirm the business's physical address actually exists and is licensed to sell vehicles, and never wire money for a car — or any big-ticket item — before seeing it in person or arranging payment through an escrow service designed for vehicle purchases.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['WFSB', 'Better Business Bureau (Connecticut)', 'Greenwich Free Press'],
+    sourceUrl: 'https://www.wfsb.com/2024/10/02/california-man-loses-25000-classic-car-dealer-scam-connecticut/',
+    country: 'US',
+    state: 'CT',
+    isHistorical: true,
+    firstRecorded: '2024-10-02',
+});
