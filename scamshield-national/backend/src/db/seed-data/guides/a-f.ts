@@ -9745,6 +9745,10 @@ GuidesAF.push({
     slug: 'anesthesia-free-pet-dental-scaling-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pet-dental-scaling-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Greyhound_teeth.jpg?width=1200',
+    coverImageCredit: 'Photo: Chaoticfluffy (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://vmb.ca.gov/forms_pubs/ccr2037_faq.pdf',
     body: `A mobile or pop-up "pet dental" operator — often set up inside a pet-supply store, a grooming salon, or a booth in a parking lot — offers to scale and polish a dog's or cat's teeth while the animal is fully awake, with no anesthesia, for a fraction of what a veterinary dental cleaning costs. One of the largest operators of this kind, Canine Care Inc., built a network of roughly 650 outlets across California and served more than 100,000 customers, charging around $100 for a cleaning against the $300 to $800 a real veterinary dental procedure typically runs. The pitch sounds like a reasonable shortcut: a cleaner, whiter-looking mouth without the cost or anesthesia risk of a vet visit.
 
