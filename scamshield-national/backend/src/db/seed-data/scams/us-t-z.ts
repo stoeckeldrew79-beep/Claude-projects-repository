@@ -7008,3 +7008,16 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2024-10-28',
 });
+
+UsTZ.push({
+    name: 'WaterPlum "Contagious Interview" Fake Coding-Test Crypto-Wallet Malware',
+    slug: 'waterplum-contagious-interview-crypto-wallet-malware',
+    description: `North Korean state-linked actors, tracked under names including WaterPlum and "Contagious Interview," pose as AI, blockchain, or NFT employers on social media, job boards, and freelance marketplaces, targeting software developers and Web3 engineers with fake job opportunities. During a staged technical interview, the "recruiter" asks the candidate to download and run a coding test, or a supposed fix for a video-call bug, from a code repository — the file actually installs a chain of malware (tracked under names including BeaverTail, InvisibleFerret, OtterCookie, OtterCandy, and StoatWaffle) that harvests cryptocurrency wallet credentials and browser-stored data, and can grant the attackers ongoing access to the victim's device. A joint cybersecurity advisory issued September 18, 2026 by the FBI, the U.S. Department of Defense Cyber Crime Center, and law enforcement partners in Japan, Australia, and Germany reported that the campaign had infected at least 30,000 devices across more than 100 countries and stolen credentials from over 7,000 cryptocurrency wallets, worth roughly $10.7 million, between December 2025 and July 2026. The scheme succeeds because it targets the exact audience most likely to have valuable crypto wallets and to trust a technical hiring exercise without a second thought. Developers approached about a remote job, especially one in crypto, blockchain, or Web3, should never run code from an unfamiliar interviewer or recruiter outside an isolated virtual machine or sandbox, should independently verify the hiring company exists and is actually conducting interviews, and should treat a request to "fix" or run an unreviewed script as a red flag regardless of how legitimate the surrounding hiring process looks.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Federal Bureau of Investigation', 'U.S. Department of Defense Cyber Crime Center (DC3)', 'international partner law enforcement agencies (Japan, Australia, Germany)'],
+    sourceUrl: 'https://www.ic3.gov/CSA/2026/260918.pdf',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2026-09-18',
+});
