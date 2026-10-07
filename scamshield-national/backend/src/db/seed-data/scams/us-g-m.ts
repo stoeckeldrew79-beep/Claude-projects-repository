@@ -12949,3 +12949,28 @@ UsGM.push({
     state: 'ME',
     isHistorical: true,
 });
+
+UsGM.push({
+    name: 'Georgia Student Finance Commission Upfront-Fee Scholarship/Loan Scam',
+    slug: 'georgia-student-finance-commission-upfront-fee-scam',
+    description: `Scammers contact Georgia students and their families posing as representatives who can guarantee approval for state loans, scholarships, or grants in exchange for an upfront "application" or processing fee. The Georgia Student Finance Commission (GSFC) — the actual state agency that administers these financial-aid programs — issued a direct fraud warning stating plainly that GSFC "will never ask for an application fee or upfront money in order for a person to be approved or to receive a loan, scholarship or grant," and that any request to pay for approval or guaranteed disbursement should itself be treated as a sign of fraud. The scheme works by exploiting families' unfamiliarity with how state financial aid is actually administered, since a caller claiming special ability to speed up or guarantee an outcome a real state agency decides through its own standard process can sound plausible to someone anxious about paying for school. Students or families contacted this way should never pay an upfront fee for loan, scholarship, or grant approval, and can verify any communication claiming to be from GSFC directly at 770-724-9014 before sending money or personal information.`,
+    categorySlug: 'student-loan-education',
+    sources: ['Georgia Student Finance Commission'],
+    sourceUrl: 'https://gsfc.georgia.gov/node/881',
+    country: 'US',
+    state: 'GA',
+});
+
+UsGM.push({
+    name: '"Escrow Corp of Georgia" Timeshare Resale Advance-Fee Scam',
+    slug: 'georgia-escrow-corp-timeshare-resale-scam',
+    description: `Fraudsters posing as a timeshare reseller calling itself "Escrow Corp of Georgia" tell timeshare owners a buyer is already lined up for their property, then demand upfront "fees and taxes" wired to the company — often to an account overseas — before the sale can supposedly close, continuing to invent new fees until the victim either runs out of money or the fake sale collapses. A legitimate company with a nearly identical name actually exists; the Georgia Attorney General's office found the scammers had committed corporate identity theft by hijacking the real company's Secretary of State filing information and altering the names of its corporate officers, making the fraudulent entity look legitimate to anyone who checked the state's own business registry. The near-identical name and the manipulated state filing are what make this scheme unusually convincing compared to an obviously fake-sounding company name: a timeshare owner doing basic due diligence would find a real, registered Georgia corporation, just with its ownership details quietly altered by the fraudsters. Georgia's Attorney General warns that any request to wire money in connection with a timeshare resale or rental, especially to an account outside the country, is a major red flag regardless of how legitimate the company's paperwork appears, and suspected cases can be reported to the Attorney General's Consumer Protection Unit at 404-651-8600.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Georgia Office of the Attorney General'],
+    sourceUrl: 'https://consumer.georgia.gov/node/456',
+    country: 'US',
+    state: 'GA',
+    isHistorical: true,
+    firstRecorded: '2018-06-01',
+});
