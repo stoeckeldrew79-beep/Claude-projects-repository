@@ -12100,3 +12100,15 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2022-04-28',
 });
+
+UsAF.push({
+    name: 'City of Auburn Planning & Zoning Permit Phishing Scam',
+    slug: 'auburn-planning-zoning-permit-phishing-scam',
+    description: `Fraudsters send emails impersonating the City of Auburn, Alabama's planning and zoning department, billing residents and businesses for fake permit or application fees and directing them to wire money or pay in cryptocurrency. The city's official warning notes that legitimate correspondence only ever comes from its own auburnal.gov domain, that it will never request wire transfers or cryptocurrency payment, and that an authentic communication from the city won't restrict a resident to email-only contact — a legitimate permit question can always be confirmed by phone with Planning Services directly. The scheme follows a familiar business-email-compromise pattern applied to local government: a plausible-sounding municipal fee, sent at a moment (permit application, zoning review) when a payment request doesn't seem unusual, aimed at a victim who has no easy way to independently confirm the email is fake before paying. Anyone who receives an unexpected request for a permit or zoning fee by email should call Auburn Planning Services directly at 334-501-3040 to confirm it's genuine before sending any payment, and can report a suspected phishing attempt to the Auburn Police Department at 334-501-3100.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['City of Auburn, Alabama'],
+    sourceUrl: 'https://openline.auburnalabama.org/article/9788',
+    country: 'US',
+    state: 'AL',
+});

@@ -12300,3 +12300,66 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-11-05',
 });
+
+UsNS.push({
+    name: 'North Dakota Fake Toll Fee Text Message Scam',
+    slug: 'north-dakota-fake-toll-fee-text-scam',
+    description: `The North Dakota Department of Transportation and Fargo Police jointly warned residents in February 2025 about text messages falsely claiming the recipient owes an unpaid toll fee, despite North Dakota having no toll roads at all, and demanding payment within a tight window — as little as 12 hours in some messages — under threat of a DMV report. Clicking the link in the text leads to a fake payment site designed to harvest the victim's name, birthdate, Social Security number, and driver's license details rather than collect any real toll. NDDOT received 87 calls in a single day from residents questioning the legitimacy of the texts, compared to the one or two such calls it typically fields daily, showing how quickly a single smishing wave can spread once a convincing-looking fake notice starts circulating. Because North Dakota charges no tolls anywhere in the state, any text claiming an unpaid toll is automatically fraudulent for North Dakota residents; anyone who receives one should not click the link, and can verify by contacting NDDOT directly or reporting the message to local police.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['North Dakota Department of Transportation', 'Fargo Police Department', 'Grand Forks Herald'],
+    sourceUrl: 'https://www.grandforksherald.com/news/north-dakota/north-dakota-officials-warns-of-scam-texts-demanding-fake-toll-fees',
+    country: 'US',
+    state: 'ND',
+    isHistorical: true,
+    firstRecorded: '2025-02-25',
+});
+
+UsNS.push({
+    name: 'Student Loan Services LLC Unlicensed Debt-Relief Scheme',
+    slug: 'north-dakota-student-loan-services-unlicensed-debt-relief',
+    description: `California-based Student Loan Services LLC collected fees from North Dakota residents — one consumer paid nearly $900 — for federal student-loan enrollment help that the U.S. Department of Education already provides free of charge, while operating in North Dakota without the debt-settlement license state law requires. North Dakota Attorney General Wayne Stenehjem's office found the company had signed contracts with 18 North Dakota residents, one of whom reported paying for months without the company taking any actual steps to reduce her student debt. Under the resulting order, the company agreed to cancel all 18 of its North Dakota contracts, issue refunds to anyone who requests one, and stop soliciting new business in the state until it obtains proper licensing from the North Dakota Department of Financial Institutions. The case is a reminder that federal student loan consolidation, income-driven repayment enrollment, and forgiveness applications are always free through the Department of Education's own studentaid.gov site, so any company charging an upfront fee for the same service is either overcharging for something free or, as in this case, operating without the license the state requires to legally offer debt-relief services at all.`,
+    categorySlug: 'student-loan-education',
+    sources: ['North Dakota Attorney General', 'Grand Forks Herald'],
+    sourceUrl: 'https://www.grandforksherald.com/news/student-debt-relief-company-ordered-to-give-refunds-cease-business-in-north-dakota',
+    country: 'US',
+    state: 'ND',
+    isHistorical: true,
+});
+
+UsNS.push({
+    name: 'North Dakota Fake Real Estate Listing Rental Scam',
+    slug: 'north-dakota-fake-real-estate-listing-rental-scam',
+    description: `Valley City Police warned that scammers are copying photos, addresses, and property details from real, active real-estate listings and reposting them in social media video ads as available to rent or buy, then directing interested renters to submit an application and a cash deposit that is never returned. Dickinson Police separately confirmed the same pattern in their own community — a genuine listing re-posted with only the contact information swapped out for the scammer's — warning that the tactic works precisely because the photos, address, and property description are all real, making the fake post look as credible as the original. Victims lose both money and personal information submitted on a bogus rental application, since the scheme is designed to harvest both at once. Prospective renters are advised to verify a property through a reputable real estate website or a local licensed professional, confirm that whoever is offering the property is the actual owner or an authorized property manager, treat any pressure to pay quickly as a red flag, and never send a deposit by gift card, wire transfer, cryptocurrency, or payment app to someone who hasn't been independently verified.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Valley City Police Department', 'Dickinson Police Department', 'Valley News Live'],
+    sourceUrl: 'https://www.valleynewslive.com/2026/07/28/scam-alert-fake-real-estate-listings/',
+    country: 'US',
+    state: 'ND',
+    isHistorical: true,
+    firstRecorded: '2026-07-28',
+});
+
+UsNS.push({
+    name: 'BBB Central Oklahoma Online Puppy Scam Alert',
+    slug: 'oklahoma-bbb-online-puppy-scam',
+    description: `The Better Business Bureau warned Oklahomans about a spike in fake online puppy listings, in which scammers post stock photos of dogs that don't actually exist, collect an upfront payment, and then invent additional "shipping" and "insurance" fees once the buyer has already paid and is emotionally invested in getting the puppy. BBB spokesperson Kitt Letcher described the core of the scheme bluntly: "the dog typically does not exist" — the listing exists purely to collect payment, not to sell an actual animal. Victims who press for delivery are met with a string of new, escalating fees rather than a puppy, and by the time they realize nothing is coming, the seller has typically vanished along with any contact information provided. The BBB's standing advice is to reverse-image-search any puppy photo to check whether it's been lifted from another site, insist on a live video call showing the actual puppy and its parents before paying anything, and call any breeder directly by phone rather than relying only on email or a listing's contact form.`,
+    categorySlug: 'pet-sales-scams',
+    sources: ['Better Business Bureau', 'News 9'],
+    sourceUrl: 'https://news9.com/story/5ea3551f88ad857b12f0ca47/bbb-reports-a-spike-in-puppy-scams-in-oklahoma',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+});
+
+UsNS.push({
+    name: 'Oklahoma Department of Securities Timeshare Resale and Cancellation Scam Warning',
+    slug: 'oklahoma-ods-timeshare-resale-cancellation-scam',
+    description: `The Oklahoma Department of Securities warned timeshare owners about a rise in solicitations from companies and individuals falsely claiming to already have buyers lined up for a timeshare resale, or offering a paid "exit" service to cancel a timeshare contract altogether. The Department said it had received numerous reports from Oklahomans who lost money to these schemes, which typically collect an upfront fee before failing to deliver either a real sale or an actual, binding cancellation of the timeshare contract. Because a timeshare is often difficult to resell through a legitimate buyer at anywhere close to its original price, a caller claiming to already have a ready buyer lined up — sight unseen, with no advertising or listing period — is itself a sign the pitch doesn't match how a real timeshare resale actually works. Timeshare owners approached this way are advised to verify any resale or cancellation company's registration directly with the Oklahoma Department of Securities before paying any upfront fee, and to be skeptical of any offer that claims a buyer is already waiting.`,
+    categorySlug: 'timeshare-scams',
+    sources: ['Oklahoma Department of Securities', 'Henryetta Free-Lance'],
+    sourceUrl: 'https://www.henryettafree-lance.com/article/4716,ods-warns-timeshare-owners-of-resale-cancellation-scams',
+    country: 'US',
+    state: 'OK',
+});
