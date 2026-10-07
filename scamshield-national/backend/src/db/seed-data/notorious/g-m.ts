@@ -11902,3 +11902,18 @@ Winans pleaded guilty to wire fraud in October 2012. U.S. District Judge Sean Co
 The case illustrates affinity fraud at its most direct: Winans didn't need a sophisticated cover story once his family name and church connections had already done the work of establishing trust, and victims who would have been skeptical of a stranger's investment pitch extended exactly the trust a family name and shared faith community are meant to earn — right up until the money was gone.`,
     sourceUrl: 'https://www.csmonitor.com/USA/Latest-News-Wires/2013/0228/Michael-Winans-Jr.-gospel-family-scion-gets-nearly-14-years-in-prison',
 });
+
+NotoriousGM.push({
+    title: 'John Erasmus Frimpong and the $28 Million "1st Million" Fake-Pastor Ponzi Scheme',
+    slug: 'john-frimpong-1st-million-fake-pastor-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'affinity-fraud'],
+    body: `John Erasmus Frimpong, of Upper Marlboro, Maryland, ran 1st Million LLC — also doing business as "1st Million Dollars" through a Delaware entity called The Smart Partners LLC — as a self-described wealth-management and financial-literacy company. Frimpong and his co-conspirators, who presented themselves to prospective investors as pastors, used that borrowed religious credibility along with false claims about the principals' financial credentials and a supposedly protective "trust" structure to persuade more than 1,200 victims across the United States to hand over more than $28.3 million.
+
+Behind the pitch was a classic Ponzi structure: new investor money was used to pay "returns" to earlier investors rather than being invested as promised, with 1st Million, Smart Partners, and a third front company called Access2Assets LLC all serving as different faces of the same underlying scheme. The operation collapsed in May 2019, leaving hundreds of investors with the bulk of their money gone. One co-defendant, Dennis Mbongeni Jali, fled the United States after the collapse and was later arrested in South Africa; another, Arley Ray Johnson, was convicted after a 10-day federal jury trial.
+
+Frimpong pleaded guilty to conspiracy to commit wire fraud, conspiracy to commit securities fraud, and securities fraud. U.S. District Judge Theodore Chuang sentenced him to 114 months — nine and a half years — in federal prison followed by three years of supervised release, and ordered him to pay $797,775 in individual restitution plus a share of a joint $16,664,020 restitution order covering the broader scheme.
+
+The case shows how borrowed religious authority can do the work a fabricated financial track record usually has to do on its own: investors who might have scrutinized a stranger's investment claims more closely extended a different, harder-to-question kind of trust to men presenting themselves as pastors, right up until the $28 million scheme they were running collapsed. Anyone solicited to invest by someone invoking a religious or community role should still independently verify the underlying investment and the person's actual financial credentials, since a claimed title offers no more protection against fraud than any other unverified credential.`,
+    sourceUrl: 'https://secretservice.gov/newsroom/releases/2022/09/maryland-man-convicted-after-10-day-trial-his-role-28-million-ponzi',
+});
