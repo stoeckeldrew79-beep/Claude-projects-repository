@@ -11308,3 +11308,18 @@ The Jamaican case against Hill, however, never reached a verdict. His trial was 
 The case is a reminder that an arrest and formal charges are not the same thing as accountability: a prosecution can collapse under the weight of its own delay long before a jury ever hears the evidence, especially when the witnesses a case depends on are difficult to keep track of for the better part of a decade. For Jamaican investors who lost their savings to Cash Plus, the scheme's founder faced less consequence for defrauding them than he had already faced, years earlier, for an entirely different fraud committed on the other side of the world.`,
     sourceUrl: 'https://past.jamaica-gleaner.com/article/news/20170524/timeline-how-cash-plus-fraud-case-unfolded',
 });
+
+NotoriousAF.push({
+    title: 'Amir Bramly and the Rubicon Business Group Ponzi Scheme That Shook Israeli Investors',
+    slug: 'amir-bramly-rubicon-business-group-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
+    body: `Amir Bramly founded, owned, and chaired Rubicon Business Group along with an affiliated non-bank lender called Kela Fund, presenting both as legitimate Israeli finance companies capable of offering investors an unusually attractive combination of high returns and low risk. Bramly backed those promises with false financial presentations that made Rubicon and Kela look like going concerns generating real returns from real lending and investment activity, when in fact no such returns existed.
+
+In reality, Bramly was running a classic Ponzi structure: money raised from new investors was used to pay "returns" to earlier investors, creating the appearance of a thriving business for as long as fresh capital kept arriving. Israeli prosecutors determined that Bramly defrauded investors of roughly NIS 340 million — then equivalent to about $100 million — before the scheme unraveled and the funds owed could no longer be covered by new deposits.
+
+Bramly was convicted of fraud, and the Tel Aviv District Court, with Judge Khaled Kaboub presiding, sentenced him in February 2021 to 10 years in prison along with a fine of NIS 400,000. The sentence drew criticism from at least one victim, who told reporters that given how thoroughly Bramly had "ruined peoples' lives," the sentence amounted to getting off lightly relative to the scale of the damage done.
+
+The Rubicon and Kela Fund collapse illustrates how a Ponzi scheme's core mechanism — paying old investors with new investors' money while presenting fabricated financials as proof of a legitimate operation — plays out identically whether the vehicle is a storefront investment club or, as here, a chartered business group with an affiliated lending arm; a formal corporate structure and official-sounding name provide no more assurance that underlying returns are real than any other con artist's promises do.`,
+    sourceUrl: 'https://en.globes.co.il/en/article-ponzi-scheme-operator-amir-bramly-handed-10-year-sentence-1001361962',
+});
