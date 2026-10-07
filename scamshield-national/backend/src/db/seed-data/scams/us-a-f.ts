@@ -11749,3 +11749,31 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2024-10-02',
 });
+
+UsAF.push({
+    name: 'Turo Fleet Straw-Buyer Auto Loan Fraud (Doral, Florida)',
+    slug: 'florida-turo-straw-buyer-fleet-loan-fraud',
+    description: `Alejandro Soto, operating as Venom Luxury Rentals Corporation out of Doral, Florida, recruited roughly 16 straw buyers with good credit to take out a combined $3.6 million in auto loans for 90 vehicles, promising he would make every loan and insurance payment himself and split Turo rental income with each buyer 50/50 while they did none of the work. Soto listed the vehicles on Turo.com, but the operation generated only about $600,000 in actual rental revenue against $3.6 million in loan obligations; once the payments stopped, straw buyers were left personally on the hook for their loans, towing bills, and toll charges, with several forced into bankruptcy. The Florida Office of Financial Regulation, FBI, and U.S. Attorney's Office jointly investigated the case, and Soto was convicted of conspiracy to commit wire fraud and three counts of wire fraud, receiving a 99-month federal prison sentence on June 5, 2026. The scheme is a reminder that a "passive income" pitch asking someone to put their own name and credit on a loan for assets they'll never personally control or inspect is a straw-buyer scheme regardless of whether a legitimate platform like Turo is used to generate the promised income — a genuine investment doesn't require the investor to personally sign for debt the promoter actually controls.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Florida Office of Financial Regulation', 'Federal Bureau of Investigation', 'U.S. Attorney\'s Office'],
+    sourceUrl: 'https://flofr.gov/enforcement/case-updates/case-details/doral-man-sentenced-to-prison-for--3.6-million-auto-lending-scheme',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2026-06-05',
+});
+
+UsAF.push({
+    name: 'Operation Blue Roof Impersonation Fraud After Hurricane Milton',
+    slug: 'florida-operation-blue-roof-impersonation-fraud',
+    description: `After Hurricane Milton struck Florida in October 2024, the U.S. Army Corps of Engineers activated Operation Blue Roof, a completely free program that installs temporary blue tarp roofing on storm-damaged homes for residents who register at the official blueroof.gov site. Florida's Division of Emergency Management warned that scammers were posing as contractors for the program and charging homeowners for a service that costs nothing. FDEM Director Kevin Guthrie delivered the warning directly: "If somebody's trying to charge you to put a blue roof on, tell them to go away." The scheme works because, in the chaos after a major hurricane, a legitimate-sounding government program name is an easy thing for a fraudster to invoke to a homeowner who hasn't yet learned the real program is free and how to sign up for it directly. Anyone offered a "blue roof" installation for a fee should decline and register instead at the official blueroof.gov site or call the program's toll-free number, and should verify any other storm-related government assistance program the same way — by going straight to the agency's own official site rather than trusting a door-to-door offer.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Florida Division of Emergency Management', 'Central Florida Public Media'],
+    sourceUrl: 'https://www.cfpublic.org/environment/2024-10-15/desantis-fdem-director-guthrie-army-corps-blue-roof-program-activated-florida',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2024-10-15',
+});
