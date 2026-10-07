@@ -12426,3 +12426,16 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-01-22',
 });
+
+UsNS.push({
+    name: 'CNMI Fake Government Paperwork Solicitation Letter Scam',
+    slug: 'cnmi-deceptive-solicitation-fake-government-paperwork-scam',
+    description: `The CNMI Office of the Attorney General, under Attorney General Edward Manibusan, warned Commonwealth consumers and small-business owners that fraudulent companies mail solicitation letters designed to imitate official government correspondence to businesses shortly after they register with the CNMI government. The letters demand payment for documents — such as a "Certificate of Status" or a workplace compliance poster — that are actually available free or far more cheaply through legitimate state and federal agencies, exploiting a new business owner's uncertainty about which filings are actually required. The alert specifically cited a Washington State Attorney General enforcement action against CA Certificate Service, LLC and Labor Poster Compliance LLC, which allegedly sent more than 210,000 similarly deceptive letters to businesses nationwide, and urged CNMI business owners to independently verify any such letter with the Office of Consumer Counsel before paying. The scheme preys on a moment every new business owner shares — just having registered, and not yet sure what paperwork is genuinely mandatory — using an official-looking letter rather than a phone call or email to borrow the credibility a mailed government notice normally carries.`,
+    categorySlug: 'government-impersonation',
+    sources: ['CNMI Office of the Attorney General'],
+    sourceUrl: 'https://www.cnmioag.org/consumer-alert-avoid-deceptive-solicitation-scams/',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2022-05-25',
+});
