@@ -12055,3 +12055,17 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2025-03-05',
 });
+
+UsNS.push({
+    name: 'Coin Dispute Network Fake Crypto-Recovery Business (Michael Lauchlan)',
+    slug: 'new-york-coin-dispute-network-fake-crypto-recovery-scheme',
+    description: `Michael Lauchlan ran Coin Dispute Network (CDN), a business at CoinDisputeNetwork.com that presented itself as a legitimate cryptocurrency-tracing and asset-recovery firm, with Lauchlan posing online as "Max Handler," CDN's supposed vice president and chief recovery officer. To build credibility with prospective clients who had already lost money to a separate crypto scam, CDN's website featured fabricated news articles and fake client testimonials. A client who paid an initial consultation fee in Ethereum would receive a falsified blockchain-tracing report claiming Lauchlan had identified exactly where their stolen funds had gone, then be asked for an additional fee to actually recover them — a fee that, like the first, bought nothing. The Manhattan District Attorney's Office interviewed more than 175 CDN customers; none recovered any cryptocurrency. Operating from roughly July 2022 to June 2023, the scheme ended when the DA's office seized CDN's domain in June 2023, in what the office described as the first time it had taken down a cryptocurrency recovery site, and traced about $14,000 in victim funds to the crypto exchange CoinEx, which a seizure order allowed prosecutors to recover. Lauchlan was arrested in Las Vegas on July 9, 2024, and charged with grand larceny in the third and fourth degrees and two counts of first-degree scheme to defraud. The case illustrates how a "recovery" service can mimic the look of a real one in exhaustive detail — fake press coverage, fake testimonials, even fake technical reports — while providing nothing a real blockchain investigator would; anyone approached by an asset-recovery firm after a crypto loss should independently verify the company's legitimacy and licensing before paying any fee, rather than trusting a polished website or a report that can't be checked by an outside expert.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['Manhattan District Attorney\'s Office', 'Homeland Security Investigations New York'],
+    sourceUrl: 'https://www.ice.gov/news/releases/hsi-new-york-task-force-investigation-leads-charges-against-man-who-used-scam',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2024-07-09',
+});
