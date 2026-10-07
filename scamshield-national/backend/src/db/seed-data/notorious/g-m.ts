@@ -11320,6 +11320,9 @@ NotoriousGM.push({
     slug: 'lowell-birrell-corporate-looting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lowell_Birrell_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: unknown photographer, Sedalia Democrat 1963 (public domain — US copyright not renewed)',
+    coverImagePosition: 50,
     body: `Lowell McAfee Birrell was born in 1907 in Whiteland, Indiana, trained as a lawyer at the University of Michigan Law School, and briefly practiced at the white-shoe New York firm Cadwalader, Wickersham & Taft before moving into corporate finance. There he developed a specialty that would define his career: taking formal, legal control of struggling, thinly traded public companies and quietly turning them into his own private source of cash.
 
 Through the 1950s, Birrell used mergers, stock issuances, and complex intercompany transactions to gain control of roughly 40 companies, including Claude Neon, United Dye & Chemical Corp., Fidelio Brewery, Swan-Finch Oil Co., Rhode Island Insurance Co., American Leduc Petroleums, and Doeskin Products. Rather than build any of them, he drained their treasuries while their share prices climbed on paper; at least ten of the companies he controlled ended up bankrupt or insolvent. He looted roughly $2 million from United Dye & Chemical alone before selling his stake to a fellow stock manipulator, Alexander Guterma, who went on to run frauds of his own using some of the same techniques.
@@ -11409,6 +11412,10 @@ NotoriousGM.push({
     slug: 'monroe-beachy-amish-investment-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'affinity-fraud', 'ponzi-scheme', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Amish_Country_Byway_-_A_Working_Farm_in_Holmes_County_-_NARA_-_7716966.jpg?width=1200',
+    coverImageCredit: 'Photo: S. Clyde / US DOT via NARA (public domain) — a farm in Holmes County, Ohio, where A&M Investments operated',
+    coverImagePosition: 50,
     body: `Monroe L. Beachy was an elderly Amish man running a business called A&M Investments out of Sugarcreek, Ohio, in the heart of the state's Amish and Mennonite farm country. Beginning around 1986 and continuing until June 2010, Beachy raised at least $33 million from more than 2,600 investors — the overwhelming majority of them fellow Amish, who deposited their savings with him on the strength of community trust rather than any licensed financial relationship. Beachy told investors their money would go into "risk-free" U.S. government securities, and that they would earn interest better than a conventional bank could offer.
 
 That was not what happened to the money. Instead, Beachy placed deposits into speculative high-yield "junk" bonds, mutual funds, and individual stocks — a far riskier bet than anything he had described to his depositors. To keep the illusion intact, he mailed investors monthly account statements showing fabricated rates of return and exaggerated account balances, so that by June 2010 his investors believed they collectively held the full $33 million when, in reality, less than $18 million remained. Among those caught up in the collapse was the Amish Helping Fund, a charitable pool Amish communities use to help members buy land and buildings — meaning the fraud didn't just drain individual retirement savings, it hollowed out a piece of the community's own mutual-aid infrastructure.
