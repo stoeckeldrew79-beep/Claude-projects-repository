@@ -3812,6 +3812,10 @@ NotoriousTZ.push({
     slug: 'mfundo-manci-crypto-mzansi-group-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Durban_CBD_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Chris Bloom (CC BY-SA 2.0) — Durban, where the scheme was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Mfundo Manci, a 33-year-old South African, ran Crypto Mzansi Group (Pty) Ltd as what first appeared to be a legitimate online cryptocurrency trading platform, built a following largely through social media, and recruited associates to solicit investors in exchange for referral commissions — a structure that gave the scheme a built-in sales force with a direct financial incentive to keep bringing in new money. Operating mainly in and around Durban between June 2020 and April 2021, Manci promised investors "abnormally large returns," often exceeding 1,000%, on their cryptocurrency investments.
 
 Those returns never came from real trading. According to South African authorities, Manci never actually invested the money he collected; instead, he paid earlier investors using funds raised from new ones, the defining structure of a Ponzi scheme, while keeping a share for himself. The scheme fell apart in April 2021 when Manci disappeared during what he told investors was a business trip to Cape Town, triggering a wave of complaints that led investigators to freeze more than R4.5 million (roughly $245,000) tied to the operation in August 2022, with the funds formally forfeited to the state's Criminal Asset Recovery Account in March 2023.
