@@ -8168,3 +8168,19 @@ A federal grand jury indicted Ramirez in September 2022, and he pleaded guilty i
 Ramirez's scheme stands out for the sheer range of unrelated businesses he claimed to be running at once — PPE resale, receivables factoring, furniture wholesale, and marine air conditioning repair, each entirely different from the others. That breadth is itself a red flag common to Ponzi schemes: a legitimate operator typically specializes, while a fraudster juggling several unrelated "business lines" at once is often doing so because none of them actually needs to perform, so long as new investor money keeps the whole structure moving.`,
     sourceUrl: 'https://www.10news.com/news/local-news/carlsbad-man-sentenced-for-defrauding-investors-in-ponzi-scheme',
 });
+
+NotoriousNS.push({
+    title: 'Jawad Rathore, Vince Petrozza, and the $900 Million Fortress Real Developments Collapse',
+    slug: 'jawad-rathore-vince-petrozza-fortress-real-developments-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    body: `Fortress Real Developments was one of Canada's largest syndicated-mortgage real estate firms, raising roughly $900 million from retail investors — ordinary "mom and pop" savers, not institutional players — between 2008 and 2017 to fund condominium and housing developments across Ontario. Investors were told their money was secured against the real, assessed value of the underlying properties, the basic promise that made a syndicated mortgage feel safer than a straight equity investment in a real estate project.
+
+That promise was false, according to Ontario prosecutors. Jawad Rathore and Vince Petrozza, the firm's principals, misrepresented the value of the properties backing these mortgage investments, allowing development projects to proceed on an overleveraged basis that the real numbers didn't support. When the inflated valuations caught up with the underlying projects, investors were left holding mortgage interests worth far less than what they'd been sold, with losses the sentencing court described as "financially catastrophic" for the retail investors involved, triggering what the court called "extremely serious deteriorations" in some victims' mental health.
+
+Rathore and Petrozza were charged in 2022 and convicted in May 2025 on one count each of fraud over $5,000. An Ontario court calculated the fraud at $33.1 million, adjusted down to $24.4 million after civil recoveries already obtained by investors. On February 3, 2026, each man was sentenced to five years in prison and fined $12.2 million, with ten years to pay following release and a further five years of incarceration if the fine goes unpaid; restitution orders were set to prioritize the victims who testified at trial.
+
+The case illustrates how a real estate investment's apparent security is only as reliable as the valuation behind it — a syndicated mortgage can carry the language and structure of a secured loan while still exposing investors to the same risk as an unsecured one, if the property values used to justify the loan were never accurate in the first place. Anyone offered a syndicated mortgage or similar real-estate-backed investment promising security tied to a property's value should ask for an independent, third-party appraisal rather than relying on the figures the developer itself provides, and verify through their provincial or state securities regulator whether the offering and the people selling it are actually registered to do so.`,
+    sourceUrl: 'https://www.investmentexecutive.com/from-the-regulators/fortress-pair-get-five-years-fined-24-4-million/',
+});
