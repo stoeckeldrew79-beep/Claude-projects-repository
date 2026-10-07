@@ -7021,3 +7021,43 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-09-18',
 });
+
+UsTZ.push({
+    name: 'Lehi Police Warn of AI Voice-Cloning Ransom/Kidnapping Calls',
+    slug: 'utah-lehi-ai-voice-cloning-ransom-scam',
+    description: `Lehi, Utah police issued a public warning in February 2026 after scammers used artificial intelligence to clone the voices of victims' family members, then placed calls falsely claiming a kidnapping or life-threatening emergency and demanding immediate payment. In one case, a mother received a call in which a voice she believed was her child's claimed to have been kidnapped, only for her to confirm moments later that the child was safe at school; in another, a Lehi woman reported that scammers had cloned her aunt's voice and threatened to harm her unless a ransom was paid. Cybersecurity expert Pete Ashdown advised that "the simple mode of verification is to give the person in question a phone call" — reaching the actual family member directly, rather than trusting the voice on the line, remains the fastest way to unravel the scam, along with asking a personal question only the real person could answer. The case shows how the same AI voice-cloning technology already used in impersonation scams against businesses and officials has moved into the oldest and most effective pressure tactic in fraud: a fabricated threat to someone's own child or close relative. Limiting how much personal and family information is shared publicly on social media — the raw material scammers use to make a cloned voice and a fabricated scenario sound convincing — and agreeing on a family verification question in advance can blunt the scam's impact even if a convincing voice gets through.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Lehi Police Department', 'KUTV'],
+    sourceUrl: 'https://kutv.com/news/local/lehi-police-warn-of-ai-voice-cloning-ransom-calls-that-mimic-family-members-loved-ones',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    firstRecorded: '2026-02-25',
+});
+
+UsTZ.push({
+    name: 'FBI Warns of Rising Sextortion Targeting Utah Teenage Boys',
+    slug: 'utah-fbi-teen-sextortion-warning',
+    description: `The FBI's Salt Lake City field office, which covers Utah, Idaho, and Montana, warned in January 2024 that predators are increasingly posing as teenage girls on social media to groom boys ages 13 to 17 into sending explicit images, then threatening to release the material to the victim's friends and family unless they pay. Special Agent Curtis Cox described an escalating extortion pattern once a victim pays once: "If they initially start off by paying $100... the request then becomes $200 or $500," since a victim who pays establishes they're willing to keep paying rather than risk exposure. The Salt Lake City office alone was receiving 10 to 12 new sextortion cases every week for its three-state region, part of a nationwide surge the FBI tracked at roughly 13,000 reports of financial sextortion of minors between October 2021 and November 2023, including a 20% increase during a six-month stretch ending in March 2023 — and at least 20 victims nationally had died by suicide. Because the shame and secrecy the scheme depends on make victims reluctant to tell a parent what happened, the FBI's core advice is that a minor targeted this way should stop responding immediately, never send money or more images, save the threatening messages as evidence, and tell a trusted adult or report it directly to the FBI or NCMEC's CyberTipline — paying never actually stops the threats, it only confirms to the extortionist that more payments are coming.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['FBI Salt Lake City Field Office', 'KSL'],
+    sourceUrl: 'https://www.ksl.com/article/50850784/predators-targeting-more-utah-teens-with-sextortion-scams-fbi-report-says',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    firstRecorded: '2024-01-21',
+});
+
+UsTZ.push({
+    name: 'Pandemic-Era Online Puppy Scam Surge in Utah',
+    slug: 'utah-pandemic-online-puppy-scam-surge',
+    description: `Utah's Better Business Bureau documented more than 500 Utahns scammed buying pets online within a roughly 2.5-month span during the pandemic, compared to the 900 to 1,000 pet-scam reports the BBB would normally see across an entire year. Scammers built professional-looking fake breeder websites using photos stolen from real breeders, then charged buyers for a puppy that didn't exist, piling on fees for "shipping," "refundable" pet insurance, and even a fabricated COVID-19 vaccine for the animal before disappearing once payment cleared. BBB spokesperson Jane Driggs explained why the pandemic made the scam unusually effective: "The pandemic is the perfect storm for this, because you can't go see the puppies, you can't go see the parents" — buyers who would normally visit a breeder in person to see the actual animal and its parents had no way to do that, removing the single easiest way to catch the fraud before paying. One victim, Beth Kamar, said in hindsight, "I wish I would've known the prices of real breeders," since a price far below what a real breeder of that type of dog would charge was itself a warning sign lost in the urgency of buying sight-unseen. Individual losses in the Utah cases ran from $250 to $1,000 or more, and the BBB's standing advice is to insist on a live video call showing the actual puppy and its parents, reverse-image-search the breeder's photos to check whether they've been lifted from another site, and never pay by wire transfer, gift card, or other untraceable method for an animal that can't be seen in person before money changes hands.`,
+    categorySlug: 'pet-sales-scams',
+    sources: ['Better Business Bureau', 'FOX 13 Salt Lake City'],
+    sourceUrl: 'https://fox13now.com/news/coronavirus/local-coronavirus-news/500-utahns-scammed-while-buying-pets-during-pandemic',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+});
