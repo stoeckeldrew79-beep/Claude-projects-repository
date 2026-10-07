@@ -12261,3 +12261,42 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2022-09-29',
 });
+
+UsNS.push({
+    name: 'Rhode Island Summer Vacation Rental Scam Alert',
+    slug: 'rhode-island-summer-vacation-rental-scam-alert',
+    description: `With more than 400 miles of coastline and a booming seasonal rental market, Rhode Island draws a steady stream of fraudulent vacation-rental listings aimed at summer travelers, and then-Attorney General Peter F. Kilmartin's office issued a consumer alert warning that scammers pose as landlords or booking agents for beach properties that either don't exist or were never actually available to rent. Kilmartin summarized the underlying tell simply: "if a deal sounds too good to be true, it probably is," pointing travelers toward an unusually low price or an all-inclusive package with hidden fees as the common bait. The alert's core recommendations are to book only through established travel websites or verified agents, get a complete written contract before paying anything, pay by credit card rather than wire transfer or money order so a fraudulent charge can be disputed, and check a property or booking agent against Better Business Bureau records before sending any money. Because a vacation rental is typically booked and paid for well before a renter ever sees the property in person, and because the scam is seasonal and recurring every summer booking season, Rhode Island consumers who suspect a listing is fraudulent can report it to the Attorney General's Consumer Protection Unit at (401) 274-4400 before losing a deposit on a property that was never actually for rent.`,
+    categorySlug: 'travel-vacation-scams',
+    sources: ['Rhode Island Office of the Attorney General'],
+    sourceUrl: 'https://www.ri.gov/press/view/19551',
+    country: 'US',
+    state: 'RI',
+    isHistorical: true,
+    firstRecorded: '2013-06-01',
+});
+
+UsNS.push({
+    name: 'AI Voice-Cloning Scam Calls Targeting CNMI Elders (DOCOMO Pacific Alert)',
+    slug: 'cnmi-docomo-pacific-ai-voice-cloning-elder-scam',
+    description: `On March 12, 2025, telecom carrier DOCOMO Pacific — which serves both Guam and the Commonwealth of the Northern Mariana Islands — issued a public service announcement warning customers that scammers are using artificial intelligence to clone the voices of family members, with a disturbing focus on targeting elderly residents the Marianas community calls "Manåmko'." According to the announcement, fraudsters spoof caller ID, draw on personal details harvested from social media to sound convincingly familiar, invoke a fabricated "gag order" or urgency ("don't tell mom and dad") to pressure the victim into secrecy, and then push for payment through gift cards, wire transfers, money orders, or payment apps — methods that are difficult or impossible to reverse once sent. DOCOMO Pacific's notice specifically listed its CNMI customer-service line, confirming the warning applies territory-wide and not just to Guam, and the carrier's core advice mirrors what law enforcement elsewhere recommends for AI voice-cloning scams generally: if a call claims to be a distressed family member, hang up and call that person back directly using a known, trusted number, rather than continuing the conversation with whoever is on the line. The announcement directs residents to report suspicious calls to the FCC, and its citation of a separate case — 25 Canadian nationals charged with orchestrating a similar elder-targeting voice scam across more than 40 US states — underscores that this is a nationally organized scam pattern that has specifically reached the CNMI, not an isolated local incident.`,
+    categorySlug: 'ai-deepfake-scams',
+    sources: ['DOCOMO Pacific', 'Marianas Variety'],
+    sourceUrl: 'https://aboutus.docomopacific.com/247788-docomo-pacific-issues-public-service-announcement-to-stop-ai-driven-scam-calls-targeting-our-manamko/',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2025-03-12',
+});
+
+UsNS.push({
+    name: 'CNMI Department of Labor Job Board Fraud and Human Trafficking Verification Policy',
+    slug: 'cnmi-dol-job-board-fraud-verification-policy',
+    description: `On November 5, 2025, the CNMI Department of Labor announced a new Business Verification Policy for its official Job Board after the platform had been misused by businesses posting fraudulent employment listings, some of them tied to human trafficking schemes targeting vulnerable workers. Under the new policy, employers must submit a valid CNMI business license with current endorsements and a confirmation letter from the IRS verifying their Employer Identification Number before they're permitted to post a job opening, and the Department's Employment Services Division now maintains a secure database of verified employers rather than allowing open posting access. Businesses that are unverified or noncompliant lose their ability to post, and any entity found engaged in fraudulent job postings or human trafficking faces a permanent ban from the platform and referral to law enforcement. Secretary of Labor Leila Fleming Staffler framed the change around protecting the platform's basic function: "Our job board is a trusted public platform connecting jobseekers and employers," and the policy is designed to keep it that way by closing off the open-posting access that had let fraudulent and trafficking-linked listings appear alongside legitimate ones. Job seekers using the CNMI Department of Labor's job board can now have more confidence that a listed employer has actually been verified, but anyone offered work through any job posting, verified platform or not, should still be wary of red flags like requests for upfront fees, vague job descriptions, or pressure to travel or relocate immediately.`,
+    categorySlug: 'employment-scams',
+    sources: ['CNMI Department of Labor'],
+    sourceUrl: 'https://labor.cnmi.gov/?p=4946',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+    firstRecorded: '2025-11-05',
+});

@@ -13025,3 +13025,42 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-04-23',
 });
+
+UsGM.push({
+    name: 'Bangor International Airport Romance Scam Arrivals',
+    slug: 'maine-bangor-airport-romance-scam-arrivals',
+    description: `Staff at Bangor International Airport encounter romance-scam victims once or twice a week — people who have spent weeks or months building an online relationship with someone they've never met in person, believe they are about to meet that partner for the first time, and show up at the gate only for no one to arrive. Airport marketing and business development manager Aimee Thibodeau described the pattern directly: "It is heartbreaking when we have people show up here and they truly think they are meeting someone, a person they have a connection with," adding that victims aren't just sending token amounts — "they're sending them not just $5 or $10, they're sending them enough money for what they believe is a plane ticket or what they believe is a hotel room" to help the fictitious partner travel to Maine. Andrew McCormack, Assistant U.S. Attorney and Maine's elder fraud coordinator, said the pattern typically involves the scammer isolating the victim from friends and family while extracting money for a string of fabricated travel or medical costs in the lead-up to a meeting that's never actually going to happen. Nationally, the FTC recorded nearly 70,000 reported romance-scam victims in 2022 alone, with losses exceeding $1 billion and a median loss of $4,400. McCormack's core advice applies specifically to the moment a romance scam escalates to a request for travel money: "You should not be sending money to people over the internet unless you have gone through a variety of checks to make sure that where it is going to can be validated" — a request to fund someone else's flight or hotel is exactly the point at which an online relationship should be independently verified, not simply trusted.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['WABI-TV', 'U.S. Attorney\'s Office for the District of Maine'],
+    sourceUrl: 'https://www.wabi.tv/2024/06/13/it-is-heartbreaking-romance-scams-claim-maine-victims',
+    country: 'US',
+    state: 'ME',
+    isHistorical: true,
+    firstRecorded: '2024-06-13',
+});
+
+UsGM.push({
+    name: 'Maine Foreclosure Rescue and Loan Modification Fee Scams',
+    slug: 'maine-foreclosure-rescue-loan-modification-scam',
+    description: `Maine's Bureau of Consumer Credit Protection warns that scammers posing as "foreclosure consultants" or loss-mitigation specialists contact homeowners already behind on their mortgage — by mail, phone, email, or in person — and charge an upfront fee to supposedly "stop" a foreclosure or secure a loan modification, or ask the homeowner to sign over their deed to "save" the home from the bank. Any company that takes a fee in exchange for housing counseling or help modifying a delinquent loan must be licensed by the Bureau, and the Bureau's warning signs cover the entire pattern: a legitimate counselor will not promise to save a homeowner's credit or stop the foreclosure process outright, will not demand an upfront fee for counseling or a loan modification, will not claim signing over a deed is the way to "save" the home, and will not instruct a homeowner to make mortgage payments to anyone other than their actual lender. Because a foreclosure rescue scam can cost a homeowner both money and, in a deed-transfer version, the legal title to their own house, Maine residents facing foreclosure are directed to verify any company's license before paying anything by calling the Bureau of Consumer Credit Protection directly at 1-800-332-8529, or the state's foreclosure prevention hotline at 1-888-664-2569, rather than relying on a promise made by the company itself.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['Maine Bureau of Consumer Credit Protection'],
+    sourceUrl: 'https://www.maine.gov/pfr/consumercredit/consumer/foreclosure/foreclosure_scams.html',
+    country: 'US',
+    state: 'ME',
+});
+
+UsGM.push({
+    name: 'Tech Support and Cybercrime Scams Driving Record Losses Among Maine Seniors',
+    slug: 'maine-tech-support-scam-seniors',
+    description: `Mainers lost more than $31 million to internet-based scams and cybercrime in 2024, according to FBI data reported by WGME's I-Team — a 65% jump from the roughly $19 million lost in 2023 — with Mainers age 60 and older accounting for nearly $13 million of that total, more than 40% of all reported cybercrime losses in the state, across 608 filed complaints. Tech support scams, in which fraudsters posing as Microsoft or Apple support trigger a fake virus warning pop-up and then talk the victim into granting remote computer access or paying a fraudulent "repair" fee, were identified alongside government impersonation and investment fraud as among the categories disproportionately targeting Maine's senior population, with an average loss per Maine victim of roughly $14,725. The sharp year-over-year jump reflects both a growing volume of scam attempts and the fact that older victims, who often have more savings and may be less familiar with how legitimate tech companies actually initiate support contact, remain a preferred target. Anyone who sees an unexpected pop-up warning claiming their computer is infected should not call the phone number it displays or allow remote access to their device; a real tech company does not detect a virus on a customer's computer and alert them with a browser pop-up, and anyone unsure whether their device actually needs service should contact the manufacturer directly through a number or website looked up independently.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Bureau of Investigation', 'WGME I-Team'],
+    sourceUrl: 'https://wgme.com/news/i-team/cybercrime-and-scams-cost-mainers-31-million-in-2024-fbi-says',
+    country: 'US',
+    state: 'ME',
+    isHistorical: true,
+});
