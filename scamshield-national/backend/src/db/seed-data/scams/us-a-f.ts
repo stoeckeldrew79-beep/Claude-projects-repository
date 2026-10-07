@@ -11839,3 +11839,29 @@ UsAF.push({
     country: 'US',
     state: 'AL',
 });
+
+UsAF.push({
+    name: 'Fake FBI Labor Recruitment and Wage-Theft Scheme (American Samoa)',
+    slug: 'american-samoa-fake-fbi-labor-recruitment-wage-theft-scheme',
+    description: `Alatise Fonoti and Aperaamo Levi falsely claimed to be affiliated with the FBI — which had recently closed its local office — to recruit at least 26 workers for land-clearing and construction labor on Fonoti's American Samoa property, promising pay of $10 an hour, bonuses as high as $4,000, and extra compensation for using a personal vehicle on the job. Workers who cleared roughly ten acres and built on the site went unpaid for months at a time — one supervisor said seven of his own family members received nothing after about three months of labor, and a cook went three weeks without pay — and the men allegedly threatened anyone who complained with jail and warned their families would never see them again. The American Samoa Attorney General's office charged both men with felony theft of services, a class C felony carrying up to seven years in prison; Levi pleaded guilty, and Fonoti was tried in the High Court of American Samoa in Pago Pago. The case illustrates how a fabricated federal-agency affiliation can be used not to extract money directly, but to recruit and control unpaid labor, with workers reluctant to walk off a job they believed carried the FBI's backing.`,
+    categorySlug: 'employment-scams',
+    sources: ['Samoa News'],
+    sourceUrl: 'https://samoanews.com/node/60011',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2012-11-09',
+});
+
+UsAF.push({
+    name: 'American Samoa Government Treasury $200,000 Vendor-Impersonation Wire Fraud',
+    slug: 'american-samoa-dhss-treasury-vendor-wire-fraud',
+    description: `In October 2017, an American Samoa Department of Human and Social Services (DHSS) employee received an email purporting to come from one of the department's off-island vendors, Advance Solution Inc., requesting that payment be sent to a specified bank account. The employee forwarded the email internally to DHSS finance, which passed it on to the territorial Treasury, and Treasury wired $200,000 to the account named in the email — an account that, it turned out, did not actually belong to the vendor. It took several days for anyone involved to realize the payment had gone to the wrong place, and DHSS Director Dr. Meki Solomona confirmed an investigation was underway; the incident followed an earlier 2011 territorial wire-fraud case in which $1.2 million was sent to a bank account in Vietnam and took years to partially recover. The case shows how a single forwarded email, without anyone directly verifying the account number against the vendor's actual records before Treasury executed the transfer, was enough to redirect a six-figure government payment — a vulnerability any organization's accounts-payable workflow shares if a changed or newly supplied bank account number isn't confirmed by phone with a known contact before a wire goes out.`,
+    categorySlug: 'business-email-compromise',
+    sources: ['Samoa News', 'KHJ News'],
+    sourceUrl: 'https://samoanews.com/node/101491',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2017-10-28',
+});
