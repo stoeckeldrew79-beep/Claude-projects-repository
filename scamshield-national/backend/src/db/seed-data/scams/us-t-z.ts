@@ -7098,3 +7098,16 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2021-03-03',
 });
+
+UsTZ.push({
+    name: 'West Virginia Post-Flood Charity and Disaster-Relief Impersonation Scam',
+    slug: 'west-virginia-post-flood-charity-disaster-relief-impersonation-scam',
+    description: `Following deadly flooding across southern West Virginia, Attorney General JB McCuskey's office warned residents that scammers were soliciting cash donations by posing as disaster-relief charities, in some cases using names deceptively similar to established, legitimate relief organizations to collect money intended for flood victims. The office advised West Virginians to confirm that any charity soliciting a donation is actually registered with the West Virginia Secretary of State's Office, to research an unfamiliar organization through a service like Charity Navigator or GuideStar before giving, to avoid paying by cash, gift card, or wire transfer in favor of a credit card (which offers a dispute option a cash donation does not), and to keep records of any gift over $250. Residents who suspect a fraudulent solicitation were directed to the Consumer Protection Division at 800-368-8808. A nearly identical warning followed Hurricane Helene flooding several months earlier, underscoring that this is a recurring pattern tied to the state's flood-prone terrain rather than a one-time event: scammers reliably move in to exploit the same genuine generosity a real disaster draws out, every time a new flood makes headlines.`,
+    categorySlug: 'charity-scams',
+    sources: ["West Virginia Attorney General's Office"],
+    sourceUrl: 'https://ago.wv.gov/article/attorney-general-mccuskey-warns-consumers-charity-and-disaster-scams-wake-flooding',
+    country: 'US',
+    state: 'WV',
+    isHistorical: true,
+    firstRecorded: '2025-02-21',
+});
