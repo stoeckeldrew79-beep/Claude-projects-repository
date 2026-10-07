@@ -12222,3 +12222,66 @@ UsNS.push({
     country: 'US',
     state: 'OK',
 });
+
+UsNS.push({
+    name: 'South Carolina Romance Scam Surge (Midlands FBI Alert)',
+    slug: 'south-carolina-romance-scam-surge-midlands',
+    description: `The FBI's Columbia field office warned in February 2026 that romance-scam losses in South Carolina's Midlands region are accelerating sharply, with the region's losses reaching more than $2.6 million in 2025 versus $2 million in 2024. Lexington County saw the steepest increase, with losses climbing from $702,430 across 15 complaints in 2024 to $1.58 million across 23 complaints in 2025, while neighboring Richland County rose from $533,471 to $905,412 over the same period. Statewide losses nearly doubled from roughly $6 million in 2021 to more than $13 million in the years since, with adults age 60 and older making up a disproportionate share of both complaints and dollars lost. Scammers build a fake online relationship over weeks or months, increasingly using AI-generated deepfake video calls to make the fabricated partner feel real and trustworthy, before requesting money for a fabricated emergency, travel costs to finally meet in person, or a fee to "unlock" funds the victim is told is coming their way. FBI Special Agent Mark McMahon described the trend directly: "these schemes are growing a lot more complicated, a lot more sophisticated," as AI tools make the deception harder for victims to catch through tells like a stilted voice or mismatched video that used to be reliable warning signs. Anyone in an online relationship who has never met their partner in person should treat any request for money, however urgent or temporary it's framed as, as a reason to stop and independently verify who they're actually talking to — including by insisting on an unscheduled live video call and watching closely for any sign of lag or inconsistency.`,
+    categorySlug: 'romance-scams',
+    sources: ['FBI Columbia Field Office', 'WIS-TV'],
+    sourceUrl: 'https://www.wistv.com/2026/02/14/fbi-urges-caution-romance-scams-cost-midlands-millions/',
+    country: 'US',
+    state: 'SC',
+    isHistorical: true,
+    firstRecorded: '2026-02-14',
+});
+
+UsNS.push({
+    name: 'South Carolina Fake Job Posting Scam',
+    slug: 'south-carolina-fake-job-posting-scam',
+    description: `The South Carolina Department of Consumer Affairs (SCDCA) warned that scammers impersonate hiring managers with fictitious job postings to extract money and personal information from job seekers. In one case the agency documented, a South Carolina consumer was instructed to purchase computer equipment using her own bank account on the promise of reimbursement from her new "employer," ultimately losing more than $4,000 when no reimbursement ever came. SCDCA flagged related tactics used by the same type of scheme, including demands for upfront payment to cover background-check or certification fees before a job supposedly starts, and fraudulent check-deposit schemes in which a new "hire" is told to deposit a check and wire back a portion as a processing fee, only for the original check to bounce. The agency's core warning sign is a request for a bank account number or other financial information before any real employment relationship has actually begun — a legitimate employer doesn't need a new hire's banking details to make a job offer, only to set up payroll once hiring is finalized. Job seekers are advised to independently verify any posting or hiring contact directly with the company through its own official website or phone number, never through contact information supplied in the job posting itself, and can report a suspected fake job scam to SCDCA at 844-835-5322.`,
+    categorySlug: 'employment-scams',
+    sources: ['South Carolina Department of Consumer Affairs'],
+    sourceUrl: 'https://consumer.sc.gov/node/117',
+    country: 'US',
+    state: 'SC',
+    isHistorical: true,
+    firstRecorded: '2018-01-18',
+});
+
+UsNS.push({
+    name: 'New Mexico Work-From-Home Fake Check Job Scam',
+    slug: 'new-mexico-work-from-home-fake-check-job-scam',
+    description: `New Mexico's tight labor market has fueled a wave of fake remote-job offers delivered on official-looking letterhead, with the Better Business Bureau finding that roughly 70% of victims report receiving an official-looking job offer letter as part of the scheme. After the "hire" is finalized, the scammer mails the new employee a check meant to cover home-office equipment costs, then — often the very next day — claims the equipment has already been ordered and asks the victim to wire back the "extra" funds via Zelle or Venmo before the original check has actually cleared. Weeks later, the bank discovers the deposited check was counterfeit, leaving the victim on the hook for both the wired-back money and the full amount of the bad check, on top of possible overdraft fees and damage to their credit. BBB New Mexico spokesperson Brian Baca cited individual New Mexico losses of $6,000 and $4,000 against a national median loss of $1,500 for this scheme. Because a bank's provisional credit for a deposited check can take days or weeks to be reversed once the check is discovered to be fake, no job offer should ever require depositing a check and wiring part of it back before accepting a position, and anyone offered a remote job this way should independently verify the employer exists and is actually hiring before depositing anything.`,
+    categorySlug: 'employment-scams',
+    sources: ['Better Business Bureau New Mexico', 'KOB 4'],
+    sourceUrl: 'https://www.kob.com/?p=372332',
+    country: 'US',
+    state: 'NM',
+});
+
+UsNS.push({
+    name: 'New Mexico State Government Caller ID Debt Relief Scam',
+    slug: 'new-mexico-state-government-caller-id-debt-relief-scam',
+    description: `Scammers spoofed caller ID to display "New Mexico State Government" alongside a local 505 area code, directing residents who answered to a toll-free number that connected to a company calling itself "Credit Financial Solutions," based out of Orlando, Florida, which falsely claimed it could lower the caller's credit card interest rates and monthly payments in exchange for an upfront fee. New Mexico Attorney General Hector Balderas warned residents directly about the scheme, saying "scammers are getting very sneaky and sophisticated, and their techniques are increasingly difficult to detect" — a reference to the caller-ID spoofing that made an out-of-state telemarketing operation look like an actual New Mexico government call. No legitimate New Mexico state agency places unsolicited calls offering to negotiate a resident's credit card debt, and a real government call about an existing account or benefit doesn't route through a third-party company demanding payment to lower a caller's interest rate. Residents who receive a call like this are advised to hang up, register with the FTC's Do Not Call registry at donotcall.gov, and report the call to the New Mexico Attorney General's office at 1-844-255-9210 or the Albuquerque office at 505-717-3500.`,
+    categorySlug: 'debt-relief-scams',
+    sources: ['New Mexico Office of the Attorney General', 'KRWG'],
+    sourceUrl: 'https://www.krwg.org/regional/2018-07-20/scammers-pretending-to-be-state-employees-to-steal-new-mexicans-cash',
+    country: 'US',
+    state: 'NM',
+    isHistorical: true,
+    firstRecorded: '2018-07-20',
+});
+
+UsNS.push({
+    name: 'Puerto Rico Online Puppy Sale Scam via Clasificados Online',
+    slug: 'puerto-rico-clasificados-online-puppy-sale-scam',
+    description: `A San Juan-area woman arranged through the Puerto Rico classifieds site Clasificados Online to buy a dog, agreeing with the seller to meet in the municipality of Camuy to complete the purchase. She sent $175 in advance through ATH Móvil, Puerto Rico's dominant mobile-payment app, after which the seller stopped responding to her calls and text messages entirely and the promised dog was never delivered; her case was referred to the Property and Fraud Division of San Juan's Criminal Investigation Center. The case shows how a familiar scam — selling a nonexistent pet online and disappearing once payment clears — adapts to local market conditions: rather than the Facebook Marketplace listings and Venmo, Zelle, or Cash App payments common in mainland pet-sale scams, the Puerto Rico version runs through island-specific classifieds sites and the ATH Móvil payment rail most residents already use day to day. Anyone arranging to buy a pet advertised online should insist on seeing the animal in person, with its parents if possible, before any money changes hands, and should treat any seller who asks for advance payment through a mobile-payment app before an in-person meeting as a serious warning sign.`,
+    categorySlug: 'pet-sales-scams',
+    sources: ['Primera Hora'],
+    sourceUrl: 'https://www.primerahora.com/noticias/policia-tribunales/notas/estafan-a-mujer-con-la-compra-de-un-perro-por-internet/',
+    country: 'US',
+    state: 'PR',
+    isHistorical: true,
+    firstRecorded: '2026-01-22',
+});
