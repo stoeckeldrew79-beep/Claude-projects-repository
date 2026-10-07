@@ -11282,3 +11282,18 @@ Christopher Knight Lopez pleaded guilty on February 19, 2026 to conspiracy to co
 The case is a reminder that forged documentation can substitute for an actual track record for a surprisingly long time — nearly a decade, in this instance — when the people relying on it have no independent way to verify a bank letter or account statement actually came from the institution it claims to be from, rather than from the person asking them to trust it.`,
     sourceUrl: 'https://coveringkaty.com/news/katy/katy-man-pleads-guilty-in-17-million-investment-fraud-scheme/',
 });
+
+NotoriousAF.push({
+    title: 'Carlos Hill and the Cash Plus Collapse: Jamaica\'s Ponzi King Who Walked Free',
+    slug: 'carlos-hill-cash-plus-jamaica-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    body: `Carlos Hill founded Cash Plus Limited in Jamaica in 2002, promising investors returns of roughly 10 percent a month — about 120 percent a year — an implausible rate that nonetheless drew in thousands of ordinary Jamaicans eager for returns no bank or legitimate investment could match. For several years Cash Plus appeared to deliver, paying "returns" that spread by word of mouth across the island and drew in a steady stream of new investors, the same dynamic that kept Jamaica's other prominent Ponzi schemes of the era alive for as long as fresh money kept arriving.
+
+The scheme collapsed in 2008, when Hill announced publicly that he could no longer source the funds needed to pay investors what they were owed. He was arrested on April 10, 2008, and eventually charged with 15 counts of fraudulently inducing people to invest. It was not Hill's first brush with fraud charges: in the United States in the early 1990s, he had pleaded guilty in federal court in New Jersey to racketeering conspiracy tied to a mortgage and collateral-instrument fraud scheme, and was sentenced to a term approaching 30 years, with later appeals in New Jersey and Texas rejected.
+
+The Jamaican case against Hill, however, never reached a verdict. His trial was postponed across nine separate court dates, finally opening in October 2009 only to drag on for years afterward. By late 2016, prosecutors acknowledged they could no longer locate key witnesses needed to make their case, and on May 24, 2017 — more than nine years after his arrest — prosecutors offered no evidence and Hill walked out of court a free man, never convicted for the Cash Plus collapse itself.
+
+The case is a reminder that an arrest and formal charges are not the same thing as accountability: a prosecution can collapse under the weight of its own delay long before a jury ever hears the evidence, especially when the witnesses a case depends on are difficult to keep track of for the better part of a decade. For Jamaican investors who lost their savings to Cash Plus, the scheme's founder faced less consequence for defrauding them than he had already faced, years earlier, for an entirely different fraud committed on the other side of the world.`,
+    sourceUrl: 'https://past.jamaica-gleaner.com/article/news/20170524/timeline-how-cash-plus-fraud-case-unfolded',
+});

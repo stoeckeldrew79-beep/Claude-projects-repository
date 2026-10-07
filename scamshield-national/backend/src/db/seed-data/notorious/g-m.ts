@@ -11835,3 +11835,18 @@ Kiener was arrested on October 29, 2009, and the Würzburg prosecutor's office f
 The case stands as one of Germany's largest hedge-fund frauds, and a reminder that institutional sophistication is no shield against a Ponzi structure: Barclays and BNP Paribas were professional, well-resourced investors with their own due-diligence teams, and they still relied on fabricated statements rather than independently verifying that K1's claimed trading profits actually existed. A regulator's prior ban on a fund operating in its home country — as BaFin had already imposed on K1 years before the fraud was exposed — is exactly the kind of red flag that's easy to treat as a technicality when the reported returns keep looking good.`,
     sourceUrl: 'https://www.cityam.com/k1-founder-charged-fraud-ponzi-scheme/',
 });
+
+NotoriousGM.push({
+    title: 'Julius Barmat and the Bribery Scandal That Shook the Weimar Republic',
+    slug: 'julius-barmat-weimar-germany-corruption-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'corruption'],
+    body: `Julius Barmat was a Polish-Jewish businessman who had built a wholesale trading operation in the Netherlands before moving to Berlin in 1919, in the chaotic aftermath of Germany's defeat in the First World War. Capitalizing on severe postwar food shortages, Barmat imported foodstuffs from the Netherlands into Germany and used the profits, along with political connections he cultivated within Social Democratic circles, to build an import and trading empire that reached deep into the machinery of the German state itself.
+
+Barmat's firm secured a remarkably close relationship with Germany's public institutions: he obtained favorable loans from the Prussian State Bank and secured business arrangements with the German postal service and other state offices, backed by bribes and commissions — roughly 20,000 reichsmarks in total — paid to Social Democratic Party officials and newspapers in exchange for the access and favorable treatment. With state-backed capital behind him, Barmat also speculated heavily in currency markets during a period of extreme volatility in the German mark.
+
+The empire came apart in late 1924, when Barmat's currency speculation produced losses his firm could not absorb, and the business collapsed, leaving the German federal government and the Prussian State Bank several million dollars poorer. Barmat and his brothers were arrested on New Year's Eve, December 31, 1924, in a raid dramatic enough to become a sensation in the German press. Political opponents of the Social Democratic Party seized on the scandal immediately, using Barmat's Jewish identity and his party connections to attack the Weimar coalition government as corrupt and foreign-infiltrated — a propaganda line that nationalist and early Nazi agitators would keep returning to for years afterward.
+
+The legal case moved slowly; it was not until early 1928 that Julius Barmat was convicted of bribery and sentenced to 11 months in prison, with his brother Henry receiving six months — modest sentences given the scale of the financial damage and the political fallout the affair had already caused. The Barmat scandal illustrates a fraud pattern distinct from a classic Ponzi scheme or stock swindle: rather than deceiving investors directly, Barmat built his empire by purchasing privileged access to public credit and public contracts through bribery, using the state's own money and institutional trust as his working capital — and when the underlying business failed, it was the public institutions that had vouched for him, not private investors, left holding the loss.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Barmat_scandal',
+});
