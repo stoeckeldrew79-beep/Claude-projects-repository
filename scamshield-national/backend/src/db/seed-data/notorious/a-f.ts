@@ -11323,3 +11323,18 @@ Bramly was convicted of fraud, and the Tel Aviv District Court, with Judge Khale
 The Rubicon and Kela Fund collapse illustrates how a Ponzi scheme's core mechanism — paying old investors with new investors' money while presenting fabricated financials as proof of a legitimate operation — plays out identically whether the vehicle is a storefront investment club or, as here, a chartered business group with an affiliated lending arm; a formal corporate structure and official-sounding name provide no more assurance that underlying returns are real than any other con artist's promises do.`,
     sourceUrl: 'https://en.globes.co.il/en/article-ponzi-scheme-operator-amir-bramly-handed-10-year-sentence-1001361962',
 });
+
+NotoriousAF.push({
+    title: 'C.C. Julian and the Julian Petroleum Swindle That Rocked 1920s Los Angeles',
+    slug: 'cc-julian-julian-petroleum-swindle',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Courtney Chauncey "C.C." Julian, a Canadian-born oil driller, formed Julian Petroleum Corporation in Los Angeles in May 1923 to develop an oil lease on a few acres in Santa Fe Springs. Rather than relying on Wall Street underwriters, Julian sold stock directly to the public through an unrelenting newspaper advertising campaign, turning ordinary Angelenos — not institutional investors — into the company's shareholder base and raising several million dollars within months of his first ads running.
+
+In late 1925, Julian sold his interest in the company for $500,000 to Sheridan C. Lewis and Jacob Berman (operating under the alias Jack Bennett), who merged it the following year with California-Eastern Oil Company and kept selling stock to the public, recruiting prominent Los Angeles bankers, businessmen, and film-industry figures — including banker Motley Flint — into pools that bought and supported the stock's price. An audit eventually revealed the company had issued roughly 4.2 million shares beyond what its charter authorized, and on May 5, 1927 the Los Angeles Stock Exchange halted trading in Julian Petroleum stock entirely, wiping out the holdings of a shareholder base that outside estimates have put as high as 40,000 to 50,000 people.
+
+A Los Angeles County grand jury went on to indict dozens of figures connected to the scandal, including Motley Flint and film mogul Louis B. Mayer, while District Attorney Asa Keyes — whose own 1924 election campaign Julian had openly backed — was later convicted of accepting bribes to go easy on defendants in the case. Julian himself fled the country ahead of a separate 1931 conspiracy-to-defraud charge in Oklahoma, turning up in Shanghai, where he died a few years later under circumstances contemporaries described alternately as suicide or poisoning — accounts that still disagree today.
+
+The Julian Petroleum collapse illustrates how a stock swindle can outgrow its original con artist entirely: Julian himself cashed out relatively early, but the company he built around a public newspaper stock-sale pitch kept operating as a vehicle for fraud under new owners for two more years, drawing in untold thousands of additional investors and implicating some of Los Angeles's most prominent citizens along the way. The case is a reminder that a company's fraud risk doesn't necessarily leave when its founder does, especially when the underlying business model — selling stock directly to the public through advertising rather than through regulated underwriting — never changes hands.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Julian_Petroleum_Corporation',
+});
