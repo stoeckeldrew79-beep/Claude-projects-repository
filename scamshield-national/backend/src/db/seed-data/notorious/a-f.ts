@@ -10883,6 +10883,10 @@ NotoriousAF.push({
     slug: 'djoko-tjandra-bank-bali-scandal-fugitive',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/COLLECTIE_TROPENMUSEUM_Kledingverkopers_voor_het_gebouw_van_het_Hooggerechtshof_TMnr_20018025.jpg?width=1200',
+    coverImageCredit: 'Photo: H.W. van Rinsum / Wereldmuseum Amsterdam (CC BY-SA 3.0) — the old Jakarta Supreme Court building, 1980',
+    coverImagePosition: 50,
     body: `In 1999, in the wreckage of Indonesia's Asian financial crisis, Bank Bali held roughly 904.6 billion rupiah in claims against three failed banks that had come under the Indonesian Bank Restructuring Agency's control after receiving Bank Indonesia Liquidity Support funds. To help collect that debt, Bank Bali turned to Era Giat Prima, a company controlled by businessman Djoko Tjandra, and agreed to pay it a "success fee" of 546 billion rupiah — roughly 60 percent of the amount recovered, an extraordinarily high cut for what should have been a routine debt collection between a bank and a government receivership.
 
 The arrangement collapsed into scandal almost immediately. Investigators found that a large share of the fee Tjandra's company received — roughly 274 billion rupiah — had been funneled onward to Indonesian officials and legislators, feeding suspicion that the money was meant to help finance the ruling Golkar party's campaign ahead of the 1999 elections. The case implicated senior Bank Indonesia officials, but Indonesia's courts proved unable to make the corruption stick: a Jakarta court initially ruled the matter a civil issue rather than a crime, and the Supreme Court upheld Tjandra's innocence in June 2001.
@@ -11203,6 +11207,9 @@ NotoriousAF.push({
     slug: 'albert-oustric-banque-oustric-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Albert_Oustric_aux_Assises.JPG?width=1200',
+    coverImageCredit: 'Photo: Agence Meurisse (public domain) — Oustric at his 1931 trial',
+    coverImagePosition: 50,
     body: `In June 1919, a former sales clerk from Toulouse named Albert Oustric opened a small Paris banking house with just one million francs in capital. Within two years he had grown it to fifteen million, using a strategy that would define his career: buying up struggling or marginal enterprises — textile makers, mining ventures, leather goods firms, a regional bank called Banque Adam — consolidating their debts, and then selling the public shares in them at prices his own group, not any independent market, had set.
 
 The trick that let those share prices hold up was manufactured excitement. Investing in a Bolivian silver property, the Huanchaca mine, Oustric used announcements of supposed new discoveries to inflate its claimed value roughly tenfold, let the price fall, then pushed it back up again — news that, investigators later found, had no basis in reality. Those engineered price swings let insiders who knew the "discoveries" were fiction trade ahead of the public buying in on the story. By 1929, this pattern of inflated valuations and staged publicity had built Oustric an extensive holding-company empire, controlling dozens of firms whose underlying worth bore little relationship to what investors had paid for shares in them.
@@ -11220,6 +11227,10 @@ NotoriousAF.push({
     slug: 'christopher-dinelli-jacob-frankel-beyond-alpha-ventures-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_001.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182 (CC BY-SA 4.0) — the Thurgood Marshall U.S. Courthouse in Manhattan, where the SEC filed its case',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.sec.gov/files/litigation/complaints/2026/comp-pr2026-97.pdf',
     body: `Note: this case is a civil enforcement action. The Securities and Exchange Commission's complaint describes allegations only — Christopher Dinelli and Jacob Frankel have not been criminally charged in this matter, and neither they nor Beyond Alpha Ventures LLC has been found liable by a court as of this writing.
 
