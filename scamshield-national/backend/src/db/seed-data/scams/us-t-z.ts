@@ -7061,3 +7061,40 @@ UsTZ.push({
     state: 'UT',
     isHistorical: true,
 });
+
+UsTZ.push({
+    name: 'Virginia Purebred Puppy Website Scam',
+    slug: 'virginia-purebred-puppy-website-scam',
+    description: `Virginia Attorney General Mark Herring warned in August 2017 about fake online breeder sites — including ones calling themselves "Treasure Yorkies" and "Marvel Teacup Chihuahua" — selling purebred and designer-breed puppies that didn't actually exist. After collecting an initial payment, scammers hit buyers with a second, previously undisclosed demand for "pet transportation insurance" or similar fees before any puppy was ever delivered, since the entire point of the second charge was to extract more money rather than cover a real cost. Herring's office listed the scheme's telltale red flags: prices 50 to 75 percent below what the same purebred or designer breed normally costs, payment demanded through MoneyGram or Western Union rather than a method with buyer protections, sellers who communicate only by free email accounts and refuse any other contact, and talk of air shipping that conveniently means the buyer never has to see the animal in person before paying. Prospective buyers are advised to see a puppy and its parents in person before paying anything, get a referral from a trusted source like a veterinarian, and check a seller against the Better Business Bureau and Virginia's own consumer complaint database before sending money to an online breeder they've never met.`,
+    categorySlug: 'pet-sales-scams',
+    sources: ['Virginia Office of the Attorney General'],
+    sourceUrl: 'https://www.oag.state.va.us/consumer-protection/index.php/news/231-august-23-2017-ag-herring-warns-virginia-consumers-of-purebred-puppy-scam',
+    country: 'US',
+    state: 'VA',
+    isHistorical: true,
+    firstRecorded: '2017-08-23',
+});
+
+UsTZ.push({
+    name: 'Virginia Workers\' Compensation Fake-Hearing Extortion Scheme',
+    slug: 'virginia-workers-compensation-fake-hearing-scam',
+    description: `Scammers contact Virginia workers'-compensation claimants, disproportionately targeting Spanish-speaking individuals, and direct them to set up what's presented as an official hearing over WhatsApp rather than through any real court channel. During the call, a fraudulent virtual "hearing" plays out complete with a false judge, bailiff, attorney, and prosecutor mimicking a genuine court proceeding, using the performance's realism to pressure the victim into handing over personal identifying information and then paying money that the scammers claim is required to receive workers'-compensation benefits or settle a claim. The Virginia Workers' Compensation Commission states flatly that neither the Commission nor any insurance carrier will ever ask for payment to release benefits a claimant is owed, and that it does not conduct real hearings over WhatsApp. The scheme's use of a fully staged, multi-role fake courtroom — rather than a single caller claiming to be one official — is what makes it unusually convincing to claimants unfamiliar with how a real Virginia workers'-comp hearing is actually scheduled and run (always by written letter, never an unsolicited video call). Anyone contacted this way should hang up or end the call, independently contact the Commission's Customer Service Team at 877-664-2566 or questions@workcomp.virginia.gov to verify any claim about their case, and report the attempt to local law enforcement.`,
+    categorySlug: 'insurance-fraud',
+    sources: ['Virginia Workers\' Compensation Commission'],
+    sourceUrl: 'https://www.workcomp.virginia.gov/news/fraud-scheme-alert',
+    country: 'US',
+    state: 'VA',
+});
+
+UsTZ.push({
+    name: 'Equitable Acceptance Student Debt-Relief Loan Scheme',
+    slug: 'virginia-equitable-acceptance-student-debt-relief-scheme',
+    description: `Equitable Acceptance Corporation issued loans carrying interest rates above Virginia's 12% annual percentage rate usury cap, structured and disguised as open-end credit to get around that limit, specifically to finance third-party "student debt relief" services whose benefits were misrepresented to the borrowers who took out the loans. Virginia Attorney General Mark Herring's office reached a March 2021 settlement requiring Equitable to cancel more than $50,000 in debt and pay $40,000 in restitution to nearly 700 affected Virginians, on top of a $5.5 million civil penalty and a $10,000 payment covering the Commonwealth's investigation costs. The settlement permanently bars Equitable Acceptance from financing student-loan debt-relief services in Virginia going forward. The case illustrates a layered fraud: Equitable's loan product existed specifically to fund access to debt-relief services that didn't deliver what they promised, meaning a borrower who fell for one deceptive pitch (the debt-relief service) was simultaneously saddled with a second, separately illegal product (an above-cap loan dressed up as something else) to pay for it. Anyone offered financing to pay for a student-loan debt-relief service should treat that pairing itself as a warning sign, since legitimate federal loan consolidation, forgiveness, and income-driven repayment programs are free and never require taking out a separate loan to access them.`,
+    categorySlug: 'student-loan-education',
+    sources: ['Virginia Office of the Attorney General'],
+    sourceUrl: 'https://www.oag.state.va.us/consumer-protection/index.php/news/457-march-3-2021-herring-secures-debt-relief-and-restitution-for-virginia-student-loan-borrowers',
+    country: 'US',
+    state: 'VA',
+    isHistorical: true,
+    firstRecorded: '2021-03-03',
+});
