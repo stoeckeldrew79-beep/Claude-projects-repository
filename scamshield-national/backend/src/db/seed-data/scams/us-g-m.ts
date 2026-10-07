@@ -12974,3 +12974,16 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2018-06-01',
 });
+
+UsGM.push({
+    name: 'Fraudulent "Get Kansas Benefits" Unemployment Website',
+    slug: 'kansas-fraudulent-get-kansas-benefits-phishing-website',
+    description: `In December 2020, amid a nationwide wave of pandemic-era unemployment identity theft that cost more than $26 billion, the Kansas Department of Labor (KDOL) discovered a fraudulent website built to impersonate its official "Get Kansas Benefits" unemployment portal. KDOL stated the only legitimate sites for Kansas unemployment benefits are dol.ks.gov, GetKansasBenefits.gov, and PUA.GetKansasBenefits.gov, and urged anyone who encountered the fake page not to click any links on it but to close the browser tab and clear it from their browsing history instead. The department said it was working with the U.S. Secret Service, the FBI, the U.S. Department of Labor's Office of Inspector General, and the U.S. Attorney's Office to identify those responsible for the fake site. The case illustrates how a cloned-looking government benefits portal can be used to harvest the same personal and financial information a real unemployment application requires, making domain verification — checking that a benefits website's address exactly matches a state's own official list before entering any information — as important a safeguard as recognizing a suspicious phone call or email. Kansans who believe they've been targeted by unemployment-related identity theft are directed to report it at ReportFraud.ks.gov.`,
+    categorySlug: 'public-benefits-fraud',
+    sources: ['Kansas Department of Labor'],
+    sourceUrl: 'https://www.ksal.com/fraudulent-kansas-department-of-labor-website-discovered/',
+    country: 'US',
+    state: 'KS',
+    isHistorical: true,
+    firstRecorded: '2020-12-18',
+});
