@@ -12210,3 +12210,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2024-07-09',
 });
+
+UsNS.push({
+    name: 'Northern Mariana Islands EITC Refund Fraud Ring (Aguon)',
+    slug: 'northern-mariana-islands-eitc-refund-fraud-aguon',
+    description: `Antonieta Aguon, a tax preparer in the Commonwealth of the Northern Mariana Islands, worked with a network of recruiters to file approximately 275 false federal tax returns over roughly two years, using CNMI taxpayers' names, Social Security numbers, and bank account details alongside fictitious U.S. mainland addresses to improperly claim the federal Earned Income Tax Credit — a credit CNMI residents are not eligible for, since Commonwealth residents generally don't file the type of federal return the credit applies to. The IRS identified the scheme after tracing the pattern of claims, finding Aguon and her recruiters each took a cut — roughly 5 percent apiece — of every fraudulent refund, for a total loss to the U.S. Treasury of about $850,000. Aguon pleaded guilty to conspiracy to defraud the United States and was sentenced to 22 months in custody, with credit for time served, followed by three years of probation. The case shows how identity theft and tax fraud can be layered together even in a jurisdiction, like the CNMI, where the underlying tax credit being claimed doesn't actually apply to local residents at all — the fictitious mainland addresses were the mechanism that let CNMI taxpayers' stolen information pass as a mainland filer's eligible claim.`,
+    categorySlug: 'tax-scams',
+    sources: ['Internal Revenue Service', 'Accounting Today'],
+    sourceUrl: 'https://www.accountingtoday.com/news/irs-identifies-illegal-refund-scheme',
+    country: 'US',
+    state: 'MP',
+    isHistorical: true,
+});
