@@ -11872,3 +11872,33 @@ Van Vlijmen was convicted of money laundering, fraud, bribery, and leading a cri
 The Klimop affair illustrates a fraud mechanism distinct from a Ponzi scheme, a rogue trader, or straightforward accounting fraud: rather than deceiving outside investors with fabricated returns, van Vlijmen and his co-conspirators exploited privileged insider access to a pension fund's own property transactions, using confidential deal information as the asset they monetized. The case is a reminder that an institution's own employees and trusted business partners — not just outside con artists — can be the source of the largest losses, especially in a sector like commercial real estate where transaction prices and terms aren't always easy for an institution's own oversight to independently verify against what an insider with inside knowledge could get on the open market.`,
     sourceUrl: 'https://www.dutchnews.nl/2011/09/property_fraud_ringleaders_fac/',
 });
+
+NotoriousGM.push({
+    title: 'Graeme and Carolina Minne and the Cape Town Forex Ponzi Scheme',
+    slug: 'graeme-carolina-minne-cape-town-forex-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
+    body: `Graeme and Carolina Minne ran a foreign-exchange trading investment scheme out of Cape Town, South Africa, from September 2002 to November 2009, promising investors annual returns of up to 65 percent on money the couple claimed was actively traded in the forex markets. The pitch found a wide audience: by the time the scheme collapsed, almost 934 clients had entrusted the Minnes with a combined roughly R278 million.
+
+Investigators with the Hawks' Serious Commercial Crime Unit found that only a small fraction of that money was ever actually traded — less than R5 million in total, and at a net loss rather than the promised profit. The rest of the "returns" paid out to investors came directly from the deposits of newer clients, the same pay-earlier-investors-with-later-investors'-money structure at the heart of every Ponzi scheme, sustained for more than seven years before the math finally failed.
+
+The couple was convicted of fraud and of contravening South Africa's Banks Act, which prohibits taking deposits from the public without a banking license. At sentencing in the Thembalethu Regional Court on September 21, 2017, Graeme Minne received 15 years of direct imprisonment, while Carolina Minne was sentenced to three years of house arrest under correctional supervision; both were also barred from possessing firearms.
+
+The Cape Town case shows how long a forex-trading Ponzi scheme can run on a promise alone: seven years and nearly a thousand investors passed before the underlying absence of real trading activity caught up with the Minnes, a reminder that a claimed trading strategy — unlike a tangible business — is especially easy to fabricate convincingly for as long as new deposits keep the payouts flowing.`,
+    sourceUrl: 'https://www.timeslive.co.za/news/south-africa/2017-09-21-cape-town-couple-behind-r278m-ponzi-scheme-sentenced/',
+});
+
+NotoriousGM.push({
+    title: 'Michael Winans Jr. and the Fake Saudi Arabian Oil Bond Ponzi Scheme',
+    slug: 'michael-winans-jr-oil-bond-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'affinity-fraud'],
+    body: `Michael Winans Jr., a third-generation member of the famous Winans gospel music family — grandson of Delores "Mom" Winans and David "Pop" Winans Sr., son of Michael Winans Sr. of the gospel quartet The Winans — used his family's name and standing inside church communities to promote an investment scheme through the Winans Foundation Trust, which he represented as a vehicle that invested in Saudi Arabian crude oil bonds. No such bonds existed. Operating out of Jessup, Maryland, Winans promised investors roughly 100 percent returns within about 60 days, a guarantee pitched heavily through church pulpits and gospel-community networks that trusted the Winans name.
+
+Between 2007 and 2008, more than 1,000 investors put money into the scheme, drawn by the promised returns and the credibility lent by Winans's gospel-music pedigree. As with any Ponzi scheme, there was no legitimate investment generating the promised returns; Winans used money from newer investors to pay off earlier ones, while also converting a portion of investor funds to his own personal use. The scheme raised approximately $8 million in total, and by the time it collapsed roughly 600 investors were still owed a combined $4.7 million.
+
+Winans pleaded guilty to wire fraud in October 2012. U.S. District Judge Sean Cox sentenced him in February 2013 to nearly 14 years in federal prison — within the federal sentencing guideline range of twelve-and-a-half to fifteen-and-a-half years — and ordered him to pay $4.7 million in restitution to his victims. An Assistant U.S. Attorney on the case noted that Winans had used religion, the church, and his family's good reputation as the tools that let him defraud his victims.
+
+The case illustrates affinity fraud at its most direct: Winans didn't need a sophisticated cover story once his family name and church connections had already done the work of establishing trust, and victims who would have been skeptical of a stranger's investment pitch extended exactly the trust a family name and shared faith community are meant to earn — right up until the money was gone.`,
+    sourceUrl: 'https://www.csmonitor.com/USA/Latest-News-Wires/2013/0228/Michael-Winans-Jr.-gospel-family-scion-gets-nearly-14-years-in-prison',
+});
