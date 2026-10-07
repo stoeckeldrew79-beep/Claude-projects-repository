@@ -11777,3 +11777,53 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2024-10-15',
 });
+
+UsAF.push({
+    name: 'ANZ Bank Fagatogo Insider Account-Takeover and Elder Exploitation (Teofilo)',
+    slug: 'american-samoa-anz-teofilo-insider-elder-account-takeover',
+    description: `Henirieta Teofilo, a call-center specialist at ANZ Bank's Fagatogo branch in American Samoa, used her employee access to target an elderly couple's bank account, which an authorized niece managed on their behalf. On March 8, 2021, Teofilo deleted the niece's phone number from the account's security settings and replaced it with her own office line, allowing her to intercept the online-banking verification notices meant to alert the niece to any activity. Over the following five weeks she made 19 unauthorized transfers ranging from $7 to $160, totaling $1,081, before a relative noticed the activity and reported it to the bank, which credited the full amount back to the couple's account. American Samoa's Department of Public Safety charged Teofilo with one count of stealing and one count of exploitation of an elderly person, both class C felonies carrying up to seven years in prison and $20,000 in fines; she told investigators she made the transfers because of an unstable financial situation in her family. The case illustrates a distinct insider-access risk separate from an outside hacker or a lost card: a bank employee with legitimate system access can quietly redirect a victim's own security notifications to themselves, meaning the usual advice to watch for suspicious login alerts only works if those alerts are still actually reaching the account holder or their authorized representative. Families managing an elderly relative's account should periodically confirm directly with the bank, not just through the online portal, that the phone number and email on file for security alerts are still correct.`,
+    categorySlug: 'account-takeover',
+    sources: ['American Samoa Department of Public Safety', 'Samoa News'],
+    sourceUrl: 'https://samoanews.com/local-news/former-anz-bank-employee-arrested-and-charged',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2021-03-08',
+});
+
+UsAF.push({
+    name: 'American Samoa DHS Warns of Boston Marathon Bombing Charity Scams',
+    slug: 'american-samoa-dhs-boston-marathon-charity-scam-warning',
+    description: `Six days after the April 15, 2013 Boston Marathon bombing that killed three people and injured roughly 180 others, American Samoa's Department of Homeland Security issued a public advisory warning territory residents to be wary of phony online and phone-based charities exploiting the tragedy. The department's alert noted that scammers had already registered some 125 internet domain names referencing the bombing, alongside fraudulent social-media accounts soliciting donations and credit card numbers, even though federal authorities had not yet received any applications from legitimate new charities connected to the attack. The advisory urged residents to be extra cautious before giving money over the internet or phone in response to any bombing-related appeal, and pointed anyone wanting to help toward "The One Fund Boston," the legitimate relief fund established for victims. The case shows how quickly scammers can stand up a large volume of fake donation fronts after a major news event — a tragedy's scale and the public's desire to help can be exploited within days, long before a legitimate, vetted relief effort has had time to get organized — so verifying a charity's actual registration and legitimacy before donating matters most in exactly the window when the pressure to give immediately feels strongest.`,
+    categorySlug: 'charity-scams',
+    sources: ['American Samoa Department of Homeland Security', 'Samoa News'],
+    sourceUrl: 'https://samoanews.com/node/74078',
+    country: 'US',
+    state: 'AS',
+    isHistorical: true,
+    firstRecorded: '2013-04-21',
+});
+
+UsAF.push({
+    name: 'Alaska USA Federal Credit Union Account-Suspension Phishing Scam',
+    slug: 'alaska-usa-credit-union-phishing-scam',
+    description: `Scammers sent Alaskans fraudulent texts and emails impersonating Alaska USA Federal Credit Union, claiming the recipient's account had been suspended and directing them to click a link to "reactivate" it — a page designed to harvest the victim's online banking credentials and other personal information. Alaska Attorney General Kevin Clarkson issued a public warning stating plainly that "Alaska USA FCU will never send a text or email asking you to reactivate your account," and advised anyone receiving such a message to call the credit union directly using its published phone number rather than clicking any link in the message. Residents who believe they already responded to the fake message were directed to contact Alaska USA's fraud line and report the incident to IdentityTheft.gov, while general questions about the scam could be directed to the Alaska Department of Law's Consumer Protection office. The case follows the standard account-suspension phishing playbook — a believable but fabricated urgency ("your account is suspended") paired with a link that looks like it leads somewhere legitimate — and the reliable defense is the same one Clarkson's office recommended: never click a link in an unsolicited account-suspension message, and instead go directly to the institution's own website or a phone number looked up independently.`,
+    categorySlug: 'phishing',
+    sources: ['Alaska Department of Law', 'Juneau Empire'],
+    sourceUrl: 'https://www.juneauempire.com/news/phishing-scam-posing-as-alaska-usa-credit-union-targets-alaskans',
+    country: 'US',
+    state: 'AK',
+});
+
+UsAF.push({
+    name: 'Fake Alaska Court System "Grandchild in Jail" Bail Phishing Calls',
+    slug: 'alaska-court-system-grandchild-bail-phishing-scam',
+    description: `In April 2022, the Alaska Court System issued a public warning after scammers began placing calls to Alaskans that appeared, through caller-ID spoofing, to come from an actual court system phone number. The callers impersonated police officers or court officials and falsely told victims that a grandchild or child — in some cases using the family's actual nickname for that relative — had been arrested and jailed, and that money needed to be sent immediately to secure their release. The Alaska Court System stated unambiguously that it does not call residents to demand payment of bail or fines over the phone, and urged anyone who receives a call like this to hang up immediately and contact their local police department directly, rather than calling any number the caller provides. The scam follows the familiar grandparent-scam structure — a fabricated emergency involving a family member, paired with urgency and a spoofed number designed to make hanging up and verifying feel unnecessary — but the court-system impersonation and known use of real family nicknames specific to this Alaska warning set it apart from a generic unverified "grandchild" call. Anyone contacted this way should independently call the family member in question, or another relative, using a number already saved in their phone before sending any money.`,
+    categorySlug: 'grandparent-scams',
+    sources: ['Alaska Court System'],
+    sourceUrl: 'https://courts.alaska.gov/media/docs/2022/pr-phishing-scam.pdf',
+    country: 'US',
+    state: 'AK',
+    isHistorical: true,
+    firstRecorded: '2022-04-28',
+});
