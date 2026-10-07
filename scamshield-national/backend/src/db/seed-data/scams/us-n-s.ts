@@ -12081,3 +12081,42 @@ UsNS.push({
     state: 'MP',
     isHistorical: true,
 });
+
+UsNS.push({
+    name: '2017 Solar Eclipse Hotel Overbooking Scam',
+    slug: 'oregon-2017-eclipse-hotel-overbooking-scam',
+    description: `Ahead of the total solar eclipse that crossed Oregon on August 21, 2017, at least a dozen Oregon hotels in the path of totality canceled guests' confirmed reservations, in several cases claiming an unspecified "computer glitch" had erased the booking, and then offered to rebook the identical rooms at dramatically inflated rates — in one case asking as much as $1,000 a night, roughly five times the original price. The Oregon Department of Justice logged 29 complaints across the 12 properties, with the Liberty Inn in Lincoln City alone drawing 11 complaints and Quality Suites in Keizer drawing six, and publicly warned eclipse travelers to double-check their bookings and documentation. One affected guest at the Liberty Inn said, "Apparently 'guaranteed' doesn't mean what I thought," while a Quality Suites guest reported the hotel "blamed a 'computer glitch' and only gave us one of our rooms back." The case shows how a predictable, high-demand travel event with a hard, well-publicized date — a total eclipse, a major sporting event, a solar or lunar event tied to a specific path — creates a narrow window in which a hotel can cancel and dramatically up-charge rooms with little practical recourse for travelers who already arranged time off and travel around a reservation they believed was locked in. Travelers who've had a "guaranteed" reservation canceled right before a major, date-specific event should keep a confirmation email or screenshot as proof, dispute inflated rebooking charges with their card issuer, and report the business to the state Attorney General's consumer protection office.`,
+    categorySlug: 'travel-vacation-scams',
+    sources: ['Oregon Department of Justice', 'Willamette Week'],
+    sourceUrl: 'http://www.wweek.com/news/business/2017/07/19/here-are-the-oregon-hotels-where-tourists-say-they-were-scammed-out-of-rooms-for-the-eclipse/',
+    country: 'US',
+    state: 'OR',
+    isHistorical: true,
+    firstRecorded: '2017-07-19',
+});
+
+UsNS.push({
+    name: 'Tri-State Adjustments Unregistered Debt Collection Scheme',
+    slug: 'oregon-tri-state-adjustments-unregistered-collection-scheme',
+    description: `Oregon's Division of Financial Regulation entered a consent order in July 2026 against Tri-State Adjustments, a Wisconsin-based debt collector, after finding the company had collected roughly $177,200 from Oregon consumers across approximately 1,812 separate accounts and contacts without ever registering as a collection agency in Oregon, as state law requires, despite holding valid collection-agency registrations in other states. Oregon law treats each unregistered collection contact as its own separate violation, and regulators counted 1,812 of them, assessing $181,500 in total civil penalties — $40,000 due immediately and the remaining $141,500 suspended for three years, waived entirely if the company complies with the order's terms but immediately due in full if it doesn't. Tri-State had obtained proper Oregon registration by the time the order was finalized. The case is a licensing-based enforcement action distinct from the more familiar "fake debt collector" scam that invents a debt that doesn't exist at all: here, the underlying debts were apparently real, but the collector pursuing them had no legal authority to operate in Oregon, meaning consumers were being contacted by an entity the state hadn't vetted or authorized to collect from them. Oregon consumers contacted by a debt collector can verify that company's registration status directly through the Division of Financial Regulation before making any payment, since a legitimate debt doesn't make an unregistered collector's demand for payment any more enforceable.`,
+    categorySlug: 'legal-debt-collection',
+    sources: ['Oregon Division of Financial Regulation'],
+    sourceUrl: 'https://infobytes.orrick.com/2026-07-24/oregon-regulator-fines-debt-collector-180k-for-alleged-unregistered-collection-activity/',
+    country: 'US',
+    state: 'OR',
+    isHistorical: true,
+    firstRecorded: '2026-07-24',
+});
+
+UsNS.push({
+    name: 'Oregon Student Loan Forgiveness "Pre-Enrollment" Fee Scam',
+    slug: 'oregon-student-loan-forgiveness-preenrollment-scam',
+    description: `Oregon's Division of Financial Regulation warned in 2022 that scammers were cold-calling, emailing, and texting Oregon student loan borrowers with urgent, invented claims such as offering "pre-enrollment for all loan forgiveness" or insisting "you must apply within the next 24 hours," then charging a fee to supposedly secure a borrower's place in line for forgiveness that is, in reality, both free and processed only through official federal channels. Division administrator T.K. Keen stressed that "everyone will have the same opportunities and there are no ways to cut in line and get loans forgiven faster," while the state's student loan ombudsman, Lane Thompson, added that "if it seems too good to be true, it likely is," recommending borrowers verify any loan-forgiveness communication directly through the U.S. Department of Education's own website and confirm that any site asking for information actually ends in ".gov." The scheme exploits genuine public confusion during periods when federal student loan programs are actively changing, giving a fabricated urgency ("apply within 24 hours," "pre-enrollment") real-feeling cover, since borrowers have reason to believe program rules and deadlines really are shifting. No legitimate federal loan-forgiveness program charges an enrollment fee or allows anyone to pay to be processed ahead of other borrowers, and any borrower contacted this way should hang up or stop responding and go directly to studentaid.gov to check their own standing.`,
+    categorySlug: 'student-loan-education',
+    sources: ['Oregon Division of Financial Regulation', 'KPTV'],
+    sourceUrl: 'https://www.kptv.com/2022/09/29/rise-student-loan-forgiveness-scams-ore-authorities-warn',
+    country: 'US',
+    state: 'OR',
+    isHistorical: true,
+    firstRecorded: '2022-09-29',
+});
