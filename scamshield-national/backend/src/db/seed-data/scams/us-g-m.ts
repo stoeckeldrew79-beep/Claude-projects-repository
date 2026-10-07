@@ -12999,3 +12999,29 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2022-11-29',
 });
+
+UsGM.push({
+    name: 'Guam Attorney Fake Cashier\'s-Check Retainer Scam (Aguilar)',
+    slug: 'guam-aguilar-fake-cashiers-check-retainer-scam',
+    description: `An international check-fraud ring operating out of Hong Kong targeted Guam attorney Danilo Aguilar with an unsolicited email purporting to be a prospective client seeking legal services, a scheme that specifically targets attorneys because a request to deposit a client's funds and later wire out a balance looks like ordinary legal business. The "client" sent Aguilar a cashier's check for nearly $300,000, purportedly drawn on Citibank, which he deposited in March 2009; once the bank released the funds against the check, before it had actually cleared, Aguilar had an employee cash roughly $55,000 and obtained a bank check for close to $234,000 — a total of $184,947.49 — before the forgery was discovered. Aguilar pleaded guilty in September 2010 in the District of Guam to two felony counts of money laundering and was sentenced to 60 months of probation and full restitution. The conviction triggered disbarment proceedings well beyond Guam itself: courts in the Commonwealth of the Northern Mariana Islands, the federal district court for the NMI, and the Supreme Court of Hawaii all separately disbarred him. The case is a reminder that even a licensed professional trained to spot fraud can be targeted by a fake-check scam dressed up as ordinary business, and that withdrawing or forwarding funds against a check that has not yet actually cleared — even one that looks and functions like a real cashier's check — can expose the account holder to the same fraud and money-laundering liability as the original scammer if the check later turns out to be counterfeit.`,
+    categorySlug: 'fake-check-overpayment',
+    sources: ['U.S. Attorney\'s Office for the District of Guam', 'ABA Journal'],
+    sourceUrl: 'https://www.abajournal.com/news/article/lawyer_victimized_in_fraudulent-check_scam_is_charged_with_money-laundering',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2010-09-01',
+});
+
+UsGM.push({
+    name: 'Saipan-Guam Bitcoin Affinity Fraud (Sze Man Yu "Yuki" Inos)',
+    slug: 'guam-saipan-yuki-inos-bitcoin-affinity-fraud',
+    description: `From November 2020 to January 2022, Sze Man Yu Inos, known as "Yuki," built friendships with elderly women in Guam and Saipan by falsely claiming she came from a wealthy family in China, owned multiple businesses, and had made money successfully investing in Bitcoin. She spent money on expensive meals and gifts to build trust before soliciting cash and "Bitcoin investments" under false pretenses, including one fabricated pitch about needing capital for a salon she claimed she was opening at the Hyatt on Guam; the scheme later extended to additional victims in Washington and California. Inos was convicted on wire fraud charges and, on April 23, 2026, sentenced to 71 months in federal prison, with $769,355.67 ordered in restitution to her victims. The case follows the structure of classic affinity fraud — a shared background or community connection used to build a level of trust an outside stranger could never establish as quickly — layered with the credibility boost of citing a real, currently trendy asset class like Bitcoin as the supposed source of her own success. Anyone solicited to invest by a new friend, regardless of how genuine the friendship feels or how specific and localized a business pitch sounds (a named hotel, a named salon), should independently verify the underlying business and investment claims before handing over money, since a scammer's claimed wealth and "track record" are typically unverifiable precisely because they're fabricated.`,
+    categorySlug: 'investment-fraud',
+    sources: ['Guam Daily Post'],
+    sourceUrl: 'https://www.postguam.com/news/local/woman-is-sentenced-to-6-years-for-fraud-targeting-older-women/article_a65cf750-a41f-4a51-8d7c-59d0f818547c.html',
+    country: 'US',
+    state: 'GU',
+    isHistorical: true,
+    firstRecorded: '2026-04-23',
+});
