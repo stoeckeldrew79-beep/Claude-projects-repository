@@ -11822,6 +11822,10 @@ NotoriousGM.push({
     slug: 'helmut-kiener-k1-group-hedge-fund-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_panorama_of_the_old_town_with_the_Main_river_in_W%C3%BCrzburg.jpg?width=1200',
+    coverImageCredit: 'Photo: Robert von Oliva (CC0) — Würzburg, where Kiener was convicted and sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Helmut Kiener ran K1 Group, a German holding company marketing a family of speculative hedge funds — K1 Global and K1 Invest — to institutional investors across Europe, including major banks like Barclays and BNP Paribas. For years, Kiener told investors the funds were posting steady, attractive profits. Germany's financial regulator, BaFin, had already been watching K1 closely, and had barred the firm from operating in Germany as far back as June 2004 — a warning sign that didn't stop the funds from continuing to raise money from investors abroad.
 
 The profits were fiction. The funds were actually suffering massive losses, and Kiener covered the gap the way Ponzi schemes always do: using money from new investors to make it look like the existing funds were performing, while fabricating account statements that showed returns which had never occurred. German prosecutors in Würzburg eventually calculated total investor losses of roughly €345 million; one investor-side lawyer, drawing comparisons to Bernard Madoff, estimated the real damage could run as high as €500 million to €1 billion once every affected institutional investor was counted.

@@ -8174,6 +8174,10 @@ NotoriousNS.push({
     slug: 'jawad-rathore-vince-petrozza-fortress-real-developments-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richmond_Hill_Skyline.JPG?width=1200',
+    coverImageCredit: 'Photo: The Canadian Roadgeek (Public Domain) — Richmond Hill, Ontario, where Fortress Real Developments was headquartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     // representative photo — replace with a portrait if found
     body: `Fortress Real Developments was one of Canada's largest syndicated-mortgage real estate firms, raising roughly $900 million from retail investors — ordinary "mom and pop" savers, not institutional players — between 2008 and 2017 to fund condominium and housing developments across Ontario. Investors were told their money was secured against the real, assessed value of the underlying properties, the basic promise that made a syndicated mortgage feel safer than a straight equity investment in a real estate project.
 
