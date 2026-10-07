@@ -3840,3 +3840,18 @@ The case produced an unusually long legal tail. A Quebec court convicted Richard
 The maple syrup heist stands out among large-scale fraud cases for its mechanism: rather than a Ponzi scheme, a falsified balance sheet, or stolen investor funds, this was old-fashioned physical commodity theft made possible by inside access to a centralized stockpile and a low-tech trick — refilling barrels with water — that worked because routine inventory checks weren't designed to catch a substitution that convincing at a glance. The case is a reminder that a strategic reserve or bulk-storage system is only as secure as the people with physical access to it, and that a scheme built on moving a stolen physical good through legitimate distribution channels in small, inconspicuous batches can operate for months before anyone notices the volume missing from the top.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Great_Canadian_Maple_Syrup_Heist',
 });
+
+NotoriousTZ.push({
+    title: 'Timothy Schools, David Kennedy, and the £100 Million Axiom Legal Finance Fund Fraud',
+    slug: 'timothy-schools-david-kennedy-axiom-legal-finance-fund-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'international'],
+    body: `Timothy Schools and David Kennedy ran Axiom Legal Finance Fund, a Cayman Islands-registered investment vehicle that pitched investors on a seemingly low-risk proposition: their money would finance "no-win-no-fee" litigation loans to UK law firms, with returns backed by the settlements those cases were expected to produce. The pitch drew in hundreds of ordinary savers, who collectively entrusted the fund with around £100 million over more than two years of operation.
+
+UK Serious Fraud Office investigators found that Kennedy diverted more than £5.8 million of that money for his own personal benefit, funneling it through offshore bank accounts and layered trust structures to pay for a ski chalet in Switzerland, a villa in Tenerife, and renovations to his own home in Hull — spending entirely disconnected from the litigation-finance business investors had been told their money was funding. Meanwhile, the loans the fund did make went to high-risk, inadequately vetted legal cases that mostly failed to produce the returns investors had been promised, leaving the fund unable to pay back what it owed even before accounting for Kennedy's personal diversions.
+
+The SFO prosecuted both men at Southwark Crown Court. Timothy Schools was convicted and sentenced to 14 years in prison for fraud. David Kennedy was convicted of fraud following a retrial, with sentencing scheduled for May 2024.
+
+The Axiom collapse illustrates how a litigation-finance product can borrow the appearance of legal and financial sophistication — case files, settlement projections, a professional-sounding Cayman Islands fund structure — while still amounting to the same thing as any other fraud: money moving from new investors into a manager's personal accounts rather than into the business investors were told it would fund. The case is a reminder that an investment pitched as indirectly funded by a court settlement is no safer than any other promised return, and the complexity of a legal-finance structure can make it harder, not easier, for an ordinary investor to verify where their money is actually going.`,
+    sourceUrl: 'https://www.gov.uk/government/news/conviction-of-investment-manager-for-100m-no-win-no-fee-fraud',
+});
