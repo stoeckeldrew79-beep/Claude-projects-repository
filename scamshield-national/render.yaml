@@ -1,0 +1,36 @@
+# Render Blueprint: provisions the backend API + its Postgres database in
+# one step. In the Render dashboard: New + -> Blueprint -> connect this repo
+# -> set "Blueprint file path" to scamshield-national/render.yaml.
+#
+# On every push to main, the backend's own "start" script (migrate -> seed
+# -> listen) reruns automatically, so newly delivered scam/profile/guide
+# content goes live on redeploy with no extra step.
+services:
+  - type: web
+    name: scamshield-national-backend
+    env: node
+    rootDir: scamshield-national/backend
+    plan: starter
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: scamshield-national-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      # Tighten this to the real Vercel URL once the frontend is deployed
+      # (Render dashboard -> this service -> Environment). "*" works for a
+      # demo in the meantime; cors() treats it the same as leaving it unset.
+      - key: FRONTEND_URL
+        value: "*"
+
+databases:
+  - name: scamshield-national-db
+    plan: starter
+    databaseName: scamshield
+    user: scamshield
