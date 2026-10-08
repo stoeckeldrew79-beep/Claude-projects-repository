@@ -31,6 +31,6 @@ services:
 
 databases:
   - name: scamshield-national-db
-    plan: starter
+    plan: 0.1c-256mb
     databaseName: scamshield
     user: scamshield
