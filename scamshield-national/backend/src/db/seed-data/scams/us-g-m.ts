@@ -13102,3 +13102,17 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2020-12-18',
 });
+
+UsGM.push({
+    name: 'Little Rock FBI and U.S. Marshals Impersonation Business-Funds Scam',
+    slug: 'little-rock-fbi-marshals-impersonation-business-funds-scam',
+    description: `The Little Rock Police Department warned business owners and managers on October 3, 2026 about callers posing as FBI agents, U.S. Marshals, and other law-enforcement officials who claim the business's own funds are missing or compromised and must be made good immediately. The department's public warning set out a simple rule covering every version of the call: "no law enforcement agency will contact you by telephone to request or accept payment," regardless of how official the caller sounds or which federal agency they claim to represent. Unlike the department's own, more familiar law-enforcement impersonation cases that target individual residents over a supposed missed jury duty or an identity-theft "investigation," this variant is aimed specifically at business owners and staff, using an accusation about the company's own finances as the fabricated emergency rather than the target's personal legal jeopardy. Little Rock police ask anyone who receives such a call to hang up without engaging and report it immediately to the department's Tactical Response Unit at 501-918-4397 or TRU@littlerock.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Little Rock Police Department', 'KATV'],
+    sourceUrl: 'https://katv.com/news/local/little-rock-police-warns-of-new-scam-targeting-business-owners',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    firstRecorded: '2026-10-03',
+});
