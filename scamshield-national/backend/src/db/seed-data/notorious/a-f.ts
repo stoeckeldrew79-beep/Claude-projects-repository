@@ -1027,26 +1027,6 @@ Demara's story is often told as a curiosity — a rogue who did real good while 
     sourceUrl: 'https://en.wikipedia.org/wiki/Ferdinand_Waldo_Demara',
   },
 {
-    title: 'Christophe Rocancourt: The French Con Man Who Posed as a Rockefeller to Swindle Hollywood and the Hamptons',
-    slug: 'christophe-rocancourt-fake-rockefeller-conman',
-    author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/HollywoodSign.jpg?width=1200',
-    coverImageCredit: 'Photo: Sörn (CC BY-SA 2.0)',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
-    tags: ['notorious', 'notorious-scammer', 'historical'],
-    body: `Christophe Rocancourt grew up poor in Normandy, France, the son of an alcoholic, unemployed painter; he later said his father placed him in an orphanage at age five. By his twenties he had reinvented himself entirely, adopting the persona of a wealthy, well-connected American — and, most audaciously, claiming kinship with the Rockefeller family, one of the best-known names in American wealth. Using aliases like "Christopher Rockefeller," he built a life among the very rich in Los Angeles and the Hamptons, telling anyone who asked that his mother was Sophia Loren and his "uncles" were fashion designer Oscar de la Renta and film producer Dino De Laurentiis.
-
-His method relied less on paperwork than on sheer social nerve. Rocancourt presented himself, depending on the mark, as a movie producer, a professional boxer, a venture capitalist, or an international arms and diamond dealer — whatever role fit the person in front of him. He courted wealthy investors and socialites, borrowed against his fabricated pedigree to solicit "investments" and loans, and, in one especially brazen scheme, collected a $100,000 advance fee at Manhattan's Waldorf-Astoria for arranging a $4.2 million loan that never materialized. Prosecutors ultimately tied him to roughly $1.2 million defrauded from about 20 victims; Rocancourt himself later told NBC's "Dateline" he estimated he had "made" some $40 million over the course of his run, a figure that was never independently substantiated.
-
-The unraveling began in 2000, when he was arrested in the Hamptons over an unpaid hotel bill and skipped bail. He resurfaced the following year in British Columbia, Canada, posing as a race car driver, and was arrested again — this time on Canadian fraud charges involving roughly $100,000 in losses, for which he served about a year in prison. In March 2002 he was extradited to New York to face the American charges waiting for him.
-
-Rocancourt pleaded guilty to three of eleven counts, including grand larceny, theft, smuggling, bribery, and perjury, and in September 2003 was sentenced to three years and ten months in federal prison, with a concurrent state sentence, along with an order to repay $1.2 million to his victims — a repayment plan that required 75 percent of the proceeds from any book he wrote about his own exploits to go toward restitution. At his sentencing, Rocancourt told the court, "I take responsibility for my actions. I apologize for what I did wrong." He completed his sentence and was deported to France in October 2005, where he went on to publish a memoir and, in 2014, faced fresh French corruption charges for allegedly taking payments to fix immigration paperwork at a Paris police prefecture.
-
-Rocancourt's fraud worked because he understood a specific vulnerability of the wealthy social circles he targeted: name-dropping a famous family and behaving with total, unearned confidence was often enough to skip the due diligence people would apply to a stranger with no connections at all. That same shortcut — trusting a claimed connection to a famous name, a celebrity, or an "insider" social circle instead of verifying it independently — still drives affinity fraud and celebrity-impersonation scams today, from fake talent managers and producers who convince investors to bankroll nonexistent film deals to social-media impostors who borrow a public figure's name and photos to solicit "investment opportunities" from strangers who assume the association alone is proof enough.`,
-    sourceUrl: 'https://www.cbsnews.com/news/fake-rockefeller-gets-jail-time/',
-  },
-{
     title: 'Ferdinand Ward, "The Young Napoleon of Wall Street" Who Bankrupted a Former President',
     slug: 'ferdinand-ward-grant-and-ward-ponzi-scheme',
     author: 'ScamShield Editorial',
