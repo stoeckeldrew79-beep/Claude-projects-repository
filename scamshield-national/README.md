@@ -61,6 +61,17 @@ Implemented:
   resolved with no send. Nothing ever reaches a real subscriber without a human approving it
   first. Detection currently aggregates nationwide (`is_nationwide: true` on every candidate) —
   state-scoped alerts would need `scam_reports` to reliably carry a state on submission first.
+- Digest alert subscriptions (`/alerts` page, `/v1/alert-subscriptions`): every tier now gets a
+  periodic email of newly-documented scams matching the subscriber's own state/category
+  watch profiles — the "live feed as cases are documented" product, distinct from the
+  admin-curated early-warning alerts above. Cadence is tier-gated (Free=monthly, Basic=weekly,
+  Pro=daily, Family/Business=~20-minute "instant"); a subscriber may choose anything at or
+  below their tier's max. A watch profile is a (state, category) pair — Free/Basic/Pro get one,
+  Family gets up to 5 and Business up to 20, which is how one Family membership covers several
+  people's states without needing a separate login or separate email consent per person: the
+  digest consolidates every matching profile into one email to the one account holder.
+  `npm run send-alert-digests -- --frequency=<monthly|weekly|daily|instant>` is the one-shot job
+  that sends them — see "Scheduling alert digests" below.
 - "Today's Scams" (`/todays-scams`): `npm run scan-daily-news` scans real, live US news
   coverage (via Google News' public RSS search — no API key required) for scam-related
   headlines and publishes them immediately — unlike the AI-drafted articles above, this feed
@@ -322,6 +333,33 @@ Example crontab entry for a daily 6am run:
 
 Like `draft-articles`, nothing here reaches a real subscriber automatically — every candidate
 sits in the admin review queue until approved.
+
+## Scheduling alert digests
+
+`npm run send-alert-digests -- --frequency=<monthly|weekly|daily|instant>` is a one-shot script,
+run once per frequency on its own schedule — unlike the other jobs above, this one needs four
+separate cron entries, one per cadence:
+
+```
+0 7 1 * *    cd /path/to/backend && npm run send-alert-digests -- --frequency=monthly  >> /var/log/scamshield-digest-monthly.log 2>&1
+0 7 * * 1    cd /path/to/backend && npm run send-alert-digests -- --frequency=weekly   >> /var/log/scamshield-digest-weekly.log 2>&1
+0 7 * * *    cd /path/to/backend && npm run send-alert-digests -- --frequency=daily    >> /var/log/scamshield-digest-daily.log 2>&1
+*/20 * * * * cd /path/to/backend && npm run send-alert-digests -- --frequency=instant  >> /var/log/scamshield-digest-instant.log 2>&1
+```
+
+It only emails a subscriber who has at least one watch profile set up (visiting `/alerts` and
+adding one is what opts someone in — nobody gets an email they never implicitly agreed to by
+showing up) and skips anyone with nothing new since their last send, so an empty digest never
+goes out. Safe to run more often than scheduled; a subscriber's `last_sent_at` high-water mark
+means an extra run just finds nothing new for most people.
+
+This needs `DATABASE_URL` pointed at the **real production database** — unlike
+`generate-scam-entries.yml`/`generate-state-scam-entries.yml`, which run against a throwaway CI
+Postgres and commit seed-data files, this job reads real scams and emails real subscribers
+directly, so it can't run as a GitHub Actions job the way content generation does unless the
+production `DATABASE_URL` and SendGrid credentials are added as repo secrets. Until then, run it
+from wherever the production database is actually reachable — the same place the Windows
+auto-update task or a Render cron job would run.
 
 ## Content generation (Anthropic API)
 
