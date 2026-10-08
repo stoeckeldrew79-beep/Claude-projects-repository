@@ -7959,6 +7959,10 @@ NotoriousNS.push({
     slug: 'philip-watts-shell-reserves-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shell_Centre,_London,_UK,_June_2004.jpg?width=1200',
+    coverImageCredit: 'Photo: Przemyslaw Idzkiewicz (CC BY-SA 1.0) — Shell Centre, the company\'s London headquarters during the reserves scandal',
+    coverImagePosition: 50,
     body: `Royal Dutch Shell entered 2004 as one of the most trusted names in global energy, a dual-listed Anglo-Dutch giant whose reported oil and gas reserves were treated by investors as a conservative, almost sacred, measure of the company's underlying worth. On January 9, 2004, that reputation collapsed in a single announcement: Shell was cutting its estimate of proved oil and gas reserves by roughly 3.9 billion barrels. Further revisions through the year pushed the total overstatement to 4.47 billion barrels of oil equivalent — about 23 percent of the reserves Shell had reported for 2002 — and SEC investigators later found that between 1997 and 2002 the company had overstated reserves every single year, by amounts ranging from 16 to 25 percent.
 
 Internal correspondence made the deception explicit rather than accidental. In a November 9, 2003 email to Shell chairman Sir Philip Watts, the company's head of Exploration and Production, Walter van de Vijver, wrote that he was "becoming sick and tired about lying about the extent of our reserves issues and the downward revisions that need to be done because of far too aggressive/optimistic bookings." Van de Vijver had been raising the issue internally since 2001. Investigators found Shell had been booking reserves that did not meet the "reasonable certainty" standard required under SEC rules — reserves that existed more as aspiration and internal pressure to hit production targets than as geologically proven fact — and the resulting gap overstated the standardized measure of future cash flows for 2002 alone by approximately $6.6 billion.

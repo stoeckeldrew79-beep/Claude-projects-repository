@@ -10980,6 +10980,10 @@ NotoriousAF.push({
     slug: 'bankers-trust-derivatives-fraud-procter-gamble-gibson-greetings',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'securities-fraud', 'bank-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Procter_and_Gamble_World_Headquarters,_Cincinnati,_OH_(32278862657).jpg?width=1200',
+    coverImageCredit: 'Photo: Warren LeMay (CC0) — Procter & Gamble world headquarters in Cincinnati, one of the two corporate clients defrauded by Bankers Trust',
+    coverImagePosition: 50,
     body: `Bankers Trust Company was, by the early 1990s, Wall Street's most aggressive seller of complex over-the-counter derivatives, structuring customized interest-rate swaps for corporate clients who wanted to bet on, or hedge against, the direction of interest rates. Two of its customers were Cincinnati-based Gibson Greetings, which had issued more than $50 million in high-yield debt in 1991 and wanted to profit from falling rates without tying up cash, and Procter & Gamble, which entered two large interest-rate swaps with Bankers Trust's derivatives arm, BT Securities Corporation, in late 1993 and early 1994. Both relationships were built on trust in Bankers Trust's own pricing models — models the client had no independent way to check, because the bank alone could value the instruments it was selling.
 
 That asymmetry is what collapsed into fraud. Between November 1991 and March 1994, Gibson Greetings and BT Securities executed some 29 interlinked, heavily leveraged derivative contracts — far more complex, and far riskier, than the simple hedge Gibson believed it was buying, with BT's own account manager having told Gibson its downside would be capped at roughly $3 million. The SEC later found that a BT Securities representative, Gary S. Missner, knowingly gave Gibson valuations that significantly understated the magnitude of its mounting losses, causing Gibson to misstate those losses in financial statements filed with the SEC. On the P&G side, after the Federal Reserve began raising rates in February 1994 — its first hike in five years, followed by several more that year — P&G's swaps moved sharply against it, and by the time the company could unwind its position it owed Bankers Trust roughly $195 million more than it had expected.
@@ -10997,6 +11001,10 @@ NotoriousAF.push({
     slug: 'csaba-tarsoly-quaestor-group-hungary-bond-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'securities-fraud', 'ponzi-scheme', 'international', 'hungary', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hungarian_Parliament_Building_2023-9.jpg?width=1200',
+    coverImageCredit: 'Photo: Pierre Blaché (CC0) — the Hungarian Parliament Building in Budapest',
+    coverImagePosition: 50,
     body: `Csaba Tarsoly built Quaestor Group into one of Hungary's best-known financial-services conglomerates, anchored by a retail brokerage, Quaestor Securities, and a related bond-issuing arm, Quaestor Financial Hrurira. At its peak the group served more than 200,000 clients, trading on a reputation as a safe, government-regulated place for ordinary Hungarians — and, as it turned out, two dozen municipal governments — to park savings. Quaestor's bond unit operated under a registered issuance program that Hungary's financial regulator had authorized for roughly 60 billion forints (about $290 million) a year.
 
 That authorization became the engine of the fraud. Quaestor kept selling bonds under the same registered program long after it had exhausted its legal quota, eventually placing roughly 150 billion forints in paper regulators had never sanctioned — using the proceeds from new buyers to keep servicing earlier bondholders and brokerage clients, a dynamic that was unsustainable the moment new money stopped arriving. The scheme ultimately caused roughly 77 billion forints (about €220 million) in direct losses to some 800 bondholders.
