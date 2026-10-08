@@ -13001,3 +13001,16 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-10-03',
 });
+
+UsGM.push({
+    name: 'Fake Planning and Zoning Permit Invoice Phishing Scam (Allen County, Indiana)',
+    slug: 'indiana-allen-county-planning-zoning-permit-invoice-scam',
+    description: `The FBI's Internet Crime Complaint Center issued a nationwide public service announcement on March 9, 2026 (Alert Number I-030926-PSA) warning that criminals are impersonating city and county planning and zoning officials to collect fake permit fees from people with active land-use permit applications, pulling real property addresses, case numbers, and officials' real names from public permit records to make the emails convincing. Victims are sent professional-looking PDF invoices and pressured to pay by wire transfer, peer-to-peer payment app, or cryptocurrency, with some messages threatening permit delays if payment isn't made immediately; a recurring tell is that the invoice directs payment questions to an email address rather than a phone number, discouraging the kind of verification call that would expose the fraud. Allen County, Indiana's Department of Planning Services was repeatedly targeted by exactly this pattern: the county's government email domain was spoofed as far back as September 2025 using addresses such as "planning-commision.allencounty@usa.com" to tell residents a project had been "approved" and ask for a wire transfer, and the county's Alert Center issued a fresh public warning on August 17, 2026 after another round of emails carrying counterfeit DPS invoices and wire-transfer demands began circulating, with officials urging recipients not to reply or pay and to delete the email immediately. The City of Fort Wayne separately warned applicants before the Board of Zoning Appeals to verify any invoice referencing their case directly with the Department of Planning Services — at 260-449-7607 or acfwdpspermitspecialists@allencounty.us — using contact information pulled from the county's own website rather than anything printed in the email itself, since a sender address that merely resembles a planning department's name, such as one ending in "@usa.com" instead of a government domain, is itself one of the FBI's listed red flags. Anyone who receives an unsolicited permit-fee invoice anywhere in the country, not just in Allen County, should verify it by calling their local planning or zoning office using a number from its official website before paying anything, and can report a suspected incident to the FBI at ic3.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Federal Bureau of Investigation (FBI/IC3)', 'Allen County, Indiana Department of Planning Services'],
+    sourceUrl: 'https://ic3.gov/PSA/2026/PSA260309',
+    country: 'US',
+    state: 'IN',
+    firstRecorded: '2025-09-12',
+});
