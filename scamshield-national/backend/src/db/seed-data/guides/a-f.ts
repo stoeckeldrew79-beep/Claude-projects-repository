@@ -8611,10 +8611,9 @@ GuidesAF.push({
   author: "ScamShield Editorial",
   tags: ["guide", "fidelity-national-financial-breach", "loancare-data-breach"],
   sourceUrl: "https://www.bleepingcomputer.com/news/security/fidelity-national-financial-hackers-stole-data-of-13-million-people/",
-  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Home_for_Sale_Sign_in_Eugene,_Oregon.jpg?width=1200',
-  coverImageCredit: 'Photo: Rick Obst (CC BY 4.0)',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FNFHQ.jpg?width=1200',
+  coverImageCredit: 'Fidelity National Financial headquarters, Jacksonville, Florida. Photo: Mathew105601, CC BY-SA 4.0, via Wikimedia Commons.',
   coverImagePosition: 50,
-  // representative photo — replace with an exact match if found
   body: `Fidelity National Financial (FNF), one of the largest title insurance underwriters in the country and a major player behind the scenes of the U.S. mortgage industry, detected unauthorized access to its network on November 19, 2023 and responded by taking certain IT systems offline — a shutdown serious enough that it disrupted title and escrow work for roughly a week during a normal closing season. The ALPHV/BlackCat ransomware gang claimed responsibility, listing FNF on its dark-web leak site as proof it had gotten in. FNF said the intrusion stayed confined to its own systems rather than spreading to customers' own networks, and wrapped up its internal investigation by December 13, 2023.
 
 The exposed data actually lived with LoanCare, LLC, a mortgage-servicing subsidiary FNF owns that handles monthly payments, escrow accounts, and loan records for millions of homeowners across the country who never chose LoanCare themselves — it's simply the servicer their mortgage was assigned to. According to the resulting class-action litigation, the information taken included names, home addresses, Social Security numbers, and loan numbers for approximately 1.3 million people, a combination that reads less like a marketing database and more like the paperwork needed to convincingly impersonate a mortgage servicer.
@@ -9761,6 +9760,10 @@ GuidesAF.push({
     title: 'Dating App "Safety Verification" Scams: How a "Free" ID Check Becomes a Recurring Charge',
     slug: 'dating-app-safety-verification-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Woman_texting_on_a_smartphone.jpg?width=1200',
+    coverImageCredit: 'Photo: Kristin Hardwick (CC0) — texting on a smartphone, where this scam\'s conversations move to',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'dating-safety-verification-scam'],
     sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240426',
     body: `A match on a dating app or in a dating app's messaging feature moves quickly to ask for your safety: before things go any further, they explain, they'd like you to complete a quick "verification" to prove you're not a predator or a bot. It sounds like exactly the kind of caution a responsible dating app user should welcome — and that's the point. The FBI's Internet Crime Complaint Center warned in an April 2024 public service announcement that this pitch, not a request for money, is now one of the most common openings fraudsters use on dating platforms, precisely because it borrows the language of a legitimate safety feature instead of asking for anything that sounds like a scam.
@@ -9776,6 +9779,10 @@ GuidesAF.push({
     title: 'Fake AI-Generated Obituary Sites: How Searching for a Death Notice Becomes a Scam Funnel',
     slug: 'fake-ai-obituary-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jacob_Schoen_Funeral_Home_building,_New_Orleans_3_Dec_2024_-_1.jpg?width=1200',
+    coverImageCredit: 'A funeral home — a real obituary comes from here, not a generic tribute site. Photo: Infrogmation, CC BY-SA 4.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'fake-ai-obituary-scam'],
     sourceUrl: 'https://www.sophos.com/en-us/news/are-scammers-using-ai-to-enhance-fake-obituary-sites',
     body: `Within hours of someone's death becoming public — through a brief social media post, a local news mention, or a funeral home listing — a cluster of unrelated websites can already have a full "obituary" or memorial tribute page live for that person, often appearing high in search results for their name. Secureworks' Counter Threat Unit, the research team behind a widely cited 2024 analysis of the pattern, documented one case in which a short social media announcement of a death turned into a full-length tribute across six separate sites within 48 hours, each with slightly different wording and, in some cases, outright fabricated personal details — a pace and volume no family or funeral home actually produces, and a strong signal that generative AI is being used to expand a sparse, scraped announcement into something that reads as a genuine memorial.

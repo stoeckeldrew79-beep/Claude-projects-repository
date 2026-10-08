@@ -5384,6 +5384,9 @@ GuidesNS.push({
     title: 'Pump Switching: The Gas Station Scam That Charges a Stranger’s Fill-Up to Your Card',
     slug: 'pump-switching-gas-station-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pump_at_RaceTrac,_Bradford_County,_Florida.jpg?width=1200',
+    coverImageCredit: 'A gas station fuel pump. Photo: The Bushranger, CC BY-SA 4.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
     tags: ['guide', 'pump-switching-scam', 'gas-pump-scam', 'card-fraud'],
     body: `Pump switching starts with a stranger hanging around the pumps who offers to help fuel your car, or who simply reaches for the nozzle as you're putting it back after you finish. Either way, the goal is the same: get control of the handle at the exact moment your payment session would normally close. Instead of properly reseating the nozzle or confirming the transaction has ended, the scammer leaves it just out of place so the pump stays authorized on your card. They then walk over to another driver pulling in and offer to fill that person's tank for a flat cash fee — often around $20 — letting the next driver believe they're getting a bargain, while the fuel they're pumping is actually being billed to the card of the person who already walked away.
 
