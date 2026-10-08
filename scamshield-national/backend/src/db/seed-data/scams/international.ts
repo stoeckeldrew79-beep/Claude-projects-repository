@@ -24223,3 +24223,42 @@ International.push({
   sourceUrl: 'https://www.rtvslo.si/crna-kronika/furs-znova-svari-pred-prevaranti-nikamor-ne-sporocajte-ali-vpisujte-svojih-podatkov/678331',
   country: 'SI',
 });
+
+International.push({
+  name: 'Crowd1 Recruitment-Based Pyramid Scheme (Burundi)',
+  slug: 'burundi-crowd1-pyramid-scheme',
+  description: `Burundian police arrested at least 17 people in Bujumbura in January 2020 in connection with Crowd1, an online scheme that had recently drawn large numbers of participants by promising dividends in exchange for recruiting new investors beneath them — the defining structure of a pyramid scheme, where payouts depend on continuously expanding recruitment rather than any real underlying business activity. Government spokesperson Pierre Nkurikiye confirmed that an official probe into the company was underway and voiced concern that members of the public were being drawn in by false "get-rich-quick" promises that could not be sustained once recruitment inevitably slowed. Burundi's central bank issued its own warning alongside the arrests, stating that cryptocurrency trading by companies of this kind carries no legal status in the country: "these currencies have no legal tender in the territory of Burundi." Crowd1 drew similar regulatory action across multiple other countries around the same period and was later cited by the Common Market for Eastern and Southern Africa (COMESA) as an example of an unlicensed multi-level scheme under investigation in several jurisdictions. Anyone approached about an investment that pays out primarily for recruiting other participants, rather than from a verifiable product or service generating real revenue, should treat the recruitment requirement itself as the clearest warning sign and verify the company's registration with Burundian financial authorities before sending any money.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  alertLevel: 'high',
+  sources: ['Government of Burundi (spokesperson Pierre Nkurikiye)', 'Banque de la République du Burundi', 'Legalbrief Africa'],
+  sourceUrl: 'https://legalbrief.co.za/diary/legalbrief-africa-new/story/burundi-flags-get-rich-quick-scheme-2/',
+  country: 'BI',
+  isHistorical: true,
+  firstRecorded: '2020-01-20',
+});
+
+International.push({
+  name: 'Fake Wealthy Foreign Businessman Advance-Fee Swindle (Burundi)',
+  slug: 'burundi-fake-wealthy-businessman-advance-fee-swindle',
+  description: `Burundi National Police spokesperson Pierre Nkurikiye, addressing a January 2017 press conference in Bujumbura about a rise in swindles and kidnappings, described a recurring con in which fraudsters approach a target posing as a wealthy foreign businessman — often claiming to be a well-off soldier or trader from Somalia — who proposes a lucrative joint business deal. After building trust with an impressive personal story and the promise of easy profit, the swindler maneuvers the target into handing over money upfront to supposedly complete the deal, then disappears with it, leaving the victim with nothing to show for the "partnership." Nkurikiye raised the case alongside a separate, related warning about people posing as Burundi's National Intelligence Service (SNR) — sometimes with the help of "unfaithful policemen" — to kidnap or extort money from targets, underscoring that an impressive claimed identity, whether a foreign tycoon or a government agent, is not something a victim can verify from the claim alone. Anyone approached by a stranger promising a shared windfall from a business deal, especially one requiring an upfront payment before any product, contract, or registered company can be independently confirmed, should treat the pitch as a probable swindle and verify the person's claimed identity and any company involved through independent channels before paying anything.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'medium',
+  sources: ['Burundi National Police (spokesperson Pierre Nkurikiye)', 'Iwacu'],
+  sourceUrl: 'https://www.iwacu-burundi.org/englishnews/wp-json/wp/v2/posts/4840',
+  country: 'BI',
+  isHistorical: true,
+  firstRecorded: '2017-01-13',
+});
+
+International.push({
+  name: 'Self-Staged Fake Kidnapping Extortion of Family Members (Burundi)',
+  slug: 'burundi-self-staged-fake-kidnapping-family-extortion',
+  description: `Burundi National Police spokesperson Pierre Nkurikiye told reporters in Bujumbura in January 2017 that officers had documented cases of young people staging their own fake kidnapping to extort money from their families, exploiting the same fear and urgency that drives real ransom payments. In one case Nkurikiye described, a 20-year-old short on money told his family he had been kidnapped and that 3 million Burundian francs was needed to secure his release, but was caught after his own mobile-money withdrawal attempt on the "ransom" was blocked — exposing that no genuine kidnapper was involved. Nkurikiye raised the case as part of a wider briefing on extortion and kidnapping schemes in Burundi, which also included criminals posing as National Intelligence Service (SNR) agents, sometimes with help from corrupt police officers, to abduct or extort targets for a payout. Families that receive a sudden call or message claiming a relative has been kidnapped and demanding urgent payment are advised to stay calm, avoid confirming any details about the supposed victim over the phone, and try to reach that family member directly through a separate channel before sending any money, since both a staged self-kidnapping and a real extortion scheme depend entirely on panic preventing that independent check.`,
+  categorySlug: 'family-emergency-scams',
+  alertLevel: 'medium',
+  sources: ['Burundi National Police (spokesperson Pierre Nkurikiye)', 'Iwacu'],
+  sourceUrl: 'https://www.iwacu-burundi.org/englishnews/wp-json/wp/v2/posts/4840',
+  country: 'BI',
+  isHistorical: true,
+  firstRecorded: '2017-01-13',
+});
