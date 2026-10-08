@@ -7153,3 +7153,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-06-16',
 });
+
+UsTZ.push({
+    name: 'Wahpeton Police Department Caller-ID Hijacking and FTC Impersonation Scam',
+    slug: 'wahpeton-police-caller-id-hijacking-ftc-impersonation-scam',
+    description: `Scammers hijacked the Wahpeton, North Dakota Police Department's own published phone number, 701-642-7722, so that outgoing calls displayed the caller ID "Apeton Police Department," and used it to reach residents with a caller who falsely identified himself as Police Chief Matthew Anderson and claimed to be working with the Federal Trade Commission. The caller demanded payment by money order or cashier's check, which the department warned on October 6, 2026 it would never ask for, stating plainly that police "will never call to demand payment or threaten arrest." The scheme is a more convincing variant of ordinary caller-ID spoofing, since it borrows a real department's actual published number and a real, named chief's identity rather than inventing a fictional official or badge number, making it harder for a resident to dismiss simply by checking the incoming number against the department's own published listing. Anyone who receives a call demanding payment and claiming to be the Wahpeton Police Department or the FTC is urged to hang up and call the department directly using its published number to confirm, rather than trusting the number or name that appeared on the caller ID.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Wahpeton Police Department', 'Valley News Live'],
+    sourceUrl: 'https://www.valleynewslive.com/2026/10/06/scam-alert-wahpeton-police-phone-hijacked/',
+    country: 'US',
+    state: 'ND',
+    isHistorical: true,
+    firstRecorded: '2026-10-06',
+});
