@@ -11948,3 +11948,17 @@ A federal grand jury indicted Conner in 2024 on 24 counts of wire fraud and four
 
 Conner's case illustrates how an inventor's unsold patents can function exactly like a Ponzi scheme's fictional trading strategy: a claim that sounds plausible, is difficult for a lay lender to verify, and can be stretched out indefinitely as an excuse for why the payoff from "selling the patent" keeps slipping further into the future. Fifteen years is an unusually long run for a single con artist working largely alone and without the backing of any real company, and it worked specifically because each individual loan was framed as a short-term bridge to a deal that was always just about to close.`,
 });
+NotoriousGM.push({
+    title: 'Mahmoud Mehdi and the Fabricated Gambling-Winnings Tax Refund Scheme',
+    slug: 'mahmoud-mehdi-tampa-gambling-winnings-tax-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'tax-fraud', 'wire-fraud'],
+    body: `Mahmoud Mehdi, of Tampa, Florida, ran a tax-refund fraud scheme that exploited one of the more obscure corners of the federal tax code: the credit filers can claim for backup withholding on reported gambling winnings. From January 2019 through December 2022, according to the U.S. Attorney's Office for the Middle District of Florida and IRS Criminal Investigation, Mehdi conspired with others to electronically submit federal tax returns that invented gambling winnings and losses that had never happened, along with matching federal withholding amounts tied to those fabricated winnings.
+
+The mechanism was straightforward once the fake numbers were in place: a return claiming large gambling winnings with an even larger amount of withholding already paid to the IRS on those winnings generates a refund, since the filer is simply asking for money back that the return claims was already withheld. Because the winnings and the withholding were both invented, every dollar of refund the scheme generated was money the IRS had never actually collected in the first place.
+
+Prosecutors said the scheme's filings sought an intended tax loss of roughly $1.4 million; the actual loss, which the IRS paid out to taxpayers — including Mehdi himself — as refunds or as credits applied against prior tax debts, came to $732,521.18. Mehdi was convicted of conspiracy to commit wire fraud and of making and subscribing a false tax return. U.S. District Judge Virginia M. Hernandez Covington sentenced him on September 3, 2026, to three years and ten months in federal prison, and ordered him to forfeit $137,931.33 and pay $732,521.18 in restitution.
+
+Mehdi's case is a reminder that a fabricated refund doesn't require inventing an entirely new tax credit or exploiting a loophole no one has heard of — the gambling-winnings-and-withholding combination is a long-recognized fraud pattern precisely because the two figures are self-reported together on the same form, with no independent casino or lottery record required at filing time to confirm either one actually happened.`,
+    sourceUrl: 'https://www.wftv.com/news/local/tampa-man-sentenced-nearly-4-years-federal-prison-14m-tax-fraud-scheme/RVM2HKAYHZFBTO5BG6PLV2CAD4/',
+});
