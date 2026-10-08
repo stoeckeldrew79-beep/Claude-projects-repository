@@ -12427,4 +12427,16 @@ UsNS.push({
     firstRecorded: '2026-01-22',
 });
 
+UsNS.push({
+    name: 'AI Voice-Clone "Roommate in Trouble" Back-to-Campus Scam',
+    slug: 'ny-ai-voice-clone-roommate-back-to-campus-scam',
+    description: `As students returned to New York's nearly 300 colleges and universities for the fall 2026 term, the New York State Department of State's Division of Consumer Protection warned in a July 30, 2026 "Back to Campus" alert that scammers are using artificial intelligence to clone the voice of a roommate or a parent and place an urgent, panicked call demanding money be sent immediately — a variation on the classic grandparent scam retooled for the people a student is actually likely to be living with or relying on during their first weeks away from home. Because a short voice sample scraped from a social media video or story is often all that is needed to produce a convincing clone, the call can sound exactly like the real person in distress, and the fabricated emergency is built to create enough panic that the student sends money before stopping to verify anything. The alert also flagged a parallel scam in which a fake "parent" contacts a student asking for personal information rather than money, which can be just as damaging if handed over. The Division's recommended defense is for families and roommates to agree in advance on a private verification phrase or "safe word" that a real caller would know, and to always hang up and call the person back directly on a known number before sending money or information in response to any unexpected emergency call — no matter how convincing the voice sounds or how urgent the situation seems.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['New York State Department of State, Division of Consumer Protection'],
+    sourceUrl: 'https://dos.ny.gov/news/back-campus-alert-nys-department-states-division-consumer-protection-provides-scam-prevention',
+    country: 'US',
+    state: 'NY',
+});
+
 
