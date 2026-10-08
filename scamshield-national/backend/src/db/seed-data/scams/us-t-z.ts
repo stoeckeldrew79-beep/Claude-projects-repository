@@ -7111,3 +7111,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2025-02-21',
 });
+
+UsTZ.push({
+    name: 'Service Dogs by Warren Retrievers $3 Million Fraud Settlement',
+    slug: 'virginia-service-dogs-warren-retrievers-fraud',
+    description: `Service Dogs by Warren Retrievers (SDWR), a Virginia-based company founded by Charles "Dan" Warren Jr., sold purported "diabetic alert dogs" and other service dogs to customers nationwide for $18,000 to $27,000 each, claiming the animals were trained to assist with diabetes, autism, seizure disorders, or PTSD — but Virginia Attorney General Mark Herring's office found many customers instead received poorly trained puppies with behavioral problems that couldn't perform the life-or-death tasks they were sold to do. The investigation also found SDWR and Warren misled customers and charitable donors about the company's payment structure, its claimed affiliation with local police departments, and Warren's own military service, in violation of both the Virginia Consumer Protection Act and the state's Solicitation of Contributions law. A Madison County Circuit Court approved a Consent Judgment on August 11, 2021 requiring Warren to pay $514,406.39 in consumer restitution and $1,447,919.18 to charitable organizations, plus $822,500 in civil penalties and $279,200.75 in attorneys' fees and costs (both suspended on compliance with the settlement's terms), and imposing lifetime bans on Warren holding any fiduciary role in a charity or nonprofit, soliciting charitable donations, or working in any capacity that breeds, trains, sells, or places companion animals; a separate judgment and permanent injunction was entered against SDWR itself after the company filed for Chapter 7 bankruptcy. "These assurances were false, and consumers who believed them could be harmed by relying on a dog that was not actually capable of performing the service it was sold to perform," Herring's office said in announcing the case, warning that a buyer relying on a mislabeled diabetic-alert or seizure-alert dog "could leave them with absolutely no protection against a life-threatening situation." Anyone considering a service dog — especially one marketed as able to detect a medical emergency — should ask to see independent, verifiable proof of the specific dog's training and task performance, check whether the seller or trainer has any history of consumer-protection action against it, and be especially skeptical of a company that solicits large upfront payments or charitable donations without being able to document exactly how the money funds actual training.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'high',
+    sources: ["Virginia Attorney General's Office"],
+    sourceUrl: 'https://www.oag.state.va.us/consumer-protection/index.php/news/488-august-12-2021-herring-holds-service-dogs-by-warren-retrievers-founder-accountable-for-deceiving-consumers',
+    country: 'US',
+    state: 'VA',
+    isHistorical: true,
+    firstRecorded: '2021-08-12',
+});
