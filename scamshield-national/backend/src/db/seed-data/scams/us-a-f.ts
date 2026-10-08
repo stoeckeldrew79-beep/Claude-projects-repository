@@ -11876,3 +11876,17 @@ UsAF.push({
     sourceUrl: 'https://www.irs.gov/newsroom/irs-warns-of-tax-credit-scams-targeting-the-tribal-community',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'Fake Medicaid Coverage-Lapse Text and Payment-Demand Scam (Pennsylvania)',
+    slug: 'pennsylvania-medicaid-coverage-lapse-text-payment-scam',
+    description: `Pennsylvania's Department of Human Services (DHS) and the state Attorney General's office warned residents on October 26, 2023 about a wave of text messages, sent by senders calling themselves "Health Services," "Health Solutions," or "Innovative Partners," falsely claiming a recipient's Medicaid coverage had lapsed and that payment was required to keep it active. The text routes victims to a live caller who says the Medicaid plan was terminated and that hundreds of dollars in additional premiums must be paid immediately to restore it, then asks for a bank account or card number; a related version simply asks for bank details to cover a supposed outstanding balance. DHS confirmed that none of five phone numbers tied to the scheme — 855-572-6201, 863-222-9611, 224-258-0570, 833-369-2932, and 888-677-6074 — are affiliated with the department, and stressed that DHS does not charge a fee to process a Medicaid application or renewal except in limited cases such as paying a premium, never requests personal or account information by phone, email, or text, and must give 15 days' notice before closing a Medicaid case. Legitimate DHS texts come only from 1-833-648-1964 and link only to dhs.pa.gov, COMPASS, or another official .gov or .org address. Pennsylvanians who receive one of these texts are urged not to respond or click any link, and to report it to the DHS Fraud Tip-line at 1-844-DHS-TIPS (1-844-347-8477) rather than call back the number in the text.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ["Pennsylvania Department of Human Services", "Pennsylvania Office of Attorney General"],
+    sourceUrl: 'https://www.pa.gov/agencies/dhs/report-fraud/scams',
+    country: 'US',
+    state: 'PA',
+    isHistorical: true,
+    firstRecorded: '2023-10-26',
+});
