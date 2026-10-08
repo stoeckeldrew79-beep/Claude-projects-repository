@@ -11,7 +11,10 @@ services:
     env: node
     rootDir: scamshield-national/backend
     plan: starter
-    buildCommand: npm install && npm run build
+    # --include=dev: Render sets NODE_ENV=production for the build step too,
+    # which makes a plain `npm install` skip devDependencies — but the build
+    # needs typescript and the @types/* packages to compile at all.
+    buildCommand: npm install --include=dev && npm run build
     startCommand: npm run start
     healthCheckPath: /health
     envVars:
