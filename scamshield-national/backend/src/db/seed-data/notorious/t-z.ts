@@ -3673,6 +3673,10 @@ NotoriousTZ.push({
     slug: 'wolfgang-kulterer-hypo-alpe-adria-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'banking-fraud', 'corruption', 'austria'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Klagenfurt_am_Wörther_See_West-Ansicht_01052020_7516.jpg?width=1200',
+    coverImageCredit: 'Photo: Johann Jaritz (CC BY-SA 4.0) — Klagenfurt, capital of Carinthia, the Austrian province Hypo Alpe-Adria nearly bankrupted',
+    coverImagePosition: 50,
     body: `Wolfgang Kulterer ran Kärntner Hypo Bank, a small Austrian regional lender, through an aggressive "expand or die" push into the Balkans during the 2000s, opening operations across Croatia, Bosnia, Serbia and other former Yugoslav markets until the bank's balance sheet reached roughly €24 billion by the mid-2000s. That expansion was underwritten by the Austrian province of Carinthia, whose governor Jörg Haider had the province issue deficiency guarantees eventually totaling billions of euros — far more than Carinthia, a province of roughly 560,000 people, could plausibly cover if the bank ever failed.
 
 The bank's books didn't hold up to scrutiny. In 2006 it emerged that Hypo Alpe-Adria's 2004 annual balance sheet had concealed losses of more than €300 million from interest-rate and currency speculation, forcing a restatement after auditors withdrew their approval. Kulterer stepped down as CEO that autumn, moving to chairman of the supervisory board, and an Austrian court convicted him on November 18, 2008 of falsifying that 2004 balance sheet, fining him €140,000 (280 daily rates of €500).

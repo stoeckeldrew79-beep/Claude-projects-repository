@@ -11485,6 +11485,10 @@ NotoriousGM.push({
     slug: 'kim-chan-kyung-mirae-savings-bank-south-korea',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'bank-fraud', 'embezzlement', 'bribery', 'international', 'south-korea', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Yeouido,_a_prominent_finance_district_in_Seoul.jpg?width=1200',
+    coverImageCredit: 'Photo: S h y numis (CC BY 4.0) — Yeouido, the Seoul finance district at the center of Korea\'s 2011-2012 savings bank crisis',
+    coverImagePosition: 50,
     body: `Kim Chan-kyung was chairman of Mirae Savings Bank, one of the tier of South Korean regional mutual savings banks that regulators had allowed to expand aggressively into real-estate project lending through the mid-2000s. Mirae became one of the casualties of Korea's 2011-2012 savings bank crisis, a nationwide wave of collapses that began when regulators suspended Busan Savings Bank and its affiliates over massive illegal lending, then spread to Mirae and three other insolvent savings banks the Financial Services Commission was forced to suspend in May 2012.
 
 Kim treated the bank's balance sheet as his personal account. He borrowed more than 100 billion won from his own bank by routing the loans through other people's names — a scheme explicitly illegal under Korea's Mutual Savings Banks Act, which bars a bank's major shareholders from borrowing from the institution they control precisely to stop this kind of self-dealing. He also sold off tens of billions of won worth of blue-chip shares the bank held as investments at steep discounts, generating quick cash while burying the resulting losses. To keep regulators and tax officials from asking questions, he bribed a tax inspector and an official at the Financial Supervisory Service, on top of a broader pattern of gifts to roughly 20 officials and executives — including Lee Sang-deuk, the brother of then-President Lee Myung-bak, who was separately convicted and sentenced to two years in prison over the bribes.
