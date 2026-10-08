@@ -1657,10 +1657,9 @@ If you shop at Whole Foods or an independent grocer supplied by UNFI, get any up
     author: `ScamShield Editorial`,
     tags: [`guide`, `toys-r-us-canada-data-breach`],
     sourceUrl: `https://www.bitdefender.com/en-us/blog/hotforsecurity/toys-r-us-canada-confirms-customer-data-breach-after-dark-web-leak`,
-    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Toys_R_Us_Livingston,_NJ_(49936906207).jpg?width=1200`,
-    coverImageCredit: `Photo: Mike Kalasnik, CC BY-SA 2.0, via Wikimedia Commons`,
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/ToysRUsVaughanMills.JPG?width=1200`,
+    coverImageCredit: `Photo: Raysonho (CC0) — a Toys "R" Us store at Vaughan Mills, Ontario, Canada`,
     coverImagePosition: 50,
-    // representative photo — U.S. Toys "R" Us storefront, not the Canadian operating company; replace with an exact match if found
     body: `Toys "R" Us Canada, the toy retailer's Canadian operating company, learned that its customer data had been compromised on July 30, 2025 — the day threat actors posted stolen records for sale on the dark web. The retailer says it only became aware of the incident because of that dark-web posting, then worked with independent cybersecurity experts to confirm the leaked records were authentic and had genuinely come from its own systems. It wasn't until Thursday, October 23, 2025 — nearly three months after the data first appeared online — that Toys "R" Us Canada began notifying affected customers by email, a gap that meant anyone whose information was exposed had no way of knowing to watch for fraud during the entire period the data sat available to criminals.
 
 According to the company, the compromised information included customers' full names, home addresses, email addresses, and phone numbers. Toys "R" Us Canada said passwords, credit card numbers, and other payment details were not part of what was taken, and it has stated there is no evidence so far that the exposed information has actually been used for fraud. The retailer has not disclosed how many customers were affected, who was behind the breach, or whether a ransom was demanded, and it reported the incident to Canadian privacy authorities while implementing additional security measures under the guidance of cybersecurity professionals.
@@ -1676,10 +1675,9 @@ If you have shopped with Toys "R" Us Canada, whether or not you've received a no
     slug: `trustage-cybersecurity-incident-2026-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `trustage-cybersecurity-incident`],
-    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Wisconsin_State_Capitol,_Capitol_Square,_Madison,_WI_(52733358972).jpg?width=1200`,
-    coverImageCredit: `Photo: Warren LeMay (CC BY-SA 2.0)`,
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/CUNA_Mutual_Group_-_panoramio.jpg?width=1200`,
+    coverImageCredit: `Photo: Corey Coyle (CC BY 3.0) — the Madison, Wisconsin headquarters building, formerly branded CUNA Mutual Group and now TruStage`,
     coverImagePosition: 50,
-    // representative photo — Madison, Wisconsin, where TruStage is headquartered; replace with an exact match if found
     sourceUrl: `https://www.trustage.com/outage`,
     body: `Most people have never heard of TruStage, even though millions of credit union members rely on it without realizing it. Formerly known as CUNA Mutual Group and headquartered in Madison, Wisconsin, TruStage sells the insurance and financial-services products that credit unions across the country routinely offer their members — GAP insurance on auto loans, mechanical repair coverage, payment protection that covers loan payments after a job loss or death, and life and disability policies bundled into a checking account or loan. On July 11, 2026, TruStage identified what it has described as "a particularly broad attack" on its network and systems and made the decision to proactively shut the network down to contain it, a step the company disclosed publicly on July 15, 2026.
 
