@@ -9799,6 +9799,10 @@ GuidesAF.push({
     slug: 'chinese-police-impersonation-student-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'chinese-police-impersonation-scam', 'virtual-kidnapping'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wellsville_Mountains.jpg?width=1200',
+    coverImageCredit: 'Photo: Steve Sellers (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240103',
     body: `A Chinese international student at a U.S. university gets a call that appears to come from a familiar source — a mobile carrier, a major retailer, a delivery company, or even the Chinese Embassy or Consulate itself, thanks to a spoofed caller ID. The caller says the student's identity or personal information has turned up in a financial fraud investigation back home, then transfers the call to someone posing as an officer from a Chinese provincial police department. The fake officer describes a specific alleged crime, emails forged credentials, a photo of the student's Chinese national ID, and official-looking charge documents, and threatens arrest, prosecution, or a forced return to China if the student doesn't cooperate fully with the "investigation" — a threat that lands hard on a student thousands of miles from family, uncertain how either country's legal system actually works, and afraid any misstep could jeopardize their visa status.
 
