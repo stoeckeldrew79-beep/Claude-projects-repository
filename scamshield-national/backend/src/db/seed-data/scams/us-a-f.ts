@@ -11890,3 +11890,17 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2023-10-26',
 });
+
+UsAF.push({
+    name: `Fake "U.S. Deputy Sheriff's Association" Police-Equipment Donation Mailer`,
+    slug: 'fake-us-deputy-sheriffs-association-donation-mailer',
+    description: `A mass-mailed solicitation asks recipients for tax-deductible gifts of $15, $25, $50, or more, payable to a group calling itself the U.S. Deputy Sheriff's Association, claiming nearly three decades spent helping underfunded police agencies buy protective gear and training — with no actual connection to the local department a recipient might assume it supports. After a Layton, Utah resident received the solicitation, the Layton Police Department warned on December 31, 2025 that it does not and will not solicit donations from private citizens, saying plainly "it's against city policy" and telling recipients "DO NOT reply to this." The department added that its own officers' ballistic vests are already replaced on a routine cycle funded through the city's own budget and City Council, directly undercutting the mailer's pitch that local officers lack protective equipment. Nearly identical mailers citing the same or similar-sounding police or deputy associations have prompted matching warnings from local police departments in several other states over the years, each making the same point: a legitimate local police or sheriff's department does not fund its equipment through a mailed donation drive, and anyone asked to send cash or card information to an unfamiliar "deputy sheriff's association" or similar group should verify its registration independently — through the state's charity regulator or the IRS Tax Exempt Organization Search — before giving anything.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'low',
+    sources: ['Layton Police Department (Utah)', 'KUTV'],
+    sourceUrl: 'https://kjzz.com/news/local/layton-police-warn-of-scam-soliciting-donations-from-private-citizens',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    firstRecorded: '2025-12-31',
+});
