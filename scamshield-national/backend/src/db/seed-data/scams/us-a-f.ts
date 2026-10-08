@@ -11904,3 +11904,16 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2025-12-31',
 });
+
+UsAF.push({
+    name: 'Shutterstock Hard-to-Cancel Subscription and Negative-Option Settlement',
+    slug: 'shutterstock-hard-to-cancel-subscription-settlement',
+    description: `The Federal Trade Commission announced on May 13, 2026 that Shutterstock, Inc. agreed to pay $35 million to settle allegations that the stock-photo and video platform violated the FTC Act and the Restore Online Shoppers' Confidence Act (ROSCA) through its subscription and cancellation practices. The complaint alleged that before 2024, Shutterstock did not let customers complete cancellation online at all — anyone who wanted out of a plan had to contact customer support by phone, chat, or email, a barrier ROSCA requires companies to avoid for any negative-option feature. The FTC also alleged Shutterstock marketed certain "one-time project" content packs as carrying "no commitment," while automatically enrolling customers in recurring plans that renewed and rebilled them once their downloads ran out or a one-year term elapsed, without adequately disclosing that the one-time-sounding purchase would turn into an ongoing charge. Separately, the agency said Shutterstock's annual-pay, monthly-billed plans failed to clearly disclose that they auto-renewed annually and that canceling before the contract term ended could trigger an early-termination fee. "The benefits of negative option or subscription-based plans depend critically on firms clearly disclosing material terms of the plan and securing consumers' express, informed consent before charging them," said Christopher Mufarrige, Director of the FTC's Bureau of Consumer Protection. Filed as a proposed stipulated order in the U.S. District Court for the Southern District of New York, the settlement requires no admission of wrongdoing from Shutterstock but devotes the full $35 million to consumer redress, while permanently barring the company from misrepresenting subscription terms and requiring it to secure clear, informed consent before any negative-option charge and to keep cancellation at least as easy as signing up. Anyone enrolled in an online subscription — for stock media, software, or any other recurring service — should treat a "one-time" or "no commitment" purchase pitch with caution if the seller doesn't spell out whether and when it converts to a recurring charge, and should confirm before buying that cancellation can be completed through the same online account used to sign up, since a company that only accepts cancellation by phone or email is a red flag regardless of what it sells.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2026-05-13',
+});
