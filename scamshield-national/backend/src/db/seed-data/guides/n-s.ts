@@ -5402,6 +5402,10 @@ GuidesNS.push({
     slug: 'social-media-account-recovery-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'account-recovery-scam', 'social-media-hacking', 'identity-theft'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike MacKenzie (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account',
     body: `Getting locked out of an Instagram, Facebook, or X account sets off genuine panic — years of photos, a small business's customer base, or a person's whole social circle can suddenly feel out of reach. Scammers watch for exactly that panic. Some monitor public posts and comments from people who say they've been locked out or hacked, then reply offering to "recover" the account for a fee. Others advertise "account recovery specialist" services directly, or slide into a victim's direct messages first. In the ugliest version of the scam, the person offering to help is the same person who hacked the account in the first place — manufacturing the emergency they then get paid to "solve."
 
