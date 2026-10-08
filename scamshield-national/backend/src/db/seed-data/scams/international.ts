@@ -24177,3 +24177,14 @@ International.push({
   isHistorical: true,
   firstRecorded: '2026-08-06',
 });
+
+International.push({
+  name: 'Hacked WhatsApp/Telegram/Facebook "Urgent Transfer" Impersonation Scam',
+  slug: 'ethiopia-hacked-messaging-account-urgent-transfer-impersonation',
+  description: `The National Bank of Ethiopia issued a public notice launching a nationwide Fraud Awareness Campaign after identifying a rising pattern of fraud built not around telebirr or bank-account takeover directly, but around hacking or impersonating a customer's personal messaging and social media accounts. Once a WhatsApp, Telegram, or Facebook account is compromised — or simply cloned using a fake profile with the same name and photo — the fraudster contacts the real account owner's own family, friends, and coworkers, posing as that trusted person and asking for an urgent money transfer, often citing a sudden emergency that requires funds right away. Because the request appears to come from someone the recipient already knows and trusts, issued under exactly the kind of time pressure that discourages a phone call to double-check, victims frequently send money before realizing the "friend" messaging them is not who they appear to be. The notice, issued under Ethiopia's Proclamation No. 1359/2025, directs banks and payment-instrument issuers to carry out their own customer-facing awareness measures and states that the growing pattern threatens public confidence in digital financial services generally. The National Bank advises treating any unexpected request for money from a contact's messaging or social media account as unverified until confirmed by phone, in person, or through another independent channel — never by replying to the same account that made the request, since that account may be the compromised or cloned one.`,
+  categorySlug: 'account-takeover',
+  alertLevel: 'medium',
+  sources: ['National Bank of Ethiopia'],
+  sourceUrl: 'https://nbe.gov.et/public-notice-2',
+  country: 'ET',
+});
