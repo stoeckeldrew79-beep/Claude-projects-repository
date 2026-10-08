@@ -12309,3 +12309,16 @@ UsNS.push({
     country: 'US',
     state: 'NY',
 });
+
+UsNS.push({
+    name: 'Pennsylvania Deed Fraud and Home Title Theft Warning',
+    slug: 'pennsylvania-deed-fraud-home-title-theft-warning',
+    description: `Pennsylvania Attorney General Dave Sunday warned residents on February 5, 2026 about deed fraud, also called home title theft, in which a scammer uses a forged or deceptive document to transfer a property's deed or title into someone else's name without the true owner's knowledge or genuine consent. Once a fraudster controls a deed, the office said, they can sell the home out from under its real owner, borrow against it, or rent it out to unsuspecting tenants who have no idea the property was stolen on paper. Sunday's office described two distinct patterns behind the fraud: some homeowners never learn a transfer occurred until a tax notice, foreclosure filing, or prospective buyer surfaces, while others are tricked into signing the paperwork themselves under false pretenses — a promise to help refinance a mortgage, stop a foreclosure, or resolve overdue property taxes — with scammers often using a homeowner's own financial distress and unpaid-tax history to apply pressure and make the pitch feel urgent. Calling deed fraud "certainly one of the most devastating" scams a homeowner can face, Sunday urged anyone approached out of the blue about their home's deed to "cease communications immediately," never sign legal documents under pressure or without first consulting a real estate attorney, work only with licensed professionals when refinancing or selling, monitor their county's recorded deed activity, enroll in a title-change alert service where their county offers one, and periodically review their credit report and utility bills for signs someone else has taken control of the property. Pennsylvanians who suspect they have been targeted can contact the Attorney General's Bureau of Consumer Protection at 1-800-441-2555 or file a complaint at attorneygeneral.gov.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Pennsylvania Office of Attorney General', 'MyChesCo'],
+    sourceUrl: 'https://www.mychesco.com/a/news/pennsylvania/attorney-general-warns-deed-fraud-scams-can-strip-homeowners-of-their-homes/',
+    country: 'US',
+    state: 'PA',
+    firstRecorded: '2026-02-05',
+});
