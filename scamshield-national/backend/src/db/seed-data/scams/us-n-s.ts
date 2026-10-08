@@ -12464,4 +12464,17 @@ UsNS.push({
     firstRecorded: '2026-02-05',
 });
 
+UsNS.push({
+    name: 'Oregon "Secure Your Number" Phone Port-Out Scam',
+    slug: 'oregon-secure-your-number-phone-port-out-scam',
+    description: `Oregon's Department of Justice Consumer Hotline warned residents on June 26, 2025 about a phone number port-out scam that works by tricking victims into handing over their own carrier security PIN rather than stealing it outright. Targets receive an unexpected text message or email claiming their phone number is in the process of being transferred to a different wireless carrier, supplying what looks like a verification PIN and urging the recipient to call their mobile carrier right away to "secure" or stop the transfer. Anyone who calls in a panic and reads that PIN aloud is unknowingly handing the real port-authorization code straight to the scammers, who use it to complete an unauthorized port and take over the number — cutting off the victim's own service and, in at least one case the Department of Justice cited, leading directly to unauthorized access to the victim's bank accounts and stolen funds. The scam has reached customers across multiple wireless carriers rather than targeting one company's subscribers specifically. The Department of Justice urged Oregonians to never share a PIN or verification code with anyone, including a person who claims to be from their carrier, to contact their wireless provider only using the number printed on a bill or listed on the carrier's official website rather than any number or link in an unsolicited message, to add a port-out PIN or additional account security with their carrier where available, and to watch bank and phone accounts for unexpected activity. Anyone who believes they were targeted or affected can file a complaint through the Oregon DOJ's consumer hotline at oregonconsumer.gov.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Oregon Department of Justice'],
+    sourceUrl: 'https://www.doj.state.or.us/media-home/news-media-releases/oregon-department-of-justice-consumer-hotline-warns-of-new-phone-number-transfer-scam/',
+    country: 'US',
+    state: 'OR',
+    firstRecorded: '2025-06-26',
+});
+
 

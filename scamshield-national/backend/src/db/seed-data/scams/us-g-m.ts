@@ -13129,3 +13129,16 @@ UsGM.push({
     state: 'IN',
     firstRecorded: '2025-09-12',
 });
+
+UsGM.push({
+    name: 'Massachusetts Viral "Lawnmower Registration" Law Hoax',
+    slug: 'massachusetts-lawnmower-registration-law-hoax',
+    description: `An image began circulating on social media in early March 2026 styled as an "official notice for all Massachusetts residents," claiming the state Legislature was considering a new law that would require homeowners to pay $38 a year to register their residential lawnmowers — but naming no actual state agency, bill number, or legislator behind it. The post generated enough alarm that State Representative Joseph McKenna of Sutton fielded "several frustrated calls from constituents" and publicly called it "completely a fraudulent message that has been out there," and a search of the Legislature's own records turned up no bill filed that session on the subject. Registry of Motor Vehicles Registrar Colleen Ogilvie addressed the hoax directly at a budget hearing in Amherst, saying she was "glad lawnmowers aren't under the RMV's purview" and issuing a formal consumer alert, while noting that the RMV and MassDOT have spent months fighting a broader wave of fraudulent, often AI-generated text messages designed to look like official state notices — reiterating that the RMV never asks for payment through a text link and that any text claiming to be from "the DMV, RMV or tolling" demanding payment is fraudulent. The lawnmower hoax is a reminder that a fabricated "official notice" claiming a brand-new state fee or registration requirement can spread on social media well before it is ever used to directly collect money, normalizing the idea of a bogus mandate so that a follow-up text or email demanding an actual "registration payment" lands on a more receptive audience; anyone who sees a claimed new state requirement circulating online should verify it directly through mass.gov or the Legislature's own bill-tracking site before paying anyone or sharing it further, and can report a suspected scam text to the RMV or the Massachusetts Attorney General's Office.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'low',
+    sources: ['Massachusetts Registry of Motor Vehicles', 'Greenfield Recorder'],
+    sourceUrl: 'https://recorder.com/2026/03/12/massachusetts-lawnmower-registration-scam/',
+    country: 'US',
+    state: 'MA',
+    firstRecorded: '2026-03-12',
+});
