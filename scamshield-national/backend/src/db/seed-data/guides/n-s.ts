@@ -19,23 +19,6 @@ Warning signs: a profile that refuses video calls or always has a reason the cam
 If you're in this situation: stop sending money immediately, do a reverse image search on their profile photos (stolen photos are common), and don't be embarrassed to talk to a friend or family member about the relationship before sending anything further. Scammers deliberately isolate victims from people who might spot the pattern.`,
   },
 {
-    title: '"Pig Butchering": Inside the Long-Con Crypto Investment Scam',
-    slug: 'pig-butchering-crypto-investment-scam',
-    author: 'ScamShield Editorial',
-    tags: ['guide', 'investment-fraud'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/An_actual_Bitcoin_transaction_from_the_Kraken_cryptocurrency_exchange_to_a_hardware_LedgerWallet.jpg?width=1200',
-    coverImageCredit: 'Photo: FlippyFlink (CC BY-SA 4.0)',
-    coverImagePosition: 50,
-    sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams',
-    body: `"Pig butchering" (a direct translation of a term the scam operations themselves use) describes a fraud pattern that fattens a victim up over weeks or months of relationship-building before taking everything at once. It typically begins with what looks like a wrong-number text or a friendly message on a dating app or social media, building an ordinary friendship or romance over time — often without any money request at all at first.
-
-Eventually the scammer mentions they've been making excellent returns on a cryptocurrency trading platform, and offers to help the victim get started. The platform is fake, built to look like a real trading app or exchange, but entirely controlled by the scam operation. Early "investments" show real-looking, steadily growing returns, and small withdrawals are often permitted specifically to build confidence. Once the victim is convinced and has committed a large sum — sometimes their life savings — further withdrawal requests are blocked with new fees, tax demands, or account "verification" requirements, each one a further attempt to extract money, until the victim finally realizes the entire platform and the relationship built around it were fabricated.
-
-These operations are frequently run at industrial scale by organized criminal groups, in some documented cases using trafficked and coerced labor to operate the fake platforms and run the messaging.
-
-Red flags: an online relationship that pivots to investment advice, a platform you can't find independent, non-scammer-provided reviews of, and any situation where withdrawing your own money requires paying an additional fee first. Legitimate investment platforms never charge a fee to access money that's already yours.`,
-  },
-{
     title: 'Phishing: The Scam Behind Most Other Scams',
     slug: 'phishing-email-text-basics',
     author: 'ScamShield Editorial',
