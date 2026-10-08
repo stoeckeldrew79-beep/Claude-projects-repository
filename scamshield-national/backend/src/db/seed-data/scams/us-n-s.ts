@@ -12297,3 +12297,15 @@ UsNS.push({
     country: 'US',
     state: 'NY',
 });
+
+UsNS.push({
+    name: 'Fake Apple Pay Fraud Alert Cash-Courier Scam',
+    slug: 'ny-fake-apple-pay-fraud-alert-courier-scam',
+    description: `Nassau County police say a 76-year-old Mineola, New York woman received a text message resembling an Apple Pay fraud alert warning of possible fraudulent transactions on her account, and when she called the number included in the text, the person who answered posed as a bank representative and claimed an extra $30,000 had been deposited into her account by mistake. Between August 25 and August 27, 2026, the caller directed her to withdraw cash and hand it over in person to a courier rather than wire it or use a gift card, and she met two different men at separate locations in Williston Park and Mineola, handing roughly $30,000 to each — a total loss of about $60,000 — before reporting the scheme to police on August 28, 2026. The case is part of a recognized pattern of similar incidents across Nassau and Suffolk Counties in which a text falsely claiming to be an Apple Pay or bank security alert leads to a phone call from a fake "bank representative," who convinces the victim that a mistaken deposit or reversed fraudulent charge means they must return cash in person to a stranger sent to collect it; in an earlier case, a 71-year-old North Merrick woman was told by a caller claiming to be from Chase to withdraw $30,000 and meet a courier at a specified street corner. Apple Pay itself was never breached in any of these cases — scammers simply borrow its name because a security alert referencing a real payment service feels more trustworthy than an unexplained text. Anyone who receives a text claiming a payment or account problem should never call the number included in the message; instead, open their banking app directly or call the number on the back of their card, and remember that a legitimate bank will never instruct a customer to withdraw cash and hand it to a courier or stranger. Suspected incidents can be reported to Nassau County Crime Stoppers at 1-800-244-TIPS.`,
+    categorySlug: 'phishing',
+    alertLevel: 'critical',
+    sources: ['Nassau County Police Department', 'LongIsland.com'],
+    sourceUrl: 'https://www.longisland.com/articles/09-13-26/76-year-old-woman-scammed-out-of-60000-after-fake-apple-pay-alert.html',
+    country: 'US',
+    state: 'NY',
+});
