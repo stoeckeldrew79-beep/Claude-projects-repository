@@ -10924,6 +10924,10 @@ NotoriousAF.push({
     slug: 'fortress-re-sabbah-kornfeld-aviation-reinsurance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'insurance-fraud', 'accounting-fraud', 'corporate-fraud', 'japan'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shinjuku_skyline,_Tokyo_-_Sony_A7R_(11831328835).jpg?width=1200',
+    coverImageCredit: 'Tokyo, home to Aioi, Sompo Japan, and Taisei, the insurers Fortress Re defrauded. Photo: Luke Ma, CC BY 2.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Fortress Re Inc., a Burlington, North Carolina-based managing general agent founded in 1979, spent more than two decades running an aviation reinsurance pool on behalf of major Japanese insurers, collecting premiums and managing claims in exchange for fees — a business built entirely on the pool members trusting Fortress's own accounting of how much the pool actually owed. Chairman Maurice D. Sabbah and president Kenneth H. Kornfeld controlled that accounting, and prosecutors and arbitrators later found they used it to hide a mounting shortfall rather than disclose it.
 
 The pool's three Japanese members — Aioi Insurance Co. Ltd. (48% of the risk), and Nissan Fire & Marine and Taisei Fire & Marine (26% each) — relied on Fortress to report the pool's true liabilities. Instead, Fortress took credit for reinsurance recoveries while omitting the members' corresponding obligation to pay future "reinstatement premiums," understating the pool's real liabilities by roughly $1.4 billion as of the 2001 fiscal year-end. Sabbah and Kornfeld routed a large share of the pool's business through a Bermuda-based affiliate they controlled, Carolina Reinsurance Ltd., whose own share of the pool grew to 25% even as it concealed a further $350 million in reinstatement-premium liabilities, reporting only $36 million in capital and surplus as of June 2002. Between 1991 and 2001, Carolina Re paid out $388 million in dividends to Sabbah, his family, and Kornfeld — including $80 million paid out during 1999–2001, a period when the company was already insolvent under Bermuda law.
@@ -11127,6 +11131,10 @@ NotoriousAF.push({
     slug: 'edward-fuller-william-mcgee-bucket-shop-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Curb_brokers_in_Wall_Street,_New_York_City_LCCN92519195.jpg?width=1200',
+    coverImageCredit: 'Curb brokers trading outside the NYSE, 1920 — the Jazz Age Wall Street where E.M. Fuller & Co. operated. Photo: Bain News Service, Library of Congress, public domain.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Edward M. Fuller and William Frank McGee founded the New York brokerage E.M. Fuller & Company in 1914. By the early 1920s it had become the largest brokerage house on the Consolidated Stock Exchange, a smaller rival to the NYSE, with offices in several East Coast and Midwest cities and thousands of customer accounts nationwide. Rather than executing customers' buy and sell orders on the real exchange, the partners engaged in "bucketing" — simply recording the orders internally and betting against their own clients, pocketing the difference while never actually owning the underlying securities, the classic fraud mechanism that gave Jazz Age "bucket shops" their name.
 
 The firm failed on June 27, 1922, with liabilities reported at roughly $6 million; customers were defrauded of an estimated $4 million through the bucketing scheme. Investigative reporting into the vanished assets triggered a grand jury probe that uncovered more than brokerage fraud: Fuller & Co. had written large sums in checks to the gambler Arnold Rothstein, and when the firm failed, Fuller and McGee hid out at Rothstein's home before surrendering — only after Rothstein retained the flamboyant criminal defense attorney William J. Fallon to represent them.
@@ -11236,6 +11244,10 @@ NotoriousAF.push({
     slug: 'charitable-corporation-1731-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Exchange,_Cornhill,_London_EC3_-_geograph.org.uk_-_1077393.jpg?width=1200',
+    coverImageCredit: 'The Royal Exchange, financial heart of the 18th-century City of London where the Charitable Corporation operated. Photo: John Salmon, CC BY-SA 2.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `The Charitable Corporation was chartered in 1707 for an unambiguously good purpose: lending small sums to struggling tradespeople against pawned goods, at legal interest, so they wouldn't have to sell off inventory at a loss just to survive a cash crunch. It worked as intended for years and grew accordingly, its capital climbing from £30,000 at founding to £300,000 by 1728 and £600,000 by 1730 — a chartered institution trusted enough that ordinary Londoners and small investors alike put their money behind it.
 
 The safeguard that was supposed to keep the lending honest began eroding in November 1725, when John Thomson took over as the corporation's warehouse keeper, the official who controlled the pledged goods held as collateral. What Thomson and a circle of associates — including stockbroker George Robinson and Archibald Grant, part of a "partnership of five" that also included men named Burroughs and Squire — did with that position was use the corporation's own lending capacity to finance personal stock speculation and mining ventures in Scotland and Norway, beginning around October 1727, through loans the corporation's books described as secured by pawned goods that were never actually deposited. By October 1731, the board had issued more than £101,000 in promissory notes beyond what its charter authorized.

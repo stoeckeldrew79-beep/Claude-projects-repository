@@ -7980,6 +7980,10 @@ NotoriousNS.push({
     slug: 'sami-bebawi-snc-lavalin-libya-bribery-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Montreal_Skyline_(17387606502).jpg?width=1200',
+    coverImageCredit: 'Montreal, headquarters of SNC-Lavalin. Photo: Maëlick, CC BY-SA 2.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `SNC-Lavalin, one of Canada's largest engineering and construction firms, spent more than a decade building a lucrative relationship with the regime of Libyan dictator Muammar Gaddafi — a relationship Canadian prosecutors and courts later established was built on systematic bribery. Between 2001 and 2011, SNC-Lavalin paid at least $47.7 million in bribes, including a yacht, funneled through shell companies and disguised payments, to Saadi Gaddafi — the dictator's son — and other Libyan officials in exchange for roughly $1.8 billion worth of construction contracts, including work on a prison and a major water project. The scheme generated an estimated $103.9 million in pre-tax profit for the company over that period.
 
 At the center of the scheme were two senior SNC-Lavalin executives: Riadh Ben Aissa, a vice-president who ran the company's international construction operations and orchestrated the payments and shell companies, and Sami Bebawi, who headed the construction division and supervised Ben Aissa. Ben Aissa was arrested in Switzerland in 2012, spent roughly two years in a Swiss jail, and pleaded guilty there in 2014 to corruption of foreign public officials, disloyal management of funds, fraud, and money laundering; he went on to become the Crown's star witness against his former colleague. Bebawi was tried in Quebec Superior Court, and on December 15, 2019 a jury convicted him on all five counts he faced — fraud, corruption of foreign officials, and laundering the proceeds of crime. On January 10, 2020, Justice Guy Cournoyer sentenced Bebawi, then 73, to eight and a half years in prison and ordered him to forfeit $24.6 million, citing "the sophisticated nature of the fraud" as an aggravating factor.
@@ -8144,6 +8148,10 @@ NotoriousNS.push({
     slug: 'royal-british-bank-1856-fraud-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bank_of_England_(24432232916).jpg?width=1200',
+    coverImageCredit: 'The Bank of England, London — the City institution whose state-sanctioned credibility the Royal British Bank traded on. Photo: Duncan Harris, CC BY 2.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `The Royal British Bank opened for business in 1849 under the unusual credibility of a royal charter, founded in part by John MacGregor, a sitting Member of Parliament for Glasgow. A royal charter and an MP's name on the letterhead gave the new bank a veneer of state-sanctioned respectability that few private banking houses of the era could claim, and it used that credibility to draw in depositors across London looking for a safe, official-sounding place to keep their savings.
 
 That respectability concealed a bank being run for the benefit of the people managing it. Press articles alleging substantial losses began appearing in 1856, and the directors and former directors were later found to have withdrawn substantial sums from the bank themselves, even as most directors still in office at the time of its collapse had not. The resulting loss of confidence triggered a run, and in September 1856 the Royal British Bank suspended operations outright, leaving roughly 6,000 ordinary depositors owed money they had trusted a chartered, MP-founded institution to safeguard. MacGregor did not stay to answer for it — he fled to France and died there in 1857, never facing a court.
