@@ -3765,6 +3765,10 @@ NotoriousTZ.push({
     slug: 'tarek-obaid-patrick-mahony-petrosaudi-1mdb-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'embezzlement', 'money-laundering'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Geneva_from_Mount_Sal%C3%A8ve.jpg?width=1200',
+    coverImageCredit: 'Geneva, Switzerland, where the stolen 1MDB funds were routed and where Obaid and Mahony were ultimately convicted. Photo: Yann Forget, CC BY-SA 4.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Tarek Obaid, a Saudi-Swiss dual national, and Patrick Mahony, a British-Swiss national, co-ran PetroSaudi International, a Saudi-linked oil exploration company they used to pull off one side of the 1MDB scandal this site profiles elsewhere through Malaysian financier Jho Low and Goldman Sachs bankers Tim Leissner and Roger Ng. Where those men worked the Goldman Sachs bond side of the fraud, Obaid and Mahony ran the scheme's opening act: the 2009 joint venture that first gave 1Malaysia Development Berhad, Malaysia's state investment fund, somewhere to send its money.
 
 Obaid and Mahony persuaded 1MDB's board to sign up for the venture by creating the false impression that PetroSaudi was itself backed by the government of Saudi Arabia — it was not — lending the arrangement a credibility it never possessed. Swiss prosecutors found that from September 2009 through at least July 2015, the two men used that credibility to siphon roughly $1.8 billion out of 1MDB through staged transactions, routing the money into Swiss bank accounts and from there into real estate in Switzerland and London, jewelry, and private-equity stakes that funded a lavish lifestyle. Obaid personally took at least $805 million of it; Mahony took at least $37 million.
@@ -3835,6 +3839,10 @@ NotoriousTZ.push({
     slug: 'richard-vallieres-maple-syrup-heist',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'commodity-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pouring_sap,_1908_-_16014722774.jpg?width=1200',
+    coverImageCredit: 'Collecting maple sap in Ontario, 1908 — the same maple-syrup economy Vallières\' heist targeted in Quebec. Photo: Reuben R. Sallows, Huron County Museum, public domain.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Richard Vallières, a maple syrup producer and broker in Quebec, led a ring that over several months in 2011 and 2012 systematically stole from the Federation of Quebec Maple Syrup Producers' strategic reserve — a massive warehouse in Saint-Louis-de-Blandford that exists specifically to stabilize prices by stockpiling barrels of syrup for later release. Vallières, his father Raymond Vallières, and an insider named Avik Caron who worked inside the warehouse, siphoned syrup out of stored barrels and initially refilled them with water to disguise the theft during routine inventory checks; once that technique proved effective, they grew bold enough to simply remove syrup from barrels without bothering to replace it at all.
 
 In total, the ring made off with nearly 3,000 tonnes of maple syrup — roughly 9,571 barrels — worth about C$18.7 million at the time (closer to C$25 million today). Rather than trying to sell such a large volume through one buyer, which would have drawn immediate suspicion, the stolen syrup was trucked south into Vermont and east into New Brunswick, where it was trafficked through legitimate-looking channels in many small batches specifically sized to avoid raising red flags with distributors or regulators. The scheme unraveled when the Federation's own staff discovered the tampered barrels during a routine check in July 2012, discovering water where syrup should have been — triggering an investigation that led to arrests of Vallières and several co-conspirators in December 2012.

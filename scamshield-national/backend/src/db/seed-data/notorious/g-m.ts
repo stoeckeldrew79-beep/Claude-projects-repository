@@ -11659,6 +11659,10 @@ NotoriousGM.push({
     slug: 'jason-cloth-creative-wealth-media-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'securities-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Toronto_(33560711480).jpg?width=1200',
+    coverImageCredit: 'Toronto, where Jason Cloth ran Creative Wealth Media Finance Corp. Photo: David Baron, CC BY-SA 2.0, via Wikimedia Commons.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Jason Cloth spent two decades building one of the more credible-looking résumés in independent film finance. Through his Toronto-based company, Creative Wealth Media Finance Corp., and a financing partnership with BRON Studios, Cloth was credited as an executive producer or financier on dozens of feature films, including "Joker" and "Ghostbusters: Afterlife." For investors being pitched on a new deal, that filmography wasn't just color — it was the collateral. A financier whose name was already attached to real, famous, profitable movies didn't need to prove his credibility from scratch; he could just point at the marquee.
 
 Prosecutors say that credibility was the mechanism of the fraud, not a side effect of it. Starting in 2019, Cloth solicited an investment adviser in Illinois, that adviser's own clients, and other investors, telling them their money would fund specific film and entertainment projects. According to the federal indictment, he obtained more than $100 million this way by deceiving investors about how those investments were actually performing and what they were worth — and then redirected a meaningful share of the money toward purposes that had nothing to do with any film, including a Canadian real estate development and, prosecutors allege, payments to earlier investors to keep the whole structure looking solvent. That last detail is why the Justice Department is calling it a Ponzi scheme rather than simple embezzlement: new money wasn't just being misused, it was being used to manufacture the appearance that old money had been managed well.
@@ -11852,6 +11856,10 @@ NotoriousGM.push({
     slug: 'julius-barmat-weimar-germany-corruption-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'corruption'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_102-13848F,_Berlin,_Hotel_Adlon.jpg?width=1200',
+    coverImageCredit: 'The Hotel Adlon, Berlin, 1926 — the Weimar-era Berlin where Julius Barmat built his empire. Photo: Bundesarchiv, Bild 102-13848F, CC BY-SA 3.0 DE.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Julius Barmat was a Polish-Jewish businessman who had built a wholesale trading operation in the Netherlands before moving to Berlin in 1919, in the chaotic aftermath of Germany's defeat in the First World War. Capitalizing on severe postwar food shortages, Barmat imported foodstuffs from the Netherlands into Germany and used the profits, along with political connections he cultivated within Social Democratic circles, to build an import and trading empire that reached deep into the machinery of the German state itself.
 
 Barmat's firm secured a remarkably close relationship with Germany's public institutions: he obtained favorable loans from the Prussian State Bank and secured business arrangements with the German postal service and other state offices, backed by bribes and commissions — roughly 20,000 reichsmarks in total — paid to Social Democratic Party officials and newspapers in exchange for the access and favorable treatment. With state-backed capital behind him, Barmat also speculated heavily in currency markets during a period of extreme volatility in the German mark.
@@ -11882,6 +11890,10 @@ NotoriousGM.push({
     slug: 'graeme-carolina-minne-cape-town-forex-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cape_Town_CBD_TblMnt.jpg?width=1200',
+    coverImageCredit: 'Cape Town, South Africa, where the Minnes ran their forex Ponzi scheme. Photo: Andresdewet, public domain, via Wikimedia Commons.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Graeme and Carolina Minne ran a foreign-exchange trading investment scheme out of Cape Town, South Africa, from September 2002 to November 2009, promising investors annual returns of up to 65 percent on money the couple claimed was actively traded in the forex markets. The pitch found a wide audience: by the time the scheme collapsed, almost 934 clients had entrusted the Minnes with a combined roughly R278 million.
 
 Investigators with the Hawks' Serious Commercial Crime Unit found that only a small fraction of that money was ever actually traded — less than R5 million in total, and at a net loss rather than the promised profit. The rest of the "returns" paid out to investors came directly from the deposits of newer clients, the same pay-earlier-investors-with-later-investors'-money structure at the heart of every Ponzi scheme, sustained for more than seven years before the math finally failed.
