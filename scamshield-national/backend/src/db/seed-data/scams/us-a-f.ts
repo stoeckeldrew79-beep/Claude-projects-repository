@@ -12138,3 +12138,14 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2017-10-28',
 });
+
+UsAF.push({
+    name: 'Fake "Tribal Tax Credit" Scheme',
+    slug: 'fake-tribal-tax-credit-scheme',
+    description: `The IRS warned taxpayers, tribal communities, businesses, and tax professionals in a September 18, 2026 release (IR-2026-112) about promoters selling a so-called "Tribal Tax Credit" — also marketed under names like "Native American Tax Credit" or "Sovereign Tribal Tax Credit" — that has no basis in federal law and does not exist. Promoters typically present the credit as something purchased from an entity they claim is associated with a tribal community, offering it at a steep discount to its supposed face value (one cited example involved a business offered a $100,000 "credit" for $70,000) and promising it can reduce an existing tax liability or generate a refund. To make the pitch look credible, sellers point to a supposed Treasury and Interior Department agreement that purportedly converts tribal trust payments into transferable tax credits — no such agreement exists — and misuse unrelated provisions like the Section 45D New Markets Tax Credit or claims about tribal-ownership status to dress up the product; some also provide purchasers with a paid "legal opinion" attributed to a reputable-sounding firm, or argue that the IRS having processed an earlier return claiming the credit proves it's valid, which the IRS says it does not. The agency stresses that a federal return claiming a nonexistent Tribal Tax Credit is a false claim regardless of whether a refund was initially issued, exposing the taxpayer to repayment of the tax owed plus penalties and interest, and potentially civil or criminal penalties on top of that. Red flags the IRS lists include a steep discount off claimed face value, pressure to act quickly because availability is supposedly limited, an undisclosed side agreement used to justify the credit, an unverifiable legal opinion, and any request to sign a nondisclosure agreement before seeing full terms. Taxpayers who are offered one of these credits should decline and consult an independent, reputable tax professional before filing, and anyone who suspects a promoter is selling fake Tribal Tax Credits can report it using IRS Form 14242 or at IRS.gov/submitatip.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service (IRS)'],
+    sourceUrl: 'https://www.irs.gov/newsroom/irs-warns-of-tax-credit-scams-targeting-the-tribal-community',
+    country: 'US',
+});

@@ -24404,3 +24404,14 @@ International.push({
   sourceUrl: 'https://nbe.gov.et/public-notice-2',
   country: 'ET',
 });
+
+International.push({
+  name: 'Fake CONDUSEF "Formal Complaint" Phishing Email',
+  slug: 'mexico-fake-condusef-complaint-notice-phishing-email',
+  description: `CONDUSEF — the Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros, Mexico's federal agency for protecting financial-services users — issued an urgent public alert (Comunicado No. 19) on February 18, 2026 warning that fraudulent emails impersonating the agency were circulating nationwide. The fake messages copy CONDUSEF's name and official language to falsely notify the recipient that a formal complaint ("queja") process has been opened in their name, even though the person never filed any complaint with the agency, then ask the recipient to send confidential information, legal documentation, or financial data, and include links that redirect to external websites that are not part of CONDUSEF's official domains — all while creating pressure to act quickly before the recipient has time to think it through. This is a distinct scheme from an earlier CONDUSEF-impersonation pattern involving phone and WhatsApp calls that falsely claim the agency has already recovered money on the victim's behalf; this version instead uses a fabricated email notification to harvest documents and data directly. CONDUSEF stated plainly that it "NO inicia ni gestiona procedimientos formales de queja y/o reclamación a través de correos electrónicos de este tipo" (it does not open or manage formal complaint procedures through emails of this kind) and does not request personal, banking, or confidential information through links to unofficial sites. Regional CONDUSEF offices, including in Yucatán and Quintana Roo, repeated the warning in the following weeks as the campaign continued to spread, with officials describing it as a social-engineering scheme designed to collect sensitive information at scale using mass mailing lists. Anyone who receives an unsolicited email claiming a complaint was filed in their name should not open any links or attachments, should not send personal data, banking details, or official documents in response, and should verify directly through CONDUSEF's own official channels — since, by the agency's own account, if the recipient never filed a complaint, the email is fraudulent by definition.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (CONDUSEF)'],
+  sourceUrl: 'https://www.gob.mx/condusef/prensa/alerta-urgente-se-detectan-correos-fraudulentos-que-suplantan-a-la-condusef',
+  country: 'MX',
+});
