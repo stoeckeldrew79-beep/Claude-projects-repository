@@ -45,3 +45,54 @@ export async function sendAlertEmails(recipients: { id: string; email: string }[
   const html = alertEmailHtml(title, body);
   await Promise.all(recipients.map((r) => sendTransactionalEmail(r.email, `Alert: ${title}`, html)));
 }
+
+export interface DigestItem {
+  name: string;
+  slug: string;
+  description: string;
+  alert_level: string | null;
+  category_name: string | null;
+  matched_label: string | null;
+  matched_state: string | null;
+}
+
+const FREQUENCY_LABEL: Record<string, string> = {
+  monthly: 'monthly',
+  weekly: 'weekly',
+  daily: 'daily',
+  instant: 'latest',
+};
+
+// One row per matched scam, in the same red/orange/amber/slate severity
+// language the real-time alert feed already uses (ALERT_COLORS in
+// frontend/src/pages/Alerts.tsx) so a subscriber reading an email doesn't
+// learn a second color vocabulary from the one the website already taught.
+function digestItemHtml(item: DigestItem, siteUrl: string): string {
+  const context = [item.matched_label, item.matched_state].filter(Boolean).join(' — ');
+  return `
+    <tr>
+      <td style="padding:12px 0;border-bottom:1px solid #e2e8f0;">
+        <a href="${siteUrl}/scams/${escapeHtml(item.slug)}" style="font-weight:600;color:#1e293b;text-decoration:none;">${escapeHtml(item.name)}</a>
+        ${item.alert_level ? ` <span style="font-size:11px;color:#64748b;text-transform:uppercase;">${escapeHtml(item.alert_level)}</span>` : ''}
+        <p style="margin:4px 0 0;font-size:13px;color:#475569;">${escapeHtml(item.description.slice(0, 220))}${item.description.length > 220 ? '…' : ''}</p>
+        ${context || item.category_name ? `<p style="margin:4px 0 0;font-size:12px;color:#94a3b8;">${[item.category_name ?? '', context].filter(Boolean).map(escapeHtml).join(' · ')}</p>` : ''}
+      </td>
+    </tr>`;
+}
+
+export function digestEmailHtml(items: DigestItem[], frequency: string, siteUrl: string): string {
+  const label = FREQUENCY_LABEL[frequency] ?? frequency;
+  const rows = items.map((item) => digestItemHtml(item, siteUrl)).join('');
+  return `
+    <h2>Your ${escapeHtml(label)} ScamShield digest</h2>
+    <p style="color:#475569;">${items.length} new ${items.length === 1 ? 'scam matches' : 'scams match'} what you're watching.</p>
+    <table width="100%" cellpadding="0" cellspacing="0">${rows}</table>
+    <p style="margin-top:16px;"><a href="${siteUrl}/alerts">Manage what you're watching →</a></p>`;
+}
+
+export async function sendDigestEmail(to: string, items: DigestItem[], frequency: string) {
+  const siteUrl = process.env.FRONTEND_URL ?? '';
+  const html = digestEmailHtml(items, frequency, siteUrl);
+  const label = FREQUENCY_LABEL[frequency] ?? frequency;
+  await sendTransactionalEmail(to, `Your ${label} ScamShield digest — ${items.length} new`, html);
+}
