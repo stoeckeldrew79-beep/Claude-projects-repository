@@ -24478,3 +24478,42 @@ International.push({
   isHistorical: true,
   firstRecorded: '2017-01-13',
 });
+
+International.push({
+  name: 'Wangiri "Beeping" Missed-Call Airtime Scam (Burundi)',
+  slug: 'burundi-wangiri-beeping-missed-call-scam',
+  description: `Starting around June 9, 2017, Burundians across every mobile network in the country began receiving single-ring "missed calls" from foreign numbers, including several beginning with the +224 country code and at least one +532 number, that hung up before the recipient could answer. The pitch relied entirely on curiosity: a subscriber who saw an unfamiliar foreign missed call and dialed it back was connected to a premium-rate number controlled by the scammer, which drained between roughly 1,500 and 2,500 Burundian francs of airtime credit in a single callback — money the caller's own network then paid out to the foreign carrier under international interconnection agreements, with the fraudster taking a cut. Telecommunication Minister Nestor Bankumukunzi told Iwacu his ministry had been monitoring the wave of calls since the preceding Friday and was working with the national telecoms regulator ARCT and Burundi's phone companies to block the numbers and stop the scheme, bluntly describing the callers as thieves who depend on people calling them back. He urged the public not to return calls to foreign numbers that ring once and disconnect — a tactic known internationally as "Wangiri," Japanese for "one ring and cut" — and the ministry, ARCT, and the operators jointly asked subscribers not to panic while they worked to prevent a repeat. Anyone whose phone shows a missed call from an unfamiliar foreign number that rang only once or twice should not call it back, since no legitimate caller needs that; checking the number against known international scam-prefix lists, or simply ignoring it, costs nothing, while a callback can empty a prepaid balance in seconds.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: ['Burundi Ministry of Telecommunications (Minister Nestor Bankumukunzi)', 'Agence de Régulation et de Contrôle des Télécommunications (ARCT)', 'Iwacu'],
+  sourceUrl: 'https://www.iwacu-burundi.org/englishnews/telecommunication-ministry-reassures-theft-victims-through-foreign-calls/',
+  country: 'BI',
+  isHistorical: true,
+  firstRecorded: '2017-06-09',
+});
+
+International.push({
+  name: 'AVVC Fake Australia Visa Migration Fraud (Burundi)',
+  slug: 'burundi-avvc-fake-australia-visa-migration-fraud',
+  description: `Burundian police arrested 15 people in Bujumbura in late 2016 — a mix of Burundian and Congolese nationals — over a migration-fraud scheme that had been operating since 2013 under the name of a supposed charitable group, the Association of Victims of Violence in the Democratic Republic of Congo (AVVC), which actually existed to sell fake Australian visas rather than to help anyone. The group ran its operation out of rooms at a public secondary school, Lycée Municipal de Cibitoke, collecting applicants' passport photos and family pictures and issuing them false Congolese identities on the theory that the group was supposedly processing refugee resettlement cases out of Congo. To make the scheme convincing, organizers produced a counterfeit Australian government visa-confirmation page and a forged International Organisation for Migration document, polished enough, police spokesperson Pierre Nkurikiye said, that they could have fooled even some officials. Standard files cost victims between 700,000 and 1,500,000 Burundian francs (roughly $410 to $890 at the time), but the group charged far more — 3,000,000 francs (about $1,700) or beyond — to applicants it identified as wealthier, including employees of the Central Bank of Burundi and the Burundi Revenue Authority. Police seized 1,023 case files in the raid, and Nkurikiye said more may have been hidden, putting the true scale of the fraud at "many millions" of francs; nine suspects were referred to court while the group's leader remained at large, and police said they were also investigating possible complicity by officials. Nkurikiye urged victims to file formal complaints so courts could pursue recovery, and warned the public broadly against ever paying anyone — however convincing their paperwork — for a promise of a visa, resettlement, or work abroad outside an embassy's or recognized migration agency's own official process.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'medium',
+  sources: ['Burundi National Police (spokesperson Pierre Nkurikiye)', 'Iwacu'],
+  sourceUrl: 'https://www.iwacu-burundi.org/englishnews/police-uncover-migration-fraud-that-swindled-victims-out-of-millions/',
+  country: 'BI',
+  isHistorical: true,
+  firstRecorded: '2016-12-07',
+});
+
+International.push({
+  name: 'Kazoza Microfinance Employee Fake High-Return Loan Scheme (Burundi)',
+  slug: 'burundi-kazoza-microfinance-employee-loan-scheme',
+  description: `Rumors swept social media on June 1, 2020 that 800 million Burundian francs had been stolen from Kazoza Microfinance's Kamenge branch in Bujumbura, prompting the institution to call a press conference on June 3 to head off a panic. Director General Aimé Sinaniranye told reporters flatly that "Kazoza Microfinance wasn't robbed," and the institution's administrative and financial affairs officer, Nadine Dukundane, laid out what an internal investigation had actually found: a single employee, Louise Nijimbere, who had worked at the branch for three years, had used her position and the trust it carried to persuade customers to lend money directly to her rather than to the institution, promising outsized short-term returns — in one example Dukundane described, a customer who handed over 25 million francs was promised 33 million back within two weeks. To make the arrangement look official, Nijimbere issued the lenders payment slips bearing Kazoza's own institutional stamp, so the transaction read as a normal microfinance product rather than a private side deal with an employee who had no authority to offer one. She was arrested once the scheme surfaced, and police and judicial officials opened an investigation into how many customers were affected and whether anyone else was involved, while Kazoza's management stressed that the institution's own funds were never at risk — only money customers handed directly to the employee outside any legitimate account. The case is a reminder that an employee's genuine job, branch, and years of service do not make a side proposal to lend them money personally and off the books any less a private scheme: a legitimate microfinance product is always recorded in the customer's own account, never routed through a personal arrangement with an individual staff member no matter how official the paperwork looks.`,
+  categorySlug: 'ponzi-pyramid-schemes',
+  alertLevel: 'medium',
+  sources: ['Kazoza Microfinance (Director General Aimé Sinaniranye, officer Nadine Dukundane)', 'Iwacu'],
+  sourceUrl: 'https://www.iwacu-burundi.org/englishnews/no-robbery-committed-in-kazoza-microfinance-says-management/',
+  country: 'BI',
+  isHistorical: true,
+  firstRecorded: '2020-06-01',
+});

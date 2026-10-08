@@ -13142,3 +13142,16 @@ UsGM.push({
     state: 'MA',
     firstRecorded: '2026-03-12',
 });
+
+UsGM.push({
+    name: 'Fake Data Breach Notices Filed on Maine\'s Public Breach Portal',
+    slug: 'maine-data-breach-portal-fake-filings',
+    description: `Maine is one of only a few states that automatically publishes every company data-breach notification it receives to a public database, a transparency feature that an unidentified party exploited in June 2026 by submitting two entirely fabricated breach notices through the same online form any real company uses. One filing, dated June 11, 2026, claimed Discord had suffered "insider wrongdoing" exposing more than 10 million people; the other claimed the social platform VRChat had leaked data on 2.4 million users, and listed the name and email of a company representative who, VRChat's Head of Community Charles Tupper said, does not actually exist — "VRChat did not submit this Notice of Data Incident... We have no reason to believe that our data or systems have been compromised." The Maine Attorney General's Office confirmed it had no knowledge of any genuine recent breach at either company and said anyone could submit the state's breach-notification form and have it posted to the public portal without independent verification, which is exactly what let the fake filings carry an official state government domain the moment they went live — turning Maine's own transparency tool into a citable "official source" a phishing campaign could point to in a follow-up "your data was breached" email. The office pulled public access to the breach database while it reviews how submissions are verified, saying companies could still file new notifications directly with the office in the meantime. The episode is a reminder that a notice "confirmed" on a state government breach registry is not automatically authentic — anyone who receives an unsolicited "your data was exposed" message citing a specific breach should verify directly with the named company's own official security page or press contacts, not merely by checking that the breach appears listed on a government site, before clicking a link or supplying any information.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'medium',
+    sources: ['Maine Office of the Attorney General', 'BleepingComputer', 'VRChat (Charles Tupper)'],
+    sourceUrl: 'https://www.maine.gov/ag/',
+    country: 'US',
+    state: 'ME',
+    firstRecorded: '2026-06-11',
+});

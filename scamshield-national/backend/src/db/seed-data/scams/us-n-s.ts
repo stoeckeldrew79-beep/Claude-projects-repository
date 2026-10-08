@@ -12477,4 +12477,17 @@ UsNS.push({
     firstRecorded: '2025-06-26',
 });
 
+UsNS.push({
+    name: 'Unprescribed Durable Medical Equipment Medicare Billing Fraud (Pennsylvania)',
+    slug: 'pennsylvania-unordered-durable-medical-equipment-medicare-fraud',
+    description: `Pennsylvania Attorney General Dave Sunday's office warned on September 24, 2025 about a growing scheme in which seniors across the state receive durable medical equipment — oxygen equipment and wheelchairs among the examples the office cited — that they never requested and that no doctor ever prescribed or ordered for them, shipped straight to their homes. The equipment itself isn't really the point: once it arrives, the scheme's organizers bill either the unsuspecting patient directly or, far more often, Medicare itself for the "supplied" device, collecting a payout the patient never agreed to and frequently never even learns about unless they happen to review their own claims history. Sunday's office said it was seeing a growing number of these cases and laid out a specific set of defenses: review Medicare Summary Notices regularly, by mail or online, and flag any claim for equipment never discussed with a doctor; report an unsolicited device both to Medicare and to the Attorney General's Health Care Section, since a patient has no obligation to pay a bill tied to equipment they never ordered; verify any unfamiliar bill with a physician's office before paying anything; and never give a Social Security or Medicare ID number to an unsolicited caller, including one who claims the call relates to open enrollment. Unlike a phone scam that asks the victim to hand over money, this scheme's victim can be the Medicare program itself, with the patient's own identity and Medicare number used as the vehicle for the fraudulent claim — meaning the first sign of a problem is often a claims statement rather than a call or bill demanding payment. Pennsylvanians who receive medical equipment they never ordered are directed to report it to 1-800-MEDICARE or to the Attorney General's Health Care Section at 877-888-4877, or to file a complaint online through the Attorney General's website.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Pennsylvania Office of Attorney General (AG Dave Sunday)'],
+    sourceUrl: 'https://www.attorneygeneral.gov/?p=293',
+    country: 'US',
+    state: 'PA',
+    firstRecorded: '2025-09-24',
+});
+
 
