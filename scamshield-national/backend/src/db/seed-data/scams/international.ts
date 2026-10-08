@@ -24415,3 +24415,27 @@ International.push({
   sourceUrl: 'https://www.gob.mx/condusef/prensa/alerta-urgente-se-detectan-correos-fraudulentos-que-suplantan-a-la-condusef',
   country: 'MX',
 });
+
+International.push({
+  name: 'Fake "Traffic Police" Fine Smishing Scam (Slovenia)',
+  slug: 'slovenia-fake-traffic-police-fine-smishing-scam',
+  description: `Slovenia's General Police Directorate (GPU) warned on May 14, 2026 about text messages, usually sent from a foreign phone number, falsely claiming to come from the "slovenska prometna policija" (Slovenian traffic police) and telling the recipient they committed a traffic violation that must be resolved by registering on a linked website. The fake site is built to get victims to register and hand over personal and bank card details, or to pay a supposed fine directly into an account the scammers control — payment-card details entered this way have been used by attackers to make further unauthorized purchases on other websites within minutes. The police stated plainly that officers never notify traffic offenders by SMS, that the messages are fake, and that any real traffic citation arrives by official mail, not a text with a payment link. Recipients are advised not to reply to the message, not to click the link or enter any information on the linked site, to delete the text, and — if money has already been lost — to report it at a police station or through the police's electronic crime-reporting system (e-naznanilo).`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'high',
+  sources: ['Slovenian Police (Policija)'],
+  sourceUrl: 'https://siol.net/novice/slovenija/ste-prejeli-sms-sporocilo-o-prometnem-prekrsku-policija-opozarja-da-gre-za-prevaro-691540',
+  country: 'SI',
+  isHistorical: true,
+  firstRecorded: '2026-05-14',
+});
+
+International.push({
+  name: 'Fake FURS Tax-Overpayment Phishing Email and SMS (Slovenia)',
+  slug: 'slovenia-furs-tax-overpayment-phishing-scam',
+  description: `Slovenia's Financial Administration (FURS) has repeatedly warned taxpayers about phishing emails and text messages falsely claiming the recipient is owed a tax overpayment ("preplačilo davka"), directing them to a link or asking them to reply with personal information. FURS states flatly that it never asks taxpayers to enter personal data or bank transaction-account details through a web link or SMS, and that any real overpayment or outstanding obligation can be checked directly by the taxpayer through FURS's own eDavki online portal or mobile app rather than through an unsolicited message. The agency's advice is not to respond to the message, not to enter or share any information through it, and to delete it; anyone who has already lost money this way is urged to report it to the police immediately. Taxpayers with questions about a message claiming to be from FURS can call the agency's own contact center directly — 08 200 1001 for individuals or 08 200 1003 for businesses — rather than use any number or link contained in the message itself.`,
+  categorySlug: 'tax-scams',
+  alertLevel: 'medium',
+  sources: ['Finančna uprava Republike Slovenije (FURS)'],
+  sourceUrl: 'https://www.rtvslo.si/crna-kronika/furs-znova-svari-pred-prevaranti-nikamor-ne-sporocajte-ali-vpisujte-svojih-podatkov/678331',
+  country: 'SI',
+});

@@ -7149,3 +7149,31 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2021-08-12',
 });
+
+UsTZ.push({
+    name: 'Tripp County, South Dakota Spoofed-Vendor Email Wire Fraud',
+    slug: 'south-dakota-tripp-county-spoofed-vendor-email-wire-fraud',
+    description: `On October 15, 2025, staff in the Tripp County, South Dakota Auditor's Office were tricked by an email built to look like it came from a vendor the county had actually done business with — the invoice cited a real road project the county had paid for before — into authorizing a wire transfer of $826,357 to a bank account controlled by scammers rather than the real vendor. The county did not disclose the loss publicly until January 2026, when South Dakota Attorney General Marty Jackley and Tripp County State's Attorney Zachary Pahlke confirmed the case was under active investigation by the state's Division of Criminal Investigation alongside federal agencies. Jackley said "scammers are getting more sophisticated, and consumers have to be vigilant," and advised that the only reliable way to catch this kind of spoofed-vendor fraud before money moves is to call the vendor back using a phone number already on file — never one listed in the email itself — to verbally confirm any new or changed payment instructions before a transfer is approved. County Auditor Barb DeSersa's office has since begun working with outside security consultants to add verification safeguards, and a county commissioner said insurance may cover part of the loss, though recovery of the stolen funds themselves remains uncertain. Any government office, nonprofit, or business that pays vendors by wire transfer can be targeted the same way regardless of size, and should require an independent callback verification step before releasing funds whenever payment instructions are new or have changed.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ["South Dakota Attorney General's Office", 'Dakota News Now'],
+    sourceUrl: 'https://www.dakotanewsnow.com/2026/01/07/tripp-county-government-email-scammed-into-transferring-826000',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2025-10-15',
+});
+
+UsTZ.push({
+    name: 'Vermont Personal-Care-Services Medicaid Timesheet Fraud (Wescom and Sanderson)',
+    slug: 'vermont-personal-care-services-medicaid-timesheet-fraud',
+    description: `As part of the coordinated 2026 National Health Care Fraud Takedown, Vermont's Attorney General's Office announced two separate arraignments for felony Medicaid fraud built on the same underlying scheme: submitting false timesheets claiming personal-care services had been provided to a Medicaid recipient when they had not. Yvonne Wescom, 35, of Newport, was arraigned on three counts of felony Medicaid fraud on June 23, 2026, after the Medicaid Fraud and Residential Abuse Unit (MFRAU) determined she had submitted false timesheets between May 2025 and January 2026, defrauding Vermont Medicaid of more than $15,000; she pleaded not guilty before Judge Rory Thibault in the Orleans Criminal Division. Separately, Darci Sanderson, 38, of Brattleboro, was arraigned on one count of felony Medicaid fraud on June 16, 2026, after MFRAU alleged she and a co-defendant submitted false timesheets for services never actually provided to another individual, totaling roughly $24,000 in alleged losses; she pleaded not guilty before Judge Elizabeth Mann in the Windsor Criminal Division and was released on conditions, with her co-defendant's arraignment to follow. Both defendants are presumed innocent unless proven guilty. The pattern underscores that Medicaid's personal-care-attendant benefit is paid based on timesheets the caregiver submits, with no independent party automatically checking whether the billed visits actually happened — families and recipients who rely on a personal-care aide can help catch this kind of fraud by keeping their own log of actual visit dates and hours and comparing it against any benefits statement, and can report suspected false billing to MFRAU through its online complaint form.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ["Vermont Attorney General's Office"],
+    sourceUrl: 'https://ago.vermont.gov/blog/2026/06/23/attorney-generals-office-announces-medicaid-fraud-charges',
+    country: 'US',
+    state: 'VT',
+    isHistorical: true,
+    firstRecorded: '2026-06-16',
+});
