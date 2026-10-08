@@ -26,11 +26,26 @@ services:
           property: connectionString
       - key: JWT_SECRET
         generateValue: true
-      # Tighten this to the real Vercel URL once the frontend is deployed
-      # (Render dashboard -> this service -> Environment). "*" works for a
-      # demo in the meantime; cors() treats it the same as leaving it unset.
       - key: FRONTEND_URL
-        value: "*"
+        value: "https://claude-projects-repository.vercel.app"
+
+  # Scans live US/international scam news (Google News RSS, no API key)
+  # and publishes headlines to the "Today's Scams" feed. Safe to run more
+  # than once a day — dedupes by source URL.
+  - type: cron
+    name: scamshield-scan-daily-news
+    runtime: node
+    rootDir: scamshield-national/backend
+    schedule: "0 11 * * *"
+    buildCommand: npm install --include=dev
+    startCommand: npm run scan-daily-news
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: scamshield-national-db
+          property: connectionString
 
 databases:
   - name: scamshield-national-db
