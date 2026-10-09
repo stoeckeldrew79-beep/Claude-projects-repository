@@ -5624,10 +5624,9 @@ If you're an Allstate customer, don't assume a mailed notification letter refere
     slug: `collins-aerospace-2025-airport-ransomware-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `collins-aerospace-2025-airport-breach`],
-    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Departure_And_Arrival_Board_At_Dulles_Airport_(4128589658).jpg?width=1200`,
-    coverImageCredit: `Photo: paul_houle, CC BY-SA 2.0, via Wikimedia Commons — a representative airport departure board, not one of the specific airports affected`,
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Self_check-in_at_Dublin_Airport.jpg?width=1200`,
+    coverImageCredit: `Photo: Marek Slusarczyk (CC BY 2.5) — Aer Lingus self-check-in machines at Dublin Airport, one of the airports hit by the Collins Aerospace check-in outage`,
     coverImagePosition: 50,
-    // representative photo — a generic US airport departure board; the attack hit Heathrow, Brussels, Berlin, and Dublin, not Dulles
     sourceUrl: `https://en.wikipedia.org/wiki/Collins_Aerospace_cyberattack`,
     body: `On the evening of September 19, 2025, a ransomware attack hit Collins Aerospace, a subsidiary of the defense and aerospace giant RTX Corporation that makes MUSE, the shared check-in and boarding software used by airlines at airports across Europe. The malware knocked out automated check-in and baggage-drop systems at London Heathrow, Brussels Airport, Berlin Brandenburg, and Dublin Airport, forcing staff back to manual, pen-and-paper check-in and triggering hundreds of delayed and canceled flights over the following days. The European Union Agency for Cybersecurity confirmed by September 22 that ransomware was behind the outage, and it took until September 29 — ten days later — for Brussels Airport to finish deploying a replacement system and bring the disruption to an end. Dublin Airport was especially hard-hit, with roughly 10 percent of its flights continually canceled at the height of the outage while Terminal 2 worked through days of backlogs.
 
