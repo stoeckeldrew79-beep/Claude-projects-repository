@@ -2314,10 +2314,9 @@ Miss Cleo's boisterous television persona made the case a pop-culture punchline 
     slug: 'marjoe-gortner-child-evangelist-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Religious_revival_meeting_at_Eastham,_Mass.,_1852-_Prayer_meeting_in_a_tent_LCCN2003654804.jpg?width=1200',
-    coverImageCredit: 'Photo: Library of Congress, 1852 (public domain) — a tent revival prayer meeting, the same setting as the Gortner family\'s traveling revival circuit',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marjoe_Gortner_%22The_Marcus-Nelson_Murders%22_(1973_Universal_Television_press_photo).JPG?width=1200',
+    coverImageCredit: 'Universal Television, 1973 press photo (public domain, no copyright notice)',
+    coverImagePosition: 40,
     body: `Hugh Marjoe Ross Gortner was born January 14, 1944, in Long Beach, California, to evangelical parents who decided almost immediately that their son would become a preacher — not eventually, but as a toddler. His mother, Marge, coached him to deliver sermons from memory, and at age four his parents staged a mock wedding ceremony for him, complete with a bride, an "I do," and press coverage that included Life magazine photographers, all to generate publicity for the traveling revival act the family was building around him. He later described how his parents built the entire enterprise on a fabricated origin story — a supposed divine vision he received while being bathed as an infant — that he was required to repeat, word for word, from the pulpit for years, and enforced his cooperation not with visible violence but through psychological coercion, including mock-drowning episodes designed to compel compliance without leaving marks a congregation might see.
 
 Billed as the youngest ordained minister in history, "Marjoe" — a name his parents built from a splice of Mary and Joseph — became a genuine sensation on the American revival circuit through the late 1940s and 1950s, preaching hellfire sermons, faith-healing routines, and altar calls to packed tent revivals across the country while his family collected the offering plates. His younger brother Vernoe joined the family act by 1951, and by the time Gortner reached his teens the ministry had generated an estimated three million dollars in donations passing through his parents' hands. Shortly after that milestone, his father disappeared with the money entirely, leaving the family enterprise and its finances in ruins and Gortner, still a teenager, largely on his own; he spent the years that followed drifting through a beatnik lifestyle far removed from the revival tents that had defined his childhood.
@@ -3082,9 +3081,8 @@ Davis's own cooperation bought him substantial leniency. On January 22, 2013, a 
     slug: 'john-donald-cody-bobby-thompson-navy-veterans-charity-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    // representative photo — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Tampa_Skyline.jpg?width=1200',
-    coverImageCredit: 'Photo: Mark Szelistowski, Wikimedia Commons (CC BY-SA 3.0) — downtown Tampa, Florida, where "Bobby Thompson" actually ran the fake U.S. Navy Veterans Association out of his apartment while claiming a Washington, D.C. headquarters',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_Donald_Cody_-_FBI_Wanted_poster.jpg?width=1200',
+    coverImageCredit: 'FBI wanted poster (public domain, U.S. federal government work)',
     coverImagePosition: 50,
     body: `John Donald Cody was, on paper, an unlikely candidate to become one of America's most durable fraudsters: a University of Virginia and Harvard Law School graduate who served as a U.S. Army military intelligence captain before opening a defense law practice in Sierra Vista, Arizona, in 1980. That career ended in May 1984, when employees at his firm grew suspicious of his cash withdrawals and inquiries about fake identification, and Cody vanished before Arizona authorities could charge him with stealing roughly $100,000 from client accounts. An FBI wanted poster describing him as a fugitive lawyer sat unresolved for nearly two decades.
 
@@ -6154,9 +6152,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/usao-dc/pr/singaporean-ringleader-245-million-cryptocurrency-racketeering-enterprise-pleads-guilty',
-    // representative photo — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/E._Barrett_Prettyman_U.S._Courthouse.JPG?width=1200',
-    coverImageCredit: 'AgnosticPreachersKid / Wikimedia Commons (CC BY-SA 3.0) — E. Barrett Prettyman U.S. Courthouse, Washington, D.C., where the case was prosecuted',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Malone_Lam_mugshot_(cropped).png?width=1200',
+    coverImageCredit: 'Broward County Sheriff\'s Office booking photo (public domain)',
+    coverImagePosition: 50,
     body: `On August 18, 2024, a longtime cryptocurrency investor in Washington, D.C. got a call from someone claiming to be Google support, warning that his account had faced repeated break-in attempts. A second caller followed, posing as staff from the Gemini crypto exchange, warning of malware on his device. Talked through a sequence of "security" steps by the callers — who were watching his screen the whole time — the victim ended up granting access to his Google Drive and revealing verification codes that let the callers into wallets holding more than 4,100 Bitcoin, worth over $240 million at the time.
 
 According to the U.S. Attorney's Office for the District of Columbia, the operation behind that theft was run by Malone Lam, a 22-year-old Singaporean citizen living in Miami who went by online aliases including "Anne Hathaway," "$$$," and "King Greavy." Lam had built his crew through online gaming circles, recruiting participants across California, Connecticut, New York, and Florida to make the deceptive calls, launder the proceeds through cryptocurrency mixers, "peel chains," and pass-through wallets, and convert the stolen funds into cash. Prosecutors say the D.C. theft was the largest single haul in a broader racketeering enterprise, involving multiple victims and additional thefts, that totaled more than $245 million.
