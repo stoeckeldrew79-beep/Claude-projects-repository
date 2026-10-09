@@ -180,10 +180,9 @@ A breach like this one carries a different kind of risk than a retailer or hospi
 
 If you're a Berlin city employee, or someone who has done business with the Senate Department for Mobility, Transport, Climate Protection and the Environment, watch for official communication from the city about the breach and treat it as your cue to change any password tied to city systems, particularly if you're a senior official whose credentials may have been in the exposed password vaults. Enable multi-factor authentication anywhere it's available on government or personal accounts, since a leaked plaintext password becomes far less useful to an attacker if a second factor is also required. Be alert for a second wave of phishing emails, calls, or texts that reference this breach, a real employee name, or specific details from the leaked files — attackers routinely use authentic-sounding specifics from one breach to make a follow-up scam far more convincing. Berlin residents with questions about their own exposure can contact the Berlin Commissioner for Data Protection and Freedom of Information (Berliner Beauftragte für Datenschutz und Informationsfreiheit) directly rather than through any link in an unsolicited message. Anyone outside Germany who receives a suspicious message referencing this breach can report it to the FTC at ReportFraud.ftc.gov.`,
     sourceUrl: "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/",
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Berlin_Rotes_Rathaus_B.JPG?width=1200",
-    coverImageCredit: "Photo: Zairon, CC0, via Wikimedia Commons — the Rotes Rathaus, seat of Berlin's governing mayor and Senate",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Berlin,_Mitte,_Am_Koellnischen_Park_3,_Landesversicherungsanstalt.jpg?width=1200",
+    coverImageCredit: "Photo: Jörg Zägel, CC BY-SA 3.0, via Wikimedia Commons — Am Köllnischen Park 3, Berlin, the government building housing the breached Senate department",
     coverImagePosition: 50,
-    // representative photo — Berlin's city hall, not the specific Senate department building that was breached; replace with an exact match if found
   },
   {
     title: "The Thomson Reuters C-Track Breach: How an Attack on Court Software Exposed Sealed Records and Social Security Numbers Across 11 States",

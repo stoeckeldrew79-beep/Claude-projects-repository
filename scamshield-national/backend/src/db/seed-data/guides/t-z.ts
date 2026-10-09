@@ -1297,10 +1297,9 @@ Watch your mail and email for an official breach notification letter, which Unli
     author: 'ScamShield Editorial',
     tags: ['guide', 'transunion-2025-data-breach'],
     sourceUrl: 'https://www.bleepingcomputer.com/news/security/transunion-suffers-data-breach-impacting-over-44-million-people/',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Security_card_(09-61).jpg?width=1200',
-    coverImageCredit: 'Photo: N Giovannucci (CC BY-SA 4.0) — a specimen Social Security card',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/TransUnion_logo.svg?width=1200',
+    coverImageCredit: 'TransUnion logo (public domain — below the threshold of originality), via Wikimedia Commons',
     coverImagePosition: 50,
-    // representative photo — a Social Security card specimen, not TransUnion's own breached system; replace with an exact match if found
     body: `TransUnion is one of the three major credit bureaus in the United States, alongside Equifax and Experian, which means it holds a credit file on nearly every adult in the country whether or not they've ever heard of the company directly. On August 28, 2025, TransUnion notified regulators and customers about a data breach — one that had actually happened almost a full month earlier, on July 28, 2025, and that TransUnion says it discovered and contained within two days, on July 30.
 
 The intrusion didn't touch TransUnion's core credit-file database. Instead, according to TransUnion's own disclosure and reporting that followed, attackers got into a third-party application connected to the company's U.S. consumer support operations. Security researchers linked the breach to the same sprawling 2025 hacking campaign, tracked under the name UNC6395 and claimed by the extortion group ShinyHunters, that spent the year breaking into companies' Salesforce-connected customer-support platforms — not by exploiting a software bug, but by using stolen access tokens and social-engineering tactics like impersonating IT help-desk staff to get employees to authorize a rogue connected app. The same technique hit a long list of other well-known companies that year, from airlines and hotel chains to luxury retailers and insurers, making TransUnion one more name added to an already long list of victims of the same underlying playbook.
