@@ -12542,4 +12542,16 @@ UsNS.push({
     state: 'PA',
 });
 
+UsNS.push({
+    name: '"Infinity Auctions" Fake Vehicle and Equipment Auction Website Scam',
+    slug: 'south-dakota-infinity-auctions-fake-vehicle-auction-scam',
+    description: `A website calling itself "Infinity Auctions" at auctionsinfinity.com listed a Rapid City, South Dakota address and advertised cars, trucks, RVs, and heavy equipment through live-style auctions and "Buy Now" offers — but the Better Business Bureau found it had no connection to the real, legitimate South Dakota-based Infinity Auctions, which runs estate auctions through HiBid, and that the business did not actually operate at the address it listed. Investigators discovered that vehicle photos on the fake site had been lifted from other sellers' listings, including at least one vehicle that had already sold through a legitimate auction site two years earlier. After "winning" an auction, buyers were pressured to wire payment immediately, before the sale could be independently verified, and some victims paid additional delivery fees on top of the purchase price and never received a vehicle at all. The BBB's Scam Tracker logged reports tied to the site totaling nearly $48,000 in combined losses, including two victims who separately lost $23,400 and $24,570, and has referred the case to the South Dakota Attorney General's Office and the Rapid City Police Department. The BBB's advised warning signs include a business address that cannot be independently verified, vehicle photos that turn up elsewhere in a reverse image search, a sales agreement missing basic business information or a signature, and high-pressure countdown timers or "limited-time" claims meant to rush a decision; anyone shopping a vehicle or equipment auction site should verify the seller's address and licensing independently, run a reverse image search on the listing photos, and insist on a complete, signed sales agreement before wiring any payment.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau', 'KOLN/WOWT'],
+    sourceUrl: 'https://www.wowt.com/2026/07/07/scam-auction-website-uses-fake-south-dakota-address-bbb-says/',
+    state: 'SD',
+    firstRecorded: '2026-07-07',
+});
+
 

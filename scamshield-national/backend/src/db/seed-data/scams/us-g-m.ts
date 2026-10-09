@@ -13195,3 +13195,27 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2026-06-17',
 });
+
+UsGM.push({
+    name: '"Cook Equipment & Trucking" Fake Farm Equipment Dealer Impersonation Scam',
+    slug: 'missouri-cook-equipment-trucking-fake-dealer-scam',
+    description: `Cook Equipment and Trucking, a small, in-person-only heavy equipment dealer in Marble Hill, Missouri, had never built a website or listed a single item for sale online — but by July 2025, scammers had registered at least three fraudulent websites and a fake Facebook page using the business's name and identity to advertise skid steers, excavators, trailers, and other farm and construction equipment that didn't exist. Buyers from across the country, including California, Michigan, Ohio, North Carolina, Wisconsin, Iowa, and Arizona, wired payment for equipment they believed they were buying from a real, established dealer, only to be ghosted once the money was sent; the Better Business Bureau said more than $300,000 had been wired to various bank accounts nationwide since the scheme began a few months earlier, with ten separate victims reporting losses in July 2025 alone. Owner Ronnie Cook, who had no idea his business's name and reputation were being used this way until customers started calling to ask about equipment he'd never listed, said plainly, "I don't like nobody running my business through a scam." The case follows a pattern the BBB has flagged repeatedly in heavy-equipment sales: a scammer borrows a real, reputable dealer's name, photos, and inventory to build instant credibility, then insists on payment by wire transfer before any in-person inspection or pickup. Prospective equipment buyers are advised to contact a dealer directly using a phone number looked up independently — not one listed on the website making the offer — to confirm the business actually sells online before paying anything, and to avoid wiring money for any vehicle or piece of equipment they haven't inspected in person or verified through a video call with someone at the dealership.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau', 'KFVS12'],
+    sourceUrl: 'https://www.kfvs12.com/2025/07/24/fake-equipment-listings-tied-national-scam-using-southeast-missouri-business',
+    state: 'MO',
+    firstRecorded: '2025-07-24',
+});
+
+UsGM.push({
+    name: '"Accelerated Motors" AI-Generated Fake RV Dealer Scam',
+    slug: 'louisiana-accelerated-motors-ai-fake-rv-dealer-scam',
+    description: `The Better Business Bureau warned in July 2026 about Accelerated Motors LLC, an RV dealership that advertised heavily on Facebook under a listed Baton Rouge, Louisiana address that turned out to be an empty parking lot. Investigators found the listing photos were AI-altered or AI-generated images rather than real inventory photos, and even the business's own name was misspelled in places across its online presence — details the BBB said should have been giveaways but were easy for a hurried shopper to miss. The company was not licensed by the Louisiana State Motor Vehicle Commission, which the state requires of any business selling RVs within Louisiana, and BBB president Carmen Million said consumers from outside Louisiana began contacting the agency after seeing the company's ads online, meaning the scam wasn't limited to in-state shoppers. Reported red flags matched a now-familiar pattern: requests for payment by bank wire or direct transfer before the buyer ever received the vehicle, claims that the RV could not be inspected in person before payment, and promises that it would simply be shipped once payment cleared. The BBB has referred the case to the Federal Trade Commission, the Louisiana Attorney General's Office, and the FBI, and noted it had seen a similar scheme target mobile-home buyers previously, along with a separate, similarly structured scam reported in the New Orleans area. Anyone shopping for an RV or mobile home online should insist on an in-person inspection or a live video walkthrough before sending any money, independently verify a dealership's address and state licensing before trusting its website, and treat a seller who will only accept a wire transfer as a serious warning sign regardless of how professional the listing photos look.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau', 'WAFB'],
+    sourceUrl: 'https://www.wafb.com/2026/07/22/bbb-warns-ai-powered-rv-dealer-scam-targeting-facebook-users/',
+    state: 'LA',
+    firstRecorded: '2026-07-22',
+});
