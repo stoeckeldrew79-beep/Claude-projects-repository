@@ -3918,3 +3918,24 @@ The case went to trial rather than settling, and on November 1, 1995, Judge Edwa
 Unlike many of the era's oil-and-gas investment frauds, the Casperson case produced no public record of a parallel criminal prosecution — the accountability here ran entirely through the civil courts, ending in a multimillion-dollar judgment rather than a prison sentence. The case is a useful illustration of a structural red flag worth remembering: when the person selling an investment, the entity managing the money, and the party claimed to be doing the underlying work are all effectively the same controlling individual, there is no independent party left in the chain whose job it is to notice — or admit — that a well doesn't produce what the sales brochure says it does.`,
     sourceUrl: 'https://www.sec.gov/files/litigation/litreleases/lr14714.txt',
 });
+
+NotoriousTZ.push({
+    title: "Victor Teicher and the Insider-Trading Network Known as the 'Yuppie Five'",
+    slug: 'victor-teicher-yuppie-five-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'securities-fraud', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wall_Street_Sign_NYC.jpg?width=1200',
+    coverImageCredit: 'Photo: JSquish (CC BY-SA 3.0) — Wall Street sign, New York City',
+    coverImagePosition: 50,
+    body: `Victor Teicher ran Victor Teicher & Co., L.P., an unregistered New York investment firm, through the mid-1980s heyday of merger-and-acquisition insider trading that also produced the far more famous prosecutions of Ivan Boesky and Dennis Levine. Teicher's firm wasn't on Wall Street's radar the way Boesky's was, but according to the Securities and Exchange Commission, it ran on the same fuel: confidential information about pending corporate takeovers, passed along before the public ever learned a deal was coming.
+
+The SEC traced the information through a chain of hands rather than a single leak. A law firm associate named Michael David allegedly passed nonpublic details about pending acquisitions to Robert Salsbury, who in turn passed them to Teicher and his colleague Ross Frankel — part of a wider insider-trading network that investigators and the press dubbed the "Yuppie Five." Acting on tips that traced back to that chain, as well as information the SEC said was misappropriated from an investment bank and a broker-dealer, Teicher bought shares in at least seven companies during 1986 ahead of tender-offer announcements that sent their stock prices up once the deals became public.
+
+A federal jury convicted Teicher and his firm on April 6, 1990, on nine counts of securities fraud, two counts of fraud in connection with a tender offer, one count of conspiracy, and two counts of mail fraud, in a case captioned United States v. Teicher in the Southern District of New York. The court sentenced Teicher to eighteen months in prison, five years of probation, and a $200,000 fine, while Victor Teicher & Co. was separately fined $600,000. Teicher, Frankel, and the firm appealed, and the Second Circuit affirmed the convictions in 1993, upholding a jury instruction that let the government prove Teicher traded while in knowing possession of material nonpublic information without having to prove the information was the specific reason he placed each trade — a standard that shaped how insider-trading cases were argued for years afterward.
+
+The SEC's own civil case took far longer to wrap up than the criminal one. Filed in March 1991 over the same 1986 trades, the agency's suit against Teicher, Frankel, Victor Teicher & Co., and a related entity, Carmel Partners, LP, wasn't resolved until a consent order entered December 11, 1997 — more than a decade after the trades themselves — under which the Teicher defendants paid $982,594.14, covering disgorgement of their trading profits, prejudgment interest, and a civil penalty under the Insider Trading Sanctions Act of 1984.
+
+Teicher's case illustrates two things that still hold true in insider-trading enforcement: confidential deal information rarely travels in a straight line from its source to the trader who ultimately profits from it, passing through intermediaries whose own motives can be murkier than the trader's; and the legal and financial reckoning for that trading can stretch across parallel criminal and civil tracks for more than ten years, with the SEC's disgorgement action trailing the jury's guilty verdict by the better part of a decade.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr15646.txt',
+});
