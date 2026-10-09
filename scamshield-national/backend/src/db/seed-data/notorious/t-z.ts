@@ -3656,6 +3656,9 @@ NotoriousTZ.push({
     slug: 'thomas-haffa-em-tv-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'accounting-fraud', 'securities-fraud', 'germany'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thomas_Haffa.jpg?width=1200',
+    coverImageCredit: 'Thomas Haffa in his EM.TV office, Munich, 1999. Photo: Andreas Bohnenstengel (CC BY-SA 3.0 DE)',
+    coverImagePosition: 30,
     body: `Thomas Haffa and his brother Florian, together with television producer Haim Saban, founded EM.TV & Merchandising AG in Munich in 1989 to license children's entertainment properties. The company went public on Germany's Neuer Markt — the country's answer to Nasdaq for fast-growing tech and media stocks — on October 30, 1997, at €0.38 a share, and rode the dot-com boom into one of the exchange's most celebrated growth stories, with Thomas as CEO and Florian running finance.
 
 The Haffas spent early 2000 turning EM.TV into a global media conglomerate on paper. In February 2000 the company bought The Jim Henson Company — owner of the Muppets and Sesame Street-related rights — for $680 million, and the following month it acquired roughly half of Bernie Ecclestone's Formula One marketing rights group for about €3.3 billion. Investors loved it: EM.TV's share price hit a record €110 in March 2000, making the Haffa brothers, on paper, billionaires.
