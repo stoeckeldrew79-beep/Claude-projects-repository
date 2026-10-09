@@ -15888,6 +15888,35 @@ International.push(
 
 International.push(
   {
+    name: 'Kiribati Targeted by RedLine Infostealer Malware (INTERPOL Report)',
+    slug: 'kiribati-redline-infostealer-malware-warning',
+    description: `INTERPOL's Asia and South Pacific Cyber Threat Assessment Report 2025/2026 identified Kiribati as one of the Pacific nations targeted by the RedLine information-stealing malware, alongside Fiji and Timor-Leste. RedLine quietly harvests banking logins, saved passwords, personal data, and cryptocurrency wallet credentials from an infected device without the victim's knowledge, and the stolen credentials are then sold on dark web marketplaces to other criminals who use them for further financial fraud — meaning a single infection can lead to account takeovers and losses long after the malware itself is removed. INTERPOL named Kiribati as one of 19 focus countries in its Asia and South Pacific Joint Operations against Cybercrime (ASPJOC) project, a capacity-building initiative set up specifically to help smaller Pacific nations that lack the cybersecurity resources of larger economies respond to this kind of threat. Residents should be cautious about downloading software or files from unofficial sources, keep devices updated, and treat any unexpected request to re-enter banking or email credentials — especially after clicking a link or opening an attachment — as a sign a device may already be compromised.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Transparency International New Zealand', 'Island Times'],
+    sourceUrl: 'https://www.transparency.org.nz/blog/pacific-island-states-in-the-crosshairs---interpols-cyber-threat-report',
+    country: 'KI',
+    firstRecorded: '2026-06-23',
+  },
+);
+
+International.push(
+  {
+    name: 'Fake Rental Agent Scam Targeting Kiribati Students Abroad in Fiji',
+    slug: 'kiribati-student-rental-scam-fiji',
+    description: `In 2020, seven Kiribati nationals studying at the University of the South Pacific answered a Facebook listing for a shared house to rent in Fiji and paid a combined $3,600 — $1,800 in rent and an $1,800 bond — to a woman posing as a real estate agent. The "agent" then repeatedly postponed their move-in date with fabricated landlord and paperwork excuses, and was eventually exposed as a con artist with no actual authority to rent the property; the students, including 19-year-old Bate Tiaeki, only recovered their money after escalating the case to the Consumer Council of Fiji, which secured most of the refund within days. The pattern — a fraudulent social-media rental listing targeting students or workers who need housing quickly after arriving in an unfamiliar country — is a recognized risk for i-Kiribati students and laborers abroad, who often must secure accommodation fast and have little local network to verify a landlord's legitimacy. Anyone renting a home found through social media, in Kiribati or abroad, should insist on meeting the actual property owner or a licensed agent, verify the listing isn't duplicated elsewhere online, and route any dispute over a deposit through a consumer-protection body rather than continuing to negotiate directly with the suspected scammer.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    isHistorical: true,
+    sources: ['Fiji Sun', 'Consumer Council of Fiji'],
+    sourceUrl: 'https://fijisun.com.fj/news/courts-and-law/consumer-council-helps-students-recover-3600-from-bogus-agent',
+    country: 'KI',
+    firstRecorded: '2020-08-14',
+  },
+);
+
+International.push(
+  {
     name: 'Purcell Mena €300 Million VAT Fraud Fugitive Scandal',
     slug: 'sao-tome-purcell-mena-vat-fraud-fugitive-scandal',
     description: `Téla Nón, Jornal Económico, and RTP reported that Ignacio Purcell Mena, a 54-year-old Chilean businessman sought by Spanish justice as a suspected organizer of a criminal network of 38 companies accused of defrauding the Spanish state of more than €300 million in 2024 by failing to declare VAT on fuel sales, had in the meantime built a public role for himself inside São Tomé and Príncipe's government. He was appointed special adviser to Prime Minister Américo Ramos and, before that, to then-National Assembly president Celmira Sacramento in August 2025, only losing the latter post after the Foreign Ministry refused to issue him a diplomatic passport. São Tomé's Judicial Police arrested him in the north of São Tomé island on March 11, 2026 at Interpol's request, and the Supreme Court of Justice ruled on May 26, 2026 that he met every requirement for extradition to Spain, rejecting his defense's objections; São Tomé's Constitutional Court separately found his detention illegal and ordered his release, a ruling that was not immediately carried out. The case then spilled into a judicial-independence scandal: on July 31, 2026, Purcell Mena's lawyer, accompanied by National Assembly president Abnildo d'Oliveira and Labour Minister Jourceli Tiny dos Ramos, visited the home of Supreme Court president Eurídice Dias and then the court itself, in what the Supreme Court publicly described as an attempt to compel the presiding magistrate to issue a release order for Purcell Mena. The Attorney General's Office opened a criminal investigation into both officials over the alleged pressure campaign, and President Carlos Vila Nova dismissed Dos Ramos as Labour Minister on August 12, 2026 at the Prime Minister's own request. The episode shows how a fraud suspect can trade on a small, resource-poor administration's appetite for well-connected foreign advisers to gain protection at the highest levels of government, and how far some officials were reportedly willing to go to shield him from extradition once he was in custody.`,
