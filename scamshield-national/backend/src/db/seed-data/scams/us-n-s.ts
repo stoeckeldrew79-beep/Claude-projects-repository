@@ -12412,3 +12412,16 @@ UsNS.push({
     state: 'SD',
     firstRecorded: '2026-07-07',
 });
+
+UsNS.push({
+    name: 'Storm-Chasing Contractor and Flood-Damage Scam Alert',
+    slug: 'new-york-storm-chasing-contractor-flood-scam-alert',
+    description: `Following heavy rain and severe flooding, the New York Department of State's Division of Consumer Protection issued a consumer alert on July 31, 2026 warning residents to be wary of storm-chasing contractors — including people only posing as licensed contractors — who show up unsolicited in a damaged neighborhood promising a fast, cheap fix. Secretary of State Walter T. Mosley cautioned that some of these operators falsely claim there is roof damage that does not actually exist in order to justify repair work a homeowner does not need, while others demand full payment upfront for rebuilding or repair work and then disappear before any work is completed. The alert cited a 2024 U.S. Census Bureau survey finding that up to 77 percent of disaster survivors experienced some form of scam within a month of a natural disaster, underscoring how routinely fraud follows close behind flooding, storms, and other emergencies rather than being a rare exception. Mosley urged New Yorkers to slow down before hiring anyone who arrives unsolicited after a storm, to get a second opinion and a written estimate before authorizing any repair, and to avoid paying the full cost of a job upfront regardless of how urgent the contractor makes the damage sound. The Division of Consumer Protection pointed residents to the state Attorney General's consumer tips for contractor disputes and encouraged anyone who believes they were scammed after a storm to file a complaint with the Division directly rather than attempt to resolve it with the contractor alone.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["New York Department of State, Division of Consumer Protection"],
+    sourceUrl: 'https://dos.ny.gov/node/90011',
+    country: 'US',
+    state: 'NY',
+    firstRecorded: '2026-07-31',
+});
