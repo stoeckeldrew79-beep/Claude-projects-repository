@@ -24327,3 +24327,15 @@ International.push({
   isHistorical: true,
   firstRecorded: '2026-08-05',
 });
+
+International.push({
+  name: 'Social Media "Fake Friend" Impersonation Scam (Niue)',
+  slug: 'niue-social-media-fake-friend-impersonation-scam',
+  description: `Niue Police issued a public warning covered by the Broadcasting Corporation of Niue about a wave of social media impersonation on Facebook and Instagram, in which scammers build entirely new profiles using a real Niue community member's own profile picture and username, then use that borrowed identity to befriend other islanders online before asking them for money. Unlike Niue's previously documented scam emails from anonymous overseas strangers, this scheme works precisely because the identity behind the request looks local and familiar — a neighbor, a relative, or a known community figure — which lowers a target's guard in a small island community where everyone assumes they'd recognize an actual stranger. Niue Police Chief Tim Wilson, who separately detailed a related customs-package impersonation scam that cost one islander roughly $30,000, said cybercrime affecting the territory's roughly 1,600 residents is a growing problem, and the broadcaster's reporting noted that Niue's cybercrime-related law had not been reviewed in a decade even as these schemes multiply. Police advise residents who spot a duplicate account using a friend's or relative's photo and name to block and report it immediately rather than engage, and anyone contacted by a "friend" asking for money online to verify the request through a different channel — a phone call or an in-person conversation — before sending anything, since the profile itself offers no real proof of who is actually typing. Suspected cases can be reported directly to Niue Police at 4333.`,
+  categorySlug: 'identity-theft',
+  alertLevel: 'medium',
+  sources: ['Broadcasting Corporation of Niue (BCN)', 'TV Niue'],
+  sourceUrl: 'https://tvniue.com/niue-police-warns-over-online-scammers/',
+  country: 'NU',
+  firstRecorded: '2023-06-15',
+});
