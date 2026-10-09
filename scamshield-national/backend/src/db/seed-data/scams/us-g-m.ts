@@ -13246,3 +13246,85 @@ UsGM.push({
     state: 'MO',
     firstRecorded: '2026-01-28',
 });
+
+UsGM.push({
+    name: 'Belgrade, Montana Corgi Puppy Money-Order Scam',
+    slug: 'montana-belgrade-corgi-puppy-money-order-scam',
+    description: `A Belgrade, Montana woman searching online for a Corgi puppy found a breeder's website, filled out a buyer questionnaire, and exchanged emails with a "seller" before being told to pay by money order. After she sent the money order, the seller said she now also had to pay a separate transport agency directly to have the puppy shipped — the moment she realized both the breeder and the puppy never existed, leaving her out roughly $900 with no way to recover it. The Better Business Bureau used the case to warn Montanans that no legitimate breeder requires payment by money order, wire transfer, or prepaid card before a buyer ever sees the animal. Anyone shopping for a pet online should reverse-image-search the listing's photos to check whether they've been lifted from another site, insist on meeting the animal and seller in person (or via live video call at minimum) before paying anything, and treat a demand to pay a "transport" or "shipping" company separately after the sale as a clear sign of fraud.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2018-06-14',
+    sources: ['KPAX', 'Better Business Bureau'],
+    sourceUrl: 'https://kpax.com/news/2018/06/14/montana-womans-search-for-new-puppy-ends-in-scam',
+    country: 'US',
+    state: 'MT',
+});
+
+UsGM.push({
+    name: 'Montana Nonprofit Fake Cashier\'s-Check Donation Scam ("Alphonso Blye")',
+    slug: 'montana-nonprofit-fake-cashiers-check-donation-scam',
+    description: `In February 2024, a scammer using the name "Alphonso Blye" emailed at least five Montana nonprofits offering a roughly $200,000 memorial donation in honor of a deceased relative and sent a cashier's check for $191,250 drawn on a U.S. bank. After one organization deposited the check, the "donor" claimed an accounting error — saying the gift should have been only $100,000 — and asked the nonprofit to wire back the roughly $91,000 difference; the original check later bounced, leaving the organization on the hook for whatever it had already returned. The Montana Nonprofit Association and Attorney General Austin Knudsen's office warned that all five targeted groups caught the scam before losing money, but cautioned that the scheme only needs one success to work. Nonprofits that receive a large, unsolicited donation offer are advised to independently verify the donor's identity before depositing any check, and to never wire money back shortly after cashing one — banks can take weeks to detect a fraudulent check, so funds that appear to clear can still be reversed later, leaving the organization liable for anything it already sent back.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2024-02-16',
+    sources: ['NBC Montana', 'Montana Nonprofit Association', 'Montana Attorney General Office (Austin Knudsen)'],
+    sourceUrl: 'https://nbcmontana.com/news/local/officials-warn-of-scam-targeting-montana-nonprofits',
+    country: 'US',
+    state: 'MT',
+});
+
+UsGM.push({
+    name: 'Fake Tow Truck Call-Center Scam (Billings and Missoula)',
+    slug: 'montana-billings-missoula-fake-tow-truck-call-center-scam',
+    description: `The Montana Highway Patrol alerted then-Attorney General Tim Fox's office that out-of-state call centers were posing online as local towing companies under fabricated names like "F & V Towing," "Woods & Sons," and "Fonnie's Wrecker Service" in the Billings area, with similar activity flagged around Missoula. The fake listings used manufactured positive reviews and stock photos of empty, leased storefronts to look like real local businesses in search results for terms like "tow truck near me." Motorists who called the numbers reached an out-of-state operator who demanded credit card information before dispatching any actual tow — sometimes never sending a truck at all. Officials noted that legitimate Montana tow operators are inspected annually by the Highway Patrol and must display a Letter of Appointment and inspection sticker, and that real tow companies don't collect payment until the job is finished; stranded drivers are urged to verify a listing through their district Highway Patrol office or the state Office of Consumer Protection before handing over any payment information.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['KTVH / MTN News', 'Montana Highway Patrol', 'Montana Department of Justice'],
+    sourceUrl: 'https://www.ktvh.com/news/crime-watch/officials-warn-of-tow-truck-scam-in-billings-missoula',
+    country: 'US',
+    state: 'MT',
+});
+
+UsGM.push({
+    name: 'Jackson, Mississippi International Tech-Support Scam Ring',
+    slug: 'mississippi-jackson-tech-support-scam-ring',
+    description: `An international fraud ring based in Jackson, Mississippi called and emailed victims nationwide — targeting the elderly in particular — falsely claiming their computers were infected with malware, then talked victims into granting remote access so the callers could search for bank credentials and passwords. According to a ten-defendant indictment returned March 19, 2019 in the Southern District of Mississippi, the group incorporated shell companies and opened bank accounts in Mississippi and elsewhere to receive and launder the stolen funds, moving some proceeds to co-conspirators overseas, and sent counterfeit refund checks to stall victims who sought their money back. Three Jackson men — James Haynes, 65; Jarvis Haynes, 29; and Neman Zahid, 32 — were arrested by Homeland Security Investigations' Jackson office around May 22, 2020, and an India-based co-conspirator, Ankit Puri, was arrested days later in Michigan. The scheme ran from January 2015 to December 2018 and the defendants faced conspiracy, wire fraud, mail fraud, bank fraud, money laundering, and aggravated identity theft charges, with sentencing enhancements available under the SCAM Act for targeting victims over 55. Anyone who receives an unsolicited pop-up or call claiming their computer is infected should never grant remote access or call the number provided — a legitimate tech company will never contact a customer first to report a virus — and should instead run a scan using software obtained directly from a trusted source.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    isHistorical: true,
+    firstRecorded: '2019-03-19',
+    sources: ['U.S. Immigration and Customs Enforcement (ICE/HSI)', 'U.S. Attorney’s Office, Southern District of Mississippi'],
+    sourceUrl: 'https://www.ice.gov/news/releases/ice-hsi-arrests-4-international-telemarketing-fraud-ring-targeting-senior-citizens',
+    country: 'US',
+    state: 'MS',
+});
+
+UsGM.push({
+    name: 'Petal, Mississippi Craigslist "Inherited House" Rental Scam',
+    slug: 'mississippi-petal-craigslist-rental-scam',
+    description: `Jennifer Underwood, a single mother in Petal, Mississippi whose previous lease had expired, answered a Craigslist listing for a house, where a woman claimed the property had been inherited from her late grandfather and that the family was moving to California. After touring the home, Underwood paid $1,400 in cash up front and signed a lease, and the "owners" handed over the keys — only for her to find a bed and a closet still full of a man's clothing inside, a sign someone was actually still living there. The couple stopped answering her calls, and she later learned the grandfather was alive and still renting the home himself; the people she'd paid had no right to rent it at all and had already left town with her money. The case illustrates a fake-landlord rental scam distinct from a simple non-existent listing: here the property is real and the landlord story is designed to explain away why the "owner" is in a hurry to collect cash and leave. Renters are advised to verify a property's actual owner through county tax or property records before paying anything, and to be wary of any landlord who insists on cash, pushes to sign quickly, and offers an urgent personal reason for the rush.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2017-06-08',
+    sources: ['WDAM'],
+    sourceUrl: 'https://www.wdam.com/story/35616237/petal-woman-loses-1400-on-craigslist-scam',
+    country: 'US',
+    state: 'MS',
+});
+
+UsGM.push({
+    name: 'Rankin County Gift-Card Re-Encoding and Stolen Bank-Card-Data Trafficking Scheme',
+    slug: 'mississippi-rankin-county-gift-card-reencoding-scheme',
+    description: `Sean Matthew Langston and John Carleton Johnson Jr. were stopped in a traffic stop in Rankin County, Mississippi in April 2024 and found with approximately 322 gift cards, seventeen re-encoded instruments loaded with stolen bank card data, and two magstripe encoding devices used to rewrite stolen account numbers onto blank or gift cards for resale or draining. Surveillance tied the pair to purchases made with known cloned cards at retail stores in the Jackson area. Johnson pleaded guilty and was sentenced on November 3, 2025 to 24 months in federal prison plus a fine; Langston pleaded guilty and was sentenced in 2026 to 16 months in federal prison plus a fine, both for illegally possessing device-making equipment in the Southern District of Mississippi. The case shows a fraud step distinct from skimming itself: the crime here is manufacturing usable fraudulent payment cards from account data that was already stolen elsewhere, rather than capturing the data at the point of sale. Shoppers can't prevent this stage directly, but should watch their own card and bank statements for unfamiliar charges, since re-encoded cards drain stolen numbers that may have been compromised through an entirely separate breach months earlier.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2024-04-01',
+    sources: ['U.S. Attorney’s Office, Southern District of Mississippi'],
+    sourceUrl: 'https://www.justice.gov/usao-sdms/pr/ohio-man-sentenced-16-months-federal-prison-possessing-device-making-equipment',
+    country: 'US',
+    state: 'MS',
+});

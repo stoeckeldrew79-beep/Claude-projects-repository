@@ -12274,3 +12274,15 @@ UsAF.push({
     country: 'US',
     firstRecorded: '2026-10-02',
 });
+
+UsAF.push({
+    name: 'Facebook Marketplace "Your Own Name" Phishing Scam',
+    slug: 'facebook-marketplace-your-own-name-phishing-scam',
+    description: `A newly documented phishing lure sends victims an unsolicited text or iMessage asking whether an item is "still available," linking to a fabricated Facebook Marketplace listing whose seller name matches the recipient's own name, paired with a stranger's profile photo. Malwarebytes researcher Pieter Arntz, who named and documented the pattern on October 6, 2026, said the listing is likely built from breached name-and-phone-number pairs purchased on dark-web markets, and that the mismatch between a seller who shares your name and a face that isn't yours functions as a "conversation lure" — most people feel compelled to reply "that isn't me," which is exactly the point. Replying at all confirms the phone number is active and attentive, making it more valuable for resale to other scammers or for follow-on attacks: malware links, Facebook account-takeover attempts, or further fraud. Researchers warn the mechanism is newly scalable because AI tools paired with breached contact datasets let scammers mass-produce these personalized fake listings cheaply. The advice is simple: don't reply to an unsolicited "is this still available" message from a stranger, don't click any link it contains, and report the impersonating listing or profile directly to Facebook rather than engaging with it.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Malwarebytes Labs (Pieter Arntz)'],
+    sourceUrl: 'https://www.malwarebytes.com/blog/threat-intel/2026/10/facebook-marketplace-phish-uses-your-name-and-number',
+    country: 'US',
+    firstRecorded: '2026-10-06',
+});
