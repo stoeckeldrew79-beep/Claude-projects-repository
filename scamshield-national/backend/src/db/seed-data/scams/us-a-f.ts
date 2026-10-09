@@ -12262,3 +12262,15 @@ UsAF.push({
     state: 'AL',
     firstRecorded: '2026-06-24',
 });
+
+UsAF.push({
+    name: 'BBB "Blueprint of a Scam" Report on VOIP, Bulk-Texting, and AI Fraud Tools',
+    slug: 'bbb-blueprint-of-a-scam-voip-bulk-texting-ai-tools',
+    description: `The Better Business Bureau's International Investigations Initiative used an AI model to analyze nearly 440,000 Scam Tracker reports filed since 2022 for a study called "Blueprint of a Scam," and found that scam calls and texts have overtaken every other contact method, growing faster than scam reports overall. Reported scam texts climbed from 5,985 in 2023 to 8,000 in 2024 and 21,839 in 2025, while reported scam calls rose from 12,562 in 2023 to 19,403 in 2024 and 38,523 in 2025. The report's central finding is that criminals are not building exotic new infrastructure — they are renting the same cheap, legitimate digital tools any small business uses: Voice over Internet Protocol phone numbers that can be swapped out in seconds, bulk-texting platforms built for legitimate mass outreach, off-the-shelf website builders to stand up convincing fake payment or login pages in minutes, AI voice and video generation, and social media ad platforms to find victims at scale. BBB spokesperson Josh Planos said these services have "very low barriers to entry," making them attractive to scammers for the same reason they appeal to any small operation: they are fast, cheap, and require no technical expertise. Planos also warned that a scammer switching to a new, unfamiliar phone number mid-conversation is not a sign of a new threat — it's standard practice within a single ongoing scheme, since VOIP numbers are disposable. The BBB argues the underlying regulatory framework hasn't caught up: Planos said telecom consumer-protection rules "were written for the landline era of phones," and the report calls for extending the Telemarketing Sales Rule and the Telephone Consumer Protection Act explicitly to text messages, which currently carry weaker legal protection than phone calls even though scam texts are now growing faster. In the meantime, the BBB's practical advice is to turn on a phone's built-in spam filter, treat any unsolicited text offering a job or loan never applied for as a red flag, and end the conversation rather than click a link from an unknown sender.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB) International Investigations Initiative', 'WFSB/InvestigateTV'],
+    sourceUrl: 'https://www.wfsb.com/2026/10/02/scammers-are-using-everyday-tech-tools-flood-your-phone/',
+    country: 'US',
+    firstRecorded: '2026-10-02',
+});
