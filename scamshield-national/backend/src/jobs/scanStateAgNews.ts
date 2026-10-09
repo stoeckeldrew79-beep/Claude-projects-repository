@@ -110,7 +110,11 @@ const STATE_NAMES: Record<string, string> = {
 // category — "Warns Delawareans of Bogus Tax E-mails" contains no scam word
 // at all. Tuned against 108 actual AG headlines: keeps the genuine alerts,
 // drops settlements, hearings and unrelated prosecutions.
-const RELEVANT =
+//
+// Exported because scanFederalScamNews.ts filters the same kind of source
+// (an official office's own press releases, not general news) and reuses
+// this rather than maintaining a second copy that could drift from it.
+export const RELEVANT =
   /\b(scam|fraud|fraudulent|phishing|spoof|imposter|impostor|identity theft|robocall|price goug|deceptive|ponzi|swindl|predatory|counterfeit|deceiv|consumer alert|consumer warning|consumer advisory|warns?\b|warning|beware|urges consumers|alerts consumers)/i;
 
 // source_url is the dedupe key and is indexed, so it cannot be truncated.

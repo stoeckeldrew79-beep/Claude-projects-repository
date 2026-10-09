@@ -82,6 +82,22 @@ export default function StateAttorneysGeneralPage() {
         </p>
       )}
 
+      {/* Federal sits above the state grid rather than inside it — it isn't
+          a 51st jurisdiction, it's a different level of government. */}
+      <Link
+        to="/federal"
+        className="mt-6 flex items-center justify-between gap-4 rounded-lg border border-slate-200 bg-slate-50 p-5 hover:border-red-300 hover:bg-red-50/50"
+      >
+        <div>
+          <p className="text-xs font-semibold tracking-wide text-slate-400 uppercase">Federal</p>
+          <h2 className="mt-0.5 font-semibold text-slate-900">US Attorney General &amp; FTC — Federal Watch</h2>
+          <p className="mt-1 text-sm text-slate-600">
+            Live fraud-enforcement alerts from the Department of Justice and the FTC, nationwide.
+          </p>
+        </div>
+        <span className="shrink-0 text-sm font-semibold text-red-700">View →</span>
+      </Link>
+
       <input
         type="text"
         value={search}

@@ -15,6 +15,7 @@
     "scan-daily-news": "ts-node src/jobs/scanDailyScamNews.ts",
     "test": "jest",
     "scan-state-ag-news": "ts-node src/jobs/scanStateAgNews.ts",
+    "scan-federal-news": "ts-node src/jobs/scanFederalScamNews.ts",
     "generate-scams": "ts-node src/jobs/generateScamEntries.ts",
     "backfill-cover-photos": "ts-node src/jobs/backfillCoverPhotos.ts",
     "report-missing-photos": "ts-node src/jobs/backfillCoverPhotos.ts --report",
