@@ -4,6 +4,59 @@ import { useCategories, useInfiniteScams, useScamSearch } from '../hooks/useScam
 import { ScamCard } from '../components/ScamCard';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { timeAgo } from '../utils/timeAgo';
+import { Scam } from '../types';
+
+const ALERT_DOT_COLORS: Record<string, string> = {
+  low: 'bg-slate-400',
+  medium: 'bg-yellow-500',
+  high: 'bg-orange-500',
+  critical: 'bg-red-600',
+};
+
+// This page's whole pitch is "added as soon as a real agency reports one" —
+// a card grid can't actually show that, since nothing on a card says when it
+// arrived. A dated, chronological row makes the freshness visible instead of
+// just claimed in the subhead, the same way Today's Scams does for news.
+function AiScamFeedRow({ scam }: { scam: Scam }) {
+  const addedDate = new Date(scam.created_at);
+  const addedDateLabel = addedDate.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+  const firstRecordedYear = scam.first_recorded ? new Date(scam.first_recorded).getUTCFullYear() : null;
+
+  return (
+    <Link
+      to={`/scams/${scam.slug}`}
+      className="group block rounded-lg border border-slate-200 p-4 hover:border-slate-400 hover:shadow-sm transition-all"
+    >
+      <div className="flex items-start justify-between gap-4">
+        <h2 className="font-semibold text-slate-900 group-hover:underline">{scam.name}</h2>
+        <span className="shrink-0 text-right">
+          <span className="block text-xs font-semibold text-blue-700 whitespace-nowrap">Added {addedDateLabel}</span>
+          <span className="block text-[11px] text-slate-400 whitespace-nowrap">{timeAgo(scam.created_at)}</span>
+        </span>
+      </div>
+      <p className="mt-1.5 text-sm text-slate-600 line-clamp-2">{scam.description}</p>
+      <div className="mt-2 flex flex-wrap items-center gap-2">
+        {scam.alert_level && !scam.is_historical && (
+          <span className="inline-flex items-center gap-1 text-xs font-medium text-slate-600">
+            <span className={`h-1.5 w-1.5 rounded-full ${ALERT_DOT_COLORS[scam.alert_level]}`} />
+            {scam.alert_level} alert
+          </span>
+        )}
+        {scam.is_historical && (
+          <span className="rounded-sm bg-slate-100 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-slate-600">
+            Historical
+          </span>
+        )}
+        {firstRecordedYear && <span className="text-xs text-slate-400">First recorded {firstRecordedYear}</span>}
+        {scam.category_name && (
+          <span className="rounded-sm bg-slate-100 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-slate-600">
+            {scam.category_name}
+          </span>
+        )}
+      </div>
+    </Link>
+  );
+}
 
 // This is the same category the general Database page can already filter
 // to (categorySlug: 'ai-deepfake-scams' in seed-data/categories.ts) — this
@@ -91,9 +144,9 @@ export default function AIScams() {
       </div>
 
       {isLoading && <p className="mt-8 text-slate-500">Loading…</p>}
-      <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-6 space-y-3">
         {scams.map((scam) => (
-          <ScamCard key={scam.id} scam={scam} />
+          <AiScamFeedRow key={scam.id} scam={scam} />
         ))}
       </div>
       {!isLoading && scams.length === 0 && !search && <p className="mt-6 text-slate-500">No AI-enabled scams documented yet.</p>}
