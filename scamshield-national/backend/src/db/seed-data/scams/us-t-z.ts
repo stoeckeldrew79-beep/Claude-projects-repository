@@ -7181,3 +7181,16 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-05-21',
 });
+
+UsTZ.push({
+    name: 'West Virginia AG Deepfake "Trump and RFK Jr." Social Security Ad Scam',
+    slug: 'west-virginia-deepfake-trump-rfk-social-security-ad-scam',
+    description: `The West Virginia Attorney General's Consumer Protection Division logged 314 scam complaints in March 2026, topped by Medicare impersonation, robocalls pitching loans and final-expense insurance, email phishing with fake invoices, sweepstakes and lottery prize claims, and Social Security impersonation, and flagged a rising share of those complaints as AI-enabled — specifically citing voice cloning, deepfake video and images, AI-powered phishing, predictive targeting, and chatbots. One consumer reported a call in which the caller's voice sounded "exactly like her grandson, but it wasn't him," illustrating the voice-cloning threat the office has repeatedly warned about. A second consumer flagged a case the office treated as a new escalation: an online advertisement for Social Security benefits that used the actual likeness of President Trump and HHS Secretary Robert F. Kennedy Jr. to lend the pitch false authority. The AG's office confirmed the ad was a deepfake and had it removed, but did not say whether Trump and Kennedy's likenesses were used with any authorization, nor identify the social platform that hosted it. Attorney General JB McCuskey said, "With the emergence of new technology, it is more important now than ever to be vigilant and careful," and urged West Virginians to keep reporting suspicious ads and calls to the Consumer Protection Division so the office can build out fuller warnings. The case illustrates a distinct escalation from AI tools being used to clone the voice of someone a victim already knows (a grandchild, a relative) to deepfaking a recognizable public official or government figure to make an entirely fabricated benefits offer look government-backed; neither the Social Security Administration nor any federal agency promotes benefit offers through a politician's video likeness in an online ad, and any such ad should be treated as fraudulent regardless of how convincing the official's voice or face appears. Residents who encounter a suspicious Social Security, Medicare, or benefits ad featuring a government official's likeness are advised not to click through or provide personal information, to verify any benefit claim only at ssa.gov or by calling the Social Security Administration directly, and to report the ad to the West Virginia Attorney General's Consumer Protection Hotline at 800-368-8808 or scams@wvago.gov.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ["West Virginia Attorney General's Office (Consumer Protection Division)"],
+    sourceUrl: 'https://ago.wv.gov/article/top-scams-reported-west-virginia-attorney-generals-office-march-2026',
+    country: 'US',
+    state: 'WV',
+    firstRecorded: '2026-04-03',
+});
