@@ -11395,6 +11395,10 @@ NotoriousGM.push({
     slug: 'michael-nowak-gregg-smith-jpmorgan-spoofing',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'market-manipulation', 'spoofing', 'commodities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/383_Madison_Ave_New_York.jpg?width=1200',
+    coverImageCredit: 'Photo: Percival Kestreltail (CC BY-SA 3.0) — JPMorgan Chase HQ, 383 Madison Ave',
+    coverImagePosition: 50,
     body: `Between approximately 2008 and 2016, traders on JPMorgan Chase's global precious metals desk in New York ran a market-manipulation scheme that regulators would later call one of the most extensive spoofing cases ever prosecuted. At the center were Michael Nowak, the desk's managing director, and Gregg Smith, one of its senior gold traders, who worked alongside other colleagues placing orders for gold, silver, platinum, and palladium futures on COMEX and NYMEX — and, separately, U.S. Treasury futures on the Chicago Board of Trade — that they had no intention of ever executing.
 
 The mechanism was simple but effective at scale: traders entered large buy or sell orders designed to create a false impression of supply or demand, then canceled those orders in the instant before they could be filled, while executing genuine trades on the opposite side of the market to profit from the artificial price movement their fake orders had triggered. Over roughly eight years, regulators documented hundreds of thousands of these deceptive sequences, producing more than $10 million in identified losses to other market participants.
@@ -11712,6 +11716,10 @@ NotoriousGM.push({
     slug: 'konstantinos-papadimitrakopoulos-globo-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'accounting-fraud', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Xrimatistirio.jpg?width=1200',
+    coverImageCredit: 'Photo: Dimorsitanos (CC BY-SA 3.0) — Athens Stock Exchange',
+    coverImagePosition: 50,
     body: `Globo plc was a UK AIM-listed, Greek-founded mobile device management and enterprise mobility software company that looked, on paper, like one of London's junior market success stories. Chief executive Konstantinos "Costis" Papadimitrakopoulos and chief financial officer Dimitris Gryparis presided over a company whose shares had climbed to a market capitalization of roughly £330 million by 2013, built on reported revenue growth that impressed enough investors to keep the stock moving steadily upward.
 
 The story fell apart in days, not months. On October 22, 2015, New York short-seller Quintessential Capital Management published a report alleging Globo was fabricating at least 60% of its reported turnover, using fake sales invoices from shell companies it had secretly created and controlled to pose as customers, while a second layer of shell companies posed as suppliers to generate offsetting fictitious expenses — some of which were capitalized on the balance sheet rather than expensed — to explain away the resulting cash shortfall. Trading in Globo shares was suspended the very next day, October 23, 2015. By October 26, both Papadimitrakopoulos and Gryparis had resigned after admitting to Globo's board "the falsification of data and the misrepresentation of the company's financial situation." The company separately disclosed that Papadimitrakopoulos had sold 42,049,655 of his own shares in the run-up to the collapse.
@@ -11924,6 +11932,10 @@ NotoriousGM.push({
     slug: 'john-frimpong-1st-million-fake-pastor-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'affinity-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Accra_town.jpg?width=1200',
+    coverImageCredit: 'Photo: Goldenwabbit (CC BY-SA 4.0) — Accra, Ghana',
+    coverImagePosition: 50,
     body: `John Erasmus Frimpong, of Upper Marlboro, Maryland, ran 1st Million LLC — also doing business as "1st Million Dollars" through a Delaware entity called The Smart Partners LLC — as a self-described wealth-management and financial-literacy company. Frimpong and his co-conspirators, who presented themselves to prospective investors as pastors, used that borrowed religious credibility along with false claims about the principals' financial credentials and a supposedly protective "trust" structure to persuade more than 1,200 victims across the United States to hand over more than $28.3 million.
 
 Behind the pitch was a classic Ponzi structure: new investor money was used to pay "returns" to earlier investors rather than being invested as promised, with 1st Million, Smart Partners, and a third front company called Access2Assets LLC all serving as different faces of the same underlying scheme. The operation collapsed in May 2019, leaving hundreds of investors with the bulk of their money gone. One co-defendant, Dennis Mbongeni Jali, fled the United States after the collapse and was later arrested in South Africa; another, Arley Ray Johnson, was convicted after a 10-day federal jury trial.
@@ -11953,6 +11965,10 @@ NotoriousGM.push({
     slug: 'mahmoud-mehdi-tampa-gambling-winnings-tax-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'tax-fraud', 'wire-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tampa_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Sonny SideUp (CC BY 2.0) — Tampa, Florida skyline',
+    coverImagePosition: 50,
     body: `Mahmoud Mehdi, of Tampa, Florida, ran a tax-refund fraud scheme that exploited one of the more obscure corners of the federal tax code: the credit filers can claim for backup withholding on reported gambling winnings. From January 2019 through December 2022, according to the U.S. Attorney's Office for the Middle District of Florida and IRS Criminal Investigation, Mehdi conspired with others to electronically submit federal tax returns that invented gambling winnings and losses that had never happened, along with matching federal withholding amounts tied to those fabricated winnings.
 
 The mechanism was straightforward once the fake numbers were in place: a return claiming large gambling winnings with an even larger amount of withholding already paid to the IRS on those winnings generates a refund, since the filer is simply asking for money back that the return claims was already withheld. Because the winnings and the withholding were both invented, every dollar of refund the scheme generated was money the IRS had never actually collected in the first place.
