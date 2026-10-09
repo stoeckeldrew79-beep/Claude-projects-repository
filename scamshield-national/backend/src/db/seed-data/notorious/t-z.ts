@@ -3878,3 +3878,43 @@ The unraveling came as more and more clients tried to recover either their art o
 Sammons's case is a reminder that the private art market runs almost entirely on personal trust rather than the kind of regulatory paper trail that governs stocks or bank deposits — there's no equivalent of a brokerage statement confirming a painting sold and the money moved where it was supposed to go. A dealer's reputation and client list, the very credentials that let Sammons broker eight-figure sales in the first place, were also what let him stall anxious sellers for years without raising alarms sooner, and what let him treat other people's masterpieces as his own personal line of credit until there was nothing left to borrow against.`,
     sourceUrl: 'https://www.theartnewspaper.com/2019/08/01/timothy-sammons-very-remorseful-as-he-is-jailed-for-defrauding-clients-of-up-to-dollar30m',
 });
+
+NotoriousTZ.push({
+    title: "Betty Ann Rubin and the $42 Million Oil Ponzi Scheme Sold Out of a Beverly Hills Brokerage",
+    slug: 'betty-ann-rubin-ks-resources-oil-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/West_Texas_Pumpjack.JPG?width=1200',
+    coverImageCredit: 'Photo: Eric Kounce (Public Domain) — an oil pumpjack, representative of the wells behind the scheme',
+    coverImagePosition: 50,
+    body: `Betty Ann Rubin ran Lazar Frederick & Company, a small broker-dealer in Beverly Hills, California, whose sales agents cold-called prospective investors with a pitch built around something concrete and easy to picture: working oil and gas wells, packaged into limited partnerships, paying steady returns. Between May 1993 and December 1995, Lazar Frederick sold interests in 29 of these partnerships, issued by a company called KS Resources with Weststar Exploration, Inc. cast as the operator actually running the wells.
+
+The pitch worked because it sounded like a real investment in a real industry, not a speculative stock tip. In reality, the SEC later alleged, it was a Ponzi scheme: the "returns" paid to early investors came from the cash brought in by later investors, not from oil actually pumped out of the ground. Rubin's firm cold-called more than 1,000 people, overwhelmingly elderly, and took in roughly $42 million before the scheme collapsed. Rubin herself was paid $2.9 million in kickbacks by KS Resources for keeping the sales pipeline full.
+
+The SEC filed an emergency enforcement action in December 1995, and a federal court appointed a receiver over KS Resources and Weststar the following spring. By March 1998, the court had ordered Lazar Frederick & Company to disgorge roughly $7.9 million and Rubin personally to disgorge about $346,000, in a civil judgment that came well before any criminal accountability caught up with her.
+
+That took years longer. Rubin, along with KS Resources principals John K. Judd Jr., Mark D. Seigel, and Alexander Kahan, faced a parallel federal criminal case in the Central District of California. Judd and Rubin were each sentenced to 97 months in prison, and Kahan to 46 months; Seigel died by suicide before he could be sentenced. Rubin, sentenced by Judge Edward Rafeedie on July 30, 2001, was the last of the group to face judgment — nearly six years after the SEC first moved to shut the scheme down.
+
+The KS Resources case illustrates how a credentialed-looking brokerage with an address in a wealthy, reputable neighborhood can function as the trusted middleman that makes an otherwise unverifiable pitch — a working oil well a cold-called retiree will never personally inspect — sound safe enough to write a check to. It also shows the long gap that can separate a civil shutdown, which stops the bleeding, from the criminal convictions that hold the people who built the scheme actually accountable, and why regulators and prosecutors so often end up running those two tracks years apart.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-17087',
+});
+
+NotoriousTZ.push({
+    title: 'Jeffrey Casperson and the $44.7 Million Oil Wells That Were Never Really There',
+    slug: 'jeffrey-casperson-western-energy-oil-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'securities-fraud', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pumpjack,_Glenn_Pool_oil_field_OK.jpg?width=1200',
+    coverImageCredit: 'Photo: roy.luck (CC BY 2.0) — an oil pumpjack, representative of the well interests sold in the scheme',
+    coverImagePosition: 50,
+    body: `Jeffrey Casperson controlled a tightly interlocking set of companies out of Southern California: American Business Securities, Inc., the brokerage that sold investments to the public; Southwest Energy Consultants, Inc., which issued oil and gas limited partnerships and trusts as their general partner; and Western Energy Acquisitions, Inc. (WEA), which was supposed to use investor money to buy interests in actual producing wells on the partnerships' behalf. From the middle of 1989 to the middle of 1994, that structure let him control every link in the chain an investor would normally rely on an outsider to check.
+
+The SEC later proved in court that the structure was rotten at its foundation. In some instances, the partnerships and trusts Casperson sold didn't actually own the wells they claimed to own. Just as tellingly, the "returns" paid to investors were preset figures decided in advance, not dividends tied to how much oil or gas a well actually produced — meaning the payouts would have looked identical whether the wells existed, were running dry, or were producing nothing at all. Over roughly five years, American Business Securities raised approximately $44.7 million from more than 1,000 investors, most of them elderly.
+
+The case went to trial rather than settling, and on November 1, 1995, Judge Edward Rafeedie of the U.S. District Court for the Central District of California found that the scheme was a single operation controlled by Jeffrey Casperson. The court held Jeffrey Casperson, his relatives Jerome L. Casperson and Joseph L. Casperson, and WEA jointly and severally liable for $4,062,614 in disgorgement plus prejudgment interest, and separately ordered WEA to pay a third-tier civil penalty of the same amount. Jeffrey Casperson and WEA had earlier consented to a permanent injunction against future violations of the antifraud provisions of the federal securities laws, without admitting or denying the SEC's allegations.
+
+Unlike many of the era's oil-and-gas investment frauds, the Casperson case produced no public record of a parallel criminal prosecution — the accountability here ran entirely through the civil courts, ending in a multimillion-dollar judgment rather than a prison sentence. The case is a useful illustration of a structural red flag worth remembering: when the person selling an investment, the entity managing the money, and the party claimed to be doing the underlying work are all effectively the same controlling individual, there is no independent party left in the chain whose job it is to notice — or admit — that a well doesn't produce what the sales brochure says it does.`,
+    sourceUrl: 'https://www.sec.gov/files/litigation/litreleases/lr14714.txt',
+});
