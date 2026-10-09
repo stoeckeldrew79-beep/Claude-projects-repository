@@ -11917,3 +11917,15 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2026-05-13',
 });
+
+UsAF.push({
+    name: 'Connecticut "Click to Cancel" Auto-Renewal Law Amendments',
+    slug: 'connecticut-click-to-cancel-auto-renewal-amendments',
+    description: `Connecticut Attorney General William Tong announced on July 16, 2026 that amendments to the state's automatic-renewal statute had taken effect, closing gaps that let subscription and membership businesses make it far easier to sign a consumer up than to get them out. Under the updated law, a covered business must send an annual reminder before any auto-renewal that spells out what's being renewed, how often, what it costs, and exactly how to cancel; it can no longer require a consumer to cancel only in person or by mail; and if it operates online, it must offer either a clear online cancellation option or a dedicated cancellation email address, with a phone-cancellation option required for businesses that have no online platform at all. Cancellation requests themselves must now be processed promptly and without obstruction or delay, and a consumer who leaves a voicemail with enough information to identify their account and process a cancellation must have the auto-renewal canceled within one business day — closing off the common tactic of burying a cancellation request in a hold queue or a required phone call during limited business hours. Public utilities, banks, and credit unions are exempt from the new requirements. "Businesses don't get to profit by trapping consumers in subscriptions they no longer want," Tong said in announcing the changes. Connecticut residents who find a subscription impossible to cancel online, by phone, or by any method other than an in-person visit or physical letter should document the attempt and file a complaint with the Attorney General's Office, since the business itself — not just a card issuer's chargeback process — may now be in direct violation of state law.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'low',
+    sources: ['Connecticut Office of the Attorney General (AG William Tong)'],
+    sourceUrl: 'https://portal.ct.gov/ag/press-releases/2026-press-releases/attorney-general-tong-highlights-new-click-to-cancel-consumer-protections',
+    country: 'US',
+    state: 'CT',
+});
