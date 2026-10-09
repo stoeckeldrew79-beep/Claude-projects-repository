@@ -13118,3 +13118,16 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2021-10-01',
 });
+
+UsGM.push({
+    name: 'Anderson Tate & Associates Fake Debt-Collection Law Firm Scam (Missouri)',
+    slug: 'missouri-anderson-tate-associates-fake-debt-collection-scam',
+    description: `The Better Business Bureau of the Midwest Plains investigated a surge of nearly 700 complaints — 145 filed in just the preceding 30 days — tied to "Anderson Tate & Associates LLC," an outfit presenting itself as a debt-collection law firm based in Harrisonville, Missouri. The company had registered with the Missouri Secretary of State on July 2, 2025, but its listed business address turned out to belong to a registered-agent service rather than any actual law office, and Registered Agents Inc. — a legitimate, unrelated company and the largest registered-agent service in the country — said Anderson Tate had used its address on state filings without authorization and asked Missouri's Secretary of State to strike it from the records. The scheme's hook arrived by email during tax season, when money is already top of mind: a threatening message citing a fabricated case number and claiming the recipient owed a delinquent payday loan to a real, named lender — Cash Advance USA, Speedy Cash, Check Into Cash, and dozens of others — and demanding full payment within six hours or face wage garnishment, credit-bureau reporting, and even jail time, threats that are illegal for a real debt collector to make under the federal Fair Debt Collection Practices Act. Phone numbers listed in the messages led to full voicemail boxes or disconnected lines, and the company's original website, registered in Iceland, went dark in early January 2026, leaving a replacement site with broken links and inconsistent company names. One victim paid $4,000 believing the threat was real, only to receive a second collection demand for the same supposed account; when she asked for verification before paying again, she was told verification would only come after another payment, and she was threatened with legal action when she instead sought a refund and tried to reach the real creditor. BBB spokesperson Josh Planos said the compressed deadline was the real innovation: "Scammers demanding payment within six hours isn't new, but threatening legal action within six hours very much is," manufacturing an artificial urgency designed to short-circuit the careful checking a target would otherwise do. Federal law entitles anyone contacted by a real debt collector to written verification of the debt within five days of first contact, and a collector cannot demand payment before providing it; anyone contacted this way should not pay immediately, should independently verify any claimed debt with the original creditor using contact information they look up themselves, should check a collector's name against state bar or licensing records, and should report the attempt to the BBB Scam Tracker, the FTC, and the Missouri Attorney General's office.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau of the Midwest Plains', 'KCTV5'],
+    sourceUrl: 'https://www.kctv5.com/2026/01/28/tax-season-alert-how-scammers-are-using-fake-debt-threats-empty-your-wallet/',
+    country: 'US',
+    state: 'MO',
+    firstRecorded: '2026-01-28',
+});
