@@ -12490,4 +12490,18 @@ UsNS.push({
     firstRecorded: '2025-09-24',
 });
 
+UsNS.push({
+    name: 'Thirty Madison Telehealth Subscription Deceptive Auto-Renewal Settlement',
+    slug: 'thirty-madison-telehealth-subscription-settlement',
+    description: `New York Attorney General Letitia James announced on August 24, 2026 that Thirty Madison, Inc. — the online medication company behind the Cove, Keeps, and Nurx telehealth brands — agreed to pay $400,000 and overhaul its billing practices after an investigation found it misled customers into costly recurring subscriptions. The Attorney General's office found that Thirty Madison failed to clearly disclose subscription terms and non-refundable fees up front, and did not offer the simple cancellation process New York law requires, instead forcing customers through a multi-step process that often required several back-and-forth emails before a cancellation request was actually honored. As part of the settlement, Thirty Madison must pay $400,000 to the state and provide refunds to eligible subscribers who complained to the company itself, the FTC, the Better Business Bureau, or the Attorney General's office — covering customers charged after requesting cancellation, charged for products that were never shipped, charged for products they never agreed to receive, or hit with unexpected fees. Going forward, the company must clearly disclose a subscription's minimum length, whether it renews automatically, and how to cancel it, process cancellation requests quickly, and automatically issue certain refunds rather than requiring customers to fight for them. Anyone who signed up for a telehealth prescription or medication service and later struggled for weeks to cancel it, or was charged after believing they had already canceled, should document the dates and contents of every cancellation attempt and file a complaint with the New York Attorney General's office if the company is based in or does business in New York, since those records are exactly what regulators used to build this case.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ['New York Office of the Attorney General (AG Letitia James)'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-secures-400000-online-medication-provider-deceiving',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2026-08-24',
+});
+
 

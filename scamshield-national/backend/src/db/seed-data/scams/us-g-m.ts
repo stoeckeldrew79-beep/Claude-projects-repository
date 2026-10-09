@@ -13155,3 +13155,17 @@ UsGM.push({
     state: 'ME',
     firstRecorded: '2026-06-11',
 });
+
+UsGM.push({
+    name: 'Comstar Ambulance Billing Vendor Data Breach Settlement',
+    slug: 'comstar-ambulance-billing-data-breach-settlement',
+    description: `Massachusetts Attorney General Andrea Campbell and Connecticut Attorney General William Tong announced on January 28, 2026 that Comstar, LLC, a Massachusetts-based company that handles ambulance billing for emergency medical services providers, agreed to pay $515,000 to resolve allegations tied to a March 2022 ransomware attack that exposed sensitive patient data. An outside actor gained access to, encrypted, and held for ransom files and servers maintained by Comstar, compromising Social Security numbers, driver's license numbers, financial account numbers, and medical assessment information for roughly 326,426 Massachusetts residents and 22,829 Connecticut residents. The two states' complaints allege Comstar violated Massachusetts' Data Security Regulations and the federal Health Insurance Portability and Accountability Act (HIPAA) by failing to maintain an adequate Written Information Security Program to prevent the initial attack, with Connecticut's complaint separately alleging Comstar failed to conduct regular risk assessments or implement reasonable data-retention policies. Massachusetts is set to receive $415,000 of the settlement and Connecticut $100,000, and beyond the payment, Comstar must now implement phishing-protection software, multifactor authentication, an intrusion detection and prevention system, endpoint security software across its network, and conduct annual security assessments going forward. The nearly four-year gap between the breach and the settlement reflects how long affected patients' exposed Social Security and driver's license numbers may already have been circulating; anyone who used an ambulance service billed through a third-party vendor around 2022 and has not already done so should check their credit reports and consider a credit freeze, since a billing vendor's breach can expose the same sensitive data as a breach at the hospital or ambulance service itself, even though the vendor's name is far less familiar to the patient.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'medium',
+    sources: ['Massachusetts Office of the Attorney General (AG Andrea Campbell)', 'Connecticut Office of the Attorney General (AG William Tong)'],
+    sourceUrl: 'https://www.mass.gov/news/ag-campbell-secures-515000-settlement-with-ambulance-billing-vendor-for-failing-to-safeguard-sensitive-patient-medical-information',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+    firstRecorded: '2022-03-01',
+});

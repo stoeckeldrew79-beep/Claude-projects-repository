@@ -7118,9 +7118,9 @@ NotoriousNS.push({
     slug: 'byju-raveendran-byjus-edtech-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'accounting-fraud', 'startup-fraud', 'south-asia'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bangalore_skyline_2011_(5392899266).jpg?width=1200',
-    coverImageCredit: 'Bangalore (Bengaluru), where Byju’s was headquartered. Photo: Saad Faruque from Bangalore, India (CC BY 2.0)',
-    coverImagePosition: 45,
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Byju_Raveendran_CEO_Byju's_(cropped).jpg?width=1200",
+    coverImageCredit: "Byju Raveendran speaking at a Byju's company event. Photo: cherian_in (CC BY 2.0)",
+    coverImagePosition: 30,
     body: `Byju Raveendran founded Think & Learn Pvt Ltd in 2011 and launched its flagship app, Byju's, in 2015, building it into India's largest education-technology company and, at its peak, the most valuable startup in Asia. Backed by investors including BlackRock, Prosus, General Atlantic, Peak XV Partners (formerly Sequoia Capital India), the Chan Zuckerberg Initiative, and Tiger Global, Byju's was valued at roughly $22 billion in March 2022. The company fueled a rapid acquisition spree — swallowing tutoring chain Aakash Institute, WhiteHat Jr, Epic, Great Learning, and Toppr — partly financed by a $1.2 billion Term Loan B raised from a syndicate of US lenders in November 2021.
 
 Behind the growth story, Byju's finances were unraveling. The company delayed filing its statutory financial statements for the year ending March 2021 by roughly a year and a half, and when it finally restated them, aggressive upfront recognition of multi-year subscription revenue was walked back, erasing most of the previously reported income for that year. In 2022, Byju's Alpha — a US subsidiary created specifically to hold the Term Loan B collateral — transferred $533 million of the loan proceeds to Camshaft Capital Fund, a little-known Miami hedge fund run by William Morton, ostensibly as an investment. Lenders were later unable to get any accounting of where that money went, and a separate limited-partnership stake tied to the same transfer was eventually valued at roughly $540.6 million, also unrecovered.
@@ -8109,6 +8109,9 @@ NotoriousNS.push({
     slug: 'samuel-hartman-peruna-patent-medicine-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'consumer-fraud', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hartman,_Samuel_Brubacker_(3-1-1830-1-31-1918)_-_DPLA_-_bc72628161a16c6d1c1bbc87ed5106e7.jpg?width=1200',
+    coverImageCredit: 'Samuel B. Hartman, 1915. Photo: Columbus Metropolitan Library via DPLA (public domain)',
+    coverImagePosition: 30,
     body: `Samuel Brubaker Hartman, a Pennsylvania-trained physician who later settled in Columbus, Ohio, began selling a tonic called Peruna on July 29, 1885, marketed as a cure for "catarrh" — a vague, catch-all 19th-century diagnosis covering everything from the common cold to chronic digestive and respiratory complaints. Hartman built Peruna into one of the most commercially successful patent medicines in American history, at one point earning around $100,000 a day from sales, fueled by an aggressive national newspaper and almanac advertising campaign that promised Peruna could cure an enormous range of ailments with little real medical basis for most of the claims.
 
 The product's actual mechanism of action was simpler than its marketing suggested: it was roughly 28 percent ethanol by volume, making it, in practical terms, a mild intoxicant sold as medicine. This was not incidental to its appeal — in an era when many customers lived in "dry" counties or states, Peruna let them buy what amounted to liquor at the drugstore under cover of treating catarrh, and it developed a following among people seeking legal intoxication as much as any actual cure.
