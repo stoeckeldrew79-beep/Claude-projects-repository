@@ -13104,3 +13104,17 @@ UsGM.push({
     state: 'LA',
     firstRecorded: '2026-07-22',
 });
+
+UsGM.push({
+    name: 'Plymouth Meeting FEMA Disaster-Assistance Fraud Scheme (Jasmine Williams)',
+    slug: 'pennsylvania-plymouth-meeting-fema-disaster-fraud-jasmine-williams',
+    description: `Jasmine Williams, of Plymouth Meeting, Pennsylvania, advertised on social media that she could help people file applications for FEMA disaster assistance after Hurricane Ida, then charged each person half of whatever money they received back as her own fee. Federal prosecutors said she built fraudulent applications using fabricated leases, forged landlord letters, falsified utility bills, invented earnings statements, and inflated repair estimates, in some cases for properties applicants did not own or that had suffered no actual damage, and that she joined three-way calls with FEMA representatives to personally vouch for the false claims when screeners asked questions. An indictment unsealed in May 2024 initially tied the scheme to more than $1.5 million in fraudulent Hurricane Ida relief payments across roughly 14 named applicants, with individual FEMA checks reaching as much as $21,000 each; investigators said the pattern extended to dozens of additional people nationwide who received disaster aid they were not entitled to. Williams ultimately pleaded guilty to one count of disaster fraud, 24 counts of wire fraud, and seven counts of mail fraud, and was sentenced in federal court to five years in prison, with the final accounting putting FEMA's total fraudulent payout at $1,744,982.64. The Department of Homeland Security's Office of Inspector General investigated the case with FEMA's assistance. The scheme illustrates a recurring post-disaster pattern: a "helper" who offers to handle a FEMA application for a cut of the payout, rather than directing a survivor to apply for free directly through DisasterAssistance.gov or a FEMA-staffed Disaster Recovery Center, is taking a fee for a service FEMA itself never charges for, and asking a would-be helper to fabricate or exaggerate damage, income, or a lease in order to qualify is itself a federal crime that can expose the applicant, not just the helper, to prosecution.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['The Philadelphia Inquirer', "U.S. Attorney's Office for the Eastern District of Pennsylvania"],
+    sourceUrl: 'https://www.inquirer.com/news/pennsylvania/fema-relief-jasmine-williams-arrest-hurricane-ida-philadelphia-20240501.html',
+    country: 'US',
+    state: 'PA',
+    isHistorical: true,
+    firstRecorded: '2021-10-01',
+});
