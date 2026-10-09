@@ -11976,3 +11976,16 @@ UsAF.push({
     country: 'US',
     state: 'CT',
 });
+
+UsAF.push({
+    name: '"America 250" Counterfeit Merchandise and Fake Coin Scam',
+    slug: 'alabama-america-250-counterfeit-merchandise-scam',
+    description: `Ahead of Independence Day and the nation's semiquincentennial, the Better Business Bureau of Central & South Alabama warned on June 24, 2026 that scammers were using "America 250" branding and patriotic red-white-and-blue marketing to sell counterfeit merchandise, fake commemorative coins, and bogus event tickets, mostly through social media ads and unofficial online stores rather than authorized retailers. BBB Vice President Evey Owen pointed to real consumer complaints logged through the BBB's Scam Tracker, including an Enterprise, Alabama shopper who ordered two 250th-anniversary whiskey bottles advertised as detailed crystal collectibles but received smaller plastic bottles decorated with decals instead, and another shopper whose "250th" T-shirt, ordered from a Facebook ad showing a sharp product photo, arrived in poor quality with no working way to return it. On commemorative coins specifically, the BBB emphasized that the only coins authorized by the U.S. Mint come directly from the Mint itself, and that anyone can manufacture a lightweight, poorly engraved token and market it as an "official" 250th-anniversary coin on social media, email, or text message. A major red flag Owen and other BBB officials cited nationally: a seller who refuses a major credit card and insists on payment through Venmo, Cash App, or a debit card is one of the clearest signs of a scam, since those methods offer far less dispute protection than a credit card. Consumers are advised to buy America 250 merchandise only through the U.S. Mint's own website or the official America250 store, to check an unfamiliar seller's reviews and complaint history on BBB.org before ordering, and to be skeptical of any "official" branded item advertised at a steep discount through a social media ad rather than a retailer's own verified storefront.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of Central & South Alabama'],
+    sourceUrl: 'https://abc3340.com/news/local/alabama-bbb-warns-consumers-about-america-250-scams-ahead-of-independence-day-celebrations-of-central-south-alabama-june-2026',
+    country: 'US',
+    state: 'AL',
+    firstRecorded: '2026-06-24',
+});
