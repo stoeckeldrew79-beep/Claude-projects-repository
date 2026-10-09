@@ -12518,4 +12518,16 @@ UsNS.push({
     firstRecorded: '2026-09-26',
 });
 
+UsNS.push({
+    name: 'RentGrow Tenant-Screening Inaccurate-Report Settlement',
+    slug: 'rentgrow-tenant-screening-inaccurate-report-settlement',
+    description: `The Federal Trade Commission and the Department of Justice announced on July 9, 2026 that RentGrow Inc., a Massachusetts-based tenant-screening company that sells background reports to landlords and property managers nationwide, agreed to pay a $2.25 million civil penalty to settle allegations that it violated the Fair Credit Reporting Act and the FTC Act. The complaint, filed in the U.S. District Court for the District of Columbia, alleged RentGrow let duplicate criminal and eviction records appear in its tenant reports — the same case showing up multiple times — making rental applicants look like they had more convictions or evictions than they actually did, and that the company knew about the problem but did not fix it until the FTC began investigating. Regulators also said RentGrow failed to fully disclose its data sources when consumers asked, including that it used historical addresses and middle names supplied by LexisNexis Accurint to match records to an applicant, and that it wrongly labeled some consumer disputes "invalid" and took no further action — including disputes specifically about the duplicate-record problem. In one practice regulators called especially misleading, the company told some consumers that it had notified the property manager of a successful dispute's outcome while telling the property manager itself that nothing had changed on the report. "Inaccurate background reports can have a real impact on people by affecting their ability to obtain housing or a job," said Christopher Mufarrige, Director of the FTC's Bureau of Consumer Protection, adding that "companies that provide background reports have a responsibility under the law" to keep them accurate. The proposed order requires RentGrow to adopt reasonable procedures to prevent duplicate entries for the same criminal or eviction case, bars further FCRA violations, and prohibits misrepresenting to landlords that a report has been updated after a successful dispute; it does not create a separate fund for affected renters, who retain their own right to dispute inaccurate information and pursue claims under the FCRA's private right of action. Anyone denied a rental application over a criminal or eviction record should request a free copy of the tenant-screening report used in the decision, check it for duplicate entries of the same case, and dispute any inaccuracy directly with the screening company in writing.`,
+    categorySlug: 'rental-housing',
+    sources: ['Federal Trade Commission (FTC)', 'U.S. Department of Justice'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/07/rentgrow-pay-225-million-settle-ftc-allegations-company-violated-fair-credit-reporting-act-ftc-act',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2026-07-09',
+});
+
 
