@@ -11982,3 +11982,45 @@ Prosecutors said the scheme's filings sought an intended tax loss of roughly $1.
 Mehdi's case is a reminder that a fabricated refund doesn't require inventing an entirely new tax credit or exploiting a loophole no one has heard of — the gambling-winnings-and-withholding combination is a long-recognized fraud pattern precisely because the two figures are self-reported together on the same form, with no independent casino or lottery record required at filing time to confirm either one actually happened.`,
     sourceUrl: 'https://www.wftv.com/news/local/tampa-man-sentenced-nearly-4-years-federal-prison-14m-tax-fraud-scheme/RVM2HKAYHZFBTO5BG6PLV2CAD4/',
 });
+
+NotoriousGM.push({
+    title: 'George Theodule and the Creative Capital Consortium Ponzi Scheme That Targeted Haitian-American Investors',
+    slug: 'george-theodule-creative-capital-consortium-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'affinity-fraud', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Welcome_mural_in_Miami,_Florida%27s_Little_Haiti.jpg?width=1200",
+    coverImageCredit: "Photo: Carol M. Highsmith/Library of Congress (Public Domain) — welcome mural, Miami's Little Haiti",
+    coverImagePosition: 50,
+    body: `George Theodule presented himself to the Haitian-American community in South Florida as a financial expert with more than 17 years of stock and options trading experience, running two companies — Creative Capital Consortium, LLC and A Creative Capital Concept$, LLC — that he said could double an investor's money in just 90 days through sophisticated trading. He recruited through informal "investment clubs," church networks, and word of mouth, telling investors that beyond their own returns, the profits would help fund humanitarian projects back in Haiti, a pitch that leaned heavily on shared language, faith, and community ties to defuse the skepticism a stranger's cold call would normally face.
+
+From roughly July 2007 through December 2008, Theodule's investment clubs drew in thousands of investors — estimates from court-appointed receivers and prosecutors range as high as 2,500 — and raised more than $30 million nationwide, with the SEC's own complaint citing at least $23.4 million from investors concentrated in the Haitian-American community. Little of it went where Theodule claimed: a receiver later found that his actual trading had produced at least $18 million in losses rather than profits, and most of the remaining money was never invested at all, instead cycling back out to pay earlier investors their promised returns or going directly to Theodule's own personal spending.
+
+The SEC moved first, filing an emergency civil enforcement action on December 29, 2008, in the Southern District of Florida and obtaining a temporary restraining order followed by an injunction against Theodule and his companies in early 2009 — halting the scheme roughly 18 months after it began. The agency's case ended in a consent judgment entered October 22, 2009, permanently enjoining Theodule from future securities-fraud violations, with the specific disgorgement, interest, and penalty amounts to be set separately by the court.
+
+The criminal case took years longer to catch up. Federal prosecutors in the Southern District of Florida charged Theodule in 2013 on a 40-count indictment covering securities fraud, wire fraud, and money laundering; he was arrested on August 23, 2013, and pleaded guilty that October to a single count of wire fraud, with the remaining charges dropped under the plea agreement. In February 2014, he was sentenced to 150 months — 12.5 years — in federal prison, to be followed by three years of supervised release. A court-appointed receiver later recovered several million dollars in Theodule-linked assets for distribution to victims who could document their losses, though that recovery covered only a small fraction of what investors had put in.
+
+Theodule's case is a textbook example of affinity fraud: a pitch backed by nothing more verifiable than a confident claim of trading expertise found its easiest audience within a tight-knit immigrant community where a shared background did the work that independent due diligence normally would. Framing the scheme's supposed profits as funding for humanitarian causes back home added a further layer of goodwill that made investors even less inclined to ask the kind of pointed questions — account statements, audited trading records, regulatory registration — that might have exposed the fraud well before the SEC's intervention finally did.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-21297',
+});
+
+NotoriousGM.push({
+    title: 'Jack Utsick, the Fugitive Concert Promoter Behind a $300 Million Ponzi Scheme',
+    slug: 'jack-utsick-worldwide-entertainment-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_over_Miami_beach.jpg?width=1200',
+    coverImageCredit: 'Photo: Ethically Yours (CC BY-SA 3.0) — Miami Beach, where Utsick was based',
+    coverImagePosition: 50,
+    body: `Jack Utsick spent years as one of the concert industry's biggest promoters, running Worldwide Entertainment, Inc. and The Entertainment Group Fund, Inc. out of Miami Beach and at one point ranking among the world's highest-grossing promoters, financing tours that included some of the biggest concerts to hit Australia in the 2000s. Alongside the legitimate concert business, Utsick's companies solicited outside investors to help fund specific tours and shows, promising them fixed returns of 15 to 25 percent regardless of how any individual show actually performed at the box office.
+
+That guarantee was the problem: most of the entertainment projects investor money went toward lost money rather than making it, and prosecutors said Utsick kept the operation running by paying earlier investors their promised fixed returns using cash raised from newer investors — a straightforward Ponzi structure dressed up as a concert-financing business. Estimates of the scheme's scale vary by source and by which charges are being measured, with the SEC's civil complaint alleging roughly $300 million taken from more than 3,300 investors and the later criminal case built around a narrower $207 million figure, but every account agrees the number of people who sent Utsick money ran well into the thousands.
+
+The SEC sued Utsick civilly in 2006, and rather than sit for a deposition amid a parallel FBI investigation, Utsick left the United States for Brazil in 2007 and stayed there for more than seven years, at one point attempting to obtain Brazilian citizenship specifically to block any extradition request. Federal prosecutors charged him in a superseding indictment on November 30, 2010, with nine counts of mail fraud, but the case against him remained frozen until Brazil's Supreme Court ultimately approved his extradition; he was returned to Miami in December 2014, and a U.S. magistrate judge denied him bail on January 28, 2015, citing the ample evidence that he might try to flee again.
+
+Facing trial, Utsick pleaded guilty in June 2016 to a single count of mail fraud tied to a $540,000 check mailed by one of his entities in December 2005, with the remaining counts dismissed under the plea agreement. On October 4, 2016, U.S. District Judge Cecilia M. Altonaga sentenced him to 220 months — just over 18 years — in federal prison and ordered him to pay $169,177,338 in restitution. Utsick appealed, arguing the sentence and restitution violated the U.S.-Brazil extradition treaty and that his plea had not been voluntary; the Eleventh Circuit rejected both arguments and affirmed the conviction and sentence in full.
+
+Utsick's case shows how an investment pitch built around an opaque, hard-to-verify industry — nobody outside a concert promoter's own accounting can easily check whether a specific tour actually turned a profit — can sustain a fixed-return promise for years before the math catches up with it, and how far a determined fugitive can draw out the reckoning once it does. Seven years in Brazil, including a bid for citizenship aimed squarely at the extradition process, delayed Utsick's prosecution by the better part of a decade, but it did not change the arithmetic waiting for him once he was finally brought back.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/former-miami-beach-resident-pled-guilty-207-million-dollar-mail-fraud-scheme-0',
+});
