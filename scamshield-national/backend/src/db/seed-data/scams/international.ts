@@ -24530,3 +24530,16 @@ International.push({
   isHistorical: true,
   firstRecorded: '2026-09-17',
 });
+
+International.push({
+  name: 'Fake BCRA Official Deepfake Video Investment Scam',
+  slug: 'argentina-bcra-deepfake-official-investment-scam',
+  description: `Argentina's central bank, the Banco Central de la República Argentina (BCRA), issued a public warning on August 5, 2026 about scammers using its name and image — including manipulated videos that appear to show real BCRA officials speaking — to promote fake investment opportunities and solicit payments that never go anywhere but the scammer's pocket. The scheme combines two tracks: edited or AI-manipulated video clips circulated to make it look like a BCRA official is personally endorsing an investment platform, and direct outreach by email, WhatsApp, or SMS in which someone claiming to represent the bank tells the victim there is a pending procedure, an economic benefit awaiting them, or a problem with their account, pressuring them to reveal personal or banking data or install a malicious app that hands over control of their device. A related variant falsely tells the victim a transfer from abroad is being held up and that an upfront payment, typically demanded in US dollars, is required to release it. The BCRA stated flatly that it does not offer financial services to the public, that its officials never promote investment platforms or recommend them through any channel, and that it never asks for payments, passwords, verification codes, or banking information by email, phone, social media, or messaging app. The bank's recommendations are to verify any such message by checking the sender's actual email address, phone number, or social media handle rather than taking the display name at face value, to use only the BCRA's official website and verified accounts, to never share a password, token, or card number with anyone making contact this way, and to be especially skeptical of any message built around urgency or a demand for immediate action. Anyone who has already shared financial information or sent money should contact their bank immediately to try to block further transactions and can report the incident to the Unidad Fiscal Especializada en Ciberdelincuencia (UFECI) or flag an impersonating message directly to the BCRA.`,
+  categorySlug: 'ai-deepfake-scams',
+  alertLevel: 'high',
+  sources: ['Banco Central de la República Argentina (BCRA)', 'La Capital'],
+  sourceUrl: 'https://www.lacapital.com.ar/informacion-general/el-banco-central-advirtio-nuevas-estafas-virtuales-recomendaciones-y-como-hacer-reclamos-n10273479.html',
+  country: 'AR',
+  isHistorical: true,
+  firstRecorded: '2026-08-05',
+});

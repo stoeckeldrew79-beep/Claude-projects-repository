@@ -12504,4 +12504,18 @@ UsNS.push({
     firstRecorded: '2026-08-24',
 });
 
+UsNS.push({
+    name: 'New York Coastal Storm Price-Gouging Alert',
+    slug: 'new-york-coastal-storm-price-gouging-alert',
+    description: `New York Attorney General Letitia James issued a consumer alert on September 26, 2026 as Governor Kathy Hochul declared a state of emergency across New York City and Nassau, Suffolk, and Westchester counties ahead of a weekend storm expected to bring heavy wind, rain, and potential flooding to the Hudson Valley, New York City, and Long Island. The alert reminded residents that New York's price-gouging law bars vendors, retailers, and suppliers from charging an "unconscionably excessive" price for essential goods and services once an emergency or market disruption is declared, covering items including food, water, gasoline, generators, batteries, flashlights, hotel lodging, and transportation. James's office said it would be actively monitoring prices in the affected counties and urged anyone who spots a sudden, steep price increase to record the specific price, the date, and the location, keep any receipt or a photo of the posted price, and file a complaint with the Attorney General's office online or by calling 800-771-7755, since a documented before-and-after price comparison is what turns a gut feeling about gouging into an enforceable case. Violations of the price-gouging law can carry penalties of up to $25,000 per violation. Storm-related price gouging tends to concentrate on exactly the items a household most urgently needs in the hours before and after severe weather hits — bottled water, batteries, and generator fuel chief among them — so comparing a seller's price against what it charged before the state of emergency was declared, rather than assuming any price increase during a storm is automatically illegal, is the first step toward recognizing true gouging versus an ordinary cost increase.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'low',
+    sources: ['New York Office of the Attorney General (AG Letitia James)'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-warns-new-yorkers-about-price-gouging-during-severe',
+    country: 'US',
+    state: 'NY',
+    isHistorical: true,
+    firstRecorded: '2026-09-26',
+});
+
 

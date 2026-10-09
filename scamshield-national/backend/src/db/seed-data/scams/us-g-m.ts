@@ -13169,3 +13169,16 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2022-03-01',
 });
+
+UsGM.push({
+    name: 'Instacart FTC "Free Delivery" and Forced-Subscription Settlement',
+    slug: 'instacart-ftc-free-delivery-subscription-settlement',
+    description: `The Federal Trade Commission announced on December 18, 2025 that Maplebear Inc., doing business as Instacart, agreed to pay $60 million in consumer refunds to settle allegations that the grocery-delivery platform used three separate deceptive tactics on customers. First, the FTC said Instacart advertised "free delivery" on a customer's first order while still charging a mandatory service fee of up to 15% of the order total that was not clearly disclosed, so the advertised free delivery was never actually free. Second, the agency alleged Instacart promoted a "100% satisfaction guarantee" for problem orders but typically steered customers who complained toward a small credit for a future order rather than a real refund, and hid the actual refund option from the self-service menu customers used to report an issue. Third, and the basis for the bulk of the settlement, the FTC said Instacart's free-trial sign-up for its Instacart+ membership did not clearly disclose that customers would be charged automatically once the trial ended or that refunds for those unwanted charges would be restricted, resulting in hundreds of thousands of consumers being billed for a membership they never knowingly agreed to and could not easily get out of. "Instacart misled consumers by advertising free delivery services, and failed to secure their express, informed consent before enrolling and charging them for a recurring subscription service," said Christopher Mufarrige, Director of the FTC's Bureau of Consumer Protection, in announcing the proposed order. Filed as a stipulated order in the U.S. District Court for the Northern District of California and made final on January 13, 2026, the settlement requires no admission of wrongdoing but bars Instacart from misrepresenting delivery costs or its satisfaction guarantee going forward and requires explicit, informed consent before charging anyone for an automatically renewing service. Anyone who signed up for an Instacart+ free trial and was later charged without clearly agreeing to the ongoing membership, or who was denied a real refund after a bad delivery despite the advertised guarantee, should watch for FTC refund-distribution details and can file a complaint at reportfraud.ftc.gov in the meantime.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/node/327255',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2025-12-18',
+});
