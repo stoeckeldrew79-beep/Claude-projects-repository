@@ -12388,3 +12388,15 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2026-07-09',
 });
+
+UsNS.push({
+    name: 'Pennsylvania World Cup Ticket, Package, and QR-Code Scam Alert',
+    slug: 'pennsylvania-world-cup-ticket-package-qr-code-scam',
+    description: `Ahead of the first 2026 FIFA World Cup match played at Lincoln Financial Field in Philadelphia on June 14, 2026, the Pennsylvania State Police issued a consumer alert (Crime Alert Bulletin 01-2026) warning fans about a cluster of scams converging on the tournament. The top complaint involved counterfeit or fake digital tickets sold through social media groups, copycat websites, or other unofficial resale platforms, including tickets transferred by screenshot or through unapproved methods that may not actually scan at the gate even when the seller believed the sale was legitimate; police also warned that posting a photo of a real ticket on social media can let someone else screenshot and use it first. The bulletin separately flagged "too good to be true" party and fan-experience packages — bundles of stadium-area lodging, meet-and-greets, or merchandise advertised at steep discounts — that are used to collect deposits and personal information from fans who never receive what they paid for, as well as fraudulent QR codes and links circulated online promising parking deals or meet-and-greet access that instead harvest payment information. Cybersecurity expert Alex Hamerstone of TrustedSec noted the same scam patterns extend to transportation, fan websites, and gambling offers clustered around the tournament. Pennsylvania State Police advise fans to buy tickets only through FIFA's own verified platforms, including its official resale marketplace, and to use only reputable, verifiable vendors for any parking, lodging, or merchandise package tied to a World Cup match.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Pennsylvania State Police'],
+    sourceUrl: 'https://6abc.com/amp/post/experts-warn-scams-ahead-2026-world-cup/19188508/',
+    country: 'US',
+    state: 'PA',
+});
