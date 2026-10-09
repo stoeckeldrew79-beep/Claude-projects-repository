@@ -3939,3 +3939,22 @@ The SEC's own civil case took far longer to wrap up than the criminal one. Filed
 Teicher's case illustrates two things that still hold true in insider-trading enforcement: confidential deal information rarely travels in a straight line from its source to the trader who ultimately profits from it, passing through intermediaries whose own motives can be murkier than the trader's; and the legal and financial reckoning for that trading can stretch across parallel criminal and civil tracks for more than ten years, with the SEC's disgorgement action trailing the jury's guilty verdict by the better part of a decade.`,
     sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr15646.txt',
 });
+
+NotoriousTZ.push({
+    title: "Terry Freeman and the £14 Million Forex Ponzi Scheme Run Under a Borrowed Name",
+    slug: 'terry-freeman-gfx-capital-forex-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/City_of_London_skyline_from_London_City_Hall_-_Oct_2008.jpg?width=1200',
+    coverImageCredit: 'Photo: Diliff (CC BY-SA 3.0) — City of London financial district',
+    coverImagePosition: 50,
+    body: `Terry Freeman built GFX Capital Ltd into a London foreign-exchange investment firm that promised what no honest forex fund can actually promise: no risk and consistently high returns trading currency markets. It wasn't his first time running an operation like it. In 1997 he had been jailed under the name Terrence Sparks on eight offences tied to bankruptcy and acting as a disqualified company director, and after his release in 2000 he resurfaced under the name Terry Freeman and built a new financial operation almost from scratch, this time with GFX Capital as its vehicle.
+
+GFX took in money from more than 300 investors — some accounts put the number as high as 700 — who were told their cash would be traded in the forex markets for steady, outsized gains; one mortgage broker alone steered roughly 100 clients and £3.5 million into the fund. Rather than generating real trading profits, Freeman used much of the money to fund a lavish lifestyle, including holiday homes in Cyprus and France, a Land Rover, an executive box at Tottenham Hotspur's stadium, and a diamond ring for his wife reported at anywhere from £120,000 to $187,000 depending on the account. GFX kept reporting monthly returns as high as 12 percent even as the 2008 financial crisis unfolded, a claim no genuine currency fund could have sustained through that period.
+
+The scheme unwound when Freeman's own bet went wrong: in 2008 he kept a large share of client money in U.S. dollars, wagering that Washington would bail out Lehman Brothers, and lost roughly half the fund when Lehman collapsed and the dollar fell instead. By February 2009 investors were pressing Freeman for their money and, according to police, threatening him; he reported those threats to the City of London Police, who arrested him within days on suspicion of money laundering and offenses under the Financial Services and Markets Act. In January 2011, Freeman pleaded guilty at Southwark Crown Court to fraudulent trading, engaging in business while bankrupt, acting as a company director while bankrupt, and breaching his earlier disqualification order. Judge Christopher Hardy sentenced him to eight years in prison, calling it "one of the most serious cases of this type I've had to deal with in this court." Roughly £14 million was lost in total; a later civil settlement recovered about £4.4 million, leaving investors with a shortfall of around £9.6 million.
+
+Freeman's case is a reminder that a disqualified director's bankruptcy record doesn't automatically follow him once he adopts a new name and a new company letterhead — the exact gap that let a man convicted of bankruptcy-related offenses in 1997 raise £14 million from more than three hundred new investors within a decade of his release. It's also a case study in how a too-good-to-fail cover story can survive a real-world stress test for a while: GFX kept promising double-digit monthly returns straight through the 2008 crash, right up until the one genuinely large bet behind the curtain went wrong and there was nothing left to pay anyone back with.`,
+    sourceUrl: 'https://nifa.co.uk/blog/city-trader-jailed-after-admitting-large-scale-investment-fraud/',
+});
