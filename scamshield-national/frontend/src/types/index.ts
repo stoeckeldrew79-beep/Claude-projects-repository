@@ -133,9 +133,13 @@ export interface DailyScamNews {
   search_term: string | null;
   scanned_at: string;
   // Null for national/international stories; a two-letter code for alerts
-  // tied to one US state (see the scanStateAgNews job).
+  // tied to one US state (see the scanStateAgNews job); 'US' for the
+  // federal DOJ/FTC feed (see scanFederalScamNews). 'US' is deliberately
+  // excluded from the /daily-news/states list, so it never appears where a
+  // 2-letter code is assumed to be one of the 50 states + DC.
   state: string | null;
-  // 'ag' is the state Attorney General's own feed; 'news' is coverage.
+  // 'ag' is a source's own feed (state AG or federal DOJ/FTC); 'news' is
+  // coverage about it.
   source_kind: 'ag' | 'news';
 }
 

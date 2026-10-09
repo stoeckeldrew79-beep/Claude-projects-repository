@@ -245,6 +245,21 @@ as often as you like. Schedule it alongside the daily news scan:
 15 6 * * * cd /path/to/backend && npm run scan-state-ag-news >> /var/log/scamshield-state-ag.log 2>&1
 ```
 
+## Scheduling the federal (DOJ/FTC) scan
+
+`npm run scan-federal-news` is the federal-level counterpart to the state AG scan — it reads
+the Justice Department's own press-release feed and the FTC's Consumer Protection press-release
+feed, filters by the same headline-relevance rule as the state scan, and tags rows
+`state = 'US'` (not a real state code — see `scanFederalScamNews.ts` for why `'US'` is excluded
+from `GET /v1/daily-news/states`). It powers the Federal Watch page (`/federal`).
+
+It is idempotent and prunes rows older than 30 days, so run it as often as you like. Schedule it
+alongside the other two:
+
+```
+20 6 * * * cd /path/to/backend && npm run scan-federal-news >> /var/log/scamshield-federal.log 2>&1
+```
+
 ## Cover photos on profiles and guides
 
 Profiles and guides render a real photograph when `coverImage` is set, and fall back to

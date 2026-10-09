@@ -12,6 +12,7 @@ import Notorious from './pages/Notorious';
 import GlobalMap from './pages/GlobalMap';
 import GlobalSources from './pages/GlobalSources';
 import StateAttorneysGeneral from './pages/StateAttorneysGeneral';
+import FederalWatch from './pages/FederalWatch';
 import Statistics from './pages/Statistics';
 import StateDetail from './pages/StateDetail';
 import NotFound from './pages/NotFound';
@@ -37,6 +38,7 @@ const NAV_LINKS = [
   { to: '/global-map', label: 'Global Map' },
   { to: '/global-sources', label: 'Global Sources' },
   { to: '/state-attorneys-general', label: 'State AGs' },
+  { to: '/federal', label: 'Federal Watch' },
   { to: '/statistics', label: 'Statistics' },
   { to: '/subscribe', label: 'Subscribe' },
 ];
@@ -241,6 +243,7 @@ export default function App() {
           <Route path="/global-map" element={<GlobalMap />} />
           <Route path="/global-sources" element={<GlobalSources />} />
           <Route path="/state-attorneys-general" element={<StateAttorneysGeneral />} />
+          <Route path="/federal" element={<FederalWatch />} />
           <Route path="/statistics" element={<Statistics />} />
           <Route path="/states/:slug" element={<StateDetail />} />
           <Route path="/report" element={<Report />} />

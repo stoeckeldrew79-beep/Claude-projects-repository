@@ -158,13 +158,19 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
 // `ag_count` lets the UI distinguish a state whose own Attorney General
 // publishes a feed from one covered only by news search. Every row here is
 // already state-tagged, hence already US, so this list is scope-invariant.
+//
+// 'US' is excluded: it tags the federal (DOJ/FTC) feed from
+// scanFederalScamNews.ts, not a US state, and every consumer of this list
+// (the Global Map, the state dropdown) treats every row here as one of the
+// 50 states + DC. The federal feed is read directly via ?state=US on
+// list()/count() instead, from its own page rather than this list.
 export const states = asyncHandler<AuthedRequest>(async (_req, res) => {
   const { rows } = await pool.query(
     `SELECT state,
             count(*)::int AS total,
             count(*) FILTER (WHERE source_kind = 'ag')::int AS ag_count
      FROM daily_scam_news
-     WHERE state IS NOT NULL
+     WHERE state IS NOT NULL AND state != 'US'
      GROUP BY state
      ORDER BY state`
   );
