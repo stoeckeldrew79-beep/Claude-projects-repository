@@ -11964,3 +11964,15 @@ UsAF.push({
     sourceUrl: 'https://www.theblock.co/post/394441/fbi-warns-fake-tokens-impersonating-agency-tron-network',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'Connecticut World Cup Short-Term Rental and Timeshare Fraud',
+    slug: 'connecticut-world-cup-rental-timeshare-fraud',
+    description: `As the 2026 FIFA World Cup drew fans and travelers through Connecticut, FBI New Haven Special Agent in Charge PJ O'Brien warned on June 11, 2026 that the tournament had produced a wave of scams clustered around short-term rental properties, tickets, and memorabilia, on top of the FBI's broader nationwide warnings about spoofed FIFA ticketing sites. O'Brien said scams were "primarily in rental properties, and then tickets and memorabilia," describing two distinct rental schemes: scammers sending counterfeit checks as payment to property owners, and scammers copying a legitimate short-term rental listing's photos and address to post a duplicate "listing" online and collect payment from renters for a property they have no right to rent out. The Better Business Bureau serving Connecticut, which logged roughly two dozen World Cup-related scam reports, described one case to illustrate the pattern: a timeshare owner in a host city was offered $25,000 to rent out their unit for the tournament's duration, but the "renter" first demanded $9,000 upfront for maintenance and registration fees — a deal that fell apart only after the owner independently called their timeshare company and learned no legitimate booking existed. The FBI also cautioned that artificial intelligence is now being used to make counterfeit tickets and memorabilia look convincingly authentic, and that any payment made outside a method offering dispute protection, such as a credit card, is effectively unrecoverable once sent. Fans and property owners are advised to verify any rental listing and renter independently before exchanging money, to be skeptical of unsolicited high-dollar offers to rent a property for a single event, and to report suspected scams to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['FBI New Haven Field Office', 'Better Business Bureau serving Connecticut'],
+    sourceUrl: 'https://www.wfsb.com/2026/06/11/fbi-warns-world-cup-scams-targeting-tickets-rentals-memorabilia/',
+    country: 'US',
+    state: 'CT',
+});
