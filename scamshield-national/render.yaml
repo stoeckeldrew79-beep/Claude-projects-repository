@@ -47,6 +47,26 @@ services:
           name: scamshield-national-db
           property: connectionString
 
+  # Scans all 51 state Attorney General offices (first-party feed where one
+  # exists, news search everywhere else) and powers the state-level AG alert
+  # feed shown on each state page. Built to run right after the national
+  # scan above (see README) but never wired into a schedule here — this is
+  # that missing wiring.
+  - type: cron
+    name: scamshield-scan-state-ag-news
+    runtime: node
+    rootDir: scamshield-national/backend
+    schedule: "15 11 * * *"
+    buildCommand: npm install --include=dev
+    startCommand: npm run scan-state-ag-news
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: scamshield-national-db
+          property: connectionString
+
 databases:
   - name: scamshield-national-db
     plan: 0.1c-256mb
