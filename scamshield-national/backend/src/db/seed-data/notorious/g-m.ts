@@ -11754,6 +11754,10 @@ NotoriousGM.push({
     slug: 'jonathan-frost-paul-croft-chattanooga-hydrogen-ponzi',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chattanooga,_Tennessee_Skyline.JPG?width=1200',
+    coverImageCredit: 'Photo: Imilious (CC BY-SA 3.0) — Chattanooga, Tennessee skyline',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26638',
     body: `Note: the SEC's civil complaint against Paul Croft and Matthew Dira describes allegations only — neither man has been found liable by a court as of this writing. Jonathan Frost's case is different: he has pleaded guilty to related federal criminal charges, though he had not yet been sentenced as of this writing.
 
