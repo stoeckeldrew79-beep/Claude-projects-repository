@@ -11929,3 +11929,14 @@ UsAF.push({
     country: 'US',
     state: 'CT',
 });
+
+UsAF.push({
+    name: 'Fake "FBI" Token Airdrop Anti-Money-Laundering Threat Scam',
+    slug: 'fake-fbi-token-airdrop-aml-threat-scam',
+    description: `The FBI's New York Field Office warned on March 19, 2026 that scammers were airdropping a fraudulent TRC-20 token bearing the FBI's name directly into cryptocurrency wallets on the Tron blockchain network, with Tron-tracking data showing the fake token had already reached at least 728 wallets, some holding more than $1 million in USDT. The token arrives unsolicited, and its accompanying message warns the recipient that their wallet has been flagged for an anti-money-laundering investigation, directing them to an outside website to "verify" their identity or complete an AML compliance check or face having their funds frozen. The FBI said plainly that it never sends tokens to a crypto wallet, never contacts the public through blockchain messages, and never asks for identifying information this way, warning Tron users to "exercise caution if they encounter a token purported to be from the FBI" and specifically not to provide any identifying information to any website associated with such a token. The scheme is a twist on the broader wave of unsolicited "airdrop" scams that use a seemingly free token delivery as the hook to get a victim onto a phishing site, except here the token itself impersonates a federal law-enforcement agency and uses the fear of a frozen account or a money-laundering accusation, rather than a free-prize lure, to pressure the victim into acting fast. Anyone who receives a token claiming any connection to the FBI or another law-enforcement agency should not interact with it, should never visit a linked website or enter wallet credentials or a seed phrase anywhere, and can report the activity to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['FBI New York Field Office', 'The Block', 'Cointelegraph'],
+    sourceUrl: 'https://www.theblock.co/post/394441/fbi-warns-fake-tokens-impersonating-agency-tron-network',
+    country: 'US',
+});
