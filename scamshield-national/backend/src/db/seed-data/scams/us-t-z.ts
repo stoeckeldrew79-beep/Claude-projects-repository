@@ -7191,3 +7191,17 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2026-10-06',
 });
+
+UsTZ.push({
+    name: 'Homeaglow "ForeverClean" Deceptive Subscription Settlement',
+    slug: 'washington-homeaglow-foreverclean-subscription-settlement',
+    description: `Homeaglow, an on-demand home-cleaning platform operating as Dazzling Cleaning, advertised a steeply discounted first cleaning — in one case $79 — but the Washington Attorney General's Office found that booking it silently enrolled customers in a $59-per-month "ForeverClean" membership that bought no actual cleanings of its own, just the ability to book more, and locked members in for a minimum of six months. One Washington consumer who tried to cancel early was charged a $358.50 cancellation fee on top of the original booking, bringing their total to $600.75 for what was marketed as a one-time $79 service. The AG's office also alleged Homeaglow fabricated customer reviews, advertising a 5-star rating built on 6,406 TrustPilot reviews while its actual TrustPilot rating was 1.3 stars; TrustPilot itself sent the company a cease-and-desist letter in 2025 and removed roughly 4,000 reviews it determined were fake. Attorney General Nick Brown's office reached a consent decree, announced May 21, 2026, requiring Homeaglow and its two founders to pay $2.25 million in restitution, penalties, and costs for violating the state's Consumer Protection Act, submit to four years of compliance monitoring, and let any Washington ForeverClean member cancel immediately and at no charge, even within the first six months. Anyone who signs up for a deeply discounted "first service" offer from a home-services platform should read the fine print for a recurring membership before booking, check a company's independent reviews on a site other than the one the company itself promotes, and ask directly whether canceling carries any fee before the first appointment is even scheduled.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ["Washington State Attorney General's Office"],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/homeaglow-home-cleaning-platform-must-cease-deceptive-and-predatory-practices',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2026-05-21',
+});
