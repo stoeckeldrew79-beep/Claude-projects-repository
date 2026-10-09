@@ -11097,6 +11097,10 @@ NotoriousAF.push({
     slug: 'chain-roop-bhansali-crb-capital-markets-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/BSE_-_Bombay_Stock_Exchange_Building.jpg?width=1200',
+    coverImageCredit: 'Photo: Niyantha Shekhar (CC BY 2.0) — Bombay Stock Exchange Building',
+    coverImagePosition: 50,
     body: `Chain Roop Bhansali founded CRB Consultants in New Delhi in 1985 and converted it into a public company, CRB Capital Markets ("CRB Caps"), in 1992, building a group that spanned merchant banking, hire-purchase and leasing finance, stockbroking, and — from August 1994 — a mutual fund arm, CRB Mutual Fund. Its debut CRB Arihant Mangal Growth Scheme raised roughly ₹230 crore, but only about ₹6.25 crore of that came from genuine retail investors; the rest was routed through shell entities, with roughly 80 percent of the fund's corpus concentrated in just 65 securities used to recycle cash back into Bhansali's own companies.
 
 The group functioned as a circular money machine: the merchant-banking arm placed dubious share issues, CRB's finance companies fed the proceeds into its NBFC and mutual fund, and commissions were skimmed at every stage, creating the appearance of a thriving conglomerate by the mid-1990s. Bhansali's reach was evident when the Reserve Bank of India gave him in-principle approval in July 1996 to set up a new bank in Bhubaneswar, at a time larger industrial houses were being turned down for the same kind of license. An RBI inspection that November found "massive irregularities" and withdrew the banking approval, but let CRB keep taking public deposits; only press exposure in April-May 1997 forced RBI to finally cancel its deposit-taking license.
@@ -11169,6 +11173,10 @@ NotoriousAF.push({
     slug: 'barry-honig-microcap-pump-and-dump-sec-case',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'securities-fraud', 'sec-enforcement'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nasdaq_Tower_May_2026.jpg?width=1200',
+    coverImageCredit: 'Photo: Nielsoncaetanosalmeron (CC BY 4.0) — Nasdaq Tower, Times Square',
+    coverImagePosition: 50,
     body: `Barry Honig built a reputation in South Florida as a financier who specialized in microcap stocks — small, thinly traded public companies where a relatively modest amount of coordinated buying or promotion can move the price. The SEC's case describes a repeatable pattern: Honig and a circle of associates and entities, including GRQ Consultants, Stetson Capital Investments, and Alpha Capital Anstalt, would move into a company by acquiring large blocks of its stock at steep discounts — through financing deals, convertible notes, or consulting arrangements — well before most investors had ever heard its name.
 
 Once Honig's group controlled a meaningful stake, the SEC alleges they turned to illegal promotional activity and manipulative trading designed to artificially boost the stock's price and manufacture the appearance of real trading interest. The agency says this strategy was run on three separate public companies — BioZone Pharmaceuticals, MGT Capital Investments, and MabVax Therapeutics Holdings — between 2013 and 2018, with Honig as the primary strategist. Miami biotech billionaire Phillip Frost, chairman and CEO of Opko Health, was accused of taking part in two of the three schemes alongside him.
@@ -11263,6 +11271,10 @@ NotoriousAF.push({
     slug: 'brian-yuill-spedley-securities-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Australian_Securities_Exchange_entrance.jpg?width=1200',
+    coverImageCredit: 'Photo: Jason7825 (public domain) — Australian Securities Exchange, Sydney',
+    coverImagePosition: 50,
     body: `Brian Yuill was managing director of Spedley Securities Limited, a Sydney merchant bank, and of its related listed companies Greater Pacific Investments and GPI Leisure Corporation — together known as the Spedley group. From at least 1984, Yuill orchestrated systematic falsification of Spedley Securities' accounts timed to its balance date: in 1987 he arranged a sham sale-and-repurchase of Commonwealth bonds and shares with a related party, and converted roughly $90.4 million of uncollectable loans into short-term bills just before the October 31 balance date — reversing the transactions days later — to falsify the company's liquidity position and satisfy the licence conditions of its securities dealer.
 
 The following year's cover-up was larger and more elaborate. In 1988, Yuill directed a "round robin" of payments totaling $275.6 million through Spedley Securities, GPI Leisure, Greater Pacific, and a web of shell companies to disguise a doubtful $170 million exposure, and converted a further $204 million of loans into bills. He also concealed $35 million in futures-trading losses that had accumulated from 1984 to 1988, hidden by a subordinate who falsified clearing-house statements, and had GPI Leisure issue an undisclosed $100 million guarantee of Spedley Securities' receivables specifically so the company's auditor would sign off on the 1988 accounts.
@@ -11299,6 +11311,10 @@ NotoriousAF.push({
     slug: 'carlos-hill-cash-plus-jamaica-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_Kingston,_Jamaica_II.JPG?width=1200',
+    coverImageCredit: 'Photo: Wolmadrian (CC BY-SA 3.0) — New Kingston, Jamaica',
+    coverImagePosition: 50,
     body: `Carlos Hill founded Cash Plus Limited in Jamaica in 2002, promising investors returns of roughly 10 percent a month — about 120 percent a year — an implausible rate that nonetheless drew in thousands of ordinary Jamaicans eager for returns no bank or legitimate investment could match. For several years Cash Plus appeared to deliver, paying "returns" that spread by word of mouth across the island and drew in a steady stream of new investors, the same dynamic that kept Jamaica's other prominent Ponzi schemes of the era alive for as long as fresh money kept arriving.
 
 The scheme collapsed in 2008, when Hill announced publicly that he could no longer source the funds needed to pay investors what they were owed. He was arrested on April 10, 2008, and eventually charged with 15 counts of fraudulently inducing people to invest. It was not Hill's first brush with fraud charges: in the United States in the early 1990s, he had pleaded guilty in federal court in New Jersey to racketeering conspiracy tied to a mortgage and collateral-instrument fraud scheme, and was sentenced to a term approaching 30 years, with later appeals in New Jersey and Texas rejected.
@@ -11314,6 +11330,10 @@ NotoriousAF.push({
     slug: 'amir-bramly-rubicon-business-group-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/TASE_2019.jpg?width=1200',
+    coverImageCredit: 'Photo: David Shai (CC BY-SA 4.0) — Tel Aviv Stock Exchange',
+    coverImagePosition: 50,
     body: `Amir Bramly founded, owned, and chaired Rubicon Business Group along with an affiliated non-bank lender called Kela Fund, presenting both as legitimate Israeli finance companies capable of offering investors an unusually attractive combination of high returns and low risk. Bramly backed those promises with false financial presentations that made Rubicon and Kela look like going concerns generating real returns from real lending and investment activity, when in fact no such returns existed.
 
 In reality, Bramly was running a classic Ponzi structure: money raised from new investors was used to pay "returns" to earlier investors, creating the appearance of a thriving business for as long as fresh capital kept arriving. Israeli prosecutors determined that Bramly defrauded investors of roughly NIS 340 million — then equivalent to about $100 million — before the scheme unraveled and the funds owed could no longer be covered by new deposits.
@@ -11329,6 +11349,10 @@ NotoriousAF.push({
     slug: 'brant-frost-iv-first-liberty-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Georgia_State_Capitol,_Atlanta,_Georgia.jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0) — Georgia State Capitol, Atlanta',
+    coverImagePosition: 50,
     body: `Edwin Brant Frost IV founded First Liberty Building & Loan in Newnan, Georgia, in 2014, and built it into a prominent fixture of local investing circles while building an equally prominent name for himself in Georgia Republican politics — his family's standing in the party was substantial enough that his son, Edwin Brant Frost V, went on to chair the Coweta County Republican Party. First Liberty sold investors promissory notes and loan participation agreements promising annual returns of 8 to 18 percent, with a "friends and family" tier offering as much as 14 to 18 percent, pitched as funding short-term, high-interest bridge loans to small businesses that would later be repaid through SBA or other commercial refinancing. Frost told investors that very few of the underlying loans had ever defaulted, and assured them orally that he took no fees out of their money at all.
 
 Some investor money genuinely did go toward bridge loans — but according to the Securities and Exchange Commission, those loans performed nowhere near as well as advertised, and most eventually defaulted and stopped generating any interest at all. Rather than disclose that collapse, First Liberty kept the operation running by paying existing investors with money raised from new ones: the SEC alleged that by 2021, roughly 80 percent of the interest and principal First Liberty paid out to investors was coming from new investor funds rather than from any real loan repayment, a Ponzi structure sustained for years behind the appearance of a legitimate specialty lender.
@@ -11346,6 +11370,10 @@ NotoriousAF.push({
     slug: 'avi-ayache-yaron-bar-israeli-lottery-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Billet_lot.jpg?width=1200',
+    coverImageCredit: 'Image: Public domain — historical lottery ticket',
+    coverImagePosition: 50,
     body: `Between roughly 2005 and 2009, a twelve-person telemarketing ring run out of Israel by Avi Ayache and Yaron Bar worked its way through purchased lists of American sweepstakes subscribers, calling to say they'd won a substantial cash prize. The ring assigned specific roles to specific callers: "Qualifiers" made the initial contact and sized up each victim's assets, and once someone looked wealthy enough, the call was handed to a "Shooter" posing as a U.S. attorney who demanded upfront payment to cover supposed taxes and fees before the winnings could be released. Once a victim paid once, the ring simply asked for more, repeatedly, inventing new fees each time.
 
 The entire operation was built to look like it was calling from New York rather than Tel Aviv. Ring members invented fictitious law firms, adopted American-sounding aliases, and used call-forwarding numbers that disguised their actual location in Israel. They layered on a lower-tech touch of showmanship, too: victims who paid were sometimes sent flowers or gift baskets "congratulating" them on their win, reinforcing the fiction that a real prize was on its way. Prosecutors ultimately estimated the ring's haul at more than $8 million, funneled into bank accounts in Israel, Cyprus, and Uganda to keep it out of reach of American authorities — and mostly extracted from elderly victims across the United States who were targeted specifically because older sweepstakes subscribers were seen as easier marks.
@@ -11395,6 +11423,10 @@ NotoriousAF.push({
     slug: 'ian-chester-queensland-property-development-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'real-estate-fraud', 'international', 'australia'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_Coast_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Chill Mimi (CC BY 2.0) — Gold Coast, Queensland skyline',
+    coverImagePosition: 50,
     sourceUrl: 'https://asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-231mr-queensland-property-developer-sentenced-to-9-years-imprisonment-for-fraud/',
     body: `Ian Omar Chester was the sole director of roughly eighteen companies he used as the investment and development vehicles behind five property projects on Australia's Gold Coast, in Queensland. Pitching to investors — many of whom put in money through their self-managed superannuation funds, Australia's equivalent of a self-directed retirement account — Chester presented the companies as straightforward conduits for funding specific residential developments, raising money from roughly 190 investors on the understanding that their funds would go toward the project each of them had individually signed up for.
 
@@ -11423,6 +11455,10 @@ NotoriousAF.push({
     slug: 'michael-barry-carter-morgan-stanley-elder-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'wire-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1585_Broadway_-_Morgan_Stanley_Building_(55283615766).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh (CC BY 4.0) — Morgan Stanley HQ, 1585 Broadway',
+    coverImagePosition: 50,
     body: `Michael Barry Carter worked as a financial advisor in Morgan Stanley's McLean, Virginia office, where clients trusted him to manage their brokerage and investment advisory accounts. According to the Securities and Exchange Commission and the U.S. Attorney's Office for the District of Maryland, Carter spent roughly twelve years, from around 2007 through May 2019, quietly siphoning money out of those accounts through unauthorized cash wire transfers — submitting internal authorization forms that falsely stated clients had instructed him to move their own money into his personal accounts.
 
 Carter's technique for getting around his firm's own safeguards was unusually hands-on: prosecutors said he beat Morgan Stanley's multi-factor authentication system in at least one instance by visiting an elderly client at her home and personally answering her phone when the firm called to verify a transfer she had never actually requested. Across roughly 60 unauthorized transfers, he moved funds that he used to cover a large home mortgage, a luxury car, and his personal lifestyle, while also using later transfers from some accounts to paper over the cash-withdrawal requests of clients whose accounts he had already depleted — the same rob-Peter-to-pay-Peter pattern that lets an ongoing theft go undetected as long as new money keeps arriving.

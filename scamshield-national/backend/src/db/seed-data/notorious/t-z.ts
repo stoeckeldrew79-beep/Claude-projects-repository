@@ -3803,6 +3803,10 @@ NotoriousTZ.push({
     slug: 'thomas-moore-mississippi-green-oil-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Oil_Well_near_Eunice.jpg?width=1200',
+    coverImageCredit: 'Photo: James Gabbert (CC BY-SA 4.0) — oil well (representative)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26663',
     body: `Note: this case is a civil enforcement action. The Securities and Exchange Commission's complaint describes allegations only — Thomas J. Moore III has not been found liable by a court as of this writing.
 
@@ -3858,6 +3862,10 @@ NotoriousTZ.push({
     slug: 'timothy-sammons-art-dealer-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'art-fraud', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ceiba_Art_Gallery.jpg?width=1200',
+    coverImageCredit: 'Photo: RandyHinger (CC BY-SA 4.0) — art gallery interior',
+    coverImagePosition: 50,
     body: `Timothy Sammons spent decades building one of the more recognizable names in the international art trade, including a stint running Sotheby's Chinese art department before striking out as an independent dealer and consultant with offices in London, Zurich, and New York. Collectors who hired him to broker the private sale of major works — paintings by Picasso, Chagall, and Signac among them — were trusting a dealer with genuine standing in the field, which is precisely what let him get away with taking their money for as long as he did.
 
 Between 2010 and 2015, prosecutors say, Sammons routinely sold works entrusted to him by clients and then simply kept the proceeds rather than passing them on to the rightful owners. He told sellers their art hadn't sold yet, or that a deal was still being finalized, when in reality the sale had already closed and the money was gone. He pledged consigned artworks — including Picasso's "Buste de Femme," Chagall's "Reverie," and Signac's "Calanque de Canoubiers" — as his own personal collateral to secure millions of dollars in loans, and when earlier clients grew impatient or suspicious, he used proceeds from newer sales to quiet them down, a Ponzi-style shuffle that let the operation keep running even as the hole underneath it grew. Investigators ultimately tied the scheme to losses estimated between $10 million and $30 million, spread across collectors in the United States, the United Kingdom, and New Zealand.

@@ -8071,6 +8071,10 @@ NotoriousNS.push({
     slug: 'showa-shell-sekiyu-forex-treasury-loss',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'japan', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shell_martinez_surtidores.jpg?width=1200',
+    coverImageCredit: 'Photo: Fernando Martello (CC BY-SA 4.0) — Shell filling station',
+    coverImagePosition: 50,
     body: `Showa Shell Sekiyu was a Japanese oil refiner and distributor, 50% owned by Royal Dutch Shell, whose treasury department had a narrow, sensible mandate: hedge the company's dollar-denominated crude-oil purchases against swings in the yen using forward foreign-exchange contracts. Starting in 1989, when the yen briefly weakened to around ¥145 to the dollar, the desk locked in dollar-forward contracts at that rate. When the yen instead strengthened, the hedge should have been closed out and the loss booked. Instead, the dealers rolled the losing positions forward into new contracts, again and again, turning what had started as insurance against currency risk into an unauthorized, continuously compounding bet that the yen would weaken back to 1989 levels. It never did.
 
 By the time the scheme was discovered, the rolled-over position had grown to a sum wildly disproportionate to the company's actual hedging needs, sitting on a trading desk whose job was never supposed to involve speculation at all. On February 20, 1993, Showa Shell disclosed a loss of roughly one billion dollars — equal to a large share of the company's entire shareholder equity and about five times its annual profit. Showa Shell's stock lost half its value on the Tokyo Stock Exchange in the aftermath, and as the yen continued to strengthen before the position could be fully unwound, the final loss climbed further still.
@@ -8086,6 +8090,10 @@ NotoriousNS.push({
     slug: 'sterling-foster-co-boiler-room-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'securities-fraud', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Looking_Down_Wall_Street,_Manhattan,_New_York_(7236955420).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0) — Wall Street, Manhattan',
+    coverImagePosition: 50,
     body: `Sterling Foster & Co. operated out of Melville, New York, from 1994 to 1997, functioning on the surface as a licensed broker-dealer underwriting initial public offerings for small companies. Under president Adam Lieberman, the firm instead ran what the SEC would later call a textbook "boiler room": banks of registered representatives working from scripted phone pitches, cold-calling retail investors to buy into six microcap IPOs whose prices Sterling Foster and its principals had already artificially inflated.
 
 The mechanics were as coercive as they were deceptive. Brokers made baseless price predictions and claimed access to inside information, concealed excessive and undisclosed charges buried in the trades, used "bait and switch" tactics to get customers into stocks they hadn't agreed to buy, and, critically, refused to execute customers' orders when those customers tried to sell, trapping their money in positions the firm needed to stay inflated. The SEC estimated the scheme defrauded investors of at least $75 million before it collapsed in 1997.
@@ -8236,6 +8244,10 @@ NotoriousNS.push({
     slug: 'shirlina-tsang-rbs-hong-kong-rogue-trader',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kowloon_and_Hong_Kong.jpg?width=1200',
+    coverImageCredit: 'Photo: Toby Oxborrow (CC BY-SA 2.0) — Hong Kong skyline',
+    coverImagePosition: 50,
     body: `Tsang Pui Yu Shirlina worked as a bond trader on the Royal Bank of Scotland's Emerging Markets Rates desk in Hong Kong, a desk that, by the bank's own later admission, was managed and supervised primarily out of Singapore — a structure that left her day-to-day trading with far less direct oversight than her position size would have warranted. Over several years, Tsang built up unauthorized positions in Hong Kong government bonds, exchange-fund notes and bills, and interest-rate futures, and rather than report the resulting losses, she set about hiding them from everyone whose job was to notice.
 
 Her methods were less about one big directional bet than a sustained campaign against the bank's own controls. She mismarked her bond positions and the Hong Kong dollar interest-rate swap curve, breached futures trading limits, and manipulated the "independent price verification" process meant to catch exactly this kind of mismarking by influencing third-party brokers to feed back off-market prices that matched what she'd already booked. She also exploited a control gap unique to annual leave: when traders went on their mandated two-week "block leave," another trader was supposed to take over and revalue their book daily — but nobody ever covered Tsang's bond book during her leave in 2008, 2009, or 2010, and RBS's systems failed to lock her out of email and trading chat even while she was supposedly away, letting her keep tending the fiction remotely. By the end of each of those three leave periods, regulators later calculated her bond books were mismarked by roughly £6.4 million, £5.3 million, and £11 million respectively. Between April and October 2011 alone, she logged into RBS's systems remotely 386 times, frequently between 6 p.m. and midnight and occasionally as late as 1 or 2 a.m. Hong Kong time, to cancel or amend trades once that day's profit-and-loss had already been tabulated and nobody was left checking her work — access made easier by a "cloning" process that had given her, by the time it was discovered, permissions to book trades into more than 1,600 separate trading books.
