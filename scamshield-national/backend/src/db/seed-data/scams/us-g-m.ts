@@ -13067,3 +13067,16 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2025-12-18',
 });
+
+UsGM.push({
+    name: 'Genesis Tech Subscription-Trap App Network',
+    slug: 'genesis-tech-subscription-trap-app-network',
+    description: `The Federal Trade Commission announced on June 17, 2026 that a federal court in the Northern District of California had temporarily halted a sprawling network the agency calls the "Genesis Tech" enterprise — 15 corporations and eight individuals, including founder-CEOs Vladimir Mnogoletny and Vasily Ulianov along with co-defendants Stamatis Skianis, Oksana Kucher, Iryna Oleksyn, Olga Garbuzenko, Rostyslav Ivanitsa, and Viktoriia Savchuk — over a portfolio of subscription apps the FTC says generated nearly a quarter-billion dollars in global revenue between early 2023 and mid-2025. The named products span fitness and nutrition apps (MadMuscles, Harna, and Unimeal), an ADHD and productivity self-help course (Wisey), PDF editing tools (PDF Guru and PDF Master), a fashion-consulting app (Lumi), and a horoscope and psychic-chat service (Nebula). According to the FTC's complaint, the operation advertised these products as free or low-cost while burying automatic-renewal and recurring-charge terms in fine print, then double-charged customers or silently added paid add-ons they never approved; cancellation was made deliberately difficult, with some products requiring a lengthy "exit interview" or offering no online cancellation option at all, and some customers kept getting billed even after they did manage to cancel. To stay ahead of card-network and bank fraud-monitoring systems, the complaint alleges the enterprise continually launched new product names, incorporated fresh Delaware shell companies, and opened new merchant accounts — tied to Cyprus-incorporated affiliates reportedly operating out of Ukraine — rather than fixing the underlying billing practices. The FTC says the conduct violates both the FTC Act and the Restore Online Shoppers' Confidence Act (ROSCA). "The Trump-Vance FTC is engaged in robust enforcement to address deception and illegal subscription offerings," said Christopher Mufarrige, Director of the FTC's Bureau of Consumer Protection, calling the case an example of "the benefits and importance of the Bureau's reinvigorated anti-fraud program." Litigation is ongoing and the order is temporary, but anyone who signed up for a free trial of a fitness, productivity, PDF, fashion, or horoscope app and later found an unexpected recurring charge should check their card statement for the product names above, attempt cancellation directly through the app or its billing page, and dispute any charge that continued after a documented cancellation attempt with their card issuer.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-sprawling-enterprise-operating-unlawful-subscription-schemes',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2026-06-17',
+});
