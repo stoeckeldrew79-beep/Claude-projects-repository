@@ -60,7 +60,11 @@ export function ScamCard({ scam }: { scam: Scam }) {
         </div>
       )}
       <p className="text-xs text-slate-400 mt-2">
-        {firstRecordedYear && <>First recorded {firstRecordedYear}</>}
+        {firstRecordedYear && (
+          <span className={scam.is_historical ? 'font-semibold text-blue-700' : undefined}>
+            First recorded {firstRecordedYear}
+          </span>
+        )}
         {firstRecordedYear && scam.country && ' · '}
         {scam.country && countryName(scam.country)}
       </p>
