@@ -24301,3 +24301,16 @@ International.push({
   isHistorical: true,
   firstRecorded: '2020-06-01',
 });
+
+International.push({
+  name: 'Fake "Lost Phone" Family-Member SMS-to-WhatsApp Scam (Slovenia)',
+  slug: 'slovenia-lost-phone-family-impersonation-scam',
+  description: `The Association of Banks of Slovenia (Združenje bank Slovenije) warned on September 17, 2026 about a wave of text messages impersonating a victim's own child or close relative, typically opening with a line like "Mami, izgubil sem telefon, piši mi na novo številko" ("Mom, I lost my phone, text me on my new number"). Once the recipient replies, the scammer steers the conversation off SMS and onto WhatsApp or Viber, where they claim to urgently need money — often framed as needing to buy a replacement phone, pay an overdue bill, or cover an emergency because they supposedly can't access their own online banking — and ask the victim to transfer funds to an account the scammer controls or to buy prepaid or gift cards on their behalf. The bank association's advice is not to reply to messages like this from unknown numbers, and instead to call the family member directly on the phone number already saved in the victim's own contacts — not the new number texting — before sending any money or sharing banking details. Anyone who has already transferred money or shared financial information in response to such a message is urged to contact their bank immediately. The association frames its general rule for all unsolicited financial requests as "ustavite se, preverite, premislite in šele nato ukrepajte" — stop, verify, think it over, and only then act — a sequence this scam is built specifically to shortcut by manufacturing urgency before a recipient has time to pause and call the real family member back.`,
+  categorySlug: 'family-emergency-scams',
+  alertLevel: 'medium',
+  sources: ['Združenje bank Slovenije (Association of Banks of Slovenia)', 'N1 (STA)'],
+  sourceUrl: 'https://n1info.si/magazin/digitalno/banke-opozarjajo-goljufi-se-v-sms-sporocilih-izdajajo-za-vase-otroke/',
+  country: 'SI',
+  isHistorical: true,
+  firstRecorded: '2026-09-17',
+});
