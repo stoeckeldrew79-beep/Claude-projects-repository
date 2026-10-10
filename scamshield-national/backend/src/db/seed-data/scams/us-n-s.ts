@@ -12679,4 +12679,82 @@ UsNS.push({
     state: 'PR',
 });
 
+UsNS.push({
+    name: 'Door-to-Door Fake Insurance Agent Scam (North Carolina)',
+    slug: 'north-carolina-door-to-door-fake-insurance-agent-scam',
+    description: `North Carolina Insurance Commissioner Mike Causey warned on May 22, 2024 that door-to-door salespeople have been posing as representatives of the NC Department of Insurance (NCDOI) — in some cases carrying business cards printed with the department's own logo — in order to sell fraudulent insurance policies to residents. It was the fourth such incident reported to the department's Criminal Investigations Division since 2020. NCDOI stressed that the department itself never sells insurance, so anyone claiming to represent it while trying to sell a policy is committing fraud outright; Causey called any such approach "obviously a scam." The same alert flagged a related tactic circulating at the time: callers posing as Medicare representatives who ask for a Social Security number, another sign of fraud rather than a legitimate request.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['North Carolina Department of Insurance (Commissioner Mike Causey)'],
+    sourceUrl: 'https://www.ncdoi.gov/news/press-releases/2024/05/22/commissioner-causey-warns-door-door-scammers-posing-doi-agents',
+    country: 'US',
+    state: 'NC',
+    firstRecorded: '2024-05-22',
+});
+
+UsNS.push({
+    name: 'Timeshare Resale Upfront-Fee Scam (North Carolina)',
+    slug: 'north-carolina-timeshare-resale-upfront-fee-scam',
+    description: `The North Carolina Department of Justice's consumer-protection office warns that timeshare owners who no longer use their property often get a call from someone who says they'll buy the timeshare outright or promises to sell it quickly on the owner's behalf — but only after the owner pays a fee upfront. Once that fee is paid, the promised buyer frequently never materializes and the company stops responding altogether. NCDOJ advises checking any reseller with the Attorney General's office and the Better Business Bureau first, dealing only with a licensed real estate broker or agent, verifying any North Carolina company's license directly with the NC Real Estate Commission, getting every term in writing, and never wiring money or paying in cash before the timeshare actually sells — since a legitimate broker's commission comes out of the sale proceeds and is never paid upfront. The office separately warns that victims of this scam are often targeted a second time by someone offering, for yet another fee, to help "recover" the money already lost.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['North Carolina Department of Justice'],
+    sourceUrl: 'https://ncdoj.gov/protecting-consumers/travel/timeshare-resale/',
+    country: 'US',
+    state: 'NC',
+});
+
+UsNS.push({
+    name: 'Online Puppy and Kitten Sale Scam (North Carolina)',
+    slug: 'north-carolina-puppy-kitten-online-sale-scam',
+    description: `North Carolina Attorney General Jeff Jackson issued a consumer alert, published May 27, 2025 in honor of National Pet Month, warning residents to watch for puppy and kitten scams when buying a pet online or on social media. Scammers advertise animals that don't exist, using fake photos stolen from real breeders along with fabricated contact details and fake websites; Jackson said "pet scammers will prey on your emotions and trick you into buying a pet that doesn't exist so they can steal your money." Victims are pressured to pay the full amount upfront through a third-party payment platform, and sellers often add an extra "transport fee" to ship the animal across state lines that covers a delivery that never happens, since the seller never actually meets the buyer or produces the animal. NCDOJ's listed red flags include a seller who refuses an in-person meeting or video call, provides no verifiable contact information, and has no proof of vaccination or veterinary records; the office recommends adopting from a shelter or rescue group, or verifying a breeder in person, before paying anything.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'low',
+    sources: ["North Carolina Department of Justice (Attorney General Jeff Jackson)"],
+    sourceUrl: 'https://ncdoj.gov/attorney-general-jeff-jackson-watch-out-for-scams-when-buying-puppies-and-kittens/',
+    country: 'US',
+    state: 'NC',
+    firstRecorded: '2025-05-27',
+});
+
+UsNS.push({
+    name: 'Fake NH DOT Speeding-Ticket Email Scam (New Hampshire)',
+    slug: 'new-hampshire-dot-speeding-ticket-email-scam',
+    description: `Emails designed to look like official New Hampshire Department of Transportation notices, sent from a fake address ending in "swingmedia.xyz," told recipients they owed payment for a speeding infraction and threatened that "failure to pay in full will result in a criminal investigation" if they didn't comply. NH DOT and the state Attorney General's office jointly warned that the department never emails drivers demanding payment for a traffic violation — a real violation notice is sent only by U.S. mail — and urged anyone who receives one of these emails not to reply or share any personal information. The agencies pointed residents to verify any such notice directly through NH DOT's communications office at 603-271-6495, or to report the attempt to the Attorney General's Consumer Protection Hotline at 1-888-468-4454.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Transportation', 'New Hampshire Attorney General\'s Office', 'WHDH'],
+    sourceUrl: 'https://whdh.com/news/officials-warn-of-email-scam-using-nh-dot-logo-to-request-money-for-false-speeding-infractions/',
+    country: 'US',
+    state: 'NH',
+});
+
+UsNS.push({
+    name: 'Veterans Museum of New Hampshire Charity Fraud',
+    slug: 'new-hampshire-veterans-museum-charity-fraud',
+    description: `Henry T. Pratte spent roughly six years soliciting donations for a planned Veterans Museum of New Hampshire near Boscawen, falsely telling donors their gifts were tax-deductible while never completing the charity registration the state required. Thomas Donovan, director of the New Hampshire Attorney General's Charitable Trusts Unit, said the state gave Pratte considerable time to come into compliance and sent repeated letters when he didn't; a Merrimack County Superior Court judge ultimately ordered the museum closed in August 2015, fined Pratte $10,000, ordered him to pay $1,000 in restitution to one veteran donor, and barred him from any involvement with a New Hampshire charitable organization for ten years. The case is a reminder that a charity's promised tax deductibility and an unfinished project can both go unchallenged for years absent a donor who checks the charity's registration status directly with the state before giving.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Attorney General\'s Office — Charitable Trusts Unit', 'New Hampshire Public Radio (NHPR)'],
+    sourceUrl: 'https://www.nhpr.org/post/court-orders-closure-veterans-museum-new-hampshire',
+    country: 'US',
+    state: 'NH',
+    isHistorical: true,
+    firstRecorded: '2015-08-01',
+});
+
+UsNS.push({
+    name: 'Post-Biden v. Nebraska Student Loan Forgiveness Robocall and Robotext Scam (New Hampshire)',
+    slug: 'new-hampshire-student-loan-forgiveness-robocall-scam',
+    description: `Following the U.S. Supreme Court's June 2023 ruling in Biden v. Nebraska striking down the administration's student loan forgiveness plan, the FCC's Robocall Response Team joined the attorneys general of New Hampshire, Illinois, Massachusetts, and Michigan in a joint consumer alert warning that the ruling's heavy news coverage was likely to be exploited by scammers running robocalls and robotexts posing as a "student loan forgiveness center" or citing a fake loan "settlement" with the Department of Education. New Hampshire Attorney General John Formella's office warned that anyone pressured to pay an upfront fee or to share personal or financial information during one of these calls or texts is almost certainly dealing with a scammer, since any real relief program is applied for directly and for free through the official studentaid.gov portal, never through an unsolicited call or text demanding payment.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ["Federal Communications Commission (FCC) Robocall Response Team", "New Hampshire Attorney General's Office (John Formella)", 'National Consumer Law Center'],
+    sourceUrl: 'https://nclc.org/resources/fcc-state-attorneys-general-warn-consumers-of-increased-risk-of-student-loan-debt-scam-robocalls-and-robotexts',
+    country: 'US',
+    state: 'NH',
+    isHistorical: true,
+    firstRecorded: '2023-06-30',
+});
+
 

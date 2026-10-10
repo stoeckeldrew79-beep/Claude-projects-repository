@@ -24695,3 +24695,38 @@ International.push({
   sourceUrl: 'https://nowgrenada.com/?p=104220',
   country: 'GD',
 });
+
+International.push({
+  name: 'AI-Generated Celebrity Investment Ad Scam (Slovenia)',
+  slug: 'slovenia-ai-generated-celebrity-investment-ad-scam',
+  description: `SI-CERT, Slovenia's national cybersecurity response center, warned of a sharp rise in fraudulent sponsored investment ads, mainly on Facebook, that in recent months have increasingly been built using generative AI tools and misuse the images of well-known public figures and brands to appear legitimate. SI-CERT's red flags for spotting these ads include a Facebook page only days old, with a handful of followers, one or two posts, run from abroad, and with comments dominated by bots rather than real engagement. Separately, related "money-recovery" scam messages impersonate real Slovenian institutions such as the police and tax authority FURS, promising to help recover money already lost to an earlier scam — itself a second scam layered on top of the first. Slovenian police data cited in the same reporting put investment-fraud losses over the prior year at more than €19 million, averaging over €27,000 per victim, underscoring how costly these AI-polished pitches have become compared to older, more obviously fake ads.`,
+  categorySlug: 'ai-deepfake-scams',
+  alertLevel: 'high',
+  sources: ['SI-CERT (national cybersecurity response center)', '24ur.com'],
+  sourceUrl: 'https://www.24ur.com/novice/slovenija/klik-ki-vas-lahko-veliko-stane-lani-slovence-oskodovali-za-vec-kot-19-milijonov.html',
+  country: 'SI',
+});
+
+International.push({
+  name: 'Unlicensed Online Investment and Crypto Platform Withdrawal-Fee Trap (Slovenia)',
+  slug: 'slovenia-unlicensed-investment-crypto-withdrawal-fee-scam',
+  description: `Slovenia's Securities Market Agency (Agencija za trg vrednostnih papirjev, ATVP) warned on November 27, 2025 about a growing number of unauthorized online platforms offering investments in financial instruments, cryptocurrencies, and foreign currencies. These platforms promise unrealistically high, low-risk returns that ATVP describes as "too good to be true," and show the investor a steadily growing account balance inside the platform's own dashboard; that balance is entirely fabricated, and when the investor tries to withdraw any of it, the site refuses the payout and demands a further "minimum withdrawal amount" fee first — a payment that unlocks nothing and simply hands the operator more money. ATVP noted that only firms it or the Bank of Slovenia (Banka Slovenije) have actually authorized may legally offer investment services domestically, and advised checking any platform against the official authorized-provider lists on the ATVP and Bank of Slovenia websites before sending money, treating both an unsolicited high-return pitch and a pre-withdrawal fee demand as near-certain signs of fraud.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'medium',
+  sources: ['Agencija za trg vrednostnih papirjev (ATVP) — Slovenian Securities Market Agency', '24ur.com / STA'],
+  sourceUrl: 'https://www.24ur.com/novice/slovenija/previdno-ponujajo-visoke-donose-nato-pa-mencajo-z-izplacilom.html',
+  country: 'SI',
+  firstRecorded: '2025-11-27',
+});
+
+International.push({
+  name: 'Phobs Reservation-System Breach Card-Phishing Scam (Slovenia)',
+  slug: 'slovenia-phobs-reservation-breach-card-phishing-scam',
+  description: `After a security breach at Phobs d.o.o., a Croatian company whose online reservation system is used by numerous Slovenian and regional accommodation providers, Slovenia's Information Commissioner (Informacijski pooblaščenec) warned on June 11, 2026 that guests' names, contact details, and reservation data — including which accommodation they booked and their stay dates — had been exposed and were already being used to craft convincing fraud messages. Attackers cite the victim's real booking details for credibility, then ask them to "reconfirm" the reservation or pay an extra fee through a link to a fake payment page that harvests card numbers; SI-CERT separately published technical details and example messages from the scheme. Slovenian accommodation providers notified of the breach were required to formally report it to the Information Commissioner, which received ten breach notifications from providers in the country. Affected guests are advised not to click links or enter any data in an unexpected reservation message, to verify the request directly with the accommodation provider by phone, and to contact their bank immediately if card details were already entered.`,
+  categorySlug: 'data-breach-scams',
+  alertLevel: 'high',
+  sources: ['Informacijski pooblaščenec (Information Commissioner of the Republic of Slovenia)', 'SI-CERT', 'N1 (STA)'],
+  sourceUrl: 'https://n1info.si/magazin/digitalno/ce-imate-rezervacijo-za-dopust-na-hrvaskem-bodite-pozorni-na-lazna-sporocila/',
+  country: 'SI',
+  firstRecorded: '2026-06-11',
+});
