@@ -8020,6 +8020,10 @@ NotoriousNS.push({
     slug: 'peter-lombardi-mutual-benefits-viatical-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'securities-fraud', 'insurance-fraud', 'sec-enforcement'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fort_Lauderdale_Skyline_7.jpg?width=1200',
+    coverImageCredit: 'Photo: Bastique (CC BY-SA 3.0) — Fort Lauderdale, where Mutual Benefits Corp. was based',
+    coverImagePosition: 50,
     body: `Peter Lombardi was president and sole shareholder of Mutual Benefits Corp., a South Florida company that built a business out of "viatical settlements" — buying the right to collect a terminally ill or elderly person's life insurance death benefit, in exchange for paying that policyholder a lump sum while they were still alive, and then selling fractional interests in that future payout to outside investors. From October 1994 through roughly May 2004, Lombardi and other MBC principals sold these investment interests to the general public nationwide, pitching them as safe, fixed-return investments backed by real insurance policies.
 
 The fraud lived in the fine print investors never got to see: MBC assigned fraudulently short life-expectancy estimates to the insureds whose policies it was reselling, which let the company understate how long it would need to keep paying each policy's ongoing premiums and overstate how soon investors would be paid off. When insureds lived well past their rigged estimates, the premium reserves MBC had set aside for each investor pool fell short, and the company covered the gap by taking money from newly sold policies to pay premium obligations on older, unmatured ones — a Ponzi structure dressed up as an insurance product. An international network of sales agents and marketing directors kept new investor money flowing in by misrepresenting how safe and well-funded the investments actually were.
@@ -8037,6 +8041,10 @@ NotoriousNS.push({
     slug: 'oswald-lutepo-malawi-cashgate-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'historical', 'government-fraud', 'corruption', 'malawi'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/National_Bank_of_Malawi_in_Lilongwe_2018-Aug.jpg?width=1200',
+    coverImageCredit: 'Photo: Nesnad (CC BY-SA 4.0) — a bank in Lilongwe, Malawi, where the Cashgate scandal unfolded',
+    coverImagePosition: 50,
     body: `Oswald Lutepo was a senior official in Malawi's ruling People's Party and the man behind International Procurement Services, a company that existed mainly on paper. In September 2013, Malawi's government was rocked by what became known as the "Cashgate" scandal after an accounts assistant in the Environment Ministry was found with roughly $300,000 in cash in the trunk of his car, and the Ministry of Finance's budget director was shot and wounded outside his home days later. What followed was the unraveling of the biggest financial scandal in Malawi's history.
 
 The mechanism exploited a known weakness in Malawi's Integrated Financial Management Information System (IFMIS): officials and their outside accomplices set up ghost companies, submitted vouchers for goods and services that were never delivered to government ministries, approved the fraudulent payments themselves, and then deleted the transactions from the system to cover their tracks. Lutepo's International Procurement Services was one of the vehicles used to receive these payments; a forensic audit later found that one official alone had approved vouchers worth roughly $2.3 million to his company.

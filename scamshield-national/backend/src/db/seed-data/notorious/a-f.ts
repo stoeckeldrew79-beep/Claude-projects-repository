@@ -11198,6 +11198,10 @@ NotoriousAF.push({
     slug: 'alexander-burns-southport-lane-insurance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'insurance-fraud', 'sec-enforcement'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0) — the Manhattan federal courthouse where the SEC filed its case against Burns',
+    coverImagePosition: 50,
     body: `Alexander Burns built Southport Lane Management, LLC, a New York private equity firm, around a strategy that gave him something unusual for a thirty-something financier: direct control over other people's insurance companies. Through Southport Lane Advisors, LLC, a subsidiary registered as an investment adviser from February 2013 to March 2014, Burns's firm didn't just invest alongside small insurers, it became the entity making investment decisions for their portfolios and their related reinsurance trusts.
 
 That access, the SEC alleges, is what let the scheme work. From March 2013 to February 2014, Burns used fraudulent transactions, recommended through Southport Lane Advisors, to move the insurers' investable cash — assets meant to sit safely behind the promises made to policyholders — into illiquid, overvalued securities that he and his circle controlled. Co-owner and chief financial officer Andrew Scherr, the SEC separately alleged, acquired and helped price those replacement assets while knowing Burns intended to resell them to the advisory firm's own clients, the very insurance companies Southport Lane was supposed to be protecting.
@@ -11410,6 +11414,10 @@ NotoriousAF.push({
     slug: 'ellen-polcari-venture-capital-fund-embezzlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'embezzlement', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Securities_and_Exchange_Commission_headquarters.JPG?width=1200',
+    coverImageCredit: 'Photo: AgnosticPreachersKid (CC BY-SA 3.0) — SEC headquarters, which brought the civil complaint against Polcari',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26642',
     body: `Note: this case is a civil enforcement action. The Securities and Exchange Commission's complaint describes allegations only — Ellen Polcari has not been criminally charged, and no court has found her liable as of this writing.
 
@@ -11445,6 +11453,10 @@ NotoriousAF.push({
     slug: 'amon-aboua-acu-tax-services-refund-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'tax-fraud', 'wire-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sioux_Falls_Skyline_2023.jpg?width=1200',
+    coverImageCredit: 'Photo: Maxpower2727 (CC BY-SA 4.0) — Sioux Falls, South Dakota, where Aboua ran ACU Tax Services',
+    coverImagePosition: 50,
     body: `Amon Eustache Aboua ran a small Sioux Falls, South Dakota tax-preparation business called African Communities United, doing business as ACU Tax Services. Between February 2018 and April 2019, according to the U.S. Attorney's Office for the District of South Dakota, Aboua prepared and filed federal income tax returns for more than 20 clients that falsified deductions to lower their taxable income and the taxes they owed — deductions the clients themselves had never supplied or claimed. The IRS ultimately identified several hundred returns tied to Aboua and his business that claimed inflated deductions during the period covered by the charges.
 
 The scheme worked because Aboua's clients had no reason to scrutinize numbers prepared by someone they'd hired specifically for his tax expertise. Rather than simply preparing honest returns for a fee, prosecutors said, Aboua invented deduction figures that drove up refunds beyond what his clients were legitimately owed — padding the government's payout on returns his clients signed without necessarily realizing what had been added to them, and enriching himself in the process at the government's expense rather than theirs.
