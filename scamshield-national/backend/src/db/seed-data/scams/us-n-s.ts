@@ -12177,6 +12177,34 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Fake Sheriff Jury Duty Warrant Scam (Rhode Island)',
+    slug: 'ri-fake-sheriff-jury-duty-warrant-scam',
+    description: `A caller identifying himself as "Sergeant Bradley" and claiming to represent a "Washington County," "South County," or "Newport County Sheriff's Office" told Rhode Island residents they had a warrant out for failing to appear for jury duty, would face a felony charge, and would be held for 30 days before appearing before a named judge unless they paid immediately with a prepaid debit card. One victim paid more than $900 over the phone; another was told to meet "Sergeant Bradley" in person at the Washington County Courthouse with $300 in hand. Attorney General Peter F. Kilmartin and Division of Sheriffs Chief David DeCesare issued a joint warning pointing out the scheme's built-in tell: Rhode Island has no county-based sheriff's departments at all, the Jury Commissioner only summons jurors by mail, and no Rhode Island agency accepts bail or fines over the phone by prepaid card. The case was referred to South Kingstown Police and the Rhode Island State Police for investigation. Anyone who receives a call like this should hang up, never pay or share personal information over the phone, and report it to Rhode Island State Police — a real warrant is never resolved by reading a prepaid-card number to a caller or meeting a stranger at a courthouse with cash.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    isHistorical: true,
+    firstRecorded: '2015-10-22',
+    sources: ['Rhode Island Office of the Attorney General', 'Rhode Island Division of Sheriffs'],
+    sourceUrl: 'https://apps.ri.gov/press/view/26093',
+    country: 'US',
+    state: 'RI',
+});
+
+UsNS.push({
+    name: 'National Grid Prepaid-Card Shutoff Scam (Rhode Island)',
+    slug: 'ri-national-grid-prepaid-card-shutoff-scam',
+    description: `Callers posing as National Grid representatives told Rhode Island small-business owners their electricity would be shut off immediately over a past-due balance unless they paid right away, directing them to buy a prepaid Green Dot card, then call a number provided and read out the card's account information to "process" the payment. The callback number was designed to sound like a legitimate National Grid line, and the callers sometimes already knew real account details — including the account number and the amount and date of the last payment — which made the threat feel credible to targets. At least two small-business owners lost hundreds of dollars each before the Rhode Island Attorney General's office issued a public warning. National Grid does sometimes call customers with a past-due balance to discuss payment options, but the company does not demand payment over the phone and never requires a prepaid debit card specifically; any call demanding an immediate Green Dot or prepaid-card payment to avoid disconnection should be treated as fraudulent regardless of what account details the caller seems to already know. Businesses contacted this way are advised to hang up and call National Grid directly using the number on a real past bill, and to report the attempt to the FBI's Internet Crime Complaint Center (IC3.gov).`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2014-12-16',
+    sources: ['Rhode Island Office of the Attorney General'],
+    sourceUrl: 'https://apps.ri.gov/press/view/23584',
+    country: 'US',
+    state: 'RI',
+});
+
+UsNS.push({
     name: 'AI Voice-Cloning Scam Calls Targeting CNMI Elders (DOCOMO Pacific Alert)',
     slug: 'cnmi-docomo-pacific-ai-voice-cloning-elder-scam',
     description: `On March 12, 2025, telecom carrier DOCOMO Pacific — which serves both Guam and the Commonwealth of the Northern Mariana Islands — issued a public service announcement warning customers that scammers are using artificial intelligence to clone the voices of family members, with a disturbing focus on targeting elderly residents the Marianas community calls "Manåmko'." According to the announcement, fraudsters spoof caller ID, draw on personal details harvested from social media to sound convincingly familiar, invoke a fabricated "gag order" or urgency ("don't tell mom and dad") to pressure the victim into secrecy, and then push for payment through gift cards, wire transfers, money orders, or payment apps — methods that are difficult or impossible to reverse once sent. DOCOMO Pacific's notice specifically listed its CNMI customer-service line, confirming the warning applies territory-wide and not just to Guam, and the carrier's core advice mirrors what law enforcement elsewhere recommends for AI voice-cloning scams generally: if a call claims to be a distressed family member, hang up and call that person back directly using a known, trusted number, rather than continuing the conversation with whoever is on the line. The announcement directs residents to report suspicious calls to the FCC, and its citation of a separate case — 25 Canadian nationals charged with orchestrating a similar elder-targeting voice scam across more than 40 US states — underscores that this is a nationally organized scam pattern that has specifically reached the CNMI, not an isolated local incident.`,
