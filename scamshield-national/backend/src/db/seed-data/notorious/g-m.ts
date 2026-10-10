@@ -6900,10 +6900,9 @@ NotoriousGM.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ippei_Mizuhara_(48035187472).jpg?width=1200',
-    coverImageCredit: 'Moto "Club4AG" Miwa, CC BY 2.0, via Wikimedia Commons',
+    coverImageCredit: 'Photo: Moto "Club4AG" Miwa (CC BY 2.0), via Wikimedia Commons — Mizuhara at Angels vs. Mariners, Anaheim Stadium, 2019',
     coverImagePosition: 50,
     sourceUrl: 'https://www.ice.gov/news/releases/former-major-league-baseball-interpreter-sentenced-57-months-imprisonment-following',
-    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
     body: `For six years, Ippei Mizuhara was less an interpreter than an inseparable fixture in Shohei Ohtani's American life — translating the two-way baseball star's interviews, managing his schedule, and standing beside him at press conferences from Ohtani's 2018 rookie season with the Los Angeles Angels through his record $700 million contract with the Los Angeles Dodgers. That closeness, prosecutors later said, is exactly what let Mizuhara quietly drain nearly $17 million from Ohtani's own bank account over more than two years without his employer ever noticing.
 
 According to the Justice Department, Mizuhara obtained the password to a bank account he had helped Ohtani set up, then changed the account's registered phone number and email address to his own — ensuring that any call or verification request meant for Ohtani would instead reach Mizuhara. Between November 2021 and March 2024, prosecutors say he impersonated Ohtani on the phone with bank representatives roughly two dozen times to authorize wire transfers, funneling the stolen money to an illegal bookmaking operation to cover his own sports-gambling debts. Along the way, Mizuhara also charged $60,000 in unauthorized dental work to the account in September 2023, and between January and March 2024 spent roughly $325,000 of the stolen funds buying baseball trading cards that he resold for profit. Separately, prosecutors charged him with subscribing to a false 2022 tax return that reported just $136,865 in income while concealing more than $4.1 million he had actually earned that year.
@@ -11358,6 +11357,10 @@ NotoriousGM.push({
     slug: 'james-guerin-isc-ferranti-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ferranti_House_-_geograph.org.uk_-_563543.jpg?width=1200',
+    coverImageCredit: 'Photo: Keith Williamson (CC BY-SA 2.0) — Ferranti House, headquarters of Ferranti Ltd from 1897 until 1994',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `James Guerin founded International Signal and Control (ISC) in Lancaster County, Pennsylvania, building it into what appeared to be a fast-growing, profitable defense-electronics exporter. On paper, ISC's business consisted of a stream of international contracts; in reality, those contracts were fabricated and padded out with circular cash transfers designed to make the company look like a thriving, diversified business. ISC's real revenue came from a very different, concealed source: illegal arms sales, including missile tracking and guidance components sent to apartheid-era South Africa between 1984 and 1988, conducted at the behest of U.S. clandestine organizations — some of the underlying technology reportedly reached Iraq, including cluster-munition specifications later used against coalition forces in the 1991 Gulf War.
 
 In November 1987, the British conglomerate Ferranti plc — one of the UK's most storied defense and electronics manufacturers — acquired ISC and rebranded the combined business Ferranti International plc. The acquisition proved fatal almost by design: once Ferranti's ownership made continuing the illegal arms trafficking impossible, ISC's only real cash flow disappeared, leaving nothing behind but the fictitious paper business Guerin had built to disguise it.
@@ -11375,6 +11378,10 @@ NotoriousGM.push({
     slug: 'jacobowitz-family-allou-healthcare-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Windows_on_the_Brooklyn_Waterfront_(53722902418).jpg?width=1200',
+    coverImageCredit: 'Photo: joiseyshowaa / Wikimedia Commons (CC BY-SA 2.0) — a Brooklyn waterfront warehouse, near where Allou\'s own warehouse operation was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Allou Health & Beauty Care — later Allou Healthcare, Inc. — was a Brooklyn, New York wholesale distributor of pharmaceuticals and health-and-beauty products, run for decades by the Jacobowitz family: Victor Jacobowitz chaired the company's board, his sons Herman and Jacob Jacobowitz served as CEO and executive vice president, and a fourth relative, Aaron Jacobowitz, managed a web of family-controlled affiliated companies. Beginning in the 1990s, the family turned Allou's asset-based credit facility — which let the company borrow against a percentage of its reported accounts receivable and inventory value — into the engine of a decade-long fraud, falsifying accounting records and earnings reports and materially overstating revenue and inventory to meet lenders' and Wall Street's expectations.
 
 The mechanism was straightforward in design and massive in scale: executives recorded sales and inventory that did not exist, then moved cash in a circular pattern through the family-controlled affiliated entities Aaron Jacobowitz managed, disguised as payments for nonexistent inventory purchases, to make the fabricated numbers appear to clear as real transactions — while personally siphoning millions of dollars from the company in the process.
@@ -11432,6 +11439,10 @@ NotoriousGM.push({
     slug: 'van-brink-first-international-bank-grenada-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'ponzi-scheme', 'bank-fraud', 'bribery'],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/St._George's_Carenage_(46896432072).jpg?width=1200",
+    coverImageCredit: "Photo: David Stanley (CC BY 2.0) — the Carenage in St. George's, Grenada, where Ziegler's First International Bank of Grenada was chartered",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Gilbert Allen Ziegler, a U.S. national operating under the alias "Van Arthur Brink," bought a Grenadian offshore banking license in 1997 for just $50,000 and used it to found the First International Bank of Grenada (FIBG), which operated from roughly 1996 to 2000. FIBG offered investors annual returns as high as 300%, telling them their deposits were "100% guaranteed" by a phony entity called the "International Deposit Insurance Corporation" — which Brink himself controlled — and that the bank's obligations were backed by billions of dollars in assets, including a roughly four-pound, 10,000-carat ruby the bank claimed was worth $20 million. The ruby was real, but it belonged to an unrelated person in California who had never heard of Brink or his bank.
 
 The bank's real business was simpler than any of that: it took in money from thousands of investors, mostly in the U.S. and Canada, and paid "interest" to existing depositors out of money collected from newer ones, a straightforward Ponzi structure dressed up with a fabricated regulatory and asset backstop. Brink and his associates also built a web of related shell entities, including a second fake bank called Fidelity International Bank and more than a dozen subsidiary operations, apparently to make the whole structure harder for investigators and investors alike to trace. Investigative journalist David Marchant, publisher of the offshore-finance newsletter OffshoreAlert, was the first to expose the scheme publicly, and Grenada's government shut FIBG down in the summer of 2000. Estimates of the fraud's scale vary by measure — reported figures include roughly $170 million taken from investors, a $206 million scope cited in the eventual federal indictment, and $473 million in claims filed during the bank's liquidation — but all point to one of the larger offshore banking frauds of its era.
@@ -11527,6 +11538,10 @@ NotoriousGM.push({
     slug: 'michael-baker-arthrocare-discocare-channel-stuffing',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'securities-fraud', 'corporate-fraud', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Austin,_Texas.jpg?width=1200',
+    coverImageCredit: 'Photo: Quintin Soloviev (CC BY 4.0) — the Austin, Texas skyline, where ArthroCare was headquartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Michael Baker was CEO and Michael Gluk was CFO of ArthroCare Corporation, an Austin, Texas maker of arthroscopic surgical devices, during a mid-2000s run when the company could not consistently meet Wall Street's earnings expectations. Rather than disclose the shortfall, prosecutors said ArthroCare executives decided quarterly how much product to ship to distributors based on what the company needed to hit its sales forecasts rather than what those distributors had actually ordered — "parking" millions of dollars in surgical devices at distributors' facilities and booking the shipments as real revenue. DiscoCare, a reimbursement-services company that became ArthroCare's largest distributor, took on tens of millions of dollars in product under extended payment terms and upfront cash commissions, letting ArthroCare borrow against future quarters.
 
 The scheme deepened when ArthroCare acquired DiscoCare outright for $25 million in cash, a deal announced in January 2008 that prosecutors said was designed specifically to conceal the nature and financial significance of ArthroCare's relationship with its own distributor. Media reports began raising accounting questions around the same time, prompting ArthroCare's audit committee to commission an independent forensic investigation by the law firm Latham & Watkins. The company ultimately restated its earnings and its stock collapsed; at sentencing, a federal court found that the scheme, which ran from roughly 2005 to 2009, had cost shareholders more than $750 million.
@@ -11544,6 +11559,10 @@ NotoriousGM.push({
     slug: 'marc-hermelin-kv-pharmaceutical-oversized-morphine',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'healthcare-fraud', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gateway_Arch_-_St._Louis,_Missouri_-_7683314512.jpg?width=1200',
+    coverImageCredit: 'Photo: Dougtone (CC BY-SA 2.0) — the Gateway Arch in St. Louis, where KV Pharmaceutical was headquartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Marc S. Hermelin was chairman and CEO of KV Pharmaceutical Company, a St. Louis generic-drug manufacturer that pushed production sharply upward between 2006 and 2008 — daily output rose from an average of roughly 4.1 million doses in 2006 to about 10.6 million doses by April 2008 — without quality control keeping pace. The company's subsidiary, Ethex Corporation, began shipping dangerously mis-dosed extended-release morphine sulfate tablets, falsely labeled as having the same strength as regular tablets when they in fact contained more of the active ingredient: a pharmacist in California received a tablet weighing more than twice its labeled weight, and a Canadian drug distributor received one that was oversized as well. Regulators and prosecutors treated the pattern as a broader quality-control fraud, since Ethex separately failed to file legally required "field alert reports" telling the FDA that other drugs did not meet manufacturing specifications.
 
 In March 2010, Ethex Corporation pleaded guilty to two felonies for failing to report the out-of-spec drugs to the FDA. In October 2010, the Department of Health and Human Services' Office of Inspector General excluded Hermelin from participating in federal health care programs under its "responsible corporate officer" exclusion authority — a notable move because he was not personally accused of ordering the mislabeling, only of holding ultimate responsibility as the company's chief executive. In March 2011, Hermelin personally pleaded guilty to two misdemeanor violations of the Food, Drug and Cosmetic Act, and was sentenced to one month in prison, a $1 million fine, and forfeiture of $900,000.
@@ -11615,6 +11634,10 @@ NotoriousGM.push({
     slug: 'manny-lee-kreitenberg-staged-accident-insurance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'insurance-fraud', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Beverly_Hills_City_Hall.jpg?width=1200',
+    coverImageCredit: 'Photo: Reubenzadeh (CC BY-SA 3.0) — Beverly Hills City Hall, where Kreitenberg practiced law',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Manny Lee Kreitenberg was a Beverly Hills attorney who, through the 1990s, built and ran an organized ring of doctors, lawyers, and "cappers" — paid recruiters who solicit accident victims or stage the accidents themselves — to defraud auto insurers through staged traffic collisions. The scheme's signature tactic specifically targeted elderly drivers: ring members would deliberately slam on their brakes to cause rear-end collisions, then, while exchanging insurance information with their shaken, often confused victims, sometimes stole cash or credit cards directly from them during the staged aftermath.
 
 Kreitenberg's group staged hundreds of collisions over the course of the operation, generating more than $5 million in fraudulent insurance claims, extracted through fabricated medical treatment records, inflated injury claims, and legal billing submitted by the ring's own doctors and lawyers to insurers who had no easy way to distinguish the staged accidents from real ones. The scheme was investigated jointly by the Los Angeles Police Department, the National Insurance Crime Bureau, and the California Department of Insurance's Fraud Division, and prosecuted by the Los Angeles County District Attorney's Automobile Insurance Fraud Division.
@@ -11649,6 +11672,10 @@ NotoriousGM.push({
     slug: 'luis-nobre-house-of-aragon-vatican-trading-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'money-laundering'],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/St_Peter's_Square,_Vatican_City_-_April_2007.jpg?width=1200",
+    coverImageCredit: 'Photo: David Iliff (CC BY-SA 3.0) — St. Peter\'s Square, Vatican City, the fictitious institution Nobre and his co-conspirators invoked to lend the fraud credibility',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `In 2011, Allseas Group — the Swiss-headquartered offshore construction and shipping company owned by Dutch billionaire Edward Heerema — was looking to raise €100 million to finance new ship construction. Through an intermediary, the company was introduced to a network of self-described financiers, led by a Polish national, Marek Rejniak, and a British associate, Paul Sultana, who claimed access to an exclusive "tier 1" trading program: discounted medium-term notes supposedly issued by the US Federal Reserve, tradeable for returns so extraordinary that Allseas's money could, they claimed, grow to as much as €1.3 billion within thirteen months, with "zero risk."
 
 As Allseas's own lawyers and accountants pressed for details, the story escalated rather than collapsed. After being appointed an Allseas director in mid-2011, Rejniak created forged documents using the company's own corporate seal to claim that a "trading platform" tied to the Vatican and a supposed historic entity called the "Royal House of Aragon" required total secrecy and sole control of the funds before any profit could be released — a fictitious institution a UK High Court judge later found no evidence anywhere ever existed. Sultana, who presented himself to Allseas as connected to the UN and Vatican, directed the company toward Malta banking arrangements and gave detailed but ultimately meaningless technical explanations that the court found were designed to confuse rather than inform. Portuguese national Luis Nobre, who presented himself as an international trader with his own Vatican ties — later described in UK press coverage as a man posing as "the Pope's banker" — became the figure who actually took custody of the money once it moved.
@@ -11704,6 +11731,10 @@ NotoriousGM.push({
     slug: 'henri-rochette-french-ponzi-scheme-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palais_Brongniart_Facade.jpg?width=1200',
+    coverImageCredit: 'Photo: Arthur Weidmann (CC BY-SA 4.0) — the Palais Brongniart, home of the Paris Bourse where Rochette\'s mining-share companies were traded',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `In the first decade of the 20th century, Henri Rochette was one of the most powerful private financiers in Paris. Starting with a banking house he founded in 1904, the Société générale du crédit minier et industriel, he launched nine more companies between 1905 and 1909, most of them built around mining ventures whose underlying assets were, to put it generously, thin.
 
 What made Rochette's companies work wasn't mining revenue. Rather than fund dividends to his shareholders out of real earnings, Rochette paid them out of the proceeds of the next round of share sales — a structure now instantly recognizable as a Ponzi scheme, run roughly a decade before Charles Ponzi's own postal-coupon scheme gave that pattern its name. Across his ten companies, Rochette's operation issued an estimated 120 million francs in securities to the French public — roughly 0.3 percent of France's entire GDP that year — while his bookkeeping presented inflated capital contributions and falsified balance sheets to keep the story credible; his flagship company alone spent nearly 500,000 francs on publicity in the first three months of 1908, about 10 percent of what it expected to raise from the public.
@@ -11742,6 +11773,10 @@ NotoriousGM.push({
     slug: 'michael-williams-cmi-capital-law-enforcement-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Port_St._Lucie_City_Hall.jpg?width=1200',
+    coverImageCredit: 'Photo: Birbie28 (CC BY-SA 4.0) — Port St. Lucie City Hall, in the Florida city where Williams and CMI Capital were based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2026-92-sec-charges-south-florida-resident-his-company-alleged-investment-scheme-defrauding-law-enforcement',
     body: `Note: this case is a civil enforcement action. The Securities and Exchange Commission's complaint describes allegations only — Michael D. Williams has not been criminally charged, and neither he nor CMI Capital, LLC has been found liable by a court as of this writing.
 
@@ -11896,6 +11931,10 @@ NotoriousGM.push({
     slug: 'jan-van-vlijmen-klimop-bouwfonds-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'corruption'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Zuidas.jpg?width=1200',
+    coverImageCredit: 'Photo: Massimo Catarinella (CC BY-SA 3.0) — Amsterdam\'s Zuidas financial district',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Jan van Vlijmen was a director at Bouwfonds, then one of the Netherlands' largest property developers and owned by Rabobank, and a central figure in the property investment arm of the Philips pension fund. From roughly 1995 to 2007, van Vlijmen ran what Dutch investigators came to call the "Klimop" (Ivy) affair: a kickback-and-bribery scheme in which pension fund and development insiders traded confidential deal information and bought and sold properties among themselves at manipulated, below-market prices, pocketing the difference while the pension fund and Bouwfonds absorbed the loss.
 
 The scheme eventually drew the attention of the Fiod-ECD, the Dutch tax and economic-crime investigation service, which came to call it the biggest case in the agency's history. Investigators tapped roughly 70,000 phone calls and conducted covert surveillance, including at a hotel in Den Bosch where suspects met to coordinate, before a coordinated raid in November 2007 sent more than 600 officers into 67 locations across the country. The investigation ultimately named around 50 suspects connected to the scheme, with combined losses to Bouwfonds and the Philips pension fund estimated at roughly €250 million.
@@ -11930,6 +11969,10 @@ NotoriousGM.push({
     slug: 'michael-winans-jr-oil-bond-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'affinity-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Baltimore_Skyline_2007.jpg?width=1200',
+    coverImageCredit: 'Photo: Steelplug / Wikimedia Commons (public domain) — Baltimore, near Jessup, Maryland, where Winans ran the scheme',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Michael Winans Jr., a third-generation member of the famous Winans gospel music family — grandson of Delores "Mom" Winans and David "Pop" Winans Sr., son of Michael Winans Sr. of the gospel quartet The Winans — used his family's name and standing inside church communities to promote an investment scheme through the Winans Foundation Trust, which he represented as a vehicle that invested in Saudi Arabian crude oil bonds. No such bonds existed. Operating out of Jessup, Maryland, Winans promised investors roughly 100 percent returns within about 60 days, a guarantee pitched heavily through church pulpits and gospel-community networks that trusted the Winans name.
 
 Between 2007 and 2008, more than 1,000 investors put money into the scheme, drawn by the promised returns and the credibility lent by Winans's gospel-music pedigree. As with any Ponzi scheme, there was no legitimate investment generating the promised returns; Winans used money from newer investors to pay off earlier ones, while also converting a portion of investor funds to his own personal use. The scheme raised approximately $8 million in total, and by the time it collapsed roughly 600 investors were still owed a combined $4.7 million.
@@ -11964,6 +12007,10 @@ NotoriousGM.push({
     slug: 'michael-conner-lake-george-patent-investor-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'wire-fraud', 'tax-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lake_George_from_village_beach.jpg?width=1200',
+    coverImageCredit: 'Photo: Daniel Case (CC BY-SA 3.0) — Lake George, New York, where Conner ran his fraud for 15 years',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.irs.gov/node/165046',
     body: `Michael Conner held himself out as a successful inventor of household goods, claiming patents on products that included a paint-holding device he called the "Paint Caddy," a knife with a heated blade, and a rotatable refrigerator shelf. Beginning around 2008, first while living in Virginia and later after moving to Lake George and Warren County, New York, Conner used that inventor persona to persuade friends, acquaintances, and strangers to lend him money, telling them their loans would fund the marketing and sale of his patents or help close pending business deals. He never sold a single patent and never earned a dollar of revenue from any of his inventions.
 

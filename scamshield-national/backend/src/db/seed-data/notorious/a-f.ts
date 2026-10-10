@@ -11397,6 +11397,10 @@ NotoriousAF.push({
     slug: 'david-reichman-global-tech-industries-share-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'securities-fraud', 'public-company'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_007.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182, CC BY 4.0, via Wikimedia Commons — the Thurgood Marshall U.S. Courthouse in Manhattan, home of the Southern District of New York, where the SEC filed its complaint against Reichman',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26664',
     body: `Note: this case is a civil enforcement action. The Securities and Exchange Commission's complaint describes allegations only — David Reichman has not been criminally charged, and neither he nor the relief defendants have been found liable by a court as of this writing.
 
