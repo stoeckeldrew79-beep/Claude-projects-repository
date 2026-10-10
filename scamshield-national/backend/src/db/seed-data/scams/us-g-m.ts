@@ -13282,3 +13282,41 @@ UsGM.push({
     state: 'MO',
     firstRecorded: '2026-01-28',
 });
+
+UsGM.push({
+    name: 'Iowa Workers\' Compensation Fake Hearing and Fake Award Advance-Fee Scam',
+    slug: 'iowa-workers-compensation-fake-hearing-award-scam',
+    description: `Iowa's Department of Inspections, Appeals, and Licensing (DIAL) warned that scammers are targeting injured workers pursuing workers' compensation claims by impersonating state authorities. In one confirmed case, an injured worker received a letter forged on fake DIAL letterhead and was walked through what appeared to be a legitimate administrative hearing; the scammers then told him he had been awarded more than $180,000 in benefits, but that a "decision" letter required him to pay a $6,000 fee upfront before he could access the funds. DIAL confirmed both the hearing and the award were entirely fabricated and said the warning signs include a demand for payment in advance, pressure to act immediately, and letters or emails on fake official letterhead. The department stressed that no legitimate state workers' compensation proceeding ever requires an upfront payment to release benefits, and advised anyone contacted this way to verify directly with DIAL and report the attempt to the Iowa Attorney General's Consumer Protection Division.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Iowa Department of Inspections, Appeals, and Licensing (DIAL)', 'KCRG'],
+    sourceUrl: 'https://www.kcrg.com/2026/08/31/department-inspections-appeals-licensing-warning-public-workers-compensation-scams/',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2026-08-31',
+});
+
+UsGM.push({
+    name: 'Iowa Medicare Premium-Withholding Social Security Number Phone Scam',
+    slug: 'iowa-medicare-premium-withholding-ssn-phone-scam',
+    description: `The Iowa Insurance Division's Senior Health Information/Senior Medicare Patrol program warned Iowa Medicare beneficiaries about callers posing as Medicare plan representatives who claim a Social Security number is required to set up premium withholding from a person's Social Security payments. Program director Kristin Griffith said callers may spoof caller ID and use high-pressure tactics, including threatening to cancel coverage unless the person complies immediately. In reality, Medicare Advantage and Part D prescription drug plans can set up premium withholding without ever needing a Social Security number, so a caller who insists otherwise is a red flag; anyone asked to provide one on an unsolicited call to a Medicare plan "representative" should instead hang up and call the number on the back of their member card, or ask to speak with a supervisor and file a grievance if a legitimate plan representative insists.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Iowa Insurance Division — Senior Health Information/Senior Medicare Patrol Program', 'KCRG'],
+    sourceUrl: 'https://www.kcrg.com/2025/12/04/scam-alert-callers-requesting-social-security-numbers-iowa-medicare-beneficiaries',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2025-12-04',
+});
+
+UsGM.push({
+    name: 'Iowa Holiday "Failed Delivery" Phishing Scam',
+    slug: 'iowa-ag-holiday-failed-delivery-phishing-scam',
+    description: `Iowa Attorney General Brenna Bird's office issued holiday-season consumer guidance warning Iowans to beware of "order confirmation" or "failed delivery" phishing texts and emails. The messages claim there's a problem with a package delivery and ask the recipient to click a link and submit personal or payment information in order to release the order; clicking through or entering information hands scammers exactly what they need to commit fraud. The office's broader holiday-season guidance, issued alongside other Black Friday and Cyber Monday shopping-scam warnings, advises never sending private information to an unverified sender, avoiding suspicious links from unknown senders, and paying with a credit card rather than a debit card or gift card when shopping online for stronger fraud protection.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'low',
+    sources: ["Iowa Attorney General's Office (Brenna Bird)"],
+    sourceUrl: 'https://www.iowaattorneygeneral.gov/newsroom/attorney-general-bird-warns-iowans-tis-the-season-for-scams',
+    country: 'US',
+    state: 'IA',
+});
