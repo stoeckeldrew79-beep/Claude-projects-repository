@@ -12653,3 +12653,80 @@ UsNS.push({
     state: 'NV',
     firstRecorded: '2026-05-14',
 });
+
+UsNS.push({
+    name: 'NIPR Invoice Phishing Scam Targeting Oklahoma Insurance Producers',
+    slug: 'oklahoma-nipr-invoice-phishing-insurance-producers',
+    description: `The Oklahoma Insurance Department issued a Special Notice on April 15, 2026 warning all state-licensed insurance producers about an active phishing campaign impersonating the National Insurance Producer Registry (NIPR). The fraudulent emails reference a past-due invoice supposedly owed to NIPR and spoof trusted sender domains including @nipr.com, @naic.org, and @stripe, pressuring recipients to click an embedded link or submit payment; the messages were not actually sent from any official NIPR email address or account. OID's notice, issued jointly with NIPR and the NAIC, instructs producers to take no action on an unexpected invoice email — not opening attachments, clicking links, or submitting payment — and to verify any genuine NIPR billing question directly with niprbillingdept@nipr.com before responding.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Oklahoma Insurance Department', 'National Insurance Producer Registry (NIPR)'],
+    sourceUrl: 'https://www.oid.ok.gov/special-notice-05-2026/',
+    country: 'US',
+    state: 'OK',
+    firstRecorded: '2026-04-15',
+});
+
+UsNS.push({
+    name: 'Select Auto Protect Unlicensed Vehicle Service Contract Scheme (Oklahoma)',
+    slug: 'oklahoma-select-auto-protect-unlicensed-warranty-scam',
+    description: `The Oklahoma Insurance Department issued a cease-and-desist order on January 24, 2025 against Select Auto Inc., doing business as Select Auto Protect, after an investigation opened on consumer complaints found the company was selling auto warranty contracts to Oklahomans without the state authorization required to do so. The order barred the company from any further sales activity in Oklahoma effective immediately, on the position that "any entity offering auto warranty contracts to consumers in Oklahoma must be properly authorized by the OID." OID's consumer guidance is to verify a seller's licensing status through the Department's free online lookup before paying for any auto warranty, vehicle service contract, or insurance-like product, and to report suspected unlicensed sales activity to the Department directly.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Oklahoma Insurance Department'],
+    sourceUrl: 'https://www.oid.ok.gov/release_012425/',
+    country: 'US',
+    state: 'OK',
+    firstRecorded: '2025-01-24',
+});
+
+UsNS.push({
+    name: 'Progressive Legal Group Fake Debt-Collection Scare-Tactic Scam (Oklahoma)',
+    slug: 'oklahoma-progressive-legal-group-debt-collection-scam',
+    description: `The Better Business Bureau serving Central Oklahoma investigated a scheme in which an outfit calling itself "Progressive Legal Group" mailed and emailed Oklahoma City-area residents letters demanding payment on debts, each loaded with real personal data about the recipient — correct name, phone number, Social Security number, credit score — and threatening a lawsuit, a court appearance, and subpoenas against named family members if the debt went unpaid. BBB President and CEO Kitt Letcher said some of the "family members" named in the letters had actually died, and the lenders the letters claimed to represent had no record of ever extending a loan to the people being targeted; the BBB suspects the scammers obtained victims' personal information from a data leak. The BBB tied roughly 90 Oklahoma City-area victims to the scheme over about three months, with 69 new claims filed in just the two weeks before its report, and noted payment was directed to a P.O. box with no way to reach a live person to dispute the claim. Recipients are advised to check their credit reports, consider a credit freeze, and report the letters through BBB Scam Tracker rather than paying.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau serving Central Oklahoma', 'KJRH'],
+    sourceUrl: 'https://kjrh.com/news/local-news/central-oklahoma-bbb-investigating-new-scare-tactic-scam',
+    country: 'US',
+    state: 'OK',
+});
+
+UsNS.push({
+    name: 'Miracle House of Hope Ministries Illegal Charity Solicitation Scam (South Carolina)',
+    slug: 'south-carolina-miracle-house-hope-ministries-charity-scam',
+    description: `South Carolina's Secretary of State's Office, which registers charitable solicitors under state law, issued a scam alert warning that Miracle House of Hope Ministries — a Charlotte, NC group that claims to help homeless addicts — has been barred from soliciting in South Carolina since a March 2019 injunction by the state's Administrative Law Court, issued after the group failed to register as a charity or file required annual financial reports. In November 2019 the court held the group in contempt for repeatedly violating that injunction and issued a bench warrant for its CEO, Bruce Little, and the group separately owes $12,000 in civil fines to the Secretary of State's Office. Despite the ban, the office received reports that the group's representatives were approaching drivers at intersections in Richland and Lexington counties, handing out flyers and collecting cash whose ultimate destination cannot be verified since no financial reports are filed. Secretary of State Mark Hammond said the group continues soliciting "despite being banned," and the office urged residents not to give money to street solicitors claiming to represent the group and to verify any charity's South Carolina registration before donating.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["South Carolina Secretary of State's Office"],
+    sourceUrl: 'https://sos.sc.gov/news/2022-02/scam-alert-miracle-house-hope-ministries-illegally-soliciting-south-carolina',
+    country: 'US',
+    state: 'SC',
+    isHistorical: true,
+    firstRecorded: '2022-02-24',
+});
+
+UsNS.push({
+    name: 'South Carolina Summer Vacation Rental Listing Scam',
+    slug: 'south-carolina-summer-vacation-rental-scam',
+    description: `The South Carolina Department of Consumer Affairs issues a recurring summer travel-season advisory warning about hijacked and fake vacation-rental listings. Scammers copy a real rental or real-estate listing — photos, description, address — and repost an edited version of it on a different site, luring a vacationer into paying a deposit for a property that turns out to be unavailable, nonexistent, or already occupied by someone else on arrival. The June 2026 version of the alert advises researching a rental by reading reviews and searching for the same listing posted under a different name or site, and warns never to wire transfer money or pay with an unusual payment method like cryptocurrency or a gift card, since a credit card offers far stronger fraud protection; SCDCA's Identity Theft Unit can be contacted directly if a consumer believes they've been victimized.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['South Carolina Department of Consumer Affairs'],
+    sourceUrl: 'https://consumer.sc.gov/news/2026-06/dont-get-burned-scams-during-your-summer-vacation',
+    country: 'US',
+    state: 'SC',
+    firstRecorded: '2026-06-30',
+});
+
+UsNS.push({
+    name: 'South Carolina Grandparent Emergency Scam',
+    slug: 'south-carolina-grandparent-emergency-scam',
+    description: `The South Carolina Department of Consumer Affairs' "Grandparent Scams" consumer spotlight describes an unexpected call or email from someone claiming to be a friend or relative, sometimes opening with a line like "Hi Grandma/Grandpa! Do you know who this is?" — hoping the victim will respond with a grandchild's actual name the caller can then use to pose as that grandchild. The caller then claims an emergency: being stuck overseas and needing money wired immediately, being hospitalized, or, in a more aggressive version, falsely claiming to have kidnapped a family member and demanding a specific ransom amount be sent right away. SCDCA's advice is to verify the caller's identity by contacting the family member's parents directly or asking a question only the real grandchild would know the answer to, call a phone number already known to be genuine rather than one given by the caller, resist pressure to send money quickly and secretly, and never send money by wire transfer, cash, or gift card since once a scammer receives it, it's gone; incidents can be reported to SCDCA at 1-844-TELL-DCA or to local police.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'medium',
+    sources: ['South Carolina Department of Consumer Affairs'],
+    sourceUrl: 'https://www.consumer.sc.gov/sites/consumer/files/Documents/Spotlight/Grandparent%20Scams.pdf',
+    country: 'US',
+    state: 'SC',
+});
