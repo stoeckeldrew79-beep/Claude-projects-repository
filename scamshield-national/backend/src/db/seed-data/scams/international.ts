@@ -24730,3 +24730,41 @@ International.push({
   country: 'SI',
   firstRecorded: '2026-06-11',
 });
+
+International.push({
+  name: 'Fake Police Officer Phone-Unlock Scam (Gambia)',
+  slug: 'gambia-fake-police-officer-phone-unlock-scam',
+  description: `The Gambia Police Force has documented a recurring con in which men posing as police officers approach people whose phones were recently lost or stolen and persuade them to hand over the device's passcode, claiming it will help "officers" trace or recover it. In a July 2023 Bakoteh case, two suspects who had stolen an iPhone 11 Pro Max admitted impersonating police officers to get the victim to share his phone's unlock code before reselling it. In a November 2024 Jarra Soma case, police arrested a suspect, Alieu Ceesay, for impersonating an officer to obtain victims' phone passwords, reselling the unlocked handsets, and running the scheme alongside a device used to manipulate SIM cards; police recovered an iPhone 14 Pro Max, an iPhone 11 Pro Max, an iPhone XR, and the SIM-manipulation device. Police in both cases urged the public never to share a phone's password or PIN with anyone claiming police authority, since legitimate officers never need a victim's own passcode to investigate a theft.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['The Gambia Police Force', 'The Point (Gambia)'],
+  sourceUrl: 'https://thepoint.gm/africa/gambia/headlines/police-arrest-alleged-notorious-fraudster',
+  country: 'GM',
+  isHistorical: true,
+  firstRecorded: '2023-07-01',
+});
+
+International.push({
+  name: 'Fake Family Windfall and Government-Official Impersonation Scam (Gambia)',
+  slug: 'gambia-fake-family-windfall-impersonation-scam',
+  description: `Before the Brikama Magistrates' Court, Ebrima Bayo, alias Alagie Bayo, was charged with impersonating a public officer after a months-long phone con targeting Malang Njie of Banjulinding. Posing first as a relative's father, the caller told Njie the relative had saved and withdrawn D3 million at the Central Bank of The Gambia; a second caller then impersonated Dr Njogu Bah, the real Secretary General and Head of the Civil Service, to lend the claim official weight and dangled a promised trip to Hajj, while pressing Njie to hand over his bank account number and national ID card to "process" his supposed share of the money, which he did. The ruse collapsed when a relative with a genuine contact at the institution confirmed the real official had never actually spoken to Njie; police then recovered the SIM cards the caller had used to carry out the calls. Bayo admitted the charge and the case was adjourned for judgment, with the court record underscoring that the scheme worked entirely through impersonating a trusted relative's voice and a real government title rather than any fabricated document.`,
+  categorySlug: 'identity-theft',
+  alertLevel: 'medium',
+  sources: ['The Point (Gambia)'],
+  sourceUrl: 'https://thepoint.gm/africa/gambia/article/d3m-impersonation-case-heard',
+  country: 'GM',
+  isHistorical: true,
+  firstRecorded: '2012-12-05',
+});
+
+International.push({
+  name: 'Fake Canada Work-Permit Recruitment Advance-Fee Scam (Gambia)',
+  slug: 'gambia-fake-canada-work-permit-recruitment-scam',
+  description: `The Point (Gambia) reported in May 2025 that fake international job recruiters were targeting young Gambian jobseekers by email, text, dating sites, and social media with supposed openings under Canada's Temporary Foreign Worker Program, falsely claiming visas could be skipped entirely as long as fees were paid directly to the recruiter and manufacturing urgency by claiming a seasonal application "route" was only briefly open. Applicants were asked to hand over passport and bank details along with upfront "processing" fees; a reporter posing as an applicant was quoted roughly $1,000, while a named victim, Abdul, said his own costs climbed past $2,000 before the recruiters cut off contact and kept his money. Canadian officials quoted in the same report said the problem was a growing one, citing tactics including fake or cloned recruitment-company websites and forged employment documents, and several European consumer-protection sources cited in the same reporting flagged unrealistic salaries and promises of easy money as a general warning sign across this kind of overseas work-permit recruitment scam.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'medium',
+  sources: ['The Point (Gambia)'],
+  sourceUrl: 'https://thepoint.gm/africa/gambia/headlines/fake-international-job-recruiters-target-gambians',
+  country: 'GM',
+  firstRecorded: '2025-05-23',
+});

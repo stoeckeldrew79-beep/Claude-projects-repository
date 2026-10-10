@@ -13435,3 +13435,80 @@ UsGM.push({
     country: 'US',
     state: 'IA',
 });
+
+UsGM.push({
+    name: 'Hurricane Melissa Caribbean Relief Charity Scam Alert (Illinois)',
+    slug: 'illinois-hurricane-melissa-charity-scam-alert',
+    description: `Illinois Attorney General Kwame Raoul issued a consumer alert on October 31, 2025, warning residents who wanted to donate toward Hurricane Melissa Caribbean relief to watch for fraudulent fundraisers. The alert described charities that simply pass a donation through to another group rather than providing direct aid themselves, organizations using names that closely mimic a legitimate, well-known charity, and unsolicited spam emails or social media posts pushing an unvetted donation recommendation. Raoul's office advised donors to independently research any charity before giving, ask what share of a donation actually goes to overhead versus aid delivered in the field, pay by check or credit card rather than cash or a peer-to-peer payment app, and treat a high-pressure pitch or an offer to send someone in person to collect a donation as a warning sign rather than a convenience.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Illinois Attorney General's Office (Kwame Raoul)"],
+    sourceUrl: 'https://illinoisattorneygeneral.gov/news/story/consumer-alertattorney-general-raoul-cautions-donors-to-be-wary-of-scams-tied-to-hurricane-relief-efforts',
+    country: 'US',
+    state: 'IL',
+    firstRecorded: '2025-10-31',
+});
+
+UsGM.push({
+    name: 'Summer Travel and Vacation-Rental Scam Alert (Illinois)',
+    slug: 'illinois-summer-travel-vacation-scam-alert',
+    description: `Ahead of the 2026 summer travel season, Illinois Attorney General Kwame Raoul issued a June 2, 2026 consumer alert on travel-booking and vacation-rental scams. The alert flagged "free" or steeply discounted deals that carry hidden fees running two to three times a normal booking cost, vague "luxury" resort or cruise packages where an agency won't provide an actual hotel, cruise, or flight confirmation, and high-pressure demands for payment by wire transfer, gift card, payment app, or cryptocurrency before a reservation is confirmed. Raoul's office advised travelers to independently verify any agent or listing through reviews and the Better Business Bureau, get the full terms and a cancellation/refund policy in writing before paying anything, and use a credit card rather than a less-reversible payment method for stronger fraud protection.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ["Illinois Attorney General's Office (Kwame Raoul)"],
+    sourceUrl: 'https://illinoisattorneygeneral.gov/news/story/consumer-alertattorney-general-raoul-encourages-illinois-families-to-be-alert-for-scams-over-summer-travel-season',
+    country: 'US',
+    state: 'IL',
+    firstRecorded: '2026-06-02',
+});
+
+UsGM.push({
+    name: 'FBI Chicago Financial Sextortion Scheme Targeting Boys (Illinois)',
+    slug: 'illinois-chicago-fbi-financial-sextortion-scam',
+    description: `The FBI's Chicago Field Office warned on April 7, 2023 of a sharp rise in "financial sextortion" schemes targeting boys in the Chicago area, in which a predator poses as a young girl on social media or a gaming app, persuades the boy to send an explicit photo or video, then threatens to send it to his family and friends unless he pays. The Chicago field office reported local sextortion complaints involving minors rose 539 percent in 2022 versus 2021, with the first two months of 2023 up 383 percent over the same period the year before; victims ranged from age 7 to 17, and images were sometimes leaked even after a victim paid. The FBI linked the pattern to a number of minors' suicides nationwide and urged parents whose child is targeted to reassure the child rather than react with anger, preserve all messages for investigators, and report the attempt through 1-800-CALL-FBI or tips.fbi.gov rather than negotiate with or pay the extortionist.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['FBI Chicago Field Office', 'CBS News Chicago'],
+    sourceUrl: 'https://www.cbsnews.com/chicago/news/fbi-sextortion-cases-boys-chicago/',
+    country: 'US',
+    state: 'IL',
+    firstRecorded: '2023-04-07',
+});
+
+UsGM.push({
+    name: 'Michigan Lottery Fake Prize and "Winner-Sharing" Scam',
+    slug: 'michigan-lottery-fake-prize-scam',
+    description: `Scammers contact Michigan residents by phone, text, email, or letter claiming they've won a Michigan Lottery prize, or posing as a real winner offering to "share" their jackpot, then demand an upfront fee — paid by cashier's check, wire transfer, or an in-person cash handoff — before any winnings will supposedly be released. The Michigan Lottery confirms it never charges a fee to claim a legitimate prize and that a valid winning ticket is required to win anything in the first place; the Lottery notes these reports reliably spike every holiday season as scammers lean on the extra excitement around gift-giving and good fortune.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Michigan Lottery', 'WNEM TV5'],
+    sourceUrl: 'https://www.wnem.com/2025/12/01/michigan-lottery-warns-prize-scams-are-rise-around-holidays',
+    country: 'US',
+    state: 'MI',
+    firstRecorded: '2025-12-01',
+});
+
+UsGM.push({
+    name: 'Fake Job Listing Advance-Fee Check Scam (Michigan)',
+    slug: 'michigan-fake-job-listing-advance-fee-check-scam',
+    description: `Michigan Attorney General Dana Nessel warns job seekers about fraudulent postings — frequently a remote role paying well above the market rate, with an interview conducted only by video chat and no verifiable physical business address — where the "employer" mails or deposits a check into the new hire's bank account and instructs them to wire back a portion of it to cover equipment, software, or training costs. The check is counterfeit, and once the bank reverses it days later the job seeker, not the scammer, is personally liable for the full amount already wired out. Nessel's office lists red flags including an unsolicited request for an immediate interview, poor spelling or grammar in the offer, an email sent from a personal rather than a business account, and any company that sends a check and then asks the new hire to advance money out of their own account, and recommends verifying a company directly, searching its name alongside words like "scam" or "complaint," and using established job boards such as CareerOneStop or the State of Michigan's own job listings.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ["Michigan Attorney General's Office (Dana Nessel)"],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2025/02/27/ag-nessel-warns-job-seekers-of-employment-scams',
+    country: 'US',
+    state: 'MI',
+    firstRecorded: '2025-02-27',
+});
+
+UsGM.push({
+    name: 'Fake Rental Listing and "Phantom Landlord" Scam (Michigan)',
+    slug: 'michigan-fake-rental-listing-phantom-landlord-scam',
+    description: `The Michigan Attorney General's Consumer Protection Team describes two recurring rental-fraud patterns reported statewide: "hijacked ads," where a scammer copies the photos and address from a genuine for-sale or for-rent listing and reposts it elsewhere under their own contact information, and "phantom rentals," fake listings for a unit the scammer doesn't own or that doesn't exist at all, often priced well below comparable rentals in the area to draw interest. In both versions, the fake landlord refuses an in-person showing or tour, invents an excuse for being unavailable (commonly claiming to be out of state or overseas), and asks for a security deposit or first month's rent by wire transfer, payment app, gift card, or cryptocurrency before any lease is signed — payment methods the office notes are difficult or impossible to reverse once sent. The office's advice is to insist on touring the property or sending someone trusted to verify it in person, search the listing text and photos online to check whether the same ad appears under a different name or address, and never pay anything beyond an application fee before a lease is actually signed.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ["Michigan Attorney General's Office — Consumer Protection Team"],
+    sourceUrl: 'https://www.michigan.gov/consumerprotection/protect-yourself/consumer-alerts/scams/rental-listing-scams-how-to-spot-and-dodge-them',
+    country: 'US',
+    state: 'MI',
+});
