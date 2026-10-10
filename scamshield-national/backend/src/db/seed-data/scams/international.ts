@@ -24368,3 +24368,15 @@ International.push({
   country: 'NU',
   firstRecorded: '2023-06-15',
 });
+
+International.push({
+  name: '2008 Niue Farm Labour Recruitment Scam Targeting Indian Workers',
+  slug: 'niue-indian-farm-worker-recruitment-scam',
+  description: `In 2008, a group of Indian men paid local recruiting agents between roughly NZ$16,300 and NZ$28,300 each after being promised farmland and well-paid farming work on Niue. On arrival, the promised work had dried up and the men were left living in a rundown house with no bathrooms and dirt floors, prompting the New Zealand government to publicly accuse Niue of breaching the group's human rights over what it called an immigration work scam. The Niuean agent who brought the men to the island, who had expected experienced farmers for his 300-acre property, denied running a scam and said he had put money into bringing the workers over rather than profiting from them; Niue's then-Premier, Toke Talagi, said his government would work with New Zealand and the International Organization for Migration to assist the men and would tighten immigration screening for future groups. The case illustrates a labor-recruitment fraud risk distinct from Niue's other documented scams: an overseas recruiter or agent promising land and guaranteed work abroad, collecting a large upfront fee before the worker ever leaves home, with little practical recourse once he arrives to find the promised job does not exist.`,
+  categorySlug: 'employment-scams',
+  isHistorical: true,
+  firstRecorded: '2008-08-22',
+  sources: ['TVNZ ONE News (Barbara Dreaver)', 'Nga Taonga Sound & Vision'],
+  sourceUrl: 'https://www.ngataonga.org.nz/search-use-collection/search/TZP356555',
+  country: 'NU',
+});
