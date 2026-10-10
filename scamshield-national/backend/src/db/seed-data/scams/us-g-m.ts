@@ -12386,6 +12386,33 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Kentucky State Police Sex Offender Registry Bond-Payment Scam',
+    slug: 'kentucky-mayfield-sex-offender-registry-bond-scam',
+    description: `Kentucky State Police Post 1 in Mayfield warned on December 21, 2025 that scammers were calling people listed on Kentucky's Sex Offender Registry, impersonating Post 1 Commander Capt. Joey Adams, and falsely telling them they had an outstanding warrant tied to their registry status before demanding a bond payment to avoid arrest. KSP stated plainly, "This is a scam," and that "law enforcement will not call you to advise you of a warrant or request money related to a warrant." The post separately warned that using Sex Offender Registry data to locate and harass a listed person is itself a crime under KRS 525.070 and 525.080, punishable by up to 90 days in county jail — a reminder that the registry's public nature makes registrants an unusually easy target list for this kind of impersonation scam, since a caller doesn't need to guess who to call or make up a plausible reason the target might have a legal issue. Anyone on the registry who receives a call like this should hang up and contact the real Kentucky State Police post directly, using a number looked up independently, rather than anything provided by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    isHistorical: true,
+    firstRecorded: '2025-12-21',
+    sources: ['Kentucky State Police'],
+    sourceUrl: 'https://kentuckystatepolice.ky.gov/news/p1-12-21-2025',
+    country: 'US',
+    state: 'KY',
+});
+
+UsGM.push({
+    name: 'Louisville AI Voice-Clone Virtual Kidnapping Scam',
+    slug: 'kentucky-louisville-ai-voice-clone-virtual-kidnapping-scam',
+    description: `Louisville mother Kim Alvey received a call while driving in which an AI-cloned voice, frantic and crying, sounded exactly like her 10-year-old daughter saying she'd been in an accident and needed help. A man who identified himself as "Hector" then took over the call, claimed to be holding the girl, and threatened kidnapping if Alvey contacted police. Alvey hung up and called her daughter's school directly, confirming the child was safe the entire time and exposing the call as a fabricated "virtual kidnapping" built from nothing more than a short cloned audio clip rather than any real emergency; the caller, using a 502-area-code number, called back twice more after being hung up on. The incident followed an FBI public service announcement warning that criminals now create short audio clips of a loved one's voice — often pulled from a public social media video — to impersonate a relative in a manufactured crisis. Experts recommend families agree in advance on a private verification phrase or "safe word," independently verify a relative's whereabouts through a number already saved rather than one on the caller's line, and never send money to someone they haven't met in person, regardless of how convincing or urgent the call sounds.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    isHistorical: true,
+    sources: ['WDRB (via AI Incident Database)'],
+    sourceUrl: 'https://incidentdatabase.ai/reports/5098',
+    country: 'US',
+    state: 'KY',
+});
+
+UsGM.push({
     name: 'Fake Hawaii "DMV" Traffic Citation Text Scam',
     slug: 'hawaii-fake-dmv-traffic-citation-text-scam',
     description: `Hawaii residents statewide have been targeted by unsolicited text messages and emails impersonating a "Department of Motor Vehicles" — an agency that does not formally exist by that name in Hawaii's county-run vehicle registration system. The messages, sent from unknown numbers, open with lines like "Important: Your Traffic Fine is Pending Payment" and threaten that the recipient's vehicle registration will be cancelled, their driver's license suspended, or legal proceedings initiated unless an outstanding fine is paid immediately through a link in the text. The City and County of Honolulu's Office of the Mayor issued a public warning on February 3, 2026 confirming the messages are fraudulent, stressing that legitimate traffic citations and registration notices are sent only by U.S. mail, never by text or email. Recipients are urged to block the sender, delete the message, and never click embedded links or reply, and anyone who already paid should immediately contact their bank or credit card company to secure their account.`,
