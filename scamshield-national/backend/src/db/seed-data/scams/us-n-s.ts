@@ -12567,4 +12567,46 @@ UsNS.push({
     firstRecorded: '2026-07-31',
 });
 
+UsNS.push({
+    name: "New Jersey Senior's $9,500 Crypto-ATM \"Tech Support\" Cash-Out Scam",
+    slug: 'new-jersey-crypto-atm-tech-support-cashout-scam',
+    description: `An 80-year-old New Jersey woman, Marlene, saw a pop-up warning on her computer and called the number it displayed, reaching someone posing as Apple support who told her she had to act fast because her money was at risk. Following his instructions, she withdrew funds from her bank and fed them into a cryptocurrency ATM — losing $9,500, nearly her entire checking account, the moment the machine converted the cash. AARP cited FBI data showing crypto-kiosk scams took $389 million from 13,460 victims nationally in 2025 alone, with adults over 50 accounting for 76% of the reported losses, and the article notes the real figures are likely understated since many victims never report what happened. Marlene's case was used at a June 2026 legislative hearing in Trenton on a bill to regulate or ban the machines statewide. A real tech company never puts a phone number on a pop-up warning demanding an urgent call, and no legitimate business or agency will ever instruct someone to "protect" their money by feeding cash into a cryptocurrency kiosk — anyone told to do so should hang up immediately and independently verify the claim before withdrawing anything.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    isHistorical: true,
+    firstRecorded: '2026-06-22',
+    sources: ['AARP New Jersey'],
+    sourceUrl: 'https://www.aarp.org/states/new-jersey/crypto-atm-scams-are-hitting-new-jersey-your-story-could-help-stop-the-next-one/',
+    country: 'US',
+    state: 'NJ',
+});
+
+UsNS.push({
+    name: '"Tri-State Heroes Fund" 9/11 First-Responder Charity Fraud',
+    slug: 'new-jersey-niemczyk-scalgione-911-charity-fraud',
+    description: `Mark Niemczyk of Tinton Falls and Thomas Scalgione of Stafford attended 9/11-related memorial events across New Jersey in 2011 from a pickup truck decorated with a Twin Towers image and the names of police officers and firefighters killed on September 11, 2001, selling T-shirts and soliciting cash donations they claimed would go to the families of first responders who died that day. According to the New Jersey Attorney General's office, the pair raised more than $50,000 but gave none of it to victims' families or any legitimate 9/11 charity. The state filed a civil suit in 2011, and in fall 2012 Niemczyk and Scalgione agreed to pay $121,116 to settle it; they were criminally indicted on May 3, 2013 for operating a bogus charity. The case shows how a fake charity can borrow the emotional weight of a real tragedy and a visually convincing prop — a decorated truck, printed T-shirts, a memorial setting — to make an unverified cash solicitation feel legitimate. Anyone asked to donate cash on the spot at a memorial event or fundraiser, especially for a charity whose name isn't instantly recognizable, should instead look up the organization independently through the IRS Tax Exempt Organization Search before giving anything.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2011-09-11',
+    sources: ['The Chronicle of Philanthropy', 'New Jersey Attorney General’s Office'],
+    sourceUrl: 'https://www.philanthropy.com/news/nj-men-charged-in-alleged-911-charity-scam/',
+    country: 'US',
+    state: 'NJ',
+});
+
+UsNS.push({
+    name: 'Fake TD Bank "Fraud Department" Cash-Courier Pickup Scam',
+    slug: 'new-jersey-bank-fraud-courier-cash-pickup-scam',
+    description: `A caller spoofing TD Bank's real phone number told a Washington Township senior she could access more money if she first provided funds, then kept her on the phone while she withdrew cash at a TD Bank branch; afterward, a courier came to her home to collect the cash in person. She realized she had been scammed later that day, reported it to the bank, and recovered her money — a rare instance where a courier-pickup scam was caught and reversed quickly enough to matter. Washington Township Police, who publicized the case to warn other residents, planned a follow-up fraud-prevention seminar with the FBI at the township senior center, and a nearly identical scheme using a spoofed bank number and an in-person courier was documented elsewhere in New Jersey months earlier. Unlike a wire transfer or gift-card scam, a live courier pickup can feel more credible precisely because it skips the usual red flags — no awkward gift-card purchase, no unfamiliar wire destination — but it is exactly as fraudulent: a real bank's fraud department will never direct a customer to withdraw cash and hand it to a stranger at their door, and anyone told to do so should hang up and call the number on the back of their own card instead.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    isHistorical: true,
+    firstRecorded: '2026-03-20',
+    sources: ['6abc/WPVI-TV', 'Washington Township Police Department'],
+    sourceUrl: 'https://6abc.com/amp/post/washington-township-police-warn-brazen-scam-fake-bank-caller-sends-courier-cash/18764562/',
+    country: 'US',
+    state: 'NJ',
+});
+
 

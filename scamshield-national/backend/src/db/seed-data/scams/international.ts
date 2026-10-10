@@ -21585,6 +21585,30 @@ International.push(
     sourceUrl: 'https://cookislandsnews.com/?p=215581',
     country: 'CK',
   },
+  {
+    name: 'Fake Online Immigration & Customs Declaration ("ED Card") Websites Targeting Dominica Travelers',
+    slug: 'dominica-fake-ed-card-immigration-website-scam',
+    description: `CARICOM IMPACS warned travelers on December 20, 2024 about fraudulent third-party websites mimicking Dominica's free, official Online Immigration and Customs Declaration Card portal at edcard.dominica.gov.dm — most notably a fake site at dominicacard.com/request, whose own small-print disclaimer admits it is not affiliated with the government or any sponsors, and whose URL ends in "request," a telltale difference from the real government address. The fake sites charge a service fee for a form that costs nothing at all through the real government channel, and travelers who use them risk receiving invalid, delayed, or fraudulently processed travel documents — sometimes only discovering the problem at the airport, in time to cause a missed flight. The warning named Dominica alongside Saint Lucia and Barbados as targets of the same fake-portal pattern, and Dominica's own government separately confirmed the warning applied to its travelers. Anyone completing an online immigration or customs form for Dominica should type the official edcard.dominica.gov.dm address directly rather than clicking a link from a search engine or social media ad, and should treat any site charging a fee for a form the government itself provides free as an immediate red flag.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2024-12-20',
+    sources: ['CARICOM IMPACS', 'Government of the Commonwealth of Dominica'],
+    sourceUrl: 'https://caricomimpacs.org/articles/beware-of-online-scam-activities-involving-electronic-immigration-forms-online-ed-cards',
+    country: 'DM',
+  },
+  {
+    name: 'Unauthorised Investment Firm "Global Solution" Operating From Dominica',
+    slug: 'dominica-global-solution-unauthorised-firm-warning',
+    description: `The UK Financial Conduct Authority warned on May 27, 2021, and last updated February 21, 2022, that a firm called Global Solution, also trading as Ground Solutions Limited and registered to a PO Box address in Roseau, Dominica, appeared to be offering financial services or products to UK consumers without the FCA authorisation required to do so. The firm listed several UK, German, Swiss, and Austrian phone numbers along with websites including global-solution.io, global-solution.pro, and global-solution.group, and Canada's Ontario Securities Commission separately warned about the same operation — using the identical Roseau address and family of "global-solution" websites — for operating unregistered in Ontario as well. Because Global Solution is not authorised, the FCA cautioned that any UK customer who loses money dealing with it would have no access to the Financial Ombudsman Service or the Financial Services Compensation Scheme, meaning a victim is "unlikely to get your money back" through any regulatory channel. A real investment firm's address alone proves nothing — the FCA's advice is to check a firm's authorisation status directly on its own Financial Services Register (or the equivalent register in your own country) before sending it any money, regardless of how legitimate its website or contact numbers look.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2021-05-27',
+    sources: ['UK Financial Conduct Authority (FCA)', 'Ontario Securities Commission (OSC)'],
+    sourceUrl: 'https://www.fca.org.uk/news/warnings/global-solution',
+    country: 'DM',
+  },
 );
 
 International.push({
