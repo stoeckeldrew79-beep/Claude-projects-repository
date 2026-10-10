@@ -4025,3 +4025,45 @@ BlockFi settled with the SEC without admitting or denying the findings, agreeing
 The BlockFi case illustrates how a product marketed as a safe, bank-like alternative to ordinary saving can still be an unregistered security if what's actually happening behind the interest rate is an investment in someone else's lending book — and how a settlement meant to bring a company into compliance can be overtaken within months by a risk, in this case concentration in a single crypto-trading counterparty, that registration requirements alone were never designed to catch. The same disclosure gap the SEC flagged, a header that said loans were "typically" over-collateralized when many weren't, turned out to be a preview of the larger problem: a lending business whose real risk was harder to see from the outside than its advertised yield suggested.`,
     sourceUrl: 'https://www.sec.gov/news/press-release/2022-26',
 });
+
+NotoriousTZ.push({
+    title: "Yuko Hanyu and the East Wind Ponzi Scheme That Preyed on Auckland's Japanese Community",
+    slug: 'yuko-hanyu-east-wind-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Auckland_CBD_skyline_and_harbour.jpg?width=1200',
+    coverImageCredit: 'Photo: Allan Grey (CC BY-SA 2.0) — Auckland skyline, where East Wind Company operated',
+    coverImagePosition: 50,
+    body: `Masatomo Ashikaga, who also went by the name Tom Tanaka, built East Wind Company Limited into a trusted name inside a specific, tightly knit market: New Zealand's Japanese community in Auckland. East Wind marketed two investment products, the Group Term Deposit and the Waterloo Fund, directly to Japanese immigrants and expatriates who were drawn in by a businessman who spoke their language, moved in their social circles, and came recommended by people they already trusted. Yuko Hanyu worked alongside him as the company's finance manager, the figure clients dealt with day to day and the person who controlled where their money actually went.
+
+New Zealand's Serious Fraud Office later found that both products had been operating as Ponzi schemes rather than genuine investments: East Wind used money from new investors to fund the "returns" and redemptions owed to earlier ones, letting the company present a facade of steady performance year after year with no real income behind it. The scheme drew in more than $26 million in customer investments before it finally ran out of road, and behind the fund-level shuffling, Hanyu was separately siphoning money for herself — SFO investigators found she had personally taken more than $800,000 out of East Wind over the life of the fraud, funneling it into her own mortgage account and onto her personal credit card.
+
+The scheme collapsed in February 2019, when Ashikaga died and the story holding it together had no one left to keep telling it; East Wind went into liquidation shortly afterward. Rather than coming forward with what she knew, Hanyu kept the truth to herself for years while the SFO built its case, eventually charging her with multiple counts tied to the fraud. Following a trial in the Auckland District Court, a jury convicted her in April 2026 on four representative charges of false statement of a promoter, two representative charges of obtaining by deception, one charge of theft by a person in a special relationship, and three representative charges of theft.
+
+She was sentenced in September 2026 to six years and four months in prison, with a minimum period of imprisonment of 40 percent — two years and six months — before she becomes eligible for parole, and ordered to pay $691,000 in reparations. "Investors must have confidence our markets are fair, safe and well-regulated," SFO Director Karen Chang said afterward, describing the case as a "large and incredibly complex" Ponzi scheme and calling the minimum non-parole term a reflection of "the seriousness of such offending."
+
+East Wind's collapse is a case study in what regulators call affinity fraud: a scheme built and sustained inside a single cultural community, where a shared language, shared social ties, and a trusted figure's standing substitute for the independent diligence an outside investor might otherwise apply. It's also unusual in how it finally came apart — not through a whistleblower, an auditor, or a market shock, but simply because the one person holding the whole story together was no longer alive to keep telling it, leaving his own finance manager to spend years quietly drawing money from the wreckage rather than warning the investors who still trusted the names behind it.`,
+    sourceUrl: 'https://www.sfo.govt.nz/east-wind',
+});
+
+NotoriousTZ.push({
+    title: 'Andrew Futcher and the Ablaze Trading Ponzi Scheme He Ran Under a Borrowed Name',
+    slug: 'andrew-futcher-ablaze-trading-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ciudad_del_Cabo_desde_Cabeza_de_León,_Sudáfrica,_2018-07-22,_DD_34.jpg?width=1200',
+    coverImageCredit: "Photo: Diego Delso (CC BY-SA 4.0) — Cape Town, South Africa, viewed from Lion's Head",
+    coverImagePosition: 50,
+    body: `Andrew Paul Futcher was no stranger to investment fraud by the time he set up Ablaze Trading CC in Cape Town in 2010. South Africa's Wynberg Regional Court had already sentenced him once before, in April 2004, over an earlier scheme run through Money-tech CC and CD Main One Investments (Pty) Ltd that had taken in roughly R23.6 million in deposits starting in September 2001. That case, investigated by the elite Scorpions unit and resolved through a plea bargain, put him behind bars; he was paroled in July 2007 after serving about three years of his sentence.
+
+Rather than leave the business behind, Futcher simply rebuilt it under a different name. Introducing himself to prospective Ablaze Trading investors as "Andrew Flint" — an alias prosecutors say was designed specifically to keep his 2004 conviction hidden from the people he was asking for money — he signed written agreements promising guaranteed monthly returns of at least 10 percent, and in some cases as high as 30 percent, telling investors their money would be placed into stock-market trades through a brokerage called DWT Securities. He was not authorized to take deposits from the public, nor licensed to give financial advice.
+
+None of the promised trading happened. Futcher moved investor money into a third party's bank account, mixed it with his own personal funds, and paid earlier investors' "returns" using cash raised from newer ones — the same Ponzi mechanic that had sent him to prison once already. The scheme collapsed in 2011 once new money stopped coming in fast enough to cover what was owed, and South Africa's National Prosecuting Authority later put investors' total losses at more than R26.6 million, with roughly R9 million of that tied directly to the 17 specific counts of theft prosecutors were ultimately able to prove at trial.
+
+A South African court convicted Futcher in late April 2026 on those 17 counts of theft along with money laundering, forgery, uttering, and contraventions of the Banks Act and the Financial Advisory and Intermediary Services Act. Cape Town's Commercial Crimes Court sentenced him on June 2, 2026 to an effective 15 years in prison: 9 years for the theft counts and 4 years for money laundering, running concurrently with 10-year terms on the Banks Act and FAIS Act contraventions, plus 5 years each for forgery and uttering added on top of that 10-year term. Prosecutors had pushed for 20 years, arguing Futcher showed no prospect of rehabilitation; his defense had sought a non-custodial sentence citing his age and health.
+
+Futcher's case is a reminder that a fraud conviction doesn't automatically follow a con artist into his next venture — it only does if the people considering giving him money bother to check, and an alias exists specifically to make sure they can't. Fifteen years separated his first Ponzi scheme's collapse from his eventual sentencing for the second, run under a borrowed name but an identical script: guaranteed double-digit monthly returns, a credible-sounding brokerage supposedly doing the actual trading, and newer investors' cash quietly paying off the old. How long it took South Africa's courts to close the loop on that second scheme is its own warning: long enough for an entirely new set of victims to lose their savings to the same man, under a different name, while his first set of victims was still waiting for the case to reach a courtroom.`,
+    sourceUrl: 'https://www.moonstone.co.za/convicted-fraudster-jailed-again-for-second-investment-scheme/',
+});
