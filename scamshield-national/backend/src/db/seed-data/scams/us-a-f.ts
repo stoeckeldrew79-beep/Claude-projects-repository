@@ -12342,3 +12342,45 @@ UsAF.push({
     country: 'US',
     state: 'AK',
 });
+
+UsAF.push({
+    name: "Phoenix Insurance Producer's Unauthorized EquiAlt/Woodbridge Securities Sales (Talbot)",
+    slug: 'arizona-talbot-equialt-woodbridge-unauthorized-securities-sales',
+    description: `The Arizona Corporation Commission found that Phoenix insurance producer Gregory "Greg" Patrick Talbot sold Arizona investors "alternative" investments he pitched as low-risk and high-return — including a fund tied to Woodbridge and securities tied to EquiAlt, LLC — and that he was not authorized to sell securities in Arizona when he made misrepresentations and omissions about the EquiAlt securities' actual risk and liquidity. Both Woodbridge and EquiAlt were later found to be Ponzi schemes; EquiAlt's was a nationwide scheme the SEC separately froze after it raised more than $170 million from over 1,100 investors. The Commission's order, dated March 12, 2025, requires Talbot to pay $1,411,950 in restitution plus a $50,000 administrative penalty. Talbot is not an isolated case: at least two other Arizona insurance producers have been separately sanctioned for similar unauthorized EquiAlt sales, a pattern that shows how an insurance license alone does not authorize someone to sell securities, and that any "alternative investment" pitch from an insurance agent should be independently verified with the Arizona Corporation Commission's Securities Division before any money changes hands.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    isHistorical: true,
+    firstRecorded: '2025-03-12',
+    sources: ['Arizona Corporation Commission'],
+    sourceUrl: 'https://www.azcc.gov/news/home/2025/03/12/commission-finds-phoenix-man-defrauded-investors-with-real-estate-ponzi-scheme',
+    country: 'US',
+    state: 'AZ',
+});
+
+UsAF.push({
+    name: 'Metals.com (TMTE, Inc.) Precious-Metals IRA Liquidation Fraud Targeting Arizona Seniors',
+    slug: 'arizona-metals-com-tmte-precious-metals-ira-liquidation-fraud',
+    description: `TMTE, Inc., doing business as Metals.com, ran a scheme targeting senior citizens nationwide that persuaded them to cash out retirement savings — IRAs and 401(k)s — and use the proceeds to buy gold and silver bullion from the company at fraudulent terms. The Arizona Corporation Commission's Securities Division found 32 Arizona investors were defrauded of roughly $5.9 million combined, and at its January 15, 2025 open meeting the Commission voted 5-0 to authorize the division to represent Arizona in a global settlement alongside federal authorities and 29 other states, filed in the U.S. District Court for the Northern District of Texas (Case No. 3:20-CV-2910). A consent order is intended to recover funds for the fraud victims, with the court to set specific restitution and civil-penalty amounts in a later agreement or hearing. The case underscores a pattern worth watching for directly: any pitch urging a senior to liquidate retirement accounts to buy precious metals from a specific dealer should be treated with extreme caution and verified independently, since a real, reputable metals dealer never needs to pressure a buyer into draining a retirement account to make a purchase.`,
+    categorySlug: 'elder-fraud',
+    alertLevel: 'high',
+    isHistorical: true,
+    firstRecorded: '2025-01-15',
+    sources: ['Arizona Corporation Commission'],
+    sourceUrl: 'https://azcc.gov/news/home/2025/01/17/january-15--2025-open-meeting-highlights',
+    country: 'US',
+    state: 'AZ',
+});
+
+UsAF.push({
+    name: 'Arizona AG Sues Vision Solar and Solar Xchange Over Deceptive Telemarketing',
+    slug: 'arizona-vision-solar-solarxchange-deceptive-telemarketing-scheme',
+    description: `Arizona Attorney General Kris Mayes, joined by the U.S. Department of Justice and the FTC, sued residential solar installer Vision Solar LLC and its telemarketing lead generator Solar Xchange LLC, along with Solar Xchange owner Mark Getts, on July 27, 2023, over unlawful telemarketing and misleading sales claims about energy savings, tax rebates and incentives, and when savings would actually start. The complaint alleges telemarketers falsely claimed to be affiliated with a utility company or government agency and called numbers on the Do Not Call Registry, while many Arizona customers ended up paying both a new solar loan and their full existing utility bill for months because panels sat unconnected before a system was ever activated. Solar Xchange and Getts settled, agreeing to stop misrepresenting any utility or government affiliation, stop making unsubstantiated installation-cost claims, and stop abusive telemarketing practices, under an order that includes a $13.8 million civil penalty, partially suspended. The case follows a pattern of prior Arizona AG actions against other solar sellers in the state. Homeowners approached about "free" or heavily discounted solar power should get full financing terms and projected savings in writing, confirm with their own utility and town building department whether the required interconnection permits were actually pulled, and treat any unsolicited call claiming utility or government affiliation as a red flag regardless of how official it sounds.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2023-07-27',
+    sources: ['Arizona Attorney General’s Office (Kris Mayes)'],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-sues-residential-solar-installation-company-and-telemarketer',
+    country: 'US',
+    state: 'AZ',
+});
