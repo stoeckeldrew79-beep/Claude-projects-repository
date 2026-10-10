@@ -24565,3 +24565,39 @@ International.push({
   isHistorical: true,
   firstRecorded: '2010-07-01',
 });
+
+International.push({
+  name: 'Cabo Verde Airlines Fraudulent Email Scam',
+  slug: 'cape-verde-airlines-fraudulent-email-scam',
+  description: `Cabo Verde Airlines (TACV) publicly warned on November 7, 2025 about a fraudulent email circulating that misuses the airline's identity and brand. The message carries an attached document containing a link the airline says is suspected of carrying a virus, and the company stated it has no connection to the message or whoever sent it. TACV urged recipients not to open the link in the attached document and to always confirm the origin of any message shared in the airline's name before acting on it — for example by checking directly with the airline's official channels rather than clicking through from the email itself.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: ['Cabo Verde Airlines (TACV)', 'Expresso das Ilhas'],
+  sourceUrl: 'https://expressodasilhas.cv/pais/2025/11/07/cabo-verde-airlines-alerta-para-email-fraudulento-em-circulacao/99826',
+  country: 'CV',
+  firstRecorded: '2025-11-07',
+});
+
+International.push({
+  name: 'Fake "UN Women Cape Verde" Funding Opportunity Scam',
+  slug: 'cape-verde-fake-un-women-funding-opportunity-scam',
+  description: `The United Nations office in Cape Verde issued a public alert on August 20, 2026 after a bogus funding opportunity attributed to UN Women began circulating among civil-society organizations and partners nationwide. It was promoted through an unauthorized Facebook page named "ONU Mulheres Cabo Verde," which directed interested applicants to a Google Form requesting personal and institutional information. UN Women's regional office for West and Central Africa confirmed the initiative did not originate with the organization and was never authorized or endorsed by it, adding that it has no official social-media presence in Cape Verde at all; the alert urged people not to submit any information through the form, to stop forwarding the announcement, and to report the Facebook page and form wherever they appear, directing anyone looking for genuine UN Women opportunities to the regional office's official accounts instead.`,
+  categorySlug: 'charity-scams',
+  alertLevel: 'medium',
+  sources: ['United Nations Cape Verde', 'UN Women Regional Office for West and Central Africa', 'Expresso das Ilhas'],
+  sourceUrl: 'https://expressodasilhas.cv/pais/2026/08/21/nacoes-unidas-cabo-verde-alertam-para-falsa-oportunidade-de-financiamento-atribuida-a-onu-mulheres/104223',
+  country: 'CV',
+  firstRecorded: '2026-08-20',
+});
+
+International.push({
+  name: 'Cape Verde Fake Visa Appointment Scheduling Scam',
+  slug: 'cape-verde-fake-visa-appointment-scheduling-scam',
+  description: `Cape Verde's Centro Comum de Vistos (CCV) — the joint center through which Cape Verdean applicants process Portuguese visa requests — issued a public alert on July 24, 2026 about fake Facebook and WhatsApp pages impersonating it. These pages charge a fee to book a visa appointment or to send and return an applicant's passport, services the real CCV provides entirely free of charge; the center stated plainly that it "does not charge for booking appointments," so any request for payment is a scam attempt. CCV said its only legitimate email addresses end in "@mne.pt," naming at least one fraudulent Gmail address circulating as an example, and directed the public to book appointments only through its official site, eurovisaccv.eu, rather than through any third-party page or message.`,
+  categorySlug: 'travel-vacation-scams',
+  alertLevel: 'medium',
+  sources: ['Centro Comum de Vistos (CCV)', 'Expresso das Ilhas'],
+  sourceUrl: 'https://expressodasilhas.cv/pais/2026/07/24/burla-ccv-alerta-para-paginas-falsas-que-prometem-agendamento-mediante-pagamento/103790',
+  country: 'CV',
+  firstRecorded: '2026-07-24',
+});
