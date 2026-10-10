@@ -24552,3 +24552,16 @@ International.push({
   country: 'GM',
   firstRecorded: '2025-05-23',
 });
+
+International.push({
+  name: 'Fraudulent "Ghost Flight" Travel Agencies Targeting the Comorian Diaspora',
+  slug: 'comoros-ghost-flight-travel-agency-fraud',
+  description: `A recurring pattern dating back to at least the early 2000s has seen small Marseille-based travel agencies sell discounted round-trip charter tickets to the large Comorian diaspora in France for flights to Moroni, then either never actually schedule the flight or cancel the return leg and declare bankruptcy once travelers are already stranded in Comoros. In a July 2010 case involving France Comores Voyages, 200 to 300 Comorian-origin victims paid roughly €900 per ticket — about €400,000 collected in total — for a flight that never appeared on the departure board. A separate operator, Masiwa Air, left 630 passengers stranded between Marseille and Moroni, having continued to sell €1,155 tickets even after its own aircraft provider cut ties over unpaid bills and bank guarantees. In the largest documented case, Méditerranée Europe Tourisme cancelled all return flights and filed for bankruptcy in August 2012, stranding 384 passengers — mostly Marseille residents of Comorian origin — in Moroni for weeks; the Comorian Ministry of Transport and Tourism had to step in to arrange emergency repatriation via Air Austral and Air France, with officials saying they had been given assurances beforehand and that the collapse was unforeseeable. No criminal prosecutions of any of these agencies are documented in available reporting. Travelers booking charter flights to Comoros through a small agency are advised to verify the agency's financial standing and booking confirmation directly with the operating airline rather than relying on the agency's own paperwork, and to be wary of heavily discounted round-trip fares sold through a single small operator rather than a major carrier or recognized travel platform.`,
+  categorySlug: 'travel-vacation-scams',
+  alertLevel: 'high',
+  sources: ['TourMaG', "L'Écho Touristique", 'Comorian Ministry of Transport and Tourism'],
+  sourceUrl: 'https://www.tourmag.com/Arnaques-par-leur-agence-de-voyages-384-passagers-ont-ete-bloques-aux-Comores_a53488.html',
+  country: 'KM',
+  isHistorical: true,
+  firstRecorded: '2010-07-01',
+});
