@@ -6794,6 +6794,48 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Sweetwater County "Grandson in Jail" Bail Wire Scam',
+    slug: 'wyoming-sweetwater-county-grandson-in-jail-scam',
+    description: `The Sweetwater County, Wyoming Sheriff's Office issued repeated public advisories, including one on June 13, 2011, about a phone scam targeting seniors and grandparents: a caller claims to be the victim's grandson, says he's been jailed — usually in Canada — after a car crash and faces DUI charges, and needs money urgently for bail, damages, and attorney fees. A second caller then poses as the "grandson's attorney," corroborating the story and pressuring the victim to wire funds immediately before there's time to verify anything. Demands have reached as high as $30,000, and one cluster of victims in Green River lost more than $8,000 combined to an earlier wave of the same scam. Sheriff Rich Haskell said the callers appear to research their targets beforehand — sometimes already knowing real family details — specifically to make the fabricated story sound credible. Anyone who receives a call like this should resist the pressure to act immediately and instead independently contact the grandchild in question, or another relative, using a number already saved in their phone before sending any money.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2011-06-13',
+    sources: ['Sweetwater County Sheriff’s Office', 'Pinedale Online'],
+    sourceUrl: 'https://www.pinedaleonline.com/news/2011/06/Phonescamtargetinggr.htm',
+    country: 'US',
+    state: 'WY',
+});
+
+UsTZ.push({
+    name: 'Sweetwater County Fake Microsoft/Antivirus "Computer Repair" Scam',
+    slug: 'wyoming-sweetwater-county-computer-repair-scam',
+    description: `In a January 17, 2013 advisory, Sweetwater County, Wyoming Sheriff Rich Haskell warned residents about unsolicited calls — often disproportionately targeting seniors — in which callers posing as representatives of Microsoft, Norton, or McAfee falsely claimed the victim's computer was infected with a virus or malware, then walked them through fake "repairs" while charging bogus fees of $50 to $500 and extracting sensitive personal and financial information along the way. Callers sometimes already knew the victim's name and address, which lent the pitch false credibility; officials said the scam had cost victims nationwide tens of millions of dollars. Haskell's advice was blunt: "If you get an unsolicited call like this, just hang up, even if the caller knows your name and address" — a legitimate software company does not call customers out of the blue to report a virus, and no real tech-support fix requires buying a "security system" or sharing a password over the phone.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2013-01-17',
+    sources: ['Sweetwater County Sheriff’s Office', 'Pinedale Online'],
+    sourceUrl: 'https://www.pinedaleonline.com/news/2013/01/SweetwaterCountySher.htm',
+    country: 'US',
+    state: 'WY',
+});
+
+UsTZ.push({
+    name: 'Fake "Donations for Firefighters" Phone Solicitation Scam (Wyoming)',
+    slug: 'wyoming-fake-firefighter-donation-phone-scam',
+    description: `In November 2016, residents across Wyoming — including in Gillette, Rock Springs, and Cheyenne — reported calls from a man soliciting cash "donations" for firefighters, placed largely from a single phone number, 307-212-6274, that went to a disabled line whenever recipients tried to call it back. No legitimate fire department was behind the calls, and Cheyenne Fire & Rescue, asked about the solicitation, pointed donors toward the National Fallen Firefighters Foundation as a real, verifiable way to support firefighters and their families instead. The scheme's structure — a caller who can't be reached when you call back, soliciting cash for a sympathetic but vague cause — is a basic red flag common to phone-based charity fraud generally, not unique to firefighter-themed pitches, but the specific 2016 Wyoming wave shows how quickly such a campaign can spread statewide, by phone, with no actual charitable organization involved at any point. Anyone contacted this way should decline to give any information or money on the call and instead donate, if at all, directly through a charity's own verified website or phone number.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'low',
+    isHistorical: true,
+    firstRecorded: '2016-11-22',
+    sources: ['KOWB 1290'],
+    sourceUrl: 'https://kowb1290.com/wyoming-phone-scam-raising-money-for-firefighters/',
+    country: 'US',
+    state: 'WY',
+});
+
+UsTZ.push({
     name: 'Appalachian Power and Mon Power Disconnection Threat Impersonation Scam',
     slug: 'west-virginia-appalachian-power-mon-power-disconnection-scam',
     description: `Scammers impersonating West Virginia's two largest electric utilities — Appalachian Power (APCo) and Mon Power, a FirstEnergy company — call, text, and email customers claiming an overdue bill will trigger same-day disconnection unless they pay immediately. Mon Power first issued a public warning on July 19, 2024 after customers reported calls demanding they buy a prepaid money card and read the number back over the phone, or hand over a Social Security number or bank details, to "settle" an account; the company stressed real representatives never call demanding immediate payment this way and that legitimate disconnection notices arrive in writing well in advance. Appalachian Power continued seeing the same tactic and used the utility industry's National Utility Scam Awareness Day on November 19, 2025 to warn its own customers that scammers now also demand payment via gift cards, cryptocurrency, or third-party payment apps — methods the company says it never requests — while manufacturing urgency so the customer has no time to verify. Caller ID can be spoofed to display the real utility's name and number. Both companies advise the same response: hang up, then call the number printed on your own bill or listed on the official company website, never a callback number the caller supplies; Appalachian Power frames this as "Slow Down, Verify, Stop the Scam."`,
