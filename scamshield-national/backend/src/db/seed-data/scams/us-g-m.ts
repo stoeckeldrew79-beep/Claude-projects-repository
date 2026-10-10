@@ -13474,3 +13474,40 @@ UsGM.push({
     state: 'MD',
     firstRecorded: '2025-12-15',
 });
+
+UsGM.push({
+    name: 'Indiana BMV Text and Email Phishing Scam',
+    slug: 'indiana-bmv-text-email-phishing-scam',
+    description: `The Indiana Bureau of Motor Vehicles maintains a running "Consumer Scam Alerts" page documenting phishing campaigns that impersonate the agency, including fake registration-renewal texts sent to people who signed up for real BMV renewal notices, an "Indiana DMV" email demanding payment of a speeding citation within 72 hours through a fake "EasyPay Center" link, and a fraudulent email impersonating TxTag toll billing. The page also lists lookalike or unaffiliated domains such as in-bmv.cfd and visitmybmv.com that it says "may contain malicious content," and states real BMV emails only ever come from an @bmv.in.gov address. Indiana Attorney General Todd Rokita separately warned in August 2025 about a related "final notice" scam threatening a 30-day license suspension and a 35 percent toll fee unless the recipient pays immediately. The BMV states flatly that it will never ask for payment of any fee through a link sent via text message, and directs anyone unsure about a message to complete transactions only at IN.gov/mybmv, myBMV.com, or in person at a branch.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Indiana Bureau of Motor Vehicles', "Indiana Attorney General's Office (Todd Rokita)"],
+    sourceUrl: 'https://secure.in.gov/bmv/resources/consumer-scam-alerts',
+    country: 'US',
+    state: 'IN',
+});
+
+UsGM.push({
+    name: 'Indiana "Stop, Call, Confirm" Fake Insurance Alert',
+    slug: 'indiana-fake-insurance-stop-call-confirm',
+    description: `The Indiana Department of Insurance runs a standing consumer alert warning that fake, unlicensed insurance policies — spanning auto, health, and life coverage — are on the rise statewide. A fake policy can look entirely legitimate and a buyer may pay premiums for months or years, only to discover the coverage was worthless and illegal when a claim goes unpaid because the seller was never actually licensed to sell insurance in Indiana. Under Indiana law, with few exceptions, any entity selling an insurance product must first have the product approved by the Department. IDOI's three-step guidance for consumers is to "Stop" before signing anything or writing a check, "Call" the Department directly at 1-800-622-4461 or 317-232-2385, and "Confirm" that the company and the specific product are actually licensed to do business in Indiana before paying anything.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Indiana Department of Insurance'],
+    sourceUrl: 'https://www.in.gov/idoi/consumer-services/consumer-alerts/consumer-alert-archives/stop-call-confirm',
+    country: 'US',
+    state: 'IN',
+});
+
+UsGM.push({
+    name: 'Indiana "Pig Butchering" Crypto Investment Scam',
+    slug: 'indiana-pig-butchering-crypto-ai-scam',
+    description: `The Indiana Securities Division, housed within the Secretary of State's office, warned Hoosiers on October 30, 2025 about "pig butchering" schemes in which a scammer spends weeks or months building an online relationship or friendship with a target before steering them into a fraudulent cryptocurrency investment. The release described one Indiana case where an in-person accomplice traveled across the country specifically to collect hundreds of thousands of dollars in cash and gold directly from a victim, resulting in an arrest. The same release separately flagged a broader trend the office is watching: criminals increasingly using AI voice-cloning and fake video to impersonate someone a victim trusts, making scams generally — including pig-butchering schemes — harder to recognize as fake. Secretary of State Diego Morales urged residents to stay cautious, double-check any investment opportunity before sending money, and verify that anyone offering to manage an investment is actually registered by checking Securities.sos.in.gov first.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['Indiana Securities Division, Office of the Secretary of State (Diego Morales)'],
+    sourceUrl: 'https://events.in.gov/event/secretary-of-state-diego-morales-warns-hoosiers-scammers-offer-tricks-not-treats',
+    country: 'US',
+    state: 'IN',
+    firstRecorded: '2025-10-30',
+});
