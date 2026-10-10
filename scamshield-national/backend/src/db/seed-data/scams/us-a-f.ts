@@ -11588,6 +11588,34 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Colorado Dating-App Romance Investment Fraud (Joseph Holder Jr.)',
+    slug: 'colorado-holder-dating-app-romance-investment-fraud',
+    description: `Colorado Securities Commissioner Tung Chan filed a complaint on January 31, 2024 in Denver District Court alleging that Littleton resident Joseph Glen Holder Jr. used dating apps and a local gym to form romantic or close personal relationships with financially vulnerable women, mostly single mothers, from February 2019 to September 2023. After building trust, Holder pitched them on an investment in hyaluronic-acid injection procedures at a clinic run by his former employer, promising returns of seven to ten times the initial investment; the complaint states that in reality, no money was ever invested at all. Women contributed between $950 and $25,300 each, totaling at least $121,000, almost all of which Holder allegedly spent on himself rather than investing, and he invented two fictitious personas, "Rachel B" and "Lauren," showing victims fabricated screenshots of messages from them to explain delays. Holder was never licensed to sell securities and never disclosed to victims that what he was offering was an unregistered security, and more than $20,000 has not been returned. The case is a reminder that a romance scam doesn't always ask for gift cards or a wire to a stranger overseas — pairing a real relationship with a plausible-sounding local investment pitch, complete with a real business name attached, can be just as effective at making a scam feel safe.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    isHistorical: true,
+    firstRecorded: '2024-01-31',
+    sources: ['Colorado Division of Securities', 'CBS Colorado'],
+    sourceUrl: 'https://www.cbsnews.com/colorado/news/joseph-holder-securities-officials-colorado-man-romance-scam-women-steal-investments-gym-dating-apps/',
+    country: 'US',
+    state: 'CO',
+});
+
+UsAF.push({
+    name: 'Evergreen "Lifetime Roofing" Storm-Chaser Hail-Damage Fraud',
+    slug: 'colorado-lifetime-roofing-storm-chaser-hail-fraud',
+    description: `Jonathan McMillan, owner of Lifetime Roofing and Restoration in Evergreen, sent door-to-door sales crews into Jefferson County neighborhoods after hailstorms, with instructions to get homeowners to sign contracts and hand over their insurance claim checks as quickly as possible. Between 2014 and 2015, at least 17 homeowners — some of them at-risk adults — turned over insurance payouts and received no roofing work and no refund in return; McMillan personally kept more than $68,000 of the nearly $70,000 taken. He pleaded guilty in 2017 to four counts of theft, including theft from an at-risk adult, following a joint investigation by the Jefferson County District Attorney's office and the National Insurance Crime Bureau. The pattern is a classic "storm chaser": a crew that shows up fast after a hailstorm, pressures a homeowner to sign and hand over the insurance check immediately rather than shop around, and is gone — along with the money — before any work begins. Homeowners filing a hail-damage claim are advised to get multiple estimates, verify a contractor's license and physical business address before signing anything, and never hand over an insurance check until the agreed work is actually complete.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2017-08-01',
+    sources: ['CBS Colorado', 'Jefferson County District Attorney’s Office', 'National Insurance Crime Bureau'],
+    sourceUrl: 'https://cbsnews.com/amp/colorado/news/jonathan-mcmillan-lifetime-roofing-restoration',
+    country: 'US',
+    state: 'CO',
+});
+
+UsAF.push({
     name: 'Juneau Fake Flood-Repair Contractor Invoice Scam',
     slug: 'alaska-juneau-fake-flood-contractor-invoice-scam',
     description: `After Juneau's record August 2023 Mendenhall River glacial outburst flood damaged homes along Marion Drive and River Drive, scammers impersonated a real, already-hired local contractor doing riverbank-armoring and rebuilding work for flood victims. Posing as the legitimate contractor, they emailed homeowners mid-project with fake invoices carrying the real contractor's logo and address for work that was never performed, exchanging emails over several weeks and answering questions about supposed work progress to build trust before pushing for payment. One Marion Drive homeowner lost $54,310 total — an initial $10,500 payment followed by two further wire transfers totaling $43,810 — after scammers who initially requested Zelle and Venmo payments escalated to wire transfers sent to a Wells Fargo account held under the name "J&J Ventures." At least nine households on that one street received the fraudulent emails. Juneau Police Lieutenant Krag Campbell confirmed multiple reports and an open investigation, and the FBI's local office was also alerted. One resident who avoided the scam noticed the impersonator's unusually wordy email tone differed from the real contractor's typical communication style, prompting a verification call that exposed the fraud. Homeowners working with contractors after a disaster should independently verify any mid-project invoice by calling the contractor directly using a phone number obtained before the work began, never one provided in an email, and should be wary of any request to switch from a known payment method to a wire transfer.`,
@@ -11699,7 +11727,7 @@ UsAF.push({
     name: 'Metals.com (TMTE, Inc.) Precious-Metals IRA Liquidation Fraud Targeting Arizona Seniors',
     slug: 'arizona-metals-com-tmte-precious-metals-ira-liquidation-fraud',
     description: `TMTE, Inc., doing business as Metals.com, ran a scheme targeting senior citizens nationwide that persuaded them to cash out retirement savings — IRAs and 401(k)s — and use the proceeds to buy gold and silver bullion from the company at fraudulent terms. The Arizona Corporation Commission's Securities Division found 32 Arizona investors were defrauded of roughly $5.9 million combined, and at its January 15, 2025 open meeting the Commission voted 5-0 to authorize the division to represent Arizona in a global settlement alongside federal authorities and 29 other states, filed in the U.S. District Court for the Northern District of Texas (Case No. 3:20-CV-2910). A consent order is intended to recover funds for the fraud victims, with the court to set specific restitution and civil-penalty amounts in a later agreement or hearing. The case underscores a pattern worth watching for directly: any pitch urging a senior to liquidate retirement accounts to buy precious metals from a specific dealer should be treated with extreme caution and verified independently, since a real, reputable metals dealer never needs to pressure a buyer into draining a retirement account to make a purchase.`,
-    categorySlug: 'elder-fraud',
+    categorySlug: 'investment-fraud',
     alertLevel: 'high',
     isHistorical: true,
     firstRecorded: '2025-01-15',
@@ -11777,6 +11805,48 @@ UsAF.push({
     state: 'AR',
     isHistorical: true,
     firstRecorded: '2021-01-01',
+});
+
+UsAF.push({
+    name: 'Arkansas "Tax Review Office" Phone Scam',
+    slug: 'arkansas-tax-review-office-phone-scam',
+    description: `The Arkansas Department of Finance and Administration warned on February 9, 2026 about a phone scam distinct from the mailed-letter tax notices it had previously flagged: callers claiming to represent a "tax review office" tell recipients their account is flagged over a missed filing, then push a urgent callback to a so-called "proprietary verification line" to resolve a supposed balance. The real goal, DFA said, is to extract the victim's banking information over the phone. The agency has no office by that name, and DFA said these calls spike every year during tax season when people are primed to expect contact about their filings. The department's standing policy is that it never requests payment or banking details by phone or text message, so any call demanding either should be treated as fraudulent regardless of how official the caller's script sounds; anyone contacted this way should hang up and verify their actual account status by calling DFA directly at a number looked up independently, not one provided by the caller.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2026-02-09',
+    sources: ['Arkansas Department of Finance and Administration', 'KAIT8'],
+    sourceUrl: 'https://www.kait8.com/2026/02/10/arkansas-department-finance-administration-warns-taxpayers-tax-scam-phone-call/',
+    country: 'US',
+    state: 'AR',
+});
+
+UsAF.push({
+    name: 'Arkansas Facebook Marketplace Payment-Service Impersonation ("Facebook Pay (USA) Limited")',
+    slug: 'arkansas-facebook-pay-marketplace-impersonation-scam',
+    description: `The Arkansas Securities Commissioner issued a cease-and-desist order against an unincorporated entity calling itself Facebook Pay (USA) Limited (FPUL), finding it had posed as Facebook Payments Inc. — a real, licensed Arkansas money transmitter — to exploit an Arkansas woman selling her phone on Facebook Marketplace. Posing as the buyer, FPUL told her she would have to "fund an additional $2,000" before she could receive her own sale proceeds, a classic advance-fee structure dressed up with a real company's name to sound legitimate. She reported it to the Arkansas Securities Department rather than paying, and the Commissioner's order bars FPUL from operating as a money transmitter in Arkansas until it actually registers under the state's Money Services Act, as the real Facebook Payments Inc. has done. The case is a reminder that a payment service's name attached to a Marketplace transaction proves nothing — a legitimate buyer never needs the seller to pay money first to "release" funds for a sale already agreed to — and that any such request, however official-sounding the payment processor's name, should be reported rather than paid. Suspected cases can be reported to the Arkansas Securities Department at 1-800-981-4429.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2022-03-11',
+    sources: ['Arkansas Securities Department'],
+    sourceUrl: 'https://securities.arkansas.gov/securities-commissioner-enters-cease-desist-order-against-facebook-marketplace-imposter/',
+    country: 'US',
+    state: 'AR',
+});
+
+UsAF.push({
+    name: 'Northeast Arkansas Plenty of Fish Romance Scam ($200,000+ Loss)',
+    slug: 'arkansas-plenty-of-fish-romance-scam-200k-loss',
+    description: `A 72-year-old northeast Arkansas woman battling ovarian cancer met a man on the dating app Plenty of Fish who used a stolen profile photo of someone roughly 40 years younger than her. Over several months she sent him more than $200,000, ultimately losing her apartment and her car. Her daughter, April Helm, spotted the age mismatch in the photo and ran a reverse-image search that confirmed it was a stock photo commonly recycled by scammers, but her mother refused to accept it was a scam even after being shown the evidence, and the two argued about it repeatedly; her mother continued the relationship, in Helm's account staying up through the night talking to the scammer, until she died still believing it was real. Helm has since started the "Scammer Stories Podcast," joined an advocacy group against romance scams, and testified before Congress about the case. KAIT used the case to list the AARP-identified red flags of a romance scam: a profile photo mismatched to the claimed age, unexplained "wrong number" contact that becomes a relationship, pressure to move the conversation off the dating app quickly, a partner who lives far away and repeatedly cancels plans to meet in person, and — eventually — a request for money. Family members who suspect a loved one is being targeted should raise it gently and repeatedly rather than giving up after one refusal, since the embarrassment of admitting a scam is often what keeps victims from accepting help even when the evidence is clear.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    isHistorical: true,
+    firstRecorded: '2026-02-13',
+    sources: ['KAIT8'],
+    sourceUrl: 'https://www.kait8.com/2026/02/14/woman-warns-romance-scammers-after-mother-loses-over-200000/',
+    country: 'US',
+    state: 'AR',
 });
 
 UsAF.push({
