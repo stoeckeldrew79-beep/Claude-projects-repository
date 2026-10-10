@@ -13512,3 +13512,80 @@ UsGM.push({
     country: 'US',
     state: 'MI',
 });
+
+UsGM.push({
+    name: 'TerrificFlights.com Fake Flight Booking Scam (Kansas)',
+    slug: 'kansas-terrificflights-fake-flight-booking-scam',
+    description: `A Wichita-area traveler lost $600 after booking through TerrificFlights.com, a site the traveler first saw advertised in a social media ad offering a seemingly legitimate "24-hour refund" policy; the site has since been taken offline. After paying, the traveler got a follow-up call claiming the flight was full and was pressured to pay an additional fee to be rebooked — the flight never actually existed, and the traveler was simply out the original $600 rather than ever being told so directly. The Better Business Bureau serving Kansas publicized the case in an August 2025 report, with spokesperson Josh Planos noting the victim was never told the flight didn't exist, just that they were out the money; the BBB recommends booking directly through an airline's own website or sticking to a booking site a traveler has used successfully before, rather than following a flight deal found through a social media ad.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau serving Kansas', 'KWCH'],
+    sourceUrl: 'https://www.kwch.com/2025/09/03/kansan-loses-600-fake-flight-scam-bbb-warns-holiday-shoppers/',
+    country: 'US',
+    state: 'KS',
+});
+
+UsGM.push({
+    name: 'Fake Government Compliance Notice Scam Targeting Kansas Businesses',
+    slug: 'kansas-fake-government-compliance-notice-business-scam',
+    description: `Small Kansas businesses have long been targeted by mailed solicitations — some using websites designed to mimic official government pages — that charge a high fee to file or retrieve a routine business document the state actually provides for free or at minimal cost, using deliberately evasive language that avoids directly claiming to be from the government. In March 2025 testimony to the Kansas Legislature supporting HB 2118, the Kansas Secretary of State's office (Deputy Secretary of State and General Counsel Clayton Barker) said the office receives complaints every year from hundreds of Kansas businesses who feel misled or taken advantage of by these solicitations, and pointed to matching scam alerts from the Better Business Bureau and the FTC describing the same national pattern. HB 2118, signed into law April 7, 2025, now requires any solicitation that charges a fee to file or retrieve a government document to carry a clear disclosure both in the body of the letter and on the outside of the envelope; a violation is enforceable by the Attorney General under the Kansas Consumer Protection Act, with an exclusion for solicitations from a business's own pre-existing relationships like its law firm or accountant.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Office of the Kansas Secretary of State'],
+    sourceUrl: 'https://www.kslegislature.gov/li/b2025_26/committees/ctte_h_cmrce_lbr_1/documents/testimony/20250203_03.pdf',
+    country: 'US',
+    state: 'KS',
+    firstRecorded: '2025-04-07',
+});
+
+UsGM.push({
+    name: 'Shawnee County Grandparent Scam with Courier Cash Pickup (Kansas)',
+    slug: 'shawnee-county-kansas-grandparent-scam-courier-cash-pickup',
+    description: `A caller posing as an out-of-state attorney, primarily targeting elderly residents who have grandchildren, is followed by a second caller posing as the victim's grandchild, who claims to have been in a car collision or under arrest and in urgent need of bail money. Victims are told a judge has issued a "gag order" forbidding them from telling anyone, including other family members, and are coached on what to tell a bank teller when withdrawing a large amount of cash — common cover stories include home improvements, gifts for children, or buying a vehicle. Rather than wiring the money, victims are told a "courier" will come collect the cash directly from their home, or are instructed to mail or ship it. The Shawnee County (Topeka) Sheriff's Office issued a public warning on January 4, 2024 after the scheme took nearly $300,000 from county residents over roughly a month, and asks anyone who receives a call like this to contact law enforcement immediately rather than follow the caller's instructions.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ['Shawnee County Sheriff\'s Office', 'WIBW'],
+    sourceUrl: 'https://www.wibw.com/2024/01/04/sheriffs-office-warns-scam-after-300k-stolen-county-residents',
+    country: 'US',
+    state: 'KS',
+    firstRecorded: '2024-01-04',
+});
+
+UsGM.push({
+    name: 'AI Deepfake and Voice-Cloning Holiday Shopping and Giving Scam Alert (Maryland)',
+    slug: 'maryland-ai-deepfake-voice-clone-holiday-scam-alert',
+    description: `Maryland Attorney General Anthony Brown issued a consumer alert on November 26, 2025, ahead of Black Friday, Cyber Monday, and Giving Tuesday, warning that AI-generated deepfakes and voice-cloning tools — some requiring as little as three seconds of audio to create a convincing impersonation — are increasingly being used to make older scams like fake retail sites, phishing emails, and fraudulent social-media ads harder for consumers to catch during the holiday shopping rush. The alert cites FTC data showing Americans lost over $12.5 billion to fraud in 2024, a 25 percent jump from the year before, and urges Marylanders to type a retailer's web address directly into their browser rather than clicking a link from a search result or social media ad, confirm a site uses "https" before entering payment information, buy gift cards only from the retailer directly or in person, and verify any charity through the Maryland Secretary of State's charity registry before donating.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ["Maryland Attorney General's Office (Anthony Brown)"],
+    sourceUrl: 'https://oag.maryland.gov/News/pages/Consumer-Alert--Attorney-General-Brown-Offers-Tips-to-Consumers-for-Shopping-Securely-and-Giving-Purposefully-This-Holiday-.aspx',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2025-11-26',
+});
+
+UsGM.push({
+    name: 'DMV Futures Sham Youth Charity Door-to-Door Solicitation Scheme (Maryland)',
+    slug: 'maryland-dmv-futures-sham-youth-charity-scheme',
+    description: `Maryland Attorney General Anthony Brown and Secretary of State Susan Lee issued a Cease and Desist Order on May 22, 2025 against DMV Futures, Inc., a Baltimore-based youth charity, and its president Marcus Smith, after finding the organization drove unsupervised children into neighborhoods across Maryland, Virginia, and the District of Columbia for roughly three years to solicit cash donations and sell candy door-to-door. Investigators found the charity's advertised youth education programs, part-time jobs, and scholarships either did not actually exist or gave the children little to no real benefit, while donations were instead deposited into officers' personal accounts with no board oversight or accounting controls; Brown said the group "misrepresented its charitable impact so its officers could make money off generous Marylanders." The organization had also failed to file required annual reports with the Secretary of State's office, leaving its charitable registration non-compliant. A related enforcement action in January 2026 permanently shut down two similarly structured sham youth charities, Maryland Youth Club and Virginia Youth Club, for the same pattern. Residents are advised to verify any door-to-door youth fundraiser's registration through the Maryland Secretary of State's charity database before giving, and to ask what specific, verifiable programs a donation actually funds.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Maryland Attorney General's Office (Anthony Brown)", "Maryland Secretary of State (Susan Lee)"],
+    sourceUrl: 'https://oag.maryland.gov/News/Pages/Attorney-General-Brown-and-Secretary-of-State-Lee-Order-Youth-Charity-to-Cease-Fundraising.aspx',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2025-05-22',
+});
+
+UsGM.push({
+    name: 'Uber One "Free Trial" Negative-Option Subscription Trap Lawsuit (Maryland)',
+    slug: 'maryland-uber-one-subscription-trap-lawsuit',
+    description: `Maryland Attorney General Anthony Brown joined the FTC and roughly 21 other state attorneys general in a federal lawsuit filed December 15, 2025 in the U.S. District Court for the Northern District of California, alleging Uber Technologies used "negative option marketing" to enroll and bill consumers for its Uber One subscription — advertised with $0 delivery fees and up to $25 in monthly savings — without clear consent, charged some users before their advertised free trial period had actually ended, failed to deliver the promised savings, and made cancellation "extraordinarily difficult," requiring roughly 12 separate actions across seven different screens. Brown said "free trials should actually be free — not traps that lock Marylanders into unwanted monthly charges." The suit, which remains at the allegation stage with trial scheduled for February 2027, seeks restitution for affected Maryland consumers, civil penalties, and an injunction under the federal Restore Online Shoppers' Confidence Act and state consumer-protection law. Consumers who signed up for a "free trial" subscription are advised to check their card statements for charges that began before the trial ended and to document how many steps a cancellation flow actually requires before filing a complaint with the Consumer Protection Division.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ["Maryland Attorney General's Office (Anthony Brown)", 'Federal Trade Commission'],
+    sourceUrl: 'https://oag.maryland.gov/News/Pages/Attorney-General-Brown-Announces-Lawsuit-Against-Uber-Technologies,-Inc.-and-Uber-USA,-LLC-.aspx',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2025-12-15',
+});
