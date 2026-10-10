@@ -11441,6 +11441,48 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'New Castle County "Grandma Scam" Cash-Courier Ring',
+    slug: 'delaware-new-castle-grandma-scam-cash-courier-ring',
+    description: `New Castle County, Delaware police received reports on March 26, 2019 of two men attempting to pick up suspicious packages at a home on Thunder Gulch, leading investigators to a multistate "grandparent scam" ring. Callers had convinced three elderly victims in Indiana, South Dakota, and Florida that a grandchild was in legal trouble and needed cash mailed immediately to cover bail or fees, then arranged for that cash to be collected from a Delaware drop address. Police arrested 24-year-old David Green of Miami and a 17-year-old from Baltimore, charging both with felony theft, attempted felony theft, and conspiracy, and recovered $30,000 in victim cash before it could be moved further. The case shows how a Delaware address can be used purely as a physical pickup point for cash mailed by out-of-state grandparent-scam victims, with no local victim involved at all — a reminder that families anywhere receiving an urgent "grandchild needs bail money" call should hang up and independently call the grandchild directly before mailing anything, regardless of where the caller asks the cash to be sent.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2019-03-26',
+    sources: ['6abc/WPVI', 'New Castle County Police Department'],
+    sourceUrl: 'https://6abc.com/post/grandma-scam-arrests-in-new-castle-county/5229199/',
+    country: 'US',
+    state: 'DE',
+});
+
+UsAF.push({
+    name: 'Delaware State Police Mystery Shopper Fake-Check Scam',
+    slug: 'delaware-state-police-mystery-shopper-fake-check-scam',
+    description: `Delaware State Police issued a consumer alert on November 18, 2019, through Public Information Officer Senior Corporal Heather Pepper citing FTC guidance, warning residents about mystery-shopper job scams. Victims are recruited through fake "help wanted" ads or emails, sometimes charged bogus certification or directory fees, then given a "first assignment" to evaluate a money-transfer service like Western Union or MoneyGram: they deposit a check the "employer" sends, withdraw the cash, and wire it to a third party, only to learn weeks later that the check was counterfeit and the bank holds them responsible for repaying the full amount. DSP's alert stressed that it is never necessary to pay anyone to become a mystery shopper, and that legitimate opportunities can be verified through the Mystery Shopping Providers Association rather than an unsolicited ad or email. The core warning applies to any version of the scheme: never deposit a stranger's check and wire money back, since a bank making deposited funds available within days is not the same as confirming the check is real, which can take weeks to surface.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2019-11-18',
+    sources: ['Delaware State Police'],
+    sourceUrl: 'https://dsp.delaware.gov/2019/11/18/mystery-shopper-scam-alert/',
+    country: 'US',
+    state: 'DE',
+});
+
+UsAF.push({
+    name: 'Delaware State Police Virtual Kidnapping Ransom Scam',
+    slug: 'delaware-state-police-virtual-kidnapping-ransom-scam',
+    description: `Delaware State Police issued a statewide advisory on March 26, 2018, after a recent increase in "virtual kidnapping" extortion calls, with the most recent incidents reported in New Castle County. In this scheme no one has actually been kidnapped, but a caller convinces a victim that a family member is being held and threatened with harm unless a ransom, demanded by wire transfer, is paid immediately. DSP described the warning signs: the caller tries to keep the victim on the phone and block any attempt to contact the "kidnapped" relative directly, the call does not come from the supposed victim's own phone, and the ransom demand sometimes drops rapidly if the victim pushes back, a sign the caller is working from a script rather than holding anyone. Police advised that in most cases the best response is to simply hang up, and if that doesn't feel possible, to avoid saying the loved one's name aloud, ask questions only the real family member would know the answer to, and try to reach that person directly or through another relative before paying anything; suspected cases can be reported to Delaware Crime Stoppers at 1-800-TIP-3333. This is a distinct, fabricated-kidnapping premise from the state's existing DMV-text and bail-spoofing entries, which rely on a supposed arrest or missed court date rather than an invented abduction.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    isHistorical: true,
+    firstRecorded: '2018-03-26',
+    sources: ['Delaware State Police'],
+    sourceUrl: 'https://dsp.delaware.gov/2018/03/26/virtual-kidnapping-scam-alert-advisory/',
+    country: 'US',
+    state: 'DE',
+});
+
+UsAF.push({
     name: 'Mexican Timeshare Resale Upfront-Fee Scam',
     slug: 'arizona-mexico-timeshare-resale-fee-scam',
     description: `Arizonans who own timeshare interests in Mexico are contacted — often years after the original purchase — by callers posing as real estate brokers who claim a buyer is ready to pay a large sum for the timeshare, but that the owner must first wire money to an account in Mexico to cover "taxes," escrow, or closing fees before the sale can close. Once the first payment is sent, the callers invent additional fees and keep extracting money until the victim runs out of funds or realizes no buyer ever existed. The pattern was documented in a KVOA (Tucson) investigation centered on a 68-year-old Tucson retiree, Terry Beall, who originally bought a timeshare at the Grand Mayan resort in Rocky Point (Puerto Peñasco) for $30,000 in 2004, was later targeted by a fake "buyer" claiming to have a $63,000 offer in 2017, and lost a combined $63,000 between the original purchase, escalating monthly maintenance fees of up to $900, and the resale-fee scam before realizing it was fraudulent. Arizona Attorney General Mark Brnovich separately issued a consumer alert referencing the same scenario that victimized Beall, calling the scammers "a bunch of degenerates that are stealing money from vulnerable people." Protective advice given: never wire money to a stranger in another country to facilitate a sale, independently verify any broker or buyer rather than trusting the caller's own contact information, and report suspected cases to the Arizona Attorney General's Office or FBI.`,
@@ -11826,6 +11868,20 @@ UsAF.push({
     state: 'AK',
     isHistorical: true,
     firstRecorded: '2022-04-28',
+});
+
+UsAF.push({
+    name: 'FBI Anchorage Warns of Rising Romance Scam Losses Among Alaskans',
+    slug: 'alaska-fbi-anchorage-romance-scam-losses-2023',
+    description: `The FBI's 2023 Internet Crime Report showed Alaskans lost about $31.5 million to online fraud that year, up roughly 91% from 2022, with the Anchorage FBI field office naming romance scams as one of the state's three leading online-fraud types alongside business-email compromise and investment fraud. Supervisory Special Agent Andy Smith, who leads the Anchorage FBI's white-collar crime squad, described fraudsters building a relationship with a victim on social media over time before asking for money, gifts, gift cards, or cryptocurrency, and said the true toll is likely understated since many victims never report the crime out of embarrassment. Alaska had the sixth-highest per-capita fraud-loss rate in the country and the second-highest rate of fraud reports behind only Washington, D.C.; Alaskans 60 and older made up fewer than 300 of the state's 2,338 reported online-fraud victims but accounted for more than $8.7 million of the total losses, over a quarter of the statewide figure. Smith's advice applies to any version of the scheme: be wary of an online companion who has never been willing to meet in person or video chat and who eventually asks for money, gift cards, or cryptocurrency, and report suspected fraud to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2024-03-21',
+    sources: ['Alaska Public Media', 'FBI Anchorage Field Office'],
+    sourceUrl: 'https://alaskapublic.org/uncategorized/2024-03-21/alaskans-losses-to-online-fraud-have-almost-doubled-fbi-says',
+    country: 'US',
+    state: 'AK',
 });
 
 UsAF.push({
