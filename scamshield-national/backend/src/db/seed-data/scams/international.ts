@@ -24656,3 +24656,42 @@ International.push({
   sourceUrl: 'https://www.ngataonga.org.nz/search-use-collection/search/TZP356555',
   country: 'NU',
 });
+
+International.push({
+  name: 'Grenada Government Minister Impersonation and Fake COVID-19 Assistance Scam',
+  slug: 'grenada-government-minister-covid-impersonation-scam',
+  description: `Grenada's Government Information Service issued public warnings in January and July 2021 about scammers creating fake social media profiles that impersonated government ministers to win victims' trust, then offered bogus COVID-19 financial assistance packages ranging from US$30,000 to US$2 million. Victims were told they had to pay upfront "qualifying" fees of US$550 to US$50,000 through money transfer agencies before the package could be released — fees the government warned would simply be lost, since no genuine Grenadian government assistance process ever requires an advance payment to release funds. The advisory stressed a simple structural tell: Grenadian government ministers do not initiate private contact with members of the public over social media, so any unsolicited direct message claiming to be from a minister, however convincing the profile photo and name look, should be treated as fraudulent from the outset. Residents who receive such a message are advised not to reply or send any money, and to report the fake profile to the platform and to the Government Information Service.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  isHistorical: true,
+  firstRecorded: '2021-07-05',
+  sources: ['Government Information Service (Grenada)', 'NOW Grenada'],
+  sourceUrl: 'https://nowgrenada.com/2021/07/be-mindful-of-social-media-scams-using-names-of-government-officials/',
+  country: 'GD',
+});
+
+International.push({
+  name: 'Grenada FIU Fake Cheque Deposit and Advance-Fee "Grant" Scam',
+  slug: 'grenada-fiu-fake-cheque-deposit-scam',
+  description: `Grenada's Financial Intelligence Unit head Tafawa Pierre warned in July 2019 that Grenadians had lost an estimated EC$10 million to online financial fraud, up from roughly EC$7 million just a few years earlier, built around two linked tactics: offers of a "grant" from a supposed funding agency that requires the victim to send money first before the grant can be released, and unsolicited cheques mailed to victims with instructions to deposit the cheque and wire part of the funds back to the sender immediately — leaving the victim owing the bank once the cheque is later discovered to be counterfeit and bounces. Pierre cited specific cases, including two individuals who each lost more than EC$1.5 million within a single year and a woman who sold her house and sent the entire proceeds to people she had never met in person, believing it was a loan or business deal. His core advice was to treat any cheque that arrives unsolicited in the mail as suspect by default, and to contact the FIU directly to verify any unexpected financial offer before responding or sending any money, since by the time a fake cheque bounces or a "grant" fails to materialize, the funds already sent are typically unrecoverable.`,
+  categorySlug: 'fake-check-overpayment',
+  alertLevel: 'high',
+  isHistorical: true,
+  firstRecorded: '2019-07-01',
+  sources: ['Grenada Financial Intelligence Unit (FIU)', 'Antigua Observer'],
+  sourceUrl: 'https://antiguaobserver.com/?p=196446',
+  country: 'GD',
+});
+
+International.push({
+  name: 'Fake "Grenada Maritime Authority" Website Scam',
+  slug: 'grenada-fake-maritime-authority-website-scam',
+  description: `The Grenada Ports Authority, which administers maritime affairs under Grenada's Shipping Act, issued a public alert on February 20, 2024, signed by General Manager and Director of Maritime Affairs Franklyn Redhead, warning that a website at grenadamaritimeauthority.com was falsely posing as an official "Grenada Maritime Authority" with no connection whatsoever to Grenada's actual maritime administration. The alert stated plainly that Grenada operates no separate maritime-authority website at all — only a closed local vessel registry run directly through the Ports Authority — and that no person or company had been authorized to act as an agent for any such site. Officials said the fake site appeared designed to defraud parties in the maritime community seeking vessel registration, seafarer certification, or flag- and port-state services, and the matter was referred to Grenada's National Cyber Security Incident Response Team (CSIRT-Gnd) for further investigation. Anyone seeking Grenadian vessel registration, seafarer certification, or related maritime services should verify any website or agent directly with the Grenada Ports Authority before providing payment or documents, since a convincing government-sounding name and domain prove nothing about a site's legitimacy on their own.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  isHistorical: true,
+  firstRecorded: '2024-02-20',
+  sources: ['Grenada Ports Authority', 'NOW Grenada'],
+  sourceUrl: 'https://nowgrenada.com/?p=104220',
+  country: 'GD',
+});

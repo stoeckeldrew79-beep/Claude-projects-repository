@@ -12637,4 +12637,46 @@ UsNS.push({
     state: 'RI',
 });
 
+UsNS.push({
+    name: 'Westlake "Fake Deputy" Jury Duty Arrest-Warrant Bond Scam',
+    slug: 'ohio-westlake-fake-deputy-jury-duty-bond-scam',
+    description: `A caller impersonating a Cuyahoga County Sheriff's Office deputy told a 28-year-old Westlake, Ohio woman on July 14, 2026 that she had missed jury duty and had an active arrest warrant, then demanded a "bond" payment to avoid arrest. The caller directed her to a fraudulent website that instructed her to withdraw $13,000 in cash from her bank and to submit personal information and a photo of herself before the money could be "processed." She was on her way to withdraw the cash when a family friend recognized the scam and stopped her in time, so no money was lost — though she had already entered personal information and a photo on the fraudulent site. Westlake Police confirmed the report and warned residents that a real arrest warrant is never resolved by paying a "bond" over the phone or through a website, and that no legitimate law-enforcement agency demands a large cash withdrawal, gift cards, cryptocurrency, or a wire transfer to avoid arrest. Anyone who receives a call like this should hang up and verify any claimed warrant by calling the actual court or sheriff's office directly, using a number looked up independently rather than one provided by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    isHistorical: true,
+    firstRecorded: '2026-07-14',
+    sources: ['Westlake Police Department', 'Cleveland 19 (WOIO)'],
+    sourceUrl: 'https://www.cleveland19.com/2026/07/19/westlake-woman-almost-loses-13k-jury-duty-scam-police-say/',
+    country: 'US',
+    state: 'OH',
+});
+
+UsNS.push({
+    name: 'Ohio Lottery Ransomware Data Breach',
+    slug: 'ohio-lottery-dragonforce-ransomware-data-breach',
+    description: `The Ohio Lottery detected a cybersecurity incident involving unauthorized access to its internal office network on or about December 24, 2023, which took its prize-cashing systems offline statewide into late January 2024; the agency said it did not learn until April 2024 that files containing customers' personal information had actually been accessed. The DragonForce ransomware gang claimed responsibility on its leak site, initially claiming to have stolen over 3 million records and later publishing data that included names, Social Security numbers, and dates of birth; a breach notification the Ohio Lottery filed with the Maine Attorney General's office put the confirmed number of affected individuals at 538,959 — a smaller count than DragonForce's own claims, which is common when an attacker's self-reported numbers aren't independently verified. The Ohio Lottery said its separate gaming network was not compromised and that it had found no evidence the stolen data had been misused, and it offered free credit monitoring and identity-theft protection to affected individuals. Anyone notified of this breach, or any similar lottery or state-agency breach, should enroll in the credit monitoring offered, place a fraud alert or credit freeze with the major credit bureaus, and watch for follow-up phishing attempts that reference the breach itself to appear legitimate.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'high',
+    isHistorical: true,
+    firstRecorded: '2023-12-24',
+    sources: ['Cleveland 19 (WOIO)', 'BleepingComputer', 'Maine Attorney General breach notification'],
+    sourceUrl: 'https://www.cleveland19.com/2024/01/26/ohio-lottery-services-restored-following-data-breach/',
+    country: 'US',
+    state: 'OH',
+});
+
+UsNS.push({
+    name: 'DACO Alert: Fake $650,000 UK Prize Email Impersonating Governor González',
+    slug: 'puerto-rico-daco-governor-fake-uk-prize-advance-fee-email-scam',
+    description: `A mass email campaign tells recipients they are one of ten "governors" entitled to a $650,000 cash prize from a UK entity called "Ovabay Credit Union," with the message written to look as though it was personally sent by Puerto Rico's actual governor, Jenniffer González. The email offers the recipient $130,000 — 20% of the prize — in exchange for "helping" receive the funds from a UK bank account, while warning of a supposed 50% government tax that must first be addressed, a classic advance-fee structure dressed up as an insider windfall. The real goal is to harvest the recipient's name, address, and bank account number for identity theft, not to deliver any prize. DACO Secretary Hiram Torres Montalvo issued a public alert on December 9, 2025 calling the scheme "totalmente fraudulento" and urging anyone who receives the email to delete it without replying and to report it through DACO's official channels at daco.pr.gov. No real government official, in Puerto Rico or anywhere else, personally emails private citizens offering a cash windfall in exchange for banking information — any message that does should be deleted, not answered.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2025-12-09',
+    sources: ['Departamento de Asuntos del Consumidor (DACO)', 'Metro Puerto Rico'],
+    sourceUrl: 'https://www.metro.pr/noticias/2025/12/12/daco-alerta-sobre-esquema-de-fraude-que-ofrece-130000-para-reclamar-premio-falso/',
+    country: 'US',
+    state: 'PR',
+});
+
 
