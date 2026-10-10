@@ -13328,3 +13328,45 @@ UsGM.push({
     country: 'US',
     state: 'MS',
 });
+
+UsGM.push({
+    name: 'Clearwater Trading & Peak Market Trends Investor Fraud Complaint (Idaho)',
+    slug: 'idaho-clearwater-peak-market-trends-investor-fraud',
+    description: `The Idaho Department of Finance's Securities Bureau filed a complaint on August 1, 2023 against Justin Finney, Rodney Skyles, and Bryan Trenary, along with a web of entities they controlled — Clearwater Trading GP/LP, Clearwater Real Properties GP/LP, Skyward Properties LLC, and Peak Market Trends — alleging that from January 2013 through March 2018, Finney built at least six business entities across three financial-services lines that misrepresented investments to clients who trusted him and Skyles for investment advice. Trenary participated in all three business lines and Skyles in two of them. In total, 46 investors across seven states, including Idaho, were defrauded of $3,407,335.80, with virtually all of the money lost — diverted into risky trades, unnecessary purchases made to fake the appearance of success, and personal spending the defendants could not explain. Most of the victims were previous clients who already trusted Finney and Skyles for legitimate investment advice, a reminder that an existing professional relationship is not itself a guarantee that a new venture someone pitches you is being run honestly, and that investors should independently verify any new fund or entity with Idaho's Securities Bureau before committing money.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    isHistorical: true,
+    firstRecorded: '2023-08-01',
+    sources: ['Idaho Department of Finance'],
+    sourceUrl: 'https://www.finance.idaho.gov/?p=13965',
+    country: 'US',
+    state: 'ID',
+});
+
+UsGM.push({
+    name: 'Idaho "Don\'t Click December" QR Code Scam Warning',
+    slug: 'idaho-dont-click-december-qr-code-scam-warning',
+    description: `As part of the annual "Don't Click December" public-awareness campaign, which the U.S. Attorney's Office for the District of Idaho launched in 2023, the office partnered with the FBI and local and tribal law enforcement in East Idaho in December 2024 to warn residents about QR code fraud, tech-support scams, and cryptocurrency "pig butchering" schemes through a series of public service announcements. In a QR code scam, a fraudster emails or texts a corrupted code, or physically pastes a fake sticker over a legitimate one in a public place, so that scanning it routes the victim to a phishing page built to harvest personal or financial information instead of the real destination. U.S. Attorney Josh Hurwit tied the campaign to Idaho's 2023 fraud losses of roughly $33 million and said the goal is to reduce the shame and panic that keep many victims from reporting a scam at all: "Prevention is worth much more than the cure in this situation." The campaign's advice is to slow down before scanning any unexpected QR code or acting on an urgent request, do independent research on the business or claim involved, and talk it through with a trusted friend or family member before sending money or personal information.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2024-12-17',
+    sources: ["U.S. Attorney's Office for the District of Idaho", 'FBI', 'IdahoNews.com'],
+    sourceUrl: 'https://idahonews.com/news/local/protecting-idahoans-from-scammers',
+    country: 'US',
+    state: 'ID',
+});
+
+UsGM.push({
+    name: 'Idaho Fake "Tax Processing Center" Mailed Collection-Letter Scam',
+    slug: 'idaho-tax-processing-center-fake-collection-letter-scam',
+    description: `Idahoans reported receiving official-looking mailed letters from a fake "Tax Processing Center" or "Tax Processing Unit" threatening that the state would seize property and garnish wages over supposed unpaid taxes, citing a bogus "Public Judgment Records" filing number and sometimes misspelling the recipient's name. When a representative from the Idaho Attorney General's Consumer Protection Division called the number listed on one of the letters, the man who answered claimed to represent a company called "Lien Recovery," then hung up when asked for his company's actual name. Then-Attorney General Lawrence Wasden and the Idaho State Tax Commission issued a joint consumer alert on January 20, 2022, warning that the exact same letter template was circulating in other states too, and advising recipients to check a notice for spelling errors, search online for the contact details listed before calling, verify any real balance by contacting the Tax Commission directly using its published number, and never pay with gift cards, reloadable debit cards, or wire transfers.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2022-01-20',
+    sources: ['Idaho Attorney General’s Office (Lawrence Wasden)', 'Idaho State Tax Commission'],
+    sourceUrl: 'https://ag.idaho.gov/newsroom/wasden-and-idaho-tax-commission-issue-joint-alert-over-tax-scam-targeting-idahoans/',
+    country: 'US',
+    state: 'ID',
+});
