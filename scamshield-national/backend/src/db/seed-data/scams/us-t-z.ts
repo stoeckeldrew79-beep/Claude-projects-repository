@@ -7236,3 +7236,44 @@ UsTZ.push({
     state: 'WV',
     firstRecorded: '2026-04-03',
 });
+
+UsTZ.push({
+    name: 'Missing Pet "Finder" Extortion Scam (Wisconsin)',
+    slug: 'wisconsin-missing-pet-finder-scam',
+    description: `After a Wisconsin resident posts on social media about a lost pet, scammers contact them posing as a pet-finding or recovery service and demand an upfront fee before they'll supposedly help. Michelle Reinen, administrator of the Wisconsin Department of Agriculture, Trade and Consumer Protection's Division of Trade and Consumer Protection, warned that some scammers send photos — which she noted can now be AI-generated — falsely claiming they've found the animal and need money for transport or injury treatment, while others escalate straight into extortion, telling the owner "I have the pet, you need to pay me for it." DATCP's advice is never to send money upfront to a "finder," to search the service's name alongside words like "scam" or "complaint" and check it against Better Business Bureau and consumer-protection records, and to limit identifying details in lost-pet posters and online posts so a real finder's claim can later be verified against details that weren't publicly shared.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)', 'FOX6 Milwaukee'],
+    sourceUrl: 'https://www.fox6now.com/news/missing-pet-scams-wisconsin-officials-warn-pet-owners',
+    country: 'US',
+    state: 'WI',
+    firstRecorded: '2026-06-08',
+});
+
+UsTZ.push({
+    name: 'FBI Milwaukee Spoofed Caller-ID Student Arrest-Threat Scam (Wisconsin)',
+    slug: 'wisconsin-fbi-milwaukee-student-arrest-threat-scam',
+    description: `Callers falsely claiming to be federal officials spoof caller ID so a Wisconsin college student's phone displays the real public phone number of the FBI's Milwaukee Division, then threaten to arrest the student unless they immediately pay thousands of dollars supposedly owed for defaulted student loans, delinquent taxes, or unpaid parking tickets. The callers often claim to have specific personal information about the student while fishing for more, and in some calls direct the student to the FBI Milwaukee Division's real website so the spoofed number appears to "check out," a false-reassurance tactic built specifically around the caller ID trick. The FBI Milwaukee Division confirmed it never calls private citizens to demand payment of any kind and urged anyone who receives a call like this to hang up without engaging, notify their bank and the credit bureaus if any financial information was given, and file a report with the FBI's Internet Crime Complaint Center at IC3.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FBI Milwaukee Division', 'CBS 58 Milwaukee'],
+    sourceUrl: 'https://www.cbs58.com/news/fbi-warns-of-scam-targeting-wisconsin-college-students',
+    country: 'US',
+    state: 'WI',
+    isHistorical: true,
+    firstRecorded: '2016-01-01',
+});
+
+UsTZ.push({
+    name: 'Student Loan Debt Relief Advance-Fee Scam (Wisconsin)',
+    slug: 'wisconsin-student-loan-debt-relief-scam',
+    description: `A joint consumer alert from the Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP) and the Department of Financial Institutions warned that scammers contact Wisconsin borrowers by phone, email, letter, or text offering "loan forgiveness" or relief from federal student loan debt. The pitch typically charges an up-front fee for a service that is actually free, falsely promises immediate total forgiveness, manufactures urgency around a supposed "new law" or an expiring program, and may ask the victim to hand over their Department of Education FSA ID or sign a third-party authorization or power-of-attorney form that quietly redirects the borrower's own loan correspondence to the scammer. The agencies advised never paying an upfront fee or sharing an FSA ID — which the release notes "has the same legal status as a signature" — with an unsolicited caller, and instead using free resources like the Wisconsin Student Loan Help Hotline or StudentAid.gov directly, reporting any suspected scam to DATCP's Consumer Protection Hotline.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)', 'Wisconsin Department of Financial Institutions'],
+    sourceUrl: 'https://datcp.wi.gov/Pages/News_Media/StudentLoanDebtReliefScammers.aspx',
+    country: 'US',
+    state: 'WI',
+    isHistorical: true,
+    firstRecorded: '2021-11-15',
+});
