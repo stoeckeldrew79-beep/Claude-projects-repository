@@ -12615,3 +12615,41 @@ UsNS.push({
     isHistorical: true,
     firstRecorded: '2023-06-30',
 });
+
+UsNS.push({
+    name: 'Nevada Rental Listing Scam',
+    slug: 'nevada-rental-listing-scam',
+    description: `Scammers post rental listings — often for properties they don't own, including vacant or foreclosed homes — at unusually low prices and pressure applicants to wire money or pay via a reloadable debit card to "hold" the unit or cover a security deposit before ever showing it in person. In a related local variant, a scammer poses as the landlord, property manager, or real estate agent for a vacant home in the renter's own area, sometimes gaining access to a lockbox or having a new key cut, and victims often learn they've been defrauded only when the property's actual lienholder or owner shows up and tells them to move out. The Nevada Attorney General's Office advises renters to verify ownership through the county assessor's website, search the purported landlord's name and phone number to check for the same listing posted under a different identity, insist on meeting in person and touring the property before paying anything, and avoid wiring money or paying with reloadable cards.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ["Nevada Attorney General's Office"],
+    sourceUrl: 'https://ag.nv.gov/News/PR/2017/Attorney_General_Laxalt_Warns_Nevadans_of_Rental_Listing_Scams',
+    country: 'US',
+    state: 'NV',
+});
+
+UsNS.push({
+    name: 'Nevada Division of Insurance Licensing Renewal Phishing Scam',
+    slug: 'nevada-insurance-license-renewal-phishing-scam',
+    description: `A phishing email impersonating the Nevada Division of Insurance targets Nevada-licensed insurance producers and agents, arriving from a lookalike sender address ("INSURANCE LICENSING" <donotreply@nevadalicense.us>) with the subject line "Nevada Division of Insurance AMENDMENT FEE." The email falsely claims the recipient's insurance license will be revoked unless an "amendment fee" is paid immediately through a link embedded in the message. The Division issued a June 26, 2023 consumer alert stating flatly that the email did not come from the agency, confirming its real licensing correspondence comes only from nevada.licensing@doi.nv.gov or renewal.desk@doi.nv.gov, and telling recipients to delete the email without clicking any link and to direct questions to its Licensing Section directly.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Nevada Division of Insurance'],
+    sourceUrl: 'https://doi.nv.gov/News_Notices/Press_Releases/JUNE_26,_2023_-_CONSUMER_ALERT__Licensing_Renewal_Email_Scam',
+    country: 'US',
+    state: 'NV',
+    firstRecorded: '2023-06-26',
+});
+
+UsNS.push({
+    name: 'FBI Las Vegas Smishing Wave Tied to Overseas Forced-Labor Scam Compounds (Nevada)',
+    slug: 'nevada-fbi-las-vegas-forced-labor-smishing-bank-alert-scam',
+    description: `The FBI's Las Vegas field office warned of a wave of text messages designed to panic recipients into giving up bank account access, including vague messages from a fake "E-Crime Analysis Desk," texts falsely claiming a specific dollar amount "has been successfully debited" from the recipient's account, and more convincing texts posing as "Apple Security" alerts about a bogus pre-authorization charge, each including a link urging the recipient to "resolve" the issue. FBI Las Vegas Special Agent in Charge Christopher Delzotto said many of these scams are run out of large scam compounds in Southeast Asia — in countries like Laos and Cambodia — that use forced labor, with workers lured by fake high-paying job offers and then compelled to run scams against victims around the world; U.S. authorities and partner agencies have made roughly 200-plus arrests and broken up more than a dozen such operations in recent years. The FBI recommends pausing before clicking any link in an unsolicited text and reporting the attempt immediately to IC3.gov, noting that recovery odds are far higher — the agency cites an 80 percent success rate — when a loss is reported within 24 hours.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['FBI Las Vegas Field Office', 'KSNV News 3 Las Vegas'],
+    sourceUrl: 'https://news3lv.com/news/local/story/fbi-warns-of-new-phone-scam-wave-tied-to-human-trafficking-targeting-bank-accounts',
+    country: 'US',
+    state: 'NV',
+    firstRecorded: '2026-05-14',
+});
