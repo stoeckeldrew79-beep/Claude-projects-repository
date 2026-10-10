@@ -8360,3 +8360,22 @@ The scheme surfaced only because of investigative journalism: reporting by Austr
 Securency is a reminder that bribery doesn't need a glamorous target to be corrosive: there is no flashier commodity to corrupt than the literal paper (or in this case, plastic) a nation's money is printed on, and the company doing the corrupting was partly owned by the very central bank meant to police currency integrity. It's also a case study in how slowly accountability can move even after guilt is established — the companies pleaded guilty in 2011, but the public didn't learn what happened to the individuals involved until 2018, and some defendants escaped prosecution entirely on a legal technicality in the way investigators had gathered evidence against them, seven years after the companies themselves admitted the scheme was real.`,
     sourceUrl: 'https://www.rba.gov.au/media-releases/2018/mr-18-29-chronology.html',
 });
+
+NotoriousNS.push({
+    title: 'Jeremiah Silkowski and the Fund Valuations Nobody Was Allowed to Check',
+    slug: 'jeremiah-silkowski-sqn-capital-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_001.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182 (CC BY-SA 4.0) — federal courthouse, Foley Square, Manhattan',
+    coverImagePosition: 50,
+    body: `Jeremiah Silkowski was president, CEO, chief compliance officer, and majority owner of SQN Capital Management LLC, a New York-based investment adviser that managed four private funds. Under the funds' own governing documents, SQN was required to hire an outside accounting firm to audit the funds' financial statements every year, or at minimum prepare unaudited statements that complied with generally accepted accounting principles. According to the Securities and Exchange Commission, SQN simply didn't do either — for years.
+
+Instead of outside audits, Silkowski prepared the funds' asset valuations himself, while telling investors an independent valuation expert had done the work. The SEC alleged he materially inflated those values and then left net asset values essentially frozen for extended periods, even as the underlying cash flows, market conditions, and the funds' actual holdings kept changing underneath the unchanging numbers investors were shown. On top of the inflated and stagnant valuations, Silkowski allegedly told investors for years that the funds' liquidations were nearly complete, with no reasonable basis for the claim and without disclosing that market conditions were blocking asset sales or that the firm lacked the resources to finish the job — leaving investors, in the SEC's words, "in limbo."
+
+This wasn't SQN's first brush with the SEC over the same underlying problem. The agency had already brought settled administrative proceedings against the firm in 2020 and in 2023 for violating the custody rule and the compliance rule by failing to deliver audited financial statements, and in the 2023 case Silkowski himself was charged with aiding and abetting those violations. The SEC's 2026 complaint alleged the firm never actually fixed what it had already been sanctioned for — it just kept not producing real audited numbers.
+
+Silkowski and SQN Capital settled the SEC's case without admitting or denying the allegations. On October 8, 2026, a federal court in the Southern District of New York entered consent final judgments permanently enjoining both defendants from further violations, ordering Silkowski to pay a $200,000 civil penalty, and permanently barring him from acting as or associating with an investment adviser, broker, or dealer — except to the extent a court-appointed receiver, now tasked with liquidating the funds' remaining assets and distributing proceeds to investors, decides his help is needed. The case illustrates a quieter variety of investment fraud than the Ponzi schemes and fabricated trading profits that dominate most fraud headlines: Silkowski's funds didn't need fake returns, just an adviser willing to grade his own homework on what the funds were worth, tell investors someone independent had done it, and keep saying "almost done" long after the claim had stopped being true — a pattern regulators had already caught and sanctioned once before he was allowed to keep doing it.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26671',
+});

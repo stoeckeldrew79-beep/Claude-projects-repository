@@ -3966,3 +3966,22 @@ The scheme unwound when Freeman's own bet went wrong: in 2008 he kept a large sh
 Freeman's case is a reminder that a disqualified director's bankruptcy record doesn't automatically follow him once he adopts a new name and a new company letterhead — the exact gap that let a man convicted of bankruptcy-related offenses in 1997 raise £14 million from more than three hundred new investors within a decade of his release. It's also a case study in how a too-good-to-fail cover story can survive a real-world stress test for a while: GFX kept promising double-digit monthly returns straight through the 2008 crash, right up until the one genuinely large bet behind the curtain went wrong and there was nothing left to pay anyone back with.`,
     sourceUrl: 'https://nifa.co.uk/blog/city-trader-jailed-after-admitting-large-scale-investment-fraud/',
 });
+
+NotoriousTZ.push({
+    title: "Richard Vairo and the Sausage Company That Ran on Other People's Sausage Money",
+    slug: 'richard-vairo-sausage-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lloyd_D._George_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Daniel Lobo (CC0) — Lloyd D. George U.S. Courthouse, Las Vegas, where Vairo was sentenced',
+    coverImagePosition: 50,
+    body: `Richard Vairo ran Richard's Brazilian Sausage LLC, a Florida-registered company, and told a Las Vegas food brokerage firm he had a growing deal to sell sausage products to a major supermarket chain. All he needed, he said, was cash up front to buy inventory and ramp up production to meet the supermarket's orders, with the loans to be repaid out of the proceeds once the sausage shipped and the chain paid him. Between September 2021 and October 2022, the brokerage advanced him nearly $11 million on that promise.
+
+There was no supermarket deal, or at least nothing close to the scale Vairo described. Prosecutors said he sent the brokerage fabricated weekly sales statements showing phantom orders moving through the supply chain, and when repayments slipped, he blamed the delays on a supposed hold his bank had placed on incoming funds. To keep the arrangement alive, Vairo used a portion of each new advance to pay back money owed from earlier advances — repaying roughly $7 million of the nearly $11 million he'd taken, not from any real sausage business, but from the brokerage's own cash cycling back to it under the appearance of a functioning trade relationship. It was a Ponzi scheme built not on glamorous investment returns but on invoices for cured meat that never existed.
+
+The arrangement left the brokerage with a net loss of about $3.89 million once the fictitious supermarket orders stopped materializing and the explanations ran out. Vairo was charged with wire fraud and pleaded guilty to ten counts. In February 2026, Chief U.S. District Judge Andrew P. Gordon of the District of Nevada sentenced him to 48 months in federal prison, to be followed by three years of supervised release, in a case investigated by the FBI's Las Vegas Division.
+
+Vairo's scheme is a reminder that a Ponzi structure doesn't require a hedge fund, a slick pitch deck, or a stock ticker to work — it only requires someone willing to advance money against a promise of future revenue, and a scammer willing to paper over the gap between a nonexistent supermarket contract and a real bank account with fabricated sales reports and borrowed time. The food brokerage trusted a business partner's word about orders it never independently verified, and that trust, rather than any sophisticated deception, is what nearly $11 million rode on for over a year.`,
+    sourceUrl: 'https://www.justice.gov/usao-nv/pr/business-owner-sentenced-four-years-prison-multimillion-dollar-ponzi-fraud-scheme',
+});
