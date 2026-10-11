@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import { useCategories, useInfiniteScams, useScamSearch } from '../hooks/useScams';
 import { ScamCard } from '../components/ScamCard';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
+import { useAiTopicNews } from '../hooks/useDailyNews';
 import { timeAgo } from '../utils/timeAgo';
-import { Scam } from '../types';
+import { Scam, DailyScamNews } from '../types';
 
 const ALERT_DOT_COLORS: Record<string, string> = {
   low: 'bg-slate-400',
@@ -55,6 +56,50 @@ function AiScamFeedRow({ scam }: { scam: Scam }) {
         )}
       </div>
     </Link>
+  );
+}
+
+// The curated cards below are the substance of this page but only grow a
+// few times a week — nothing about them signals "check back today." This
+// strip is the opposite trade: raw news headlines, filtered to AI/deepfake/
+// voice-clone mentions out of the same feed Today's Scams reads (now
+// re-scanned every 2 hours, see render.yaml), refreshed in-session. It's
+// deliberately visually distinct from AiScamFeedRow below — outbound links
+// to the original source, not internal links to a reviewed database entry —
+// so a reader never mistakes a raw headline for a vetted pattern.
+function AiActivityStrip() {
+  const { data: items, isLoading } = useAiTopicNews();
+
+  if (isLoading || !items || items.length === 0) return null;
+
+  return (
+    <div className="mt-6 rounded-lg border border-slate-200 bg-slate-50">
+      <div className="flex items-center gap-2 border-b border-slate-200 px-4 py-2.5">
+        <span className="h-1.5 w-1.5 rounded-full bg-red-600 animate-pulse" />
+        <span className="text-xs font-bold tracking-wider uppercase text-slate-700">Recent AI Scam Activity</span>
+        <span className="text-xs text-slate-400">— live news, not yet reviewed for the database below</span>
+      </div>
+      <ul className="divide-y divide-slate-200">
+        {items.map((item: DailyScamNews) => (
+          <li key={item.id}>
+            <a
+              href={item.source_url}
+              target="_blank"
+              rel="noreferrer"
+              className="group flex items-start justify-between gap-4 px-4 py-2.5 hover:bg-white transition-colors"
+            >
+              <span className="text-sm text-slate-700 group-hover:underline">{item.headline}</span>
+              <span className="shrink-0 text-right">
+                <span className="block text-xs text-slate-400 whitespace-nowrap">
+                  {timeAgo(item.published_at ?? item.scanned_at)}
+                </span>
+                <span className="block text-[11px] text-slate-400 whitespace-nowrap">{item.source_name}</span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
 
@@ -115,6 +160,8 @@ export default function AIScams() {
           {mostRecent && <> · most recent added {timeAgo(mostRecent.created_at)}</>}
         </p>
       )}
+
+      <AiActivityStrip />
 
       {/* The checker is the highest-value thing on this page for someone who
           arrived scared rather than browsing — it goes above the fold, not

@@ -26,6 +26,26 @@ function usOnlyRequested(req: AuthedRequest): boolean {
   return req.query.scope === 'us';
 }
 
+// Powers the "Recent AI Scam Activity" strip on the AI-Enabled Scams page.
+// A headline filter, not a search_term filter: the general scan's
+// "deepfake scam" query is one of 26 terms feeding this table, but an
+// AI-voice-clone story just as often surfaces under "romance scam" or
+// "crypto investment fraud" — so this has to look at what the headline
+// actually says, not which query happened to find it.
+//
+// \y is Postgres's word-boundary escape (POSIX ARE, not PCRE — \b means
+// backspace here, not boundary). It's load-bearing on "ai" specifically:
+// without it, a case-insensitive substring match on "ai" hits "said",
+// "email", "claim", "detail" constantly. The longer terms (deepfake,
+// chatbot, ...) don't strictly need it, but keeping every alternative
+// inside the same \y...\y group is simpler than deciding term by term.
+const AI_TOPIC_PATTERN =
+  '\\y(ai|deepfake|deep fake|voice clon\\w*|voice-clon\\w*|cloned voice|synthetic voice|voice spoof\\w*|chatbot|generative ai)\\y';
+
+function aiTopicRequested(req: AuthedRequest): boolean {
+  return req.query.topic === 'ai';
+}
+
 // How many stories the feed holds, so the page can reserve its full height
 // up front instead of growing (and shrinking the scrollbar thumb) as each
 // batch loads. Must match list()'s dedup and per-source cap exactly, or the
@@ -105,6 +125,32 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
                 COALESCE(published_at, scanned_at) DESC, id
        LIMIT $2 OFFSET $3`,
       [state, PAGE_SIZE, offset]
+    );
+    res.json({ data: rows });
+    return;
+  }
+
+  if (aiTopicRequested(req)) {
+    // The strip this feeds is a handful of headlines above a curated list,
+    // not a paged feed — no per-source cap (the volume is low enough that
+    // one outlet dominating isn't a real risk the way it is on the main
+    // feed) and a fixed small limit rather than PAGE_SIZE/offset paging.
+    const { rows } = await pool.query(
+      `WITH deduped AS (
+         SELECT *, ROW_NUMBER() OVER (
+                  PARTITION BY lower(headline)
+                  ORDER BY COALESCE(published_at, scanned_at) DESC, id
+                ) AS dupe_rank
+         FROM daily_scam_news
+         WHERE headline ~* $1
+       )
+       SELECT id, headline, summary, source_name, source_url,
+              published_at, search_term, scanned_at, state, source_kind
+       FROM deduped
+       WHERE dupe_rank = 1
+       ORDER BY COALESCE(published_at, scanned_at) DESC, id
+       LIMIT 8`,
+      [AI_TOPIC_PATTERN]
     );
     res.json({ data: rows });
     return;

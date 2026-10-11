@@ -4,12 +4,25 @@ import {
   fetchDailyScamNews,
   fetchDailyNewsStates,
   fetchDailyScamNewsCount,
+  fetchAiTopicNews,
 } from '../services/dailyNews';
 
 // The underlying data only changes once a day (see the scanDailyScamNews
 // job), but refetching periodically means a tab left open shows a new
 // headline landing without the visitor needing to reload.
 const REFETCH_INTERVAL_MS = 10 * 60 * 1000;
+
+// scan-daily-news now runs every 2 hours in production (render.yaml), so a
+// strip claiming to be "recent activity" should actually catch a run
+// landing within the same browsing session — ten minutes is responsive
+// enough without hammering the endpoint.
+export function useAiTopicNews() {
+  return useQuery({
+    queryKey: ['daily-scam-news', 'topic', 'ai'],
+    queryFn: fetchAiTopicNews,
+    refetchInterval: REFETCH_INTERVAL_MS,
+  });
+}
 
 export function useDailyScamNews(state?: string, enabled = true) {
   return useQuery({
