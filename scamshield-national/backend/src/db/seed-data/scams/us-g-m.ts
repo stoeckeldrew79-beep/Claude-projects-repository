@@ -13651,3 +13651,16 @@ UsGM.push({
     state: 'IN',
     firstRecorded: '2026-04-24',
 });
+
+UsGM.push({
+    name: 'Hurricane Isaias Price-Gouging and Storm-Chaser Contractor Scam Alert (Georgia)',
+    slug: 'georgia-hurricane-isaias-price-gouging-storm-chaser-alert',
+    description: `Georgia Attorney General Chris Carr warned residents on October 9, 2026 to watch for price gouging and storm-related scams as Hurricane Isaias approached the state, saying "criminals will take advantage of those impacted by severe weather." Governor Brian Kemp's executive order on petroleum supply disruptions had already activated Georgia's price-gouging statute effective September 29, 2026, and a separate statewide state of emergency for Hurricane Isaias took effect October 8, extending the law's protections to gasoline, diesel, and other goods and services needed for storm preparation, response, and recovery. While the emergency remains in effect, retailers generally cannot charge more for a covered good or service than they charged immediately before the declaration, though a limited increase is allowed when it reflects a seller's own higher costs for new inventory or transportation plus their average markup during the ten days before the declaration. Carr's office separately urged homeowners to learn their rights before signing any storm-repair contract and pointed residents to its storms-and-fraud guidance at consumer.georgia.gov, warning that out-of-town "storm chaser" contractors often demand large upfront deposits and disappear without finishing the work, or offer to inflate an insurance damage estimate in exchange for covering a homeowner's deductible — a deal that exposes the homeowner to insurance fraud along with shoddy repairs. Suspected price gouging or contractor fraud can be reported to the Attorney General's Consumer Protection Division at 404-651-8600 or 800-869-1123 (toll-free in Georgia), while suspected insurance fraud involving a roofer or other contractor should go to the Georgia Insurance Commissioner's office at 404-656-2070 or 800-656-2298.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Georgia Attorney General (Consumer Protection Division)', 'Fox 5 Atlanta'],
+    sourceUrl: 'https://www.fox5atlanta.com/news/state-georgia-warns-price-gouging-scams-ahead-isaias',
+    country: 'US',
+    state: 'GA',
+    firstRecorded: '2026-10-09',
+});

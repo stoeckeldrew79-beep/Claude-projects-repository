@@ -12507,3 +12507,29 @@ UsAF.push({
     state: 'FL',
     firstRecorded: '2026-01-26',
 });
+
+UsAF.push({
+    name: 'Hurricane Isaias Price-Gouging and Unlicensed Contractor Fraud Warning (Alabama)',
+    slug: 'alabama-hurricane-isaias-price-gouging-unlicensed-contractor-warning',
+    description: `Governor Kay Ivey's state-of-emergency proclamation ahead of Hurricane Isaias took effect at 4 p.m. on October 7, 2026, activating Alabama's price-gouging law across dozens of counties — including Baldwin, Mobile, Escambia, Montgomery, Tuscaloosa, and Wilcox — and Attorney General Steve Marshall's office said the protections, which bar "unconscionable" pricing on commodities and rental facilities during the emergency, remain in force through October 14. Because Alabama law does not set a fixed numerical threshold for "unconscionable," the Attorney General's office treats a price 25% or more above the average charged in the same area during the prior 30 days as potentially excessive unless the increase reflects the seller's own higher costs; violations can carry fines of up to $1,000 each, and a business found to have willfully and continuously violated the law can be barred from doing business in the state. Separately, the Alabama Home Builders Licensure Board warned residents about unlicensed homebuilding and roofing fraud during the storm's cleanup and rebuilding period: performing unlicensed homebuilding work after an emergency declaration is "aggravated home repair fraud," a Class C felony, and any roofing job on a storm-damaged roof costing more than $2,500 legally requires a licensed roofer. Executive director Seth Gowan urged residents to be especially wary of contractors who show up unsolicited or come from out of town, to ask to see a contractor's license card and verify it directly with the Board, and to get quotes and contracts in writing before paying anything. Price-gouging complaints can be filed online at alabamaag.gov or by calling the Consumer Interest Division at 1-800-392-5658, while licensing questions or contractor-fraud reports go to the Home Builders Licensure Board at 334-242-2230 or 1-800-304-0853.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Alabama Attorney General (Consumer Interest Division)', 'Alabama Home Builders Licensure Board', 'WBRC/Gray News'],
+    sourceUrl: 'https://abc3340.com/news/local/alabama-price-gouging-law-takes-effect-as-isaias-approaches',
+    country: 'US',
+    state: 'AL',
+    firstRecorded: '2026-10-09',
+});
+
+UsAF.push({
+    name: 'Tropical Storm Isaias Price-Gouging Hotline Activation (Florida Panhandle)',
+    slug: 'florida-tropical-storm-isaias-price-gouging-hotline',
+    description: `Florida Attorney General James Uthmeier activated the state's price-gouging hotline and online reporting form on October 7, 2026, a day after Governor Ron DeSantis signed Executive Order 26-202 declaring a state of emergency across 25 counties in the Florida Panhandle and north Florida — including Escambia, Santa Rosa, Okaloosa, Bay, and Leon — as Tropical Storm Isaias strengthened toward an expected hurricane landfall. "With the governor's emergency declaration, our office has launched the price gouging report form for Tropical Storm Isaias," Uthmeier wrote, asking residents to report any "unconscionable increase in the price of essential commodities." Florida law bars excessive price increases on essentials such as food, gasoline, lumber, and water for the duration of a declared emergency, comparing a seller's current price against their average price over the 30 days before the declaration and allowing an exception only when the increase reflects the seller's own higher costs. Anyone who suspects price gouging in the affected counties can file a report at MyFloridaLegal.com or by calling the Attorney General's price-gouging hotline, 1-866-9-NO-SCAM (1-866-966-7226).`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Florida Attorney General (James Uthmeier)', 'Action News Jax'],
+    sourceUrl: 'https://www.actionnewsjax.com/news/local/tropical-storm-isaias-florida-activates-price-gouging-hotline/UD464JEMRFHXRCRZ3U2UGTPYGA/',
+    country: 'US',
+    state: 'FL',
+    firstRecorded: '2026-10-07',
+});

@@ -24853,3 +24853,27 @@ International.push({
   country: 'JO',
   firstRecorded: '2026-06-09',
 });
+
+International.push({
+  name: 'Dh11.9 Million "Verify and Return" Impersonation and Gold-Liquidation Scam (UAE)',
+  slug: 'uae-dh11-9-million-impersonation-gold-liquidation-scam',
+  description: `Dubai Police's Anti-Fraud Centre arrested two suspects on October 6, 2026 in connection with a phone-fraud operation that cost victims a combined Dh11,877,532 (about $3.2 million), Khaleej Times reported. The callers posed as employees of official and international entities and told victims their names had surfaced in files or legal cases outside the UAE, then threatened legal consequences unless they transferred money from their bank accounts into accounts abroad, falsely promising the funds would be "verified" and returned once their legitimacy was confirmed. When a victim's available balance wasn't enough to satisfy the callers, the scheme escalated: victims were told to sell their gold jewellery and wire the proceeds, with the callers claiming earlier payments had been insufficient to complete the "verification process." To keep victims from seeking outside help, some were instructed to check into hotel rooms, while others were told to cut off contact with family, friends, and bank staff until they were "cleared." Dubai Police's Anti-Fraud Centre formed a dedicated task force after receiving reports, traced the money transfers, and arrested two suspects who admitted during questioning that an entity based outside the UAE had recruited them through social media, paid them per successful fraud, and fed them victims' data and scripted instructions through a dedicated app. Dubai Police urge residents never to transfer money or liquidate assets — including gold or jewellery — based on an unsolicited call claiming their identity is linked to a legal case abroad, and to report suspicious calls through the Dubai Police eCrime platform or by calling 901.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'high',
+  sources: ['Dubai Police (Anti-Fraud Centre)', 'Khaleej Times'],
+  sourceUrl: 'https://www.khaleejtimes.com/uae/dubai-police-arrest-two-suspects-in-phone-scams-worth-over-dh118-million',
+  country: 'AE',
+  firstRecorded: '2026-10-06',
+});
+
+International.push({
+  name: 'Fake Consumer Protection Website and Remote-Access Banking Scam (UAE)',
+  slug: 'uae-fake-consumer-protection-website-remote-access-banking-scam',
+  description: `Dubai Police warned residents on July 7, 2026 about a scam that begins when someone searching online to file a consumer complaint lands on a fraudulent website made to look like the government's official Consumer Protection portal. The fake site asks visitors to submit their name, email address, phone number, and complaint details — information the scammers immediately put to use. Shortly after a victim submits the form, they get a phone call from someone claiming to be a Consumer Protection representative, who repeats back the exact complaint details just entered on the site to sound credible, then instructs the victim to download remote-access software and log into their online banking app while it runs. That software lets the criminals mirror the victim's screen in real time, capture their banking credentials, and transfer funds or make unauthorized purchases directly from the account. Dubai Police described this as a distinct, repeat pattern from an earlier scheme that impersonated the UAE Pass digital-identity service over the phone, and advised residents to file consumer complaints only through official government channels reached by typing the address in directly rather than through a search result or link, to never share banking credentials with anyone who calls after an online form submission, and to never install remote-access software at a caller's direction. Fraud attempts can be reported through the Dubai Police eCrime platform or by calling 901.`,
+  categorySlug: 'phishing',
+  alertLevel: 'high',
+  sources: ['Dubai Police', 'Khaleej Times'],
+  sourceUrl: 'https://www.khaleejtimes.com/uae/dubai-police-fake-consumer-protection-links-banking-scam-warning',
+  country: 'AE',
+  firstRecorded: '2026-07-07',
+});
