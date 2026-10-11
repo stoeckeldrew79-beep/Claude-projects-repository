@@ -24601,3 +24601,39 @@ International.push({
   country: 'CV',
   firstRecorded: '2026-07-24',
 });
+
+International.push({
+  name: 'Jordan Social Media Gold-Buying Scam',
+  slug: 'jordan-social-media-gold-buying-scam',
+  description: `Jordan's Standards and Metrology Organisation (JSMO) and the Public Security Directorate's Cybercrime Unit have both confirmed receiving complaints about unlicensed online gold sellers advertising on social media at below-market prices. Buyers report two outcomes: the seller and their page vanish entirely after payment, or the buyer receives a counterfeit piece made from copper, iron, or other base metals finished to look like gold, often lacking the official carat stamp or an invoice. JSMO official Wafaa Al-Momani said JSMO is the only body authorized to regulate the precious-metal jewelry trade in Jordan, and that purchases made outside licensed shops carry no guarantee of actual carat compliance. PSD Cybercrime Unit spokesperson Col. Amer Al-Sartawi confirmed multiple fraud complaints tied to this trade and urged the public not to deal with unlicensed social media sellers, buying gold only from licensed shops and insisting on an invoice that states the weight, carat, and labor cost.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'medium',
+  sources: ['Jordan Standards and Metrology Organisation (JSMO)', 'Public Security Directorate Cybercrime Unit', 'Al Jazeera'],
+  sourceUrl: 'https://www.aljazeera.com/economy/2026/5/12/social-media-becomes-a-goldmine-for-fraudsters-in-jordan',
+  country: 'JO',
+  firstRecorded: '2026-05-12',
+});
+
+International.push({
+  name: 'Jordan Customs Fake Auction Page Scam',
+  slug: 'jordan-customs-fake-auction-page-scam',
+  description: `The Jordan Customs Department (JCD) warned the public against fraudulent social media pages and messages falsely claiming to host official JCD auctions, along with impersonators posing as customs staff who distribute fake links via social media and messaging apps. The department said these pages are designed to defraud citizens, steal personal data, and commit electronic fraud when a user clicks through or engages with them. JCD clarified that all of its genuine electronic services are listed only on its own official website and verified social media accounts, and stressed that it does not request personal information this way. The public was advised to verify that any customs-related link, page, or message is authentic before engaging with it, to avoid clicking suspicious links or sharing personal information, and was told the department has referred the matter to the competent authorities to pursue legal action against the operators of the fake pages.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Jordan Customs Department (JCD)', 'Jordan News'],
+  sourceUrl: 'https://www.jordannews.jo/Section-109/News/Customs-warns-against-pages-claiming-auctions-via-fake-links-fraudulent-messages-35551',
+  country: 'JO',
+  firstRecorded: '2024-05-05',
+});
+
+International.push({
+  name: 'Jordan Fake Security Officer Video-Call Impersonation Scam',
+  slug: 'jordan-fake-security-officer-impersonation-scam',
+  description: `Jordan's Public Security Directorate (PSD) Cybercrime Unit warned on June 9, 2026 of a new scheme after receiving multiple complaints in the preceding days: fraudsters contact victims through audio or video calls on messaging apps while posing as security officers, falsely claim a legal case has been filed against the victim, and demand personal documents and full personal details, telling the victim to report to a security agency the following day. Investigators found the real goal is to seize control of the victim's personal information and bank accounts under the pressure of a fabricated legal threat. A PSD spokesperson stressed that "official security authorities do not utilize such methods for investigations or when summoning individuals," and urged anyone contacted this way to refuse to engage and report it immediately through the 911 emergency line, the Cybercrime Unit's official channels, or the nearest Criminal Investigation Department office.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'high',
+  sources: ['Public Security Directorate (PSD) Cybercrime Unit', 'Petra - Jordan News Agency'],
+  sourceUrl: 'https://petra.gov.jo/wk/index.php/en/news/psd-warns-against-new-phone-scam-impersonating-security-officers',
+  country: 'JO',
+  firstRecorded: '2026-06-09',
+});
