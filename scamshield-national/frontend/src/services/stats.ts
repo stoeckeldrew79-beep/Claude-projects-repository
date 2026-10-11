@@ -12,12 +12,27 @@ export async function fetchStats() {
   return data.data;
 }
 
-export interface StatsBreakdown {
-  byCategory: { name: string; count: number }[];
-  byCountry: { country: string; count: number }[];
+export interface LiveStatsCritical {
+  id: string;
+  name: string;
+  slug: string;
+  alert_level: string;
+  category_name: string | null;
+  country: string | null;
+  created_at: string;
 }
 
-export async function fetchStatsBreakdown() {
-  const { data } = await api.get<{ data: StatsBreakdown }>('/stats/breakdown');
+export interface LiveStats {
+  newLast7Days: number;
+  newLast30Days: number;
+  activeCriticalCount: number;
+  activeHighCount: number;
+  newsLast24h: number;
+  mostActiveCategory: { name: string; count: number } | null;
+  recentCritical: LiveStatsCritical[];
+}
+
+export async function fetchLiveStats() {
+  const { data } = await api.get<{ data: LiveStats }>('/stats/live');
   return data.data;
 }

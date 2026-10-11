@@ -1,32 +1,50 @@
+import { Link } from 'react-router-dom';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
-import { useStats, useStatsBreakdown } from '../hooks/useStats';
+import { useLiveStats } from '../hooks/useStats';
 import { useGlobalSources } from '../hooks/useGlobalSources';
 import { StatsBar } from '../components/StatsBar';
 import { countryName } from '../utils/countries';
+import { timeAgo } from '../utils/timeAgo';
 import { formatLoss } from './GlobalSources';
 import { GlobalSource } from '../types';
+import { LiveStatsCritical } from '../services/stats';
 
-function BreakdownList({ rows, total }: { rows: { label: string; count: number }[]; total: number }) {
-  const max = rows.reduce((m, r) => Math.max(m, r.count), 1);
+const ALERT_BADGE_STYLES: Record<string, string> = {
+  critical: 'bg-red-50 text-red-700',
+  high: 'bg-orange-50 text-orange-700',
+};
+
+function LiveStatTile({ value, label }: { value: number; label: string }) {
   return (
-    <ul className="mt-4 space-y-2.5">
-      {rows.map((row) => (
-        <li key={row.label}>
-          <div className="flex items-baseline justify-between text-sm">
-            <span className="text-slate-700">{row.label}</span>
-            <span className="text-slate-500 tabular-nums">
-              {row.count.toLocaleString()} <span className="text-slate-400">({Math.round((row.count / total) * 100)}%)</span>
-            </span>
-          </div>
-          <div className="mt-1 h-1.5 rounded-full bg-slate-100">
-            <div
-              className="h-1.5 rounded-full bg-red-600"
-              style={{ width: `${Math.max((row.count / max) * 100, 2)}%` }}
-            />
-          </div>
-        </li>
-      ))}
-    </ul>
+    <div className="rounded-lg border border-slate-200 px-4 py-5 text-center">
+      <div className="text-2xl sm:text-3xl font-bold text-red-600 tabular-nums">{value.toLocaleString()}</div>
+      <div className="mt-1 text-xs sm:text-sm font-medium text-slate-500">{label}</div>
+    </div>
+  );
+}
+
+function UrgentRow({ item }: { item: LiveStatsCritical }) {
+  return (
+    <Link
+      to={`/scams/${item.slug}`}
+      className="flex items-start justify-between gap-4 py-3 border-b border-slate-100 last:border-0 hover:bg-slate-50 -mx-2 px-2 rounded"
+    >
+      <div className="min-w-0">
+        <div className="flex items-center gap-2 flex-wrap">
+          <span
+            className={`rounded px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide ${ALERT_BADGE_STYLES[item.alert_level] ?? 'bg-slate-100 text-slate-600'}`}
+          >
+            {item.alert_level}
+          </span>
+          <span className="font-medium text-slate-900 truncate">{item.name}</span>
+        </div>
+        <p className="mt-0.5 text-xs text-slate-500">
+          {item.category_name}
+          {item.country && <> · {countryName(item.country)}</>}
+        </p>
+      </div>
+      <span className="shrink-0 text-xs text-slate-400 whitespace-nowrap">{timeAgo(item.created_at)}</span>
+    </Link>
   );
 }
 
@@ -67,8 +85,7 @@ export default function Statistics() {
     path: '/statistics',
   });
 
-  const { data: stats } = useStats();
-  const { data: breakdown, isLoading: breakdownLoading, isError: breakdownError } = useStatsBreakdown();
+  const { data: liveStats, isLoading: liveLoading, isError: liveError } = useLiveStats();
   const { data: sources, isLoading: sourcesLoading, isError: sourcesError } = useGlobalSources();
 
   const sourcesWithStats = sources?.filter((s) => s.stats.length > 0) ?? [];
@@ -87,29 +104,49 @@ export default function Statistics() {
         <StatsBar />
       </div>
 
-      <div className="mt-10 grid gap-8 sm:grid-cols-2">
-        <div>
-          <h2 className="font-semibold text-slate-900">Our database, by category</h2>
-          {breakdownLoading && <p className="mt-4 text-sm text-slate-500">Loading…</p>}
-          {breakdownError && <p className="mt-4 text-sm text-red-700">Couldn't load the breakdown.</p>}
-          {breakdown && stats && (
-            <BreakdownList
-              rows={breakdown.byCategory.map((c) => ({ label: c.name, count: c.count }))}
-              total={stats.scams}
-            />
-          )}
+      <div className="mt-14">
+        <div className="flex items-center gap-2">
+          <span className="h-2 w-2 rounded-full bg-red-500 animate-pulse" />
+          <h2 className="font-semibold text-slate-900">Right now</h2>
         </div>
-        <div>
-          <h2 className="font-semibold text-slate-900">Our database, by country</h2>
-          {breakdownLoading && <p className="mt-4 text-sm text-slate-500">Loading…</p>}
-          {breakdownError && <p className="mt-4 text-sm text-red-700">Couldn't load the breakdown.</p>}
-          {breakdown && stats && (
-            <BreakdownList
-              rows={breakdown.byCountry.map((c) => ({ label: countryName(c.country), count: c.count }))}
-              total={stats.scams}
-            />
-          )}
-        </div>
+        <p className="mt-2 max-w-2xl text-sm text-slate-600">
+          Not a snapshot that looks the same every time you check — this reflects how fast the database is actually
+          growing and what's currently rated dangerous, refreshed automatically.
+        </p>
+
+        {liveLoading && <p className="mt-4 text-sm text-slate-500">Loading…</p>}
+        {liveError && <p className="mt-4 text-sm text-red-700">Couldn't load live statistics.</p>}
+
+        {liveStats && (
+          <>
+            <div className="mt-5 grid grid-cols-2 sm:grid-cols-4 gap-3">
+              <LiveStatTile value={liveStats.activeCriticalCount} label="Critical-severity threats active" />
+              <LiveStatTile value={liveStats.activeHighCount} label="High-severity threats active" />
+              <LiveStatTile value={liveStats.newLast7Days} label="New patterns, last 7 days" />
+              <LiveStatTile value={liveStats.newsLast24h} label="News headlines scanned, last 24h" />
+            </div>
+
+            {liveStats.mostActiveCategory && (
+              <p className="mt-4 text-sm text-slate-600">
+                Most active category this week:{' '}
+                <span className="font-semibold text-slate-900">{liveStats.mostActiveCategory.name}</span> (
+                {liveStats.mostActiveCategory.count} new pattern
+                {liveStats.mostActiveCategory.count === 1 ? '' : 's'})
+              </p>
+            )}
+
+            {liveStats.recentCritical.length > 0 && (
+              <div className="mt-6">
+                <h3 className="text-sm font-semibold text-slate-900">Most urgent right now</h3>
+                <div className="mt-2">
+                  {liveStats.recentCritical.map((item) => (
+                    <UrgentRow key={item.id} item={item} />
+                  ))}
+                </div>
+              </div>
+            )}
+          </>
+        )}
       </div>
 
       <div className="mt-14">

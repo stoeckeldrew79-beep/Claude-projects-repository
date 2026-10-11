@@ -33,33 +33,71 @@ export async function getSiteStats(): Promise<SiteStats> {
   };
 }
 
-export interface StatsBreakdown {
-  byCategory: { name: string; count: number }[];
-  byCountry: { country: string; count: number }[];
+export interface LiveStatsCritical {
+  id: string;
+  name: string;
+  slug: string;
+  alert_level: string;
+  category_name: string | null;
+  country: string | null;
+  created_at: string;
 }
 
-// Same live-COUNT(*) principle as getSiteStats — this just slices the
-// same active scams by category and by country instead of totaling them.
-export async function getStatsBreakdown(): Promise<StatsBreakdown> {
-  const [byCategory, byCountry] = await Promise.all([
+export interface LiveStats {
+  newLast7Days: number;
+  newLast30Days: number;
+  activeCriticalCount: number;
+  activeHighCount: number;
+  newsLast24h: number;
+  mostActiveCategory: { name: string; count: number } | null;
+  recentCritical: LiveStatsCritical[];
+}
+
+// Replaces the old all-time category/country breakdown (same number every
+// time someone checked, which read as a chart rather than a live site).
+// This is what's actually changing right now: how fast the database is
+// growing, how many currently-active threats are rated critical/high, and
+// the specific newest ones — what a visitor should actually watch for
+// today, not a percentage split that looks the same on every visit.
+export async function getLiveStats(): Promise<LiveStats> {
+  const [counts, newsCount, topCategory, recentCritical] = await Promise.all([
+    pool.query(`
+      SELECT
+        COUNT(*) FILTER (WHERE created_at >= NOW() - INTERVAL '7 days') AS new_7d,
+        COUNT(*) FILTER (WHERE created_at >= NOW() - INTERVAL '30 days') AS new_30d,
+        COUNT(*) FILTER (WHERE alert_level = 'critical') AS critical_count,
+        COUNT(*) FILTER (WHERE alert_level = 'high') AS high_count
+      FROM scams
+      WHERE is_active = true AND is_historical = false
+    `),
+    pool.query(`SELECT COUNT(*)::int FROM daily_scam_news WHERE scanned_at >= NOW() - INTERVAL '24 hours'`),
     pool.query(`
       SELECT c.name, COUNT(s.id)::int AS count
-      FROM categories c
-      LEFT JOIN scams s ON s.category_id = c.id AND s.is_active = true
+      FROM scams s
+      JOIN categories c ON c.id = s.category_id
+      WHERE s.is_active = true AND s.is_historical = false AND s.created_at >= NOW() - INTERVAL '7 days'
       GROUP BY c.name
-      ORDER BY count DESC, c.name ASC
+      ORDER BY count DESC
+      LIMIT 1
     `),
     pool.query(`
-      SELECT country, COUNT(*)::int AS count
-      FROM scams
-      WHERE is_active = true AND country IS NOT NULL
-      GROUP BY country
-      ORDER BY count DESC, country ASC
+      SELECT s.id, s.name, s.slug, s.alert_level, s.country, s.created_at, c.name AS category_name
+      FROM scams s
+      LEFT JOIN categories c ON c.id = s.category_id
+      WHERE s.is_active = true AND s.is_historical = false AND s.alert_level IN ('critical', 'high')
+      ORDER BY s.created_at DESC
+      LIMIT 5
     `),
   ]);
 
+  const row = counts.rows[0];
   return {
-    byCategory: byCategory.rows,
-    byCountry: byCountry.rows,
+    newLast7Days: Number(row.new_7d),
+    newLast30Days: Number(row.new_30d),
+    activeCriticalCount: Number(row.critical_count),
+    activeHighCount: Number(row.high_count),
+    newsLast24h: Number(newsCount.rows[0].count),
+    mostActiveCategory: topCategory.rows[0] ?? null,
+    recentCritical: recentCritical.rows,
   };
 }

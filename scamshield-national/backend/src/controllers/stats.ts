@@ -7,7 +7,7 @@ export const get = asyncHandler<AuthedRequest>(async (_req, res) => {
   res.json({ data: stats });
 });
 
-export const breakdown = asyncHandler<AuthedRequest>(async (_req, res) => {
-  const breakdown = await StatsModel.getStatsBreakdown();
-  res.json({ data: breakdown });
+export const live = asyncHandler<AuthedRequest>(async (_req, res) => {
+  const stats = await StatsModel.getLiveStats();
+  res.json({ data: stats });
 });
