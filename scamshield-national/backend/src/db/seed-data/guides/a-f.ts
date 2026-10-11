@@ -5450,10 +5450,9 @@ Anyone who sent cryptocurrency to the scam address in the fraudulent email shoul
     slug: 'coupang-2025-insider-data-breach-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'coupang-2025-data-breach'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seoul_Skyline_Night_2018.jpg?width=1200',
-    coverImageCredit: 'Photo: Sunyu Kim (mauveine.kim), CC0, via Wikimedia Commons — a Seoul skyline; Coupang is headquartered in Seoul',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Coupang_1.jpg?width=1200',
+    coverImageCredit: 'Photo: Bonnielou2013, CC BY-SA 4.0, via Wikimedia Commons — a Coupang delivery truck in Seoul',
     coverImagePosition: 50,
-    // representative photo — a general Seoul skyline, not Coupang's own offices; replace with an exact match if found
     sourceUrl: 'https://techcrunch.com/2025/12/01/koreas-coupang-says-data-breach-exposed-nearly-34m-customers-personal-information/',
     body: `Coupang, the dominant e-commerce platform in South Korea and a company so central to daily life there that its own name has become shorthand for online shopping, disclosed on December 1, 2025 that a data breach had exposed the personal information of nearly 34 million customer accounts — a figure roughly equivalent to two-thirds of the country's entire population. What made the breach especially alarming wasn't just its scale but how long it had gone unnoticed: investigators later determined the unauthorized access began in June 2025 and continued undetected for almost six months before Coupang discovered it.
 
@@ -7217,9 +7216,8 @@ The clearest lesson for consumers isn't only "don't send money to someone you've
     slug: "alectra-utilities-2026-e-transfer-scam-guide",
     author: "ScamShield Editorial",
     tags: ["guide", "alectra-utilities-2026-e-transfer-scam"],
-    // representative photo — replace with an exact match if found
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hydro_Tower_-_panoramio.jpg?width=1200",
-    coverImageCredit: "Photo: Eric Marshall (CC BY 3.0) — an electricity transmission tower in Hamilton, Ontario, part of Alectra's service territory",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Brampton_ON_Alectra-Utility-Truck_2026-02-17.jpg?width=1200",
+    coverImageCredit: "Photo: Milan Suvajac, CC BY-SA 4.0, via Wikimedia Commons — an Alectra Utilities truck in Brampton, Ontario",
     coverImagePosition: 50,
     sourceUrl: "https://www.globenewswire.com/news-release/2026/09/10/3359511/0/en/alectra-utilities-warns-customers-of-e-transfer-scam-promising-bill-discounts.html",
     body: `On September 10, 2026, Alectra Utilities — the electric distribution company serving roughly 1.08 million homes and businesses across 17 Ontario communities, including Hamilton, Mississauga, Vaughan, Barrie, and Guelph, making it the province's second-largest local distributor after Hydro One — issued a public warning about a scam impersonating the company. Fraudsters posing as Alectra representatives are calling and emailing customers with a pitch that inverts the usual utility scam: instead of threatening a shutoff, they promise a bill discount or a promotional incentive, on the condition that the customer send a large payment by e-transfer to unlock it.
