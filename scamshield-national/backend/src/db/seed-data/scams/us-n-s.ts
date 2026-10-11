@@ -12782,3 +12782,30 @@ UsNS.push({
     state: 'NJ',
     firstRecorded: '2026-01-15',
 });
+
+UsNS.push({
+    name: 'FBI Albany "3,000% Spike" Agent-Impersonation Scam Targeting Capital Region Seniors',
+    slug: 'new-york-fbi-albany-agent-impersonation-spike',
+    description: `The FBI's Albany Field Office announced on July 20, 2026 that calls to its tip line reporting scammers impersonating FBI agents and bank employees had jumped 3,000% as the scheme surged across New York's Capital Region, with older residents the primary target. Special Agent in Charge Craig Tremaroli described callers who falsely identify themselves as FBI agents or bankers, then threaten the victim with imminent arrest to keep them on the phone while pressuring them to hand over personally identifying information, move the conversation to an encrypted third-party messaging app, and ultimately send money. Tremaroli stressed that the real FBI will never call to ask for personally identifiable information, never threatens an arrest over the phone, and never demands payment of any kind, and he urged anyone who gets a call like this to hang up immediately rather than engage, since providing any information or staying on the line only gives the caller more material to work with. Residents who receive a suspicious call purporting to be from the FBI or a bank are asked to report it directly to the FBI rather than to the number that called them, since a scammer's callback number leads back to the same scheme, not to a real verification line. The scale of the jump reported by a single field office's tip line — a thirtyfold increase, not a gradual rise — reflects how quickly a scripted impersonation scam can be scaled up once a crew settles on a pressure tactic that works, making the Capital Region's spike a warning sign for the rest of the state rather than a localized anomaly.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FBI Albany Field Office', 'WAMC Northeast Public Radio'],
+    sourceUrl: 'https://www.wamc.org/news/2026-07-21/fbi-albany-warns-scammers-targeting-elderly',
+    country: 'US',
+    state: 'NY',
+    firstRecorded: '2026-07-20',
+});
+
+UsNS.push({
+    name: 'Nextdoor App Contractor Fraud (North Wales, Pennsylvania)',
+    slug: 'pennsylvania-north-wales-nextdoor-contractor-fraud',
+    description: `North Wales, Pennsylvania police said in June 2021 that a contractor using the name Ronald Williams and the company name Constructionize LLC had defrauded roughly a dozen homeowners he met through the neighborhood social app Nextdoor, with victims and complaints reaching police from North Wales, Montgomery County, Bucks County, Philadelphia, and across the New Jersey border. One victim, Suzanne Roth, posted a request on Nextdoor for power washing and deck repair; Williams quoted her $2,700 to rebuild the deck, which she paid in full, then came back asking for an additional $400 and later another $300, ultimately leaving the work substandard and incomplete after collecting more than $3,000 from her. North Wales Police Chief Mike Eves said the method was consistent across every case detectives had gathered — an unsolicited or Nextdoor-sourced contact, a home-repair job quoted and paid for upfront, and work that was never properly finished — and that court records showed Williams had a lengthy prior arrest history for forgery, drug offenses, and assault, along with a pattern of using multiple aliases. Police issued a warrant for Williams's arrest after he was accused of scamming yet another North Wales resident, and asked residents to watch for a gray Dodge Ram pickup bearing the Constructionize LLC name along with a thin blue line decal and a Fraternal Order of Police emblem on the license plate. The case is a reminder that a neighborhood recommendation app carries no vetting of its own: a contractor reaching out through Nextdoor should still be asked for a verifiable business license and insurance, checked against the county's contractor registry, and never paid the full project cost upfront.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    isHistorical: true,
+    sources: ['North Wales Police Department (Pennsylvania)', '6abc Philadelphia (WPVI-TV)'],
+    sourceUrl: 'https://6abc.com/police-contractor-scamming-senior-citizens-through-popular-app/10806643/',
+    country: 'US',
+    state: 'PA',
+    firstRecorded: '2021-06-20',
+});
