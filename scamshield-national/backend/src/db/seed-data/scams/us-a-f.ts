@@ -12546,3 +12546,16 @@ UsAF.push({
     state: 'AZ',
     firstRecorded: '2026-01-28',
 });
+
+UsAF.push({
+    name: 'HelloFresh California Automatic-Renewal "Dark Pattern" Subscription Settlement',
+    slug: 'california-hellofresh-automatic-renewal-dark-pattern-settlement',
+    description: `The Los Angeles County District Attorney's Office and the Santa Clara County District Attorney's Office, acting through California's multi-county Automatic Renewal Task Force (CART), sued German meal-kit company HelloFresh alleging it violated California's Automatic Renewal Law by signing consumers up for recurring weekly subscription boxes without the disclosures the law requires: the complaint said HelloFresh failed to clearly and conspicuously spell out the subscription's auto-renewing terms before charging a customer's card, never obtained the customer's affirmative consent to the recurring charges, sent no post-transaction acknowledgment of those terms, and made canceling far harder than signing up — leaving many Californians stuck paying for weekly boxes they thought they had tried as a one-time order. Filed in Santa Clara County Superior Court and signed by Judge Daniel T. Nishigaya, the stipulated final judgment announced August 18, 2025 requires HelloFresh, which did not admit liability, to pay $7.5 million total: $6.38 million in civil penalties split among the prosecuting county offices, $120,000 in investigative costs, and $1 million in direct restitution to eligible California customers who were improperly charged. The judgment also requires HelloFresh to overhaul its sign-up flow going forward with clear, conspicuous renewal terms, genuine opt-in consent, and an easy, one-step cancellation path. Anyone signing up for a "trial" box, meal kit, or other recurring online order should read the renewal terms before entering payment information and confirm, before checking out, exactly how to cancel — a subscription that is far easier to start than to stop is the core warning sign of this kind of automatic-renewal dark pattern.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ["Los Angeles County District Attorney's Office", "Santa Clara County District Attorney's Office", 'California Automatic Renewal Task Force (CART)'],
+    sourceUrl: 'https://da.lacounty.gov/media/news/hellofresh-pay-75-million-deceptive-subscription-practices-consumer-protection-lawsuit',
+    country: 'US',
+    state: 'CA',
+    firstRecorded: '2025-08-18',
+});
