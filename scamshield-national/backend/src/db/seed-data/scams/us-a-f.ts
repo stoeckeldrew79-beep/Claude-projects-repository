@@ -12260,3 +12260,16 @@ UsAF.push({
     state: 'FL',
     firstRecorded: '2026-10-07',
 });
+
+UsAF.push({
+    name: 'Jamaica-Based Lottery Fraud Ring Fleeces Tucson Senior of $480,000 (Deeno Roberto Jackson)',
+    slug: 'arizona-tucson-jamaica-lottery-fraud-deeno-jackson',
+    description: `An 84-year-old Tucson man was told by phone that he had won a $3 million sweepstakes prize, but that a series of taxes, fees, and insurance charges had to be paid first before the winnings could be released — a lie that, over time, drained more than $480,000 from his savings as he mailed payments and made bank deposits the callers directed him to make. The callers posed as federal representatives to make the demands sound official, and investigators traced the proceeds to a Jamaica-based lottery fraud network that funneled victims' payments through gift cards and accounts controlled by co-conspirators, including Deeno Roberto Jackson, a 27-year-old Jamaican national. Jackson pleaded guilty to conspiracy to commit wire fraud, and U.S. District Judge Rosemary Marquez sentenced him in federal court in Tucson on January 28, 2026 to 27 months in prison followed by three years of supervised release, ordering him to pay $74,530 in restitution to the victims whose money passed through his hands. The FBI's Tucson office led the investigation, working with the U.S. Attorney's Office for the District of Arizona, which has prosecuted a string of similar Jamaica-linked lottery and sweepstakes cases targeting elderly Arizonans in recent years. No legitimate sweepstakes, lottery, or prize drawing ever requires a winner to pay taxes, fees, or insurance before receiving money already won, and anyone who receives such a call should hang up without paying and verify the claim independently with the agency or company the caller claims to represent, never through a number or payment method the caller supplies.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Arizona", 'FBI Phoenix Division', 'KVOA'],
+    sourceUrl: 'https://www.justice.gov/usao-az/pr/jamaican-national-sentenced-prison-engaging-fraud-scheme-targeting-elderly-0',
+    country: 'US',
+    state: 'AZ',
+    firstRecorded: '2026-01-28',
+});
