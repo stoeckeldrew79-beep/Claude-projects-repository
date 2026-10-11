@@ -13690,3 +13690,15 @@ UsGM.push({
     state: 'MD',
     firstRecorded: '2024-09-07',
 });
+
+UsGM.push({
+    name: 'Midstate Freight Inc. and PakNext Inc. Reshipping "Job" Identity-Theft Scam',
+    slug: 'midstate-freight-paknext-reshipping-job-identity-theft-scam',
+    description: `The Better Business Bureau serving the Midwest Plains region issued two back-to-back warnings, on September 15, 2026, about fake remote "package handler" jobs offered under the names Midstate Freight Inc. and PakNext Inc., both of which claim to be incorporated in Missouri but which BBB investigators could not actually locate or reach. Applicants hired for the supposed positions, which involve receiving, inspecting, relabeling, and reshipping packages from home, were asked during onboarding to hand over a government-issued ID, a Social Security number, banking information for direct deposit, and a selfie holding their ID; PakNext applicants were additionally asked to complete a W-4 form and, in some cases, pay an upfront "training" or "startup" fee before being allowed to begin. BBB said it could not trace a working address, phone number, or email for either company: Midstate Freight's Missouri address is an apartment complex now being demolished after fires and vandalism, and the Kansas City address PakNext listed online is a vacant building whose property manager said no such business operates there. More than 25 consumers in 15 states filed BBB Scam Tracker reports about Midstate Freight, and 24 more reported PakNext, with most describing sending identity documents and photos before growing suspicious and backing out — BBB warned that the information collected is useful for identity theft rather than any legitimate reshipping job, and referred both cases to the Missouri Attorney General's Office and the U.S. Postal Inspection Service. Anyone offered a remote job that centers on receiving and reshipping packages, especially one that demands a Social Security number, a selfie with an ID, or an upfront fee before any work begins, should independently verify the employer's address and phone number before supplying any personal or financial information, and can search BBB Scam Tracker for the company name first.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau (Midwest Plains)', 'Missouri Attorney General\'s Office', 'U.S. Postal Inspection Service'],
+    sourceUrl: 'https://www.bbb.org/article/news-releases/38698',
+    country: 'US',
+    firstRecorded: '2026-09-15',
+});
