@@ -3797,6 +3797,10 @@ NotoriousTZ.push({
     slug: 'trevor-uhls-lees-summit-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Lee%27s_Summit.jpg?width=1200',
+    coverImageCredit: 'Photo: Damiens the Regicide (CC0) — downtown Lee\'s Summit, Missouri, where Uhls ran his promissory-note scheme',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.irs.gov/node/162966',
     body: `Note: this case is a pending criminal matter. Trevor Uhls has been charged by federal criminal complaint, not convicted or found liable by a court, and the facts described below are allegations as of this writing.
 
