@@ -99,7 +99,9 @@ function AiActivityStrip() {
       <div className="flex flex-wrap items-center gap-2 border-b border-slate-200 px-4 py-3">
         <span className="h-1.5 w-1.5 rounded-full bg-red-500 animate-pulse" />
         <span className="text-sm font-extrabold tracking-wider uppercase text-slate-700">Recent AI Scam Activity</span>
-        <span className="text-xs font-medium text-slate-400">— live news, not yet reviewed for the database below</span>
+        <span className="text-xs font-medium text-slate-400">
+          — last 30 days, not yet reviewed for the database below
+        </span>
       </div>
       <ul className="divide-y divide-slate-200">
         {items.map((item: DailyScamNews) => (
