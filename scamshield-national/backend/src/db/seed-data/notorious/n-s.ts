@@ -7922,6 +7922,10 @@ NotoriousNS.push({
     slug: 'steven-garfinkel-dvi-inc-healthcare-financing-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'securities-fraud', 'corporate-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Magnetic_Resonance_Imaging.png?width=1200',
+    coverImageCredit: 'Photo: Annabrinley (CC BY-SA 4.0) — an MRI scanner, the type of equipment DVI financed for healthcare providers',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `DVI, Inc. was a Pennsylvania-based specialty finance company that built its business lending money to small and mid-size healthcare providers — clinics, imaging centers, and hospitals — so they could buy expensive equipment like MRI machines, then packaging those loans and leases to sell on to commercial banks and bond investors. Steven Garfinkel served as DVI's chief financial officer alongside chief executive Michael O'Hanlon, and for years the company presented itself to Wall Street as a steady, growing player in an unglamorous but reliable corner of healthcare finance.
 
 Starting around 1999, DVI's loan portfolio began souring and the company faced a widening liquidity crisis — but rather than disclose it, Garfinkel and O'Hanlon worked to hide it from both lenders and public investors. They pledged collateral that didn't meet the quality standards required by their loan covenants, manipulated paperwork so the same receivables could be pledged as collateral to two different lenders at once, and sent commercial lenders falsified monthly reports designed to make it look like adequate collateral was backing their loans. Publicly, DVI continued filing SEC reports and press releases that gave no hint of the mounting crisis underneath.
@@ -8061,6 +8065,10 @@ NotoriousNS.push({
     slug: 'paulus-kapia-avid-investment-namibia-pension-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'international', 'namibia', 'embezzlement', 'corruption', 'government-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Windhoek-Panorama.jpg?width=1200',
+    coverImageCredit: 'Photo: Ji-Elle (CC BY-SA 4.0) — Windhoek, Namibia',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Namibia's Social Security Commission (SSC), the state body that manages the country's pension and social-security funds, invested N$30 million with Avid Investment Corporation in January 2005. Avid was a Windhoek-based investment firm run as the personal vehicle of Lazarus Kandara, who served as its de facto chief executive. The investment was secured through a group of politically connected intermediaries: Paulus Kapia, a former Swapo Party Youth League leader who had served as both a deputy minister and a member of Namibia's National Assembly; Ralph Blaauw, a former MP and secretary-general of the National Youth Council; and Inez /Gâses, an accountant who chaired Avid's board. Ralph Blaauw's wife, Sharon Blaauw, a lawyer, also sat on Avid's board.
 
 According to the trial court's later findings, Kapia, /Gâses, and Blaauw misrepresented Avid's position to SSC management to win the investment, creating a false impression that Avid had an active, ongoing investment arrangement with a South African broker when no such arrangement existed. Sharon Blaauw signed board resolutions presented to the SSC without verifying their accuracy. Once the N$30 million arrived, N$29.5 million of it was routed onward to Namangol Investments, a company wholly owned by Nico Josea — and Josea and Kandara then embezzled the funds rather than investing them on the SSC's behalf.
@@ -8134,6 +8142,10 @@ NotoriousNS.push({
     slug: 'swapan-guha-sanchaita-scheme-supreme-court',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'international', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kolkata_skyline_in_September_2018.jpg?width=1200',
+    coverImageCredit: 'Photo: Billjones94 (CC BY-SA 4.0) — Kolkata (Calcutta), where Sanchaita Investments was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Sanchaita Investments was floated as a partnership on July 1, 1975 by three men — Swapan Kumar Guha, Sambhu Prasad Mukherjee, and Biharilal Murarka — starting with capital of just ₹7,000. On paper it was an ordinary financing house accepting public deposits at an advertised 12 percent annual interest. In practice it paid far more: initially 48 percent a year, later trimmed to 36 percent, with everything above the nominal 12 percent paid quietly in cash, off the books, while depositors who wanted their money back early could withdraw it for only a one-point interest penalty, a flexibility that kept deposits flowing in.
 
 The growth was explosive. The three partners, previously men of modest means, became millionaires within about five years, acquiring real estate across several cities. By September 1, 1980, Sanchaita's deposits totaled roughly ₹73.5 crore, drawn from depositors across India and abroad into a single, unlicensed partnership firm — one of India's earliest large-scale Ponzi schemes, paying older depositors from the deposits of new ones under cover of a nominally modest, legal-sounding interest rate.
@@ -8149,6 +8161,10 @@ NotoriousNS.push({
     slug: 'owen-meyer-meyer-global-management-spacex-forfeiture-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Financial_District_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Rumplebumpus (CC BY-SA 2.0) — Manhattan’s Financial District, where Meyer Global Management was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.sec.gov/files/litigation/complaints/2026/comp-pr2026-98.pdf',
     body: `Note: this case is a civil enforcement action. The Securities and Exchange Commission's complaint describes allegations only — Owen E.H. Meyer has not been criminally charged, and neither he nor Meyer Global Management, LLC has been found liable by a court as of this writing.
 
@@ -8224,6 +8240,10 @@ NotoriousNS.push({
     slug: 'patrick-churchville-clearpath-wealth-management-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Providence_RI_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Quintin Soloviev (CC BY 4.0) — Providence, Rhode Island, where ClearPath Wealth Management was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Patrick Churchville owned and ran ClearPath Wealth Management, a Rhode Island investment advisory firm managing private funds for clients who trusted him with their money starting around December 2010. Behind the scenes, the SEC later alleged, Churchville and ClearPath misallocated and misappropriated investor assets on a large scale, including using roughly $2.5 million of fund money to buy Churchville a waterfront home — spending with no connection to the investment strategy clients believed they'd signed up for.
 
 The firm also secured undisclosed borrowing against fund assets and then used investor money to pay that debt back, compounding the hole in client accounts with each new loan. To keep the operation looking solvent, ClearPath ran a Ponzi-style structure underneath it all: money from newer investors went to pay obligations to earlier ones, the same mechanism that keeps any Ponzi scheme looking legitimate for as long as fresh deposits keep arriving. The SEC's amended complaint put total losses at more than $27 million.
@@ -8239,6 +8259,10 @@ NotoriousNS.push({
     slug: 'robert-stinson-jr-lifes-good-real-estate-hedge-fund-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Berwyn_Station_Pennsylvania.jpg?width=1200',
+    coverImageCredit: 'Photo: Luciuskwok (CC BY 2.5) — Berwyn, Pennsylvania, where Stinson ran Life\'s Good, Inc.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Robert Stinson Jr. of Berwyn, Pennsylvania, controlled Life's Good, Inc. and Keystone State Capital Corporation, through which he sold investors "units" in four private real estate hedge funds between 2004 and June 2010. Stinson told investors their money was backing more than $30 million in commercial mortgage loans and other real estate investments, promising fixed annual returns of 10 to 16 percent — and, according to federal prosecutors, bolstered his credibility by falsely claiming to be a graduate of MIT.
 
 In reality, the SEC alleged, Stinson stole investor funds outright, diverted money to family members and other associates, and paid earlier investors with money collected from new ones — the Ponzi structure that let the Life's Good funds keep attracting new money even as the underlying investments failed to perform as promised. At least 263 investors were defrauded of more than $17 million; by the time the SEC obtained an asset freeze and receiver in 2010, prosecutors were ultimately able to recover only about $580,000 of what had been taken.
@@ -8275,6 +8299,10 @@ NotoriousNS.push({
     slug: 'joseph-nantomah-black-mentor-real-estate-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'ponzi-scheme', 'affinity-fraud', 'real-estate-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Milwaukee_August_2024_128_(skyline).jpg?width=1200',
+    coverImageCredit: 'Photo: Michael Barera (CC BY-SA 4.0) — Milwaukee, where Nantomah built his "Wealth Flow" real estate persona',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26368',
     body: `Joseph James Nantomah, a Nigerian national who entered the United States on a visitor's visa in 2016, built an online persona as "The Black Mentor" around claims of owning a thriving multi-million-dollar real estate business in the Milwaukee area. From around May 2020 through December 2024, Nantomah used that persona — reinforced through paid "Wealth Flow" conferences and classes he charged attendees to attend — to recruit investors into Investors Capital LLC, Global Investors Capital LLC, and High Income Performance Partners LLC, the three entities he owned and controlled, promising to use their money to buy, renovate, and flip houses for a profit he would share with them.
 
@@ -8290,6 +8318,10 @@ NotoriousNS.push({
     slug: 'zan-shaikh-mining-automatic-crypto-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'cryptocurrency', 'ponzi-scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cryptocurrency_mining_machine.jpg?width=1200',
+    coverImageCredit: 'Photo: Keita.Honda (CC BY-SA 4.0) — a cryptocurrency mining rig like the ones Mining Automatic claimed to run',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26590',
     body: `Note: this case is a civil enforcement action. The Securities and Exchange Commission's complaint describes allegations only — Zan Shaikh and Bright Vision Distribution LLC have not been criminally charged, and the proposed judgments described below remained subject to court approval as of this writing.
 
