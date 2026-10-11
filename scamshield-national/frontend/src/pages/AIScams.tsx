@@ -1,10 +1,13 @@
+import type { Ref } from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useCategories, useInfiniteScams, useScamSearch } from '../hooks/useScams';
+import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { ScamCard } from '../components/ScamCard';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
+import { useAiTopicNews } from '../hooks/useDailyNews';
 import { timeAgo } from '../utils/timeAgo';
-import { Scam } from '../types';
+import { Scam, DailyScamNews } from '../types';
 
 const ALERT_DOT_COLORS: Record<string, string> = {
   low: 'bg-slate-400',
@@ -58,6 +61,70 @@ function AiScamFeedRow({ scam }: { scam: Scam }) {
   );
 }
 
+// Stands in for an AiScamFeedRow that hasn't loaded yet, at roughly that
+// row's real height (see Notorious.tsx for the fuller explanation: without
+// this the page is only as tall as what has arrived, so every batch makes
+// it taller and the scrollbar thumb shrinks and slides).
+function PlaceholderRow({ innerRef }: { innerRef?: Ref<HTMLDivElement> }) {
+  return (
+    <div
+      ref={innerRef}
+      aria-hidden
+      style={{ contentVisibility: 'auto', containIntrinsicSize: '128px' }}
+      className="rounded-lg border border-slate-200 p-4"
+    >
+      <div className="h-5 w-3/4 rounded bg-slate-100" />
+      <div className="mt-2 h-4 w-full rounded bg-slate-50" />
+      <div className="mt-1.5 h-4 w-2/3 rounded bg-slate-50" />
+      <div className="mt-2 h-4 w-20 rounded bg-slate-50" />
+    </div>
+  );
+}
+
+// The curated cards below are the substance of this page but only grow a
+// few times a week — nothing about them signals "check back today." This
+// strip is the opposite trade: raw news headlines, filtered to AI/deepfake/
+// voice-clone mentions out of the same feed Today's Scams reads (now
+// re-scanned every 2 hours, see render.yaml), refreshed in-session. It's
+// deliberately visually distinct from AiScamFeedRow below — outbound links
+// to the original source, not internal links to a reviewed database entry —
+// so a reader never mistakes a raw headline for a vetted pattern.
+function AiActivityStrip() {
+  const { data: items, isLoading } = useAiTopicNews();
+
+  if (isLoading || !items || items.length === 0) return null;
+
+  return (
+    <div className="mt-6 rounded-lg border border-slate-200 bg-slate-50">
+      <div className="flex items-center gap-2 border-b border-slate-200 px-4 py-2.5">
+        <span className="h-1.5 w-1.5 rounded-full bg-red-600 animate-pulse" />
+        <span className="text-xs font-bold tracking-wider uppercase text-slate-700">Recent AI Scam Activity</span>
+        <span className="text-xs text-slate-400">— live news, not yet reviewed for the database below</span>
+      </div>
+      <ul className="divide-y divide-slate-200">
+        {items.map((item: DailyScamNews) => (
+          <li key={item.id}>
+            <a
+              href={item.source_url}
+              target="_blank"
+              rel="noreferrer"
+              className="group flex items-start justify-between gap-4 px-4 py-2.5 hover:bg-white transition-colors"
+            >
+              <span className="text-sm text-slate-700 group-hover:underline">{item.headline}</span>
+              <span className="shrink-0 text-right">
+                <span className="block text-xs text-slate-400 whitespace-nowrap">
+                  {timeAgo(item.published_at ?? item.scanned_at)}
+                </span>
+                <span className="block text-[11px] text-slate-400 whitespace-nowrap">{item.source_name}</span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 // This is the same category the general Database page can already filter
 // to (categorySlug: 'ai-deepfake-scams' in seed-data/categories.ts) — this
 // page isn't a second copy of that content, it's a dedicated front door for
@@ -89,6 +156,18 @@ export default function AIScams() {
   const scams = data?.pages.flat() ?? [];
   const mostRecent = scams[0];
 
+  const setTrigger = useInfiniteScroll(
+    () => {
+      if (hasNextPage && !isFetchingNextPage) fetchNextPage();
+    },
+    Boolean(hasNextPage) && !isFetchingNextPage
+  );
+  // category.scam_count is the category's true total, which only applies to
+  // the unfiltered feed — mid-search there's no cheap way to know how many
+  // results exist ahead of fetching them, so reservation is skipped there
+  // and the plain sentinel below carries the scroll trigger instead.
+  const placeholderCount = search ? 0 : Math.max((category?.scam_count ?? 0) - scams.length, 0);
+
   // Someone typing a real description of what happened into this box
   // doesn't know or care that it's scoped to the AI category — they just
   // want an answer. Rather than dead-ending on "no AI-enabled scams match
@@ -115,6 +194,8 @@ export default function AIScams() {
           {mostRecent && <> · most recent added {timeAgo(mostRecent.created_at)}</>}
         </p>
       )}
+
+      <AiActivityStrip />
 
       {/* The checker is the highest-value thing on this page for someone who
           arrived scared rather than browsing — it goes above the fold, not
@@ -148,8 +229,18 @@ export default function AIScams() {
         {scams.map((scam) => (
           <AiScamFeedRow key={scam.id} scam={scam} />
         ))}
+        {/* The trigger rides on the first placeholder — see Notorious.tsx for
+            why a sentinel placed after the full reserved height never fires. */}
+        {Array.from({ length: placeholderCount }, (_, i) => (
+          <PlaceholderRow key={`placeholder-${i}`} innerRef={i === 0 ? setTrigger : undefined} />
+        ))}
+        {placeholderCount === 0 && hasNextPage && <div ref={setTrigger} aria-hidden className="h-px" />}
+        {isFetchingNextPage && <p className="pt-2 text-sm text-slate-500">Loading more…</p>}
       </div>
       {!isLoading && scams.length === 0 && !search && <p className="mt-6 text-slate-500">No AI-enabled scams documented yet.</p>}
+      {!isLoading && !hasNextPage && !isFetchingNextPage && scams.length > 0 && (
+        <p className="mt-6 text-center text-sm text-slate-400">You're caught up — that's every documented pattern{search ? ' matching that search' : ''}.</p>
+      )}
 
       {noInCategoryMatch && (
         <div className="mt-6">
@@ -178,19 +269,6 @@ export default function AIScams() {
               </Link>
             </div>
           )}
-        </div>
-      )}
-
-      {hasNextPage && (
-        <div className="mt-8 flex justify-center">
-          <button
-            type="button"
-            onClick={() => fetchNextPage()}
-            disabled={isFetchingNextPage}
-            className="px-5 py-2.5 rounded-md border border-slate-300 text-slate-700 font-medium hover:bg-slate-50 disabled:opacity-50"
-          >
-            {isFetchingNextPage ? 'Loading…' : 'Load more'}
-          </button>
         </div>
       )}
 
