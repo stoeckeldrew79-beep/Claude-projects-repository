@@ -12730,3 +12730,42 @@ UsNS.push({
     country: 'US',
     state: 'SC',
 });
+
+UsNS.push({
+    name: 'Nebraska Nonprofit Donation-Refund Charity Scam',
+    slug: 'nebraska-charity-donation-refund-scam',
+    description: `Scammers posing as wealthy, interested first-time donors send Nebraska nonprofits large fraudulent checks, often five figures or more, then request a partial refund from the charity, claiming a mistake. The nonprofit issues the refund, the scammer vanishes, and the original donation check later bounces, leaving the nonprofit with a significant financial loss. A credit-card variant has the "donor" request that all or part of the original donation be refunded to a different card due to an error or special circumstance; the nonprofit issues the refund and then receives a chargeback on the original transaction, which used a stolen card. The Nebraska Attorney General's Office advised nonprofits to research any unfamiliar or out-of-area donor before issuing a refund, verify refund requests by contacting the donor directly, and limit card refunds strictly to the original card used — never issuing a check or handing out cash in place of a card refund.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Nebraska Attorney General's Office"],
+    sourceUrl: 'https://ago.nebraska.gov/sites/default/files/doc/charity%20scam%20release.pdf',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2024-06-25',
+});
+
+UsNS.push({
+    name: 'Nebraska Department of Insurance Spoofed-Number Medicare Scam',
+    slug: 'nebraska-insurance-department-spoofed-number-medicare-scam',
+    description: `Scammers spoof the Nebraska Department of Insurance's real Lincoln office phone number, (402) 471-2841, when cold-calling Nebraskans, claiming to be offering Medicare insurance coverage and asking the recipient to provide payment details or personal information such as bank account numbers. NDOI Director Eric Dunning confirmed the department itself never sells Medicare insurance and never calls asking for personal or payment information, saying "scammers are taking advantage of our phone number to trick Nebraskans into thinking they're getting legitimate offers about Medicare." Nebraska's State Health Insurance Assistance Program (SHIP) and Senior Medicare Patrol (SMP) administrator Jonathan Burlison advised not answering calls from unrecognized numbers, never giving personal or financial information to an unsolicited caller even if they already know some details about you, and remembering that Medicare or any other government agency will not call, text, or message on social media to sell something unless you contacted them first.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Nebraska Department of Insurance'],
+    sourceUrl: 'https://doi.nebraska.gov/sites/default/files/doc/NR271124.pdf',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2024-11-27',
+});
+
+UsNS.push({
+    name: 'Nebraska AG Joins Uber One Subscription-Trap Lawsuit',
+    slug: 'nebraska-uber-one-subscription-trap-lawsuit',
+    description: `Nebraska Attorney General Mike Hilgers joined a coalition of 22 state and county law enforcement agencies, led by Maryland, in an FTC lawsuit against Uber Technologies and Uber USA over its Uber One subscription service. The suit alleges Uber used "negative option" marketing that automatically charges consumers who don't actively cancel a free trial, made cancellation "extraordinarily difficult" once enrolled, charged some users before their stated billing date — including during an active free trial — and misled consumers about how much they could actually save by subscribing. The case, filed under Nebraska's Consumer Protection Act and the federal Restore Online Shoppers' Confidence Act (ROSCA), is pending in the U.S. District Court for the Northern District of California with trial scheduled for February 2027; Nebraska is seeking restitution, civil penalties, costs, and an injunction. Consumers who signed up for an Uber One free trial are advised to check their statements for charges that began before the trial ended and to document how difficult cancellation actually is before filing a complaint.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'low',
+    sources: ["Nebraska Attorney General's Office (Mike Hilgers)", 'Federal Trade Commission'],
+    sourceUrl: 'https://protectthegoodlife.nebraska.gov/node/531',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2025-12-15',
+});
