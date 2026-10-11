@@ -13626,3 +13626,15 @@ UsGM.push({
     state: 'IN',
     firstRecorded: '2025-10-30',
 });
+
+UsGM.push({
+    name: 'Anthony Williams "Mortgage Enterprise Investments" Fraudulent Debt-Reduction Scheme (Hawaii)',
+    slug: 'hawaii-anthony-williams-mei-cloa-mortgage-relief-fraud',
+    description: `Anthony T. Williams, 49, of Pineville, Louisiana, created two companies — Mortgage Enterprise Investments (MEI) and Common Law Office of America (CLOA) — neither licensed to service, modify, or legally represent anyone on a mortgage, and marketed them to distressed Hawai'i homeowners, overwhelmingly non-native English speakers in the state's Filipino immigrant community. Presenting himself as a "private attorney general" and displaying an official-looking law enforcement badge and credentials despite holding no law license and no law enforcement affiliation, Williams told homeowners through MEI that he could eliminate their mortgage debt or cut it in half, then filed bogus new mortgages and notes with the Hawai'i Bureau of Conveyances and instructed victims to stop paying their actual lender and pay him instead; through CLOA, he separately offered sham legal representation in foreclosure and mortgage litigation. Between 2012 and 2015, Williams enrolled 112 Hawai'i victims in the MEI program and collected more than $230,000 without ever providing a legitimate service, and several victims testified they went into foreclosure or bankruptcy as a result, with two losing their homes entirely. A federal jury convicted Williams on 32 counts of wire and mail fraud after a four-week trial, and U.S. District Judge Leslie E. Kobayashi sentenced him to 20 years in federal prison plus three years of supervised release, to run consecutively to a 15-year sentence a Florida court had already imposed for a similar scheme there. "Williams actively preyed upon distressed homeowners" in Hawai'i's Filipino community, said then-U.S. Attorney Kenji M. Price, adding that the scheme "financially devastated" its victims. FBI Honolulu Special Agent in Charge Eli Miranda said Williams "knowingly targeted and preyed upon" members of that community and that the FBI "cannot, and will not stand by." Any company offering to eliminate or sharply reduce a mortgage balance, rather than negotiate a modification directly with the actual lender or a HUD-approved housing counselor, is not providing a real mortgage-relief service, and a homeowner told to stop paying their lender and start paying a third party instead should treat that instruction itself as the clearest sign of fraud.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Hawaii", 'FBI Honolulu Field Office', 'Maui Now'],
+    sourceUrl: 'https://www.justice.gov/usao-hi/pr/fraudster-sentenced-20-years-imprisonment-connection-fraudulent-mortgage-debt-reduction',
+    country: 'US',
+    state: 'HI',
+});
