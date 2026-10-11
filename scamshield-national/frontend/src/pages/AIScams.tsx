@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useCategories, useInfiniteScams, useScamSearch } from '../hooks/useScams';
 import { ScamCard } from '../components/ScamCard';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
+import { useDebounce } from '../hooks/useDebounce';
 import { timeAgo } from '../utils/timeAgo';
 import { Scam } from '../types';
 
@@ -75,6 +76,10 @@ export default function AIScams() {
   });
 
   const [search, setSearch] = useState('');
+  // Real-time-feeling without re-querying (and re-rendering the whole grid)
+  // on every keystroke: the query only actually updates 400ms after typing
+  // stops, matching the Check This Now page's own debounced search.
+  const debouncedSearch = useDebounce(search, 400);
   const { data: categories } = useCategories();
   const category = categories?.find((c) => c.slug === CATEGORY_SLUG);
 
@@ -84,7 +89,7 @@ export default function AIScams() {
     fetchNextPage,
     hasNextPage,
     isFetchingNextPage,
-  } = useInfiniteScams({ category: CATEGORY_SLUG, search: search || undefined, sort: 'newest' });
+  } = useInfiniteScams({ category: CATEGORY_SLUG, search: debouncedSearch || undefined, sort: 'newest' });
 
   const scams = data?.pages.flat() ?? [];
   const mostRecent = scams[0];
@@ -95,8 +100,12 @@ export default function AIScams() {
   // that search" when the real match just isn't an AI scam, fall back to
   // the same full-database search "Check This Now" uses once the
   // in-category search comes up empty for a non-trivial query.
-  const noInCategoryMatch = !isLoading && scams.length === 0 && search.trim().length > 2;
-  const { data: fallbackResults, isFetching: isFetchingFallback } = useScamSearch(noInCategoryMatch ? search : '');
+  const noInCategoryMatch = !isLoading && scams.length === 0 && debouncedSearch.trim().length > 2;
+  // isLoading (not isFetching) so a background refetch on a new keystroke
+  // keeps the previous placeholder-data cards on screen instead of blanking
+  // them back to the "Checking…" message — isLoading is only true when
+  // there's no data at all yet, the same pattern the primary grid above uses.
+  const { data: fallbackResults, isLoading: isLoadingFallback } = useScamSearch(noInCategoryMatch ? debouncedSearch : '');
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
@@ -153,8 +162,8 @@ export default function AIScams() {
 
       {noInCategoryMatch && (
         <div className="mt-6">
-          {isFetchingFallback && <p className="text-slate-500">Checking the full database…</p>}
-          {!isFetchingFallback && fallbackResults && fallbackResults.length > 0 && (
+          {isLoadingFallback && <p className="text-slate-500">Checking the full database…</p>}
+          {!isLoadingFallback && fallbackResults && fallbackResults.length > 0 && (
             <>
               <p className="text-sm text-slate-600 mb-4">
                 Nothing in AI-enabled scams matches that — but this isn't an AI scam site, it's a scam site. Here's
@@ -167,7 +176,7 @@ export default function AIScams() {
               </div>
             </>
           )}
-          {!isFetchingFallback && fallbackResults && fallbackResults.length === 0 && (
+          {!isLoadingFallback && fallbackResults && fallbackResults.length === 0 && (
             <div>
               <p className="text-slate-500">Nothing in the database matches that closely yet.</p>
               <Link
