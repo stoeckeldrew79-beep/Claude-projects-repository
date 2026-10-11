@@ -12911,4 +12911,17 @@ UsNS.push({
     firstRecorded: '2025-12-15',
 });
 
+UsNS.push({
+    name: 'Felix Clark Ghana Romance-Fraud Money Transfer Scheme (New Jersey)',
+    slug: 'new-jersey-clark-amppiaw-ghana-romance-fraud',
+    description: `Felix Clark, 37, of Royse City, Texas — who also used the aliases "Joseph Moore" and "Stanley Smith" — built romantic relationships online with elderly victims, including victims in New Jersey, then persuaded them to send money for fabricated needs before transferring the funds abroad, primarily to Ghana, according to the U.S. Attorney's Office for the District of New Jersey. Clark's romantic partner, Esther Amppiaw, 34, also of Royse City, helped move the stolen funds by operating as an unlicensed money transmitter, receiving victims' payments and routing them onward without the state or federal licensing required to transmit money on others' behalf. Clark pleaded guilty in May 2025 to a two-count information charging conspiracy to commit wire fraud and wire fraud, admitting responsibility for $501,071 in victim losses, and was sentenced on January 15, 2026 to 60 months in federal prison plus three years of supervised release; Amppiaw, who pleaded guilty to operating an unlicensed money transmitter business, was sentenced on January 7, 2026 to 18 months in prison plus two years of supervised release. The case underscores a pattern common to romance-fraud networks that move money overseas: funds sent to a scammer rarely go directly to the person the victim believes they're in a relationship with, but instead pass through intermediaries — sometimes a scammer's own partner acting as an unlicensed money-transmission link — before leaving the country, and anyone asked to wire money, buy gold, or send cryptocurrency to someone they have only met online should stop and independently verify the relationship before sending anything.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of New Jersey"],
+    sourceUrl: 'https://www.justice.gov/usao-nj/pr/texas-man-and-his-romantic-partner-sentenced-prison-their-roles-harming-elderly-victims',
+    country: 'US',
+    state: 'NJ',
+    firstRecorded: '2026-01-15',
+});
+
 

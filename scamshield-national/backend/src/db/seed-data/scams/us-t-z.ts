@@ -7353,3 +7353,16 @@ UsTZ.push({
     state: 'TX',
     firstRecorded: '2026-03-03',
 });
+
+UsTZ.push({
+    name: 'Fake Concert Promoter "Straight Like That Entertainment" Investment Fraud (Goodspeed)',
+    slug: 'texas-goodspeed-concert-promotion-investment-fraud',
+    description: `Carlos Desean Goodspeed, 45, of Dallas, posed as a concert and event promoter operating under the assumed business name "Straight Like That Entertainment," telling investors their money would buy concert tickets and VIP suites for shows featuring major artists including Tyler, the Creator, Ludacris, Beyoncé, Nicki Minaj, Bad Bunny, and Future, which he promised to resell at a profit, according to the U.S. Attorney's Office for the Northern District of Texas. None of the named artists were involved in or aware of the scheme, and none of the roughly $1.1 million Goodspeed collected from investors went toward the events he described; instead, prosecutors say he spent it on personal expenses, including rent at an upscale apartment complex, high-end retail purchases, and travel. In one instance detailed by prosecutors, a single victim wired him $180,000 for the right to invest in a wave of Tyler, the Creator concerts; three victims testified at sentencing, including one who said she used part of an inheritance meant to cover a relative's medical bills and later had to take out loans and use credit cards to cover funeral expenses after Goodspeed never repaid her. Goodspeed pleaded guilty to wire fraud in October 2025, and U.S. District Judge Ed Kinkeade sentenced him on February 18, 2026 to 75 months in federal prison and ordered him to pay nearly $1.2 million in restitution to 17 identified victims. FBI Dallas Special Agent in Charge R. Joseph Rothrock urged anyone offered a stake in an "investment opportunity" tied to celebrity events to independently verify the opportunity — including by contacting the named venue, promoter of record, or artist's representatives directly — before wiring any money, since a scammer's use of real, recognizable names is never itself proof that a deal is genuine.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of Texas", 'FBI Dallas Field Office'],
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/dallas-man-sentenced-75-months-federal-prison-11m-concert-promotion-fraud-scheme',
+    country: 'US',
+    state: 'TX',
+    firstRecorded: '2026-02-18',
+});

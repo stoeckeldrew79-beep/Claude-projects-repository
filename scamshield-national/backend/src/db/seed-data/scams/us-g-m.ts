@@ -13638,3 +13638,16 @@ UsGM.push({
     country: 'US',
     state: 'HI',
 });
+
+UsGM.push({
+    name: 'Joseph Merk Multi-Scheme PPP Loan, Identity-Theft Business Loan, and Tax Fraud (Indiana)',
+    slug: 'indiana-merk-multi-scheme-ppp-identity-theft-fraud',
+    description: `Joseph M. Merk, 38, of Crandall, Indiana, ran four separate fraud schemes totaling $599,439.03 in losses over roughly five years, according to the U.S. Attorney's Office for the Southern District of Indiana and IRS Criminal Investigation. Between May 2020 and May 2021, he submitted six fraudulent Paycheck Protection Program loan applications for four ineligible entities — Donut Frenzy LLC, The Donut Shop LLC, Merk Logging LLC, and Merk Family Farms LLC — using falsified information and counterfeit supporting documents to collect $157,462 in pandemic relief he spent on personal expenses. Starting in September 2023, he used the names, birth dates, and Social Security numbers of two real victims to open bank accounts and apply for business loans through fabricated companies, including one called "Merk Automotive," submitting counterfeit bank statements to lenders in Pennsylvania, New York, and Connecticut to obtain $183,260, then filed 14 more fraudulent business-loan applications for fabricated businesses between December 2023 and June 2025 to collect an additional $245,796; one identity-theft victim was later sued by a lender and had a lien placed on her own bank account over a loan Merk had taken out in her name. Separately, in 2021, Merk made 93 debit card purchases totaling $18,405.41 for a Hawaii vacation, including charges at a Four Seasons resort, then falsely disputed the charges as unauthorized, persuading his bank to refund him roughly $11,180.63 — and from 2017 through 2021 he filed false tax returns that omitted about $209,992 in income, causing a $71,754 tax loss. Merk pleaded guilty to four counts of wire fraud, one count of bank fraud, one count of aggravated identity theft, and two counts of tax evasion; U.S. District Judge Sarah Evans Barker sentenced him on April 24, 2026 to 4.5 years in federal prison plus two years of supervised release and ordered $492,229.14 in restitution to nine identity-theft victims, seventeen business victims, and two government victims. U.S. Attorney Tom Wheeler said "Merk treated fraud as a way of life," and the case is a reminder that identity-theft victims should periodically check their credit reports for loans or accounts they never opened, since the fraud can surface only once a lender comes looking for repayment.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Southern District of Indiana", 'IRS Criminal Investigation', 'FBI Indianapolis'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/southern-indiana-man-sentenced-to-federal-prison-for-stealing-nearly-600000-through-multiple-fraud-schemes',
+    country: 'US',
+    state: 'IN',
+    firstRecorded: '2026-04-24',
+});
