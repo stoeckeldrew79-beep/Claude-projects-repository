@@ -24661,3 +24661,15 @@ International.push({
   country: 'AE',
   firstRecorded: '2026-07-07',
 });
+
+International.push({
+  name: 'Fake "BLIK Refund" Money-Mule Scam (Poland)',
+  slug: 'poland-fake-blik-refund-money-mule-scam',
+  description: `Bank Polskiej Spółdzielczości (Bank BPS) and Poland's Financial Ombudsman (Rzecznik Finansowy) warned on April 3, 2026 about a fraud scheme built around Poland's instant mobile-payment system, BLIK: a victim receives an unexpected BLIK transfer to their phone number, then gets a message or call — often from someone posing as the sender — claiming the payment was sent by mistake and asking the victim not to return it directly, but instead to forward the money to a different phone number or account. The bank says the original transfer typically isn't a mistake at all: it comes from a fake sale set up on an online marketplace, where the scammer used a stolen card or a compromised account, routed through the recipient's own phone number, to generate the "accidental" BLIK payment in the first place. A person who forwards the money as instructed becomes an unwitting link in a money-laundering chain, since the funds are then harder to trace back to the original fraud. The bank's guidance is to never return or forward an unexpected BLIK transfer on a stranger's instructions, but to report it directly to your own bank, which can reverse an erroneous transfer safely through its own internal channels.`,
+  categorySlug: 'fake-check-overpayment',
+  alertLevel: 'medium',
+  sources: ['Bank Polskiej Spółdzielczości (Bank BPS)', 'Rzecznik Finansowy (Polish Financial Ombudsman)'],
+  sourceUrl: 'https://www.bankbps.pl/en/komunikaty-dot-bezpieczenstwa/komunikaty-bezpieczenstwa/uwaga-na-oszustwo-na-zwrot-blik',
+  country: 'PL',
+  firstRecorded: '2026-04-03',
+});
