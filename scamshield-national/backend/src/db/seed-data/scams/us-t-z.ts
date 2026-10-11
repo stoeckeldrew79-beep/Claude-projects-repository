@@ -7301,3 +7301,42 @@ UsTZ.push({
     isHistorical: true,
     firstRecorded: '2021-11-15',
 });
+
+UsTZ.push({
+    name: 'FBI Nashville Music-Industry Impersonation and Fan Scam Warning (Tennessee)',
+    slug: 'tennessee-nashville-fbi-music-industry-impersonation-scam',
+    description: `The FBI's Nashville Division, partnering with the Nashville Songwriters Association International, has warned that criminals are impersonating musicians, songwriters, managers, and industry insiders online — using fake names, photos, and audio messages meant to sound like a real artist or industry official to build trust with fans and music-industry professionals before asking for money, gifts, or personal information. Per FBI Internet Crime Complaint Center (IC3) data cited by the Nashville field office covering January 2024 through the following September, romance scams in which victims believed they were in a relationship with a real musician produced more than 500 complaints and over $12 million in losses, with most victims age 60 or older; separate overpayment, non-delivery, and advance-fee schemes cost musicians, managers, and record-label professionals more than $777,000; and 61 fans who paid for concert, festival, or meet-and-greet tickets that were never delivered lost a combined $325,574. The FBI states flatly that "songwriters and artists will never ask you directly for money, gift cards, a meet and greet ever," and that any request for payment by gift card, wire transfer, or cryptocurrency is an immediate red flag; it advises verifying any contact through an artist's official website or verified account and reporting suspected scams to ic3.gov.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['FBI Nashville Field Office', 'Nashville Songwriters Association International', 'WKRN'],
+    sourceUrl: 'https://www.wkrn.com/news/local-news/nashville/fbis-nashville-office-warns-of-cybercrime-targeting-musicians-fans/amp/',
+    country: 'US',
+    state: 'TN',
+    firstRecorded: '2026-05-20',
+});
+
+UsTZ.push({
+    name: 'Tennessee Winter Storm Contractor and Insurance-Claim Fraud Alert',
+    slug: 'tennessee-winter-storm-2026-contractor-insurance-fraud-alert',
+    description: `Following severe winter storms across Tennessee, the state Attorney General's office issued a January 26, 2026 consumer alert warning that storm victims face elevated risk of contractor fraud, improperly handled insurance claims, and price gouging during recovery. The alert warns homeowners to be wary of contractors selling repairs door-to-door, to verify any contractor's license through the state's verify.tn.gov site before hiring, and to remember that under Tennessee's Home Improvement law a contractor should not require a down payment of more than one-third of the total contract price. It advises against having permanent repairs made before an insurance company has inspected the damage and against ever signing over an insurance settlement check directly to a contractor, and separately warns to watch for price gouging — sudden, dramatic price increases on essentials like food, fuel, lumber, and lodging before, during, or after a disaster — plus impersonators falsely claiming to represent a government agency and demanding an "application fee." Consumers can report suspected contractor fraud, claims issues, or price gouging to the Tennessee Division of Consumer Affairs.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Tennessee Attorney General's Office"],
+    sourceUrl: 'https://www.tn.gov/attorneygeneral/news/2026/1/26/pr26-3.html',
+    country: 'US',
+    state: 'TN',
+    firstRecorded: '2026-01-26',
+});
+
+UsTZ.push({
+    name: 'Jackson County Virtual Kidnapping Gift-Card Scam (Tennessee)',
+    slug: 'tennessee-jackson-county-virtual-kidnapping-scam',
+    description: `The Jackson County, Tennessee Sheriff's Department warned residents in August 2026 about a phone scheme in which callers using blocked or private numbers falsely claim to have kidnapped the victim's child, citing the child's real name — likely pulled from social media or another public source — to sound credible, and in some versions imitating a child's voice in distress. The caller directs the panicked parent to a Walmart in the Cookeville area or another nearby store, keeps them on the line throughout, and instructs them to buy gift cards and read the card numbers over the phone as a supposed ransom. No arrests have been made and no legitimate kidnapping has been confirmed in any reported case; the sheriff's department urges anyone who receives a call like this to try to reach the child directly through a separate channel before taking any action, and to contact law enforcement immediately rather than comply.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ["Jackson County Sheriff's Department", 'Fox 17 (WZTV)'],
+    sourceUrl: 'https://fox17.com/news/local/jackson-county-sheriff-warns-of-virtual-kidnapping-phone-scheme-targeting-parents-jackson-county-sheriffs-department-cookeville-area-walmart-gift-cards',
+    country: 'US',
+    state: 'TN',
+    firstRecorded: '2026-08-01',
+});
