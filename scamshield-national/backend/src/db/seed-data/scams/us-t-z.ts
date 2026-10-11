@@ -7342,3 +7342,15 @@ UsTZ.push({
     state: 'TX',
     firstRecorded: '2026-02-18',
 });
+
+UsTZ.push({
+    name: 'Timeshare Exit "Mastermind" Ordered to Pay $140 Million (Christopher Lee Carroll)',
+    slug: 'timeshare-exit-scheme-carroll-140-million-judgment',
+    description: `Christopher Lee Carroll ran a nationwide timeshare-exit operation — doing business through Square One Group LLC, Consumer Law Protection LLC, and several related corporate entities — that the Department of Justice and the State of Wisconsin say used direct-mail solicitations and high-pressure sales presentations, mostly targeting older timeshare owners, to charge customers between $5,000 and more than $80,000 apiece for a promised release or "exit" from their timeshare contracts. According to the U.S. District Court for the Eastern District of Missouri, which granted summary judgment against Carroll on April 1, 2026, the defendants routinely failed to deliver the exit services they were paid for, never disclosed consumers' legal right to cancel within three business days without penalty, and denied refunds even after consumers or law enforcement complained — a scheme the court found harmed more than 11,000 consumers nationwide. The court, ruling in a case the DOJ (on behalf of the FTC) and Wisconsin first filed in November 2022, held Carroll personally and jointly liable, along with the corporate entities, for more than $140 million total: over $95 million in consumer redress and over $45 million in civil penalties, and permanently barred him from marketing timeshare-exit services or engaging in other unfair or deceptive conduct. Four other individual defendants in the same case separately agreed to stipulated orders making them collectively liable for more than $11 million in penalties, partially suspended for inability to pay. Anyone approached about exiting a timeshare should be wary of large upfront fees, verify any company's standing with their state attorney general's consumer protection office first, and remember that no legitimate exit company can guarantee a timeshare contract will be cancelled.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice', 'Federal Trade Commission', 'Wisconsin Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/united-states-and-state-wisconsin-obtain-over-140m-judgment-and-permanent-injunction-against',
+    country: 'US',
+    firstRecorded: '2026-04-01',
+});
