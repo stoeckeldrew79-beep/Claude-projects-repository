@@ -7316,3 +7316,16 @@ UsTZ.push({
     state: 'TN',
     firstRecorded: '2026-08-01',
 });
+
+UsTZ.push({
+    name: 'BBB Heart of Texas Winter Puppy Scam Surge',
+    slug: 'texas-bbb-heart-of-texas-winter-puppy-scam-surge',
+    description: `The Better Business Bureau serving Heart of Texas warned of a sharp jump in puppy scams across the state after consumers filed more than 35 complaints through BBB Scam Tracker between December 2025 and February 2026 alone, reporting combined losses topping $31,000 — a 107% increase over the same winter months a year earlier. The scheme follows a consistent script: a buyer finds an ad, often for a popular breed like a Yorkshire terrier, dachshund, or French bulldog, from a "breeder" who insists on shipping the puppy rather than allowing an in-person pickup; after an initial payment, someone posing as a shipping company gets in touch and tacks on new charges for insurance, vaccinations, or unexplained delays, with the puppy never actually arriving. A San Antonio couple paid a deposit by gift card for a Boston terrier found on Facebook, only to find the pickup address belonged to residents who had never heard of the seller; a Corpus Christi buyer lost a deposit after the listing vanished when they refused to pay the remaining balance before pickup; and a Midland family sent $650, including a shipping fee, for an advertised Newfoundland puppy that turned out not to exist. The BBB's red flags include a seller who won't meet in person, communication limited to text or email, payment demanded by gift card, wire transfer, or cryptocurrency, new fees that keep appearing after the first payment, and pressure to act quickly. Prospective buyers are advised to meet a breeder and see the puppy and its living conditions in person before paying anything, and to use a traceable, reversible payment method instead of a gift card or wire transfer.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau Heart of Texas', 'WOAI / News 4 San Antonio'],
+    sourceUrl: 'https://news4sanantonio.com/news/local/san-antonio-among-texas-cities-hit-by-surge-in-puppy-scams-bbb-says-texas-bexar-county-investigations-police-cash-payment-seller-buyer',
+    country: 'US',
+    state: 'TX',
+    firstRecorded: '2026-03-03',
+});
