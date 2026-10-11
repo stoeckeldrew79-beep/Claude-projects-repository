@@ -1,6 +1,8 @@
+import type { Ref } from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useCategories, useInfiniteScams, useScamSearch } from '../hooks/useScams';
+import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { ScamCard } from '../components/ScamCard';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { useAiTopicNews } from '../hooks/useDailyNews';
@@ -56,6 +58,26 @@ function AiScamFeedRow({ scam }: { scam: Scam }) {
         )}
       </div>
     </Link>
+  );
+}
+
+// Stands in for an AiScamFeedRow that hasn't loaded yet, at roughly that
+// row's real height (see Notorious.tsx for the fuller explanation: without
+// this the page is only as tall as what has arrived, so every batch makes
+// it taller and the scrollbar thumb shrinks and slides).
+function PlaceholderRow({ innerRef }: { innerRef?: Ref<HTMLDivElement> }) {
+  return (
+    <div
+      ref={innerRef}
+      aria-hidden
+      style={{ contentVisibility: 'auto', containIntrinsicSize: '128px' }}
+      className="rounded-lg border border-slate-200 p-4"
+    >
+      <div className="h-5 w-3/4 rounded bg-slate-100" />
+      <div className="mt-2 h-4 w-full rounded bg-slate-50" />
+      <div className="mt-1.5 h-4 w-2/3 rounded bg-slate-50" />
+      <div className="mt-2 h-4 w-20 rounded bg-slate-50" />
+    </div>
   );
 }
 
@@ -134,6 +156,18 @@ export default function AIScams() {
   const scams = data?.pages.flat() ?? [];
   const mostRecent = scams[0];
 
+  const setTrigger = useInfiniteScroll(
+    () => {
+      if (hasNextPage && !isFetchingNextPage) fetchNextPage();
+    },
+    Boolean(hasNextPage) && !isFetchingNextPage
+  );
+  // category.scam_count is the category's true total, which only applies to
+  // the unfiltered feed — mid-search there's no cheap way to know how many
+  // results exist ahead of fetching them, so reservation is skipped there
+  // and the plain sentinel below carries the scroll trigger instead.
+  const placeholderCount = search ? 0 : Math.max((category?.scam_count ?? 0) - scams.length, 0);
+
   // Someone typing a real description of what happened into this box
   // doesn't know or care that it's scoped to the AI category — they just
   // want an answer. Rather than dead-ending on "no AI-enabled scams match
@@ -195,8 +229,18 @@ export default function AIScams() {
         {scams.map((scam) => (
           <AiScamFeedRow key={scam.id} scam={scam} />
         ))}
+        {/* The trigger rides on the first placeholder — see Notorious.tsx for
+            why a sentinel placed after the full reserved height never fires. */}
+        {Array.from({ length: placeholderCount }, (_, i) => (
+          <PlaceholderRow key={`placeholder-${i}`} innerRef={i === 0 ? setTrigger : undefined} />
+        ))}
+        {placeholderCount === 0 && hasNextPage && <div ref={setTrigger} aria-hidden className="h-px" />}
+        {isFetchingNextPage && <p className="pt-2 text-sm text-slate-500">Loading more…</p>}
       </div>
       {!isLoading && scams.length === 0 && !search && <p className="mt-6 text-slate-500">No AI-enabled scams documented yet.</p>}
+      {!isLoading && !hasNextPage && !isFetchingNextPage && scams.length > 0 && (
+        <p className="mt-6 text-center text-sm text-slate-400">You're caught up — that's every documented pattern{search ? ' matching that search' : ''}.</p>
+      )}
 
       {noInCategoryMatch && (
         <div className="mt-6">
@@ -225,19 +269,6 @@ export default function AIScams() {
               </Link>
             </div>
           )}
-        </div>
-      )}
-
-      {hasNextPage && (
-        <div className="mt-8 flex justify-center">
-          <button
-            type="button"
-            onClick={() => fetchNextPage()}
-            disabled={isFetchingNextPage}
-            className="px-5 py-2.5 rounded-md border border-slate-300 text-slate-700 font-medium hover:bg-slate-50 disabled:opacity-50"
-          >
-            {isFetchingNextPage ? 'Loading…' : 'Load more'}
-          </button>
         </div>
       )}
 
