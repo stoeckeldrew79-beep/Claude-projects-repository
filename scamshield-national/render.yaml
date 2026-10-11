@@ -30,13 +30,20 @@ services:
         value: "https://claude-projects-repository.vercel.app"
 
   # Scans live US/international scam news (Google News RSS, no API key)
-  # and publishes headlines to the "Today's Scams" feed. Safe to run more
-  # than once a day — dedupes by source URL.
+  # and publishes headlines to the "Today's Scams" feed. Idempotent (deduped
+  # by source URL) and documented as safe to run more than once a day, but
+  # it only ran once a day ("0 11 * * *") until this comment: with a ~24h
+  # gap between runs, the newest headline was routinely 15-23h old by the
+  # time anyone looked, which reads as a dead "LIVE FEED" even though the
+  # job itself was running fine every day without fail. A run takes well
+  # under a minute (26 Google News RSS queries, no API key, no rate-limit
+  # risk unlike the AG/federal scans below), so every 2 hours keeps the
+  # feed genuinely fresh at negligible cost.
   - type: cron
     name: scamshield-scan-daily-news
     runtime: node
     rootDir: scamshield-national/backend
-    schedule: "0 11 * * *"
+    schedule: "0 */2 * * *"
     buildCommand: npm install --include=dev
     startCommand: npm run scan-daily-news
     envVars:
