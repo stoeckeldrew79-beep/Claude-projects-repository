@@ -3215,8 +3215,8 @@ Her last recorded swindle came in 1913, when she was in her early-to-mid eightie
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Elisha_Perkins',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Perkins_tractors_science_museum_2011.JPG?width=1200',
-    coverImageCredit: 'Photo: Geni / Wikimedia Commons (CC BY-SA) — replica Perkins tractors, Science Museum, London',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Elisha_Perkins.jpg?width=1200',
+    coverImageCredit: 'Portrait: unknown artist, via Find a Grave (public domain, pre-1931)',
     coverImagePosition: 50,
     body: `Elisha Perkins was a respected Connecticut physician — a Revolutionary War surgeon who had served at the Battle of Bunker Hill and later chaired the Windham County Medical Association — when he patented what became one of the new United States' first genuine medical frauds. On February 19, 1796, he received a fourteen-year federal patent, one of the earliest ever issued for a medical device, on a pair of three-inch metal rods with pointed tips that he called "Metallic Tractors."
 
@@ -7761,10 +7761,9 @@ NotoriousNS.push({
     slug: 'sergei-magnitsky-230-million-russian-tax-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'tax-fraud', 'government-fraud', 'corruption'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Moscow._View_to_The_Kremlin_from_Floating_bridge_in_Zaryadye_Park.jpg?width=1200',
-    coverImageCredit: 'Photo: Bestalex (CC0) — Moscow, where Magnitsky uncovered the fraud and later died in custody',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/MagnitskySergei.jpg?width=1200',
+    coverImageCredit: 'Photo: Voice of America (public domain, US government work)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     body: `Hermitage Capital Management was, for a time, the largest foreign portfolio investor in Russia, run by American-born British financier Bill Browder. When Russian police raided Hermitage's Moscow offices and its law firm in June 2007, seizing corporate documents, seals, and registration certificates for three of Hermitage's Russian holding subsidiaries, the firm hired a young tax attorney, Sergei Magnitsky, to investigate what had happened to them. What he found was not a routine regulatory dispute — it was a fraud scheme in progress.
 
 According to Magnitsky's investigation, the seized documents were passed to a criminal network that used them to fraudulently re-register ownership of the three subsidiaries. The group then manufactured fake liabilities against the companies using backdated contracts and sham lawsuits, wiping out the subsidiaries' 2006 tax bills on paper. With those fabricated losses in place, the group filed for a refund of taxes the companies had already legitimately paid — and on December 24, 2007, Russia's tax authorities paid out roughly $230 million, described as the largest tax rebate in Russian history, in a single day.
