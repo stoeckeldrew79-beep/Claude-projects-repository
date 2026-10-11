@@ -95,13 +95,13 @@ function AiActivityStrip() {
   if (isLoading || !items || items.length === 0) return null;
 
   return (
-    <div className="mt-6 rounded-lg border-2 border-red-100 bg-red-50/40">
-      <div className="flex flex-wrap items-center gap-2 border-b border-red-100 px-4 py-3">
-        <span className="h-2 w-2 rounded-full bg-red-600 animate-pulse" />
-        <span className="text-sm font-extrabold tracking-wider uppercase text-red-700">Recent AI Scam Activity</span>
-        <span className="text-xs font-medium text-slate-500">— live news, not yet reviewed for the database below</span>
+    <div className="mt-6 rounded-lg border border-slate-200 bg-slate-50 border-l-4 border-l-red-300">
+      <div className="flex flex-wrap items-center gap-2 border-b border-slate-200 px-4 py-3">
+        <span className="h-1.5 w-1.5 rounded-full bg-red-500 animate-pulse" />
+        <span className="text-sm font-extrabold tracking-wider uppercase text-slate-700">Recent AI Scam Activity</span>
+        <span className="text-xs font-medium text-slate-400">— live news, not yet reviewed for the database below</span>
       </div>
-      <ul className="divide-y divide-red-100">
+      <ul className="divide-y divide-slate-200">
         {items.map((item: DailyScamNews) => (
           <li key={item.id}>
             <a
@@ -112,10 +112,10 @@ function AiActivityStrip() {
             >
               <span className="text-sm font-semibold text-slate-900 group-hover:underline">{item.headline}</span>
               <span className="shrink-0 text-right">
-                <span className="block text-xs font-bold text-red-700 whitespace-nowrap">
+                <span className="block text-xs font-semibold text-slate-500 whitespace-nowrap">
                   {timeAgo(item.published_at ?? item.scanned_at)}
                 </span>
-                <span className="block text-[11px] font-medium text-slate-500 whitespace-nowrap">{item.source_name}</span>
+                <span className="block text-[11px] font-medium text-slate-400 whitespace-nowrap">{item.source_name}</span>
               </span>
             </a>
           </li>
