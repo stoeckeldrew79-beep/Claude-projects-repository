@@ -12809,3 +12809,29 @@ UsNS.push({
     state: 'PA',
     firstRecorded: '2021-06-20',
 });
+
+UsNS.push({
+    name: "Omaha Financial Manager's Unauthorized American Express Scheme (Tamara Ricceri-Wolf)",
+    slug: 'nebraska-omaha-financial-manager-unauthorized-amex-fraud',
+    description: `From 2018 through December 2022, Tamara Ricceri-Wolf worked as the financial manager of an Omaha company, with direct access to its bank accounts and finances — access she used, according to an FBI investigation, to open American Express credit cards in the name of both the company and its owner without either one's knowledge or authorization. Ricceri-Wolf then used the cards for personal purchases and, drawing on the same access that let her open them in the first place, made roughly 106 unauthorized payments from the company's own bank accounts directly toward the balances she was running up, totaling at least $538,428.26. The scheme went undetected for years precisely because it exploited a position of routine, ordinary trust rather than any single dramatic theft: a trusted employee with standing account access can quietly redirect a company's own money to cover debts the company never agreed to take on. Ricceri-Wolf, 60, was convicted of wire fraud, and U.S. District Judge Brian C. Buescher sentenced her in federal court in Omaha on July 8, 2026 to 18 months in prison, three years of supervised release, and $635,935.05 in restitution. The case is a reminder that even a long-tenured, seemingly reliable financial employee's access should be checked by routine, independent review — a second person reconciling statements against actual authorized vendors and card accounts — rather than trust alone, since a scheme built on real account access can run for years before anyone outside the company notices.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Nebraska", 'FBI'],
+    sourceUrl: 'https://www.justice.gov/usao-ne/pr/omaha-woman-sentenced-18-months-wire-fraud',
+    country: 'US',
+    state: 'NE',
+    firstRecorded: '2026-07-08',
+});
+
+UsNS.push({
+    name: 'Portland "Dropped Cash" Parking-Lot Distraction Debit-Card Theft Ring (Rexona Caldararu)',
+    slug: 'oregon-portland-dropped-cash-distraction-debit-card-theft',
+    description: `Rexona Caldararu and a group of co-conspirators worked grocery-store checkout lines across Oregon, watching closely enough to memorize a shopper's debit card PIN as they typed it in, then followed the victim out to the parking lot and staged an elaborate distraction: a conspirator would point out cash lying on the ground near the victim's car and offer to split the "found" money, a moment of surprise and friendly rapport that gave another member of the group the opening to swap out or lift the victim's debit card without them noticing. With the real card and its already-memorized PIN in hand, the group drove straight to a bank branch and emptied the account before the victim had any reason to suspect the card was gone. Prosecutors said the ring defrauded 12 victims in Oregon and elsewhere out of more than $73,500 using this exact pattern. Caldararu, a 34-year-old Romanian national who prosecutors say had prior arrests for similar card-theft schemes across the United States, the United Kingdom, and France, pleaded guilty on January 22, 2026 to conspiracy to commit bank fraud, bank fraud, and aggravated identity theft. A federal judge in Portland sentenced her on May 26, 2026 to 36 months in prison and five years of supervised release. The FBI, which investigated the case, notes that the scheme depends entirely on a shopper never noticing their card has been swapped during a seemingly unrelated, friendly distraction moments after checkout — shoppers are advised to shield their PIN from anyone nearby while entering it, to check that their own card is still in their wallet immediately after any unexpected interaction in a parking lot, and to decline any stranger's invitation to "split" found money, since a genuine coincidence is far less common than a staged one.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Oregon", 'FBI'],
+    sourceUrl: 'https://www.justice.gov/usao-or/pr/romanian-national-unlawfully-residing-united-states-sentenced-federal-prison-defrauding',
+    country: 'US',
+    state: 'OR',
+    firstRecorded: '2026-05-26',
+});
