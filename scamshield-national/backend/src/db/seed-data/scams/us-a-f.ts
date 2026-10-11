@@ -12181,3 +12181,43 @@ UsAF.push({
     country: 'US',
     firstRecorded: '2026-10-06',
 });
+
+UsAF.push({
+    name: 'FBI Birmingham AI Voice-Cloning and Deepfake Fraud Surge (Alabama)',
+    slug: 'alabama-ai-voice-cloning-deepfake-fraud',
+    description: `FBI Birmingham, which covers Central and North Alabama, reports a sharp rise in scams built on AI tools — voice cloning, deepfake video and audio, forged documents, and highly personalized phishing — used mainly to carry out investment fraud, extortion, and phishing. The FBI's 2025 Internet Crime Report logged 57 AI-related complaints from Alabama victims with losses topping $6 million, consistent with a national total of more than 22,000 AI-related complaints and nearly $900 million in victim losses. FBI Birmingham Special Agent in Charge Dave Fitzgibbons said criminals are deploying AI "at the speed and sophistication like we've really never seen before." The FBI's advice is to pause before reacting to an unexpected AI-enhanced message or call, avoid clicking links in unsolicited messages, and verify any claimed debt or fraud alert by calling the number on your own card or account statement rather than one given by the caller.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['FBI Birmingham Field Office', 'FOX10 (WALA)'],
+    sourceUrl: 'https://www.fox10tv.com/2026/10/06/fbi-ai-fuels-surge-online-scams-costing-alabamians-millions/',
+    country: 'US',
+    state: 'AL',
+    firstRecorded: '2026-10-06',
+});
+
+UsAF.push({
+    name: 'Birmingham-Area Grandparent Emergency Scam (Alabama)',
+    slug: 'alabama-grandparent-emergency-scam-fbi-birmingham',
+    description: `Speaking at the United Way Area Agency on Aging's 2024 Fraud Summit in Birmingham, FBI Supervisory Special Agent Matt Tootle, who handles fraud and financial crime for the Birmingham field office, warned that elder fraud is rising in Alabama, driven heavily by the "grandparent scam" — a caller impersonates a family member claiming to be in a car accident or under arrest and pressures the elderly victim to send money immediately. Tootle noted scammers mine victims' social media for family details to make the impersonation convincing and deliberately create urgency, saying "all of these scammers create a sense of urgency — 'you have to act now, or else.'" He advised families to agree in advance that no request is so urgent it can't wait for a second opinion, and to tell someone else before acting on an alarming call, text, or email.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'medium',
+    sources: ['FBI Birmingham Field Office', 'United Way Area Agency on Aging', 'Bham Now'],
+    sourceUrl: 'https://bhamnow.com/2024/05/24/birmingham-fbi-agent-reveals-6-common-scams-that-may-be-targeting-your-parents-grandparents/',
+    country: 'US',
+    state: 'AL',
+    firstRecorded: '2024-05-24',
+});
+
+UsAF.push({
+    name: 'Jefferson County Sheriff\'s Office Impersonation Phone Scam (Alabama)',
+    slug: 'alabama-jefferson-county-fake-warrant-bond-scam',
+    description: `The Jefferson County Sheriff's Office (Birmingham, AL) warned residents of callers who spoof caller ID so it displays the sheriff's office's own name, falsely claim the recipient missed a court appearance as a witness or expert, and say they can avoid arrest only by immediately buying prepaid or gift cards and reading the card numbers over the phone. The office stressed it never collects bond or fines by phone or payment card — any legitimate bond payment is made in person at the jail — and told residents who get a call like this to hang up and call the office back directly using a number they already have on file, not one the caller provides. Similar warrant/bond-payment impersonation scams using other Alabama sheriff's offices and police departments' names have been independently reported by several other agencies in the years since, indicating this is a recurring statewide pattern rather than a one-off.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Jefferson County Sheriff's Office", 'Trussville Tribune'],
+    sourceUrl: 'https://www.trussvilletribune.com/2020/04/23/jefferson-county-sheriffs-office-warns-of-phone-scam-involving-scammers-posing-as-deputies/',
+    country: 'US',
+    state: 'AL',
+    isHistorical: true,
+    firstRecorded: '2020-04-23',
+});
