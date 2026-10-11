@@ -12221,3 +12221,16 @@ UsAF.push({
     isHistorical: true,
     firstRecorded: '2020-04-23',
 });
+
+UsAF.push({
+    name: 'Gold-and-Cash Courier Fraud Ring Targeting Elderly Victims (Sathawane)',
+    slug: 'florida-sathawane-elder-fraud-courier-gold-cash-scheme',
+    description: `Atharva Shailesh Sathawane, a 23-year-old Indian national who had overstayed a student visa, worked as a courier for an elder-fraud network that convinced victims their identities had been tied to illegal activity and that they needed to liquidate savings, investment accounts, and retirement holdings into cash and gold to "protect" it, according to the U.S. Attorney's Office for the Northern District of Florida and IRS Criminal Investigation. Over roughly four months, Sathawane personally made at least 33 trips to collect cash and gold directly from victims' homes — primarily across Florida, including Jacksonville, Boca Raton, and Coral Gables, with additional pickups in Pennsylvania, Virginia, New Jersey, and New York — then delivered the proceeds to co-conspirators, some operating from India, rather than relying on wire transfers or gift cards that might draw a bank teller's or retailer's suspicion. Prosecutors say he personally took and laundered $6,615,484.66 in cash and gold from victims before he was caught attempting to collect another $1,363,395.98 in gold: a Gainesville victim's friend grew suspicious of the scheme, alerted police, and an undercover operation arrested Sathawane when he arrived at the victim's home for the pickup. A federal jury convicted him of conspiracy to commit wire fraud and conspiracy to commit money laundering, and U.S. Attorney John P. Heekin announced on January 26, 2026 that Sathawane was sentenced to 18 years in federal prison. The case illustrates why any caller claiming a victim's identity or accounts are linked to a crime and instructing them to convert savings into gold or cash for a "courier" to collect in person is committing fraud — no legitimate law enforcement or financial-protection process ever requires converting assets to gold or handing them to a stranger at the door, and anyone who gets such a call should hang up and verify independently with their bank or local police before moving any money.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of Florida", 'IRS Criminal Investigation', 'FBI'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/fraudster-sentenced-to-eighteen-years-in-prison-after-taking-and-laundering-millions-from-elderly-victims',
+    country: 'US',
+    state: 'FL',
+    firstRecorded: '2026-01-26',
+});
