@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { useCategories, useCountries, useInfiniteScams, useScamTags } from '../hooks/useScams';
+import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { ScamListParams } from '../services/scams';
 import { ScamCard } from '../components/ScamCard';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
@@ -71,6 +72,19 @@ export default function Database() {
   }
 
   const scams = data?.pages.flat() ?? [];
+
+  // No single cheap "total for this exact filter combination" exists (search
+  // x category x tag x country x state x view, all composable) the way the
+  // AI-Enabled Scams page has category.scam_count for its one fixed filter —
+  // so unlike that page, this can't reserve placeholder height up front. The
+  // grid still grows a row at a time as batches load, same as it always did;
+  // the only change is that growth no longer waits on a button click.
+  const setTrigger = useInfiniteScroll(
+    () => {
+      if (hasNextPage && !isFetchingNextPage) fetchNextPage();
+    },
+    Boolean(hasNextPage) && !isFetchingNextPage
+  );
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
@@ -244,17 +258,10 @@ export default function Database() {
       </div>
       {!isLoading && scams.length === 0 && <p className="text-slate-500">No scams match your filters.</p>}
 
-      {hasNextPage && (
-        <div className="mt-8 flex justify-center">
-          <button
-            type="button"
-            onClick={() => fetchNextPage()}
-            disabled={isFetchingNextPage}
-            className="px-5 py-2.5 rounded-md border border-slate-300 text-slate-700 font-medium hover:bg-slate-50 disabled:opacity-50"
-          >
-            {isFetchingNextPage ? 'Loading…' : 'Load more'}
-          </button>
-        </div>
+      {hasNextPage && <div ref={setTrigger} aria-hidden className="h-px" />}
+      {isFetchingNextPage && <p className="mt-6 text-center text-sm text-slate-500">Loading more…</p>}
+      {!isLoading && !hasNextPage && !isFetchingNextPage && scams.length > 0 && (
+        <p className="mt-8 text-center text-sm text-slate-400">You're caught up — that's everything matching these filters.</p>
       )}
     </div>
   );

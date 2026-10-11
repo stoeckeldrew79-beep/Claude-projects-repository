@@ -3,6 +3,7 @@ import { AxiosError } from 'axios';
 import { Link, useParams } from 'react-router-dom';
 import { useStateDetail } from '../hooks/useStates';
 import { useInfiniteScams } from '../hooks/useScams';
+import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { useDailyScamNews } from '../hooks/useDailyNews';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { ScamCard } from '../components/ScamCard';
@@ -43,6 +44,17 @@ export default function StateDetail() {
   const { data: news } = useDailyScamNews(code, Boolean(code));
 
   const scams = scamPages?.pages.flat() ?? [];
+
+  // No per-state, per-view (current vs. full timeline) total is fetched
+  // separately here, so — same as the Database page — there's no cheap
+  // number to reserve placeholder grid height against; the grid just grows
+  // a row at a time as batches arrive, same as it always did.
+  const setTrigger = useInfiniteScroll(
+    () => {
+      if (hasNextPage && !isFetchingNextPage) fetchNextPage();
+    },
+    Boolean(hasNextPage) && !isFetchingNextPage
+  );
 
   useDocumentMeta({
     title: state ? `${state.state_name} Scams & Fraud Alerts` : 'State scams',
@@ -252,17 +264,12 @@ export default function StateDetail() {
         {scams.length === 0 && (
           <p className="mt-4 text-sm text-slate-500">No documented entries recorded for {state.state_name} yet.</p>
         )}
-        {hasNextPage && (
-          <div className="mt-8 flex justify-center">
-            <button
-              type="button"
-              onClick={() => fetchNextPage()}
-              disabled={isFetchingNextPage}
-              className="rounded-md border border-slate-300 px-5 py-2.5 font-medium text-slate-700 hover:bg-slate-50 disabled:opacity-50"
-            >
-              {isFetchingNextPage ? 'Loading…' : 'Load more'}
-            </button>
-          </div>
+        {hasNextPage && <div ref={setTrigger} aria-hidden className="h-px" />}
+        {isFetchingNextPage && <p className="mt-6 text-center text-sm text-slate-500">Loading more…</p>}
+        {!hasNextPage && !isFetchingNextPage && scams.length > 0 && (
+          <p className="mt-8 text-center text-sm text-slate-400">
+            You're caught up — that's every documented entry for {state.state_name}.
+          </p>
         )}
       </section>
     </div>
