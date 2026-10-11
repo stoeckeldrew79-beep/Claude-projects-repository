@@ -13549,3 +13549,29 @@ UsGM.push({
     state: 'GA',
     firstRecorded: '2026-10-09',
 });
+
+UsGM.push({
+    name: 'Atlanta Facebook Marketplace Armed Robbery Meetups',
+    slug: 'atlanta-facebook-marketplace-armed-robbery-meetups',
+    description: `The Atlanta Police Department said on August 26, 2026 that it believes the same group of robbers carried out three armed robberies at Facebook Marketplace meetups near Pomona Circle in southwest Atlanta, luring buyers in with listings for high-demand electronics. On July 1, 2026, a man meeting to buy a PlayStation 5 had his cash taken at gunpoint; on July 21, a buyer arranging to pick up an Xbox had a gun brandished at him in an attempted robbery; and on July 28, a second PlayStation 5 buyer was robbed of cash after a firearm was displayed. APD Sergeant Shaun Houston said investigators believe the cases are connected and that the suspects are specifically targeting people who respond to Marketplace listings for expensive, easy-to-resell items, arranging a meetup location and time through the app's messaging feature rather than a verified in-person transaction. Because the listings themselves are often genuine — the robbery, not a fake item, is the scheme — APD is urging anyone buying or selling through online marketplaces to complete the exchange at one of its Safe Exchange Zones, video-monitored locations outside every Atlanta police precinct that operate around the clock, or to call APD's non-emergency line in advance so an officer can be present. The department is offering a reward of up to $5,000 for information leading to an arrest and indictment, with tips accepted anonymously through Crime Stoppers Greater Atlanta at 404-577-8477, stopcrimeatl.org, or the P3 Tips app.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Atlanta Police Department', 'FOX 5 Atlanta'],
+    sourceUrl: 'https://www.fox5atlanta.com/news/facebook-marketplace-meetups-atlanta-turn-armed-robberies',
+    country: 'US',
+    state: 'GA',
+    firstRecorded: '2026-07-01',
+});
+
+UsGM.push({
+    name: 'Poshmark Resale of Stolen-Card Purchases (Montgomery County, Maryland)',
+    slug: 'maryland-poshmark-stolen-card-resale-scheme',
+    description: `Montgomery County, Maryland police said on September 7, 2024 that they were searching for additional victims of a scheme in which a suspect used someone else's stolen bank card information to order merchandise online from a retailer, Dick's Sporting Goods, and then resold that same merchandise to unsuspecting buyers through listings on the resale app Poshmark under the seller handle "@Valdez310." The scheme victimizes two different kinds of people at once: the cardholder whose stolen payment information funded the original purchase, who discovers the unauthorized charge on their statement, and the Poshmark buyer, who has no way of knowing the "like-new" or "new with tags" item they bought was paid for with someone else's stolen card and could be subject to a bank-initiated chargeback or a police inquiry later. Detectives with the department's 4th District Patrol Investigative Unit said they believed the suspect had carried out the scheme more than once and asked anyone who suspects they may have unknowingly bought merchandise purchased with a stolen card, or who finds an unauthorized Dick's Sporting Goods charge on their own card, to contact investigators. The case illustrates why resale-app buyers should be wary of a seller with a thin or newly created profile selling multiple identical, still-tagged retail items at a discount, and why anyone who spots an unfamiliar retail charge on a bank or credit card statement should report it to their card issuer immediately rather than assume it will resolve itself.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Montgomery County Police Department (Maryland)', 'WMAR-2 News (ABC2 Baltimore)'],
+    sourceUrl: 'https://www.wmar2news.com/local/police-warn-of-scam-involving-poshmark-app-searching-for-additional-victims',
+    country: 'US',
+    state: 'MD',
+    firstRecorded: '2024-09-07',
+});
