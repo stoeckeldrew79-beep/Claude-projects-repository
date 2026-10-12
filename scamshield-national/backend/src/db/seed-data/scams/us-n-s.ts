@@ -13038,3 +13038,16 @@ UsNS.push({
 });
 
 
+
+UsNS.push({
+    name: "South Dakota Unlicensed Transient Vendor Fraud",
+    slug: "south-dakota-unlicensed-transient-vendor-fraud",
+    description:
+      "Every spring and summer, traveling sellers move through South Dakota towns pitching repair work, construction, and merchandise door-to-door without the South Dakota sales tax or contractor's excise tax license the state requires of them. The Attorney General's Division of Consumer Protection and the Department of Revenue warn that these operators hand out business cards showing a local address and phone number that is really a mailing-service box or a motel room, use high-pressure on-the-spot pitches to rush you into an inferior product at an inflated price, and demand advance cash instead of a check made out to a company. A distinctly South Dakota harm: if the vendor never pays local suppliers for your materials, you as the homeowner can be held liable for those unpaid materials even after you already paid the vendor. Legitimate vendors will show you a South Dakota tax license, a written quote, references, and proof of workers' comp and liability insurance. Ask for the tax license before you agree to anything, remember South Dakota gives you three days to cancel most purchases made at your home, and report problems to Consumer Protection at 1-800-300-1986 or the Department of Revenue business tax helpline at 1-800-829-9188.",
+    categorySlug: "home-improvement-solar",
+    alertLevel: "high",
+    sources: ["South Dakota Division of Consumer Protection Fast Facts: Transient Vendors","Attorney General Jackley Urges Caution When Doing Business with Transient Vendors (May 23, 2025)","South Dakota Department of Revenue Business Tax Division joint alert (July 24, 2025)"],
+    sourceUrl: "https://consumer.sd.gov/fastfacts/TransientVendors.aspx",
+    country: "US",
+    state: "SD",
+});

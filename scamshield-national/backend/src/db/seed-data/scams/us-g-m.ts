@@ -13751,3 +13751,16 @@ UsGM.push({
     state: 'MN',
     firstRecorded: '2025-04-15',
 });
+
+UsGM.push({
+    name: "Mayday Health Abortion-Pill Gas Station Ad Campaign (South Dakota Enforcement Action)",
+    slug: "mayday-health-abortion-pill-gas-station-ad-campaign",
+    description:
+      "Starting December 8, 2025, ads reading \"PREGNANT? DON'T WANT TO BE?\" appeared at roughly 30 gas stations across South Dakota, pointing consumers to the Mayday Health website for abortion pills and related services. The South Dakota Attorney General's Division of Consumer Protection says the ads deceptively market a product and service that cannot lawfully be sold or administered in South Dakota, and Attorney General Marty Jackley sent a cease-and-desist letter to Mayday Health on December 10, 2025. When the campaign continued, the state filed a motion in Hughes County Circuit Court on December 22-23, 2025 seeking an injunction against Mayday Medicines Inc. and ad placement firm AllOver Media LLC (d/b/a Momentara). Several gas stations pulled the ads voluntarily, and Mayday has publicly argued the campaign is protected speech, so this is a contested enforcement action rather than an adjudicated fraud. If you responded to one of these ads or paid money through a site you found on one, document what you were promised and contact the Division of Consumer Protection at 1-800-300-1986 or consumerhelp@state.sd.us.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "medium",
+    sources: ["South Dakota Attorney General's Office press release (Dec. 2025)","South Dakota Division of Consumer Protection Consumer Alerts page"],
+    sourceUrl: "https://atg.sd.gov/OurOffice/Media/pressreleasesdetail.aspx?id=2964",
+    country: "US",
+    state: "SD",
+});
