@@ -12883,3 +12883,15 @@ UsNS.push({
     country: 'US',
     firstRecorded: '2026-05-28',
 });
+
+UsNS.push({
+    name: 'Bristol, Pennsylvania EBT Card-Skimming Arrest',
+    slug: 'pennsylvania-bristol-ebt-card-skimming-arrest',
+    description: `Workers at the All Fresh grocery store on Pond Street in Bristol, Bucks County recognized two men they said were behind a card-skimming incident at the same store the previous month, leading to the August 2026 arrest of 38-year-old Ionut Adrian Oprea; a second suspect fled on foot before police arrived. Investigators said the pair worked as a team, with one man distracting store staff while the other attached an electronic skimming device to the card reader's keypad to capture card data, and Pennsylvania's Office of State Inspector General confirmed the recovered devices were built specifically to target EBT cards rather than ordinary debit or credit cards. Bucks County District Attorney Joe Khan warned that EBT theft disproportionately harms vulnerable residents because benefit recipients lack the fraud protections and dispute rights that traditional credit card holders have, and said the suspects may have targeted other grocery stores across the region as well. Khan urged business owners to physically inspect their card readers every day for added adhesive, loose parts, or unusual bulk at the keypad, and urged EBT cardholders to monitor their benefit balance closely and report anything suspicious immediately, since stolen benefits — unlike a compromised bank card — are typically gone for good once drained. Pennsylvania EBT recipients who suspect their card has been compromised can change their PIN or report fraud through the state's EBT recipient hotline at 1-888-328-7366, and can additionally protect themselves by tugging on a keypad before entering a PIN and shielding the keypad with a hand while typing.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ["Bucks County District Attorney's Office (Joe Khan)", 'Pennsylvania Office of State Inspector General', 'PhillyVoice'],
+    sourceUrl: 'https://www.phillyvoice.com/ebt-card-skimming-scam-bristol-prevention/',
+    country: 'US',
+    state: 'PA',
+});
