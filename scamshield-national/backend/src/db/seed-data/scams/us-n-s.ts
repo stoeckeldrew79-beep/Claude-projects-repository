@@ -13013,4 +13013,16 @@ UsNS.push({
     firstRecorded: '2026-05-13',
 });
 
+UsNS.push({
+    name: 'Pay Tel Prison-Phone Service Unsecured Server Exposes 300,000+ Driver\'s Licenses',
+    slug: 'pay-tel-communications-unsecured-server-id-exposure',
+    description: `Security researchers at UpGuard discovered an unprotected, password-free cloud storage server belonging to Pay Tel Communications, a North Carolina-based company that provides phones and tablets letting incarcerated people communicate with family and friends in prisons and jails across much of the country. The exposed server held at least 300,000 driver's license scans and other government-issued ID documents that users had been required to submit to sign up for the service, along with profile photos — some containing embedded location data precise enough to identify a home address — and inmates' own communications, including text messages, handwritten notes, and financial records. UpGuard notified Pay Tel of the exposure on May 7, 2026, and the server was secured sometime before a follow-up contact days later, but the company had not publicly acknowledged the incident as of the report, had not said whether it would notify affected individuals or state attorneys general, and did not respond to reporters' questions about who is responsible for its cybersecurity. It was Pay Tel's second known security lapse in two years, following a ransomware attack in June 2025. Exposed ID scans, selfies with location metadata, and financial records give scammers everything needed for identity theft, document forgery, or follow-on phishing targeting both the people who signed up for the service and the incarcerated users' families — anyone who used a prison communication service around this period should watch for unexpected account, loan, or credit activity and consider a credit freeze even without a formal notification letter, since an unsecured server with no notification is not the same as no exposure having occurred.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'high',
+    sources: ['UpGuard', 'TechCrunch'],
+    sourceUrl: 'https://techcrunch.com/2026/05/28/a-security-lapse-at-prison-payphone-service-pay-tel-publicly-exposed-over-300000-callers-drivers-licenses/',
+    country: 'US',
+    firstRecorded: '2026-05-28',
+});
+
 

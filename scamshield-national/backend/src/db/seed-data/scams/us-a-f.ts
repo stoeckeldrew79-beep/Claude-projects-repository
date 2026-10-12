@@ -12584,3 +12584,16 @@ UsAF.push({
     state: 'AZ',
     firstRecorded: '2026-08-12',
 });
+
+UsAF.push({
+    name: '"Operation Cradle to Grift" San Diego Ghost-Daycare Childcare Subsidy Fraud',
+    slug: 'california-san-diego-cradle-to-grift-childcare-subsidy-fraud',
+    description: `Federal prosecutors in San Diego unsealed charges on September 15, 2026 against 12 people accused of fraudulently collecting more than $10 million in government childcare subsidy payments through what investigators dubbed "Operation Cradle to Grift." According to the Justice Department and the IRS Criminal Investigation division, which jointly announced the charges, the defendants operated licensed, at-home childcare facilities across the San Diego area and submitted monthly attendance records claiming to have cared for dozens of children — but prosecutors say the facilities rarely, if ever, actually had any children present. In one example cited by prosecutors, a 25-year-old defendant submitted attendance records claiming to have cared for 23 children in March 2026 and 25 children in April 2026, yet surveillance of his address showed children present on only one occasion, during an unannounced state inspection. Another defendant, 63, allegedly continued billing for childcare provided on dates when she was documented as being outside the United States. Federal, state, and local law enforcement arrested all 12 defendants on September 10, 2026 after executing a dozen search warrants at San Diego-area homes posing as daycare facilities, and prosecutors say the proceeds were used to buy luxury homes, wire money overseas, and make large cash withdrawals. The defendants face wire fraud and money laundering charges. A childcare subsidy or benefits program that pays based on self-reported attendance is only as reliable as the records submitted, and the case underscores why state licensing and subsidy agencies rely on unannounced inspections — rather than paperwork alone — to confirm a facility that's billing for care is actually providing it.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Department of Justice", 'IRS Criminal Investigation', 'Associated Press'],
+    sourceUrl: 'https://abc11.com/post/federal-authorities-allege-more-10m-childcare-payment-fraud-california/19835661/',
+    country: 'US',
+    state: 'CA',
+    firstRecorded: '2026-09-15',
+});
