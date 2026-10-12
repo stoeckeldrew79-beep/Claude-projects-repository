@@ -24981,3 +24981,39 @@ International.push({
   sourceUrl: 'https://supervalores.gob.pa/warning-non-authorized-entity-preferred-capital-limited-y-simas-as-latam/',
   country: 'PA',
 });
+
+International.push({
+    name: "Fake E-Commerce Customer Service \"Cancel Installment Payment\" ATM Scam (Taiwan)",
+    slug: "fake-ecommerce-customer-service-cancel-installment-atm-scam-taiwan",
+    description:
+      "Callers armed with leaked online or TV shopping order data phone Taiwanese shoppers, correctly citing their name, the item bought and the amount, then claim the order was wrongly keyed in as a monthly installment plan or duplicate charge that will keep debiting the account. The call is \"transferred\" to a fake bank officer who insists the error must be fixed immediately at an ATM, often telling the victim to switch the machine to the English interface so the wording is harder to follow. The \"cancellation codes\" the victim types are actually the fraudster's account number and a transfer amount, and further rounds follow because the fix supposedly failed. Newer versions ask victims to scan a QR code, install an app, or read back one-time passwords instead. No bank or merchant ever fixes a billing error at an ATM: hang up, call the shop or your bank using a number you look up yourself, and report the call to the 165 anti-fraud hotline.",
+    categorySlug: "tech-support-scams",
+    alertLevel: "high",
+    sources: ["Criminal Investigation Bureau, National Police Agency (內政部警政署刑事警察局)","Taipei City Police Department, Zhongzheng Second Precinct","165 Anti-Fraud Hotline"],
+    sourceUrl: "https://www.cib.npa.gov.tw/ch/app/data/view?module=wg116&id=1909&serno=a61af506-a4ac-49eb-9c79-ef75ddc6f237",
+    country: "TW",
+});
+
+International.push({
+    name: "Fake Escort Service Advance-Fee Scam (Taiwan)",
+    slug: "fake-escort-service-advance-fee-scam-taiwan",
+    description:
+      "Fraudsters advertise sex services through messaging apps, adult forums and unsolicited LINE or SMS invitations, then move the target to a LINE account run by a fake \"agency\". Before any meeting, the agency demands an upfront payment framed as a deposit, membership fee, credit-card verification charge or no-show guarantee, paid by bank transfer, ATM, or prepaid game-point cards whose serial numbers are photographed and sent. Once the first payment lands the excuses chain endlessly: the transfer failed, the account is frozen, the code was wrong, an insurance or unlocking fee is now due. No meeting ever happens, and some rings escalate to threats of exposing the victim to family or employers. Treat any upfront fee request as the scam itself, stop paying immediately, keep the chat records, and report it to police or the 165 hotline even though embarrassment makes victims reluctant.",
+    categorySlug: "romance-scams",
+    alertLevel: "medium",
+    sources: ["New Taipei City Police Department, Sanchong Precinct (新北市政府警察局三重分局)","Criminal Investigation Bureau, National Police Agency"],
+    sourceUrl: "https://www.sanchong.police.ntpc.gov.tw/cp-454-57867-17.html",
+    country: "TW",
+});
+
+International.push({
+    name: "Online Game Item, Account and Game-Point Trading Scam (Taiwan)",
+    slug: "online-game-item-account-game-point-trading-scam-taiwan",
+    description:
+      "Offers for rare virtual items, boosted accounts or cheap top-ups appear in game chat, Facebook and Discord trading groups, and second-hand platforms, targeting mostly minors and young adults in Taiwan. A fake seller takes the bank transfer and never delivers, or hands over an account the original owner later recovers; a fake buyer sends a forged transfer screenshot or claims payment is pending to pressure the victim into releasing the item first. A common twist asks the victim to buy prepaid game-point cards at a convenience store and photograph the serial numbers, supposedly for \"account verification\" or to \"unlock the trade\", which moves the value untraceably. Counterfeit top-up and game-login pages also harvest credentials so the account can be stripped and resold. Trade only through the game's official or platform-protected systems, never send game-point serial numbers to anyone, verify payment in your own bank app rather than from a screenshot, and report losses to the 165 anti-fraud hotline.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["Third Special Police Corps, National Police Agency (內政部警政署保安警察第三總隊)","New Taipei City Police Criminal Investigation Corps","165 Anti-Fraud Hotline"],
+    sourceUrl: "https://www.3spc.npa.gov.tw/ch/app/data/view?module=govinfo&id=18710&serno=dee464de-47bd-425e-b049-7a3a04f23887",
+    country: "TW",
+});
