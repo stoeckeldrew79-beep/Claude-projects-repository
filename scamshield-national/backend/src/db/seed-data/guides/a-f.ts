@@ -197,10 +197,9 @@ Before swiping or inserting a card at a pump or ATM, check whether the card read
     slug: 'card-shimming-emv-chip-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'card-shimming'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chipkarte.jpg?width=1200',
-    coverImageCredit: 'Photo: uploader (CC BY-SA 3.0 / GFDL) — a chip-enabled smart card',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NS_skimapparaat.jpg?width=1200',
+    coverImageCredit: 'Photo: Paul Wiegmans (Public Domain) — a card skimming device fitted to a card reader slot',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.michigan.gov/consumerprotection/protect-yourself/consumer-alerts/shopping/card-skimming-and-shimming',
     body: `Skimmers work by reading the magnetic stripe on the back of a card, and the payment industry's answer to that was the EMV chip — the small metallic square now standard on nearly every U.S. debit and credit card, named for the Europay, Mastercard, and Visa consortium that created the standard. Criminals adapted. A shimmer is a paper-thin device, built around a tiny microchip and flash memory, that fits inside the card slot itself rather than clipping over it the way a skimmer does. When a chip card is inserted, the shim sits physically between the card's chip and the terminal's own chip reader, silently copying the data as it passes through on its way to being read — the transaction still completes normally, with nothing to alert either the customer or the merchant that anything happened.
 
