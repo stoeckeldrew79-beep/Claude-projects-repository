@@ -1974,7 +1974,6 @@ NotoriousTZ.push(
     coverImageCredit: 'Kidfly182, CC BY-SA 4.0, via Wikimedia Commons',
     coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/jamaican-national-sentenced-eight-years-role-sweepstakes-fraud-targeting-older',
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
     body: `From 2015 through 2025, a Jamaica-based fraud ring ran a sweepstakes con on elderly Americans that never went out of style because it never had to change much: an unsolicited call or text told the victim they'd won a large cash prize and a luxury car from a well-known marketing and sweepstakes company, but first needed to pay "taxes" or "fees" to release it. Victims who paid were told the payment hadn't gone through, or that a new fee had come up, and were walked through sending money again — by check, money order, cash, wire transfer, Zelle, or Venmo — for months or years, one promised prize that never arrived.
 
 Jordan Trought, now 30, joined the ring in 2021 and rose to become one of its senior leaders, according to federal prosecutors in the Southern District of New York. Between March 2021 and August 2025 alone, the portion of the scheme prosecutors attributed directly to Trought took more than $6 million from over 100 victims; the ring as a whole, across its full decade of operation, is accused of stealing more than $9 million from over 200 elderly victims nationwide. U.S. Attorney Jay Clayton's office said Trought and his co-conspirators "exploited trust, age, and hope for profit."

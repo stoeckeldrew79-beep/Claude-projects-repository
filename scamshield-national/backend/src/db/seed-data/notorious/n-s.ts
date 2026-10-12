@@ -4541,7 +4541,6 @@ NotoriousNS.push(
     coverImageCredit: 'Photo: Toksave / Wikimedia Commons (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
     body: `Reyad Salahaldeen, 57, of Buford, Georgia, controlled four diagnostic laboratories spread across three states — Express Diagnostics in New Jersey, BioConfirm Laboratory USA and BioConfirm Laboratories in Georgia, and Tox Management and Tri-State Toxicology in Texas — that between 2018 and August 2020 submitted approximately $522 million in false and fraudulent claims to Medicare, Medicaid, and private insurers for genetic and toxicology testing. Marketers working the scheme fanned out through telemarketing calls, door-to-door visits, and health fairs, collecting cheek-swab DNA samples and insurance information from people who were told the cancer-screening tests being offered were free, or medically important, or both. Many of the tests were never medically necessary at all, ordered through requisition forms and medical-necessity letters that Salahaldeen personally falsified to make a stranger's swab look like a doctor's considered judgment.
 
 Mohamad Mustafa, 28, of Duluth, Georgia, supplied the kickback side of the operation, drafting sham marketing contracts that dressed up illegal payments to patient recruiters as legitimate advertising or consulting fees — paperwork built specifically to survive a compliance audit rather than to describe what the money was actually for. Of the $522 million billed, Medicare, Medicaid, and private insurers actually paid out roughly $84 million before the scheme was caught, money that flowed from four differently-named labs in three different states back to a network small enough that a single set of falsified forms could feed all of it.
@@ -4582,7 +4581,6 @@ NotoriousNS.push(
     coverImageCredit: 'Photo: Jacknstock / Wikimedia Commons (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
-    // no rights-cleared photo identified — sourceUrl above serves as the "read the full story" link
     body: `Note: Sajju Khatiwada has pleaded guilty, but as of this writing he has not yet been sentenced — a hearing is scheduled for December 22, 2026 — so the prison term the court will actually impose is not yet known.
 
 Sajju Khatiwada, 45, of Franklin, Tennessee, worked as an assistant treasurer at Bridgestone Americas, Inc., the U.S. arm of the global tire manufacturer — a finance role that gave him visibility into how the company's vendor payments worked and, prosecutors say, exactly the knowledge he needed to invent a vendor of his own. In July 2020, Khatiwada created a company called Paymt-Tech, LLC, registering it in Nevada under the name of an acquaintance rather than his own, and opened bank accounts in the fictitious company's name.
