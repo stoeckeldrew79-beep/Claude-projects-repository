@@ -24696,3 +24696,39 @@ International.push({
   sourceUrl: 'https://www.superbancos.gob.pa/documentos/leyes_y_regulaciones/comunicados/2021/aviso8-2021.pdf',
   country: 'PA',
 });
+
+International.push({
+  name: 'Qatar General Tax Authority Email Impersonation Scam',
+  slug: 'qatar-general-tax-authority-email-impersonation-scam',
+  description: `Qatar's General Tax Authority (GTA) issued a public alert on February 6, 2026 warning taxpayers about fraudulent emails impersonating the Authority that direct recipients to suspicious links designed to harvest personal and tax-related information. The GTA stated plainly that "these messages are not legitimate" and that it does not request passwords, bank details, or other sensitive information by email, text message, or phone call. Recipients of one of these fake emails are told not to reply to the sender, not to open any attachment or click any embedded link, and not to share any personal or tax-related details, and are advised instead to verify the authenticity of any communication through the Authority's official "Dhareeba" tax platform or another approved channel before acting on it. The Authority's guidance is to delete the suspicious message immediately and report it to the relevant authorities rather than engage with it in any way, since a tax authority that already has a filer's records never needs to ask for them again by unsolicited email.`,
+  categorySlug: 'tax-scams',
+  alertLevel: 'medium',
+  sources: ["Qatar General Tax Authority (GTA)", 'The Peninsula Qatar'],
+  sourceUrl: 'https://thepeninsulaqatar.com/article/06/02/2026/qatars-general-tax-authority-alerts-public-to-impersonation-scams',
+  country: 'QA',
+  firstRecorded: '2026-02-06',
+});
+
+International.push({
+  name: 'Fake Traffic-Fine SMS Phishing Targeting Mobile Users (Qatar)',
+  slug: 'qatar-fake-traffic-fine-sms-phishing-scam',
+  description: `Qatar's Ministry of Interior (MoI) warned mobile users about a wave of fraudulent SMS messages falsely claiming the recipient's vehicle has an unpaid traffic violation, with one example reading, "Please be informed that your vehicle has an unpaid traffic violation." The texts link to a fake website built to imitate an official government portal, aiming to harvest the personal and financial information of anyone who clicks through and enters their details. The Ministry pointed to a reliable giveaway: genuine Qatari government websites only ever use the ".gov.qa" domain, so any traffic-fine link pointing elsewhere is automatically fraudulent. The MoI, whose public-awareness slogan is "Your awareness is your security," directs residents to check any actual traffic violation only through verified official channels — the Metrash2 mobile app or the Hukoomi government portal — rather than clicking a link in an unsolicited text, to follow the Ministry's official social media accounts for accurate updates, and to report any suspicious message to the Ministry of Interior right away rather than engaging with it.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Ministry of Interior (Qatar)', 'Marhaba Qatar'],
+  sourceUrl: 'https://marhaba.qa/phishing-alert-fake-traffic-fine-messages-target-mobile-users/',
+  country: 'QA',
+  firstRecorded: '2025-04-16',
+});
+
+International.push({
+  name: 'Fake Electronic Links Impersonating Qatar Ministry of Commerce Online Portals',
+  slug: 'qatar-moci-fake-electronic-links-phishing-scam',
+  description: `Qatar's Ministry of Commerce and Industry (MoCI) issued a public advisory on August 10, 2026 urging residents and businesses to verify the authenticity of electronic links before attempting to access its online portals, after scammers built fraudulent pages that mimic government domains to harvest login credentials. The advisory warns against clicking links from untrusted sources, unverified social-media messages, or suspicious online advertisements, and cautions that even a search engine's top result can lead to a fraudulent look-alike site rather than the genuine one. MoCI directed the public to reach its services only through its own official portal at www.moci.gov.qa, or through the Single Window Platform at investor.sw.gov.qa for business registration and corporate services, calling the habit of checking a web address before entering sensitive details "a crucial defence against electronic fraud." Anyone with questions about whether a link or page is genuine can call the Ministry's hotline at 16001 before entering any personal, business, or financial information.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: ['Ministry of Commerce and Industry (Qatar)', 'The Peninsula Qatar'],
+  sourceUrl: 'https://www.thepeninsulaqatar.com/article/11/08/2026/moci-issues-advisory-to-protect-public-from-online-fraud',
+  country: 'QA',
+  firstRecorded: '2026-08-10',
+});
