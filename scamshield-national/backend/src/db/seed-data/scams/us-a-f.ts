@@ -168,8 +168,8 @@ export const UsAF: SeedScam[] = [
       'An email or text posing as your company\'s IT department claims your password has expired and urges you to "reset now" through a link, which leads to a fake corporate sign-in page that harvests real credentials — often the opening move in a larger network breach, not just a one-off theft. Verify with your actual IT department through a known internal channel before entering credentials anywhere prompted by an unsolicited message.',
     categorySlug: 'phishing',
     alertLevel: 'high',
-    sources: ['FBI IC3', 'CISA'],
-    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240411',
+    sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams',
   },
 {
     name: 'Fake Apple ID Security Alert Text',
