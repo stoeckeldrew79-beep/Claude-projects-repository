@@ -18,6 +18,7 @@
 import 'dotenv/config';
 import { XMLParser } from 'fast-xml-parser';
 import { pool } from '../db/connection';
+import { RELEVANT } from './relevantFilter';
 
 // States whose AG publishes a usable feed, verified by probing all 51.
 const STATE_AG_FEEDS: Partial<Record<string, string>> = {
@@ -97,25 +98,9 @@ const STATE_NAMES: Record<string, string> = {
 
 // An AG press feed carries everything the office publishes — indictments,
 // appointments, settlements, hearings. Only keep items that read as consumer
-// scam/fraud warnings.
-//
-// This is matched against the TITLE ONLY, deliberately. Matching the
-// description too was tried first and gave 31% false positives out of 108
-// real items: a press release whose body merely mentions fraud in passing
-// got pulled in, and an "elder abuse" term dragged in a nursing-home assault
-// case that has nothing to do with scams.
-//
-// The alert vocabulary below (warns/consumer alert/beware) is kept alongside
-// the scam vocabulary because real alerts often name the lure instead of the
-// category — "Warns Delawareans of Bogus Tax E-mails" contains no scam word
-// at all. Tuned against 108 actual AG headlines: keeps the genuine alerts,
-// drops settlements, hearings and unrelated prosecutions.
-//
-// Exported because scanFederalScamNews.ts filters the same kind of source
-// (an official office's own press releases, not general news) and reuses
-// this rather than maintaining a second copy that could drift from it.
-export const RELEVANT =
-  /\b(scam|fraud|fraudulent|phishing|spoof|imposter|impostor|identity theft|robocall|price goug|deceptive|ponzi|swindl|predatory|counterfeit|deceiv|consumer alert|consumer warning|consumer advisory|warns?\b|warning|beware|urges consumers|alerts consumers)/i;
+// scam/fraud warnings. See relevantFilter.ts for the RELEVANT regex itself
+// (shared with scanFederalScamNews.ts, which filters the same kind of
+// official-press-release source).
 
 // source_url is the dedupe key and is indexed, so it cannot be truncated.
 // Anything past the column width is dropped rather than silently mangled.
@@ -327,7 +312,13 @@ async function main() {
   await pool.end();
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+// Guards against the failure mode that bit scanFederalScamNews.ts: another
+// script importing this file (even just for a shared export) would
+// otherwise also kick off this entire run as a side effect, racing the
+// importing script for the same DB pool.
+if (require.main === module) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
