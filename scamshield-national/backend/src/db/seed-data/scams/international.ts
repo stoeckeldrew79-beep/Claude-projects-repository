@@ -24948,3 +24948,36 @@ International.push({
   country: 'QA',
   firstRecorded: '2026-08-10',
 });
+
+International.push({
+  name: 'ACODECO "Sindi" WhatsApp Virtual-Assistant Impersonation Scam (Panama)',
+  slug: 'panama-acodeco-sindi-whatsapp-impersonation-scam',
+  description: `Panama's consumer protection authority, ACODECO (Autoridad de Protección al Consumidor y Defensa de la Competencia), warned on March 27, 2026 that it had identified messages sent from a foreign phone number impersonating "Sindi," the agency's own official WhatsApp virtual assistant. The impersonating account asked recipients questions about their personal and family situation and pressed them to confirm personal data, including their cédula (national identification) number, under the guise of continuing an official inquiry. ACODECO stated plainly that it does not call consumers or request personal information by phone or messaging app, and that any legitimate contact from the agency only ever occurs through its own official channels — its website, the email address info@acodeco.gob.pa, or its 311 phone line. The agency urged anyone contacted this way to stay alert to suspicious messages, never share personal or financial information with a stranger, and independently verify a contact's authenticity before handing over any data, since a chatbot or assistant that looks and responds like a familiar government service can still be a cloned or spoofed account operating from outside the country.`,
+  categorySlug: 'phishing',
+  alertLevel: 'medium',
+  sources: ['Autoridad de Protección al Consumidor y Defensa de la Competencia (ACODECO)', 'Panamá América'],
+  sourceUrl: 'https://www.panamaamerica.com.pa/sociedad/acodeco-alerta-sobre-suplantacion-de-identidad-desde-numeros-extranjeros-1260102',
+  country: 'PA',
+});
+
+International.push({
+  name: 'World Cup 2026 Travel Package and Ticket Fraud Campaign (Panama)',
+  slug: 'panama-world-cup-2026-travel-ticket-fraud-campaign',
+  description: `Ahead of the 2026 FIFA World Cup, Panama's consumer protection authority ACODECO launched a joint public-awareness campaign on February 5, 2026 with the Panama Tourism Authority (ATP) and the Panamanian Football Federation (Fepafut) under the slogan "Panameño, que no te metan un gol" — "Panamanian, don't let them score on you" — warning fans eager to follow Panama's national team not to fall for fraudulent travel packages and match tickets. The agencies flagged two specific risks circulating on social media: informal, unverified package deals offered by individuals with no real travel-agency standing, and unauthorized intermediaries selling tickets or bundled travel packages with no legitimate connection to the tournament or Panama's own federation. Because a fake package or ticket purchase is difficult to reverse once paid for internationally, the campaign directed fans to buy any World Cup travel package only through a tour operator on the ATP's list of authorized travel agencies, and to purchase match tickets only through the official channels Fepafut named when the campaign launched — never through an informal social-media offer or an unauthorized reseller, and never before confirming a seller's permits and registration are genuine.`,
+  categorySlug: 'travel-vacation-scams',
+  alertLevel: 'medium',
+  sources: ['Autoridad de Protección al Consumidor y Defensa de la Competencia (ACODECO)', 'Autoridad de Turismo de Panamá (ATP)', 'Federación Panameña de Fútbol (Fepafut)', 'La Prensa'],
+  sourceUrl: 'https://www.prensa.com/economia/panameno-que-no-te-metan-un-gol-advierten-sobre-estafas-en-compras-para-el-mundial-2026/',
+  country: 'PA',
+});
+
+International.push({
+  name: 'SMV Warning on Unauthorized Investment Entities Preferred Capital Limited and Simas As Latam (Panama)',
+  slug: 'panama-smv-unauthorized-investment-entities-warning',
+  description: `Panama's securities regulator, the Superintendencia del Mercado de Valores (SMV), issued Public Release No. 19 on July 28, 2026, warning the public that two entities — Preferred Capital Limited and Simas As Latam — hold no registration or license from the Superintendency and are therefore not authorized to offer securities, investment, or brokerage services under its supervision. The SMV's notice states plainly that neither firm appears anywhere on the regulator's list of licensed and registered market participants, and advises anyone approached by either name to exercise caution before entering into any transaction or investment with them. The SMV directs the public to check its own website for the complete list of entities it has actually authorized before sending money to any investment firm operating in or marketing to Panama, and to report suspected unauthorized investment activity to the Superintendency directly at (507) 501-1700 or by email to investigaciones@supervalores.gob.pa — the same verification step the regulator and the Latin American Stock Exchange (Latinex) jointly urged in an April 2026 alert about AI-manipulated videos of public figures promoting fake investment opportunities, since an unlicensed entity can be just as convincing as a real one until an investor actually checks the SMV's own authorized-entity list.`,
+  categorySlug: 'investment-fraud',
+  alertLevel: 'medium',
+  sources: ['Superintendencia del Mercado de Valores de Panamá (SMV)'],
+  sourceUrl: 'https://supervalores.gob.pa/warning-non-authorized-entity-preferred-capital-limited-y-simas-as-latam/',
+  country: 'PA',
+});
