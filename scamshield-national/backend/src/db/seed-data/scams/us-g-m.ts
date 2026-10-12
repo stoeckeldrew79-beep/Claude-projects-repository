@@ -3686,6 +3686,18 @@ export const UsGM: SeedScam[] = [
     sources: ['404 Media', 'U.S. Attorney\'s Office, Northern District of California'],
     sourceUrl: 'https://www.404media.co/men-stole-over-1-million-from-doordash-delivery-drivers-by-impersonating-them-to-customer-service/',
     country: 'US',
+  },
+{
+    name: 'Avon, Massachusetts Debt Collector\'s Unrelated-Vehicle Seizure Scheme',
+    slug: 'massachusetts-avon-debt-collector-vehicle-seizure-scheme',
+    description:
+      'Andrew Metcalf ran Judgment Acquisitions Unlimited and Champion Funding, Inc. out of Avon, Massachusetts, buying up old consumer debts and then using a tactic the Attorney General\'s Office called coercive and unlawful: seizing a debtor\'s car — sometimes a vehicle that had nothing to do with the original debt, and sometimes one worth so little it was legally exempt from seizure altogether — to pressure payment, even when that car was the only way the person had to get to work. Massachusetts Attorney General Andrea Campbell\'s office sued Metcalf and his companies in February 2024 under the Massachusetts Consumer Protection Act, winning two preliminary injunctions that blocked the seizures while the case proceeded. A consent judgment announced September 15, 2026 permanently bars Metcalf and his companies from buying, selling, transferring, assigning, or collecting on any debt owed by a Massachusetts consumer, from seeking a Massachusetts debt-collector license, or from any collection activity from or within the Commonwealth — wiping out roughly $52 million in debt claimed against more than 6,000 Massachusetts residents — and sets a $650,000 suspended penalty if he violates the terms or is later found to have lied about his ability to pay. A legitimate debt collector cannot simply show up and take a car that doesn\'t secure the debt in question, and a vehicle protected from seizure by law stays protected regardless of how aggressively a collector demands it; anyone facing a threatened vehicle seizure over an old debt can report the collector to the Attorney General\'s Consumer Advocacy and Response Division at 617-727-8400.',
+    categorySlug: 'legal-debt-collection',
+    country: 'US',
+    state: 'MA',
+    alertLevel: 'medium',
+    sources: ['Office of Massachusetts Attorney General Andrea Campbell', 'Boston.com'],
+    sourceUrl: 'https://www.boston.com/news/local-news/2026/09/15/debt-collector-barred-from-mass-as-ag-secures-50m-in-debt-relief-for-6000-residents/',
   },];
 
 UsGM.push({
@@ -13725,4 +13737,17 @@ UsGM.push({
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-sue-lenscom-misrepresenting-price-contact-lenses-search-ads-its-website',
     country: 'US',
     firstRecorded: '2026-10-02',
+});
+
+UsGM.push({
+    name: 'Wall & Associates Minnesota Tax-Debt Settlement Judgment',
+    slug: 'minnesota-wall-associates-tax-debt-settlement-judgment',
+    description: `A Hennepin County District Court judge ordered Virginia-based tax-debt settlement company Wall & Associates, Inc., along with owner Ken Wall and CEO P. Mark Yates, to pay more than $4.3 million combined after finding the company had falsely presented itself to Minnesota consumers as a local law firm that could settle their IRS debts for roughly 10% of what they owed. Minnesota Attorney General Keith Ellison's office won the underlying liability finding after a 12-day trial in October 2024, with the court concluding the conduct "inflicted significant injury upon hundreds of Minnesota consumers," most of whom ended up paying more in Wall's monthly fees than they ever saved on their actual tax debt. The April 15, 2025 order requires Wall & Associates to refund more than $2.7 million in fees to Minnesotans, including full refunds to 224 consumers, pay over $1.4 million in civil penalties to the state, and permanently stop the deceptive practices in Minnesota; Ken Wall was personally ordered to pay $415,500 and Yates $207,750 in civil penalties. "I will not hesitate to sue you, take you to trial," Ellison said of companies that cheat Minnesotans. Consumers struggling with IRS debt are advised to work directly with the IRS or the Taxpayer Advocate Service, or hire a CPA or attorney licensed to practice before the IRS, rather than pay a telemarketer monthly fees for a guaranteed settlement percentage no legitimate firm can actually promise, and can file a complaint with the Minnesota Attorney General's office if they believe they've been misled.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['Office of Minnesota Attorney General Keith Ellison'],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2025/04/16_Wall.asp',
+    country: 'US',
+    state: 'MN',
+    firstRecorded: '2025-04-15',
 });

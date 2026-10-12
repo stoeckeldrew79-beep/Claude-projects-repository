@@ -2159,6 +2159,19 @@ export const UsTZ: SeedScam[] = [
     sourceUrl: 'https://dfi.wi.gov/Pages/Securities/Filings/SecuritiesRegulationHistory.aspx',
     isHistorical: true,
     firstRecorded: '1913-01-01',
+  },
+{
+    name: 'North Austin Tax Preparer False Business-Expense Fraud Ring',
+    slug: 'texas-north-austin-tax-preparer-false-business-expense-fraud',
+    description:
+      'Mathews Chacko ran a tax return preparation business in North Austin where he and employees Anish Pillai and Subhala Suresh invented fake business expenses and deductions on client returns from roughly January 2019 to October 2022, inflating refunds clients were not legally entitled to. In some cases the preparers never told the client the return contained false information, then invented explanations if the client later asked questions; in other cases they emailed clients outright saying they were submitting falsified figures to the IRS. All three pleaded guilty, and the U.S. District Court for the Western District of Texas sentenced Chacko to 50 months, Pillai to 26 months, and Suresh to 18 months in federal prison on July 8, 2026, with Chacko admitting responsibility for a tax loss of between $3.5 million and $9.5 million; two other preparers who admitted filing false returns in the same scheme were still awaiting sentencing. A fraudulent refund built on invented deductions is not free money for the client — the IRS can and does come back years later to recover an inflated refund plus penalties and interest from the taxpayer whose name is on the return, even when the client had no idea the preparer padded it. Anyone whose preparer promises an unusually large refund, or who notices business expenses or deductions on a signed return they never discussed, should request a corrected copy and can report a suspected fraudulent preparer to the IRS using Form 14157.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['IRS Criminal Investigation', 'FOX 7 Austin'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/three-texas-tax-preparers-sentenced-to-prison-as-part-of-false-tax-return-scheme',
+    country: 'US',
+    state: 'TX',
+    firstRecorded: '2026-07-08',
   },];
 
 UsTZ.push({

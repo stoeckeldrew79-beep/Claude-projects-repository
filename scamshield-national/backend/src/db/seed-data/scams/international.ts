@@ -24889,3 +24889,26 @@ International.push({
   country: 'PL',
   firstRecorded: '2026-04-03',
 });
+
+International.push({
+  name: 'Fake Phone and SMS "Million-Dollar Prize" Advance-Fee Scam (Panama)',
+  slug: 'panama-fake-phone-prize-advance-fee-scam',
+  description: `Panama's Procuraduría General de la Nación counted 2,509 fraud complaints between January 1 and May 12, 2026, and said the most frequently reported scheme was a telephone scam in which a caller tells the victim they have won a million-dollar prize or an international trip, then demands an upfront payment to "liberar" — release — the supposed winnings before any money or trip materializes. The same report flagged a second, equally common pattern: fraudulent SMS messages, known locally as "smishing," that impersonate banks, companies, or government institutions with fake links designed to steal passwords and personal data once clicked. Prosecutors' recommendations apply to both: never make an advance payment to claim a prize or promotion, independently verify any website or phone number before trusting it, and never open a link sent by an unsolicited SMS or WhatsApp message. No legitimate lottery, sweepstakes, or prize program in Panama ever requires a winner to pay a fee, tax, or "release" cost before receiving what they won; anyone contacted this way is encouraged to report the attempt to the Procuraduría General de la Nación rather than send any money.`,
+  categorySlug: 'lottery-sweepstakes-scams',
+  alertLevel: 'medium',
+  sources: ['Procuraduría General de la Nación (Panama)', 'La Estrella de Panamá'],
+  sourceUrl: 'https://www.laestrella.com.pa/panama/nacional/no-caiga-estas-son-las-estafas-mas-denunciadas-en-panama-durante-2026-NK22395976',
+  country: 'PA',
+  firstRecorded: '2026-05-14',
+});
+
+International.push({
+  name: 'Fake "Licensed" Loan Companies Misusing the Superintendency of Banks Logo (Panama)',
+  slug: 'panama-fake-loan-companies-superintendency-logo-scam',
+  description: `Panama's Superintendencia de Bancos (SBP) has repeatedly had to publicly disown unlicensed lenders that borrow its official seal — and in some cases the Ministry of Commerce and Industries' logo too — to make fast-cash loan offers look government-approved. In earlier public notices the regulator named specific offenders directly, including "Credi Bank," which it said both lacked any banking license and had misused the SBP's logo on its materials, and "Soluciones Panamá," which placed the Superintendency's logo on its letterhead without ever requesting authorization to do so. The pattern has continued into 2026: unlicensed operators advertise "approved" loans on social media using official-looking branding, collect an upfront fee from a prospective borrower, and then vanish without disbursing anything. The SBP's standing guidance is that no company authorized to lend money in Panama conditions a loan on the borrower paying a sum of money before the loan is disbursed, and that anyone can verify whether a lender actually holds an SBP license before paying anything by contacting the Superintendency directly rather than trusting a logo on a social media post. Suspected misuse of the SBP's name or seal can be reported to the regulator at superbancos@superbancos.gob.pa.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'medium',
+  sources: ['Superintendencia de Bancos de Panamá'],
+  sourceUrl: 'https://www.superbancos.gob.pa/documentos/leyes_y_regulaciones/comunicados/2021/aviso8-2021.pdf',
+  country: 'PA',
+});
