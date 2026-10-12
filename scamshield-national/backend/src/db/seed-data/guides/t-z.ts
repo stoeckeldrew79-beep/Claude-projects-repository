@@ -1522,10 +1522,9 @@ If you're a timeshare owner considering an exit, know that a legitimate resort o
     slug: `wesco-international-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
     tags: [`guide`, `wesco-international-2026-data-breach`],
-    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Pittsburgh_skyline_panorama_daytime.jpg?width=1200`,
-    coverImageCredit: `Photo: Dllu, CC BY-SA 4.0, via Wikimedia Commons — the Pittsburgh, Pennsylvania skyline, where Wesco International is headquartered; not the company's own CRM system`,
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/WescoDistributionCanada.jpg?width=1200`,
+    coverImageCredit: `Photo: Raysonho, CC0, via Wikimedia Commons — a Wesco Distribution facility in Markham, Ontario`,
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: `https://www.scworld.com/brief/wesco-investigates-cybersecurity-incident-after-data-extortion-group-claims-breach`,
     body: `WESCO International is a Fortune 500 company most consumers have never bought anything from directly — it's a Pittsburgh-based industrial distributor that supplies electrical, communications, and utility equipment to businesses, contractors, and government customers around the world, moving billions of dollars in products a year through business-to-business sales rather than storefronts. On August 11, 2026, Wesco confirmed it was investigating a cybersecurity incident after a data-extortion group calling itself ExfilSquad claimed on a hacking forum to have stolen roughly 2.6 million records from Wesco's cloud customer relationship management (CRM) environment, dating the intrusion to around July 26, 2026. When Wesco didn't meet the group's ransom demand, ExfilSquad published the stolen data.
 
@@ -2550,10 +2549,9 @@ GuidesTZ.push({
   author: "ScamShield Editorial",
   tags: ["guide", "western-asset-cherry-picking-settlement"],
   sourceUrl: "https://www.sec.gov/enforcement-litigation/administrative-proceedings/ia-6969-s",
-  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pasadena_City_Hall.jpg?width=1200',
-  coverImageCredit: 'Photo: PMHauge (CC BY-SA 3.0)',
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Www2020_Western_Asset_Building_bw-low_res.jpg?width=1200',
+  coverImageCredit: 'Photo: WAM2021, CC BY-SA 4.0, via Wikimedia Commons — Western Asset Management\'s office in Pasadena, California',
   coverImagePosition: 50,
-  // representative photo — replace with an exact match if found
   body: `Western Asset Management Company LLC (WAMCO), a Pasadena, California-based fixed-income manager owned by Franklin Resources, spent decades building a reputation as one of the bond market's most trusted institutional names, managing money for pension funds, insurers, and everyday investors who bought its mutual funds through their 401(k)s and brokerage accounts. On June 4, 2026, the Securities and Exchange Commission announced that the firm had agreed to pay a $100 million civil penalty to settle charges that its longtime co-Chief Investment Officer had spent nearly three years quietly deciding, trade by trade, which of the firm's clients would win and which would lose.
 
 According to the SEC's order, Stephen Kenneth "Ken" Leech — a widely respected bond manager who had run Western Asset's flagship strategies for years — began trading well before markets opened each day but then routinely waited until after 12:00 p.m. Pacific time, hours after settlement prices for that day's trades had already been set, to actually allocate those trades among the specific client portfolios he managed. That delay let him see exactly which trades had turned into first-day winners and which had turned into first-day losers before deciding who got which one — a practice regulators call "cherry-picking." From January 2021 through October 2023, the SEC found, Leech disproportionately steered winning trades into Western Asset's Macro Opportunities strategy, a higher-fee, more aggressive fund line, while disproportionately routing losing trades into the firm's more conservative Core and Core Plus strategies, including the widely held Western Asset Core Bond Fund — the kind of plain, comparatively low-risk bond fund a retirement saver might choose specifically because it's supposed to be less exposed to this sort of risk in the first place. Federal prosecutors put the scale of the diverted gains at more than $600 million.
