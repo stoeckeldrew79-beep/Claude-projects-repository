@@ -6762,7 +6762,6 @@ The scheme's cruelty was in its design: it didn't promise victims a windfall, th
     coverImageCredit: 'Photo: Ed Uthman / Wikimedia Commons (CC BY 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
     body: `Steven Tetsuya Morizono, of Mission Viejo, California, operated for years under the alias "Jeff Lucian," running a company called Jeff Funding that presented itself as a legitimate lender and credit-repair outfit tied to a cluster of homes in Spring, Texas. Beginning in 2017, prosecutors said, Morizono built a nationwide fraud conspiracy out of several distinct scams layered on top of one another — falsified loan applications, shell companies, straw buyers, and fraudulent credit-repair services — that by the time investigators finished unwinding it had produced convictions against 17 people.
 
 The credit-repair side of the operation recruited people with poor credit scores and had them falsely report identity theft to regulators and creditors, a tactic designed to scrub legitimate debt from a credit file and artificially inflate the person's apparent creditworthiness. With that inflated history in hand, the group submitted fraudulent pay stubs to secure personal loans in the victims' names, then skimmed the loan proceeds for themselves — leaving the people whose credit they had "repaired" saddled with debt they never actually incurred the benefit of. On the real-estate side, straw buyers were used to acquire homes outright; the conspirators then collected rent, and during the pandemic collected federal rental assistance on those properties, while deliberately letting the mortgage payments lapse, driving the homes toward foreclosure. When COVID-19 relief programs opened up, the same operation pivoted to submit hundreds of falsified applications for Paycheck Protection Program loans and Economic Injury Disaster Loans.
@@ -6841,7 +6840,6 @@ NotoriousGM.push(
     coverImageCredit: 'Photo: Carol M. Highsmith / Library of Congress (Public Domain)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
     body: `Gabriel Hay, 23, of Beverly Hills, and Gavin Mayo, 23, of Thousand Oaks, California, spent from May 2021 to May 2024 sponsoring one non-fungible token or digital asset project after another — Vault of Gems, Faceless, Sinful Souls, Clout Coin, Dirty Dogs, Uncovered, MoonPortal, Squiggles, and Roost Coin among them — and, according to a federal indictment unsealed in December 2024, running the same play each time: promote the project with false and misleading statements about its potential, publish a "roadmap" of features and plans the sponsors never intended to deliver, then abandon it once investor money had come in. Prosecutors called it the largest NFT scheme the Justice Department has ever prosecuted, built on a pattern known in crypto circles as a "rug pull" — vanishing with investor funds the moment enough of them arrive.
 
 Vault of Gems was pitched as the first NFT collection "pegged to a hard asset," a claim designed to make speculative tokens sound as safe as a commodity-backed investment; it, too, was abandoned once the promotional wave passed. When a project manager on the Faceless NFT project later identified Hay and Mayo as the operators behind it, the indictment alleges the pair responded not by disputing the claim but by escalating against him: sending threatening emails and text messages to the man and, separately, to his parents, in one message impersonating a law firm and threatening to fabricate false sexual abuse allegations against him. That conduct is charged as a standalone federal stalking count alongside the fraud charges.
@@ -6862,7 +6860,6 @@ NotoriousGM.push(
     coverImageCredit: 'Photo: Another Believer / Wikimedia Commons (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
-    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
     body: `Richard Hambleton, the "Godfather of Street Art" whose shadowy silhouette paintings once hung alongside work by Jean-Michel Basquiat and Keith Haring, died in 2017 — homeless and largely broke, despite decades of gallery representation. Jason Harrington, of Escondido, California, spent 2018 through 2020 trading on the gap between the artist's fame and his poverty, manufacturing a market in fake Hambletons that the real artist was no longer alive to dispute.
 
 Harrington sold forged "Shadowman" paintings and other Hambleton-attributed works to at least 15 galleries and private collectors, backing each sale with fabricated provenance: letters purportedly written by people who had received the paintings directly from Hambleton, and photographs he digitally altered to make it look like his invented sellers had personally known the artist. When a buyer's due diligence threatened to catch up with him, prosecutors said Harrington arranged for accomplices to corroborate the false ownership history in person, adding a layer of live human confirmation to paperwork that wouldn't otherwise hold up. He also tried to sell a forged painting attributed to the artist Barkley Hendricks, posing as a gallery owner who claimed to have inherited it from an uncle — a story that fell apart when Hendricks' widow examined the piece and identified it as fake.
@@ -11155,10 +11152,9 @@ NotoriousGM.push({
     slug: 'giovanni-castellucci-morandi-bridge-collapse-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'international', 'corporate-fraud', 'engineering-fraud'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ponte_Morandi_collapse.jpg?width=1200',
-    coverImageCredit: 'Photo: Phoenix7777 (CC BY-SA 4.0) — the collapsed Ponte Morandi, Genoa',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Giovanni-Castellucci.jpg?width=1200',
+    coverImageCredit: 'Photo: Ribio / Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 25,
     body: `Giovanni Castellucci ran Autostrade per l'Italia, the private company that held the concession to operate and maintain roughly 3,000 kilometers of Italian motorways, from 2006 until he resigned amid public fury in 2019. Among the bridges under Autostrade's care was the Ponte Morandi, a striking 1960s cable-stayed viaduct carrying the A10 motorway over the Genoese neighborhood of Sampierdarena — a bridge whose unusual design relied on a small number of steel-and-concrete stay cables to hold up the entire roadway, making the condition of those cables a matter of life and death for everyone driving beneath and across it.
 
 On the morning of August 14, 2018, a roughly 200-meter section of the Morandi collapsed onto the riverbed and buildings below during a rainstorm, killing 43 people and displacing hundreds of residents from homes that had to be demolished in the bridge's shadow. Investigators zeroed in on Pier 9, whose supporting cables had shown documented signs of corrosion for years. Court-appointed engineering experts later concluded that Autostrade's and its engineering subsidiary SPEA's inspection regime for that pier had been insufficient and unreliable — no one had ever performed the coring or endoscopic examination needed to actually assess how far the corrosion inside the cables had progressed, even as defects were being logged elsewhere on the same structure.
@@ -11175,10 +11171,9 @@ NotoriousGM.push({
     slug: 'larry-householder-firstenergy-house-bill-6-bribery',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'corruption', 'government-fraud', 'bribery'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ohio_Statehouse_exterior.jpg?width=1200',
-    coverImageCredit: 'Photo: Ɱ (CC BY-SA 4.0) — the Ohio Statehouse, Columbus',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Larry_Householder_at_Butler_County_Jail.jpg?width=1200',
+    coverImageCredit: 'Photo: Butler County Jail security camera (PD-automated) / Wikimedia Commons',
+    coverImagePosition: 20,
     body: `Larry Householder was one of the most powerful men in Ohio politics twice over — Speaker of the Ohio House in the late 1990s, forced out by a corruption investigation, and Speaker again starting in 2019 after clawing his way back into the chamber. His second rise was bankrolled, prosecutors later proved, by the utility company that stood to benefit most from the laws he would go on to pass: FirstEnergy Corp., which wanted ratepayer-funded help to keep two aging, money-losing nuclear plants from shutting down.
 
 Starting around 2017, FirstEnergy and its affiliates funneled approximately $60 million into Generation Now, a nonprofit "dark money" group that Householder personally controlled and that, because of its tax status, never had to disclose its donors publicly. That money elected a slate of Householder loyalists to the Ohio House in 2018, installed Householder as speaker, and then bought the votes needed to pass House Bill 6 in July 2019 — legislation that provided a roughly $1.3 billion ratepayer-funded bailout of FirstEnergy's Perry and Davis-Besse nuclear plants and nearby coal plants. When a citizen group organized a ballot referendum to repeal the law, Generation Now money paid for a suppression campaign that targeted signature-gatherers to keep the repeal off the ballot entirely.
