@@ -7753,9 +7753,8 @@ If you sold clothing to, bought from, or worked for Crossroads Trading and recei
     author: "ScamShield Editorial",
     tags: ["guide", "dairy-farmers-of-america-2025-data-breach-settlement"],
     sourceUrl: "https://www.classaction.org/news/dairy-farmers-of-america-settlement-resolves-data-breach-lawsuit",
-    // representative photo — replace with an exact match if found
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Holstein_dairy_cows.jpg?width=1200",
-    coverImageCredit: "Photo: Scott Bauer, USDA Agricultural Research Service, public domain, via Wikimedia Commons — dairy cows, representing DFA's member farms",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Senator_Stabenow_meets_with_representatives_of_the_Dairy_Farmers_of_America,_Inc._(42710116275).jpg?width=1200",
+    coverImageCredit: "Photo: U.S. Senate Photographic Studio, CC BY 2.0, via Wikimedia Commons — Dairy Farmers of America representatives meeting with Sen. Debbie Stabenow",
     coverImagePosition: 50,
     body: `Dairy Farmers of America, Inc. (DFA), a national dairy marketing cooperative owned by thousands of member dairy farms across the country, agreed to pay $475,000 to resolve Buhl v. Dairy Farmers of America, Inc. (Case No. WY-2026-CV-000143), a class action alleging the cooperative failed to protect personal information from a 2025 data breach. DFA has not admitted wrongdoing but agreed to settle rather than continue litigating.
 
