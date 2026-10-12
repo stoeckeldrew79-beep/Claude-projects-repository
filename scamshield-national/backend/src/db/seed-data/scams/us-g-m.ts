@@ -13702,3 +13702,27 @@ UsGM.push({
     country: 'US',
     firstRecorded: '2026-09-15',
 });
+
+UsGM.push({
+    name: 'GOAT Marketplace Deceptive Shipping and Refund-Denial Settlement',
+    slug: 'goat-marketplace-deceptive-shipping-refund-settlement',
+    description: `The Federal Trade Commission alleged that 1661, Inc., operator of the sneaker and streetwear resale marketplace GOAT, routinely charged customers extra for expedited "Next Day" and "Instant" shipping options it did not actually deliver on, in violation of the FTC's Mail Order Rule, which requires a retailer to either ship by the date it promises or give the buyer a chance to cancel for a full refund. The FTC's investigation found that more than 37% of orders placed with "Instant" shipping and over 16% placed with "Next Day" shipping arrived later than advertised, while GOAT kept charging the premium shipping fee regardless of the delay. The agency separately alleged that GOAT's own "Buyer Protection" policy — marketed as a guarantee covering deficient or counterfeit items — was undermined by a customer-service process that routinely denied legitimate refund requests, often limiting any relief it did grant to store credit rather than cash and excluding the original shipping costs. A federal court entered a stipulated order in December 2024 requiring GOAT to pay more than $2 million to resolve the FTC's shipping and refund-policy allegations and barring the company from misrepresenting its delivery times or return and refund policies going forward. The FTC distributed an initial round of refunds exceeding $736,000 to eligible customers in 2025, and on October 6, 2026 announced a second distribution of 6,205 payments totaling more than $100,000 to customers who paid for expedited shipping between 2020 and 2024 but had not yet received money back — sent either by check, which must be cashed within 90 days, or by PayPal, which must be accepted within 30 days. Anyone with questions about a GOAT refund payment can contact the court-appointed refund administrator, JND Legal Administration, at 1-888-970-2410, and shoppers on any marketplace that charges extra for a guaranteed delivery date should keep records of what was promised in case a package arrives late.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'low',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://www.ftc.gov/enforcement/refunds/goat-refunds',
+    country: 'US',
+    firstRecorded: '2024-12-02',
+});
+
+UsGM.push({
+    name: 'Lens.com Hidden "Taxes & Fees" Contact Lens Pricing Lawsuit',
+    slug: 'lens-com-hidden-taxes-fees-pricing-lawsuit',
+    description: `The Federal Trade Commission, joined by the Utah and Nevada Attorneys General, sued online contact lens retailer Lens.com Inc., its owner Cary Samourkachian, and affiliated company Speed Commerce LLC on October 2, 2026, alleging the company advertised artificially low prices through sponsored Google search ads and on its own website, then added a mandatory "Taxes & Fees" charge at checkout that the joint complaint says often roughly doubles what the customer actually pays. FTC Bureau of Consumer Protection Director Christopher Mufarrige said Lens.com "advertised one price for contact lenses but charged a substantially higher price at checkout," and the complaint, filed in the U.S. District Court for the District of Nevada, alleges the practice has cost consumers hundreds of millions of dollars combined. Regulators say the "Taxes & Fees" label is itself misleading, since it implies a government sales tax even though many states exempt contact lenses from sales tax or charge none at all. The complaint also alleges the fee is positioned below the visible part of the checkout screen next to a prominent "Continue" button, so a buyer who doesn't scroll down never sees the added charge before completing the purchase, and that Lens.com's AutoRefill subscription — a recurring "negative option" plan that automatically reships and rebills customers — uses the same misleadingly low prices while failing to clearly disclose the hidden fee or how to cancel before the next charge hits. The case cites the FTC Act, the Restore Online Shoppers' Confidence Act (ROSCA), Utah's Consumer Sales Practices Act and Automatic Renewal Contracts Act, and Nevada's Deceptive Trade Practices Act. The lawsuit remains pending, with no refund process yet established; shoppers comparing contact lens prices online are advised to scroll through the entire checkout page before entering payment information and to treat any "taxes & fees" line that roughly matches the advertised price itself as a sign the real cost is being hidden rather than disclosed up front.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission', 'Utah Division of Consumer Protection', "Office of the Nevada Attorney General"],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-sue-lenscom-misrepresenting-price-contact-lenses-search-ads-its-website',
+    country: 'US',
+    firstRecorded: '2026-10-02',
+});

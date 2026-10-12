@@ -7378,3 +7378,16 @@ UsTZ.push({
     country: 'US',
     firstRecorded: '2026-04-01',
 });
+
+UsTZ.push({
+    name: 'Vermont Attorney General "Pinkwashing" Breast Cancer Charity-Marketing Alert',
+    slug: 'vermont-pinkwashing-breast-cancer-charity-alert',
+    description: `Vermont Attorney General Charity Clark issued a consumer advisory on October 6, 2023 warning residents about "pinkwashing" during Breast Cancer Awareness Month — companies that put a pink ribbon or pink packaging on a product to suggest it supports breast cancer research or patients, without actually donating any meaningful share of the proceeds to that cause. The advisory notes that October has marked Breast Cancer Awareness Month for nearly 40 years and that roughly one in eight women will develop breast cancer in her lifetime, a statistic marketers have learned to lean on when launching a pink-themed product line each fall. Because no law, regulation, or industry body requires a company that uses the pink ribbon to give anything at all to breast cancer causes, the advisory places the burden on the shopper to check for themselves, stating plainly that "pinkwashing could be a violation of Vermont's Consumer Protection Act" when a company's marketing crosses from vague goodwill into an actual misrepresentation about where the money goes. The office recommends reading the fine print to find out what share of a purchase's proceeds actually reaches a breast cancer charity and whether the company has already capped its total donation for the campaign — a detail that can mean a sale made after the cap is reached sends nothing to the cause despite identical pink-ribbon packaging. It also suggests donating directly to a breast cancer charity or foundation rather than relying on a retailer's marketing, checking a charity's standing through the Better Business Bureau's charity listings before giving, and getting screened rather than assuming a purchase alone contributes meaningfully to prevention or research. Vermonters who believe a business's pink-ribbon marketing misrepresents where their money is actually going can contact the Attorney General's Consumer Assistance Program at 800-649-2424 or ago.vermont.gov/cap.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'low',
+    sources: ['Office of the Vermont Attorney General'],
+    sourceUrl: 'https://ago.vermont.gov/blog/2023/10/06/consumer-advisory-avoid-pink-pitfalls-breast-cancer-awareness-month',
+    country: 'US',
+    state: 'VT',
+    firstRecorded: '2023-10-06',
+});
