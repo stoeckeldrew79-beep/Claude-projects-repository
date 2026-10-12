@@ -9908,6 +9908,25 @@ If you've already given money or sensitive information to someone claiming to be
 });
 
 GuidesAF.push({
+  title: 'Apple ID Phishing Scams: Why "Your Account Has Been Locked" Is Almost Never From Apple',
+  slug: 'apple-id-phishing-scam-guide',
+  author: 'ScamShield Editorial',
+  tags: ['guide', 'apple-id-phishing', 'phishing-scam'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Phishing_attempt.png?width=1200',
+  coverImageCredit: 'Photo: Chris Lappas, CC BY-SA 4.0, via Wikimedia Commons',
+  coverImagePosition: 50,
+  // representative photo — a generic phishing-email example, not an Apple-branded one; replace with an exact match if found
+  sourceUrl: 'https://support.apple.com/en-us/102568',
+  body: `An email or text arrives looking exactly like it's from Apple: the logo, the typeface, the familiar blue buttons. It says an Apple ID has been locked, suspended, or flagged for "unusual activity," and that tapping a link within a set window — often 24 hours — is the only way to avoid losing access to the account for good. The link opens a page that is a near-perfect visual copy of Apple's real sign-in screen, and anything typed there — an Apple ID, a password, and often a follow-up prompt for a card number "to verify your identity" — goes straight to the scammer instead. A phone variant works the same angle live: a spoofed caller ID displays "Apple Support," and the caller talks the victim through reading back a two-factor authentication code or installing a remote-access app like AnyDesk or TeamViewer, handing over control of the device directly rather than just a password.
+
+The pitch works because an Apple ID is no longer just a login — it's the key to iCloud backups, Find My, stored payment cards, purchase history, and years of photos, which makes a "your account will be deleted" warning land as a genuine emergency rather than a routine phishing attempt. Apple-branded phishing has also simply gotten more common: Check Point Research's Q1 2026 Brand Phishing Report found Apple was the second-most impersonated brand worldwide, named in roughly 11% of all brand-impersonation phishing attempts tracked that quarter, behind only Microsoft — a reflection of how often attackers now target the identity and payment systems built around people's phones rather than their inboxes alone.
+
+The reliable tells sit in details scammers can't fully fake. Apple's own guidance is direct: it will never ask for a password, a device passcode, or a two-factor authentication code to provide support, and it will never ask anyone to disable a security feature on their device or account. Genuine Apple email comes only from addresses ending in @apple.com, @icloud.com, or @itunes.com — a sender address that's close but not exact, a link whose underlying domain doesn't match apple.com when hovered over or long-pressed, urgent countdown language, or an unsolicited call pushing toward a remote-access app are all signs the message isn't real, regardless of how convincing the logo and layout look.
+
+Anyone who gets a message like this should avoid clicking any link or calling any number it provides, and instead check account status directly: open Settings on an Apple device and tap the name banner at the top, or type appleid.apple.com into a browser by hand. If credentials were already entered on a fake page, change the Apple ID password immediately from a trusted device, review the list of trusted devices and active sessions for anything unfamiliar, and make sure two-factor authentication stays turned on rather than being disabled at a caller's request. Suspicious emails can be forwarded, and suspicious text messages sent as a screenshot, to reportphishing@apple.com, and a scam phone call can be reported to the FTC at ReportFraud.ftc.gov; anyone who gave up a payment card number should also contact the card issuer right away to flag or replace the card.`,
+});
+
+GuidesAF.push({
   title: 'Envelope-Stuffing Job Scams: Why "Get Paid to Mail Letters From Home" Almost Never Pays',
   slug: 'envelope-stuffing-job-scam-guide',
   author: 'ScamShield Editorial',
