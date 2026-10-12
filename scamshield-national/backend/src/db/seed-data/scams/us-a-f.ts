@@ -12286,3 +12286,28 @@ UsAF.push({
     state: 'AZ',
     firstRecorded: '2026-01-28',
 });
+
+UsAF.push({
+    name: 'AssuranceAmerica Driver\'s License Data Breach',
+    slug: 'assuranceamerica-insurance-data-breach-driver-license',
+    description: `AssuranceAmerica Managing General Agency, a nonstandard auto and renters insurer, disclosed that an unauthorized party accessed its network after compromising an employee's login credentials in a phishing attack on March 16, 2026, with the intrusion detected the following day. According to the company's own notice of data breach, it took until June 15, 2026 to finish reviewing exactly which files had been copied, and notification letters did not begin going out to affected individuals until July 10 — nearly four months after the breach began. The exposed data, which varies by individual, included names and contact information, auto insurance policy and account details, driver and vehicle information, claims records, and driver's license numbers, with a limited number of people also having their Social Security or Tax ID numbers exposed. Filings with state attorneys general put the total number of people affected at 6,998,886, making it one of the largest exposures of driver's license data reported in 2026. AssuranceAmerica said it disabled the compromised credentials, isolated affected systems, reset passwords company-wide, added enhanced monitoring tools, notified law enforcement, and is offering California and Pennsylvania residents 12 months of free credit monitoring through IDX. The company's notice itself warns recipients to watch for follow-on scams: it directs affected individuals to review their credit reports and bank statements for unauthorized activity, place a free security freeze or fraud alert with Equifax, Experian, or TransUnion, and treat any unsolicited call, text, or email that already knows their policy or driver's license details with suspicion rather than as proof the contact is legitimate, since stolen policy numbers and personal details are exactly what let a scammer sound convincing when posing as an insurer, lender, or government agency after a breach like this one.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'high',
+    sources: ['AssuranceAmerica Managing General Agency, LLC', 'Maine Attorney General breach notification filing'],
+    sourceUrl: 'https://app-privacy.assuranceamerica.com/Notice',
+    country: 'US',
+    firstRecorded: '2026-07-10',
+});
+
+UsAF.push({
+    name: 'Fake Bank Investigator Cash Pickup Using an Unwitting Uber Driver (Phoenix)',
+    slug: 'arizona-phoenix-fake-bank-investigator-uber-courier-scam',
+    description: `Starting in July 2026, callers posing as representatives of victims' own banks told mostly elderly Maricopa County residents that their accounts had been compromised and that, to help catch the fraudsters, they needed to withdraw large sums of cash and hand it to an "undercover investigator" who would come collect it, according to the Maricopa County Attorney's Office. Rather than show up themselves, the scheme's organizer — Andre Hart, 22, of Florida — had the cash collected by an ordinary Uber driver who had simply accepted what looked like a routine package-pickup-and-delivery ride request, with no idea they were being used to launder stolen money; the unwitting driver picked up the "package" from the victim's home and delivered it straight to Hart. Prosecutors say Hart traveled from Miami to Phoenix on three separate occasions in July and August 2026 to run the scheme in person, stealing more than $65,000 from several Maricopa County seniors before he was arrested. He was caught after police, who had the scheme under surveillance, watched him receive a package from one driver while a second Uber driver — growing suspicious on his own — approached officers directly to hand over a delivery meant for Hart; a Maricopa County grand jury indicted him on four counts of fraudulent schemes and artifices and three counts of theft, and he was held on a $100,000 cash bond. The case shows how a bank-impersonation cash-pickup scam can insulate the person actually collecting the money from suspicion by routing it through a legitimate rideshare driver who has no reason to think anything is wrong — a tactic that leaves victims, and often the driver, with no obvious scammer to identify at the door. No real bank or law enforcement investigation ever requires an account holder to withdraw their own money and hand it to a stranger, courier, or rideshare driver to "protect" it, and anyone told to do so by a caller claiming to be from their bank should hang up and call the bank directly using the number on the back of their card.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Maricopa County Attorney\'s Office', 'FOX 10 Phoenix'],
+    sourceUrl: 'https://www.fox10phoenix.com/news/florida-man-indicted-scheme-targeting-arizona-seniors-mcao',
+    country: 'US',
+    state: 'AZ',
+    firstRecorded: '2026-08-12',
+});
