@@ -12835,3 +12835,14 @@ UsNS.push({
     state: 'OR',
     firstRecorded: '2026-05-26',
 });
+
+UsNS.push({
+    name: 'Rover and Wag Pet-Sitter Check-Overpayment Scam',
+    slug: 'rover-wag-pet-sitter-check-overpayment-scam',
+    description: `Scammers posing as pet owners target sitters and dog walkers who advertise on apps like Rover and Wag with a classic check-overpayment scheme adapted to the gig economy. The con typically starts with an urgent booking request, often claiming the "owner" is relocating or traveling on short notice; once the sitter agrees, the scammer pushes the conversation off the platform and into email or text — itself a red flag the Better Business Bureau calls "a hallmark of this scheme," since a legitimate client has no reason to avoid an app's built-in messaging. A check then arrives by mail for far more than the agreed fee, with instructions to deposit it, keep the agreed payment, and wire or forward the remaining balance to a third party for an invented expense. In one case reported by KPRC Click2Houston, a scammer who contacted a Rover sitter claiming to be relocating to Houston with a dog sent a $2,590 check by FedEx and asked the sitter to keep $400 before forwarding the rest to "dog utility suppliers" — a check that would have bounced only after the money had already been sent. BBB community outreach specialist Sandra Guile warns that if a sitter deposits the check and it later bounces, the bank holds the sitter responsible for the full amount plus any overdraft charges and fees, regardless of how convincing the original request looked. Sitters are advised to screen potential clients carefully, ask detailed questions about the job, insist on an in-person meet-and-greet with the pet and owner before agreeing to a booking, and keep all communication and payment inside the platform's own messaging and payment system rather than switching to email or text. Anyone targeted should report it to local authorities and to BBB Scam Tracker at bbb.org/scamtracker.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'KPRC Click2Houston'],
+    sourceUrl: 'https://nkytribune.com/?p=198408',
+    country: 'US',
+});
