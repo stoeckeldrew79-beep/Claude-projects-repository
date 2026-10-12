@@ -414,11 +414,13 @@ async function main() {
   console.log('\ngenerateScamEntries: run `npx tsc --noEmit` and `npm run seed` before committing.');
 }
 
-main().catch((err) => {
-  // A raw API error prints mostly response headers, which buries the one line
-  // that says what went wrong. Lead with that, then the detail.
-  const api = err?.error?.error;
-  if (api?.type) console.error(`generateScamEntries: ${api.type} - ${api.message}`);
-  console.error(err);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((err) => {
+    // A raw API error prints mostly response headers, which buries the one line
+    // that says what went wrong. Lead with that, then the detail.
+    const api = err?.error?.error;
+    if (api?.type) console.error(`generateScamEntries: ${api.type} - ${api.message}`);
+    console.error(err);
+    process.exit(1);
+  });
+}
