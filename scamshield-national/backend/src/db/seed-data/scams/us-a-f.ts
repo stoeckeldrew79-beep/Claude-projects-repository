@@ -12660,3 +12660,29 @@ UsAF.push({
     state: 'FL',
     firstRecorded: '2024-03-01',
 });
+
+UsAF.push({
+    name: 'Holiday Mail "Quishing," Brushing, and Fake-Delivery Smishing Surge (Alaska)',
+    slug: 'alaska-holiday-postal-quishing-brushing-smishing-scams',
+    description: `U.S. Postal Inspector for Alaska Alexander Laumb warned in December 2025 that his office was "actively investigating" a cluster of mail scams spiking statewide during the holidays, after digital-mailbox service iPostal1's search-volume data ranked Alaska highest in the nation for package-theft-related searches. Laumb described "brushing" (unordered packages from unfamiliar sellers who then post fake five-star reviews under the recipient's name, using unreturnable fake addresses), "quishing" envelopes with prize-promising QR codes that harvest personal data when scanned, and fake USPS texts or emails claiming a missed delivery. The Better Business Bureau's Cameron Nakashima, who has tracked rising Alaska brushing reports for two years, joined Laumb in stressing that USPS never requests personal information or payment via unsolicited text or email. Residents are advised not to scan unrequested QR codes or barcodes found on mail, to report suspected brushing to the retailer whose name appears on the package, and to report mail scams to the U.S. Postal Inspection Service at 877-876-2455 or uspis.gov/report.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Postal Inspection Service', 'Better Business Bureau', "Alaska's News Source (KTUU)"],
+    sourceUrl: 'https://www.alaskasnewssource.com/2025/12/09/holiday-scams-surge-warning-alaskas-postal-inspector',
+    country: 'US',
+    state: 'AK',
+    firstRecorded: '2025-12-09',
+});
+
+UsAF.push({
+    name: 'Fake "Kidnapped Missing Person" Ransom Scam Targeting Families of Missing Alaskans',
+    slug: 'alaska-missing-person-fake-kidnapping-ransom-scam',
+    description: `Alaska State Troopers warned on March 2, 2021 that scammers were searching social media specifically for relatives of people reported missing in Alaska, then contacting those relatives by phone or text to falsely claim they were holding the missing person captive and ill, demanding ransom for a safe return that was never actually at risk. Trooper spokesperson Austin McDaniel confirmed "multiple... instances" within the state and said callers told victims not to contact police. Unlike a generic "virtual kidnapping" invented around a random stranger, this scheme weaponizes an actual, often publicly reported missing-persons case, making the threat feel immediately credible to an already-frightened relative. Troopers advised anyone contacted this way not to respond, to instead call the law enforcement agency already handling their relative's case, and to forward the contact to the Alaska Bureau of Investigation's missing-persons clearinghouse.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Alaska State Troopers', 'KTOO/KUAC'],
+    sourceUrl: 'https://www.ktoo.org/2021/03/02/scammers-are-targeting-family-members-of-missing-alaskans-troopers-say/',
+    country: 'US',
+    state: 'AK',
+    firstRecorded: '2021-03-02',
+});

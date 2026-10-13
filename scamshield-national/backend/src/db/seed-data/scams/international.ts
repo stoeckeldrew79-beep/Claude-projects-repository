@@ -25065,3 +25065,39 @@ International.push({
   country: 'KW',
   firstRecorded: '2026-10-03',
 });
+
+International.push({
+  name: 'Ecuador "Maleta del Exterior" Family-Impersonation Scam',
+  slug: 'ecuador-maleta-del-exterior-family-emergency-scam',
+  description: `In January 2025, Ecuador's Fiscalía General del Estado detailed a scheme in which fraudsters steal profile photos from social media to impersonate a relative or old acquaintance living abroad, then contact the victim by phone, message, or social network claiming they are finally returning to Ecuador with a suitcase full of gifts, cash, or valuables that customs is holding over unpaid fees or paperwork. Primicias reported the case of a woman identified as Esperanza, who received a Facebook message from someone posing as a nephew she believed had lived in Italy for about 20 years; he asked her to deposit money to recover his supposedly withheld suitcase, she paid, and the nephew turned out not to exist. Once a victim pays, the scammers typically invent additional fines or procedures to extract further payments before cutting contact. The Fiscalía urges people to be wary of unexpected contact from supposed relatives abroad, to demand official documentation before paying anything, and to file a free complaint, no lawyer required, under Ecuador's criminal code.`,
+  categorySlug: 'family-emergency-scams',
+  alertLevel: 'medium',
+  sources: ['Primicias (Ecuador)', 'Fiscalía General del Estado (Ecuador)'],
+  sourceUrl: 'https://primicias.ec/sucesos/ecuador-estafa-maletas-exterior-prevencion-87767',
+  country: 'EC',
+  firstRecorded: '2025-01-01',
+});
+
+International.push({
+  name: 'Fake SENAE Customs-Notification Payment Scam (Ecuador)',
+  slug: 'ecuador-fake-senae-customs-impersonation-scam',
+  description: `On August 29, 2026, Ecuador's Servicio Nacional de Aduana del Ecuador (SENAE) publicly warned that criminals are producing falsified notices copying SENAE's name, logo, and institutional branding, demanding undue payments from people expecting a package, buying goods from abroad, or handling customs paperwork — SENAE stressed that official-looking branding does not guarantee a notification is authentic. This followed an earlier SENAE alert on July 9, 2026, about scammers posing as agency officials on WhatsApp offering vehicles or seized goods through fake purchases or auctions, pressuring victims to deposit money into personal accounts and hand over IDs, utility bills, and bank details. SENAE states that legitimate customs charges are only ever paid via a liquidation number through financial institutions into SENAE's institutional account, never to an individual's personal account, and urges anyone contacted this way to verify through SENAE's own official channels before paying or sharing data.`,
+  categorySlug: 'government-impersonation',
+  alertLevel: 'high',
+  sources: ['Servicio Nacional de Aduana del Ecuador (SENAE)', 'El Comercio (Ecuador)'],
+  sourceUrl: 'https://www.elcomercio.com/actualidad/seguridad/nueva-estafa-ecuador-suplanta-aduana-senae-para-cobrar-dinero/',
+  country: 'EC',
+  firstRecorded: '2026-08-29',
+});
+
+International.push({
+  name: 'Cuenca/Machala Fake Traffic-Infraction QR Code ("Quishing") Scam (Ecuador)',
+  slug: 'ecuador-fake-traffic-infraction-qr-quishing-scam',
+  description: `Starting in late November 2024, Cuenca's Consejo de Seguridad Ciudadana and the city's EMOV EP mobility authority warned that criminals were leaving fraudulent red-and-yellow "vehicle in violation" stickers bearing a QR code on parked cars, telling drivers to scan the code to check or pay a supposed fine — a technique known as "quishing," which authorities said is really used to steal personal and banking data or install malware. The same pattern recurred on vehicles in Machala, El Oro province, where the Comisión de Tránsito del Ecuador (CTE) issued a follow-up alert on May 30, 2025, stating that the use of these stickers does not correspond to its established procedures and advising drivers never to scan an unsolicited QR sticker and to verify any fine only through CTE's official channels. Both agencies recommend treating any windshield QR-code notice as suspicious by default and never entering banking information on a page opened from one.`,
+  categorySlug: 'qr-code-scams',
+  alertLevel: 'medium',
+  sources: ['Consejo de Seguridad Ciudadana de Cuenca', 'EMOV EP', 'Comisión de Tránsito del Ecuador (CTE)', 'Primicias (Ecuador)'],
+  sourceUrl: 'https://primicias.ec/sucesos/alerta-modalidad-estafa-notificacion-infraccion-codigo-qr-83831',
+  country: 'EC',
+  firstRecorded: '2024-11-01',
+});
