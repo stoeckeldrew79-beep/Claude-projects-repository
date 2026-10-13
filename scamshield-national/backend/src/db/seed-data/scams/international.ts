@@ -24875,6 +24875,30 @@ International.push({
 });
 
 International.push({
+  name: 'Iraqi National Security Service Warning on Deepfake Bank Impersonation and Fake Loan Scams',
+  slug: 'iraq-deepfake-bank-impersonation-loan-scam',
+  description: `Iraq's National Security Service (INSS) issued a public warning on November 1, 2025, saying scammers are increasingly creating fake social media accounts and websites that impersonate local and foreign banks and financial companies, in some cases using deepfake technology to make the impersonation more convincing. INSS spokesperson Arshad al-Hakim said the fraudulent pages lure victims with offers of easy loans, free grants, investment opportunities, or US dollars sold at attractive exchange rates, directing them to fake sites that harvest personal data and bank card details, leading to salary theft or unauthorized transfers. The agency tied the rise to Iraq's push toward digital banking and a cashless system following a government ban on cash payments inside state institutions, noting the country's e-payment infrastructure remains underdeveloped. INSS urged the public to verify any bank or financial company's identity only through its own official channels, stressing that legitimate banks never request sensitive information online.`,
+  categorySlug: 'ai-deepfake-scams',
+  alertLevel: 'high',
+  sources: ['Iraqi National Security Service (INSS)', 'Rudaw'],
+  sourceUrl: 'https://rudaw.net/english/categories/iraq/909076',
+  country: 'IQ',
+  firstRecorded: '2025-11-01',
+});
+
+International.push({
+  name: 'Iraq National Security Service Online Extortion and Sextortion Crackdown',
+  slug: 'iraq-online-extortion-sextortion-crackdown',
+  description: `Iraq's National Security Service announced on November 15, 2025 that it had arrested roughly 40 people nationwide following a three-month campaign against online extortion and defamation, launched after a wave of citizen complaints. The Ministry of Interior said women accounted for about 70% of reported victims and men 30%, with most victims aged 15 to 35; documented methods included threats to leak private photos and videos unless paid, smear campaigns, and fake "hacking-recovery" schemes, such as a Basra woman who ran an "Anti-Extortion Warrior" social media page while secretly exploiting the compromising material of people she claimed to be helping. In a separate case flagged in the same campaign, a man in Muthanna province was arrested after demanding roughly 9 million Iraqi dinars (about $6,860) from a woman and attempting to extract further payments. Authorities urged victims to report extortion attempts to the National Security Service or police rather than pay, since compliance typically leads to repeated, escalating demands rather than release of the material.`,
+  categorySlug: 'sextortion',
+  alertLevel: 'high',
+  sources: ['Iraqi National Security Service (INSS)', 'Shafaq News', 'Iraqi Ministry of Interior'],
+  sourceUrl: 'https://www.shafaq.com/en/Security/Iraq-detains-40-in-crackdown-on-online-extortion-and-defamation',
+  country: 'IQ',
+  firstRecorded: '2025-11-15',
+});
+
+International.push({
   name: 'Communication-Tower SMS Bank Impersonation Network Dismantled (Qatar)',
   slug: 'qatar-communication-tower-sms-bank-impersonation-network',
   description: `Qatar's Ministry of Interior announced on April 22, 2025 that its Economic and Cyber Crimes Combating Department had dismantled a 12-person criminal network, described as being of Asian nationality, that targeted communication towers in various areas of the country to broadcast fraudulent SMS messages at scale. The messages carried fake links impersonating banks and official government entities, directing recipients to pages designed to harvest credit card numbers, login credentials, and other personal and financial information once a victim clicked through and entered their details. Unlike a single spoofed sender number, the network's method of exploiting communication towers directly let it blast fraudulent texts to large numbers of phones in the vicinity without relying on a compromised contact list or an existing relationship with the victim. The Ministry said it would "take all necessary legal measures against those proven to be involved in such criminal activities" and urged the public to be cautious with unsolicited SMS and messaging-app texts, never to click suspicious links or enter personal or financial information through them, and to verify any message claiming to be from a bank or government body through the institution's own official channels before responding. Qatar residents who receive an SMS with a link claiming to be from a bank or government agency should go directly to the institution's known app or website rather than the link in the message, since a text's apparent origin near a real cell tower signal is no guarantee it came from a legitimate sender.`,
