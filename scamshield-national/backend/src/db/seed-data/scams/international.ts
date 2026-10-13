@@ -25017,3 +25017,15 @@ International.push({
     sourceUrl: "https://www.3spc.npa.gov.tw/ch/app/data/view?module=govinfo&id=18710&serno=dee464de-47bd-425e-b049-7a3a04f23887",
     country: "TW",
 });
+
+International.push({
+  name: 'QatarEnergy AI-Generated Deepfake Investment-Advert Impersonation',
+  slug: 'qatarenergy-ai-deepfake-investment-scam',
+  description: `QatarEnergy has repeatedly warned the public that fraudsters are using AI-generated videos and fake online advertisements bearing its name and logo to promote bogus investment opportunities, first flagging the practice in a social media post on March 26, 2025 — "Beware of fake QatarEnergy adverts and AI-generated videos. Be vigilant and stay safe online" — and reissuing the same warning again on November 18, 2025 as the fraudulent material kept recirculating. The company's own fraud-alert page describes the scheme more broadly, saying the fraud includes fabricated invoices, fake websites, emails and AI-generated videos impersonating our employees falsely promoting investment opportunities, and states that none of this activity is authorized by QatarEnergy or its subsidiaries. QatarEnergy has stressed that it will never ask the general public for money directly or indirectly, and has urged anyone who encounters an unsolicited financial offer using its name, branding, or an AI-generated video of a purported employee or executive to treat it with suspicion and thoroughly verify the claim — by contacting the company directly through its official channels — before engaging with it in any way, rather than relying on how convincing the branding or the synthetic video itself looks.`,
+  categorySlug: 'ai-deepfake-scams',
+  alertLevel: 'medium',
+  sources: ['QatarEnergy', 'Marhaba Qatar', 'The Peninsula Qatar'],
+  sourceUrl: 'https://marhaba.qa/qatarenergy-reissues-warning-over-fake-adverts-and-ai-generated-investment-scams/',
+  country: 'QA',
+  firstRecorded: '2025-03-26',
+});
