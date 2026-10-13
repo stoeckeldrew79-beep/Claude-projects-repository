@@ -12376,6 +12376,32 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Holiday Mail "Quishing," Brushing, and Fake-Delivery Smishing Surge (Alaska)',
+    slug: 'alaska-holiday-postal-quishing-brushing-smishing-scams',
+    description: `U.S. Postal Inspector for Alaska Alexander Laumb warned in December 2025 that his office was "actively investigating" a cluster of mail scams spiking statewide during the holidays, after digital-mailbox service iPostal1's search-volume data ranked Alaska highest in the nation for package-theft-related searches. Laumb described "brushing" (unordered packages from unfamiliar sellers who then post fake five-star reviews under the recipient's name, using unreturnable fake addresses), "quishing" envelopes with prize-promising QR codes that harvest personal data when scanned, and fake USPS texts or emails claiming a missed delivery. The Better Business Bureau's Cameron Nakashima, who has tracked rising Alaska brushing reports for two years, joined Laumb in stressing that USPS never requests personal information or payment via unsolicited text or email. Residents are advised not to scan unrequested QR codes or barcodes found on mail, to report suspected brushing to the retailer whose name appears on the package, and to report mail scams to the U.S. Postal Inspection Service at 877-876-2455 or uspis.gov/report.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Postal Inspection Service', 'Better Business Bureau', "Alaska's News Source (KTUU)"],
+    sourceUrl: 'https://www.alaskasnewssource.com/2025/12/09/holiday-scams-surge-warning-alaskas-postal-inspector',
+    country: 'US',
+    state: 'AK',
+    firstRecorded: '2025-12-09',
+});
+
+UsAF.push({
+    name: 'Fake "Kidnapped Missing Person" Ransom Scam Targeting Families of Missing Alaskans',
+    slug: 'alaska-missing-person-fake-kidnapping-ransom-scam',
+    description: `Alaska State Troopers warned on March 2, 2021 that scammers were searching social media specifically for relatives of people reported missing in Alaska, then contacting those relatives by phone or text to falsely claim they were holding the missing person captive and ill, demanding ransom for a safe return that was never actually at risk. Trooper spokesperson Austin McDaniel confirmed "multiple... instances" within the state and said callers told victims not to contact police. Unlike a generic "virtual kidnapping" invented around a random stranger, this scheme weaponizes an actual, often publicly reported missing-persons case, making the threat feel immediately credible to an already-frightened relative. Troopers advised anyone contacted this way not to respond, to instead call the law enforcement agency already handling their relative's case, and to forward the contact to the Alaska Bureau of Investigation's missing-persons clearinghouse.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Alaska State Troopers', 'KTOO/KUAC'],
+    sourceUrl: 'https://www.ktoo.org/2021/03/02/scammers-are-targeting-family-members-of-missing-alaskans-troopers-say/',
+    country: 'US',
+    state: 'AK',
+    firstRecorded: '2021-03-02',
+});
+
+UsAF.push({
     name: 'Fake Generac Remote-Hire "Equipment Purchase" Job Scam (Key Largo)',
     slug: 'florida-key-largo-generac-job-equipment-purchase-scam',
     description: `A Key Largo, Florida homeowner applying for a job online with generator maker Generac was pulled into a monthslong hiring scam, according to the Monroe County Sheriff's Office: after being asked for personal information during an informal hiring process, he was told he had to buy expensive equipment before his first day of work and was instructed to wire money to cover it to several individuals, including Russell Martin Madajewski, 54, of Fayetteville, New York. The scheme, which began in March 2024, ultimately cost the victim $11,137 before it unraveled. Monroe County Sheriff's Office detectives worked with law enforcement in New York to trace the wired money back to Madajewski, and he was taken into custody and booked on charges of theft and using a two-way communication device to commit a felony. The case follows the same mechanics the FTC has flagged in job scams nationally — an unusually easy hiring process, a request for personal information before any contract is signed, and a demand to personally pay for "required" equipment, training, or a background check before starting — except here the lure borrowed the name of a well-known, legitimate equipment brand to make the fake job posting feel credible. A genuine employer covers the cost of onboarding its own new hires and never asks a newly hired remote worker to wire money to a third party to purchase equipment; anyone asked to do so during a hiring process, however real the company name sounds, should stop and verify the job directly through that company's own official careers page or customer service line before sending anything.`,
