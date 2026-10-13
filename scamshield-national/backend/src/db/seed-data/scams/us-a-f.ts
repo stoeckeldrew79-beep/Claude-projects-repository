@@ -12374,3 +12374,16 @@ UsAF.push({
     state: 'AZ',
     firstRecorded: '2026-09-04',
 });
+
+UsAF.push({
+    name: 'Fake Generac Remote-Hire "Equipment Purchase" Job Scam (Key Largo)',
+    slug: 'florida-key-largo-generac-job-equipment-purchase-scam',
+    description: `A Key Largo, Florida homeowner applying for a job online with generator maker Generac was pulled into a monthslong hiring scam, according to the Monroe County Sheriff's Office: after being asked for personal information during an informal hiring process, he was told he had to buy expensive equipment before his first day of work and was instructed to wire money to cover it to several individuals, including Russell Martin Madajewski, 54, of Fayetteville, New York. The scheme, which began in March 2024, ultimately cost the victim $11,137 before it unraveled. Monroe County Sheriff's Office detectives worked with law enforcement in New York to trace the wired money back to Madajewski, and he was taken into custody and booked on charges of theft and using a two-way communication device to commit a felony. The case follows the same mechanics the FTC has flagged in job scams nationally — an unusually easy hiring process, a request for personal information before any contract is signed, and a demand to personally pay for "required" equipment, training, or a background check before starting — except here the lure borrowed the name of a well-known, legitimate equipment brand to make the fake job posting feel credible. A genuine employer covers the cost of onboarding its own new hires and never asks a newly hired remote worker to wire money to a third party to purchase equipment; anyone asked to do so during a hiring process, however real the company name sounds, should stop and verify the job directly through that company's own official careers page or customer service line before sending anything.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'medium',
+    sources: ["Monroe County Sheriff's Office"],
+    sourceUrl: 'https://meigsindypress.com/2026/03/17/new-york-man-jailed-after-florida-keys-resident-scammed-out-of-more-than-11k/',
+    country: 'US',
+    state: 'FL',
+    firstRecorded: '2024-03-01',
+});
