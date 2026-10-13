@@ -12402,6 +12402,45 @@ UsAF.push({
 });
 
 UsAF.push({
+    name: 'Colorado "False Premiumization" Fake Discount Retail Scam',
+    slug: 'colorado-false-premiumization-online-shopping-scam',
+    description: `Denver7 Investigates found Colorado shoppers losing money to "false premiumization" — social-media ads selling ordinary products as premium upgrades at steep discounts. Colorado Springs resident Mary Hobratschk paid $59 for a marked-down $240 "premium" cable-knit cardigan from a Facebook-advertised retailer and received a garish sweatshirt-like item; a $100 pair of earrings she ordered from the same site arrived as cheap plastic. The site's "hassle-free returns" policy actually required shipping items back to a warehouse in China at a cost exceeding the purchase price. BBB data showed Colorado consumers reported 72 such scams totaling over $13,479 in losses in a recent 12-month period. Anyone drawn in by a steep "premium brand" discount ad should research the seller's name independently before buying and treat a return policy that routes items overseas at the buyer's expense as a red flag.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Denver7 Investigates', 'BBB of Southern Colorado'],
+    sourceUrl: 'https://www.denver7.com/news/investigations/false-premiumization-scams-are-rising-heres-how-to-shop-smart-to-avoid-becoming-a-victim',
+    country: 'US',
+    state: 'CO',
+    firstRecorded: '2025-01-01',
+});
+
+UsAF.push({
+    name: 'Peak Resolution Unlicensed Debt Collector Fabricated-Charges Scheme',
+    slug: 'colorado-peak-resolution-debt-collection-fabricated-charges-scheme',
+    description: `The Colorado Attorney General's Office secured a roughly $491,000 judgment against Denver-area debt collector Peak Resolution, LLC and its principals, Daniel Cane and Christopher Hagerman, after finding the company operated without a required collection-agency license and fabricated criminal charges to pressure consumers into paying. From early 2014 through January 2015 the company, operating under its own name and several aliases, collected from thousands of consumers using these threats. The April 2017 judgment covered consumer restitution, penalties, and attorney fees, and permanently barred the defendants from collecting debts from Colorado residents without full licensing and legal compliance. A real debt collector is required to be licensed and will never threaten criminal charges that don't actually exist to pressure payment.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'medium',
+    sources: ["Colorado Attorney General's Office", 'Goodwin Law'],
+    sourceUrl: 'https://www.goodwinlaw.com/en/insights/blogs/2017/04/colorado-ag-secures-491000-judgment-against-debt-collection-agency',
+    country: 'US',
+    state: 'CO',
+    firstRecorded: '2014-01-01',
+});
+
+UsAF.push({
+    name: 'Timberloop Delivery Fake Reshipping Work-From-Home Job Scam',
+    slug: 'colorado-timberloop-delivery-reshipping-job-scam',
+    description: `The BBB of Southern Colorado warned about Timberloop Delivery LLC, also doing business as Timberloop Shipping, a purportedly Colorado Springs-based operation recruiting people for remote "reshipping" and "mail screener" jobs advertised at $4,000 to $5,000 per month. Workers were asked to pay money upfront to ship items and to hand over bank details, ID, and a photo of themselves; one victim reported their account login was deleted right before payday and they were never paid. The BBB received more than 20 Scam Tracker reports in a single month, found the company's website, created July 2025, concealed its true ownership, and could not verify the company's listed Colorado addresses or reach it by phone or email. A real remote job never requires a new hire to pay upfront shipping costs or hand over sensitive financial documents before the first paycheck.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['BBB of Southern Colorado'],
+    sourceUrl: 'https://www.koaa.com/money/consumer/bbb-warns-about-fake-colorado-work-from-home-job',
+    country: 'US',
+    state: 'CO',
+    firstRecorded: '2025-07-01',
+});
+
+UsAF.push({
     name: 'Fake Generac Remote-Hire "Equipment Purchase" Job Scam (Key Largo)',
     slug: 'florida-key-largo-generac-job-equipment-purchase-scam',
     description: `A Key Largo, Florida homeowner applying for a job online with generator maker Generac was pulled into a monthslong hiring scam, according to the Monroe County Sheriff's Office: after being asked for personal information during an informal hiring process, he was told he had to buy expensive equipment before his first day of work and was instructed to wire money to cover it to several individuals, including Russell Martin Madajewski, 54, of Fayetteville, New York. The scheme, which began in March 2024, ultimately cost the victim $11,137 before it unraveled. Monroe County Sheriff's Office detectives worked with law enforcement in New York to trace the wired money back to Madajewski, and he was taken into custody and booked on charges of theft and using a two-way communication device to commit a felony. The case follows the same mechanics the FTC has flagged in job scams nationally — an unusually easy hiring process, a request for personal information before any contract is signed, and a demand to personally pay for "required" equipment, training, or a background check before starting — except here the lure borrowed the name of a well-known, legitimate equipment brand to make the fake job posting feel credible. A genuine employer covers the cost of onboarding its own new hires and never asks a newly hired remote worker to wire money to a third party to purchase equipment; anyone asked to do so during a hiring process, however real the company name sounds, should stop and verify the job directly through that company's own official careers page or customer service line before sending anything.`,
