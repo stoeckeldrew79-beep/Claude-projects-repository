@@ -796,6 +796,25 @@ For consumers, nothing changes yet — but the proposal is a reminder that an ad
 });
 
 GuidesRecent.push({
+    title: 'Fake Farm Equipment Seller Scams: How a Good Deal on a Tractor Leaves Farmers Empty-Handed',
+    slug: 'fake-farm-equipment-seller-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'fake-farm-equipment-seller-scam', 'online-shopping-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/McCormick_Farmall_H_tractor.jpg?width=1200',
+    coverImageCredit: 'Photo: Oleg Yunakov, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/09/scammers-are-impersonating-farm-equipment-businesses',
+    body: `A farmer spots a good price on a tractor or other equipment in a social media ad, or finds a dealer high up in search results — sometimes a name that even looks like a business the farmer has bought from before. After reaching out, the seller sends over a purchase agreement and an invoice, then asks for a deposit or the full price upfront, usually by wire transfer for thousands of dollars, and schedules a delivery date. The delivery never arrives. The seller stops answering messages, or invents an excuse — a problem with the delivery truck, a hold-up at the warehouse — before going silent for good, leaving the farmer out the money and without the equipment.
+
+The FTC issued a direct consumer alert about the pattern in September 2026, warning plainly that "scammers posing as farm equipment businesses are selling (fake) equipment to farmers, who end up empty-handed." The Better Business Bureau has documented the same tactic recurring across multiple states, including one case where scammers impersonated a real Missouri dealership — which has no website of its own and isn't affiliated with any online sales — to collect nearly $223,000 combined from victims in seven states, and a separate case where a Texas-area buyer lost almost $24,000 to a fake dealership after wiring payment. Farm equipment is an especially attractive target for this scam because big-ticket purchases are often made sight-unseen from a distance, and a legitimate-sounding business name or a price that undercuts the market is usually enough to get a buyer moving before they've done any real diligence on the seller.
+
+Red flags include being asked to wire money, pay by gift card, cryptocurrency, or a payment app before ever seeing the equipment in person; a seller who insists on handling the entire transaction remotely and won't allow an in-person or independently arranged inspection before payment; and a listing that ranks at the top of a search result or social media feed, since paid placement can be bought by anyone, including a scammer using a cloned business name and stolen contact information. A seller who can't be found through an independent search of the business's name alongside words like "scam" or "complaint" is another reason to slow down before sending money.
+
+Before paying for any equipment advertised online, research the seller independently — search the business name together with "scam" or "complaint," and don't stop at the first page of results, since a scammer's own paid ad can outrank the real business or the warnings about the fake one. Insist on seeing the actual equipment in person, or arrange an independent third-party inspection, before any money changes hands, and never send a deposit or full payment by wire transfer, gift card, cryptocurrency, or payment app to a seller who insists on one of those methods and refuses an alternative. Anyone who has already been targeted by a fake farm equipment seller can report it to the FTC at ReportFraud.ftc.gov.`,
+});
+
+GuidesRecent.push({
     title: 'OnlyFans Creator Impersonation Scams: How AI Deepfakes Turn a Stolen Face Into a Fake Subscription',
     slug: 'onlyfans-creator-deepfake-impersonation-scam-guide',
     author: 'ScamShield Editorial',
