@@ -12895,3 +12895,16 @@ UsNS.push({
     country: 'US',
     state: 'PA',
 });
+
+UsNS.push({
+    name: 'New Mexico Metro Court QR-Code Toll Violation Text Scam',
+    slug: 'new-mexico-metro-court-qr-code-toll-violation-scam',
+    description: `Beginning in early March 2026, New Mexico residents began receiving fraudulent text messages carrying a pink-colored "Notice of Hearing — Toll Violation" image claiming the recipient had failed to pay a toll "as required under state law" and must appear in court or submit payment, with a QR code included for the recipient to scan and pay. The Taos County Sheriff's Office issued a public alert about the scheme, and Bernalillo County Metropolitan Court Executive Officer Lissa Quintana confirmed through local media that the messages — which typically arrive from an out-of-state area code — did not come from the court, stating plainly that Metro Court does not text or call anyone about charges or request payment for fines and sends all official notifications by physical mail. The scam combines two tactics New Mexico courts and toll agencies have warned about separately into one message: a fabricated court summons threatening a hearing or penalty, and a QR code that, when scanned, leads to a payment page built to harvest financial information rather than resolve any real toll debt. Recipients are advised not to click any link or scan any QR code in an unsolicited text claiming to be from a court, to avoid responding to the message at all, and to confirm any actual citation or toll notice directly with Metro Court at 505-841-8151 or metro.nmcourts.gov before taking any action.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['Bernalillo County Metropolitan Court', 'Taos County Sheriff\'s Office', 'KOB 4'],
+    sourceUrl: 'https://www.kob.com/news/top-news/new-mexico-courts-warn-about-fraud-toll-violation-text-messages/',
+    country: 'US',
+    state: 'NM',
+    firstRecorded: '2026-03-05',
+});

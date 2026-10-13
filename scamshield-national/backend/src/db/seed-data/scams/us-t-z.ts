@@ -7380,3 +7380,16 @@ UsTZ.push({
     state: 'VT',
     firstRecorded: '2023-10-06',
 });
+
+UsTZ.push({
+    name: 'Culpeper County Fake-Lawyer Cash-Pickup Scam Targeting an Elderly Resident',
+    slug: 'virginia-culpeper-fake-lawyer-cash-pickup-scam',
+    description: `On October 6, 2025, the Culpeper County Sheriff's Office intervened in a scheme targeting an 82-year-old resident after a caller falsely claiming to be an attorney representing the victim's son in a criminal case said the son urgently needed more than $20,000 in cash for legal help, using the name of a deceased local attorney, "Harvey Goldman," and placing a man crying in the background on the call to add emotional pressure. A family member recognized the scheme and alerted detectives before any money changed hands, and investigators — who said the scam closely resembled a similar one previously reported in Georgia — set up a fake cash handoff rather than tip off the caller. The caller arranged for an ordinary rideshare driver, uninvolved in the scheme, to collect the "payment" in Chester, Pennsylvania; the driver cooperated with Chester City Police, who helped Culpeper detectives identify and arrest Yordanys Rodriguez, 33, of the Bronx, New York, who was found in possession of a New York City Police Department sergeant's badge and credentials at the time of arrest. Rodriguez faces Virginia charges of conspiracy to commit a felony and obtaining money by false pretenses. Sheriff T.W. Chilton said the department is committed to protecting vulnerable residents and intends to pursue everyone involved in the scheme. The case is a reminder that a "family member's lawyer" call demanding urgent cash — especially one using a real-sounding but unverifiable attorney name — should always be checked by hanging up and calling the family member directly or a courthouse clerk before any money is handed to a courier, rideshare driver, or anyone else.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ["Culpeper County Sheriff's Office", '7News WJLA'],
+    sourceUrl: 'https://kutv.com/news/nation-world/culpeper-county-virginia-elderly-scam-20000-fake-lawyer-nypd-officer-impersonation-dead-attorney-chester-city-pennsylvania-investigation-extradition-arrest-fraud-charges',
+    country: 'US',
+    state: 'VA',
+    firstRecorded: '2025-10-06',
+});

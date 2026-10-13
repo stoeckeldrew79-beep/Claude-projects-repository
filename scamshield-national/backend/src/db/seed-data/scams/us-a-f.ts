@@ -12324,3 +12324,16 @@ UsAF.push({
     state: 'AZ',
     firstRecorded: '2026-08-12',
 });
+
+UsAF.push({
+    name: 'Connecticut Fake Recruiter Job-Seeker Fraud Warning',
+    slug: 'connecticut-job-recruiter-impersonation-scam',
+    description: `Connecticut Attorney General William Tong warned residents on May 29, 2026 that cybercriminals are increasingly impersonating recruiters from legitimate companies on job sites such as Indeed and LinkedIn and on social media, specifically targeting people who have recently posted about a layoff, a job search, or an "open to work" banner on their profile. Tong's office said scammers lean on the excitement of job seekers and new graduates starting their careers to rush them past red flags they might otherwise catch, and warned that a common follow-on tactic is a fake check: the "recruiter" sends the target a check to deposit — often framed as a signing bonus or an advance for home-office equipment — and instructs them to keep a portion and wire or gift-card the rest back to cover "training fees" or a "equipment vendor," only for the check to bounce days later and leave the victim liable for the full amount to their bank. The office said no legitimate recruiter or employer will ever ask a candidate to pay for a job, training, or equipment, or ask for sensitive financial information before an actual hire, and urged job seekers to independently verify any recruiter and job posting by calling the company directly or checking its official careers page rather than replying to an unsolicited message, to have a trusted friend or family member review any offer that feels rushed, and never to deposit or forward money from a check tied to a job offer. Connecticut residents who encounter a suspected recruiter-impersonation scam can file a complaint with the Attorney General's Office at dir.ct.gov/ag/complaint or call the Consumer Protection line at 860-808-5318, or report it to the FTC at reportfraud.ftc.gov.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ["Connecticut Attorney General's Office (William Tong)"],
+    sourceUrl: 'https://portal.ct.gov/ag/press-releases/2026-press-releases/attorney-general-tong-warns-against-job-recruiter-scams',
+    country: 'US',
+    state: 'CT',
+    firstRecorded: '2026-05-29',
+});
