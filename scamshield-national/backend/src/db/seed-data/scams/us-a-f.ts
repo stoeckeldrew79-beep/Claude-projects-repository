@@ -12349,3 +12349,28 @@ UsAF.push({
     country: 'US',
     firstRecorded: '2024-08-26',
 });
+
+UsAF.push({
+    name: 'Fountain Hills Serial Cryptocurrency Fraud Scheme (Jeremie Sowerby)',
+    slug: 'arizona-fountain-hills-serial-cryptocurrency-fraud-sowerby',
+    description: `Jeremie Sowerby of Fountain Hills, Arizona ran cryptocurrency-related fraud schemes that federal prosecutors say they could prove dated back to 2017, defrauding, by his own later admission, hundreds of victims out of millions of dollars over the years that followed. The pattern caught up with him in 2023, when a federal grand jury indicted him three separate times within a single 90-day span on money laundering and fraud charges, with cryptocurrency tied to each case — an unusually fast succession of indictments that pointed to someone moving from one scheme to the next faster than any single case could be built and prosecuted. Rather than go to trial, Sowerby pleaded guilty to wire fraud under a plea agreement filed August 6, 2026, agreeing to pay restitution of up to $30 million, with sentencing calendared for October 14, 2026 in federal court in Arizona. The case is a reminder that the common thread connecting a serial fraudster's schemes is often not the pitch itself — which can change from one scheme to the next — but the person running it: someone already facing one fraud charge who is still soliciting money, or whose cryptocurrency "opportunity" has no independently verifiable platform, audited track record, or registration with the SEC or a state securities regulator, should be checked against public court records and a regulator's own licensing database before a single dollar changes hands, rather than trusted simply because an earlier charge hasn't yet produced a conviction.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['KJZZ', "U.S. Attorney's Office for the District of Arizona"],
+    sourceUrl: 'https://www.kjzz.org/kjzz-news/2026-08-07/fountain-hills-man-charged-3-times-in-3-months-over-cryptocurrency-scams-pleads-guilty',
+    country: 'US',
+    state: 'AZ',
+});
+
+UsAF.push({
+    name: "Yuma Physician's AHCCCS Medicaid X-Ray Billing Fraud (Irfan Fazil)",
+    slug: 'arizona-yuma-ahcccs-medicaid-xray-billing-fraud-fazil',
+    description: `Dr. Irfan Fazil, a physician practicing in Yuma, Arizona, billed the state's Medicaid program, AHCCCS, for thousands of X-rays and other tests that his own patients never actually received, according to the Arizona Attorney General's Office. Investigators focused on the 27 patients with the highest billing volumes in his practice and found one patient alone had been billed for more than 1,700 X-rays in a six-month span — a number the Attorney General's Office noted would have exposed a real patient to harmful levels of radiation had the scans actually been performed, underscoring that the billing was pure fabrication rather than simply inflated. Fazil also wrote prescriptions for controlled substances in his wife's name and picked up the medication himself at the pharmacy. Prosecutors say he pocketed more than $36 million through the scheme, which he used to buy real estate, multiple aircraft, jewelry, cryptocurrency, and gold bars. A jury convicted him on September 4, 2026 of fraudulent schemes and artifices, illegal control of an enterprise, theft, and illegal procurement of a dangerous drug, and on October 2, 2026 he was sentenced to seven and a half years in prison followed by seven years of probation, ordered to pay $36 million in restitution, and surrendered his medical license and DEA registration. Arizona Attorney General Kris Mayes said Fazil "treated AHCCCS as his personal bank account" and "abused his position as a physician to steal more than $36 million." The case is a reminder that an Explanation of Benefits or Medicaid claims summary listing a test or scan a patient doesn't remember receiving is worth reading closely rather than dismissing as paperwork, since a provider billing for services never performed is often invisible to the patient until someone actually checks the record against their own memory of the visit.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['Arizona Attorney General\'s Office', 'KJZZ'],
+    sourceUrl: 'https://www.kjzz.org/business/2026-10-04/yuma-doctor-convicted-in-36-million-arizona-medicaid-fraud-scheme',
+    country: 'US',
+    state: 'AZ',
+    firstRecorded: '2026-09-04',
+});

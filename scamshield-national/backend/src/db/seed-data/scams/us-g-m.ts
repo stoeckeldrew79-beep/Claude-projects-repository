@@ -13649,3 +13649,16 @@ UsGM.push({
     state: 'CT',
     firstRecorded: '2025-11-06',
 });
+
+UsGM.push({
+    name: 'FTC Impersonation Gold-and-Cash Courier Scheme Targeting a 90-Year-Old Victim (Augusta)',
+    slug: 'georgia-augusta-ftc-impersonation-gold-courier-scheme-ashiq',
+    description: `Javed Ashiq, 52, of Decatur, Georgia, served as an in-person courier for a conspiracy that targeted a 90-year-old victim in the Augusta area between July and August 2024. Conspirators first convinced the victim their identity had been stolen and used in other crimes, then, posing as Federal Trade Commission agents offering to help, told the victim the safest way to protect their savings was to convert them into cryptocurrency and gold bullion — ultimately talking the victim into buying $241,000 worth of gold bars. Ashiq's role was to collect the gold and cash in person and deliver it to his co-conspirators, leaving the victim with nothing recovered. The Columbia County Sheriff's Office arrested him in July 2024 as he was traveling to collect more gold from the victim, along with a female accomplice. Ashiq pleaded guilty to wire fraud conspiracy, and on October 6, 2026 he was sentenced in the U.S. District Court for the Southern District of Georgia, in Augusta, to 168 months (14 years) in federal prison, three years of supervised release, and $886,799.84 in restitution; as a Pakistani national, he will be processed for deportation once his sentence is served. U.S. Attorney Meg Heap said the case "highlights the ruthless tactics scammers use to exploit senior citizens," and FBI Augusta supervisory senior resident agent Matthew Ploskunak said the sentence "holds the defendant accountable for his role in exploiting a vulnerable victim." No real government agency — the FTC included — ever instructs someone to protect their money by converting it to gold or cryptocurrency and handing it to a courier who shows up in person to collect it; that instruction is itself proof of a scam, and the right response is to hang up and verify independently with the agency using a number looked up on its own official website, never one the caller provides.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['WRDW', "U.S. Attorney's Office for the Southern District of Georgia", 'FBI'],
+    sourceUrl: 'https://www.wrdw.com/2026/10/06/man-sentenced-augusta-federal-court-elderly-fraud-scheme/',
+    country: 'US',
+    state: 'GA',
+    firstRecorded: '2024-07-01',
+});
