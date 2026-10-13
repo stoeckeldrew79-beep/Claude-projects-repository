@@ -7382,6 +7382,71 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'West Virginia Tech Support / Computer Repair Phone Scam',
+    slug: 'west-virginia-tech-support-computer-repair-scam',
+    description: `In a 2019 consumer alert, the West Virginia Attorney General's Consumer Protection Division warned residents about robocalls impersonating major technology companies and demanding $299 to $399 for antivirus software victims never purchased. Callers spoofed caller ID and pressured victims to pay by credit card, gift card, or bank transfer, or to grant remote access to their computer to "remove" a nonexistent virus; one West Virginia victim reported getting the call despite not owning a computer, and another sent scammers $1,000 in gift cards. Then-Attorney General Patrick Morrisey urged consumers to verify any such call through a company's official website rather than handing over money or computer access. No legitimate technology company places unsolicited calls warning of a virus infection; anyone who receives one should hang up and, if concerned, contact the company directly through a phone number or website they look up themselves.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'medium',
+    sources: ["West Virginia Attorney General's Office", 'WV Press Association'],
+    sourceUrl: 'https://wvpress.org/breaking-news/w-va-attorney-general-morrisey-alerts-consumers-to-technology-scam/',
+    country: 'US',
+    state: 'WV',
+    firstRecorded: '2019-11-01',
+});
+
+UsTZ.push({
+    name: 'West Virginia Fake Package Delivery Text ("Smishing") Scam',
+    slug: 'west-virginia-fake-package-delivery-text-scam',
+    description: `Beginning around January 2020, the West Virginia Attorney General's Consumer Protection Division received multiple consumer reports from the Kanawha Valley, Randolph County, and Mineral County of text messages impersonating shipping carriers such as FedEx about undelivered packages. The texts include a fraudulent tracking number and a link to a fake site asking the recipient to confirm a "delivery preference," harvesting personal and financial information; FedEx confirmed it never sends unsolicited texts asking for money or personal details. The Attorney General's office, quoting then-Attorney General Patrick Morrisey's advice to "never click on an unfamiliar link," told residents to delete the texts and report them to the carrier's abuse address rather than responding.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ["West Virginia Attorney General's Office", 'WDTV'],
+    sourceUrl: 'https://www.wdtv.com/content/news/WVa-Attorney-General-warning-consumers-to-text-messaging-scam-567231751.html',
+    country: 'US',
+    state: 'WV',
+    firstRecorded: '2020-01-23',
+});
+
+UsTZ.push({
+    name: 'West Virginia Puppy and Pet Sales Scam',
+    slug: 'west-virginia-puppy-pet-sales-scam',
+    description: `In November 2025, the Better Business Bureau serving West Virginia warned residents about fake online listings for puppies and dogs, frequently advertising popular breeds like French bulldogs, dachshunds, and German shepherds at below-market prices. Scammers build fake breeder websites and social-media pages — sometimes impersonating real, legitimate businesses — using stolen photos, then collect payment for pets that don't exist by citing shipping, crate, or vaccination fees before any animal is delivered. The BBB logged more than 1,600 pet-related scam reports across North America through September 2025 and advised buyers to insist on an in-person or live-video viewing and run a reverse image search on listing photos before paying.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau', 'West Virginia Public Broadcasting'],
+    sourceUrl: 'https://wvpublic.org/story/arts-culture/buyers-warned-to-be-aware-of-pet-scams/amp/',
+    country: 'US',
+    state: 'WV',
+    firstRecorded: '2025-11-19',
+});
+
+UsTZ.push({
+    name: 'CoinFlip Crypto Kiosk Senior-Targeting Compliance Failures (Washington DFI)',
+    slug: 'washington-coinflip-crypto-kiosk-senior-targeting-scheme',
+    description: `In September 2026, the Washington State Department of Financial Institutions filed a 13-page Statement of Charges against GPD Holdings LLC (doing business as CoinFlip) and CEO Benjamin Weiss, alleging the company's Bitcoin ATM kiosks exposed Washington customers age 60 and older — who made up more than half of its in-state transactions — to heightened fraud risk through weak anti-money-laundering controls, skipped identity checks, and a months-long backlog of unreviewed suspicious-activity alerts. DFI is seeking to revoke CoinFlip's money transmitter license, bar Weiss from the industry, require refunds to at least 15 shortchanged customers, and impose a $1,029,600 civil penalty plus investigation costs. CoinFlip has faced parallel enforcement actions in Texas, Minnesota, Iowa, and Missouri. These are allegations in a pending Statement of Charges, not a final adjudicated order. As with other crypto-ATM operators under scrutiny nationwide, anyone instructed by an unexpected caller to withdraw cash and feed it into a cryptocurrency kiosk should treat that instruction itself as proof of fraud.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Washington State Department of Financial Institutions (DFI)', 'Bitcoin.com News'],
+    sourceUrl: 'https://news.bitcoin.com/regulation-and-legal/washington-state-seeks-1-03m-fine-ban-for-crypto-kiosk-firm/',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2026-09-01',
+});
+
+UsTZ.push({
+    name: 'Pierce County "Bank Fraud Department" QR-Code ATM Deposit Scam',
+    slug: 'washington-pierce-county-bank-fraud-department-qr-code-deposit-scam',
+    description: `In July 2026, Pierce County resident Charlotte Tripp — whose husband had just entered hospice care — lost roughly $117,000 after a caller claiming to be from Wells Fargo's fraud department told her bank tellers were complicit and warned her not to alert them. Over two days the caller walked her through withdrawing $20,000 in cash and depositing it into an ATM using a QR code he supplied, then had her obtain a $49,500 cashier's check and deposit it into another account, while separately draining her checking account, maxing her credit cards, pulling $10,000 from a line of credit, and opening a $23,000 loan in her name. The Pierce County Sheriff's Office is investigating, and Wells Fargo has held her responsible for about $79,000 of the loss. A real bank's fraud department never instructs a customer to deposit cash via a QR code it provides over the phone, and never tells a customer not to speak to tellers at their own branch; either instruction is itself a sign of fraud.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'high',
+    sources: ['FOX 13 Seattle', "Pierce County Sheriff's Office"],
+    sourceUrl: 'https://www.fox13seattle.com/news/pierce-county-woman-scammers-husband-hospice',
+    country: 'US',
+    state: 'WA',
+    firstRecorded: '2026-07-01',
+});
+
+UsTZ.push({
     name: 'Culpeper County Fake-Lawyer Cash-Pickup Scam Targeting an Elderly Resident',
     slug: 'virginia-culpeper-fake-lawyer-cash-pickup-scam',
     description: `On October 6, 2025, the Culpeper County Sheriff's Office intervened in a scheme targeting an 82-year-old resident after a caller falsely claiming to be an attorney representing the victim's son in a criminal case said the son urgently needed more than $20,000 in cash for legal help, using the name of a deceased local attorney, "Harvey Goldman," and placing a man crying in the background on the call to add emotional pressure. A family member recognized the scheme and alerted detectives before any money changed hands, and investigators — who said the scam closely resembled a similar one previously reported in Georgia — set up a fake cash handoff rather than tip off the caller. The caller arranged for an ordinary rideshare driver, uninvolved in the scheme, to collect the "payment" in Chester, Pennsylvania; the driver cooperated with Chester City Police, who helped Culpeper detectives identify and arrest Yordanys Rodriguez, 33, of the Bronx, New York, who was found in possession of a New York City Police Department sergeant's badge and credentials at the time of arrest. Rodriguez faces Virginia charges of conspiracy to commit a felony and obtaining money by false pretenses. Sheriff T.W. Chilton said the department is committed to protecting vulnerable residents and intends to pursue everyone involved in the scheme. The case is a reminder that a "family member's lawyer" call demanding urgent cash — especially one using a real-sounding but unverifiable attorney name — should always be checked by hanging up and calling the family member directly or a courthouse clerk before any money is handed to a courier, rideshare driver, or anyone else.`,
