@@ -12908,3 +12908,16 @@ UsNS.push({
     state: 'NM',
     firstRecorded: '2026-03-05',
 });
+
+UsNS.push({
+    name: 'TS Relief Group / TS Holding Unlimited Timeshare Exit Lawsuit',
+    slug: 'ohio-ts-relief-group-ts-holding-timeshare-exit-lawsuit',
+    description: `Ohio Attorney General Dave Yost's office sued TS Relief Group and TS Holding Unlimited, a New Jersey-based company that markets itself as offering relief from common timeshare scams, in Montgomery County Common Pleas Court, alleging the company used the same high-pressure, misleading sales tactics it claims to protect consumers from. According to the complaint, sales representatives met with prospective clients in person and misrepresented how well the company's "exit" service works and how quickly it would take effect, collected an upfront fee for the promised timeshare cancellation, and then simply stopped delivering the service or responding to follow-up calls and emails once payment cleared — the same failure-to-perform pattern reported separately by a Pennsylvania couple who received a nearly identical "Certificate of Guarantee" from a related entity, TS Consumer Protection, during a 2025 sales presentation at a Red Lobster restaurant. Yost's office says seven consumers reported a combined $68,239 in losses to the two companies. "Consumer protection lawsuits not only allow my office to recoup money for hard-working consumers," Yost said in announcing the filing, "but also send a clear message to shady businesses that deceptive practices are a no-go in Ohio." The suit seeks consumer restitution, civil penalties, and injunctive relief under Ohio's Consumer Sales Practices Act. Timeshare owners approached by an exit or cancellation company are advised to check the company's name — and any related aliases — against their state attorney general's lawsuit and complaint records before paying anything, to get the promised cancellation timeline and any money-back guarantee in writing, and to treat a company that goes silent after collecting an upfront fee as a reason to file a complaint immediately rather than keep waiting for a refund that a written "guarantee" does not actually force the company to pay.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Ohio Attorney General Dave Yost', '6abc/WPVI Action News'],
+    sourceUrl: 'https://ohioattorneygeneral.gov/Media/News-Releases/July-2025/Consumer-Protection-Yost-Takes-Legal-Action-in-Thr',
+    country: 'US',
+    state: 'OH',
+    firstRecorded: '2025-07-02',
+});
