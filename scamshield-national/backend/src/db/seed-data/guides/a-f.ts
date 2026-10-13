@@ -5545,9 +5545,8 @@ If you play on Chess.com and haven't checked whether you're among the 4,541 peop
     author: 'ScamShield Editorial',
     tags: ['guide', 'fcra-609e-identity-theft-records'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Amazon_headquarters_building_Seattle.jpg?width=1200',
-    coverImageCredit: 'Photo: Adbar, CC BY-SA 3.0, via Wikimedia Commons — an Amazon headquarters building in Seattle; not the specific customer-service systems at issue in the FTC case',
+    coverImageCredit: 'Photo: Adbar, CC BY-SA 3.0, via Wikimedia Commons — an Amazon headquarters building in Seattle',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-requires-amazon-pay-225-million-resolve-charges-it-knowingly-violated-fair-credit-reporting-act',
     body: `Most people who discover a fraudulent purchase in their name know the first two steps by instinct: dispute the charge, then freeze their credit. Far fewer know about a third step that federal law specifically entitles them to — and, according to the Federal Trade Commission, Amazon spent years making it nearly impossible to use. On June 30, 2026, the FTC announced that Amazon had agreed to pay a $2.25 million civil penalty, the largest ever obtained for a violation of this specific provision, after the agency's investigation found the company had knowingly denied identity theft victims a legal right most consumers don't even know exists.
 
@@ -8367,7 +8366,6 @@ Because a checkout overcharge rarely announces itself, the only real defense is 
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Xfinity_truck_11_16_04_385000.jpeg?width=1200',
     coverImageCredit: 'WhisperToMe, CC BY-SA 4.0, via Wikimedia Commons',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `Comcast's $117.5 million settlement over its 2023 Xfinity data breach is real, and the clock on it is about to run out. The case, Hasson v. Comcast Cable Communications, LLC, resolves claims tied to the October 2023 intrusion that exposed usernames, hashed passwords, and — for a smaller subset of the roughly 35.8 million affected customers — partial Social Security numbers, dates of birth, and security-question answers. The court-appointed administrator, Kroll Settlement Administration LLC, is accepting claims through September 14, 2026, either online at ComcastBreachSettlement.com or by mail, with eligible class members able to choose a no-documentation flat cash payment, reimbursement of up to $10,000 in documented losses and time (up to five hours at $30 an hour), or the three years of identity-monitoring service every class member already receives automatically. It's a genuinely large payout reaching a genuinely large number of people — which is exactly the combination that draws a second wave of scammers.
 
 Because so many real Xfinity and Comcast customers already know a settlement exists, a text or email claiming to be about it doesn't have to work very hard to sound plausible. Reporting on the settlement has already flagged fake notices circulating that mimic the real thing: messages that reference the breach, create urgency around the closing deadline, and then ask for something a real claims process never needs — a full Social Security number, a bank login, or a "processing fee" paid before a payment can supposedly be released. Some route recipients to look-alike domains built to resemble ComcastBreachSettlement.com closely enough to pass a quick glance, particularly on a phone screen where a slightly misspelled URL is easy to miss.
