@@ -12337,3 +12337,15 @@ UsAF.push({
     state: 'CT',
     firstRecorded: '2026-05-29',
 });
+
+UsAF.push({
+    name: 'Care.com Deceptive Job-Listing and Subscription-Trap Settlement',
+    slug: 'care-com-deceptive-job-listing-subscription-trap-settlement',
+    description: `The Federal Trade Commission announced a settlement on August 26, 2024 requiring Care.com, Inc. — one of the largest online marketplaces matching caregivers with families seeking childcare, elder care, and housekeeping help — to pay $8.5 million over allegations it systematically deceived caregivers job-hunting on its site about how many jobs were actually available and what they could expect to earn, while separately trapping both caregivers and families in auto-renewing paid subscriptions that were deliberately hard to leave. The FTC's complaint, filed in the U.S. District Court for the Western District of Texas, alleged that Care.com required users to buy a recurring paid subscription before they could even contact a job poster or a prospective caregiver, while its marketing overstated the number of real, active job postings and dangled inflated pay figures that didn't reflect what caregivers using the platform actually earned. The company also allegedly made cancellation needlessly difficult once someone had signed up. "Care systematically deceived caregivers who were looking for jobs," then-FTC Bureau of Consumer Protection Director Samuel Levine said, adding that the company "used deceptive design practices to trap consumers in subscriptions." Beyond the $8.5 million in redress — more than $8.1 million of which the FTC sent out to 194,207 affected consumers by check and PayPal on June 24, 2025 — the settlement order requires Care.com to back up any future earnings or job-availability claims with real evidence, disclose clearly how and when a user will be charged before taking payment information, and offer a simple way to cancel a subscription rather than funneling cancellation requests through confusing screens or unresponsive customer service. Anyone job-hunting on a site that requires an upfront paid membership just to see full job listings or message a poster should treat that paywall itself as a red flag, verify a platform's actual active-job count independently before paying, and check — before entering a credit card number — that the site offers an equally simple way to cancel online, not only by phone or email.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/08/ftc-takes-action-against-carecom-deceiving-caregivers-about-wages-availability-jobs-its-site',
+    country: 'US',
+    firstRecorded: '2024-08-26',
+});
