@@ -13051,3 +13051,29 @@ UsNS.push({
     country: "US",
     state: "SD",
 });
+
+UsNS.push({
+    name: "Spokane Wildfire Charity Solicitation Scams",
+    slug: "spokane-wildfire-charity-solicitation-scams",
+    description:
+      "After devastating wildfires in the Spokane area and elsewhere in Washington, fraudulent and misleading charitable solicitations began circulating by phone, text, social media and door-to-door, pitching donations for fire victims. The Washington Attorney General's Office Consumer Protection Division warns that disaster-charity fraud reliably follows major disasters, with solicitors arriving unsolicited within days of the event and pressuring donors to give immediately. Legitimate relief organizations will not rush you or demand payment by gift card, wire transfer or cryptocurrency, all of which are effectively irreversible. Before you give, confirm the organization is registered with the Washington Secretary of State's Charities Program and look up the group yourself rather than using a link or number the solicitor provides. If a solicitation feels high-pressure or you cannot verify the charity, do not donate and report it to the Attorney General's Office.",
+    categorySlug: "charity-scams",
+    alertLevel: "high",
+    sources: ["Washington State Office of the Attorney General, Consumer Protection Division — consumer alert dated Aug 5, 2026, 'Support Spokane by donating to reputable charities' (also published in Spanish)"],
+    sourceUrl: "https://www.atg.wa.gov/scam-alerts",
+    country: "US",
+    state: "WA",
+});
+
+UsNS.push({
+    name: "Southwest Washington Dental Practices Medicaid Billing Fraud",
+    slug: "southwest-washington-dental-practices-medicaid-billing-fraud",
+    description:
+      "Three dental practices in Southwest Washington used fraudulent billing practices that overcharged Washington's Medicaid program, according to the state Attorney General's Office. The matters were resolved through settlements totaling more than $1 million, handled by the AGO's Medicaid Fraud Control Division, which investigates providers who bill the state benefit program for services that were not provided, were unnecessary, or were billed improperly. This is fraud against a public program rather than a direct consumer scam, but it drains funds meant for patient care and can show up as unfamiliar services on a patient's Medicaid record. Review any explanation of benefits or service summary you receive and check that the dates and treatments listed match care you actually got. If something does not match, report it to the Washington Attorney General's Medicaid Fraud Control Division.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "medium",
+    sources: ["Washington State Office of the Attorney General news release published under the AGO 'Scams' topic, describing settlements totaling more than $1 million with three Southwest Washington dental practices over fraudulent Medicaid billing"],
+    sourceUrl: "https://www.atg.wa.gov/news/news-releases/Scams",
+    country: "US",
+    state: "WA",
+});
