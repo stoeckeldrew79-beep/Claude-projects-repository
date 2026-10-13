@@ -13790,3 +13790,42 @@ UsGM.push({
     state: 'GA',
     firstRecorded: '2024-07-01',
 });
+
+UsGM.push({
+    name: 'Graves County "$250 Million Mega Millions" Mail Lottery Scam',
+    slug: 'kentucky-graves-county-mega-millions-mail-lottery-scam',
+    description: `Deroney A. Facey, a Jamaican national with U.S. green-card status, was arrested in Orlando and indicted by a Graves County, Kentucky grand jury on four felony counts after mail telling a local couple they had won a $250 million Mega Millions jackpot led them to deposit $83,000 over about 90 days to "release" the winnings. Graves County Sheriff's Detective Tony Cornwell traced the money through bank records and surveillance video to identify Facey as the person withdrawing the funds; he was charged with engaging in organized crime, theft by unlawful taking over $10,000, securities fraud over $10,000, and operating a sham company. A related co-defendant in the same network, Jenel Chrissancia Rowe, was extradited from Jamaica in August 2026 after a nearly identical scheme separately cost another Graves County victim about $80,000. Anyone notified by mail, phone, or email that they have won a sweepstakes or lottery they never entered — especially one requiring any payment, "release fee," or tax prepayment before the winnings can be delivered — should assume it is fraudulent and contact their local sheriff's office rather than send money or personal financial information to claim a prize.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ["Graves County Sheriff's Office", 'LEX 18', 'KFVS12'],
+    sourceUrl: 'https://www.lex18.com/news/covering-kentucky/jamaican-man-arrested-in-83-000-lottery-scam-targeting-kentucky-couple',
+    country: 'US',
+    state: 'KY',
+    firstRecorded: '2026-01-01',
+});
+
+UsGM.push({
+    name: 'Bourbon County "Federal Safety Locker" Gold Bar and Crypto Courier Scam',
+    slug: 'kentucky-bourbon-county-federal-safety-locker-gold-bar-scam',
+    description: `A Bourbon County, Kentucky woman lost more than $400,000 starting in April 2024 after an email falsely claiming her investment account had been hacked triggered a barrage of calls from people impersonating her brokerage, IRS agents, and bank representatives, who told her the money would be safe only in a "federal safety locker." Following their instructions, she withdrew more than $200,000 into Bitcoin and wired roughly $240,000 to New York to buy gold bars for home delivery. The Bourbon County Sheriff's Office and FBI ran a sting using a decoy package shipment and arrested two Ohio college-student couriers, Mayurkumar Sanjaybhai Patel and Akshay Rai Priyadarshi, on June 11, 2024, charging both with conspiracy to commit theft by deception over $10,000. No real IRS agent, bank, or brokerage will ever instruct a customer to protect their money by converting it to cryptocurrency or gold bullion and handing it to a courier — that instruction is itself proof of a scam, and the right response is to hang up and verify independently using a phone number looked up on the institution's own official website.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ["Bourbon County Sheriff's Office", 'FBI', 'WKYT'],
+    sourceUrl: 'https://www.wkyt.com/2024/06/27/kentucky-sheriff-lays-out-details-elaborate-scam',
+    country: 'US',
+    state: 'KY',
+    firstRecorded: '2024-04-01',
+});
+
+UsGM.push({
+    name: 'Kentucky Student Loan Forgiveness Application Scam Alert',
+    slug: 'kentucky-student-loan-forgiveness-application-scam-alert',
+    description: `Kentucky Attorney General Daniel Cameron issued a consumer alert on October 17, 2022, warning that scammers were exploiting the rollout of the federal student debt relief application by posing as the U.S. Department of Education or loan servicers and offering to speed up forgiveness. The scammers asked victims to sign direct-deposit authorizations or power-of-attorney forms, or to hand over their FSA ID, Social Security number, date of birth, or credit card information, giving fraudsters access to bank accounts or enabling identity theft. Cameron's office stressed that no legitimate company can charge a fee to expedite federal loan forgiveness faster than borrowers can do themselves at StudentAid.gov, and directed Kentuckians to report suspected scams to its Consumer Protection Hotline.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ["Kentucky Attorney General's Office", 'WBKO'],
+    sourceUrl: 'https://www.wbko.com/2022/10/17/consumer-alert-attorney-general-cameron-warns-kentuckians-student-loan-scams',
+    country: 'US',
+    state: 'KY',
+    firstRecorded: '2022-10-17',
+});

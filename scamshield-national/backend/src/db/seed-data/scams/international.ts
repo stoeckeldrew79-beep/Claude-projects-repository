@@ -25041,3 +25041,27 @@ International.push({
   country: 'QA',
   firstRecorded: '2025-04-22',
 });
+
+International.push({
+  name: 'Kuwait Vishing Bank Employee OTP Account Takeover Scam',
+  slug: 'kuwait-vishing-bank-employee-otp-account-takeover',
+  description: `In February 2024, a 37-year-old Indian housewife in Kuwait lost KD 17,750 after a woman called her claiming to be a bank employee and asked for her card details, saying they were needed to "update" her account. When the bank sent a one-time password (OTP) to verify the request, the victim read it to the caller, who then drained her account through 18 rapid transactions within minutes. Kuwaiti lawyer Mohammed Al-Jassem described the method as "vishing" — voice phishing in which fraudsters impersonate bank staff to harvest OTP codes — and said Kuwait's Electronic and Cybercrimes Department investigates such cases but recovers funds in only about two to three percent of them. A real bank employee never needs a customer to read back a one-time password received by text; that password exists specifically to verify that the account holder, not someone else, is authorizing a transaction, and sharing it with any caller hands them control of the account.`,
+  categorySlug: 'account-takeover',
+  alertLevel: 'high',
+  sources: ['Kuwait Times'],
+  sourceUrl: 'https://kuwaittimes.com/article/11580/kuwait/other-news/cyber-fraud-woman-loses-kd-17750/',
+  country: 'KW',
+  firstRecorded: '2024-02-01',
+});
+
+International.push({
+  name: 'Fake Charity Donation Resale Scheme (Kuwait)',
+  slug: 'kuwait-fake-charity-donation-resale-scheme',
+  description: `Kuwait's Ministry of Interior said five suspects — three Syrians and two Egyptians — ran a furniture-moving company that rented a website and phone line belonging to a legitimate charity project, obtained through a charity employee without the organization's knowledge. Posing as the charity, they solicited donations of clothing, electronics, furniture, and food from the public, then resold the collected goods in local markets and exported some abroad instead of distributing them to intended beneficiaries, netting an estimated KD 60,000 a month. Kuwait's Criminal Investigation Department (Jahra Governorate, Sulaibiya office) traced and raided the group's warehouse in Amghara, seizing the diverted donations. Anyone asked to donate goods or money to a charity drive should verify the collection effort directly with the charity's own official phone number or office — not a number or link provided by the collector — before handing anything over.`,
+  categorySlug: 'charity-scams',
+  alertLevel: 'medium',
+  sources: ['Kuwait Ministry of Interior', 'Kuwait Times'],
+  sourceUrl: 'https://kuwaittimes.com/article/50830/kuwait/5-implicated-in-scheme-exploiting-charity-project-to-sell-donations/',
+  country: 'KW',
+  firstRecorded: '2026-10-03',
+});
