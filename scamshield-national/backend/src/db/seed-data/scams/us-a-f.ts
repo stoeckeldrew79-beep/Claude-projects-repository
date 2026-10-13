@@ -12777,3 +12777,16 @@ UsAF.push({
     country: "US",
     state: "TX",
 });
+
+UsAF.push({
+    name: "Codling Brothers Logging Door-to-Door Timber Harvesting Fraud",
+    slug: "codling-brothers-logging-door-to-door-timber-harvesting-fraud",
+    description:
+      "The Vermont Attorney General's Office sued a Plainfield logging business and its principals in February 2024, alleging they defrauded at least five Vermont landowners through deceptive timber-harvesting deals. According to the state's complaint, the operators showed up uninvited at landowners' homes, made misleading statements about the work and the terms, then cut more trees than the owner had agreed to. Landowners were underpaid or never paid for their harvested timber, and were left with damaged land and logging debris they had to clean up at their own expense. If someone knocks on your door offering to cut timber on your property, do not sign anything on the spot — get a written contract reviewed, check references and licensing, and get a second opinion on the value of your standing timber. Report suspicious logging solicitations to the Vermont Attorney General's Consumer Assistance Program at 800-649-2424.",
+    categorySlug: "home-improvement-solar",
+    alertLevel: "high",
+    sources: ["Office of the Vermont Attorney General, Consumer Protection Division — civil complaint filed February 5, 2024","Vermont AG Consumer Information feed"],
+    sourceUrl: "https://ago.vermont.gov/blog/2024/02/05/attorney-generals-office-sues-logger-consumer-fraud",
+    country: "US",
+    state: "VT",
+});
