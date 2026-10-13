@@ -13168,3 +13168,16 @@ UsNS.push({
     state: 'SD',
     firstRecorded: '2026-07-13',
 });
+
+UsNS.push({
+    name: "Nantasket Trading LLC Coworker Investment Scheme",
+    slug: "nantasket-trading-llc-coworker-investment-scheme",
+    description:
+      "The Massachusetts Securities Division filed an administrative complaint against a Hull, Massachusetts man who allegedly pitched a \"get rich quick options and securities program\" to former coworkers from a Boston hotel, collecting their money through an entity called Nantasket Trading, LLC. When his trading lost money, he allegedly sent investors fabricated earnings reports to hide the losses while spending their funds on shopping, travel, dining and a soccer academy in Arizona. According to the complaint, 12 Massachusetts investors lost more than $700,000 over roughly eight years. The Division is seeking disgorgement, restitution with interest, a permanent bar from the securities industry in Massachusetts, and a fine. Be extremely cautious when a friend or former colleague offers a private investment opportunity, and always verify the person and the firm through the Securities Division's registration lookup before sending any money.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Massachusetts Secretary of the Commonwealth, Securities Division enforcement actions (administrative complaint announced June 2025)"],
+    sourceUrl: "https://www.sec.state.ma.us/divisions/securities/enforcement/enforcement-actions.htm",
+    country: "US",
+    state: "MA",
+});

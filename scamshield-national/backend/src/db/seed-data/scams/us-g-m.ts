@@ -13983,3 +13983,16 @@ UsGM.push({
     sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2024/11/task-scams-create-illusion-making-money",
     country: "US",
 });
+
+UsGM.push({
+    name: "Licensing Board and DEA Investigator Impersonation Calls Targeting Massachusetts Physicians",
+    slug: "licensing-board-and-dea-investigator-impersonation-calls-targeting-massachusetts-physicians",
+    description:
+      "The Commonwealth of Massachusetts has issued an alert about scam calls aimed at Massachusetts-licensed physicians. Callers claim to be investigators with the doctor's state licensing board or with the federal Drug Enforcement Administration, and tell the physician that they are under investigation and that their medical license is in jeopardy or has already been suspended. The manufactured panic is the lever used to extract payment or sensitive personal and financial information. Real licensing boards and the DEA do not call to demand money or collect financial details over the phone. If you get a call like this, hang up and contact your licensing board directly using the phone number published on mass.gov, then report the call to the board and to law enforcement.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Commonwealth of Massachusetts official alert: Be aware of a reported scam targeted at Massachusetts physicians"],
+    sourceUrl: "https://www.mass.gov/alerts/be-aware-of-a-reported-scam-targeted-at-massachusetts-physicians",
+    country: "US",
+    state: "MA",
+});

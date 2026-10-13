@@ -12802,3 +12802,16 @@ UsAF.push({
     sourceUrl: "https://www.uspis.gov/news/scam-article/brushing-scam",
     country: "US",
 });
+
+UsAF.push({
+    name: "EasyPay Rent-a-Bank Lending Scheme",
+    slug: "easypay-rent-a-bank-lending-scheme",
+    description:
+      "Massachusetts caps the rate on small consumer loans and requires lenders to be licensed by the Commonwealth. Attorney General Andrea Joy Campbell's office alleged that EasyPay used a \"rent-a-bank\" structure to get around those protections: the non-bank lender marketed the loan, underwrote it, took the credit risk and collected the payments, while a chartered bank was named as the originator so the loan could carry the bank's rate authority instead of Massachusetts limits. The AG's settlement secures restitution for affected borrowers and requires the company to stop lending in the Commonwealth. Before taking out any short-term or installment loan, check whether the lender is licensed in Massachusetts through the Division of Banks, and report any loan priced above the state cap to the Attorney General's consumer hotline.",
+    categorySlug: "legal-debt-collection",
+    alertLevel: "medium",
+    sources: ["Massachusetts Attorney General's Office press release: AG Campbell reaches settlement with EasyPay over alleged rent-a-bank scheme"],
+    sourceUrl: "https://www.mass.gov/news/attorney-general-campbell-reaches-settlement-with-easypay-over-alleged-rent-a-bank-scheme-secures-restitution-and-ceases-lending-in-the-commonwealth",
+    country: "US",
+    state: "MA",
+});
