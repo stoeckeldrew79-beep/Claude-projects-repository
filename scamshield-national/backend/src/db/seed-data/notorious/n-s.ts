@@ -6094,11 +6094,6 @@ Austin's case is a reminder that the fraud in "stealing clients" isn't just the 
   },
 );
 
-// This is a civil securities-enforcement matter resolved by consent order —
-// Jackson neither admitted nor denied the Maryland Securities Commissioner's
-// findings. No criminal charges have been reported, and no rights-cleared
-// photo of Jackson has surfaced, so sourceUrl serves as the "read the full
-// story" link instead of a photo.
 NotoriousNS.push(
   {
     title: 'Otis Jackson and the Park Heights Affordable Housing Program That Existed Only on Paper',
@@ -6121,8 +6116,6 @@ Jackson's case is a reminder that an affinity-adjacent pitch built around a real
   },
 );
 
-// No rights-cleared photo of Desselle has surfaced, so sourceUrl links to
-// the HHS-OIG summary of the DOJ press release announcing the sentence.
 NotoriousNS.push(
   {
     title: 'Robert Desselle and the Grocery-Store Pipeline Behind an $11.5 Million Genetic Testing Kickback Scheme',

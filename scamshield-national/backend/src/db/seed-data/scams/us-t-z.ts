@@ -7417,3 +7417,16 @@ UsTZ.push({
     state: 'VA',
     firstRecorded: '2025-10-06',
 });
+
+UsTZ.push({
+    name: 'TS Consumer Protection Timeshare Exit Seminar Scam',
+    slug: 'ts-consumer-protection-timeshare-exit-seminar-scam',
+    description: `An Action News/6abc investigation published August 5, 2026 traced a timeshare exit scam back to Daryl Turner, a South Jersey man previously sentenced in 2014 to seven years in prison for selling phony vacation packages, who New Jersey and Florida corporate records link to a cluster of companies carrying variations of the "TS Holdings" name. Allentown, Pennsylvania residents Sue and Bernie Madeja received a postcard inviting them to a free dinner at a Red Lobster in Whitehall, Lehigh County, where a presenter from a company called "TS Consumer Protection" showed mostly senior attendees a spreadsheet projecting they would pay roughly $178,000 in timeshare maintenance fees over the next 30 years if they kept their contract, then offered an exit for just under $7,000 backed by a written guarantee of a full refund if the timeshare wasn't canceled within 12 months. After the couple paid, communication slowed to a crawl and they were eventually told of a "paperwork issue" involving a differently named company; Turner promised a refund check by text and phone, said one had been mailed in late spring, and it never arrived. The Ohio Attorney General's Office is separately suing a related entity, TS Holdings Unlimited of Cherry Hill, New Jersey, alleging it took nearly $70,000 from seven Ohio consumers under the same timeshare-exit pitch. The Madejas filed a police report with Whitehall police, but the Lehigh County District Attorney's Office declined to bring charges against Turner and advised the couple to pursue a civil attorney instead, leaving them, like many timeshare-exit-scam victims nationwide, without a clear path to recovering their money through the criminal system. A written "refund guarantee" is worth exactly as much as the company backing it is willing to honor once it has already been paid; anyone considering a timeshare exit service should verify the company's actual corporate registration and any state attorney general actions against it or any name it has operated under before paying anything, and should be especially wary of a free-meal seminar that uses an inflated lifetime-cost projection to create urgency.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'high',
+    sources: ['WPVI-TV (6abc Action News)', 'Ohio Attorney General\'s Office'],
+    sourceUrl: 'https://6abc.com/post/south-jersey-man-linked-more-timeshare-exit-complaints-action-news-investigation/19625269/',
+    country: 'US',
+    state: 'PA',
+    firstRecorded: '2026-08-05',
+});

@@ -25029,3 +25029,15 @@ International.push({
   country: 'QA',
   firstRecorded: '2025-03-26',
 });
+
+International.push({
+  name: 'Communication-Tower SMS Bank Impersonation Network Dismantled (Qatar)',
+  slug: 'qatar-communication-tower-sms-bank-impersonation-network',
+  description: `Qatar's Ministry of Interior announced on April 22, 2025 that its Economic and Cyber Crimes Combating Department had dismantled a 12-person criminal network, described as being of Asian nationality, that targeted communication towers in various areas of the country to broadcast fraudulent SMS messages at scale. The messages carried fake links impersonating banks and official government entities, directing recipients to pages designed to harvest credit card numbers, login credentials, and other personal and financial information once a victim clicked through and entered their details. Unlike a single spoofed sender number, the network's method of exploiting communication towers directly let it blast fraudulent texts to large numbers of phones in the vicinity without relying on a compromised contact list or an existing relationship with the victim. The Ministry said it would "take all necessary legal measures against those proven to be involved in such criminal activities" and urged the public to be cautious with unsolicited SMS and messaging-app texts, never to click suspicious links or enter personal or financial information through them, and to verify any message claiming to be from a bank or government body through the institution's own official channels before responding. Qatar residents who receive an SMS with a link claiming to be from a bank or government agency should go directly to the institution's known app or website rather than the link in the message, since a text's apparent origin near a real cell tower signal is no guarantee it came from a legitimate sender.`,
+  categorySlug: 'phishing',
+  alertLevel: 'high',
+  sources: ['Ministry of Interior (Qatar) — Economic and Cyber Crimes Combating Department', 'Qatar Tribune'],
+  sourceUrl: 'https://www.qatar-tribune.com/article/173024/front/moi-busts-criminal-network-behind-sms-scams/amp',
+  country: 'QA',
+  firstRecorded: '2025-04-22',
+});
