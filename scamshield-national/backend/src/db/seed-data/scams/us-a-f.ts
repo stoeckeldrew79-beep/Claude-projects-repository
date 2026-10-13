@@ -12725,3 +12725,42 @@ UsAF.push({
     state: 'CO',
     firstRecorded: '2025-07-01',
 });
+
+UsAF.push({
+    name: 'Delaware Summer Vacation Rental Listing Scam',
+    slug: 'delaware-vacation-rental-listing-scam',
+    description: `Scammers copy photos and details from legitimate Delaware beach-house rental listings and repost them on Craigslist and similar sites at below-market prices, undercutting a comparable $2,000 rental to as little as $500. Renters pay a deposit — often by wire or cash — receive a fake confirmation, and arrive at the Rehoboth Beach-area property to find it already occupied by other paying guests or with no connection to the supposed landlord. The Delaware Department of Justice's Consumer Protection Unit issued public warnings in both 2017 and 2019 urging renters to verify ownership through county parcel records, avoid cash payments, and demand a walk-through before paying anything.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Delaware DOJ Consumer Protection Unit', 'Delaware Public Media'],
+    sourceUrl: 'https://news.delaware.gov/2019/03/21/attorney-generals-office-warns-delawareans-about-rental-scams/',
+    country: 'US',
+    state: 'DE',
+    firstRecorded: '2017-01-01',
+});
+
+UsAF.push({
+    name: 'Delaware Online Classified Ad Overpayment Check Scam',
+    slug: 'delaware-overpayment-fake-check-scam',
+    description: `Delaware State Police issued a scam alert advisory in December 2019 describing buyers on online classified sites who send a seller a check for several thousand dollars more than the agreed price, then ask the seller to wire the difference back via Western Union or MoneyGram before shipping the item. The seller deposits the check, wires the money, and hands over the goods; about a week later the bank discovers the check was counterfeit, leaving the seller liable for the full amount and facing possible arrest on fraud or counterfeiting charges. DSP Public Information Officer Cpl. Melissa Jaffe advised sellers to call the issuing bank directly to confirm a check's validity before releasing any item or funds.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Delaware State Police'],
+    sourceUrl: 'https://dsp.delaware.gov/2019/12/10/delaware-state-police-issues-scam-alert-advisory/',
+    country: 'US',
+    state: 'DE',
+    firstRecorded: '2019-12-10',
+});
+
+UsAF.push({
+    name: 'Delaware Lottery/Sweepstakes Prepaid Card Scam',
+    slug: 'delaware-lottery-sweepstakes-prepaid-card-scam',
+    description: `During National Consumer Protection Week in March 2012, Delaware Attorney General Beau Biden's office publicized a case in which scammers told an elderly Delaware couple they had won a $2.5 million sweepstakes prize but needed to pay $1,000 in taxes upfront to collect it. The couple was instructed to buy prepaid money cards at a local pharmacy and wait at home, after which the callers intended to obtain the card numbers by phone and drain them remotely without ever meeting the victims in person. The Attorney General's office intervened and stopped the transaction before any money was lost.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ["Delaware Attorney General's Office"],
+    sourceUrl: 'https://news.delaware.gov/?p=7498',
+    country: 'US',
+    state: 'DE',
+    firstRecorded: '2012-03-01',
+});

@@ -13881,3 +13881,81 @@ UsGM.push({
     state: 'LA',
     firstRecorded: '2025-11-11',
 });
+
+UsGM.push({
+    name: 'Iowa AG Warning on AI Deepfake Bullying and Harassment of Students',
+    slug: 'iowa-ag-deepfake-student-bullying-warning',
+    description: `In August 2025, Iowa Attorney General Brenna Bird warned parents and schools about a rise in AI-generated deepfakes used to bully and harass students, including non-consensual nude or sexually explicit fake images. Bird noted that creating or sharing such deepfakes is a crime under Iowa law that can place an adult offender on the sex offender registry, and pointed to the federal TAKE IT DOWN Act, which requires platforms to remove reported non-consensual intimate images within 48 hours. Her office directed victims under 18 to NCMEC's Take It Down service and adult victims to StopNCII.org.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['Iowa AG'],
+    sourceUrl: 'https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-warns-of-deepfake-dangers-as-students-head-back-to-school',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2025-08-19',
+});
+
+UsGM.push({
+    name: 'Iowa AG Lawsuit Against Change Healthcare Over 2.2-Million-Iowan Data Breach',
+    slug: 'iowa-change-healthcare-data-breach-lawsuit',
+    description: `Iowa Attorney General Brenna Bird sued Change Healthcare on March 31, 2026 over a 2024 data breach that exposed Social Security numbers, driver's license numbers, health insurance data, and medical and billing records belonging to nearly 2.2 million Iowans. The suit alleges a hacker roamed Change's outdated systems undetected for ten days before the breach was discovered on February 21, 2024, and that the company waited five months to notify affected Iowans while the resulting system shutdown disrupted claims payments and patient care statewide. Bird is seeking stronger data-security requirements, disgorgement of "ill-gotten gains," and penalties under Iowa's Consumer Fraud Act and Personal Information Security Breach Protection Act.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'high',
+    sources: ['Iowa AG'],
+    sourceUrl: 'https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-announces-lawsuit-against-change-healthcare-for-catastrophic-data-breac',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2024-02-21',
+});
+
+UsGM.push({
+    name: 'Council Bluffs Fake Vrbo Listing Leaves Family Trespassing in Stranger\'s Home',
+    slug: 'iowa-council-bluffs-fake-vrbo-listing-scam',
+    description: `In November 2023, a family believed they'd booked a legitimate Vrbo rental in Council Bluffs, Iowa, but the listing had actually been posted — without his knowledge — by a scammer using a spam account impersonating homeowner Scott Porter. The family let themselves into Porter's real, unlocked home while he was traveling, and only learned they'd been scammed when a neighbor checking on the property found them inside. Vrbo confirmed the home was "mistakenly listed" through an account it later suspended, refunded the family, paid for their alternate lodging, and removed the listing; the Better Business Bureau said the pattern is common nationwide and urged renters to independently verify a property and host before paying.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['KCRG/KETV', 'Better Business Bureau'],
+    sourceUrl: 'https://www.kcrg.com/2023/12/05/family-trespasses-mans-home-shocking-vacation-rental-scam/',
+    country: 'US',
+    state: 'IA',
+    firstRecorded: '2023-11-01',
+});
+
+UsGM.push({
+    name: 'Idaho Door-to-Door "Free Government Energy Audit" Scam',
+    slug: 'idaho-door-to-door-free-energy-audit-scam',
+    description: `Door-to-door salespeople in Idaho have posed as representatives of a nonexistent government weatherization and energy-efficiency "audit" program to talk their way into residents' homes. Attorney General Raúl Labrador's office confirmed no such state or federal program exists and warned that many Idaho cities and counties require door-to-door sellers to carry a local sales permit, which residents have the right to demand before admitting anyone. The office urged residents never to feel obligated to let an unverified stranger inside and to report any salesperson who cannot produce a permit to local authorities.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Idaho AG'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/ag-labrador-issues-fraud-and-safety-alert-regarding-deceptive-door-to-door-sales-technique-reported-in-idaho/',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2025-01-01',
+});
+
+UsGM.push({
+    name: 'Idaho Holiday Charity Solicitation Scam',
+    slug: 'idaho-holiday-charity-solicitation-scam',
+    description: `The Idaho Attorney General's office warned that charity fraud spikes during the Christmas season and in the aftermath of natural disasters, when donors are most willing to give quickly and without checking credentials. Scammers pose as unfamiliar charitable organizations and ask for donations by gift card or cryptocurrency, send links in texts or emails to fake charity-branded donation pages, or request banking details over the phone, by text, or by email — none of which a legitimate charity does. The office directed Idahoans to verify a charity's registration independently, rather than through a link in an unsolicited message, before giving, via its ReportScamsIdaho.com resource.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Idaho AG'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/attorney-general-urges-caution-with-holiday-charity-scams/',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2025-11-01',
+});
+
+UsGM.push({
+    name: 'Idaho Federal Student Loan Repayment Scam Surge',
+    slug: 'idaho-federal-student-loan-repayment-scam-surge',
+    description: `As federal student loan payments resumed in October 2023 after a pandemic-era pause, Idaho Attorney General Raúl Labrador warned of a rise in related scams targeting borrowers statewide. Fraudsters charged upfront fees to arrange supposedly lower monthly payments or to "negotiate" loan forgiveness that borrowers could pursue for free themselves, and callers impersonating loan servicers pressured people to make past-due payments immediately over the phone. The AG's office stressed that no one can legitimately charge a fee to get a borrower into a forgiveness program early or guarantee eligibility, and directed consumers to the Federal Student Aid Ombudsman and the Idaho Consumer Protection Division to report suspected scams.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ['Idaho AG'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/attorney-general-labrador-warns-of-student-loan-scams/',
+    country: 'US',
+    state: 'ID',
+    firstRecorded: '2023-10-01',
+});

@@ -25137,3 +25137,27 @@ International.push({
   country: 'BH',
   firstRecorded: '2025-12-13',
 });
+
+International.push({
+  name: 'Iraqi National Security Service Warning on Deepfake Bank Impersonation and Fake Loan Scams',
+  slug: 'iraq-deepfake-bank-impersonation-loan-scam',
+  description: `Iraq's National Security Service (INSS) issued a public warning on November 1, 2025, saying scammers are increasingly creating fake social media accounts and websites that impersonate local and foreign banks and financial companies, in some cases using deepfake technology to make the impersonation more convincing. INSS spokesperson Arshad al-Hakim said the fraudulent pages lure victims with offers of easy loans, free grants, investment opportunities, or US dollars sold at attractive exchange rates, directing them to fake sites that harvest personal data and bank card details, leading to salary theft or unauthorized transfers. The agency tied the rise to Iraq's push toward digital banking and a cashless system following a government ban on cash payments inside state institutions, noting the country's e-payment infrastructure remains underdeveloped. INSS urged the public to verify any bank or financial company's identity only through its own official channels, stressing that legitimate banks never request sensitive information online.`,
+  categorySlug: 'ai-deepfake-scams',
+  alertLevel: 'high',
+  sources: ['Iraqi National Security Service (INSS)', 'Rudaw'],
+  sourceUrl: 'https://rudaw.net/english/categories/iraq/909076',
+  country: 'IQ',
+  firstRecorded: '2025-11-01',
+});
+
+International.push({
+  name: 'Iraq National Security Service Online Extortion and Sextortion Crackdown',
+  slug: 'iraq-online-extortion-sextortion-crackdown',
+  description: `Iraq's National Security Service announced on November 15, 2025 that it had arrested roughly 40 people nationwide following a three-month campaign against online extortion and defamation, launched after a wave of citizen complaints. The Ministry of Interior said women accounted for about 70% of reported victims and men 30%, with most victims aged 15 to 35; documented methods included threats to leak private photos and videos unless paid, smear campaigns, and fake "hacking-recovery" schemes, such as a Basra woman who ran an "Anti-Extortion Warrior" social media page while secretly exploiting the compromising material of people she claimed to be helping. In a separate case flagged in the same campaign, a man in Muthanna province was arrested after demanding roughly 9 million Iraqi dinars (about $6,860) from a woman and attempting to extract further payments. Authorities urged victims to report extortion attempts to the National Security Service or police rather than pay, since compliance typically leads to repeated, escalating demands rather than release of the material.`,
+  categorySlug: 'sextortion',
+  alertLevel: 'high',
+  sources: ['Iraqi National Security Service (INSS)', 'Shafaq News', 'Iraqi Ministry of Interior'],
+  sourceUrl: 'https://www.shafaq.com/en/Security/Iraq-detains-40-in-crackdown-on-online-extortion-and-defamation',
+  country: 'IQ',
+  firstRecorded: '2025-11-15',
+});
