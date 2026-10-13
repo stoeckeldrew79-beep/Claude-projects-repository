@@ -13636,3 +13636,16 @@ UsGM.push({
     country: 'US',
     firstRecorded: '2026-10-02',
 });
+
+UsGM.push({
+    name: 'Illuminate Education Student Data Breach Settlement (Connecticut)',
+    slug: 'illuminate-education-student-data-breach-settlement-connecticut',
+    description: `Connecticut Attorney General William Tong announced a settlement on November 6, 2025 with education-technology provider Illuminate Education, Inc. — the first enforcement action brought under Connecticut's Student Data Privacy Law — after hackers used the login credentials of a former Illuminate employee in December 2021 to access the company's systems and download unencrypted database files containing students' names, birth dates, student ID numbers, and demographic information. The breach exposed data on 28,610 students across six Connecticut school districts, part of a far larger nationwide exposure of roughly 4.7 million students once California's and New York's shares are counted. Tong's office joined California Attorney General Rob Bonta and New York Attorney General Letitia James in the coalition action, which secured a combined $5.1 million in penalties — $150,000 to Connecticut, $1.7 million to New York, and $3.25 million to California — along with injunctive terms requiring Illuminate to maintain data inventories, set data-retention limits, implement proper access controls that actually disable former employees' credentials, encrypt sensitive student data, conduct regular security risk assessments and penetration testing, monitor its vendors, and honor requests to delete data it no longer needs. "Connecticut's Student Data Privacy Law requires strict security to protect children's information," Tong said, adding that the settlement "holds Illuminate accountable and sends a strong message to education technology companies." Because school districts often cannot avoid using a particular ed-tech vendor and parents have little visibility into a vendor's internal security practices, families affected by a school-related data breach should watch for notification letters from their district rather than the vendor itself, ask the district directly what specific student data was exposed, and treat any unsolicited call or email referencing a child's school ID number or enrollment details as a potential follow-on phishing attempt rather than legitimate contact from the school.`,
+    categorySlug: 'data-breach-scams',
+    alertLevel: 'medium',
+    sources: ['Connecticut Office of the Attorney General (William Tong)', 'California Office of the Attorney General (Rob Bonta)', 'New York Office of the Attorney General (Letitia James)'],
+    sourceUrl: 'https://portal.ct.gov/ag/press-releases/2025-press-releases/attorney-general-tong-enters-into-settlement-in-first-action-under-student-data-privacy-law',
+    country: 'US',
+    state: 'CT',
+    firstRecorded: '2025-11-06',
+});
