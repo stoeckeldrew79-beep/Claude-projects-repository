@@ -12910,6 +12910,71 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Fake Financial Advisor Investment Fraud (Jason Johnson, W.S. Solutions LLC)',
+    slug: 'rhode-island-jason-johnson-fake-financial-advisor-investment-fraud',
+    description: `Jason Johnson, 53, of Cranston, Rhode Island, posed as a financial advisor managing roughly $10 million in client assets and persuaded a couple to invest about $140,000 in home-sale proceeds through his now-defunct company, W.S. Solutions LLC, promising annuities paying 6 to 10 percent annual returns. Instead of investing the money, Johnson moved most of it into two bank accounts he personally controlled and spent it, then stopped responding to the victims' requests for account statements or tracking reports. Indicted in March 2025, Johnson pleaded guilty in May 2026 in U.S. District Court in Providence to one count of wire fraud and was scheduled for sentencing on August 27, 2026. A real financial advisor can be verified through FINRA's BrokerCheck or the SEC's Investment Adviser Public Disclosure database before any money changes hands, and a legitimate adviser always provides regular, independently verifiable account statements.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Rhode Island", 'The Boston Globe'],
+    sourceUrl: 'https://www.bostonglobe.com/2026/05/15/metro/cranston-ri-man-pleads-guilty-fraud/',
+    country: 'US',
+    state: 'RI',
+    firstRecorded: '2025-03-01',
+});
+
+UsNS.push({
+    name: 'Warwick Bank-Fraud Conspiracy Using Stolen Identities (David Alcantara)',
+    slug: 'rhode-island-alcantara-bank-fraud-stolen-identity-conspiracy',
+    description: `David Alcantara, of Warwick, Rhode Island, led a conspiracy that used stolen identities to open fraudulent bank accounts and then moved roughly $600,000 out of real customers' accounts at two Rhode Island banks into those fraudulent accounts, withdrawing the proceeds as cashier's checks. The same conspiracy also passed counterfeit $100 bills across Rhode Island, Massachusetts, and Connecticut by making small retail purchases with the fake bills, collecting genuine cash as change, and returning the purchased items for additional real cash. A federal jury convicted Alcantara of conspiracy to commit bank fraud, eight counts of aggravated identity theft, and conspiracy to pass counterfeit currency; he was sentenced in U.S. District Court in Providence to 60 months in federal prison, and the First Circuit Court of Appeals affirmed his conviction in September 2016. Unexplained new accounts, unfamiliar hard credit inquiries, or unrecognized transfers on an existing account — not just a lost card — can be the first sign that a stolen identity has been used to take over or spin off a bank account in one's name, which is why free annual credit reports and account alerts matter even for people who still have their original cards in hand.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Rhode Island", 'Warwick Post'],
+    sourceUrl: 'https://warwickpost.com/warwick-bank-fraud-mastermind-sentenced-to-5-years-in-prison/',
+    country: 'US',
+    state: 'RI',
+    firstRecorded: '2015-01-01',
+});
+
+UsNS.push({
+    name: 'Sioux Falls Online French Bulldog Sale Scam',
+    slug: 'south-dakota-sioux-falls-french-bulldog-online-sale-scam',
+    description: `In July 2019, a 19-year-old Sioux Falls, South Dakota woman paid $1,950 — part of it in Walmart gift cards — after responding to a French Bulldog puppy ad posted on KELOLAND Classifieds. The seller took the payment and never delivered the dog, then cut off contact, Sioux Falls police reported. The case is a documented local example of the advance-payment pet-sale fraud pattern, in which fake online puppy listings demand payment via untraceable methods, such as gift cards or wire transfer, before the "seller" disappears. Anyone buying a pet sight-unseen should insist on a live video call with the animal and refuse any payment method that can't be reversed, such as a gift card.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Sioux Falls Police Department', 'Dakota News Now'],
+    sourceUrl: 'https://www.dakotanewsnow.com/content/news/Sioux-Falls-woman-ends-up-victim-of-pet-sale-scam-513343221.html',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2019-07-01',
+});
+
+UsNS.push({
+    name: 'South Dakota DCI Statewide Sextortion Scheme Warning',
+    slug: 'south-dakota-dci-statewide-sextortion-scheme-warning',
+    description: `South Dakota Attorney General Marty Jackley and the Division of Criminal Investigation issued a public alert after DCI opened investigations into several sextortion incidents reported across the state within days of each other. Predators built rapport with victims through ordinary social-media conversation, coaxed them into sending sexually explicit photos or videos, then threatened to publish or distribute the material unless paid. The Attorney General's office directed targeted residents to contact local law enforcement rather than pay, describing the incidents as a coordinated statewide pattern rather than isolated cases. Anyone targeted by a sextortion threat is advised to stop all contact with the extortionist, not send any payment, preserve the messages as evidence, and report the threat to local police or the FBI rather than try to resolve it alone.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['South Dakota Attorney General', 'South Dakota Division of Criminal Investigation'],
+    sourceUrl: 'https://atg.sd.gov/OurOffice/Media/pressreleasesdetail.aspx?id=1446',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2023-01-01',
+});
+
+UsNS.push({
+    name: 'Sioux Falls Mercedes-Benz Sweepstakes Wire Scam',
+    slug: 'south-dakota-sioux-falls-mercedes-benz-sweepstakes-scam',
+    description: `A Sioux Falls, South Dakota woman lost roughly $23,000 over several months in 2026 after being told she had won a multi-million-dollar prize plus a new Mercedes-Benz, Sioux Falls police said. To "claim" the winnings she was given bank account numbers and instructed to wire funds through a series of other accounts; no prize ever materialized, and as of the department's July 2026 public warning no arrests had been made. The case reflects the classic sweepstakes-fraud structure of escalating "fees" or "taxes" demanded before a nonexistent prize can be released. A real sweepstakes never requires a winner to pay any fee or tax before receiving a prize.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['Sioux Falls Police Department', 'Dakota News Now'],
+    sourceUrl: 'https://www.dakotanewsnow.com/2026/07/13/sioux-falls-woman-loses-over-20000-sweepstakes-scam/',
+    country: 'US',
+    state: 'SD',
+    firstRecorded: '2026-07-13',
+});
+
+UsNS.push({
     name: 'TS Relief Group / TS Holding Unlimited Timeshare Exit Lawsuit',
     slug: 'ohio-ts-relief-group-ts-holding-timeshare-exit-lawsuit',
     description: `Ohio Attorney General Dave Yost's office sued TS Relief Group and TS Holding Unlimited, a New Jersey-based company that markets itself as offering relief from common timeshare scams, in Montgomery County Common Pleas Court, alleging the company used the same high-pressure, misleading sales tactics it claims to protect consumers from. According to the complaint, sales representatives met with prospective clients in person and misrepresented how well the company's "exit" service works and how quickly it would take effect, collected an upfront fee for the promised timeshare cancellation, and then simply stopped delivering the service or responding to follow-up calls and emails once payment cleared — the same failure-to-perform pattern reported separately by a Pennsylvania couple who received a nearly identical "Certificate of Guarantee" from a related entity, TS Consumer Protection, during a 2025 sales presentation at a Red Lobster restaurant. Yost's office says seven consumers reported a combined $68,239 in losses to the two companies. "Consumer protection lawsuits not only allow my office to recoup money for hard-working consumers," Yost said in announcing the filing, "but also send a clear message to shady businesses that deceptive practices are a no-go in Ohio." The suit seeks consumer restitution, civil penalties, and injunctive relief under Ohio's Consumer Sales Practices Act. Timeshare owners approached by an exit or cancellation company are advised to check the company's name — and any related aliases — against their state attorney general's lawsuit and complaint records before paying anything, to get the promised cancellation timeline and any money-back guarantee in writing, and to treat a company that goes silent after collecting an upfront fee as a reason to file a complaint immediately rather than keep waiting for a refund that a written "guarantee" does not actually force the company to pay.`,
