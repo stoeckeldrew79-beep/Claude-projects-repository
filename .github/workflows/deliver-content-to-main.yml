@@ -45,14 +45,41 @@ jobs:
           echo "count=$n" >> "$GITHUB_OUTPUT"
           echo "$n commit(s) to deliver"
 
-      - name: Set up Node
+      - name: Verify the pending commits are seed-data only
+        id: scope
         if: steps.check.outputs.count != '0'
+        # This workflow merges claude/scamshield-national-phase1 straight to
+        # main on every push and every 6 hours, with no PR gate in between —
+        # a draft PR opened elsewhere does not stop it. That's the right
+        # behavior for seed-data content, which is self-verified below by an
+        # actual DB boot before it ships. It is NOT safe for real app code
+        # (routes, components, migrations, workflow files), which needs a
+        # human review a scheduled bot can't provide. So: only auto-deliver
+        # when every file touched by the pending commits is seed data.
+        # Anything else halts delivery here (not a failure — just a stop)
+        # until it's merged to main through an actual reviewed PR instead.
+        run: |
+          touched=$(git diff --name-only HEAD..origin/claude/scamshield-national-phase1)
+          echo "Files touched by pending commits:"
+          echo "$touched"
+          offenders=$(echo "$touched" | grep -v '^scamshield-national/backend/src/db/seed-data/' || true)
+          if [ -n "$offenders" ]; then
+            echo "seed_data_only=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Delivery halted — pending commits touch non-seed-data files, which need a reviewed PR into main instead of this automated pipeline:"
+            echo "$offenders"
+          else
+            echo "seed_data_only=true" >> "$GITHUB_OUTPUT"
+            echo "All pending files are seed data — proceeding with automated delivery."
+          fi
+
+      - name: Set up Node
+        if: steps.check.outputs.count != '0' && steps.scope.outputs.seed_data_only == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Register the seed-data merge driver
-        if: steps.check.outputs.count != '0'
+        if: steps.check.outputs.count != '0' && steps.scope.outputs.seed_data_only == 'true'
         # .gitattributes marks the shard files merge=scamseed. Merge drivers
         # are per-clone config, so a fresh checkout has to register it before
         # the merge or git silently falls back to a plain text merge.
@@ -64,7 +91,7 @@ jobs:
           npm --prefix scamshield-national run test:merge-driver
 
       - name: Merge content branch
-        if: steps.check.outputs.count != '0'
+        if: steps.check.outputs.count != '0' && steps.scope.outputs.seed_data_only == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -76,7 +103,7 @@ jobs:
           fi
 
       - name: Verify the merged tree
-        if: steps.check.outputs.count != '0'
+        if: steps.check.outputs.count != '0' && steps.scope.outputs.seed_data_only == 'true'
         run: |
           fail=0
           check() { if eval "$2"; then echo "ok   $1"; else echo "FAIL $1"; fail=1; fi; }
@@ -89,7 +116,7 @@ jobs:
           exit $fail
 
       - name: Backend boot smoke test (build, migrate, seed)
-        if: steps.check.outputs.count != '0'
+        if: steps.check.outputs.count != '0' && steps.scope.outputs.seed_data_only == 'true'
         # Runs the exact sequence production runs on every boot
         # (package.json's "start" script), against a throwaway database,
         # before this content ever reaches main. This is the check that
@@ -109,5 +136,5 @@ jobs:
           node dist/db/seed.js
 
       - name: Push to main
-        if: steps.check.outputs.count != '0'
+        if: steps.check.outputs.count != '0' && steps.scope.outputs.seed_data_only == 'true'
         run: git push origin HEAD:main
