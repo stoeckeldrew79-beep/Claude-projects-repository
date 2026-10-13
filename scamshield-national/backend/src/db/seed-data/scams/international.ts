@@ -24839,6 +24839,42 @@ International.push({
 });
 
 International.push({
+  name: 'Bahrain Fake Luxury Watch Website Stolen Credit Card Scam',
+  slug: 'bahrain-fake-watch-website-stolen-card-scam',
+  description: `Bahrain's Public Prosecution charged a man who ran a fake e-commerce website and social-media storefront selling luxury watches, pushing hundreds of fraudulent transactions through nearly 50 stolen foreign credit cards for a total of BD132,000. The scheme was uncovered when Bahrain's National Financial Intelligence Centre flagged the suspicious card activity and the payment processor itself objected to the transactions, triggering the referral to prosecution. Shoppers drawn in by a too-good luxury-watch deal from an unfamiliar online store should check the seller's registration and reviews independently before entering any payment details.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'high',
+  sources: ['The Daily Tribune (Bahrain)'],
+  sourceUrl: 'https://www.newsofbahrain.com/bahrain/100126.html',
+  country: 'BH',
+  firstRecorded: '2024-06-14',
+});
+
+International.push({
+  name: 'Bahrain Fake Investment-Firm Job Recruitment Money-Mule Scam',
+  slug: 'bahrain-fake-investment-job-recruitment-money-mule-scam',
+  description: `Bahrain's Ministry of Interior warned that foreign-based criminals scrape CVs from LinkedIn and social media to recruit unemployed Bahrainis with fake salaried jobs at supposed Bahrain-based investment firms, then train the recruits to cold-call people and pitch forex and stock investments. Recruits unknowingly become money mules, directing victims to wire investment funds into the recruits' own personal bank accounts, which are then emptied abroad; the Interior Ministry's financial crimes unit said affected victims nationwide have lost more than BD200,000 combined, with little of it ever recovered. A job offer that asks a new hire to receive client funds into their own personal bank account rather than a company account is itself a sign the "employer" is using the recruit as a money launderer.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'high',
+  sources: ['Gulf Daily News', 'Bahrain Ministry of Interior — General Directorate of Anti-Corruption, Economic and Electronic Security'],
+  sourceUrl: 'https://www.gdnonline.com/Details/1275928/Scammers-target-keen-jobseekers',
+  country: 'BH',
+  firstRecorded: '2023-07-07',
+});
+
+International.push({
+  name: 'Bahrain Tampered Payment QR Code Fraud',
+  slug: 'bahrain-tampered-payment-qr-code-fraud',
+  description: `Hidd Police Station head Colonel Dr Osama Bahar warned Bahraini merchants that scammers have been tampering with or outright replacing printed BenefitPay and other payment QR codes at businesses, rerouting customers' payments into illicit accounts instead of the merchant's own, and placing fraudulent codes on parking meters, menus, and packages that redirect scanners to phishing sites or trigger malware downloads. He said business owners are held responsible for any unauthorized change to their own codes, and Bahrain's Interior Ministry said several arrests have been made in recent months of scammers impersonating BenefitPay or bank employees to extract victims' financial details. Merchants should periodically check their own displayed QR codes for tampering, and customers should confirm a payment amount and recipient name on-screen before approving any QR-code transaction.`,
+  categorySlug: 'qr-code-scams',
+  alertLevel: 'medium',
+  sources: ['Gulf Daily News', 'Bahrain Ministry of Interior — General Directorate of Anti-Corruption and Economic and Electronic Security'],
+  sourceUrl: 'https://www.gdnonline.com/Details/1370879',
+  country: 'BH',
+  firstRecorded: '2025-12-13',
+});
+
+International.push({
   name: 'Communication-Tower SMS Bank Impersonation Network Dismantled (Qatar)',
   slug: 'qatar-communication-tower-sms-bank-impersonation-network',
   description: `Qatar's Ministry of Interior announced on April 22, 2025 that its Economic and Cyber Crimes Combating Department had dismantled a 12-person criminal network, described as being of Asian nationality, that targeted communication towers in various areas of the country to broadcast fraudulent SMS messages at scale. The messages carried fake links impersonating banks and official government entities, directing recipients to pages designed to harvest credit card numbers, login credentials, and other personal and financial information once a victim clicked through and entered their details. Unlike a single spoofed sender number, the network's method of exploiting communication towers directly let it blast fraudulent texts to large numbers of phones in the vicinity without relying on a compromised contact list or an existing relationship with the victim. The Ministry said it would "take all necessary legal measures against those proven to be involved in such criminal activities" and urged the public to be cautious with unsolicited SMS and messaging-app texts, never to click suspicious links or enter personal or financial information through them, and to verify any message claiming to be from a bank or government body through the institution's own official channels before responding. Qatar residents who receive an SMS with a link claiming to be from a bank or government agency should go directly to the institution's known app or website rather than the link in the message, since a text's apparent origin near a real cell tower signal is no guarantee it came from a legitimate sender.`,
