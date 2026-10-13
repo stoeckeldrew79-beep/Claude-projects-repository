@@ -13829,3 +13829,55 @@ UsGM.push({
     state: 'KY',
     firstRecorded: '2022-10-17',
 });
+
+UsGM.push({
+    name: 'Honolulu "Amasse Capital" Ponzi Scheme',
+    slug: 'hawaii-honolulu-amasse-capital-ponzi-scheme',
+    description: `Syed Qadri ran Amasse Capital, LLC and an affiliated firm, Solomon & Co., LLC, out of Honolulu, marketing them as SEC-registered investment firms with a prospectus that falsely touted management credentials and promised impossible returns of 100% to 400% per month on supposedly low-risk, high-yield bonds. In reality the companies paid earlier investors with new investors' money in classic Ponzi fashion while Qadri diverted the rest to personal use, for a net victim loss exceeding $1.6 million. Qadri pleaded guilty to wire fraud and was sentenced to 51 months in federal prison; co-conspirators Ruben Carrillo Gonzalez (41 months) and Jeffrey Greenhut (24 months) were sentenced for soliciting investors and managing funds, and Qadri's wife, Patricia Roszkowski, received an additional month for a related fraudulent bank credit application — all were ordered to pay restitution. A promised monthly return in the triple digits is itself a red flag no legitimate licensed investment can deliver.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['ICE Homeland Security Investigations', "U.S. Attorney's Office, District of Hawaii"],
+    sourceUrl: 'https://www.ice.gov/news/releases/3-members-honolulu-investment-group-sentenced-defrauding-investors',
+    country: 'US',
+    state: 'HI',
+    firstRecorded: '2024-01-01',
+});
+
+UsGM.push({
+    name: 'Hawaii State FCU Two-Step "Verify Your Transaction" Account Takeover Scam',
+    slug: 'hawaii-state-fcu-two-step-text-account-takeover-scam',
+    description: `In January 2025, Hawaii State Federal Credit Union warned members of a two-step scheme built to seize control of their online banking: a text asks the recipient to confirm or deny a debit-card or bill-pay transaction, and anyone who replies is quickly contacted again — by phone or follow-up text — by a fraudster posing as a credit union representative who asks for online banking credentials, card numbers, or other account details under the guise of resolving the "disputed" charge. Unlike a scam that tricks a victim into wiring money themselves, this one hands the fraudster the login details needed to get directly into the real account and move money out. The credit union stressed it will never request passwords or account numbers by phone, email, or text, and told members who receive such a message not to reply or click any link but instead to verify by calling its official member service line directly.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Hawaii State Federal Credit Union', 'Maui Now'],
+    sourceUrl: 'https://mauinow.com/2025/01/28/scam-alert-hawaii-state-fcu-warns-of-new-financial-scam-targeting-residents/',
+    country: 'US',
+    state: 'HI',
+    firstRecorded: '2025-01-28',
+});
+
+UsGM.push({
+    name: 'Louisiana "Grandparent Scam" Holiday Impersonation Alert',
+    slug: 'louisiana-grandparent-scam-holiday-alert',
+    description: `In January 2026, Louisiana Attorney General Liz Murrill warned that "grandparent scams" were again circulating statewide after the holidays, in which a caller or texter impersonates a relative or grandchild claiming to have been in an accident or arrested and needs money sent immediately. Murrill called the calls "100% scams" and urged families to contact the relevant law enforcement agency directly to verify rather than wiring money, noting that elderly residents are frequently targeted because they often live alone and hold savings.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'medium',
+    sources: ['Louisiana Attorney General', 'Houma Times'],
+    sourceUrl: 'https://houmatimes.com/?p=221467',
+    country: 'US',
+    state: 'LA',
+    firstRecorded: '2026-01-05',
+});
+
+UsGM.push({
+    name: 'Tangipahoa Parish Holiday Package Delivery Fee Scam',
+    slug: 'louisiana-tangipahoa-parish-package-delivery-fee-scam',
+    description: `In November 2025, the Tangipahoa Parish Sheriff's Office warned residents of a holiday-season scam in which callers, texters, or emailers claim a package is being held and demand a fee to release it, with a related version claiming the recipient owes money directly to Amazon. Deputies advised anyone contacted this way not to respond, send money, meet with strangers, or leave cash in a box, and to hang up immediately, warning that the same contacts often pressure victims toward gift-card or bitcoin-kiosk payments.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'low',
+    sources: ["Tangipahoa Parish Sheriff's Office", 'WBRZ'],
+    sourceUrl: 'https://www.wbrz.com/news/tangipahoa-parish-sheriff-s-office-warns-of-three-new-scams-as-holiday-season-begins',
+    country: 'US',
+    state: 'LA',
+    firstRecorded: '2025-11-11',
+});

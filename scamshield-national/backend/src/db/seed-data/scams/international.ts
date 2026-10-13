@@ -25101,3 +25101,39 @@ International.push({
   country: 'EC',
   firstRecorded: '2024-11-01',
 });
+
+International.push({
+  name: 'Bahrain Fake Luxury Watch Website Stolen Credit Card Scam',
+  slug: 'bahrain-fake-watch-website-stolen-card-scam',
+  description: `Bahrain's Public Prosecution charged a man who ran a fake e-commerce website and social-media storefront selling luxury watches, pushing hundreds of fraudulent transactions through nearly 50 stolen foreign credit cards for a total of BD132,000. The scheme was uncovered when Bahrain's National Financial Intelligence Centre flagged the suspicious card activity and the payment processor itself objected to the transactions, triggering the referral to prosecution. Shoppers drawn in by a too-good luxury-watch deal from an unfamiliar online store should check the seller's registration and reviews independently before entering any payment details.`,
+  categorySlug: 'online-shopping-scams',
+  alertLevel: 'high',
+  sources: ['The Daily Tribune (Bahrain)'],
+  sourceUrl: 'https://www.newsofbahrain.com/bahrain/100126.html',
+  country: 'BH',
+  firstRecorded: '2024-06-14',
+});
+
+International.push({
+  name: 'Bahrain Fake Investment-Firm Job Recruitment Money-Mule Scam',
+  slug: 'bahrain-fake-investment-job-recruitment-money-mule-scam',
+  description: `Bahrain's Ministry of Interior warned that foreign-based criminals scrape CVs from LinkedIn and social media to recruit unemployed Bahrainis with fake salaried jobs at supposed Bahrain-based investment firms, then train the recruits to cold-call people and pitch forex and stock investments. Recruits unknowingly become money mules, directing victims to wire investment funds into the recruits' own personal bank accounts, which are then emptied abroad; the Interior Ministry's financial crimes unit said affected victims nationwide have lost more than BD200,000 combined, with little of it ever recovered. A job offer that asks a new hire to receive client funds into their own personal bank account rather than a company account is itself a sign the "employer" is using the recruit as a money launderer.`,
+  categorySlug: 'employment-scams',
+  alertLevel: 'high',
+  sources: ['Gulf Daily News', 'Bahrain Ministry of Interior — General Directorate of Anti-Corruption, Economic and Electronic Security'],
+  sourceUrl: 'https://www.gdnonline.com/Details/1275928/Scammers-target-keen-jobseekers',
+  country: 'BH',
+  firstRecorded: '2023-07-07',
+});
+
+International.push({
+  name: 'Bahrain Tampered Payment QR Code Fraud',
+  slug: 'bahrain-tampered-payment-qr-code-fraud',
+  description: `Hidd Police Station head Colonel Dr Osama Bahar warned Bahraini merchants that scammers have been tampering with or outright replacing printed BenefitPay and other payment QR codes at businesses, rerouting customers' payments into illicit accounts instead of the merchant's own, and placing fraudulent codes on parking meters, menus, and packages that redirect scanners to phishing sites or trigger malware downloads. He said business owners are held responsible for any unauthorized change to their own codes, and Bahrain's Interior Ministry said several arrests have been made in recent months of scammers impersonating BenefitPay or bank employees to extract victims' financial details. Merchants should periodically check their own displayed QR codes for tampering, and customers should confirm a payment amount and recipient name on-screen before approving any QR-code transaction.`,
+  categorySlug: 'qr-code-scams',
+  alertLevel: 'medium',
+  sources: ['Gulf Daily News', 'Bahrain Ministry of Interior — General Directorate of Anti-Corruption and Economic and Electronic Security'],
+  sourceUrl: 'https://www.gdnonline.com/Details/1370879',
+  country: 'BH',
+  firstRecorded: '2025-12-13',
+});
