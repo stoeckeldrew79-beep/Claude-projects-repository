@@ -12790,3 +12790,15 @@ UsAF.push({
     country: "US",
     state: "VT",
 });
+
+UsAF.push({
+    name: "Brushing Package Scam",
+    slug: "brushing-package-scam",
+    description:
+      "You receive a package you never ordered, addressed to you by name, with no sender information inside. A third-party marketplace seller got your name and address from a data breach, data broker, or public record, then shipped you a cheap item so they could post a fake verified purchase review under your identity to boost their product rankings. Nobody asks you for money, which is why many people shrug it off, but the real signal is that someone holds your personal data and has created an account tied to you. Some reported parcels also include a card or slip with a QR code promising to reveal the sender or register a free gift, which can lead to a credential-phishing page or malware. Do not scan unexpected QR codes, report the unsolicited delivery to the U.S. Postal Inspection Service, and check your accounts and credit reports for unauthorized activity.",
+    categorySlug: "package-delivery-scams",
+    alertLevel: "medium",
+    sources: ["U.S. Postal Inspection Service: Brushing Scam","U.S. Postal Inspection Service: Quishing (QR-code fraud)"],
+    sourceUrl: "https://www.uspis.gov/news/scam-article/brushing-scam",
+    country: "US",
+});

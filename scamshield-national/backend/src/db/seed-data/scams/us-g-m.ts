@@ -13971,3 +13971,15 @@ UsGM.push({
     sourceUrl: "https://www.ic3.gov/PSA/2026/PSA260720",
     country: "US",
 });
+
+UsGM.push({
+    name: "Gamified Task Job Scam",
+    slug: "gamified-task-job-scam",
+    description:
+      "A stranger contacts you by text or WhatsApp, often with a wrong-number-style opener, offering flexible online work. You are onboarded onto an app or website where you complete meaningless repetitive tasks such as clicking product listings, liking videos, or rating hotels, and a dashboard shows your earnings growing. Small early payouts are real, which builds your trust, but then your commission gets locked and you are told to deposit your own money, usually cryptocurrency, to unlock a completed task set or reach a higher-paying tier. Each deposit triggers another blocked set requiring a bigger payment, and the balance on the screen never actually exists. Never send money to an employer to unlock your own earnings, and report the approach to the FTC at ReportFraud.ftc.gov.",
+    categorySlug: "job-task-scams",
+    alertLevel: "high",
+    sources: ["FTC consumer alert: Task scams create the illusion of making money","FTC press release: New FTC data show skyrocketing consumer reports about game-like online job scams"],
+    sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2024/11/task-scams-create-illusion-making-money",
+    country: "US",
+});
