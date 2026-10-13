@@ -12764,3 +12764,16 @@ UsAF.push({
     state: 'DE',
     firstRecorded: '2012-03-01',
 });
+
+UsAF.push({
+    name: "CIPA Website Wiretapping Demand-Letter Scam",
+    slug: "cipa-website-wiretapping-demand-letter-scam",
+    description:
+      "Businesses and nonprofits are receiving mass-mailed demand letters accusing them of illegally wiretapping their own website visitors under the California Invasion of Privacy Act (CIPA). The letters point to ordinary website technology such as cookies, tracking pixels, analytics software, and site search bars, and reframe it as criminal surveillance, then demand immediate payment to avoid a lawsuit. Senders often attach screenshots of the recipient's website and a draft complaint to look credible and create urgency, and they target out-of-state entities including a surge of Texas businesses and nonprofits. Receiving such a letter proves nothing, and these demands may exaggerate or misrepresent any actual violation of law; one serial CIPA demand-letter sender, Vivek Shah, has been declared a vexatious litigant and barred from filing new CIPA claims in the Central District of California without court permission. Do not pay on the spot: have an attorney review the letter, and report abusive or deceptive demands to the Texas Attorney General's Consumer Protection Division at 1-800-621-0508 or through its online complaint form.",
+    categorySlug: "legal-debt-collection",
+    alertLevel: "medium",
+    sources: ["Texas Attorney General's Office, Consumer Protection Division — Consumer Alert, September 17, 2026"],
+    sourceUrl: "https://www.texasattorneygeneral.gov/news/releases/consumer-alert-attorney-general-ken-paxton-warns-texans-scam-demand-letters-alleging-website-privacy",
+    country: "US",
+    state: "TX",
+});

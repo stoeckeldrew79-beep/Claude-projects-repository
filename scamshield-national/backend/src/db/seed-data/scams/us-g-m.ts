@@ -13959,3 +13959,15 @@ UsGM.push({
     state: 'ID',
     firstRecorded: '2023-10-01',
 });
+
+UsGM.push({
+    name: "IC3 Impersonation Fund-Recovery Revictimization Scam",
+    slug: "ic3-impersonation-fund-recovery-revictimization-scam",
+    description:
+      "Criminals are impersonating the FBI's Internet Crime Complaint Center (IC3) — the very office people report fraud to — in order to re-target people who have already lost money. They approach prior victims on Facebook, Telegram, and similar platforms offering to recover stolen funds, even though IC3 maintains no social media presence and never investigates crimes or recovers funds that way. Victims are steered to a spoofed IC3 website where only the complaint submission form works and every other link just returns to the home page, so the site exists purely to harvest personal and financial data. To defeat suspicion, the scammers use AI-generated video of law enforcement officials, executives, or other public figures in live video chats and private messages to 'prove' the victim is talking to a real person, backed by caller ID spoofing and pressure tactics. If someone contacts you promising to recover funds you lost, do not pay or share information; go directly to ic3.gov yourself and report the impersonation attempt there.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["FBI Internet Crime Complaint Center (IC3), Public Service Announcement I-260720"],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA260720",
+    country: "US",
+});
