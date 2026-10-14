@@ -3,13 +3,23 @@ import * as ScamReportsModel from '../models/scamReports';
 import * as ScamsModel from '../models/scams';
 import * as ReportFilingsModel from '../models/reportFilings';
 import { asyncHandler } from '../utils/asyncHandler';
+import { InvalidStateError, isUsStateCode, resolveReportState } from '../utils/usStates';
 
 export const create = asyncHandler<AuthedRequest>(async (req, res) => {
   const { description } = req.body as { description?: string };
   if (!description || description.trim().length < 10) {
     return res.status(400).json({ error: 'description is required (at least 10 characters)' });
   }
-  const report = await ScamReportsModel.createReport(req.body);
+
+  let location;
+  try {
+    location = resolveReportState(req.body);
+  } catch (err) {
+    if (err instanceof InvalidStateError) return res.status(400).json({ error: err.message });
+    throw err;
+  }
+
+  const report = await ScamReportsModel.createReport({ ...req.body, ...location });
   res.status(201).json({ data: report });
 });
 
@@ -82,5 +92,30 @@ export const dismiss = asyncHandler<AuthedRequest>(async (req, res) => {
     reviewed_at: new Date(),
   });
   if (!updated) return res.status(404).json({ error: 'Report not found' });
+  res.json({ data: updated });
+});
+
+// Staff correction of where a scam happened — see updateReportState.
+// Body: { state: "TX" } to set, { state: null } to clear.
+export const setState = asyncHandler<AuthedRequest>(async (req, res) => {
+  const raw = (req.body as { state?: unknown }).state;
+  if (raw === undefined) return res.status(400).json({ error: 'state is required (a US state code, or null to clear)' });
+
+  let state = null;
+  if (raw !== null && raw !== '') {
+    const code = typeof raw === 'string' ? raw.trim().toUpperCase() : '';
+    if (!isUsStateCode(code)) {
+      return res.status(400).json({ error: 'state must be a two-letter US state code (50 states + DC)' });
+    }
+    state = code;
+  }
+
+  const existing = await ScamReportsModel.getReportById(req.params.id);
+  if (!existing) return res.status(404).json({ error: 'Report not found' });
+  if (state && (existing.country ?? 'US') !== 'US') {
+    return res.status(400).json({ error: 'Only US reports can carry a state' });
+  }
+
+  const updated = await ScamReportsModel.updateReportState(req.params.id, state);
   res.json({ data: updated });
 });

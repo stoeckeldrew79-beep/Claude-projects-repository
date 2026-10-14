@@ -68,3 +68,8 @@ export function stateSlug(code: string): string {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '');
 }
+
+// [code, name] pairs sorted by name, for state <select>s.
+export const US_STATE_OPTIONS: [string, string][] = Object.entries(US_STATE_NAMES).sort(([, a], [, b]) =>
+  a.localeCompare(b)
+);

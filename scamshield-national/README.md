@@ -59,8 +59,10 @@ Implemented:
   /alert-candidates/:id/approve`) creates a real row in `alerts` and fires the existing
   SMS/email `broadcastAlert` fan-out to matching subscribers immediately, dismissing marks it
   resolved with no send. Nothing ever reaches a real subscriber without a human approving it
-  first. Detection currently aggregates nationwide (`is_nationwide: true` on every candidate) —
-  state-scoped alerts would need `scam_reports` to reliably carry a state on submission first.
+  first. Detection currently aggregates nationwide (`is_nationwide: true` on every candidate).
+  Reports now carry a validated, optional state (50 states + DC): the reporter's pick, else derived
+  from a US ZIP, else set by staff in the `/admin` reports queue — `scam_reports.state_source`
+  records which. That's the groundwork for state-scoped detection, which isn't built yet.
 - Digest alert subscriptions (`/alerts` page, `/v1/alert-subscriptions`): every tier now gets a
   periodic email of newly-documented scams matching the subscriber's own state/category
   watch profiles — the "live feed as cases are documented" product, distinct from the

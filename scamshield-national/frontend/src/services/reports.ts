@@ -19,6 +19,8 @@ export interface NewScamReport {
 
 export interface ScamReport extends NewScamReport {
   id: string;
+  // How `state` was established — see backend migration 029.
+  state_source: 'reporter' | 'zip' | 'admin' | null;
   status: 'pending' | 'reviewed' | 'promoted' | 'dismissed';
   created_at: string;
 }
@@ -75,6 +77,11 @@ export async function promoteReport(id: string, payload: { name: string; slug: s
 
 export async function dismissReport(id: string) {
   const { data } = await api.post(`/reports/${id}/dismiss`);
+  return data.data;
+}
+
+export async function setReportState(id: string, state: string | null) {
+  const { data } = await api.patch<{ data: ScamReport }>(`/reports/${id}/state`, { state });
   return data.data;
 }
 

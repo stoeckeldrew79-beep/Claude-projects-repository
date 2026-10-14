@@ -4,13 +4,7 @@ import { useSubmitReport } from '../hooks/useReports';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { useCategories } from '../hooks/useScams';
 import { formatPhoneDisplay, PUBLIC_PHONE, telHref } from '../utils/publicPhone';
-
-const US_STATES = [
-  'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS',
-  'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ', 'NM', 'NY',
-  'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV',
-  'WI', 'WY',
-];
+import { US_STATE_OPTIONS } from '../utils/usStates';
 
 export default function Report() {
   useDocumentMeta({
@@ -228,28 +222,34 @@ export default function Report() {
               <option value="AU">Australia</option>
               <option value="OTHER">Other</option>
             </select>
-            {country === 'US' ? (
+            {country === 'US' && (
               <select
                 value={state}
                 onChange={(e) => setState(e.target.value)}
+                aria-label="State where this happened"
                 className="rounded-md border border-slate-300 px-3 py-2 text-sm"
               >
-                <option value="">State</option>
-                {US_STATES.map((s) => (
-                  <option key={s} value={s}>
-                    {s}
+                <option value="">State where this happened (optional)</option>
+                {US_STATE_OPTIONS.map(([code, name]) => (
+                  <option key={code} value={code}>
+                    {name}
                   </option>
                 ))}
               </select>
-            ) : (
-              <input
-                value={zip}
-                onChange={(e) => setZip(e.target.value)}
-                placeholder="Postal code (optional)"
-                className="rounded-md border border-slate-300 px-3 py-2 text-sm"
-              />
             )}
+            <input
+              value={zip}
+              onChange={(e) => setZip(e.target.value)}
+              placeholder={country === 'US' ? 'ZIP code (optional)' : 'Postal code (optional)'}
+              inputMode={country === 'US' ? 'numeric' : undefined}
+              className="rounded-md border border-slate-300 px-3 py-2 text-sm"
+            />
           </div>
+          {country === 'US' && (
+            <p className="mt-2 text-xs text-slate-500">
+              Telling us the state helps us warn people nearby when the same scam starts spreading there.
+            </p>
+          )}
         </fieldset>
 
         <fieldset className="border border-slate-200 rounded-lg p-4">
