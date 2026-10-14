@@ -20,7 +20,7 @@ import {
 } from '../hooks/useReports';
 import { ScamReport } from '../services/reports';
 import { COUNTRY_NAMES } from '../utils/countries';
-import { US_STATE_OPTIONS } from '../utils/usStates';
+import { stateName, US_STATE_OPTIONS } from '../utils/usStates';
 import { useApproveDraft, useDiscardDraft, useDraftArticles } from '../hooks/useDrafts';
 import { useApproveAlertCandidate, useDismissAlertCandidate, usePendingAlertCandidates } from '../hooks/useAlertCandidates';
 import { AlertCandidate } from '../types';
@@ -668,7 +668,10 @@ function AlertCandidateCard({ candidate }: { candidate: AlertCandidate }) {
 
       <p className="mt-2 text-sm text-slate-600">{candidate.body}</p>
       <p className="mt-2 text-xs text-slate-400">
-        Would go to: {candidate.is_nationwide ? 'all opted-in subscribers nationwide' : `${candidate.state ?? candidate.zip_code} subscribers`}
+        Would go to:{' '}
+        {candidate.is_nationwide
+          ? 'all opted-in subscribers nationwide'
+          : `${candidate.state ? stateName(candidate.state) : candidate.zip_code} subscribers only`}
       </p>
 
       <div className="mt-3 flex gap-2">

@@ -11,14 +11,17 @@
 // it's built directly from the same verified counts/contacts the detector
 // found — no model call, nothing to hallucinate.
 //
-// Note on geographic targeting: detection currently aggregates across ALL
-// reports nationwide (the underlying SQL doesn't group by state), so
-// every candidate here is_nationwide=true. State-scoped detection would
-// need scam_reports to reliably carry a state on each report first.
+// Geographic targeting: off by default, every candidate is nationwide.
+// With ALERTS_STATE_DETECTION=1 (see services/stateTargeting.ts), a
+// recurring contact whose reports all come from one state is targeted to
+// that state, and a category spiking in one state but not nationally gets
+// a state-only candidate. Both still go through the same admin review.
 import 'dotenv/config';
 import { pool } from '../db/connection';
-import { DetectedPattern, detectAllPatterns } from '../services/patternDetection';
+import { DetectedPattern, detectAllPatterns, detectStateCategorySpikes } from '../services/patternDetection';
+import { isStateDetectionEnabled, PlannedAlert, planAlerts } from '../services/stateTargeting';
 import * as alertCandidatesModel from '../models/alertCandidates';
+import { US_STATE_NAMES } from '../utils/usStates';
 
 function contactTypeLabel(contact: string): string {
   if (contact.includes('@')) return 'email address';
@@ -26,19 +29,23 @@ function contactTypeLabel(contact: string): string {
   return 'website';
 }
 
-function buildCandidate(pattern: DetectedPattern): alertCandidatesModel.NewAlertCandidate | null {
-  const { input, dedupeTag } = pattern;
+export function buildCandidate({ pattern, state, dedupeTag }: PlannedAlert): alertCandidatesModel.NewAlertCandidate | null {
+  const { input } = pattern;
+  const place = state ? US_STATE_NAMES[state] : null;
+  const targeting = { state, is_nationwide: state === null };
 
   if (input.kind === 'recurring_contact' && input.recurringContact) {
     const contact = input.recurringContact;
     const type = contactTypeLabel(contact);
-    const approxCount = input.reportDescriptions.length;
+    const approxCount = pattern.reportCount ?? input.reportDescriptions.length;
     return {
       dedupe_tag: dedupeTag,
-      title: `Recurring scam contact reported: ${contact}`,
-      body: `The same ${type} — ${contact} — has now shown up in at least ${approxCount} separate scam reports over the past 60 days. If you've been contacted by this ${type}, don't send money, gift cards, or personal information. Report it at ScamShieldNational.com.`,
+      title: place
+        ? `Recurring scam contact reported in ${place}: ${contact}`
+        : `Recurring scam contact reported: ${contact}`,
+      body: `The same ${type} — ${contact} — has now shown up in at least ${approxCount} separate scam reports over the past 60 days${place ? `, concentrated in ${place}` : ''}. If you've been contacted by this ${type}, don't send money, gift cards, or personal information. Report it at ScamShieldNational.com.`,
       alert_level: 'high',
-      is_nationwide: true,
+      ...targeting,
       pattern_type: 'recurring_contact',
     };
   }
@@ -46,10 +53,10 @@ function buildCandidate(pattern: DetectedPattern): alertCandidatesModel.NewAlert
   if (input.kind === 'category_spike' && input.categoryName) {
     return {
       dedupe_tag: dedupeTag,
-      title: `Reports rising: ${input.categoryName}`,
-      body: `Reports of ${input.categoryName} have risen to ${input.countLast30d} in the past 30 days, up from ${input.countPrior30d} the 30 days before that. If this matches something you've recently seen, learn the warning signs at ScamShieldNational.com.`,
+      title: place ? `Reports rising in ${place}: ${input.categoryName}` : `Reports rising: ${input.categoryName}`,
+      body: `Reports of ${input.categoryName}${place ? ` in ${place}` : ''} have risen to ${input.countLast30d} in the past 30 days, up from ${input.countPrior30d} the 30 days before that. If this matches something you've recently seen, learn the warning signs at ScamShieldNational.com.`,
       alert_level: 'medium',
-      is_nationwide: true,
+      ...targeting,
       pattern_type: 'category_spike',
     };
   }
@@ -57,18 +64,31 @@ function buildCandidate(pattern: DetectedPattern): alertCandidatesModel.NewAlert
   return null;
 }
 
+async function planFromDatabase(): Promise<PlannedAlert[]> {
+  const national = await detectAllPatterns();
+  if (!isStateDetectionEnabled()) {
+    return national.map((pattern: DetectedPattern) => ({ pattern, state: null, dedupeTag: pattern.dedupeTag }));
+  }
+  const stateSpikes = await detectStateCategorySpikes();
+  const existing = await alertCandidatesModel.existingTags(national.map((p) => p.dedupeTag));
+  return planAlerts(national, stateSpikes, existing);
+}
+
 async function main() {
-  const patterns = await detectAllPatterns();
+  const planned = await planFromDatabase();
   let queued = 0;
 
-  for (const pattern of patterns) {
-    const candidate = buildCandidate(pattern);
+  for (const plan of planned) {
+    const candidate = buildCandidate(plan);
     if (!candidate) continue;
     const inserted = await alertCandidatesModel.insertCandidate(candidate);
     if (inserted) queued += 1;
   }
 
-  console.log(`generateAlertCandidates: ${patterns.length} patterns detected, ${queued} new alert candidates queued for review`);
+  const stateScoped = planned.filter((p) => p.state).length;
+  console.log(
+    `generateAlertCandidates: ${planned.length} patterns detected (${stateScoped} state-targeted; state detection ${isStateDetectionEnabled() ? 'on' : 'off'}), ${queued} new alert candidates queued for review`
+  );
   await pool.end();
 }
 

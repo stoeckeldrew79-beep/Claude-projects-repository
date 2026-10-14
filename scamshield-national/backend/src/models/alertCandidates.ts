@@ -50,6 +50,17 @@ export async function insertCandidate(candidate: NewAlertCandidate) {
   return rows[0] ?? null;
 }
 
+// Which of these dedupe tags already have a candidate row, whatever its
+// status.
+export async function existingTags(tags: string[]): Promise<Set<string>> {
+  if (tags.length === 0) return new Set();
+  const { rows } = await pool.query<{ dedupe_tag: string }>(
+    'SELECT dedupe_tag FROM alert_candidates WHERE dedupe_tag = ANY($1)',
+    [tags]
+  );
+  return new Set(rows.map((r) => r.dedupe_tag));
+}
+
 export async function listPending(): Promise<AlertCandidate[]> {
   const { rows } = await pool.query<AlertCandidate>(
     `SELECT * FROM alert_candidates WHERE status = 'pending' ORDER BY created_at DESC LIMIT 50`

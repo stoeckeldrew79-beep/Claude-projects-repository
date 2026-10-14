@@ -59,10 +59,10 @@ Implemented:
   /alert-candidates/:id/approve`) creates a real row in `alerts` and fires the existing
   SMS/email `broadcastAlert` fan-out to matching subscribers immediately, dismissing marks it
   resolved with no send. Nothing ever reaches a real subscriber without a human approving it
-  first. Detection currently aggregates nationwide (`is_nationwide: true` on every candidate).
-  Reports now carry a validated, optional state (50 states + DC): the reporter's pick, else derived
-  from a US ZIP, else set by staff in the `/admin` reports queue — `scam_reports.state_source`
-  records which. That's the groundwork for state-scoped detection, which isn't built yet.
+  first. Reports carry a validated, optional state (50 states + DC): the reporter's pick, else
+  derived from a US ZIP, else set by staff in the `/admin` reports queue — `scam_reports.state_source`
+  records which. State-targeted alerts are built but **off by default** (every candidate is
+  nationwide); see "State-targeted alerts" below.
 - Digest alert subscriptions (`/alerts` page, `/v1/alert-subscriptions`): every tier now gets a
   periodic email of newly-documented scams matching the subscriber's own state/category
   watch profiles — the "live feed as cases are documented" product, distinct from the
@@ -350,6 +350,25 @@ Example crontab entry for a daily 6am run:
 
 Like `draft-articles`, nothing here reaches a real subscriber automatically — every candidate
 sits in the admin review queue until approved.
+
+### State-targeted alerts
+
+Off by default. Set `ALERTS_STATE_DETECTION=1` in the environment that runs `detect-alerts` to
+turn it on; unset it (or set `0`) to go back to nationwide-only. No deploy or migration needed
+either way. When on:
+
+- **Recurring scammer contact** — the alert goes to one state's subscribers instead of nationwide
+  when at least 2 of the contact's reports name a state, they all name the same one, and they
+  are at least half of its reports. Otherwise it stays nationwide. A contact already queued as a
+  nationwide alert is never re-alerted for a single state.
+- **Category spike** — a category with at least 5 reports in one state in the last 30 days, up
+  on the 30 days before, gets a state-only candidate — unless the same category is already
+  spiking nationally, in which case the nationwide alert covers that state too.
+
+State-targeted alerts reach subscribers whose account `state` (or ZIP) matches. They go through
+the same admin review as everything else, and the queue shows which state each one targets.
+Rules live in `backend/src/services/stateTargeting.ts`. It's worth waiting until a few weeks
+of reports carry a state before turning this on.
 
 ## Scheduling alert digests
 
