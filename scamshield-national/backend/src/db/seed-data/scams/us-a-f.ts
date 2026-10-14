@@ -12815,3 +12815,16 @@ UsAF.push({
     country: "US",
     state: "MA",
 });
+
+UsAF.push({
+    name: "Fake Health Coverage Websites and Junk Plans Timed to Oregon's Open Enrollment Deadline",
+    slug: "fake-health-coverage-websites-junk-plans-oregon-open-enrollment",
+    description:
+      "Oregon's Division of Financial Regulation warned in January 2026 that scam websites, high-pressure sales calls, and limited-benefit products were being marketed to Oregonians as real comprehensive health insurance as the state's January 15 enrollment deadline closed. Operators target people searching online for coverage, promising \"free\" or \"guaranteed\" insurance and demanding payment or personal information before eligibility is ever confirmed. The plans sold this way often exclude essential health benefits such as prescriptions, mental health care, or preventive services, and short-term products are passed off as full coverage. Because the plans frequently fail federal standards, the harm shows up later as unexpected medical bills when you actually need care. Slow down despite the deadline pressure, never pay or hand over personal data before eligibility is verified, and confirm any plan or agent through the Oregon Division of Financial Regulation before enrolling.",
+    categorySlug: "medicare-health-plans",
+    alertLevel: "medium",
+    sources: ["Oregon Department of Consumer and Business Services — Division of Financial Regulation, consumer alert from Insurance Commissioner TK Keen, Jan. 12, 2026"],
+    sourceUrl: "https://dfr.oregon.gov/news/news2026/Pages/20260112-beware-health-coverage-scams.aspx",
+    country: "US",
+    state: "OR",
+});

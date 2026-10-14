@@ -13181,3 +13181,16 @@ UsNS.push({
     country: "US",
     state: "MA",
 });
+
+UsNS.push({
+    name: "\"OHA Choice\" Fake Health Survey Calls Impersonating the Oregon Health Authority",
+    slug: "oha-choice-fake-health-survey-calls",
+    description:
+      "Scammers are calling Oregonians and claiming to be from the Oregon Health Authority under a made-up program name, \"OHA Choice,\" saying they are conducting a survey about your personal health. The survey framing is a pretext to ask escalating questions and harvest medical record details, Social Security numbers, and bank or credit card information. OHA has confirmed it runs no program or survey by that name; the scheme was discovered when an actual OHA employee received one of the calls. The same approach has also appeared by text and email, and Oregon Health Plan members are a particular target. Never give personal or medical information over the phone to someone you did not contact yourself, hang up and block the number, do not reply to survey texts, and report the contact to the Oregon DOJ consumer hotline at 1-877-877-9392 or oregonconsumer.gov.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Oregon Health Authority / Oregon Department of Human Services — Information Security and Privacy Office (ISPO), joint ODHS|OHA Scam Alert bulletin, Oct. 28, 2022","Oregon Health Authority — Report Fraud page (oregon.gov/oha/fod/piau/pages/report-fraud.aspx)"],
+    sourceUrl: "https://content.govdelivery.com/accounts/ORDHS/bulletins/334dda0",
+    country: "US",
+    state: "OR",
+});
