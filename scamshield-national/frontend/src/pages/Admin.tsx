@@ -15,10 +15,12 @@ import {
   useFilings,
   usePendingReports,
   usePromoteReport,
+  useSetReportState,
   useUpdateFiling,
 } from '../hooks/useReports';
 import { ScamReport } from '../services/reports';
 import { COUNTRY_NAMES } from '../utils/countries';
+import { US_STATE_OPTIONS } from '../utils/usStates';
 import { useApproveDraft, useDiscardDraft, useDraftArticles } from '../hooks/useDrafts';
 import { useApproveAlertCandidate, useDismissAlertCandidate, usePendingAlertCandidates } from '../hooks/useAlertCandidates';
 import { AlertCandidate } from '../types';
@@ -489,6 +491,36 @@ function FilingsPanel({ reportId }: { reportId: string }) {
   );
 }
 
+// Alert targeting matches a report's state against subscribers' states, and
+// reporters often name the state only in the description — so staff can
+// set or correct it here. Saved as state_source='admin'.
+function ReportStateEditor({ report }: { report: ScamReport }) {
+  const setState = useSetReportState();
+
+  return (
+    <div className="mt-2 flex items-center gap-2 text-xs text-slate-500">
+      <label htmlFor={`report-state-${report.id}`} className="font-medium">
+        State where it happened:
+      </label>
+      <select
+        id={`report-state-${report.id}`}
+        value={report.state ?? ''}
+        onChange={(e) => setState.mutate({ id: report.id, state: e.target.value || null })}
+        disabled={setState.isPending}
+        className="rounded-md border border-slate-300 px-2 py-1 text-xs"
+      >
+        <option value="">Unknown</option>
+        {US_STATE_OPTIONS.map(([code, name]) => (
+          <option key={code} value={code}>
+            {name}
+          </option>
+        ))}
+      </select>
+      {setState.isError && <span className="text-red-700">Couldn't save.</span>}
+    </div>
+  );
+}
+
 function ReportCard({ report }: { report: ScamReport }) {
   const [promoting, setPromoting] = useState(false);
   const [name, setName] = useState('');
@@ -523,13 +555,20 @@ function ReportCard({ report }: { report: ScamReport }) {
             <dt className="inline font-medium">Money lost:</dt> <dd className="inline">${report.money_lost_amount}</dd>
           </div>
         )}
-        {(report.state || report.country) && (
+        {(report.state || report.country || report.zip_code) && (
           <div>
             <dt className="inline font-medium">Location:</dt>{' '}
-            <dd className="inline">{[report.state, report.country].filter(Boolean).join(', ')}</dd>
+            <dd className="inline">
+              {[report.state, report.zip_code, report.country].filter(Boolean).join(', ')}
+              {report.state_source && report.state_source !== 'reporter' && (
+                <span className="text-slate-400"> (state from {report.state_source === 'zip' ? 'ZIP' : 'staff'})</span>
+              )}
+            </dd>
           </div>
         )}
       </dl>
+
+      {(report.country ?? 'US') === 'US' && <ReportStateEditor report={report} />}
 
       {report.consent_to_file && <FilingsPanel reportId={report.id} />}
 

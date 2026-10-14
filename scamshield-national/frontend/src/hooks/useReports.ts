@@ -7,6 +7,7 @@ import {
   fetchReports,
   fetchReportStatus,
   promoteReport,
+  setReportState,
   submitReport,
   updateFiling,
 } from '../services/reports';
@@ -48,6 +49,14 @@ export function useDismissReport() {
   const queryClient = useQueryClient();
   return useMutation({
     mutationFn: (id: string) => dismissReport(id),
+    onSuccess: () => queryClient.invalidateQueries({ queryKey: ['reports', 'pending'] }),
+  });
+}
+
+export function useSetReportState() {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: ({ id, state }: { id: string; state: string | null }) => setReportState(id, state),
     onSuccess: () => queryClient.invalidateQueries({ queryKey: ['reports', 'pending'] }),
   });
 }

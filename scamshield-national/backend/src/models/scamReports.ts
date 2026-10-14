@@ -1,5 +1,6 @@
 import { pool } from '../db/connection';
 import { buildUpdateSet } from '../utils/buildUpdateSet';
+import { StateSource, UsStateCode } from '../utils/usStates';
 
 export interface NewScamReport {
   reporter_name?: string;
@@ -16,6 +17,9 @@ export interface NewScamReport {
   country?: string;
   state?: string;
   zip_code?: string;
+  // Set server-side by resolveReportState (utils/usStates.ts), never
+  // taken from the request body — see SUBMIT_FIELDS.
+  state_source?: StateSource | null;
   // Consent to have ScamShield National file this report with the
   // relevant outside agency on the reporter's behalf. Captured at
   // submission time only — there's no logged-in session tying a later
@@ -42,13 +46,21 @@ const SUBMIT_FIELDS = [
   'consent_to_file',
 ] as const;
 
+// Columns the controller always sets itself after validating the
+// submission (overwriting anything of the same name in the request body),
+// so a client can't claim e.g. state_source='admin'.
+const SERVER_SET_FIELDS = ['state_source'] as const;
+
 // Only status transitions and promotion linkage are writable through the
 // review endpoint — everything the reporter originally submitted is
 // immutable once filed, same principle as an incident report.
 const REVIEW_FIELDS = ['status', 'promoted_scam_id', 'reviewed_by', 'reviewed_at'] as const;
 
 export async function createReport(data: NewScamReport) {
-  const { fields, values } = buildUpdateSetForInsert(data as unknown as Record<string, unknown>, SUBMIT_FIELDS);
+  const { fields, values } = buildUpdateSetForInsert(data as unknown as Record<string, unknown>, [
+    ...SUBMIT_FIELDS,
+    ...SERVER_SET_FIELDS,
+  ]);
   const placeholders = fields.map((_, i) => `$${i + 1}`);
   // consent_to_file_at is server-set, never client-supplied, so a
   // reporter can't fabricate an earlier consent timestamp.
@@ -100,6 +112,21 @@ export async function updateReportReview(id: string, data: Record<string, unknow
   const { rows } = await pool.query(
     `UPDATE scam_reports SET ${setClauses.join(', ')} WHERE id = $1 RETURNING *`,
     [id, ...values]
+  );
+  return rows[0] ?? null;
+}
+
+// The one exception to "submitted fields are immutable": staff may set or
+// correct where a scam happened (reporters often name the state only in
+// the description), since alert targeting depends on it. Recorded as
+// state_source='admin' so it's distinguishable from what was submitted.
+export async function updateReportState(id: string, state: UsStateCode | null) {
+  const { rows } = await pool.query(
+    `UPDATE scam_reports
+     SET state = $2, state_source = CASE WHEN $2::varchar IS NULL THEN NULL ELSE 'admin' END, updated_at = NOW()
+     WHERE id = $1
+     RETURNING *`,
+    [id, state]
   );
   return rows[0] ?? null;
 }

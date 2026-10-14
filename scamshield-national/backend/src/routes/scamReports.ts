@@ -11,6 +11,7 @@ router.get('/', requireAuth, requireRole('admin'), scamReportsController.list);
 router.get('/:id/status', scamReportsController.status);
 router.post('/:id/promote', requireAuth, requireRole('admin'), scamReportsController.promote);
 router.post('/:id/dismiss', requireAuth, requireRole('admin'), scamReportsController.dismiss);
+router.patch('/:id/state', requireAuth, requireRole('admin'), scamReportsController.setState);
 
 router.get('/:id/filings/suggestions', requireAuth, requireRole('admin'), reportFilingsController.suggestions);
 router.get('/:id/filings', requireAuth, requireRole('admin'), reportFilingsController.list);
