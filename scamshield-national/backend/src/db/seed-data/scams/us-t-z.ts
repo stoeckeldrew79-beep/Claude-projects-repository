@@ -7495,3 +7495,16 @@ UsTZ.push({
     state: 'WA',
     firstRecorded: '2026-07-01',
 });
+
+UsTZ.push({
+    name: "Unreasonable Brokerage Commissions Charged to Montana Investors on Small Trades",
+    slug: "unreasonable-brokerage-commissions-montana-small-trades",
+    description:
+      "Montana's Commissioner of Securities and Insurance found that several national brokerage firms charged Montana retail investors unreasonably high commissions on very small stock trades between May 2020 and April 2025. Because the firms applied flat or minimum commission charges, the fee often ate up a large share of the value of a small principal transaction. Each overcharge was tiny, so investors almost never noticed, and the problem surfaced only through regulatory examination rather than consumer complaints. The firms settled and more than $160,000 in restitution is going back to thousands of Montana investors, with further actions against other firms expected in 2026. Review your brokerage statements and confirmations for commissions that are large relative to the trade amount, ask your firm for its commission schedule in writing, and report concerns to the Montana State Auditor's securities office.",
+    categorySlug: "investment-fraud",
+    alertLevel: "medium",
+    sources: ["Montana State Auditor and Commissioner of Securities and Insurance (CSI)"],
+    sourceUrl: "https://csimt.gov/2026/01/02/commissioner-brown-secures-over-160000-in-restitution-for-harmed-montana-investors-subject-to-unreasonable-brokerage-commissions/",
+    country: "US",
+    state: "MT",
+});
