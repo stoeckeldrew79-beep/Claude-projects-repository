@@ -832,3 +832,24 @@ Red flags include an account that's new, has very few posts, or has a username w
 
 Before paying anyone claiming to be a creator for private content, verify the request through the creator's actual verified account and the official links in their real bio — never through a DM alone — and treat any demand to pay via a peer-to-peer app for content from an account you can't independently verify as reason to stop. Anyone who has already sent money this way should report the transaction to Cash App or whichever app was used, dispute the charge with their bank or card issuer if one was linked, and report the impersonating account directly to the platform it appeared on. This scam carries a safety dimension beyond the financial one: some fans who believed they'd built a relationship with an impersonator have shown up at the real creator's home, so creators dealing with impersonation should document and report fake accounts to the platform promptly, and anyone targeted — fan or creator — can file a complaint with the FTC at ReportFraud.ftc.gov.`,
 });
+
+GuidesRecent.push({
+    title: 'Fake Sextortion "Help" Services: How Paid Removal Promises Prey on People Already Being Blackmailed',
+    slug: 'deceptive-sextortion-assistance-services-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'sextortion-assistance-scam', 'sextortion'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike MacKenzie, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — generic smartphone screen, not tied to any specific company or case; replace with an exact match if found
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/10/how-avoid-deceptive-sextortion-assistance-services-and-find-real-help',
+    body: `Sextortion, when someone threatens to share your intimate images unless you pay, leaves victims frightened and searching for a way out. A second group of operators has noticed that fear. In an October 2026 consumer alert, the FTC warned that people searching online for help may find companies selling paid "quick fixes" that don't deliver. The agency's lawsuit alleges that one such company, Digital Forensics, which ran sites including BlackmailHelpline.com and CyberBlackmail911.com, falsely promised to stop sextortion threats. Those are allegations, not findings by a court.
+
+The pitch works because the customer is in crisis and acting fast. According to the FTC's allegations, the company promised to keep explicit material from spreading and to report the perpetrators to criminal authorities, then charged customers thousands of dollars without delivering. A person who is ashamed, afraid of the images spreading, and unsure who to call is exactly the kind of customer who will pay quickly and not ask follow-up questions, and the paid ads that sit at the top of search results make a commercial service look like the official answer.
+
+Red flags include any company that charges for a quick fix to a sextortion problem, promises to stop the threats or guarantee that images won't spread, or charges a fee to remove intimate images. The FTC advises scrolling past paid search results at the top of the page, and checking before paying for any image-removal service. Real help doesn't start by asking for thousands of dollars.
+
+If you or someone you know is being sextorted, the FTC says not to pay or engage: ignore and block the blackmailer, and don't give them access to your devices or financial accounts. Talk to someone you trust, such as a friend, family member, or counselor. Report to local police and the FBI at tips.fbi.gov or 1-800-225-5324; if the person targeted is a minor, report to the National Center for Missing and Exploited Children (NCMEC) CyberTipline, and NCMEC offers free support at 1-800-843-5678. Adults can reach the National Domestic Violence Hotline at 1-800-799-7233 for free support.
+
+You can also ask the platform where the images appear to take them down. The FTC notes that under the Take It Down Act, platforms must remove intimate images within 48 hours of a request, free of charge, and if a platform doesn't, you can report it at TakeItDown.ftc.gov. If you already paid a service that did nothing, contact your bank or card issuer about the charge, and report it at ReportFraud.ftc.gov.`,
+});
