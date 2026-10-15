@@ -13194,3 +13194,16 @@ UsNS.push({
     country: "US",
     state: "OR",
 });
+
+UsNS.push({
+    name: "Safeguard Metals Precious-Metals Retirement Fraud",
+    slug: "safeguard-metals-precious-metals-retirement-fraud",
+    description:
+      "The Vermont Department of Financial Regulation's Securities Division, working with the CFTC and other state regulators, announced a final judgment against Safeguard Metals LLC and owner Jeffrey Ikahn for a precious-metals investment scheme that targeted elderly and retirement-aged investors. From October 2017 through at least July 2021, the defendants solicited roughly $68 million, most of it retirement savings, from at least 450 people to buy precious metals, mostly silver coins. The court found they spread false and misleading information, withheld material facts, and fraudulently overcharged customers through hidden markups on coins sold into self-directed retirement accounts. The U.S. District Court for the Central District of California ordered about $25.6 million in restitution plus an equal civil monetary penalty. If someone urges you to roll your IRA or 401(k) into gold or silver coins, ask for the exact markup in writing and verify the firm and salesperson with the Vermont DFR Securities Division before sending any money.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Vermont Department of Financial Regulation, Securities Division","U.S. Commodity Futures Trading Commission"],
+    sourceUrl: "https://dfr.vermont.gov/press-release/vermont-department-financial-regulation-and-cftc-secure-final-judgment-against",
+    country: "US",
+    state: "VT",
+});

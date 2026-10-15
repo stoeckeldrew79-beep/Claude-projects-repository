@@ -7508,3 +7508,16 @@ UsTZ.push({
     country: "US",
     state: "MT",
 });
+
+UsTZ.push({
+    name: "Vermont Board of Medical Practice Investigator Impersonation Calls",
+    slug: "vermont-board-of-medical-practice-investigator-impersonation-calls",
+    description:
+      "Scammers are calling Vermont-licensed medical professionals and claiming to be investigators with the Vermont Board of Medical Practice, or in some versions DEA or FBI agents. They spoof caller ID so the call appears to come from the Board's real office number, 802-657-4220, and tell the licensee they are under investigation and must stop practicing immediately, or that their license or prescribing permit has been hijacked by a drug-trafficking ring. To seem legitimate, the callers recite publicly available details such as National Provider Identifier numbers, license numbers and business addresses, and send documents with fake FBI, DEA and Department of Justice letterhead, seals and watermarks. Victims are then pressured to wire money to foreign accounts, sometimes with a promise of a refund within three days, and in one case were told to open an account at a UPS store. The Board says it will never demand immediate action, money, account information or protected personal information: hang up, call the Board back at its published number to verify, and report the call to the FBI Albany field office.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Vermont Board of Medical Practice","Vermont Department of Health / Agency of Human Services"],
+    sourceUrl: "https://www.healthvermont.gov/systems/board-medical-practice",
+    country: "US",
+    state: "VT",
+});
