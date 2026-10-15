@@ -11722,3 +11722,24 @@ Masferrer went to trial and was convicted by a jury in May 2006. The court adopt
 The Hamilton case shows how a single hidden loss can grow into an institutional collapse. The Russian debt losses were large but survivable if disclosed; the cover-up turned them into securities fraud, obstruction, and a failed bank. It also illustrates that a legitimate-looking financial instrument can become a concealment tool depending on how it is accounted for, and that the people most able to hide a problem are often the executives paid bonuses for the results the problem would have erased.`,
     sourceUrl: 'https://caselaw.findlaw.com/court/us-11th-circuit/1355368.html',
 });
+
+NotoriousAF.push({
+    title: 'Anton Schlecker and the Collapse of a German Drugstore Empire',
+    slug: 'anton-schlecker-drugstore-chain-bankruptcy-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'bankruptcy-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ehingen_Schlecker-Zentrale.jpg?width=1200',
+    coverImageCredit: 'Photo: Andreas Praefcke (CC BY 3.0) — Schlecker headquarters in Ehingen, Alb-Donau-Kreis, Germany, 2007',
+    coverImagePosition: 50,
+    body: `Anton Schlecker built one of Europe's largest drugstore chains from a single shop he opened in Ehingen, in southern Germany, in 1975. By 2008 the company had grown to roughly 14,000 branches across Europe and tens of thousands of employees, and Schlecker, who ran it as a sole proprietor rather than a corporation, was widely counted among Germany's wealthiest businessmen. That legal form mattered: it meant that, unlike a shareholder in a limited company, he was personally liable for every debt the business owed.
+
+The chain's cheap, cramped, discount-style stores came under pressure from newer rivals such as Rossmann and dm, and it struggled to find financing to modernise them or to pay suppliers. By early 2011, the judge later found, Schlecker had only about €7 million in liquidity and no realistic prospect of new loans. Schlecker filed for insolvency on January 23, 2012, and the chain's remaining stores closed by the end of June 2012. More than 25,000 employees in Germany lost their jobs, which the Verdi union described as the largest wave of layoffs in western Germany since World War II.
+
+Prosecutors in Stuttgart charged Schlecker and his two adult children, Lars and Meike, with criminal bankruptcy. The case turned on what the family did before the collapse: the court found that Schlecker had expected insolvency from about 2009 and, in the meantime, had moved roughly €7 million in real estate into his children's names, while payments to a logistics subsidiary controlled by Lars and Meike were found to be excessive, siphoning several million euros out of the company while it was heading for failure.
+
+On November 27, 2017, the Stuttgart Regional Court convicted all three. Anton Schlecker received a two-year suspended sentence and a €54,000 fine and did not appeal. Lars and Meike Schlecker were each sentenced to close to three years in prison; reports differ on the exact terms, and they appealed to Germany's Federal Court of Justice, which largely rejected their appeals. Prosecutors had asked for prison terms for all three.
+
+The Schlecker case illustrates how a personal-liability business owner can turn the approach of insolvency into a theft from creditors. Because Schlecker owed his creditors personally, moving assets to family members in anticipation of failure left suppliers and employees with the loss while the family kept the wealth. The case also shows that German bankruptcy law treats the deliberate removal of assets before an insolvency as a crime in itself, whatever the original reasons for the company's failure.`,
+    sourceUrl: 'https://www.thelocal.com/20171127/drug-store-family-sentenced-to-jail-over',
+});
