@@ -92,6 +92,31 @@ services:
           name: scamshield-national-db
           property: connectionString
 
+  # Early-warning alert detection: turns patterns in public scam reports
+  # (the same scammer contact reported repeatedly, a category spiking) into
+  # alert candidates in the /admin review queue. It never sends anything on
+  # its own; a person approves every alert. Idempotent (tag-based dedupe),
+  # so a daily run is safe. Built months ago but never scheduled anywhere,
+  # so it had never run in production.
+  #
+  # State-targeted alerts stay off until ALERTS_STATE_DETECTION=1 is added
+  # to this service's environment in the Render dashboard (see README
+  # "State-targeted alerts").
+  - type: cron
+    name: scamshield-detect-alerts
+    runtime: node
+    rootDir: scamshield-national/backend
+    schedule: "30 11 * * *"
+    buildCommand: npm install --include=dev
+    startCommand: npm run detect-alerts
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: scamshield-national-db
+          property: connectionString
+
 databases:
   - name: scamshield-national-db
     plan: 0.1c-256mb

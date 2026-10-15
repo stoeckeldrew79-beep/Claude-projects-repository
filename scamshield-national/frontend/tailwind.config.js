@@ -20,6 +20,10 @@ export default {
           '0%, 100%': { textShadow: '0 0 0px rgba(248, 113, 113, 0)' },
           '50%': { textShadow: '0 0 10px rgba(248, 113, 113, 0.85)' },
         },
+        'slide-in': {
+          from: { transform: 'translateX(100%)' },
+          to: { transform: 'translateX(0)' },
+        },
         'badge-glow': {
           '0%, 100%': {
             boxShadow: '0 0 0px 0px rgba(248, 113, 113, 0)',
@@ -37,6 +41,7 @@ export default {
         'shiny-text': 'shiny-text 5s ease-in-out infinite',
         'glow-pulse': 'glow-pulse 2s ease-in-out infinite',
         'badge-glow': 'badge-glow 1.8s ease-in-out infinite',
+        'slide-in': 'slide-in 200ms ease-out',
       },
     },
   },
