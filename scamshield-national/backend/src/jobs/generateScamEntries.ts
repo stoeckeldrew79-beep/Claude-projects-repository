@@ -317,6 +317,9 @@ async function main() {
   // read as a broken pipeline when it is actually working correctly.
   if (!parsed.entries.length) {
     console.log('generateScamEntries: research returned findings but extraction produced no entries. Nothing written this run — not a failure, just nothing verifiable to add.');
+    // Without the findings an empty run is unexplainable from the log (the
+    // dry-run print above is skipped under --apply), so show them here.
+    if (APPLY) console.log(`\n--- research findings (why nothing was extracted) ---\n${findings.slice(0, 4000)}\n--- end findings ---\n`);
     return { accepted: [], proposed: 0, collisions: [] };
   }
 

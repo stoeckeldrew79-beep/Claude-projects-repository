@@ -7,7 +7,8 @@
 // Checks:
 //   1. the live API serves real data (the same checks CI runs)
 //   2. the live website loads
-//   3. the "Today's Scams" feed has a recent headline (the scan cron runs)
+//   3. the "Today's Scams" feed has a recent headline (the scan cron runs),
+//      and new scams and articles keep arriving (the content pipeline runs)
 //   4. the latest run of each automatic content/CI workflow didn't fail
 //
 // A failed API or website check is retried once after a pause, so a
@@ -27,6 +28,18 @@ const RETRY_DELAY_SECONDS = Number(process.env.RETRY_DELAY_SECONDS ?? 60);
 // The news scan runs every 2 hours; a day's worth of runs finding nothing
 // new across 26 searches means the scan itself has stopped.
 const NEWS_MAX_AGE_HOURS = 12;
+// Content jobs can all report "success" while adding nothing (a saturated
+// generator, a routine feeding a stuck session). Growth is the real signal:
+// no new scam or article for two days means the pipeline has stalled.
+const CONTENT_MAX_AGE_HOURS = 48;
+
+function ageCheck(label, times, maxHours, stalledMessage) {
+  const valid = times.map((t) => Date.parse(t)).filter((t) => !Number.isNaN(t));
+  if (valid.length === 0) throw new Error(`no ${label} returned`);
+  const hours = (Date.now() - Math.max(...valid)) / 3600000;
+  if (hours > maxHours) throw new Error(`newest ${label} is ${Math.round(hours)}h old — ${stalledMessage}`);
+  return `newest ${label} ${hours < 1 ? 'under 1h' : `${Math.round(hours)}h`} old`;
+}
 
 // Workflows whose latest finished run must not be a failure. A workflow
 // that doesn't exist (yet) on the default branch is skipped, not flagged.
@@ -50,13 +63,18 @@ function liveChecks() {
     }],
     ["Today's Scams feed is fresh", async () => {
       const body = await getJson(API_URL, '/v1/daily-news');
-      const times = (body.data || []).map((n) => Date.parse(n.published_at)).filter((t) => !Number.isNaN(t));
-      if (times.length === 0) throw new Error('feed is empty');
-      const hours = (Date.now() - Math.max(...times)) / 3600000;
-      if (hours > NEWS_MAX_AGE_HOURS) {
-        throw new Error(`newest headline is ${Math.round(hours)}h old — the news scan has probably stopped running`);
-      }
-      return `newest headline ${hours < 1 ? 'under 1h' : `${Math.round(hours)}h`} old`;
+      return ageCheck('headline', (body.data || []).map((n) => n.published_at), NEWS_MAX_AGE_HOURS,
+        'the news scan has probably stopped running');
+    }],
+    ['New scams are still being added', async () => {
+      const body = await getJson(API_URL, '/v1/scams?sort=newest&page=1');
+      return ageCheck('scam', (body.data || []).map((s) => s.created_at), CONTENT_MAX_AGE_HOURS,
+        'the scam generators have stopped adding entries');
+    }],
+    ['New articles are still being added', async () => {
+      const body = await getJson(API_URL, '/v1/articles');
+      return ageCheck('article', (body.data || []).map((a) => a.published_at || a.created_at), CONTENT_MAX_AGE_HOURS,
+        'the guide/notorious routines have stopped adding articles');
     }],
   ];
 }
