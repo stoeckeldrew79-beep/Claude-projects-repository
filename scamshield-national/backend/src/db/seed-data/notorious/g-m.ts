@@ -12299,3 +12299,24 @@ Lumiere, who pleaded not guilty, went to trial in Manhattan federal court. In Ja
 Lumiere's case is a reminder that a hedge fund's monthly performance numbers are only as honest as the prices behind them, and for securities that rarely trade, those prices are partly a matter of judgment — and partly, it turned out, a matter of finding a broker willing to quote back whatever figure a portfolio manager asked for over the phone. Visium's investors were drawn in by a track record built on exactly that kind of manufactured precision, and it took a federal jury, a cooperating co-conspirator, and a firm's total collapse to show how much of it had never been real.`,
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/former-visium-portfolio-manager-stefan-lumiere-sentenced-18-months-prison-following',
 });
+
+NotoriousGM.push({
+    title: 'Leopold Harris and the 1933 London Fire-Raising Ring',
+    slug: 'leopold-harris-london-fire-raising-insurance-ring',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'insurance-fraud', 'arson'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/LondonSalvageCorps.jpg?width=1200',
+    coverImageCredit: 'Photo: Londonclanger (CC BY-SA 3.0) — memorial plaque at the site of the London Salvage Corps headquarters, Watling Street, London',
+    coverImagePosition: 50,
+    body: `Leopold Harris ran Harris and Co., a fire-insurance assessor in Forest Gate, East London, a firm his father had founded in 1865 and which Leopold took over in 1925. Assessors like Harris represented policyholders after a fire and negotiated their claims with the insurance offices, a role that gave him a legitimate reason to be at fire scenes and to deal with the fire brigades and the London Salvage Corps, the force funded by the insurance offices to protect property at fires.
+
+By the early 1930s, prosecutors said, Harris was running a ring that deliberately burned insured premises for profit. Businesses were set up under other people's names, insured well beyond their worth, and then set alight — reportedly with a trail of lighted candles that left little trace — after which false invoices were used to inflate the claim. Harris's people sometimes reached fires before the brigade did and then represented the policyholder in the claim. To keep the scheme running he bribed contacts in fire brigades and the Salvage Corps, including Captain Brymore Eric Miles, the Corps' chief officer, who accepted about £25 a month for overlooking suspected arson. Contemporary press accounts put the ring's false insurance claims at around £500,000, a very large sum in 1930s money.
+
+The ring came undone after an investigation led by insurance-side solicitor William Crocker, and police raided multiple premises. The resulting trial at the Old Bailey in 1933 involved 17 defendants and lasted about six weeks. Harris pleaded guilty to ten arson counts and received 14 years' penal servitude; he testified that he had nearly every Salvage Corps officer "in his pocket." Co-defendants received shorter terms, and one member of the gang, Camillo Capsoni, turned King's evidence. Captain Miles was convicted in a separate trial of corruption and conspiring to pervert the administration of justice and was sentenced to four years in prison.
+
+The scandal shook public confidence in how fires were investigated and claims settled. It prompted insurers to scrutinise fire claims far more closely and is credited by local historians with helping to establish loss adjusting as a distinct profession. It also became popular culture: Harold Dearden's 1934 book The Fire Raisers told the story, and Michael Powell's 1934 film of the same name was loosely based on it.
+
+The Harris case illustrates how insurance fraud scales when the people trusted to detect it are paid to look away. The scheme depended less on the fires themselves than on corrupting the assessors, salvage officers and firemen who would normally have asked why the same kinds of businesses kept burning, a vulnerability that remains relevant to any system of claims where the investigator and the beneficiary can share a financial interest.`,
+    sourceUrl: 'http://londonfirejournal.blogspot.com/2005/07/london-salvage-corps.html',
+});
