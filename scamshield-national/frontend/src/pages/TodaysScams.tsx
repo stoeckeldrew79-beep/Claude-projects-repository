@@ -53,6 +53,11 @@ function NewsRow({ item }: { item: DailyScamNews }) {
             Official AG alert
           </span>
         )}
+        {item.source_kind === 'federal' && (
+          <span className="rounded-sm bg-blue-50 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-blue-800">
+            Official federal release
+          </span>
+        )}
         {item.state && (
           <span className="rounded-sm bg-slate-100 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-slate-600">
             {item.state}

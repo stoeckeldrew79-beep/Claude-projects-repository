@@ -138,9 +138,9 @@ export interface DailyScamNews {
   // excluded from the /daily-news/states list, so it never appears where a
   // 2-letter code is assumed to be one of the 50 states + DC.
   state: string | null;
-  // 'ag' is a source's own feed (state AG or federal DOJ/FTC); 'news' is
-  // coverage about it.
-  source_kind: 'ag' | 'news';
+  // 'ag': a state Attorney General's own publication. 'federal': a DOJ/FTC
+  // release (state 'US'). 'news': press coverage found by news search.
+  source_kind: 'ag' | 'federal' | 'news';
 }
 
 export interface DailyNewsStateCount {
