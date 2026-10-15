@@ -11701,3 +11701,24 @@ On November 20, 2018, Judge Jose Paneda of Quezon City Regional Trial Court Bran
 The ICS Export case is as much a story about the cost of delay as it is about the fraud itself: a scheme targeting disciplined, institution-trusting victims — serving police and military officers — took sixteen years from indictment to verdict, during which time the money had long since been dispersed, spent, or hidden, leaving the court able to order only a token fraction of the original losses returned even after securing convictions on every count charged. It stands as a reminder that a monthly return far in excess of what any real export or trading business can sustain is itself the clearest warning sign, regardless of how institutionally credible the investor base around a scheme appears to be.`,
     sourceUrl: 'https://www.philstar.com/nation/2018/12/03/1873647/nation',
 });
+
+NotoriousAF.push({
+    title: 'Eduardo Masferrer and the Hamilton Bancorp Swap Cover-Up',
+    slug: 'eduardo-masferrer-hamilton-bancorp-swap-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'securities-fraud', 'bank-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Brickell_Avenue_aerial_20100211.jpg?width=1200',
+    coverImageCredit: 'Photo: Marc Averette (CC BY 3.0) — aerial view of Brickell Avenue, downtown Miami, Florida',
+    coverImagePosition: 50,
+    body: `Eduardo Masferrer was the chairman and chief executive of Hamilton Bancorp, Inc., a publicly traded Miami holding company whose subsidiary, Hamilton Bank, specialized in trade finance with Latin America. Beginning in 1997, the bank bought roughly $22 million worth of Russian debt instruments. When Russia's financial crisis hit in the summer of 1998, those holdings lost much of their value, and a loss of that size would have been a serious blow to a bank whose results were closely watched by regulators and shareholders.
+
+Rather than book the loss, prosecutors and the SEC said, Masferrer and two senior colleagues, Juan Carlos Bernace and John M.R. Jacobs, used what the SEC called "adjusted price trades" in 1998 and 1999. These were swap transactions, described in court as "ratio swaps," in which assets are exchanged at face value with the gap between face and market value offset by a similar gap in the asset received. Such swaps are not fraudulent in themselves, but here they were accounted for in a way that made it appear no losses had occurred, and the bank's financial statements, SEC filings, and statements to auditors and bank examiners reflected the concealment. Masferrer received nearly $2 million in bonuses during the period, and he was also charged with insider trading in Hamilton stock through trust accounts.
+
+The Office of the Comptroller of the Currency closed Hamilton Bank on January 11, 2002 and named the FDIC receiver; the OCC put the net cost to the deposit insurance fund at about $127 million. The SEC filed a civil fraud complaint against the three executives in September 2003. Bernace consented to a final judgment in April 2004 that barred him from serving as an officer or director of a public company and required a $110,000 civil penalty and disgorgement of about $93,000. In June 2004 a federal grand jury in the Southern District of Florida returned a 42-count indictment charging conspiracy, wire fraud, securities fraud, false filings with the SEC, false statements to accountants, obstruction of a bank examination, and false statements to the OCC.
+
+Masferrer went to trial and was convicted by a jury in May 2006. The court adopted a loss estimate of $20 to $40 million at sentencing and imposed a 30-year prison term. In January 2008 the Eleventh Circuit affirmed the convictions and the sentence, rejecting his challenges to the case assignment, evidentiary rulings, and the loss calculation.
+
+The Hamilton case shows how a single hidden loss can grow into an institutional collapse. The Russian debt losses were large but survivable if disclosed; the cover-up turned them into securities fraud, obstruction, and a failed bank. It also illustrates that a legitimate-looking financial instrument can become a concealment tool depending on how it is accounted for, and that the people most able to hide a problem are often the executives paid bonuses for the results the problem would have erased.`,
+    sourceUrl: 'https://caselaw.findlaw.com/court/us-11th-circuit/1355368.html',
+});
