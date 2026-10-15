@@ -12853,3 +12853,29 @@ UsAF.push({
     sourceUrl: "https://consumer.ftc.gov/government-impersonators",
     country: "US",
 });
+
+UsAF.push({
+    name: "Free-Mart / ShopFreeMart Pyramid Distributor Scheme",
+    slug: "free-mart-shopfreemart-pyramid-distributor-scheme",
+    description:
+      "The Wyoming Attorney General sued a multi-level marketing operation run through four entities — Free-Mart, LLC; FreeMartAds, Inc.; and two ShopFreeMart LLCs, two of them Wyoming-registered — along with five individuals, under both the Wyoming Consumer Protection Act and the state's pyramid distributor law. The state alleged the defendants recruited distributors and sold products using untrue and unlawful health and wealth claims, promising medical benefits and earnings the products and opportunity could not deliver. The case ended in a Settlement Agreement and Consent Judgment: Free-Mart, LLC paid $500,000 in civil penalties, the individuals paid $50,000 collectively, all defendants were barred from doing business in Wyoming, the Wyoming entities agreed to permanently dissolve, and Wyoming consumers were offered full refunds. Be skeptical of any business opportunity whose income depends on recruiting other distributors, and treat health claims about supplements or wellness products as unverified unless backed by regulators. If you bought in or were recruited, contact the Wyoming Attorney General's Consumer Protection and Antitrust Unit to ask about refunds and to file a complaint.",
+    categorySlug: "ponzi-pyramid-schemes",
+    alertLevel: "high",
+    sources: ["Wyoming Attorney General's Office, Consumer Protection and Antitrust Unit — Resolved Matters, Docket No. 189-688 (resolved 2020)"],
+    sourceUrl: "https://attorneygeneral.wyo.gov/law-office-division/consumer-protection-and-antitrust-unit/resolved-matters",
+    country: "US",
+    state: "WY",
+});
+
+UsAF.push({
+    name: "\"Business Compliance Division\" Certificate of Existence Postcards",
+    slug: "business-compliance-division-certificate-of-existence-postcards",
+    description:
+      "The Wyoming Secretary of State has issued a standing alert about postcards mailed to Wyoming businesses from an entity calling itself the \"Business Compliance Division,\" a name designed to sound like a state agency. The postcards urge recipients to call immediately to avoid potential fees, then pressure them into ordering a \"certificate of existence.\" The Secretary of State states plainly that no \"certificate of existence\" is required for a newly-filed company to stay compliant with Wyoming law, and that legitimately formed companies have already received their stamped public documents and certificate of organization or incorporation. Unlike similar email schemes threatening dissolution, this one arrives as physical mail impersonating a state division that does not exist. If you receive one of these postcards, do not call the number or pay; verify your business status directly through the Wyoming Secretary of State's office and report the mailing to them.",
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["Wyoming Secretary of State — Business Compliance Scam Alert"],
+    sourceUrl: "https://sos.wyo.gov/Business/Docs/Business_Compliance_Scam_Alert.pdf",
+    country: "US",
+    state: "WY",
+});

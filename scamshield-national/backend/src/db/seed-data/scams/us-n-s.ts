@@ -13220,3 +13220,16 @@ UsNS.push({
     country: "US",
     state: "NY",
 });
+
+UsNS.push({
+    name: "Soundworks, LLC Gillette Non-Delivery and Refund Stalling",
+    slug: "soundworks-llc-gillette-non-delivery-and-refund-stalling",
+    description:
+      "Soundworks, LLC, owned and operated by William Dohse in Gillette, Wyoming, sold audio-visual equipment and installation services to local customers. According to the Wyoming Attorney General's allegations, the business solicited and accepted payment for equipment and services it never actually provided. Rather than issue refunds, the defendants either falsely promised to deliver the merchandise at some later date — stringing customers along past the window where they could dispute a card charge — or simply ignored requests for refunds and order fulfillment altogether. The Attorney General brought a civil enforcement action under the Wyoming Consumer Protection Act. When a contractor or retailer takes a deposit and misses the delivery date, dispute the charge with your bank right away rather than accepting repeated new promises, and report the business to the Wyoming Attorney General's Consumer Protection and Antitrust Unit.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["Wyoming Attorney General's Office, Consumer Protection and Antitrust Unit — Resolved Matters, Docket No. 38574"],
+    sourceUrl: "https://attorneygeneral.wyo.gov/law-office-division/consumer-protection-and-antitrust-unit/resolved-matters",
+    country: "US",
+    state: "WY",
+});

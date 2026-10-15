@@ -13996,3 +13996,16 @@ UsGM.push({
     country: "US",
     state: "MA",
 });
+
+UsGM.push({
+    name: "Galaxy Line, LLC Fitness App Subscription Trap",
+    slug: "galaxy-line-llc-fitness-app-subscription-trap",
+    description:
+      "Galaxy Line, LLC was registered as a Wyoming corporation but ran its website from a domain hosted in Kyiv, Ukraine, using the Wyoming LLC as a domestic corporate face for an offshore billing operation. The company sold a fitness app on a recurring monthly subscription, and consumers complained both that the app did not work or meet expectations and, more seriously, that they could not cancel and were charged month after month. Galaxy Line simply did not respond to customer service or cancellation requests, so there was no working way to stop the billing. After several consumer complaints, the Wyoming Attorney General entered an Assurance of Voluntary Compliance requiring the company to refund fees, cease deceptive trade practices, and never again violate the Wyoming Consumer Protection Act. Before signing up for any app subscription, confirm there is a real cancellation path and a responsive contact; if charges continue after you try to cancel, ask your bank or card issuer to block the merchant and file a complaint with the Wyoming Attorney General.",
+    categorySlug: "subscription-traps",
+    alertLevel: "medium",
+    sources: ["Wyoming Attorney General's Office, Consumer Protection and Antitrust Unit — Resolved Matters, Matter 2022-17"],
+    sourceUrl: "https://attorneygeneral.wyo.gov/law-office-division/consumer-protection-and-antitrust-unit/resolved-matters",
+    country: "US",
+    state: "WY",
+});
