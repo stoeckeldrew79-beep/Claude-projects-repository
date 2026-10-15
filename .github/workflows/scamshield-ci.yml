@@ -1,0 +1,122 @@
+name: ScamShield CI
+
+# The gate every ScamShield change passes before it can reach main: types,
+# unit tests, the production boot sequence (build -> migrate -> seed) on a
+# fresh database, and a live check that the booted API actually serves data.
+#
+# Also runs daily against main itself. The content bots push to main with
+# the workflow token, which never triggers other workflows, so without this
+# nothing would re-verify main as a whole once their commits pile up.
+
+on:
+  pull_request:
+    paths:
+      - 'scamshield-national/**'
+      - '.github/workflows/scamshield-ci.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'scamshield-national/**'
+      - '.github/workflows/scamshield-ci.yml'
+  schedule:
+    - cron: '40 5 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: scamshield-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  backend:
+    name: Backend (types, tests, boot smoke test)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: scamshield-national/backend
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: scamshield
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/scamshield
+      JWT_SECRET: ci-only-not-a-real-secret
+      PORT: 3000
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: scamshield-national/backend/package-lock.json
+
+      - run: npm ci
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Unit tests
+        run: npm test -- --ci
+
+      - name: Seed-data merge driver round-trip
+        working-directory: scamshield-national
+        run: npm run test:merge-driver
+
+      # The exact sequence production's "start" script runs on every deploy.
+      - name: Build, migrate, seed
+        run: |
+          npm run build
+          node dist/db/migrate.js
+          node dist/db/seed.js
+
+      # A second deploy must be a no-op, not a crash on an already-applied
+      # migration or an already-seeded row.
+      - name: Migrate and seed again (redeploy is safe)
+        run: |
+          node dist/db/migrate.js
+          node dist/db/seed.js
+
+      - name: Boot the API and check it serves real data
+        run: |
+          node dist/index.js > api.log 2>&1 &
+          for i in $(seq 1 30); do
+            curl -sf http://localhost:3000/health > /dev/null && break
+            sleep 1
+          done
+          node scripts/ci-smoke-test.js http://localhost:3000 || { echo '--- api.log ---'; cat api.log; exit 1; }
+
+  frontend:
+    name: Frontend (types, production build)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: scamshield-national/frontend
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: scamshield-national/frontend/package-lock.json
+
+      - run: npm ci
+
+      # "build" is tsc + vite build, the same command Vercel runs.
+      - name: Typecheck and production build
+        run: npm run build
