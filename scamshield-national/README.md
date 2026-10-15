@@ -339,7 +339,8 @@ contain, that surfaces there rather than as a corrupt merge.
 
 ## Scheduling early-warning alert detection
 
-`npm run detect-alerts` is also a one-shot script — schedule it the same way, ideally alongside
+In production this runs daily at 11:30 UTC as the `scamshield-detect-alerts` Render cron job
+(`render.yaml`). For other setups: `npm run detect-alerts` is also a one-shot script — schedule it the same way, ideally alongside
 (or right after) `draft-articles` since they share the same detection queries. Idempotent
 (tag-based dedupe, same as `draft-articles`), so running it more than once a day is harmless.
 Example crontab entry for a daily 6am run:
@@ -369,6 +370,19 @@ State-targeted alerts reach subscribers whose account `state` (or ZIP) matches. 
 the same admin review as everything else, and the queue shows which state each one targets.
 Rules live in `backend/src/services/stateTargeting.ts`. It's worth waiting until a few weeks
 of reports carry a state before turning this on.
+
+## Checks and monitoring
+
+- **ScamShield CI** (`.github/workflows/scamshield-ci.yml`) runs on every PR touching
+  `scamshield-national/`, on merges to `main`, and daily against `main`. It covers backend types,
+  unit tests, the production boot (build → migrate → seed, twice), a live smoke test of the booted
+  API (`backend/scripts/ci-smoke-test.js`), and the frontend production build.
+- **ScamShield production monitor** (`.github/workflows/scamshield-monitor.yml`) checks the live
+  site every 30 minutes (`backend/scripts/monitor.js`). It covers the API serving real data, the
+  website loading, a fresh "Today's Scams" feed, and the latest run of each automatic content/CI
+  workflow. A problem opens one GitHub issue labelled `production-alert`, and recovery closes it.
+  No open issue means nothing is wrong. Run it on demand from the Actions tab
+  ("Run workflow"), or locally with `node backend/scripts/monitor.js`.
 
 ## Scheduling alert digests
 

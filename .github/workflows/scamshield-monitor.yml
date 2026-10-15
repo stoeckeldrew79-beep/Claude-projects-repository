@@ -1,0 +1,109 @@
+name: ScamShield production monitor
+
+# Every 30 minutes: is the live site actually working, and did any of the
+# automatic jobs fail? See scamshield-national/backend/scripts/monitor.js
+# for the checks.
+#
+# How you hear about it: a problem opens ONE GitHub issue labelled
+# "production-alert" (GitHub emails/pushes the repo owner). While it lasts
+# the issue is only commented on when the set of problems changes, not every
+# run. When everything passes again, the issue is closed with a "recovered"
+# comment. No issue open = nothing is wrong.
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: scamshield-monitor
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  issues: write
+  actions: read
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scamshield-national/backend/scripts
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check production
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPORT_DIR: ${{ runner.temp }}
+        run: node scamshield-national/backend/scripts/monitor.js
+
+      - name: Open, update or close the alert issue
+        uses: actions/github-script@v7
+        env:
+          REPORT_DIR: ${{ runner.temp }}
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const dir = process.env.REPORT_DIR;
+            const report = fs.readFileSync(path.join(dir, 'monitor-report.md'), 'utf8');
+            const { problems } = JSON.parse(fs.readFileSync(path.join(dir, 'monitor-status.json'), 'utf8'));
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const label = 'production-alert';
+            const marker = (list) => `<!-- monitor-problems: ${JSON.stringify([...list].sort())} -->`;
+
+            const { data: open } = await github.rest.issues.listForRepo({
+              ...context.repo, state: 'open', labels: label, per_page: 1,
+            });
+            const issue = open[0];
+
+            if (problems.length === 0) {
+              if (issue) {
+                await github.rest.issues.createComment({
+                  ...context.repo, issue_number: issue.number,
+                  body: `✅ **Recovered.** Everything is working again.\n\n${report}\n\n[Monitor run](${runUrl})`,
+                });
+                await github.rest.issues.update({ ...context.repo, issue_number: issue.number, state: 'closed', state_reason: 'completed' });
+                core.notice(`Closed #${issue.number}: recovered`);
+              } else {
+                core.notice('All checks passed');
+              }
+              return;
+            }
+
+            const body = `ScamShield production has a problem. This issue closes itself once every check passes again.\n\n${report}\n\n[Monitor run](${runUrl})\n\n${marker(problems)}`;
+            if (!issue) {
+              try {
+                await github.rest.issues.createLabel({ ...context.repo, name: label, color: 'B60205', description: 'Opened and closed automatically by the production monitor' });
+              } catch (err) {
+                if (err.status !== 422) throw err; // 422 = label already exists
+              }
+              const { data: created } = await github.rest.issues.create({
+                ...context.repo,
+                title: `🚨 ScamShield production alert: ${problems.length} problem${problems.length === 1 ? '' : 's'}`,
+                labels: [label], body,
+              });
+              core.setFailed(`Opened #${created.number}: ${problems.join('; ')}`);
+              return;
+            }
+
+            // Same problems as already reported: stay quiet, keep the issue current.
+            if ((issue.body || '').includes(marker(problems))) {
+              core.setFailed(`Still failing (#${issue.number}): ${problems.join('; ')}`);
+              return;
+            }
+            await github.rest.issues.update({
+              ...context.repo, issue_number: issue.number, body,
+              title: `🚨 ScamShield production alert: ${problems.length} problem${problems.length === 1 ? '' : 's'}`,
+            });
+            await github.rest.issues.createComment({
+              ...context.repo, issue_number: issue.number,
+              body: `⚠️ **The problems changed.**\n\n${report}\n\n[Monitor run](${runUrl})`,
+            });
+            core.setFailed(`Updated #${issue.number}: ${problems.join('; ')}`);
