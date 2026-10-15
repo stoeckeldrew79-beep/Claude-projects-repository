@@ -1,46 +1,35 @@
-// Powers state-scoped entries on the "Today's Scams" feed, and the
-// state-level data behind the Global Map's planned zoom-to-region view.
-// Run daily alongside scanDailyScamNews (see README).
+// The state Attorney General feed engine. Powers each state page's "Latest
+// alerts" and the state-tagged entries on Today's Scams.
 //
-// Coverage comes from two tiers, because state Attorney General offices are
-// wildly inconsistent about publishing machine-readable feeds. All 51
-// jurisdictions were probed directly: only 18 expose a working RSS/Atom
-// feed, so the rest are covered via news search naming the office.
+// Every state with a readable first-party source (agFeedSources.ts — feeds,
+// press-release pages, and a few one-off formats) is read directly, several
+// times a day. A state without one, or whose source fails this run, falls
+// back to news coverage naming that state's Attorney General.
 //
-//   tier 'ag'   — the office's own feed. First-party and authoritative, but
-//                 it carries every press release, so items are filtered for
-//                 scam/fraud relevance before being kept.
-//   tier 'news' — a Google News query naming that state's Attorney General.
-//                 Secondary coverage, but it reaches every state.
-//
-// Rows are deduped by source_url like the general news scan, so re-running
-// is safe and the two tiers can overlap without creating duplicates.
+// Rules that keep the feed clean:
+//   - First-party releases are filtered for scam/fraud relevance (title
+//     only; see relevantFilter.ts) and kept for a year.
+//   - News items are a fallback and kept for 30 days. A news item that is
+//     the same story as something already stored ("Florida AG warns of price
+//     gouging..." vs "Florida officials warn of price gouging...") is not
+//     saved, and news copies of a first-party release are removed when the
+//     release arrives. First-party releases are never merged with each other:
+//     offices reuse headline templates for unrelated actions.
+//   - Every first-party read is recorded in ag_feed_status, which monitoring
+//     checks, so a source that breaks is noticed instead of going stale.
 import 'dotenv/config';
-import { XMLParser } from 'fast-xml-parser';
 import { pool } from '../db/connection';
 import { RELEVANT } from './relevantFilter';
-
-// States whose AG publishes a usable feed, verified by probing all 51.
-const STATE_AG_FEEDS: Partial<Record<string, string>> = {
-  AL: 'https://www.alabamaag.gov/feed/',
-  AR: 'https://arkansasag.gov/news-alerts/news-releases/feed/',
-  CA: 'https://oag.ca.gov/taxonomy/term/948/feed',
-  CO: 'https://coag.gov/category/press-releases/feed/',
-  DC: 'https://oag.dc.gov/taxonomy/term/63/feed',
-  DE: 'https://news.delaware.gov/category/justice/prs/fraud/feed/',
-  HI: 'https://cca.hawaii.gov/feed/',
-  ID: 'https://www.ag.idaho.gov/consumer-protection/alerts/feed/',
-  MO: 'https://ago.mo.gov/press-releases/feed/',
-  MS: 'https://attorneygenerallynnfitch.com/media/press-releases/feed/',
-  ND: 'https://attorneygeneral.nd.gov/feed/',
-  NJ: 'https://www.njoag.gov/feed/',
-  OR: 'https://www.doj.state.or.us/media-home/news-media-releases/category/consumer-protection/feed/',
-  PA: 'https://www.attorneygeneral.gov/taking-action/feed/',
-  RI: 'https://riag.ri.gov/press-releases.xml',
-  TX: 'https://www.texasattorneygeneral.gov/taxonomy/term/671/feed',
-  UT: 'https://attorneygeneral.utah.gov/feed/',
-  VT: 'https://ago.vermont.gov/taxonomy/term/9/feed',
-};
+import { AG_SOURCES, AgSource, MAX_ITEMS_PER_SOURCE } from './agFeedSources';
+import {
+  canonicalUrl,
+  dateFromReleasePage,
+  extractHtmlReleases,
+  FeedItem,
+  isNearDuplicate,
+  parseFeed,
+  parseWpJson,
+} from './agFeedParse';
 
 const STATE_NAMES: Record<string, string> = {
   AK: 'Alaska',
@@ -96,21 +85,25 @@ const STATE_NAMES: Record<string, string> = {
   WY: 'Wyoming',
 };
 
-// An AG press feed carries everything the office publishes — indictments,
-// appointments, settlements, hearings. Only keep items that read as consumer
-// scam/fraud warnings. See relevantFilter.ts for the RELEVANT regex itself
-// (shared with scanFederalScamNews.ts, which filters the same kind of
-// official-press-release source).
-
 // source_url is the dedupe key and is indexed, so it cannot be truncated.
 // Anything past the column width is dropped rather than silently mangled.
 const MAX_SOURCE_URL = 2048;
 
-const RETENTION_DAYS = 30;
-const REQUEST_DELAY_MS = 400;
+const NEWS_RETENTION_DAYS = 30;
+const AG_RETENTION_DAYS = 365;
+// News items are compared against what the state already has from the
+// last three weeks; older coverage of a similar headline is a new story.
+const DUPLICATE_WINDOW_DAYS = 21;
+// Undated listing items cost one extra request each to date from the
+// release page; cap that per state per run.
+const MAX_DATE_LOOKUPS_PER_STATE = 15;
+const REQUEST_DELAY_MS = 300;
+// Node's fetch has no default timeout; a host that never answers would hang
+// this unattended job forever.
+const FETCH_TIMEOUT_MS = 20000;
+// Several offices serve bot walls to obviously automated clients.
+const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 ScamShieldNational/1.0';
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
-
-const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '' });
 
 interface Candidate {
   headline: string;
@@ -122,50 +115,118 @@ interface Candidate {
   sourceKind: 'ag' | 'news';
 }
 
-function textOf(v: unknown): string {
-  if (typeof v === 'string') return v;
-  if (v && typeof v === 'object' && '#text' in (v as Record<string, unknown>)) {
-    return String((v as Record<string, unknown>)['#text'] ?? '');
-  }
-  return v == null ? '' : String(v);
-}
-
-function itemsFrom(xml: string): Record<string, unknown>[] {
-  const parsed = parser.parse(xml);
-  // RSS puts items at rss.channel.item; Atom uses feed.entry.
-  const raw = parsed?.rss?.channel?.item ?? parsed?.feed?.entry ?? [];
-  return Array.isArray(raw) ? raw : [raw];
-}
-
-// Node's fetch has no default timeout, so a host that accepts the connection
-// and then never answers hangs this job forever. Survivable when a human is
-// watching a terminal; not when nothing is. This runs unattended on a
-// schedule, and a hung run blocks the updater that called it while the
-// scheduler keeps starting more.
-const FETCH_TIMEOUT_MS = 20000;
-
-async function fetchXml(url: string): Promise<string | null> {
+async function fetchText(url: string, extraHeaders: Record<string, string> = {}): Promise<{ body: string; finalUrl: string } | { error: string }> {
   try {
     const res = await fetch(url, {
-      headers: { 'User-Agent': 'ScamShieldNational/1.0 (+state AG scam alert scan)' },
+      headers: {
+        'User-Agent': USER_AGENT,
+        Accept: 'text/html,application/xhtml+xml,application/xml,application/rss+xml,application/json;q=0.9,*/*;q=0.8',
+        ...extraHeaders,
+      },
       signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
     });
-    if (!res.ok) {
-      console.error(`scanStateAgNews: ${res.status} for ${url}`);
-      return null;
-    }
-    return await res.text();
+    if (!res.ok || res.status === 202) return { error: `HTTP ${res.status}` };
+    return { body: await res.text(), finalUrl: res.url || url };
   } catch (err) {
-    console.error(`scanStateAgNews: fetch failed for ${url}`, (err as Error).message);
-    return null;
+    return { error: (err as Error).message };
   }
 }
 
-function parseDate(raw: unknown): Date | null {
-  const s = textOf(raw);
-  if (!s) return null;
-  const d = new Date(s);
-  return Number.isNaN(d.getTime()) ? null : d;
+function parseSource(src: AgSource, body: string, finalUrl: string): FeedItem[] {
+  switch (src.type) {
+    case 'rss':
+      return parseFeed(body);
+    case 'wp':
+      return parseWpJson(body);
+    case 'html':
+      return extractHtmlReleases(body, finalUrl, src.linkPattern);
+    case 'custom':
+      return src.parse(body);
+  }
+}
+
+async function alreadyStored(url: string): Promise<boolean> {
+  const { rows } = await pool.query('SELECT 1 FROM daily_scam_news WHERE source_url = $1', [url]);
+  return rows.length > 0;
+}
+
+async function recordStatus(
+  state: string,
+  src: AgSource,
+  result: { count: number; newest: Date | null; error: string | null }
+) {
+  await pool.query(
+    `INSERT INTO ag_feed_status (state, source_type, source_url, last_attempt_at, last_success_at, last_item_count, newest_item_at, last_error)
+     VALUES ($1, $2, $3, NOW(), CASE WHEN $4 > 0 THEN NOW() END, $4, $5, $6)
+     ON CONFLICT (state) DO UPDATE SET
+       source_type = EXCLUDED.source_type,
+       source_url = EXCLUDED.source_url,
+       last_attempt_at = NOW(),
+       last_success_at = CASE WHEN EXCLUDED.last_item_count > 0 THEN NOW() ELSE ag_feed_status.last_success_at END,
+       last_item_count = EXCLUDED.last_item_count,
+       newest_item_at = COALESCE(EXCLUDED.newest_item_at, ag_feed_status.newest_item_at),
+       last_error = EXCLUDED.last_error`,
+    [state, src.type, src.url, result.count, result.newest, result.error]
+  );
+}
+
+// Tier 'ag': the office's own publication.
+async function fromFirstParty(state: string, src: AgSource): Promise<{ candidates: Candidate[]; ok: boolean }> {
+  const fetched = await fetchText(src.url, src.type === 'custom' ? src.headers : undefined);
+  if ('error' in fetched) {
+    console.error(`scanStateAgNews: ${state} source failed (${fetched.error}) ${src.url}`);
+    await recordStatus(state, src, { count: 0, newest: null, error: fetched.error });
+    return { candidates: [], ok: false };
+  }
+
+  let items: FeedItem[];
+  try {
+    items = parseSource(src, fetched.body, fetched.finalUrl).slice(0, MAX_ITEMS_PER_SOURCE);
+  } catch (err) {
+    const error = `parse failed: ${(err as Error).message}`;
+    await recordStatus(state, src, { count: 0, newest: null, error });
+    return { candidates: [], ok: false };
+  }
+
+  const newest = items.reduce<Date | null>((max, i) => (i.publishedAt && (!max || i.publishedAt > max) ? i.publishedAt : max), null);
+  // A source that answers but yields nothing (a comments feed, a redesigned
+  // page the pattern no longer matches) is a failure too, and recorded as one.
+  await recordStatus(state, src, {
+    count: items.length,
+    newest,
+    error: items.length ? null : 'source answered but no releases were found in it',
+  });
+  if (!items.length) return { candidates: [], ok: false };
+
+  const cutoff = Date.now() - AG_RETENTION_DAYS * 86400000;
+  const candidates: Candidate[] = [];
+  let lookups = 0;
+  for (const item of items) {
+    if (!RELEVANT.test(item.title)) continue;
+    const url = canonicalUrl(item.url);
+    let publishedAt = item.publishedAt;
+    if (!publishedAt) {
+      if (await alreadyStored(url)) continue;
+      if (lookups >= MAX_DATE_LOOKUPS_PER_STATE) continue;
+      lookups += 1;
+      const page = await fetchText(url);
+      if (!('error' in page)) publishedAt = dateFromReleasePage(page.body);
+      await sleep(REQUEST_DELAY_MS);
+    }
+    // An undated release can't be placed on a timeline, and stamping it
+    // "now" would present an old release as breaking news. Skip it.
+    if (!publishedAt || publishedAt.getTime() < cutoff) continue;
+    candidates.push({
+      headline: item.title,
+      sourceName: `${STATE_NAMES[state]} Attorney General`,
+      sourceUrl: url,
+      publishedAt,
+      searchTerm: `${state} AG ${src.type}`,
+      state,
+      sourceKind: 'ag',
+    });
+  }
+  return { candidates, ok: true };
 }
 
 // A Google News query for "Florida Attorney General" scam returns whatever
@@ -186,53 +247,31 @@ function namesOnlyAnotherState(headline: string, state: string): boolean {
   return Object.entries(STATE_NAMES).some(([code, name]) => code !== state && mentions(name));
 }
 
-// Tier 'ag': the office's own feed, filtered for scam relevance.
-async function fromAgFeed(state: string, feedUrl: string): Promise<Candidate[]> {
-  const xml = await fetchXml(feedUrl);
-  if (!xml) return [];
-  const out: Candidate[] = [];
-  for (const item of itemsFrom(xml)) {
-    const title = textOf(item.title).trim();
-    const link = textOf(item.link) || textOf((item.link as Record<string, unknown>)?.href);
-    if (!title || !link) continue;
-    if (!RELEVANT.test(title)) continue;
-    out.push({
-      headline: title,
-      sourceName: `${STATE_NAMES[state]} Attorney General`,
-      sourceUrl: link.trim(),
-      publishedAt: parseDate(item.pubDate ?? item.published ?? item.updated),
-      searchTerm: `${state} AG feed`,
-      state,
-      sourceKind: 'ag',
-    });
-  }
-  return out;
-}
-
-// Tier 'news': news coverage naming that state's Attorney General.
+// Tier 'news': news coverage naming that state's Attorney General. A
+// fallback for states whose own source is missing or failed this run.
 async function fromNewsSearch(state: string): Promise<Candidate[]> {
   const term = `"${STATE_NAMES[state]} Attorney General" scam`;
   const query = encodeURIComponent(`${term} when:7d`);
-  const xml = await fetchXml(
-    `https://news.google.com/rss/search?q=${query}&hl=en-US&gl=US&ceid=US:en`
-  );
-  if (!xml) return [];
+  const fetched = await fetchText(`https://news.google.com/rss/search?q=${query}&hl=en-US&gl=US&ceid=US:en`);
+  if ('error' in fetched) {
+    console.error(`scanStateAgNews: ${state} news search failed (${fetched.error})`);
+    return [];
+  }
   const out: Candidate[] = [];
-  for (const item of itemsFrom(xml)) {
-    const rawTitle = textOf(item.title).trim();
-    const link = textOf(item.link);
-    if (!rawTitle || !link) continue;
+  for (const item of parseFeed(fetched.body)) {
     // The AG tier has always been relevance-filtered; the news tier leaned on
     // the word "scam" being in the query, which the ranker does not honour.
-    if (!RELEVANT.test(rawTitle)) continue;
-    if (namesOnlyAnotherState(rawTitle, state)) continue;
-    const sourceName = textOf(item.source) || 'Unknown source';
-    const suffix = ` - ${sourceName}`;
+    if (!RELEVANT.test(item.title)) continue;
+    if (namesOnlyAnotherState(item.title, state)) continue;
+    // Google News titles end in " - Outlet Name".
+    const cut = item.title.lastIndexOf(' - ');
+    const headline = cut > 20 ? item.title.slice(0, cut).trim() : item.title;
+    const sourceName = cut > 20 ? item.title.slice(cut + 3).trim() : 'News coverage';
     out.push({
-      headline: rawTitle.endsWith(suffix) ? rawTitle.slice(0, -suffix.length).trim() : rawTitle,
+      headline,
       sourceName,
-      sourceUrl: link.trim(),
-      publishedAt: parseDate(item.pubDate),
+      sourceUrl: item.url,
+      publishedAt: item.publishedAt,
       searchTerm: term,
       state,
       sourceKind: 'news',
@@ -241,7 +280,7 @@ async function fromNewsSearch(state: string): Promise<Candidate[]> {
   return out;
 }
 
-async function save(c: Candidate): Promise<boolean> {
+async function insert(c: Candidate): Promise<boolean> {
   if (c.sourceUrl.length > MAX_SOURCE_URL) {
     console.error(`scanStateAgNews: skipping over-long URL (${c.sourceUrl.length} chars) for ${c.state}`);
     return false;
@@ -257,65 +296,138 @@ async function save(c: Candidate): Promise<boolean> {
   return rows.length > 0;
 }
 
-// Re-checks stored news-tier rows against the same rules each run, in JS so
-// the filter has one definition rather than a SQL copy that drifts from it.
-// Without this, rows saved before the rules existed stay on state pages
-// forever — the mistagged ones are exactly the rows a reader notices.
-async function purgeMistagged(): Promise<number> {
-  const { rows } = await pool.query<{ id: string; headline: string; state: string }>(
-    "SELECT id, headline, state FROM daily_scam_news WHERE state IS NOT NULL AND source_kind = 'news'"
+async function recentHeadlines(state: string): Promise<{ id: string; headline: string; source_kind: string }[]> {
+  const { rows } = await pool.query(
+    `SELECT id, headline, source_kind FROM daily_scam_news
+     WHERE state = $1 AND COALESCE(published_at, scanned_at) > NOW() - INTERVAL '${DUPLICATE_WINDOW_DAYS} days'`,
+    [state]
   );
-  const stale = rows
-    .filter((r) => !RELEVANT.test(r.headline) || namesOnlyAnotherState(r.headline, r.state))
-    .map((r) => r.id);
-  if (!stale.length) return 0;
-  const { rowCount } = await pool.query('DELETE FROM daily_scam_news WHERE id = ANY($1::uuid[])', [stale]);
+  return rows;
+}
+
+// Saves one state's candidates: first-party releases always, and news only
+// when it is not a story the state already has.
+async function saveState(state: string, candidates: Candidate[]): Promise<{ inserted: number; skipped: number; removed: number }> {
+  const recent = await recentHeadlines(state);
+  let inserted = 0;
+  let skipped = 0;
+  let removed = 0;
+
+  for (const c of candidates.filter((x) => x.sourceKind === 'ag')) {
+    if (!(await insert(c))) continue;
+    inserted += 1;
+    const copies = recent.filter((r) => r.source_kind === 'news' && isNearDuplicate(r.headline, c.headline)).map((r) => r.id);
+    if (copies.length) {
+      await pool.query('DELETE FROM daily_scam_news WHERE id = ANY($1::uuid[])', [copies]);
+      removed += copies.length;
+    }
+    recent.push({ id: '', headline: c.headline, source_kind: 'ag' });
+  }
+
+  for (const c of candidates.filter((x) => x.sourceKind === 'news')) {
+    if (recent.some((r) => isNearDuplicate(r.headline, c.headline))) {
+      skipped += 1;
+      // Remember the skipped wording too: a third copy may resemble this
+      // one more than the original it was matched against.
+      recent.push({ id: '', headline: c.headline, source_kind: 'news' });
+      continue;
+    }
+    if (await insert(c)) {
+      inserted += 1;
+      recent.push({ id: '', headline: c.headline, source_kind: 'news' });
+    }
+  }
+  return { inserted, skipped, removed };
+}
+
+// Re-checks stored news-tier rows against the current rules each run, in JS
+// so each rule has one definition rather than a SQL copy that drifts:
+// off-topic or mistagged rows, and near-duplicate copies of the same story
+// (kept: a first-party release over any news copy, else the earliest copy).
+async function purgeStaleNews(): Promise<number> {
+  const { rows } = await pool.query<{ id: string; headline: string; state: string; source_kind: string; at: Date }>(
+    `SELECT id, headline, state, source_kind, COALESCE(published_at, scanned_at) AS at
+     FROM daily_scam_news WHERE state IS NOT NULL AND state <> 'US'
+     ORDER BY (source_kind = 'ag') DESC, COALESCE(published_at, scanned_at) ASC`
+  );
+  const doomed: string[] = [];
+  const kept = new Map<string, { headline: string; at: Date }[]>();
+  for (const r of rows) {
+    const list = kept.get(r.state) ?? [];
+    if (r.source_kind === 'news') {
+      const offTopic = !RELEVANT.test(r.headline) || namesOnlyAnotherState(r.headline, r.state);
+      const dup = list.some(
+        (k) => Math.abs(k.at.getTime() - r.at.getTime()) < DUPLICATE_WINDOW_DAYS * 86400000 && isNearDuplicate(k.headline, r.headline)
+      );
+      if (offTopic || dup) {
+        doomed.push(r.id);
+        // A duplicate's wording still describes the story it duplicates.
+        if (dup) list.push({ headline: r.headline, at: r.at });
+        continue;
+      }
+    }
+    list.push({ headline: r.headline, at: r.at });
+    kept.set(r.state, list);
+  }
+  if (!doomed.length) return 0;
+  const { rowCount } = await pool.query('DELETE FROM daily_scam_news WHERE id = ANY($1::uuid[])', [doomed]);
   return rowCount ?? 0;
 }
 
 async function main() {
   const states = Object.keys(STATE_NAMES).sort();
-  let scanned = 0;
   let inserted = 0;
-  let agStates = 0;
+  let skipped = 0;
+  let removed = 0;
+  const firstPartyOk: string[] = [];
+  const firstPartyFailed: string[] = [];
+  const newsOnly: string[] = [];
 
   for (const state of states) {
-    const feed = STATE_AG_FEEDS[state];
-    const candidates = feed ? await fromAgFeed(state, feed) : [];
-    if (feed) {
-      agStates += 1;
+    const src = AG_SOURCES[state];
+    let candidates: Candidate[] = [];
+    let needNews = true;
+    if (src) {
+      const result = await fromFirstParty(state, src);
+      candidates = result.candidates;
+      (result.ok ? firstPartyOk : firstPartyFailed).push(state);
+      needNews = !result.ok;
+      await sleep(REQUEST_DELAY_MS);
+    } else {
+      newsOnly.push(state);
+    }
+    // News coverage only where the office's own source is missing or failed
+    // this run — otherwise it just adds copies of releases we already have.
+    if (needNews) {
+      candidates.push(...(await fromNewsSearch(state)));
       await sleep(REQUEST_DELAY_MS);
     }
-    // Always run the news tier too: an AG feed can be quiet for weeks, and
-    // dedupe by source_url makes the overlap free.
-    const news = await fromNewsSearch(state);
-    await sleep(REQUEST_DELAY_MS);
-
-    const all = [...candidates, ...news];
-    scanned += all.length;
-    for (const c of all) {
-      if (await save(c)) inserted += 1;
-    }
+    const r = await saveState(state, candidates);
+    inserted += r.inserted;
+    skipped += r.skipped;
+    removed += r.removed;
   }
 
-  const { rowCount } = await pool.query(
+  const { rowCount: pruned } = await pool.query(
     `DELETE FROM daily_scam_news
-     WHERE state IS NOT NULL AND scanned_at < NOW() - INTERVAL '${RETENTION_DAYS} days'`
+     WHERE state IS NOT NULL AND state <> 'US' AND (
+       (source_kind = 'news' AND scanned_at < NOW() - INTERVAL '${NEWS_RETENTION_DAYS} days')
+       OR (source_kind = 'ag' AND COALESCE(published_at, scanned_at) < NOW() - INTERVAL '${AG_RETENTION_DAYS} days')
+     )`
   );
+  const purged = await purgeStaleNews();
 
-  const purged = await purgeMistagged();
   console.log(
-    `scanStateAgNews: ${scanned} items scanned across ${states.length} states ` +
-      `(${agStates} with a first-party AG feed), ${inserted} new, ${rowCount ?? 0} pruned, ` +
-      `${purged} removed as off-topic or tagged to the wrong state`
+    `scanStateAgNews: first-party OK ${firstPartyOk.length} [${firstPartyOk.join(' ')}], ` +
+      `FAILED ${firstPartyFailed.length} [${firstPartyFailed.join(' ')}], news-only ${newsOnly.length} [${newsOnly.join(' ')}]. ` +
+      `${inserted} new, ${skipped} duplicate news skipped, ${removed} news copies replaced by the official release, ` +
+      `${pruned ?? 0} expired, ${purged} off-topic/duplicate news removed`
   );
   await pool.end();
 }
 
-// Guards against the failure mode that bit scanFederalScamNews.ts: another
-// script importing this file (even just for a shared export) would
-// otherwise also kick off this entire run as a side effect, racing the
-// importing script for the same DB pool.
+// Guards against another script importing this file and running a whole
+// scan as a side effect.
 if (require.main === module) {
   main().catch((err) => {
     console.error(err);

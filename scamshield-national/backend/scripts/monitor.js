@@ -9,7 +9,8 @@
 //   2. the live website loads
 //   3. the "Today's Scams" feed has a recent headline (the scan cron runs),
 //      and new scams and articles keep arriving (the content pipeline runs)
-//   4. the latest run of each automatic content/CI workflow didn't fail
+//   4. every configured state Attorney General source is still producing
+//   5. the latest run of each automatic content/CI workflow didn't fail
 //
 // A failed API or website check is retried once after a pause, so a
 // momentary blip doesn't page anyone.
@@ -79,6 +80,35 @@ function liveChecks() {
   ];
 }
 
+// Each configured state AG source must have produced releases within the
+// last 30h (the scan runs every 4h, so that is several missed runs). A
+// missing endpoint (an older deploy) is skipped, not flagged.
+const AG_SOURCE_MAX_AGE_HOURS = 30;
+
+async function agFeedChecks() {
+  let body;
+  try {
+    const res = await fetch(API_URL + '/v1/daily-news/ag-status', { signal: AbortSignal.timeout(15000) });
+    if (res.status === 404) return [];
+    body = await res.json();
+  } catch (err) {
+    return [{ name: 'State AG feeds', ok: false, detail: `could not read feed status: ${err.message}` }];
+  }
+  const rows = body.data || [];
+  if (rows.length === 0) return [];
+  const cutoff = Date.now() - AG_SOURCE_MAX_AGE_HOURS * 3600000;
+  const broken = rows.filter((r) => !r.last_success_at || Date.parse(r.last_success_at) < cutoff);
+  if (broken.length === 0) {
+    return [{ name: 'State AG feeds', ok: true, detail: `all ${rows.length} official state sources answering` }];
+  }
+  const list = broken.map((r) => `${r.state} (${r.last_error || 'no releases'})`).join(', ');
+  return [{
+    name: 'State AG feeds',
+    ok: false,
+    detail: `${broken.length} of ${rows.length} official state sources have produced nothing for ${AG_SOURCE_MAX_AGE_HOURS}h+: ${list}`,
+  }];
+}
+
 async function workflowChecks() {
   const token = process.env.GITHUB_TOKEN;
   const repo = process.env.GITHUB_REPOSITORY;
@@ -132,7 +162,7 @@ function report(results) {
     await new Promise((r) => setTimeout(r, RETRY_DELAY_SECONDS * 1000));
     live = await runChecks(liveChecks());
   }
-  const results = [...live, ...(await workflowChecks())];
+  const results = [...live, ...(await agFeedChecks()), ...(await workflowChecks())];
   const { problems, markdown } = report(results);
 
   console.log(markdown);

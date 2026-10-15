@@ -122,7 +122,7 @@ async function save(c: Candidate): Promise<boolean> {
   const { rows } = await pool.query(
     `INSERT INTO daily_scam_news
        (headline, summary, source_name, source_url, published_at, search_term, state, source_kind)
-     VALUES ($1, NULL, $2, $3, $4, $5, 'US', 'ag')
+     VALUES ($1, NULL, $2, $3, $4, $5, 'US', 'federal')
      ON CONFLICT (source_url) DO NOTHING
      RETURNING id`,
     [c.headline, c.sourceName, c.sourceUrl, c.publishedAt, c.searchTerm]

@@ -232,6 +232,44 @@ with no admin review step.
 column on `daily_scam_news`, which powers per-state filtering (`GET /v1/daily-news?state=TX`)
 and the state-level data behind the Global Map.
 
+**46 of 51 offices are read first-party** (`source_kind = 'ag'`), straight from each
+office's own publication. Offices are inconsistent, so `backend/src/jobs/agFeedSources.ts`
+holds one verified source per state: an RSS/Atom feed, the server-rendered press-release
+page, or a one-off format with its own parser (IN, KY, MD, MI, MN, OK, SD, WI). KS, MA and
+NH block cloud networks at the domain level, NC challenges server-side clients, and WY
+publishes almost nothing. Those five, plus any state whose source fails a run, fall back to
+a news query naming the office (`source_kind = 'news'`).
+
+Rules:
+- Releases are filtered by headline for scam/fraud relevance. Matching body text as well was
+  measured at 31% false positives.
+- Undated listing items are dated from the release page itself. Releases that still can't
+  be dated are skipped rather than shown as new.
+- First-party releases are kept for a year, news for 30 days.
+- A news item that is the same story as one already stored (headline word overlap) is not
+  saved, and news copies of a first-party release are removed when it arrives.
+  First-party releases are never merged with each other, because offices reuse headline
+  templates for unrelated actions.
+- Every first-party read is recorded in `ag_feed_status`
+  (`GET /v1/daily-news/ag-status`). The production monitor alerts when any source has
+  produced nothing for 30 hours.
+
+Production runs it every 4 hours (`render.yaml`). It is idempotent (deduped by source URL),
+so run it as often as you like. Elsewhere, schedule it alongside the daily news scan:
+
+```
+0 6 * * * cd /path/to/backend && npm run scan-daily-news >> /var/log/scamshield-daily-news.log 2>&1
+```
+
+Unlike `draft-articles`, this one is fully automatic — headlines it finds go live immediately,
+with no admin review step.
+
+## Scheduling the state Attorney General scan
+
+`npm run scan-state-ag-news` covers all 51 US jurisdictions and populates the `state`
+column on `daily_scam_news`, which powers per-state filtering (`GET /v1/daily-news?state=TX`)
+and the state-level data behind the Global Map.
+
 Coverage comes from two tiers, because AG offices are inconsistent about publishing feeds.
 All 51 were probed directly: **18 expose a working RSS/Atom feed** and are read first-party
 (`source_kind = 'ag'`); the remaining states are covered by a news query naming the office

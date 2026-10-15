@@ -59,7 +59,7 @@ export const count = asyncHandler<AuthedRequest>(async (req, res) => {
       `WITH deduped AS (
          SELECT id, ROW_NUMBER() OVER (
                   PARTITION BY lower(headline)
-                  ORDER BY (source_kind = 'ag') DESC,
+                  ORDER BY (source_kind IN ('ag', 'federal')) DESC,
                            COALESCE(published_at, scanned_at) DESC, id
                 ) AS dupe_rank
          FROM daily_scam_news
@@ -111,7 +111,7 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
       `WITH deduped AS (
          SELECT *, ROW_NUMBER() OVER (
                   PARTITION BY lower(headline)
-                  ORDER BY (source_kind = 'ag') DESC,
+                  ORDER BY (source_kind IN ('ag', 'federal')) DESC,
                            COALESCE(published_at, scanned_at) DESC, id
                 ) AS dupe_rank
          FROM daily_scam_news
@@ -121,7 +121,7 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
               published_at, search_term, scanned_at, state, source_kind
        FROM deduped
        WHERE dupe_rank = 1
-       ORDER BY (source_kind = 'ag') DESC,
+       ORDER BY (source_kind IN ('ag', 'federal')) DESC,
                 COALESCE(published_at, scanned_at) DESC, id
        LIMIT $2 OFFSET $3`,
       [state, PAGE_SIZE, offset]
@@ -218,6 +218,21 @@ export const states = asyncHandler<AuthedRequest>(async (_req, res) => {
      FROM daily_scam_news
      WHERE state IS NOT NULL AND state != 'US'
      GROUP BY state
+     ORDER BY state`
+  );
+  res.json({ data: rows });
+});
+
+// Health of each state's first-party Attorney General source, as recorded by
+// scanStateAgNews.ts on every run. Public on purpose: it holds no user data,
+// and the production monitor reads it to alert when an office's source
+// breaks (errors, or answers with nothing in it) instead of letting that
+// state's page go quietly stale.
+export const agStatus = asyncHandler<AuthedRequest>(async (_req, res) => {
+  const { rows } = await pool.query(
+    `SELECT state, source_type, source_url, last_attempt_at, last_success_at,
+            last_item_count, newest_item_at, last_error
+     FROM ag_feed_status
      ORDER BY state`
   );
   res.json({ data: rows });
