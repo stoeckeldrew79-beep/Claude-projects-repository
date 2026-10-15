@@ -13207,3 +13207,16 @@ UsNS.push({
     country: "US",
     state: "VT",
 });
+
+UsNS.push({
+    name: "Phantom Hacker Three-Phase Retirement Account Drain",
+    slug: "phantom-hacker-three-phase-retirement-account-drain",
+    description:
+      "This scam uses three different impersonated callers in sequence to empty retirement and brokerage accounts. It starts with a text, call, or email claiming your account has been hacked and urging you to call a support number, where the first scammer has you install remote-access software on your computer. A second caller then poses as your bank, says a foreign hacker is attacking the account, and tells you to move your money to a so-called safe account by wire, cash, or cryptocurrency, while a third caller impersonates a government official and sends fake letters or emails to confirm the story. Since 2024, these coordinated relays have taken more than $1 billion, mostly from people at or near retirement age. Never install software at the request of an unexpected caller and never move money to protect it; hang up and call your bank or brokerage at the number printed on your statement.",
+    categorySlug: "tech-support-scams",
+    alertLevel: "critical",
+    sources: ["New York Attorney General Letitia James, Consumer Alert, September 10, 2025"],
+    sourceUrl: "https://ag.ny.gov/press-release/2025/attorney-general-james-warns-new-yorkers-three-phase-scam-targeting-seniors",
+    country: "US",
+    state: "NY",
+});

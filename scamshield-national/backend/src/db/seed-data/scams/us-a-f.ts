@@ -12828,3 +12828,28 @@ UsAF.push({
     country: "US",
     state: "OR",
 });
+
+UsAF.push({
+    name: "Court and Law Enforcement Impersonation Targeting Domestic Violence Victims",
+    slug: "court-law-enforcement-impersonation-domestic-violence-victims",
+    description:
+      "Scammers posing as police officers or court officials call domestic violence victims shortly after an abuser's arrest, hearing, or court date, using real details pulled from investigative and court records to sound credible. They demand immediate payment for invented reasons: a filing fee to process a protective order, the cost of electronic monitoring before an abuser's release, bond money, or a claim that the jail is short on supplies and the abuser will be let out unless money is sent. Some callers say the district attorney will drop charges unless the victim pays, and others falsely claim Family Justice Centers and victim services charge fees, which discourages victims from seeking real help. Courts and law enforcement never demand payment over the phone to process a protective order or keep someone in custody. If you get a call like this, hang up, call the clerk of court or your local victim services office directly using a number you look up yourself, and report the call to your state attorney general.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["North Carolina Department of Justice / Attorney General Jeff Jackson"],
+    sourceUrl: "https://ncdoj.gov/attorney-general-jeff-jackson-warns-north-carolinians-of-scams-targeting-domestic-violence-victims/",
+    country: "US",
+    state: "NC",
+});
+
+UsAF.push({
+    name: "Fake Veterans Savings Program Postcard Mailer",
+    slug: "fake-veterans-savings-program-postcard-mailer",
+    description:
+      "Veterans around the country have reported receiving postcards in the mail saying they or their spouse may qualify for extra monthly veterans benefits through a Veterans Savings Program. No such federal program exists; the mailer is a phishing lure designed to get you to call or respond and hand over personal and financial information. Because it arrives as physical mail with official-sounding language, it can feel more trustworthy than a robocall or text. If you get one of these postcards, do not call the number or share your Social Security number, bank details, or VA file number. Check any benefit question directly with the VA at va.gov or 1-800-827-1000, and report the mailer to the FTC at reportfraud.ftc.gov.",
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["Federal Trade Commission Consumer Alert, Government Impersonators"],
+    sourceUrl: "https://consumer.ftc.gov/government-impersonators",
+    country: "US",
+});
