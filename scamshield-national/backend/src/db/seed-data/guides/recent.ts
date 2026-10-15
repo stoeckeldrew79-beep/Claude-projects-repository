@@ -853,3 +853,24 @@ If you or someone you know is being sextorted, the FTC says not to pay or engage
 
 You can also ask the platform where the images appear to take them down. The FTC notes that under the Take It Down Act, platforms must remove intimate images within 48 hours of a request, free of charge, and if a platform doesn't, you can report it at TakeItDown.ftc.gov. If you already paid a service that did nothing, contact your bank or card issuer about the charge, and report it at ReportFraud.ftc.gov.`,
 });
+
+GuidesRecent.push({
+    title: 'Midterm Election Fraud Alert: Campaign "Investment Pools," Fake Merchandise, and AI-Cloned Candidates',
+    slug: 'midterm-election-campaign-investment-pool-fake-merchandise-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'election-fraud', 'impersonation-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2022_Ohio_Election_Yard_Signs.jpg?width=1200',
+    coverImageCredit: 'Photo: Engrigg22, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — campaign yard signs from a prior election, not tied to any specific scam; replace with an exact match if found
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA261015-3',
+    body: `On October 15, 2026, the FBI's Internet Crime Complaint Center issued a public service announcement (Alert I-101526-3-PSA) warning that scammers may exploit the 2026 U.S. midterm elections. According to the alert, criminals use candidates' names, images, logos, and slogans to fraudulently solicit contributions, sell merchandise, or collect personal information, and increasingly use AI tools to generate realistic voices, images, and messages that impersonate candidates, campaigns, government entities, and trusted contacts.
+
+The FBI describes several distinct schemes. In a "campaign investment pool," victims are promised a guaranteed return after a candidate wins and are encouraged to recruit others to raise their payout, which is a recruitment-driven structure rather than a real campaign activity. In fake merchandise schemes, hats, shirts, and other political goods are advertised online but never shipped, a classic non-delivery fraud. Other schemes include "ScamPACs" that pose as legitimate committees and keep the money, and fake voter-registration alerts that send people to a look-alike page to steal personal information.
+
+These schemes work because election season produces a flood of legitimate asks for money, merchandise, and information, and a cloned voice or familiar slogan makes a fake one feel routine. Strong feelings about a candidate or cause also make people act quickly and skip verification. The FBI's red flags include unsolicited calls, texts, emails, or surveys; requests for personal information or links to unknown sites; guaranteed returns on donations; and contact details that don't belong to the organization being represented. A PAC whose FEC filings show high fundraising, consulting, compliance, or administrative expenses is another warning sign.
+
+The FBI's central point is simple: campaign donations are not investments and will not increase in value or be returned. Anyone promising a payout for donating, or a bonus for recruiting others, is not running a campaign. Before giving, verify a PAC or committee's registration and financial filings on the FEC website, and confirm that the phone number, email, or website truly belongs to the campaign it claims to represent. Before buying merchandise, check reviews and complaints on BBB.org, and check your own voter registration directly at vote.gov rather than through a link in a message.
+
+If you've been targeted, don't share personal information or click unknown links. The FBI asks victims to report incidents to their local FBI field office or at ic3.gov, including the contact's name and identifiers, payment details, and a full account of the interaction. If you paid, contact your bank or card issuer right away to try to stop or reverse the payment.`,
+});
