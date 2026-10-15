@@ -12320,3 +12320,24 @@ The scandal shook public confidence in how fires were investigated and claims se
 The Harris case illustrates how insurance fraud scales when the people trusted to detect it are paid to look away. The scheme depended less on the fires themselves than on corrupting the assessors, salvage officers and firemen who would normally have asked why the same kinds of businesses kept burning, a vulnerability that remains relevant to any system of claims where the investigator and the beneficiary can share a financial interest.`,
     sourceUrl: 'http://londonfirejournal.blogspot.com/2005/07/london-salvage-corps.html',
 });
+
+NotoriousGM.push({
+    title: 'Javier de la Rosa and the Grupo Torras–KIO Scandal',
+    slug: 'javier-de-la-rosa-grupo-torras-kio-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'corporate-fraud', 'forgery'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_SE.jpg?width=1200',
+    coverImageCredit: 'Photo: Txllxt TxllxT (CC BY-SA 4.0) — Passeig de Gràcia, Barcelona\'s main business avenue, 2009',
+    coverImagePosition: 50,
+    body: `Francisco Javier de la Rosa, a Catalan lawyer and financier, ran the Spanish conglomerate Grupo Torras from 1986 to 1992. During those years the London-based Kuwait Investment Office, the Kuwaiti government's investment arm, put about $5 billion into Torras. KIO has said that as much as $1 billion of it was stolen and that much of the rest was squandered through egregious mismanagement. The affair produced a civil suit in London and a long series of criminal cases in Spain.
+
+The first criminal conviction against De la Rosa concerned an attempt to turn the tables on KIO. In 1993, as the real controller of two companies called Folma and Mira that held shares in Torras, he sued KIO in a Spanish civil court to enforce a supposed contract under which KIO was obliged to buy those shares back and take over the companies' debts. The claim was backed by letters purportedly signed by KIO's former president, Fahad Mohamed Al Sabah, committing KIO irrevocably to the buyback. The sum at stake was 51,966 million pesetas. De la Rosa maintained that Al Sabah had given him the letters, and his lawyer argued there was no proof he forged them. The court found the letters to have been simulated.
+
+In May 2000 the Audiencia de Barcelona convicted De la Rosa of attempted fraud and sentenced him to four months of arrest, but acquitted him of forging commercial documents because it considered that offence time-barred, even though it believed the forgery had been committed. Prosecutors had sought three years. In July 2002 Spain's Supreme Court allowed appeals by the prosecutor and KIO, ruling that the forgery could not be time-barred while the attempted fraud it served remained alive. It convicted him of forgery as well, and raised the total sentence from four months to one year and eight months, his first final criminal conviction. Because the sentence was under two years, he was not expected to go to prison on it. In a separate matter, the Inpacsa case, he was later convicted by the Audiencia Nacional in 2004, and the Supreme Court upheld that conviction in 2006.
+
+The criminal cases were only part of the legal pressure. In June 1999 a London commercial court ordered De la Rosa to pay KIO damages of about 96,000 million pesetas in a claim accusing him of stripping the Kuwaiti-backed holding of its capital. Other cases, including Wardbase (a separate piece of the Torras case) and Grand Tibidabo, were still before the courts when the Supreme Court ruled in 2002.
+
+The De la Rosa case shows how long it can take for a large, cross-border corporate fraud to translate into criminal accountability. The civil judgment came years before the first final criminal sentence, and that sentence was for a smaller, specific act, forged letters used to try to extract more than 50,000 million pesetas, rather than for the larger loss that KIO alleged. It also illustrates how a fraud can continue even after the money has gone, by turning to the courts with fabricated documents to turn a collapse into a claim.`,
+    sourceUrl: 'https://www.ultimahora.es/noticias/nacional/2002/07/16/775815/el-supremo-eleva-la-pena-de-prision-para-de-la-rosa-por-el-caso-kio.html',
+});
