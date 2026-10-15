@@ -5167,3 +5167,24 @@ The single fact that unravels every version of this scam is how the IRS actually
 
 Handling a suspected phishing email or smishing text is mostly about not engaging with it at all: don't reply, don't open any attachment, and don't tap any link, even one that claims to let you "unsubscribe" or "opt out." For a suspicious email, forward it as-is (not a screenshot) to phishing@irs.gov and then delete it. For a suspicious text, forward the message to your carrier's spam-reporting short code, 7726 ("SPAM"), and separately send the caller ID and the full text of the message to phishing@irs.gov — if you can't easily copy the text, a screenshot is an acceptable substitute there. If you've already lost money to one of these messages, report it to the Treasury Inspector General for Tax Administration (TIGTA) at tigta.gov, to the FBI's Internet Crime Complaint Center at IC3.gov, and to the FTC at ReportFraud.ftc.gov. If you clicked a link and entered personal information before realizing it was fake, go to the IRS's Identity Theft Central page and consider starting a recovery plan at IdentityTheft.gov, since a leaked Social Security number can be used to file a fraudulent return in your name well after the original message is long forgotten.`,
 });
+
+GuidesGM.push({
+  title: 'The Hotel "Front Desk" Call: How a Late-Night Phone Call to Your Room Is Used to Get Your Card Number',
+  slug: 'hotel-front-desk-phone-call-scam-guide',
+  author: 'ScamShield Editorial',
+  tags: ['guide', 'hotel-front-desk-scam', 'travel-scams'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bulgarian_Telephone._Hotel_Chaika,_Druzhba_October_1993_(3132778556).jpg?width=1200',
+  coverImageCredit: 'Photo: Sludge G, CC BY-SA 2.0, via Wikimedia Commons',
+  coverImagePosition: 50,
+  // representative photo — a hotel-room telephone, not tied to any specific incident; replace with an exact match if found
+  sourceUrl: 'https://blog.hiya.com/hotel-phone-scam-targeting-vacationers/',
+  body: `The hotel front desk scam starts with an ordinary-seeming phone call to your room, often late at night or very early in the morning. The caller says they are the front desk or a manager and gives a reason they need your card: a system glitch, a payment that didn't go through at check-in, or a need to "confirm every guest for insurance purposes." In cases the Better Business Bureau described to a North Carolina TV station, callers ask for random room numbers and first ask the guest to confirm the last four digits of their card, then, if those are wrong, ask for all sixteen digits and the spelling of the cardholder's name.
+
+The scam works because it exploits a tired traveler in an unfamiliar place who has every reason to expect that the front desk might call. Calls tend to land when guests are groggy, and the caller may sound routine and apologetic rather than pushy. Local reports say callers reach rooms simply by asking the hotel's main line to transfer them, so the call really does ring through the hotel's own phone system, which makes it feel official.
+
+The red flags are consistent. A hotel normally already has a card on file from check-in, so a request to read out a full card number over the phone is unusual. Be wary of any caller who asks for more than a partial number, who pushes you to settle the problem immediately, or who reaches you in the middle of the night. A request to "verify" your name spelling or full card details is not something a front desk needs to do by phone.
+
+If you get a call like this, hang up and don't give out any information. Go down to the lobby, or call the front desk yourself using the number printed on the room phone or the hotel's published number, and ask whether anyone called you and whether there is really a problem. If there is, resolve it in person. It's also worth telling hotel management about the call so staff can watch for it and warn other guests.
+
+If you already read your card number to the caller, call your card issuer right away using the number on the back of your card, tell them the card may be compromised, and ask them to block the card and dispute any charges. Review your statements closely for the next few weeks, and consider reporting the incident to the FTC at ReportFraud.ftc.gov.`,
+});
