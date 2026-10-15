@@ -2926,3 +2926,24 @@ The red flags sit in details that are easy to miss inside a busy inbox: any mess
 
 Before acting on any emailed request to change where a payment goes, call the vendor using a phone number already on file — from a past contract, an old invoice, or your own records — never a number provided in the email making the request, and treat that callback as a required step for every payment-detail change, not just suspicious-looking ones. If a payment has already gone out, contact your bank's fraud department immediately and ask it to attempt a wire recall and issue a Hold Harmless Letter or Letter of Indemnity, since funds are often moved out of the receiving account within hours; file a complaint at ic3.gov right away regardless of the amount, since IC3 can sometimes help law enforcement and banks freeze funds in time, and separately notify the real vendor so they can secure their own compromised email account before it's used against their next customer.`,
 });
+
+GuidesTZ.push({
+  title: 'The Unpaid Tuition Call: How Fake Bursar Staff Pressure Students and Parents Into Paying a Balance They Don\'t Owe',
+  slug: 'unpaid-tuition-bursar-impersonation-scam-guide',
+  author: 'ScamShield Editorial',
+  tags: ['guide', 'unpaid-tuition-scam', 'government-impersonation-scams'],
+  coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ezra_Gillis_Building,_University_of_Kentucky,_Administration_Drive,_Lexington,_KY.jpg?width=1200',
+  coverImageCredit: 'Photo: w_lemay, CC BY-SA 2.0, via Wikimedia Commons',
+  coverImagePosition: 50,
+  // representative photo — a university administration building, not tied to any specific case; replace with an exact match if found
+  sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/08/got-call-about-unpaid-college-tuition-it-could-be-scam',
+  body: `Every fall, scammers phone students and their parents while posing as staff from a school's financial aid or bursar's office. The caller says a tuition balance is overdue and warns of consequences: that financial aid fell through, that classes can't begin until the full amount is paid, or that transcripts will be held. The FTC described this pattern in an August 2024 consumer alert, noting that all of these claims are false.
+
+The scam works because the timing is believable and the stakes feel high. The start of a semester is exactly when real billing, aid adjustments, and payment deadlines are on everyone's mind, and a parent who is already paying a large bill may not stop to question one more. Scammers also take advantage of caller ID spoofing, and the FTC notes they can copy the first six digits of a school's real phone number so the call appears to come from campus. Pressure to pay immediately leaves no time to check.
+
+Red flags include an unexpected call about an overdue balance, threats to drop classes or withhold transcripts, and a demand for payment on the spot. The clearest warning sign is the payment method: the FTC advises that only scammers demand payment by cryptocurrency, wire transfer, a payment app, or gift card. As the agency puts it, a school won't call and scare you into paying over the phone.
+
+If you get one of these calls, don't give out bank or credit card details and don't trust caller ID. Hang up, then check your balance through the school's secure student portal or call the financial aid or billing office at a number you already know is legitimate, such as one printed on the school's website or a past statement. Block the number, and let the school know so it can warn other students and families.
+
+If you already paid, contact your bank or card issuer right away to try to stop or reverse the payment, and if you used a wire service, payment app, or gift card, contact that company too. Report the call at ReportFraud.ftc.gov. Sharing what happened with other students and parents helps, since, as the FTC points out, chances are you're not the only one who got the call.`,
+});
