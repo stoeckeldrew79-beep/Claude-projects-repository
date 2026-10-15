@@ -11743,3 +11743,22 @@ On November 27, 2017, the Stuttgart Regional Court convicted all three. Anton Sc
 The Schlecker case illustrates how a personal-liability business owner can turn the approach of insolvency into a theft from creditors. Because Schlecker owed his creditors personally, moving assets to family members in anticipation of failure left suppliers and employees with the loss while the family kept the wealth. The case also shows that German bankruptcy law treats the deliberate removal of assets before an insolvency as a crime in itself, whatever the original reasons for the company's failure.`,
     sourceUrl: 'https://www.thelocal.com/20171127/drug-store-family-sentenced-to-jail-over',
 });
+
+NotoriousAF.push({
+    title: "Bihar's Fodder Scam and the Treasury Raids on Public Funds",
+    slug: 'bihar-fodder-scam-animal-husbandry-treasury-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'embezzlement', 'government-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cattle_fair_at_Sonepur,_India,_1913_(IMP-CSCNWW33-OS14-34).jpg?width=1200',
+    coverImageCredit: 'Photo: unknown (Public Domain) — cattle fair at Sonepur, Bihar, c. 1913; International Mission Photography Archive, via Wikimedia Commons',
+    coverImagePosition: 50,
+    body: `The "fodder scam" was a long-running embezzlement of public money from the animal husbandry department of undivided Bihar, in eastern India. Money that was supposed to buy fodder, medicines and equipment for the state's livestock was instead drawn out of government treasuries in district after district. The Wire describes it as a scheme of fraudulent withdrawals of public funds from treasuries across the state, and press estimates put the total at roughly ₹950 crore.
+
+The fraud came to light in January 1996 after a raid on the Animal Husbandry Department, and prosecutors later brought the matter as a series of separate cases, one for each treasury. In the cases that reached verdict, the charges included criminal conspiracy, criminal breach of trust by a public servant, cheating, forgery, using forged documents and falsification of accounts, along with corruption offences under the Prevention of Corruption Act. Those charged were not only suppliers but state officials, including senior bureaucrats, and several politicians. The cases were handled by the CBI and took many years to work through the courts, and many of the accused died before trial concluded.
+
+The first major conviction came in 2013 in the Chaibasa treasury case, which concerned the fraudulent withdrawal of ₹37.5 crore. After a trial that lasted 17 years, a special CBI court sentenced former chief minister Lalu Prasad Yadav to five years in prison and a ₹25 lakh fine, and fellow former chief minister Jagannath Mishra to four years and a ₹30 lakh fine. Dozens of other defendants, including MPs and officials, received terms of three to five years. Lalu Prasad's family said the verdict was the result of a conspiracy against him, and the cases that followed produced mixed results: Mishra, for instance, was acquitted in the Deoghar treasury case in December 2017, while both men were convicted in another Chaibasa treasury case in January 2018. The Wire later reported Lalu Prasad's conviction in a fifth and final case, concerning ₹139.5 crore from the Doranda treasury.
+
+The fodder scam illustrates how public-money fraud can run for years when a single department's spending is rarely checked against what it actually bought. The charges of forgery, forged documents and falsified accounts point to how it worked: money left the treasuries on paperwork that did not reflect real purchases, and the scheme depended on officials in the department, the treasuries and the supply trade all letting it through. Its two-decade trail through the courts also shows the cost of prosecuting such fraud case by case: verdicts came long after the money was spent, and many defendants died before they could be held to account.`,
+    sourceUrl: 'https://www.downtoearth.org.in/environment/fodder-scam-lalu-gets-five-years-in-jail-42350',
+});
