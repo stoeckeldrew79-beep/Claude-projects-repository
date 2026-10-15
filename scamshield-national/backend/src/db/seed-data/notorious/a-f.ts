@@ -11762,3 +11762,23 @@ The first major conviction came in 2013 in the Chaibasa treasury case, which con
 The fodder scam illustrates how public-money fraud can run for years when a single department's spending is rarely checked against what it actually bought. The charges of forgery, forged documents and falsified accounts point to how it worked: money left the treasuries on paperwork that did not reflect real purchases, and the scheme depended on officials in the department, the treasuries and the supply trade all letting it through. Its two-decade trail through the courts also shows the cost of prosecuting such fraud case by case: verdicts came long after the money was spent, and many defendants died before they could be held to account.`,
     sourceUrl: 'https://www.downtoearth.org.in/environment/fodder-scam-lalu-gets-five-years-in-jail-42350',
 });
+
+NotoriousAF.push({
+    title: 'Bernardo Tanlongo and the Banca Romana Scandal',
+    slug: 'bernardo-tanlongo-banca-romana-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'bank-fraud', 'political-corruption'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bernardo_Tanlongo.jpg?width=1200',
+    coverImageCredit: 'Illustration: Illustrazione italiana, 13 May 1894 (Public Domain), via Wikimedia Commons',
+    coverImagePosition: 50,
+    body: `Bernardo Tanlongo became governor of the Banca Romana in 1881. The bank, founded in the 1830s under papal rule, was one of six institutions authorised to issue banknotes in the newly unified Kingdom of Italy, which made it both a commercial lender and part of the country's money supply. Italy's banking system had expanded rapidly during a property boom in Rome, and by the late 1880s several of the note-issuing banks were already circulating more paper than the law allowed, a fact known to the government.
+
+An official inspection in June 1889 found that around 91% of the Banca Romana's assets were illiquid and that banknotes bearing duplicate serial numbers had been printed. Prime Minister Francesco Crispi and Treasury Minister Giovanni Giolitti knew of the report, but it was suppressed. Tanlongo stayed in his post. When a second expert commission reported publicly on January 18, 1893, it found 135 million lire of notes in circulation against a legal limit of 75 million, together with about 40 million lire of duplicate notes printed in Britain that had not yet been issued. Tanlongo, the bank's cashier Cesare Lazzaroni, and other subordinates were arrested the next day.
+
+The bank's records showed where much of the money had gone. The Banca Romana had lent heavily to politicians, often without interest, to cover the cost of election campaigns in exchange for favours, and had paid journalists as well; Tanlongo's own letters attributed the deficit to payments to ministers, senators and the press. Giolitti was among the borrowers, and a cashier's notes implicated Crispi for more than a million lire. An IMF working paper on the crisis describes the bank's managers, aided by collusion with politicians and journalists, running risky and illegal operations that amounted to asset-stripping, while a government with investigative powers failed to act in time and withheld critical information from the public.
+
+The trial opened on May 2, 1894, and Tanlongo and his co-defendants were acquitted in July 1894; the court was reported to have remarked that the "major criminals are elsewhere," an implicit reference to Giolitti. By then the political damage was done. Giolitti's government had resigned on November 24, 1893, and an August 1893 banking law liquidated the Banca Romana and ended its right to issue currency, leaving the privilege with the Banca d'Italia, the Banco di Napoli and the Banco di Sicilia.
+
+The Banca Romana affair illustrates how a bank that is supposed to supervise a nation's money can become the instrument of those meant to oversee it. The fraud, in the form of excess and duplicate notes, was possible because the people who knew about it had their own reasons not to disclose it, and the one trial that followed ended without a conviction. It also shows how financial scandal can drive reform: the collapse prompted a new banking law and a central note-issuing system.`,
+    sourceUrl: 'https://www.imf.org/en/Publications/WP/Issues/2017/12/14/Crisis-and-Reform-The-1893-Demise-of-Banca-Romana-45475',
+});
