@@ -5,5 +5,6 @@ const router = Router();
 
 router.get('/', statsController.get);
 router.get('/live', statsController.live);
+router.get('/breakdown', statsController.breakdown);
 
 export default router;

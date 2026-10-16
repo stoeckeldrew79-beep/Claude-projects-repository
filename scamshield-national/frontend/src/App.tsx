@@ -1,4 +1,4 @@
-import { Link, NavLink, Route, Routes, useNavigate } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import TodaysScams from './pages/TodaysScams';
 import AIScams from './pages/AIScams';
@@ -22,136 +22,9 @@ import Subscribe from './pages/Subscribe';
 import Dashboard from './pages/Dashboard';
 import Admin from './pages/Admin';
 import Login from './pages/Login';
-import { useAuthStore } from './store/useAuthStore';
-import { roleFromToken } from './utils/tokenRole';
 import { ShieldLogo } from './components/ShieldLogo';
-import { MobileMenu } from './components/MobileMenu';
+import { SiteHeader } from './components/shell/SiteHeader';
 import { formatPhoneDisplay, PUBLIC_PHONE, telHref } from './utils/publicPhone';
-
-const NAV_LINKS = [
-  { to: '/', label: 'Home', end: true },
-  { to: '/todays-scams', label: "Today's Scams" },
-  { to: '/ai-scams', label: 'AI-Enabled Scams' },
-  { to: '/database', label: 'Database' },
-  { to: '/alerts', label: 'Alerts' },
-  { to: '/articles', label: 'Articles' },
-  { to: '/notorious', label: 'Notorious' },
-  { to: '/global-map', label: 'Global Map' },
-  { to: '/global-sources', label: 'Global Sources' },
-  { to: '/state-attorneys-general', label: 'State AGs' },
-  { to: '/federal', label: 'Federal Watch' },
-  { to: '/statistics', label: 'Statistics' },
-  { to: '/subscribe', label: 'Subscribe' },
-];
-
-function AccountNav() {
-  const navigate = useNavigate();
-  const user = useAuthStore((s) => s.user);
-  const token = useAuthStore((s) => s.token);
-  const clearSession = useAuthStore((s) => s.clearSession);
-  // Admin is deliberately absent from the public nav, but that left the one
-  // person who uses it retyping a URL they have to remember. Shown only to an
-  // admin token — the page and every write behind it are enforced server-side
-  // regardless of what is linked here.
-  const isAdmin = roleFromToken(token) === 'admin';
-
-  if (!user) {
-    return (
-      <NavLink to="/login" className="text-sm text-slate-500">
-        Sign in
-      </NavLink>
-    );
-  }
-
-  return (
-    <div className="flex items-center gap-4">
-      {isAdmin && (
-        <NavLink to="/admin" className="text-sm font-medium text-slate-700 whitespace-nowrap">
-          Admin
-        </NavLink>
-      )}
-      <NavLink to="/dashboard" className="text-sm text-slate-500 whitespace-nowrap truncate max-w-[12rem]">
-        {user.email}
-      </NavLink>
-      <button
-        type="button"
-        onClick={() => {
-          clearSession();
-          navigate('/');
-        }}
-        className="text-sm text-slate-500 whitespace-nowrap flex-shrink-0"
-      >
-        Sign out
-      </button>
-    </div>
-  );
-}
-
-function SiteHeader() {
-  return (
-    <header className="border-b border-slate-200 bg-white">
-      {/* Institutional identity bar — this is where the "which agency" signal lives.
-          Deliberately says "private" here, plainly, rather than leaving it ambiguous. */}
-      <div className="bg-[#0f1a2b] text-slate-300 text-xs">
-        <div className="max-w-6xl mx-auto px-4 py-1.5 flex items-center justify-between">
-          <span>
-            <span className="sm:hidden">Private service · not a government agency</span>
-            <span className="hidden sm:inline">A private consumer-protection service — not a government agency</span>
-          </span>
-          <div className="hidden sm:flex items-center gap-4">
-            {PUBLIC_PHONE && (
-              <a href={telHref(PUBLIC_PHONE)} className="hover:text-white">
-                Call {formatPhoneDisplay(PUBLIC_PHONE)}
-              </a>
-            )}
-            <Link to="/report" className="hover:text-white">
-              Report a scam online, 24/7 →
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      <nav className="max-w-7xl mx-auto px-3 py-2 flex items-center gap-3 md:gap-4">
-        <Link to="/" className="flex items-center gap-2 min-w-0 flex-shrink">
-          <ShieldLogo className="h-8 w-8 md:h-9 md:w-9 flex-shrink-0" />
-          <span className="font-bold text-base sm:text-lg text-slate-900 whitespace-nowrap truncate" style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}>
-            ScamShield National
-          </span>
-        </Link>
-
-        <div className="hidden md:flex items-center flex-wrap gap-x-6 gap-y-2 flex-1 min-w-0">
-          {NAV_LINKS.map((link) => (
-            <NavLink
-              key={link.to}
-              to={link.to}
-              end={link.end}
-              className={({ isActive }) =>
-                `text-sm whitespace-nowrap ${isActive ? 'text-slate-900 font-medium' : 'text-slate-500'}`
-              }
-            >
-              {link.label}
-            </NavLink>
-          ))}
-        </div>
-
-        <div className="ml-auto flex items-center gap-2 md:gap-5 flex-shrink-0">
-          <Link
-            to="/report"
-            className="px-3 md:px-4 py-2 rounded-md bg-[#8a2e2e] text-white text-sm font-semibold whitespace-nowrap flex-shrink-0 hover:bg-[#7a2626] transition-colors"
-          >
-            <span className="sm:hidden">Report</span>
-            <span className="hidden sm:inline">Report a Scam</span>
-          </Link>
-          {/* Phones get the account links inside the menu instead. */}
-          <div className="hidden md:block">
-            <AccountNav />
-          </div>
-          <MobileMenu links={NAV_LINKS} />
-        </div>
-      </nav>
-    </header>
-  );
-}
 
 function SiteFooter() {
   return (

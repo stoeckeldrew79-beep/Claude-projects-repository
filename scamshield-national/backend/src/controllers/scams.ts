@@ -2,19 +2,41 @@ import { AuthedRequest } from '../middleware/auth';
 import * as ScamsModel from '../models/scams';
 import { asyncHandler } from '../utils/asyncHandler';
 
+// ?severity=critical,high (or repeated ?severity=). Unknown levels are
+// dropped rather than rejected, so a stale link still loads a list.
+function parseSeverity(raw: unknown): ScamsModel.SeverityLevel[] | undefined {
+  const parts = (Array.isArray(raw) ? raw : [raw])
+    .filter((v): v is string => typeof v === 'string')
+    .flatMap((v) => v.split(','))
+    .map((v) => v.trim().toLowerCase());
+  const levels = ScamsModel.SEVERITY_LEVELS.filter((l) => parts.includes(l));
+  return levels.length > 0 ? levels : undefined;
+}
+
 export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   const { category, tag, state, zip, country, search, sort, view, page } = req.query;
-  const scams = await ScamsModel.listScams({
+  const pageNumber = page ? Math.max(1, Math.floor(Number(page)) || 1) : undefined;
+  const filters: ScamsModel.ScamListFilters = {
     category: category as string | undefined,
     tag: tag as string | undefined,
     state: state as string | undefined,
     zip: zip as string | undefined,
     country: country as string | undefined,
-    search: search as string | undefined,
+    search: typeof search === 'string' && search.trim() ? search.trim().slice(0, 200) : undefined,
     sort: sort as ScamsModel.ScamListFilters['sort'],
     view: view as ScamsModel.ScamListFilters['view'],
-    page: page ? Number(page) : undefined,
-  });
+    severity: parseSeverity(req.query.severity),
+    page: pageNumber,
+  };
+  // The total is opt-in (?include_total=1) so the many existing callers that
+  // only page through results don't pay for a second COUNT query. It is
+  // returned beside `data`, never inside it, so the response shape every
+  // existing client reads is unchanged.
+  if (req.query.include_total === '1' || req.query.include_total === 'true') {
+    const [scams, total] = await Promise.all([ScamsModel.listScams(filters), ScamsModel.countScams(filters)]);
+    return res.json({ data: scams, total });
+  }
+  const scams = await ScamsModel.listScams(filters);
   res.json({ data: scams });
 });
 

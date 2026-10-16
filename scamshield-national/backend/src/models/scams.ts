@@ -32,6 +32,51 @@ export interface Scam {
   updated_at: string;
 }
 
+// Every column a client actually reads. Spelled out instead of s.* so the
+// generated search_vector (a tsvector holding every stemmed word of the
+// name and description) never ships to the browser: it was ~37% of every
+// /v1/scams list response and nothing on the frontend reads it. Also lets
+// the list query drop SELECT DISTINCT, which had to compare that tsvector
+// row by row. Add a column here when a migration adds one clients need.
+export const SCAM_COLUMNS = [
+  'id',
+  'name',
+  'slug',
+  'description',
+  'category_id',
+  'alert_level',
+  'first_recorded',
+  'is_active',
+  'is_historical',
+  'sources',
+  'source_url',
+  'country',
+  'tags',
+  'created_at',
+  'updated_at',
+] as const;
+
+function scamColumns(alias?: string): string {
+  return SCAM_COLUMNS.map((c) => (alias ? `${alias}.${c}` : c)).join(', ');
+}
+
+export const SEVERITY_LEVELS = ['critical', 'high', 'medium', 'low'] as const;
+export type SeverityLevel = (typeof SEVERITY_LEVELS)[number];
+
+// Turns what someone is typing into a prefix-matching tsquery
+// ("voice clon" -> 'voice:* & clon:*'), so the Database search box finds
+// "voice cloning" before the word is finished. Only letters and digits
+// survive, so nothing a user types can produce tsquery syntax errors.
+export function toPrefixTsQuery(input: string): string | null {
+  const tokens = input
+    .toLowerCase()
+    .split(/[^\p{L}\p{N}]+/u)
+    .filter((t) => t.length > 0)
+    .slice(0, 8);
+  if (tokens.length === 0) return null;
+  return tokens.map((t) => `${t}:*`).join(' & ');
+}
+
 export interface ScamListFilters {
   category?: string;
   // Victim-targeting label (elder-targeted, veteran-targeted, ...). A
@@ -50,12 +95,17 @@ export interface ScamListFilters {
   // ticker, state pages) rely on its existing meaning by omitting `view`
   // entirely and getting the default.
   view?: 'current' | 'historical' | 'all' | 'recent';
+  // One or more alert levels (critical, high, medium, low). Additive: no
+  // value means every level, as before.
+  severity?: SeverityLevel[];
   page?: number;
   pageSize?: number;
 }
 
-export async function listScams(filters: ScamListFilters) {
-  const { category, tag, state, zip, country, search, sort = 'newest', view = 'current', page = 1, pageSize = 20 } = filters;
+// Builds the shared WHERE clause so the page query and the optional total
+// count can never disagree about what "matching" means.
+function buildScamListWhere(filters: ScamListFilters): { where: string; values: unknown[] } {
+  const { category, tag, state, zip, country, search, severity, view = 'current' } = filters;
   const conditions: string[] = ['s.is_active = true'];
   const values: unknown[] = [];
 
@@ -84,8 +134,15 @@ export async function listScams(filters: ScamListFilters) {
     values.push([tag]);
     conditions.push(`s.tags @> $${values.length}`);
   }
+  if (severity && severity.length > 0) {
+    values.push(severity);
+    conditions.push(`s.alert_level = ANY($${values.length}::text[])`);
+  }
   if (state || zip) {
-    const locConditions: string[] = [];
+    // Same predicate as before (a nationwide location, or one matching the
+    // state/zip), as a single EXISTS: the old form LEFT JOINed every
+    // location row onto every scam and needed SELECT DISTINCT to undo it.
+    const locConditions: string[] = ['l.is_nationwide = true'];
     if (state) {
       values.push(state);
       locConditions.push(`l.state = $${values.length}`);
@@ -95,13 +152,38 @@ export async function listScams(filters: ScamListFilters) {
       locConditions.push(`l.zip_code = $${values.length}`);
     }
     conditions.push(
-      `(l.is_nationwide = true OR EXISTS (SELECT 1 FROM scam_locations l WHERE l.scam_id = s.id AND (${locConditions.join(' OR ')})))`
+      `EXISTS (SELECT 1 FROM scam_locations l WHERE l.scam_id = s.id AND (${locConditions.join(' OR ')}))`
     );
   }
-  if (search) {
-    values.push(search);
-    conditions.push(`to_tsvector('english', s.name) @@ plainto_tsquery('english', $${values.length})`);
+  const tsq = search ? toPrefixTsQuery(search) : null;
+  if (search && tsq) {
+    // Name and description (the GIN-indexed search_vector), prefix-matched,
+    // instead of exact whole words in the name only — "deepfa" now finds
+    // deepfake entries, and a word that only appears in the description
+    // counts.
+    values.push(tsq);
+    conditions.push(`s.search_vector @@ to_tsquery('english', $${values.length})`);
+  } else if (search) {
+    // Nothing indexable typed (punctuation only): match it literally.
+    values.push(`%${search}%`);
+    conditions.push(`s.name ILIKE $${values.length}`);
   }
+
+  return { where: conditions.join(' AND '), values };
+}
+
+export async function countScams(filters: ScamListFilters): Promise<number> {
+  const { where, values } = buildScamListWhere(filters);
+  const { rows } = await pool.query(
+    `SELECT COUNT(*)::int AS total FROM scams s LEFT JOIN categories c ON c.id = s.category_id WHERE ${where}`,
+    values
+  );
+  return rows[0]?.total ?? 0;
+}
+
+export async function listScams(filters: ScamListFilters) {
+  const { sort = 'newest', page = 1, pageSize = 20 } = filters;
+  const { where, values } = buildScamListWhere(filters);
 
   // alert_level is free-text ('low'/'medium'/'high'/'critical'), not a
   // Postgres ENUM with a defined order, so a plain ORDER BY alert_level
@@ -124,16 +206,16 @@ export async function listScams(filters: ScamListFilters) {
   values.push((page - 1) * pageSize);
   const offsetParam = values.length;
 
-  // SELECT DISTINCT requires every ORDER BY expression to appear in the
-  // select list, so the severity rank has to be selected (and aliased)
-  // here, not just referenced in ORDER BY.
+  // severity_rank stays in the select list: it is part of the response
+  // shape clients already receive. s.id is the final tiebreaker so paging
+  // is stable — without it, rows with equal sort keys could repeat or go
+  // missing between page 1 and page 2.
   const { rows } = await pool.query(
-    `SELECT DISTINCT s.*, c.name AS category_name, c.slug AS category_slug, ${SEVERITY_RANK} AS severity_rank
+    `SELECT ${scamColumns('s')}, c.name AS category_name, c.slug AS category_slug, ${SEVERITY_RANK} AS severity_rank
      FROM scams s
      LEFT JOIN categories c ON c.id = s.category_id
-     LEFT JOIN scam_locations l ON l.scam_id = s.id
-     WHERE ${conditions.join(' AND ')}
-     ORDER BY ${orderBy}
+     WHERE ${where}
+     ORDER BY ${orderBy}, s.id
      LIMIT $${limitParam} OFFSET $${offsetParam}`,
     values
   );
@@ -181,7 +263,7 @@ export async function countsByState() {
 
 export async function getScamBySlug(slug: string) {
   const { rows } = await pool.query(
-    `SELECT s.*, c.name AS category_name, c.slug AS category_slug
+    `SELECT ${scamColumns('s')}, c.name AS category_name, c.slug AS category_slug
      FROM scams s
      LEFT JOIN categories c ON c.id = s.category_id
      WHERE s.slug = $1`,
@@ -249,7 +331,7 @@ export async function searchScams(query: string) {
        SELECT to_tsquery('english', replace(plainto_tsquery('english', $1)::text, ' & ', ' | ')) AS tsq
      ),
      scored AS (
-       SELECT s.*, c.name AS category_name, c.slug AS category_slug,
+       SELECT ${scamColumns('s')}, c.name AS category_name, c.slug AS category_slug,
               ts_rank(s.search_vector, q.tsq) AS rank,
               (SELECT count(*) FROM unnest($2::text[]) term
                WHERE s.search_vector @@ to_tsquery('english', term)) AS matched_terms
@@ -270,10 +352,10 @@ export async function searchScams(query: string) {
 
 export async function scamsNearZip(zip: string) {
   const { rows } = await pool.query(
-    `SELECT DISTINCT s.*
+    `SELECT ${scamColumns('s')}
      FROM scams s
-     JOIN scam_locations l ON l.scam_id = s.id
-     WHERE s.is_active = true AND (l.zip_code = $1 OR l.is_nationwide = true)
+     WHERE s.is_active = true
+       AND EXISTS (SELECT 1 FROM scam_locations l WHERE l.scam_id = s.id AND (l.zip_code = $1 OR l.is_nationwide = true))
      ORDER BY s.created_at DESC`,
     [zip]
   );
@@ -284,7 +366,7 @@ export async function createScam(data: Partial<Scam>) {
   const { rows } = await pool.query(
     `INSERT INTO scams (name, slug, description, category_id, alert_level, first_recorded, is_historical, sources, source_url, country)
      VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
-     RETURNING *`,
+     RETURNING ${scamColumns()}`,
     [
       data.name,
       data.slug,
@@ -308,14 +390,14 @@ export async function updateScam(id: string, data: Partial<Scam>) {
   setClauses.push('updated_at = NOW()');
 
   const { rows } = await pool.query(
-    `UPDATE scams SET ${setClauses.join(', ')} WHERE id = $1 RETURNING *`,
+    `UPDATE scams SET ${setClauses.join(', ')} WHERE id = $1 RETURNING ${scamColumns()}`,
     [id, ...values]
   );
   return rows[0] ?? null;
 }
 
 export async function getScamById(id: string) {
-  const { rows } = await pool.query('SELECT * FROM scams WHERE id = $1', [id]);
+  const { rows } = await pool.query(`SELECT ${scamColumns()} FROM scams WHERE id = $1`, [id]);
   return rows[0] ?? null;
 }
 

@@ -1,4 +1,4 @@
-import { KeyboardEvent as ReactKeyboardEvent, useCallback, useEffect, useRef, useState } from 'react';
+import { FocusEvent as ReactFocusEvent, KeyboardEvent as ReactKeyboardEvent, useCallback, useEffect, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
 // Shared behaviour for the header's dropdowns ("More", account menu):
@@ -61,7 +61,7 @@ export function useDisclosure<P extends HTMLElement = HTMLDivElement>() {
   }, []);
 
   // Tabbing out of the panel closes it, so it never lingers open behind focus.
-  const onPanelBlur = useCallback((e: React.FocusEvent) => {
+  const onPanelBlur = useCallback((e: ReactFocusEvent) => {
     const next = e.relatedTarget as Node | null;
     if (next && (panelRef.current?.contains(next) || buttonRef.current?.contains(next))) return;
     if (next) setOpen(false);

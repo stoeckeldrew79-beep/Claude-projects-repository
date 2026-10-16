@@ -1,21 +1,18 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { useAuthStore } from '../store/useAuthStore';
 import { roleFromToken } from '../utils/tokenRole';
 import { ShieldLogo } from './ShieldLogo';
-
-export interface MobileNavLink {
-  to: string;
-  label: string;
-  end?: boolean;
-}
+import { MOBILE_NAV_GROUPS } from './shell/navConfig';
 
 // The desktop nav is hidden below `md`, and until this existed nothing
 // replaced it — on a phone the header offered only the logo and "Report a
 // Scam", so every other page was unreachable from the header. This is the
 // phone navigation: a menu button that opens a full-screen panel.
-export function MobileMenu({ links }: { links: MobileNavLink[] }) {
+export function MobileMenu() {
   const [open, setOpen] = useState(false);
+  const closeRef = useRef<HTMLButtonElement>(null);
+  const openerRef = useRef<HTMLButtonElement>(null);
   const location = useLocation();
   const navigate = useNavigate();
   const user = useAuthStore((s) => s.user);
@@ -33,20 +30,25 @@ export function MobileMenu({ links }: { links: MobileNavLink[] }) {
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
     window.addEventListener('keydown', onKey);
+    // Move focus into the panel so keyboard and screen-reader users land in it.
+    closeRef.current?.focus();
+    const opener = openerRef.current;
     return () => {
       document.body.style.overflow = previousOverflow;
       window.removeEventListener('keydown', onKey);
+      opener?.focus({ preventScroll: true });
     };
   }, [open]);
 
   const itemClass = ({ isActive }: { isActive: boolean }) =>
-    `flex items-center justify-between rounded-lg px-4 py-3.5 text-base transition-colors ${
+    `flex items-center justify-between rounded-lg px-4 py-3 text-base transition-colors ${
       isActive ? 'bg-red-500/10 text-white font-semibold' : 'text-slate-300 hover:bg-white/5 hover:text-white'
     }`;
 
   return (
     <>
       <button
+        ref={openerRef}
         type="button"
         onClick={() => setOpen(true)}
         aria-label="Open menu"
@@ -72,6 +74,7 @@ export function MobileMenu({ links }: { links: MobileNavLink[] }) {
                 </span>
               </Link>
               <button
+                ref={closeRef}
                 type="button"
                 onClick={() => setOpen(false)}
                 aria-label="Close menu"
@@ -91,14 +94,23 @@ export function MobileMenu({ links }: { links: MobileNavLink[] }) {
                 Report a Scam
               </Link>
 
-              <nav className="space-y-1" aria-label="Main">
-                {links.map((link) => (
-                  <NavLink key={link.to} to={link.to} end={link.end} className={itemClass}>
-                    {link.label}
-                    <span aria-hidden="true" className="text-slate-600">
-                      ›
-                    </span>
-                  </NavLink>
+              <nav aria-label="Main" className="space-y-5">
+                {MOBILE_NAV_GROUPS.map((group) => (
+                  <div key={group.heading}>
+                    <p className="px-4 pb-1.5 text-[11px] font-semibold uppercase tracking-wider text-slate-500">
+                      {group.heading}
+                    </p>
+                    <div className="space-y-0.5">
+                      {group.items.map((link) => (
+                        <NavLink key={link.to} to={link.to} end={link.end} className={itemClass}>
+                          {link.label}
+                          <span aria-hidden="true" className="text-slate-600">
+                            ›
+                          </span>
+                        </NavLink>
+                      ))}
+                    </div>
+                  </div>
                 ))}
               </nav>
 
@@ -126,9 +138,17 @@ export function MobileMenu({ links }: { links: MobileNavLink[] }) {
                     </button>
                   </>
                 ) : (
-                  <NavLink to="/login" className={itemClass}>
-                    Sign in
-                  </NavLink>
+                  <>
+                    <NavLink to="/login" end className={itemClass}>
+                      Sign in
+                    </NavLink>
+                    <Link
+                      to="/login?mode=register"
+                      className="mt-2 flex items-center justify-center rounded-lg border border-white/15 px-4 py-3 text-base font-semibold text-white hover:bg-white/5"
+                    >
+                      Create a free account
+                    </Link>
+                  </>
                 )}
               </div>
             </div>
