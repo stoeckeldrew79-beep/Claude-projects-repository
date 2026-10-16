@@ -11782,3 +11782,24 @@ The trial opened on May 2, 1894, and Tanlongo and his co-defendants were acquitt
 The Banca Romana affair illustrates how a bank that is supposed to supervise a nation's money can become the instrument of those meant to oversee it. The fraud, in the form of excess and duplicate notes, was possible because the people who knew about it had their own reasons not to disclose it, and the one trial that followed ended without a conviction. It also shows how financial scandal can drive reform: the collapse prompted a new banking law and a central note-issuing system.`,
     sourceUrl: 'https://www.imf.org/en/Publications/WP/Issues/2017/12/14/Crisis-and-Reform-The-1893-Demise-of-Banca-Romana-45475',
 });
+
+NotoriousAF.push({
+    title: 'Gerardo Díaz Ferrán and the Emptying of Grupo Marsans',
+    slug: 'gerardo-diaz-ferran-grupo-marsans-asset-stripping',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'bankruptcy-fraud', 'tax-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ARTurista.JPG?width=1200',
+    coverImageCredit: 'Photo: MarcosR (CC BY-SA 3.0 / CC BY 2.5) — economy cabin of an Aerolíneas Argentinas Airbus A340-200, 2006',
+    coverImagePosition: 50,
+    body: `Gerardo Díaz Ferrán was one of the most prominent businessmen in Spain in the 2000s. He co-owned Grupo Marsans, a travel and airline conglomerate whose holdings included the Viajes Marsans travel agency chain and the airline Air Comet, and he served as president of the CEOE, the Spanish employers' confederation. After the group's insolvency, its handling turned into a series of criminal cases that ended with him being sentenced to prison.
+
+The first conviction came in December 2013, when the Audiencia Nacional sentenced Díaz Ferrán to two years and two months for tax fraud in the purchase of Aerolíneas Argentinas. Air Comet, part of the Marsans group, had acquired the Argentine flag carrier in 2001, and according to the case it recorded a capital gain from that purchase in 2001 but hid it in its accounts, so it escaped Spain's 2002 corporate income tax. Prosecutors sought compensation of €99 million, an amount they said equalled the tax owed. They had asked for two years and four months; the defence had asked for acquittal.
+
+The bigger case concerned what happened to the group's assets as it failed. Prosecutors alleged that Díaz Ferrán and Ángel de Cabo, a liquidator linked to the group, drained the Marsans patrimony to put it out of reach of creditors, and at one point they asked for 15 years. At the first session of the trial, on July 2, 2015, Díaz Ferrán accepted an agreed sentence. In September 2015 the Audiencia Nacional's Third Section sentenced him to five years and six months in prison and a €1.2 million fine for asset concealment (alzamiento de bienes), fraudulent insolvency (concurso fraudulento), membership of a criminal group and money laundering. De Cabo received five years, and nine other defendants received sentences of between one and two and a half years. The court applied a late-confession mitigating factor because the defendants helped return assets to the insolvency estates, and about €4.9 million held in a Swiss bank account was to be returned to them. The two men were also ordered to pay €450,000 jointly to Meliá Hotels International, Viajes Iberojet, AC Hoteles and Pullmantur.
+
+Díaz Ferrán also faced a separate case over money from Viajes Marsans clients, in which he admitted some of the facts in writing and the prosecutor lowered the sentence it requested from four years to two.
+
+The Marsans case illustrates how an insolvency can itself become a fraud when those who control a failing company move its assets beyond creditors' reach. Because insolvency law in Spain, as elsewhere, depends on the debtor's honesty about what it owns, a conglomerate with many layers of companies and a prestigious figure at its head was able to shift value around for a time. The agreed sentence also shows a common endgame in complex white-collar cases: a negotiated plea, with sentencing discounts for the return of assets.`,
+    sourceUrl: 'https://www.hosteltur.com/112696_diaz-diaz-ferran-condenado-55-anos-carcel-pagar-12-m-vaciar-marsans.html',
+});
