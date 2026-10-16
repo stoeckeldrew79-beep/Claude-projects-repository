@@ -13233,3 +13233,16 @@ UsNS.push({
     country: "US",
     state: "WY",
 });
+
+UsNS.push({
+    name: "Payless Used Car Sales Hidden Document-Fee Scheme (Anchorage)",
+    slug: "payless-used-car-sales-hidden-document-fee-scheme-anchorage",
+    description:
+      "An Anchorage used-car dealer advertised vehicle prices on its website that left out document fees, then added those undisclosed fees once buyers arrived at the dealership. Alaska law requires motor vehicle dealers to include all dealer fees in the advertised price, and the Alaska Department of Law's Consumer Protection Unit brought an enforcement action over the practice. Under the resolution announced by Acting Attorney General Cori Mills, affected buyers going back to November 4, 2018 are eligible for $100 payments, with the State estimating more than $500,000 in total restitution to over five thousand consumers. The dealership has 280 days from court approval to identify, contact, and send checks to those customers. If you bought a vehicle from Payless since late 2018, keep your purchase paperwork, watch for a restitution check or contact letter, and always compare the advertised online price to the final out-the-door figure before signing anything.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["Alaska Department of Law, Consumer Protection Unit — Acting Attorney General Cori Mills, press release, September 22, 2026"],
+    sourceUrl: "https://law.alaska.gov/press/releases/2026/092226-Payless.html",
+    country: "US",
+    state: "AK",
+});

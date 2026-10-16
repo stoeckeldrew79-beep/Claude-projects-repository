@@ -12904,3 +12904,16 @@ UsAF.push({
     country: "US",
     state: "TX",
 });
+
+UsAF.push({
+    name: "B. Merry Studio \"Alaskan Made\" Counterfeit-Origin Scheme",
+    slug: "b-merry-studio-alaskan-made-counterfeit-origin-scheme",
+    description:
+      "An Alaska souvenir business sold tourists products marketed as made in Alaska when they were actually manufactured in the Philippines, and in some cases China. State exhibits showed imported pocket ulu knives arriving with \"Made in Philippines\" stickers while the blades were already etched \"Alaskan Made,\" then being resold in Alaska with \"Made in Alaska\" stickers on the handles; some items used Alaska caribou or moose antler shipped overseas for assembly, while others used Lower 48 Dymondwood and non-Alaska blades. After the defendants agreed not to contest liability under Alaska's Unfair Trade Practices Act, Superior Court Judge Laura Hartz ordered B. Merry Studio, Inc., its owners, and an employee to pay a $250,000 civil penalty. Attorney General Treg Taylor framed the case as protecting Alaskan artists who pay a premium to produce locally and protecting the integrity of Alaska's tourism industry. When buying Alaska souvenirs, look for the official Made in Alaska emblem, ask the seller directly where an item was manufactured, and report suspected false origin claims to the Alaska Department of Law's Consumer Protection Unit.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["Alaska Department of Law, Consumer Protection Unit — Attorney General Treg Taylor, press release, March 3, 2025"],
+    sourceUrl: "https://law.alaska.gov/press/releases/2025/030325-B-MerryStudio.html",
+    country: "US",
+    state: "AK",
+});
