@@ -1,5 +1,5 @@
-// Powers the "Today's Scams" page. Run daily (see README "Scheduling the
-// daily scam news scan") to pull real, live scam-related headlines from US
+// Powers the "Today's Scams" page. Runs every two hours in production
+// (render.yaml; see README "Scheduling the daily scam news scan") to pull real, live scam-related headlines from US
 // news coverage via Google News' public RSS search — no API key required.
 //
 // Unlike generateDailyDrafts.ts, this is fully automatic by design: items
@@ -13,6 +13,7 @@ import 'dotenv/config';
 import { XMLParser } from 'fast-xml-parser';
 import { pool } from '../db/connection';
 import { US_SEARCH_TERMS, INTERNATIONAL_SEARCH_TERMS } from './dailyNewsSearchTerms';
+import { isInvestorSpam } from './newsQuality';
 
 // Distinct queries rather than one broad "scam" search, so coverage isn't
 // dominated by whichever single term trends hardest that day. Each term is
@@ -122,6 +123,9 @@ async function fetchCandidates(searchTerm: string): Promise<NewsCandidate[]> {
       (typeof item.source === 'object' ? item.source['#text'] : item.source) || 'Unknown source';
     const headline = cleanHeadline(String(item.title), sourceName);
     if (!RELEVANT.test(headline)) continue;
+    // Fraud vocabulary, wrong genre: shareholder class-action solicitations
+    // from the press-release wires. See newsQuality.ts.
+    if (isInvestorSpam(headline, sourceName)) continue;
     const publishedAt = item.pubDate ? new Date(item.pubDate) : null;
     candidates.push({
       headline,
@@ -162,11 +166,19 @@ async function pruneOldNews(): Promise<number> {
 // any change to the filter to the whole feed, not just what arrives next.
 // Tested in JS against the same regex rather than in SQL, so there is one
 // definition of relevance and no chance of the two drifting apart.
+//
+// Only general-news rows (source_kind 'news'): official AG and federal rows
+// have their own scanners and their own relevance filter (relevantFilter.ts),
+// and this job's stricter news filter would wrongly delete e.g. an AG's
+// "Warns Delawareans of Bogus Tax E-mails" (no fraud word). The investor-spam
+// rules (newsQuality.ts) are likewise a news-genre problem.
 async function purgeIrrelevant(): Promise<number> {
-  const { rows } = await pool.query<{ id: string; headline: string }>(
-    'SELECT id, headline FROM daily_scam_news'
+  const { rows } = await pool.query<{ id: string; headline: string; source_name: string }>(
+    "SELECT id, headline, source_name FROM daily_scam_news WHERE source_kind = 'news'"
   );
-  const stale = rows.filter((r) => !RELEVANT.test(r.headline)).map((r) => r.id);
+  const stale = rows
+    .filter((r) => !RELEVANT.test(r.headline) || isInvestorSpam(r.headline, r.source_name))
+    .map((r) => r.id);
   if (!stale.length) return 0;
   const { rowCount } = await pool.query('DELETE FROM daily_scam_news WHERE id = ANY($1::uuid[])', [stale]);
   return rowCount ?? 0;

@@ -2,6 +2,9 @@ import { AuthedRequest } from '../middleware/auth';
 import { pool } from '../db/connection';
 import { asyncHandler } from '../utils/asyncHandler';
 import { INTERNATIONAL_SEARCH_TERMS } from '../jobs/dailyNewsSearchTerms';
+// Pure modules (no main(), no DB) - safe to import from a request handler.
+import { INVESTOR_SPAM_PG, PRESS_WIRE_PG, WIRE_LITIGATION_PG } from '../jobs/newsQuality';
+import { clusterStories, dojOfficeFromUrl, fraudTheme, themeCounts } from '../jobs/newsCluster';
 
 // Most stories any single outlet may contribute to the Today's Scams feed.
 const MAX_STORIES_PER_SOURCE = 2;
@@ -46,95 +49,127 @@ function aiTopicRequested(req: AuthedRequest): boolean {
   return req.query.topic === 'ai';
 }
 
-// How many stories the feed holds, so the page can reserve its full height
-// up front instead of growing (and shrinking the scrollbar thumb) as each
-// batch loads. Must match list()'s dedup and per-source cap exactly, or the
-// reserved space is wrong and the drift this exists to prevent comes back.
-export const count = asyncHandler<AuthedRequest>(async (req, res) => {
+type SourceKind = 'ag' | 'federal' | 'news';
+
+// Everything that narrows the Today's Scams feed. One parser, one SQL
+// builder: list() and count() both go through feedCte() below, so the count
+// the page reserves placeholder height from cannot drift from the rows the
+// list actually returns.
+interface FeedFilter {
+  state: string | null;
+  usOnly: boolean;
+  // Source-type chip on Today's Scams: official AG / federal / news only.
+  kind: SourceKind | null;
+}
+
+function parseFilter(req: AuthedRequest): FeedFilter {
   const raw = typeof req.query.state === 'string' ? req.query.state.toUpperCase() : '';
-  const state = /^[A-Z]{2}$/.test(raw) ? raw : null;
+  const kind = req.query.kind;
+  return {
+    state: /^[A-Z]{2}$/.test(raw) ? raw : null,
+    usOnly: usOnlyRequested(req),
+    kind: kind === 'ag' || kind === 'federal' || kind === 'news' ? kind : null,
+  };
+}
 
-  if (state) {
-    const { rows } = await pool.query<{ count: string }>(
-      `WITH deduped AS (
-         SELECT id, ROW_NUMBER() OVER (
-                  PARTITION BY lower(headline)
-                  ORDER BY (source_kind IN ('ag', 'federal')) DESC,
-                           COALESCE(published_at, scanned_at) DESC, id
-                ) AS dupe_rank
-         FROM daily_scam_news
-         WHERE state = $1
-       )
-       SELECT COUNT(*)::text AS count FROM deduped WHERE dupe_rank = 1`,
-      [state]
-    );
-    res.json({ data: { count: Number(rows[0]?.count ?? 0) } });
-    return;
+// A narrow view - one state, or official sources only - has few enough rows
+// that the per-outlet cap would only hide real alerts (each AG office is a
+// single "outlet"), and official items sort ahead of coverage of them.
+function isNarrow(f: FeedFilter): boolean {
+  return Boolean(f.state) || f.kind === 'ag' || f.kind === 'federal';
+}
+
+// Shareholder class-action solicitations (newsQuality.ts), excluded at query
+// time as well as at ingest so rows stored before the filter existed never
+// render, even between a deploy and the next scan. News rows only: official
+// AG and federal releases come from their own vetted scanners.
+function notInvestorSpamSql(params: unknown[]): string {
+  params.push(INVESTOR_SPAM_PG, PRESS_WIRE_PG, WIRE_LITIGATION_PG);
+  const n = params.length;
+  return `(source_kind <> 'news' OR NOT (headline ~* $${n - 2} OR (source_name ~* $${n - 1} AND headline ~* $${n})))`;
+}
+
+function feedWhere(f: FeedFilter, params: unknown[]): string {
+  const clauses = [notInvestorSpamSql(params)];
+  if (f.state) {
+    // Every state-tagged row is already US, so scope=us is a no-op here.
+    params.push(f.state);
+    clauses.push(`state = $${params.length}`);
+  } else if (f.usOnly) {
+    params.push(INTERNATIONAL_SEARCH_TERMS);
+    clauses.push(`(state IS NOT NULL OR NOT (search_term = ANY($${params.length})))`);
   }
+  if (f.kind) {
+    params.push(f.kind);
+    clauses.push(`source_kind = $${params.length}`);
+  }
+  return clauses.join(' AND ');
+}
 
-  const usOnly = usOnlyRequested(req);
-  const { rows } = await pool.query<{ count: string }>(
-    `WITH deduped AS (
-       SELECT id, source_name, published_at, scanned_at, ROW_NUMBER() OVER (
+// The visible feed as a CTE named "feed".
+//
+// Narrow views dedupe on exact headline (the same story syndicated under two
+// URLs is two rows with one headline), first-party AG/federal copy winning.
+//
+// The broad view adds a per-outlet cap. Ordering purely by recency lets a
+// single high-volume publisher take over the feed whenever it posts a burst -
+// one outlet held 4 of the top 5 slots after a scan, which reads as a broken
+// page rather than a live one. The filters sit inside the first CTE so a
+// filtered view still fills its full per-source cap from matching
+// candidates, rather than capping before filtering.
+function feedCte(f: FeedFilter, params: unknown[]): string {
+  const where = feedWhere(f, params);
+  if (isNarrow(f)) {
+    return `WITH deduped AS (
+       SELECT *, ROW_NUMBER() OVER (
+                PARTITION BY lower(headline)
+                ORDER BY (source_kind IN ('ag', 'federal')) DESC,
+                         COALESCE(published_at, scanned_at) DESC, id
+              ) AS dupe_rank
+       FROM daily_scam_news
+       WHERE ${where}
+     ),
+     feed AS (SELECT * FROM deduped WHERE dupe_rank = 1)`;
+  }
+  params.push(MAX_STORIES_PER_SOURCE);
+  return `WITH deduped AS (
+       SELECT *, ROW_NUMBER() OVER (
                 PARTITION BY lower(headline)
                 ORDER BY COALESCE(published_at, scanned_at) DESC, id
               ) AS dupe_rank
        FROM daily_scam_news
-       WHERE NOT $2 OR state IS NOT NULL OR NOT (search_term = ANY($3))
+       WHERE ${where}
      ),
      ranked AS (
-       SELECT id, ROW_NUMBER() OVER (
+       SELECT *, ROW_NUMBER() OVER (
                 PARTITION BY source_name
-                ORDER BY COALESCE(published_at, scanned_at) DESC
+                ORDER BY COALESCE(published_at, scanned_at) DESC, id
               ) AS source_rank
        FROM deduped
        WHERE dupe_rank = 1
-     )
-     SELECT COUNT(*)::text AS count FROM ranked WHERE source_rank <= $1`,
-    [MAX_STORIES_PER_SOURCE, usOnly, INTERNATIONAL_SEARCH_TERMS]
-  );
+     ),
+     feed AS (SELECT * FROM ranked WHERE source_rank <= $${params.length})`;
+}
+
+// How many stories the feed holds, so the page can reserve its full height
+// up front instead of growing (and shrinking the scrollbar thumb) as each
+// batch loads. Reads the same feedCte() as list(), so it matches list()'s
+// dedup, per-source cap and filters exactly.
+export const count = asyncHandler<AuthedRequest>(async (req, res) => {
+  const params: unknown[] = [];
+  const cte = feedCte(parseFilter(req), params);
+  const { rows } = await pool.query<{ count: string }>(`${cte} SELECT COUNT(*)::text AS count FROM feed`, params);
   res.json({ data: { count: Number(rows[0]?.count ?? 0) } });
 });
 
 export const list = asyncHandler<AuthedRequest>(async (req, res) => {
-  const raw = typeof req.query.state === 'string' ? req.query.state.toUpperCase() : '';
-  const state = /^[A-Z]{2}$/.test(raw) ? raw : null;
-  const offset = pageOffset(req.query.page);
-
-  if (state) {
-    // A state view is already narrow — a state has only its own AG plus a
-    // handful of outlets covering it — so the per-source cap that keeps the
-    // national feed varied would here just hide most of that state's alerts.
-    // First-party AG alerts sort ahead of news coverage of the same story.
-    // Every state-tagged row is already US, so scope=us is a no-op here.
-    const { rows } = await pool.query(
-      `WITH deduped AS (
-         SELECT *, ROW_NUMBER() OVER (
-                  PARTITION BY lower(headline)
-                  ORDER BY (source_kind IN ('ag', 'federal')) DESC,
-                           COALESCE(published_at, scanned_at) DESC, id
-                ) AS dupe_rank
-         FROM daily_scam_news
-         WHERE state = $1
-       )
-       SELECT id, headline, summary, source_name, source_url,
-              published_at, search_term, scanned_at, state, source_kind
-       FROM deduped
-       WHERE dupe_rank = 1
-       ORDER BY (source_kind IN ('ag', 'federal')) DESC,
-                COALESCE(published_at, scanned_at) DESC, id
-       LIMIT $2 OFFSET $3`,
-      [state, PAGE_SIZE, offset]
-    );
-    res.json({ data: rows });
-    return;
-  }
-
   if (aiTopicRequested(req)) {
     // The strip this feeds is a handful of headlines above a curated list,
     // not a paged feed — no per-source cap (the volume is low enough that
     // one outlet dominating isn't a real risk the way it is on the main
     // feed) and a fixed small limit rather than PAGE_SIZE/offset paging.
+    const params: unknown[] = [AI_TOPIC_PATTERN];
+    const notSpam = notInvestorSpamSql(params);
     const { rows } = await pool.query(
       `WITH deduped AS (
          SELECT *, ROW_NUMBER() OVER (
@@ -142,7 +177,7 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
                   ORDER BY COALESCE(published_at, scanned_at) DESC, id
                 ) AS dupe_rank
          FROM daily_scam_news
-         WHERE headline ~* $1
+         WHERE headline ~* $1 AND ${notSpam}
        )
        SELECT id, headline, summary, source_name, source_url,
               published_at, search_term, scanned_at, state, source_kind
@@ -150,53 +185,130 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
        WHERE dupe_rank = 1
        ORDER BY COALESCE(published_at, scanned_at) DESC, id
        LIMIT 8`,
-      [AI_TOPIC_PATTERN]
+      params
     );
     res.json({ data: rows });
     return;
   }
 
-  // Cap how many stories any one outlet contributes to the page. Ordering
-  // purely by recency lets a single high-volume publisher take over the feed
-  // whenever it posts a burst — one outlet held 4 of the top 5 slots after a
-  // scan, which reads as a broken page rather than a live one. With 500+
-  // distinct sources in the table, a cap of 2 still fills the full 100 rows.
-  const usOnly = usOnlyRequested(req);
+  const filter = parseFilter(req);
+  const params: unknown[] = [];
+  const cte = feedCte(filter, params);
+  const order = isNarrow(filter)
+    ? `(source_kind IN ('ag', 'federal')) DESC, COALESCE(published_at, scanned_at) DESC, id`
+    : `COALESCE(published_at, scanned_at) DESC, id`;
+  params.push(PAGE_SIZE, pageOffset(req.query.page));
   const { rows } = await pool.query(
-    // Two passes. The first drops stories the scan could not see as
-     // duplicates: it dedupes on source_url, and the same story syndicated
-     // under two URLs is two rows with one headline - which is what a reader
-     // notices, the same headline twice in a row from the same outlet. The
-     // second is the existing per-outlet cap. The scope filter sits inside
-     // the first CTE so a US-only view still fills its full per-source cap
-     // from US-only candidates, rather than capping before filtering.
-     `WITH deduped AS (
-       SELECT *,
-              ROW_NUMBER() OVER (
-                PARTITION BY lower(headline)
-                ORDER BY COALESCE(published_at, scanned_at) DESC, id
-              ) AS dupe_rank
-       FROM daily_scam_news
-       WHERE NOT $4 OR state IS NOT NULL OR NOT (search_term = ANY($5))
-     ),
-     ranked AS (
-       SELECT *,
-              ROW_NUMBER() OVER (
-                PARTITION BY source_name
-                ORDER BY COALESCE(published_at, scanned_at) DESC
-              ) AS source_rank
-       FROM deduped
-       WHERE dupe_rank = 1
-     )
+    `${cte}
      SELECT id, headline, summary, source_name, source_url,
             published_at, search_term, scanned_at, state, source_kind
-     FROM ranked
-     WHERE source_rank <= $1
-     ORDER BY COALESCE(published_at, scanned_at) DESC, id
-     LIMIT $2 OFFSET $3`,
-    [MAX_STORIES_PER_SOURCE, PAGE_SIZE, offset, usOnly, INTERNATIONAL_SEARCH_TERMS]
+     FROM feed
+     ORDER BY ${order}
+     LIMIT $${params.length - 1} OFFSET $${params.length}`,
+    params
   );
   res.json({ data: rows });
+});
+
+// Headline numbers for the strip at the top of Today's Scams. Counted over
+// distinct stories (exact-headline dedup, investor spam excluded) across the
+// whole 30-day window - not the per-outlet-capped feed, which is a display
+// choice, not a measure of activity.
+export const summary = asyncHandler<AuthedRequest>(async (_req, res) => {
+  const params: unknown[] = [];
+  const notSpam = notInvestorSpamSql(params);
+  params.push(INTERNATIONAL_SEARCH_TERMS);
+  const intl = params.length;
+  const { rows } = await pool.query(
+    `WITH stories AS (
+       SELECT DISTINCT ON (lower(headline))
+              state, source_kind, source_name, search_term,
+              COALESCE(published_at, scanned_at) AS at
+       FROM daily_scam_news
+       WHERE ${notSpam}
+       ORDER BY lower(headline), (source_kind IN ('ag', 'federal')) DESC,
+                COALESCE(published_at, scanned_at) DESC, id
+     )
+     SELECT count(*) FILTER (WHERE at >= NOW() - INTERVAL '24 hours')::int AS last_24h,
+            count(*) FILTER (WHERE at >= NOW() - INTERVAL '7 days')::int AS last_7d,
+            count(*)::int AS total,
+            count(*) FILTER (WHERE source_kind = 'ag')::int AS official_ag,
+            count(*) FILTER (WHERE source_kind = 'ag' AND at >= NOW() - INTERVAL '7 days')::int AS official_ag_7d,
+            count(*) FILTER (WHERE source_kind = 'federal')::int AS federal,
+            count(*) FILTER (WHERE state IS NULL AND search_term = ANY($${intl}))::int AS international,
+            count(DISTINCT state) FILTER (WHERE state IS NOT NULL AND state != 'US')::int AS states_covered,
+            count(DISTINCT state) FILTER (WHERE source_kind = 'ag')::int AS ag_states,
+            count(DISTINCT source_name)::int AS sources,
+            (SELECT max(scanned_at) FROM daily_scam_news) AS last_scanned_at
+     FROM stories`,
+    params
+  );
+  res.json({ data: rows[0] });
+});
+
+// Federal Watch: every DOJ/FTC release in the window, near-duplicates
+// clustered into one story (see newsCluster.ts - one national DOJ action is
+// republished by every participating US Attorney's office), plus the counts
+// and themes the page leads with. Federal volume is a few dozen rows a
+// month, so all of it is returned and clustered in one pass; the page
+// filters by agency client-side.
+interface FederalRow {
+  id: string;
+  headline: string;
+  source_name: string;
+  source_url: string;
+  published_at: Date | null;
+  scanned_at: Date;
+}
+
+function federalItem(r: FederalRow) {
+  const agency = /trade commission/i.test(r.source_name) ? 'FTC' : 'DOJ';
+  return {
+    id: r.id,
+    headline: r.headline,
+    source_name: r.source_name,
+    source_url: r.source_url,
+    published_at: r.published_at,
+    scanned_at: r.scanned_at,
+    agency,
+    office: agency === 'DOJ' ? dojOfficeFromUrl(r.source_url) : 'Bureau of Consumer Protection',
+  };
+}
+
+export const federal = asyncHandler<AuthedRequest>(async (_req, res) => {
+  const { rows } = await pool.query<FederalRow>(
+    `SELECT id, headline, source_name, source_url, published_at, scanned_at
+     FROM daily_scam_news
+     WHERE state = 'US' AND source_kind = 'federal'
+     ORDER BY COALESCE(published_at, scanned_at) DESC, id`
+  );
+  const clusters = clusterStories(rows).map(({ lead, related }) => ({
+    ...federalItem(lead),
+    theme: fraudTheme(lead.headline),
+    related: related.map(federalItem),
+  }));
+
+  const now = Date.now();
+  const within = (r: Pick<FederalRow, 'published_at' | 'scanned_at'>, days: number) =>
+    now - new Date(r.published_at ?? r.scanned_at).getTime() <= days * 86400000;
+  const agencyOf = (r: FederalRow) => federalItem(r).agency;
+  res.json({
+    data: {
+      clusters,
+      stats: {
+        releases_7d: rows.filter((r) => within(r, 7)).length,
+        releases_30d: rows.filter((r) => within(r, 30)).length,
+        stories_7d: clusters.filter((c) => within(c, 7)).length,
+        stories_30d: clusters.filter((c) => within(c, 30)).length,
+        doj_releases: rows.filter((r) => agencyOf(r) === 'DOJ').length,
+        ftc_releases: rows.filter((r) => agencyOf(r) === 'FTC').length,
+        offices: new Set(rows.filter((r) => agencyOf(r) === 'DOJ').map((r) => dojOfficeFromUrl(r.source_url))).size,
+        // Themes are counted per story, not per release, so one national
+        // action echoed by eight offices counts once.
+        themes: themeCounts(clusters.filter((c) => within(c, 30)).map((c) => c.headline)),
+      },
+    },
+  });
 });
 
 // States that actually have alerts, with counts, so the UI can offer only
@@ -234,6 +346,22 @@ export const agStatus = asyncHandler<AuthedRequest>(async (_req, res) => {
             last_item_count, newest_item_at, last_error
      FROM ag_feed_status
      ORDER BY state`
+  );
+  res.json({ data: rows });
+});
+
+// The newest first-party Attorney General item per state — one row for each
+// state that has any source_kind = 'ag' row in the 30-day window. Backs the
+// "latest official alert" line on the State Attorneys General directory.
+// 'US' (federal) rows are source_kind 'federal', never 'ag', so the federal
+// feed cannot leak in here; the explicit state filter is belt and braces.
+export const latestByState = asyncHandler<AuthedRequest>(async (_req, res) => {
+  const { rows } = await pool.query(
+    `SELECT DISTINCT ON (state)
+            state, headline, source_url, source_name, published_at
+     FROM daily_scam_news
+     WHERE source_kind = 'ag' AND state IS NOT NULL AND state != 'US'
+     ORDER BY state, COALESCE(published_at, scanned_at) DESC, id`
   );
   res.json({ data: rows });
 });

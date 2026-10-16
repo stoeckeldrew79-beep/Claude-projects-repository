@@ -1,10 +1,15 @@
 import type { Ref } from 'react';
 import { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { useInfiniteDailyScamNews, useDailyNewsStates, useDailyScamNewsCount } from '../hooks/useDailyNews';
+import {
+  useInfiniteDailyScamNews,
+  useDailyNewsStates,
+  useDailyScamNewsCount,
+  useDailyNewsSummary,
+} from '../hooks/useDailyNews';
 import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
-import { DailyScamNews } from '../types';
+import { DailyScamNews, DailyNewsKind, DailyNewsSummary } from '../types';
 import { BlurFade } from '../components/magicui/blur-fade';
 import { timeAgo } from '../utils/timeAgo';
 import { stateName } from '../utils/usStates';
@@ -68,11 +73,49 @@ function NewsRow({ item }: { item: DailyScamNews }) {
   );
 }
 
+// Headline numbers for the whole 30-day window, from GET /daily-news/summary.
+// Real counts only; the strip simply does not render until they arrive.
+function SummaryStrip({ summary }: { summary: DailyNewsSummary }) {
+  const tiles = [
+    { value: summary.last_24h, label: 'Headlines in the last 24 hours' },
+    {
+      value: summary.official_ag,
+      label: `Official alerts from ${summary.ag_states} state AG${summary.ag_states === 1 ? '' : 's'}`,
+    },
+    { value: summary.federal, label: 'Federal DOJ & FTC releases' },
+    { value: summary.states_covered, label: 'US states with coverage' },
+  ];
+  return (
+    <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 overflow-hidden rounded-xl border border-slate-200 bg-white">
+      {tiles.map((t, i) => (
+        <div
+          key={t.label}
+          className={`px-4 py-4 ${i % 2 === 1 ? 'border-l' : ''} ${i >= 2 ? 'border-t sm:border-t-0' : ''} ${
+            i === 2 ? 'sm:border-l' : ''
+          } border-slate-200`}
+        >
+          <div className="text-2xl sm:text-3xl font-bold text-slate-900 tabular-nums">
+            {t.value.toLocaleString('en-US')}
+          </div>
+          <div className="mt-1 text-xs font-medium leading-snug text-slate-500">{t.label}</div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+const KIND_CHIPS: { value: DailyNewsKind | ''; label: string }[] = [
+  { value: '', label: 'All sources' },
+  { value: 'ag', label: 'Official AG' },
+  { value: 'federal', label: 'Federal' },
+  { value: 'news', label: 'News coverage' },
+];
+
 export default function TodaysScams() {
   useDocumentMeta({
     title: "Today's Scams",
     description:
-      'Real scam-related news headlines from US and international outlets, plus official state Attorney General alerts, scanned automatically and updated daily.',
+      'Live scam intelligence: news from US and international outlets plus official state Attorney General and federal DOJ/FTC alerts, scanned around the clock.',
     path: '/todays-scams',
   });
 
@@ -81,7 +124,29 @@ export default function TodaysScams() {
   // changing it does not need to round-trip through the URL.
   const [searchParams] = useSearchParams();
   const initialState = (searchParams.get('state') ?? '').toUpperCase();
-  const [state, setState] = useState<string>(/^[A-Z]{2}$/.test(initialState) ? initialState : '');
+  const initialKind = searchParams.get('kind');
+  // ?state=US is the federal feed (older Federal Watch links use it): that
+  // is a source type, not a state, so it maps onto the Federal chip.
+  const [state, setState] = useState<string>(
+    /^[A-Z]{2}$/.test(initialState) && initialState !== 'US' ? initialState : ''
+  );
+  const [kind, setKind] = useState<DailyNewsKind | ''>(
+    initialState === 'US'
+      ? 'federal'
+      : initialKind === 'ag' || initialKind === 'federal' || initialKind === 'news'
+        ? initialKind
+        : ''
+  );
+  // Federal releases are national, never tagged to a state, so the two
+  // filters are mutually exclusive: picking one clears the other.
+  const chooseKind = (k: DailyNewsKind | '') => {
+    setKind(k);
+    if (k === 'federal') setState('');
+  };
+  const chooseState = (st: string) => {
+    setState(st);
+    if (st && kind === 'federal') setKind('');
+  };
   // A country axis, not a state axis — same "US Only / All Countries" split
   // as the Database page. Only meaningful without a state selected, since
   // every state-tagged row is already US; picking a state implicitly scopes
@@ -95,7 +160,7 @@ export default function TodaysScams() {
     fetchNextPage,
     hasNextPage,
     isFetchingNextPage,
-  } = useInfiniteDailyScamNews(state || undefined, scope);
+  } = useInfiniteDailyScamNews(state || undefined, scope, kind || undefined);
   const news = newsPages?.pages.flat();
   const setTrigger = useInfiniteScroll(
     () => {
@@ -104,7 +169,12 @@ export default function TodaysScams() {
     Boolean(hasNextPage) && !isFetchingNextPage
   );
   const { data: stateCounts } = useDailyNewsStates();
-  const { data: total } = useDailyScamNewsCount(state || undefined, scope);
+  // Same state/scope/kind as the list: the backend builds both from one query,
+  // so the placeholder count matches the rows the list will return exactly.
+  const { data: total } = useDailyScamNewsCount(state || undefined, scope, kind || undefined);
+  const { data: summary } = useDailyNewsSummary();
+  // Official-only views are all US by construction; the country toggle is moot.
+  const scopeLocked = Boolean(state) || kind === 'ag' || kind === 'federal';
 
   // Reserve a row for every headline still to come, so the page is its full
   // height immediately rather than growing (and the scrollbar thumb shrinking
@@ -116,16 +186,53 @@ export default function TodaysScams() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <BlurFade>
-        <p className="text-xs font-semibold tracking-widest text-red-700 uppercase">Live feed</p>
+        <p className="flex items-center gap-2 text-xs font-semibold tracking-widest text-red-700 uppercase">
+          <span className="relative flex h-2 w-2" aria-hidden>
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-500 opacity-60" />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-red-600" />
+          </span>
+          Live feed
+          {summary?.last_scanned_at && (
+            <span className="font-medium normal-case tracking-normal text-slate-500">
+              · last scan {timeAgo(summary.last_scanned_at)}
+            </span>
+          )}
+        </p>
         <h1 className="mt-1 text-3xl sm:text-4xl font-bold text-slate-900">Today's Scams</h1>
         <p className="mt-3 max-w-2xl text-slate-600">
-          Real scam-related news from US and international outlets, scanned automatically and updated daily. Every headline
-          links directly to the original story at its source — nothing here is written or verified by hand, so
-          always read the full article before acting on it.
+          Scam intelligence scanned around the clock: news from US and international outlets every two hours, and
+          official alerts straight from state Attorneys General and the federal DOJ and FTC every few hours. Every
+          headline links directly to the original source — nothing here is written or verified by hand, so always
+          read the full story before acting on it.
         </p>
       </BlurFade>
 
-      <div className="mt-6 flex flex-wrap items-center gap-3">
+      {summary && <SummaryStrip summary={summary} />}
+
+      {/* Source type first: "show me only what the authorities said" is the
+          most common way to cut this feed. */}
+      <div className="mt-6 flex flex-wrap gap-2" role="group" aria-label="Filter by source type">
+        {KIND_CHIPS.map((chip) => {
+          const active = kind === chip.value;
+          return (
+            <button
+              key={chip.label}
+              type="button"
+              aria-pressed={active}
+              onClick={() => chooseKind(chip.value)}
+              className={`rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors ${
+                active
+                  ? 'border-slate-900 bg-slate-900 text-white'
+                  : 'border-slate-300 bg-white text-slate-700 hover:border-slate-500'
+              }`}
+            >
+              {chip.label}
+            </button>
+          );
+        })}
+      </div>
+
+      <div className="mt-4 flex flex-wrap items-center gap-3">
         {/* Only offer states that actually have alerts — all 51 with most of
             them empty would be a menu of dead ends. */}
         {stateCounts && stateCounts.length > 0 && (
@@ -136,7 +243,7 @@ export default function TodaysScams() {
             <select
               id="state-filter"
               value={state}
-              onChange={(e) => setState(e.target.value)}
+              onChange={(e) => chooseState(e.target.value)}
               className="rounded-md border border-slate-300 px-3 py-2 text-sm"
             >
               <option value="">All states &amp; international</option>
@@ -149,7 +256,7 @@ export default function TodaysScams() {
             {state && (
               <button
                 type="button"
-                onClick={() => setState('')}
+                onClick={() => chooseState('')}
                 className="text-sm font-medium text-red-700 hover:underline"
               >
                 Clear
@@ -164,20 +271,20 @@ export default function TodaysScams() {
         <div className="flex gap-1 rounded-lg bg-slate-100 p-1 w-fit">
           <button
             type="button"
-            disabled={Boolean(state)}
+            disabled={scopeLocked}
             onClick={() => setUsOnly(true)}
             className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${
-              usOnly && !state ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600 hover:text-slate-900'
+              usOnly && !scopeLocked ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600 hover:text-slate-900'
             }`}
           >
             United States Only
           </button>
           <button
             type="button"
-            disabled={Boolean(state)}
+            disabled={scopeLocked}
             onClick={() => setUsOnly(false)}
             className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${
-              !usOnly || state ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600 hover:text-slate-900'
+              !usOnly || scopeLocked ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600 hover:text-slate-900'
             }`}
           >
             All Countries
@@ -226,8 +333,10 @@ export default function TodaysScams() {
         {news && news.length === 0 && !placeholderCount && (
           <p className="text-slate-500">
             {state
-              ? `No recent alerts for ${stateName(state)} — try another state or clear the filter.`
-              : 'No scam news scanned yet — check back soon.'}
+              ? `No recent ${kind === 'ag' ? 'official alerts' : kind === 'news' ? 'news coverage' : 'alerts'} for ${stateName(state)} — try another state or clear the filter.`
+              : kind
+                ? 'Nothing from this source type in the last 30 days — try All sources.'
+                : 'No scam news scanned yet — check back soon.'}
           </p>
         )}
       </div>

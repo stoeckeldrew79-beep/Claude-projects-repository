@@ -1,3 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    /* The header is sticky; keep in-page anchors from landing underneath it. */
+    scroll-padding-top: 5rem;
+    -webkit-tap-highlight-color: transparent;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Focus: no box around something you just clicked or tapped, but a clear,
+     on-brand ring whenever focus arrives by keyboard. :focus-visible is the
+     browser's own "show focus" heuristic, so mouse users never see the ring
+     and keyboard users always do. */
+  :focus {
+    outline: none;
+  }
+  :focus-visible {
+    outline: 2px solid #b91c1c;
+    outline-offset: 2px;
+  }
+  /* Text fields always match :focus-visible (typing needs a caret target),
+     so give them a softer ring instead of the hard outline. */
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    outline: 2px solid rgba(185, 28, 28, 0.45);
+    outline-offset: 1px;
+  }
+  /* On the dark hero/menu surfaces the red ring needs a light companion. */
+  .bg-slate-950 :focus-visible,
+  .bg-\[\#0f1a2b\] :focus-visible {
+    outline-color: #fca5a5;
+  }
+}
+
+@layer components {
+  .animate-dropdown-in {
+    animation: dropdown-in 140ms ease-out;
+  }
+}
+
+@keyframes dropdown-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}

@@ -5,10 +5,14 @@ import {
   fetchDailyNewsStates,
   fetchDailyScamNewsCount,
   fetchAiTopicNews,
+  fetchLatestAgByState,
+  fetchDailyNewsSummary,
+  fetchFederalWatch,
 } from '../services/dailyNews';
+import type { DailyNewsKind } from '../types';
 
-// The underlying data only changes once a day (see the scanDailyScamNews
-// job), but refetching periodically means a tab left open shows a new
+// The news scan runs every two hours and the AG scan every four (render.yaml);
+// refetching periodically means a tab left open shows a new
 // headline landing without the visitor needing to reload.
 const REFETCH_INTERVAL_MS = 10 * 60 * 1000;
 
@@ -46,10 +50,10 @@ export function useDailyNewsStates() {
 // Backs the placeholder-reservation trick on the Today's Scams page: knowing
 // the total up front lets it lay out the full page height on first paint
 // instead of growing as each batch arrives.
-export function useDailyScamNewsCount(state?: string, scope?: 'us') {
+export function useDailyScamNewsCount(state?: string, scope?: 'us', kind?: DailyNewsKind) {
   return useQuery({
-    queryKey: ['daily-scam-news-count', state ?? 'all', scope ?? 'all'],
-    queryFn: () => fetchDailyScamNewsCount(state, scope),
+    queryKey: ['daily-scam-news-count', state ?? 'all', scope ?? 'all', kind ?? 'all'],
+    queryFn: () => fetchDailyScamNewsCount(state, scope, kind),
     refetchInterval: REFETCH_INTERVAL_MS,
   });
 }
@@ -57,10 +61,10 @@ export function useDailyScamNewsCount(state?: string, scope?: 'us') {
 // The full Today's Scams feed, which reads back through the 30-day window
 // rather than stopping at the first page. The single-page hook above still
 // backs the previews (a state page shows six), where paging would be noise.
-export function useInfiniteDailyScamNews(state?: string, scope?: 'us') {
+export function useInfiniteDailyScamNews(state?: string, scope?: 'us', kind?: DailyNewsKind) {
   return useInfiniteQuery({
-    queryKey: ['daily-scam-news', 'infinite', state ?? 'all', scope ?? 'all'],
-    queryFn: ({ pageParam }) => fetchDailyScamNews(state, pageParam, scope),
+    queryKey: ['daily-scam-news', 'infinite', state ?? 'all', scope ?? 'all', kind ?? 'all'],
+    queryFn: ({ pageParam }) => fetchDailyScamNews(state, pageParam, scope, kind),
     initialPageParam: 1,
     getNextPageParam: (lastPage, allPages) =>
       lastPage.length === DAILY_NEWS_PAGE_SIZE ? allPages.length + 1 : undefined,
@@ -68,5 +72,36 @@ export function useInfiniteDailyScamNews(state?: string, scope?: 'us') {
     // holds, and a reader deep in a month of history does not need the whole
     // lot re-fetched every ten minutes to see today's arrivals.
     refetchOnWindowFocus: false,
+  });
+}
+
+// The newest official AG alert for every state that has one — an array of
+// LatestAgAlert, ordered by state. Empty array (not an error) when no state
+// has an AG item in the window.
+export function useLatestAgByState() {
+  return useQuery({
+    queryKey: ['daily-scam-news', 'latest-by-state'],
+    queryFn: fetchLatestAgByState,
+    refetchInterval: REFETCH_INTERVAL_MS,
+  });
+}
+
+export function useDailyNewsSummary() {
+  return useQuery({
+    queryKey: ['daily-scam-news', 'summary'],
+    queryFn: fetchDailyNewsSummary,
+    refetchInterval: REFETCH_INTERVAL_MS,
+  });
+}
+
+export function useFederalWatch() {
+  return useQuery({
+    queryKey: ['daily-scam-news', 'federal'],
+    queryFn: fetchFederalWatch,
+    refetchInterval: REFETCH_INTERVAL_MS,
+    // A 404 means an API deployed before this endpoint existed: fail fast so
+    // Federal Watch drops to its plain-list fallback instead of retrying.
+    retry: (failures, err) =>
+      (err as { response?: { status?: number } })?.response?.status !== 404 && failures < 3,
   });
 }

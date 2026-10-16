@@ -1,4 +1,4 @@
-import { useInfiniteQuery, useQuery } from '@tanstack/react-query';
+import { keepPreviousData, useInfiniteQuery, useQuery } from '@tanstack/react-query';
 import {
   PAGE_SIZE,
   ScamListParams,
@@ -8,6 +8,7 @@ import {
   fetchScamStates,
   fetchScamTags,
   fetchScams,
+  fetchScamsWithTotal,
   searchScamsByText,
 } from '../services/scams';
 
@@ -30,6 +31,25 @@ export function useInfiniteScams(params: Omit<ScamListParams, 'page'> = {}, enab
     initialPageParam: 1,
     getNextPageParam: (lastPage, allPages) => (lastPage.length === PAGE_SIZE ? allPages.length + 1 : undefined),
     enabled,
+  });
+}
+
+// Database page: like useInfiniteScams, but the first page also carries the
+// total match count so the page can say "1,284 results". Only page 1 asks
+// for the total (later pages would just repeat the COUNT); placeholderData
+// keeps the previous results on screen while a new filter loads, so the grid
+// doesn't collapse to nothing and jump on every keystroke.
+export function useInfiniteScamsWithTotal(params: Omit<ScamListParams, 'page'> = {}) {
+  return useInfiniteQuery({
+    queryKey: ['scams', 'infinite-total', params],
+    queryFn: async ({ pageParam }) => {
+      if (pageParam === 1) return fetchScamsWithTotal({ ...params, page: 1 });
+      return { items: await fetchScams({ ...params, page: pageParam }), total: null };
+    },
+    initialPageParam: 1,
+    getNextPageParam: (lastPage, allPages) => (lastPage.items.length === PAGE_SIZE ? allPages.length + 1 : undefined),
+    placeholderData: keepPreviousData,
+    staleTime: 60_000,
   });
 }
 

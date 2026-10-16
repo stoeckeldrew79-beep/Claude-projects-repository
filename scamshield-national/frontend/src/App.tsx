@@ -1,243 +1,56 @@
-import { Link, NavLink, Route, Routes, useNavigate } from 'react-router-dom';
+import { lazy, Suspense } from 'react';
+import { Route, Routes } from 'react-router-dom';
+// Home loads with the app; every other page is its own chunk, fetched on
+// first visit, so a phone opening one page doesn't download all 23.
 import Home from './pages/Home';
-import TodaysScams from './pages/TodaysScams';
-import AIScams from './pages/AIScams';
-import CheckNow from './pages/CheckNow';
-import Database from './pages/Database';
-import ScamDetail from './pages/ScamDetail';
-import Alerts from './pages/Alerts';
-import Articles from './pages/Articles';
-import ArticleDetail from './pages/ArticleDetail';
-import Notorious from './pages/Notorious';
-import GlobalMap from './pages/GlobalMap';
-import GlobalSources from './pages/GlobalSources';
-import StateAttorneysGeneral from './pages/StateAttorneysGeneral';
-import FederalWatch from './pages/FederalWatch';
-import Statistics from './pages/Statistics';
-import StateDetail from './pages/StateDetail';
-import NotFound from './pages/NotFound';
-import Report from './pages/Report';
-import ReportStatus from './pages/ReportStatus';
-import Subscribe from './pages/Subscribe';
-import Dashboard from './pages/Dashboard';
-import Admin from './pages/Admin';
-import Login from './pages/Login';
-import { useAuthStore } from './store/useAuthStore';
-import { roleFromToken } from './utils/tokenRole';
-import { ShieldLogo } from './components/ShieldLogo';
-import { MobileMenu } from './components/MobileMenu';
-import { formatPhoneDisplay, PUBLIC_PHONE, telHref } from './utils/publicPhone';
+const TodaysScams = lazy(() => import('./pages/TodaysScams'));
+const AIScams = lazy(() => import('./pages/AIScams'));
+const CheckNow = lazy(() => import('./pages/CheckNow'));
+const Database = lazy(() => import('./pages/Database'));
+const ScamDetail = lazy(() => import('./pages/ScamDetail'));
+const Alerts = lazy(() => import('./pages/Alerts'));
+const Articles = lazy(() => import('./pages/Articles'));
+const ArticleDetail = lazy(() => import('./pages/ArticleDetail'));
+const Notorious = lazy(() => import('./pages/Notorious'));
+const GlobalMap = lazy(() => import('./pages/GlobalMap'));
+const GlobalSources = lazy(() => import('./pages/GlobalSources'));
+const StateAttorneysGeneral = lazy(() => import('./pages/StateAttorneysGeneral'));
+const FederalWatch = lazy(() => import('./pages/FederalWatch'));
+const Statistics = lazy(() => import('./pages/Statistics'));
+const StateDetail = lazy(() => import('./pages/StateDetail'));
+const NotFound = lazy(() => import('./pages/NotFound'));
+const Report = lazy(() => import('./pages/Report'));
+const ReportStatus = lazy(() => import('./pages/ReportStatus'));
+const Subscribe = lazy(() => import('./pages/Subscribe'));
+const Dashboard = lazy(() => import('./pages/Dashboard'));
+const Admin = lazy(() => import('./pages/Admin'));
+const Login = lazy(() => import('./pages/Login'));
+import { SiteHeader } from './components/shell/SiteHeader';
+import { SiteFooter } from './components/shell/SiteFooter';
+import { ScrollToTop } from './components/shell/ScrollToTop';
 
-const NAV_LINKS = [
-  { to: '/', label: 'Home', end: true },
-  { to: '/todays-scams', label: "Today's Scams" },
-  { to: '/ai-scams', label: 'AI-Enabled Scams' },
-  { to: '/database', label: 'Database' },
-  { to: '/alerts', label: 'Alerts' },
-  { to: '/articles', label: 'Articles' },
-  { to: '/notorious', label: 'Notorious' },
-  { to: '/global-map', label: 'Global Map' },
-  { to: '/global-sources', label: 'Global Sources' },
-  { to: '/state-attorneys-general', label: 'State AGs' },
-  { to: '/federal', label: 'Federal Watch' },
-  { to: '/statistics', label: 'Statistics' },
-  { to: '/subscribe', label: 'Subscribe' },
-];
-
-function AccountNav() {
-  const navigate = useNavigate();
-  const user = useAuthStore((s) => s.user);
-  const token = useAuthStore((s) => s.token);
-  const clearSession = useAuthStore((s) => s.clearSession);
-  // Admin is deliberately absent from the public nav, but that left the one
-  // person who uses it retyping a URL they have to remember. Shown only to an
-  // admin token — the page and every write behind it are enforced server-side
-  // regardless of what is linked here.
-  const isAdmin = roleFromToken(token) === 'admin';
-
-  if (!user) {
-    return (
-      <NavLink to="/login" className="text-sm text-slate-500">
-        Sign in
-      </NavLink>
-    );
-  }
-
+function PageLoading() {
   return (
-    <div className="flex items-center gap-4">
-      {isAdmin && (
-        <NavLink to="/admin" className="text-sm font-medium text-slate-700 whitespace-nowrap">
-          Admin
-        </NavLink>
-      )}
-      <NavLink to="/dashboard" className="text-sm text-slate-500 whitespace-nowrap truncate max-w-[12rem]">
-        {user.email}
-      </NavLink>
-      <button
-        type="button"
-        onClick={() => {
-          clearSession();
-          navigate('/');
-        }}
-        className="text-sm text-slate-500 whitespace-nowrap flex-shrink-0"
-      >
-        Sign out
-      </button>
+    <div className="flex justify-center py-24" role="status" aria-label="Loading page">
+      <span className="h-6 w-6 animate-spin rounded-full border-2 border-slate-200 border-t-red-600" />
     </div>
-  );
-}
-
-function SiteHeader() {
-  return (
-    <header className="border-b border-slate-200 bg-white">
-      {/* Institutional identity bar — this is where the "which agency" signal lives.
-          Deliberately says "private" here, plainly, rather than leaving it ambiguous. */}
-      <div className="bg-[#0f1a2b] text-slate-300 text-xs">
-        <div className="max-w-6xl mx-auto px-4 py-1.5 flex items-center justify-between">
-          <span>
-            <span className="sm:hidden">Private service · not a government agency</span>
-            <span className="hidden sm:inline">A private consumer-protection service — not a government agency</span>
-          </span>
-          <div className="hidden sm:flex items-center gap-4">
-            {PUBLIC_PHONE && (
-              <a href={telHref(PUBLIC_PHONE)} className="hover:text-white">
-                Call {formatPhoneDisplay(PUBLIC_PHONE)}
-              </a>
-            )}
-            <Link to="/report" className="hover:text-white">
-              Report a scam online, 24/7 →
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      <nav className="max-w-7xl mx-auto px-3 py-2 flex items-center gap-3 md:gap-4">
-        <Link to="/" className="flex items-center gap-2 min-w-0 flex-shrink">
-          <ShieldLogo className="h-8 w-8 md:h-9 md:w-9 flex-shrink-0" />
-          <span className="font-bold text-base sm:text-lg text-slate-900 whitespace-nowrap truncate" style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}>
-            ScamShield National
-          </span>
-        </Link>
-
-        <div className="hidden md:flex items-center flex-wrap gap-x-6 gap-y-2 flex-1 min-w-0">
-          {NAV_LINKS.map((link) => (
-            <NavLink
-              key={link.to}
-              to={link.to}
-              end={link.end}
-              className={({ isActive }) =>
-                `text-sm whitespace-nowrap ${isActive ? 'text-slate-900 font-medium' : 'text-slate-500'}`
-              }
-            >
-              {link.label}
-            </NavLink>
-          ))}
-        </div>
-
-        <div className="ml-auto flex items-center gap-2 md:gap-5 flex-shrink-0">
-          <Link
-            to="/report"
-            className="px-3 md:px-4 py-2 rounded-md bg-[#8a2e2e] text-white text-sm font-semibold whitespace-nowrap flex-shrink-0 hover:bg-[#7a2626] transition-colors"
-          >
-            <span className="sm:hidden">Report</span>
-            <span className="hidden sm:inline">Report a Scam</span>
-          </Link>
-          {/* Phones get the account links inside the menu instead. */}
-          <div className="hidden md:block">
-            <AccountNav />
-          </div>
-          <MobileMenu links={NAV_LINKS} />
-        </div>
-      </nav>
-    </header>
-  );
-}
-
-function SiteFooter() {
-  return (
-    <footer className="border-t border-slate-200 bg-slate-50 mt-16">
-      <div className="max-w-6xl mx-auto px-4 py-10 grid gap-8 sm:grid-cols-3">
-        <div>
-          <div className="flex items-center gap-2">
-            <ShieldLogo className="h-6 w-6" />
-            <span className="font-semibold text-slate-900">ScamShield National</span>
-          </div>
-          <p className="mt-3 text-sm text-slate-500 max-w-xs">
-            ScamShield National is a private consumer-protection service. It is not a government agency and is not
-            affiliated with, endorsed by, or acting on behalf of any government body.
-          </p>
-          {PUBLIC_PHONE && (
-            <p className="mt-3 text-sm text-slate-500">
-              Call us:{' '}
-              <a href={telHref(PUBLIC_PHONE)} className="underline hover:text-slate-900">
-                {formatPhoneDisplay(PUBLIC_PHONE)}
-              </a>
-            </p>
-          )}
-        </div>
-        <div>
-          <h3 className="text-sm font-semibold text-slate-900">Resources</h3>
-          <ul className="mt-3 space-y-2 text-sm text-slate-500">
-            <li>
-              <Link to="/check-now" className="hover:text-slate-900">
-                Check something now
-              </Link>
-            </li>
-            <li>
-              <Link to="/database" className="hover:text-slate-900">
-                Scam database
-              </Link>
-            </li>
-            <li>
-              <Link to="/notorious" className="hover:text-slate-900">
-                Notorious scams &amp; scammers
-              </Link>
-            </li>
-            <li>
-              <Link to="/report" className="hover:text-slate-900">
-                Report a scam
-              </Link>
-            </li>
-            <li>
-              <Link to="/report-status" className="hover:text-slate-900">
-                Check report status
-              </Link>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="text-sm font-semibold text-slate-900">If you're a victim right now</h3>
-          <p className="mt-3 text-sm text-slate-500">
-            If you're in the U.S. and money is actively at risk, contact your bank immediately, then file a report
-            with the FTC at{' '}
-            <a href="https://reportfraud.ftc.gov" target="_blank" rel="noreferrer" className="underline">
-              reportfraud.ftc.gov
-            </a>{' '}
-            — the official U.S. government reporting site.
-          </p>
-          {PUBLIC_PHONE && (
-            <p className="mt-2 text-sm text-slate-500">
-              Or talk to a real person right now:{' '}
-              <a href={telHref(PUBLIC_PHONE)} className="underline font-medium">
-                {formatPhoneDisplay(PUBLIC_PHONE)}
-              </a>
-            </p>
-          )}
-        </div>
-      </div>
-      <div className="border-t border-slate-200 py-4 text-center text-xs text-slate-400">
-        © {new Date().getFullYear()} ScamShield National. A private service, not a government agency.
-      </div>
-    </footer>
   );
 }
 
 export default function App() {
   return (
     <div className="min-h-screen bg-white flex flex-col">
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-[60] focus:rounded-md focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-slate-900 focus:shadow-lg"
+      >
+        Skip to content
+      </a>
+      <ScrollToTop />
       <SiteHeader />
 
-      <div className="flex-1">
+      <main id="main" className="flex-1">
+        <Suspense fallback={<PageLoading />}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/todays-scams" element={<TodaysScams />} />
@@ -263,7 +76,8 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </div>
+        </Suspense>
+      </main>
 
       <SiteFooter />
     </div>

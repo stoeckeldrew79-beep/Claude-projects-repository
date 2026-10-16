@@ -101,3 +101,113 @@ export async function getLiveStats(): Promise<LiveStats> {
     recentCritical: recentCritical.rows,
   };
 }
+
+export interface StatsBreakdown {
+  generated_at: string;
+  totals: { current: number; historical: number; countries: number; categories_in_use: number };
+  // Current (non-historical) entries by alert level. "unrated" is entries
+  // with no alert_level — counted, not hidden, so the parts sum to the total.
+  bySeverity: { critical: number; high: number; medium: number; low: number; unrated: number };
+  byCategory: { name: string; slug: string; count: number; critical_high: number }[];
+  topCountries: { country: string; count: number }[];
+  topTargets: { tag: string; count: number }[];
+  // Entries ADDED to the database per ISO week (Monday start, UTC), the last
+  // 12 weeks, zero-filled. Database growth, not scam incidence.
+  weeklyAdded: { week_start: string; count: number }[];
+}
+
+const BREAKDOWN_TTL_MS = 5 * 60 * 1000;
+let breakdownCache: { at: number; value: StatsBreakdown } | null = null;
+let breakdownInFlight: Promise<StatsBreakdown> | null = null;
+
+// Aggregate-only view of the curated database for the Statistics page. All
+// counts are live GROUP BYs over `scams` — nothing estimated. Cached in
+// process for five minutes (the data changes a few times a day at most), and
+// concurrent first requests share one computation instead of each running
+// the six aggregates.
+export async function getStatsBreakdown(): Promise<StatsBreakdown> {
+  if (breakdownCache && Date.now() - breakdownCache.at < BREAKDOWN_TTL_MS) return breakdownCache.value;
+  if (breakdownInFlight) return breakdownInFlight;
+  breakdownInFlight = computeStatsBreakdown()
+    .then((value) => {
+      breakdownCache = { at: Date.now(), value };
+      return value;
+    })
+    .finally(() => {
+      breakdownInFlight = null;
+    });
+  return breakdownInFlight;
+}
+
+export function clearStatsBreakdownCache() {
+  breakdownCache = null;
+}
+
+async function computeStatsBreakdown(): Promise<StatsBreakdown> {
+  const [totals, severity, categories, countries, targets, weekly] = await Promise.all([
+    pool.query(`
+      SELECT COUNT(*) FILTER (WHERE is_historical = false)::int AS current,
+             COUNT(*) FILTER (WHERE is_historical = true)::int AS historical,
+             COUNT(DISTINCT country) FILTER (WHERE is_historical = false)::int AS countries,
+             COUNT(DISTINCT category_id) FILTER (WHERE is_historical = false)::int AS categories_in_use
+      FROM scams WHERE is_active = true
+    `),
+    pool.query(`
+      SELECT COALESCE(alert_level, 'unrated') AS level, COUNT(*)::int AS count
+      FROM scams WHERE is_active = true AND is_historical = false
+      GROUP BY 1
+    `),
+    pool.query(`
+      SELECT c.name, c.slug, COUNT(*)::int AS count,
+             COUNT(*) FILTER (WHERE s.alert_level IN ('critical', 'high'))::int AS critical_high
+      FROM scams s JOIN categories c ON c.id = s.category_id
+      WHERE s.is_active = true AND s.is_historical = false
+      GROUP BY c.name, c.slug
+      ORDER BY count DESC, c.name ASC
+    `),
+    pool.query(`
+      SELECT country, COUNT(*)::int AS count
+      FROM scams WHERE is_active = true AND is_historical = false AND country IS NOT NULL
+      GROUP BY country ORDER BY count DESC, country ASC LIMIT 12
+    `),
+    pool.query(`
+      SELECT unnest(tags) AS tag, COUNT(*)::int AS count
+      FROM scams WHERE is_active = true AND is_historical = false AND tags IS NOT NULL
+      GROUP BY tag ORDER BY count DESC, tag ASC LIMIT 8
+    `),
+    pool.query(`
+      WITH weeks AS (
+        SELECT generate_series(
+          date_trunc('week', NOW() AT TIME ZONE 'UTC') - INTERVAL '11 weeks',
+          date_trunc('week', NOW() AT TIME ZONE 'UTC'),
+          INTERVAL '1 week'
+        ) AS week_start
+      ),
+      added AS (
+        SELECT date_trunc('week', created_at AT TIME ZONE 'UTC') AS week_start, COUNT(*)::int AS count
+        FROM scams
+        WHERE is_active = true AND is_historical = false
+          AND created_at >= date_trunc('week', NOW() AT TIME ZONE 'UTC') - INTERVAL '11 weeks'
+        GROUP BY 1
+      )
+      SELECT to_char(w.week_start, 'YYYY-MM-DD') AS week_start, COALESCE(a.count, 0)::int AS count
+      FROM weeks w LEFT JOIN added a ON a.week_start = w.week_start
+      ORDER BY w.week_start
+    `),
+  ]);
+
+  const sev = { critical: 0, high: 0, medium: 0, low: 0, unrated: 0 };
+  for (const r of severity.rows) {
+    if (r.level in sev) sev[r.level as keyof typeof sev] = Number(r.count);
+  }
+
+  return {
+    generated_at: new Date().toISOString(),
+    totals: totals.rows[0],
+    bySeverity: sev,
+    byCategory: categories.rows,
+    topCountries: countries.rows,
+    topTargets: targets.rows,
+    weeklyAdded: weekly.rows,
+  };
+}

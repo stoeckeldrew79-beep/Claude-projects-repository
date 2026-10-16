@@ -12,6 +12,7 @@ import {
   useUpdateAlertFrequency,
 } from '../hooks/useAlertSubscriptions';
 import { AlertFrequency } from '../services/alertSubscriptions';
+import { OfficialAlertsList } from '../components/home/OfficialAlertsList';
 
 const ALERT_COLORS: Record<string, string> = {
   low: 'bg-slate-100 text-slate-700',
@@ -208,6 +209,183 @@ function WatchProfilesPanel() {
   );
 }
 
+const STEPS = [
+  {
+    title: 'Choose what to watch',
+    body: 'Pick a state, a scam category, or both — like "Florida, government impersonation". Family plans can watch up to five places at once.',
+  },
+  {
+    title: 'We watch the sources',
+    body: 'Around the clock we track state Attorney General and federal (DOJ, FTC) publications and news coverage, and document new scams in our database.',
+  },
+  {
+    title: 'You get an email',
+    body: 'When a newly documented scam matches your watch list, it lands in your inbox — monthly on a free account, up to within about 20 minutes on Family.',
+  },
+];
+
+const CADENCE: { plan: string; price: string; cadence: string; profiles: string; highlight?: boolean }[] = [
+  { plan: 'Free account', price: '$0', cadence: 'Monthly digest', profiles: '1 watch profile' },
+  { plan: 'Basic', price: '$4/mo', cadence: 'Up to weekly', profiles: '1 watch profile' },
+  { plan: 'Pro', price: '$9/mo', cadence: 'Up to daily', profiles: '1 watch profile', highlight: true },
+  { plan: 'Family', price: '$15/mo', cadence: 'Instant (~20 min)', profiles: 'Up to 5 watch profiles' },
+];
+
+function AlertsLanding() {
+  return (
+    <div>
+      <section className="relative overflow-hidden bg-gradient-to-b from-slate-950 to-[#0f1a2b] px-4 py-16 sm:py-20 text-white">
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute -top-24 right-0 h-72 w-72 rounded-full bg-red-600/20 blur-3xl"
+        />
+        <div className="relative mx-auto max-w-6xl grid gap-10 lg:grid-cols-[1.1fr_1fr] lg:items-center">
+          <div>
+            <p className="text-xs font-bold uppercase tracking-widest text-red-400">Scam alerts</p>
+            <h1 className="mt-3 text-4xl sm:text-5xl font-extrabold tracking-tight leading-[1.08]">
+              Hear about the scam <span className="text-red-500">before it reaches you.</span>
+            </h1>
+            <p className="mt-5 max-w-xl text-lg text-slate-300">
+              Tell us your state and the scams you worry about. We monitor official Attorney General and federal
+              warnings and email you when something new matches.
+            </p>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <Link
+                to="/login?mode=register&next=/alerts"
+                className="rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white shadow-lg shadow-red-950/50 hover:bg-red-500"
+              >
+                Create free account
+              </Link>
+              <Link
+                to="/subscribe"
+                className="rounded-md border border-white/20 bg-white/5 px-6 py-3 text-center font-semibold text-white hover:bg-white/10"
+              >
+                See plans
+              </Link>
+            </div>
+            <p className="mt-4 text-sm text-slate-400">
+              Free to start · no card needed ·{' '}
+              <Link to="/login?next=/alerts" className="text-slate-200 underline hover:text-white">
+                Already a member? Sign in
+              </Link>
+            </p>
+          </div>
+
+          {/* A mock of the email, built only from the steps above — no fake data. */}
+          <div className="rounded-2xl bg-white p-5 text-slate-900 shadow-2xl shadow-black/40 ring-1 ring-white/10">
+            <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
+              <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#8a2e2e] text-sm font-bold text-white">
+                S
+              </span>
+              <div className="min-w-0">
+                <p className="text-sm font-semibold">ScamShield National alerts</p>
+                <p className="truncate text-xs text-slate-500">New scams matching your watch list</p>
+              </div>
+            </div>
+            <dl className="mt-4 space-y-3 text-sm">
+              <div className="flex justify-between gap-4 rounded-lg bg-slate-50 px-3 py-2.5">
+                <dt className="text-slate-500">Watching</dt>
+                <dd className="font-medium text-right">Your state · any category</dd>
+              </div>
+              <div className="flex justify-between gap-4 rounded-lg bg-slate-50 px-3 py-2.5">
+                <dt className="text-slate-500">Sources</dt>
+                <dd className="font-medium text-right">State AG · DOJ · FTC · news</dd>
+              </div>
+              <div className="flex justify-between gap-4 rounded-lg bg-slate-50 px-3 py-2.5">
+                <dt className="text-slate-500">Delivery</dt>
+                <dd className="font-medium text-right">Monthly → instant, by plan</dd>
+              </div>
+            </dl>
+            <p className="mt-4 text-xs text-slate-500">
+              Each alert links to the full write-up and the official source behind it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="how-heading" className="mx-auto max-w-6xl px-4 py-14">
+        <h2 id="how-heading" className="text-2xl font-bold tracking-tight text-slate-900">
+          How it works
+        </h2>
+        <ol className="mt-6 grid gap-4 md:grid-cols-3">
+          {STEPS.map((step, i) => (
+            <li key={step.title} className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
+              <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[#0f1a2b] text-sm font-bold text-white">
+                {i + 1}
+              </span>
+              <h3 className="mt-4 font-semibold text-slate-900">{step.title}</h3>
+              <p className="mt-1.5 text-sm leading-relaxed text-slate-600">{step.body}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section aria-labelledby="preview-heading" className="border-y border-slate-200 bg-slate-50">
+        <div className="mx-auto max-w-6xl px-4 py-14 grid gap-8 lg:grid-cols-[1fr_1.5fr]">
+          <div>
+            <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#8a2e2e]">
+              <span className="relative flex h-2 w-2" aria-hidden="true">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-500 opacity-60 motion-reduce:hidden" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-red-500" />
+              </span>
+              Live preview
+            </p>
+            <h2 id="preview-heading" className="mt-2 text-2xl font-bold tracking-tight text-slate-900">
+              What officials are warning about right now
+            </h2>
+            <p className="mt-3 text-slate-600">
+              These are real, recent publications from state Attorneys General and federal agencies — the same
+              sources we watch for you. Members hear about the ones that matter to them without checking dozens of
+              government websites.
+            </p>
+            <Link
+              to="/login?mode=register&next=/alerts"
+              className="mt-6 inline-block rounded-md bg-[#8a2e2e] px-5 py-2.5 font-semibold text-white hover:bg-[#7a2626]"
+            >
+              Start watching — free
+            </Link>
+          </div>
+          <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
+            <OfficialAlertsList limit={6} compact />
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="cadence-heading" className="mx-auto max-w-6xl px-4 py-14">
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+          <h2 id="cadence-heading" className="text-2xl font-bold tracking-tight text-slate-900">
+            How fast you hear about it
+          </h2>
+          <Link to="/subscribe" className="text-sm font-medium text-[#8a2e2e] hover:underline">
+            Compare all plans →
+          </Link>
+        </div>
+        <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {CADENCE.map((c) => (
+            <div
+              key={c.plan}
+              className={`rounded-xl border p-5 ${
+                c.highlight ? 'border-[#8a2e2e] bg-red-50/50 ring-1 ring-[#8a2e2e]' : 'border-slate-200 bg-white'
+              }`}
+            >
+              <div className="flex items-baseline justify-between gap-2">
+                <p className="font-semibold text-slate-900">{c.plan}</p>
+                <p className="text-sm text-slate-500">{c.price}</p>
+              </div>
+              <p className="mt-3 text-lg font-bold text-slate-900">{c.cadence}</p>
+              <p className="text-sm text-slate-500">{c.profiles}</p>
+            </div>
+          ))}
+        </div>
+        <p className="mt-6 text-xs text-slate-500">
+          ScamShield National is a private consumer-protection service, not a government agency. Unsubscribe or
+          cancel any time.
+        </p>
+      </section>
+    </div>
+  );
+}
+
 export default function Alerts() {
   useDocumentMeta({
     title: 'Alerts',
@@ -221,19 +399,7 @@ export default function Alerts() {
 
   const isForbidden = (error as { response?: { status?: number } } | null)?.response?.status === 403;
 
-  if (!user) {
-    return (
-      <div className="max-w-3xl mx-auto px-4 py-10">
-        <h1 className="text-2xl font-bold text-slate-900">Alerts</h1>
-        <p className="mt-2 text-slate-600">
-          <Link to="/login" className="underline">
-            Sign in
-          </Link>{' '}
-          to set up scam alerts and see the real-time feed.
-        </p>
-      </div>
-    );
-  }
+  if (!user) return <AlertsLanding />;
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-10">
@@ -255,7 +421,7 @@ export default function Alerts() {
 
         {isForbidden && (
           <p className="text-slate-600">
-            The real-time feed is a Pro-and-above feature.{' '}
+            The real-time feed is included with every paid plan.{' '}
             <Link to="/subscribe" className="underline">
               Upgrade your plan
             </Link>{' '}

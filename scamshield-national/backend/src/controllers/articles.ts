@@ -28,6 +28,19 @@ const BRIEF_COLUMNS =
 const DEFAULT_LIMIT = 200;
 const MAX_LIMIT = 500;
 
+// The extra-tag filter: ?tags=ponzi-scheme,international narrows a
+// collection to articles carrying every listed tag, on top of ?tag. Kept
+// separate from ?tag so existing callers are untouched. Capped so a crafted
+// URL can't build an enormous array.
+function parseExtraTags(raw: unknown): string[] {
+  if (typeof raw !== 'string') return [];
+  return raw
+    .split(',')
+    .map((t) => t.trim())
+    .filter(Boolean)
+    .slice(0, 5);
+}
+
 // How many articles carry a tag. The list endpoint pages, so it can never
 // report a total, and a collection's size is worth stating plainly: 699
 // profiles is the point of the collection, not a detail of it.
@@ -38,6 +51,11 @@ export const count = asyncHandler<AuthedRequest>(async (req, res) => {
   if (tag) {
     values.push(tag);
     conditions.push(`$${values.length} = ANY(tags)`);
+  }
+  const extraTags = parseExtraTags(req.query.tags);
+  if (extraTags.length) {
+    values.push(extraTags);
+    conditions.push(`tags @> $${values.length}::text[]`);
   }
   // Must match list()'s filter exactly. A count that ignores the search would
   // reserve space for articles the list will never return, leaving a page of
@@ -65,6 +83,17 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   if (tag) {
     values.push(tag);
     conditions.push(`$${values.length} = ANY(a.tags)`);
+  }
+  const extraTags = parseExtraTags(req.query.tags);
+  if (extraTags.length) {
+    values.push(extraTags);
+    conditions.push(`a.tags @> $${values.length}::text[]`);
+  }
+  // Leaves one article out — the "related reading" list on an article page
+  // asks for its siblings without getting itself back.
+  if (typeof req.query.exclude === 'string' && req.query.exclude) {
+    values.push(req.query.exclude);
+    conditions.push(`a.slug <> $${values.length}`);
   }
 
   // This was a bare LIMIT 200 with no way to reach past it, which silently
@@ -98,10 +127,17 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   // sort over the whole collection, which stops working once the page loads
   // in windows: each window would sort only within itself and the grid would
   // alternate photo and no-photo blocks as the reader scrolled.
+  // 'title' (A–Z) and 'oldest' are reader-facing sorts on the Notorious
+  // page; anything unrecognised falls back to newest-first.
+  // A Map, not an object literal: an object would answer "constructor" or
+  // "__proto__" with an inherited value and splice it into the SQL.
+  const ORDERS = new Map<string, string>([
+    ['photos-first', '(a.cover_image IS NULL), a.published_at DESC NULLS LAST, a.id'],
+    ['title', "regexp_replace(lower(a.title), '^(the|a|an) ', ''), a.id"],
+    ['oldest', 'a.published_at ASC NULLS LAST, a.id'],
+  ]);
   const order =
-    req.query.sort === 'photos-first'
-      ? '(a.cover_image IS NULL), a.published_at DESC NULLS LAST, a.id'
-      : 'a.published_at DESC NULLS LAST, a.id';
+    (typeof req.query.sort === 'string' && ORDERS.get(req.query.sort)) || 'a.published_at DESC NULLS LAST, a.id';
 
   const { rows } = await pool.query(
     `SELECT ${columns}, s.slug AS scam_slug

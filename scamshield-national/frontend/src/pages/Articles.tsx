@@ -146,9 +146,11 @@ export default function Articles() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
-      <h1 className="text-2xl font-bold text-slate-900 mb-2">Articles</h1>
-      <p className="text-slate-600 mb-2">
-        How-to guides for recognizing common scams, plus the historical stories behind them.
+      <p className="text-xs font-semibold tracking-widest text-red-700 uppercase">Articles</p>
+      <h1 className="mt-1 mb-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Guides &amp; case files</h1>
+      <p className="mb-2 max-w-2xl text-slate-600">
+        How-to guides for recognizing the scams circulating now, plus the true stories behind history&apos;s
+        most notorious frauds.
       </p>
       {total !== undefined && (
         <p className="mb-6 text-sm font-medium text-slate-900">
@@ -158,23 +160,40 @@ export default function Articles() {
         </p>
       )}
 
-      <div className="flex flex-wrap gap-3 mb-6">
-        <input
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          placeholder="Search articles…"
-          className="flex-1 min-w-[200px] rounded-md border border-slate-300 px-3 py-2 text-sm"
-        />
+      <div className="mb-6 flex flex-col gap-3 rounded-xl border border-slate-200 bg-slate-50 p-3 sm:flex-row sm:items-center sm:p-4">
+        <div className="relative flex-1">
+          <svg
+            viewBox="0 0 20 20"
+            className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"
+            fill="currentColor"
+            aria-hidden
+          >
+            <path
+              fillRule="evenodd"
+              d="M8 3a5 5 0 103.2 8.9l3.4 3.4a1 1 0 001.4-1.4l-3.4-3.4A5 5 0 008 3zM5 8a3 3 0 116 0 3 3 0 01-6 0z"
+              clipRule="evenodd"
+            />
+          </svg>
+          <input
+            type="search"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Search articles…"
+            aria-label="Search articles"
+            className="w-full rounded-lg border border-slate-300 bg-white py-2 pl-9 pr-3 text-sm focus:outline-none focus:ring-2 focus:ring-red-600"
+          />
+        </div>
         <div className="flex gap-2">
           {FILTERS.map((f) => (
             <button
               key={f.label}
               type="button"
               onClick={() => setFilter(f.tag)}
+              aria-pressed={filter === f.tag}
               className={`px-3 py-1.5 rounded-full text-sm font-medium border ${
                 filter === f.tag
                   ? 'bg-slate-900 text-white border-slate-900'
-                  : 'text-slate-600 border-slate-300 hover:border-slate-400'
+                  : 'bg-white text-slate-600 border-slate-300 hover:border-slate-400'
               }`}
             >
               {f.label}
@@ -193,7 +212,10 @@ export default function Articles() {
               to={`/articles/${article.slug}`}
               className="group block overflow-hidden rounded-xl border border-slate-200 hover:border-slate-400 hover:shadow-md transition-all"
             >
-              <div className="h-40 sm:h-48 overflow-hidden bg-slate-100">
+              <div className="relative h-40 sm:h-48 overflow-hidden bg-slate-100">
+                <span className="absolute left-3 top-3 z-[1] rounded-full bg-[#0f1a2b]/85 px-2.5 py-1 text-[11px] font-semibold text-white">
+                  {article.tags?.includes('notorious') ? 'Notorious' : article.tags?.includes('guide') ? 'Guide' : 'Article'}
+                </span>
                 {article.cover_image ? (
                   <CoverImage
                     src={article.cover_image}
@@ -232,10 +254,10 @@ export default function Articles() {
           <PlaceholderCard key={`placeholder-${i}`} innerRef={i === 0 ? sentinelRef : undefined} />
         ))}
         {articles && articles.length === 0 && !placeholderCount && !query && (
-          <p className="text-slate-500 col-span-2">No articles published yet.</p>
+          <p className="text-slate-500 sm:col-span-2">No articles published yet.</p>
         )}
         {articles && articles.length === 0 && !placeholderCount && query && (
-          <p className="text-slate-500 col-span-2">No articles match "{query}".</p>
+          <p className="text-slate-500 sm:col-span-2">No articles match "{query}".</p>
         )}
       </div>
 

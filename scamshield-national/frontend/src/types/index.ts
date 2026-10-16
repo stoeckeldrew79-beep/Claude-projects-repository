@@ -143,6 +143,69 @@ export interface DailyScamNews {
   source_kind: 'ag' | 'federal' | 'news';
 }
 
+// One row of GET /v1/daily-news/latest-by-state: the newest official
+// Attorney General item (source_kind 'ag') for a state, for every state that
+// has one in the 30-day window. Ordered by state.
+export interface LatestAgAlert {
+  state: string;
+  headline: string;
+  source_url: string;
+  source_name: string;
+  published_at: string | null;
+}
+
+// Source-type filter on Today's Scams (GET /daily-news?kind=...).
+export type DailyNewsKind = 'ag' | 'federal' | 'news';
+
+// GET /v1/daily-news/summary — the strip at the top of Today's Scams.
+// Counted over distinct stories in the 30-day window (investor spam out).
+export interface DailyNewsSummary {
+  last_24h: number;
+  last_7d: number;
+  total: number;
+  official_ag: number;
+  official_ag_7d: number;
+  federal: number;
+  international: number;
+  states_covered: number;
+  ag_states: number;
+  sources: number;
+  last_scanned_at: string | null;
+}
+
+// One DOJ/FTC release on Federal Watch (GET /v1/daily-news/federal).
+export interface FederalRelease {
+  id: string;
+  headline: string;
+  source_name: string;
+  source_url: string;
+  published_at: string | null;
+  scanned_at: string;
+  agency: 'DOJ' | 'FTC';
+  // "Middle District of Florida", "DOJ Office of Public Affairs", ...
+  office: string | null;
+}
+
+// A story: the lead release plus the other offices that republished it.
+export interface FederalStory extends FederalRelease {
+  theme: string;
+  related: FederalRelease[];
+}
+
+export interface FederalWatchData {
+  clusters: FederalStory[];
+  stats: {
+    releases_7d: number;
+    releases_30d: number;
+    stories_7d: number;
+    stories_30d: number;
+    doj_releases: number;
+    ftc_releases: number;
+    offices: number;
+    themes: { theme: string; count: number }[];
+  };
+}
+
 export interface DailyNewsStateCount {
   state: string;
   total: number;

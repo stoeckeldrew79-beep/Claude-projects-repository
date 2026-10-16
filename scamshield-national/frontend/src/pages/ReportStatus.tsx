@@ -1,5 +1,5 @@
 import { FormEvent, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { useReportStatus } from '../hooks/useReports';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { formatPhoneDisplay, PUBLIC_PHONE, telHref } from '../utils/publicPhone';
@@ -42,14 +42,23 @@ export default function ReportStatus() {
         Paste the report reference code you received after submitting a report to look up its status.
       </p>
 
-      <form onSubmit={handleSubmit} className="mt-6 flex gap-2">
+      <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-2 sm:flex-row">
+        <label htmlFor="report-ref" className="sr-only">
+          Report reference code
+        </label>
         <input
+          id="report-ref"
+          autoComplete="off"
+          spellCheck={false}
           value={lookupId}
           onChange={(e) => setLookupId(e.target.value)}
           placeholder="Report reference code"
-          className="flex-1 rounded-md border border-slate-300 px-3 py-2 text-sm font-mono"
+          className="min-w-0 flex-1 rounded-md border border-slate-300 px-3 py-2.5 text-sm font-mono"
         />
-        <button type="submit" className="px-5 py-2 rounded-md bg-slate-900 text-white font-medium">
+        <button
+          type="submit"
+          className="px-5 py-2.5 rounded-md bg-[#8a2e2e] text-white font-semibold hover:bg-[#7a2626] transition-colors"
+        >
           Look up
         </button>
       </form>
@@ -64,23 +73,37 @@ export default function ReportStatus() {
         </p>
       )}
 
-      {isLoading && <p className="mt-6 text-slate-500">Looking up your report…</p>}
+      {!activeId && (
+        <p className="mt-3 text-sm text-slate-500">
+          Haven't reported yet?{' '}
+          <Link to="/report" className="font-medium text-[#8a2e2e] underline hover:text-[#7a2626]">
+            Report a scam
+          </Link>{' '}
+          — it takes a few minutes and you'll get a reference code at the end.
+        </p>
+      )}
+
+      {isLoading && (
+        <p className="mt-6 text-slate-500" role="status">
+          Looking up your report…
+        </p>
+      )}
       {isError && (
-        <p className="mt-6 text-sm text-red-700 bg-red-50 border border-red-200 rounded-md px-3 py-2">
+        <p role="alert" className="mt-6 text-sm text-red-700 bg-red-50 border border-red-200 rounded-md px-3 py-2">
           We couldn't find a report with that reference code. Double-check it and try again.
         </p>
       )}
 
       {data && (
         <div className="mt-8 space-y-6">
-          <div className="rounded-lg border border-slate-200 p-4">
+          <div className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
             <p className="text-xs font-medium text-slate-500 uppercase tracking-wide">Submitted</p>
             <p className="mt-1 text-sm text-slate-900">{new Date(data.created_at).toLocaleDateString()}</p>
             <p className="mt-3 text-xs font-medium text-slate-500 uppercase tracking-wide">Review status</p>
             <p className="mt-1 text-sm text-slate-900">{INTERNAL_STATUS_COPY[data.status] ?? data.status}</p>
           </div>
 
-          <div className="rounded-lg border border-slate-200 p-4">
+          <div className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
             <p className="text-sm font-semibold text-slate-900">Agency filing</p>
             {!data.consent_to_file && (
               <p className="mt-2 text-sm text-slate-500">

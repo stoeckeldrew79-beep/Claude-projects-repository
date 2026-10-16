@@ -15,6 +15,10 @@ export const getBySlug = asyncHandler<AuthedRequest>(async (req, res) => {
 
 export const trends = asyncHandler<AuthedRequest>(async (req, res) => {
   const country = typeof req.query.country === 'string' ? req.query.country : undefined;
-  const data = await CategoriesModel.categoryReportTrends(country);
-  res.json({ data });
+  const [data, meta] = await Promise.all([
+    CategoriesModel.categoryReportTrends(country),
+    CategoriesModel.categoryTrendsMeta(country),
+  ]);
+  // meta sits beside data so existing readers of `data` are unaffected.
+  res.json({ data, meta });
 });

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { useScamSearch } from '../hooks/useScams';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { useDebounce } from '../hooks/useDebounce';
@@ -26,8 +26,12 @@ export default function CheckNow() {
     path: '/check-now',
   });
 
-  const [draft, setDraft] = useState('');
-  const [query, setQuery] = useState('');
+  // Arriving from the home page's hero box carries the visitor's text as ?q=,
+  // so it's checked straight away instead of being retyped.
+  const [params] = useSearchParams();
+  const initial = (params.get('q') ?? '').slice(0, 500);
+  const [draft, setDraft] = useState(initial);
+  const [query, setQuery] = useState(initial);
   const [activeChip, setActiveChip] = useState<string | null>(null);
   // Real-time-feeling without hammering the search endpoint on every
   // keystroke: the query only actually updates 400ms after typing stops.
@@ -76,6 +80,7 @@ export default function CheckNow() {
             key={chip.key}
             type="button"
             onClick={() => pickChip(chip)}
+            aria-pressed={activeChip === chip.key}
             className={`text-sm px-3.5 py-2 rounded-full border transition-colors ${
               activeChip === chip.key
                 ? 'bg-slate-900 border-slate-900 text-white'
@@ -88,18 +93,22 @@ export default function CheckNow() {
       </div>
 
       <form onSubmit={submit} className="mt-6">
+        <label htmlFor="check-text" className="sr-only">
+          Describe what happened
+        </label>
         <textarea
+          id="check-text"
           value={draft}
           onChange={(e) => setDraft(e.target.value)}
           placeholder="Paste the message, or describe the call or video in your own words…"
           rows={5}
-          className="w-full rounded-lg border border-slate-300 px-4 py-3 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-slate-300"
+          className="w-full rounded-xl border border-slate-300 px-4 py-3 text-[15px] shadow-sm resize-none focus:border-slate-400 focus:outline-none focus:ring-4 focus:ring-red-100"
         />
         <div className="mt-4 flex items-center justify-center gap-3">
           <button
             type="submit"
             disabled={draft.trim().length < 3}
-            className="px-6 py-3 rounded-md bg-[#8a2e2e] text-white font-semibold hover:bg-[#7a2626] disabled:opacity-40 transition-colors"
+            className="w-full sm:w-auto px-8 py-3 rounded-md bg-[#8a2e2e] text-white font-semibold shadow-sm hover:bg-[#7a2626] disabled:opacity-40 transition-colors"
           >
             Check this →
           </button>
@@ -111,8 +120,13 @@ export default function CheckNow() {
       </p>
 
       {hasSearched && (
-        <div className="mt-10">
-          {isFetching && <p className="text-center text-slate-500">Checking…</p>}
+        <div className="mt-10" aria-live="polite">
+          {isFetching && (
+            <div className="space-y-3" aria-label="Checking">
+              <div className="mx-auto h-3 w-24 rounded bg-slate-100 animate-pulse" />
+              <div className="h-32 rounded-lg bg-slate-100 animate-pulse" />
+            </div>
+          )}
 
           {!isFetching && topMatch && (
             <>
