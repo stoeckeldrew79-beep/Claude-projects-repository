@@ -112,11 +112,11 @@ describe('fraudTheme', () => {
     expect(fraudTheme(headline)).toBe(theme);
   });
 
-  test('themeCounts sorts by count, then name', () => {
-    expect(themeCounts(['tax fraud', 'irs scam', 'medicare fraud', 'woman sentenced'])).toEqual([
+  test('themeCounts sorts by count, then name, with Other fraud last', () => {
+    expect(themeCounts(['tax fraud', 'irs scam', 'medicare fraud', 'woman sentenced', 'man sentenced', 'fraud'])).toEqual([
       { theme: 'Tax & IRS', count: 2 },
       { theme: 'Healthcare & Medicare', count: 1 },
-      { theme: 'Other fraud', count: 1 },
+      { theme: 'Other fraud', count: 3 },
     ]);
   });
 });

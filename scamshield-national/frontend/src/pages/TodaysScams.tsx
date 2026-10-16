@@ -10,7 +10,6 @@ import {
 import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { DailyScamNews, DailyNewsKind, DailyNewsSummary } from '../types';
-import { NumberTicker } from '../components/magicui/number-ticker';
 import { BlurFade } from '../components/magicui/blur-fade';
 import { timeAgo } from '../utils/timeAgo';
 import { stateName } from '../utils/usStates';
@@ -96,7 +95,7 @@ function SummaryStrip({ summary }: { summary: DailyNewsSummary }) {
           } border-slate-200`}
         >
           <div className="text-2xl sm:text-3xl font-bold text-slate-900 tabular-nums">
-            <NumberTicker value={t.value} delay={0.05 * i} />
+            {t.value.toLocaleString('en-US')}
           </div>
           <div className="mt-1 text-xs font-medium leading-snug text-slate-500">{t.label}</div>
         </div>

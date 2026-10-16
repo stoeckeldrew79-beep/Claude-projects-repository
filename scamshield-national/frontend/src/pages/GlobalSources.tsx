@@ -214,7 +214,7 @@ function AtAGlance({ sources }: { sources: GlobalSource[] }) {
         </div>
         <p className="text-xs text-slate-400">Each figure is one agency&apos;s own count — not added together.</p>
       </div>
-      <div className="mt-4 flex snap-x snap-mandatory gap-px overflow-x-auto bg-white/10 sm:grid sm:grid-cols-2 sm:overflow-visible lg:grid-cols-3">
+      <div className="mt-4 flex snap-x snap-mandatory overflow-x-auto border-t border-white/10 sm:grid sm:grid-cols-2 sm:overflow-visible lg:grid-cols-3">
         {items.map(({ source, stat }) => {
           const loss = formatLossCompact(stat);
           return (
@@ -223,7 +223,7 @@ function AtAGlance({ sources }: { sources: GlobalSource[] }) {
               href={stat.source_url}
               target="_blank"
               rel="noreferrer"
-              className="group w-[78%] shrink-0 snap-start bg-[#0f1a2b] p-5 transition-colors hover:bg-[#16243a] sm:w-auto sm:p-6"
+              className="group w-[78%] shrink-0 snap-start border-r border-white/10 p-5 transition-colors hover:bg-[#16243a] sm:w-auto sm:border-b sm:p-6"
             >
               <p className="text-xs font-semibold text-slate-300">
                 {source.country_name} · {stat.period_label}

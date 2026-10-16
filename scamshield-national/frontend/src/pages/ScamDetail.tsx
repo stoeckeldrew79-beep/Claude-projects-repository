@@ -352,7 +352,7 @@ export default function ScamDetail() {
       {related.length > 0 && scam.category_slug && (
         <section className="mt-12 border-t border-slate-200 pt-8">
           <div className="flex flex-wrap items-baseline justify-between gap-2">
-            <h2 className="text-xl font-bold text-slate-900">More {scam.category_name ?? 'related'} scams</h2>
+            <h2 className="text-xl font-bold text-slate-900">More in {scam.category_name ?? 'this category'}</h2>
             <Link
               to={`/database?category=${scam.category_slug}`}
               className="text-sm font-semibold text-red-700 hover:text-red-800"

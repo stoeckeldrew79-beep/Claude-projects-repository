@@ -28,9 +28,9 @@ function GlobePlaceholder({ label }: { label: string }) {
 
 function Kpi({ value, label, sub }: { value: string; label: string; sub?: string }) {
   return (
-    <div className="rounded-xl border border-slate-200 bg-white px-4 py-4">
-      <div className="text-2xl font-extrabold tracking-tight text-slate-900 tabular-nums sm:text-3xl">{value}</div>
-      <div className="mt-0.5 text-xs font-medium text-slate-500 sm:text-sm">{label}</div>
+    <div className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 sm:px-4 sm:py-4">
+      <div className="text-xl font-extrabold tracking-tight text-slate-900 tabular-nums sm:text-3xl">{value}</div>
+      <div className="mt-0.5 text-[11px] leading-tight font-medium text-slate-500 sm:text-sm">{label}</div>
       {sub && <div className="mt-1 truncate text-xs text-red-700">{sub}</div>}
     </div>
   );
@@ -175,12 +175,12 @@ export default function GlobalMap() {
       <h1 className="mt-1 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">Where scams are being documented</h1>
       <p className="mt-3 max-w-2xl text-slate-600">
         Every dot is a country with entries in the curated ScamShield database, sized by how many. Spin the globe, tap a
-        country to open its entries. This shows where activity has been recorded — not a prediction of where scams will
-        happen next.
+        country to open its entries.<span className="hidden sm:inline"> This shows where activity has been recorded — not a
+        prediction of where scams will happen next.</span>
       </p>
 
       {data && data.length > 0 && (
-        <div className="mt-6 grid grid-cols-2 gap-3 lg:grid-cols-4">
+        <div className="mt-5 grid grid-cols-2 gap-2 sm:gap-3 lg:grid-cols-4">
           <Kpi value={totalEntries.toLocaleString()} label="Current documented entries" />
           <Kpi value={data.length.toLocaleString()} label="Countries with entries" />
           {topCountry && (

@@ -241,7 +241,7 @@ export default function StateAttorneysGeneralPage() {
         </dl>
       )}
 
-      <div className="mt-8 grid gap-6 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)]">
+      <div className="mt-8 grid gap-6 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] lg:items-start">
         {/* Quick picker. Each tile goes to the state's own page. */}
         <section className="rounded-2xl border border-slate-200 bg-white p-4 sm:p-5">
           <div className="flex flex-wrap items-baseline justify-between gap-2">

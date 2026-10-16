@@ -299,13 +299,13 @@ export const federal = asyncHandler<AuthedRequest>(async (_req, res) => {
         releases_7d: rows.filter((r) => within(r, 7)).length,
         releases_30d: rows.filter((r) => within(r, 30)).length,
         stories_7d: clusters.filter((c) => within(c, 7)).length,
-        stories_30d: clusters.length,
+        stories_30d: clusters.filter((c) => within(c, 30)).length,
         doj_releases: rows.filter((r) => agencyOf(r) === 'DOJ').length,
         ftc_releases: rows.filter((r) => agencyOf(r) === 'FTC').length,
         offices: new Set(rows.filter((r) => agencyOf(r) === 'DOJ').map((r) => dojOfficeFromUrl(r.source_url))).size,
         // Themes are counted per story, not per release, so one national
         // action echoed by eight offices counts once.
-        themes: themeCounts(clusters.map((c) => c.headline)),
+        themes: themeCounts(clusters.filter((c) => within(c, 30)).map((c) => c.headline)),
       },
     },
   });

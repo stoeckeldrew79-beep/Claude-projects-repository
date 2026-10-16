@@ -85,7 +85,7 @@ function Chip({
 }
 
 const selectClass =
-  'h-9 shrink-0 rounded-full border-0 bg-white py-1 pl-3 pr-8 text-sm font-medium text-slate-700 ring-1 ring-slate-200 hover:ring-slate-300 focus:ring-2 focus:ring-red-300';
+  'h-9 max-w-[11.5rem] shrink-0 truncate rounded-full border-0 bg-white py-1 pl-3 pr-8 text-sm font-medium text-slate-700 ring-1 ring-slate-200 hover:ring-slate-300 focus:ring-2 focus:ring-red-300';
 
 export default function Database() {
   useDocumentMeta({
@@ -280,7 +280,7 @@ export default function Database() {
                   (e.target as HTMLInputElement).blur();
                 }
               }}
-              placeholder="Search scams — e.g. toll text, fake IRS call, voice clone…"
+              placeholder="Search: toll text, IRS call, voice clone…"
               aria-label="Search the scam database"
               className="h-14 w-full rounded-2xl border-0 bg-white pl-12 pr-24 text-base text-slate-900 shadow-xl shadow-black/30 ring-1 ring-white/10 placeholder:text-slate-400 focus:ring-4 focus:ring-red-500/40"
             />

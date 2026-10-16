@@ -9,13 +9,14 @@ const WIDTH = 960;
 const HEIGHT = 600;
 
 // Sequential ramp, low -> high. On this dark panel "more" has to read as
-// brighter and hotter, so the ramp climbs in lightness AND saturation: the
-// lowest bucket is a dim, greyed maroon barely lifted off the surface, the
-// highest a vivid alarm red. (The old ramp ended in a pale pink, which on
-// dark navy looked weaker than the deep reds — the scale read backwards.)
+// brighter AND hotter: the lowest step is a dim, greyed maroon barely lifted
+// off the surface, the highest a vivid, saturated alarm red. (The old ramp
+// ended in pale pink, which on dark navy looked weaker than the deep reds —
+// the scale read backwards.) Four steps, because saturated red tops out in
+// lightness quickly and a fifth step would be indistinguishable.
 // Validated (dataviz ordinal check vs #0f1a2b): monotone lightness, every
 // adjacent step >= 0.06 apart, lowest step >= 2:1 against the surface.
-const RAMP = ['#7a3c4a', '#a83a44', '#cc3d36', '#ee5233', '#ff8a62'];
+const RAMP = ['#73404c', '#a63a43', '#d4362e', '#ff4b3e'];
 const NO_DATA = '#172235';
 const SURFACE = '#0f1a2b';
 
@@ -77,29 +78,45 @@ interface Bucket {
   max: number;
 }
 
-// Quantile buckets over the observed values: counts are heavily skewed (one
-// state can hold ten times another), so equal-width buckets would put almost
-// every state in the lowest one. Buckets are returned with their real
-// min/max so the legend can print actual numbers, and empty buckets
-// (duplicate breaks on small datasets) are dropped from the legend.
-function makeBuckets(values: number[]): { colorFor: (n: number) => string; buckets: Bucket[] } {
+// Two bucketing modes, chosen by the data:
+// - Skewed counts (live alerts: one state can hold ten times another) get
+//   quantile buckets, or nearly every state would sit in the lowest one.
+// - Evenly spread counts (documented coverage: most states within a few
+//   entries of each other) get equal-width buckets from zero. Quantiles there
+//   would paint 40 vs 43 entries as "dim" vs "alarm" — a dramatic difference
+//   that isn't in the data.
+// Each bucket carries its real min/max so the legend prints actual numbers.
+function makeBuckets(values: number[]): { colorFor: (n: number) => string; buckets: Bucket[]; mode: 'quantile' | 'linear' } {
   const sorted = values.filter((v) => v > 0).sort((a, b) => a - b);
-  if (sorted.length === 0) return { colorFor: () => NO_DATA, buckets: [] };
-  const breaks = RAMP.slice(1).map((_, i) => sorted[Math.min(sorted.length - 1, Math.floor(((i + 1) / RAMP.length) * sorted.length))]);
+  if (sorted.length === 0) return { colorFor: () => NO_DATA, buckets: [], mode: 'linear' };
+  const max = sorted[sorted.length - 1];
+  const p10 = sorted[Math.floor(sorted.length * 0.1)];
+  const p90 = sorted[Math.min(sorted.length - 1, Math.floor(sorted.length * 0.9))];
+  const skewed = p90 / Math.max(1, p10) >= 3;
+  const breaks = skewed
+    ? RAMP.slice(1).map((_, i) => sorted[Math.min(sorted.length - 1, Math.floor(((i + 1) / RAMP.length) * sorted.length))])
+    : RAMP.slice(1).map((_, i) => Math.floor((max * (i + 1)) / RAMP.length) + 1);
   const bucketOf = (n: number) => {
     let b = 0;
     while (b < breaks.length && n >= breaks[b]) b += 1;
     return b;
   };
-  const ranges = RAMP.map((color) => ({ color, min: Infinity, max: -Infinity }));
-  for (const v of sorted) {
-    const r = ranges[bucketOf(v)];
-    r.min = Math.min(r.min, v);
-    r.max = Math.max(r.max, v);
+  const ranges = RAMP.map((color, i) =>
+    skewed
+      ? { color, min: Infinity, max: -Infinity }
+      : { color, min: i === 0 ? 1 : breaks[i - 1], max: i < breaks.length ? breaks[i] - 1 : max }
+  );
+  if (skewed) {
+    for (const v of sorted) {
+      const r = ranges[bucketOf(v)];
+      r.min = Math.min(r.min, v);
+      r.max = Math.max(r.max, v);
+    }
   }
   return {
     colorFor: (n: number) => (n > 0 ? RAMP[bucketOf(n)] : NO_DATA),
-    buckets: ranges.filter((r) => r.min !== Infinity),
+    buckets: ranges.filter((r) => r.min !== Infinity && r.min <= r.max),
+    mode: skewed ? 'quantile' : 'linear',
   };
 }
 

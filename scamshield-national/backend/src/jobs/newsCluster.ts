@@ -141,11 +141,14 @@ export const FRAUD_THEMES: { theme: string; pattern: RegExp }[] = [
   { theme: 'Government program fraud', pattern: /\b(snap|benefits?|grant|program|contract\w*|postal|food stamps?|housing)\b/i },
 ];
 
+export const OTHER_THEME = 'Other fraud';
+
 export function fraudTheme(headline: string): string {
-  return FRAUD_THEMES.find((t) => t.pattern.test(headline))?.theme ?? 'Other fraud';
+  return FRAUD_THEMES.find((t) => t.pattern.test(headline))?.theme ?? OTHER_THEME;
 }
 
 // Theme tallies, most common first (ties by name, so output is stable).
+// "Other fraud" always sorts last: it is a remainder, not a theme.
 export function themeCounts(headlines: string[]): { theme: string; count: number }[] {
   const counts = new Map<string, number>();
   for (const h of headlines) {
@@ -154,5 +157,10 @@ export function themeCounts(headlines: string[]): { theme: string; count: number
   }
   return [...counts.entries()]
     .map(([theme, count]) => ({ theme, count }))
-    .sort((a, b) => b.count - a.count || a.theme.localeCompare(b.theme));
+    .sort(
+      (a, b) =>
+        Number(a.theme === OTHER_THEME) - Number(b.theme === OTHER_THEME) ||
+        b.count - a.count ||
+        a.theme.localeCompare(b.theme)
+    );
 }

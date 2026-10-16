@@ -49,9 +49,9 @@ function SeverityBar({ data }: { data: StatsBreakdown['bySeverity'] }) {
           />
         ))}
       </div>
-      <ul className="mt-3 grid grid-cols-2 gap-x-4 gap-y-1.5 text-sm sm:grid-cols-3">
+      <ul className="mt-4 grid grid-cols-1 gap-y-1.5 text-sm">
         {SEVERITY_SEGMENTS.map((s) => (
-          <li key={s.key} className={`flex items-center justify-between gap-2 ${hover && hover !== s.key ? 'opacity-50' : ''}`}>
+          <li key={s.key} className={`flex items-center justify-between gap-2 border-b border-slate-100 pb-1.5 last:border-0 ${hover && hover !== s.key ? 'opacity-50' : ''}`}>
             <span className="flex items-center gap-1.5 text-slate-700">
               <span className="h-2.5 w-2.5 rounded-sm ring-1 ring-black/5" style={{ backgroundColor: s.color }} />
               {s.label}
@@ -131,7 +131,7 @@ function RankedBars({
                 <span className="shrink-0 font-semibold text-slate-900 tabular-nums">{r.count.toLocaleString()}</span>
               </div>
               <div className="mt-1 h-2 overflow-hidden rounded-full bg-slate-100">
-                <div className="relative h-full rounded-full bg-red-200" style={{ width: `${Math.max(1.5, (r.count / max) * 100)}%` }}>
+                <div className={`relative h-full rounded-full ${accentKey ? 'bg-red-200' : 'bg-red-500'}`} style={{ width: `${Math.max(1.5, (r.count / max) * 100)}%` }}>
                   {accentKey && r.accent !== undefined && (
                     <div className="absolute inset-y-0 left-0 rounded-full bg-red-600" style={{ width: `${(r.accent / Math.max(1, r.count)) * 100}%` }} />
                   )}
@@ -197,27 +197,31 @@ function DatabaseBreakdown() {
         </div>
       </div>
 
-      <div className="mt-4 grid gap-4 md:grid-cols-2">
-        <Panel title="Severity of current threats" sub={`${data.totals.current.toLocaleString()} current entries by alert level`}>
-          <SeverityBar data={data.bySeverity} />
-        </Panel>
-        <Panel title="Entries added per week" sub="Database growth over the last 12 weeks (UTC weeks) — not a count of scam incidents">
-          <WeeklyColumns weeks={data.weeklyAdded} />
-        </Panel>
-        <Panel title="Categories" sub="Current entries per category, with the share rated critical or high">
-          <RankedBars
-            rows={categories.map((c) => ({ key: c.slug, label: c.name, count: c.count, accent: c.critical_high }))}
-            hrefFor={(slug) => `/database?category=${encodeURIComponent(slug)}&view=all`}
-            accentKey
-            accentLabel="Critical or high"
-          />
-          {data.byCategory.length > 10 && (
-            <button type="button" onClick={() => setAllCategories((v) => !v)} className="mt-3 text-sm font-semibold text-red-700 hover:underline">
-              {allCategories ? 'Show top 10' : `Show all ${data.byCategory.length} categories`}
-            </button>
-          )}
-        </Panel>
+      {/* Two independent columns (not a row grid) so a short panel never
+          stretches to match a tall neighbour and leave a hole. */}
+      <div className="mt-4 grid gap-4 md:grid-cols-2 md:items-start">
         <div className="grid gap-4">
+          <Panel title="Severity of current threats" sub={`${data.totals.current.toLocaleString()} current entries by alert level`}>
+            <SeverityBar data={data.bySeverity} />
+          </Panel>
+          <Panel title="Categories" sub="Current entries per category, with the share rated critical or high">
+            <RankedBars
+              rows={categories.map((c) => ({ key: c.slug, label: c.name, count: c.count, accent: c.critical_high }))}
+              hrefFor={(slug) => `/database?category=${encodeURIComponent(slug)}&view=all`}
+              accentKey
+              accentLabel="Critical or high"
+            />
+            {data.byCategory.length > 10 && (
+              <button type="button" onClick={() => setAllCategories((v) => !v)} className="mt-3 text-sm font-semibold text-red-700 hover:underline">
+                {allCategories ? 'Show top 10' : `Show all ${data.byCategory.length} categories`}
+              </button>
+            )}
+          </Panel>
+        </div>
+        <div className="grid gap-4">
+          <Panel title="Entries added per week" sub="Database growth over the last 12 weeks (UTC weeks) — not a count of scam incidents">
+            <WeeklyColumns weeks={data.weeklyAdded} />
+          </Panel>
           <Panel title="Top countries" sub="Current entries by country">
             <RankedBars
               rows={data.topCountries.map((c) => ({ key: c.country, label: countryName(c.country), count: c.count }))}

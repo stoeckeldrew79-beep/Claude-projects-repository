@@ -278,7 +278,7 @@ export function Globe3D({
       const blockers = screenMarkers.map((m) => ({ x: m.x - m.r, y: m.y - m.r, w: m.r * 2, h: m.r * 2, code: m.code }));
       for (const m of screenMarkers) {
         if (count >= maxLabels) break;
-        if (geoDistance([m.lon, m.lat], center) > (Math.PI / 2) * 0.78) continue;
+        if (geoDistance([m.lon, m.lat], center) > (Math.PI / 2) * 0.7) continue;
         const name = m.name.length > 18 ? `${m.name.slice(0, 17)}…` : m.name;
         const countText = m.count.toLocaleString();
         const nameW = ctx!.measureText(name).width;

@@ -4,7 +4,6 @@ import { useDailyScamNews, useFederalWatch } from '../hooks/useDailyNews';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { timeAgo } from '../utils/timeAgo';
 import { FederalStory, FederalWatchData } from '../types';
-import { NumberTicker } from '../components/magicui/number-ticker';
 import { BlurFade } from '../components/magicui/blur-fade';
 
 // Stories shown before "Show all" — enough to fill a screen and a half.
@@ -45,7 +44,7 @@ function StatTiles({ stats }: { stats: FederalWatchData['stats'] }) {
         <BlurFade key={t.label} delay={0.05 * i}>
           <div className="h-full rounded-xl border border-slate-200 bg-white px-4 py-4">
             <div className="text-3xl font-bold text-slate-900 tabular-nums">
-              <NumberTicker value={t.value} delay={0.05 * i} />
+              {t.value.toLocaleString('en-US')}
             </div>
             <div className="mt-1 text-xs font-medium leading-snug text-slate-500">{t.label}</div>
           </div>
