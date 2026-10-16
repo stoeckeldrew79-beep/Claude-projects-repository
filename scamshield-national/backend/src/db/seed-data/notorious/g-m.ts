@@ -12382,3 +12382,24 @@ The OGH announced its decision on March 25, 2025, after proceedings that lasted 
 The BUWOG case shows how the sale of public assets can be steered by insiders who know the competing offers and by intermediaries who are paid a share of the price. The commission was routed through shell companies and foreign accounts, which is why it took years of financial investigation to trace, and the delay in the courts became part of the final reckoning, since the length of the proceedings reduced the sentences.`,
     sourceUrl: 'https://www.profil.at/investigativ/rechtskraeftig-vier-jahre-haft-fuer-grasser-wegen-korruption-und-untreue/403026165',
 });
+
+NotoriousGM.push({
+    title: 'Hall-Mark Group and the Sonali Bank Loan Scam',
+    slug: 'hallmark-group-sonali-bank-loan-scam-bangladesh',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'bank-fraud', 'embezzlement'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Janata_Bank_Tower_and_City_Centre_in_Motijheel.jpg?width=1200',
+    coverImageCredit: 'Photo: Bikrampur (CC0) — Janata Bank Tower and City Centre towers in Motijheel, downtown Dhaka, 2023',
+    coverImagePosition: 50,
+    body: `Hall-Mark Group was a Bangladeshi textile and trading company led by its managing director, Tanvir Mahmud, and its chairperson, his wife Jasmine Islam. Between 2010 and 2012 it borrowed enormous sums from Sonali Bank, a state-owned bank, through the bank's Ruposhi Bangla Hotel branch in Dhaka, which occupies the former Sheraton hotel. Court reports describe the loans as obtained on false documents, with the company acting in collusion with bank officials. The total taken from Sonali Bank was widely reported at about Tk 4,000 crore (Tk 40 billion).
+
+The scheme depended on insiders. According to the case, the loans were secured through forgery and with the collusion of bank officials. The affair surfaced in 2012, when it was reported in the press and investigated by Bangladesh's central bank, and the Anti-Corruption Commission filed its first case on October 4, 2012, at Ramna police station. The charges included embezzlement through forgery, money laundering, cheating and misuse of power. Eleven cases were eventually brought against Hall-Mark's owners and executives and a number of Sonali Bank officials, with charge sheets filed in October 2013 against 26 people.
+
+It took nearly twelve years for the first case to reach a verdict. On March 19, 2024, a Dhaka special judge's court presided over by Judge Abul Kashem sentenced Tanvir Mahmud and Jasmine Islam to life imprisonment, with a fine of Tk 5 crore each, under Section 409 of the Penal Code (criminal breach of trust by a public servant or banker). For cheating, under Section 420, they also each received seven years of rigorous imprisonment and a fine. Several co-defendants, including Hall-Mark executives and Sonali Bank officials, also received life terms, and others were jailed for between five and seventeen years. The judge remarked that the highest penalty for such embezzlement should have been the death sentence.
+
+The March 2024 verdict covered only one of the eleven cases; reports at the time said the other ten were still awaiting trial. The decade-long delay was itself part of the story.
+
+The Hall-Mark case illustrates that the largest bank frauds are rarely committed by outsiders alone: loans on forged paperwork become possible when the officials charged with checking them are complicit. It also shows how the loss from such fraud lands on a state-owned bank, and how slowly criminal courts can move once the money has gone.`,
+    sourceUrl: 'https://en.prothomalo.com/bangladesh/crime-and-law/aa9o611dm8',
+});
