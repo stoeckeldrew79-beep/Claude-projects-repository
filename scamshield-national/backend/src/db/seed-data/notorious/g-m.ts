@@ -12341,3 +12341,24 @@ The criminal cases were only part of the legal pressure. In June 1999 a London c
 The De la Rosa case shows how long it can take for a large, cross-border corporate fraud to translate into criminal accountability. The civil judgment came years before the first final criminal sentence, and that sentence was for a smaller, specific act, forged letters used to try to extract more than 50,000 million pesetas, rather than for the larger loss that KIO alleged. It also illustrates how a fraud can continue even after the money has gone, by turning to the courts with fabricated documents to turn a collapse into a claim.`,
     sourceUrl: 'https://www.ultimahora.es/noticias/nacional/2002/07/16/775815/el-supremo-eleva-la-pena-de-prision-para-de-la-rosa-por-el-caso-kio.html',
 });
+
+NotoriousGM.push({
+    title: 'Luis Roldán and the Guardia Civil Reserved-Funds Scandal',
+    slug: 'luis-roldan-guardia-civil-reserved-funds-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'embezzlement', 'bribery'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alcora_1.JPG?width=1200',
+    coverImageCredit: 'Photo: 19Tarrestnom65 (CC BY-SA 4.0) — a Guardia Civil casa cuartel (barracks) in l\'Alcora, Spain, 2015',
+    coverImagePosition: 50,
+    body: `Luis Roldán was the first civilian ever to lead Spain's Guardia Civil, the country's militarised national police force. A Socialist Party politician from Zaragoza who had served as the government's delegate in Navarre, he was appointed director general by the Council of Ministers on October 31, 1986, and held the post for just over seven years. In that role he controlled the force's construction budget and a pool of confidential "reserved funds" (fondos reservados) that the government allowed to be spent without the usual public accounting.
+
+He was dismissed on December 3, 1993, after the newspaper Diario 16 reported that his wealth had grown while he was in office. A congressional inquiry concluded in June 1994 that he had awarded Guardia Civil works contracts without competitive tender and taken commissions through a front man, Jorge Esparza, and that he had diverted reserved funds for personal use. Spanish press accounts of the judicial investigation say that more than 400 million pesetas were drained from a plan to improve the Guardia Civil's casas cuartel, the barracks where officers and their families lived. Roldán also paid himself a monthly supplement from the reserved funds, reported to have been 10 million pesetas a month.
+
+Roldán fled Spain on April 26, 1994, as judicial proceedings began, and the Interior Minister, Antonio Asunción, resigned. After ten months on the run he was found in Laos and arrested at Bangkok airport on February 27, 1995, then returned to Spain and imprisoned at Brieva, in Ávila. On February 26, 1998, a Spanish court sentenced him to 28 years for embezzlement, fraud, bribery and tax offences, estimating his assets at roughly 1,700 million pesetas and fining him 1,600 million pesetas. The Supreme Court later raised the total to 31 years by adding a continued falsification charge, and a Navarre court separately gave him three years in the Urralburu case for inducing bribery.
+
+He was moved to a looser prison regime in 2002 and was reported to have been released in 2010, having paid back only a small part of the roughly €19 million he owed the state. He died in Zaragoza in March 2022, aged 78.
+
+The Roldán case shows how money labelled as confidential can become a vehicle for personal enrichment, because the very secrecy that protects an agency's sources also shields its spending from audit. His scheme combined two classic weaknesses of public procurement, contracts awarded without tender and commissions routed through an intermediary, with a budget line that no one was allowed to inspect, and it was exposed not by internal controls but by a newspaper investigation.`,
+    sourceUrl: 'https://www.ondavasca.com/luis-roldan-el-director-de-la-guardia-civil-que-se-enriquecio-con-fondos-reservados/',
+});
