@@ -12879,3 +12879,28 @@ UsAF.push({
     country: "US",
     state: "WY",
 });
+
+UsAF.push({
+    name: "Fake CAPTCHA \"Verify You're Human\" Malware Prompt (ClickFix)",
+    slug: "fake-captcha-verify-youre-human-malware-prompt-clickfix",
+    description:
+      "A web page displays what looks like a normal \"I'm not a robot\" or Cloudflare-style security check, but the verification steps actually tell you to copy a line of text, open the Windows Run box or a terminal, paste it, and hit Enter. Doing that runs attacker-supplied code on your own computer, which sidesteps browser download warnings because you launched it yourself. The program then quietly collects saved browser passwords, login session cookies, autofill details, and cryptocurrency wallet files, which are used to take over your accounts or sold to other criminals. People usually land on these pages through malicious ads, hacked websites, free streaming or pirated-content links, and poisoned search results. A real CAPTCHA never asks you to press keyboard shortcuts, paste commands, or open system tools, so close the page immediately, and if you already followed the steps, disconnect from the internet, run a malware scan, and change your passwords from a different device.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Federal Trade Commission, Consumer Alert, June 2026"],
+    sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2026/06/how-spot-captcha-scam",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Bogus Legal Demand Letters Alleging Website Privacy Violations",
+    slug: "bogus-legal-demand-letters-alleging-website-privacy-violations",
+    description:
+      "Small and mid-sized businesses are receiving mass-mailed letters dressed up as pre-litigation legal correspondence, claiming their website broke privacy or wiretapping laws through ordinary tracking code. The senders appear to scan large numbers of business sites for common third-party tools such as analytics scripts, session-replay software, advertising pixels, and chat widgets, then demand a settlement payment to make the supposed claim go away. The amount is deliberately set lower than the cost of hiring a lawyer, and the letter adds pressure with a short deadline and hints at class-action exposure, even though no lawsuit has been filed. Because the underlying legal theory sounds plausible, owners who are unsure about their own compliance often pay rather than push back. Do not send money in response to such a letter; have a qualified attorney review it first and report it to the Texas Attorney General's office or your state consumer protection agency.",
+    categorySlug: "legal-debt-collection",
+    alertLevel: "medium",
+    sources: ["Office of the Texas Attorney General, Consumer Alert, September 2026"],
+    sourceUrl: "https://www.texasattorneygeneral.gov/news/releases/consumer-alert-attorney-general-ken-paxton-warns-texans-scam-demand-letters-alleging-website-privacy",
+    country: "US",
+    state: "TX",
+});
