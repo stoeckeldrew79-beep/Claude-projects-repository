@@ -11803,3 +11803,24 @@ Díaz Ferrán also faced a separate case over money from Viajes Marsans clients,
 The Marsans case illustrates how an insolvency can itself become a fraud when those who control a failing company move its assets beyond creditors' reach. Because insolvency law in Spain, as elsewhere, depends on the debtor's honesty about what it owns, a conglomerate with many layers of companies and a prestigious figure at its head was able to shift value around for a time. The agreed sentence also shows a common endgame in complex white-collar cases: a negotiated plea, with sentencing discounts for the return of assets.`,
     sourceUrl: 'https://www.hosteltur.com/112696_diaz-diaz-ferran-condenado-55-anos-carcel-pagar-12-m-vaciar-marsans.html',
 });
+
+NotoriousAF.push({
+    title: 'Fèlix Millet and the Palau de la Música Embezzlement',
+    slug: 'felix-millet-palau-de-la-musica-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'embezzlement', 'political-corruption'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palau_m%C3%BAsica_catalana_exterior.jpg?width=1200',
+    coverImageCredit: 'Photo: Doomuu (CC BY-SA 4.0) — exterior of the Palau de la Música Catalana, Barcelona, 2021',
+    coverImagePosition: 50,
+    body: `Fèlix Millet was, for decades, one of Barcelona's most respected cultural patrons. As president of the Orfeó Català, the choral society that runs the Palau de la Música Catalana, Barcelona's modernist concert hall, he was the public face of an institution that raised money from donors, public bodies and corporate sponsors. His right-hand man at the Palau, Jordi Montull, handled much of the money.
+
+Prosecutors and the court found that the two men treated the Palau's accounts as their own. Funds were diverted into their personal bank accounts, invoices were falsified, and large sums were withdrawn in cash; Catalan News also reports that some of the money passed through cheques and gold bars. The money paid for private expenses, including renovations of their homes, family trips and the wedding of Millet's daughter, which was held at the Palau itself. Of the €14.4 million withdrawn in cash from the foundation and association accounts between 2002 and 2009, about €6 million had no traced final destination. The irregularities were first flagged to the Catalan Tax Agency by anonymous reports in the early 2000s, but the case did not become public until police entered the hall, after which the two men admitted diverting the funds.
+
+The scandal had a political side. The court found that the construction company Ferrovial paid commissions to Convergència Democràtica de Catalunya (CDC), then Catalonia's governing party, in return for public works contracts. The commission was 4% of the contract value, of which 2.5% went to the party and 1.5% to Millet and Montull, and the arrangement ran from before 1999 to 2009. Ferrovial's commissions to CDC totalled at least €6,676,105 between early 1999 and July 2009, and the party was ordered to repay that amount. The flow was disguised in part as donations to the Palau.
+
+The Barcelona Provincial Court announced its verdict on January 15, 2018. It sentenced Millet to nine years and eight months in prison and a €4.1 million fine, and Montull to seven years and six months and a €3 million fine. CDC's former treasurer Daniel Osàcar was sentenced to four years and five months, and Montull's daughter Gemma to four and a half years for money laundering. Millet and Montull were ordered to return about €23 million to the Palau's consortium, association and foundation. The Supreme Court upheld Millet's sentence in April 2020, though it cut Gemma Montull's term to four years and Osàcar's to three years and six months, and Millet entered prison in June 2020.
+
+The Palau case illustrates how a trusted cultural charity can be drained from the inside when one or two people control both the money and the reputation. It also shows how political parties can use nonprofit institutions to launder commissions, and how long it can take for anonymous warnings to a tax agency to become a criminal conviction.`,
+    sourceUrl: 'https://www.elnacional.cat/en/news/palau-affair-verdict_229587_102.html',
+});
