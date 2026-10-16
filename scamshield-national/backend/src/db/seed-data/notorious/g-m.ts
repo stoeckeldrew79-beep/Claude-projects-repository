@@ -12403,3 +12403,24 @@ The March 2024 verdict covered only one of the eleven cases; reports at the time
 The Hall-Mark case illustrates that the largest bank frauds are rarely committed by outsiders alone: loans on forged paperwork become possible when the officials charged with checking them are complicit. It also shows how the loss from such fraud lands on a state-owned bank, and how slowly criminal courts can move once the money has gone.`,
     sourceUrl: 'https://en.prothomalo.com/bangladesh/crime-and-law/aa9o611dm8',
 });
+
+NotoriousGM.push({
+    title: 'Maundy Gregory and the Sale of Honours',
+    slug: 'maundy-gregory-sale-of-honours-uk',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'bribery', 'political-corruption'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chamber_of_the_House_of_Lords_benches.jpg?width=1200',
+    coverImageCredit: 'Photo: UK Parliament (CC BY 3.0) — benches in the Chamber of the House of Lords, Westminster, 2013',
+    coverImagePosition: 50,
+    body: `Arthur John Maundy Gregory (1877–1941) was a British theatre producer and political fixer who, in the years after the First World War, ran what amounted to a brokerage in honours. Around 1918 he approached the Liberal Party about payments in exchange for peerages, and Prime Minister David Lloyd George hired him to raise funds. Under a system in which the Prime Minister's list of honours could be rewarded to donors, Gregory acted as the go-between: a knighthood reportedly cost £10,000 and a baronetcy £40,000, and later estimates suggest that he moved between £1 million and £2 million to the Liberal and Conservative parties.
+
+Gregory took a cut and built a business empire around the trade. He bought the Whitechapel Gazette, the Ambassador Club in Soho and the Deepdene Hotel in Dorking, which was reputed to be a brothel, and was alleged to have used gossip about his clients for blackmail. The trade became a public scandal, and the controversy about the sale of honours was a major reason Parliament passed the Honours (Prevention of Abuses) Act 1925, which made it a criminal offence to accept or solicit payment in exchange for a title.
+
+His downfall began with an approach to an undercover buyer. In early 1933, according to accounts of the case, he offered a knighthood or baronetcy for £12,000 to a naval officer, Lieutenant Commander Billyard-Leake, who strung him along and informed the authorities. Gregory pleaded guilty, was fined £50 and was sentenced to two months in prison, and he remains the only person ever convicted under the 1925 Act. The same period saw other trouble: his companion Edith Rosse died in 1932, days after changing her will in his favour, and he inherited £18,000. Scotland Yard exhumed her body after his downfall, but the pathologist Sir Bernard Spilsbury found no evidence of poison.
+
+Gregory was declared bankrupt in 1933 and moved to France. He is reported to have received a pension, probably from the Conservative Party, on condition that he never revealed what he knew. He died in 1941 after being captured by the Germans in occupied France.
+
+The Gregory affair shows how political funding, patronage and personal enrichment can merge when honours become a currency. The 1925 Act was written to stop the system he profited from, yet he remains the only person ever convicted under it, which suggests how much harder it is to uncover the sale of access to power than to prohibit it in law.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Maundy_Gregory',
+});
