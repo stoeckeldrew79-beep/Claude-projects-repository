@@ -66,12 +66,9 @@ const LAW_FIRMS = [
   'rigrodsky',
   'claimsfiler',
   'djs law',
-  'rm law',
   'bernstein litowitz',
   'grabar law',
   'kaskela law',
-  'pomerantz law',
-  'thornton law',
 ];
 
 // Phrases only the solicitation genre uses. Each alone is enough.
@@ -79,19 +76,17 @@ const SOLICITATION_PHRASES = [
   // "Securities Fraud Class Action", "securities class action lawsuit".
   'securities (?:fraud )?class action',
   'class action (?:lawsuit |suit )?(?:filed )?(?:against|on behalf of) (?:\\w+ ){0,4}(?:investors|shareholders|stockholders)',
-  '(?:investor|shareholder|stockholder)s? (?:alert|notice|reminder|update)',
+  // Not "investor alert": the SEC and FINRA publish real anti-scam guidance
+  // under exactly that name.
+  '(?:shareholder|stockholder)s? (?:alert|notice|reminder|update)',
   'shareholder (?:class action|lawsuit|investigation|rights)',
-  'lead plaintiff',
-  '(?:filing|lead plaintiff|class action) deadline',
-  'deadline (?:alert|reminder)',
-  'investors? (?:who|that) (?:have )?(?:lost|suffered|incurred)',
-  'investors? with (?:\\w+ )?losses',
-  'losses (?:in excess of|exceeding|over \\$)',
+  // Not "filing deadline" or "deadline reminder": "Tax filing deadline
+  // nears as IRS impersonation scams surge" is exactly what the feed wants.
+  '(?:lead plaintiff|class action) deadline',
   'encourage[ds]? (?:\\w+ ){0,3}(?:investors|shareholders) (?:to )?contact',
-  'investors (?:may|should|are encouraged to) contact',
-  'on behalf of (?:\\w+ ){0,3}(?:investors|shareholders|stockholders)',
+  '(?:investors|shareholders) (?:may|should|are encouraged to) contact',
   'breach of fiduciary duty investigation',
-  'stock (?:alert|drop|decline|plunge)s?:? (?:\\w+ ){0,4}(?:securities|class action|investigation|investors|law)',
+  'stock alert',
 ];
 
 // An exchange ticker in a headline - "(NASDAQ: HIMS)", "(NYSE:BAC)" - is the

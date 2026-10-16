@@ -21,7 +21,7 @@ import { GUIDE_ARTICLES } from './seed-data/guides';
 import { SEED_CATEGORIES } from './seed-data/categories';
 import { SEED_SCAMS } from './seed-data/scams';
 import { SCAM_TAGS } from './seed-data/scam-tags';
-import { SEED_GLOBAL_SOURCES } from './seed-data/global-sources';
+import { SEED_GLOBAL_SOURCES, SEED_GLOBAL_STATS } from './seed-data/global-sources';
 import { SEED_STATE_AG_SOURCES } from './seed-data/state-ag-sources';
 
 async function seedArticles(articles: SeedArticle[], label: string) {
@@ -166,15 +166,66 @@ async function seedCategoriesAndScams() {
 }
 
 async function seedGlobalSources() {
+  // DO UPDATE, not DO NOTHING: a corrected URL or description in the seed
+  // file has to reach rows that already exist, or the fix never ships.
   for (const source of SEED_GLOBAL_SOURCES) {
     await pool.query(
       `INSERT INTO global_sources (agency_name, country, country_name, url, description, data_type)
        VALUES ($1, $2, $3, $4, $5, $6)
-       ON CONFLICT (agency_name, country) DO NOTHING`,
+       ON CONFLICT (agency_name, country) DO UPDATE SET
+         country_name = EXCLUDED.country_name,
+         url = EXCLUDED.url,
+         description = EXCLUDED.description,
+         data_type = EXCLUDED.data_type,
+         updated_at = NOW()`,
       [source.agency_name, source.country, source.country_name, source.url, source.description, source.data_type]
     );
   }
   console.log(`seed: upserted ${SEED_GLOBAL_SOURCES.length} global sources`);
+
+  // global_stats has no natural unique key (admins add rows by hand too), so
+  // a seeded figure is matched on (source, period_label, source_url): found
+  // -> every figure field is overwritten, so a correction in the seed file
+  // replaces the old number; not found -> inserted. Admin-added rows never
+  // match a seeded key and are left alone.
+  let statsWritten = 0;
+  for (const stat of SEED_GLOBAL_STATS) {
+    const { rows } = await pool.query<{ id: string }>(
+      'SELECT id FROM global_sources WHERE agency_name = $1 AND country = $2',
+      [stat.agency_name, stat.country]
+    );
+    const sourceId = rows[0]?.id;
+    if (!sourceId) {
+      console.warn(`seed: no global source "${stat.agency_name}" (${stat.country}) for stat "${stat.period_label}"`);
+      continue;
+    }
+    const values = [
+      sourceId,
+      stat.period_label,
+      stat.source_url,
+      stat.headline,
+      stat.report_count ?? null,
+      stat.loss_amount ?? null,
+      stat.currency ?? null,
+      stat.top_category ?? null,
+      stat.published_date ?? null,
+    ];
+    const updated = await pool.query(
+      `UPDATE global_stats SET headline = $4, report_count = $5, loss_amount = $6, currency = $7,
+         top_category = $8, published_date = $9
+       WHERE source_id = $1 AND period_label = $2 AND source_url = $3`,
+      values
+    );
+    if (!updated.rowCount) {
+      await pool.query(
+        `INSERT INTO global_stats (source_id, period_label, source_url, headline, report_count, loss_amount, currency, top_category, published_date)
+         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)`,
+        values
+      );
+    }
+    statsWritten++;
+  }
+  console.log(`seed: upserted ${statsWritten} verified global stats`);
 }
 
 async function seedStateAgSources() {

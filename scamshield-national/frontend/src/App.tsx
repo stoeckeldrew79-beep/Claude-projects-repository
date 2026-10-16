@@ -1,4 +1,4 @@
-import { Link, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import TodaysScams from './pages/TodaysScams';
 import AIScams from './pages/AIScams';
@@ -22,95 +22,23 @@ import Subscribe from './pages/Subscribe';
 import Dashboard from './pages/Dashboard';
 import Admin from './pages/Admin';
 import Login from './pages/Login';
-import { ShieldLogo } from './components/ShieldLogo';
 import { SiteHeader } from './components/shell/SiteHeader';
-import { formatPhoneDisplay, PUBLIC_PHONE, telHref } from './utils/publicPhone';
-
-function SiteFooter() {
-  return (
-    <footer className="border-t border-slate-200 bg-slate-50 mt-16">
-      <div className="max-w-6xl mx-auto px-4 py-10 grid gap-8 sm:grid-cols-3">
-        <div>
-          <div className="flex items-center gap-2">
-            <ShieldLogo className="h-6 w-6" />
-            <span className="font-semibold text-slate-900">ScamShield National</span>
-          </div>
-          <p className="mt-3 text-sm text-slate-500 max-w-xs">
-            ScamShield National is a private consumer-protection service. It is not a government agency and is not
-            affiliated with, endorsed by, or acting on behalf of any government body.
-          </p>
-          {PUBLIC_PHONE && (
-            <p className="mt-3 text-sm text-slate-500">
-              Call us:{' '}
-              <a href={telHref(PUBLIC_PHONE)} className="underline hover:text-slate-900">
-                {formatPhoneDisplay(PUBLIC_PHONE)}
-              </a>
-            </p>
-          )}
-        </div>
-        <div>
-          <h3 className="text-sm font-semibold text-slate-900">Resources</h3>
-          <ul className="mt-3 space-y-2 text-sm text-slate-500">
-            <li>
-              <Link to="/check-now" className="hover:text-slate-900">
-                Check something now
-              </Link>
-            </li>
-            <li>
-              <Link to="/database" className="hover:text-slate-900">
-                Scam database
-              </Link>
-            </li>
-            <li>
-              <Link to="/notorious" className="hover:text-slate-900">
-                Notorious scams &amp; scammers
-              </Link>
-            </li>
-            <li>
-              <Link to="/report" className="hover:text-slate-900">
-                Report a scam
-              </Link>
-            </li>
-            <li>
-              <Link to="/report-status" className="hover:text-slate-900">
-                Check report status
-              </Link>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="text-sm font-semibold text-slate-900">If you're a victim right now</h3>
-          <p className="mt-3 text-sm text-slate-500">
-            If you're in the U.S. and money is actively at risk, contact your bank immediately, then file a report
-            with the FTC at{' '}
-            <a href="https://reportfraud.ftc.gov" target="_blank" rel="noreferrer" className="underline">
-              reportfraud.ftc.gov
-            </a>{' '}
-            — the official U.S. government reporting site.
-          </p>
-          {PUBLIC_PHONE && (
-            <p className="mt-2 text-sm text-slate-500">
-              Or talk to a real person right now:{' '}
-              <a href={telHref(PUBLIC_PHONE)} className="underline font-medium">
-                {formatPhoneDisplay(PUBLIC_PHONE)}
-              </a>
-            </p>
-          )}
-        </div>
-      </div>
-      <div className="border-t border-slate-200 py-4 text-center text-xs text-slate-400">
-        © {new Date().getFullYear()} ScamShield National. A private service, not a government agency.
-      </div>
-    </footer>
-  );
-}
+import { SiteFooter } from './components/shell/SiteFooter';
+import { ScrollToTop } from './components/shell/ScrollToTop';
 
 export default function App() {
   return (
     <div className="min-h-screen bg-white flex flex-col">
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-[60] focus:rounded-md focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-slate-900 focus:shadow-lg"
+      >
+        Skip to content
+      </a>
+      <ScrollToTop />
       <SiteHeader />
 
-      <div className="flex-1">
+      <main id="main" className="flex-1">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/todays-scams" element={<TodaysScams />} />
@@ -136,7 +64,7 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </div>
+      </main>
 
       <SiteFooter />
     </div>

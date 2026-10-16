@@ -1,12 +1,12 @@
 import { SeedGlobalSource } from './types';
 
 // The major national fraud-reporting bodies that publish something the
-// public can actually read. Deliberately no seeded `global_stats` rows —
-// no unverified number gets shown to a user. An admin adds a stat only
-// after checking it against the agency's own report (see the admin panel's
-// Global Sources section); until then, the page shows an honest "no
-// verified figures yet" state per source, same principle as Trend Watch's
-// low-data handling.
+// public can actually read. Figures live separately in SEED_GLOBAL_STATS
+// below, and only ever after being read off the agency's own publication —
+// no unverified number gets shown to a user. A source with no entry there
+// simply shows its description and a link, same principle as Trend Watch's
+// low-data handling. Admins can still add further stats from the admin
+// panel's Global Sources section; the seed never touches those.
 export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
   {
     agency_name: 'Federal Trade Commission — Consumer Sentinel Network',
@@ -1663,5 +1663,117 @@ export const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
     description:
       "South Sudan's central bank maintains a dedicated Consumer Protection Division within its Non-Bank Financial Institutions department, publicly listing customer complaint handling, consumer-rights enforcement, and fair-practice monitoring as its core functions over financial-sector complaints.",
     data_type: 'public_stats',
+  },
+];
+
+// A headline figure taken from an agency's own publication. Attached to its
+// source by (agency_name, country), which must match an entry above exactly.
+// The seed upserts on (source, period_label, source_url), so correcting a
+// figure here updates the existing row on the next deploy rather than adding
+// a duplicate.
+export interface SeedGlobalStat {
+  agency_name: string;
+  country: string;
+  period_label: string;
+  headline: string;
+  report_count?: number;
+  loss_amount?: number;
+  // ISO 4217, in the agency's own currency — never converted, so figures
+  // from different agencies are never summed or compared as one number.
+  currency?: string;
+  top_category?: string;
+  // The exact report or release the figure was read from.
+  source_url: string;
+  published_date?: string;
+}
+
+// Every figure below was checked against the linked publication itself
+// (October 2026), not a news summary of it. Where an agency rounds ("3
+// million reports", "over 112,000"), the stored number is the agency's own
+// rounded figure and the headline says so.
+export const SEED_GLOBAL_STATS: SeedGlobalStat[] = [
+  {
+    agency_name: 'Federal Trade Commission — Consumer Sentinel Network',
+    country: 'US',
+    period_label: '2025',
+    headline:
+      'Consumers filed 3 million fraud reports with the FTC in 2025 and reported losing $15.9 billion — investment scams accounted for the most money lost ($7.9 billion).',
+    report_count: 3000000,
+    loss_amount: 15900000000,
+    currency: 'USD',
+    top_category: 'Investment scams',
+    source_url:
+      'https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-testifies-joint-economic-committee-agencys-efforts-combat-fraud',
+    published_date: '2026-03-25',
+  },
+  {
+    agency_name: 'Federal Trade Commission — Consumer Sentinel Network',
+    country: 'US',
+    period_label: '2024',
+    headline:
+      'Fraud reports from 2.6 million consumers in 2024, with more than $12.5 billion reported lost — investment scams led at $5.7 billion.',
+    report_count: 2600000,
+    loss_amount: 12500000000,
+    currency: 'USD',
+    top_category: 'Investment scams',
+    source_url:
+      'https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024',
+    published_date: '2025-03-10',
+  },
+  {
+    agency_name: 'FBI Internet Crime Complaint Center (IC3)',
+    country: 'US',
+    period_label: '2025',
+    headline:
+      'IC3 received 1,008,597 complaints in 2025 with $20.877 billion in reported losses, up 26% on 2024. Investment fraud was the costliest crime type ($8.65 billion).',
+    report_count: 1008597,
+    loss_amount: 20877000000,
+    currency: 'USD',
+    top_category: 'Investment fraud',
+    source_url: 'https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf',
+  },
+  {
+    agency_name: 'FBI Internet Crime Complaint Center (IC3)',
+    country: 'US',
+    period_label: '2025 — victims aged 60+',
+    headline:
+      'Americans aged 60 and over filed 201,266 complaints in 2025 and reported $7.7 billion in losses — more than any other age group.',
+    report_count: 201266,
+    loss_amount: 7700000000,
+    currency: 'USD',
+    source_url: 'https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf',
+  },
+  {
+    agency_name: 'U.S. Postal Inspection Service — Annual Report',
+    country: 'US',
+    period_label: 'Fiscal year 2024',
+    headline:
+      'Postal inspectors initiated 447 mail fraud cases in FY2024, with 439 arrests and 436 convictions (arrests and convictions can stem from cases opened in earlier years).',
+    top_category: 'Mail theft (1,487 cases initiated)',
+    source_url: 'https://www.uspis.gov/wp-content/uploads/2026/01/USPIS_Annual_Report_FY24-508Compliance-011226.pdf',
+  },
+  {
+    agency_name: 'Canadian Anti-Fraud Centre',
+    country: 'CA',
+    period_label: '2025',
+    headline:
+      'The CAFC received over 112,000 fraud reports in 2025 involving more than $704 million in reported losses; investment fraud caused the largest losses ($351 million).',
+    report_count: 112000,
+    loss_amount: 704000000,
+    currency: 'CAD',
+    top_category: 'Investment fraud',
+    source_url: 'https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm',
+  },
+  {
+    agency_name: 'Singapore Police Force — ScamShield',
+    country: 'SG',
+    period_label: '2025',
+    headline:
+      'Scam cases fell 27.6% to 37,308 in 2025 and losses fell 17.9% to about S$913.1 million; investment scams caused the most losses (about S$336.2 million).',
+    report_count: 37308,
+    loss_amount: 913100000,
+    currency: 'SGD',
+    top_category: 'Investment scams',
+    source_url: 'https://www.police.gov.sg/-/media/SPF/Advisories/Scams/Annual-Scam-and-Cybercrime-Brief-2025.pdf',
   },
 ];
