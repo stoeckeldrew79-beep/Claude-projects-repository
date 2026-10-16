@@ -237,3 +237,19 @@ export const agStatus = asyncHandler<AuthedRequest>(async (_req, res) => {
   );
   res.json({ data: rows });
 });
+
+// The newest first-party Attorney General item per state — one row for each
+// state that has any source_kind = 'ag' row in the 30-day window. Backs the
+// "latest official alert" line on the State Attorneys General directory.
+// 'US' (federal) rows are source_kind 'federal', never 'ag', so the federal
+// feed cannot leak in here; the explicit state filter is belt and braces.
+export const latestByState = asyncHandler<AuthedRequest>(async (_req, res) => {
+  const { rows } = await pool.query(
+    `SELECT DISTINCT ON (state)
+            state, headline, source_url, source_name, published_at
+     FROM daily_scam_news
+     WHERE source_kind = 'ag' AND state IS NOT NULL AND state != 'US'
+     ORDER BY state, COALESCE(published_at, scanned_at) DESC, id`
+  );
+  res.json({ data: rows });
+});

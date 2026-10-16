@@ -143,6 +143,17 @@ export interface DailyScamNews {
   source_kind: 'ag' | 'federal' | 'news';
 }
 
+// One row of GET /v1/daily-news/latest-by-state: the newest official
+// Attorney General item (source_kind 'ag') for a state, for every state that
+// has one in the 30-day window. Ordered by state.
+export interface LatestAgAlert {
+  state: string;
+  headline: string;
+  source_url: string;
+  source_name: string;
+  published_at: string | null;
+}
+
 export interface DailyNewsStateCount {
   state: string;
   total: number;

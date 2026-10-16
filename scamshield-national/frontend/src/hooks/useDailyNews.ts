@@ -5,6 +5,7 @@ import {
   fetchDailyNewsStates,
   fetchDailyScamNewsCount,
   fetchAiTopicNews,
+  fetchLatestAgByState,
 } from '../services/dailyNews';
 
 // The underlying data only changes once a day (see the scanDailyScamNews
@@ -68,5 +69,16 @@ export function useInfiniteDailyScamNews(state?: string, scope?: 'us') {
     // holds, and a reader deep in a month of history does not need the whole
     // lot re-fetched every ten minutes to see today's arrivals.
     refetchOnWindowFocus: false,
+  });
+}
+
+// The newest official AG alert for every state that has one — an array of
+// LatestAgAlert, ordered by state. Empty array (not an error) when no state
+// has an AG item in the window.
+export function useLatestAgByState() {
+  return useQuery({
+    queryKey: ['daily-scam-news', 'latest-by-state'],
+    queryFn: fetchLatestAgByState,
+    refetchInterval: REFETCH_INTERVAL_MS,
   });
 }

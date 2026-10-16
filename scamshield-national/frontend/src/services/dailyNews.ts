@@ -1,5 +1,5 @@
 import { api } from './api';
-import { DailyScamNews, DailyNewsStateCount } from '../types';
+import { DailyScamNews, DailyNewsStateCount, LatestAgAlert } from '../types';
 
 // Must match PAGE_SIZE in backend/src/controllers/dailyNews.ts — a short
 // page is how the caller knows it has reached the end of the feed.
@@ -40,4 +40,11 @@ export async function fetchDailyScamNewsCount(state?: string, scope?: 'us') {
     params: Object.keys(params).length ? params : undefined,
   });
   return data.data.count;
+}
+
+// Newest official Attorney General item per state (only states that have
+// one), ordered by state. See latestByState in the dailyNews controller.
+export async function fetchLatestAgByState() {
+  const { data } = await api.get<{ data: LatestAgAlert[] }>('/daily-news/latest-by-state');
+  return data.data;
 }
