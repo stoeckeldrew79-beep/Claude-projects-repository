@@ -12362,3 +12362,23 @@ He was moved to a looser prison regime in 2002 and was reported to have been rel
 The Roldán case shows how money labelled as confidential can become a vehicle for personal enrichment, because the very secrecy that protects an agency's sources also shields its spending from audit. His scheme combined two classic weaknesses of public procurement, contracts awarded without tender and commissions routed through an intermediary, with a budget line that no one was allowed to inspect, and it was exposed not by internal controls but by a newspaper investigation.`,
     sourceUrl: 'https://www.ondavasca.com/luis-roldan-el-director-de-la-guardia-civil-que-se-enriquecio-con-fondos-reservados/',
 });
+
+NotoriousGM.push({
+    title: 'Karl-Heinz Grasser and the BUWOG Privatization Bribery',
+    slug: 'karl-heinz-grasser-buwog-privatization-bribery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'bribery', 'political-corruption'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Karl-Heinz_Grasser_Photo.jpg?width=1200',
+    coverImageCredit: 'Photo: Climaxxx! / Christoph Waghubinger (CC BY 4.0) — Karl-Heinz Grasser, former Austrian finance minister, 2004',
+    coverImagePosition: 50,
+    body: `Karl-Heinz Grasser was one of the most visible politicians in Austria in the early 2000s. As Austria's finance minister, he oversaw a wave of privatizations of federal property. The largest was the 2004 sale of the BUWOG, a group of federal housing companies with roughly 60,000 apartments. The winning bidder, a consortium led by Immofinanz and the Raiffeisenlandesbank Upper Austria, offered €961 million and beat its rival CA Immo by only about €1 million.
+
+That margin was the heart of the case. Prosecutors alleged, and the court later found, that Grasser's associates Walter Meischberger and Peter Hochegger tipped off the winning bidders about what the competing bid would be, information that could only have come from the finance ministry. In return, a commission of about €9.6 million, roughly 1% of the purchase price, was paid. The money first went to a Cypriot shell company linked to Hochegger and was then split across three accounts in Liechtenstein, one of which the court attributed to Grasser. A second, smaller scheme concerned the tax authorities' rental of the Terminal Tower office building in Linz, which was linked to €200,000 in bribes.
+
+The investigation lasted seven years and the trial opened in Vienna on December 12, 2017. On December 4, 2020, the Vienna Regional Court convicted Grasser of breach of trust, accepting gifts as a public official and falsifying evidence, and sentenced him to eight years in prison; Meischberger received seven years and Hochegger six, and the court found that Grasser had caused a loss of €9.6 million to the Republic in the BUWOG case. Six other defendants were acquitted. Grasser and Meischberger denied the allegations, and the verdicts were not final: the written judgment, about 1,300 pages long, was served in January 2022 and eight defendants appealed to the Supreme Court (OGH).
+
+The OGH announced its decision on March 25, 2025, after proceedings that lasted about 15 years. It upheld the convictions for corruption and breach of trust but halved Grasser's sentence to four years, mainly to compensate for the length of the proceedings; Meischberger's was reduced to three and a half years, and Hochegger's to three years, partly suspended. The court overturned the evidence-falsification charge, which the Vienna court has to reconsider, and it called corruption of this kind by a government member unprecedented in Austria. Grasser and Meischberger described the ruling as a miscarriage of justice and announced a complaint to the European Court of Human Rights.
+
+The BUWOG case shows how the sale of public assets can be steered by insiders who know the competing offers and by intermediaries who are paid a share of the price. The commission was routed through shell companies and foreign accounts, which is why it took years of financial investigation to trace, and the delay in the courts became part of the final reckoning, since the length of the proceedings reduced the sentences.`,
+    sourceUrl: 'https://www.profil.at/investigativ/rechtskraeftig-vier-jahre-haft-fuer-grasser-wegen-korruption-und-untreue/403026165',
+});
