@@ -14009,3 +14009,29 @@ UsGM.push({
     country: "US",
     state: "WY",
 });
+
+UsGM.push({
+    name: "Health Care Sharing Ministry Plans Marketed as Real Health Insurance",
+    slug: "health-care-sharing-ministry-plans-marketed-as-real-health-insurance",
+    description:
+      "The California Attorney General has renewed a consumer alert warning Californians about health care sharing ministry (HCSM) plans that are marketed as an alternative to health insurance. These plans are not regulated insurance, so they do not carry the same legal protections as coverage purchased through Covered California, and there is no guarantee that a medical bill you submit will actually be paid. California has previously brought enforcement against companies that advertised their products both as novel 'non-insurance' medical cost-sharing arrangements and as HCSM plans. If someone pitches you low-cost 'coverage' that sounds too cheap to be real insurance, ask in writing whether it is licensed insurance in California. Compare any offer against plans listed on Covered California and report misleading sales pitches to the California Attorney General's Consumer Protection Section.",
+    categorySlug: "medicare-health-plans",
+    alertLevel: "high",
+    sources: ["California Department of Justice, Office of the Attorney General — Consumer Protection Section","Attorney General Rob Bonta renewed consumer alert (late 2025)"],
+    sourceUrl: "https://www.oag.ca.gov/news/press-releases/attorney-general-bonta-issues-renewed-consumer-alert-reminding-californians",
+    country: "US",
+    state: "CA",
+});
+
+UsGM.push({
+    name: "Innovative Partners Misleading Health Insurance Sales Scheme",
+    slug: "innovative-partners-misleading-health-insurance-sales-scheme",
+    description:
+      "California Insurance Commissioner Ricardo Lara issued a cease-and-desist order against Innovative Partners and several affiliated entities over a scheme involving the sale of misleading health insurance to consumers. The order names multiple connected companies, which is a common structure in health coverage schemes where sales pass through a web of related marketing entities. The specific mechanics of how these products were pitched have not been summarized here because they could not be confirmed directly from the agency release. Before buying any health plan, verify the company's license status through the California Department of Insurance and get all coverage promises in writing. If you believe you purchased coverage from one of these entities, file a complaint with the California Department of Insurance.",
+    categorySlug: "insurance-fraud",
+    alertLevel: "high",
+    sources: ["California Department of Insurance, Commissioner Ricardo Lara — Press Release 047-2025"],
+    sourceUrl: "https://www.insurance.ca.gov/0400-news/0100-press-releases/2025/release047-2025.cfm",
+    country: "US",
+    state: "CA",
+});
