@@ -1,30 +1,41 @@
+import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
+// Home loads with the app; every other page is its own chunk, fetched on
+// first visit, so a phone opening one page doesn't download all 23.
 import Home from './pages/Home';
-import TodaysScams from './pages/TodaysScams';
-import AIScams from './pages/AIScams';
-import CheckNow from './pages/CheckNow';
-import Database from './pages/Database';
-import ScamDetail from './pages/ScamDetail';
-import Alerts from './pages/Alerts';
-import Articles from './pages/Articles';
-import ArticleDetail from './pages/ArticleDetail';
-import Notorious from './pages/Notorious';
-import GlobalMap from './pages/GlobalMap';
-import GlobalSources from './pages/GlobalSources';
-import StateAttorneysGeneral from './pages/StateAttorneysGeneral';
-import FederalWatch from './pages/FederalWatch';
-import Statistics from './pages/Statistics';
-import StateDetail from './pages/StateDetail';
-import NotFound from './pages/NotFound';
-import Report from './pages/Report';
-import ReportStatus from './pages/ReportStatus';
-import Subscribe from './pages/Subscribe';
-import Dashboard from './pages/Dashboard';
-import Admin from './pages/Admin';
-import Login from './pages/Login';
+const TodaysScams = lazy(() => import('./pages/TodaysScams'));
+const AIScams = lazy(() => import('./pages/AIScams'));
+const CheckNow = lazy(() => import('./pages/CheckNow'));
+const Database = lazy(() => import('./pages/Database'));
+const ScamDetail = lazy(() => import('./pages/ScamDetail'));
+const Alerts = lazy(() => import('./pages/Alerts'));
+const Articles = lazy(() => import('./pages/Articles'));
+const ArticleDetail = lazy(() => import('./pages/ArticleDetail'));
+const Notorious = lazy(() => import('./pages/Notorious'));
+const GlobalMap = lazy(() => import('./pages/GlobalMap'));
+const GlobalSources = lazy(() => import('./pages/GlobalSources'));
+const StateAttorneysGeneral = lazy(() => import('./pages/StateAttorneysGeneral'));
+const FederalWatch = lazy(() => import('./pages/FederalWatch'));
+const Statistics = lazy(() => import('./pages/Statistics'));
+const StateDetail = lazy(() => import('./pages/StateDetail'));
+const NotFound = lazy(() => import('./pages/NotFound'));
+const Report = lazy(() => import('./pages/Report'));
+const ReportStatus = lazy(() => import('./pages/ReportStatus'));
+const Subscribe = lazy(() => import('./pages/Subscribe'));
+const Dashboard = lazy(() => import('./pages/Dashboard'));
+const Admin = lazy(() => import('./pages/Admin'));
+const Login = lazy(() => import('./pages/Login'));
 import { SiteHeader } from './components/shell/SiteHeader';
 import { SiteFooter } from './components/shell/SiteFooter';
 import { ScrollToTop } from './components/shell/ScrollToTop';
+
+function PageLoading() {
+  return (
+    <div className="flex justify-center py-24" role="status" aria-label="Loading page">
+      <span className="h-6 w-6 animate-spin rounded-full border-2 border-slate-200 border-t-red-600" />
+    </div>
+  );
+}
 
 export default function App() {
   return (
@@ -39,6 +50,7 @@ export default function App() {
       <SiteHeader />
 
       <main id="main" className="flex-1">
+        <Suspense fallback={<PageLoading />}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/todays-scams" element={<TodaysScams />} />
@@ -64,6 +76,7 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        </Suspense>
       </main>
 
       <SiteFooter />
