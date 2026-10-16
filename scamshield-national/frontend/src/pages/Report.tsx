@@ -69,7 +69,7 @@ export default function Report() {
     const report = submit.data;
     return (
       <div className="max-w-xl mx-auto px-4 py-16 text-center">
-        <div className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-green-100 text-green-700 text-2xl">
+        <div className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-green-100 text-green-700 text-2xl" aria-hidden="true">
           ✓
         </div>
         <h1 className="mt-4 text-2xl font-bold text-slate-900">Report received</h1>
@@ -111,7 +111,12 @@ export default function Report() {
       </p>
 
       <div className="mt-6 rounded-lg border border-red-200 bg-red-50 p-4 flex gap-3">
-        <span className="text-2xl leading-none">🛡️</span>
+        <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-[#8a2e2e] ring-1 ring-red-200" aria-hidden="true">
+          <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
+            <path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3z" />
+            <path d="M9 12l2 2 4-4" />
+          </svg>
+        </span>
         <div>
           <p className="font-semibold text-slate-900">We can file this with the government for you — free</p>
           <p className="mt-1 text-sm text-slate-700">
@@ -123,13 +128,13 @@ export default function Report() {
       </div>
 
       {PUBLIC_PHONE && (
-        <div className="mt-3 rounded-lg border border-slate-200 bg-slate-50 p-4 flex items-center justify-between gap-3">
+        <div className="mt-3 rounded-lg border border-slate-200 bg-slate-50 p-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-sm text-slate-700">
             Prefer to talk to a real person instead of filling out a form?
           </p>
           <a
             href={telHref(PUBLIC_PHONE)}
-            className="shrink-0 px-4 py-2 rounded-md bg-slate-900 text-white text-sm font-semibold hover:bg-slate-800"
+            className="shrink-0 px-4 py-2 rounded-md bg-slate-900 text-white text-sm font-semibold text-center hover:bg-slate-800"
           >
             Call {formatPhoneDisplay(PUBLIC_PHONE)}
           </a>
@@ -138,10 +143,11 @@ export default function Report() {
 
       <form onSubmit={handleSubmit} className="mt-8 space-y-6">
         <div>
-          <label className="block text-sm font-medium text-slate-900 mb-1">
+          <label htmlFor="report-description" className="block text-sm font-medium text-slate-900 mb-1">
             What happened? <span className="text-red-700">*</span>
           </label>
           <textarea
+            id="report-description"
             required
             minLength={10}
             value={description}
@@ -153,11 +159,12 @@ export default function Report() {
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-slate-900 mb-1">Category (if known)</label>
+          <label htmlFor="report-category" className="block text-sm font-medium text-slate-900 mb-1">Category (if known)</label>
           <select
+            id="report-category"
             value={categoryId}
             onChange={(e) => setCategoryId(e.target.value)}
-            className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
+            className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm bg-white"
           >
             <option value="">Not sure / other</option>
             {categories?.map((c) => (
@@ -174,18 +181,21 @@ export default function Report() {
             <input
               value={scammerPhone}
               onChange={(e) => setScammerPhone(e.target.value)}
+              aria-label="Their phone number"
               placeholder="Their phone number"
               className="rounded-md border border-slate-300 px-3 py-2 text-sm"
             />
             <input
               value={scammerEmail}
               onChange={(e) => setScammerEmail(e.target.value)}
+              aria-label="Their email address"
               placeholder="Their email address"
               className="rounded-md border border-slate-300 px-3 py-2 text-sm"
             />
             <input
               value={scammerWebsite}
               onChange={(e) => setScammerWebsite(e.target.value)}
+              aria-label="Their website / social profile"
               placeholder="Their website / social profile"
               className="rounded-md border border-slate-300 px-3 py-2 text-sm sm:col-span-2"
             />
@@ -201,20 +211,23 @@ export default function Report() {
               step="0.01"
               value={moneyLost}
               onChange={(e) => setMoneyLost(e.target.value)}
+              aria-label="Money lost"
               placeholder="Money lost (USD, if any)"
               className="rounded-md border border-slate-300 px-3 py-2 text-sm"
             />
             <input
               type="date"
+              aria-label="Date it happened"
               value={incidentDate}
               onChange={(e) => setIncidentDate(e.target.value)}
               max={new Date().toISOString().slice(0, 10)}
               className="rounded-md border border-slate-300 px-3 py-2 text-sm"
             />
             <select
+              aria-label="Country where this happened"
               value={country}
               onChange={(e) => setCountry(e.target.value)}
-              className="rounded-md border border-slate-300 px-3 py-2 text-sm"
+              className="rounded-md border border-slate-300 px-3 py-2 text-sm bg-white"
             >
               <option value="US">United States</option>
               <option value="CA">Canada</option>
@@ -227,7 +240,7 @@ export default function Report() {
                 value={state}
                 onChange={(e) => setState(e.target.value)}
                 aria-label="State where this happened"
-                className="rounded-md border border-slate-300 px-3 py-2 text-sm"
+                className="rounded-md border border-slate-300 px-3 py-2 text-sm bg-white"
               >
                 <option value="">State where this happened (optional)</option>
                 {US_STATE_OPTIONS.map(([code, name]) => (
@@ -240,6 +253,7 @@ export default function Report() {
             <input
               value={zip}
               onChange={(e) => setZip(e.target.value)}
+              aria-label={country === 'US' ? 'ZIP code' : 'Postal code'}
               placeholder={country === 'US' ? 'ZIP code (optional)' : 'Postal code (optional)'}
               inputMode={country === 'US' ? 'numeric' : undefined}
               className="rounded-md border border-slate-300 px-3 py-2 text-sm"
@@ -263,19 +277,22 @@ export default function Report() {
               <input
                 value={reporterName}
                 onChange={(e) => setReporterName(e.target.value)}
-                placeholder="Your name"
+                aria-label="Your name"
+              placeholder="Your name"
                 className="rounded-md border border-slate-300 px-3 py-2 text-sm"
               />
               <input
                 value={reporterEmail}
                 onChange={(e) => setReporterEmail(e.target.value)}
-                placeholder="Your email"
+                aria-label="Your email"
+              placeholder="Your email"
                 className="rounded-md border border-slate-300 px-3 py-2 text-sm"
               />
               <input
                 value={reporterPhone}
                 onChange={(e) => setReporterPhone(e.target.value)}
-                placeholder="Your phone"
+                aria-label="Your phone"
+              placeholder="Your phone"
                 className="rounded-md border border-slate-300 px-3 py-2 text-sm sm:col-span-2"
               />
             </div>
@@ -322,7 +339,7 @@ export default function Report() {
         <button
           type="submit"
           disabled={submit.isPending}
-          className="w-full py-3 rounded-md bg-slate-900 text-white font-medium disabled:opacity-50"
+          className="w-full py-3 rounded-md bg-[#8a2e2e] text-white font-semibold hover:bg-[#7a2626] disabled:opacity-50 transition-colors"
         >
           {submit.isPending ? 'Submitting…' : 'Submit report'}
         </button>

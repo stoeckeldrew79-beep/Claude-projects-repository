@@ -13,12 +13,32 @@ export interface ScamListParams {
   search?: string;
   sort?: 'newest' | 'oldest' | 'alert_level' | 'name_asc' | 'chronological';
   view?: 'current' | 'historical' | 'all' | 'recent';
+  // Comma-separated alert levels on the wire (?severity=critical,high).
+  severity?: SeverityLevel[];
   page?: number;
 }
 
+export type SeverityLevel = 'critical' | 'high' | 'medium' | 'low';
+
+// Axios would serialize an array as severity[]=a&severity[]=b; the API
+// reads one comma-separated value.
+function toQuery(params: ScamListParams) {
+  const { severity, ...rest } = params;
+  return severity && severity.length > 0 ? { ...rest, severity: severity.join(',') } : rest;
+}
+
 export async function fetchScams(params: ScamListParams = {}) {
-  const { data } = await api.get<{ data: Scam[] }>('/scams', { params });
+  const { data } = await api.get<{ data: Scam[] }>('/scams', { params: toQuery(params) });
   return data.data;
+}
+
+// Same list, plus the total number of matches for the whole filter
+// (?include_total=1). total is null against an API that predates the field.
+export async function fetchScamsWithTotal(params: ScamListParams = {}) {
+  const { data } = await api.get<{ data: Scam[]; total?: number }>('/scams', {
+    params: { ...toQuery(params), include_total: 1 },
+  });
+  return { items: data.data, total: typeof data.total === 'number' ? data.total : null };
 }
 
 export async function fetchScamTags() {

@@ -36,3 +36,20 @@ export async function fetchLiveStats() {
   const { data } = await api.get<{ data: LiveStats }>('/stats/live');
   return data.data;
 }
+
+// GET /stats/breakdown — aggregate view of the curated database. Every field
+// is a live GROUP BY on the server; see backend/src/models/stats.ts.
+export interface StatsBreakdown {
+  generated_at: string;
+  totals: { current: number; historical: number; countries: number; categories_in_use: number };
+  bySeverity: { critical: number; high: number; medium: number; low: number; unrated: number };
+  byCategory: { name: string; slug: string; count: number; critical_high: number }[];
+  topCountries: { country: string; count: number }[];
+  topTargets: { tag: string; count: number }[];
+  weeklyAdded: { week_start: string; count: number }[];
+}
+
+export async function fetchStatsBreakdown() {
+  const { data } = await api.get<{ data: StatsBreakdown }>('/stats/breakdown');
+  return data.data;
+}

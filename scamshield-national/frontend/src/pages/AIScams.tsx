@@ -1,20 +1,14 @@
 import type { Ref } from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useCategories, useInfiniteScams, useScamSearch } from '../hooks/useScams';
+import { useCategories, useInfiniteScamsWithTotal, useScamSearch } from '../hooks/useScams';
 import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
-import { ScamCard } from '../components/ScamCard';
+import { useDebounce } from '../hooks/useDebounce';
+import { ScamCard, SEVERITY_STYLES } from '../components/ScamCard';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { useAiTopicNews } from '../hooks/useDailyNews';
 import { timeAgo } from '../utils/timeAgo';
 import { Scam, DailyScamNews } from '../types';
-
-const ALERT_DOT_COLORS: Record<string, string> = {
-  low: 'bg-slate-400',
-  medium: 'bg-yellow-500',
-  high: 'bg-orange-500',
-  critical: 'bg-red-600',
-};
 
 // This page's whole pitch is "added as soon as a real agency reports one" —
 // a card grid can't actually show that, since nothing on a card says when it
@@ -24,25 +18,28 @@ function AiScamFeedRow({ scam }: { scam: Scam }) {
   const addedDate = new Date(scam.created_at);
   const addedDateLabel = addedDate.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
   const firstRecordedYear = scam.first_recorded ? new Date(scam.first_recorded).getUTCFullYear() : null;
+  const sev = scam.alert_level && !scam.is_historical ? SEVERITY_STYLES[scam.alert_level] : undefined;
 
   return (
     <Link
       to={`/scams/${scam.slug}`}
-      className="group block rounded-lg border border-slate-200 p-4 hover:border-slate-400 hover:shadow-sm transition-all"
+      className="group relative block overflow-hidden rounded-xl border border-slate-200 bg-white p-4 pl-5 transition-all hover:border-slate-300 hover:shadow-md"
     >
-      <div className="flex items-start justify-between gap-4">
-        <h2 className="font-semibold text-slate-900 group-hover:underline">{scam.name}</h2>
-        <span className="shrink-0 text-right">
+      <span aria-hidden className={`absolute inset-y-0 left-0 w-1 ${sev?.dot ?? 'bg-slate-200'}`} />
+      {/* Stacked on phones so the date column never squeezes the title into
+          a narrow ribbon; side by side from sm up. */}
+      <div className="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
+        <h2 className="font-semibold leading-snug text-slate-900 group-hover:underline">{scam.name}</h2>
+        <span className="flex shrink-0 items-baseline gap-2 sm:block sm:text-right">
           <span className="block text-xs font-semibold text-blue-700 whitespace-nowrap">Added {addedDateLabel}</span>
           <span className="block text-[11px] text-slate-400 whitespace-nowrap">{timeAgo(scam.created_at)}</span>
         </span>
       </div>
       <p className="mt-1.5 text-sm text-slate-600 line-clamp-2">{scam.description}</p>
       <div className="mt-2 flex flex-wrap items-center gap-2">
-        {scam.alert_level && !scam.is_historical && (
-          <span className="inline-flex items-center gap-1 text-xs font-medium text-slate-600">
-            <span className={`h-1.5 w-1.5 rounded-full ${ALERT_DOT_COLORS[scam.alert_level]}`} />
-            {scam.alert_level} alert
+        {sev && (
+          <span className={`rounded-full px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide ${sev.badge}`}>
+            {sev.label}
           </span>
         )}
         {scam.is_historical && (
@@ -143,32 +140,40 @@ export default function AIScams() {
     path: '/ai-scams',
   });
 
-  const [search, setSearch] = useState('');
+  const [searchInput, setSearchInput] = useState('');
+  // The request follows typing by 250ms instead of firing on every keystroke.
+  const search = useDebounce(searchInput.trim(), 250);
   const { data: categories } = useCategories();
   const category = categories?.find((c) => c.slug === CATEGORY_SLUG);
 
   const {
     data,
     isLoading,
+    isPlaceholderData,
     fetchNextPage,
     hasNextPage,
     isFetchingNextPage,
-  } = useInfiniteScams({ category: CATEGORY_SLUG, search: search || undefined, sort: 'newest' });
+  } = useInfiniteScamsWithTotal({ category: CATEGORY_SLUG, search: search || undefined, sort: 'newest' });
 
-  const scams = data?.pages.flat() ?? [];
+  const scams = data?.pages.flatMap((p) => p.items) ?? [];
+  // The API's own count for this exact query when it provides one; the
+  // category total otherwise (unfiltered only).
+  const total = data?.pages[0]?.total ?? (search ? null : (category?.scam_count ?? null));
   const mostRecent = scams[0];
 
   const setTrigger = useInfiniteScroll(
     () => {
       if (hasNextPage && !isFetchingNextPage) fetchNextPage();
     },
-    Boolean(hasNextPage) && !isFetchingNextPage
+    Boolean(hasNextPage) && !isFetchingNextPage && !isPlaceholderData
   );
   // category.scam_count is the category's true total, which only applies to
   // the unfiltered feed — mid-search there's no cheap way to know how many
   // results exist ahead of fetching them, so reservation is skipped there
   // and the plain sentinel below carries the scroll trigger instead.
-  const placeholderCount = search ? 0 : Math.max((category?.scam_count ?? 0) - scams.length, 0);
+  // With a total from the API the reservation works mid-search too. Capped so
+  // a large result set can't mount thousands of placeholder rows at once.
+  const placeholderCount = isPlaceholderData ? 0 : Math.min(Math.max((total ?? 0) - scams.length, 0), 400);
 
   // Someone typing a real description of what happened into this box
   // doesn't know or care that it's scoped to the AI category — they just
@@ -176,7 +181,7 @@ export default function AIScams() {
   // that search" when the real match just isn't an AI scam, fall back to
   // the same full-database search "Check This Now" uses once the
   // in-category search comes up empty for a non-trivial query.
-  const noInCategoryMatch = !isLoading && scams.length === 0 && search.trim().length > 2;
+  const noInCategoryMatch = !isLoading && !isPlaceholderData && scams.length === 0 && search.length > 2;
   const { data: fallbackResults, isFetching: isFetchingFallback } = useScamSearch(noInCategoryMatch ? search : '');
 
   return (
@@ -217,17 +222,37 @@ export default function AIScams() {
         </span>
       </Link>
 
-      <div className="mt-8">
-        <input
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          placeholder="Search, or ask a real question — e.g. a call about a debt you don't recognize…"
-          className="w-full max-w-2xl rounded-md border border-slate-300 px-3 py-2 text-sm"
-        />
+      {/* Sticks under the site header so search stays in reach while
+          scrolling a long feed on a phone. */}
+      <div className="sticky top-14 z-20 -mx-4 mt-8 border-b border-slate-200 bg-white/95 px-4 py-3 backdrop-blur supports-[backdrop-filter]:bg-white/80 md:top-16">
+        <div className="relative max-w-2xl">
+          <svg aria-hidden viewBox="0 0 20 20" className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 fill-slate-400">
+            <path d="M8.5 3a5.5 5.5 0 014.38 8.83l3.65 3.64a.75.75 0 11-1.06 1.06l-3.64-3.65A5.5 5.5 0 118.5 3zm0 1.5a4 4 0 100 8 4 4 0 000-8z" />
+          </svg>
+          <input
+            type="search"
+            enterKeyHint="search"
+            value={searchInput}
+            onChange={(e) => setSearchInput(e.target.value)}
+            placeholder="Search AI scams — voice clone, deepfake video, chatbot…"
+            aria-label="Search AI-enabled scams"
+            className="h-11 w-full rounded-xl border border-slate-300 bg-white pl-9 pr-10 text-base sm:text-sm"
+          />
+          {isPlaceholderData && (
+            <span aria-hidden className="absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 animate-spin rounded-full border-2 border-slate-200 border-t-red-600" />
+          )}
+        </div>
+        <p className="mt-1.5 text-xs text-slate-500" aria-live="polite">
+          {isLoading
+            ? 'Loading…'
+            : total !== null
+              ? `${total.toLocaleString()} ${search ? `match${total === 1 ? '' : 'es'} for “${search}”` : `documented pattern${total === 1 ? '' : 's'}`} · newest first`
+              : `${scams.length} shown`}
+        </p>
       </div>
 
-      {isLoading && <p className="mt-8 text-slate-500">Loading…</p>}
-      <div className="mt-6 space-y-3">
+      <div className={`mt-5 space-y-3 transition-opacity ${isPlaceholderData ? 'opacity-50' : ''}`}>
+        {isLoading && Array.from({ length: 5 }, (_, i) => <PlaceholderRow key={`loading-${i}`} />)}
         {scams.map((scam) => (
           <AiScamFeedRow key={scam.id} scam={scam} />
         ))}

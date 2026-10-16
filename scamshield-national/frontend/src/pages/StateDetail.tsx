@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import { AxiosError } from 'axios';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useStateDetail } from '../hooks/useStates';
+import { isFeedLive, useAgFeedStatus } from '../hooks/useStateAgSources';
+import { US_STATE_OPTIONS, stateSlug } from '../utils/usStates';
 import { useInfiniteScams } from '../hooks/useScams';
 import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { useDailyScamNews } from '../hooks/useDailyNews';
@@ -42,6 +44,9 @@ export default function StateDetail() {
     Boolean(code)
   );
   const { data: news } = useDailyScamNews(code, Boolean(code));
+  // Feed health is a badge, nothing more: missing data just hides it.
+  const { data: feedStatus } = useAgFeedStatus();
+  const navigate = useNavigate();
 
   const scams = scamPages?.pages.flat() ?? [];
 
@@ -91,114 +96,193 @@ export default function StateDetail() {
 
   const agNews = (news ?? []).filter((n) => n.source_kind === 'ag');
   const previewNews = (news ?? []).slice(0, NEWS_PREVIEW);
+  const feed = feedStatus?.find((row) => row.state === state.state);
+  const live = isFeedLive(feed);
+  // The newest item the office itself published leads the alerts list as a
+  // feature, rather than being one line among press coverage.
+  const leadAlert = agNews[0];
+  const restNews = previewNews.filter((n) => n.id !== leadAlert?.id);
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-10">
-      <nav className="text-sm text-slate-500">
-        <Link to="/global-map" className="hover:text-slate-800 underline">
-          Threat map
-        </Link>
-        <span className="mx-2">/</span>
-        <span className="text-slate-700">{state.state_name}</span>
-      </nav>
+    <div className="max-w-6xl mx-auto px-4 py-10">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <nav className="text-sm text-slate-500">
+          <Link to="/state-attorneys-general" className="hover:text-slate-800 underline">
+            State AGs
+          </Link>
+          <span className="mx-2">/</span>
+          <span className="text-slate-700">{state.state_name}</span>
+        </nav>
+        <label className="flex items-center gap-2 text-sm text-slate-500">
+          <span className="hidden sm:inline">Jump to</span>
+          <select
+            value={state.state}
+            onChange={(e) => navigate(`/states/${stateSlug(e.target.value)}`)}
+            aria-label="Jump to another state"
+            className="rounded-lg border border-slate-300 bg-white px-2.5 py-1.5 text-sm text-slate-700"
+          >
+            {US_STATE_OPTIONS.map(([c, name]) => (
+              <option key={c} value={c}>
+                {name}
+              </option>
+            ))}
+          </select>
+        </label>
+      </div>
 
       <span className="mt-6 inline-block text-xs font-bold tracking-wider uppercase text-red-600">
         State Scam Intelligence
       </span>
-      <h1 className="mt-1 text-3xl font-extrabold tracking-tight text-slate-900">
+      <h1 className="mt-1 text-3xl sm:text-4xl font-extrabold tracking-tight text-slate-900">
         Scams &amp; fraud in {state.state_name}
       </h1>
       <p className="mt-2 max-w-2xl text-slate-600">
-        {state.scam_count.toLocaleString()} documented {state.scam_count === 1 ? 'scam' : 'scams'} recorded in{' '}
-        {state.state_name}, alongside live consumer alerts from the state&apos;s Attorney General. Updated as new
-        activity is recorded.
+        Documented scams recorded in {state.state_name}, alongside consumer alerts published by the state&apos;s
+        Attorney General. Updated as new activity is recorded.
       </p>
 
-      {/* The AG office is the part of this page a resident can act on, so it
-          leads rather than sitting under the list. Every one of the 51 was
-          verified live, so this block is never empty. */}
-      <section className="mt-8 rounded-xl border border-slate-200 bg-slate-50 p-6">
-        <h2 className="text-lg font-semibold text-slate-900">Who to report a {state.state_name} scam to</h2>
-        <p className="mt-1 font-medium text-slate-800">{state.agency_name}</p>
-        <p className="mt-2 text-sm text-slate-600">{state.description}</p>
-        <div className="mt-4 flex flex-wrap gap-3">
-          <a
-            href={state.consumer_protection_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-lg bg-red-700 px-4 py-2 text-sm font-semibold text-white hover:bg-red-800"
-          >
-            File a complaint →
-          </a>
-          {state.has_published_reports && state.reports_url && (
+      <dl className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <div className="rounded-lg border border-slate-200 bg-white px-3 py-2.5">
+          <dd className="text-2xl font-bold tabular-nums text-slate-900">{state.scam_count.toLocaleString()}</dd>
+          <dt className="text-[11px] leading-tight text-slate-500">Documented scams</dt>
+        </div>
+        <div className="rounded-lg border border-slate-200 bg-white px-3 py-2.5">
+          <dd className="text-2xl font-bold tabular-nums text-slate-900">{state.ag_news_count.toLocaleString()}</dd>
+          <dt className="text-[11px] leading-tight text-slate-500">Official AG alerts (30 days)</dt>
+        </div>
+        <div className="rounded-lg border border-slate-200 bg-white px-3 py-2.5">
+          <dd className="text-2xl font-bold tabular-nums text-slate-900">{state.news_count.toLocaleString()}</dd>
+          <dt className="text-[11px] leading-tight text-slate-500">Alerts &amp; coverage (30 days)</dt>
+        </div>
+        <div className="rounded-lg border border-slate-200 bg-white px-3 py-2.5">
+          <dd className="text-2xl font-bold tabular-nums text-slate-900">{state.categories.length}</dd>
+          <dt className="text-[11px] leading-tight text-slate-500">Scam categories seen</dt>
+        </div>
+      </dl>
+
+      <div className="mt-8 grid gap-6 lg:grid-cols-[minmax(0,1fr)_340px] lg:items-start">
+        {/* Live AG activity. Sparse by nature — a quiet month is quiet, not a
+            gap in coverage — so it says so rather than rendering an empty box. */}
+        <section className="min-w-0">
+          <div className="flex flex-wrap items-center gap-2">
+            <h2 className="text-2xl font-bold text-slate-900">Latest alerts in {state.state_name}</h2>
+            {live && (
+              <span
+                className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[11px] font-semibold text-emerald-700"
+                title={`We read the ${state.agency_name}'s own releases directly.`}
+              >
+                <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
+                Live feed{feed?.last_success_at && <> · checked {timeAgo(feed.last_success_at)}</>}
+              </span>
+            )}
+          </div>
+          {previewNews.length > 0 ? (
+            <>
+              <p className="mt-2 text-sm text-slate-500">
+                {agNews.length > 0
+                  ? `${agNews.length} published directly by the ${state.agency_name}.`
+                  : `Coverage of ${state.state_name} consumer-protection activity.`}
+              </p>
+              {leadAlert && (
+                <a
+                  href={leadAlert.source_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group mt-4 block rounded-xl bg-[#0f1a2b] p-5 text-white hover:bg-[#16243a]"
+                >
+                  <p className="text-[11px] font-bold tracking-widest text-red-300 uppercase">
+                    Newest official alert{leadAlert.published_at && <> · {timeAgo(leadAlert.published_at)}</>}
+                  </p>
+                  <p className="mt-2 text-lg font-semibold leading-snug group-hover:underline">{leadAlert.headline}</p>
+                  {leadAlert.summary && (
+                    <p className="mt-2 text-sm text-slate-300 line-clamp-3">{leadAlert.summary}</p>
+                  )}
+                  <p className="mt-3 text-xs text-slate-400">{leadAlert.source_name} ↗</p>
+                </a>
+              )}
+              {restNews.length > 0 && (
+                <ul className="mt-4 divide-y divide-slate-200 rounded-xl border border-slate-200">
+                  {restNews.map((item) => (
+                    <li key={item.id} className="p-4">
+                      <a
+                        href={item.source_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-medium text-slate-900 hover:text-red-700"
+                      >
+                        {item.headline}
+                      </a>
+                      <p className="mt-1 text-xs text-slate-500">
+                        {item.source_kind === 'ag' && (
+                          <span className="mr-2 rounded bg-red-50 px-1.5 py-0.5 font-semibold text-red-700">
+                            Attorney General
+                          </span>
+                        )}
+                        {item.source_name}
+                        {item.published_at && <> · {timeAgo(item.published_at)}</>}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              )}
+              <Link
+                to={`/todays-scams?state=${state.state}`}
+                className="mt-4 inline-block text-sm font-semibold text-red-700 underline hover:text-red-800"
+              >
+                All {state.state_name} alerts →
+              </Link>
+            </>
+          ) : (
+            <p className="mt-2 text-sm text-slate-500">
+              No alerts recorded for {state.state_name} in the current window. The documented scams below still
+              apply — a quiet month means no new press activity, not that {state.state_name} is uncovered.
+            </p>
+          )}
+        </section>
+
+        {/* The AG office is the part of this page a resident can act on, so it
+            sits beside the alerts (above them on a phone) rather than under
+            the list. Every one of the 51 was verified live, so it's never empty. */}
+        <aside className="order-first rounded-xl border border-slate-200 bg-slate-50 p-5 lg:order-none lg:sticky lg:top-24">
+          <h2 className="text-base font-semibold text-slate-900">Report a {state.state_name} scam</h2>
+          <p className="mt-1 font-medium text-slate-800">{state.agency_name}</p>
+          <p className="mt-2 text-sm text-slate-600">{state.description}</p>
+          <div className="mt-4 flex flex-col gap-2">
             <a
-              href={state.reports_url}
+              href={state.consumer_protection_url}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:border-slate-400"
+              className="rounded-lg bg-red-700 px-4 py-2.5 text-center text-sm font-semibold text-white hover:bg-red-800"
             >
-              Consumer alerts &amp; press releases →
+              File a complaint with the AG ↗
             </a>
-          )}
-        </div>
-        <p className="mt-4 text-xs text-slate-500">
-          ScamShield National is a private service and cannot take enforcement action. If money is actively at risk,
-          contact your bank first, then file with your state Attorney General and the FTC at{' '}
-          <a href="https://reportfraud.ftc.gov" target="_blank" rel="noopener noreferrer" className="underline">
-            reportfraud.ftc.gov
-          </a>
-          .
-        </p>
-      </section>
-
-      {/* Live AG activity. Sparse by nature — a quiet month is quiet, not a
-          gap in coverage — so it says so rather than rendering an empty box. */}
-      <section className="mt-10">
-        <h2 className="text-2xl font-bold text-slate-900">Latest alerts in {state.state_name}</h2>
-        {previewNews.length > 0 ? (
-          <>
-            <p className="mt-2 text-sm text-slate-500">
-              {agNews.length > 0
-                ? `${agNews.length} published directly by the ${state.agency_name}.`
-                : `Coverage of ${state.state_name} consumer-protection activity.`}
-            </p>
-            <ul className="mt-4 divide-y divide-slate-200 rounded-xl border border-slate-200">
-              {previewNews.map((item) => (
-                <li key={item.id} className="p-4">
-                  <a
-                    href={item.source_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-medium text-slate-900 hover:text-red-700"
-                  >
-                    {item.headline}
-                  </a>
-                  <p className="mt-1 text-xs text-slate-500">
-                    {item.source_kind === 'ag' && (
-                      <span className="mr-2 rounded bg-red-50 px-1.5 py-0.5 font-semibold text-red-700">
-                        Attorney General
-                      </span>
-                    )}
-                    {item.source_name}
-                    {item.published_at && <> · {timeAgo(item.published_at)}</>}
-                  </p>
-                </li>
-              ))}
-            </ul>
+            {state.has_published_reports && state.reports_url && (
+              <a
+                href={state.reports_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-center text-sm font-semibold text-slate-700 hover:border-slate-400"
+              >
+                Consumer alerts &amp; press releases ↗
+              </a>
+            )}
             <Link
-              to={`/todays-scams?state=${state.state}`}
-              className="mt-4 inline-block text-sm font-semibold text-red-700 underline hover:text-red-800"
+              to="/report"
+              className="rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-center text-sm font-semibold text-slate-700 hover:border-slate-400"
             >
-              All {state.state_name} alerts →
+              Report it to ScamShield too
             </Link>
-          </>
-        ) : (
-          <p className="mt-2 text-sm text-slate-500">
-            No alerts recorded for {state.state_name} in the current window. The documented scams below still apply —
-            a quiet month means no new press activity, not that {state.state_name} is uncovered.
+          </div>
+          <p className="mt-4 text-xs text-slate-500">
+            ScamShield National is a private service and cannot take enforcement action. If money is actively at
+            risk, contact your bank first, then file with your state Attorney General and the FTC at{' '}
+            <a href="https://reportfraud.ftc.gov" target="_blank" rel="noopener noreferrer" className="underline">
+              reportfraud.ftc.gov
+            </a>
+            .
           </p>
-        )}
-      </section>
+        </aside>
+      </div>
 
       {state.categories.length > 0 && (
         <section className="mt-10">

@@ -53,7 +53,12 @@ const LAW_FIRMS = [
   'brodsky (?:&|and) smith',
   'halper sadeh',
   'monteverde (?:&|and) associates',
-  'ademi firm',
+  'ademi (?:llp|firm)',
+  'robbins llp',
+  'kehoe law',
+  'rgrd law',
+  'purcell (?:&|and) lefkowitz',
+  'klaymantoskes',
   'kirby mcinerney',
   'bleichmar fonti',
   'labaton',
@@ -86,6 +91,14 @@ const SOLICITATION_PHRASES = [
   'encourage[ds]? (?:\\w+ ){0,3}(?:investors|shareholders) (?:to )?contact',
   '(?:investors|shareholders) (?:may|should|are encouraged to) contact',
   'breach of fiduciary duty investigation',
+  // "Investors Have Opportunity to Lead ... Securities Fraud Lawsuit", the
+  // genre's other stock phrasing, syndicated well beyond the wires (Morningstar,
+  // local papers' business feeds).
+  'opportunit(?:y|ies) to lead',
+  'seek to lead',
+  // Merger-objection solicitations: "investigates whether buyout fairly values".
+  'fairly values',
+  'fairness of (?:the )?proposed',
   'stock alert',
 ];
 
