@@ -35,7 +35,7 @@ function StatTiles({ stats }: { stats: FederalWatchData['stats'] }) {
   const tiles = [
     { value: stats.releases_7d, label: 'Federal releases this week' },
     { value: stats.releases_30d, label: 'Releases in the last 30 days' },
-    { value: stats.stories_30d, label: 'Distinct stories after merging re-posts' },
+    { value: stats.stories_30d, label: 'Distinct stories in 30 days, re-posts merged' },
     { value: stats.offices, label: 'DOJ offices reporting' },
   ];
   return (

@@ -99,5 +99,9 @@ export function useFederalWatch() {
     queryKey: ['daily-scam-news', 'federal'],
     queryFn: fetchFederalWatch,
     refetchInterval: REFETCH_INTERVAL_MS,
+    // A 404 means an API deployed before this endpoint existed: fail fast so
+    // Federal Watch drops to its plain-list fallback instead of retrying.
+    retry: (failures, err) =>
+      (err as { response?: { status?: number } })?.response?.status !== 404 && failures < 3,
   });
 }

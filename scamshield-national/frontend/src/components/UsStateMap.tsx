@@ -82,9 +82,8 @@ interface Bucket {
 // - Skewed counts (live alerts: one state can hold ten times another) get
 //   quantile buckets, or nearly every state would sit in the lowest one.
 // - Evenly spread counts (documented coverage: most states within a few
-//   entries of each other) get equal-width buckets from zero. Quantiles there
-//   would paint 40 vs 43 entries as "dim" vs "alarm" — a dramatic difference
-//   that isn't in the data.
+//   entries of each other) get equal-width buckets, so equal colour steps
+//   mean equal count steps.
 // Each bucket carries its real min/max so the legend prints actual numbers.
 function makeBuckets(values: number[]): { colorFor: (n: number) => string; buckets: Bucket[]; mode: 'quantile' | 'linear' } {
   const sorted = values.filter((v) => v > 0).sort((a, b) => a - b);
@@ -93,29 +92,27 @@ function makeBuckets(values: number[]): { colorFor: (n: number) => string; bucke
   const p10 = sorted[Math.floor(sorted.length * 0.1)];
   const p90 = sorted[Math.min(sorted.length - 1, Math.floor(sorted.length * 0.9))];
   const skewed = p90 / Math.max(1, p10) >= 3;
+  // Linear mode spans the observed spread (10th percentile to max) rather
+  // than zero to max: a map where every state sits in one bucket says
+  // nothing. The legend prints each bucket's real range, so the reader sees
+  // how close the extremes actually are.
   const breaks = skewed
     ? RAMP.slice(1).map((_, i) => sorted[Math.min(sorted.length - 1, Math.floor(((i + 1) / RAMP.length) * sorted.length))])
-    : RAMP.slice(1).map((_, i) => Math.floor((max * (i + 1)) / RAMP.length) + 1);
+    : RAMP.slice(1).map((_, i) => Math.ceil(p10 + ((max - p10) * (i + 1)) / RAMP.length));
   const bucketOf = (n: number) => {
     let b = 0;
     while (b < breaks.length && n >= breaks[b]) b += 1;
     return b;
   };
-  const ranges = RAMP.map((color, i) =>
-    skewed
-      ? { color, min: Infinity, max: -Infinity }
-      : { color, min: i === 0 ? 1 : breaks[i - 1], max: i < breaks.length ? breaks[i] - 1 : max }
-  );
-  if (skewed) {
-    for (const v of sorted) {
-      const r = ranges[bucketOf(v)];
-      r.min = Math.min(r.min, v);
-      r.max = Math.max(r.max, v);
-    }
+  const ranges = RAMP.map((color) => ({ color, min: Infinity, max: -Infinity }));
+  for (const v of sorted) {
+    const r = ranges[bucketOf(v)];
+    r.min = Math.min(r.min, v);
+    r.max = Math.max(r.max, v);
   }
   return {
     colorFor: (n: number) => (n > 0 ? RAMP[bucketOf(n)] : NO_DATA),
-    buckets: ranges.filter((r) => r.min !== Infinity && r.min <= r.max),
+    buckets: ranges.filter((r) => r.min !== Infinity),
     mode: skewed ? 'quantile' : 'linear',
   };
 }
