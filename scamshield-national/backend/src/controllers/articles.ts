@@ -135,6 +135,23 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
     ['photos-first', '(a.cover_image IS NULL), a.published_at DESC NULLS LAST, a.id'],
     ['title', "regexp_replace(lower(a.title), '^(the|a|an) ', ''), a.id"],
     ['oldest', 'a.published_at ASC NULLS LAST, a.id'],
+    // The Articles page's "All" view. Plain newest-first opened it with the
+    // same profiles the Notorious page leads with, so the two pages looked
+    // like duplicates. This leads with guides (newest first) and works in
+    // one Notorious profile after every two guides, taking the profiles in
+    // a stable shuffled order (photos first) instead of the Notorious page's
+    // order. Stable, so paging never repeats or skips a row.
+    [
+      'mixed',
+      `(ROW_NUMBER() OVER (
+          PARTITION BY ('notorious' = ANY(a.tags))
+          ORDER BY
+            CASE WHEN 'notorious' = ANY(a.tags) THEN (a.cover_image IS NULL) END,
+            CASE WHEN 'notorious' = ANY(a.tags) THEN md5(a.id::text) END,
+            a.published_at DESC NULLS LAST, a.id
+        ) * CASE WHEN 'notorious' = ANY(a.tags) THEN 3 ELSE 1.5 END),
+       ('notorious' = ANY(a.tags)), a.id`,
+    ],
   ]);
   const order =
     (typeof req.query.sort === 'string' && ORDERS.get(req.query.sort)) || 'a.published_at DESC NULLS LAST, a.id';

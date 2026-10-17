@@ -19,7 +19,7 @@ const PAGE_SIZE = 500;
 // feel continuous.
 export const ARTICLE_PAGE_SIZE = 36;
 
-export type ArticleSort = 'photos-first' | 'title' | 'oldest';
+export type ArticleSort = 'photos-first' | 'title' | 'oldest' | 'mixed';
 
 export interface ArticlePageParams {
   tag?: string;
