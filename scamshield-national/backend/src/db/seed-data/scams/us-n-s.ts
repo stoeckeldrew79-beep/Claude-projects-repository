@@ -13246,3 +13246,16 @@ UsNS.push({
     country: "US",
     state: "AK",
 });
+
+UsNS.push({
+    name: "NIPR Fake-Invoice Phishing Against Connecticut Insurance Licensees",
+    slug: "nipr-fake-invoice-phishing-against-connecticut-insurance-licensees",
+    description:
+      "The Connecticut Insurance Department issued a licensee notice dated April 16, 2026 warning insurance producers about fraudulent emails posing as invoice requests from the National Insurance Producer Registry. The messages reference past-due or urgent invoices and appear to come from familiar-looking domains such as @nipr.com, @naic.org, or @stripe, using pressure language to force immediate payment or disclosure of personal, financial, or business information. NIPR is investigating and coordinating with the NAIC and state insurance departments. CID advises licensees to treat any unsolicited invoice as suspicious even when it looks legitimate. Do not click links or pay from the email; verify independently through your known NIPR account and report suspicious messages to the Connecticut Insurance Department.",
+    categorySlug: "phishing",
+    alertLevel: "medium",
+    sources: ["Connecticut Insurance Department licensee notice, April 16, 2026"],
+    sourceUrl: "https://portal.ct.gov/cid/-/media/cid/1_licensing/nipr-phishing-scam-notice-april-2026.pdf",
+    country: "US",
+    state: "CT",
+});

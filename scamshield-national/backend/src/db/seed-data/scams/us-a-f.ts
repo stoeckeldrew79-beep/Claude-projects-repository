@@ -12917,3 +12917,29 @@ UsAF.push({
     country: "US",
     state: "AK",
 });
+
+UsAF.push({
+    name: "AT&T Unauthorized-Line Cramming Scheme (Stafford, CT)",
+    slug: "att-unauthorized-line-cramming-scheme-stafford-ct",
+    description:
+      "Connecticut Attorney General William Tong announced a civil investigation into AT&T on August 18, 2025, after criminal charges were filed against a former AT&T employee at a store in Stafford, Connecticut. Retail employees with access to customer accounts allegedly added extra phone lines and services that customers never authorized, in a ploy to earn bonuses and commissions tied to new-line activations. The resulting recurring charges were often small enough to hide in a monthly bill for months before anyone noticed. If you are an AT&T customer, read your bill line by line and compare the number of active lines and add-on services to what you actually signed up for. Dispute any unauthorized charges with AT&T in writing and report them to the Connecticut Attorney General's Office.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["Connecticut Office of the Attorney General press release, August 18, 2025"],
+    sourceUrl: "https://portal.ct.gov/ag/press-releases/2025-press-releases/attorney-general-tong-announces-investigation-into-att-over-unauthorized-charges",
+    country: "US",
+    state: "CT",
+});
+
+UsAF.push({
+    name: "Connecticut Department of Public Health Phone Impersonation",
+    slug: "connecticut-department-of-public-health-phone-impersonation",
+    description:
+      "Callers are phoning Connecticut residents, claiming to be from the state Department of Public Health, and demanding personal health-insurance information including Medicare numbers. DPH issued a scam alert on May 5, 2025 stating that it never demands information like Medicare numbers over the phone. Medicare and insurance identifiers are the real target, because they can be used for medical identity theft and fraudulent billing against your coverage. Hang up on any such call and never read out your Medicare or insurance numbers to an unexpected caller. If you want to confirm whether a call was genuine, contact DPH directly at (860) 509-7590.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Connecticut Department of Public Health scam alert, May 5, 2025 (official agency social media channel)"],
+    sourceUrl: "https://x.com/CTDPH/status/1919432167051923632",
+    country: "US",
+    state: "CT",
+});
