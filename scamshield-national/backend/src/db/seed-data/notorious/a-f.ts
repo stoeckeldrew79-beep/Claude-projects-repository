@@ -11824,3 +11824,23 @@ The Barcelona Provincial Court announced its verdict on January 15, 2018. It sen
 The Palau case illustrates how a trusted cultural charity can be drained from the inside when one or two people control both the money and the reputation. It also shows how political parties can use nonprofit institutions to launder commissions, and how long it can take for anonymous warnings to a tax agency to become a criminal conviction.`,
     sourceUrl: 'https://www.elnacional.cat/en/news/palau-affair-verdict_229587_102.html',
 });
+
+NotoriousAF.push({
+    title: 'Charles Wells, the Man Who Broke the Bank at Monte Carlo',
+    slug: 'charles-deville-wells-monte-carlo-investment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'investment-fraud', 'ponzi'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Deville_Wells_01.jpg?width=1200',
+    coverImageCredit: 'Sketch: unknown artist, 1890s newspaper (Public Domain), via Wikimedia Commons',
+    coverImagePosition: 50,
+    body: `Charles Deville Wells (1841–1922) is remembered in popular culture as "the man who broke the bank at Monte Carlo," the subject of a famous music-hall song. In 1891 he won enough at the Monte Carlo casino's tables to exhaust a table's funds, and newspapers speculated about cheating or a publicity stunt. The luck, however, was the least reliable part of his career. Wells was a career swindler who spent decades taking money from investors and in the process was convicted on two sides of the Channel.
+
+Born in Hertfordshire in 1841 and raised in France, Wells trained as an engineer and in 1868 sold the patent for a ship-propeller regulating device for 5,000 francs. Around 1879 he moved to Paris and ran a fraudulent scheme to fund a railway at Berck-sur-Mer, vanishing with the investors' money and being convicted in his absence. From 1885, in Britain, he sold investors stakes in supposed inventions. None are known to have paid a return, and one backer lost almost £19,000. An 1899 newspaper report said he had obtained large sums from people who had inventions to dispose of and given them only a protective certificate in return.
+
+His Monte Carlo winnings came in late July and early August 1891, with another visit in November. He returned in January 1892 and lost about 100,000 francs. Late that year he was arrested at Le Havre aboard his steam yacht, the Palais Royal, and extradited to Britain over the patent scheme. In March 1893 the Old Bailey found him guilty on 23 counts of fraud and sentenced him to eight years. He served his time at Portland Prison and was released after six years for good behaviour.
+
+He did not reform. In 1910, using the alias "Lucien Rivier," Wells ran a private bank in Paris promising 365% annual interest. About 6,000 investors deposited roughly 2 million francs, and early investors were paid from new deposits, a pattern later associated with Charles Ponzi. When French authorities began to investigate, he fled to Britain, was arrested in January 1912, and was sentenced in Paris in November 1912 to five years. The scandal led France to introduce stricter controls on private banks. He died in July 1922 according to most sources, and was buried in North Sheen Cemetery in London.
+
+Wells's story shows how fraud can hide in plain sight behind celebrity: a gambling streak that made him a household name gave him credibility he never earned, and the "inventions" and the "bank" he promoted had no way for investors to verify any return. It also shows that the Ponzi pattern predates Ponzi himself, with the promised rate and the payment of old depositors from new ones doing exactly what they would do a decade later in Boston.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Charles_Wells_(gambler)',
+});
