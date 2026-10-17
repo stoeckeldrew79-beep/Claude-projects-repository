@@ -15,7 +15,9 @@
 // STORAGE_GUARD_FRACTION of DB_STORAGE_LIMIT_MB, so the archive can never
 // fill the database and take the site down. Catch-up still runs.
 //
-// Runs after the daily federal news scan (npm run scan-federal-news).
+// Runs after the daily federal news scan (npm run scan-federal-news), and
+// once in the background when the web service starts, until the backfill
+// is complete (continueDojArchiveInBackground).
 // Env: DOJ_BACKFILL_PAGES (pages per run, default 1800), DB_STORAGE_LIMIT_MB
 // (default 1024, the Render database plan's disk).
 import 'dotenv/config';
@@ -124,7 +126,7 @@ async function databaseMb(): Promise<number> {
   return Number(rows[0].bytes) / 1024 / 1024;
 }
 
-async function backfill(): Promise<void> {
+async function backfill(maxPages: number): Promise<void> {
   if (await getCursor(CURSOR_DONE)) {
     console.log('backfill: complete (nothing to do)');
     return;
@@ -142,7 +144,7 @@ async function backfill(): Promise<void> {
   const start = page;
   let saved = 0;
   try {
-    for (let i = 0; i < BACKFILL_PAGES; i++) {
+    for (let i = 0; i < maxPages; i++) {
       const releases = await fetchPage({ sort: 'created', direction: 'ASC', page });
       saved += await savePage(releases);
       if (releases.length < PAGE_SIZE) {
@@ -160,16 +162,56 @@ async function backfill(): Promise<void> {
   }
 }
 
-async function main() {
-  // Catch-up first: it is the part people notice (today's cases), and it
-  // must not wait behind a long backfill.
-  await catchUp();
-  await backfill();
-  const { rows } = await pool.query<{ count: string }>('SELECT COUNT(*)::text AS count FROM federal_cases');
-  console.log(`federal_cases: ${rows[0].count} total, database ${Math.round(await databaseMb())} MB`);
-  await pool.end();
+// Arbitrary constant: identifies "the DOJ archive import" among Postgres
+// advisory locks, so the daily cron and the web service's boot-time run
+// never work the archive at the same time.
+const ARCHIVE_LOCK_KEY = 726_154_201;
+
+// Runs catch-up then backfill, unless another process already is (then it
+// returns false and does nothing).
+export async function runDojArchive(opts: { backfillPages: number }): Promise<boolean> {
+  const lock = await pool.connect();
+  try {
+    const { rows } = await lock.query<{ ok: boolean }>('SELECT pg_try_advisory_lock($1) AS ok', [ARCHIVE_LOCK_KEY]);
+    if (!rows[0].ok) {
+      console.log('DOJ archive: another run is in progress; skipping');
+      return false;
+    }
+    try {
+      // Catch-up first: it is the part people notice (today's cases), and
+      // it must not wait behind a long backfill.
+      await catchUp();
+      await backfill(opts.backfillPages);
+      const count = await pool.query<{ count: string }>('SELECT COUNT(*)::text AS count FROM federal_cases');
+      console.log(`federal_cases: ${count.rows[0].count} total, database ${Math.round(await databaseMb())} MB`);
+      return true;
+    } finally {
+      await lock.query('SELECT pg_advisory_unlock($1)', [ARCHIVE_LOCK_KEY]);
+    }
+  } finally {
+    lock.release();
+  }
 }
 
+// The web service calls this once after it starts: until the backfill has
+// finished, it keeps working through the archive in the background, so a
+// fresh deploy fills /federal/cases within hours instead of waiting for
+// the next daily cron. Low effort for the server — almost all of the time
+// is spent waiting on justice.gov between pages.
+export async function continueDojArchiveInBackground(): Promise<void> {
+  try {
+    if (await getCursor(CURSOR_DONE)) return;
+    await runDojArchive({ backfillPages: Number.MAX_SAFE_INTEGER });
+  } catch (err) {
+    // Never take the API down over this; the daily cron retries.
+    console.error('DOJ archive background run failed:', (err as Error).message);
+  }
+}
+
+async function main() {
+  await runDojArchive({ backfillPages: BACKFILL_PAGES });
+  await pool.end();
+}
 if (require.main === module) {
   main().catch((err) => {
     console.error(err);

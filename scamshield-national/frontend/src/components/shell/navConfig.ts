@@ -5,33 +5,47 @@ export interface NavItem {
   to: string;
   label: string;
   end?: boolean;
-  /** One-line hint shown in the "More" dropdown and the phone menu. */
+  /** Optional one-line description. */
   hint?: string;
-  /**
-   * Smallest breakpoint at which a primary link fits in the header row.
-   * Below it the link folds into the "More" menu instead of wrapping onto a
-   * second row. 'md' = always in the row on desktop.
-   */
-  showFrom?: 'md' | 'lg' | 'xl';
 }
 
-export const PRIMARY_NAV: NavItem[] = [
-  { to: '/todays-scams', label: "Today's Scams", hint: 'Fresh alerts and headlines', showFrom: 'md' },
-  { to: '/ai-scams', label: 'AI Scams', hint: 'Deepfakes, voice clones, chatbots', showFrom: 'lg' },
-  { to: '/database', label: 'Database', hint: 'Search every documented scam', showFrom: 'md' },
-  { to: '/global-map', label: 'Global Map', hint: 'Scam activity by country', showFrom: 'lg' },
-  { to: '/notorious', label: 'Notorious', hint: 'Infamous scams and scammers', showFrom: 'xl' },
-  { to: '/articles', label: 'Articles', hint: 'Guides and analysis', showFrom: 'xl' },
-  { to: '/alerts', label: 'Alerts', hint: 'Get warned about your area', showFrom: 'md' },
-];
-
-export const MORE_NAV: NavItem[] = [
-  { to: '/state-attorneys-general', label: 'State AGs', hint: 'Official state Attorney General alerts' },
-  { to: '/federal', label: 'Federal Watch', end: true, hint: 'DOJ and FTC enforcement releases' },
-  { to: '/federal/cases', label: 'Federal Case Archive', hint: 'Every DOJ fraud case since 2009' },
-  { to: '/global-sources', label: 'Global Sources', hint: 'Official agencies worldwide' },
-  { to: '/statistics', label: 'Statistics', hint: 'Live numbers and trends' },
-  { to: '/subscribe', label: 'Plans & Pricing', hint: 'Alerts by email and SMS' },
+// The desktop section bar: every section of the site, visible at a glance
+// and grouped, so a first-time visitor sees the full scope of what's here
+// without opening a menu. (A "More" dropdown used to hide half of it.)
+export const SECTION_GROUPS: { heading: string; items: NavItem[] }[] = [
+  {
+    heading: 'Live intelligence',
+    items: [
+      { to: '/todays-scams', label: "Today's Scams" },
+      { to: '/ai-scams', label: 'AI Scams' },
+      { to: '/database', label: 'Scam Database' },
+      { to: '/global-map', label: 'Global Map' },
+      { to: '/statistics', label: 'Statistics' },
+    ],
+  },
+  {
+    heading: 'Official sources',
+    items: [
+      { to: '/state-attorneys-general', label: 'State AGs' },
+      { to: '/federal', label: 'Federal Watch', end: true },
+      { to: '/federal/cases', label: 'Federal Cases' },
+      { to: '/global-sources', label: 'Global Sources' },
+    ],
+  },
+  {
+    heading: 'Learn',
+    items: [
+      { to: '/notorious', label: 'Notorious' },
+      { to: '/articles', label: 'Articles' },
+    ],
+  },
+  {
+    heading: 'Protect yourself',
+    items: [
+      { to: '/alerts', label: 'Alerts' },
+      { to: '/subscribe', label: 'Plans' },
+    ],
+  },
 ];
 
 // Phone menu: everything, grouped so a long list stays scannable.

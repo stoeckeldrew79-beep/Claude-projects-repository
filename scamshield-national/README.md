@@ -424,6 +424,10 @@ runs right after the daily federal news scan (`npm run scan-federal-news` runs b
 Render service is needed:
 
 - **Catch-up** reads the newest releases until it reaches ones already seen.
+- **On deploy**, the web service also starts working through the backfill in the background a
+  minute after it boots (until the backfill is complete), so a fresh deploy fills the archive
+  within hours rather than waiting for the next cron. A Postgres advisory lock keeps it and the
+  cron from running at the same time. `DOJ_ARCHIVE_ON_BOOT=0` turns this off.
 - **Backfill** reads the next `DOJ_BACKFILL_PAGES` pages (default 1800 of ~5,500) of the whole
   archive, oldest first, and saves its place in `ingest_state`, so the full history arrives over
   about three daily runs and an interrupted run simply resumes.

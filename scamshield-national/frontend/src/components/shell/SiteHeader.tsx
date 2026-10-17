@@ -1,25 +1,13 @@
+import { useEffect, useRef } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { useAuthStore } from '../../store/useAuthStore';
 import { roleFromToken } from '../../utils/tokenRole';
 import { formatPhoneDisplay, PUBLIC_PHONE, telHref } from '../../utils/publicPhone';
 import { ShieldLogo } from '../ShieldLogo';
 import { MobileMenu } from '../MobileMenu';
-import { MORE_NAV, NavItem, PRIMARY_NAV } from './navConfig';
+import { SECTION_GROUPS } from './navConfig';
 import { useDisclosure } from './useDisclosure';
-
-// Literal class strings (Tailwind only generates classes it can see in source).
-// A primary link is in the header row from its breakpoint up, and listed in
-// "More" below it — so the row never wraps, at any width from 768px up.
-const ROW_VISIBILITY: Record<NonNullable<NavItem['showFrom']>, string> = {
-  md: 'inline-flex',
-  lg: 'hidden lg:inline-flex',
-  xl: 'hidden xl:inline-flex',
-};
-const MORE_VISIBILITY: Record<NonNullable<NavItem['showFrom']>, string> = {
-  md: 'hidden',
-  lg: 'lg:hidden',
-  xl: 'xl:hidden',
-};
+import { useStats } from '../../hooks/useStats';
 
 function Chevron({ open }: { open: boolean }) {
   return (
@@ -41,77 +29,68 @@ function Chevron({ open }: { open: boolean }) {
 const linkBase =
   'relative items-center whitespace-nowrap rounded-md px-2.5 py-2 text-sm font-medium transition-colors';
 
-function primaryClass(isActive: boolean) {
-  return `${linkBase} ${
-    isActive
-      ? 'text-slate-950 after:absolute after:inset-x-2.5 after:-bottom-[9px] after:h-0.5 after:rounded-full after:bg-[#8a2e2e]'
-      : 'text-slate-600 hover:text-slate-950 hover:bg-slate-100'
-  }`;
+// The section bar: every section of the site in one dark row under the
+// header, grouped, so visitors see the full scope at a glance. Fits on one
+// line from 1280px; between 768 and 1280 it scrolls sideways (edges fade)
+// rather than wrapping. Phones use the menu button instead.
+function SectionBar() {
+  // Where the bar scrolls (768–1279px), bring the current page's link into
+  // view so the reader can always see where they are.
+  const scroller = useRef<HTMLDivElement>(null);
+  const { pathname } = useLocation();
+  useEffect(() => {
+    const el = scroller.current;
+    const active = el?.querySelector<HTMLElement>('[aria-current="page"]');
+    if (!el || !active || el.scrollWidth <= el.clientWidth) return;
+    el.scrollLeft = active.offsetLeft - (el.clientWidth - active.offsetWidth) / 2;
+  }, [pathname]);
+  const sectionClass = ({ isActive }: { isActive: boolean }) =>
+    `relative inline-flex h-10 items-center whitespace-nowrap px-2.5 text-[13px] font-medium transition-colors ${
+      isActive
+        ? 'text-white after:absolute after:inset-x-2.5 after:bottom-0 after:h-0.5 after:rounded-full after:bg-red-500'
+        : 'text-slate-300 hover:text-white'
+    }`;
+  return (
+    <div className="hidden md:block bg-[#0f1a2b]">
+      <div className="relative mx-auto max-w-7xl">
+        <div ref={scroller} className="flex items-center overflow-x-auto px-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden [mask-image:linear-gradient(to_right,transparent,black_16px,black_calc(100%-16px),transparent)] xl:[mask-image:none]">
+          {SECTION_GROUPS.map((group, gi) => (
+            <div key={group.heading} role="group" aria-label={group.heading} className="flex shrink-0 items-center">
+              {gi > 0 && <span aria-hidden="true" className="mx-1.5 h-4 w-px bg-white/15" />}
+              {group.items.map((item) => (
+                <NavLink key={item.to} to={item.to} end={item.end} className={sectionClass}>
+                  {item.label}
+                </NavLink>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
 }
 
-function MoreMenu() {
-  const d = useDisclosure();
-  const { pathname } = useLocation();
-  const folded = PRIMARY_NAV.filter((l) => l.showFrom !== 'md');
-  // Highlight "More" when the current page lives inside it, so the active
-  // page is never invisible in the header.
-  const activeInside = MORE_NAV.some((l) => pathname.startsWith(l.to));
-
-  const itemClass = ({ isActive }: { isActive: boolean }) =>
-    `group flex flex-col rounded-lg px-3 py-2.5 transition-colors ${
-      isActive ? 'bg-red-50' : 'hover:bg-slate-50 focus-visible:bg-slate-50'
-    }`;
-
-  const renderItem = (item: NavItem, extra = '') => (
-    <NavLink key={item.to} to={item.to} end={item.end} className={(s) => `${itemClass(s)} ${extra}`}>
-      {({ isActive }) => (
-        <>
-          <span className={`text-sm font-semibold ${isActive ? 'text-[#8a2e2e]' : 'text-slate-900'}`}>
-            {item.label}
-          </span>
-          {item.hint && <span className="text-xs text-slate-500">{item.hint}</span>}
-        </>
-      )}
-    </NavLink>
-  );
-
+// Live scale of the database, shown beside the logo on wide screens — the
+// first thing a visitor reads is how big this is. Real numbers only; hidden
+// until they load.
+function LiveScale() {
+  const { data } = useStats();
+  if (!data) return null;
   return (
-    <div className="relative">
-      <button
-        ref={d.buttonRef}
-        type="button"
-        aria-expanded={d.open}
-        aria-controls="more-nav"
-        onClick={d.toggle}
-        onKeyDown={d.onButtonKeyDown}
-        className={`${linkBase} inline-flex gap-1 ${
-          d.open || activeInside ? 'text-slate-950 bg-slate-100' : 'text-slate-600 hover:text-slate-950 hover:bg-slate-100'
-        }`}
-      >
-        More
-        <Chevron open={d.open} />
-      </button>
-
-      {d.open && (
-        <div
-          ref={d.panelRef}
-          id="more-nav"
-          onKeyDown={d.onPanelKeyDown}
-          onBlur={d.onPanelBlur}
-          className="absolute right-0 top-full z-50 mt-2 w-72 origin-top-right rounded-xl border border-slate-200 bg-white p-2 shadow-xl shadow-slate-900/10 animate-dropdown-in motion-reduce:animate-none"
-        >
-          {folded.map((item) => renderItem(item, MORE_VISIBILITY[item.showFrom ?? 'md']))}
-          {folded.length > 0 && <div className="my-1 h-px bg-slate-100 xl:hidden" aria-hidden="true" />}
-          <p className="px-3 pb-1 pt-2 text-[11px] font-semibold uppercase tracking-wider text-slate-400">
-            Official sources &amp; data
-          </p>
-          {MORE_NAV.map((item) => renderItem(item))}
-          <div className="mt-1 border-t border-slate-100 pt-1">
-            {renderItem({ to: '/check-now', label: 'Check something now', hint: 'Is this call, text or link a scam?' })}
-          </div>
-        </div>
-      )}
-    </div>
+    <Link
+      to="/statistics"
+      className="hidden lg:inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs text-slate-600 hover:border-slate-300"
+    >
+      <span className="relative flex h-2 w-2 shrink-0">
+        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75 motion-reduce:animate-none" />
+        <span className="relative inline-flex h-2 w-2 rounded-full bg-red-500" />
+      </span>
+      <span>
+        <span className="font-semibold text-slate-900">{data.scams.toLocaleString()}</span> scams ·{' '}
+        <span className="font-semibold text-slate-900">{data.countries.toLocaleString()}</span> countries ·{' '}
+        <span className="font-semibold text-slate-900">{data.sources.toLocaleString()}</span> official sources
+      </span>
+    </Link>
   );
 }
 
@@ -227,33 +206,30 @@ export function SiteHeader() {
         </div>
       </div>
 
-      <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/85">
-        <nav aria-label="Main" className="max-w-7xl mx-auto px-4 h-14 md:h-16 flex items-center gap-2 lg:gap-4">
+      {/* Both rows stick together on desktop (56px + 40px section bar = the
+          md:top-24 offset pages use for their own sticky bars); phones get
+          just the first row (top-14). */}
+      <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/85 md:border-b-0">
+        <nav aria-label="Main" className="max-w-7xl mx-auto px-4 h-14 flex items-center gap-3 lg:gap-5">
           <Link to="/" className="flex items-center gap-2 min-w-0 shrink-0 rounded-md" aria-label="ScamShield National — home">
             <ShieldLogo className="h-8 w-8 md:h-9 md:w-9 shrink-0" />
             <span
-              className="font-bold text-base sm:text-lg text-slate-900 whitespace-nowrap md:max-lg:hidden"
+              className="font-bold text-base sm:text-lg text-slate-900 whitespace-nowrap"
               style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}
             >
               ScamShield National
             </span>
           </Link>
 
-          <div className="hidden md:flex items-center gap-0.5 xl:gap-1 flex-1 min-w-0 md:ml-2 lg:ml-4">
-            {PRIMARY_NAV.map((link) => (
-              <NavLink
-                key={link.to}
-                to={link.to}
-                end={link.end}
-                className={({ isActive }) => `${primaryClass(isActive)} ${ROW_VISIBILITY[link.showFrom ?? 'md']}`}
-              >
-                {link.label}
-              </NavLink>
-            ))}
-            <MoreMenu />
-          </div>
+          <LiveScale />
 
           <div className="ml-auto flex items-center gap-1.5 md:gap-2 shrink-0">
+            <Link
+              to="/check-now"
+              className="hidden md:inline-flex items-center rounded-md border border-slate-300 px-3 py-2 text-sm font-semibold text-slate-800 whitespace-nowrap hover:border-slate-400 hover:bg-slate-50"
+            >
+              Check a scam
+            </Link>
             <div className="hidden md:block">
               <AccountMenu />
             </div>
@@ -266,6 +242,9 @@ export function SiteHeader() {
             </Link>
             <MobileMenu />
           </div>
+        </nav>
+        <nav aria-label="Sections">
+          <SectionBar />
         </nav>
       </header>
     </>

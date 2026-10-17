@@ -169,6 +169,9 @@ export default function FederalCases() {
   ].filter(Boolean) as { key: string; label: string }[];
 
   const firstYear = stats?.first_date ? new Date(stats.first_date).getUTCFullYear() : 2009;
+  // Right after a deploy the archive can be empty for a few minutes while
+  // its first import runs; say so rather than showing a row of zeros.
+  const importing = stats !== undefined && stats.total === 0;
 
   return (
     <div>
@@ -191,12 +194,12 @@ export default function FederalCases() {
 
           <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
             {[
-              { value: stats ? stats.total.toLocaleString() : '—', label: 'Federal cases' },
+              { value: stats && !importing ? stats.total.toLocaleString() : '—', label: 'Federal cases' },
               {
                 value: stats?.by_year.length ? `${stats.by_year[0].year}–${stats.by_year[stats.by_year.length - 1].year}` : '—',
                 label: 'Years covered',
               },
-              { value: stats ? stats.states_covered.toLocaleString() : '—', label: 'States & territories' },
+              { value: stats && !importing ? stats.states_covered.toLocaleString() : '—', label: 'States & territories' },
               { value: stats?.last_date ? formatDate(stats.last_date) : '—', label: 'Newest case' },
             ].map((t) => (
               <div key={t.label}>
@@ -206,10 +209,17 @@ export default function FederalCases() {
             ))}
           </div>
 
-          {stats && !stats.backfill_complete && (
+          {importing && (
+            <p className="mt-6 flex items-center gap-3 rounded-lg border border-amber-400/30 bg-amber-400/10 px-4 py-3 text-sm text-amber-100">
+              <span className="h-4 w-4 shrink-0 animate-spin rounded-full border-2 border-amber-200/30 border-t-amber-200" aria-hidden="true" />
+              The first federal cases are being imported from the Justice Department right now — they will start
+              appearing here within minutes, with the full history back to 2009 following over the next day.
+            </p>
+          )}
+          {stats && !importing && !stats.backfill_complete && (
             <p className="mt-6 rounded-lg border border-amber-400/30 bg-amber-400/10 px-4 py-3 text-sm text-amber-100">
-              The archive is still being assembled from the Justice Department's records — new history is added
-              every day until the full collection back to 2009 is in. Today's cases are already here.
+              The archive is still being assembled from the Justice Department's records — older cases are added
+              continuously until the full collection back to 2009 is in. Today's cases are already here.
             </p>
           )}
 
@@ -217,7 +227,7 @@ export default function FederalCases() {
         </div>
       </section>
 
-      <div className="sticky top-14 z-30 md:top-16 border-b border-slate-200 bg-white/95 backdrop-blur">
+      <div className="sticky top-14 z-30 md:top-24 border-b border-slate-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-5xl flex-col gap-2 px-4 py-3 sm:flex-row sm:items-center">
           <label htmlFor="case-search" className="sr-only">
             Search federal cases
@@ -311,7 +321,7 @@ export default function FederalCases() {
         </ul>
         {hasNextPage && <div ref={setTrigger} aria-hidden="true" className="h-px" />}
 
-        {!isLoading && total === 0 && (
+        {!isLoading && total === 0 && !importing && (
           <div className="mt-6 rounded-xl border border-dashed border-slate-300 p-8 text-center">
             <p className="font-semibold text-slate-900">No federal cases match that.</p>
             <p className="mt-1 text-sm text-slate-600">Try fewer words, or clear a filter.</p>

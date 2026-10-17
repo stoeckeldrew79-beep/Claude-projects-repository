@@ -14,6 +14,7 @@ import globalSourcesRoutes from './routes/globalSources';
 import stateAgSourcesRoutes from './routes/stateAgSources';
 import alertCandidatesRoutes from './routes/alertCandidates';
 import federalCasesRoutes from './routes/federalCases';
+import { continueDojArchiveInBackground } from './jobs/scanDojArchive';
 import alertSubscriptionsRoutes from './routes/alertSubscriptions';
 import statsRoutes from './routes/stats';
 import dailyNewsRoutes from './routes/dailyNews';
@@ -95,4 +96,10 @@ const port = process.env.PORT ? Number(process.env.PORT) : 3000;
 // otherwise refuses IPv4 connections to http://localhost from the browser.
 app.listen(port, '0.0.0.0', () => {
   console.log(`ScamShield National API listening on :${port}`);
+  // In production, keep filling the federal case archive in the background
+  // until its backfill is complete (see jobs/scanDojArchive.ts). Delayed so
+  // it never competes with startup, and skipped in CI and local runs.
+  if (process.env.NODE_ENV === 'production' && process.env.DOJ_ARCHIVE_ON_BOOT !== '0') {
+    setTimeout(() => void continueDojArchiveInBackground(), 60_000);
+  }
 });
