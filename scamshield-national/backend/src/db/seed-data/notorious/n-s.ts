@@ -8542,3 +8542,23 @@ The case was widely described as the first time a German bank's chief executive 
 The Ortseifen case illustrates how a bank's public reassurance can become the crime. The conviction rested on what the bank told the market, not on the losses themselves, and it was enforced against the executive personally even though the broader failures at the bank were never prosecuted.`,
     sourceUrl: 'https://www.cityam.com/former-ikb-boss-avoids-prison/',
 });
+
+NotoriousNS.push({
+    title: 'Patrick Balkany and the Hidden Villas of Levallois-Perret',
+    slug: 'patrick-balkany-tax-fraud-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'tax-fraud', 'money-laundering', 'political-corruption'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Patrick_Balkany_2010.jpg?width=1200',
+    coverImageCredit: 'Photo: Nikeush / Nicolas Richoffer (CC BY-SA 4.0) — Patrick Balkany in Levallois-Perret, 29 September 2010',
+    coverImagePosition: 50,
+    body: `Patrick Balkany was the longtime mayor of Levallois-Perret, a suburb of Paris in the Hauts-de-Seine département, and a prominent conservative politician. He and his wife, Isabelle, lived in a mill at Giverny, in Normandy. The couple were investigated over their assets, and French courts later found that they had concealed millions of euros from the tax authorities.
+
+The case against the Balkanys centred on assets that they had not declared. French reporting says the couple hid about €13 million in assets from the tax authorities between 2007 and 2014, including two lavish villas in the Caribbean and in Morocco, and that offshore companies were used. They contested the amount and denied owning a riad in Marrakech that had figured in the investigation. The prosecution had two parts: tax fraud and the laundering of the proceeds of tax fraud. Patrick Balkany was also tried for illegal taking of interest, over personal advantages he was found to have received in a real-estate contract of the town of Levallois-Perret.
+
+On 13 September 2019 the Paris criminal court sentenced Patrick Balkany to four years in prison for tax fraud, with immediate imprisonment, and Isabelle to three years. In October 2019 the court convicted both of aggravated money laundering and gave Patrick five years, with immediate imprisonment, and Isabelle four years, without a custody warrant because of her health. He was released on 12 February 2020, after about five months in the Santé prison, because the Paris Court of Appeal found his health hard to square with detention. In May 2020 the Court of Appeal upheld the laundering convictions and the sentences of five years and four years. France's highest court, the Cour de cassation, confirmed their guilt but partly annulled the decision and ordered a new trial on the length of the sentences only.
+
+At that third trial, on 9 January 2023, the Paris Court of Appeal sentenced Patrick Balkany to four and a half years in prison and Isabelle to three and a half years, each with a €100,000 fine and ten years of ineligibility to stand for office, and ordered the confiscation of the usufruct of the mill at Giverny. The court merged these terms with the three-year prison sentences already imposed for tax fraud, so, according to their lawyers, neither would return to prison. Patrick had spent just under a year in detention in total. Damages owed to the state were reduced to €400,000.
+
+The Balkany case illustrates how an elected official's undeclared wealth, spread through foreign property and offshore companies, can be prosecuted as laundering the proceeds of tax fraud even where the underlying source of the money is never fully explained. It also shows how long such cases take in the French system, with three trials and a detour through the Cour de cassation before the sentences were settled.`,
+    sourceUrl: 'https://www.lalibre.be/international/europe/2023/01/09/blanchiment-de-fraude-fiscale-quatre-ans-et-demi-et-trois-ans-et-demi-de-prison-pour-les-balkany-5NFX44MYFZBPLAHKZ2MDEAN3EU/',
+});
