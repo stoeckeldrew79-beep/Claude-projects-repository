@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { useAlerts } from '../hooks/useAlerts';
 import { useAuthStore } from '../store/useAuthStore';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
+import { HomeAreaCard } from '../components/HomeAreaCard';
+import { stateName, US_STATE_OPTIONS } from '../utils/usStates';
 import { useCategories } from '../hooks/useScams';
 import {
   useAlertPreferences,
@@ -145,7 +147,7 @@ function WatchProfilesPanel() {
                 <span className="font-medium text-slate-900">{profile.label || 'Untitled'}</span>
                 <span className="text-slate-500">
                   {' — '}
-                  {profile.state ?? 'Nationwide'}
+                  {profile.state ? stateName(profile.state) : 'Nationwide'}
                   {categoryName ? ` · ${categoryName}` : ''}
                 </span>
               </div>
@@ -173,13 +175,20 @@ function WatchProfilesPanel() {
           />
         </div>
         <div>
-          <label className="block text-xs text-slate-500">State</label>
-          <input
+          <label htmlFor="watch-state" className="block text-xs text-slate-500">State</label>
+          <select
+            id="watch-state"
             value={state}
-            onChange={(e) => setState(e.target.value.toUpperCase().slice(0, 2))}
-            placeholder="FL"
-            className="mt-1 rounded-md border border-slate-300 px-2 py-1.5 text-sm w-20"
-          />
+            onChange={(e) => setState(e.target.value)}
+            className="mt-1 rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm"
+          >
+            <option value="">Nationwide only</option>
+            {US_STATE_OPTIONS.map(([code, name]) => (
+              <option key={code} value={code}>
+                {name}
+              </option>
+            ))}
+          </select>
         </div>
         <div>
           <label className="block text-xs text-slate-500">Category</label>
@@ -406,18 +415,29 @@ export default function Alerts() {
       <h1 className="text-2xl font-bold text-slate-900 mb-1">Alerts</h1>
       <p className="text-sm text-slate-500 mb-6">Tell us what to watch for, and how often to hear from us.</p>
 
+      <div className="mb-6">
+        <HomeAreaCard prominent />
+      </div>
       <AlertPreferencesPanel />
       <WatchProfilesPanel />
 
       <div className="mt-10">
         <h2 className="font-semibold text-slate-900 mb-3">Real-time alert feed</h2>
 
-        <input
+        <label htmlFor="feed-state" className="sr-only">Filter by state</label>
+        <select
+          id="feed-state"
           value={state}
-          onChange={(e) => setState(e.target.value.toUpperCase().slice(0, 2))}
-          placeholder="Filter by state (e.g. FL)"
-          className="mb-6 rounded-md border border-slate-300 px-3 py-2 text-sm w-48"
-        />
+          onChange={(e) => setState(e.target.value)}
+          className="mb-6 rounded-md border border-slate-300 bg-white px-3 py-2 text-sm"
+        >
+          <option value="">All states</option>
+          {US_STATE_OPTIONS.map(([code, name]) => (
+            <option key={code} value={code}>
+              {name}
+            </option>
+          ))}
+        </select>
 
         {isForbidden && (
           <p className="text-slate-600">

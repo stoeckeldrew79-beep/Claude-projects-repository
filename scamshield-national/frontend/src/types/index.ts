@@ -64,6 +64,14 @@ export interface AlertCandidate {
   status: 'pending' | 'approved' | 'dismissed';
   created_at: string;
   resolved_at: string | null;
+  // Who it would reach if approved now (pending queue only; absent on an
+  // older backend).
+  audience?: { email: number; sms: number };
+}
+
+export interface AlertAudienceSummary {
+  by_state: { state: string; users: number }[];
+  nationwide: { email: number; sms: number };
 }
 
 export interface Article {

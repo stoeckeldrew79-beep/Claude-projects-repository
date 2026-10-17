@@ -37,6 +37,7 @@ export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
+  const [zipCode, setZipCode] = useState('');
 
   const login = useLogin();
   const register = useRegister();
@@ -53,7 +54,11 @@ export default function Login() {
 
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
-    mutation.mutate({ email, password }, { onSuccess: () => navigate(next) });
+    if (mode === 'register') {
+      register.mutate({ email, password, zipCode: zipCode.trim() || undefined }, { onSuccess: () => navigate(next) });
+    } else {
+      login.mutate({ email, password }, { onSuccess: () => navigate(next) });
+    }
   }
 
   const tabClass = (active: boolean) =>
@@ -160,6 +165,28 @@ export default function Login() {
               </p>
             )}
           </div>
+          {mode === 'register' && (
+            <div>
+              <label htmlFor="register-zip" className="block text-sm font-medium text-slate-700">
+                ZIP code <span className="font-normal text-slate-400">(optional)</span>
+              </label>
+              <input
+                id="register-zip"
+                inputMode="numeric"
+                autoComplete="postal-code"
+                pattern="[0-9]{5}(-[0-9]{4})?"
+                maxLength={10}
+                placeholder="e.g. 33101"
+                value={zipCode}
+                onChange={(e) => setZipCode(e.target.value)}
+                aria-describedby="zip-hint"
+                className="mt-1 w-full rounded-md border border-slate-300 px-3 py-2.5 text-sm"
+              />
+              <p id="zip-hint" className="mt-1 text-xs text-slate-500">
+                US only. We use it to send you scam alerts for your state — never shared.
+              </p>
+            </div>
+          )}
           {mutation.isError && (
             <p role="alert" className="rounded-md border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
               {errorMessage(mutation.error, mode === 'login' ? 'Sign in failed.' : 'Registration failed.')}

@@ -404,8 +404,14 @@ either way. When on:
   on the 30 days before, gets a state-only candidate — unless the same category is already
   spiking nationally, in which case the nationwide alert covers that state too.
 
-State-targeted alerts reach subscribers whose account `state` (or ZIP) matches. They go through
-the same admin review as everything else, and the queue shows which state each one targets.
+State-targeted alerts reach subscribers whose home state (or ZIP) matches, plus anyone watching
+that state from the Alerts page (a "Mom in FL" watch profile on a Texas account) — see
+`AUDIENCE_MATCH` in `backend/src/models/users.ts`. Subscribers set a home ZIP at signup
+(optional) or later from the Dashboard / Alerts page; the server derives the state from the ZIP
+and rejects a ZIP and state that disagree (`backend/src/utils/homeArea.ts`). They go through the
+same admin review as everything else: the queue shows which state each candidate targets and
+how many email and text subscribers it would reach if approved now, computed with the exact
+query the send uses, plus where subscribers are by home state.
 Rules live in `backend/src/services/stateTargeting.ts`. It's worth waiting until a few weeks
 of reports carry a state before turning this on.
 

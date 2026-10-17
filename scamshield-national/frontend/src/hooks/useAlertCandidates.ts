@@ -1,5 +1,10 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import { approveAlertCandidate, dismissAlertCandidate, fetchPendingAlertCandidates } from '../services/alertCandidates';
+import {
+  approveAlertCandidate,
+  dismissAlertCandidate,
+  fetchAlertAudienceSummary,
+  fetchPendingAlertCandidates,
+} from '../services/alertCandidates';
 
 export function usePendingAlertCandidates(enabled: boolean) {
   return useQuery({
@@ -22,5 +27,14 @@ export function useDismissAlertCandidate() {
   return useMutation({
     mutationFn: (id: string) => dismissAlertCandidate(id),
     onSuccess: () => queryClient.invalidateQueries({ queryKey: ['alert-candidates', 'pending'] }),
+  });
+}
+
+export function useAlertAudienceSummary(enabled: boolean) {
+  return useQuery({
+    queryKey: ['alert-candidates', 'audience'],
+    queryFn: fetchAlertAudienceSummary,
+    enabled,
+    retry: false,
   });
 }

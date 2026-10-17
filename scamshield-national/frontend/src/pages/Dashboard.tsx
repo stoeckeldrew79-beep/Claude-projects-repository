@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useAuthStore } from '../store/useAuthStore';
 import { useBillingPortal, useSubscriptionStatus } from '../hooks/useSubscription';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
+import { HomeAreaCard } from '../components/HomeAreaCard';
 
 const TIER_LABEL: Record<string, string> = {
   free: 'Free',
@@ -56,7 +57,11 @@ export default function Dashboard() {
       <h1 className="mt-1 text-3xl font-bold tracking-tight text-slate-900">Dashboard</h1>
       <p className="mt-2 text-slate-600 break-all">Signed in as {user.email}</p>
 
-      <div className="mt-8 grid gap-6 lg:grid-cols-[1fr_1.4fr]">
+      <div className="mt-6">
+        <HomeAreaCard prominent />
+      </div>
+
+      <div className="mt-6 grid gap-6 lg:grid-cols-[1fr_1.4fr]">
         <div className="rounded-2xl bg-[#0f1a2b] p-6 text-white">
           <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-400">Your plan</h2>
           {isLoading && <div className="mt-3 h-9 w-32 rounded bg-white/10 animate-pulse" />}
