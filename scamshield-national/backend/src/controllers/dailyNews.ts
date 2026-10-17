@@ -3,7 +3,6 @@ import { pool } from '../db/connection';
 import { asyncHandler } from '../utils/asyncHandler';
 import { INTERNATIONAL_SEARCH_TERMS } from '../jobs/dailyNewsSearchTerms';
 // Pure modules (no main(), no DB) - safe to import from a request handler.
-import { INVESTOR_SPAM_PG, PRESS_WIRE_PG, WIRE_LITIGATION_PG } from '../jobs/newsQuality';
 import { clusterStories, dojOfficeFromUrl, fraudTheme, themeCounts } from '../jobs/newsCluster';
 
 // Most stories any single outlet may contribute to the Today's Scams feed.
@@ -79,14 +78,14 @@ function isNarrow(f: FeedFilter): boolean {
   return Boolean(f.state) || f.kind === 'ag' || f.kind === 'federal';
 }
 
-// Shareholder class-action solicitations (newsQuality.ts), excluded at query
-// time as well as at ingest so rows stored before the filter existed never
-// render, even between a deploy and the next scan. News rows only: official
-// AG and federal releases come from their own vetted scanners.
-function notInvestorSpamSql(params: unknown[]): string {
-  params.push(INVESTOR_SPAM_PG, PRESS_WIRE_PG, WIRE_LITIGATION_PG);
-  const n = params.length;
-  return `(source_kind <> 'news' OR NOT (headline ~* $${n - 2} OR (source_name ~* $${n - 1} AND headline ~* $${n})))`;
+// Shareholder class-action spam (newsQuality.ts) is kept out of the table
+// itself: rejected at ingest, purged from stored rows on every scan run, and
+// cleared once by migration 031. It used to be filtered here as well, on
+// every request — a ~45-name regex run against every stored headline, which
+// cost 3-5 seconds per Today's Scams load on the production database. The
+// table no longer holds any, so the per-request check is gone.
+function notInvestorSpamSql(_params: unknown[]): string {
+  return 'TRUE';
 }
 
 function feedWhere(f: FeedFilter, params: unknown[]): string {
