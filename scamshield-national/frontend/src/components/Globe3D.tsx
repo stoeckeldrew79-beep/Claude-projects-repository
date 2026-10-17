@@ -42,8 +42,6 @@ const MIN_ZOOM = 1;
 const MAX_ZOOM = 6;
 // Degrees per second of idle spin. Gentle enough to read labels while it turns.
 const AUTO_ROTATE_DEG_PER_SEC = 4;
-// After someone drags, wait before spinning again so it doesn't fight them.
-const IDLE_RESUME_MS = 4000;
 
 interface Marker {
   code: string;
@@ -330,7 +328,9 @@ export function Globe3D({
       const dt = lastTime ? Math.min(64, time - lastTime) : 16;
       lastTime = time;
       let animating = false;
-      if (!dragging && !reduceMotion && time - lastInteraction > IDLE_RESUME_MS) {
+      // The globe never stops turning: dragging and zooming add to the spin
+      // rather than pausing it (drags apply as deltas, so the two combine).
+      if (!reduceMotion) {
         rotation[0] += (AUTO_ROTATE_DEG_PER_SEC * dt) / 1000;
         animating = true;
       }
