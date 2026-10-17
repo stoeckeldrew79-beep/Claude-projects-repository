@@ -12444,3 +12444,22 @@ The case also became a political scandal. In 1966, shortly before the charges we
 The Wolfson case illustrates how a legal violation by a successful dealmaker can hinge on the dull rules of securities registration rather than any spectacular theft, and how quickly a financial case can become a question of judicial ethics when money flows between a defendant and a judge who may influence the outcome.`,
     sourceUrl: 'https://www.ebsco.com/research-starters/economics/investor-louis-wolfson-convicted-selling-stock-illegally',
 });
+
+NotoriousGM.push({
+    title: 'Juan Antonio Roca and the Marbella Malaya Corruption Case',
+    slug: 'juan-antonio-roca-marbella-malaya-corruption',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'bribery', 'political-corruption', 'money-laundering'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marbella_from_La_Concha,_Andalucia,_Spain_-_Sept_2009.jpg?width=1200',
+    coverImageCredit: 'Photo: David Iliff (CC BY-SA 3.0) — Marbella, Andalusia, Spain, seen from La Concha, 2009',
+    coverImagePosition: 50,
+    body: `Marbella, on Spain's Costa del Sol, was at the centre of what the Spanish judiciary called a widespread network of political and economic corruption in which the town's urban planning decisions were bought and sold. Juan Antonio Roca, who had been the city's planning chief, was found to be the mastermind. The Spanish judiciary described him as a de facto mayor, and the councillors as officials who approved planning matters without scrutiny.
+
+The scheme, as set out in the 2013 judgment, worked by favouring developers, builders and investors through municipal decisions. In return for bribes, planning rules were breached to the detriment of the public interest, and councillors abandoned their duties in favour of private interests. Roca's convictions covered continued passive bribery, money laundering as head of an organisation, fraud and prevarication (knowingly making unjust administrative decisions). The investigation was known as Operation Malaya.
+
+The trial in Málaga ran for three years and involved 84 defendants. On October 4, 2013, the Audiencia Provincial de Málaga issued its ruling (sentencia 535/2013). It sentenced Roca to 11 years in prison and a fine of €240 million, with a 34-year disqualification, and the fine was to be covered by his properties. Julián Muñoz, a former mayor of Marbella, received two years in prison and five years of disqualification. Marisol Yagüe, another former mayor, was sentenced to a prison term of more than six years (reports differ on the exact length) and a fine of more than €2 million. Others convicted included Pedro Román, with four years and a €2.5 million fine, and Montserrat Corulla, with four years and a €30 million fine. The Organized Crime and Corruption Reporting Project, summarising the verdict, counted 53 convictions on charges including bribery, fraud and money laundering.
+
+The Malaya case illustrates how urban planning, which allows a local authority to turn a rezoning decision into millions of euros in value, is one of the most vulnerable parts of local government to bribery: the people who decide what may be built are in a position to sell that decision, and the buyers, as developers, have every reason to pay. It also shows how a fixer working from inside the planning department can stand behind elected officials, and how long it takes the courts to untangle such a network once it is in place.`,
+    sourceUrl: 'https://www.poderjudicial.es/cgpj/en/Judiciary/Novelties/La-Audiencia-Provincial-de-Malaga-condena-a-Roca-a-11-anos-de-prision-y-multa-de-240-millones-de-euros--Sentencia-del--Caso-Malaya-',
+});
