@@ -136,7 +136,8 @@ export const FRAUD_THEMES: { theme: string; pattern: RegExp }[] = [
   { theme: 'Crypto & investment', pattern: /\b(crypto\w*|bitcoin|ponzi|investment|investors?|securities|pig butchering|trading)\b/i },
   { theme: 'Romance & impersonation', pattern: /\b(romance|impersonat\w*|impost[eo]rs?|posing as|sextortion)\b/i },
   { theme: 'Identity theft & phishing', pattern: /\b(identity theft|phish\w*|data breach|hack\w*|sim swap)\b/i },
-  { theme: 'Deceptive business practices', pattern: /\b(deceptive|unfair|advertising|marketing|subscription|junk fees?|fees|pricing|franchise\w*|multilevel|telemarket\w*|robocall\w*|debt relief|credit repair|refunds?|redress)\b/i },
+  { theme: 'Deceptive business practices', pattern: /\b(deceptive|unfair|advertising|marketing|subscription|junk fees?|fees|pricing|franchise\w*|multilevel|telemarket\w*|robocall\w*|debt relief|credit repair|refunds?|redress|business opportunit\w*|vending|work[- ]from[- ]home)\b/i },
+  { theme: 'False claims, bribery & kickbacks', pattern: /\b(false claims|kickbacks?|bribe\w*|bribery|honest services)\b/i },
   { theme: 'Bank, wire & money laundering', pattern: /\b(wire fraud|bank fraud|money launder\w*|checks?|loan\w*|mortgage)\b/i },
   { theme: 'Government program fraud', pattern: /\b(snap|benefits?|grant|program|contract\w*|postal|food stamps?|housing)\b/i },
 ];

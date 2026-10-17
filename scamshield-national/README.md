@@ -415,6 +415,26 @@ query the send uses, plus where subscribers are by home state.
 Rules live in `backend/src/services/stateTargeting.ts`. It's worth waiting until a few weeks
 of reports carry a state before turning this on.
 
+### Federal fraud case archive
+
+`/federal/cases` searches every fraud/scam press release the US Department of Justice has
+published since 2009, from its public API (`https://www.justice.gov/api/v1/press_releases.json`,
+~274,000 releases of all kinds; roughly a quarter are fraud cases). `backend/src/jobs/scanDojArchive.ts`
+runs right after the daily federal news scan (`npm run scan-federal-news` runs both), so no extra
+Render service is needed:
+
+- **Catch-up** reads the newest releases until it reaches ones already seen.
+- **Backfill** reads the next `DOJ_BACKFILL_PAGES` pages (default 1800 of ~5,500) of the whole
+  archive, oldest first, and saves its place in `ingest_state`, so the full history arrives over
+  about three daily runs and an interrupted run simply resumes.
+- **Storage guard:** the backfill pauses itself if the database passes 75% of
+  `DB_STORAGE_LIMIT_MB` (default 1024 — set it to the Render database's disk size). The
+  production monitor separately warns at 80%. Only a short summary of each release is stored
+  (each row links to justice.gov), so the finished archive is roughly 150–200 MB.
+
+Which releases count as fraud is decided in `backend/src/jobs/dojArchive.ts` (DOJ's own fraud
+topic tags, or a fraud word in the headline, minus look-alikes such as child-exploitation cases).
+
 ## Checks and monitoring
 
 - **ScamShield CI** (`.github/workflows/scamshield-ci.yml`) runs on every PR touching

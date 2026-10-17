@@ -9,6 +9,8 @@
 //   2. the live website loads
 //   3. the "Today's Scams" feed has a recent headline (the scan cron runs),
 //      and new scams and articles keep arriving (the content pipeline runs)
+//   3b. the database disk isn't near full, and the federal case archive
+//      keeps receiving new DOJ cases
 //   4. every configured state Attorney General source is still producing
 //   5. the latest run of each automatic content/CI workflow didn't fail
 //
@@ -33,6 +35,12 @@ const NEWS_MAX_AGE_HOURS = 12;
 // generator, a routine feeding a stuck session). Growth is the real signal:
 // no new scam or article for two days means the pipeline has stalled.
 const CONTENT_MAX_AGE_HOURS = 48;
+// The federal case archive's catch-up runs daily after the federal news
+// scan; DOJ publishes fraud cases every weekday.
+const FEDERAL_ARCHIVE_MAX_AGE_HOURS = 96;
+// The Render database plan's disk. Warn at 80% so there's time to raise it.
+const DB_STORAGE_LIMIT_MB = Number(process.env.DB_STORAGE_LIMIT_MB || 1024);
+const DB_WARN_FRACTION = 0.8;
 
 function ageCheck(label, times, maxHours, stalledMessage) {
   const valid = times.map((t) => Date.parse(t)).filter((t) => !Number.isNaN(t));
@@ -71,6 +79,24 @@ function liveChecks() {
       const body = await getJson(API_URL, '/v1/scams?sort=newest&page=1');
       return ageCheck('scam', (body.data || []).map((s) => s.created_at), CONTENT_MAX_AGE_HOURS,
         'the scam generators have stopped adding entries');
+    }],
+    ['Database has room to grow', async () => {
+      const res = await fetch(API_URL + '/health', { signal: AbortSignal.timeout(15000) });
+      const body = await res.json();
+      // An older deploy doesn't report size; nothing to check yet.
+      if (typeof body.database_mb !== 'number') return 'size not reported by this deploy';
+      const pct = Math.round((body.database_mb / DB_STORAGE_LIMIT_MB) * 100);
+      if (body.database_mb > DB_STORAGE_LIMIT_MB * DB_WARN_FRACTION) {
+        throw new Error(`database is ${body.database_mb} MB, ${pct}% of the ${DB_STORAGE_LIMIT_MB} MB disk — increase the disk size on the Render database before it fills`);
+      }
+      return `${body.database_mb} MB (${pct}% of ${DB_STORAGE_LIMIT_MB} MB)`;
+    }],
+    ['Federal case archive is up to date', async () => {
+      const res = await fetch(API_URL + '/v1/federal-cases?page=1', { signal: AbortSignal.timeout(15000) });
+      if (res.status === 404) return 'archive not deployed yet';
+      const body = await res.json();
+      return ageCheck('federal case', (body.data || []).map((c) => c.published_at), FEDERAL_ARCHIVE_MAX_AGE_HOURS,
+        'the DOJ archive import (runs after scan-federal-news) has probably stopped');
     }],
     ['New articles are still being added', async () => {
       const body = await getJson(API_URL, '/v1/articles');

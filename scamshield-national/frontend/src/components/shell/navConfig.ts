@@ -27,7 +27,8 @@ export const PRIMARY_NAV: NavItem[] = [
 
 export const MORE_NAV: NavItem[] = [
   { to: '/state-attorneys-general', label: 'State AGs', hint: 'Official state Attorney General alerts' },
-  { to: '/federal', label: 'Federal Watch', hint: 'DOJ and FTC enforcement releases' },
+  { to: '/federal', label: 'Federal Watch', end: true, hint: 'DOJ and FTC enforcement releases' },
+  { to: '/federal/cases', label: 'Federal Case Archive', hint: 'Every DOJ fraud case since 2009' },
   { to: '/global-sources', label: 'Global Sources', hint: 'Official agencies worldwide' },
   { to: '/statistics', label: 'Statistics', hint: 'Live numbers and trends' },
   { to: '/subscribe', label: 'Plans & Pricing', hint: 'Alerts by email and SMS' },
@@ -50,7 +51,8 @@ export const MOBILE_NAV_GROUPS: { heading: string; items: NavItem[] }[] = [
     heading: 'Official sources',
     items: [
       { to: '/state-attorneys-general', label: 'State Attorneys General' },
-      { to: '/federal', label: 'Federal Watch' },
+      { to: '/federal', label: 'Federal Watch', end: true },
+      { to: '/federal/cases', label: 'Federal Case Archive' },
       { to: '/global-sources', label: 'Global Sources' },
     ],
   },

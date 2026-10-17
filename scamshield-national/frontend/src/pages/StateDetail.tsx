@@ -9,6 +9,7 @@ import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { useDailyScamNews } from '../hooks/useDailyNews';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { ScamCard } from '../components/ScamCard';
+import { StateFederalCases } from '../components/StateFederalCases';
 import { timeAgo } from '../utils/timeAgo';
 import NotFound from './NotFound';
 
@@ -283,6 +284,8 @@ export default function StateDetail() {
           </p>
         </aside>
       </div>
+
+      <StateFederalCases code={state.state} name={state.state_name} />
 
       {state.categories.length > 0 && (
         <section className="mt-10">

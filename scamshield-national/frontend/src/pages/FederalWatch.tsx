@@ -5,6 +5,7 @@ import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { timeAgo } from '../utils/timeAgo';
 import { FederalStory, FederalWatchData } from '../types';
 import { BlurFade } from '../components/magicui/blur-fade';
+import { useFederalArchiveStats } from '../hooks/useFederalCases';
 
 // Stories shown before "Show all" — enough to fill a screen and a half.
 const STORY_PREVIEW = 10;
@@ -28,6 +29,31 @@ function AgencyBadge({ agency }: { agency: 'DOJ' | 'FTC' }) {
     >
       {agency}
     </span>
+  );
+}
+
+// Points from the live feed to the full case archive. Hidden until the
+// archive endpoint answers (an older backend, or an empty archive).
+function ArchiveBanner() {
+  const { data } = useFederalArchiveStats();
+  if (!data || data.total === 0) return null;
+  const since = data.first_date ? new Date(data.first_date).getUTCFullYear() : null;
+  return (
+    <Link
+      to="/federal/cases"
+      className="group mt-8 flex flex-col gap-3 rounded-2xl bg-gradient-to-r from-slate-950 to-[#0f1a2b] p-6 text-white sm:flex-row sm:items-center sm:justify-between"
+    >
+      <div>
+        <p className="text-xs font-bold uppercase tracking-widest text-red-400">Federal case archive</p>
+        <p className="mt-1 text-xl font-bold">
+          Search {data.total.toLocaleString()} federal fraud cases{since ? ` since ${since}` : ''}
+        </p>
+        <p className="mt-1 text-sm text-slate-300">By state, year and type — every one linked to the official DOJ release.</p>
+      </div>
+      <span className="shrink-0 rounded-md bg-red-600 px-4 py-2 text-sm font-semibold group-hover:bg-red-500">
+        Open the archive →
+      </span>
+    </Link>
   );
 }
 
@@ -234,6 +260,8 @@ export default function FederalWatch() {
       </BlurFade>
 
       {stats && <StatTiles stats={stats} />}
+
+      <ArchiveBanner />
 
       <div className="mt-10 grid gap-8 lg:grid-cols-[minmax(0,1fr)_320px]">
         <section aria-labelledby="federal-stories">

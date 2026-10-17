@@ -16,6 +16,7 @@ const GlobalMap = lazy(() => import('./pages/GlobalMap'));
 const GlobalSources = lazy(() => import('./pages/GlobalSources'));
 const StateAttorneysGeneral = lazy(() => import('./pages/StateAttorneysGeneral'));
 const FederalWatch = lazy(() => import('./pages/FederalWatch'));
+const FederalCases = lazy(() => import('./pages/FederalCases'));
 const Statistics = lazy(() => import('./pages/Statistics'));
 const StateDetail = lazy(() => import('./pages/StateDetail'));
 const NotFound = lazy(() => import('./pages/NotFound'));
@@ -66,6 +67,7 @@ export default function App() {
           <Route path="/global-sources" element={<GlobalSources />} />
           <Route path="/state-attorneys-general" element={<StateAttorneysGeneral />} />
           <Route path="/federal" element={<FederalWatch />} />
+          <Route path="/federal/cases" element={<FederalCases />} />
           <Route path="/statistics" element={<Statistics />} />
           <Route path="/states/:slug" element={<StateDetail />} />
           <Route path="/report" element={<Report />} />
