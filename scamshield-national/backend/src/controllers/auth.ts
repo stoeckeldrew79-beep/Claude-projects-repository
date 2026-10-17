@@ -3,6 +3,8 @@ import jwt from 'jsonwebtoken';
 import { AuthedRequest } from '../middleware/auth';
 import * as UsersModel from '../models/users';
 import { asyncHandler } from '../utils/asyncHandler';
+import { HomeArea, resolveHomeArea } from '../utils/homeArea';
+import { InvalidStateError } from '../utils/usStates';
 
 // Dev-mode auth: real password check against a local bcrypt hash, in
 // place of Auth0/Supabase (spec section 5.4) until that's wired up.
@@ -24,8 +26,25 @@ function issueToken(user: { id: string; email: string }) {
 }
 
 export const register = asyncHandler<AuthedRequest>(async (req, res) => {
-  const { email, password } = req.body as { email?: string; password?: string };
+  const { email, password, zip_code, state } = req.body as {
+    email?: string;
+    password?: string;
+    zip_code?: unknown;
+    state?: unknown;
+  };
   if (!email || !password) return res.status(400).json({ error: 'email and password are required' });
+
+  // Optional at signup: a ZIP (or state) so local alerts work from day one.
+  // Checked before the account is created, so a typo doesn't leave a
+  // half-made account behind.
+  let home: HomeArea | undefined;
+  try {
+    home = resolveHomeArea({ zip_code, state });
+  } catch (err) {
+    if (err instanceof InvalidStateError) return res.status(400).json({ error: err.message });
+    throw err;
+  }
+
   if (password.length < MIN_PASSWORD_LENGTH) {
     return res.status(400).json({ error: `password must be at least ${MIN_PASSWORD_LENGTH} characters` });
   }
@@ -34,7 +53,10 @@ export const register = asyncHandler<AuthedRequest>(async (req, res) => {
   if (existing) return res.status(409).json({ error: 'User already exists' });
 
   const passwordHash = await bcrypt.hash(password, BCRYPT_ROUNDS);
-  const user = await UsersModel.createUser({ authProviderId: email, email, passwordHash });
+  let user = await UsersModel.createUser({ authProviderId: email, email, passwordHash });
+  if (home && (home.state || home.zip_code)) {
+    user = (await UsersModel.updateUserProfile(user.id, home)) ?? user;
+  }
   res.status(201).json({ data: UsersModel.sanitizeUser(user), token: issueToken(user) });
 });
 

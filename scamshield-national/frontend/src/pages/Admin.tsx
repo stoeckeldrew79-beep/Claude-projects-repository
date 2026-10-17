@@ -22,7 +22,12 @@ import { ScamReport } from '../services/reports';
 import { COUNTRY_NAMES } from '../utils/countries';
 import { stateName, US_STATE_OPTIONS } from '../utils/usStates';
 import { useApproveDraft, useDiscardDraft, useDraftArticles } from '../hooks/useDrafts';
-import { useApproveAlertCandidate, useDismissAlertCandidate, usePendingAlertCandidates } from '../hooks/useAlertCandidates';
+import {
+  useAlertAudienceSummary,
+  useApproveAlertCandidate,
+  useDismissAlertCandidate,
+  usePendingAlertCandidates,
+} from '../hooks/useAlertCandidates';
 import { AlertCandidate } from '../types';
 import { useCreateGlobalStat, useDeleteGlobalStat, useGlobalSources } from '../hooks/useGlobalSources';
 import { Article } from '../types';
@@ -673,6 +678,16 @@ function AlertCandidateCard({ candidate }: { candidate: AlertCandidate }) {
           ? 'all opted-in subscribers nationwide'
           : `${candidate.state ? stateName(candidate.state) : candidate.zip_code} subscribers only`}
       </p>
+      {candidate.audience && (
+        <p className="mt-1 text-sm font-medium text-slate-800">
+          Would reach {candidate.audience.email.toLocaleString()} email{' '}
+          {candidate.audience.email === 1 ? 'subscriber' : 'subscribers'} and{' '}
+          {candidate.audience.sms.toLocaleString()} by text
+          {candidate.audience.email + candidate.audience.sms === 0 && (
+            <span className="font-normal text-slate-500"> — nobody yet; approving still records the alert.</span>
+          )}
+        </p>
+      )}
 
       <div className="mt-3 flex gap-2">
         <button
@@ -703,6 +718,33 @@ function AlertCandidateCard({ candidate }: { candidate: AlertCandidate }) {
   );
 }
 
+// Where the subscribers are, so a state-only alert can be judged against
+// how many people actually live there.
+function AudienceSummary({ enabled }: { enabled: boolean }) {
+  const { data } = useAlertAudienceSummary(enabled);
+  if (!data) return null;
+  const withState = data.by_state.reduce((sum, s) => sum + s.users, 0);
+  return (
+    <div className="mt-4 rounded-md bg-slate-50 p-3 text-sm text-slate-600">
+      <p>
+        A nationwide alert reaches{' '}
+        <span className="font-semibold text-slate-900">{data.nationwide.email.toLocaleString()}</span> by email and{' '}
+        <span className="font-semibold text-slate-900">{data.nationwide.sms.toLocaleString()}</span> by text.{' '}
+        {withState.toLocaleString()} account{withState === 1 ? ' has' : 's have'} a home state set.
+      </p>
+      {data.by_state.length > 0 && (
+        <p className="mt-1 text-xs text-slate-500">
+          Top states:{' '}
+          {data.by_state
+            .slice(0, 8)
+            .map((s) => `${stateName(s.state)} ${s.users}`)
+            .join(' · ')}
+        </p>
+      )}
+    </div>
+  );
+}
+
 function AlertCandidatesQueue() {
   const user = useAuthStore((s) => s.user);
   const { data: candidates, isLoading, isError } = usePendingAlertCandidates(Boolean(user));
@@ -715,6 +757,7 @@ function AlertCandidatesQueue() {
         <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">npm run detect-alerts</code>. Approving one
         immediately texts/emails matching subscribers — nothing sends automatically.
       </p>
+      <AudienceSummary enabled={Boolean(user)} />
       {isLoading && <p className="mt-3 text-sm text-slate-500">Loading…</p>}
       {isError && <p className="mt-3 text-sm text-red-700">Couldn't load alert candidates — are you signed in as an admin?</p>}
       <div className="mt-4 space-y-3">
