@@ -12424,3 +12424,23 @@ Gregory was declared bankrupt in 1933 and moved to France. He is reported to hav
 The Gregory affair shows how political funding, patronage and personal enrichment can merge when honours become a currency. The 1925 Act was written to stop the system he profited from, yet he remains the only person ever convicted under it, which suggests how much harder it is to uncover the sale of access to power than to prohibit it in law.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Maundy_Gregory',
 });
+
+NotoriousGM.push({
+    title: 'Louis Wolfson and the Abe Fortas Affair',
+    slug: 'louis-wolfson-unregistered-stock-sales-fortas-affair',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'securities-fraud', 'corporate-raider'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wall_Street_financier_Louis_Wolfson_at_the_Hialeah_Racetrack_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Bert Morgan, 1958 (Public Domain, Florida Memory / State Archive of Florida) — Louis Wolfson at Hialeah Park',
+    coverImagePosition: 50,
+    body: `Louis Wolfson (1912–2007) made his first million before he turned 30, by buying surplus plumbing supplies cheaply and reselling them, and went on to become one of the first modern corporate raiders. After a 1951 takeover he became chairman of Merritt-Chapman & Scott, a marine construction and salvage company that he expanded into a conglomerate whose projects included the Glen Canyon Dam and the Mackinac Bridge. In 1955 he mounted an unsuccessful hostile bid for the retailer Montgomery Ward, a campaign credited with helping to pioneer the modern hostile tender offer. He was also a prominent horse owner, whose Harbor View Farm later produced the Triple Crown winner Affirmed.
+
+Wolfson's aggressive style attracted the attention of regulators. After taking control of the Washington, D.C. transit company Capital Transit in 1950, he raised its dividend from fifty cents to two dollars a share and then four dollars, although the company's 1950 net profit was only $332,000. When he later refused his employees a raise, a strike followed, and his initial refusal of a congressional subpoena made him enemies in Congress. In 1957 the SEC briefly suspended trading in Trans Continental Industries stock, citing "fraudulent and manipulative practices." In 1966 he was charged with fraud over the Merritt-Chapman stock purchases and with perjury over false SEC filings.
+
+On November 28, 1967, Wolfson and an associate, Elkin Gerbert, were convicted of securities violations for selling unregistered shares of Continental Enterprises, Inc., in breach of Section 5 of the Securities Act of 1933. A broker, John J. Morley, testified that he had warned Wolfson about the registration requirement; Wolfson said he had been unaware of it. Accounts also describe a second conviction for perjury and obstruction of justice during an SEC investigation of Merritt-Chapman. He was sentenced to a federal prison term reported as ten months, served in a minimum-security camp at Eglin Air Force Base in Florida (some sources say nine months), and was fined and barred from working in the securities industry.
+
+The case also became a political scandal. In 1966, shortly before the charges were brought, Wolfson's family foundation arranged to pay Supreme Court Justice Abe Fortas $20,000 a year as a consultant. The arrangement surfaced during Wolfson's appeal, and researchers suspect it may have been an attempt to secure Fortas's help with the SEC. Fortas returned the money, and on May 14, 1969 he resigned from the Court, though he maintained he had done nothing wrong. Wolfson kept appealing until 1994 without success, and after his release he became an advocate of prison reform. He died on December 30, 2007, at age 95.
+
+The Wolfson case illustrates how a legal violation by a successful dealmaker can hinge on the dull rules of securities registration rather than any spectacular theft, and how quickly a financial case can become a question of judicial ethics when money flows between a defendant and a judge who may influence the outcome.`,
+    sourceUrl: 'https://www.ebsco.com/research-starters/economics/investor-louis-wolfson-convicted-selling-stock-illegally',
+});
