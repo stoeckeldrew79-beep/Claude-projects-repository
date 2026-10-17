@@ -13,6 +13,7 @@ import scamReportsRoutes from './routes/scamReports';
 import globalSourcesRoutes from './routes/globalSources';
 import stateAgSourcesRoutes from './routes/stateAgSources';
 import alertCandidatesRoutes from './routes/alertCandidates';
+import federalCasesRoutes from './routes/federalCases';
 import alertSubscriptionsRoutes from './routes/alertSubscriptions';
 import statsRoutes from './routes/stats';
 import dailyNewsRoutes from './routes/dailyNews';
@@ -49,8 +50,11 @@ if (process.env.NODE_ENV === 'production') {
 // A live `SELECT 1` makes this endpoint tell the truth about both halves.
 app.get('/health', async (_req, res) => {
   try {
-    await pool.query('SELECT 1');
-    res.json({ status: 'ok', database: 'connected' });
+    // Size is reported so monitoring can warn before the database disk
+    // fills up (scripts/monitor.js) — the federal case archive alone is a
+    // few hundred MB once complete.
+    const { rows } = await pool.query<{ bytes: string }>('SELECT pg_database_size(current_database())::text AS bytes');
+    res.json({ status: 'ok', database: 'connected', database_mb: Math.round(Number(rows[0].bytes) / 1048576) });
   } catch (err) {
     res.status(503).json({ status: 'degraded', database: 'unreachable', error: (err as Error).message });
   }
@@ -67,6 +71,7 @@ v1.use('/reports', scamReportsRoutes);
 v1.use('/global-sources', globalSourcesRoutes);
 v1.use('/state-ag-sources', stateAgSourcesRoutes);
 v1.use('/alert-candidates', alertCandidatesRoutes);
+v1.use('/federal-cases', federalCasesRoutes);
 v1.use('/alert-subscriptions', alertSubscriptionsRoutes);
 v1.use('/stats', statsRoutes);
 v1.use('/daily-news', dailyNewsRoutes);

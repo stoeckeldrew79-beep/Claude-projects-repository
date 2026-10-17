@@ -265,3 +265,40 @@ export interface StateDetail extends StateSummary {
   ag_news_count: number;
   categories: StateCategoryCount[];
 }
+
+// A DOJ fraud/scam press release in the federal case archive.
+export interface FederalCase {
+  id: string;
+  title: string;
+  summary: string | null;
+  url: string;
+  published_at: string;
+  office: string | null;
+  state: string | null;
+  theme: string;
+}
+
+export interface FederalCasePage {
+  data: FederalCase[];
+  total: number;
+  page: number;
+  page_size: number;
+}
+
+export interface FederalCaseFilters {
+  q?: string;
+  state?: string;
+  theme?: string;
+  year?: number;
+}
+
+export interface FederalArchiveStats {
+  total: number;
+  first_date: string | null;
+  last_date: string | null;
+  states_covered: number;
+  by_year: { year: number; count: number }[];
+  by_theme: { theme: string; count: number }[];
+  by_state: { state: string; count: number }[];
+  backfill_complete: boolean;
+}

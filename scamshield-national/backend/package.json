@@ -15,11 +15,12 @@
     "scan-daily-news": "ts-node src/jobs/scanDailyScamNews.ts",
     "test": "jest",
     "scan-state-ag-news": "ts-node src/jobs/scanStateAgNews.ts",
-    "scan-federal-news": "ts-node src/jobs/scanFederalScamNews.ts",
+    "scan-federal-news": "ts-node src/jobs/scanFederalScamNews.ts; ts-node src/jobs/scanDojArchive.ts",
     "generate-scams": "ts-node src/jobs/generateScamEntries.ts",
     "backfill-cover-photos": "ts-node src/jobs/backfillCoverPhotos.ts",
     "report-missing-photos": "ts-node src/jobs/backfillCoverPhotos.ts --report",
-    "set-password": "ts-node src/jobs/setPassword.ts"
+    "set-password": "ts-node src/jobs/setPassword.ts",
+    "scan-doj-archive": "ts-node src/jobs/scanDojArchive.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.116.0",
