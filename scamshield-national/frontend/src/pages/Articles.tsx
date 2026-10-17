@@ -121,6 +121,9 @@ export default function Articles() {
   const { data, isLoading, isError, fetchNextPage, hasNextPage, isFetchingNextPage } = useInfiniteArticles({
     tag: filter,
     q: query || undefined,
+    // "All" mixes guides and Notorious profiles so it doesn't open on the
+    // same cases as the Notorious page (see the 'mixed' order server-side).
+    sort: filter ? undefined : 'mixed',
   });
   const articles = useMemo(() => data?.pages.flat(), [data]);
   const sentinelRef = useInfiniteScroll(fetchNextPage, Boolean(hasNextPage) && !isFetchingNextPage);
