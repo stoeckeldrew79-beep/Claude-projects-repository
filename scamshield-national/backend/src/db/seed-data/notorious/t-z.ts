@@ -4112,3 +4112,24 @@ Prosecutors in Wuhan put Tang Wanxin on trial alongside six other D'Long executi
 The case became known in the Chinese press as the country's biggest stock-market scandal to date, and it illustrates a fraud playbook distinct from a classic Ponzi scheme: rather than simply paying old investors with new money, D'Long used borrowed cash and manipulated share prices to inflate the collateral it could keep pledging for new loans, turning its own stock into the fuel for its own expansion. That structure let the group grow for years with only scattered outside warning — and meant that once the share prices it had been propping up finally buckled, tens of thousands of depositors and institutional investors across a fifth of China's provinces went down with it almost overnight.`,
     sourceUrl: 'http://finance.sina.com.cn/stock/y/20060429/15592542261.shtml',
 });
+
+NotoriousTZ.push({
+    title: 'William Robson and the Crystal Palace Company Share Fraud',
+    slug: 'william-robson-crystal-palace-company-share-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'forgery', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Exterieur_van_Crystal_Palace_in_Sydenham_met_tuinen_en_fonteinen,_RP-F-F01134-AL.jpg?width=1200',
+    coverImageCredit: 'Photo: anonymous photographer, c. 1880–1910 (CC0 / Public Domain, Rijksmuseum) — the Crystal Palace at Sydenham, London',
+    coverImagePosition: 50,
+    body: `The Crystal Palace Company was a Victorian joint-stock enterprise formed to rebuild the glass-and-iron exhibition hall from the Great Exhibition of 1851 at Sydenham, in south London, and to run it as a public attraction. Like other companies of its era, it kept its own register of shareholders and a transfer office to process sales of shares. William Robson, who began as a lawyer's clerk and rose to manage that transfer department, used the position to carry out one of the best-known share forgeries of the 1850s.
+
+From about 1853 until 1856, according to a contemporary account in Dickens's magazine All the Year Round, Robson created shares that did not exist and sold them on the market. His scheme relied on what the writer called the apathy of the purchasers: for over two years, buyers traded the false shares without troubling to check the company's transfer office, where the fraud could have been found. The amount he took is given as about £27,000 in one account and about £30,000 in another.
+
+When suspicion fell on him, Robson fled and was captured in Sweden. At the Central Criminal Court in London, he was found guilty of forgery in November 1856. He was transported to Western Australia, and accounts differ on the exact term: one source records a twenty-year sentence for forgery, while another describes two terms of fourteen years. In the convict colony he sailed on the Edwin Fox alongside Leopold Redpath, the Great Northern Railway clerk who had been convicted of a far larger share fraud, and worked with him in the Commissariat Department. Robson soon obtained a ticket-of-leave, but was later found guilty of embezzlement and returned to prison. After his release he made a precarious living running a school and doing some literary work.
+
+The Robson and Redpath cases belong to a wave of Victorian frauds in which a single clerk with control of a company's share records could issue false shares that the market accepted. The company's transfer office was where a share's validity could be checked, and, as the contemporary account observed, buyers simply did not check.
+
+The case illustrates a pattern that remains familiar: fraud by an insider with sole control over the records, which continues because those relying on the records see no reason to check them.`,
+    sourceUrl: 'https://djo.org.uk/all-the-year-round/volume-iii/page-203.html',
+});
