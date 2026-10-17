@@ -12943,3 +12943,16 @@ UsAF.push({
     country: "US",
     state: "CT",
 });
+
+UsAF.push({
+    name: "Evolve Construction Post-Hurricane Roofing and Restoration Fraud",
+    slug: "evolve-construction-post-hurricane-roofing-and-restoration-fraud",
+    description:
+      "The Florida Attorney General has filed a consumer protection lawsuit against Evolve Construction, LLC, Evolve Construction & Restoration, Inc., and six of their principals, alleging they cheated homeowners needing roof repair, roof replacement, and water and mold remediation after Hurricanes Ian and Milton. According to the Attorney General's office, solicitors went door-to-door in storm-damaged Southwest Florida neighborhoods offering free inspections and fast repairs, then collected insurance proceeds — sometimes tens of thousands of dollars per household — without starting or finishing the work, and in some cases left liens filed against the homes. The office says the operators lacked the home solicitation permits and contracting licenses Florida law requires, and that more than 60 percent of the consumers who complained were seniors. At a Sarasota announcement, the Attorney General described at least 80 complaining customers across multiple Florida counties and more than $1 million in identified losses, a number expected to grow. Before hiring any storm-repair contractor, verify the license and local solicitation permit, never sign over your insurance proceeds, and report suspected fraud to the Florida Attorney General's Consumer Protection Division.",
+    categorySlug: "home-improvement-solar",
+    alertLevel: "high",
+    sources: ["Florida Office of the Attorney General, Consumer Protection Division (Attorney General James Uthmeier)"],
+    sourceUrl: "https://www.myfloridalegal.com/newsrelease/attorney-general-james-uthmeier-files-consumer-protection-lawsuit-against-evolve",
+    country: "US",
+    state: "FL",
+});
