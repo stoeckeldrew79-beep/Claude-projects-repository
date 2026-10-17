@@ -8521,3 +8521,24 @@ The criminal case followed in January 2005, when Riggs Bank pleaded guilty in fe
 Riggs's collapse illustrates how the exact business model that made a bank attractive to politically connected, high-net-worth foreign clients — discretion, personal relationships, and a willingness to look past uncomfortable questions — is also its single largest money-laundering risk. Regulators flagged Riggs's compliance failures years before the bank finally pleaded guilty, and even then one of the examiners who had reviewed the problem went to work for the bank he'd been investigating rather than the other way around; it took a Senate investigation, not routine bank supervision, to finally force the reckoning that ended a nearly two-century-old institution.`,
     sourceUrl: 'https://www.nbcnews.com/id/wbna5442566',
 });
+
+NotoriousNS.push({
+    title: 'Stefan Ortseifen and the IKB Subprime Statement',
+    slug: 'stefan-ortseifen-ikb-market-manipulation',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'securities-fraud', 'financial-crisis'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/IKB_Deutsche_Industriebank_+_Helaba_an_der_Uerdinger_Stra%C3%9Fe_in_D%C3%BCsseldorf_2.jpg?width=1200',
+    coverImageCredit: 'Photo: Andreas Schwarzkopf (CC BY-SA 3.0) — IKB Deutsche Industriebank building on Uerdinger Straße, Düsseldorf, 2016',
+    coverImagePosition: 50,
+    body: `IKB Deutsche Industriebank, based in Düsseldorf, was a lender to Germany's mid-sized companies that had also bought large amounts of U.S. mortgage-backed securities. Its chief executive, Stefan Ortseifen, earned about €1.6 million a year when the U.S. subprime market began to unravel in 2007. IKB became one of the highest-profile casualties of the U.S. subprime collapse, and an insolvency was prevented only by intervention from the state-owned development bank KfW.
+
+The criminal case against Ortseifen was narrow and rested on a single announcement. In 2007, days or weeks before IKB's near-collapse, the bank told the market that the subprime crisis would have only a "limited" impact on it. Reporting on the trial dates the statement to 20 July 2007; a legal commentary on the verdict places it in June. Prosecutors argued that the statement was too rosy, played down risks the bank already knew about, and misled investors into continuing to buy IKB shares. Ortseifen denied any wrongdoing. Notably, he was not charged with breach of trust, an offence that requires proof of intent.
+
+In July 2010 the Düsseldorf regional court convicted Ortseifen of market manipulation under Germany's Securities Trading Act. He received a ten-month suspended prison sentence and was ordered to pay €100,000 as a condition of probation. Judge Brigitte Koppenhoefer told the court that, rather than facing the force of the market, the defendant had chosen a calming press statement. His lawyer called the verdict "crassly wrong" and appealed, but Germany's Federal Court of Justice dismissed the appeal as unfounded in 2011, which made the conviction final.
+
+The case was widely described as the first time a German bank's chief executive was convicted over conduct linked to the 2007 financial crisis. It also drew criticism from legal commentators, who argued that the trial did not reach the crisis's core causes: the packaging of doubtful U.S. mortgages into securities that still received top ratings, and the funding of those purchases with short-term paper that the market stopped buying.
+
+The Ortseifen case illustrates how a bank's public reassurance can become the crime. The conviction rested on what the bank told the market, not on the losses themselves, and it was enforced against the executive personally even though the broader failures at the bank were never prosecuted.`,
+    sourceUrl: 'https://www.cityam.com/former-ikb-boss-avoids-prison/',
+});
