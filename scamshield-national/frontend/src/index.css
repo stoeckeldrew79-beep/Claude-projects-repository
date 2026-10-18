@@ -52,3 +52,17 @@
     transform: translateY(0) scale(1);
   }
 }
+
+/* Brand mark: the radar sweep in the header logo turns slowly. */
+@media (prefers-reduced-motion: no-preference) {
+  .logo-sweep {
+    transform-box: view-box;
+    transform-origin: 32px 30px;
+    animation: logo-sweep 5s linear infinite;
+  }
+  @keyframes logo-sweep {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
