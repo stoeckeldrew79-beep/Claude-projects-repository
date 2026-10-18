@@ -12463,3 +12463,24 @@ The trial in Málaga ran for three years and involved 84 defendants. On October 
 The Malaya case illustrates how urban planning, which allows a local authority to turn a rezoning decision into millions of euros in value, is one of the most vulnerable parts of local government to bribery: the people who decide what may be built are in a position to sell that decision, and the buyers, as developers, have every reason to pay. It also shows how a fixer working from inside the planning department can stand behind elected officials, and how long it takes the courts to untangle such a network once it is in place.`,
     sourceUrl: 'https://www.poderjudicial.es/cgpj/en/Judiciary/Novelties/La-Audiencia-Provincial-de-Malaga-condena-a-Roca-a-11-anos-de-prision-y-multa-de-240-millones-de-euros--Sentencia-del--Caso-Malaya-',
 });
+
+NotoriousGM.push({
+    title: 'Henry Yuen and the Gemstar-TV Guide Revenue Fraud',
+    slug: 'henry-yuen-gemstar-tv-guide-revenue-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Electronic_program_guide_from_a_2003_Pioneer_plasma_HDTV.jpg?width=1200',
+    coverImageCredit: 'Photo: Illegitimate Barrister (CC0) — on-screen electronic program guide from a 2003 Pioneer plasma HDTV',
+    coverImagePosition: 50,
+    body: `Henry C. Yuen, born in Shanghai in 1948 and trained as a mathematician and a lawyer, founded Gemstar in 1986 and built it into a licensing powerhouse around the interactive program guide (IPG), the on-screen television listings that became standard on cable and satellite boxes. He was known for aggressive patent litigation,. After Gemstar merged with TV Guide, he led the combined Gemstar-TV Guide International, which reported licensing and advertising revenue tied to its guide technology.
+
+When Gemstar disclosed that some of that revenue might have been improperly recorded, its stock fell about 37%, a market loss of more than $3 billion. The SEC sued Yuen in June 2003, alleging that Gemstar had overstated its total revenues by at least $248 million between June 1999 and September 2002. According to the SEC, Yuen knew of the improper recognition of revenue from seven companies, helped divert revenue between business sectors to meet projections, and signed false management representation letters to the company's auditors. Gemstar fired him in 2003.
+
+The SEC's civil case went to trial in December 2005. After three weeks, U.S. District Judge Mariana Pfaelzer ruled for the SEC on all charges, finding that Yuen had committed securities fraud, aided and abetted Gemstar's reporting and record-keeping violations, and lied to auditors. On May 8, 2006 the court ordered him to pay $22,327,231 in disgorgement, penalties and interest, which included $10,577,692 of ill-gotten gains (bonus compensation of $3,022,452 and excess trading profit of $7,555,240 from selling Gemstar stock), plus a civil penalty equal to that disgorgement, and permanently barred him from serving as an officer or director of a public company.
+
+There was a criminal side as well. Yuen testified that he had wiped his computer's hard drive, which held e-mails and documents subpoenaed in the SEC investigation, and in 2005 he pleaded guilty to illegally destroying evidence under an agreement with federal prosecutors in Los Angeles. The deal called for six months of home detention, but the judge declined to accept it because he considered it too lenient. By April 2007, the ABA Journal reported, the government had not collected the $22.3 million and did not know where Yuen was, and the SEC asked a judge to jail him and impose a daily fine until he paid.
+
+The Gemstar case illustrates how revenue recognition in technology licensing, where deals are complex and counterparties are few, can be steered to hit projections, and how an executive's most damaging acts can be the cover-up rather than the accounting. It also shows the limits of civil enforcement: a court can order tens of millions of dollars paid and bar a person from public companies, but collecting depends on finding the defendant and his assets.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-19694',
+});
