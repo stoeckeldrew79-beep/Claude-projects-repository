@@ -8604,3 +8604,24 @@ The civil case continued. In March 2012 a federal judge in Brasília declared th
 The Marka affair illustrates how a bank that gambled on a government's exchange-rate policy could pass its losses to the public through the regulator that was supposed to supervise it. It also shows how long such cases can take when a defendant leaves the country: Cacciola was a fugitive for years, and the civil claim was decided more than a decade after the rescue.`,
     sourceUrl: 'https://www.migalhas.com.br/quentes/152726/caso-marka--uniao-sera-ressarcida-em-aproximadamente-r--900-milhoes',
 });
+
+NotoriousNS.push({
+    title: 'Judge Nicolau dos Santos Neto and the São Paulo Labor Courthouse Fraud',
+    slug: 'nicolau-dos-santos-neto-sao-paulo-labor-courthouse-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'embezzlement', 'government-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Arquitetura_Brutalista_na_Avenida_Paulista_em_2025.jpg?width=1200',
+    coverImageCredit: 'Photo: Boaventuravinicius (CC BY 4.0) — Avenida Paulista, São Paulo, Brazil, 2025',
+    coverImagePosition: 50,
+    body: `Nicolau dos Santos Neto, known in Brazil as "Lalau," was a labor judge who in the 1990s presided over the Regional Labor Court of São Paulo (TRT-SP). The court commissioned a new labor courthouse in São Paulo. The project became one of the biggest public-works scandals in Brazilian history.
+
+According to the audit by the Federal Court of Accounts (TCU), about R$ 223.9 million was transferred to the project, and about R$ 169.5 million of that was diverted, with the diversion running from 1994 to 1998. Press reports put the stolen amount at around R$ 170 million at the time and more than R$ 1 billion in updated values. Other defendants included a businessman and former senator, Luiz Estevão, whose mandate was revoked in 2000, and the Incal construction companies. A federal appeals court found overpricing in the contract: works that the experts valued far below what was paid, and a June 1998 contract amendment that directed millions to Incal Incorporações even after signs of diversion were known.
+
+In May 2006 a court convicted Nicolau of embezzlement (peculato), fraud (estelionato) and passive corruption, sentencing him to 26 years, six months and 20 days in a closed regime, a term reported by other outlets simply as 26 years. In 2013 the São Paulo-based federal appeals court, the TRF-3, upheld civil judgments for administrative impropriety against Nicolau, Luiz Estevão and others, ordering repayment of damages, moral damages and fines, and Nicolau lost his judicial pension.
+
+Nicolau had spent time in preventive house arrest in 2007, and in 2008 he tried to release about R$ 7 million from a Geneva account, claiming it was an undeclared inheritance. In June 2014 the Taubaté sentencing court released him from the Tremembé prison under a presidential pardon decree signed by Dilma Rousseff in December 2012, which covered convicts over 70 with sentences above eight years who had served a quarter of the term. Forfeiture of assets and the status of convicted person remained in force. In 2011 the Union had recovered about R$ 55 million. He died in São Paulo on May 31, 2020, of COVID-19 complications.
+
+The case shows how large public works contracts can be hollowed out by the officials who commission them, when oversight depends on the same institution that benefits. It also illustrates the cost of delay: the diversion ended in 1998, the conviction came in 2006, and the civil judgments came in 2013, and only part of the money, about R$ 55 million by 2011, had been recovered.`,
+    sourceUrl: 'https://www.cartacapital.com.br/?p=17705',
+});
