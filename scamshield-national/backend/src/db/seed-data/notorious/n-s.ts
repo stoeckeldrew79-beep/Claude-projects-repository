@@ -8562,3 +8562,24 @@ At that third trial, on 9 January 2023, the Paris Court of Appeal sentenced Patr
 The Balkany case illustrates how an elected official's undeclared wealth, spread through foreign property and offshore companies, can be prosecuted as laundering the proceeds of tax fraud even where the underlying source of the money is never fully explained. It also shows how long such cases take in the French system, with three trials and a detour through the Cour de cassation before the sentences were settled.`,
     sourceUrl: 'https://www.lalibre.be/international/europe/2023/01/09/blanchiment-de-fraude-fiscale-quatre-ans-et-demi-et-trois-ans-et-demi-de-prison-pour-les-balkany-5NFX44MYFZBPLAHKZ2MDEAN3EU/',
 });
+
+NotoriousNS.push({
+    title: 'Sophie Yeh and the Procomp Informatics Accounting Fraud',
+    slug: 'sophie-yeh-procomp-informatics-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hsinchu_Science_Park_40_Anniversary.jpg?width=1200',
+    coverImageCredit: 'Photo: T Gordon Cheng (CC BY-SA 4.0) — 40th-anniversary billboard at Hsinchu Science Park, Taiwan, 2020',
+    coverImagePosition: 50,
+    body: `Procomp Informatics was once Taiwan's largest maker of gallium arsenide (GaAs) chips for mobile phones. Sophie Yeh, its chairwoman, had founded the company's GaAs foundry business in the Hsinchu Science Park in 1991, and its share price peaked at NT$368 in March 2000. Its collapse in 2004 became an accounting scandal that some observers compared to Enron.
+
+The scheme was an old one: inflate sales to make a company look healthy. Prosecutors said Yeh had ordered employees to falsify shipment records and paid them large cash amounts to keep quiet, and a source told one magazine that products were reported as shipped to affiliated U.S. branch companies on false invoices when no real sales took place and no products were shipped at all. The fraud allegedly began as early as 1994 and ran for about a decade before it was uncovered.
+
+The scheme unravelled in June 2004, when Procomp defaulted on a NT$6.3 billion bond payment, and Taiwanese reporting described up to NT$6.3 billion in liquid assets missing. Procomp filed a restructuring plan, and the Taiwan Stock Exchange delisted it in September 2004, by which time the share price had fallen to NT$6.4. More than 10,000 victims filed damage claims totalling about NT$6 billion. Yeh was held in custody for about a year, then released on NT$80 million bail in May 2005, and she avoided most questions from prosecutors, citing depression or memory loss.
+
+On December 12, 2005, the Shihlin District Court sentenced Yeh to 14 years in prison and fined her NT$180 million (about US$5.4 million) for violating Taiwan's securities trading law and a misappropriation law, in connection with an accounting fraud of about NT$7 billion. Twenty-seven other Procomp executives were also convicted, including her younger brother, the company's spokesman, who received three years and two months. International trade reports in the days after the ruling described Yeh as beginning to serve her term.
+
+The Procomp case illustrates how a fraud built on fictitious sales can run for years inside a company that looks like a national success story, and how it can survive only as long as employees stay quiet. It also shows how the damage spreads once such a fraud ends: shareholders and bondholders who relied on the reported numbers lost most of their investment in a matter of months.`,
+    sourceUrl: 'https://taipeitimes.com/News/front/archives/2005/12/13/2003284182',
+});
