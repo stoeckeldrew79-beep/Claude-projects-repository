@@ -30,6 +30,33 @@ export async function createArticle(article: NewArticle) {
   return data.data;
 }
 
+export interface CommonsCandidate {
+  title: string;
+  thumbUrl: string;
+  fullUrl: string;
+  width: number | null;
+  height: number | null;
+  licenseShortName: string | null;
+  artist: string | null;
+  commonsPageUrl: string;
+}
+
+// Search assist for the cover-photo backlog: Wikimedia Commons only
+// hosts public-domain/openly-licensed media, so anything returned here
+// is safe to use, but relevance is noisy — this never assigns a photo,
+// it only returns candidates for an admin to look at and pick from.
+export async function searchCoverPhotoCandidates(query: string) {
+  const { data } = await api.get<{ data: CommonsCandidate[] }>('/articles/cover-search', { params: { q: query } });
+  return data.data;
+}
+
+export async function fetchArticlesMissingCover(tag: string, offset: number, limit = 20) {
+  const { data } = await api.get<{ data: Article[]; total: number }>('/articles/missing-cover', {
+    params: { tag, offset, limit },
+  });
+  return data;
+}
+
 // Used to attach a real, rights-cleared cover photo to an existing
 // article (e.g. a Notorious Scams profile) — everything else about the
 // article stays as-is. `credit` is required for Creative Commons
