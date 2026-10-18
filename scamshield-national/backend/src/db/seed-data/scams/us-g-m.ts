@@ -14048,3 +14048,16 @@ UsGM.push({
     country: "US",
     state: "MS",
 });
+
+UsGM.push({
+    name: "Gallatin County Ponzi Scheme Conspiracy Targeting Investors, Farmers, and the State of Montana",
+    slug: "gallatin-county-ponzi-scheme-conspiracy-investors-farmers",
+    description:
+      "In May 2024 the Montana Commissioner of Securities and Insurance and the Gallatin County Attorney jointly charged four men with running a conspiracy that defrauded private investors, farmers, and the State of Montana at the same time. Regulators described the scheme as being carried out through various means, including a Ponzi scheme, in which money raised from investors was tied to an agricultural venture that served as the apparent legitimate business. CSI securities investigators built the case before the county attorney filed criminal charges. Agricultural and farm-backed investment pitches can look especially credible in Montana, which is exactly why fraudsters use them. Before putting money into any private investment or farm venture, call the Montana State Auditor's securities division to confirm the offering and the people selling it are properly registered.",
+    categorySlug: "ponzi-pyramid-schemes",
+    alertLevel: "high",
+    sources: ["Montana Commissioner of Securities and Insurance / State Auditor's Office","Gallatin County Attorney"],
+    sourceUrl: "https://csimt.gov/2024/05/31/in-gallatin-county-four-men-charged-with-engaging-in-conspiracy-to-defraud-investors-farmers-and-the-state-of-montana/",
+    country: "US",
+    state: "MT",
+});

@@ -7521,3 +7521,16 @@ UsTZ.push({
     country: "US",
     state: "VT",
 });
+
+UsTZ.push({
+    name: "Unregistered Multi-Level Marketing Companies Operating Unlawfully in Montana",
+    slug: "unregistered-multi-level-marketing-companies-montana",
+    description:
+      "Montana State Auditor James Brown announced a program in July 2026 aimed at multi-level marketing companies doing business in Montana without the notice filings the Montana Securities Act requires. Only about 30 MLMs are properly registered with the Auditor's office, while the agency estimates hundreds may be recruiting Montana residents as distributors without ever filing with the state. When a company has not filed, Montana regulators have no record of it and little ability to act until a complaint arrives. Unlawfully operating MLMs face fines of up to $5,000 per violation and cease-and-desist orders, though the new program lets them file within 30 days of notification and settle at a reduced $1,500 fine. Before you pay to join any MLM or income opportunity, check with the Montana Commissioner of Securities and Insurance to see whether the company has filed as required.",
+    categorySlug: "ponzi-pyramid-schemes",
+    alertLevel: "medium",
+    sources: ["Montana State Auditor / Commissioner of Securities and Insurance"],
+    sourceUrl: "https://csimt.gov/2026/07/02/state-auditor-james-brown-announces-program-incentivizing-multi-level-marketing-companies-operating-unlawfully-in-montana-to-file-notices-pay-reduced-fines/",
+    country: "US",
+    state: "MT",
+});
