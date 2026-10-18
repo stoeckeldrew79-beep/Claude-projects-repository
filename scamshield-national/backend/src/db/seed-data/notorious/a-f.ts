@@ -11844,3 +11844,24 @@ He did not reform. In 1910, using the alias "Lucien Rivier," Wells ran a private
 Wells's story shows how fraud can hide in plain sight behind celebrity: a gambling streak that made him a household name gave him credibility he never earned, and the "inventions" and the "bank" he promoted had no way for investors to verify any return. It also shows that the Ponzi pattern predates Ponzi himself, with the promised rate and the payment of old depositors from new ones doing exactly what they would do a decade later in Boston.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Charles_Wells_(gambler)',
 });
+
+NotoriousAF.push({
+    title: "Bradley Stinn and the Friedman's Jewelers Credit Fraud",
+    slug: 'bradley-stinn-friedmans-jewelers-credit-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_Brooklyn.jpg?width=1200',
+    coverImageCredit: 'Photo: Beyond My Ken (CC BY-SA 4.0 / GFDL) — Theodore Roosevelt U.S. Courthouse, Brooklyn, where the case was tried, 2013',
+    coverImagePosition: 50,
+    body: `Friedman's Inc. was a U.S. jewelry retailer whose customers often bought on installment credit. Its affiliate Crescent Jewelers operated in the same business. Bradley Stinn was the chief executive of both. For public investors the key numbers were sales and the performance of the company's credit portfolio, since a store that sells jewelry on credit is only as healthy as its ability to collect from customers.
+
+According to prosecutors in Brooklyn, that was the part Stinn hid. The indictment alleged that he and others lied to shareholders and the investing public about the company's financial performance. Customers who bought jewelry on credit were increasingly failing to pay, because the company did not follow its own credit-granting guidelines and encouraged violations of them to boost reported sales. Stinn, prosecutors said, caused the company's quarterly credit statistics to understate how delinquent the portfolio was and to report false earnings. Some of those earnings met or beat analysts' estimates, which supported the stock price.
+
+The deception came apart in late 2003. In November 2003 Friedman's announced it would restate its results for fiscal 2000 through 2002 and the first three quarters of 2003, and a government investigation led to the resignations of Stinn and the chief financial officer, Victor Suglia. The company filed for Chapter 11 bankruptcy protection in January 2005. Suglia and another former finance executive, controller John Mauro, pleaded guilty, and Friedman's and Crescent entered non-prosecution agreements under which they agreed to a $3 million forfeiture, cooperation, and corporate reforms. Stinn was indicted in Brooklyn federal court in March 2007, and his lawyer said he was innocent.
+
+After a six-week trial, a federal jury in Brooklyn convicted Stinn on all counts on March 24, 2008, of securities fraud, mail fraud and conspiracy, and returned a forfeiture verdict of $1,019,000. In April 2009 U.S. District Judge Nina Gershon sentenced him to 12 years in prison, finding that the scheme cost Friedman's shareholders and other victims more than $20 million.
+
+The Stinn case illustrates how a company that makes its money from consumer credit can look healthy for years if the people reporting its delinquency are also the people whose earnings depend on the numbers. It also shows the typical chain of a corporate fraud prosecution: finance executives plead guilty and cooperate, the company itself settles, and the chief executive who denied it goes to trial.`,
+    sourceUrl: 'https://justice.gov/archive/usao/nye/pr/2009/2009apr29.html',
+});
