@@ -14035,3 +14035,16 @@ UsGM.push({
     country: "US",
     state: "CA",
 });
+
+UsGM.push({
+    name: "Mississippi Department of Revenue Text Message Phishing Scam",
+    slug: "mississippi-department-of-revenue-text-message-phishing-scam",
+    description:
+      "Scammers are sending unsolicited text messages to Mississippi taxpayers that appear to come from the Mississippi Department of Revenue about their state tax account. The Department of Revenue issued a formal scam advisory on September 22, 2025 warning residents that these texts are fraudulent, and state news outlets amplified the warning in October 2025. The Department does not initiate contact with taxpayers by text message to demand information or payment, so any link or phone number in such a message should be treated as a trap to steal personal and financial data. Do not tap links, reply, or share your Social Security number, bank details, or card numbers. If you receive one of these texts, delete it and contact the Mississippi Department of Revenue directly using the phone number on its official website to confirm the status of your account.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Mississippi Department of Revenue scam advisory, 'For Immediate Release,' September 22, 2025","WDAM (Hattiesburg), 'Scam Alert: Phishing scams target Mississippi taxpayers via text message,' October 2025"],
+    sourceUrl: "https://www.dor.ms.gov/sites/default/files/news/Text%20Scam%209.22.25.pdf",
+    country: "US",
+    state: "MS",
+});
