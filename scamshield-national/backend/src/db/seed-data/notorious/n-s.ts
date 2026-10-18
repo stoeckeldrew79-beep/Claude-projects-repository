@@ -8583,3 +8583,24 @@ On December 12, 2005, the Shihlin District Court sentenced Yeh to 14 years in pr
 The Procomp case illustrates how a fraud built on fictitious sales can run for years inside a company that looks like a national success story, and how it can survive only as long as employees stay quiet. It also shows how the damage spreads once such a fraud ends: shareholders and bondholders who relied on the reported numbers lost most of their investment in a matter of months.`,
     sourceUrl: 'https://taipeitimes.com/News/front/archives/2005/12/13/2003284182',
 });
+
+NotoriousNS.push({
+    title: 'Salvatore Cacciola and the Banco Marka Central Bank Rescue',
+    slug: 'salvatore-cacciola-banco-marka-central-bank-rescue',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'international', 'bank-fraud', 'embezzlement'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Edif%C3%ADcio_%22Sede%22_do_Banco_Central_do_Brasil_em_Bras%C3%ADlia.jpg?width=1200',
+    coverImageCredit: 'Photo: Banco Central do Brasil (CC BY 2.0) — Central Bank of Brazil headquarters building, Brasília, 2010',
+    coverImagePosition: 50,
+    body: `In January 1999 Brazil's government ended its policy of holding the real artificially high against the dollar, and the currency fell sharply. Salvatore Cacciola's Banco Marka, a Brazilian bank, had bet that the real would stay stable while other banks were preparing for a rise in the dollar. When the real devalued, Marka and another institution, FonteCindam, were badly exposed, and they turned to Brazil's Central Bank for help.
+
+The Central Bank intervened, and the way it did so became the heart of the case. According to a federal court summary, it covered Marka's losses by selling dollars to the bank below the market price, citing "systemic risk," in operations settled in January and February 1999. Brazilian press reported the rescue of the two banks at about R$ 1.5 billion, and the courts later held it irregular. Prosecutors charged Cacciola, along with former Central Bank officials and others, with fraudulent management and misappropriation of public funds.
+
+In 2005 Cacciola was convicted of fraudulent management and embezzlement of public money (peculato) and sentenced to 13 years. He had been held briefly, but after a habeas corpus ruling from Brazil's Supreme Federal Court he left the country and went to Italy. He was arrested in Monaco in 2007 and was extradited to Brazil in July 2008. He spent three years in a closed regime, and from 2011 he served in a semi-open regime. A court reduced his sentence by two and a half years, and in April 2012 a Rio judge declared it completed because he was over 60 and had served a third of the term without a serious disciplinary violation.
+
+The civil case continued. In March 2012 a federal judge in Brasília declared the Central Bank's rescue of Banco Marka null and ordered Cacciola, BM&FBovespa, former Central Bank directors and others to compensate the federal government, in an amount of about R$ 900 million (R$ 895.8 million as of February 1999, to be updated). The judgment also imposed a fine of twice the damage on Cacciola, an eight-year suspension of his political rights and a five-year ban on contracting with the public sector or receiving public benefits.
+
+The Marka affair illustrates how a bank that gambled on a government's exchange-rate policy could pass its losses to the public through the regulator that was supposed to supervise it. It also shows how long such cases can take when a defendant leaves the country: Cacciola was a fugitive for years, and the civil claim was decided more than a decade after the rescue.`,
+    sourceUrl: 'https://www.migalhas.com.br/quentes/152726/caso-marka--uniao-sera-ressarcida-em-aproximadamente-r--900-milhoes',
+});
