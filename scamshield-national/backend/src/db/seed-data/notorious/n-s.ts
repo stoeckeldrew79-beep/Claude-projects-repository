@@ -8625,3 +8625,24 @@ Nicolau had spent time in preventive house arrest in 2007, and in 2008 he tried 
 The case shows how large public works contracts can be hollowed out by the officials who commission them, when oversight depends on the same institution that benefits. It also illustrates the cost of delay: the diversion ended in 1998, the conviction came in 2006, and the civil judgments came in 2013, and only part of the money, about R$ 55 million by 2011, had been recovered.`,
     sourceUrl: 'https://www.cartacapital.com.br/?p=17705',
 });
+
+NotoriousNS.push({
+    title: 'Paul Humphreys and the Safety-Kleen Accounting Fraud',
+    slug: 'paul-humphreys-safety-kleen-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Drums_with_toxic_waste_2776.jpg?width=1200',
+    coverImageCredit: 'Photo: Mampato (Public Domain) — drums with dangerous waste, 2008',
+    coverImagePosition: 50,
+    body: `Safety-Kleen was a hazardous-waste-disposal company that Rollins Environmental Services acquired in 1998. After the acquisition the combined company set earnings targets, including annual earnings of about $500 million. Paul Humphreys was its chief financial officer.
+
+It was not. According to the U.S. Attorney's office in Manhattan, when the company fell short of the targets set after the acquisition, Humphreys and others falsified the general ledger and the company's financial statements. They used "top side" adjustments, entries made at the corporate level rather than from underlying transactions, to inflate reported earnings in annual and quarterly reports, press releases and conference calls. The SEC described improper revenue recognition, improper capitalization and deferral of operating expenses, improper handling of reserves and accruals, and about $38 million in cash from speculative derivatives recorded fraudulently. Prosecutors put the bogus adjustments at more than $250 million across 1998, 1999 and 2000; one table in the sentencing release showed about $267 million over five quarters from the first quarter of 1999 to the first quarter of 2000, lifting reported earnings from roughly $320 million to roughly $586 million.
+
+The fraud was discovered in late February 2000. On July 9, 2001, Safety-Kleen restated its fiscal 1997 to 1999 results, reducing net income by $534 million, with about $312 million of the reduction falling in fiscal 1999, and it reported an $833 million net loss for fiscal 2000. The SEC sued the company and four former executives, including Humphreys, in December 2002. The controller, William Ridings, pleaded guilty to securities fraud that month and implicated Humphreys, and a federal grand jury indicted Humphreys in December 2002.
+
+Humphreys, a Canadian citizen, surrendered to FBI agents and pleaded guilty on June 22, 2007 to securities fraud and bank fraud charges, including conspiracy, false SEC filings, falsified books and records, false statements to auditors and bank fraud. In November 2007 U.S. District Judge Laura Taylor Swain in Manhattan sentenced him to 70 months, or five years and ten months, in prison. He had faced up to 45 years.
+
+The Safety-Kleen case illustrates how the reconciling entries at the top of a company's books can be used to close the gap between what the business earned and what its executives had promised. Because the adjustments were made at the corporate level rather than from underlying transactions, they were hard for outsiders to see, and it took until 2007 for the company's chief financial officer to be sentenced.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-17891',
+});
