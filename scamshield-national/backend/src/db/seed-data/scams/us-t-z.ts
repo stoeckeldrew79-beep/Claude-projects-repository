@@ -7559,3 +7559,16 @@ UsTZ.push({
     sourceUrl: "https://www.justice.gov/opa/pr/maine-tax-preparer-pleads-guilty-filing-false-returns-clients",
     country: "US",
 });
+
+UsTZ.push({
+    name: "World Cup Lodging Junk Fees — Hidden Mandatory Charges at New Jersey Hotels and Short-Term Rentals",
+    slug: "world-cup-lodging-junk-fees-new-jersey-hotels-short-term-rentals",
+    description:
+      "Ahead of the 2026 World Cup matches hosted in New Jersey, the Division of Consumer Affairs formally warned hotel operators and short-term rental hosts against deceptive pricing aimed at visiting fans. The practices singled out include advertising a nightly rate that excludes mandatory fees and adding them later in the booking flow, burying costs in fine print or behind app and website designs that make them hard to notice, and misrepresenting what a fee covers or whether it is truly required. The warning accompanies the state's \"Fight the Fees\" initiative and Executive Order 19, signed June 15, 2026, directing agencies to inventory junk fees in the industries they regulate, and is enforceable under the New Jersey Consumer Fraud Act. When booking lodging in New Jersey, compare the full checkout total rather than the headline rate and screenshot the advertised price before you pay. If mandatory fees appeared only at the final step or were misdescribed, file a complaint with the NJ Division of Consumer Affairs.",
+    categorySlug: "travel-vacation-scams",
+    alertLevel: "medium",
+    sources: ["New Jersey Office of the Attorney General","New Jersey Division of Consumer Affairs, Office of Consumer Protection"],
+    sourceUrl: "https://www.njoag.gov/ag-davenport-division-of-consumer-affairs-warn-hotels-and-short-term-rental-providers-against-junk-fees-ahead-of-2026-fifa-world-cup/",
+    country: "US",
+    state: "NJ",
+});

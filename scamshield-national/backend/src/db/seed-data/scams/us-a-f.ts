@@ -13081,3 +13081,16 @@ UsAF.push({
     country: "US",
     state: "GA",
 });
+
+UsAF.push({
+    name: "FIFA World Cup Ticket Sales Investigation — MetLife Stadium Seat Misrepresentation and \"Fake Scarcity\" Pricing",
+    slug: "fifa-world-cup-ticket-sales-metlife-stadium-fake-scarcity",
+    description:
+      "New Jersey's Attorney General is investigating how FIFA sold tickets to the eight 2026 World Cup matches at MetLife Stadium in East Rutherford, including the July 19, 2026 final. Fans who bought through FIFA's official channels complained that the seats they received were in materially worse parts of the stadium than what they thought they were paying for, and that staged ticket releases plus dynamic location-based pricing pushed prices higher. Attorney General Jennifer Davenport described the buying process as a \"gauntlet of confusion, fake scarcity, and impossibly high prices,\" and subpoenaed FIFA jointly with the New York Attorney General for internal documents on pricing and seat-assignment practices. If you bought World Cup tickets for a New Jersey match and received seats that did not match your purchase, save your confirmation emails, seat maps and receipts, and file a complaint with the NJ Division of Consumer Affairs. Avoid resale offers that pressure you to buy immediately because of claimed limited availability.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "high",
+    sources: ["New Jersey Office of the Attorney General","New Jersey Division of Consumer Affairs"],
+    sourceUrl: "https://www.njoag.gov/attorney-general-davenport-and-attorney-general-james-announce-investigation-into-fifa-world-cup-ticket-sales/",
+    country: "US",
+    state: "NJ",
+});
