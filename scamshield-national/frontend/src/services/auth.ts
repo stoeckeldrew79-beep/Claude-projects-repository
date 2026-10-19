@@ -27,7 +27,9 @@ export interface HomeAreaUpdate {
   state?: string | null;
 }
 
-export async function updateMyProfile(update: HomeAreaUpdate & { email_opt_in?: boolean }) {
+export async function updateMyProfile(
+  update: HomeAreaUpdate & { email_opt_in?: boolean; phone?: string | null; sms_opt_in?: boolean }
+) {
   const { data } = await api.put<{ data: User }>('/users/me', update);
   return data.data;
 }

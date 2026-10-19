@@ -18,7 +18,13 @@ export interface AlertWatchProfile {
 }
 
 export async function fetchPreferences() {
-  const { data } = await api.get<{ data: AlertPreferences; maxFrequency: AlertFrequency }>(
+  const { data } = await api.get<{
+    data: AlertPreferences;
+    maxFrequency: AlertFrequency;
+    emailAlerts?: boolean;
+    smsAlerts?: boolean;
+    tier?: string;
+  }>(
     '/alert-subscriptions/preferences'
   );
   return data;

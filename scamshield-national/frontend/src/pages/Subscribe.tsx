@@ -19,34 +19,38 @@ const TIERS: {
   {
     tier: 'basic',
     name: 'Basic',
-    price: '$4',
-    tagline: 'Stay informed with a regular roundup.',
-    features: ['Weekly or monthly email digest', '1 watch profile (state and/or category)', 'Real-time alert feed on the site'],
+    price: '$19.99',
+    tagline: 'Real-time warnings for your area, by email.',
+    features: [
+      'Real-time email alerts for your state',
+      'Weekly email digest',
+      '1 watch profile (state and/or category)',
+      'Real-time alert feed on the site',
+    ],
   },
   {
     tier: 'pro',
     name: 'Pro',
-    price: '$9',
-    tagline: 'Hear about new scams the day they land.',
-    features: ['Everything in Basic', 'Daily email digest', 'Real-time email alerts for your area'],
+    price: '$29.99',
+    tagline: 'Warnings on your phone the day they land.',
+    features: ['Everything in Basic', 'SMS text alerts', 'Daily email digest'],
     recommended: true,
   },
   {
     tier: 'family',
     name: 'Family',
-    price: '$15',
+    price: '$39.99',
     tagline: 'Protect the people you worry about.',
     features: [
       'Everything in Pro',
-      'Instant alerts — within about 20 minutes',
+      'Instant digest — within about 20 minutes',
       'Up to 5 watch profiles (e.g. your state and Mom’s)',
-      'SMS text alerts',
     ],
   },
   {
     tier: 'business',
     name: 'Business',
-    price: '$49',
+    price: '$99.99',
     tagline: 'Watch every location you operate in.',
     features: ['Everything in Family', 'Up to 20 watch profiles', 'Priority support'],
   },
@@ -55,7 +59,7 @@ const TIERS: {
 const FAQ: { q: string; a: string }[] = [
   {
     q: 'Is the scam database free?',
-    a: 'Yes. Searching the database, Today’s Scams, the Global Map and every article are free for everyone. Plans pay for alerts delivered to you.',
+    a: 'Yes. Searching the database, Today’s Scams, the Global Map and every article are free for everyone. Email and text alerts are for members — that is what a plan pays for.',
   },
   {
     q: 'Can I cancel any time?',
@@ -119,11 +123,18 @@ export default function Subscribe() {
             role="alert"
             className="mx-auto mb-4 max-w-2xl rounded-md border border-red-200 bg-red-50 px-3 py-2 text-center text-sm text-red-700"
           >
-            Couldn't start checkout. Please{' '}
-            <Link to="/login?next=/subscribe" className="font-medium underline">
-              sign in
-            </Link>{' '}
-            and try again.
+            {(checkout.error as { response?: { status?: number; data?: { error?: string } } } | null)?.response?.status ===
+            503 ? (
+              (checkout.error as { response?: { data?: { error?: string } } }).response?.data?.error
+            ) : (
+              <>
+                Couldn't start checkout. Please{' '}
+                <Link to="/login?next=/subscribe" className="font-medium underline">
+                  sign in
+                </Link>{' '}
+                and try again.
+              </>
+            )}
           </p>
         )}
 
@@ -201,16 +212,17 @@ export default function Subscribe() {
 
         <div className="mt-10 flex flex-col gap-4 rounded-2xl border border-slate-200 bg-slate-50 p-6 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h2 className="font-semibold text-slate-900">Not ready to pay? Start free.</h2>
+            <h2 className="font-semibold text-slate-900">Not ready for a plan? Start free.</h2>
             <p className="mt-1 text-sm text-slate-600">
-              A free account gets a monthly email digest for one state or category. Upgrade whenever you like.
+              A free account opens the full scam database and every live feed. Alerts by email and text start when
+              you choose a plan.
             </p>
           </div>
           <Link
-            to={user ? '/alerts' : '/login?mode=register&next=/alerts'}
+            to={user ? '/database' : '/login?mode=register&next=/database'}
             className="shrink-0 rounded-md bg-slate-900 px-5 py-2.5 text-center text-sm font-semibold text-white hover:bg-slate-800"
           >
-            {user ? 'Set up free alerts' : 'Create free account'}
+            {user ? 'Browse the database' : 'Create free account'}
           </Link>
         </div>
 

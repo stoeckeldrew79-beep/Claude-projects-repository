@@ -17,9 +17,9 @@ function safeNext(raw: string | null): string {
 }
 
 const BENEFITS = [
-  'Email alerts for your state and the scam types you choose',
-  'A free monthly digest of newly documented scams',
-  'Upgrade any time for faster alerts and family coverage',
+  'Free access to the full scam database and every live feed',
+  'Save your state and the scam types you care about',
+  'Add a plan any time for email and text alerts',
 ];
 
 export default function Login() {

@@ -1,3 +1,4 @@
+import { EMAIL_ALERT_TIERS, SMS_ALERT_TIERS } from '../config/alertTiers';
 import { pool } from '../db/connection';
 import { buildUpdateSet } from '../utils/buildUpdateSet';
 
@@ -6,11 +7,12 @@ export interface UserProfileUpdate {
   zip_code?: string | null;
   state?: string | null;
   email_opt_in?: boolean;
+  sms_opt_in?: boolean;
 }
 
 // subscription_tier, role, and anything else on this table must never be
 // reachable from this endpoint — it's user-self-service, not admin.
-const UPDATABLE_PROFILE_FIELDS = ['phone', 'zip_code', 'state', 'email_opt_in'] as const;
+const UPDATABLE_PROFILE_FIELDS = ['phone', 'zip_code', 'state', 'email_opt_in', 'sms_opt_in'] as const;
 
 // Every controller that returns a user row to the client must run it
 // through this first — password_hash must never leave the server.
@@ -81,13 +83,15 @@ const AUDIENCE_MATCH = `(
   ))
 )`;
 
-// SMS is a Family/Business-tier feature per the pricing table (section 6);
-// real-time email alerts are Pro and above (Basic is digest-only, handled
-// by the digest job).
+// Alerts are delivered to paid members only (config/alertTiers.ts):
+// real-time email from Basic up, SMS from Pro up. Free accounts can use
+// the whole site but receive nothing by email or text. The tier names are
+// internal constants, so inlining them as literals is safe.
+const sqlList = (tiers: string[]) => tiers.map((t) => `'${t.replace(/'/g, "''")}'`).join(', ');
 const SMS_AUDIENCE = `u.sms_opt_in = true AND u.is_active = true
-  AND u.subscription_tier IN ('family', 'business') AND u.phone IS NOT NULL AND u.phone <> ''`;
+  AND u.subscription_tier IN (${sqlList(SMS_ALERT_TIERS)}) AND u.phone IS NOT NULL AND u.phone <> ''`;
 const EMAIL_AUDIENCE = `u.email_opt_in = true AND u.is_active = true
-  AND u.subscription_tier IN ('pro', 'family', 'business')`;
+  AND u.subscription_tier IN (${sqlList(EMAIL_ALERT_TIERS)})`;
 
 function targetingParams(params: AlertTargeting) {
   return [params.state ?? null, params.zip ?? null, params.nationwide];

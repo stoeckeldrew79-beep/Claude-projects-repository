@@ -5,9 +5,11 @@ import * as CategoriesModel from '../models/categories';
 import { asyncHandler } from '../utils/asyncHandler';
 import {
   AlertFrequency,
+  emailAlertsForTier,
   isFrequencyAllowedForTier,
   maxFrequencyForTier,
   maxWatchProfilesForTier,
+  smsAlertsForTier,
 } from '../config/alertTiers';
 
 const VALID_FREQUENCIES: AlertFrequency[] = ['monthly', 'weekly', 'daily', 'instant'];
@@ -25,7 +27,14 @@ export const getPreferences = asyncHandler<AuthedRequest>(async (req, res) => {
   if (!preferences) {
     preferences = await AlertSubscriptionsModel.setFrequency(user.id, maxFrequencyForTier(user.subscription_tier));
   }
-  res.json({ data: preferences, maxFrequency: maxFrequencyForTier(user.subscription_tier) });
+  res.json({
+    data: preferences,
+    maxFrequency: maxFrequencyForTier(user.subscription_tier),
+    // Lets the page say plainly when nothing will be emailed (free accounts).
+    emailAlerts: emailAlertsForTier(user.subscription_tier),
+    smsAlerts: smsAlertsForTier(user.subscription_tier),
+    tier: user.subscription_tier,
+  });
 });
 
 export const updatePreferences = asyncHandler<AuthedRequest>(async (req, res) => {

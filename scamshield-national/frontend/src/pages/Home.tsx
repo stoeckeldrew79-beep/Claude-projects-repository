@@ -173,8 +173,8 @@ export default function Home() {
             <div>
               <h2 className="text-2xl sm:text-3xl font-bold tracking-tight">Get warned before the scam calls you.</h2>
               <p className="mt-2 max-w-xl text-slate-300">
-                Pick your state and the scam types you care about. We email you when new scams matching them are
-                documented — free monthly digest, or as fast as within about 20 minutes on Family and Business plans.
+                Pick your state and the scam types you care about. Members get an email or a text when new scams
+                matching them are documented — as fast as within about 20 minutes. Plans from $19.99/month.
               </p>
             </div>
             <div className="flex flex-col gap-3 sm:flex-row">
@@ -182,7 +182,7 @@ export default function Home() {
                 to="/alerts"
                 className="rounded-md bg-red-600 px-5 py-3 text-center font-semibold text-white shadow-lg shadow-red-950/40 hover:bg-red-500"
               >
-                Set up free alerts
+                Set up alerts
               </Link>
               <Link
                 to="/subscribe"

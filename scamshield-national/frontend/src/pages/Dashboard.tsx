@@ -69,7 +69,7 @@ export default function Dashboard() {
             <>
               <p className="mt-2 text-3xl font-bold">Free</p>
               <p className="mt-2 text-sm text-slate-300">
-                Monthly digest, one watch profile. Upgrade for daily or instant alerts and family coverage.
+                Full database access. Choose a plan for email and text alerts for your state and family.
               </p>
               <Link
                 to="/subscribe"

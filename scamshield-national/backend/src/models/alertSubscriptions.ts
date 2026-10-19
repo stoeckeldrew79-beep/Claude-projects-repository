@@ -1,5 +1,5 @@
 import { pool } from '../db/connection';
-import { AlertFrequency } from '../config/alertTiers';
+import { AlertFrequency, tiersForDigestFrequency } from '../config/alertTiers';
 
 export interface AlertPreferences {
   user_id: string;
@@ -128,15 +128,17 @@ export async function findNewMatchesForUser(userId: string, since: Date): Promis
 // send right now. A user with no alert_preferences row yet (never visited
 // the alerts page) is NOT included — digest defaults only take effect once
 // a preferences row exists, which getOrCreateDefaultPreferences creates on
-// their first visit to the alerts page. This keeps "nobody gets an email
-// they never implicitly agreed to by showing up" true even for free tier.
+// their first visit to the alerts page. Only paid members whose current
+// plan covers this cadence are included: free accounts get no email, and a
+// member who downgrades stops receiving a cadence they no longer pay for.
 export async function usersDueForDigest(frequency: AlertFrequency): Promise<{ id: string; email: string }[]> {
   const { rows } = await pool.query(
     `SELECT u.id, u.email FROM alert_preferences ap
      JOIN users u ON u.id = ap.user_id
      WHERE ap.frequency = $1 AND u.is_active = true AND u.email_opt_in = true
+       AND u.subscription_tier = ANY($2::text[])
        AND EXISTS (SELECT 1 FROM alert_watch_profiles wp WHERE wp.user_id = u.id)`,
-    [frequency]
+    [frequency, tiersForDigestFrequency(frequency)]
   );
   return rows;
 }

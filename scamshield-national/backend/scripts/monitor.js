@@ -67,6 +67,9 @@ function liveChecks() {
       const res = await fetch(SITE_URL + '/', { signal: AbortSignal.timeout(15000) });
       const html = await res.text();
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      // While the site is in private preview (frontend/middleware.js) the
+      // public sees the "launching soon" page; that is the site working.
+      if (html.includes('data-scamshield-coming-soon')) return `HTTP ${res.status} (private preview page)`;
       if (!html.includes('id="root"')) throw new Error('page loaded but is not the ScamShield app');
       return `HTTP ${res.status}`;
     }],

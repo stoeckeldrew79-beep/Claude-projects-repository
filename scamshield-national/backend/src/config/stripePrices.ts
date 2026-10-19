@@ -1,23 +1,30 @@
 export type SubscriptionTier = 'basic' | 'pro' | 'family' | 'business';
 
-export const TIER_PRICE_ENV: Record<SubscriptionTier, string> = {
-  basic: 'STRIPE_PRICE_BASIC',
-  pro: 'STRIPE_PRICE_PRO',
-  family: 'STRIPE_PRICE_FAMILY',
-  business: 'STRIPE_PRICE_BUSINESS',
+// The plan prices, in cents. The server keeps Stripe in step with this
+// table itself: each price is found by a lookup key that includes the
+// amount, and created the first time it's missing, so changing a price here
+// is the whole job — no one has to create prices in the Stripe dashboard
+// and copy IDs into the host's environment. Existing members stay on the
+// price they signed up at; only new checkouts use the new one.
+export const PLAN_PRICES: Record<SubscriptionTier, { cents: number; name: string }> = {
+  basic: { cents: 1999, name: 'ScamShield Basic' },
+  pro: { cents: 2999, name: 'ScamShield Pro' },
+  family: { cents: 3999, name: 'ScamShield Family' },
+  business: { cents: 9999, name: 'ScamShield Business' },
 };
 
-export function priceIdForTier(tier: SubscriptionTier): string {
-  const envVar = TIER_PRICE_ENV[tier];
-  const priceId = process.env[envVar];
-  if (!priceId) throw new Error(`${envVar} is not set`);
-  return priceId;
+const LOOKUP_PREFIX = 'scamshield_';
+
+export function lookupKey(tier: SubscriptionTier): string {
+  return `${LOOKUP_PREFIX}${tier}_monthly_${PLAN_PRICES[tier].cents}`;
 }
 
-// Reverse lookup used when a webhook event only carries a price ID.
-export function tierForPriceId(priceId: string): SubscriptionTier | null {
-  for (const tier of Object.keys(TIER_PRICE_ENV) as SubscriptionTier[]) {
-    if (process.env[TIER_PRICE_ENV[tier]] === priceId) return tier;
-  }
-  return null;
+// "scamshield_pro_monthly_2999" -> "pro". Recognises any past amount too.
+export function tierForLookupKey(key: string | null | undefined): SubscriptionTier | null {
+  const m = new RegExp(`^${LOOKUP_PREFIX}([a-z]+)_monthly_\\d+$`).exec(key ?? '');
+  return m && m[1] in PLAN_PRICES ? (m[1] as SubscriptionTier) : null;
+}
+
+export function isSubscriptionTier(value: unknown): value is SubscriptionTier {
+  return typeof value === 'string' && value in PLAN_PRICES;
 }
