@@ -21,6 +21,7 @@ import dailyNewsRoutes from './routes/dailyNews';
 import statesRoutes from './routes/states';
 import { publicApiLimiter } from './middleware/rateLimit';
 import { pool } from './db/connection';
+import { setUpStripe } from './services/stripe';
 
 process.on('unhandledRejection', (reason) => {
   console.error('Unhandled rejection (should be unreachable — asyncHandler catches request-scoped errors):', reason);
@@ -55,7 +56,13 @@ app.get('/health', async (_req, res) => {
     // fills up (scripts/monitor.js) — the federal case archive alone is a
     // few hundred MB once complete.
     const { rows } = await pool.query<{ bytes: string }>('SELECT pg_database_size(current_database())::text AS bytes');
-    res.json({ status: 'ok', database: 'connected', database_mb: Math.round(Number(rows[0].bytes) / 1048576) });
+    res.json({
+      status: 'ok',
+      database: 'connected',
+      database_mb: Math.round(Number(rows[0].bytes) / 1048576),
+      // Whether checkout can work at all; says nothing about the key itself.
+      payments: process.env.STRIPE_SECRET_KEY ? 'configured' : 'not configured',
+    });
   } catch (err) {
     res.status(503).json({ status: 'degraded', database: 'unreachable', error: (err as Error).message });
   }
@@ -96,6 +103,9 @@ const port = process.env.PORT ? Number(process.env.PORT) : 3000;
 // otherwise refuses IPv4 connections to http://localhost from the browser.
 app.listen(port, '0.0.0.0', () => {
   console.log(`ScamShield National API listening on :${port}`);
+  // Creates the plan prices and the payments webhook in Stripe if they
+  // aren't there yet — a no-op until STRIPE_SECRET_KEY is set.
+  if (process.env.NODE_ENV === 'production') void setUpStripe();
   // In production, keep filling the federal case archive in the background
   // until its backfill is complete (see jobs/scanDojArchive.ts). Delayed so
   // it never competes with startup, and skipped in CI and local runs.

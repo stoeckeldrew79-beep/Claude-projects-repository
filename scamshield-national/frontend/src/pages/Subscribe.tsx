@@ -123,11 +123,18 @@ export default function Subscribe() {
             role="alert"
             className="mx-auto mb-4 max-w-2xl rounded-md border border-red-200 bg-red-50 px-3 py-2 text-center text-sm text-red-700"
           >
-            Couldn't start checkout. Please{' '}
-            <Link to="/login?next=/subscribe" className="font-medium underline">
-              sign in
-            </Link>{' '}
-            and try again.
+            {(checkout.error as { response?: { status?: number; data?: { error?: string } } } | null)?.response?.status ===
+            503 ? (
+              (checkout.error as { response?: { data?: { error?: string } } }).response?.data?.error
+            ) : (
+              <>
+                Couldn't start checkout. Please{' '}
+                <Link to="/login?next=/subscribe" className="font-medium underline">
+                  sign in
+                </Link>{' '}
+                and try again.
+              </>
+            )}
           </p>
         )}
 
