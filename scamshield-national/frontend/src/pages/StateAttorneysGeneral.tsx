@@ -1,9 +1,10 @@
 import { useMemo, useState } from 'react';
+import type { UIEvent } from 'react';
 import { Link } from 'react-router-dom';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { isFeedLive, useAgFeedStatus, useStateAgSources } from '../hooks/useStateAgSources';
-import { useLatestAgByState } from '../hooks/useDailyNews';
-import { LatestAgAlert, StateAgSource } from '../types';
+import { useAgAlertFeed, useLatestAgByState } from '../hooks/useDailyNews';
+import { DailyScamNews, LatestAgAlert, StateAgSource } from '../types';
 import type { AgFeedStatus } from '../services/stateAgSources';
 import { stateSlug } from '../utils/usStates';
 import { timeAgo } from '../utils/timeAgo';
@@ -20,6 +21,56 @@ const TILES: [string, number, number][] = [
   ['OK', 3, 6], ['LA', 4, 6], ['MS', 5, 6], ['AL', 6, 6], ['GA', 7, 6],
   ['HI', 0, 7], ['TX', 3, 7], ['FL', 8, 7],
 ];
+
+// Live feed of every official AG alert, beside the tile map. It scrolls
+// inside its own panel and loads older alerts as the reader nears the end
+// of it, so the page below never moves; until the first page arrives it
+// shows the newest alert per state that the page already has.
+function AgAlertFeed({ fallback }: { fallback: LatestAgAlert[] }) {
+  const { data, hasNextPage, fetchNextPage, isFetchingNextPage } = useAgAlertFeed();
+  const feed = data?.pages.flat() ?? [];
+  const rows: { state: string | null; source_url: string; headline: string; at: string | null }[] = feed.length
+    ? feed.map((r: DailyScamNews) => ({ state: r.state ?? null, source_url: r.source_url, headline: r.headline, at: r.published_at ?? r.scanned_at }))
+    : fallback.map((r) => ({ state: r.state, source_url: r.source_url, headline: r.headline, at: r.published_at }));
+
+  const onScroll = (e: UIEvent<HTMLDivElement>) => {
+    const el = e.currentTarget;
+    if (hasNextPage && !isFetchingNextPage && el.scrollTop + el.clientHeight > el.scrollHeight - 400) fetchNextPage();
+  };
+
+  return (
+    <section className="flex flex-col rounded-2xl bg-[#0f1a2b] p-4 text-white sm:p-5">
+      <div className="flex items-center justify-between gap-2">
+        <h2 className="text-base font-bold">Newest official alerts</h2>
+        <span className="inline-flex items-center gap-1.5 text-[11px] font-semibold text-emerald-300">
+          <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" /> Live
+        </span>
+      </div>
+      <p className="mt-0.5 text-xs text-slate-400">Straight from state Attorney General offices. Scroll for more.</p>
+      <div
+        onScroll={onScroll}
+        className="mt-3 max-h-[26rem] overflow-y-auto overscroll-contain pr-1 lg:max-h-[30rem] [scrollbar-color:rgba(255,255,255,0.2)_transparent] [scrollbar-width:thin]"
+      >
+        <ul className="divide-y divide-white/10">
+          {rows.map((row, i) => (
+            <li key={`${row.source_url}-${i}`} className="py-2.5">
+              <a href={row.source_url} target="_blank" rel="noreferrer" className="group block">
+                <p className="text-[11px] font-semibold text-red-300">
+                  {row.state ?? 'AG'} · {timeAgo(row.at)}
+                </p>
+                <p className="mt-0.5 text-sm text-slate-100 line-clamp-2 group-hover:underline">{row.headline}</p>
+              </a>
+            </li>
+          ))}
+        </ul>
+        {isFetchingNextPage && <p className="py-3 text-center text-xs text-slate-400">Loading older alerts…</p>}
+        {data && !hasNextPage && feed.length > 0 && (
+          <p className="py-3 text-center text-[11px] text-slate-500">You&apos;ve reached the end of the feed.</p>
+        )}
+      </div>
+    </section>
+  );
+}
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -288,22 +339,7 @@ export default function StateAttorneysGeneralPage() {
         {/* Across-the-country view of the newest official alerts. Only
             rendered when the latest-by-state feed has something to say. */}
         {recentAlerts.length > 0 ? (
-          <section className="rounded-2xl bg-[#0f1a2b] p-4 text-white sm:p-5">
-            <h2 className="text-base font-bold">Newest official alerts</h2>
-            <p className="mt-0.5 text-xs text-slate-400">Straight from state Attorney General offices.</p>
-            <ul className="mt-3 divide-y divide-white/10">
-              {recentAlerts.map((row) => (
-                <li key={`${row.state}-${row.source_url}`} className="py-2.5">
-                  <a href={row.source_url} target="_blank" rel="noreferrer" className="group block">
-                    <p className="text-[11px] font-semibold text-red-300">
-                      {row.state} · {timeAgo(row.published_at)}
-                    </p>
-                    <p className="mt-0.5 text-sm text-slate-100 line-clamp-2 group-hover:underline">{row.headline}</p>
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </section>
+          <AgAlertFeed fallback={recentAlerts} />
         ) : (
           <Link
             to="/federal"

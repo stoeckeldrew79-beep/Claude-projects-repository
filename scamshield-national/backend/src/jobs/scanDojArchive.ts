@@ -23,9 +23,8 @@
 import 'dotenv/config';
 import { pool } from '../db/connection';
 import { DojRelease, isFraudRelease, releaseSeconds, toFederalCase } from './dojArchive';
+import { DOJ_PAGE_SIZE as PAGE_SIZE, fetchDojPage as fetchPage, sleep } from './dojApi';
 
-const API = 'https://www.justice.gov/api/v1/press_releases.json';
-const PAGE_SIZE = 50; // the API's maximum
 const BACKFILL_PAGES = Number(process.env.DOJ_BACKFILL_PAGES ?? 1800);
 const CATCH_UP_MAX_PAGES = 60;
 // Catch-up stops once a whole page is older than the newest release seen
@@ -34,34 +33,10 @@ const CATCH_UP_SLACK_SECONDS = 86400;
 const STORAGE_LIMIT_MB = Number(process.env.DB_STORAGE_LIMIT_MB ?? 1024);
 const STORAGE_GUARD_FRACTION = 0.75;
 const REQUEST_DELAY_MS = 250;
-const FETCH_TIMEOUT_MS = 30000;
-const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 const CURSOR_PAGE = 'doj_archive_backfill_page';
 const CURSOR_DONE = 'doj_archive_backfill_done';
 const CURSOR_NEWEST = 'doj_archive_newest_created';
-
-async function fetchPage(params: Record<string, string | number>): Promise<DojRelease[]> {
-  const url = `${API}?${new URLSearchParams(
-    Object.fromEntries(Object.entries({ pagesize: PAGE_SIZE, ...params }).map(([k, v]) => [k, String(v)]))
-  )}`;
-  let lastError: unknown;
-  for (let attempt = 1; attempt <= 3; attempt++) {
-    try {
-      const res = await fetch(url, {
-        headers: { 'User-Agent': 'ScamShieldNational/1.0 (+federal fraud case archive)', Accept: 'application/json' },
-        signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const body = (await res.json()) as { results?: DojRelease[] };
-      return Array.isArray(body.results) ? body.results : [];
-    } catch (err) {
-      lastError = err;
-      await sleep(2000 * attempt);
-    }
-  }
-  throw new Error(`DOJ API failed for ${url}: ${(lastError as Error)?.message}`);
-}
 
 async function getCursor(name: string): Promise<string | null> {
   const { rows } = await pool.query<{ value: string }>('SELECT value FROM ingest_state WHERE name = $1', [name]);

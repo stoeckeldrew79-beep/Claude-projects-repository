@@ -31,8 +31,10 @@ export async function fetchDailyScamNews(state?: string, page?: number, scope?: 
 // Powers the "Recent AI Scam Activity" strip on the AI-Enabled Scams page —
 // a handful of headlines, not a paged feed, so this has its own fetcher
 // rather than overloading fetchDailyScamNews's state/page/scope params.
-export async function fetchAiTopicNews() {
-  const { data } = await api.get<{ data: DailyScamNews[] }>('/daily-news', { params: { topic: 'ai' } });
+export const AI_TOPIC_PAGE_SIZE = 8;
+
+export async function fetchAiTopicNews(page = 1) {
+  const { data } = await api.get<{ data: DailyScamNews[] }>('/daily-news', { params: { topic: 'ai', page } });
   return data.data;
 }
 

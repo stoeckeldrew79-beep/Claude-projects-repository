@@ -1,5 +1,6 @@
 import { useInfiniteQuery, useQuery } from '@tanstack/react-query';
 import {
+  AI_TOPIC_PAGE_SIZE,
   DAILY_NEWS_PAGE_SIZE,
   fetchDailyScamNews,
   fetchDailyNewsStates,
@@ -20,11 +21,16 @@ const REFETCH_INTERVAL_MS = 10 * 60 * 1000;
 // strip claiming to be "recent activity" should actually catch a run
 // landing within the same browsing session — ten minutes is responsive
 // enough without hammering the endpoint.
+// Paged behind a "Show more" button. Only the first page polls in practice:
+// a reader who has opened more pages is reading, not waiting for arrivals.
 export function useAiTopicNews() {
-  return useQuery({
+  return useInfiniteQuery({
     queryKey: ['daily-scam-news', 'topic', 'ai'],
-    queryFn: fetchAiTopicNews,
-    refetchInterval: REFETCH_INTERVAL_MS,
+    queryFn: ({ pageParam }) => fetchAiTopicNews(pageParam),
+    initialPageParam: 1,
+    getNextPageParam: (lastPage, allPages) =>
+      lastPage.length === AI_TOPIC_PAGE_SIZE ? allPages.length + 1 : undefined,
+    refetchInterval: (query) => ((query.state.data?.pages.length ?? 0) > 1 ? false : REFETCH_INTERVAL_MS),
   });
 }
 
@@ -103,5 +109,19 @@ export function useFederalWatch() {
     // Federal Watch drops to its plain-list fallback instead of retrying.
     retry: (failures, err) =>
       (err as { response?: { status?: number } })?.response?.status !== 404 && failures < 3,
+  });
+}
+
+// Every official state-AG alert, newest first — the live feed beside the
+// tile map on the State AGs page. Polls while the reader is on the first
+// page; once they have scrolled further back they are reading, not waiting.
+export function useAgAlertFeed() {
+  return useInfiniteQuery({
+    queryKey: ['daily-scam-news', 'ag-feed'],
+    queryFn: ({ pageParam }) => fetchDailyScamNews(undefined, pageParam, undefined, 'ag'),
+    initialPageParam: 1,
+    getNextPageParam: (lastPage, allPages) =>
+      lastPage.length === DAILY_NEWS_PAGE_SIZE ? allPages.length + 1 : undefined,
+    refetchInterval: (query) => ((query.state.data?.pages.length ?? 0) > 1 ? false : REFETCH_INTERVAL_MS),
   });
 }
