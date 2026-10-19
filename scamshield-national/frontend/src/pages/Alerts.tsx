@@ -4,6 +4,7 @@ import { useAlerts } from '../hooks/useAlerts';
 import { useAuthStore } from '../store/useAuthStore';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { HomeAreaCard } from '../components/HomeAreaCard';
+import { useUpdateProfile } from '../hooks/useAuth';
 import { stateName, US_STATE_OPTIONS } from '../utils/usStates';
 import { useCategories } from '../hooks/useScams';
 import {
@@ -37,6 +38,117 @@ function extractErrorMessage(err: unknown, fallback: string): string {
   return message ?? fallback;
 }
 
+// Free accounts can save what they watch and browse everything, but email
+// and text delivery is for members — said plainly here instead of letting
+// a free user set a cadence for emails that will never come.
+function MembersOnlyNotice() {
+  return (
+    <div className="rounded-xl border border-[#8a2e2e]/30 bg-red-50/60 p-5">
+      <h2 className="font-semibold text-slate-900">Get these alerts by email and text</h2>
+      <p className="mt-1 text-sm text-slate-600">
+        Your free account includes the full scam database and every live feed on the site. Email and text alerts
+        are for members: we watch official Attorney General and federal warnings and send you the ones that match
+        your state and watch list.
+      </p>
+      <Link
+        to="/subscribe"
+        className="mt-4 inline-flex min-h-[44px] items-center rounded-md bg-[#8a2e2e] px-5 font-semibold text-white hover:bg-[#7a2626]"
+      >
+        See plans — from $19.99/month
+      </Link>
+    </div>
+  );
+}
+
+// Text alerts: Pro and above. A US mobile number plus an explicit opt-in,
+// which the server checks against the plan (controllers/users.ts).
+function TextAlertsPanel() {
+  const user = useAuthStore((s) => s.user);
+  const { data: prefs } = useAlertPreferences();
+  const update = useUpdateProfile();
+  const [phone, setPhone] = useState(user?.phone ?? '');
+  const [error, setError] = useState<string | null>(null);
+  // Free accounts already see the members notice above.
+  if (!user || !prefs || prefs.emailAlerts === false) return null;
+  const allowed = prefs.smsAlerts ?? false;
+
+  if (!allowed) {
+    return (
+      <div className="mt-6 rounded-lg border border-slate-200 p-5">
+        <h2 className="font-semibold text-slate-900">Text alerts</h2>
+        <p className="mt-1 text-sm text-slate-600">
+          Text (SMS) alerts come with the Pro, Family and Business plans.{' '}
+          <Link to="/subscribe" className="font-medium text-[#8a2e2e] underline">
+            Upgrade
+          </Link>
+        </p>
+      </div>
+    );
+  }
+
+  const save = (e: FormEvent) => {
+    e.preventDefault();
+    setError(null);
+    update.mutate(
+      { phone: phone.trim() || null, sms_opt_in: Boolean(phone.trim()) },
+      { onError: (err) => setError(extractErrorMessage(err, "Couldn't save that — try again.")) }
+    );
+  };
+  const turnOff = () => {
+    setError(null);
+    update.mutate({ sms_opt_in: false }, { onError: (err) => setError(extractErrorMessage(err, "Couldn't save that — try again.")) });
+  };
+
+  return (
+    <div className="mt-6 rounded-lg border border-slate-200 p-5">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <h2 className="font-semibold text-slate-900">Text alerts</h2>
+        {user.sms_opt_in && user.phone && (
+          <span className="rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-semibold text-emerald-700">On</span>
+        )}
+      </div>
+      <p className="mt-1 text-sm text-slate-600">
+        We text you when an official warning matches your state. US mobile numbers only. Reply STOP to any text to
+        stop them.
+      </p>
+      <form onSubmit={save} className="mt-3 flex flex-wrap items-end gap-2">
+        <div>
+          <label htmlFor="sms-phone" className="block text-xs font-medium text-slate-600">
+            Mobile number
+          </label>
+          <input
+            id="sms-phone"
+            type="tel"
+            inputMode="tel"
+            autoComplete="tel-national"
+            placeholder="(305) 555-0142"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+            className="mt-1 w-48 rounded-md border border-slate-300 bg-white px-3 py-2 text-sm"
+          />
+        </div>
+        <button
+          type="submit"
+          disabled={update.isPending}
+          className="min-h-[40px] rounded-md bg-[#8a2e2e] px-4 text-sm font-semibold text-white hover:bg-[#7a2626] disabled:opacity-50"
+        >
+          {update.isPending ? 'Saving…' : user.sms_opt_in ? 'Update number' : 'Turn on text alerts'}
+        </button>
+        {user.sms_opt_in && (
+          <button type="button" onClick={turnOff} className="px-2 py-2 text-sm text-slate-500 hover:text-slate-800">
+            Turn off
+          </button>
+        )}
+      </form>
+      {error && (
+        <p role="alert" className="mt-2 text-sm text-red-700">
+          {error}
+        </p>
+      )}
+    </div>
+  );
+}
+
 function AlertPreferencesPanel() {
   const { data, isLoading } = useAlertPreferences();
   const updateFrequency = useUpdateAlertFrequency();
@@ -44,6 +156,7 @@ function AlertPreferencesPanel() {
 
   if (isLoading) return <p className="text-sm text-slate-500">Loading your alert settings…</p>;
   if (!data) return null;
+  if (data.emailAlerts === false) return <MembersOnlyNotice />;
 
   const maxRank = FREQUENCY_RANK[data.maxFrequency];
 
@@ -228,16 +341,16 @@ const STEPS = [
     body: 'Around the clock we track state Attorney General and federal (DOJ, FTC) publications and news coverage, and document new scams in our database.',
   },
   {
-    title: 'You get an email',
-    body: 'When a newly documented scam matches your watch list, it lands in your inbox — monthly on a free account, up to within about 20 minutes on Family.',
+    title: 'You get an email or a text',
+    body: 'Members hear the moment a newly documented scam matches their state or watch list — by email on every plan, and by text from Pro up.',
   },
 ];
 
 const CADENCE: { plan: string; price: string; cadence: string; profiles: string; highlight?: boolean }[] = [
-  { plan: 'Free account', price: '$0', cadence: 'Monthly digest', profiles: '1 watch profile' },
-  { plan: 'Basic', price: '$4/mo', cadence: 'Up to weekly', profiles: '1 watch profile' },
-  { plan: 'Pro', price: '$9/mo', cadence: 'Up to daily', profiles: '1 watch profile', highlight: true },
-  { plan: 'Family', price: '$15/mo', cadence: 'Instant (~20 min)', profiles: 'Up to 5 watch profiles' },
+  { plan: 'Basic', price: '$19.99/mo', cadence: 'Real-time email', profiles: 'Weekly digest · 1 watch profile' },
+  { plan: 'Pro', price: '$29.99/mo', cadence: 'Email + text', profiles: 'Daily digest · 1 watch profile', highlight: true },
+  { plan: 'Family', price: '$39.99/mo', cadence: 'Instant (~20 min)', profiles: 'Up to 5 watch profiles' },
+  { plan: 'Business', price: '$99.99/mo', cadence: 'Instant (~20 min)', profiles: 'Up to 20 watch profiles' },
 ];
 
 function AlertsLanding() {
@@ -256,24 +369,24 @@ function AlertsLanding() {
             </h1>
             <p className="mt-5 max-w-xl text-lg text-slate-300">
               Tell us your state and the scams you worry about. We monitor official Attorney General and federal
-              warnings and email you when something new matches.
+              warnings and alert members by email or text when something new matches.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
-                to="/login?mode=register&next=/alerts"
+                to="/subscribe"
                 className="rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white shadow-lg shadow-red-950/50 hover:bg-red-500"
+              >
+                See plans — from $19.99/mo
+              </Link>
+              <Link
+                to="/login?mode=register&next=/alerts"
+                className="rounded-md border border-white/20 bg-white/5 px-6 py-3 text-center font-semibold text-white hover:bg-white/10"
               >
                 Create free account
               </Link>
-              <Link
-                to="/subscribe"
-                className="rounded-md border border-white/20 bg-white/5 px-6 py-3 text-center font-semibold text-white hover:bg-white/10"
-              >
-                See plans
-              </Link>
             </div>
             <p className="mt-4 text-sm text-slate-400">
-              Free to start · no card needed ·{' '}
+              Free account: the full database, no card needed ·{' '}
               <Link to="/login?next=/alerts" className="text-slate-200 underline hover:text-white">
                 Already a member? Sign in
               </Link>
@@ -348,10 +461,10 @@ function AlertsLanding() {
               government websites.
             </p>
             <Link
-              to="/login?mode=register&next=/alerts"
+              to="/subscribe"
               className="mt-6 inline-block rounded-md bg-[#8a2e2e] px-5 py-2.5 font-semibold text-white hover:bg-[#7a2626]"
             >
-              Start watching — free
+              See plans
             </Link>
           </div>
           <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
@@ -419,6 +532,7 @@ export default function Alerts() {
         <HomeAreaCard prominent />
       </div>
       <AlertPreferencesPanel />
+      <TextAlertsPanel />
       <WatchProfilesPanel />
 
       <div className="mt-10">

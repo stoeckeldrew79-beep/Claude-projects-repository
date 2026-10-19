@@ -46,8 +46,10 @@ export function HomeAreaCard({ prominent = false }: { prominent?: boolean }) {
         <div className="mt-2 flex flex-wrap items-center justify-between gap-3">
           <p className="text-sm text-slate-600">
             <span className="font-semibold text-slate-900">{stateName(user.state)}</span>
-            {user.zip_code ? ` · ZIP ${user.zip_code}` : ''} — you'll get alerts aimed at this state as well as
-            nationwide ones.
+            {user.zip_code ? ` · ZIP ${user.zip_code}` : ''} —{' '}
+            {user.subscription_tier === 'free'
+              ? 'members get alerts aimed at this state as well as nationwide ones.'
+              : "you'll get alerts aimed at this state as well as nationwide ones."}
           </p>
           <button
             type="button"
@@ -60,8 +62,8 @@ export function HomeAreaCard({ prominent = false }: { prominent?: boolean }) {
       ) : (
         <>
           <p className="mt-1 text-sm text-slate-600">
-            Add your ZIP code and we'll also send you warnings about scams targeting your state — not just
-            nationwide ones. US only; never shared.
+            Add your ZIP code so your alerts cover scams targeting your state — not just nationwide ones. US
+            only; never shared.
           </p>
           <form onSubmit={handleSubmit} className="mt-3 flex flex-wrap items-end gap-2">
             <div>

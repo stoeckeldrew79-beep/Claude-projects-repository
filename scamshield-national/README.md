@@ -22,7 +22,8 @@ Implemented:
   subscriptions, and `/stats` (live counts, no fabricated numbers)
 - Real email+password auth (bcrypt) with JWT sessions and role/tier-gated routes
 - Real Stripe checkout/portal/webhook flow, syncing subscription tier from live events
-- Twilio SMS + SendGrid email alert broadcast, tier-gated (Family+ for SMS, Pro+ for real-time email)
+- Twilio SMS + SendGrid email alert broadcast, paid members only (Basic+ for real-time email, Pro+ for SMS);
+  plans are Basic $19.99, Pro $29.99, Family $39.99, Business $99.99 a month (prices live in Stripe)
 - Articles blog, including a "Notorious Scams & Scammers" collection (`/notorious`) — 17 real,
   publicly documented cases (convictions, ongoing trials, and unresolved allegations, each
   clearly labeled as such), each with custom abstract cover art (gradient + vignette, no photos
@@ -63,12 +64,13 @@ Implemented:
   derived from a US ZIP, else set by staff in the `/admin` reports queue — `scam_reports.state_source`
   records which. State-targeted alerts are built but **off by default** (every candidate is
   nationwide); see "State-targeted alerts" below.
-- Digest alert subscriptions (`/alerts` page, `/v1/alert-subscriptions`): every tier now gets a
+- Digest alert subscriptions (`/alerts` page, `/v1/alert-subscriptions`): paid members get a
   periodic email of newly-documented scams matching the subscriber's own state/category
   watch profiles — the "live feed as cases are documented" product, distinct from the
-  admin-curated early-warning alerts above. Cadence is tier-gated (Free=monthly, Basic=weekly,
-  Pro=daily, Family/Business=~20-minute "instant"); a subscriber may choose anything at or
-  below their tier's max. A watch profile is a (state, category) pair — Free/Basic/Pro get one,
+  admin-curated early-warning alerts above. Free accounts get the whole site but no email or
+  text. Cadence is tier-gated (Basic=weekly, Pro=daily, Family/Business=~20-minute "instant"),
+  checked again at send time so a downgrade takes effect; a subscriber may choose anything at
+  or below their tier's max. A watch profile is a (state, category) pair — Free/Basic/Pro get one,
   Family gets up to 5 and Business up to 20, which is how one Family membership covers several
   people's states without needing a separate login or separate email consent per person: the
   digest consolidates every matching profile into one email to the one account holder.

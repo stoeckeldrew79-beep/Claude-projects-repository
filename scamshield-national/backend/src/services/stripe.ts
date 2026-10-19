@@ -1,7 +1,7 @@
 // Stripe integration — spec section 5.1. Lazily constructs the client so
 // the app can boot in Phase 1 before STRIPE_SECRET_KEY is configured.
 import Stripe from 'stripe';
-import { priceIdForTier, tierForPriceId, SubscriptionTier } from '../config/stripePrices';
+import { priceIdForTier, tierForPriceId, SubscriptionTier, TIER_PRICE_ENV } from '../config/stripePrices';
 import * as SubscriptionsModel from '../models/subscriptions';
 
 let client: Stripe | null = null;
@@ -21,6 +21,9 @@ export async function createCheckoutSession(userId: string, tier: SubscriptionTi
     mode: 'subscription',
     line_items: [{ price: priceIdForTier(tier), quantity: 1 }],
     client_reference_id: userId,
+    // The plan rides on the subscription itself, so the webhook knows the
+    // tier even after prices change and this price ID is no longer in env.
+    subscription_data: { metadata: { tier } },
     success_url: `${process.env.FRONTEND_URL}/dashboard?checkout=success`,
     cancel_url: `${process.env.FRONTEND_URL}/subscribe?checkout=canceled`,
   });
@@ -45,9 +48,17 @@ export function constructWebhookEvent(rawBody: Buffer, signature: string): Strip
 }
 
 function tierFromSubscription(sub: Stripe.Subscription): string {
+  const fromMetadata = sub.metadata?.tier;
+  if (fromMetadata && fromMetadata in TIER_PRICE_ENV) return fromMetadata;
   const priceId = sub.items.data[0]?.price?.id;
   return (priceId && tierForPriceId(priceId)) ?? 'basic';
 }
+
+// Stripe stops retrying a failed payment and marks the subscription one of
+// these; alerts stop with it. past_due is left alone — that is Stripe's
+// retry window, and a card that goes through on retry shouldn't have cut
+// anyone off.
+const ENDED_STATUSES = new Set(['unpaid', 'canceled', 'incomplete_expired']);
 
 export async function handleWebhookEvent(event: Stripe.Event) {
   switch (event.type) {
@@ -78,6 +89,8 @@ export async function handleWebhookEvent(event: Stripe.Event) {
       });
       if (sub.status === 'active' || sub.status === 'trialing') {
         await SubscriptionsModel.setUserTier(user.id, tier);
+      } else if (ENDED_STATUSES.has(sub.status)) {
+        await SubscriptionsModel.setUserTier(user.id, 'free');
       }
       break;
     }
