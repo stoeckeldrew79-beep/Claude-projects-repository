@@ -7,9 +7,11 @@ name: Generate ScamShield scam entries
 
 on:
   schedule:
-    # 06:10 and 18:10 UTC. Two small batches beat one large one — a bad run
-    # costs half as much and is half as much to review.
-    - cron: '10 6,18 * * *'
+    # Four runs a day, each working through several targets (two thin
+    # countries, the US, and a batch of DOJ fraud releases — SCAMSHIELD_PLAN
+    # in generateScamEntries.ts), so a single dead-end target can't stall
+    # growth the way always-retrying Laos did in October 2026.
+    - cron: '10 0,6,12,18 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -30,6 +32,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     defaults:
       run:
         working-directory: scamshield-national/backend

@@ -13,6 +13,16 @@ const MAX_STORIES_PER_SOURCE = 2;
 // 30-day window and the reader could not reach past the first screenful.
 const PAGE_SIZE = 50;
 
+const AI_TOPIC_PAGE_SIZE = 8;
+// Capped so a crafted ?page= can't ask for an arbitrarily deep scan.
+const AI_TOPIC_MAX_PAGE = 25;
+
+function aiTopicOffset(raw: unknown): number {
+  const page = Number(typeof raw === 'string' ? raw : 1);
+  if (!Number.isFinite(page) || page <= 1) return 0;
+  return (Math.min(Math.floor(page), AI_TOPIC_MAX_PAGE) - 1) * AI_TOPIC_PAGE_SIZE;
+}
+
 function pageOffset(raw: unknown): number {
   const page = Number(typeof raw === 'string' ? raw : 1);
   return Number.isFinite(page) && page > 1 ? Math.floor(page - 1) * PAGE_SIZE : 0;
@@ -163,10 +173,11 @@ export const count = asyncHandler<AuthedRequest>(async (req, res) => {
 
 export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   if (aiTopicRequested(req)) {
-    // The strip this feeds is a handful of headlines above a curated list,
-    // not a paged feed — no per-source cap (the volume is low enough that
-    // one outlet dominating isn't a real risk the way it is on the main
-    // feed) and a fixed small limit rather than PAGE_SIZE/offset paging.
+    // The strip this feeds is a handful of headlines above a curated list —
+    // no per-source cap (the volume is low enough that one outlet dominating
+    // isn't a real risk the way it is on the main feed). Paged in small
+    // steps behind a "Show more" button rather than PAGE_SIZE, and held to
+    // the 30 days the strip's label promises.
     const params: unknown[] = [AI_TOPIC_PATTERN];
     const notSpam = notInvestorSpamSql(params);
     const { rows } = await pool.query(
@@ -177,13 +188,14 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
                 ) AS dupe_rank
          FROM daily_scam_news
          WHERE headline ~* $1 AND ${notSpam}
+           AND COALESCE(published_at, scanned_at) > NOW() - INTERVAL '30 days'
        )
        SELECT id, headline, summary, source_name, source_url,
               published_at, search_term, scanned_at, state, source_kind
        FROM deduped
        WHERE dupe_rank = 1
        ORDER BY COALESCE(published_at, scanned_at) DESC, id
-       LIMIT 8`,
+       LIMIT ${AI_TOPIC_PAGE_SIZE} OFFSET ${aiTopicOffset(req.query.page)}`,
       params
     );
     res.json({ data: rows });

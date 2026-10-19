@@ -87,7 +87,8 @@ function PlaceholderRow({ innerRef }: { innerRef?: Ref<HTMLDivElement> }) {
 // to the original source, not internal links to a reviewed database entry —
 // so a reader never mistakes a raw headline for a vetted pattern.
 function AiActivityStrip() {
-  const { data: items, isLoading } = useAiTopicNews();
+  const { data, isLoading, hasNextPage, fetchNextPage, isFetchingNextPage } = useAiTopicNews();
+  const items = data?.pages.flat();
 
   if (isLoading || !items || items.length === 0) return null;
 
@@ -120,6 +121,20 @@ function AiActivityStrip() {
           </li>
         ))}
       </ul>
+      {/* A button, not infinite scroll: the reviewed database sits directly
+          below, and an endless headline list would push it out of reach. */}
+      {hasNextPage && (
+        <div className="border-t border-slate-200 px-4 py-3 text-center">
+          <button
+            type="button"
+            onClick={() => fetchNextPage()}
+            disabled={isFetchingNextPage}
+            className="inline-flex min-h-[44px] items-center rounded-lg border border-slate-300 bg-white px-4 text-sm font-semibold text-slate-700 hover:border-slate-400 hover:bg-slate-100 disabled:opacity-60"
+          >
+            {isFetchingNextPage ? 'Loading…' : 'Show more AI headlines'}
+          </button>
+        </div>
+      )}
     </div>
   );
 }

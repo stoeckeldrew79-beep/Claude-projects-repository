@@ -12,6 +12,11 @@
 // Mixing a server tool with structured output in a single call risks a
 // pause_turn ending the turn with a silently truncated answer.
 //
+// A third source needs no search at all: 'doj' targets hand the extract call
+// a batch of the Justice Department's own fraud press releases, which are
+// primary sources by definition, so those entries cost one call and never
+// come back empty for lack of a findable agency page.
+//
 // Writes nothing unless --apply is passed. The default is a dry run that
 // prints what it would add, so the job can be exercised safely.
 import 'dotenv/config';
@@ -23,14 +28,25 @@ import { zodOutputFormat } from '@anthropic-ai/sdk/helpers/zod';
 import { SEED_SCAMS } from '../db/seed-data/scams';
 import { SEED_CATEGORIES } from '../db/seed-data/categories';
 import { SEED_STATE_AG_SOURCES } from '../db/seed-data/state-ag-sources';
+import { DojRelease, isFraudRelease, officeName, releaseSeconds, stateForComponent } from './dojArchive';
+import { fetchDojPage, sleep } from './dojApi';
+import { cleanText } from './agFeedParse';
 
 const MODEL = process.env.SCAMSHIELD_MODEL ?? 'claude-opus-5';
 const APPLY = process.argv.includes('--apply');
 const COUNT = Number(process.env.SCAMSHIELD_BATCH_SIZE ?? 3);
-// 'state' | 'international' | 'us'. Unset keeps the original mixed behaviour,
-// so the existing schedule is unchanged; the state schedule sets this to
-// 'state' rather than running a second copy of this job with its own guards.
+// 'state' | 'international' | 'us' | 'doj' runs that one kind of target (the
+// state schedule sets 'state'). Unset, a run works through SCAMSHIELD_PLAN —
+// several targets per run, each its own research + extract, so one dead-end
+// target no longer costs the whole run.
 const TARGET_MODE = process.env.SCAMSHIELD_TARGET;
+const PLAN = (process.env.SCAMSHIELD_PLAN ?? 'international,international,us,doj')
+  .split(',')
+  .map((x) => x.trim())
+  .filter(Boolean);
+// DOJ targets need no search, so they can carry a bigger batch cheaply.
+const DOJ_COUNT = Number(process.env.SCAMSHIELD_DOJ_BATCH_SIZE ?? 6);
+const SEARCH_USES = Number(process.env.SCAMSHIELD_SEARCH_USES ?? 15);
 
 const SHARD_DIR = path.join(__dirname, '..', 'db', 'seed-data', 'scams');
 
@@ -114,6 +130,8 @@ function article(stateName: string): string {
 interface Target {
   country: string;
   note: string;
+  // Set only for a DOJ target: the press releases are the findings.
+  doj?: DojCandidate[];
   // Set only in state mode. Everything downstream keys off this: the research
   // prompt, the required state on every entry, and the exclusion sample.
   state?: string;
@@ -150,18 +168,27 @@ function thinnestState(): Target {
 // research. They stay permanently "thinnest" no matter how many runs target
 // them, so excluding them here is what actually stops the repeat failures —
 // downgrading a fruitless run to a non-error (below) only stops it from
-// being reported as one.
-const THIN_COVERAGE_DEAD_ENDS = new Set(['NU']);
+// being reported as one. LA (Laos) emptied every international run from
+// Oct 16 to 18: no agency publishes scam warnings it can find.
+const THIN_COVERAGE_DEAD_ENDS = new Set(['NU', 'LA']);
 
-function thinnestNonUs(): Target | null {
+// How many of the thinnest countries a run chooses among. Always taking the
+// single thinnest is what jammed the job: a country with no findable
+// sources stays thinnest forever and every run retries it. A random pick
+// from the thin end still steers growth to the gaps, but one dead end can
+// only ever cost the occasional target, not every run.
+const THIN_POOL = 15;
+
+function thinnestNonUs(exclude: Set<string> = new Set()): Target | null {
   const counts = new Map<string, number>();
   for (const s of SEED_SCAMS) counts.set(s.country ?? 'US', (counts.get(s.country ?? 'US') ?? 0) + 1);
   const nonUs = [...counts.entries()]
-    .filter(([c]) => c !== 'US' && !THIN_COVERAGE_DEAD_ENDS.has(c))
+    .filter(([c]) => c !== 'US' && !THIN_COVERAGE_DEAD_ENDS.has(c) && !exclude.has(c))
     .sort((a, b) => a[1] - b[1]);
   if (!nonUs.length) return null;
-  const [country, n] = nonUs[0];
-  return { country, note: `${country} currently has ${n} entries — the thinnest non-US coverage.` };
+  const pool = nonUs.slice(0, THIN_POOL);
+  const [country, n] = pool[Math.floor(Math.random() * pool.length)];
+  return { country, note: `${country} currently has ${n} entries — among the thinnest non-US coverage.` };
 }
 
 function usNational(): Target {
@@ -169,18 +196,83 @@ function usNational(): Target {
   return { country: 'US', note: `The US has ${n} entries; find genuinely new patterns, not variants.` };
 }
 
-// Target the thinnest coverage, the same way the human-written routine did.
-function pickTarget(): Target {
-  if (TARGET_MODE === 'state') return thinnestState();
-  if (TARGET_MODE === 'us') return usNational();
-  if (TARGET_MODE === 'international') return thinnestNonUs() ?? usNational();
-  // Two US entries for every international one: US consumers are the
-  // primary audience, but coverage gaps abroad are wider.
-  if (Math.random() < 0.34) {
-    const intl = thinnestNonUs();
-    if (intl) return intl;
+interface DojCandidate {
+  url: string;
+  title: string;
+  office: string | null;
+  state: string | null;
+  date: string;
+  text: string;
+}
+
+const DOJ_TEXT_MAX = 1800;
+const DOJ_CANDIDATES = 24;
+
+function dojText(release: DojRelease): string {
+  const text = cleanText((release.body || release.teaser || '').replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
+  return text.length > DOJ_TEXT_MAX ? `${text.slice(0, DOJ_TEXT_MAX)}…` : text;
+}
+
+// Recent DOJ fraud releases the corpus doesn't already cite. Starts at a
+// random page in the last few months so consecutive runs see different
+// cases rather than racing each other for the newest handful.
+export async function dojTarget(): Promise<Target | null> {
+  const cited = new Set(SEED_SCAMS.map((s) => (s.sourceUrl ?? '').replace(/\/+$/, '')));
+  const start = Math.floor(Math.random() * 40);
+  const out: DojCandidate[] = [];
+  for (let page = start; page < start + 6 && out.length < DOJ_CANDIDATES; page++) {
+    let releases: DojRelease[];
+    try {
+      releases = await fetchDojPage({ sort: 'created', direction: 'DESC', page });
+    } catch (err) {
+      console.log(`generateScamEntries: DOJ API unavailable (${(err as Error).message}); skipping the DOJ target.`);
+      break;
+    }
+    for (const r of releases) {
+      if (!r.url || !isFraudRelease(r) || cited.has(r.url.replace(/\/+$/, ''))) continue;
+      const components = Array.isArray(r.component) ? (r.component as { name: string }[]).map((c) => c.name) : [];
+      const usao = components.find((c) => /^USAO\s*-/i.test(c));
+      const secs = releaseSeconds(r);
+      out.push({
+        url: r.url,
+        title: cleanText(r.title).replace(/\s+/g, ' ').trim(),
+        office: usao ? officeName(usao) : components[0] ?? null,
+        state: usao ? stateForComponent(usao) : null,
+        date: secs ? new Date(secs * 1000).toISOString().slice(0, 10) : 'unknown',
+        text: dojText(r),
+      });
+      if (out.length >= DOJ_CANDIDATES) break;
+    }
+    await sleep(250);
   }
-  return usNational();
+  if (!out.length) return null;
+  return {
+    country: 'US',
+    doj: out,
+    note: `${out.length} recent Justice Department fraud releases not yet cited by any entry.`,
+  };
+}
+
+// The targets one run works through.
+async function pickTargets(): Promise<Target[]> {
+  const modes = TARGET_MODE ? [TARGET_MODE] : PLAN;
+  const targets: Target[] = [];
+  const chosen = new Set<string>();
+  for (const mode of modes) {
+    if (mode === 'state') targets.push(thinnestState());
+    else if (mode === 'us') targets.push(usNational());
+    else if (mode === 'doj') {
+      const t = await dojTarget();
+      if (t) targets.push(t);
+    } else if (mode === 'international') {
+      const t = thinnestNonUs(chosen);
+      if (t) {
+        chosen.add(t.country);
+        targets.push(t);
+      } else targets.push(usNational());
+    } else console.log(`generateScamEntries: unknown target mode "${mode}" ignored`);
+  }
+  return targets;
 }
 
 async function main() {
@@ -194,177 +286,218 @@ async function main() {
   // waits is strictly better than one that produces nothing.
   const client = new Anthropic({ maxRetries: 8 });
   const slugs = existingSlugs();
-  const target = pickTarget();
+  const targets = await pickTargets();
   const categories = SEED_CATEGORIES.map((c) => c.slug).join(', ');
+  const validCategories = new Set(SEED_CATEGORIES.map((c) => c.slug));
 
-  const targetLabel = target.state ? `${target.state} (${target.stateName})` : target.country;
-  console.log(`generateScamEntries: model=${MODEL} target=${targetLabel} batch=${COUNT} mode=${APPLY ? 'APPLY' : 'dry run'}`);
-  console.log(`generateScamEntries: ${target.note}`);
+  console.log(
+    `generateScamEntries: model=${MODEL} targets=${targets.length} batch=${COUNT} mode=${APPLY ? 'APPLY' : 'dry run'}`
+  );
 
-  // One full attempt: research, extract, then reject anything that would
-  // corrupt the corpus. Separated out so a run whose every candidate already
-  // existed can try again knowing what collided, rather than paying for a
-  // search and writing nothing.
-  async function attempt(collided: string[]) {
-  // 1. Research — real, currently reported scams, with agency sources.
-  const researchPrompt = target.state
-    ? `Find ${COUNT} distinct consumer scams currently being reported in ${target.stateName}. ${target.note}\n\n` +
-      `Start from the ${target.agency} and its published consumer alerts (${target.agencyUrl}); also use that state's ` +
-      `local news coverage of scams and any state agency that warns consumers there.\n\n` +
-      `Each scam must be genuinely tied to ${target.stateName} — ${article(target.stateName!)} ${target.stateName} ` +
-      `agency impersonation, an enforcement action or alert by the ${target.agency}, a scam targeting ` +
-      `${article(target.stateName!)} ${target.stateName} benefit program, or a fraud operating against ` +
-      `${target.stateName} residents. A nationwide scam that merely also happens there does not qualify; ` +
-      `return fewer entries instead.\n\n` +
-      `For each: what it is, exactly how it works, who reported it, and the URL of the reporting agency's page ` +
-      `(the state Attorney General, another state agency, or a federal regulator — not a news aggregator).\n\n` +
-      `Hard requirements: every scam must be real and documented; no invented statistics, companies, or individuals. ` +
-      `If you can only verify fewer than ${COUNT}, return fewer — a short honest batch is correct, padding is not.\n\n` +
-      `Avoid anything already covered by these existing ${target.stateName} entries:\n` +
+  // Research only — returns the findings text the extract call works from.
+  async function research(target: Target, collided: string[]): Promise<string> {
+    const avoid = (heading: string) =>
+      `${heading}\n` +
       exclusionSample(target, EXCLUSION_SAMPLE_SIZE).map((n) => `- ${n}`).join('\n') +
       (collided.length
         ? `\n\nA previous attempt proposed these and every one already existed. ` +
           `Do not propose them or close variants again:\n` +
           collided.map((c) => `- ${c}`).join('\n')
-        : '')
-    : `Find ${COUNT} distinct consumer scams currently being reported in ${target.country}. ${target.note}\n\n` +
-    `For each: what it is, exactly how it works, who reported it, and the URL of the reporting agency's page ` +
-    `(a consumer-protection agency, police force, or financial regulator in that country — not a news aggregator).\n\n` +
-    `Hard requirements: every scam must be real and documented; no invented statistics, companies, or individuals. ` +
-    `If you can only verify fewer than ${COUNT}, return fewer — a short honest batch is correct, padding is not.\n\n` +
-    `Avoid anything already covered by these existing entry names:\n` +
-    exclusionSample(target, EXCLUSION_SAMPLE_SIZE).map((n) => `- ${n}`).join('\n') +
-    (collided.length
-      ? `\n\nA previous attempt proposed these and every one already existed. ` +
-        `Do not propose them or close variants again:\n` +
-        collided.map((c) => `- ${c}`).join('\n')
-      : '');
+        : '');
+    const researchPrompt = target.state
+      ? `Find ${COUNT} distinct consumer scams currently being reported in ${target.stateName}. ${target.note}\n\n` +
+        `Start from the ${target.agency} and its published consumer alerts (${target.agencyUrl}); also use that state's ` +
+        `local news coverage of scams and any state agency that warns consumers there.\n\n` +
+        `Each scam must be genuinely tied to ${target.stateName} — ${article(target.stateName!)} ${target.stateName} ` +
+        `agency impersonation, an enforcement action or alert by the ${target.agency}, a scam targeting ` +
+        `${article(target.stateName!)} ${target.stateName} benefit program, or a fraud operating against ` +
+        `${target.stateName} residents. A nationwide scam that merely also happens there does not qualify; ` +
+        `return fewer entries instead.\n\n` +
+        `For each: what it is, exactly how it works, who reported it, and the URL of the reporting agency's page ` +
+        `(the state Attorney General, another state agency, or a federal regulator — not a news aggregator).\n\n` +
+        `Hard requirements: every scam must be real and documented; no invented statistics, companies, or individuals. ` +
+        `If you can only verify fewer than ${COUNT}, return fewer — a short honest batch is correct, padding is not.\n\n` +
+        avoid(`Avoid anything already covered by these existing ${target.stateName} entries:`)
+      : `Find ${COUNT} distinct consumer scams currently being reported in ${target.country} (ISO 3166 country code). ${target.note}\n\n` +
+        `For each: what it is, exactly how it works, who reported it, and the URL of the source page. Prefer the ` +
+        `reporting agency's own page (a consumer-protection agency, police force, central bank or financial regulator ` +
+        `in that country). Where the agency's site is not reachable or not indexed, a report by an established national ` +
+        `news outlet that names the agency and quotes its warning is acceptable — never a blog, forum or aggregator. ` +
+        `Search in the country's own language as well as English.\n\n` +
+        `Hard requirements: every scam must be real and documented; no invented statistics, companies, or individuals. ` +
+        `If you can only verify fewer than ${COUNT}, return fewer — a short honest batch is correct, padding is not.\n\n` +
+        avoid('Avoid anything already covered by these existing entry names:');
 
-  const researchMessages: Anthropic.MessageParam[] = [];
-  let research = await client.messages.create({
-    model: MODEL,
-    max_tokens: 16000,
-    thinking: { type: 'adaptive' },
-    tools: [{ type: 'web_search_20260209', name: 'web_search', max_uses: 8 }],
-    messages: [{ role: 'user', content: researchPrompt }],
-  });
-
-  // A server tool can end the turn early with pause_turn when a search runs
-  // long. Extracting from that half-finished answer is how a run quietly
-  // produces nothing, so hand the turn back and let it finish.
-  const collected = [...research.content];
-  let resumes = 0;
-  while (research.stop_reason === 'pause_turn' && resumes < 4) {
-    resumes += 1;
-    console.log(`generateScamEntries: research paused, resuming (${resumes})`);
-    researchMessages.push({ role: 'assistant', content: research.content });
-    research = await client.messages.create({
+    const tools: Anthropic.Messages.ToolUnion[] = [{ type: 'web_search_20260209', name: 'web_search', max_uses: SEARCH_USES }];
+    const researchMessages: Anthropic.MessageParam[] = [];
+    let res = await client.messages.create({
       model: MODEL,
       max_tokens: 16000,
       thinking: { type: 'adaptive' },
-      tools: [{ type: 'web_search_20260209', name: 'web_search', max_uses: 8 }],
-      messages: [{ role: 'user', content: researchPrompt }, ...researchMessages],
+      tools,
+      messages: [{ role: 'user', content: researchPrompt }],
     });
-    collected.push(...research.content);
-  }
 
-  const findings = collected.filter((b) => b.type === 'text').map((b) => (b as { text: string }).text).join('\n');
-  console.log(`generateScamEntries: research stop_reason=${research.stop_reason} findings=${findings.length} chars`);
-  if (!findings.trim()) {
-    console.error('generateScamEntries: research call returned no text. Nothing to extract.');
-    process.exit(1);
-  }
-  // On a dry run the findings are the whole point of looking: without them a
-  // "0 entries" result is unexplainable.
-  if (!APPLY) console.log(`\n--- research findings ---\n${findings.slice(0, 4000)}\n--- end findings ---\n`);
-
-  // 2. Extract — schema-valid entries, no free-form output to parse by hand.
-  const extracted = await client.messages.parse({
-    model: MODEL,
-    max_tokens: 16000,
-    messages: [
-      {
-        role: 'user',
-        content:
-          `Turn these verified findings into database entries.\n\n` +
-          `Rules:\n` +
-          `- categorySlug must be one of: ${categories}\n` +
-          `- slug: lowercase, hyphenated, derived from the name\n` +
-          `- country: ISO-3166 alpha-2, "${target.country}" for all of these\n` +
-          (target.state
-            ? `- state: "${target.state}" for every entry — these are all ${target.stateName} scams\n`
-            : `- state: only for a scam genuinely tied to one US state; omit otherwise\n`) +
-          `- sourceUrl: the agency URL from the findings, never invented\n` +
-          `- description: 3-5 sentences, plain language, ending in what a reader should do\n\n` +
-          `FINDINGS:\n${findings}`,
-      },
-    ],
-    output_config: { format: zodOutputFormat(BatchSchema) },
-  });
-
-  const parsed = extracted.parsed_output;
-  if (!parsed) {
-    console.error('generateScamEntries: extraction did not parse against the schema. Nothing written.');
-    process.exit(1);
-  }
-  // An empty batch after a successful research call means the extraction
-  // rejected everything it was given — say so, rather than reporting "0 of 0"
-  // and letting it read as a quiet success. This is a legitimate result, not
-  // a bug: refusing to fabricate an entry when nothing verifiable turned up
-  // is exactly the intended behavior, so it must not exit non-zero — a
-  // research target with genuinely thin public reporting (a small country,
-  // an oversaturated US category) would otherwise fail every single run and
-  // read as a broken pipeline when it is actually working correctly.
-  if (!parsed.entries.length) {
-    console.log('generateScamEntries: research returned findings but extraction produced no entries. Nothing written this run — not a failure, just nothing verifiable to add.');
-    // Without the findings an empty run is unexplainable from the log (the
-    // dry-run print above is skipped under --apply), so show them here.
-    if (APPLY) console.log(`\n--- research findings (why nothing was extracted) ---\n${findings.slice(0, 4000)}\n--- end findings ---\n`);
-    return { accepted: [], proposed: 0, collisions: [] };
-  }
-
-  // 3. Reject anything that would corrupt the corpus, and say why.
-  const validCategories = new Set(SEED_CATEGORIES.map((c) => c.slug));
-  const accepted: Entry[] = [];
-  const collisions: string[] = [];
-  for (const e of parsed.entries) {
-    if (slugs.has(e.slug)) { console.log(`  reject ${e.slug}: slug already exists`); collisions.push(e.name); continue; }
-    if (!validCategories.has(e.categorySlug)) { console.log(`  reject ${e.slug}: unknown category ${e.categorySlug}`); continue; }
-    // A state run exists to deepen one state. An entry that comes back
-    // untagged, or tagged to a different state, is a nationwide scam that
-    // slipped the prompt — writing it would grow the corpus while leaving
-    // the state's coverage exactly where it was, and quietly skew the map.
-    if (target.state && e.state !== target.state) {
-      console.log(`  reject ${e.slug}: state is ${e.state ?? 'unset'}, expected ${target.state}`);
-      continue;
+    // A server tool can end the turn early with pause_turn when a search runs
+    // long. Extracting from that half-finished answer is how a run quietly
+    // produces nothing, so hand the turn back and let it finish.
+    const collected = [...res.content];
+    let resumes = 0;
+    while (res.stop_reason === 'pause_turn' && resumes < 4) {
+      resumes += 1;
+      console.log(`generateScamEntries: research paused, resuming (${resumes})`);
+      researchMessages.push({ role: 'assistant', content: res.content });
+      res = await client.messages.create({
+        model: MODEL,
+        max_tokens: 16000,
+        thinking: { type: 'adaptive' },
+        tools,
+        messages: [{ role: 'user', content: researchPrompt }, ...researchMessages],
+      });
+      collected.push(...res.content);
     }
-    // The whole URL has to appear in the findings verbatim, not just its
-    // host. A matching hostname only proves the domain was mentioned
-    // somewhere; it does not stop a plausible-looking path being invented on
-    // a real agency's domain.
-    const sourceUrl = tidyUrl(e.sourceUrl);
-    if (!findings.includes(sourceUrl)) { console.log(`  reject ${e.slug}: sourceUrl is not in the research findings verbatim`); continue; }
-    e.sourceUrl = sourceUrl;
-    if (accepted.some((a) => a.slug === e.slug)) { console.log(`  reject ${e.slug}: duplicate within this batch`); continue; }
-    accepted.push(e);
+    const findings = collected.filter((b) => b.type === 'text').map((b) => (b as { text: string }).text).join('\n');
+    console.log(`generateScamEntries: research stop_reason=${res.stop_reason} findings=${findings.length} chars`);
+    return findings;
   }
 
+  function dojFindings(target: Target): string {
+    return target
+      .doj!.map(
+        (c, i) =>
+          `[${i + 1}] ${c.title}\nURL: ${c.url}\nOffice: ${c.office ?? 'Department of Justice'}\n` +
+          `State: ${c.state ?? 'none (national)'}\nDate: ${c.date}\n${c.text}`
+      )
+      .join('\n\n');
+  }
+
+  // One full attempt for one target: findings, extract, then reject anything
+  // that would corrupt the corpus. Never exits the process — in a run of
+  // several targets, one bad target must not cost the others.
+  async function attempt(target: Target, collided: string[]) {
+    const empty = { accepted: [] as Entry[], proposed: 0, collisions: [] as string[] };
+    const count = target.doj ? DOJ_COUNT : COUNT;
+    const findings = target.doj ? dojFindings(target) : await research(target, collided);
+    if (!findings.trim()) {
+      console.log('generateScamEntries: research call returned no text. Nothing to extract.');
+      return empty;
+    }
+    // On a dry run the findings are the whole point of looking: without them a
+    // "0 entries" result is unexplainable.
+    if (!APPLY) console.log(`\n--- findings ---\n${findings.slice(0, 4000)}\n--- end findings ---\n`);
+
+    const dojRules = target.doj
+      ? `These findings are U.S. Justice Department press releases about fraud cases. Choose up to ${count} that ` +
+        `reveal a scam pattern ordinary people, small businesses or benefit programs should watch for (impersonation, ` +
+        `romance, investment, elder, lottery, tech-support, crypto, identity theft, benefit or disaster fraud and the ` +
+        `like). Skip cases that teach a consumer nothing — pure billing or procurement fraud by insiders, tax evasion ` +
+        `by the defendant, bribery — and skip any that duplicate this list of existing names:\n` +
+        exclusionSample(target, EXCLUSION_SAMPLE_SIZE).map((n) => `- ${n}`).join('\n') +
+        `\n\nName each entry after the scheme, not the defendant (e.g. "Fake Bank Investigator Gold Courier Scam (Ohio)"). ` +
+        `The description explains how the scheme worked on its victims, cites the outcome (charged, convicted, ` +
+        `sentenced) without naming private individuals, and ends with what a reader should do. ` +
+        `sources: ["U.S. Department of Justice", the office]. Never use facts that are not in the release.\n\n`
+      : '';
+    const extracted = await client.messages.parse({
+      model: MODEL,
+      max_tokens: 16000,
+      messages: [
+        {
+          role: 'user',
+          content:
+            `Turn these verified findings into database entries.\n\n` +
+            dojRules +
+            `Rules:\n` +
+            `- categorySlug must be one of: ${categories}\n` +
+            `- slug: lowercase, hyphenated, derived from the name\n` +
+            `- country: ISO-3166 alpha-2, "${target.country}" for all of these\n` +
+            (target.state
+              ? `- state: "${target.state}" for every entry — these are all ${target.stateName} scams\n`
+              : target.doj
+                ? `- state: the release's State when it has one; omit it for "none (national)"\n`
+                : `- state: only for a scam genuinely tied to one US state; omit otherwise\n`) +
+            `- sourceUrl: the source URL from the findings, never invented\n` +
+            `- description: 3-5 sentences, plain language, ending in what a reader should do\n\n` +
+            `FINDINGS:\n${findings}`,
+        },
+      ],
+      output_config: { format: zodOutputFormat(BatchSchema) },
+    });
+
+    const parsed = extracted.parsed_output;
+    if (!parsed) {
+      console.log('generateScamEntries: extraction did not parse against the schema. Nothing taken from this target.');
+      return empty;
+    }
+    // An empty batch is a legitimate result, not a bug: refusing to fabricate
+    // an entry when nothing verifiable turned up is the intended behavior.
+    if (!parsed.entries.length) {
+      console.log('generateScamEntries: findings produced no entries for this target — nothing verifiable to add.');
+      // Without the findings an empty target is unexplainable from the log
+      // (the dry-run print above is skipped under --apply), so show them here.
+      if (APPLY) console.log(`\n--- findings (why nothing was extracted) ---\n${findings.slice(0, 4000)}\n--- end findings ---\n`);
+      return empty;
+    }
+
+    const dojState = new Map((target.doj ?? []).map((c) => [c.url, c.state]));
+    const accepted: Entry[] = [];
+    const collisions: string[] = [];
+    for (const e of parsed.entries.slice(0, count)) {
+      if (slugs.has(e.slug)) { console.log(`  reject ${e.slug}: slug already exists`); collisions.push(e.name); continue; }
+      if (!validCategories.has(e.categorySlug)) { console.log(`  reject ${e.slug}: unknown category ${e.categorySlug}`); continue; }
+      if (e.country !== target.country) { console.log(`  reject ${e.slug}: country is ${e.country}, expected ${target.country}`); continue; }
+      // A state run exists to deepen one state. An entry that comes back
+      // untagged, or tagged to a different state, is a nationwide scam that
+      // slipped the prompt — writing it would grow the corpus while leaving
+      // the state's coverage exactly where it was, and quietly skew the map.
+      if (target.state && e.state !== target.state) {
+        console.log(`  reject ${e.slug}: state is ${e.state ?? 'unset'}, expected ${target.state}`);
+        continue;
+      }
+      // The whole URL has to appear in the findings verbatim, not just its
+      // host. A matching hostname only proves the domain was mentioned
+      // somewhere; it does not stop a plausible-looking path being invented on
+      // a real agency's domain.
+      const sourceUrl = tidyUrl(e.sourceUrl);
+      if (!findings.includes(sourceUrl)) { console.log(`  reject ${e.slug}: sourceUrl is not in the findings verbatim`); continue; }
+      e.sourceUrl = sourceUrl;
+      if (target.doj) {
+        // A DOJ release's state comes from the U.S. Attorney's office that
+        // issued it — take that, not whatever the model wrote.
+        if (!dojState.has(sourceUrl)) { console.log(`  reject ${e.slug}: sourceUrl is not one of the releases`); continue; }
+        const st = dojState.get(sourceUrl);
+        if (st && st.length === 2) e.state = st;
+        else delete e.state;
+      }
+      accepted.push(e);
+      slugs.add(e.slug);
+    }
     return { accepted, proposed: parsed.entries.length, collisions };
   }
 
-  let { accepted, proposed, collisions } = await attempt([]);
-
-  // Nothing accepted purely because every candidate already existed is a
-  // solvable miss, not a dead end: the search worked, the corpus is simply
-  // large enough now that the obvious answers are in it. One more attempt,
-  // told what collided. Capped at one — a second empty result means the
-  // search genuinely found nothing new today.
-  if (!accepted.length && collisions.length) {
-    console.log(`generateScamEntries: all ${collisions.length} proposed entries already existed — retrying once with those excluded.`);
-    ({ accepted, proposed, collisions } = await attempt(collisions));
+  const accepted: Entry[] = [];
+  let proposedTotal = 0;
+  for (const target of targets) {
+    const label = target.doj ? 'DOJ releases' : target.state ? `${target.state} (${target.stateName})` : target.country;
+    console.log(`\ngenerateScamEntries: target ${label} — ${target.note}`);
+    try {
+      let r = await attempt(target, []);
+      // Nothing accepted purely because every candidate already existed is a
+      // solvable miss: one more attempt, told what collided.
+      if (!r.accepted.length && r.collisions.length && !target.doj) {
+        console.log(`generateScamEntries: all ${r.collisions.length} proposed entries already existed — retrying once with those excluded.`);
+        r = await attempt(target, r.collisions);
+      }
+      console.log(`generateScamEntries: ${label}: ${r.accepted.length} of ${r.proposed} entries accepted`);
+      accepted.push(...r.accepted);
+      proposedTotal += r.proposed;
+    } catch (err) {
+      const api = (err as { error?: { error?: { type?: string; message?: string } } })?.error?.error;
+      console.log(`generateScamEntries: ${label} failed (${api?.type ? `${api.type} - ${api.message}` : (err as Error).message}); continuing with the next target.`);
+    }
   }
 
-  console.log(`generateScamEntries: ${accepted.length} of ${proposed} entries accepted`);
+  console.log(`\ngenerateScamEntries: ${accepted.length} of ${proposedTotal} entries accepted across ${targets.length} targets`);
   for (const e of accepted) console.log(`  + [${e.categorySlug}] ${e.name}\n      ${e.sourceUrl}`);
 
   if (!APPLY) {
