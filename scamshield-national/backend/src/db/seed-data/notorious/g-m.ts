@@ -12505,3 +12505,24 @@ The three also pleaded guilty in a parallel criminal case, which included charge
 The Medi-Hut case shows how a small company can manufacture growth with paper alone, and how the related-party relationship, a customer secretly controlled by an insider, is one of the oldest ways to create sales that do not exist. It also shows that the cover-up can be punished as hard as the fraud: the officers' false statements to auditors and to SEC investigators were part of what brought them prison terms.`,
     sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-18976',
 });
+
+NotoriousGM.push({
+    title: 'Jeffrey Conway and the Rent-Way Accounting Fraud',
+    slug: 'jeffrey-conway-rent-way-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Erie_Pa_from_Bicentennial_Tower.JPG?width=1200',
+    coverImageCredit: 'Photo: AndreCarrotflower (CC BY-SA 3.0) — Erie, Pennsylvania waterfront and downtown from the Bicentennial Tower, 2013',
+    coverImagePosition: 50,
+    body: `Rent-Way, Inc. was a publicly traded rent-to-own retailer. Jeffrey A. Conway, its president and chief financial officer, was a certified public accountant, and the company's controller, Matthew Marini, and a senior vice president of operations, Jeffrey Underwood, reported to him. In fiscal 1999 and 2000, the SEC said, the three used the company's accounting to make it look much more profitable than it was.
+
+According to the SEC's complaint, Conway set earnings forecasts and directed Marini to meet them, and Marini directed lower-level employees to make fraudulent entries in the company's books and records. Conway also had Underwood hold back recording certain operating expenses at the end of fiscal 1999 and 2000. The SEC alleged that Rent-Way under-reported operating expenses by more than $60 million in its public filings, turning losses into smaller losses or profits, and overstating pre-tax income or understating pre-tax loss by amounts ranging from 12% to 448% in the periods affected. About $35 million in additional fraudulent entries were made in the last quarter of fiscal 2000 but were discovered before results were released.
+
+Rent-Way's audit committee investigated and concluded that its accounting in fiscal 1998 through 2000 contained improprieties that overstated assets and income while understating liabilities and expenses, and the company restated fiscal 1998 and 1999 and several interim periods. On July 22, 2003 the SEC announced settlements with Conway and Underwood and a partial settlement with Marini, and all three pleaded guilty to criminal charges the same day: Conway to conspiring to falsify books and records, Marini to securities fraud, and Underwood to falsifying books and records.
+
+Conway was sentenced on November 25, 2003 to 13 months in prison, two years of supervised release and a $20,000 fine. Marini, who cooperated with the investigations, was sentenced the next day to three months in prison and three months of home detention, and Underwood, who also cooperated, to two years of probation and a $7,000 fine on December 19, 2003. In a related SEC proceeding Conway also lost his accounting license, was barred from serving as an officer or director of a public company, and was fined nearly $360,000.
+
+The Rent-Way case is a textbook example of an accounting fraud driven by forecasts. An executive sets the earnings number first and then directs subordinates to make the books fit it, so the false entries are made by lower-level staff while the responsibility rests with the person who set the target. Its sentences also show how cooperation shapes outcomes: the executive who set the targets served the longest term, while the two subordinates who cooperated received much lighter ones.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-18521',
+});
