@@ -14061,3 +14061,28 @@ UsGM.push({
     country: "US",
     state: "MT",
 });
+
+UsGM.push({
+    name: "Hospice Enrollment Fraud Targeting Medicare Recipients",
+    slug: "hospice-enrollment-fraud-targeting-medicare-recipients",
+    description:
+      "Fraudsters sign Medicare recipients up for hospice care they do not need, and sometimes do not even know about, so they can bill Medicare for the hospice benefit. Recruiters knock on doors, call, or text offering free perks like house cleaning or meal delivery if you sign with one specific hospice provider, then falsify diagnosis paperwork to make you look eligible; recruiters are often paid a bonus for each person enrolled. The damage goes beyond the fake billing, because being enrolled in the hospice benefit can block your access to curative treatments you actually need. The FBI warned about this scheme in a June 2026 public service announcement through IC3. Never give your Medicare or insurance information to anyone who is not your own doctor, and review your Medicare Summary Notices for providers or services you do not recognize.",
+    categorySlug: "medicare-health-plans",
+    alertLevel: "high",
+    sources: ["FBI Internet Crime Complaint Center (IC3) Public Service Announcement I-060326-PSA, June 3, 2026","Better Business Bureau of Acadiana via KLFY"],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA260603",
+    country: "US",
+});
+
+UsGM.push({
+    name: "Mailbox Check Theft and Fake Business Bank Account Deposit Ring (Missouri)",
+    slug: "mailbox-check-theft-fake-business-bank-account-ring-missouri",
+    description:
+      "A three-man conspiracy stole checks from U.S. Postal Service collection boxes in and around St. Louis, then used fraudulent paperwork to pose as owners or registered agents of the victim businesses and open bank accounts in those businesses' names. One conspirator successfully opened an account at a suburban bank and deposited a stolen check worth $312,677, while suspicious bank staff at other branches refused to open accounts; police later recovered 53 loose stolen checks, money orders, and envelopes along with more fraudulent business paperwork. The three men were sentenced to 39, 34, and 33 months in federal prison. Small businesses should drop outgoing checks inside a post office rather than a street collection box, ask their bank about positive pay, and reconcile accounts quickly so stolen checks are caught before they clear.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of Missouri"],
+    sourceUrl: "https://www.justice.gov/usao-edmo/pr/three-sentenced-bank-fraud-conspiracy-involving-checks-stolen-mail",
+    country: "US",
+    state: "MO",
+});

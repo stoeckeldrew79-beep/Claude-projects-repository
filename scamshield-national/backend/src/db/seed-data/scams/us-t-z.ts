@@ -7534,3 +7534,16 @@ UsTZ.push({
     country: "US",
     state: "MT",
 });
+
+UsTZ.push({
+    name: "Teller-Window Customer Impersonation With Fake Driver's Licenses (Massachusetts)",
+    slug: "teller-window-customer-impersonation-fake-licenses-massachusetts",
+    description:
+      "From at least December 2022 through March 2025, a Boston man walked into bank branches posing as real account holders, presenting counterfeit driver's licenses that carried each customer's name and information but his own photograph. He handed tellers withdrawal slips listing the victims' names and account numbers and walked out with more than $900,000 in cash and cashier's checks drawn on at least 13 customers' accounts. He pleaded guilty to four counts of bank fraud and four counts of aggravated identity theft and awaits sentencing, and six other men were charged in a related multi-million-dollar bank fraud investigation spanning Massachusetts, Connecticut, and Rhode Island. Turn on real-time alerts for every withdrawal, review statements promptly, and ask your bank whether it offers an extra verbal password or in-person verification step for large counter withdrawals.",
+    categorySlug: "account-takeover",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of Massachusetts"],
+    sourceUrl: "https://www.justice.gov/usao-ma/pr/boston-man-pleads-guilty-role-bank-fraud-ring",
+    country: "US",
+    state: "MA",
+});

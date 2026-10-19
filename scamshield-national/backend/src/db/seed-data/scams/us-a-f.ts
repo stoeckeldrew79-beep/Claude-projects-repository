@@ -12956,3 +12956,41 @@ UsAF.push({
     country: "US",
     state: "FL",
 });
+
+UsAF.push({
+    name: "2026 U.S. Midterm Election Financial Fraud Schemes",
+    slug: "2026-us-midterm-election-financial-fraud-schemes",
+    description:
+      "Ahead of the November 2026 midterms, scammers are using candidates' names, images, logos, and slogans to solicit fake campaign donations, sell campaign merchandise that never arrives, and harvest personal information. One unusual variant pitches a \"campaign investment pool\" that promises a guaranteed payout once a candidate wins and urges victims to recruit others to increase their share; campaign donations are not investments and never pay a return. Another variant sends texts and emails claiming you are not registered to vote and links to look-alike state voter registration pages built to capture personal data. Fraudsters are layering AI-generated voices, images, and written messages on top of all of this to impersonate candidates, campaigns, and government offices convincingly. Donate only through a campaign's official website that you navigate to yourself, verify your registration directly with your state or local election office, and never treat a political contribution as an investment.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["FBI Internet Crime Complaint Center (IC3) Public Service Announcement, \"Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes,\" October 15, 2026","The Register","Help Net Security"],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA261015-3",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Fake Loan Program and Stolen-Identity Credit Card Scheme (Texas Insurance Brokerage)",
+    slug: "fake-loan-program-stolen-identity-credit-card-scheme-texas",
+    description:
+      "A Stephenville businessman ran an insurance brokerage selling home, auto, life, health, farm and ranch, and commercial policies, and used the trust clients placed in him to collect their personal information. Prosecutors said he then illegally obtained credit cards and pitched victims a bogus loan program, moving money through holding and security companies he controlled between January 2020 and May 2026. A federal court sentenced him to 160 months, more than 13 years, in federal prison for wire fraud and aggravated identity theft. Treat any insurance agent who asks for your Social Security number or ID for an unrelated loan or investment offer as a red flag, and pull your credit reports and place a freeze if you suspect accounts were opened in your name.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Northern District of Texas"],
+    sourceUrl: "https://www.justice.gov/usao-ndtx/pr/stephenville-man-sentenced-160-months-federal-prison-wire-fraud-and-identity-theft",
+    country: "US",
+    state: "TX",
+});
+
+UsAF.push({
+    name: "Advance-Payment Luxury Watch Scheme With Federal Officer Impersonation (New York)",
+    slug: "advance-payment-luxury-watch-scheme-federal-officer-impersonation-ny",
+    description:
+      "According to an indictment unsealed in Manhattan, a man told at least five victims he had special industry connections that let him obtain highly sought-after luxury-brand watches, collected more than $1 million in payments, and never delivered the merchandise. Prosecutors allege he propped up the ruse by impersonating his own former federal probation officer, having previously served a sentence for insider trading. He was arrested and charged with wire fraud, impersonating a federal officer, and aggravated identity theft; the charges are allegations and he is presumed innocent unless proven guilty. Before wiring money for scarce luxury goods, insist on an authorized dealer, an escrow service, or payment on delivery, and independently verify anyone who claims to be a government official vouching for a seller.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Southern District of New York"],
+    sourceUrl: "https://www.justice.gov/usao-sdny/pr/recidivist-insider-trading-defendant-charged-luxury-watch-scheme-and-impersonating",
+    country: "US",
+    state: "NY",
+});

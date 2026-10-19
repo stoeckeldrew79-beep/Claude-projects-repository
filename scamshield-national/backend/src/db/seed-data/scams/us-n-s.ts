@@ -13259,3 +13259,29 @@ UsNS.push({
     country: "US",
     state: "CT",
 });
+
+UsNS.push({
+    name: "Stolen-Identity Student Financial Aid Application Scheme (Texas)",
+    slug: "stolen-identity-student-financial-aid-application-scheme-texas",
+    description:
+      "For roughly five years a former adjunct professor submitted fraudulent federal student financial aid applications using other people's identities, fake transcripts, UPS mailboxes, and bank accounts he controlled to collect the aid money. The people whose identities were used were left carrying student loan debt that damaged their credit and blocked them from enrolling in school themselves. He pleaded guilty to theft of government funds, fraud, unlawful use or transfer of identity documents, and aggravated identity theft, and was sentenced to 78 months in federal prison followed by three years of supervised release. Check your federal student aid record and credit reports at least once a year for loans you never took out, and report any unfamiliar education debt to the loan servicer and the Department of Education immediately.",
+    categorySlug: "student-loan-education",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Southern District of Texas"],
+    sourceUrl: "https://www.justice.gov/usao-sdtx/pr/naturalized-citizen-nigeria-and-former-professor-sentenced-student-financial-aid-fraud",
+    country: "US",
+    state: "TX",
+});
+
+UsNS.push({
+    name: "Stolen Social Security Number Retail Credit and Bankruptcy Discharge Scheme (California)",
+    slug: "stolen-ssn-retail-credit-bankruptcy-discharge-scheme-california",
+    description:
+      "Federal complaints in Santa Ana charge five people with using other people's Social Security numbers to obtain credit, mostly from retailers, running up tens of thousands of dollars in purchases, and then filing for bankruptcy to wipe out more than $140,000 in debt racked up under the stolen identities. Four defendants were arrested and each is charged with fraud in connection with access devices over $1,000, carrying up to 15 years in federal prison; the charges are accusations and the defendants are presumed innocent unless proven guilty. Victims of this pattern often learn of it only when collection notices or a damaged credit score appear. Place a security freeze with all three credit bureaus, review your credit reports for retail store accounts you never opened, and report any bankruptcy filed in your name to the U.S. Trustee Program.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Central District of California"],
+    sourceUrl: "https://www.justice.gov/usao-cdca/pr/4-illegal-aliens-arrested-federal-charges-they-stole-social-security-numbers-run-large",
+    country: "US",
+    state: "CA",
+});

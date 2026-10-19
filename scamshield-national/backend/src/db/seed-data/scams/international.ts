@@ -25161,3 +25161,51 @@ International.push({
   country: 'IQ',
   firstRecorded: '2025-11-15',
 });
+
+International.push({
+    name: "Estafa del Saldo Móvil — Fake Cubacel Balance Transfer Refund Scam",
+    slug: "estafa-del-saldo-movil-fake-cubacel-balance-transfer-refund",
+    description:
+      "A stranger calls or messages you claiming they accidentally sent phone credit or money (ETECSA cites 450 CUP as a typical amount) to your number and politely asks you to send it back. To make the story believable they forward what looks like an official ETECSA confirmation SMS, but it arrives from a private number instead of the usual Cubacel or PAGOxMOVIL sender name — the clearest sign it is fake. Believing the credit is already in your account, you transfer real saldo or cash to the scammer and lose it. The same trick has spread into Cuba's informal CUP/MLC currency trading, where supposed traders send the same spoofed ETECSA text. Before returning any money, check your last 10 operations in Transfermóvil to confirm a transfer actually arrived, and remember that genuine transfers always show Cubacel or PAGOxMOVIL as sender, never a private number.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["ETECSA (Empresa de Telecomunicaciones de Cuba S.A.) corporate news page"],
+    sourceUrl: "https://www.etecsa.cu/es/noticias/estafa-saldo-movil-vuelve-carga",
+    country: "CU",
+});
+
+International.push({
+    name: "Fake Transfermóvil and EnZona \"Administrator\" Impersonation",
+    slug: "fake-transfermovil-enzona-administrator-impersonation",
+    description:
+      "Scammers pose as the official support administrators of Cuba's state payment gateways Transfermóvil and EnZona, and of state banks, inside the Telegram groups and social-media channels where Cubans ask for banking help. At least one individual was detected using official logos and usernames such as ayudatm or ayudaenzona, and even running his own lookalike group, to appear legitimate. When you post a public request for help, the fake admin sends you a private message and asks for your card number, access keys and PIN to \"resolve\" the issue — then empties the account. Despite repeated expulsions from official channels, the impostor kept returning under new usernames. Real bank and payment-service administrators do not contact clients by private message except in rare, justified cases and only after a prior identification process, so never share card data, passwords or PINs in a DM and report the account to the official channel.",
+    categorySlug: "phishing",
+    alertLevel: "critical",
+    sources: ["Cubadebate (state media), tagged to Banco Central de Cuba, Banco Metropolitano S.A., ETECSA and XETID","Banco Metropolitano S.A. Nota Informativa"],
+    sourceUrl: "http://www.cubadebate.cu/noticias/2025/03/20/alerta-de-suplantacion-de-identidad-administradores-falsos-de-transfermovil-enzona-y-bancos-contactan-a-clientes-de-manera-fraudulenta/",
+    country: "CU",
+});
+
+International.push({
+    name: "BANDEC Alert: WhatsApp Takeover and Fake \"1×1\" Cash Exchange",
+    slug: "bandec-whatsapp-takeover-1x1-cash-exchange-fraud",
+    description:
+      "BANDEC in Matanzas, together with the Policía Nacional Revolucionaria, warns of a surge in two linked WhatsApp frauds. First, someone messages you from a profile copying the photo and name of a real relative, workmate or friend, and asks you to enter an \"eight-digit code\" and share your live location so your accounts can be \"linked\" — in reality that code is your WhatsApp verification code, and handing it over lets the scammer install your account on his own phone. Second, with your account under his control, he posts a status to all your contacts offering an urgent bank transfer with cash in hand at 1×1; trusting friends send the money to a card he supplies and are then blocked. Excuses such as a broken microphone or bad connection to avoid a voice call are a clear warning sign. Never share a verification code with anyone, turn on two-step verification, block your bank cards immediately if you revealed sensitive data, and file a formal complaint at a PNR unit.",
+    categorySlug: "account-takeover",
+    alertLevel: "critical",
+    sources: ["Banco de Crédito y Comercio (BANDEC), Matanzas branch","Policía Nacional Revolucionaria (PNR)","Granma, official organ of the Communist Party of Cuba"],
+    sourceUrl: "https://www.granma.cu/cuba/2026-04-08/alerta-bandec-sobre-nueva-ola-de-estafas-digitales-mediante-whatsapp-08-04-2026-09-04-04",
+    country: "CU",
+});
+
+International.push({
+    name: "Numival Capital — Unlicensed Brokerage and Fund Management Warning (COSOB)",
+    slug: "numival-capital-unlicensed-brokerage-cosob-warning",
+    description:
+      "COSOB, Algeria's securities regulator, issued a communiqué on 24 September 2026 warning the public about Numival Capital, a company constituted on 9 December 2025 whose corporate purpose lists two regulated activities: stock market intermediation (intermédiaire en opérations de Bourse) and fund management. Both activities require prior authorisation (agrément) from COSOB, and as at the date of the warning the company had filed no such application. That means any offer to invest or manage savings on this basis would be unlicensed and leaves savers with no regulatory protection. Before handing money to any investment firm in Algeria, check the official list of licensed intermediaries and fund managers on the COSOB website. If you have already invested, stop further payments and report the approach to COSOB.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["COSOB (Commission d'Organisation et de Surveillance des Opérations de Bourse) communiqué, 24 September 2026","Algérie Presse Service (APS)","Maghreb Émergent","Algérie Éco"],
+    sourceUrl: "https://www.aps.dz/fr/economie/banque-et-finances/mufh5cbn-la-cosob-met-en-garde-contre-l-exercice-d-activites-reglementees-sans-autorisation",
+    country: "DZ",
+});
