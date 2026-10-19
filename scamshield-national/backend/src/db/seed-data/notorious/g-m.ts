@@ -12484,3 +12484,24 @@ There was a criminal side as well. Yuen testified that he had wiped his computer
 The Gemstar case illustrates how revenue recognition in technology licensing, where deals are complex and counterparties are few, can be steered to hit projections, and how an executive's most damaging acts can be the cover-up rather than the accounting. It also shows the limits of civil enforcement: a court can order tens of millions of dollars paid and bar a person from public companies, but collecting depends on finding the defendant and his assets.`,
     sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-19694',
 });
+
+NotoriousGM.push({
+    title: 'Joseph Sanpietro and the Medi-Hut Fictitious Invoice Fraud',
+    slug: 'joseph-sanpietro-medi-hut-fictitious-invoice-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Luther_King_Jr._Federal_Courthouse,_Newark,_NJ,_USA.jpg?width=1200',
+    coverImageCredit: 'Photo: Carptrash (CC BY-SA 3.0 / GFDL) — Martin Luther King Jr. Federal Courthouse, Newark, New Jersey',
+    coverImagePosition: 50,
+    body: `Medi-Hut Co., Inc. was a publicly traded New Jersey drug wholesaler. Its chief executive was Joseph A. Sanpietro, its chief financial officer Laurence M. Simon, and its vice president of sales Lawrence P. Marasco. For a time it looked like a profitable small company: its stock traded between about $7 and $13 in January 2002, and its annual and quarterly reports showed profits.
+
+The numbers were not real. According to the SEC, the three executives inflated Medi-Hut's revenues and earnings with "fictitious period-end invoices and other accounting irregularities," so that a company that was in fact operating at a loss appeared profitable. Sanpietro and Simon allegedly concealed that Marasco secretly owned and controlled one of Medi-Hut's largest customers, and all three lied to the company's independent auditors. The false statements ran through the company's Form 10-K for the fiscal year ended October 31, 2001 and three Forms 10-Q for fiscal 2002. When the fraud was partially disclosed, the stock fell.
+
+The SEC filed its civil case on August 19, 2003 in the U.S. District Court for the District of New Jersey. Without admitting or denying the allegations, Medi-Hut consented to a permanent injunction, and Sanpietro, Simon and Marasco consented to injunctions and permanent bars from serving as officers or directors of public companies. Sanpietro agreed to pay $171,000 in disgorgement of his stock sale proceeds, plus $14,913 in prejudgment interest.
+
+The three also pleaded guilty in a parallel criminal case, which included charges of lying to SEC investigators. On November 16, 2004, the federal court in New Jersey sentenced Sanpietro to 46 months in prison and a $50,000 fine, Simon to 46 months and a $5,000 fine, and Marasco to 42 months and a $70,000 fine, for conspiring to inflate the company's revenues and earnings and for lying to the SEC.
+
+The Medi-Hut case shows how a small company can manufacture growth with paper alone, and how the related-party relationship, a customer secretly controlled by an insider, is one of the oldest ways to create sales that do not exist. It also shows that the cover-up can be punished as hard as the fraud: the officers' false statements to auditors and to SEC investigators were part of what brought them prison terms.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-18976',
+});
