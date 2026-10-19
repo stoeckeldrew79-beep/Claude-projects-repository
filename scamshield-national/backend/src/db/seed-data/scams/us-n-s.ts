@@ -13285,3 +13285,16 @@ UsNS.push({
     country: "US",
     state: "CA",
 });
+
+UsNS.push({
+    name: "Portsmouth Corporation Securities Cease-and-Desist Order (Oct. 2025)",
+    slug: "portsmouth-corporation-securities-cease-and-desist-order-oct-2025",
+    description:
+      "On October 16, 2025, the New Hampshire Secretary of State's Bureau of Securities Regulation ordered a Portsmouth, New Hampshire corporation to cease and desist from selling securities to investors in New Hampshire and elsewhere. Only the Bureau's press-release listing has been confirmed, so the identity of the company, the nature of the investment offering, and the specific alleged misrepresentations are not described here and should not be assumed. This action is separate from the December 2025 Royal Investments matter. If you were pitched an investment by a Portsmouth-based company in 2025, pull the underlying order from the Bureau's enforcement actions page and contact the Bureau of Securities Regulation before sending any additional money.",
+    categorySlug: "investment-fraud",
+    alertLevel: "medium",
+    sources: ["New Hampshire Department of State, Bureau of Securities Regulation"],
+    sourceUrl: "https://www.sos.nh.gov/bureau-securities-press-releases",
+    country: "US",
+    state: "NH",
+});

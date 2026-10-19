@@ -14086,3 +14086,16 @@ UsGM.push({
     country: "US",
     state: "MO",
 });
+
+UsGM.push({
+    name: "JustFab Deceptive Online Retail Practices — NH DOJ Settlement",
+    slug: "justfab-deceptive-online-retail-practices-nh-doj-settlement",
+    description:
+      "The New Hampshire Department of Justice's Consumer Protection and Antitrust Bureau secured an Assurance of Discontinuance requiring the online retailer JustFab to stop deceptive practices affecting New Hampshire consumers. The settlement also requires JustFab to pay restitution to consumers who file a complaint about the conduct described in the Assurance within 90 days of its effective date. The specific deceptive mechanism is not detailed here because the full press release text could not be confirmed, so treat the billing or membership details as unverified until you read the state's document. If you bought from JustFab and believe you were charged or enrolled in something you did not knowingly agree to, read the NH DOJ announcement and file a complaint with the Consumer Protection and Antitrust Bureau before the 90-day restitution window closes.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["New Hampshire Department of Justice, Consumer Protection and Antitrust Bureau"],
+    sourceUrl: "https://www.doj.nh.gov/news-and-media/settlement-secured-requiring-online-retailer-end-deceptive-practices",
+    country: "US",
+    state: "NH",
+});
