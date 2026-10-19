@@ -25209,3 +25209,63 @@ International.push({
     sourceUrl: "https://www.aps.dz/fr/economie/banque-et-finances/mufh5cbn-la-cosob-met-en-garde-contre-l-exercice-d-activites-reglementees-sans-autorisation",
     country: "DZ",
 });
+
+International.push({
+    name: "Creators Alliance Pyramid Investment Scheme",
+    slug: "creators-alliance-pyramid-investment-scheme",
+    description:
+      "Creators Alliance operated in Saint Lucia and across the Caribbean from around June 2024 until it collapsed in March 2025, taking thousands of investors' money with it. Members paid upfront for tiered \"packages\" and were promised returns for uploading videos to the platform, but the content-creation task was only a veneer over a pyramid structure paid for by new recruits. Early participants really were paid, which fuelled social media endorsements and word-of-mouth recruitment, until payouts stalled and withdrawals stopped altogether. During the collapse a forged social media post claimed the Financial Intelligence Authority had cleared the scheme, and the FIA publicly denied any such consultation; six people were charged in May 2025 under the Virtual Asset Business Act, and in September 2026 the FIA laid seven money laundering charges involving about EC$1.062 million. Treat any scheme that pays you for recruiting others or for token \"tasks\" as a pyramid, verify licensing directly with the FIA or FSRA rather than trusting screenshots, and report losses to the Royal Saint Lucia Police Force.",
+    categorySlug: "ponzi-pyramid-schemes",
+    alertLevel: "critical",
+    sources: ["Financial Intelligence Authority (FIA) of Saint Lucia","Royal Saint Lucia Police Force Major Crime Unit","Government of Saint Lucia (govt.lc)","St Lucia Times"],
+    sourceUrl: "https://www.govt.lc/news/financial-intelligence-authority-fia-charges-individuals-with-money-laundering-in-connection-with-creators-alliance-investment-scheme",
+    country: "LC",
+});
+
+International.push({
+    name: "RSLPF Emergency Caller Phone Credit Scam",
+    slug: "rslpf-emergency-caller-phone-credit-scam",
+    description:
+      "The Royal Saint Lucia Police Force warned in February 2025 about a troubling trend of unidentified callers phoning residents cold and inventing a personal crisis, often a medical emergency, to extract money or mobile phone credit. The caller says they urgently need help or need their phone topped up so they can reach a relative, a request deliberately small and plausible enough to lower resistance compared with asking for cash outright. The pitch is built to trigger an immediate emotional reaction instead of verification, and police noted that callers often escalate to insults, threats and further deception when the target hesitates. Do not send credit or money to an unknown caller, hang up and independently verify the story with the person or family they claim to be connected to, and report incidents to your nearest police station, the 999 emergency line, or anonymously through the crime hotline app or 555.",
+    categorySlug: "family-emergency-scams",
+    alertLevel: "medium",
+    sources: ["Royal Saint Lucia Police Force (RSLPF) public warning, February 2025","The Voice (Saint Lucia)"],
+    sourceUrl: "https://thevoiceslu.com/2025/02/rslpf-warns-public-about-scams/",
+    country: "LC",
+});
+
+International.push({
+    name: "Fake Indonesian-Celebrity \"Free Gift\" Giveaway Advance-Fee Scam",
+    slug: "fake-indonesian-celebrity-free-gift-giveaway-advance-fee-scam",
+    description:
+      "Facebook, WhatsApp and Instagram pages posing as prize or giveaway programmes tied to Indonesian celebrities such as Baim Wong and Raffi Ahmad promise Timorese users free cars, motorbikes, electronics or large cash payouts. Victims are told to send money first as initial capital, a membership fee or payment for a heavily discounted item, and then receive nothing. The Banco Central de Timor-Leste warned about the schemes in January 2024 and named 31 accounts involved, including handles like Timortimorbaimwong, Timor-Leste Gift Info and Gifts For Timor-Leste, while PNTL arrested a couple over the same promotion scheme in July 2025. Never send money to unknown sources online and never hand over your bank account, ATM card or ID details to an account promising a prize. If you have already paid, report it to BCTL or PNTL.",
+    categorySlug: "lottery-sweepstakes-scams",
+    alertLevel: "high",
+    sources: ["Banco Central de Timor-Leste (BCTL) public warning, 24 January 2024, via Tatoli","PNTL Diresaun Servisu Investigasaun Kriminál Nasionál statement, 16 July 2025, via Tatoli"],
+    sourceUrl: "https://en.tatoli.tl/2024/01/24/bctl-warns-timorese-social-media-users-to-avoid-scams/",
+    country: "TL",
+});
+
+International.push({
+    name: "Counterfeit US$100 Notes Passed at Kiosks and Small Shops (\"Osan Falsu\")",
+    slug: "counterfeit-us-100-notes-passed-at-kiosks-and-small-shops-osan-falsu",
+    description:
+      "Fraudsters working in pairs visit village kiosks and small shops, buy low-value goods and pay with counterfeit US$100 bills, so the real profit is the genuine change the trader hands back. Five kiosks were hit in Bobonaru municipality before PNTL's Rapid Intervention Reserve captured two foreign nationals in June 2026 and recovered roughly $2,900 in genuine currency plus eight fake $100 notes; police believe the same method was used in Dili first. The pattern sits alongside a much larger April 2026 seizure of about $4 million in counterfeit notes at a warehouse in Bidau Masau, Dili. Check large-denomination notes carefully for watermarks, security threads and colour-shifting ink before giving change, and be wary of small purchases paid with $100 bills. Report suspect notes and the buyer's description to PNTL immediately.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["PNTL Bobonaru Municipal Command statement by Supt. Chief Damião da Silva Correia, via Tatoli, 7 July 2026","PNTL National Criminal Investigation Service (DSIK) statement by Supt. Chief João Belo dos Reis, via Tatoli, 15 April 2026"],
+    sourceUrl: "https://tatoli.tl/2026/07/07/pntl-suspeita-kazu-osan-falsu-iha-bobonaru-iha-ligasaun-ho-atividade-iha-dili/",
+    country: "TL",
+});
+
+International.push({
+    name: "Dili and Liquiçá Scam Call-Centre Compounds",
+    slug: "dili-and-liquica-scam-call-centre-compounds",
+    description:
+      "Foreign-run syndicates have rented guarded houses and compounds in and around Dili (Manleuana, Metiaut, Kampung Baru) and in Liquiçá (Ulmera, Bazartete) and turned them into online fraud factories staffed by foreign workers using laptops and bulk SIM cards. The operations run online scams and illegal online gaming aimed mainly at victims abroad. In July 2026 PNTL's criminal investigation service raided two sites, detaining 76 Indonesian nationals at Ulmera and 14 Chinese nationals in Kampung Baru, with charges before the Dili court including money laundering, criminal association and illegal online gaming; reporting from Dili put the total at over 300 people arrested across several raids in three weeks. Residents should treat offers of well-paid work in guarded compounds with great caution, as recruits are often trapped into running scams themselves. Report suspicious fenced residences with heavy foreign staffing and unusual telecoms equipment to community leaders or PNTL.",
+    categorySlug: "job-task-scams",
+    alertLevel: "critical",
+    sources: ["PNTL DSIK statement by Supt. Chief João Belo dos Reis, via Tatoli, 13 July 2026","Dili District Court bail ruling reported by Tatoli, 12 July 2026","ABC News reporting from Dili, 15 July 2026"],
+    sourceUrl: "https://tatoli.tl/2026/07/13/sidadaun-estranjeiru-90-suspeitadu-atividade-scam-submete-ba-identifikasaun/",
+    country: "TL",
+});

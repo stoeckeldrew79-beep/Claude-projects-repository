@@ -14099,3 +14099,15 @@ UsGM.push({
     country: "US",
     state: "NH",
 });
+
+UsGM.push({
+    name: "Ghost Tapping Contactless Payment Scam",
+    slug: "ghost-tapping-contactless-payment-scam",
+    description:
+      "\"Ghost tapping\" abuses contactless tap-to-pay rather than stolen card numbers. A person posing as a street vendor, fundraiser or charity solicitor asks you to tap your card or phone for a small donation or purchase, but the handheld terminal is pre-set to a much larger amount or is tapped more than once. Because no PIN, signature or receipt is involved, you never see the figure you authorized, and the charge is harder to dispute than a cloned-card transaction since it is a legitimate card-present tap. A second variant involves someone holding a portable reader close to a bag or pocket to trigger a charge on a contactless card without any interaction at all. Never tap until you have read the amount on the terminal screen yourself, keep contactless cards in a shielded sleeve or wallet, and check your statements for unexpected small-vendor charges.",
+    categorySlug: "identity-theft",
+    alertLevel: "medium",
+    sources: ["Michigan Department of Attorney General, Consumer Protection Division consumer alert: \"Beware of 'Ghost Tapping' Scams\"","Better Business Bureau national warnings on tap-to-pay fraud","US local news coverage of street-solicitation tap cases"],
+    sourceUrl: "https://www.michigan.gov/consumerprotection/protect-yourself/consumer-alerts/scams/beware-of-ghost-tapping-scams",
+    country: "US",
+});

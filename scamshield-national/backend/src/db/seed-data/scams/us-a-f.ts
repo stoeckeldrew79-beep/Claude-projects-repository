@@ -12994,3 +12994,90 @@ UsAF.push({
     country: "US",
     state: "NY",
 });
+
+UsAF.push({
+    name: "Fake Investment Advisers Legitimized by False SEC Filings",
+    slug: "fake-investment-advisers-false-sec-filings",
+    description:
+      "This scheme turns the standard \"check before you invest\" advice against you. Fraudulent operations submit false registration paperwork to the US Securities and Exchange Commission, claiming to be US-based advisory firms with assets under management, offices and staff they do not actually have. After being approached through social media, messaging apps or a referral, the victim is invited to verify the firm in the SEC's public filing systems, finds a genuine-looking filing, and concludes the firm is registered and regulated before sending money. The SEC announced enforcement action in 2026 against a group of entities that feigned legitimacy through false filings to lure retail investors. Treat the existence of a filing as a starting point only: confirm the firm's address, personnel and regulatory history independently, read the actual filing details for inconsistencies, and be sceptical of any adviser who first contacted you through a messaging app.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["US Securities and Exchange Commission press release 2026-78 on 38 entities feigning legitimacy as US advisers through false filings","Related SEC release 2026-95 on fraud schemes run through WhatsApp and similar platforms"],
+    sourceUrl: "https://www.sec.gov/newsroom/press-releases/2026-78-sec-38-entities-feigned-legitimacy-us-advisers-through-false-filings-lure-retail-investors",
+    country: "US",
+});
+
+UsAF.push({
+    name: "AI Voice-Cloned Political Candidate Donation and Voter-Data Scams",
+    slug: "ai-voice-cloned-political-candidate-donation-scams",
+    description:
+      "Ahead of the 2026 US midterms, criminals are cloning the voices of political candidates and campaign staff to solicit fake campaign contributions and harvest personal data. Victims receive calls, voicemails or audio messages that sound exactly like a public figure whose real voice they know from broadcasts, asking urgently for a donation, directing them to a spoofed campaign donation page, or posing as a poll or voter-registration verification call to collect personally identifiable information. Because the audio is a convincing clone, the usual \"does this sound like them?\" check fails, and any money sent goes to attacker-controlled payment channels rather than a registered campaign committee. The FBI issued a public service announcement about this through the Internet Crime Complaint Center on 15 October 2026. Never donate or give personal details during an unsolicited call: hang up and give only through the campaign's official website that you navigate to yourself.",
+    categorySlug: "ai-deepfake-scams",
+    alertLevel: "high",
+    sources: ["FBI Internet Crime Complaint Center (IC3) public service announcement PSA261015-3, 15 October 2026","Security trade press coverage of the IC3 PSA"],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA261015-3",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Fake NFL Player Romance-and-Investment Wire Fraud (Oregon)",
+    slug: "fake-nfl-player-romance-and-investment-wire-fraud-oregon",
+    description:
+      "Federal prosecutors allege a man and a co-conspirator solicited victims to put money into bogus high-yield investments, including an \"expedited account\" promising unusually large and rapid returns. To win trust, he allegedly posed as a wealthy real estate investor or a current or former NFL player, used dating and social media profiles stuffed with fabricated personal and financial details, built romantic relationships with targets, and staged displays of wealth before asking them to send cash or wire funds. Instead of investing the money, he allegedly spent it on travel, luxury vehicles, clothing and jewelry. He was indicted on conspiracy to commit wire fraud, pleaded not guilty, and was ordered detained pending trial. Never send money to someone you met online, and independently verify any claimed celebrity, athlete or investor identity before discussing finances.",
+    categorySlug: "romance-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","District of Oregon"],
+    sourceUrl: "https://www.justice.gov/usao-or/pr/man-posing-san-francisco-49er-indicted-wire-fraud-scheme",
+    country: "US",
+    state: "OR",
+});
+
+UsAF.push({
+    name: "Bank Branch Imposter and Counterfeit ID Account-Theft Ring (New York)",
+    slug: "bank-branch-imposter-and-counterfeit-id-account-theft-ring-new-york",
+    description:
+      "According to court filings, a repeat offender orchestrated schemes that sent imposters into bank branches with counterfeit identification to transfer money out of real customers' accounts and to cash stolen U.S. Treasury checks. The operation involved more than 1,000 stolen or counterfeit checks, over 500 manufactured fake state and federal ID cards, and at least $1.8 million in losses to financial institutions. He pleaded guilty to conspiracy to commit bank fraud and aggravated identity theft and was sentenced to 200 months in prison, having committed the conduct while on supervised release for a similar earlier scheme. Watch your bank and Treasury payments closely: set up account alerts, review statements for transfers you did not authorize, and report missing checks or benefit payments immediately.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","Southern District of New York"],
+    sourceUrl: "https://www.justice.gov/usao-sdny/pr/serial-bank-fraudster-sentenced-over-sixteen-years-prison",
+    country: "US",
+    state: "NY",
+});
+
+UsAF.push({
+    name: "Fee-for-Fake-Refund COVID Tax Credit Filing Scheme",
+    slug: "fee-for-fake-refund-covid-tax-credit-filing-scheme",
+    description:
+      "A father and son solicited people to hand over their names, addresses, Social Security numbers, photo identification and bank account information so returns could be filed in their names, then claimed refundable COVID-19 sick and family leave credits and other refundable credits the taxpayers were not entitled to receive. The promoter charged each taxpayer a $10,000 fee taken from a share of the inflated refund, and the pair filed at least 300 false returns seeking about $9.2 million. Both pleaded guilty to conspiring to defraud the United States as part of a national tax enforcement surge. Never give your Social Security number and bank details to someone promising a big refund for a cut of the money, and remember you are legally responsible for everything on a return filed in your name.",
+    categorySlug: "tax-scams",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","National Fraud Enforcement Division"],
+    sourceUrl: "https://www.justice.gov/opa/pr/minneapolis-father-and-son-plead-guilty-9-million-fraud-conspiracy",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Fake ID Websites Taking Crypto Payments and Delivering Nothing",
+    slug: "fake-id-websites-taking-crypto-payments-and-delivering-nothing",
+    description:
+      "A couple allegedly ran a network of websites that claimed to sell fraudulent driver's licenses and identification cards, pushing them to the top of search results by buying search engine optimization services and building their own sham review sites that recommended their stores. Customers paid mostly in cryptocurrency, which was moved through multiple addresses before being cashed out, and prosecutors allege buyers never received anything at all. The pair were charged with wire fraud conspiracy and tax offenses after taking in more than $6 million between 2017 and 2024. Treat glowing \"review\" sites and top search placements as advertising, not proof, and never pay a stranger in cryptocurrency for goods, because those payments are effectively irreversible.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","National Fraud Enforcement Division"],
+    sourceUrl: "https://www.justice.gov/opa/pr/austin-couple-indicted-running-fake-id-websites",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Adult Posing as a Child on Games and Social Media to Extort Images (Georgia)",
+    slug: "adult-posing-as-a-child-on-games-and-social-media-to-extort-images-georgia",
+    description:
+      "A man targeted girls as young as nine on social media and gaming sites, pretending to be a boy their own age, befriending them and claiming to love them before begging and then threatening them to send sexually explicit photos and videos. The scheme surfaced when a mother reported that her daughter had been manipulated by someone posing as a child online, and an FBI investigation found victims across the country. He was sentenced to nearly 17 years in federal prison for production of child sexual abuse material. Talk with children about the fact that online \"friends\" their age may be adults, and report any request for images or any threat to a parent, school or the FBI immediately rather than complying.",
+    categorySlug: "sextortion",
+    alertLevel: "critical",
+    sources: ["U.S. Department of Justice","Northern District of Georgia"],
+    sourceUrl: "https://www.justice.gov/usao-ndga/pr/college-park-man-sentenced-impersonating-child-online-entice-young-girls-send-him",
+    country: "US",
+    state: "GA",
+});

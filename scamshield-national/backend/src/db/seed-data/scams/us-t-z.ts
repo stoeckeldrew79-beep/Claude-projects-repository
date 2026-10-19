@@ -7547,3 +7547,15 @@ UsTZ.push({
     country: "US",
     state: "MA",
 });
+
+UsTZ.push({
+    name: "Tax Preparer Refund-Skimming and Fake Credit Scheme",
+    slug: "tax-preparer-refund-skimming-and-fake-credit-scheme",
+    description:
+      "A man running a tax preparation business out of a barbershop prepared client returns that reported fabricated business losses, false fuel tax credits and improper residential energy credits, generating inflated refunds clients were not entitled to receive. He also quietly diverted a portion of his clients' refunds to himself without their knowledge or authorization, and kept preparing false returns even after the IRS revoked his electronic filing credentials. He pleaded guilty to aiding the preparation of a false tax return, filing a false return, and wire fraud. Before signing, read your return line by line, confirm the refund amount and the deposit account are yours, and check that your preparer signs the return with a valid preparer identification number.",
+    categorySlug: "tax-scams",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","National Fraud Enforcement Division"],
+    sourceUrl: "https://www.justice.gov/opa/pr/maine-tax-preparer-pleads-guilty-filing-false-returns-clients",
+    country: "US",
+});
