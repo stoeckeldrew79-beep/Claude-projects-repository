@@ -12526,3 +12526,24 @@ Conway was sentenced on November 25, 2003 to 13 months in prison, two years of s
 The Rent-Way case is a textbook example of an accounting fraud driven by forecasts. An executive sets the earnings number first and then directs subordinates to make the books fit it, so the false entries are made by lower-level staff while the responsibility rests with the person who set the target. Its sentences also show how cooperation shapes outcomes: the executive who set the targets served the longest term, while the two subordinates who cooperated received much lighter ones.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-18521',
 });
+
+NotoriousGM.push({
+    title: 'Maurice Newman, Richard Gerhart and the Sirena Apparel Quarter-End Fraud',
+    slug: 'maurice-newman-richard-gerhart-sirena-apparel-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Atomic_clock.jpg?width=1200',
+    coverImageCredit: 'Photo: NielsB (uploader, CC BY-SA 3.0 / GFDL) — a radio-controlled clock, representing the quarter-end cutoff the executives manipulated',
+    coverImagePosition: 50,
+    body: `Sirena Apparel Group, Inc. was a publicly traded apparel company whose executives, like those at many public companies, faced a quarterly deadline: the earnings number announced to investors had to meet the projections the company had given. Maurice B. Newman was its chief executive and Richard A. Gerhart its chief financial officer. In early 1999, according to the SEC and prosecutors in Los Angeles, they decided that a quarter that did not meet the projection would be rewritten.
+
+The SEC's civil complaint, announced in November 2001, alleged that to meet revenue and earnings projections, Newman and Gerhart caused false financial information to appear in an earnings press release and a quarterly report for the quarter ended March 31, 1999. Gerhart had personnel manipulate the company's accounting software so that sales were recognized as revenue after the quarter had closed, created false shipping documents, and misled the company's auditors. Trade press accounts of the criminal case described the method as holding the quarter open by repeatedly resetting the internal network clock, which inflated the quarter's revenues by about $4.4 million.
+
+Both men were indicted on September 20, 2000, and in 2001 each pleaded guilty to securities fraud and conspiracy. Gerhart pleaded guilty to counts that included conspiracy, securities fraud, false statements and falsifying books and records. In July 2001 a Los Angeles federal court sentenced Newman to three years' probation and six months in a community confinement center, with restitution; the judge reportedly described the government as aggressive in calculating the loss. Gerhart was sentenced to eight months split between prison and community confinement and a $6,000 fine. Sirena stockholders later received more than $200,000 in restitution under a settlement approved by the court.
+
+The SEC also took civil action. On November 5, 2001 a federal judge granted the SEC summary judgment against Gerhart, imposing a permanent injunction, a $100,000 penalty and a bar from serving as an officer or director of SEC-reporting companies, and Newman consented to a permanent injunction and agreed to a $30,000 civil penalty without admitting or denying the allegations.
+
+The Sirena case is a small one in dollar terms, but it shows a vulnerability common to quarterly reporting: a deadline is only a deadline if the books actually close on time. By manipulating the system that stamps when sales are recorded, the executives turned a missed quarter into a met one, and the cover-up, the false shipping documents and the misleading of the auditors, turned an aggressive accounting decision into a crime. It also shows how modest the penalties for such conduct could be in 2001, compared with the sentences handed to the senior executives in the large corporate frauds that followed.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-17250',
+});
