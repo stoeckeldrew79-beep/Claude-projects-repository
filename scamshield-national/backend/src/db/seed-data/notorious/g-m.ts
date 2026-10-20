@@ -12589,3 +12589,24 @@ The SEC's civil cases ended in consent judgments, entered in August 2004 against
 The Aurora case shows how trade-promotion spending, an expense whose timing and amount depend on estimates, can be used to move earnings from one period to another. It also shows the chain of a corporate fraud case: the executives at the top pleaded guilty and were sentenced, the division managers who made the entries were sanctioned more lightly, and the company, because it cooperated, avoided criminal charges.`,
     sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-19165',
 });
+
+NotoriousGM.push({
+    title: "Lason's Executives and the \"Tailwind\" Earnings Fraud",
+    slug: 'lason-executives-tailwind-earnings-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Troy,_Michigan_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: WeaponizingArchitecture (CC BY-SA 4.0) — Skyline of Troy, Michigan, where Lason, Inc. was headquartered',
+    coverImagePosition: 50,
+    body: `Lason, Inc. was a document management company based in Troy, Michigan, that grew quickly in the late 1990s by buying other businesses. Its senior officers were chief executive Gary L. Monroe, chief financial officer William J. Rauwerdink, chief operating officer John R. Messinger and controller Robert T. Bassman. According to the Securities and Exchange Commission, from 1998 into 1999 they overstated Lason's earnings so that the company would meet or beat Wall Street expectations. By the third quarter of 1999, the SEC said, reported earnings were overstated by about 65%.
+
+The SEC described several techniques. Under what it called a "tailwind" scheme, companies Lason was about to acquire were told to delay recognizing revenue and to prepay certain expenses before the deal closed, so that revenue and cost would flow into Lason's results after the acquisition and lift its earnings in the first, third and fourth quarters of 1998. A forgiven loan was booked as revenue in the fourth quarter of 1998. An invalid invoice was carried as a receivable, and after the auditors questioned it, a check was obtained that made it look as though it had been paid. In 1999 further false accounting entries, including work-in-process entries in the third quarter, were used to prop up the numbers. The SEC alleged that the executives benefited through salaries, bonuses, stock options and loans tied to the inflated share price.
+
+In December 1999 Lason disclosed that it would not meet earnings expectations, and the SEC said its market capitalization fell by about 53%, or $234 million. The company filed for bankruptcy in December 2001 and was later owned by its creditors. The SEC filed its civil case in the Eastern District of Michigan in May 2003, and a federal grand jury indicted Monroe, Rauwerdink and Messinger on charges that included conspiracy to commit mail and wire fraud and making false statements to the SEC.
+
+All three pleaded guilty. In 2007 Monroe was sentenced to 15 months in prison and Messinger to 12 months, both on false-statement charges, and each was ordered to pay $20 million in restitution. Rauwerdink, who pleaded guilty to conspiracy and false statements, received 45 months and was ordered to pay $285 million in restitution. In March 2008 final civil judgments permanently enjoined all four former officers from further securities-law violations and barred them from serving as officers or directors of public companies. Bassman, who was not criminally sentenced in the SEC's account, was ordered to pay disgorgement and interest, all but $35,000 of which was waived because of his financial condition, and accepted a three-year suspension from practicing before the SEC as an accountant.
+
+The Lason case shows how acquisition-driven companies can manufacture growth. Timing revenue and expenses around deals, booking a forgiven loan as income and fabricating proof of payment for a receivable each looked like routine accounting to outsiders, yet together they inflated earnings by roughly two-thirds in one quarter. It also shows how long such cases take: the conduct ran from 1998 to 1999, the SEC sued in 2003, the prison sentences came in 2007 and the civil judgments in 2008.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-20495',
+});
