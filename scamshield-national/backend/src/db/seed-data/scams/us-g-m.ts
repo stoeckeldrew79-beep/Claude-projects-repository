@@ -14174,3 +14174,16 @@ UsGM.push({
     country: "US",
     state: "FL",
 });
+
+UsGM.push({
+    name: "MV Realty \"Homeowner Benefit Agreement\" 40-Year Listing-Lien Scheme",
+    slug: "mv-realty-homeowner-benefit-agreement-40-year-listing-lien-scheme",
+    description:
+      "Florida-based MV Realty solicited Nevada homeowners with a small upfront cash payment it called a \"promotional fee.\" In exchange, homeowners signed a \"Homeowner Benefit Agreement\" that locked them into using MV Realty as their exclusive listing agent for as long as 40 years, and the company recorded that agreement against the property much like a lien. The encumbrance blocked or complicated selling, refinancing, or tapping home equity, and most homeowners only discovered it at closing or during a refinance. Nevada Attorney General Aaron Ford and the Nevada Consumer Affairs Unit opened an investigation in September 2025 and announced a settlement on April 17, 2026 voiding all MV Realty agreements in Nevada and requiring the company to remove the recorded encumbrances. If you signed one of these agreements, check your property title for a recorded encumbrance and contact the Nevada Attorney General's office or Nevada Consumer Affairs, and never sign a long-term listing commitment in exchange for a small upfront cash payment.",
+    categorySlug: "mortgage-foreclosure-scams",
+    alertLevel: "high",
+    sources: ["Office of the Nevada Attorney General (AG Aaron D. Ford)","Nevada Consumer Affairs, Nevada Department of Business and Industry"],
+    sourceUrl: "https://ag.nv.gov/News/PR/2026/Attorney_General_Ford_and_Nevada_Consumer_Affairs_Announce_Settlement_Voiding_MV_Realty_Agreements,_Delivering_Relief_to_Nevadans/",
+    country: "US",
+    state: "NV",
+});
