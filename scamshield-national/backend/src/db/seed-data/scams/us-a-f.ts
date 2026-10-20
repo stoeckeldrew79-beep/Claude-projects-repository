@@ -13094,3 +13094,29 @@ UsAF.push({
     country: "US",
     state: "NJ",
 });
+
+UsAF.push({
+    name: "Fake Federal Officer \"Safekeeping\" Cash Pickup Scam (California and Nevada)",
+    slug: "fake-federal-officer-safekeeping-cash-pickup-scam-california-nevada",
+    description:
+      "Callers posing as federal law enforcement officers or employees told victims that criminal charges had been filed against them and that their bank accounts were about to be frozen, then instructed them to withdraw their savings in cash and hand it over \"for safekeeping\" until a federal official could collect it. The scammers, operating from inside and outside the United States including India, used fake names and code words, coached victims on what to tell their bank, and told them to photograph themselves with the packaged cash; one elderly victim contacted by a phony U.S. Marshal lost more than $700,000. A Chinese national living in San Jose pleaded guilty to conspiracy to commit money laundering for collecting roughly $597,100 from 24 victims across California and Nevada while impersonating a federal official. No real federal agency will ever ask you to withdraw cash, buy gold, or surrender money to a courier for protection. Hang up, call the agency back at a number you look up yourself, and tell your bank if someone coached you on what to say.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of California"],
+    sourceUrl: "https://www.justice.gov/usao-edca/pr/chinese-national-pleads-guilty-597000-money-laundering-conspiracy-took-life-savings",
+    country: "US",
+    state: "CA",
+});
+
+UsAF.push({
+    name: "Deceased Homeowner Estate Takeover With Forged Power of Attorney (Washington)",
+    slug: "deceased-homeowner-estate-takeover-forged-power-of-attorney-washington",
+    description:
+      "A Carnation, Washington man ran two schemes: he filed false pandemic unemployment claims in 19 states, collecting $148,206 from six of them, and then targeted the estate of a deceased elderly Seattle resident. Posing as the victim's authorized agent and using the victim's personal information, he sent a real estate agent a forged power of attorney claiming authorization to sell the victim's home and made multiple attempts to take more than half a million dollars in home, bank and stock assets. He pleaded guilty to wire fraud, access device fraud and aggravated identity theft and was sentenced to three years in federal prison. When a relative dies, notify Social Security, banks, brokerages and credit bureaus quickly and request a deceased-person credit freeze, because unmonitored accounts and property are prime targets. Families should also check county property records for unexpected deeds or powers of attorney filed in a late relative's name.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Western District of Washington"],
+    sourceUrl: "https://www.justice.gov/usao-wdwa/pr/carnation-washington-man-sentenced-prison-covid-fraud-scheme-and-attempts-steal",
+    country: "US",
+    state: "WA",
+});

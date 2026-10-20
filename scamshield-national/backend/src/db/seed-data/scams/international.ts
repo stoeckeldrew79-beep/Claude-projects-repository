@@ -25269,3 +25269,51 @@ International.push({
     sourceUrl: "https://tatoli.tl/2026/07/13/sidadaun-estranjeiru-90-suspeitadu-atividade-scam-submete-ba-identifikasaun/",
     country: "TL",
 });
+
+International.push({
+    name: "DSJ Exchange (DSJEX) and BG Wealth Sharing Crypto Investment Scheme",
+    slug: "dsj-exchange-bg-wealth-sharing-crypto-scheme",
+    description:
+      "Nauru's Financial Intelligence Unit has warned the public about a fraudulent cryptocurrency investment scheme marketed as DSJ Exchange (DSJEX) and BG Wealth Sharing LTD, neither of which is licensed or registered with Nauru's Command Ridge Virtual Assets Authority or any other regulator. Recruitment happens through social media, and victims are told to open a crypto exchange account, deposit money from their bank, move the crypto into a fake trading app run by the scammers, and follow daily \"trading signals.\" The scheme promises guaranteed or unrealistic returns such as \"zero risk\" or \"double your money in 60 days,\" pushes people to recruit family and friends, communicates only through encrypted messaging apps, and falsely claims registration with the US Securities and Exchange Commission. Once money is in, withdrawals are blocked unless victims pay extra \"fees\" or \"taxes,\" and then the operators disappear. Do not invest in or download these platforms, do not recruit anyone else into them, seek independent financial advice before investing, and report suspicious investment offers to the Nauru FIU.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["Nauru Financial Intelligence Unit, Department of Justice and Border Control","PACNEWS / Pacific Islands News Association","Island Times"],
+    sourceUrl: "https://pina.com.fj/2026/04/24/nauru-financial-intelligence-unit-flags-crypto-scam-warns-public-promises-of-guaranteed-returns/",
+    country: "NR",
+});
+
+International.push({
+    name: "Fake GFSC Due Diligence Documents: Flaven Law Chambers and ApexKrest Bank",
+    slug: "fake-gfsc-due-diligence-documents-flaven-law-chambers-apexkrest-bank",
+    description:
+      "Fraudsters are producing counterfeit documents bearing the Guernsey Financial Services Commission's name, titled things like \"Financial Regulatory Due Diligence\" or \"Financial Provenance Clearance\", to make a bogus deal look regulator-approved. The paperwork is used to support an advance-fee fraud run through a fictitious law firm called Flaven Law Chambers and a fictitious bank called ApexKrest Bank, neither of which is a real licensed entity. Targets are told a sum of money is cleared and ready to be released, then pressed to pay fees first, after which the money never arrives. The GFSC issued a warning on 1 April 2026 confirming fake documents have been issued in its name in support of this scheme. If you are shown GFSC-branded clearance paperwork, do not pay anything and check the firm and the document directly with the GFSC before sending any funds.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Guernsey Financial Services Commission (GFSC) public warnings page, warning dated 1 April 2026"],
+    sourceUrl: "https://www.gfsc.gg/news/warnings",
+    country: "GG",
+});
+
+International.push({
+    name: "States of Guernsey Revenue Service Spoofed Tax Email Phishing",
+    slug: "states-of-guernsey-revenue-service-spoofed-tax-email-phishing",
+    description:
+      "Phishing emails impersonating the States of Guernsey Revenue Service are being sent to Guernsey taxpayers, and the Revenue Service has described this wave as more sophisticated than earlier attempts, with branding and formatting that closely match genuine tax correspondence. The messages carry a link or attachment designed to harvest personal and banking details. Bailiwick Law Enforcement says the most reliable giveaway is the sender address, which is not a States of Guernsey address even when everything else looks right. Multiple customers reported the emails after the initial alert of 25 November 2025 and reports continued into December, so the wave is ongoing. Do not click links or open attachments and do not reply; check the sender address carefully, and if you have already engaged, contact your bank's fraud team immediately and report it to Action Fraud.",
+    categorySlug: "tax-scams",
+    alertLevel: "high",
+    sources: ["States of Guernsey Revenue Service warning via Bailiwick Express, November 2025","Bailiwick Law Enforcement / Guernsey Police follow-up warning, November-December 2025, also carried by BBC Guernsey"],
+    sourceUrl: "https://www.bailiwickexpress.com/news-ge/could-you-spot-the-fake-states-spoofed-as-sophisticated-email-scammers-target-guernsey/",
+    country: "GG",
+});
+
+International.push({
+    name: "Guernsey Rental Deposit Scam on Tig.gg and Facebook",
+    slug: "guernsey-rental-deposit-scam-tig-gg-facebook",
+    description:
+      "Fraudsters place fake rental listings for Guernsey properties on the local classifieds site Tig.gg and on Facebook, outside the reputable local letting-agent network, targeting people struggling in the island's tight housing market. In the case that prompted a Guernsey Police warning, the scammers posed as a married couple claiming to own the unit, supplied a detailed property description, a fake address and false tenancy contracts, then asked for half the deposit up front before any viewing took place. One reported victim lost £2,300. Guernsey Police advise never paying a deposit without meeting the owner or a verified representative in person at the property. You can also confirm who actually owns a Guernsey property by requesting a copy of the deed from the Greffe, which is public information at £2 per page and usually only two or three pages long.",
+    categorySlug: "rental-housing",
+    alertLevel: "medium",
+    sources: ["Guernsey Police rental scam warning (article 176383), August 2021, with advice from Guernsey Trading Standards","ITV News Channel report quoting Guernsey Police, 6 August 2021"],
+    sourceUrl: "https://www.guernsey.police.uk/article/176383/Rental-Scam-Warning",
+    country: "GG",
+});

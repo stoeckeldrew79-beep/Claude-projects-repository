@@ -13298,3 +13298,54 @@ UsNS.push({
     country: "US",
     state: "NH",
 });
+
+UsNS.push({
+    name: "Phantom Hacker Three-Phase Impostor Scam",
+    slug: "phantom-hacker-three-phase-impostor-scam",
+    description:
+      "This scam uses three different criminals playing three roles in sequence to convince a victim, usually a senior, that their savings are under attack. First a fake tech-support representative gets the victim to install remote-access software and open their bank, brokerage and retirement accounts \"to check for unauthorized charges\" — really a guided tour of where the money is. Next a fake bank or brokerage official confirms the \"hack\" and tells the victim to move funds to a supposedly safe government account, and finally a fake federal official, sometimes using forged letterhead and emails, pushes the money out by wire, cash or cryptocurrency, often overseas and often in instalments over weeks. Victims are told to keep the real reason secret, which is designed to defeat the bank teller or family member who would otherwise stop it. No real government agency will ever ask you to move your money to a \"protected\" or \"alias\" account — hang up, do not install software for an unsolicited caller, and report it to the FBI's IC3.",
+    categorySlug: "tech-support-scams",
+    alertLevel: "critical",
+    sources: ["FBI Internet Crime Complaint Center (IC3) Public Service Announcement I-092923-PSA","FBI, \"Inside the FBI: The Phantom Hacker Scam\" (February 2024)"],
+    sourceUrl: "https://www.ic3.gov/PSA/2023/PSA230929",
+    country: "US",
+});
+
+UsNS.push({
+    name: "Post Office Burglary Mail-Theft and Identity Fraud Ring (Puget Sound)",
+    slug: "post-office-burglary-mail-theft-identity-fraud-ring-puget-sound",
+    description:
+      "A three-person crew broke into post offices across Kitsap, Thurston, Pierce, King and Island Counties, wearing masks, disconnecting security cameras and stealing mail from post office boxes along with cash and other valuables. The ringleader then used the identity and financial documents pulled out of victims' mail to commit bank fraud, and the judge noted that identity and mail theft crimes are \"tremendously disruptive to people's lives.\" All three defendants have now been sentenced to federal prison, with terms of 50 months, two years, and 18 months, and the ringleader was ordered to pay $10,785 in restitution. Mail theft is a front end for identity theft, so collect mail promptly, sign up for USPS Informed Delivery, and avoid sending checks or documents with account numbers through unsecured drop boxes. If statements or checks stop arriving, freeze your credit and report the theft to the U.S. Postal Inspection Service.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Western District of Washington"],
+    sourceUrl: "https://www.justice.gov/usao-wdwa/pr/final-defendant-three-post-office-burglary-ring-sentenced-prison",
+    country: "US",
+    state: "WA",
+});
+
+UsNS.push({
+    name: "Self-Styled Inventor's Patent Deal Investor Loan Fraud (New York)",
+    slug: "self-styled-inventor-patent-deal-investor-loan-fraud-new-york",
+    description:
+      "A self-styled inventor of household goods who held three patents raised money from individual investors between 2008 and 2023 by claiming he needed loans to sell his patents or to close a pending business deal. Instead of funding any deal, he spent the money on himself, including fine dining, vintage wines and prostitutes, and he targeted multiple victims including one he knew was dying; even after conviction he had an email sent to victims asking them to support his release so he could attend a fake marketing meeting. A jury convicted him on 22 counts of wire fraud and 2 counts of tax fraud, and he was sentenced to 10 years in prison followed by three years of supervised release. Treat personal \"bridge loans\" to an entrepreneur with the same scrutiny as any investment: demand written terms, independent verification of the deal and buyer, and proof of how funds will be held. Check whether the person or offering is registered with securities regulators before you wire anything.",
+    categorySlug: "investment-fraud",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Northern District of New York"],
+    sourceUrl: "https://www.justice.gov/usao-ndny/pr/warren-county-fraudster-sentenced-10-years-imprisonment",
+    country: "US",
+    state: "NY",
+});
+
+UsNS.push({
+    name: "Stolen Treasury and Business Check Payee-Impersonation Deposit Ring (New Jersey)",
+    slug: "stolen-treasury-business-check-payee-impersonation-deposit-ring-new-jersey",
+    description:
+      "From March 2023 through June 2025, a conspiracy deposited stolen checks, including U.S. Treasury checks, at banks in New Jersey and Pennsylvania by impersonating the businesses and individuals named as payees, often after acquiring business documents in the payees' names or opening fraudulent bank accounts. More than 100 Treasury and commercial checks worth over $11 million were deposited or attempted, and many of the Treasury checks were Employee Retention Credit refunds owed to real businesses. Ten defendants have now pleaded guilty to conspiracy to commit bank fraud, with charges still pending against two others. Businesses expecting a tax refund or vendor payment should track it, use positive pay or electronic deposit instead of paper checks, and follow up immediately if a check does not arrive. Watch, too, for anyone requesting copies of your business formation documents, which thieves use to open accounts in your company's name.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of New Jersey"],
+    sourceUrl: "https://www.justice.gov/usao-nj/pr/two-individuals-plead-roles-11-million-bank-fraud-conspiracy",
+    country: "US",
+    state: "NJ",
+});

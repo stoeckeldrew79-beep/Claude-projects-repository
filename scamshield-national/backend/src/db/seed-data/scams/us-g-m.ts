@@ -14111,3 +14111,28 @@ UsGM.push({
     sourceUrl: "https://www.michigan.gov/consumerprotection/protect-yourself/consumer-alerts/scams/beware-of-ghost-tapping-scams",
     country: "US",
 });
+
+UsGM.push({
+    name: "ICE and DHS Agent Impostor Calls Targeting Immigrants",
+    slug: "ice-dhs-agent-impostor-calls-targeting-immigrants",
+    description:
+      "Fraudsters cold-call immigrants claiming to be agents of US Immigration and Customs Enforcement, the Department of Homeland Security, or local police. The caller says the victim has violated immigration law and faces immediate arrest and deportation, then uses a threatening tone and tight deadlines to pressure them into handing over a date of birth, Social Security number, credit card details and other personal information. Unlike notario fraud, no service is offered at all — the only product is the threat, and it works because fear of immigration consequences also discourages victims from calling the authorities to check. Real immigration officers do not demand personal or payment details over the phone under threat of arrest. Hang up, verify independently, and report ICE impersonation to the DHS Office of Inspector General and police impersonation to your local police financial crimes unit.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["District of Columbia Department of Insurance, Securities and Banking (DISB) consumer alert, \"ICE Agent Imposter Scam\""],
+    sourceUrl: "https://disb.dc.gov/page/ice-agent-imposter-scam",
+    country: "US",
+});
+
+UsGM.push({
+    name: "India Call-Center Elder Fraud Cash and Gold Courier Network",
+    slug: "india-call-center-elder-fraud-cash-and-gold-courier-network",
+    description:
+      "Scammers working from call centers based in India defrauded elderly victims across the United States, then arranged for the proceeds to be handed over in the form of cash and gold to couriers who traveled to victims' homes. A U.S.-based coordinator received and laundered those payments, shipping them to Los Angeles and New York before the money moved overseas; he was tied to more than $150 million in fraud proceeds taken from older Americans, many of whom lost a significant portion of their life savings. A federal jury in Austin convicted him of wire fraud and money laundering counts, the fourth defendant convicted in the scheme. If anyone who called you out of the blue asks you to convert savings into cash or gold bars and hand them to a person who comes to your door, it is a scam. Refuse, end contact, and report it to the FBI at ic3.gov and to a trusted family member.",
+    categorySlug: "government-impersonation",
+    alertLevel: "critical",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Western District of Texas"],
+    sourceUrl: "https://www.justice.gov/usao-wdtx/pr/fourth-defendant-convicted-indian-call-center-elder-fraud-scheme",
+    country: "US",
+    state: "TX",
+});
