@@ -12568,3 +12568,24 @@ The Penn Traffic case shows that accounting fraud need not be run by finance exe
 The case also shows the long timeline typical of corporate fraud cases. The conduct ran from 2000 to 2003, the charges came in 2007, and the sentences in 2010, seven years after the last of the improperly recognized income.`,
     sourceUrl: 'https://www.supermarketnews.com/finance/former-penn-traffic-executives-sentenced',
 });
+
+NotoriousGM.push({
+    title: 'Ian Wilson and the Aurora Foods Trade-Marketing Fraud',
+    slug: 'ian-wilson-aurora-foods-trade-marketing-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_(55314071684).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh (CC BY 4.0) — Thurgood Marshall U.S. Courthouse, Foley Square, New York; the SEC filed the Aurora Foods case in the Southern District of New York',
+    coverImagePosition: 50,
+    body: `Aurora Foods, Inc. was a food company. Its chief executive was Ian R. Wilson, its chief financial officer M. Laurie Cummings, and one of its executive vice presidents Ray Chung. Trade marketing expenses are the discounts and promotional payments that manufacturers give retailers to get products on shelves and on sale, and they directly reduce a food company's earnings.
+
+The SEC filed a civil complaint in federal court in Manhattan on January 23, 2001, alleging what it called a "brazen financial reporting fraud" at Aurora in 1998 and 1999. According to the SEC, Aurora under-reported its trade marketing expenses by more than $43 million, which materially misstated its earnings. Senior management knew about the under-reporting but concealed it from the independent auditors, and directed division-level officers and employees to make false entries in various accounts. Two division vice presidents, Timothy Andersen and Dirk Grizzle, assisted in the false entries.
+
+Four former executives pleaded guilty in the related criminal case. Wilson was sentenced to 33 months of incarceration and fined $1 million, and Cummings to 41 months. Chung received a $500,000 fine, and Grizzle six months of incarceration and a $100,000 fine. Andersen was not charged criminally, and Aurora itself was not criminally charged because it cooperated with the U.S. Attorney's office.
+
+The SEC's civil cases ended in consent judgments, entered in August 2004 against Wilson, Chung, Cummings and Andersen, and Grizzle. Wilson, Chung, Cummings and Grizzle were permanently barred from serving as officers or directors of public companies. Disgorgement and interest ranged from $75,000 to $420,000: Wilson paid $420,000, Chung $142,000 and a $125,000 penalty, Cummings $75,000 and a $200,000 penalty, and Grizzle $102,000 and a $75,000 penalty. A division controller, Keith Luechtefeld, consented to a judgment in December 2004 and was ordered to pay $62,500, and two other employees paid civil penalties of $20,000 and $10,000.
+
+The Aurora case shows how trade-promotion spending, an expense whose timing and amount depend on estimates, can be used to move earnings from one period to another. It also shows the chain of a corporate fraud case: the executives at the top pleaded guilty and were sentenced, the division managers who made the entries were sanctioned more lightly, and the company, because it cooperated, avoided criminal charges.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-19165',
+});
