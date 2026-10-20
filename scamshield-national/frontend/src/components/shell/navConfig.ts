@@ -42,6 +42,8 @@ export const SECTION_GROUPS: { heading: string; items: NavItem[] }[] = [
   {
     heading: 'Protect yourself',
     items: [
+      { to: '/check-now', label: 'Scam Checker' },
+      { to: '/help', label: 'Get Help' },
       { to: '/alerts', label: 'Alerts' },
       { to: '/subscribe', label: 'Plans' },
     ],
@@ -80,7 +82,8 @@ export const MOBILE_NAV_GROUPS: { heading: string; items: NavItem[] }[] = [
   {
     heading: 'Protect yourself',
     items: [
-      { to: '/check-now', label: 'Check something now' },
+      { to: '/check-now', label: 'Scam Checker' },
+      { to: '/help', label: "I've been scammed — get help" },
       { to: '/alerts', label: 'Scam Alerts' },
       { to: '/subscribe', label: 'Plans & Pricing' },
       { to: '/report-status', label: 'Check report status' },

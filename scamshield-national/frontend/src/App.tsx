@@ -7,6 +7,7 @@ import Home from './pages/Home';
 const TodaysScams = lazyPage(() => import('./pages/TodaysScams'));
 const AIScams = lazyPage(() => import('./pages/AIScams'));
 const CheckNow = lazyPage(() => import('./pages/CheckNow'));
+const ScammedHelp = lazyPage(() => import('./pages/ScammedHelp'));
 const Database = lazyPage(() => import('./pages/Database'));
 const ScamDetail = lazyPage(() => import('./pages/ScamDetail'));
 const Alerts = lazyPage(() => import('./pages/Alerts'));
@@ -98,6 +99,7 @@ export default function App() {
           <Route path="/todays-scams" element={<TodaysScams />} />
           <Route path="/ai-scams" element={<AIScams />} />
           <Route path="/check-now" element={<CheckNow />} />
+          <Route path="/help" element={<ScammedHelp />} />
           <Route path="/database" element={<Database />} />
           <Route path="/scams/:slug" element={<ScamDetail />} />
           <Route path="/alerts" element={<Alerts />} />

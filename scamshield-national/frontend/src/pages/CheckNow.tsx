@@ -257,7 +257,12 @@ function Results({ result, text, onReset }: { result: CheckResult; text: string;
             </span>
           </span>
         </summary>
-        <p className="mt-2 text-sm text-slate-600">Act quickly — what you can recover depends on how fast you move.</p>
+        <p className="mt-2 text-sm text-slate-600">
+          Act quickly — what you can recover depends on how fast you move.{' '}
+          <Link to="/help" className="font-semibold text-[#8a2e2e] underline">
+            Get a full step-by-step plan
+          </Link>
+        </p>
         <div className="mt-4 grid gap-3 sm:grid-cols-2">
           {ALREADY_ACTED.map((a) => (
             <div key={a.title} className="rounded-xl bg-slate-50 p-4">
