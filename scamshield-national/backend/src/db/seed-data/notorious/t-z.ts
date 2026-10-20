@@ -4133,3 +4133,24 @@ The Robson and Redpath cases belong to a wave of Victorian frauds in which a sin
 The case illustrates a pattern that remains familiar: fraud by an insider with sole control over the records, which continues because those relying on the records see no reason to check them.`,
     sourceUrl: 'https://djo.org.uk/all-the-year-round/volume-iii/page-203.html',
 });
+
+NotoriousTZ.push({
+    title: 'Timothy Webster and the American Italian Pasta Accounting Fraud',
+    slug: 'timothy-webster-american-italian-pasta-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kansas_City_Skyline_2020_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Hello2020121212 (CC BY-SA 4.0) — downtown Kansas City, Missouri, 2020; the case was prosecuted by the U.S. Attorney for the Western District of Missouri',
+    coverImagePosition: 50,
+    body: `American Italian Pasta Company (AIPC) was the largest dry-pasta producer in North America, a publicly traded manufacturer. Its chief executive and president was Timothy S. Webster, and its chief financial officer Warren B. Schmidgall. Between 2002 and the second quarter of fiscal 2004, according to federal prosecutors and the SEC, the two helped mislead investors about the company's earnings growth.
+
+The company's earnings were adjusted to meet or beat Wall Street's expectations. Prosecutors and the SEC described several methods: round-trip cash transactions with an acquired company that made it appear that the company reimbursed AIPC for more than $2 million in costs, which raised AIPC's earnings; round-trip cash with a customer that suggested retroactive price increases and overstated revenue; research-and-development costs understated by about $1 million; manipulated accounting for trade promotions; a failure to write off obsolete or missing spare parts; and false receivables. The SEC alleged that pre-tax income was overstated by about $59 million, or 66 percent, for the period.
+
+AIPC was delisted from the New York Stock Exchange in April 2007. It agreed to a $25 million class-action settlement, of which $11 million was paid in cash by insurers and $14 million in company stock. In September 2008 the company agreed to pay a $7.5 million penalty to resolve the criminal investigation by the U.S. Attorney's Office for the Western District of Missouri, and Webster and Schmidgall each pleaded guilty to one count of conspiracy to commit wire fraud.
+
+The two were sentenced in 2009. According to the U.S. Attorney's office, Webster received 18 months in federal prison and Schmidgall 13 months, and the judge found that Webster organized and led the scheme while Schmidgall managed and supervised its execution. In the SEC's civil case Webster, AIPC and the former controller Stephanie Ruskey settled without admitting or denying the allegations. Webster agreed to disgorge $751,978, pay $32,610 in interest and a $250,000 penalty, and accept a bar from serving as an officer or director of a public company, and Ruskey, who the SEC said signed letters to the auditors falsely stating that the statements followed accounting standards, agreed to a $25,000 penalty.
+
+The AIPC case illustrates how earnings management can move from aggressive accounting to outright fraud when the aim is to meet analyst expectations rather than describe the business. Round-trip transactions, where money goes out and comes back as revenue or reimbursement, are a recurring device because they create a paper trail that looks like normal business, and in this case it took a delisting, a class action and years of litigation to unwind them.`,
+    sourceUrl: 'https://www.cfo.com/news/cooked-books-pasta-company-execs-plead-guilty/671526/',
+});
