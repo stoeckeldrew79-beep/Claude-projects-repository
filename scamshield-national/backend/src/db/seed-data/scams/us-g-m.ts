@@ -14136,3 +14136,41 @@ UsGM.push({
     country: "US",
     state: "TX",
 });
+
+UsGM.push({
+    name: "IC3 Impersonation Fund Recovery Scam With Deepfake FBI Officials",
+    slug: "ic3-impersonation-fund-recovery-deepfake",
+    description:
+      "Criminals target people who have already lost money to fraud by posing as FBI staff who handle Internet Crime Complaint Center (IC3) complaints and offering to recover the stolen funds. Contact comes by phone, email, forums, or social media accounts branded as \"IC3\" — even though the real IC3 has no social media presence and never recovers money through Facebook or Telegram. Some versions use AI-generated video of senior FBI officials in ads, clips, and even live calls, steering viewers to a spoofed IC3 website that harvests names, phone numbers, emails, and loss details. Victims are then moved to Telegram, told their money has been found, and asked to click a link or pay a fee to release the \"recovered\" funds. Never pay anyone who promises to recover lost funds, only use the official ic3.gov site typed directly into your browser, and report the approach to the FBI.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["FBI / Internet Crime Complaint Center, Public Service Announcement I-072026-PSA, 20 July 2026 (update to I-04182025-PSA)"],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA260720",
+    country: "US",
+});
+
+UsGM.push({
+    name: "High-Yield Promissory Note Private Equity Investment Scam (Orange County)",
+    slug: "high-yield-promissory-note-private-equity-investment-scam-orange-county",
+    description:
+      "The founder of a Laguna Niguel private equity fund solicited hundreds of investors nationwide to buy unsecured promissory notes of $25,000 to $500,000, marketing monthly interest of roughly 12% to 17% over three to seven years. Through webinars he pitched the notes as a \"hands-off passive investment\" perfect for retirement funds, claimed they were backed by diversified holdings in e-commerce, real estate, Broadway shows and cryptocurrency, and sent investors balance sheets showing assets of $143 million to $224 million. In reality the fund never paid the promised returns and put money into risky assets that offered none of the promised safety, causing about $63 million in investor losses. He pleaded guilty to wire fraud and was sentenced to 33 months in federal prison plus more than $63 million in restitution. Treat guaranteed double-digit monthly returns as a red flag, and verify any note offering and the people selling it with the SEC or your state securities regulator before investing retirement money.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Central District of California"],
+    sourceUrl: "https://www.justice.gov/usao-cdca/pr/former-ceo-oc-based-private-equity-fund-sentenced-nearly-3-years-federal-prison",
+    country: "US",
+    state: "CA",
+});
+
+UsGM.push({
+    name: "Hacked Employer Servers Used for Stolen-Identity Tax Fraud (Middle District of Florida)",
+    slug: "hacked-employer-servers-used-for-stolen-identity-tax-fraud",
+    description:
+      "Prosecutors say a defendant extradited from South Africa and other scheme participants gained unauthorized access to the computer servers of United States businesses and stole the personal identifying information stored on them for use in a fraud scheme. He was charged in an unsealed superseding indictment with two counts of wire fraud and two counts of aggravated identity theft, which carry up to 20 years per wire fraud count and a mandatory consecutive two-year term for each identity theft count. The case was announced as part of a national tax enforcement surge covering 76 defendants and more than $490 million in intended loss. Employees whose employer suffers a data breach can be victimized long after the hack, often through fraudulent returns or accounts opened in their names. If your employer reports a breach, file your tax return as early as possible, request an IRS Identity Protection PIN, and monitor your credit for new accounts.",
+    categorySlug: "tax-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Middle District of Florida"],
+    sourceUrl: "https://www.justice.gov/usao-mdfl/pr/middle-district-florida-joins-doj-fraud-division-irs-irs-ci-and-fbi-national-tax",
+    country: "US",
+    state: "FL",
+});

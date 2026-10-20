@@ -7572,3 +7572,16 @@ UsTZ.push({
     country: "US",
     state: "NJ",
 });
+
+UsTZ.push({
+    name: "Tax Preparer's Secret Fake-Deduction Refund Inflation Scheme (Indiana)",
+    slug: "tax-preparers-secret-fake-deduction-refund-inflation-scheme-indiana",
+    description:
+      "A Brownsburg tax preparer who worked at one tax firm and later launched his own prepared false income tax returns for clients of both businesses by attaching fraudulent Schedule A forms without the clients' knowledge. The indictment alleges he claimed large fictitious itemized deductions — including charitable contributions and unsupported entries such as \"ordinary loss debt instrument,\" \"unrecovered pension investments\" and \"claim repayments\" — to inflate clients' refunds. He signed a petition to plead guilty to two counts of aiding and assisting in the making of a false federal income tax return, as part of a national enforcement surge involving 76 defendants and more than $490 million in intended loss. Taxpayers whose returns contain invented deductions remain legally responsible for the tax, penalties and interest. Always read your full return before it is filed, question any deduction you do not recognize, and make sure the preparer signs it and includes a valid PTIN.",
+    categorySlug: "tax-scams",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Southern District of Indiana"],
+    sourceUrl: "https://www.justice.gov/usao-sdin/pr/us-attorneys-office-southern-district-indiana-joins-doj-fraud-division-irs-and-irs-ci",
+    country: "US",
+    state: "IN",
+});

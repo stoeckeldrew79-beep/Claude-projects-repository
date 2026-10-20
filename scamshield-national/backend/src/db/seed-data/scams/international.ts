@@ -25317,3 +25317,75 @@ International.push({
     sourceUrl: "https://www.guernsey.police.uk/article/176383/Rental-Scam-Warning",
     country: "GG",
 });
+
+International.push({
+    name: "Fake my.gov.uz State Compensation Phishing Site",
+    slug: "fake-my-gov-uz-state-compensation-phishing-site",
+    description:
+      "Fraudsters cloned Uzbekistan's official state services portal my.gov.uz and used the Ministry of Finance (Moliya vazirligi) name to make a fake government payout page look real. Instagram ads promised that around 30 million so'm in \"compensation\" or \"social assistance\" would be sent automatically to your bank card if you filled in a questionnaire and entered your card details. The card data was then used to empty victims' accounts; police reported 456 victims and losses of more than 1 billion so'm. Government benefits are never paid out in exchange for card numbers entered on a page you reached from a social media ad. Ignore such ads, reach my.gov.uz only by typing the address yourself, and report suspected fraud to the Ministry of Internal Affairs cybercrime department.",
+    categorySlug: "government-impersonation",
+    alertLevel: "critical",
+    sources: ["Cybersecurity Centre / Department for Combating Cybercrime, Ministry of Internal Affairs of Uzbekistan (announcement of 17 July 2026)","Gazeta.uz","Spot.uz"],
+    sourceUrl: "https://www.gazeta.uz/oz/2026/07/17/cybercrime/",
+    country: "UZ",
+});
+
+International.push({
+    name: "Pioneer Global Media LTD (PGM) Paid-Entry Online Job Scheme",
+    slug: "pioneer-global-media-ltd-pgm-paid-entry-online-job-scheme",
+    description:
+      "Pioneer Global Media LTD, or PGM, presented itself as a London-based media company offering online work to people in Uzbekistan through closed, admin-approved Telegram groups. Recruits were told that paying an entry fee of at least 3,500,000 so'm would get them \"hired\" and earn them a weekly wage for completing tasks on YouTube, TikTok and Facebook. To win trust in the regions, organisers handed out free eggs, bananas, cooking oil and pasta at tea-house gatherings and photographed recipients holding the PGM app, then used those images to recruit thousands more, many of whom borrowed money to pay in. The national CERT identified it as fraud with the hallmarks of a financial pyramid, since payouts depend on new entry fees rather than real revenue. Never pay to be given a job, and check any employer's legal registration before transferring money.",
+    categorySlug: "job-task-scams",
+    alertLevel: "high",
+    sources: ["UzCERT service, Cybersecurity Centre of Uzbekistan (warning published 23 January 2026)","Gazeta.uz","Kun.uz investigative report, 8 October 2026"],
+    sourceUrl: "https://www.gazeta.uz/oz/2026/01/23/online-job/",
+    country: "UZ",
+});
+
+International.push({
+    name: "ML_Share Tiered Task-Payment Pyramid Scheme",
+    slug: "ml-share-tiered-task-payment-pyramid-scheme",
+    description:
+      "ML_Share is an online \"project\" promoted heavily on social media in Uzbekistan that sells paid membership tiers supposedly unlocking daily paid tasks. At the entry J1 tier, 285,600 so'm is said to buy the right to do 5 tasks a day at 1,904 so'm each, with the deposit claimed to be recovered in 30 days; higher tiers such as J3 demand 11,220,000 so'm and promise 124,800 so'm a day. The state Cybersecurity Centre's UZCERT service analysed the scheme and found no real economic activity behind it, with payments to existing members funded entirely by money from new recruits. Offers of guaranteed income or \"work in exchange for an advance payment\" are a standard pyramid signal. Do not send money to ML_Share or similar projects, and verify a company's legal status and identity before paying anything.",
+    categorySlug: "ponzi-pyramid-schemes",
+    alertLevel: "high",
+    sources: ["UZCERT service of the Kiberxavfsizlik markazi (Cybersecurity Centre) state unitary enterprise, official Telegram channel announcement (publication date unverified; first-party regulator notice with no national news coverage located)"],
+    sourceUrl: "https://t.me/s/cyber_csec_uz/2160",
+    country: "UZ",
+});
+
+International.push({
+    name: "WhatsApp Account-Cloning \"Stranded Abroad\" Money Request Scam",
+    slug: "whatsapp-account-cloning-stranded-abroad-money-request-scam",
+    description:
+      "Criminals hijack or clone the WhatsApp accounts of Saint Kitts and Nevis residents and then message everyone in the victim's contact list while pretending to be the account owner. A typical message claims the person is stranded in the United States and urgently needs money sent by wire transfer. The takeover usually starts when the victim shares or approves a six-digit account verification code they never requested. Police say that although only three reports were formally filed, the true number of victims is likely far higher, and some people did send money believing they were helping a friend. Never share or approve a verification code you did not request, and always call the person directly on a known number before sending any money.",
+    categorySlug: "account-takeover",
+    alertLevel: "high",
+    sources: ["Royal St. Christopher and Nevis Police Force – White Collar Crime Unit advisory, 15 November 2024","Nevis Financial Services Regulatory Commission – Statement re WhatsApp Scam Advisory","WINN Media SKN – Officials address WhatsApp scam advisory in St Kitts and Nevis"],
+    sourceUrl: "https://police.kn/press-releases/detail/367",
+    country: "KN",
+});
+
+International.push({
+    name: "Social Media Fake Seller E-Commerce Scam",
+    slug: "social-media-fake-seller-e-commerce-scam",
+    description:
+      "Fraudsters set up profiles on social media posing as legitimate sellers of goods and collect online payments for merchandise they never deliver, or for items that turn out to be stolen. Police intelligence indicates these illicit actors target buyers using social media marketplaces and online payment platforms in Saint Kitts and Nevis. Because the seller controls the listing and the payment link, money sent is usually gone the moment it is transferred. If you cannot verify who the seller is, do not go through with the transaction. Call the seller by telephone to confirm they actually have the goods and the stated price, confirm by phone that your payment was received, and be wary of unusually cheap items from unknown people.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["Royal St. Christopher and Nevis Police Force – White Collar Crime Unit public advisory on E-Commerce Scams","St. Kitts and Nevis Financial Intelligence Unit (SKNFIU)"],
+    sourceUrl: "https://police.kn/press-releases/detail/253",
+    country: "KN",
+});
+
+International.push({
+    name: "Fraudulent ECCB Stablecoin Using the Central Bank's Logo",
+    slug: "fraudulent-eccb-stablecoin-using-central-banks-logo",
+    description:
+      "A crypto token on the Solana blockchain was promoted online as an official Eastern Caribbean Central Bank stablecoin, using the ECCB's real logo to look authentic. On 24 January 2025 the ECCB, headquartered in Basseterre, stated the representation was false and that it is not associated with any crypto token ventures or stablecoins on any public blockchain. The bank said it was working with the relevant authorities to stop the fraudulent misuse of its name and branding. Schemes like this are often vehicles for rug pulls and pump-and-dump scams that leave buyers holding worthless coins. Treat any token claiming central bank backing as fraudulent unless the bank itself confirms it, and research carefully before putting money into any online crypto venture.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["Eastern Caribbean Central Bank (ECCB) press release, 24 January 2025 – ECCB Warns of Fraudulent Stablecoin"],
+    sourceUrl: "https://www.eccb-centralbank.org/news/eccb-warns-of-fraudulent-stablecoin",
+    country: "KN",
+});

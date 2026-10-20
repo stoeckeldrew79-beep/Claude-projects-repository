@@ -13349,3 +13349,16 @@ UsNS.push({
     country: "US",
     state: "NJ",
 });
+
+UsNS.push({
+    name: "Storage Unit Investment Pooling Ponzi Scheme (Missouri)",
+    slug: "storage-unit-investment-pooling-ponzi-scheme-missouri",
+    description:
+      "A Lee's Summit man ran a Ponzi scheme that took more than $3.8 million from at least 60 investors using false and misleading promises about where their money was going. In one example cited by prosecutors, he text-messaged a local investor claiming the victim could earn 8.5% interest by pooling money with others in a storage unit investment; the victim wired funds to his personal checking account, and a review of his financial records found no evidence the money was ever invested in storage units. Instead, investor funds were misappropriated for his personal benefit. He pleaded guilty in federal court to wire fraud and money laundering and faces up to 20 years in prison. Never wire investment money into an individual's personal checking account, and insist on written offering documents and independent verification that the underlying property or business actually exists.",
+    categorySlug: "ponzi-pyramid-schemes",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Western District of Missouri"],
+    sourceUrl: "https://www.justice.gov/usao-wdmo/pr/lees-summit-man-pleads-guilty-defrauding-millions-dollars-investors-through-ponzi",
+    country: "US",
+    state: "MO",
+});

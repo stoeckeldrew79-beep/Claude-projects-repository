@@ -13120,3 +13120,41 @@ UsAF.push({
     country: "US",
     state: "WA",
 });
+
+UsAF.push({
+    name: "Deceptive Sextortion Rescue Services (Digital Forensics Corporation)",
+    slug: "deceptive-sextortion-rescue-services",
+    description:
+      "This scheme preys on people who are already being sextorted by advertising paid services that claim to identify the blackmailer and shut the attack down. The FTC alleges that Digital Forensics Corporation LLC reached frightened victims through ads on Google, YouTube, and X urging them to call immediately and \"fight back,\" then charged thousands of dollars for work it never delivered. The complaint says the company produced fabricated investigative reports, pushed victims into a second paid phase, and manipulated the online reviews victims would check before buying, taking in more than $60 million. A federal court granted the FTC's request to temporarily halt the company and its CEO. If you are being sextorted, stop paying and stop responding, report it to the FBI at ic3.gov or to the NCMEC CyberTipline if a minor is involved, and be wary of any paid service that promises to unmask or stop a blackmailer.",
+    categorySlug: "sextortion",
+    alertLevel: "high",
+    sources: ["U.S. Federal Trade Commission press release, 13 October 2026","FTC consumer alert, October 2026"],
+    sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-operator-sextortion-relief-scheme-misleading-consumers-believing-it-would-identify",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Credit Card \"Bust-Out\" Scheme Using Stolen Identities (San Diego)",
+    slug: "credit-card-bust-out-scheme-using-stolen-identities-san-diego",
+    description:
+      "A Santee trucking company owner admitted obtaining real people's names, dates of birth and Social Security numbers and using that stolen information to open credit card accounts in their names. He then ran up charges of thousands of dollars each — some as high as $18,500 in a single transaction — at businesses including his own company, and made payments with checks drawn on accounts with insufficient funds or no funds at all so the credit limits would temporarily reset and he could charge again. Two banks lost more than $2.1 million, and proceeds were laundered overseas to an account in Türkiye. The defendant pleaded guilty in federal court to all 18 counts of bank fraud, money laundering and aggravated identity theft. Check your credit reports regularly and consider a free credit freeze so accounts cannot be opened in your name without your approval.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Southern District of California"],
+    sourceUrl: "https://www.justice.gov/usao-sdca/pr/owner-santee-trucking-company-pleads-guilty-2-million-credit-card-fraud-and-identity",
+    country: "US",
+    state: "CA",
+});
+
+UsAF.push({
+    name: "Fake Software Development Contractor Advance-Payment Scheme (Clarion County)",
+    slug: "fake-software-development-contractor-advance-payment-scheme-clarion-county",
+    description:
+      "Between 2016 and 2020, a Clarion County man used several businesses he owned to take money from customers for software design, production and other services he never delivered. To win trust he claimed expertise he did not have and showed prospective clients fabricated documents depicting business relationships with well-known reputable companies, along with phony bank statements showing millions of dollars supposedly earned on past projects. He then demanded additional fees and made lulling statements about project status while spending customer payments on personal vehicles and equipment. A federal jury convicted him on 30 counts of wire fraud, mail fraud and money laundering, with sentencing set for February 2027. Before paying a technology vendor, independently verify claimed client references and corporate partnerships, and avoid contractors who keep demanding new fees while producing no working deliverables.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Western District of Pennsylvania"],
+    sourceUrl: "https://www.justice.gov/usao-wdpa/pr/federal-jury-finds-clarion-county-man-guilty-30-counts-money-laundering-and-wire-and",
+    country: "US",
+    state: "PA",
+});
