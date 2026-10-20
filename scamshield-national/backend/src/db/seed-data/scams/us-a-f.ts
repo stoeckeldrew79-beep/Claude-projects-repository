@@ -13158,3 +13158,29 @@ UsAF.push({
     country: "US",
     state: "PA",
 });
+
+UsAF.push({
+    name: "Fake College and University Websites",
+    slug: "fake-college-and-university-websites",
+    description:
+      "Scammers build polished websites for schools that do not exist, picking a name close enough to a real accredited university that prospective students assume it is legitimate — Michigan's attorney general flagged smich.education, which marketed itself as 'Southeastern Michigan University' after a complaint from the genuine Eastern Michigan University. Students are pulled in through spam email, pop-up ads and high-pressure phone calls, tactics real colleges rarely use, and the pitch often targets international students shopping for online degree programs. Victims lose application fees and tuition payments and also hand over the full identity package enrollment requires: Social Security number, date of birth, address and financial aid details, which can fuel later identity theft. Anyone who 'graduates' ends up with a worthless credential. Before paying anything, check the school against your state's list of accredited institutions, look for missing or dead contact information and grammar errors on the site, call the admissions number to see if a real person answers, and report suspected fake schools to your state attorney general.",
+    categorySlug: "student-loan-education",
+    alertLevel: "high",
+    sources: ["Michigan Department of Attorney General, consumer alert from AG Dana Nessel on fake college websites (August 8, 2025)"],
+    sourceUrl: "https://www.michigan.gov/ag/news/press-releases/2025/08/08/attorney-general-nessel-issues-new-consumer-alert-on-fake-college-websites",
+    country: "US",
+    state: "MI",
+});
+
+UsAF.push({
+    name: "Fraudulent Deed Filing Home Title Theft Scheme (St. Louis)",
+    slug: "fraudulent-deed-filing-home-title-theft-scheme-st-louis",
+    description:
+      "Beginning as early as September 2018, a conspiracy filed forged deeds with recorders of deeds in St. Louis and St. Louis County falsely claiming that the defendant or his relatives had purchased properties belonging to other people. Fraudulently obtained notary seals were used to 'authenticate' the forged signatures of the true owners, including at least three owners who were already deceased, and at least 14 properties were transferred to the defendant, his companies, friends and family, with intended losses exceeding $1.5 million. Some real owners spent heavily to recover their titles while others abandoned the properties because they could not afford to sue, and in some cases the defendant forced entry and squatted in the homes. One defendant pleaded guilty to conspiracy and faces up to five years in prison; a co-defendant pleaded guilty earlier and awaits sentencing. Sign up for free property-records or title-alert notifications from your county recorder, and periodically check the recorded ownership of homes, rentals and inherited or vacant property you own.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of Missouri"],
+    sourceUrl: "https://www.justice.gov/usao-edmo/pr/st-louis-county-man-admits-using-fraudulent-deed-filings-steal-least-14-properties",
+    country: "US",
+    state: "MO",
+});

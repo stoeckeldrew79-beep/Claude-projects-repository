@@ -14187,3 +14187,42 @@ UsGM.push({
     country: "US",
     state: "NV",
 });
+
+UsGM.push({
+    name: "Ghost Tapping Contactless Payment Theft",
+    slug: "ghost-tapping-contactless-payment-theft",
+    description:
+      "Thieves carry portable card readers into crowded places like festivals, street markets and pop-up stands, then get the reader close enough to your tap-enabled card or phone to start a payment you never approved — sometimes while 'accidentally' bumping into you. A second version is openly social: someone poses as a vendor or charity collector and holds out a reader showing no total or a small donation amount, while the charge actually authorized is far larger. Because contactless payments clear instantly, the money is gone before you notice, and small test charges may appear first. Protect yourself by reading the merchant name, total and tip on any screen before tapping, refusing to be rushed, keeping cards in an RFID-blocking sleeve, turning off NFC when you are not using it, and requiring your phone to be unlocked before it pays. If you see a charge you did not make, contact your bank or card issuer immediately, tell local police, and file a report with the FTC or your state attorney general's consumer protection team.",
+    categorySlug: "identity-theft",
+    alertLevel: "medium",
+    sources: ["Michigan Department of Attorney General, Consumer Protection Team consumer alert (November 2025)"],
+    sourceUrl: "https://www.michigan.gov/consumerprotection/protect-yourself/consumer-alerts/scams/beware-of-ghost-tapping-scams",
+    country: "US",
+    state: "MI",
+});
+
+UsGM.push({
+    name: "Gift Card Draining Through In-Store Tampering",
+    slug: "gift-card-draining-through-in-store-tampering",
+    description:
+      "Criminals take gift cards off the store rack before anyone buys them, scratch off the covering that hides the PIN or access code, record it, reseal the card and put it back on display. A variant sticks a different barcode on the packaging so that when you pay at the register the money loads onto a card the thief controls instead of the one in your hand. Once you activate the card, the thief — who has been checking the balance online — drains it within minutes, and the person you gave it to finds zero dollars at checkout. Unlike the familiar 'pay me in gift cards' scam, the criminal never contacts you and never needs your personal information. Before buying, inspect the packaging for tears, glue or a scratched or damaged PIN cover, keep your receipt and activation slip, and if a card is drained report it to the retailer, your local police, and your state or district financial regulator and attorney general.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["Office of the Attorney General for the District of Columbia, Consumer Alert from AG Brian L. Schwalb with DISB Commissioner Karima Woods (December 15, 2025)"],
+    sourceUrl: "https://oag.dc.gov/release/attorney-general-brian-schwalb-issues-alert",
+    country: "US",
+    state: "DC",
+});
+
+UsGM.push({
+    name: "Inmate-Run Jury Duty Fine Police Impersonation Phone Scheme (Georgia)",
+    slug: "inmate-run-jury-duty-fine-police-impersonation-phone-scheme-georgia",
+    description:
+      "Two state inmates ran a telephone fraud operation from behind bars, calling citizens while posing as law enforcement and demanding immediate payment of fines for supposedly missed jury duty, backed by threats of arrest. At least 119 people were extorted before an FBI investigation unraveled the scheme and the money-laundering network used to collect the payments. Both men were convicted at trial of conspiracy to commit wire fraud and conspiracy to commit money laundering and were sentenced to 200 months and 120 months in federal prison respectively, with restitution to be set later. Courts and police never call to demand payment over the phone for a missed jury summons, and never accept gift cards, wire transfers or cash apps. If you get such a call, hang up and call the clerk of court directly using the number on the court's official website.",
+    categorySlug: "government-impersonation",
+    alertLevel: "critical",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Middle District of Georgia"],
+    sourceUrl: "https://www.justice.gov/usao-mdga/pr/georgia-inmates-sentenced-police-impersonation-jury-duty-call-scheme",
+    country: "US",
+    state: "GA",
+});

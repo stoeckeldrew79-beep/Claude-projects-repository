@@ -25389,3 +25389,75 @@ International.push({
     sourceUrl: "https://www.eccb-centralbank.org/news/eccb-warns-of-fraudulent-stablecoin",
     country: "KN",
 });
+
+International.push({
+    name: "F-Mobile Pyramid Scheme",
+    slug: "f-mobile-pyramid-scheme",
+    description:
+      "Promoters in Solomon Islands are recruiting people into a scheme marketed as \"F-Mobile,\" which the Central Bank of Solomon Islands has identified as an illegal pyramid scheme. Participants pay a buy-in or subscription fee and are promised unusually high, quick returns with little or no risk, but the money paid to earlier members comes only from the fees of newer recruits rather than any real product or business. Organisers use testimonials and \"success stories\" to keep recruitment going, and when sign-ups slow the scheme collapses and most participants lose everything. F-Mobile is not licensed, regulated or authorised by the Central Bank to take deposits or offer investments. Do not pay any joining fee or recruit friends and family, and report anyone promoting it to the Solomon Islands Financial Intelligence Unit or the Royal Solomon Islands Police Force.",
+    categorySlug: "ponzi-pyramid-schemes",
+    alertLevel: "high",
+    sources: ["Central Bank of Solomon Islands, Press Release No.1/26","Solomon Islands Broadcasting Corporation (SIBC)"],
+    sourceUrl: "https://www.cbsi.com.sb/press-release-no-1-26-cbsi-warns-public-against-pyramid-scheme-operating-as-f-mobile/",
+    country: "SB",
+});
+
+International.push({
+    name: "Money Mule Scam Targeting Solomon Islands Bank Account Holders",
+    slug: "money-mule-scam-targeting-solomon-islands-bank-account-holders",
+    description:
+      "Scammers contact Solomon Islanders through Facebook, WhatsApp or phone calls with fake job offers, financial aid, investment deals, romance approaches or inheritance stories, and talk them into handing over their bank account details. Victims are told to deposit cash or mobile transfers into an unknown third party's local account, and that account holder is then instructed to withdraw and re-deposit the money into yet another account, usually hopping through three or more accounts to hide where the funds came from and where they are going. The money finally lands in a local account that an overseas scammer empties using a Visa Debit Card a Solomon Islander has physically mailed to them. The Central Bank of Solomon Islands warns that anyone whose account is used this way is part of an illegal money mule operation and can face serious legal consequences, even if they did not know. Never share your account details, never move money for someone you met online, never post your bank card overseas, and report approaches to SIFIU or your bank immediately.",
+    categorySlug: "identity-theft",
+    alertLevel: "critical",
+    sources: ["Central Bank of Solomon Islands / Solomon Islands Financial Intelligence Unit, Press Release No.12/25 (17 October 2025)"],
+    sourceUrl: "https://www.cbsi.com.sb/press-release-no-12-25-public-warning-money-mule-scam-targeting-local-bank-account-holders/",
+    country: "SB",
+});
+
+International.push({
+    name: "Fake Central Bank Prize Money Release Scam",
+    slug: "fake-central-bank-prize-money-release-scam",
+    description:
+      "Fraudsters send emails to Solomon Islanders claiming that prize winnings of up to SBD $2 million, often described as coming from Facebook, are waiting to be released to them by the Central Bank of Solomon Islands. The attached documents look official because they carry the Central Bank's \"Bokolo\" logo and forged signatures of named CBSI executives, including then-Governor Dr. Luke Forau and Deputy Governor Raynold Moveni. Recipients are then told they must pay a fee upfront before the prize can be released, which is the actual point of the scam. Earlier versions used Facebook Messenger to tell people to travel to Honiara to collect their money, and in 2025 CBSI also warned about a fake Facebook account impersonating the Governor, who has no personal or official account. CBSI's advice is blunt: delete the emails, do not reply, never send money, and report the approach to SIFIU.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Central Bank of Solomon Islands warning on latest email scam","CBSI Public Notice 04/2025 - Fake Facebook Account of CBSI Governor","Solomon Times"],
+    sourceUrl: "https://legacy.cbsi.com.sb/cbsi-warning-on-latest-email-scam/",
+    country: "SB",
+});
+
+International.push({
+    name: "Fake Sistema Patria and Banco de Venezuela Bonus-Activation Scam",
+    slug: "fake-sistema-patria-banco-de-venezuela-bonus-activation-scam",
+    description:
+      "Fraudsters pose as Venezuela's state social-payment platform Sistema Patria (Carnet de la Patria) and the state-owned Banco de Venezuela, promising pensioners and low-income users extra bonuses or loans that do not exist. The IVSS identified three lures in circulation: a supposed QR-code 'activation' of the Carnet de la Patria said to unlock more bonos, a fake credit-line promotion for women through Banco de Venezuela, and a bogus 'Cultores Populares 2026' benefit assignment. Victims are approached on social media and messaging apps and told to hand personal data to a 'gestor' who will process the activation; in reported cases the contact came from a Colombian phone number. IVSS stressed that Patria benefits are assigned directly and require no external activation or third-party intermediary, and separately denied a related hoax claiming it was requesting 'fe de vida' certificates from pensioners. Never share your personal or banking data with an unknown gestor, and verify any benefit claim only through the official Patria portal and the IVSS's own accounts.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "high",
+    sources: ["Instituto Venezolano de los Seguros Sociales (IVSS), Telegram channel for pensioners, April 2026","El Pitazo","El Diario","Contrapunto"],
+    sourceUrl: "https://elpitazo.net/regiones/ivss-denuncia-estafas-a-personas-con-el-banco-de-venezuela-y-el-sistema-patria/",
+    country: "VE",
+});
+
+International.push({
+    name: "Virtual Kidnapping Staged Through Facebook Marketplace",
+    slug: "virtual-kidnapping-staged-through-facebook-marketplace",
+    description:
+      "Criminals browse Facebook Marketplace and Instagram for people advertising goods, pose as interested buyers, and insist on meeting in an isolated spot with little foot traffic where they can watch the seller unseen. Once the seller arrives, a call from an international number manipulates them into cutting contact and staying out of sight, while relatives are phoned with ransom demands for a kidnapping that never actually happened. Venezuela's CICPC announced arrests in the Terraza U sector of Macarao parish, Caracas, and said it was investigating a case affecting more than 30 people. CICPC director Douglas Rico advised not answering calls from unknown international numbers and warned against lending your bank account to receive funds of unknown origin. Insist on meeting buyers in busy public places, keep your phone reachable, and if a relative claims you have been kidnapped, contact them directly before any money moves.",
+    categorySlug: "family-emergency-scams",
+    alertLevel: "critical",
+    sources: ["Cuerpo de Investigaciones Científicas, Penales y Criminalísticas (CICPC), via director Douglas Rico on Instagram and the radio programme 'Cicpc al Día', April 2026","El Universal","El Pitazo","El Diario"],
+    sourceUrl: "https://www.eluniversal.com/sucesos/231198/cicpc-alerta-sobre-nueva-modalidad-de-secuestro-virtual-a-traves-de-las-redes-sociales",
+    country: "VE",
+});
+
+International.push({
+    name: "Forged CICPC Summons Used for Extortion",
+    slug: "forged-cicpc-summons-used-for-extortion",
+    description:
+      "Criminal groups in Venezuela are producing counterfeit CICPC summons forms (planillas de citación) on official-looking letterhead, carrying the usurped name, title and signature of the force's director, Douglas Rico. The forged document is delivered to a target who is told they must appear in connection with a criminal investigation, after which a 'fixer' offers to make the non-existent case disappear for a payment. CICPC said genuine summonses follow strict institutional protocols and are never resolved through private payments, and linked the scheme to vishing calls in which criminals spoof IP telephony so an official-looking number shows on the screen. If you receive such a document or call, do not pay anything and do not negotiate. Take the paperwork to any CICPC office in person to verify it and report the extortion attempt.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["CICPC, via director Douglas Rico's Instagram account, 14–15 September 2026","El Pitazo","El Nacional","El Diario"],
+    sourceUrl: "https://elpitazo.net/sucesos/cicpc-alerta-sobre-falsas-citaciones-con-la-firma-de-douglas-rico-usadas-para-extorsionar/",
+    country: "VE",
+});

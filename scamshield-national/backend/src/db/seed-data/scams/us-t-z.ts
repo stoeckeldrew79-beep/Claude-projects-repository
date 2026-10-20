@@ -7585,3 +7585,29 @@ UsTZ.push({
     country: "US",
     state: "IN",
 });
+
+UsTZ.push({
+    name: "Telegram Stolen and Counterfeit Check Mail-Theft Marketplace",
+    slug: "telegram-stolen-and-counterfeit-check-mail-theft-marketplace",
+    description:
+      "From February 2023 to June 2024, conspirators stole mail from business and residential mailboxes, harvested the personal identifying information printed on the checks inside, and counterfeited new checks drawn on the victims' accounts. The stolen financial instruments were advertised and sold to other fraudsters through an invitation-style Telegram channel the defendants administered, where millions of dollars in paper was traded; one counterfeit check recovered from a defendant was written for more than $43,000 against a small business's account. A New York defendant was sentenced to 60 months in federal prison, and searches of a co-conspirator's home turned up stolen mail, counterfeiting tools and cards belonging to other people. Checks left in an outgoing mailbox are an easy source of account and routing numbers for this kind of crime. Deposit outgoing checks inside a post office, sign up for USPS Informed Delivery, and review business bank statements frequently for checks you did not write.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Southern District of Alabama"],
+    sourceUrl: "https://www.justice.gov/usao-sdal/pr/new-york-man-sentenced-five-years-prison-participating-nationwide-bank-fraud",
+    country: "US",
+    state: "AL",
+});
+
+UsTZ.push({
+    name: "Tax Preparer's Fake COVID Sick and Family Leave Credit Scheme (Indiana)",
+    slug: "tax-preparer-fake-covid-sick-and-family-leave-credit-scheme-indiana",
+    description:
+      "The owner of an Evansville tax preparation business filed roughly 123 client returns between 2020 and 2021 containing false Forms 7202, the form self-employed people used to claim refundable COVID-19 sick and family leave tax credits. For clients with no business at all, she invented fictitious companies and attached phony Schedule C forms showing income and expenses that never existed; for clients with real businesses she inflated the days they supposedly could not work and their self-employment earnings, producing refunds far larger than they were owed. The total tax loss was $965,203, and she was sentenced to a year and a day in federal prison plus more than $1.3 million in restitution. Taxpayers are legally responsible for everything on a return they sign, even when a preparer fabricated it, and can be left owing the refund back with interest. Always read your return before signing, question any credit or business you do not recognize, and avoid preparers who promise unusually large refunds.",
+    categorySlug: "tax-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Southern District of Indiana"],
+    sourceUrl: "https://www.justice.gov/usao-sdin/pr/evansville-tax-preparer-lands-federal-prison-965000-covid-19-tax-credit-fraud",
+    country: "US",
+    state: "IN",
+});

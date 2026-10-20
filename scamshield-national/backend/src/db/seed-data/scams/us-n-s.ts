@@ -13362,3 +13362,29 @@ UsNS.push({
     country: "US",
     state: "MO",
 });
+
+UsNS.push({
+    name: "Stolen-Identity Unemployment Benefit Debit Card Cash-Out Ring (California)",
+    slug: "stolen-identity-unemployment-benefit-debit-card-cash-out-ring-california",
+    description:
+      "Between July 2020 and January 2021, conspirators obtained debit cards loaded with state unemployment insurance benefits that had been claimed in the names of people who had no connection to them, then drained the accounts at ATMs. More than $900,000 in pandemic-era unemployment money was withdrawn before federal agents traced the cards back to the group. Two defendants pleaded guilty to conspiracy to commit access device fraud and face up to 7.5 years in prison; a third defendant pleaded guilty earlier and awaits sentencing. Victims of this kind of scheme usually learn their identity was used only when a benefits notice or tax form arrives for a claim they never filed. If you receive unemployment paperwork or a benefits debit card you did not request, report it immediately to your state workforce agency, file a report at IdentityTheft.gov, and place a fraud alert or freeze on your credit file.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of California"],
+    sourceUrl: "https://www.justice.gov/usao-edca/pr/two-plead-guilty-unemployment-insurance-benefits-fraud-conspiracy",
+    country: "US",
+    state: "CA",
+});
+
+UsNS.push({
+    name: "Nationwide Fake Multistate Lottery Prize Advance-Fee Scheme",
+    slug: "nationwide-fake-multistate-lottery-prize-advance-fee-scheme",
+    description:
+      "From October 2019 to September 2024, a Jamaica-based ring telephoned people across the United States and told them they had won large cash prizes and luxury vehicles in a multistate lottery, but had to pay taxes and fees up front before the winnings could be released. To make the pitch convincing, the conspirators sent victims fake bank documents and counterfeit U.S. government paperwork, and 28 victims lost a combined $3.4 million. The lead defendant was extradited from Jamaica, pleaded guilty to conspiracy to commit mail and wire fraud, and was sentenced to 72 months in federal prison followed by removal from the country; a co-conspirator received 37 months for money laundering. No legitimate lottery ever requires a winner to pay taxes or fees in advance to collect a prize. If you get such a call, hang up, send no money, and report it to the FBI's IC3 at ic3.gov.",
+    categorySlug: "lottery-sweepstakes-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Western District of Michigan"],
+    sourceUrl: "https://www.justice.gov/usao-wdmi/pr/2026_1016_Stewart_Sentencing_PR",
+    country: "US",
+    state: "MI",
+});
