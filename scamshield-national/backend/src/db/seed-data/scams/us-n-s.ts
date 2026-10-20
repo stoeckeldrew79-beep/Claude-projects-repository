@@ -13427,3 +13427,29 @@ UsNS.push({
     country: "US",
     state: "CT",
 });
+
+UsNS.push({
+    name: "Ohio Roofing Contractors Taking Deposits Without Finishing Work",
+    slug: "ohio-roofing-contractors-taking-deposits-without-finishing-work",
+    description:
+      "The Ohio Attorney General sued two roofing and home-improvement operations on October 14, 2026 after 14 Ohio consumers reported losing roughly $200,000 combined. Journey Home Restoration LLC of Lorain County and owner Jason Kaczur allegedly took $140,000 from nine customers for roofing, siding and gutter jobs that were never completed, abandoned one roof mid-project, refused refunds, and ignored a 10-year workmanship warranty when a roof began leaking in under three years; the AG says Kaczur built trust through local TV appearances and solicited customers through church congregations with promises of savings on church roof repairs. The Metal Roof Company of central Ohio and owner Daniel Toland allegedly did substandard and defective metal-roof work, ignored complaints, and in one case took payment for a roof that was never delivered, costing five consumers more than $60,000. Both suits allege violations of the Ohio Consumer Sales Practices Act. Never pay a large deposit up front, get the full contract and warranty in writing, and check a contractor's complaint history with the Ohio Attorney General at 800-282-0515 — and if you paid either company, file a complaint, since The Metal Roof Company appears to still be operating.",
+    categorySlug: "home-improvement-solar",
+    alertLevel: "high",
+    sources: ["Ohio Attorney General Andy Wilson, Consumer Protection Section","Ohio Attorney General news release, October 2026"],
+    sourceUrl: "https://www.ohioattorneygeneral.gov/Media/News-Releases/October-2026/Wilson-Sues-2-Home-Improvement-Companies-Accused-o",
+    country: "US",
+    state: "OH",
+});
+
+UsNS.push({
+    name: "Superior Air-Ground Ambulance Surprise Out-of-Network Billing",
+    slug: "superior-air-ground-ambulance-surprise-billing",
+    description:
+      "The Ohio Attorney General sued Superior Air-Ground Ambulance Service of Ohio on June 5, 2026 over surprise bills sent to patients moved between hospitals and other medical facilities. The company allegedly failed to tell patients — as Ohio law requires — that it is out of network for every private health insurer, transported them first, then sent large unexpected bills weeks later. The suit also alleges the company skipped required cost estimates and in some cases had patients sign payment authorizations only after the transport had already happened. More than 20 consumers transported between July 2024 and June 2026 complained of being billed hundreds of thousands of dollars collectively, and the filing cites four violations of Ohio's Consumer Sales Practices Act. If you are facing a non-emergency medical transfer, ask in writing whether the ambulance provider is in network and request a cost estimate before you move, and report surprise bills to the Ohio Attorney General's Consumer Protection Section at 800-282-0515.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "medium",
+    sources: ["Ohio Attorney General, Consumer Protection Section","Franklin County Common Pleas Court filing, June 5, 2026"],
+    sourceUrl: "https://ohioattorneygeneral.gov/Media/News-Releases/June-2026/Yost-Sues-Ambulance-Company-Over-Deceptive-Billing",
+    country: "US",
+    state: "OH",
+});

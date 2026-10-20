@@ -13248,3 +13248,16 @@ UsAF.push({
     country: "US",
     state: "MA",
 });
+
+UsAF.push({
+    name: "Blue Logic Capital Promissory Note Investment Fraud (Columbus)",
+    slug: "blue-logic-capital-promissory-note-investment-fraud",
+    description:
+      "A Columbus man, Tom Mitchell Manning, sold unregistered promissory notes in his own company, Blue Logic Capital LLC, to at least five central Ohio residents who invested more than $640,000. He pitched concrete-sounding projects — flipping a residential home, developing a \"revolutionary\" oil pump, and building luxury assisted-living and memory-care homes — but the Ohio Division of Securities says he spent investor money on himself and used new money to pay earlier investors, a classic Ponzi-style rollover. The notes were never registered for sale in or from Ohio, and at least one victim was an elderly or disabled investor, which led to a theft-from-a-protected-class charge. Manning pleaded guilty in October 2026 to five felonies after being indicted twice in 2024 on as many as 26 counts. Before investing in any private note or business deal, call the Ohio Division of Securities at 1-800-788-1194 to confirm the investment and the seller are registered, and be skeptical of guaranteed returns from someone you know socially or through church or community ties.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Ohio Department of Commerce, Division of Securities","Ohio Securities Commissioner Andrea Seidt, October 2026 guilty plea announcement"],
+    sourceUrl: "https://com.ohio.gov/divisions-and-programs/securities",
+    country: "US",
+    state: "OH",
+});
