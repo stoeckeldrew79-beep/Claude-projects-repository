@@ -12547,3 +12547,24 @@ The SEC also took civil action. On November 5, 2001 a federal judge granted the 
 The Sirena case is a small one in dollar terms, but it shows a vulnerability common to quarterly reporting: a deadline is only a deadline if the books actually close on time. By manipulating the system that stamps when sales are recorded, the executives turned a missed quarter into a met one, and the cover-up, the false shipping documents and the misleading of the auditors, turned an aggressive accounting decision into a crime. It also shows how modest the penalties for such conduct could be in 2001, compared with the sentences handed to the senior executives in the large corporate frauds that followed.`,
     sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-17250',
 });
+
+NotoriousGM.push({
+    title: 'Linda Jones, Leslie Knox and the Penn Traffic Vendor-Allowance Fraud',
+    slug: 'linda-jones-leslie-knox-penn-traffic-vendor-allowance-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Syracuse,_New_York_2013.jpg?width=1200',
+    coverImageCredit: 'Photo: Doc Searls (CC BY 2.0) — downtown Syracuse, New York, 2013; the case was prosecuted in the Northern District of New York',
+    coverImagePosition: 50,
+    body: `Penn Traffic was a supermarket company based in upstate New York. Grocery chains collect vendor allowances, such as slotting fees, rebates and other payments from suppliers, and when such income is recognized can affect a period's reported earnings. That was the lever two Penn Traffic executives were found to have pulled.
+
+Leslie Knox was the company's senior vice president and chief marketing officer, and Linda Jones its vice president of non-perishable merchandising. In September 2007 the U.S. Attorney's office and the FBI charged them with securities fraud and mail fraud, and the SEC filed a parallel civil action the same day. Prosecutors said the pair led a scheme to recognize early roughly $9 million of vendor income from slotting, rebates and other fees between 2000 and 2003. The SEC said that they repeatedly misled the company's accounting staff and submitted false invoices to support the early recognition. Penn Traffic had dismissed both more than a year earlier, after an internal accounting investigation. Each faced up to 20 years in prison and $5 million in fines on the most serious charges.
+
+Both pleaded guilty in 2009 to a count of making false statements in SEC filings. In May 2010 the U.S. Attorney's Office for the Northern District of New York announced that each was sentenced to 14 months in federal prison, a $10,000 fine and two years of supervised release afterward, with a reporting date of June 29. The SEC action sought disgorgement, civil penalties and bars from serving as officers of public companies.
+
+The Penn Traffic case shows that accounting fraud need not be run by finance executives: the officers charged were in merchandising and marketing, the people closest to the vendor relationships and the paperwork, and submitting false invoices and misleading the accounting staff is what the SEC said turned early income recognition into securities fraud.
+
+The case also shows the long timeline typical of corporate fraud cases. The conduct ran from 2000 to 2003, the charges came in 2007, and the sentences in 2010, seven years after the last of the improperly recognized income.`,
+    sourceUrl: 'https://www.supermarketnews.com/finance/former-penn-traffic-executives-sentenced',
+});
