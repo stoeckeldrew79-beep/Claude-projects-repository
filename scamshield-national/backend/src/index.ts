@@ -19,6 +19,7 @@ import alertSubscriptionsRoutes from './routes/alertSubscriptions';
 import statsRoutes from './routes/stats';
 import dailyNewsRoutes from './routes/dailyNews';
 import statesRoutes from './routes/states';
+import scamCheckRoutes from './routes/scamCheck';
 import { publicApiLimiter } from './middleware/rateLimit';
 import { pool } from './db/connection';
 import { setUpStripe } from './services/stripe';
@@ -28,6 +29,9 @@ process.on('unhandledRejection', (reason) => {
 });
 
 const app = express();
+// Render puts one load balancer in front of the service. Without this,
+// req.ip is the balancer's address and every visitor shares one rate limit.
+app.set('trust proxy', 1);
 
 app.use(helmet());
 app.use(cors({ origin: process.env.FRONTEND_URL ?? '*' }));
@@ -84,6 +88,7 @@ v1.use('/alert-subscriptions', alertSubscriptionsRoutes);
 v1.use('/stats', statsRoutes);
 v1.use('/daily-news', dailyNewsRoutes);
 v1.use('/states', statesRoutes);
+v1.use('/', scamCheckRoutes); // POST /v1/check
 
 app.use('/v1', v1);
 
