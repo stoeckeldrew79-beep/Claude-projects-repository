@@ -25461,3 +25461,63 @@ International.push({
     sourceUrl: "https://elpitazo.net/sucesos/cicpc-alerta-sobre-falsas-citaciones-con-la-firma-de-douglas-rico-usadas-para-extorsionar/",
     country: "VE",
 });
+
+International.push({
+    name: "Fake Chadian e-Visa Website (evisa-chad.org)",
+    slug: "fake-chadian-e-visa-website-evisa-chad-org",
+    description:
+      "Fraudsters built a counterfeit copy of Chad's official electronic visa portal at the domain evisa-chad.org to collect payments and personal data from foreign travellers. Chad's Direction de l'Immigration et de l'Emigration warned that the fake interface is written entirely in English, unlike the official French-language service, and publishes false information about visa requirements and fees. Money paid on the fake site never reaches immigration authorities and no valid visa is ever issued, leaving travellers out of pocket and with their passport details in criminal hands. The Direction, in a communique echoed jointly with the Police Nationale du Tchad, stressed that the only legitimate portal is https://evisa.td. Only ever apply through evisa.td, check the domain carefully before entering card or passport details, and report any other visa site to Chadian immigration services.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Direction de l'Immigration et de l'Emigration (Ministere de la Securite Publique) communique, 6 December 2025","Joint communique with the Police Nationale du Tchad","Tchadinfos","APA News"],
+    sourceUrl: "https://tchadinfos.com/2025/12/06/tchad-la-direction-de-limmigration-alerte-sur-un-faux-site-de-demande-de-visas-en-ligne/",
+    country: "TD",
+});
+
+International.push({
+    name: "Forged Ministry of Finance Cryptocurrency Investment Note",
+    slug: "forged-ministry-of-finance-cryptocurrency-investment-note",
+    description:
+      "Scammers created a fake official document styled as a ministerial \"Note d'information\" announcing a government-backed cryptocurrency investment campaign in Chad that does not exist. The forgery copies letterhead and seals from the ministry's former name, \"Ministere des Finances et du Budget,\" and abusively uses the name of the Minister of State for Finance to appear credible. It was spread through WhatsApp and social media rather than any official channel, and its real purpose is to harvest citizens' personal and financial information under cover of a fictitious state investment programme. The Ministere des Finances, du Budget, de l'Economie, du Plan et de la Cooperation Internationale formally denied the document on 19 July 2025, confirming it came from no official structure. Ignore and delete any such forwarded message, never send personal or banking details in response, and verify any claimed government investment scheme directly with the ministry.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["Ministere des Finances, du Budget, de l'Economie, du Plan et de la Cooperation Internationale communique, 19 July 2025","Adam Abakar Kayaye, ministry director of communication","Journal du Tchad","Alwihda Info"],
+    sourceUrl: "https://journaldutchad.com/tchad-lidentite-du-ministere-des-finances-usurpee-pour-une-campagne-sur-la-cryptomonnaie/",
+    country: "TD",
+});
+
+International.push({
+    name: "Advance-Fee Fraud Targeting Chadian Veterans of the French Army",
+    slug: "advance-fee-fraud-targeting-chadian-veterans-of-the-french-army",
+    description:
+      "Fraudsters are contacting Chadian anciens combattants who served in the French armed forces, along with their widows and legal heirs, posing as intermediaries who can unlock or speed up French military pension entitlements. They demand an up-front cash payment supposedly needed for administrative steps, but the benefits are handled free of charge by the French Embassy's own services, so any money handed over is simply lost. The targets are especially vulnerable, being elderly, sometimes with limited literacy or administrative access, and often already waiting on payments they are owed. The Ambassade de France au Tchad in N'Djamena issued a formal fraud alert citing a resurgence of these attempts. Never pay anyone who offers to process a pension claim, and contact the French Embassy directly to verify before acting on any such approach.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "high",
+    sources: ["Ambassade de France au Tchad (N'Djamena) fraud alert communique","Alwihda Info"],
+    sourceUrl: "https://td.ambafrance.org/Communique-Alerte-a-la-fraude-Mise-en-garde-importante-a-destination-des",
+    country: "TD",
+});
+
+International.push({
+    name: "Fake Lumitel Technician OTP Phishing and Lumicash Wallet Takeover",
+    slug: "fake-lumitel-technician-otp-phishing-lumicash",
+    description:
+      "Fraudsters call or text Lumicash users from an unknown number, claiming to be a Lumitel employee or technician who needs to \"verify\" the account. They ask the customer to read back the one-time password (OTP) or secret Lumicash code that has just arrived by SMS, then use it to access the mobile wallet and empty it. A related version targets Lumicash and EcoCash agents directly; the judicial police noted that thieves withdraw the cash immediately and throw away the SIM card so the transaction cannot be traced. Mobile money is the main banking channel for most Burundians, and reporting by the national news agency ABP puts cyberfraud losses at more than 150 million Burundian francs diverted in 2024. Never share an OTP or Lumicash code with anyone, including someone claiming to work for a phone operator, and if a message looks doubtful call the official customer-service line instead of replying.",
+    categorySlug: "account-takeover",
+    alertLevel: "high",
+    sources: ["ABP, \"Loi sur la cybercriminalité au Burundi : un bouclier fragile face aux menaces numériques ?\" (7 March 2025) — https://abpinfo.bi/2025/03/07/loi-sur-la-cybercriminalite-au-burundi-un-bouclier-fragile-face-aux-menaces-numeriques/","ABP, \"Mobile Money au Burundi : levier d'inclusion financière, talon d'Achille de la cybersécurité\" (26 February 2026) — https://abpinfo.bi/2026/02/26/mobile-money-au-burundi-levier-dinclusion-financiere-talon-dachille-de-la-cybersecurite/","Iwacu, \"Lumicash/Ecocash : une note de la police judiciaire inquiète les agents\" — https://www.iwacu-burundi.org/lumicash-ecocash-une-note-de-la-police-judiciaire-inquiete-les-agents/","Lumitel public alert quoted by ABP","Police Judiciaire avis au public of 9 July 2021 (Commissaire Général Bertin Gahungu)"],
+    sourceUrl: "https://abpinfo.bi/2025/03/07/loi-sur-la-cybercriminalite-au-burundi-un-bouclier-fragile-face-aux-menaces-numeriques/",
+    country: "BI",
+});
+
+International.push({
+    name: "Fraudulent Online \"Tontines\" Sold Through Lumicash and EcoCash Agents",
+    slug: "fraudulent-online-tontines-lumicash-ecocash-agents",
+    description:
+      "The Banque de la République du Burundi has publicly denounced pyramid-style savings schemes marketed as tontines, the traditional rotating savings clubs Burundians trust, but run on online platforms and paid into through mobile money. Some Lumicash and EcoCash agents, whom the public already trusts with cash, recruited contributors into these schemes. The central bank says the platforms operate using virtual currencies, which are volatile, unregulated and have no legal status in Burundi, so once the platform stops paying the money is untraceable and unrecoverable. Payouts depend entirely on new members joining, which is the hallmark of a pyramid. Before handing savings to any scheme, check that the entity is actually licensed by the BRB, and treat any tontine that routes contributions into cryptocurrency as a loss waiting to happen.",
+    categorySlug: "ponzi-pyramid-schemes",
+    alertLevel: "high",
+    sources: ["Iwacu, \"Lumicash/Ecocash : la BRB remontée contre des tontines frauduleuses\" — https://www.iwacu-burundi.org/lumicash-ecocash-la-brb-remontee-contre-des-tontines-frauduleuses/","Burundi Eco, \"Investir dans les cryptomonnaies : à ses risques et périls\" — https://burundi-eco.com/investir-dans-les-cryptomonnaies-a-ses-risques-et-perils/","BRB communiqué of 20 August 2019 on virtual currencies"],
+    sourceUrl: "https://www.iwacu-burundi.org/lumicash-ecocash-la-brb-remontee-contre-des-tontines-frauduleuses/",
+    country: "BI",
+});

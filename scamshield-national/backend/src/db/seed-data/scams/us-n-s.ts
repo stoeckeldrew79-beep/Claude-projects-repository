@@ -13388,3 +13388,42 @@ UsNS.push({
     country: "US",
     state: "MI",
 });
+
+UsNS.push({
+    name: "Pre-IPO Share and Trading Fund Investment Scheme (New York)",
+    slug: "pre-ipo-share-and-trading-fund-investment-scheme-new-york",
+    description:
+      "Prosecutors allege two men marketed a venture firm that claimed to invest in artificial intelligence, technology and cryptocurrency startups, selling investors supposed access to exclusive pre-IPO shares and a professionally managed trading fund that did not exist. Victims, including U.S. Navy veterans, were promised extraordinary returns while the money was allegedly lost in trading or diverted for the founders' personal use, and when losses mounted the pair allegedly sent fabricated account statements showing huge gains instead of devastating losses. Both were charged with securities fraud, wire fraud and conspiracy, and one was also charged with investment adviser fraud and making false reports to the SEC. Treat any offer of 'exclusive' pre-IPO stock with extreme caution, verify the promoter's registration with the SEC or FINRA, and insist on independent, third-party custodial statements rather than PDFs produced by the person holding your money.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Southern District of New York"],
+    sourceUrl: "https://www.justice.gov/usao-sdny/pr/two-men-charged-scheme-defraud-investors-seeking-invest-pre-ipo-companies-and-trading",
+    country: "US",
+    state: "NY",
+});
+
+UsNS.push({
+    name: "Radio-Advertised Investment Scheme Targeting Hispanic Investors (Texas)",
+    slug: "radio-advertised-investment-scheme-targeting-hispanic-investors-texas",
+    description:
+      "A married couple spent years soliciting investments in entertainment and cryptocurrency ventures from Hispanic victims, including U.S. citizens and immigrants, promoting the deals in part through radio advertisements. Prosecutors showed they promised the investments would earn 100 percent, that shares in a private company would 'go up and never down,' and that one cryptocurrency they sold carried no risk, while they actually spent much of the money on themselves and on recruiting new victims. A jury convicted both of conspiring to commit wire fraud after the scheme took at least $9.5 million from more than 700 investors, many of whom lost life savings and retirement funds. No legitimate investment is risk-free or guaranteed to rise, so verify any seller and product with state securities regulators before wiring money, especially when the pitch arrives through community radio, church or cultural networks.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of Texas"],
+    sourceUrl: "https://www.justice.gov/usao-edtx/pr/irving-couple-convicted-federal-conspiracy-charges-related-multi-million-dollar-fraud",
+    country: "US",
+    state: "TX",
+});
+
+UsNS.push({
+    name: "Stolen Treasury and Social Security Check Washing Ring (Connecticut)",
+    slug: "stolen-treasury-and-social-security-check-washing-ring-connecticut",
+    description:
+      "A financial fraud task force investigation found that Social Security and other U.S. Treasury checks mailed to people in Connecticut and New York were being stolen out of the mail, chemically 'washed' to change the named payee, and then deposited into bank accounts of people the conspirators recruited. More than 100 stolen Treasury checks worth several hundred thousand dollars were deposited into a single account, and the funds were pulled out through ATMs, mobile apps, cash-back purchases and postal money orders. A 23-year-old man was arrested on a federal complaint charging bank fraud, theft or possession of stolen mail, and aggravated identity theft. Sign up for direct deposit instead of paper benefit checks, retrieve mail promptly or use a locking box, and never let anyone deposit a check into your account for a cut of the money, which makes you part of the crime.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of Connecticut"],
+    sourceUrl: "https://www.justice.gov/usao-ct/pr/stamford-man-charged-stolen-us-treasury-check-scheme",
+    country: "US",
+    state: "CT",
+});

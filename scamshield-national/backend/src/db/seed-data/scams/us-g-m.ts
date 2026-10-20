@@ -14226,3 +14226,16 @@ UsGM.push({
     country: "US",
     state: "GA",
 });
+
+UsGM.push({
+    name: "Locksmith Sticker-Swap Scam With Deliberate Lock Sabotage",
+    slug: "locksmith-sticker-swap-scam-with-deliberate-lock-sabotage",
+    description:
+      "Fraudulent operators walk commercial strips and neighborhoods peeling legitimate locksmith stickers off doors and windows and replacing them with their own, so their number sits exactly where a business already looks for help. In some cases they deliberately damage the lock, guaranteeing a lockout and a call to the number now stuck to the door. Responders charge grossly inflated prices, and police warn they also gain hands-on access to the lock, which can allow key copying for a later burglary, plus they collect payment card details. Tukwila police flagged a specific number, (206) 672-0271, and nearby Renton and Sumner police reported the same roaming pattern across King and Pierce counties. Ignore stickers stuck on your own door, research and save a licensed locksmith's number in advance, and ask for a written price and company identification before any work begins.",
+    categorySlug: "home-improvement-solar",
+    alertLevel: "medium",
+    sources: ["https://komonews.com/news/local/tukwila-locksmith-scam-legitimate-stickers-removed-doors-commercial-businesses-replaced-fakes-inflated-prices-copy-key-burglary-financial-information-fraud","https://www.kiro7.com/news/local/renton-police-warning-scammers-impersonating-locksmiths/GPY3SUSCD5F5FO34AFWDRI3TQY/","https://www.kiro7.com/news/local/sumner-police-warn-about-unauthorized-locksmith-advertising-stickers/L3DR4G4MWFFVRAODNNIKQDZLEA/"],
+    sourceUrl: "https://komonews.com/news/local/tukwila-locksmith-scam-legitimate-stickers-removed-doors-commercial-businesses-replaced-fakes-inflated-prices-copy-key-burglary-financial-information-fraud",
+    country: "US",
+    state: "WA",
+});

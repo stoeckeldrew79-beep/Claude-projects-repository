@@ -13184,3 +13184,67 @@ UsAF.push({
     country: "US",
     state: "MO",
 });
+
+UsAF.push({
+    name: "Fake IRS \"Digital Asset Compliance Portal\" Letters Targeting Crypto Holders",
+    slug: "fake-irs-digital-asset-compliance-portal-letters",
+    description:
+      "Criminals are mailing physical letters in plain envelopes that look like official IRS correspondence to people believed to hold cryptocurrency. The letters claim the recipient must enroll in a \"Digital Asset Compliance Portal\" before a deadline and include a QR code to scan; no such portal exists and the IRS does not operate one. Scanning the code leads to a lookalike IRS.gov site that harvests personal information, wallet credentials and seed phrases, and investigators found the campaign domain was registered through a Hong Kong registrar only days before the letters went out. IRS Criminal Investigation has issued a formal fraud alert about the scheme. Never scan a QR code in an unsolicited tax letter, never enter a wallet seed phrase anywhere, and verify any IRS notice by calling the agency directly or logging in at IRS.gov yourself.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["https://www.irs.gov/compliance/criminal-investigation/fraud-alert-fake-irs-letters-target-cryptocurrency-holders"],
+    sourceUrl: "https://www.irs.gov/compliance/criminal-investigation/fraud-alert-fake-irs-letters-target-cryptocurrency-holders",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Court-Record Impersonation Scam Targeting Domestic Violence Victims",
+    slug: "court-record-impersonation-scam-targeting-domestic-violence-victims",
+    description:
+      "Scammers mine public court and investigative records to identify domestic violence victims, then call posing as law enforcement or court officials. They time the calls to real events in the abuser's case, such as right after an arrest or a scheduled hearing, and recite genuine names, dates and charges to sound credible. Victims are pressured to pay immediately, often to supposedly post bond for their alleged abuser or to cover invented court or law enforcement fees. The North Carolina Department of Justice and Attorney General Jeff Jackson warned about the scheme, which exploits the coercive pressure victims may already face. Real courts and police never demand instant payment by phone, so hang up and call the clerk of court or the investigating agency using a number you look up independently.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["https://wlos.com/news/local/new-scam-targets-victims-domestic-violence-north-carolina-officials-attorney-general-jeff-jackson-law-enforcement-court-demand-money","https://newschannel9.com/news/local/north-carolina-ag-warns-of-new-scam-targeting-domestic-violence-victims"],
+    sourceUrl: "https://wlos.com/news/local/new-scam-targets-victims-domestic-violence-north-carolina-officials-attorney-general-jeff-jackson-law-enforcement-court-demand-money",
+    country: "US",
+    state: "NC",
+});
+
+UsAF.push({
+    name: "Business Email Phishing and Wire Redirection Scheme (Iowa)",
+    slug: "business-email-phishing-and-wire-redirection-scheme-iowa",
+    description:
+      "For nearly two years, two men ran email 'spamming' and phishing campaigns against businesses across the country to steal employees' email usernames and passwords, then used those stolen credentials and spoofed addresses that mimicked the victim company or its business partners to insert themselves into real payment conversations. Using that access they diverted a wire of more than $1.68 million sent by a victim in Iowa City and more than $720,000 from a victim in Ohio into accounts controlled by their co-conspirators, and they also harvested account numbers, PINs and card data, including from a nonprofit in Pella. Both defendants were sentenced to a combined 189 months in federal prison. Require a callback to a known phone number before changing any payment instructions, turn on multifactor authentication for every company email account, and look closely at sender domains for subtle misspellings.",
+    categorySlug: "business-email-compromise",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Southern District of Iowa"],
+    sourceUrl: "https://www.justice.gov/usao-sdia/pr/delaware-men-sentenced-cyber-intrusion-scheme-targeting-victims-southern-district-iowa",
+    country: "US",
+    state: "IA",
+});
+
+UsAF.push({
+    name: "Fake FEMA-Endorsed Chaplaincy Certification Scheme (Florida)",
+    slug: "fake-fema-endorsed-chaplaincy-certification-scheme-florida",
+    description:
+      "The president of an organization calling itself an emergency management agency told people it was a government body partnered with and endorsed by FEMA, then ran free 'chaplaincy training courses' in Florida, other states and abroad while charging roughly $400 to $450 for a certificate. Attendees who paid received identification cards, law enforcement-style badges and certificates bearing the seals of FEMA, the Department of Homeland Security and the FBI, and were told the credentials authorized them to support law enforcement, even though neither the man nor the organization had any federal affiliation or authority to use those seals. He pleaded guilty to wire fraud and fraudulent use of government seals and faces up to 20 years in federal prison. Before paying for any credential that claims federal backing, check the agency's own website or call it directly, and remember that official seals on a certificate or badge are easy to copy and prove nothing.",
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Middle District of Florida"],
+    sourceUrl: "https://www.justice.gov/usao-mdfl/pr/massachusetts-man-pleads-guilty-wire-fraud-and-fraudulent-use-government-seals",
+    country: "US",
+    state: "FL",
+});
+
+UsAF.push({
+    name: "Fake Coinbase Text Message Account Takeover (Massachusetts)",
+    slug: "fake-coinbase-text-message-account-takeover-massachusetts",
+    description:
+      "While a Massachusetts victim was legitimately corresponding by email with the cryptocurrency exchange Coinbase, scammers sent text messages that appeared to come from 'Coinbase' and convinced the victim to hand over login, password and other details, which they used to drain the account. Investigators traced part of the stolen funds to an account at another exchange and seized 110,270 USDT worth roughly $47,000, and prosecutors filed a civil forfeiture action to recover the cryptocurrency for victims, one of several such actions targeting fraud against Massachusetts residents. Account takeover schemes like this target online bank, payroll, health savings and social media accounts as well as crypto wallets. Never enter or share credentials in response to an unexpected text, even one that lines up with a support conversation you really are having, and log in only through the app or an address you type yourself.",
+    categorySlug: "account-takeover",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of Massachusetts"],
+    sourceUrl: "https://www.justice.gov/usao-ma/pr/united-states-attorneys-office-files-civil-forfeiture-action-recover-cryptocurrency-0",
+    country: "US",
+    state: "MA",
+});
