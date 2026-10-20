@@ -11865,3 +11865,24 @@ After a six-week trial, a federal jury in Brooklyn convicted Stinn on all counts
 The Stinn case illustrates how a company that makes its money from consumer credit can look healthy for years if the people reporting its delinquency are also the people whose earnings depend on the numbers. It also shows the typical chain of a corporate fraud prosecution: finance executives plead guilty and cooperate, the company itself settles, and the chief executive who denied it goes to trial.`,
     sourceUrl: 'https://justice.gov/archive/usao/nye/pr/2009/2009apr29.html',
 });
+
+NotoriousAF.push({
+    title: 'Bernard Bradstreet and the Kurzweil Applied Intelligence IPO Fraud',
+    slug: 'bernard-bradstreet-kurzweil-applied-intelligence-ipo-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud', 'ipo-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_Joseph_Moakley_United_States_Courthouse_September_2024.jpg?width=1200',
+    coverImageCredit: 'Photo: 4300streetcar (CC BY 4.0) — John Joseph Moakley U.S. Courthouse, Boston, home of the First Circuit and the District of Massachusetts',
+    coverImagePosition: 50,
+    body: `Kurzweil Applied Intelligence, Inc. was a Massachusetts developer and seller of voice-recognition software. In 1993 it went public. The offering, which closed on August 17, 1993, netted the company about $24 million. Bernard F. Bradstreet, its president and chief financial officer, had set quarterly revenue and profit targets for the company to reach in order to take it public.
+
+According to the appeals court that later reviewed the case, employees at Bradstreet's direction booked anticipated revenue from contingent sales in the periods covered by the IPO prospectus and the company's quarterly reports. The indictment listed 14 improperly booked "sales" as overt acts. The methods included forged customer signatures on sales quotes, sales conditioned on events outside Kurzweil's control, side agreements hidden from the auditors, forged audit confirmation letters, shipments to a storage facility made only to support the booking of a sale, and false explanations of why accounts receivable were so high. Investors, including the mutual-fund firm Scudder, Stevens & Clark, bought in; by April 1994 Scudder alone had invested about $5.6 million.
+
+The case went to a federal jury in Massachusetts after a twenty-day trial. In May 1996 the jury convicted Bradstreet and the company's former vice president of sales, Thomas Campbell, of conspiracy to commit securities fraud, securities fraud and knowingly falsifying the company's books and records. A third defendant, David Earl, was acquitted of a single conspiracy count, and the company's former treasurer, Debra Murray, who had pleaded guilty, testified for the government and received three years' probation and 200 hours of community service.
+
+Bradstreet was sentenced to 33 months in prison, 24 months of supervised release and $2.3 million in restitution, a sentence below the guidelines range of 51 to 63 months. On January 29, 1998 the U.S. Court of Appeals for the First Circuit affirmed the convictions but vacated the sentence and sent the case back for resentencing, ruling that the downward departure was an abuse of discretion. In the SEC's parallel civil case, the executives consented to judgments barring them from serving as officers or directors of public companies; the commission waived disgorgement and penalties for Bradstreet, Campbell and Murray because of their inability to pay.
+
+Kurzweil is a case study in how the pressure of an initial public offering can corrupt revenue recognition. A company that has to show consistent, growing revenue to a market before it lists has a strong reason to book a sale before it exists, and the methods used here, side agreements and forged confirmations, were designed to defeat the auditors who would normally check. The appeals court's decision to send the sentence back shows that a trial judge's leniency toward the defendants was itself subject to review.`,
+    sourceUrl: 'https://caselaw.findlaw.com/court/us-1st-circuit/1222147.html',
+});
