@@ -8,6 +8,7 @@ import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
 import { CoverImage } from '../components/CoverImage';
 import { BlurFade } from '../components/magicui/blur-fade';
+import { displayAuthor } from '../utils/brand';
 
 function excerpt(text: string, length = 160): string {
   const plain = text.replace(/[#*_`]/g, '').replace(/\s+/g, ' ').trim();
@@ -103,7 +104,7 @@ const FILTERS = [
 export default function Articles() {
   useDocumentMeta({
     title: 'Articles',
-    description: 'Historical scam features, fraud news, and how-to guides from ScamShield National.',
+    description: 'Historical scam features, fraud news, and how-to guides from ScamTitan International.',
     path: '/articles',
   });
 
@@ -243,7 +244,7 @@ export default function Articles() {
                   {article.title}
                 </h2>
                 <p className="mt-0.5 h-4 text-xs text-slate-400 truncate">
-                  {article.author ? `By ${article.author}` : '\u00a0'}
+                  {article.author ? `By ${displayAuthor(article.author)}` : '\u00a0'}
                 </p>
                 <p className="mt-2 h-[3.75rem] text-sm text-slate-600 line-clamp-3">{excerpt(article.body)}</p>
               </div>

@@ -9,7 +9,7 @@ import { US_STATE_OPTIONS } from '../utils/usStates';
 export default function Report() {
   useDocumentMeta({
     title: 'Report a Scam',
-    description: 'Report a scam to ScamShield National. Every report is reviewed and helps protect others.',
+    description: 'Report a scam to ScamTitan International. Every report is reviewed and helps protect others.',
     path: '/report',
   });
 
@@ -312,7 +312,7 @@ export default function Report() {
               className="mt-0.5"
             />
             <span>
-              I authorize ScamShield National to file this report with the appropriate agency (such as the FTC or
+              I authorize ScamTitan International to file this report with the appropriate agency (such as the FTC or
               FBI IC3 in the U.S., or the equivalent national agency for other countries) on my behalf, using the
               information above.
             </span>

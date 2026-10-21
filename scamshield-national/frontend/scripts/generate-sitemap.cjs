@@ -8,7 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const SITE_URL = process.env.SITE_URL ?? 'https://scamshieldnational.com';
+const SITE_URL = process.env.SITE_URL ?? 'https://scamtitan.com';
 const API_BASE_URL = process.env.API_BASE_URL ?? process.env.VITE_API_BASE_URL ?? 'http://localhost:3000/v1';
 const OUT_PATH = path.join(__dirname, '..', 'dist', 'sitemap.xml');
 

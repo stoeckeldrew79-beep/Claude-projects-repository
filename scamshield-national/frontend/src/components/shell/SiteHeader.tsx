@@ -45,18 +45,18 @@ function SectionBar() {
     el.scrollLeft = active.offsetLeft - (el.clientWidth - active.offsetWidth) / 2;
   }, [pathname]);
   const sectionClass = ({ isActive }: { isActive: boolean }) =>
-    `relative inline-flex h-10 items-center whitespace-nowrap px-2.5 text-[13px] font-medium transition-colors ${
+    `relative inline-flex h-10 items-center whitespace-nowrap px-[7px] text-[13px] font-medium transition-colors ${
       isActive
-        ? 'text-white after:absolute after:inset-x-2.5 after:bottom-0 after:h-0.5 after:rounded-full after:bg-red-500'
+        ? 'text-white after:absolute after:inset-x-[7px] after:bottom-0 after:h-0.5 after:rounded-full after:bg-red-500'
         : 'text-slate-300 hover:text-white'
     }`;
   return (
     <div className="hidden md:block bg-[#0f1a2b]">
       <div className="relative mx-auto max-w-7xl">
-        <div ref={scroller} className="flex items-center overflow-x-auto px-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden [mask-image:linear-gradient(to_right,transparent,black_16px,black_calc(100%-16px),transparent)] xl:[mask-image:none]">
+        <div ref={scroller} className="flex items-center overflow-x-auto px-2 xl:px-0 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden [mask-image:linear-gradient(to_right,transparent,black_16px,black_calc(100%-16px),transparent)] xl:[mask-image:none]">
           {SECTION_GROUPS.map((group, gi) => (
             <div key={group.heading} role="group" aria-label={group.heading} className="flex shrink-0 items-center">
-              {gi > 0 && <span aria-hidden="true" className="mx-1.5 h-4 w-px bg-white/15" />}
+              {gi > 0 && <span aria-hidden="true" className="mx-1 h-4 w-px bg-white/15" />}
               {group.items.map((item) => (
                 <NavLink key={item.to} to={item.to} end={item.end} className={sectionClass}>
                   {item.label}
@@ -206,18 +206,21 @@ export function SiteHeader() {
         </div>
       </div>
 
-      {/* Both rows stick together on desktop (56px + 40px section bar = the
-          md:top-24 offset pages use for their own sticky bars); phones get
-          just the first row (top-14). */}
+      {/* Both rows stick together on desktop (88px + 40px section bar = the
+          md:top-32 offset pages use for their own sticky bars); phones
+          get just the first row (top-16). The first row is tall so the
+          animated mark can be big enough to read as alive. */}
       <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/85 md:border-b-0">
-        <nav aria-label="Main" className="max-w-7xl mx-auto px-4 h-14 flex items-center gap-3 lg:gap-5">
-          <Link to="/" className="flex items-center gap-2 min-w-0 shrink-0 rounded-md" aria-label="ScamShield National — home">
-            <ShieldLogo className="h-9 w-9 md:h-10 md:w-10 shrink-0" animated />
-            <span
-              className="font-bold text-base sm:text-lg text-slate-900 whitespace-nowrap"
-              style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}
-            >
-              ScamShield National
+        <nav aria-label="Main" className="max-w-7xl mx-auto px-4 h-16 md:h-[88px] flex items-center gap-3 lg:gap-5">
+          <Link to="/" className="flex items-center gap-2 min-[380px]:gap-2.5 md:gap-3 min-w-0 shrink-0 rounded-md" aria-label="ScamTitan International — home">
+            <ShieldLogo className="h-12 w-12 min-[380px]:h-14 min-[380px]:w-14 md:h-20 md:w-20 shrink-0 drop-shadow-[0_4px_10px_rgba(11,20,36,0.35)]" animated />
+            <span className="flex flex-col leading-none">
+              <span className="text-[19px] min-[380px]:text-[22px] md:text-[34px] font-black tracking-tight text-[#0b1424] whitespace-nowrap">
+                Scam<span className="text-[#c62828]">Titan</span>
+              </span>
+              <span className="mt-1 text-[9px] md:text-[11px] font-bold uppercase tracking-[0.34em] text-slate-500">
+                International
+              </span>
             </span>
           </Link>
 

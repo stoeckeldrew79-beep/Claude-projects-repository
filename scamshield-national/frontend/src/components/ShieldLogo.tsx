@@ -7,8 +7,10 @@ import { useId } from 'react';
 // Deliberately not a government seal: no eagle, no stars, no ring of text.
 // The mark carries no name, so it survives the coming rename unchanged.
 //
-// `animated` turns the radar sweep into a slow rotation (header only; it
-// stays still for anyone who prefers reduced motion).
+// `animated` brings it to life (header and launch page only): the radar
+// sweep turns continuously with a bright leading edge, and the red core
+// pulses out a ping — the site visibly scanning. All of it stays still for
+// anyone who prefers reduced motion.
 const SHIELD = 'M32 3.5 L55.5 10.5 C56.5 24 55.5 36 51 44.5 C46.5 52.5 40 57.5 32 61 C24 57.5 17.5 52.5 13 44.5 C8.5 36 7.5 24 8.5 10.5 Z';
 const INNER = 'M32 8.2 L51.2 13.9 C52 25.2 51.2 35 47.4 42.2 C43.7 49 38.4 53.3 32 56.3 C25.6 53.3 20.3 49 16.6 42.2 C12.8 35 12 25.2 12.8 13.9 Z';
 const SWEEP = 'M32 30 L32.98 18.84 A11.2 11.2 0 0 1 41.70 24.40 Z';
@@ -62,9 +64,13 @@ export function ShieldLogo({ className = 'h-8 w-8', animated = false }: { classN
       </g>
       <g className={animated ? 'logo-sweep' : undefined}>
         <path d={SWEEP} fill={`url(#sweep-${id})`} />
+        {animated && <line x1="32" y1="30" x2="41.70" y2="24.40" stroke="#ff5a55" strokeWidth=".9" strokeLinecap="round" />}
       </g>
+      {animated && (
+        <circle className="logo-ping" cx="32" cy="30" r="3.4" fill="none" stroke="#ff3b36" strokeWidth=".8" />
+      )}
       <circle cx="32" cy="30" r="11.2" fill="none" stroke="#ffffff" strokeWidth="1.8" />
-      <circle cx="32" cy="30" r="5.6" fill="#e0312f" fillOpacity=".22" />
+      <circle className={animated ? 'logo-core' : undefined} cx="32" cy="30" r="5.6" fill="#e0312f" fillOpacity=".22" />
       <circle cx="32" cy="30" r="3.4" fill="#ff3b36" />
       <circle cx="31" cy="28.9" r=".9" fill="#ffffff" fillOpacity=".7" />
     </svg>

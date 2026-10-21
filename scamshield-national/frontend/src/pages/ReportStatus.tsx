@@ -20,7 +20,7 @@ const FILING_STATUS_COPY: Record<string, string> = {
 export default function ReportStatus() {
   useDocumentMeta({
     title: 'Check Your Report Status',
-    description: 'Look up the status of a scam report you submitted to ScamShield National.',
+    description: 'Look up the status of a scam report you submitted to ScamTitan International.',
     path: '/report-status',
   });
 

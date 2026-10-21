@@ -42,9 +42,10 @@ export function SiteFooter() {
       <div className="max-w-7xl mx-auto px-4 py-12 grid gap-10 lg:grid-cols-[1.3fr_2fr]">
         <div>
           <Link to="/" className="inline-flex items-center gap-2 rounded-md">
-            <ShieldLogo className="h-8 w-8" />
-            <span className="font-bold text-white" style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}>
-              ScamShield National
+            <ShieldLogo className="h-10 w-10" />
+            <span className="font-black tracking-tight text-white">
+              Scam<span className="text-[#ef4444]">Titan</span> 
+              <span className="text-[10px] font-bold uppercase tracking-[0.28em] opacity-70">International</span>
             </span>
           </Link>
           <p className="mt-4 text-sm max-w-sm leading-relaxed">
@@ -91,7 +92,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} ScamShield National. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} ScamTitan International. All rights reserved.</p>
           <p>
             A private consumer-protection service. Not a government agency, and not affiliated with or endorsed by
             any government body.

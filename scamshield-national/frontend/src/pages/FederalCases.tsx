@@ -227,7 +227,7 @@ export default function FederalCases() {
         </div>
       </section>
 
-      <div className="sticky top-14 z-30 md:top-24 border-b border-slate-200 bg-white/95 backdrop-blur">
+      <div className="sticky top-16 z-30 md:top-32 border-b border-slate-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-5xl flex-col gap-2 px-4 py-3 sm:flex-row sm:items-center">
           <label htmlFor="case-search" className="sr-only">
             Search federal cases
@@ -331,7 +331,7 @@ export default function FederalCases() {
         <p className="mt-10 text-xs leading-relaxed text-slate-500">
           Every case here is taken from a press release published by the U.S. Department of Justice and links to
           the original on justice.gov. Releases about charges describe allegations: a person who is charged is
-          presumed innocent unless and until proven guilty in court. ScamShield National is a private service and
+          presumed innocent unless and until proven guilty in court. ScamTitan International is a private service and
           is not affiliated with the Department of Justice.
         </p>
       </div>

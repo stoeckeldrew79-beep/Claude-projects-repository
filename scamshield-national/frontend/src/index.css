@@ -58,11 +58,40 @@
   .logo-sweep {
     transform-box: view-box;
     transform-origin: 32px 30px;
-    animation: logo-sweep 5s linear infinite;
+    animation: logo-sweep 3.2s linear infinite;
   }
   @keyframes logo-sweep {
     to {
       transform: rotate(360deg);
+    }
+  }
+  /* The core's glow breathes and a ring pings outward from it, once per
+     sweep, so the mark reads as alive even at a glance. */
+  .logo-core {
+    transform-box: view-box;
+    transform-origin: 32px 30px;
+    animation: logo-core 1.6s ease-in-out infinite;
+  }
+  @keyframes logo-core {
+    50% {
+      transform: scale(1.35);
+      opacity: 0.55;
+    }
+  }
+  .logo-ping {
+    transform-box: view-box;
+    transform-origin: 32px 30px;
+    animation: logo-ping 3.2s ease-out infinite;
+  }
+  @keyframes logo-ping {
+    0% {
+      transform: scale(1);
+      opacity: 0.9;
+    }
+    70%,
+    100% {
+      transform: scale(3.3);
+      opacity: 0;
     }
   }
 }

@@ -34,7 +34,22 @@ const app = express();
 app.set('trust proxy', 1);
 
 app.use(helmet());
-app.use(cors({ origin: process.env.FRONTEND_URL ?? '*' }));
+// The site is moving to scamtitan.com; the Vercel address keeps working
+// alongside it, so both (and FRONTEND_URL, whatever it is set to) may call
+// the API. With nothing configured, any origin may (local development).
+const ALLOWED_ORIGINS = new Set(
+  [
+    process.env.FRONTEND_URL,
+    'https://scamtitan.com',
+    'https://www.scamtitan.com',
+    'https://claude-projects-repository.vercel.app',
+  ].filter((o): o is string => Boolean(o))
+);
+app.use(
+  cors({
+    origin: process.env.FRONTEND_URL ? (origin, cb) => cb(null, !origin || ALLOWED_ORIGINS.has(origin)) : '*',
+  })
+);
 
 // Stripe webhook signatures are computed over the raw body, so this route
 // must see it unparsed. Registered before express.json() — body-parser
@@ -107,7 +122,7 @@ const port = process.env.PORT ? Number(process.env.PORT) : 3000;
 // avoids an IPv6-only bind on Windows, where Node's default listen()
 // otherwise refuses IPv4 connections to http://localhost from the browser.
 app.listen(port, '0.0.0.0', () => {
-  console.log(`ScamShield National API listening on :${port}`);
+  console.log(`ScamTitan International API listening on :${port}`);
   // Creates the plan prices and the payments webhook in Stripe if they
   // aren't there yet — a no-op until STRIPE_SECRET_KEY is set.
   if (process.env.NODE_ENV === 'production') void setUpStripe();

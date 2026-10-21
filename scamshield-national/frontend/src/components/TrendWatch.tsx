@@ -72,7 +72,7 @@ export function TrendWatch({
           <p className="text-[11px] font-bold uppercase tracking-widest text-red-700">Trend Watch · {scope}</p>
           <h2 className="mt-1 text-lg font-bold text-slate-900">New database entries by category</h2>
           <p className="mt-1 max-w-2xl text-sm text-slate-600">
-            Scam patterns added to the ScamShield database in the last 30 days, compared with the 30 days before. Each
+            Scam patterns added to the ScamTitan database in the last 30 days, compared with the 30 days before. Each
             entry is one documented scam, not one victim report — entries arrive in batches as sources are reviewed.
           </p>
         </div>

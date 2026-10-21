@@ -34,7 +34,7 @@ export interface DocumentMeta {
 
 export function useDocumentMeta({ title, description, path, noindex }: DocumentMeta) {
   useEffect(() => {
-    const fullTitle = `${title} | ScamShield National`;
+    const fullTitle = `${title} | ScamTitan International`;
     document.title = fullTitle;
     setMetaTag('name', 'description', description);
     setMetaTag('name', 'robots', noindex ? 'noindex, nofollow' : 'index, follow');

@@ -325,7 +325,7 @@ export default function GlobalSourcesPage() {
       <h1 className="mt-1 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Official sources, worldwide</h1>
       <p className="mt-3 max-w-3xl text-slate-600">
         No single database records every scam on earth. National fraud agencies publish annual reports and aggregate
-        statistics instead, so ScamShield tracks the ones the public can read and links straight to them. Every
+        statistics instead, so ScamTitan tracks the ones the public can read and links straight to them. Every
         figure on this page was checked against the agency&apos;s own publication before it was added. Nothing is
         auto-ingested, estimated or converted between currencies.
       </p>
