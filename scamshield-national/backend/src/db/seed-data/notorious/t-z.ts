@@ -4154,3 +4154,24 @@ The two were sentenced in 2009. According to the U.S. Attorney's office, Webster
 The AIPC case illustrates how earnings management can move from aggressive accounting to outright fraud when the aim is to meet analyst expectations rather than describe the business. Round-trip transactions, where money goes out and comes back as revenue or reimbursement, are a recurring device because they create a paper trail that looks like normal business, and in this case it took a delisting, a class action and years of litigation to unwind them.`,
     sourceUrl: 'https://www.cfo.com/news/cooked-books-pasta-company-execs-plead-guilty/671526/',
 });
+
+NotoriousTZ.push({
+    title: 'Louis Tomasetta and the Vitesse Semiconductor Backdating Case',
+    slug: 'louis-tomasetta-vitesse-semiconductor-backdating-case',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_United_States_Courthouse_(55314001073).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh (CC BY 4.0) — Daniel Patrick Moynihan U.S. Courthouse, Manhattan, home of the Southern District of New York, where the Vitesse cases were brought',
+    coverImagePosition: 50,
+    body: `Vitesse Semiconductor Corporation was a chip maker founded by Louis R. Tomasetta, who served as its chief executive. Eugene F. Hovanec rose from vice president of finance to chief financial officer and executive vice president, and Yatin D. Mody was its controller and later chief financial officer. In December 2010 the Securities and Exchange Commission sued the company, Tomasetta, Hovanec, Mody and Nicole R. Kaplan, a director of finance, in federal court in Manhattan. It alleged two schemes: a revenue recognition fraud running from September 2001 to April 2006, and the backdating of stock option grants between 1995 and 2006.
+
+Backdating meant that options were recorded as if they had been granted on an earlier date, when the share price was lower, which gave their holders an immediate paper gain that was not properly reported as compensation. According to the SEC, Tomasetta and Hovanec ran both schemes and fabricated minutes of Compensation Committee meetings to make the grants appear to have been properly approved. The U.S. Attorney's Office for the Southern District of New York later described how the concealment worked for the April and October 2001 grants: Mody created minutes for meetings that had not taken place as described, and in April 2006, as an outside law firm began an internal investigation, Tomasetta, Hovanec and Mody created backdated minutes, copied them to an assistant's computer and reset the computer's clock so they would look older.
+
+The company settled with the SEC on December 10, 2010, agreeing to a permanent injunction and a $3 million civil penalty. Mody pleaded guilty the same month, under a cooperation agreement, to charges that included securities fraud and making false entries in corporate financial records. Tomasetta and Hovanec pleaded guilty in August 2013 to conspiracy to destroy, alter or falsify records with the intent to obstruct a contemplated SEC investigation. Their civil settlements were announced in September 2013: Tomasetta agreed to $2,126,450 in disgorgement and a $100,000 penalty, and Hovanec to $781,280 and a $50,000 penalty, with each barred from serving as an officer or director of a public company for ten years.
+
+On December 6, 2013, U.S. District Judge Jed S. Rakoff sentenced Tomasetta and Hovanec each to three years of probation and a $30,000 fine. No prison term was imposed on either of the two former top officers, who were convicted of the obstruction charge rather than of the underlying backdating or revenue fraud.
+
+The Vitesse case shows how option backdating, once treated by some companies as a routine perk, turned into a records crime when executives manufactured paper to hide it. It also shows how a case can narrow on the way through the courts: the SEC's broad allegations of two multi-year frauds were resolved civilly, while the criminal case for the two most senior officers rested on the 2006 effort to doctor the minutes once an investigation loomed.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/December13/HovanecTomasettaSentencingsPR.php',
+});
