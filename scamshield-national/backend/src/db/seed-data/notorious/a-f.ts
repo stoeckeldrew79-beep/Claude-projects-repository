@@ -11949,3 +11949,22 @@ At sentencing in May 2010, Judge Chin imposed 96 months in prison on Dennis Nour
 The Smart Online case shows a classic stock-promotion technique in its simplest form: an insider pays the people customers trust to recommend the stock, and the customers never learn who is paying. It also shows how the cover-up can weigh as heavily as the scheme itself, since the recordings of Nouri coaching a broker to lie became part of the evidence that convinced the jury.`,
     sourceUrl: 'https://justice.gov/archive/usao/nys/pressreleases/May10/nouridennisandrezasentencingpr.pdf',
 });
+
+NotoriousAF.push({
+    title: 'Carole Argo and the SafeNet Options Backdating Case',
+    slug: 'carole-argo-safenet-options-backdating-case',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_United_States_Courthouse_(55314001073).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh (CC BY 4.0) — Daniel Patrick Moynihan U.S. Courthouse, Manhattan, home of the Southern District of New York, whose U.S. Attorney charged the SafeNet backdating case',
+    coverImagePosition: 50,
+    body: `SafeNet, Inc. was a public security-technology company. Carole D. Argo had served as its president, chief operating officer and chief financial officer. In August 2007 the Securities and Exchange Commission sued her in federal court in Washington, D.C., alleging that she had selected favorable dates with historically low closing prices for stock option grants, had options granted on dates when she knew they were already in the money, and had then backdated documents to conceal the grants from investors. The SEC said SafeNet routinely issued in-the-money options and failed to record the required compensation expense, which led to misstated financial results for periods from late 2000 through early 2006. The complaint noted a parallel criminal investigation by the U.S. Attorney's Office for the Southern District of New York.
+
+The criminal case followed in New York. According to CFO.com's report, the indictment cited eight occasions of backdating from 2000 to 2006. Prosecutors said SafeNet did not properly record or report compensation expenses for six of the grants, and recorded two only after its external auditors and internal accountants found the backdating. Argo pleaded guilty to one count of securities fraud, admitting that she signed regulatory filings containing inaccurate compensation expenses for the backdated grants. She faced a maximum of 20 years in prison and a $5 million fine. In January 2008 she was sentenced to six months in prison and ordered to pay a $1 million fine.
+
+The company and its other officers were dealt with later and civilly. In November 2009 the SEC announced settlements with SafeNet, former chief executive Anthony Caputo, former chief financial officer Kenneth Mueller and three former accountants. In that case the SEC said Argo and Caputo chose historically low stock prices as grant dates, and that Mueller, who became chief financial officer in June 2004, continued the practice, including approving a favorable date for his own grants. The company agreed to a permanent injunction and a $1 million civil penalty. Caputo agreed to an injunction and a $250,000 penalty, with $1,690,000 in disgorgement of the profits the SEC attributed to him, about $1.6 million, deemed satisfied by an earlier settlement with the company. Mueller agreed to a $75,000 penalty and a five-year officer-and-director bar. The SEC described the case as its first enforcement action under Regulation G, the rule on non-GAAP financial measures, because it also alleged that the defendants had reclassified ordinary expenses as non-recurring ones in 2004 and 2005 to meet earnings targets.
+
+The SafeNet case shows how option backdating hid a real cost: grants dated to a low-price day were worth more than the paperwork said, but the company recorded no matching compensation expense. It also shows how the burden of a scheme can land unevenly. The finance chief who pleaded guilty went to prison, while the chief executive and the other officers, who the SEC said took part in the same practices, settled civil charges without admitting or denying them.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/2009/lr21290.htm',
+});
