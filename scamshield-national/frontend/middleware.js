@@ -24,10 +24,12 @@ const CODE_SHA256 = '2cd200be4aed90a282e22d81a4241d0fc8e6bf4254b4eb0201fd59ee342
 const COOKIE = 'ss_preview';
 const YEAR = 60 * 60 * 24 * 365;
 
+import { launchPage } from './launch/page.js';
+
 export const config = {
   // Pages only — built assets and the icon pass straight through so the
   // curtain page itself can use the favicon.
-  matcher: ['/((?!assets/|favicon\\.svg).*)'],
+  matcher: ['/((?!assets/|favicon\\.svg|og\\.png).*)'],
 };
 
 async function sha256(text) {
@@ -53,84 +55,7 @@ function cookieValue(request, name) {
 const NOINDEX = { 'X-Robots-Tag': 'noindex, nofollow', 'Cache-Control': 'no-store' };
 
 function comingSoon(error) {
-  const html = `<!doctype html>
-<html lang="en" data-scamshield-coming-soon>
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="robots" content="noindex, nofollow" />
-<meta name="theme-color" content="#0f1a2b" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<title>ScamTitan International — Launching soon</title>
-<style>
-  *{box-sizing:border-box}
-  html,body{margin:0;min-height:100%}
-  body{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:32px 16px;
-    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#e2e8f0;
-    background:radial-gradient(ellipse at 50% -10%,rgba(220,38,38,.22),transparent 55%),linear-gradient(180deg,#020617,#0f1a2b)}
-  main{width:100%;max-width:520px;text-align:center}
-  .logo{width:148px;height:148px;filter:drop-shadow(0 16px 40px rgba(0,0,0,.55)) drop-shadow(0 0 28px rgba(255,59,54,.18))}
-  .sweep,.core,.ping{transform-box:view-box;transform-origin:32px 30px}
-  .sweep{animation:spin 3.2s linear infinite}
-  .core{animation:core 1.6s ease-in-out infinite}
-  .ping{animation:ping 3.2s ease-out infinite}
-  @keyframes spin{to{transform:rotate(360deg)}}
-  @keyframes core{50%{transform:scale(1.35);opacity:.55}}
-  @keyframes ping{0%{transform:scale(1);opacity:.9}70%,100%{transform:scale(3.3);opacity:0}}
-  @media (prefers-reduced-motion:reduce){.sweep,.core,.ping{animation:none}.ping{display:none}}
-  .wordmark{margin:22px 0 0;font-size:clamp(40px,10vw,60px);font-weight:900;letter-spacing:-.03em;line-height:1;color:#fff}
-  .wordmark span{color:#ef4444}
-  .sub{margin:8px 0 0;font-size:12px;font-weight:700;letter-spacing:.42em;text-transform:uppercase;color:#94a3b8}
-  .eyebrow{margin:28px 0 0;font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#f87171}
-  h1{margin:12px 0 0;font-size:clamp(30px,7vw,44px);line-height:1.08;font-weight:800;letter-spacing:-.02em;color:#fff}
-  p.lead{margin:16px auto 0;max-width:440px;font-size:17px;line-height:1.55;color:#cbd5e1}
-  form{margin:40px auto 0;max-width:360px;padding:20px;border:1px solid rgba(255,255,255,.1);border-radius:16px;background:rgba(255,255,255,.04)}
-  label{display:block;text-align:left;font-size:13px;font-weight:600;color:#94a3b8}
-  .row{display:flex;gap:8px;margin-top:8px}
-  input{flex:1;min-width:0;min-height:44px;padding:0 12px;border-radius:10px;border:1px solid rgba(255,255,255,.18);background:#0b1424;color:#fff;font-size:16px}
-  input:focus{outline:2px solid #dc2626;outline-offset:1px}
-  button{min-height:44px;padding:0 18px;border:0;border-radius:10px;background:#dc2626;color:#fff;font-weight:700;font-size:15px;cursor:pointer}
-  button:hover{background:#ef4444}
-  .err{margin:10px 0 0;text-align:left;font-size:13px;color:#fca5a5}
-  footer{margin-top:36px;font-size:12px;color:#64748b}
-</style>
-</head>
-<body>
-<main>
-  <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
-    <defs>
-      <linearGradient id="s" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(-58 .5 .5)"><stop offset="0" stop-color="#ff3b36" stop-opacity="0"/><stop offset="1" stop-color="#ff3b36" stop-opacity=".75"/></linearGradient>
-      <clipPath id="g"><circle cx="32" cy="30" r="11.2"/></clipPath>
-    </defs>
-    <path d="M32 3.5 L55.5 10.5 C56.5 24 55.5 36 51 44.5 C46.5 52.5 40 57.5 32 61 C24 57.5 17.5 52.5 13 44.5 C8.5 36 7.5 24 8.5 10.5 Z" fill="#0b1424" stroke="#4a5f86" stroke-width="1.4"/>
-    <path d="M32 8.2 L51.2 13.9 C52 25.2 51.2 35 47.4 42.2 C43.7 49 38.4 53.3 32 56.3 C25.6 53.3 20.3 49 16.6 42.2 C12.8 35 12 25.2 12.8 13.9 Z" fill="none" stroke="#fff" stroke-opacity=".22" stroke-width=".9"/>
-    <g transform="rotate(45 32 30)"><circle cx="32" cy="30" r="15.6" fill="none" stroke="#fff" stroke-width="2.4" stroke-dasharray="20.4 4.1"/></g>
-    <g clip-path="url(#g)" fill="none" stroke="#9fb3d6" stroke-opacity=".38" stroke-width=".7"><ellipse cx="32" cy="30" rx="4.6" ry="11.2"/><ellipse cx="32" cy="30" rx="8.6" ry="11.2"/></g>
-    <g class="sweep"><path d="M32 30 L32.98 18.84 A11.2 11.2 0 0 1 41.70 24.40 Z" fill="url(#s)"/><line x1="32" y1="30" x2="41.70" y2="24.40" stroke="#ff5a55" stroke-width=".9" stroke-linecap="round"/></g>
-    <circle class="ping" cx="32" cy="30" r="3.4" fill="none" stroke="#ff3b36" stroke-width=".8"/>
-    <circle cx="32" cy="30" r="11.2" fill="none" stroke="#fff" stroke-width="1.8"/>
-    <circle class="core" cx="32" cy="30" r="5.6" fill="#e0312f" fill-opacity=".22"/>
-    <circle cx="32" cy="30" r="3.4" fill="#ff3b36"/>
-    <circle cx="31" cy="28.9" r=".9" fill="#fff" fill-opacity=".7"/>
-  </svg>
-  <p class="wordmark">Scam<span>Titan</span></p>
-  <p class="sub">International</p>
-  <p class="eyebrow">Launching soon</p>
-  <h1>The world's scam intelligence agency is almost here.</h1>
-  <p class="lead">Thousands of documented scams, live official warnings from across the country and around the globe, and alerts before a scam reaches you or your family.</p>
-  <form method="get" action="/__unlock">
-    <label for="code">Have an access code?</label>
-    <div class="row">
-      <input id="code" name="code" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="Access code" required />
-      <button type="submit">Enter</button>
-    </div>
-    ${error ? '<p class="err" role="alert">That code didn\'t work. Check it and try again.</p>' : ''}
-  </form>
-  <footer>A private consumer-protection service — not a government agency.</footer>
-</main>
-</body>
-</html>`;
-  return new Response(html, {
+  return new Response(launchPage({ codeError: error }), {
     status: error ? 401 : 200,
     headers: { 'Content-Type': 'text/html; charset=utf-8', ...NOINDEX },
   });

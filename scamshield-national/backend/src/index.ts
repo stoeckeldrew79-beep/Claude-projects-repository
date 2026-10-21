@@ -20,6 +20,7 @@ import statsRoutes from './routes/stats';
 import dailyNewsRoutes from './routes/dailyNews';
 import statesRoutes from './routes/states';
 import scamCheckRoutes from './routes/scamCheck';
+import waitlistRoutes from './routes/waitlist';
 import { publicApiLimiter } from './middleware/rateLimit';
 import { pool } from './db/connection';
 import { setUpStripe } from './services/stripe';
@@ -104,6 +105,7 @@ v1.use('/stats', statsRoutes);
 v1.use('/daily-news', dailyNewsRoutes);
 v1.use('/states', statesRoutes);
 v1.use('/', scamCheckRoutes); // POST /v1/check
+v1.use('/waitlist', waitlistRoutes);
 
 app.use('/v1', v1);
 
