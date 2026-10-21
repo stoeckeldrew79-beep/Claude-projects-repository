@@ -12610,3 +12610,22 @@ All three pleaded guilty. In 2007 Monroe was sentenced to 15 months in prison an
 The Lason case shows how acquisition-driven companies can manufacture growth. Timing revenue and expenses around deals, booking a forgiven loan as income and fabricating proof of payment for a receivable each looked like routine accounting to outsiders, yet together they inflated earnings by roughly two-thirds in one quarter. It also shows how long such cases take: the conduct ran from 1998 to 1999, the SEC sued in 2003, the prison sentences came in 2007 and the civil judgments in 2008.`,
     sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-20495',
 });
+
+NotoriousGM.push({
+    title: 'Jon Latorella and the Locateplus Holdings Fake-Revenue Scheme',
+    slug: 'jon-latorella-locateplus-holdings-fake-revenue-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_Joseph_Moakley_United_States_Courthouse_September_2024.jpg?width=1200',
+    coverImageCredit: 'Photo: 4300streetcar (CC BY 4.0) — John Joseph Moakley U.S. Courthouse, Boston, seat of the U.S. District Court for the District of Massachusetts, where Latorella was sentenced',
+    coverImagePosition: 50,
+    body: `Locateplus Holdings Corporation was a public company based in Beverly, Massachusetts, and Jon R. Latorella of Marblehead, Massachusetts, was its president and chief executive. According to the U.S. Attorney's Office for the District of Massachusetts, beginning around 2001 Latorella and another man who worked at the company carried out a series of schemes to make Locateplus look larger and healthier than it was and to keep investors and the market from seeing the truth.
+
+The schemes relied on invented counterparties. In one, Latorella arranged a loan from a fake company, Andover Secure Resources, which was set up using the identity of a man who had died in 1985, and moved funds around so that Andover appeared to be repaying a fictitious debt to Locateplus. In another, he falsified revenue to make it seem that a company called Omni Data Services was paying Locateplus under a contract, although Omni Data had no independent existence and the contract was fake. In a third, he evaded SEC registration requirements for securities sold by another company, Paradigm Tactical Products, by listing acquaintances, girlfriends and two deceased men as its investors. Throughout, prosecutors said, he repeatedly misled the company's auditors and the SEC about Locateplus's revenues and assets.
+
+Latorella pleaded guilty on March 5, 2012, to conspiracy to commit securities fraud, defrauding the company's auditors, making false statements in SEC filings, and aggravated identity theft. On June 14, 2012, U.S. District Judge Douglas P. Woodlock sentenced him to five years in prison, followed by three years of supervised release, and ordered him to pay restitution to the victims. The U.S. Attorney's announcement on June 15, 2012, did not give dollar figures for the losses or the restitution.
+
+The Locateplus case shows how thoroughly a fraud can be built out of paper when its author controls the paper trail: fake lenders, fake customers and fake investors, some of them borrowed from the identities of real or dead people. It also shows why identity theft charges can attach to what looks at first like a purely accounting crime, since the identity of a man who had died decades earlier was used to give a fictitious company a name and a history.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/ma/news/2012/June/LotorellaJonSentencingPR.html',
+});

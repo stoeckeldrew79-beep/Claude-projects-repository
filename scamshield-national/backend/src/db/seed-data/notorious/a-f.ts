@@ -11928,3 +11928,24 @@ The criminal cases moved separately. Burke pleaded guilty on June 25, 2003, to o
 The Interspeed case shows how a sales executive's incentives can drive a fraud, and how little it takes on paper: a side letter that undoes a contract's payment terms, a forged signature, a customer funded with the vendor's own money. It also shows the spread of outcomes within one scheme, from probation for the finance chief who pleaded guilty to a prison term for the sales executive who went to trial.`,
     sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-20126',
 });
+
+NotoriousAF.push({
+    title: 'Dennis Michael Nouri and the Smart Online Broker-Bribery Scheme',
+    slug: 'dennis-michael-nouri-smart-online-broker-bribery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'securities-fraud', 'market-manipulation'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0) — Daniel Patrick Moynihan U.S. Courthouse, Foley Square, Manhattan, home of the Southern District of New York, where the Smart Online trial was held',
+    coverImagePosition: 50,
+    body: `Dennis Michael Nouri was the chief executive, president and chairman of Smart Online, a company whose stock traded on the over-the-counter bulletin board. According to the U.S. Attorney's Office for the Southern District of New York, from May 2005 through July 2007 he and his brother Reza Eric Nouri, a former Smart Online employee, ran a scheme to manipulate the price of the company's stock. Instead of building demand through the company's results, the brothers paid brokers to sell Smart Online shares to their customers, so that buying pressure pushed the price up.
+
+The kickbacks were the heart of the case. Prosecutors described brokers being bribed, including stock broker Anthony Martin, to place the stock with clients without telling those clients that the brokers were being paid by the company's chief executive. After the Securities and Exchange Commission suspended trading in the stock, investigators recorded Dennis Nouri coaching a cooperating broker on how to lie to investigators and how to conceal the nature of the payments. In another meeting he took the broker's cell phone to delete a phone number the broker had been using to reach him, and gave the broker a different number to call in future.
+
+The brothers and Martin went to trial before U.S. District Judge Denny Chin in Manhattan. On July 2, 2009, after a three-week trial, the jury found all three guilty on all nine counts. Each was convicted of one count of conspiracy to commit securities fraud, wire fraud and commercial bribery and one count of securities fraud, and the Nouri brothers were each also convicted of three further counts of wire fraud and one count of commercial bribery. Judge Chin remanded Dennis Nouri into custody, and two other brokers, Alain Lustig and Ruben Serrano, had already pleaded guilty to conspiracy and securities fraud.
+
+At sentencing in May 2010, Judge Chin imposed 96 months in prison on Dennis Nouri and 18 months on Reza Nouri. The judge called the case "a significant fraud" and "brazen fraud," pointing to the bribing of brokers, the cash payments and the attempts to get people to lie, and said he believed Nouri had in effect been stealing from the company as well as hurting the victims who testified at trial.
+
+The Smart Online case shows a classic stock-promotion technique in its simplest form: an insider pays the people customers trust to recommend the stock, and the customers never learn who is paying. It also shows how the cover-up can weigh as heavily as the scheme itself, since the recordings of Nouri coaching a broker to lie became part of the evidence that convinced the jury.`,
+    sourceUrl: 'https://justice.gov/archive/usao/nys/pressreleases/May10/nouridennisandrezasentencingpr.pdf',
+});
