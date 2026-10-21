@@ -25521,3 +25521,51 @@ International.push({
     sourceUrl: "https://www.iwacu-burundi.org/lumicash-ecocash-la-brb-remontee-contre-des-tontines-frauduleuses/",
     country: "BI",
 });
+
+International.push({
+    name: "Fake Pope Leo XIV Facebook Profiles Soliciting Peter's Pence Donations",
+    slug: "fake-pope-leo-xiv-facebook-profiles-soliciting-peters-pence-donations",
+    description:
+      "Fraudsters set up Facebook profiles posing as Pope Leo XIV and use them to ask followers for money in his name. The activity spiked around 29 June, the feast of Saints Peter and Paul, when the Church takes up the annual Peter's Pence collection for the Pope's charitable works, so the appeals look plausible to the faithful. The Vatican publicly clarified that Pope Leo has no Facebook account, is not personally soliciting donations, and that his only authentic social media presence is on X and Instagram. Any money sent through these fake profiles goes to attacker-controlled payment channels, not the Holy See. If you want to contribute to Peter's Pence, ignore social media appeals entirely and give only through the official Peter's Pence website.",
+    categorySlug: "charity-scams",
+    alertLevel: "high",
+    sources: ["Holy See (Vatican) public clarification","Rome Reports, 28 June 2025"],
+    sourceUrl: "https://www.romereports.com/en/2025/06/28/vatican-scam-alert-fake-pope-leo-profiles-on-facebook-asking-for-money/",
+    country: "VA",
+});
+
+International.push({
+    name: "Email Fund Solicitations Impersonating Holy See Official Archbishop Gabriele Caccia",
+    slug: "email-fund-solicitations-impersonating-archbishop-gabriele-caccia",
+    description:
+      "Unknown senders emailed Catholic institutions and individuals claiming to be Archbishop Gabriele Caccia, a senior Holy See diplomat and Permanent Observer to the United Nations, and asked for funds. The messages came from a free Gmail address rather than any official Holy See domain, relying on the weight of a real Vatican official's name and on recipients being church bodies used to genuine Vatican correspondence. The Apostolic Nunciature in Manila warned in a letter to the Catholic Bishops' Conference of the Philippines that the senders were seeking money through illegal means, and its Charge d'Affaires, Msgr. Julien Kabore, urged maximum prudence with any online fund request invoking Vatican names. Legitimate Holy See correspondence does not arrive from free webmail accounts. Check the sender's domain, and verify directly with the Nunciature or the relevant Vatican office before sending any money or replying.",
+    categorySlug: "business-email-compromise",
+    alertLevel: "high",
+    sources: ["Apostolic Nunciature in Manila (Holy See diplomatic mission), letter dated 30 July","CBCP News","Visayan Daily Star / Philippine News Agency"],
+    sourceUrl: "https://cbcpnews.net/cbcpnews/vatican-embassy-in-ph-warns-of-email-scam-seeking-funds-for-archbishop-caccia/",
+    country: "VA",
+});
+
+International.push({
+    name: "Securities Commission Malaysia Impersonation \"Guarantee Deposit\" Scam",
+    slug: "securities-commission-malaysia-impersonation-guarantee-deposit-scam",
+    description:
+      "Fraudsters pose as officers of the Securities Commission Malaysia (SC) and tell victims they are under investigation for capital-market offences such as insider trading or market manipulation. They threaten imminent arrest or prosecution, then offer a way out: paying a so-called \"guarantee deposit\" that has been demanded in amounts of up to RM500,000. The SC says the approach carries the hallmarks of a \"Macau Scam\", with escalating fake officials, a fabricated case file, isolation of the victim and transfer of funds to a mule account. The regulator stresses that it never endorses investment schemes, never solicits money from the public and never demands deposits of any kind in connection with an investigation. If you get such a call, hang up, verify any investment or offer through the SC's Investment Checker, and report the payment demand to the SC's Consumer and Investor Office.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Securities Commission Malaysia media release, 8 May 2025"],
+    sourceUrl: "https://www.sc.com.my/resources/media/media-release/sc-alerts-public-on-impersonation-scam-involving-fake-guarantee-deposits",
+    country: "MY",
+});
+
+International.push({
+    name: "Malaysian Cash-on-Delivery Unordered Parcel Scam",
+    slug: "malaysian-cash-on-delivery-unordered-parcel-scam",
+    description:
+      "A parcel nobody ordered turns up at the door, often after an automated \"out for delivery\" SMS, and the recipient is asked to pay a cash-on-delivery amount for contents that turn out to be empty or cheap filler. Overseas syndicates ship through freight forwarders who hand last-mile delivery to third-party couriers, so the money moves abroad quickly and the delivery company has no link to the scammer, making recovery very hard. In a newer variant confirmed by the Royal Malaysia Police, the unsolicited package is presented as a free loyalty \"gift\" from an e-commerce platform; once trust is built, the caller invites the victim into paid online \"tasks\" that require transferring their own money to unlock promised commissions. Warning signs include notices about parcels you never ordered, demands for payment by online transfer, e-wallet or prepaid card, misspelled domains or links with odd characters, and pressure to pay immediately. Refuse delivery and payment for anything you did not order, do not engage with callers offering gifts or paid tasks, and report the parcel to the courier and the police.",
+    categorySlug: "package-delivery-scams",
+    alertLevel: "medium",
+    sources: ["MyCheck Malaysia (Bernama fact-check) report on PDRM warning, 12 December 2025","Postal Forum Malaysia COD parcel scam advisory via Bernama media release wire"],
+    sourceUrl: "https://www.mycheck.my/report/a13ff8e4-23af-45d1-bf84-672dd76810ad/waspada-terima-parcel-tidak-dipesan-ke-rumah-taktik-baharu-scammer-untuk-jerat-mangsa",
+    country: "MY",
+});

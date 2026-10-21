@@ -13453,3 +13453,41 @@ UsNS.push({
     country: "US",
     state: "OH",
 });
+
+UsNS.push({
+    name: "Ramp-and-Dump Stock Manipulation via Social Media Investment Clubs",
+    slug: "ramp-and-dump-social-media-investment-clubs",
+    description:
+      "Victims are recruited through social media ads, \"wrong number\" texts, or direct messages into an investment club group chat, then moved onto an encrypted messaging app where operators impersonate real brokerage firms and well-known stock analysts. Bot and fake accounts pad the membership to manufacture consensus, and over weeks or months members are told to buy a specific thinly traded, low-priced U.S.-listed stock ahead of a supposed catalyst such as a product breakthrough or a regulatory approval. Because victims buy real shares through their own legitimate brokerage accounts, none of the usual fake-platform warning signs appear. The operators, who already secretly hold a large block of the stock, sell into the inflated price and the shares collapse, leaving members with losses that are extremely hard to recover. Never take trading instructions from a chat group you were added to unsolicited, verify any analyst or firm through FINRA BrokerCheck, and report losses to the FBI's Internet Crime Complaint Center.",
+    categorySlug: "investment-fraud",
+    alertLevel: "critical",
+    sources: ["FBI Internet Crime Complaint Center Public Service Announcement PSA250703, July 3, 2025","FBI seeking victim information page for an active ramp-and-dump investment fraud investigation","FINRA investor insight on investment group imposter scams"],
+    sourceUrl: "https://www.ic3.gov/PSA/2025/PSA250703",
+    country: "US",
+});
+
+UsNS.push({
+    name: "Social Media \"Done-For-You\" E-Commerce and Crypto Day-Trading Investment Scheme (Utah)",
+    slug: "social-media-done-for-you-ecommerce-crypto-day-trading-investment-scheme-utah",
+    description:
+      "An unsealed federal indictment in Utah charges a Draper man with securities fraud, wire fraud, and money laundering over investment schemes that allegedly cost roughly 200 victims millions of dollars. Prosecutors say he recruited investors beginning in August 2021 into a \"done-for-you\" e-commerce investment program marketed largely through a curated social media image of investor success, personal wealth, and insider expertise, and separately solicited money for a day trading scheme promising big returns based on claimed cryptocurrency knowledge. The case, investigated by the FBI and Utah consumer protection and securities regulators, is set for jury trial, and the defendant is presumed innocent. \"Done-for-you\" store and automated-trading pitches sold through flashy Instagram and TikTok lifestyles are a recurring fraud template, because the proof offered is photos of cars and screenshots rather than verifiable records. Treat any passive-income or crypto-trading offer promoted through social media wealth displays as unproven, check whether the promoter is registered with your state securities division, and refuse to send funds without independently audited performance data.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of Utah"],
+    sourceUrl: "https://www.justice.gov/usao-ut/pr/salt-lake-county-man-charged-after-allegedly-defrauding-investors-out-millions-dollars",
+    country: "US",
+    state: "UT",
+});
+
+UsNS.push({
+    name: "Stolen Treasury Checks Cashed With Counterfeit Driver's Licenses (Florida)",
+    slug: "stolen-treasury-checks-cashed-counterfeit-drivers-licenses-florida",
+    description:
+      "Three people have been charged in a federal indictment in Tampa with conspiracy, theft of government money, and aggravated identity theft for a scheme targeting more than $2 million in U.S. Treasury checks. According to the indictment, they intercepted Treasury checks that had been placed in the mail for delivery to the intended recipients, manufactured counterfeit driver's licenses bearing the victims' names and identifying information, and used those fake IDs to open new bank accounts where they deposited the stolen checks. Each defendant faces up to 10 years in federal prison if convicted, and prosecutors are seeking forfeiture of the proceeds; all are presumed innocent unless proven guilty. Mail theft of government checks is a quiet form of identity theft that victims often discover only when a refund or benefit payment never arrives. Sign up for Informed Delivery to track incoming mail, use direct deposit for tax refunds and federal benefits instead of paper checks, retrieve mail promptly, and report a missing Treasury check to the issuing agency and the U.S. Postal Inspection Service right away.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Middle District of Florida"],
+    sourceUrl: "https://www.justice.gov/usao-mdfl/pr/three-individuals-arrested-attempting-steal-more-2-million-treasury-checks",
+    country: "US",
+    state: "FL",
+});

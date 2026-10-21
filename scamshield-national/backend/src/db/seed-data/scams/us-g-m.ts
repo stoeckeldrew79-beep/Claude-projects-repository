@@ -14239,3 +14239,15 @@ UsGM.push({
     country: "US",
     state: "WA",
 });
+
+UsGM.push({
+    name: "IEEPA Tariff Refund Solicitation Fraud Targeting Importers",
+    slug: "ieepa-tariff-refund-solicitation-fraud",
+    description:
+      "Fraudsters posing as U.S. Customs and Border Protection or as authorized filing agents are contacting importers and customs brokers about refunds of duties collected under the International Emergency Economic Powers Act. The pitch references CBP's new CAPE refund functionality in the ACE portal and offers to file or expedite a claim, then asks for ACE Secure Data Portal credentials, importer-of-record numbers, entry data, and banking details, sometimes charging a fee in CBP's name. Handing over those credentials can let a criminal take over the ACE account and redirect a legitimate, often very large, refund; paying the fee is a straightforward advance-fee loss. CBP states plainly that refund requests are submitted only by the importer or an authorized broker through the ACE Secure Data Portal, and that anyone charging a fee in CBP's name is running a scam. Ignore unsolicited refund offers, never share ACE credentials, and verify any refund question directly through CBP's official trade pages or your own licensed customs broker.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["U.S. Customs and Border Protection, IEEPA Duty Refunds page warning","CBP Fact Sheet: CAPE Refund Fraud Solicitation","CBP CSMS message #68569567, \"Best Practices for Protecting Your Information Regarding IEEPA Refunds\""],
+    sourceUrl: "https://www.cbp.gov/trade/programs-administration/trade-remedies/ieepa-duty-refunds",
+    country: "US",
+});

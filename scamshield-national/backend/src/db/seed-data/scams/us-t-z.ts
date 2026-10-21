@@ -7611,3 +7611,28 @@ UsTZ.push({
     country: "US",
     state: "IN",
 });
+
+UsTZ.push({
+    name: "Tax Preparer Bogus COVID, Fuel, and Business-Loss Credit Refund Scheme (Phoenix)",
+    slug: "tax-preparer-bogus-covid-fuel-business-loss-credit-refund-scheme-phoenix",
+    description:
+      "A federal jury in Phoenix convicted the owner of a tax preparation business on 18 counts of aiding and assisting in the preparation of false tax returns for his clients, plus two counts of filing false personal returns. Evidence at trial showed he padded client returns with phony COVID tax credits, fuel credits, and fabricated business losses to generate thousands of dollars in inflated refunds, and that he caused a large share of those fraudulent refunds to be wired into his own bank accounts while hiding nearly $900,000 in preparation fees from the IRS. The conviction came during the Justice Department's first National Tax Enforcement Surge, and he faces up to three years in prison per count plus restitution and penalties at sentencing. Taxpayers remain legally responsible for everything on a return they sign, even when a preparer invented the credits. Always review your return line by line before signing, question any credit you do not recognize, confirm the preparer signs the return with a valid PTIN, and insist that any refund be deposited directly into your own bank account.",
+    categorySlug: "tax-scams",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","National Fraud Enforcement Division"],
+    sourceUrl: "https://www.justice.gov/opa/pr/phoenix-tax-preparer-convicted-willfully-filing-false-tax-returns",
+    country: "US",
+});
+
+UsTZ.push({
+    name: "Unordered Medicare Brace Shipments From a Straw-Owned Supply Company (New Hampshire)",
+    slug: "unordered-medicare-brace-shipments-straw-owned-supply-company-new-hampshire",
+    description:
+      "A Massachusetts man pleaded guilty in federal court in Concord to a money laundering conspiracy tied to a durable medical equipment scheme that billed Medicare more than $6 million. He admitted serving as the straw or nominee owner of a Rochester, New Hampshire supply company so his co-conspirators could stay off the Medicare enrollment paperwork, and he submitted false bank account opening documents to conceal who really controlled the business. The company billed for knee and back braces that beneficiaries did not need and doctors never prescribed, using fake physician orders; Medicare paid over $3 million, and seniors mailed boxes of unwanted braces back with notes saying they never ordered them and calling it a scam. He faces up to ten years in prison at sentencing. If medical equipment arrives that you never ordered, do not use it or ignore it — keep the packaging, report it to 1-800-MEDICARE and the HHS fraud hotline, review your Medicare summary notices for devices you never received, and never give your Medicare number to callers offering free braces.",
+    categorySlug: "medicare-health-plans",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of New Hampshire"],
+    sourceUrl: "https://www.justice.gov/usao-nh/pr/cape-cod-man-pleads-guilty-conspiring-launder-proceeds-6-million-medicare-fraud-scheme",
+    country: "US",
+    state: "NH",
+});

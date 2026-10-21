@@ -13261,3 +13261,41 @@ UsAF.push({
     country: "US",
     state: "OH",
 });
+
+UsAF.push({
+    name: "Brushing Scam Packages with QR \"Register Your Gift\" Cards",
+    slug: "brushing-scam-qr-register-your-gift-cards",
+    description:
+      "An unordered package arrives at your home addressed to you by name, usually containing something cheap like toothpaste, baby wipes, seeds, or costume jewelry. A third-party marketplace seller sent it using your name and address from a data breach, so the delivery creates a real tracking number they can use to post a fake \"verified purchase\" review under your identity. Newer versions include a card with a QR code promising to reveal who sent the gift or to process a return, but there is no such lookup service and the code leads to a phishing page that steals retailer logins and card numbers. The FTC warns that receiving one of these packages means your personal details are circulating on seller lists and may signal an already-compromised shopping account. Do not scan the code, change the passwords on your online shopping accounts, review your card statements for unfamiliar charges, and keep the merchandise, which you are legally entitled to do.",
+    categorySlug: "package-delivery-scams",
+    alertLevel: "medium",
+    sources: ["U.S. Federal Trade Commission consumer alert, August 20, 2026: \"That unexpected package you got could be a brushing scam\"","Scripps News national coverage of the FTC alert","WRTV national coverage of the FTC alert"],
+    sourceUrl: "https://consumer.ftc.gov/scams",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Church Affinity Investment Fraud Over a Fake Online Marketplace (Washington)",
+    slug: "church-affinity-investment-fraud-fake-online-marketplace-washington",
+    description:
+      "Federal prosecutors allege the pastor of a Kirkland-area Christian congregation raised roughly $13 million from dozens of his own church members by presenting a supposedly thriving online marketplace and social media company as an investment opportunity. According to the indictment, he built credibility with fake marketing materials, polished websites, expensive offices, and promises of a future stock exchange listing and community benefit, then spent investor funds on personal luxuries and day trading. The pastor was arraigned in U.S. District Court in Seattle on ten counts of wire fraud and five counts of money laundering, pleaded not guilty, and is scheduled for trial. Affinity fraud works because the pitch comes from inside a trusted faith or community group, where asking hard questions feels disloyal. Before investing money offered through a church, club, or social circle, verify the company and the person selling the investment with your state securities regulator, demand audited financials in writing, and never treat shared faith as a substitute for due diligence.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Western District of Washington"],
+    sourceUrl: "https://www.justice.gov/usao-wdwa/pr/pastor-kirkland-washington-church-indicted-ten-counts-wire-fraud-and-five-counts-money",
+    country: "US",
+    state: "WA",
+});
+
+UsAF.push({
+    name: "Email Impersonation Used to Pry Confidential Legal Records From an Attorney (Oregon)",
+    slug: "email-impersonation-confidential-legal-records-attorney-oregon",
+    description:
+      "A California man pleaded guilty in federal court in Portland to stalking and aggravated identity theft after a years-long campaign against a former girlfriend. Court documents describe how he opened social media and forum accounts in her name, and in 2021 created an email account using her maiden name to impersonate her and successfully obtain her confidential legal file from her attorney — then used information from that file, including the name of a minor family member, in later harassing messages, and distributed intimate images to strangers from accounts tied to her identity. He agreed to pay full restitution to the victim and her attorney and faces up to five years for stalking plus a mandatory consecutive two-year term for aggravated identity theft at sentencing. The case shows how easily a look-alike email address can be used to extract sensitive records from professionals who serve you. Ask your lawyer, doctor, and financial advisor to verify identity by phone before releasing files, set up unique passphrases or two-factor authentication on accounts holding your records, and report impostor accounts opened in your name to the platform and to law enforcement immediately.",
+    categorySlug: "identity-theft",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of Oregon"],
+    sourceUrl: "https://www.justice.gov/usao-or/pr/california-man-pleads-guilty-cyberstalking-ex-girlfriend",
+    country: "US",
+    state: "OR",
+});
