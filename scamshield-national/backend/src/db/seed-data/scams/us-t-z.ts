@@ -7649,3 +7649,29 @@ UsTZ.push({
     country: "US",
     state: "RI",
 });
+
+UsTZ.push({
+    name: "Trusted Neighbor Elder Bank Account and Credit Card Takeover (New York)",
+    slug: "trusted-neighbor-elder-bank-account-and-credit-card-takeover-new-york",
+    description:
+      "A woman who had earned the trust of an elderly neighbor over 90 years old used that access to let an accomplice obtain the victim's banking information. Together they pulled large cash withdrawals from ATMs, wired money to the woman's own account and ran debit card purchases, carrying out roughly $252,673 in unauthorized transactions that cut the victim's savings from about $283,955 to $99.59. They also used the victim's personal identifying information to open three credit cards in his name and ran up charges at three financial institutions. The woman was convicted of conspiracy to commit wire fraud and aggravated identity theft and sentenced to 48 months in prison. Families should arrange for a second trusted person to review an older relative's bank statements regularly and place a credit freeze so no one can open accounts in their name.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Western District of New York"],
+    sourceUrl: "https://www.justice.gov/usao-wdny/pr/dansville-woman-sentenced-bilking-elderly-victim-out-tens-thousands-dollars",
+    country: "US",
+    state: "NY",
+});
+
+UsTZ.push({
+    name: "Unlicensed General Contractor Bid and Payment Diversion Scheme (Virginia)",
+    slug: "unlicensed-general-contractor-bid-and-payment-diversion-scheme-virginia",
+    description:
+      "A man formed business entities in dozens of states and presented himself as a licensed general contractor, winning construction contracts across the country between January 2020 and February 2023 while hiding that he held no license of his own. He borrowed the licensing credentials of other businesses, forged notary stamps, and produced fabricated certificates and lien waivers to collect progress payments, then diverted the money for personal use. Subcontractors were strung along with small \"lulling\" payments or excuses that he had not yet been paid himself, and he lied to regulators to cover the fraud. He was sentenced to eight years in prison for wire fraud and ordered to pay more than $1.93 million in restitution. Before signing a construction contract, confirm the license number directly with the state licensing board under the contractor's own name, and ask subcontractors whether they are actually being paid.",
+    categorySlug: "home-improvement-solar",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of Virginia"],
+    sourceUrl: "https://www.justice.gov/usao-edva/pr/ohio-man-sentenced-eight-years-prison-19m-fraudulent-construction-scheme",
+    country: "US",
+    state: "VA",
+});

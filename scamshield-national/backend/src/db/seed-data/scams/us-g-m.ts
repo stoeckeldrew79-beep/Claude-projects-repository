@@ -14251,3 +14251,29 @@ UsGM.push({
     sourceUrl: "https://www.cbp.gov/trade/programs-administration/trade-remedies/ieepa-duty-refunds",
     country: "US",
 });
+
+UsGM.push({
+    name: "Jamaican Lottery Prize Tax-and-Fee Scam with U.S. Cash Collector (Missouri)",
+    slug: "jamaican-lottery-prize-tax-and-fee-scam-with-us-cash-collector-missouri",
+    description:
+      "Callers based in Jamaica told victims they had won a lottery prize but had to pay taxes and fees up front before the winnings could be released. Victims mailed cash, checks and money orders, and sent at least one wire, to a collector in the St. Louis area who kept 20 percent and forwarded the rest overseas; he also received forged letters by WhatsApp that appeared to come from U.S. government officials vouching for the lottery and mailed them from inside the United States so the paperwork would not look suspicious. About $96,302 was taken from eight victims between December 2016 and July 2018, and one victim told a postal employee she was mailing money to become a millionaire. The collector fled after being interviewed by postal inspectors, was arrested in 2025, and has pleaded guilty to conspiracy to commit mail and wire fraud. A real lottery never requires you to pay taxes or fees to collect a prize, and any letter 'confirming' a win is worthless if you are being asked to mail cash.",
+    categorySlug: "lottery-sweepstakes-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of Missouri"],
+    sourceUrl: "https://www.justice.gov/usao-edmo/pr/former-st-louis-county-man-admits-aiding-jamaican-lottery-scam",
+    country: "US",
+    state: "MO",
+});
+
+UsGM.push({
+    name: "Mail Theft and \"Card Cracking\" Bank Fraud Ring (Richmond, Virginia)",
+    slug: "mail-theft-and-card-cracking-bank-fraud-ring-richmond-virginia",
+    description:
+      "Two men and their co-conspirators stole U.S. mail from collection boxes, at times using stolen Postal Service \"arrow\" keys that open every blue box in an area, and harvested the personal and financial information inside. They used that information to create fake checks drawn on victims' accounts, withdraw money with stolen debit and credit cards, and even apply for loans in victims' names and drain the proceeds. When officers stopped the pair after a single day's spree of five withdrawals totaling $84,000, they recovered nearly $60,000 in cash, 83 stolen checks worth more than $153,000, nine stolen cards, stolen savings bonds and a counterfeit driver's license. Both men pleaded guilty to conspiracy to commit bank fraud and possession of stolen mail and were sentenced to three years and five and a half years in prison. Avoid leaving outgoing checks in a residential or curbside mailbox, use inside-the-post-office drop slots, and set up account alerts so unfamiliar withdrawals or new loan applications surface immediately.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of Virginia"],
+    sourceUrl: "https://www.justice.gov/usao-edva/pr/richmond-men-sentenced-prison-card-cracking-and-stolen-mail",
+    country: "US",
+    state: "VA",
+});

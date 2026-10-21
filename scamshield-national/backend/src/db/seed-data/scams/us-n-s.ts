@@ -13504,3 +13504,29 @@ UsNS.push({
     country: "US",
     state: "RI",
 });
+
+UsNS.push({
+    name: "Rideshare Courier Grandparent Scam Cash Pickup Ring (Pennsylvania)",
+    slug: "rideshare-courier-grandparent-scam-cash-pickup-ring-pennsylvania",
+    description:
+      "An organized crime group operating out of the Dominican Republic called elderly people and impersonated a grandchild or other close relative in a sudden crisis who needed money immediately. Instead of asking for a wire, the callers arranged for a rideshare driver to come to the victim's home and pick up an envelope of cash, which was then passed to handlers who deposited it in bank accounts or sent it abroad through money transfer services. One elderly victim in western Pennsylvania handed over $10,000 in July 2025 and was then pressured for another $12,000 supposedly to get a daughter out of prison; the family alerted state police and the second pickup was intercepted. A man who collected and laundered the proceeds pleaded guilty in federal court to money laundering conspiracy. If a caller claiming to be a relative in trouble asks for cash and says a driver is coming to your door, hang up and call the relative directly on a known number before giving anyone anything.",
+    categorySlug: "grandparent-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Western District of Pennsylvania"],
+    sourceUrl: "https://www.justice.gov/usao-wdpa/pr/dominican-republic-man-illegally-united-states-pleads-guilty-role-large-grandparent",
+    country: "US",
+    state: "PA",
+});
+
+UsNS.push({
+    name: "Nonexistent \"Tax-Free Bond\" Ponzi Scheme by a Barred Financial Advisor (California)",
+    slug: "nonexistent-tax-free-bond-ponzi-scheme-by-a-barred-financial-advisor-california",
+    description:
+      "An East Bay financial advisor told at least 93 investors he could place their money in exclusive, tax-free bonds paying returns as high as 30 percent, claimed his own family had invested, said he charged no fees because he had already done so well, and promised the money could be withdrawn at any time. The bonds never existed: money from newer investors was used to pay earlier ones while he spent victim funds on cash withdrawals, home renovations, travel, vehicles, mortgages and credit card bills, taking more than $9.5 million between 1998 and September 2024. He kept soliciting investments even during a period when industry regulators had barred him from broker-related business. He pleaded guilty to wire fraud and money laundering and was sentenced to nine years in federal prison, with a parallel SEC civil action pending. Before investing, verify an adviser's license and disciplinary history through FINRA BrokerCheck, and treat guaranteed double-digit \"exclusive\" returns and no-fee claims as warning signs.",
+    categorySlug: "ponzi-pyramid-schemes",
+    alertLevel: "critical",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Northern District of California"],
+    sourceUrl: "https://www.justice.gov/usao-ndca/pr/former-east-bay-financial-advisor-sentenced-nine-years-federal-prison-ponzi-scheme",
+    country: "US",
+    state: "CA",
+});

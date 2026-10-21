@@ -13312,3 +13312,16 @@ UsAF.push({
     country: "US",
     state: "RI",
 });
+
+UsAF.push({
+    name: "Digital Event Invitation Phishing from Hacked Contacts",
+    slug: "digital-event-invitation-phishing-from-hacked-contacts",
+    description:
+      "Scammers break into an ordinary person's email account and then use that real account to send event invitations, such as a birthday party or conference, to everyone in the victim's contact list. Because the message truly comes from a friend or coworker, the usual unknown-sender warning signs are missing. The invitation contains a link to 'view the invitation' that leads to a fake sign-in page built to harvest your email username and password. Each stolen account becomes the launch point for the next wave, so the scheme spreads through address books. Never enter your email password after clicking an invitation link; go directly to the invitation service yourself, and contact the sender by phone or text to confirm they really sent it.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Pennsylvania Office of Attorney General (Attorney General Dave Sunday), consumer alert issued May 2026"],
+    sourceUrl: "https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-alerts-pennsylvanians-of-a-new-email-invitation-phishing-scam/",
+    country: "US",
+    state: "PA",
+});

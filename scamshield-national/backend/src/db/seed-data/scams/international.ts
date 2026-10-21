@@ -25569,3 +25569,51 @@ International.push({
     sourceUrl: "https://www.mycheck.my/report/a13ff8e4-23af-45d1-bf84-672dd76810ad/waspada-terima-parcel-tidak-dipesan-ke-rumah-taktik-baharu-scammer-untuk-jerat-mangsa",
     country: "MY",
 });
+
+International.push({
+    name: "Fake Intermediaries Selling Access to the Malian Administration",
+    slug: "fake-intermediaries-selling-access-to-the-malian-administration",
+    description:
+      "Fraudsters present themselves as brokers, fixers or mandated agents of senior Malian public officials, sometimes invoking the name of the Presidency of the Republic, and promise to arrange civil-service jobs, fast-tracked administrative documents or public procurement contracts. Victims are asked for an up-front 'facilitation' payment and receive nothing in return. A related strand is coercive: individuals claiming presidential backing intimidate administration officials and business operators into complying with their demands. Mali's Ministry of Security and Civil Protection warned about the practice in a communique dated 28 July 2025, signed by Général de Division Daoud Aly Mohammedine, citing law n°98-012 of 19 January 1998 on relations between the administration and the public as part of the framework for prosecuting usurpation of identity or authority. Never pay anyone who offers to 'arrange' a public job, document or contract for you, deal only directly with the relevant public office, and report anyone invoking the name of an official to demand money or favours to the police.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["https://bamada.net/alerte-aux-arnaques-administratives-le-ministere-de-la-securite-met-en-garde-contre-de-faux-intermediaires","https://mali24.info/proliferation-des-escroqueries-dans-les-services-publics-le-ministre-de-la-securite-met-en-garde/"],
+    sourceUrl: "https://bamada.net/alerte-aux-arnaques-administratives-le-ministere-de-la-securite-met-en-garde-contre-de-faux-intermediaires",
+    country: "ML",
+});
+
+International.push({
+    name: "Dogon Mask Fake-Sale Scam (Sénou Network)",
+    slug: "dogon-mask-fake-sale-scam-senou-network",
+    description:
+      "This is an advance-fee and fictitious-sale fraud built around Mali's Dogon ceremonial masks and other cultural artefacts, aimed largely at victims abroad. Ring members pose as owners or agents handling a genuine mask, while an accomplice approaches the victim as a wealthy foreign collector ready to pay a huge sum, creating the illusion of a guaranteed resale profit. The victim pays out money for a deal that does not exist — the mask, the buyer and the transfers are all staged — and the group disappears. The Commissariat de Police de Sénou in Bamako, through its Brigade de Recherches, arrested three suspects on 13 May 2025 after a series of victim complaints, describing them as part of a network with branches reaching Guinea-Conakry, France, the United Kingdom and the United States, with losses exceeding 60 million FCFA. Treat any art or antiquities deal where a stranger guarantees a rich foreign buyer as a scam, never send money up front to secure a resale, and verify sellers and buyers independently before any payment.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "high",
+    sources: ["https://www.maliweb.net/faits-divers/mali-un-reseau-descrocs-demantele-a-senou-3105513.html","https://www.maliweb.net/faits-divers/senou-la-police-avec-le-grapin-sur-un-redoutable-trio-3105800.html","https://lesoftpost.com/2025/06/03/pour-escroquerie-de-plus-de-60-millions-de-fcfa-trois-3-individus-interpelles/"],
+    sourceUrl: "https://www.maliweb.net/faits-divers/mali-un-reseau-descrocs-demantele-a-senou-3105513.html",
+    country: "ML",
+});
+
+International.push({
+    name: "Cloned Seychelles FSA Websites and Forged Securities Dealer Licences",
+    slug: "cloned-seychelles-fsa-websites-and-forged-securities-dealer-licences",
+    description:
+      "Fraudsters have built look-alike copies of the Seychelles Financial Services Authority website on domains such as fsaseychelles.com and fsaseychelle.com, which differ by only a character or two from the genuine fsaseychelles.sc. The FSA says at least one clone displayed a forged securities dealer licence, so an investor who tries to verify a broker with the regulator lands on the scammers' mirror and sees fake proof the firm is authorised. A related email channel sends misleading correspondence from contact@fsa-seychelles.com, an address the FSA does not use, and other entities misuse the Seychelles Coat of Arms and FSA logo to sell bogus incorporation or good-standing certificates. Always type fsaseychelles.sc directly into your browser rather than following a link supplied by a broker, and check the exact domain and licence details before sending any money. Report suspicious sites or emails claiming to be the FSA to the Authority.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Financial Services Authority of Seychelles - Regulatory Updates / Scam Alerts","https://fsaseychelles.sc/media-corner/regulatory-updates/alert-cloning-of-the-fsa-website-2","https://fsaseychelles.sc/media-corner/regulatory-updates/scam-alert-fraudulent-email-contact-fsa-seychelles-com"],
+    sourceUrl: "https://fsaseychelles.sc/media-corner/regulatory-updates/alert-cloning-of-the-fsa-website-and-forgery-of-securities-dealer-licence",
+    country: "SC",
+});
+
+International.push({
+    name: "Fake Enterprise Seychelles Agency Project Proposal Calls on Social Media",
+    slug: "fake-enterprise-seychelles-agency-project-proposal-calls-on-social-media",
+    description:
+      "Two posts circulating on social media impersonated the Enterprise Seychelles Agency, the government's small-business support body, and invited Seychellois to submit project proposals for funding that the agency was not actually offering. The Ministry of Finance, Economic Planning, Trade and Investment issued a scam alert on 10 June 2026 cautioning the public not to fall for the posts. The Ministry clarified that the National Grants Fund is the only fund it manages, which is the key tell: a genuine funding call would be announced through that official channel. Treat any social media post asking you to submit business proposals or personal details to a government agency as unverified until you confirm it on the agency's own website or by phoning its published number. Do not send documents, fees or identity information in response to such posts, and report them to the Ministry.",
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["Ministry of Finance, Economic Planning, Trade and Investment (Seychelles), SCAM ALERT, 10 June 2026"],
+    sourceUrl: "https://www.finance.gov.sc/blog/2026/06/10/ministry-of-finance-issues-scam-alert/",
+    country: "SC",
+});
