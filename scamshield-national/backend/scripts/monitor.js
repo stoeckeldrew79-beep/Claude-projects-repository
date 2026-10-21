@@ -25,7 +25,7 @@ const path = require('path');
 const { getJson, apiChecks, runChecks } = require('./ci-smoke-test');
 
 const API_URL = (process.env.API_URL || 'https://scamshield-national-backend.onrender.com').replace(/\/+$/, '');
-const SITE_URL = (process.env.SITE_URL || 'https://claude-projects-repository.vercel.app').replace(/\/+$/, '');
+const SITE_URL = (process.env.SITE_URL || 'https://www.scamtitan.com').replace(/\/+$/, '');
 const REPORT_DIR = process.env.REPORT_DIR || process.cwd();
 const RETRY_DELAY_SECONDS = Number(process.env.RETRY_DELAY_SECONDS ?? 60);
 // The news scan runs every 2 hours; a day's worth of runs finding nothing
