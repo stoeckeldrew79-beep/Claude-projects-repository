@@ -13491,3 +13491,16 @@ UsNS.push({
     country: "US",
     state: "FL",
 });
+
+UsNS.push({
+    name: "Rhode Island Division of Taxation Impersonation Texts and Spoofed Calls",
+    slug: "rhode-island-division-of-taxation-impersonation-texts-and-spoofed-calls",
+    description:
+      "Fraudsters send text messages and place phone calls claiming to be the Rhode Island Division of Taxation, pressuring taxpayers to click a link or respond about a supposed refund or unpaid balance. Tax Administrator Neena Savage has stated flatly that the Division never contacts taxpayers by text, so any such message is fake. In the phone version, scammers spoof real Division phone numbers on caller ID, which prompted the agency to publish a dedicated scam-call advisory (ADV 2025-15) and a fraud-guidance page. The Division notes this is part of a nationwide operation that rotates through different state tax agency names. Do not click links or give out personal or payment information; hang up and call the Division directly using the number listed on tax.ri.gov.",
+    categorySlug: "tax-scams",
+    alertLevel: "medium",
+    sources: ["Rhode Island Division of Taxation (RI Department of Revenue), Advisory ADV 2025-15"],
+    sourceUrl: "https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-08/ADV_2025_15_Scam_Calls.pdf",
+    country: "US",
+    state: "RI",
+});

@@ -13299,3 +13299,16 @@ UsAF.push({
     country: "US",
     state: "OR",
 });
+
+UsAF.push({
+    name: "Cloned Rhode Island UI Online Unemployment Portal and DLT Phishing Emails",
+    slug: "cloned-rhode-island-ui-online-unemployment-portal-and-dlt-phishing-emails",
+    description:
+      "Scammers have built a fraudulent website that copies Rhode Island's official UI Online unemployment benefits portal run by the Department of Labor and Training. Claimants who log in to the fake site hand over their credentials and personal information, which criminals use to hijack benefit claims and commit identity theft. DLT has also warned about phishing emails sent from outside addresses that ask whether you are receiving unemployment benefits, plus a separate campaign built around professional licenses issued by the department. Always reach the unemployment portal by typing the official dlt.ri.gov address yourself rather than clicking links in emails or search ads. If you think you entered your details on a fake site, change your password immediately and report it to DLT through its \"Be Aware of Scams\" page.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Rhode Island Department of Labor and Training, Be Aware of Scams alert page"],
+    sourceUrl: "https://dlt.ri.gov/be-aware-scams",
+    country: "US",
+    state: "RI",
+});

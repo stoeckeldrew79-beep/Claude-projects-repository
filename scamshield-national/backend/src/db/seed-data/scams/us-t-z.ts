@@ -7636,3 +7636,16 @@ UsTZ.push({
     country: "US",
     state: "NH",
 });
+
+UsTZ.push({
+    name: "UPP Global Fake Parking Ticket and Hidden Fee Scheme",
+    slug: "upp-global-fake-parking-ticket-and-hidden-fee-scheme",
+    description:
+      "UPP Global, a private parking-lot management company operating in Rhode Island, was sued by the state Attorney General for concealing the true price of parking and adding hidden fees at the point of payment. The company also issued private \"parking tickets\" designed to look like official municipal citations, falsely threatening drivers' licenses, vehicle registrations, and credit scores if the invoices went unpaid. Many Rhode Island drivers paid these private bills believing they were government-issued violations. The Attorney General's Consumer Protection Unit announced a $1.35 million settlement, stating that consumers who paid unlawful tickets and hidden fees would be made whole. If you paid a parking notice from a private lot operator in Rhode Island, check the Attorney General's settlement announcement to see whether you are owed restitution, and always confirm whether a citation came from a city or a private company before paying.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Rhode Island Office of the Attorney General, Consumer Protection Unit"],
+    sourceUrl: "https://riag.ri.gov/press-releases/attorney-general-neronha-announces-135-million-settlement-parking-management-company",
+    country: "US",
+    state: "RI",
+});
