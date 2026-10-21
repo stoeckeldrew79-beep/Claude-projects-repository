@@ -26,7 +26,8 @@ const COLUMNS: { heading: string; links: { to: string; label: string }[] }[] = [
   {
     heading: 'Protect yourself',
     links: [
-      { to: '/check-now', label: 'Check something now' },
+      { to: '/check-now', label: 'Scam Checker' },
+      { to: '/help', label: "I've been scammed" },
       { to: '/report', label: 'Report a scam' },
       { to: '/report-status', label: 'Check report status' },
       { to: '/alerts', label: 'Scam alerts' },

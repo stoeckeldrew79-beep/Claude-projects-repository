@@ -11,7 +11,9 @@ on:
     # countries, the US, and a batch of DOJ fraud releases — SCAMSHIELD_PLAN
     # in generateScamEntries.ts), so a single dead-end target can't stall
     # growth the way always-retrying Laos did in October 2026.
-    - cron: '10 0,6,12,18 * * *'
+    # Minute 37, not :00-:15 — GitHub delays or drops scheduled runs at the
+    # top of the hour when it is busy (2 of 4 ran on Oct 19).
+    - cron: '37 1,7,13,19 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

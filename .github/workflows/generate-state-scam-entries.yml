@@ -14,9 +14,9 @@ name: Generate ScamShield state scam entries
 
 on:
   schedule:
-    # 07:10 and 19:10 UTC — an hour after the national run, so the two never
+    # 04:43 and 16:43 UTC — between the national runs, so the two never
     # contend for the same push and each commit is attributable to one job.
-    - cron: '10 7,19 * * *'
+    - cron: '43 4,16 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
