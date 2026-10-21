@@ -1,5 +1,6 @@
 import { FormEvent, useState } from 'react';
-import { useMutation, useQueryClient } from '@tanstack/react-query';
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
+import { api } from '../services/api';
 import { createArticle, createScam, updateArticleCoverImage } from '../services/admin';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { useAllArticleSummaries } from '../hooks/useArticles';
@@ -1023,6 +1024,42 @@ function GlobalSourcesPanel() {
   );
 }
 
+// "Be the first inside" sign-ups from the launch page — the list to email
+// on launch day.
+function WaitlistPanel({ enabled }: { enabled: boolean }) {
+  const { data, isError } = useQuery({
+    queryKey: ['waitlist'],
+    queryFn: async () =>
+      (await api.get<{ data: { total: number; signups: { email: string; created_at: string }[] } }>('/waitlist')).data
+        .data,
+    enabled,
+  });
+  return (
+    <section className="rounded-lg border border-slate-200 p-5">
+      <h2 className="font-semibold text-slate-900">Launch sign-ups</h2>
+      {isError && <p className="mt-2 text-sm text-red-700">Couldn&apos;t load sign-ups.</p>}
+      {data && (
+        <>
+          <p className="mt-1 text-sm text-slate-600">
+            <span className="text-2xl font-bold text-slate-900">{data.total.toLocaleString()}</span>{' '}
+            {data.total === 1 ? 'person has' : 'people have'} asked to be told when ScamTitan launches.
+          </p>
+          {data.signups.length > 0 && (
+            <ul className="mt-3 max-h-64 divide-y divide-slate-100 overflow-y-auto text-sm">
+              {data.signups.map((s) => (
+                <li key={s.email} className="flex justify-between gap-3 py-1.5">
+                  <span className="truncate text-slate-800">{s.email}</span>
+                  <span className="shrink-0 text-slate-500">{new Date(s.created_at).toLocaleDateString()}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </>
+      )}
+    </section>
+  );
+}
+
 export default function Admin() {
   useDocumentMeta({ title: 'Admin', description: 'ScamTitan International admin panel.', noindex: true });
 
@@ -1054,6 +1091,7 @@ export default function Admin() {
       </p>
 
       <div className="space-y-6">
+        <WaitlistPanel enabled={isAdmin} />
         <ReportsQueue />
         <AlertCandidatesQueue />
         <DraftsQueue />
