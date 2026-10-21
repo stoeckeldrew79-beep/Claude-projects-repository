@@ -83,10 +83,11 @@ export function MobileMenu() {
             <div className="absolute inset-y-0 right-0 flex w-full max-w-sm flex-col bg-slate-950 shadow-2xl animate-slide-in motion-reduce:animate-none">
               <div className="flex items-center justify-between border-b border-white/10 px-4 py-3">
                 <Link to="/" className="flex items-center gap-2">
-                  <ShieldLogo className="h-8 w-8" />
-                  <span className="font-bold text-white" style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}>
-                    ScamShield National
-                  </span>
+                  <ShieldLogo className="h-10 w-10" />
+                  <span className="font-black tracking-tight text-white">
+              Scam<span className="text-[#ef4444]">Titan</span> 
+              <span className="text-[10px] font-bold uppercase tracking-[0.28em] opacity-70">International</span>
+            </span>
                 </Link>
                 <button
                   ref={closeRef}

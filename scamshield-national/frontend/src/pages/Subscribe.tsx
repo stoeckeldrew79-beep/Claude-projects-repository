@@ -74,7 +74,7 @@ const FAQ: { q: string; a: string }[] = [
     a: 'We monitor state Attorney General and federal (DOJ, FTC) publications and news coverage, plus reports from the public, and document new scams in our database. Your alerts are the new entries that match your watch profiles.',
   },
   {
-    q: 'Is ScamShield National a government agency?',
+    q: 'Is ScamTitan International a government agency?',
     a: 'No. We are a private consumer-protection service, not affiliated with or endorsed by any government body. To report fraud officially in the U.S., use reportfraud.ftc.gov.',
   },
 ];
@@ -95,7 +95,7 @@ export default function Subscribe() {
   useDocumentMeta({
     title: 'Plans & Pricing',
     description:
-      'Choose a ScamShield National plan for scam alerts by email and SMS — from a weekly digest to instant alerts for your whole family.',
+      'Choose a ScamTitan International plan for scam alerts by email and SMS — from a weekly digest to instant alerts for your whole family.',
     path: '/subscribe',
   });
 

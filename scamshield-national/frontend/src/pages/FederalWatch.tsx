@@ -400,7 +400,7 @@ export default function FederalWatch() {
               </a>
             </div>
             <p className="mt-4 text-xs text-slate-500">
-              ScamShield National is a private service and cannot take enforcement action. If money is actively at
+              ScamTitan International is a private service and cannot take enforcement action. If money is actively at
               risk, contact your bank first, then file with the FTC and your{' '}
               <Link to="/state-attorneys-general" className="underline">
                 state Attorney General

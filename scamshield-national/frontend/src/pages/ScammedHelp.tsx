@@ -287,12 +287,12 @@ export default function ScammedHelp() {
           <Link to="/report" className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-slate-200 hover:ring-slate-400">
             <p className="font-bold text-slate-900">Warn others</p>
             <p className="mt-1 text-sm text-slate-600">
-              Report it to ScamShield so we can spot the pattern and alert people near you.
+              Report it to ScamTitan so we can spot the pattern and alert people near you.
             </p>
           </Link>
         </div>
         <p className="mt-6 text-center text-xs text-slate-500">
-          ScamShield National is a private consumer-protection service, not a government agency or law firm. In an
+          ScamTitan International is a private consumer-protection service, not a government agency or law firm. In an
           emergency, call 911.
         </p>
       </div>

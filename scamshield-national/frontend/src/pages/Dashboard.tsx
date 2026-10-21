@@ -20,7 +20,7 @@ const SHORTCUTS = [
 ];
 
 export default function Dashboard() {
-  useDocumentMeta({ title: 'Dashboard', description: 'Manage your ScamShield National account.', noindex: true });
+  useDocumentMeta({ title: 'Dashboard', description: 'Manage your ScamTitan International account.', noindex: true });
 
   const user = useAuthStore((s) => s.user);
   const { data: subscription, isLoading } = useSubscriptionStatus(Boolean(user));

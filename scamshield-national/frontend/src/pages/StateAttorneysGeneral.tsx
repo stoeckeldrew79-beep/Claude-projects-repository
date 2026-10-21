@@ -118,7 +118,7 @@ function StateCard({
   const slug = stateSlug(source.state);
   const live = isFeedLive(status);
   return (
-    <div id={`state-${source.state}`} className="flex scroll-mt-20 md:scroll-mt-32 flex-col rounded-xl border border-slate-200 bg-white p-5">
+    <div id={`state-${source.state}`} className="flex scroll-mt-20 md:scroll-mt-36 flex-col rounded-xl border border-slate-200 bg-white p-5">
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
           <Link

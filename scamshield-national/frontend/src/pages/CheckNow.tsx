@@ -133,7 +133,7 @@ function Results({ result, text, onReset }: { result: CheckResult; text: string;
               <li key={`${c.kind}-${c.value}`} className="flex flex-wrap items-baseline gap-x-2">
                 <span className="font-mono font-semibold text-slate-900">{c.value}</span>
                 <span>
-                  has been named in {c.reports} {c.reports === 1 ? 'report' : 'reports'} to ScamShield
+                  has been named in {c.reports} {c.reports === 1 ? 'report' : 'reports'} to ScamTitan
                   {c.lastReportedAt ? `, most recently ${new Date(c.lastReportedAt).toLocaleDateString()}` : ''}.
                 </span>
               </li>
@@ -240,7 +240,7 @@ function Results({ result, text, onReset }: { result: CheckResult; text: string;
             </a>{' '}
             and{' '}
             <Link to={`/report?description=${encodeURIComponent(text.slice(0, 500))}`} className="font-semibold underline">
-              to ScamShield
+              to ScamTitan
             </Link>{' '}
             so we can warn others.
           </li>

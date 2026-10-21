@@ -271,11 +271,11 @@ export default function StateDetail() {
               to="/report"
               className="rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-center text-sm font-semibold text-slate-700 hover:border-slate-400"
             >
-              Report it to ScamShield too
+              Report it to ScamTitan too
             </Link>
           </div>
           <p className="mt-4 text-xs text-slate-500">
-            ScamShield National is a private service and cannot take enforcement action. If money is actively at
+            ScamTitan International is a private service and cannot take enforcement action. If money is actively at
             risk, contact your bank first, then file with your state Attorney General and the FTC at{' '}
             <a href="https://reportfraud.ftc.gov" target="_blank" rel="noopener noreferrer" className="underline">
               reportfraud.ftc.gov

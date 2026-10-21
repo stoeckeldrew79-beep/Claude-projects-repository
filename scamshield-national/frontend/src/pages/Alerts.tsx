@@ -400,7 +400,7 @@ function AlertsLanding() {
                 S
               </span>
               <div className="min-w-0">
-                <p className="text-sm font-semibold">ScamShield National alerts</p>
+                <p className="text-sm font-semibold">ScamTitan International alerts</p>
                 <p className="truncate text-xs text-slate-500">New scams matching your watch list</p>
               </div>
             </div>
@@ -500,7 +500,7 @@ function AlertsLanding() {
           ))}
         </div>
         <p className="mt-6 text-xs text-slate-500">
-          ScamShield National is a private consumer-protection service, not a government agency. Unsubscribe or
+          ScamTitan International is a private consumer-protection service, not a government agency. Unsubscribe or
           cancel any time.
         </p>
       </section>

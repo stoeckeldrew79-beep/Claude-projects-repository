@@ -327,7 +327,7 @@ export default function Database() {
       </section>
 
       {/* ---------- Sticky filter rail ---------- */}
-      <div className="sticky top-14 z-30 border-b border-slate-200 bg-slate-50/95 backdrop-blur supports-[backdrop-filter]:bg-slate-50/80 md:top-24">
+      <div className="sticky top-16 z-30 border-b border-slate-200 bg-slate-50/95 backdrop-blur supports-[backdrop-filter]:bg-slate-50/80 md:top-32">
         <div className="mx-auto max-w-6xl px-4">
           <div className="-mx-4 flex items-center gap-2 overflow-x-auto px-4 py-2.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {view !== 'historical' &&

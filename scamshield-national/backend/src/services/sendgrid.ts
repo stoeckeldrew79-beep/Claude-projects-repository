@@ -25,7 +25,7 @@ export async function sendTransactionalEmail(to: string, subject: string, html: 
 }
 
 export async function sendWelcomeEmail(to: string) {
-  return sendTransactionalEmail(to, 'Welcome to ScamShield National', '<p>Thanks for signing up.</p>');
+  return sendTransactionalEmail(to, 'Welcome to ScamTitan International', '<p>Thanks for signing up.</p>');
 }
 
 function escapeHtml(value: string): string {
@@ -84,7 +84,7 @@ export function digestEmailHtml(items: DigestItem[], frequency: string, siteUrl:
   const label = FREQUENCY_LABEL[frequency] ?? frequency;
   const rows = items.map((item) => digestItemHtml(item, siteUrl)).join('');
   return `
-    <h2>Your ${escapeHtml(label)} ScamShield digest</h2>
+    <h2>Your ${escapeHtml(label)} ScamTitan digest</h2>
     <p style="color:#475569;">${items.length} new ${items.length === 1 ? 'scam matches' : 'scams match'} what you're watching.</p>
     <table width="100%" cellpadding="0" cellspacing="0">${rows}</table>
     <p style="margin-top:16px;"><a href="${siteUrl}/alerts">Manage what you're watching →</a></p>`;
@@ -94,5 +94,5 @@ export async function sendDigestEmail(to: string, items: DigestItem[], frequency
   const siteUrl = process.env.FRONTEND_URL ?? '';
   const html = digestEmailHtml(items, frequency, siteUrl);
   const label = FREQUENCY_LABEL[frequency] ?? frequency;
-  await sendTransactionalEmail(to, `Your ${label} ScamShield digest — ${items.length} new`, html);
+  await sendTransactionalEmail(to, `Your ${label} ScamTitan digest — ${items.length} new`, html);
 }

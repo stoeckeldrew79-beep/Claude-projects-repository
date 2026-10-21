@@ -23,7 +23,7 @@ async function saveDraft(pattern: DetectedPattern) {
       drafted.title,
       `${drafted.slug}-${Date.now().toString(36)}`,
       drafted.body,
-      'ScamShield AI (draft — pending review)',
+      'ScamTitan AI (draft — pending review)',
       ['ai-draft', 'guide', pattern.dedupeTag],
     ]
   );

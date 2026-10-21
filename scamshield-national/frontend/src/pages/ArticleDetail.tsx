@@ -4,6 +4,7 @@ import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
 import { CoverImage } from '../components/CoverImage';
 import { ShareButton } from '../components/ShareButton';
+import { displayAuthor } from '../utils/brand';
 
 // Strips the handful of markdown/HTML-ish characters a plain-text body
 // might carry, just enough for a clean <meta description> excerpt.
@@ -112,7 +113,7 @@ export default function ArticleDetail() {
         {article.title}
       </h1>
       <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-slate-500">
-        {article.author && <span>By {article.author}</span>}
+        {article.author && <span>By {displayAuthor(article.author)}</span>}
         {published && <span>{published}</span>}
         <span>{readingMinutes(article.body)} min read</span>
         <ShareButton title={article.title} text={excerpt(article.body, 120)} className="ml-auto" />

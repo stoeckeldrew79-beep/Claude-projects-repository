@@ -7,10 +7,10 @@ export type SubscriptionTier = 'basic' | 'pro' | 'family' | 'business';
 // and copy IDs into the host's environment. Existing members stay on the
 // price they signed up at; only new checkouts use the new one.
 export const PLAN_PRICES: Record<SubscriptionTier, { cents: number; name: string }> = {
-  basic: { cents: 1999, name: 'ScamShield Basic' },
-  pro: { cents: 2999, name: 'ScamShield Pro' },
-  family: { cents: 3999, name: 'ScamShield Family' },
-  business: { cents: 9999, name: 'ScamShield Business' },
+  basic: { cents: 1999, name: 'ScamTitan Basic' },
+  pro: { cents: 2999, name: 'ScamTitan Pro' },
+  family: { cents: 3999, name: 'ScamTitan Family' },
+  business: { cents: 9999, name: 'ScamTitan Business' },
 };
 
 const LOOKUP_PREFIX = 'scamshield_';

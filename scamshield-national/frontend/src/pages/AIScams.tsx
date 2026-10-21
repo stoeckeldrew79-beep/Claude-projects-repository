@@ -239,7 +239,7 @@ export default function AIScams() {
 
       {/* Sticks under the site header so search stays in reach while
           scrolling a long feed on a phone. */}
-      <div className="sticky top-14 z-20 -mx-4 mt-8 border-b border-slate-200 bg-white/95 px-4 py-3 backdrop-blur supports-[backdrop-filter]:bg-white/80 md:top-24">
+      <div className="sticky top-16 z-20 -mx-4 mt-8 border-b border-slate-200 bg-white/95 px-4 py-3 backdrop-blur supports-[backdrop-filter]:bg-white/80 md:top-32">
         <div className="relative max-w-2xl">
           <svg aria-hidden viewBox="0 0 20 20" className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 fill-slate-400">
             <path d="M8.5 3a5.5 5.5 0 014.38 8.83l3.65 3.64a.75.75 0 11-1.06 1.06l-3.64-3.65A5.5 5.5 0 118.5 3zm0 1.5a4 4 0 100 8 4 4 0 000-8z" />

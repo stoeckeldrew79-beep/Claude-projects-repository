@@ -1024,7 +1024,7 @@ function GlobalSourcesPanel() {
 }
 
 export default function Admin() {
-  useDocumentMeta({ title: 'Admin', description: 'ScamShield National admin panel.', noindex: true });
+  useDocumentMeta({ title: 'Admin', description: 'ScamTitan International admin panel.', noindex: true });
 
   // The role lives in the token, not the user object, so the page used to
   // render every panel for any signed-in account and let each save fail with

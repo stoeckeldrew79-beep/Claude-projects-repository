@@ -113,7 +113,7 @@ export default function ScamDetail() {
 
   useDocumentMeta({
     title: scam?.name ?? 'Scam Detail',
-    description: scam ? excerpt(scam.description) : 'Scam details from the ScamShield National database.',
+    description: scam ? excerpt(scam.description) : 'Scam details from the ScamTitan International database.',
     path: `/scams/${slug}`,
   });
 

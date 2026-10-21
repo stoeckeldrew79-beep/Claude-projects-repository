@@ -125,7 +125,7 @@ function describeJurisdictions(codes: string[]): string {
 export default function GlobalMap() {
   useDocumentMeta({
     title: 'Global Threat Map',
-    description: 'Real scam report activity by country, from the ScamShield National database.',
+    description: 'Real scam report activity by country, from the ScamTitan International database.',
     path: '/global-map',
   });
 
@@ -174,7 +174,7 @@ export default function GlobalMap() {
       <p className="text-xs font-semibold tracking-widest text-red-700 uppercase">Global Threat Map</p>
       <h1 className="mt-1 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">Where scams are being documented</h1>
       <p className="mt-3 max-w-2xl text-slate-600">
-        Every dot is a country with entries in the curated ScamShield database, sized by how many. Spin the globe, tap a
+        Every dot is a country with entries in the curated ScamTitan database, sized by how many. Spin the globe, tap a
         country to open its entries.<span className="hidden sm:inline"> This shows where activity has been recorded — not a
         prediction of where scams will happen next.</span>
       </p>

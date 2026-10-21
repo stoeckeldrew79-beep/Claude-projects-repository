@@ -318,7 +318,7 @@ export default function Statistics() {
   useDocumentMeta({
     title: 'Scam Statistics',
     description:
-      'Live counts from the ScamShield National database, alongside official fraud figures verified against each agency\'s own published report.',
+      'Live counts from the ScamTitan International database, alongside official fraud figures verified against each agency\'s own published report.',
     path: '/statistics',
   });
 
@@ -389,7 +389,7 @@ export default function Statistics() {
       <div className="mt-14">
         <h2 className="font-semibold text-slate-900">Inside the database</h2>
         <p className="mt-2 max-w-2xl text-sm text-slate-600">
-          What the ScamShield database holds right now — by severity, category, country and who is targeted, and how
+          What the ScamTitan database holds right now — by severity, category, country and who is targeted, and how
           fast it is growing. Every figure is a live count of curated entries; one entry is one documented scam
           pattern, not one victim.
         </p>

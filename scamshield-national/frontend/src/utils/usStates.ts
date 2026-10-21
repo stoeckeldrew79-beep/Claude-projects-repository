@@ -1,4 +1,4 @@
-// The 51 US jurisdictions ScamShield tracks state-level alerts for — the 50
+// The 51 US jurisdictions ScamTitan tracks state-level alerts for — the 50
 // states plus the District of Columbia, matching the state Attorney General
 // sources in the database.
 export const US_STATE_NAMES: Record<string, string> = {

@@ -29,7 +29,7 @@ export default function Login() {
 
   useDocumentMeta({
     title: mode === 'login' ? 'Sign In' : 'Create an Account',
-    description: 'Sign in to your ScamShield National account.',
+    description: 'Sign in to your ScamTitan International account.',
     noindex: true,
   });
 
@@ -69,7 +69,7 @@ export default function Login() {
   return (
     <div className="mx-auto grid max-w-5xl gap-10 px-4 py-12 sm:py-16 lg:grid-cols-2 lg:items-center">
       <div className="order-2 lg:order-1 hidden sm:block">
-        <p className="text-xs font-bold uppercase tracking-widest text-[#8a2e2e]">Your ScamShield account</p>
+        <p className="text-xs font-bold uppercase tracking-widest text-[#8a2e2e]">Your ScamTitan account</p>
         <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900">
           Stay a step ahead of the scams aimed at you.
         </h2>
@@ -88,16 +88,17 @@ export default function Login() {
           ))}
         </ul>
         <p className="mt-8 text-sm text-slate-500">
-          ScamShield National is a private consumer-protection service, not a government agency.
+          ScamTitan International is a private consumer-protection service, not a government agency.
         </p>
       </div>
 
       <div className="order-1 lg:order-2 mx-auto w-full max-w-sm rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-sm">
         <div className="flex items-center gap-2">
-          <ShieldLogo className="h-8 w-8" />
-          <span className="font-bold text-slate-900" style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}>
-            ScamShield National
-          </span>
+          <ShieldLogo className="h-10 w-10" />
+          <span className="font-black tracking-tight text-slate-900">
+              Scam<span className="text-[#ef4444]">Titan</span> 
+              <span className="text-[10px] font-bold uppercase tracking-[0.28em] opacity-70">International</span>
+            </span>
         </div>
         <h1 className="mt-5 text-2xl font-bold text-slate-900">
           {mode === 'login' ? 'Welcome back' : 'Create your free account'}

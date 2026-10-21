@@ -43,7 +43,7 @@ export function buildCandidate({ pattern, state, dedupeTag }: PlannedAlert): ale
       title: place
         ? `Recurring scam contact reported in ${place}: ${contact}`
         : `Recurring scam contact reported: ${contact}`,
-      body: `The same ${type} — ${contact} — has now shown up in at least ${approxCount} separate scam reports over the past 60 days${place ? `, concentrated in ${place}` : ''}. If you've been contacted by this ${type}, don't send money, gift cards, or personal information. Report it at ScamShieldNational.com.`,
+      body: `The same ${type} — ${contact} — has now shown up in at least ${approxCount} separate scam reports over the past 60 days${place ? `, concentrated in ${place}` : ''}. If you've been contacted by this ${type}, don't send money, gift cards, or personal information. Report it at ScamTitan.com.`,
       alert_level: 'high',
       ...targeting,
       pattern_type: 'recurring_contact',
@@ -54,7 +54,7 @@ export function buildCandidate({ pattern, state, dedupeTag }: PlannedAlert): ale
     return {
       dedupe_tag: dedupeTag,
       title: place ? `Reports rising in ${place}: ${input.categoryName}` : `Reports rising: ${input.categoryName}`,
-      body: `Reports of ${input.categoryName}${place ? ` in ${place}` : ''} have risen to ${input.countLast30d} in the past 30 days, up from ${input.countPrior30d} the 30 days before that. If this matches something you've recently seen, learn the warning signs at ScamShieldNational.com.`,
+      body: `Reports of ${input.categoryName}${place ? ` in ${place}` : ''} have risen to ${input.countLast30d} in the past 30 days, up from ${input.countPrior30d} the 30 days before that. If this matches something you've recently seen, learn the warning signs at ScamTitan.com.`,
       alert_level: 'medium',
       ...targeting,
       pattern_type: 'category_spike',
