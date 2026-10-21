@@ -14290,3 +14290,29 @@ UsGM.push({
     country: "US",
     state: "NJ",
 });
+
+UsGM.push({
+    name: "Milwaukee Brewers Postseason Counterfeit Ticket Scam",
+    slug: "milwaukee-brewers-postseason-counterfeit-ticket-scam",
+    description:
+      "Scammers are selling fake and counterfeit Milwaukee Brewers postseason and World Series tickets to Wisconsin fans, according to a DATCP consumer alert. Fraudulent sellers appear on social media and unofficial resale channels advertising front-row or sold-out seats at prices that are too good to be true, and they push buyers toward wire transfers, pre-paid debit cards, gift cards, cash, or cryptocurrency so the payment cannot be recovered. DATCP Secretary Randy Romanski warned that when demand for playoff tickets spikes, scammers come out of the woodwork, and flagged sellers who offer only printouts or photocopies of tickets. Buy only through established platforms with buyer guarantees such as SeatGeek, MLB's official fan resale marketplace, and if reselling in person at American Family Field use the designated Ticket Resale Zone next to Helfaer Field, since reselling outside designated areas is prohibited. Pay with a credit card, never by wire or gift card, and report suspicious sellers to DATCP's Bureau of Consumer Protection.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "high",
+    sources: ["Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP), Bureau of Consumer Protection, consumer alert dated October 9, 2026"],
+    sourceUrl: "https://datcp.wi.gov/Pages/DATCPWarnsFanstoAvoidTicketScamsthisPostseason.aspx",
+    country: "US",
+    state: "WI",
+});
+
+UsGM.push({
+    name: "\"Jewish Holocaust Claims Center\" Fake Compensation Letter",
+    slug: "jewish-holocaust-claims-center-fake-compensation-letter",
+    description:
+      "A Wisconsin family descended from Holocaust survivors received a mailed letter from a fabricated group calling itself the \"Jewish Holocaust Claims Center\" (JHCC), offering money from a non-existent \"Holocaust Survivors Compensation Program.\" The well-written letter claimed that under international agreements, eligible victims and their descendants were receiving compensation from the German government, and it named the specific family member and correctly identified the recipient as a descendant, which is what made the family believe it was real. DATCP Bureau of Consumer Protection director Michelle Reinen said no such organization or program exists and that the fictional JHCC has mailed letters to consumers nationwide, with the goal of extracting sensitive personal information. Warning signs included an envelope addressed to the consumer by name while the letter text was generic, and two different names listed as the sender. If you receive a letter like this, do not send personal details or documents, independently verify any reparations program through recognized bodies such as the Claims Conference, and report it to DATCP's Bureau of Consumer Protection.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["DATCP Bureau of Consumer Protection \"Scam Spotlight,\" September 2026; statements by Bureau director Michelle Reinen. Note: exact deep-link page URL could not be confirmed; linked to DATCP's official consumer alerts index."],
+    sourceUrl: "https://datcp.wi.gov/Pages/News_Media/ConsumerAlerts.aspx",
+    country: "US",
+    state: "WI",
+});

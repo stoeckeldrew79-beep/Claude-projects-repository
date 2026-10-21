@@ -13556,3 +13556,16 @@ UsNS.push({
     country: "US",
     state: "TX",
 });
+
+UsNS.push({
+    name: "Pinnacle Home Health Care Medicaid Personal-Care Billing Fraud",
+    slug: "pinnacle-home-health-care-medicaid-personal-care-billing-fraud",
+    description:
+      "The Wisconsin Department of Justice filed criminal charges in May 2026 against Debbie Long, 44, of Milwaukee, an owner and the administrator of Pinnacle Home Health Care, LLC. According to the criminal complaint, Long defrauded Wisconsin Medicaid of nearly $2.2 million by billing the state Department of Health Services for personal care services that never took place, fraudulently obtained a federal Paycheck Protection Program loan, and laundered the proceeds. Prosecutors allege she used the money to buy a restaurant, a car, and a car wash, and she was charged by the State with five counts. The case was investigated by the Wisconsin DOJ Medicaid Fraud Control and Elder Abuse Unit. If you or a family member receive Medicaid personal care services in Wisconsin, review your Explanation of Medical Benefits for visits or hours that never happened and report discrepancies to the Wisconsin DOJ Medicaid Fraud Control and Elder Abuse Unit.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "critical",
+    sources: ["Wisconsin Department of Justice, Medicaid Fraud Control and Elder Abuse Unit, press release on charges filed May 2026"],
+    sourceUrl: "https://www.wisdoj.gov/PressReleases/press-release-milwaukee-medicaid-ppp-fraud.pdf",
+    country: "US",
+    state: "WI",
+});
