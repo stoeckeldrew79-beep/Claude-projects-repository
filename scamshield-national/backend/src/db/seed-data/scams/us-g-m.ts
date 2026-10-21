@@ -14277,3 +14277,16 @@ UsGM.push({
     country: "US",
     state: "VA",
 });
+
+UsGM.push({
+    name: "Internet Romance Scam Money Laundering Network (New Jersey)",
+    slug: "internet-romance-scam-money-laundering-network-new-jersey",
+    description:
+      "Federal prosecutors described a multi-year conspiracy in which online romance scammers built relationships with victims across the United States, convinced them to send money, and then moved roughly $1.2 million of those proceeds through shell companies and an unlicensed money transmitting business so the cash could be funneled overseas. Prosecutors noted that these cyber-enabled schemes often target older Americans and can wipe out life savings and family financial security. After a two-week trial, a Massachusetts man was convicted of money laundering conspiracy, three counts of money laundering, and operating an unlicensed money transmitting business, with sentencing set for March 2027. If an online partner you have never met in person asks you to send funds, forward a payment, or receive and re-send money through your own account, stop and verify independently. Report suspected romance fraud to the FBI's Internet Crime Complaint Center and never act as a middleman for someone else's transfers.",
+    categorySlug: "romance-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of New Jersey"],
+    sourceUrl: "https://www.justice.gov/usao-nj/pr/massachusetts-man-convicted-laundering-12m-internet-enabled-romance-scams",
+    country: "US",
+    state: "NJ",
+});

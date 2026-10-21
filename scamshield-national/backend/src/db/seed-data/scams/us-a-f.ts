@@ -13325,3 +13325,67 @@ UsAF.push({
     country: "US",
     state: "PA",
 });
+
+UsAF.push({
+    name: "Brushing Package QR Code Quishing Fraud",
+    slug: "brushing-package-qr-code-quishing-fraud",
+    description:
+      "A package you never ordered shows up at your door with merchandise inside and no sender information, and tucked in the box is a card with a QR code offering to reveal who sent the gift or how to return it. Scanning that code leads to a phishing site impersonating a bank, retailer or government agency that asks for personal and financial details, or it installs malware that siphons data off your phone. This is a more dangerous twist on the classic brushing scam, where a seller ships cheap goods to random addresses only to post fake reviews — here the parcel is just bait for direct financial compromise. The FBI's Internet Crime Complaint Center warned about it in alert I-073125-PSA, with matching warnings from the U.S. Postal Inspection Service and the FTC. Never scan a QR code that arrives in an unexpected package; keep or discard the items, and monitor your accounts if you already scanned one.",
+    categorySlug: "qr-code-scams",
+    alertLevel: "high",
+    sources: ["FBI/IC3 Public Service Announcement, Alert Number I-073125-PSA, 31 July 2025","U.S. Postal Inspection Service brushing scam advisory","FTC consumer alert, January 2025"],
+    sourceUrl: "https://www.ic3.gov/PSA/2025/PSA250731",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Funeral Home Impersonation Payment Demand",
+    slug: "funeral-home-impersonation-payment-demand",
+    description:
+      "Fraudsters scan newly posted obituaries and funeral notices for the name of the deceased, the funeral home handling arrangements, and the surviving relatives, then contact the grieving family within hours. Using caller ID spoofing, they make the call or text appear to come from the funeral home itself and pose as a named employee demanding immediate payment for services. In one Georgia case the fraudulent text arrived just hours after a preliminary obituary was posted, and the family wound up on a call with both the impersonator and the real funeral director. The FTC and the Georgia Attorney General's office have both been cited as warning about this scheme, though primary agency documentation was not available at the time of this entry. If you get an urgent payment demand after a death in the family, hang up and call the funeral home back on the number you already have on file before sending any money.",
+    categorySlug: "family-emergency-scams",
+    alertLevel: "medium",
+    sources: ["WRDW-TV report, 4 June 2026, on a Harlem, Georgia family targeted hours after a death","Referenced warnings from the Federal Trade Commission and the Georgia Attorney General's office (primary pages unverified)"],
+    sourceUrl: "https://www.wrdw.com/2026/06/04/funeral-home-imposter-scam-targets-harlem-family-hours-after-mothers-death/",
+    country: "US",
+    state: "GA",
+});
+
+UsAF.push({
+    name: "Counterfeit Military ID and Washed-Check Bank Withdrawal Ring (Indiana)",
+    slug: "counterfeit-military-id-washed-check-bank-withdrawal-ring-indiana",
+    description:
+      "Court documents describe a ring that used stolen identities, counterfeit identification cards including fake U.S. military IDs, and chemically \"washed\" checks to walk into banks and withdraw money from other people's accounts. Over roughly six weeks in 2025 the group attempted about 30 fraudulent withdrawals at financial institutions in Indiana, Ohio, Virginia, Maryland, and Pennsylvania, successfully stealing $58,800 while trying to take more than $180,000; in one instance a member entered a bank and falsely claimed to be the accountholder using forged documents. Three defendants were sentenced to terms ranging from three years to eight years in prison and ordered to pay $58,800 each in restitution. Because this type of fraud starts with mail theft and stolen personal data, avoid mailing checks from unsecured boxes, use pens with permanent ink, and monitor accounts daily. Set up bank alerts for in-person withdrawals and report unfamiliar transactions to your bank immediately.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Southern District of Indiana"],
+    sourceUrl: "https://www.justice.gov/usao-sdin/pr/three-sentenced-multi-state-bank-fraud-scheme-involving-fake-us-military-ids",
+    country: "US",
+    state: "IN",
+});
+
+UsAF.push({
+    name: "Cash-Counting Short-Change and Refund Con at Retail Checkouts (Missouri)",
+    slug: "cash-counting-short-change-refund-con-retail-checkouts-missouri",
+    description:
+      "A traveling crew worked registers at a national retailer in Missouri and 19 other states, bringing electronics to the counter and counting the purchase price out in cash in separate piles. While gathering the piles together, they palmed bills from the bottom of the stack into a pocket or purse before handing the money to the cashier, then drove to another store and returned the items for a full refund they had never fully paid. One participant pleaded guilty to conspiracy to commit wire fraud and illegal reentry after the conspiracy stole or attempted to steal $157,229 across at least 90 incidents, with sentencing scheduled for January 2027. Retail workers and small-business owners should count large cash payments once, in front of the customer, and never let a buyer restack or re-handle the money after it has been counted. Keep receipts tied to the original transaction so refunds can be matched to what was actually paid.",
+    categorySlug: "fake-check-overpayment",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of Missouri"],
+    sourceUrl: "https://www.justice.gov/usao-edmo/pr/illegal-alien-admits-nationwide-sleight-hand-fraud",
+    country: "US",
+    state: "MO",
+});
+
+UsAF.push({
+    name: "Deceased Beneficiary Social Security Disability Benefit Theft (Massachusetts)",
+    slug: "deceased-beneficiary-social-security-disability-benefit-theft-massachusetts",
+    description:
+      "A man who had lived with a Social Security disability applicant continued collecting her benefits for more than five years after she died. The Social Security Administration mailed a notice of award to his address and deposited the monthly payments into the deceased beneficiary's bank account, and he used her debit card to pull the money out at ATMs each month, taking about $87,817. He pleaded guilty to receiving stolen government money and was sentenced to one day deemed served, three years of supervised release, and $87,817 in restitution. Families should notify the Social Security Administration promptly when a benefit recipient dies and close or freeze the deposit account so payments cannot continue. The U.S. Attorney's Office encourages the public to report suspected benefit fraud in Massachusetts at 1-855-SCAM-MA-1 (855-722-6621).",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of Massachusetts"],
+    sourceUrl: "https://www.justice.gov/usao-ma/pr/former-haverhill-man-sentenced-receiving-stolen-government-money",
+    country: "US",
+    state: "MA",
+});

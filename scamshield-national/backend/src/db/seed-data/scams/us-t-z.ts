@@ -7675,3 +7675,15 @@ UsTZ.push({
     country: "US",
     state: "VA",
 });
+
+UsTZ.push({
+    name: "Veterans Savings Program Benefits Postcard Scam",
+    slug: "veterans-savings-program-benefits-postcard-scam",
+    description:
+      "Scammers mail postcards to military veterans and their spouses claiming they may qualify for extra monthly benefits through a \"Veterans Savings Program\" that does not exist. The cards look official because they name your state of residence and reference real VA health programs like CHAMPVA and TRICARE For Life, and they pressure you to call a phone number right away or lose the benefit. The phone call is the whole point: operators on the other end collect Social Security numbers, bank account details and other personal data for identity theft and follow-on fraud. The FTC issued a consumer alert about this mailer, and VA Deputy Secretary Paul Lawrence publicly told veterans not to call the number. If one of these postcards arrives, do not call it — throw it away and check any benefits question directly with VA.gov or 1-800-827-1000.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Federal Trade Commission consumer alert, 24 August 2026","U.S. Department of Veterans Affairs warning from Deputy Secretary Paul Lawrence"],
+    sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2026/08/how-spot-postcard-scam-targeting-veterans",
+    country: "US",
+});

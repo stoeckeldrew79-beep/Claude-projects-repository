@@ -13530,3 +13530,29 @@ UsNS.push({
     country: "US",
     state: "CA",
 });
+
+UsNS.push({
+    name: "Stolen-Identity Apartment Leasing and Sublet Scheme (Washington, D.C.)",
+    slug: "stolen-identity-apartment-leasing-sublet-scheme-washington-dc",
+    description:
+      "A superseding indictment alleges that two District of Columbia residents used stolen or fabricated Social Security numbers, so-called \"Credit Privacy Numbers,\" and fake letters of employment to obtain a large number of apartment leases across Washington, D.C. and surrounding areas beginning in late 2023. The conspirators allegedly lived in the units themselves or sold access to them to third parties for a fraction of the lease value, and nearly every fraudulently obtained apartment ended in eviction proceedings for unpaid rent. The two defendants are charged in a seven-count indictment with housing and Social Security fraud; the charges are allegations and the defendants are presumed innocent. Renters should be wary of anyone offering an apartment far below market rent or asking you to pay a stranger for \"access\" to someone else's lease, and should insist on a lease signed directly with the property manager. Check your credit report regularly for accounts or addresses you do not recognize, which can be a sign your Social Security number is being used on rental applications.",
+    categorySlug: "rental-housing",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of Columbia"],
+    sourceUrl: "https://www.justice.gov/usao-dc/pr/foreign-national-among-defendants-charged-seven-count-housing-and-social-security-fraud",
+    country: "US",
+    state: "DC",
+});
+
+UsNS.push({
+    name: "Stolen Provider Identity Medicaid Therapy Billing Scheme (Texas)",
+    slug: "stolen-provider-identity-medicaid-therapy-billing-scheme-texas",
+    description:
+      "The registered agent of a Houston-area company that claimed to provide mental health therapy to Medicaid beneficiaries admitted billing Medicaid roughly $477,872 for counseling sessions that never happened, including sessions supposedly provided to herself. To submit the false claims she used a nurse practitioner's name and National Provider Identifier without that clinician's knowledge or consent, and Medicaid paid out about $453,323 before the scheme was caught. She pleaded guilty to health care fraud and aggravated identity theft and faces up to 10 years in prison plus a mandatory consecutive two-year term at a December sentencing. Beneficiaries should read every Medicaid or Medicare statement and report services or providers they do not recognize. Clinicians should periodically check claims submitted under their NPI, since a stolen provider number is a common engine for phantom-services billing.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Southern District of Texas"],
+    sourceUrl: "https://www.justice.gov/usao-sdtx/pr/magnolia-woman-fraudulently-bills-medicaid-nonexistent-mental-health-services",
+    country: "US",
+    state: "TX",
+});

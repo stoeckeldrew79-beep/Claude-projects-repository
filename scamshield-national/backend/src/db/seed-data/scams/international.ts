@@ -25617,3 +25617,75 @@ International.push({
     sourceUrl: "https://www.finance.gov.sc/blog/2026/06/10/ministry-of-finance-issues-scam-alert/",
     country: "SC",
 });
+
+International.push({
+    name: "Fake Electronic Kalabarg Subsidy Self-Declaration SMS",
+    slug: "fake-electronic-kalabarg-subsidy-self-declaration-sms",
+    description:
+      "Fraudsters are sending mass text messages in Iran telling people to register for the electronic food voucher (kalabarg) or livelihood subsidy and complete their household information. The links lead to counterfeit registration pages, or push an Android app, that ask for card number, CVV2, expiry date and the one-time dynamic password, after which the victim's bank account is emptied. Iran's FATA Cyber Police, including Colonel Nematollah Taherpour in Isfahan and Colonel Rasoul Jalilian in Alborz, warn that genuine kalabarg self-declaration messages come only from the official sender ID YARANEH-IRI and that no legitimate benefit process asks for payment or card credentials. Never tap links in subsidy texts and never enter card details or an OTP on a page reached from an SMS. Check the sender ID, use only official government portals, and report suspicious messages to the FATA cyber-emergency line 096380.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "high",
+    sources: ["IMNA news agency interview with Colonel Nematollah Taherpour, head of FATA Police in Isfahan province","Shargh daily","Jam-e Jam Online report on the Alborz FATA Police warning","Zoomit report on fake subsidy SMS"],
+    sourceUrl: "https://www.imna.ir/news/1012372/",
+    country: "IR",
+});
+
+International.push({
+    name: "Keepsake Photo Android Banking Malware Messages",
+    slug: "keepsake-photo-android-banking-malware-messages",
+    description:
+      "Iranians are receiving messages claiming that keepsake photos of them are available and that an Android app must be installed to view them. The message often arrives from a real contact's phone number because that contact's handset is already infected and is spreading the lure automatically. Installing the APK and granting permissions lets attackers read incoming SMS, including dynamic bank card passwords, and withdraw money from accounts. FARAJA's FATA Cyber Police sent a nationwide warning SMS stating that any such message, even from acquaintances, is fake and designed to infect the phone and steal from bank accounts. Do not install apps from links in messages, verify with the contact by voice call, and if you already installed one, remove it, run a scan and contact your bank immediately.",
+    categorySlug: "phishing",
+    alertLevel: "critical",
+    sources: ["Tabnak, quoting the FATA Cyber Police nationwide warning SMS verbatim","Eghtesad News, citing ISNA","Didar News","Fararu report on the earlier AI keepsake photo banking-malware variant"],
+    sourceUrl: "https://www.tabnak.ir/fa/news/1399431/",
+    country: "IR",
+});
+
+International.push({
+    name: "Loan Buying and Selling Advertisement Fraud",
+    slug: "loan-buying-and-selling-advertisement-fraud",
+    description:
+      "Advertisements on Persian-language social media and bulk SMS campaigns in Iran offer to grant, sell or buy bank loans and credit facilities, such as selling you someone else's approved facility or buying your loan entitlement. People who respond are pressured into handing over their national ID, bank and account details, and often advance fees. The Central Bank of the Islamic Republic of Iran's Public Relations Department has announced that these circulating ads and texts exist for the purpose of fraud and misuse of citizens' information by opportunists, and that any assignment or purchase and sale of banking facilities, and advertising it, is illegal and can lead to prosecution. Do not contact these advertisers, never share your national ID or banking details with them, and apply for credit only directly through a licensed bank branch.",
+    categorySlug: "debt-relief-scams",
+    alertLevel: "high",
+    sources: ["Quds Online report on the Central Bank announcement","Eghtesaad24, quoting the Central Bank of Iran public relations notice","Jam-e Jam Online","ISCA news agency"],
+    sourceUrl: "https://www.qudsonline.ir/news/1168337/",
+    country: "IR",
+});
+
+International.push({
+    name: "CMF Forged-Approval Fictitious Investment Offers",
+    slug: "cmf-forged-approval-fictitious-investment-offers",
+    description:
+      "Fraudsters in Tunisia are showing prospective savers counterfeit 'approval' or authorisation documents bearing the name of the Conseil du Marche Financier (CMF), the national securities regulator, along with the coat of arms of the Republic of Tunisia. The fake paperwork is used to make unlicensed investment offers look officially sanctioned so that victims feel safe transferring money. In a communique dated 9 September 2026 the CMF said it had identified a person operating under the name 'Lua Myriam Trabelsi' using such documents, and confirmed it had never licensed or validated the services being offered. The regulator announced legal action and urged savers to check any claimed licence directly with the CMF. Before sending money or personal information to any investment promoter, verify the firm's authorisation on the CMF's own notices page or by contacting the regulator directly.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Conseil du Marche Financier (CMF) communique, 9 September 2026","Webdo Tunisie national coverage"],
+    sourceUrl: "https://cmf.tn/avis-et-d-cisions-du-cmf",
+    country: "TN",
+});
+
+International.push({
+    name: "La Poste Tunisienne e-Dinar Wallet Phishing Sites",
+    slug: "la-poste-tunisienne-e-dinar-wallet-phishing-sites",
+    description:
+      "Fraudulent websites are impersonating La Poste Tunisienne, the state postal operator and one of the country's largest retail payment providers, or claiming to be its official commercial partners. The sites copy La Poste's name and branding and ask visitors to 'confirm' or register their account by entering personal data, card numbers and confidential codes such as passwords and PINs, which are then used to drain e-Dinar cards and Wallet e-Dinar balances. La Poste warned on 23 July 2026 that it has no link with these platforms and never asks clients for their password or secret code through any channel, and said it has launched legal proceedings; near-identical warnings were issued in February and June 2026, so the campaign is recurring. Treat any request for your wallet password or secret code as fraudulent, no matter how official the page looks. Reach your account only by typing La Poste's official address yourself, and report suspicious sites to the operator.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["La Poste Tunisienne warning, 23 July 2026, reported by La Presse de Tunisie","Radio Nationale (Arabic), 8 June 2026"],
+    sourceUrl: "https://www.lapresse.tn/2026/07/23/alerte-phishing-la-poste-tunisienne-met-en-garde-ses-clients-contre-des-sites-frauduleux/",
+    country: "TN",
+});
+
+International.push({
+    name: "Facebook 'Code Sent By Mistake' Account Takeover Wave",
+    slug: "facebook-code-sent-by-mistake-account-takeover-wave",
+    description:
+      "Tunisia's Agence Nationale de la Cybersecurite (ANCS) warned on 14 August 2026 about a wave of Facebook account hijackings that rely on a simple trick. The attacker starts a password reset on the victim's account, which makes Facebook send a genuine one-time verification code to the victim's own phone or e-mail, then calls, texts or e-mails the victim claiming the code arrived 'by mistake' and asking them to forward it urgently. Handing over that code lets the attacker complete the login, change the password and lock the real owner out, after which the stolen profile is used to scam the victim's friends and family. The ANCS stresses that a verification code is strictly confidential and must never be shared with anyone for any reason. Never read a security code out to a caller, and if your account is compromised, report the incident to tunCERT, which assists citizens and professionals.",
+    categorySlug: "account-takeover",
+    alertLevel: "high",
+    sources: ["Agence Nationale de la Cybersecurite (ANCS) alert, 14 August 2026, via La Presse de Tunisie","Business News Tunisia, 14 August 2026"],
+    sourceUrl: "https://www.lapresse.tn/2026/08/14/tentatives-de-piratage-des-comptes-facebook-lansc-appelle-a-la-vigilance/",
+    country: "TN",
+});
