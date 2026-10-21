@@ -11886,3 +11886,24 @@ Bradstreet was sentenced to 33 months in prison, 24 months of supervised release
 Kurzweil is a case study in how the pressure of an initial public offering can corrupt revenue recognition. A company that has to show consistent, growing revenue to a market before it lists has a strong reason to book a sale before it exists, and the methods used here, side agreements and forged confirmations, were designed to defeat the auditors who would normally check. The appeals court's decision to send the sentence back shows that a trial judge's leniency toward the defendants was itself subject to review.`,
     sourceUrl: 'https://caselaw.findlaw.com/court/us-1st-circuit/1222147.html',
 });
+
+NotoriousAF.push({
+    title: 'Frances Flood and the ClearOne Channel-Stuffing Fraud',
+    slug: 'frances-flood-clearone-channel-stuffing-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Orrin_G._Hatch_United_States_Courthouse,_SLC,_UT,_north_side_2024-09-01.jpg?width=1200',
+    coverImageCredit: 'Photo: Xnatedawgx (CC BY-SA 4.0) — Orrin G. Hatch U.S. Courthouse, Salt Lake City, where ClearOne\'s former executives were tried',
+    coverImagePosition: 50,
+    body: `ClearOne Communications, Inc. was a Utah company that made audio-conferencing equipment. Frances M. Flood was its chairman, chief executive and president, and Susie Strohm was its chief financial officer and vice president of finance. On January 15, 2003, the Securities and Exchange Commission sued ClearOne, Flood and Strohm in federal court in Utah, alleging that the company had inflated its revenues, net income and accounts receivable through improper revenue recognition. The conduct it described covered two annual and five quarterly reporting periods, from the quarter ended March 31, 2001, through the quarter ended September 30, 2002.
+
+The SEC said the main technique was channel stuffing, conceived and directed by Flood and assisted by Strohm. At the end of each quarter, large volumes of inventory were allegedly shipped to distributors who did not have to pay until they resold the products, and in some cases could return or exchange what they had not sold. Revenue was recorded on those shipments even though the sales were not final. The SEC also alleged that Flood and Strohm made misleading statements to the company's auditors. While the conduct was going on, on December 11, 2001, ClearOne closed a $25.5 million private placement of its common stock.
+
+The civil case ended first. On February 20, 2004, the court entered final judgments, to which Flood and Strohm consented without admitting or denying the allegations. Flood was permanently enjoined from further violations, ordered to pay $71,000 in disgorgement plus interest and a $71,000 civil penalty, and barred from serving as an officer or director of a public company. Strohm was also enjoined and ordered to pay $25,000 in disgorgement plus interest.
+
+A criminal case followed. According to ClearOne's own later SEC filings, the U.S. Attorney for the District of Utah indicted Flood and Strohm in July 2007 and January 2008. In February 2009 Flood was convicted on nine counts, and Strohm on one. In June 2010 Flood was sentenced to four years in prison and three years of probation, and Strohm to two years of probation and 150 hours of community service. The Tenth Circuit affirmed Flood's conviction in April 2011, noting convictions for false or misleading statements to auditors, securities fraud, perjury and conspiracy to commit securities fraud, and affirmed Strohm's perjury conviction in November 2011.
+
+The ClearOne case shows how channel stuffing turns a company's own distribution network into a source of paper revenue: shipments that customers have not committed to pay for are booked as sales, and the problem surfaces only when they come back or go unpaid. It also shows the two tracks of enforcement. The SEC's civil judgments, which carried modest financial penalties, were settled in 2004, while the criminal sentences did not come until six years later, after the 2007 and 2008 indictments and a trial.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-18592',
+});
