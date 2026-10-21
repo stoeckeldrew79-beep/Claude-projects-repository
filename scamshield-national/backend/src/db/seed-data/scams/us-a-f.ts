@@ -13389,3 +13389,93 @@ UsAF.push({
     country: "US",
     state: "MA",
 });
+
+UsAF.push({
+    name: "2026 Midterm Election Campaign Impersonation Fraud",
+    slug: "2026-midterm-election-campaign-impersonation-fraud",
+    description:
+      "Ahead of the November 2026 US midterms, criminals are impersonating candidates and campaigns in four ways: fake donation solicitations using real candidate names, images and slogans; phantom campaign merchandise stores that take payment and card data but never ship; fake voter-registration alerts by text or email that claim you are not registered and link to spoofed state pages harvesting personal data; and bogus 'campaign pool' investment pitches promising a payout after the candidate wins. AI tools make all four more convincing, generating cloned candidate voices, realistic images and polished written messages. The FBI stresses that campaign donations are not investments, will not grow in value, and will not be returned. The IC3 issued a public service announcement on this on 15 October 2026. Donate only through a campaign's official website that you navigated to yourself, check your registration status directly at your state or county election office, and never treat a political contribution as an investment.",
+    categorySlug: "ai-deepfake-scams",
+    alertLevel: "high",
+    sources: ["FBI Internet Crime Complaint Center (IC3) Public Service Announcement, 15 October 2026","Help Net Security coverage of IC3 PSA"],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA261015-3",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Counterfeit $50 Bill and Cash App Load Scheme (South Carolina)",
+    slug: "counterfeit-50-bill-cash-app-load-scheme-south-carolina",
+    description:
+      "Federal prosecutors allege a group manufactured fake currency by bleaching genuine $10 bills and printing the image of a $50 bill onto the blank paper, producing notes that felt authentic because the underlying paper was real. The counterfeit bills were then loaded onto Cash App accounts at Dollar General stores across South Carolina and the balances transferred among the participants to convert the fake cash into spendable digital money. A federal grand jury in Columbia returned a 13-count indictment charging four people with conspiracy to commit wire fraud, wire fraud, manufacturing counterfeit currency, and passing counterfeit currency, with each defendant facing up to 20 years in prison; the charges are allegations only. Cashiers and small-business owners should examine large bills for the security thread and watermark, which on a bleached note will still show the original lower denomination, and should be alert to customers loading cash onto payment apps in repeated small amounts.",
+    categorySlug: "fake-check-overpayment",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of South Carolina"],
+    sourceUrl: "https://www.justice.gov/usao-sc/pr/4-indicted-wire-fraud-and-counterfeiting-currency",
+    country: "US",
+    state: "SC",
+});
+
+UsAF.push({
+    name: "Corporate Officer Impersonation Treasury Check Deposit Scheme (Texas)",
+    slug: "corporate-officer-impersonation-treasury-check-deposit-scheme-texas",
+    description:
+      "A Dallas man admitted using stolen identities, counterfeit driver's licenses bearing his own photo, and forged corporate documents to open business bank accounts in the names of real companies, then depositing more than $15 million in U.S. Treasury checks meant for those businesses. In one instance he posed as the chief financial officer of an Austin software company to open an account and deposit a refund check worth over $13.8 million, and in another he impersonated the chairman of a holding company to deposit a $447,000 refund check at a different bank. He pleaded guilty to bank fraud and faces up to 30 years in federal prison at sentencing. Business owners should sign up for Treasury and bank notifications, reconcile expected refunds promptly, and ask their bank about controls that flag new accounts opened in the company's name by someone presenting only an ID and paperwork.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Northern District of Texas"],
+    sourceUrl: "https://www.justice.gov/usao-ndtx/pr/west-dallas-man-pleads-guilty-15-million-bank-fraud-0",
+    country: "US",
+    state: "TX",
+});
+
+UsAF.push({
+    name: "Church Health Fair and Senior Living Medicare Testing Scheme (Georgia)",
+    slug: "church-health-fair-and-senior-living-medicare-testing-scheme-georgia",
+    description:
+      "The United States filed a False Claims Act complaint alleging that two former executives of an Atlanta clinical laboratory ran testing drives at church health fairs, religious conferences, and senior living communities to harvest Medicare numbers and generate volume for genetic and respiratory pathogen panel testing. According to the complaint, kickbacks were paid to conference organizers and independent marketers, and the tests were ordered without individualized treating-provider judgment, causing Medicare to pay roughly $13.7 million for testing that was not medically necessary. One of the executives also faces criminal health care fraud and wire fraud charges, and the suit seeks recovery from affiliated entities that received the money; the allegations have not been proven. Be cautious when a booth at a church event, conference, or senior community offers a free cheek swab or screening and asks for your Medicare card, and check your Medicare summary notices for tests you never discussed with your own doctor.",
+    categorySlug: "medicare-health-plans",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Northern District of Georgia"],
+    sourceUrl: "https://www.justice.gov/usao-ndga/pr/doj-sues-former-georgia-lab-execs-defrauding-medicare-targeting-faith-based",
+    country: "US",
+    state: "GA",
+});
+
+UsAF.push({
+    name: "Bank Insider Online-Banking Enrollment Takeover of Elderly Customers (Ohio)",
+    slug: "bank-insider-online-banking-enrollment-takeover-of-elderly-customers-ohio",
+    description:
+      "A bank analytics manager hired to help protect customers from fraud instead searched confidential records for elderly clients who had never signed up for online banking, then used an offshore service to create email addresses in the names of more than 100 of them. Using those addresses he enrolled the victims in online banking without their knowledge, redirected their statements and alerts to the accounts he controlled, moved their money to his own bank and credit card accounts, and even opened new accounts and brokerage accounts in their names to trade options with their funds. Victims in Ohio, New York, Pennsylvania, Connecticut, and Washington ranged in age from 90 to 103; a federal jury convicted him of bank fraud, aggravated identity theft, and money laundering, and he was sentenced to 10 years in prison. If an older relative banks only by paper statement, watch for statements that suddenly stop arriving, ask the bank whether online access was ever enabled on the account, and request alerts for new enrollments and transfers.",
+    categorySlug: "account-takeover",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Northern District of Ohio"],
+    sourceUrl: "https://www.justice.gov/usao-ndoh/pr/former-bank-employee-who-targeted-elderly-victims-identity-theft-and-fraud-scheme",
+    country: "US",
+    state: "OH",
+});
+
+UsAF.push({
+    name: "Addiction Treatment Clinic Medicaid Billing Scheme Targeting Native Americans (Arizona)",
+    slug: "addiction-treatment-clinic-medicaid-billing-scheme-targeting-native-americans-arizona",
+    description:
+      "The owner of a Phoenix-area addiction treatment clinic billed Arizona's Medicaid agency more than $69 million in under a year for addiction therapy, drawing heavily on patients who were Native Americans covered by a program that reimbursed at higher rates than other Medicaid plans. The state paid out roughly $54.9 million on those false and fraudulent claims before the scheme was stopped. She was sentenced to 14 years in prison, ordered to pay nearly $55 million in restitution, and required to forfeit about $9.5 million seized from seven bank accounts plus roughly $7 million in real estate. If someone offers free treatment, transportation, or housing in exchange for your Medicaid or tribal health coverage information, verify the provider with your state Medicaid agency first and review any statements listing services you did not receive.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of Arizona"],
+    sourceUrl: "https://www.justice.gov/usao-az/pr/addiction-treatment-clinic-owner-sentenced-14-years-prison-69-million-medicaid-fraud",
+    country: "US",
+    state: "AZ",
+});
+
+UsAF.push({
+    name: "Cannabis Payment-Processing Startup Share Investment Fraud (Pennsylvania)",
+    slug: "cannabis-payment-processing-startup-share-investment-fraud-pennsylvania",
+    description:
+      "A Montgomery County man founded a company pitched as a payment processing service for cannabis growers and distributors in newly legalizing states, then sold shares in it and affiliated entities to dozens of investors between 2014 and 2023. Prosecutors allege he inflated the company's revenues, valuations, and business prospects and let investors believe their money was funding the business, while he diverted more than half a million dollars to personal costs such as college tuition for his sons, rent on a luxury California home, and social club memberships, defrauding investors of more than $8.8 million in total. He was also charged with diverting about $175,000 in fees that marijuana growers paid the State of Rhode Island under a contract requiring him to remit them. He is charged by information with securities fraud and four counts of wire fraud, and the allegations remain unproven. Before buying shares in a private startup in an emerging industry, demand audited financials, confirm how proceeds will be spent in writing, and check whether the offering and the seller are registered with securities regulators.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of Pennsylvania"],
+    sourceUrl: "https://www.justice.gov/usao-edpa/pr/montgomery-county-man-charged-defrauding-dozens-investors-his-cannabis-related-company",
+    country: "US",
+    state: "PA",
+});

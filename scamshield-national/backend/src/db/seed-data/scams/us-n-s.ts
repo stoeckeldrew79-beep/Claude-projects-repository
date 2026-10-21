@@ -13569,3 +13569,15 @@ UsNS.push({
     country: "US",
     state: "WI",
 });
+
+UsNS.push({
+    name: "Social Media Learn to Trade Investment Training Scams",
+    slug: "social-media-learn-to-trade-investment-training-scams",
+    description:
+      "These schemes advertise on social media with lifestyle content showing luxury cars and exotic trips, all credited to 'learning to trade.' Prospects are sold a trading course, signal service or mentorship subscription, usually on a recurring charge, and are often pushed to recruit new members so the real revenue comes from enrolments rather than from trading. The promised trading profits generally never materialise. The FTC warned about this pattern in October 2026, following its enforcement action against trading-education operation IM Mastery Academy (International Markets Live), and says the clearest tell is any pitch claiming you can earn money in your sleep with little or no risk. Treat guaranteed or risk-free trading claims as a scam signal, check any program and its promoters with regulators before paying, and avoid programs that pay you for signing other people up.",
+    categorySlug: "investment-fraud",
+    alertLevel: "medium",
+    sources: ["Federal Trade Commission warning, 1 October 2026, as reported by WISH-TV","FTC consumer alert on investment scams, April 2026"],
+    sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2026/04/people-losing-big-investment-scams-learn-how-spot-and-avoid-them",
+    country: "US",
+});

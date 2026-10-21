@@ -25689,3 +25689,39 @@ International.push({
     sourceUrl: "https://www.lapresse.tn/2026/08/14/tentatives-de-piratage-des-comptes-facebook-lansc-appelle-a-la-vigilance/",
     country: "TN",
 });
+
+International.push({
+    name: "Fake Parking Zone Arrears SMS (Poland)",
+    slug: "fake-parking-zone-arrears-sms-poland",
+    description:
+      "Criminals send text messages pretending to be operators of Polish municipal paid-parking zones, claiming you left a parking fee unpaid. The message sets a short deadline and threatens extra late fees or handover to a debt collector, then links to a page that closely copies the real operator's payment site, where you are asked for card details and your vehicle registration number. The card data is used for unauthorised transactions and the plate number is kept to make later approaches look convincing. A telltale sign flagged by CERT Polska and the Police is that the SMS asks you to reply first or to copy and paste the address into a browser manually, which is a trick to defeat the phone's built-in link protection. Never follow links in such texts; check any supposed parking debt directly on the operator's official website or by phone, and report the message to CERT Polska.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["https://moje.cert.pl/komunikaty/2026/176/uwaga-na-falszywe-sms-y-dotyczace-oplat-parkingowych/","https://podkarpacka.policja.gov.pl/rze/aktualnosci/151557,Uwaga-na-falszywe-SMS-y-o-nieoplaconym-parkingu-Policja-ostrzega-przed-oszustami.html"],
+    sourceUrl: "https://moje.cert.pl/komunikaty/2026/176/uwaga-na-falszywe-sms-y-dotyczace-oplat-parkingowych/",
+    country: "PL",
+});
+
+International.push({
+    name: "BLIK Code Theft via Hijacked Facebook and Messenger Accounts",
+    slug: "blik-code-theft-via-hijacked-facebook-messenger-accounts",
+    description:
+      "Fraudsters steal the login details of a Facebook account and then message everyone on that person's friend list through Messenger, so the name and photo appear completely genuine. They ask for a small urgent loan and request that you generate and send a six-digit BLIK code; some versions claim you have won a contest and that a BLIK payment confirms your entry. The criminal enters the code at an ATM or terminal within its short validity window, and because the code is anonymous the cash is effectively unrecoverable. A related version appears on classified-ad sites, where a supposed seller refuses to give a bank account number and insists on a BLIK code for goods that never arrive. Always phone the friend on a known number before sending any code, and never give a BLIK code to a seller or to anyone who contacted you first.",
+    categorySlug: "account-takeover",
+    alertLevel: "high",
+    sources: ["https://olawa.policja.gov.pl/doa/aktualnosci/bieza/141646,Oszusci-nadal-aktywni-uwaga-na-oszustwo-quotna-znajomegoquot-i-kod-blik.html","https://ostrow-wielkopolski.policja.gov.pl/w17/aktualnosci/267920,Oszustwa-metoda-na-BLIK-policjanci-ostrzegaja.html"],
+    sourceUrl: "https://olawa.policja.gov.pl/doa/aktualnosci/bieza/141646,Oszusci-nadal-aktywni-uwaga-na-oszustwo-quotna-znajomegoquot-i-kod-blik.html",
+    country: "PL",
+});
+
+International.push({
+    name: "Fake KAS Customs-Seizure Auction Ads with Spoofed Przelewy24 Panel",
+    slug: "fake-kas-customs-seizure-auction-ads-przelewy24",
+    description:
+      "Scammers buy Facebook adverts branded as Krajowa Administracja Skarbowa, Poland's National Revenue Administration, advertising cut-price auctions of goods supposedly confiscated at customs. The offer sounds plausible because Polish tax authorities really do dispose of seized property, but the advert leads to an attacker-controlled site hosting a sham auction. After being told you have won, you are shown a counterfeit Przelewy24 payment panel, and any card or banking credentials entered there go straight to the fraudsters. This variant was documented by CSIRT KNF in its June 2025 review of internet fraud; KAS impersonation continues to appear in later reviews, though this particular customs-auction version has not been confirmed as currently active. Ignore auction offers reached through social media adverts, check official state asset sales only through government domains, and never enter card details into a payment panel you arrived at via an advert link.",
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["https://cebrf.knf.gov.pl/component/content/article/przeglad-wybranych-oszustw-internetowych-czerwiec-2025?catid=14%3Aostrzezenia-csirt&Itemid=101"],
+    sourceUrl: "https://cebrf.knf.gov.pl/component/content/article/przeglad-wybranych-oszustw-internetowych-czerwiec-2025?catid=14%3Aostrzezenia-csirt&Itemid=101",
+    country: "PL",
+});
