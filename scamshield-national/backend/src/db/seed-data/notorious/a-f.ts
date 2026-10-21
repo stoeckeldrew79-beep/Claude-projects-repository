@@ -11907,3 +11907,24 @@ A criminal case followed. According to ClearOne's own later SEC filings, the U.S
 The ClearOne case shows how channel stuffing turns a company's own distribution network into a source of paper revenue: shipments that customers have not committed to pay for are booked as sales, and the problem surfaces only when they come back or go unpaid. It also shows the two tracks of enforcement. The SEC's civil judgments, which carried modest financial penalties, were settled in 2004, while the criminal sentences did not come until six years later, after the 2007 and 2008 indictments and a trial.`,
     sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-18592',
 });
+
+NotoriousAF.push({
+    title: 'Arthur Goodwin and the Interspeed Side-Letter Fraud',
+    slug: 'arthur-goodwin-interspeed-side-letter-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'accounting-fraud', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_Joseph_Moakley_United_States_Courthouse_September_2024.jpg?width=1200',
+    coverImageCredit: 'Photo: 4300streetcar (CC BY 4.0) — John Joseph Moakley U.S. Courthouse, Boston, seat of the U.S. District Court for the District of Massachusetts, where the Interspeed cases were filed',
+    coverImagePosition: 50,
+    body: `Interspeed, Inc. was an Internet equipment maker based in North Andover, Massachusetts, that has since ceased operations. In 2000 its senior vice president of worldwide sales was Arthur A. Goodwin and its chief financial officer was William J. Burke. According to the Securities and Exchange Commission, Goodwin inflated Interspeed's revenue that year so that the company would meet analysts' expectations and so that he would earn a bigger performance bonus.
+
+The SEC described secret side letters that relieved customers of any obligation to pay until they had resold the goods to an end user. Accounting rules do not allow revenue to be booked on such contingent sales, but Interspeed recorded it anyway. The SEC also described round-trip transactions in which funds were channelled to a customer so that the customer could pay for Interspeed products, and alleged that Goodwin forged a signature and falsified a contract to book a nonexistent transaction in the third quarter of 2000. That $6.4 million transaction made up 92% of the quarter's reported income. Burke, the SEC alleged, recorded contingent sales as revenue despite knowing about the side terms and altered records to hide the sham sales from the outside auditors. Overall the SEC put the fraud at about $9 million, inflating reported sales by between 25% and 93% from January to September 2000.
+
+Interspeed's directors uncovered the scheme in late September 2000. Goodwin was fired in October 2000, and Burke had resigned in August. In November 2000 the company restated its first three quarters, and revenue for the period fell from $14 million to $5 million. The SEC filed its civil complaint in federal court in Massachusetts on September 30, 2002, against Goodwin, Burke and Christopher P. Whalen, who had assisted with customer transactions and settled with an injunction, disgorgement of $1,361 and a $15,000 penalty.
+
+The criminal cases moved separately. Burke pleaded guilty on June 25, 2003, to one count of falsifying the company's books and records, and on October 30, 2003, he was sentenced to three years of probation and a $10,000 fine. Goodwin went to trial: on June 9, 2006, a federal jury convicted him of eight counts of securities and wire fraud after a nine-day trial, and on October 13, 2006, he was sentenced to 30 months in prison followed by three years of supervised release. In May 2007 he consented to an SEC final judgment that permanently barred him from serving as an officer or director of a public company. The $70,500 in disgorgement of his bonus and $30,021 in interest was waived on the basis of his financial disclosures.
+
+The Interspeed case shows how a sales executive's incentives can drive a fraud, and how little it takes on paper: a side letter that undoes a contract's payment terms, a forged signature, a customer funded with the vendor's own money. It also shows the spread of outcomes within one scheme, from probation for the finance chief who pleaded guilty to a prison term for the sales executive who went to trial.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-20126',
+});
