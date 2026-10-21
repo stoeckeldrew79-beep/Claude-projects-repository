@@ -27,7 +27,7 @@ services:
       - key: JWT_SECRET
         generateValue: true
       - key: FRONTEND_URL
-        value: "https://claude-projects-repository.vercel.app"
+        value: "https://www.scamtitan.com"
 
   # Scans live US/international scam news (Google News RSS, no API key)
   # and publishes headlines to the "Today's Scams" feed. Idempotent (deduped

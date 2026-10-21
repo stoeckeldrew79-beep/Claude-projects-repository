@@ -12,11 +12,11 @@
 // LAUNCH: set PUBLIC_LAUNCH to true (or delete this file) and redeploy.
 const PUBLIC_LAUNCH = false;
 
-// Once scamtitan.com is connected in Vercel and resolving, set this to true:
-// visitors to the old *.vercel.app address are sent to the same page on
-// scamtitan.com. Off until then, or the site would redirect to nowhere.
-const REDIRECT_TO_CANONICAL = false;
-const CANONICAL_HOST = 'scamtitan.com';
+// scamtitan.com is live (Oct 21, 2026): visitors to the old *.vercel.app
+// address are sent to the same page on the real domain. www is canonical —
+// Vercel already redirects the bare domain there.
+const REDIRECT_TO_CANONICAL = true;
+const CANONICAL_HOST = 'www.scamtitan.com';
 const OLD_PRODUCTION_HOST = 'claude-projects-repository.vercel.app';
 
 // SHA-256 of the access code. The code itself is never stored here.
