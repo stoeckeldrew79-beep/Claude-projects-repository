@@ -13518,3 +13518,42 @@ UsAF.push({
     country: "US",
     state: "NY",
 });
+
+UsAF.push({
+    name: "Arkansas State Police ICAC Task Force Impersonation Calls",
+    slug: "arkansas-state-police-icac-task-force-impersonation-calls",
+    description:
+      "Scammers are calling Arkansas residents claiming to be officers with the Arkansas Internet Crimes Against Children (ICAC) Task Force, often using the alias \"Officer Jackson.\" The caller says you are the subject of an investigation, leaves a callback number, and in some cases threatens to issue a warrant if you do not respond. The pretext is deliberately alarming and embarrassing so victims call back, at which point the scammers press for personal information or payment. Arkansas State Police say neither ASP nor the ICAC Task Force ever calls people to tell them they are under investigation or asks them to return calls about investigative matters. If you get one of these calls, hang up, do not call the number back, and report it to local law enforcement, the Arkansas State Police, or the Arkansas Attorney General's Office at (501) 682-2007.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Arkansas State Police / Arkansas Department of Public Safety news release, April 14, 2026"],
+    sourceUrl: "https://dps.arkansas.gov/news/asp-warns-public-of-scam-calls-impersonating-icac-officers/",
+    country: "US",
+    state: "AR",
+});
+
+UsAF.push({
+    name: "Community Builders Home Remodeling Downpayment Fraud (West Memphis)",
+    slug: "community-builders-home-remodeling-downpayment-fraud",
+    description:
+      "Arkansas Attorney General Tim Griffin sued the now-closed West Memphis company Community Builders and owners Greg Wolter and Nathan Wolter under the Arkansas Deceptive Trade Practices Act. The company advertised mainly to elderly Arkansans, promising bathroom remodels finished within three months in exchange for an upfront downpayment. According to the complaint, the work was never completed and the downpayments were never refunded, and the Attorney General's office received eight complaints, including seven for failure to finish work or refund money and one for harassment. The lawsuit seeks restitution, civil penalties, and injunctive relief. Before hiring any home-improvement contractor, avoid large upfront payments, verify licensing and references, get everything in writing, and report non-performance to the Arkansas Attorney General's Consumer Protection Division.",
+    categorySlug: "home-improvement-solar",
+    alertLevel: "high",
+    sources: ["Arkansas Attorney General Tim Griffin, Consumer Protection Division news release, July 3, 2025"],
+    sourceUrl: "https://arkansasag.gov/news-release/attorney-general-griffin-sues-two-arkansas-companies-for-violating-the-arkansas-deceptive-trade-practices-act/",
+    country: "US",
+    state: "AR",
+});
+
+UsAF.push({
+    name: "Deceptive Matching Political Contribution Texts and Emails",
+    slug: "deceptive-matching-political-contribution-texts-and-emails",
+    description:
+      "Arkansans on political donor lists are flooded with texts and emails from candidates, parties, and PACs claiming that a donation will be matched \"2X,\" \"10X,\" or have a \"1,500%\" impact, especially as a fundraising quarter closes. Attorney General Tim Griffin warns that in virtually every case there is no actual matching donor, and that if one existed, a match at those multiples would usually exceed federal and Arkansas campaign contribution limits, making the claim either false or an admission of an illegal contribution. Griffin says his office has broad authority to investigate these solicitations under the Arkansas Deceptive Trade Practices Act and the state criminal code. Treat any \"your gift will be matched\" pitch with skepticism and ask who specifically is providing the match. Give only through a campaign's official website if you choose to donate, and report deceptive matching solicitations to the Arkansas Attorney General's Office.",
+    categorySlug: "charity-scams",
+    alertLevel: "medium",
+    sources: ["Arkansas Attorney General Tim Griffin consumer alert, June 30, 2023"],
+    sourceUrl: "https://arkansasag.gov/news-release/consumer-alert-arkansans-should-be-wary-of-deceptive-texts-and-emails-promising-match-of-political-contributions/",
+    country: "US",
+    state: "AR",
+});
