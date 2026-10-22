@@ -14392,3 +14392,42 @@ UsGM.push({
     country: "US",
     state: "IL",
 });
+
+UsGM.push({
+    name: "Hawaiʻi State Judiciary Jury-Duty Bench-Warrant Payment Scam",
+    slug: "hawaii-state-judiciary-jury-duty-bench-warrant-payment-scam",
+    description:
+      "Callers pose as Hawaiʻi State Judiciary employees, police officers or state sheriffs and tell residents they missed jury duty and that a warrant has been issued for their arrest. The caller then demands immediate payment to clear the supposed bench warrant, often using spoofed caller ID that appears to come from a court or law enforcement number. The scam resurfaces every year around the time the Judiciary mails jury questionnaires — roughly 330,000 went out statewide for potential 2026 jury service — because recipients know the process is real. Real courts never call to demand money over the phone for missed jury service. Hang up, do not trust caller ID, delete unsolicited emails or texts claiming to be from the Judiciary, and call the Judiciary's published jury office number directly to check your status.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Hawaiʻi State Judiciary consumer advisory (2023, 2024, August 2025)"],
+    sourceUrl: "https://www.courts.state.hi.us/news_and_reports/2024/04/jury-duty-scam-persists",
+    country: "US",
+    state: "HI",
+});
+
+UsGM.push({
+    name: "Hawaiʻi EBT Benefit Theft Through Card Skimming and Cloning",
+    slug: "hawaii-ebt-benefit-theft-card-skimming-cloning",
+    description:
+      "The Hawaiʻi Department of Human Services has received statewide reports of fraudulent transactions draining EBT accounts through card cloning, card skimming and other electronic theft, with cases concentrated on Oʻahu in urban Honolulu. Thieves capture card numbers and PINs from compromised point-of-sale terminals and empty accounts, often within hours of benefits loading. More than 200 Hawaiʻi EBT accounts have been reported compromised, and the exposure covers SNAP plus TANF, TAONF, General Assistance, Aid to the Aged, Blind or Disabled, and Repatriate payments. Check your EBT balance often, change your PIN regularly and right after benefits load, and inspect card readers for tampering. If benefits are stolen, file a replacement claim with DHS using form DHS 1009 and supporting documents, available online or at the DHS Processing Center.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "high",
+    sources: ["Hawaiʻi Department of Human Services EBT fraud alert (posted November 6, 2023; updated April 15, 2024)","KHON2 reporting on compromised Hawaiʻi EBT accounts","Hawaiʻi DHS notice on suspicious automated messages to SNAP recipients (November 14, 2025)"],
+    sourceUrl: "https://humanservices.hawaii.gov/ebt-fraud-alert-november-2023/",
+    country: "US",
+    state: "HI",
+});
+
+UsGM.push({
+    name: "Hawaiʻi Police Department Officer-Impersonation Payment Calls",
+    slug: "hawaii-police-department-officer-impersonation-payment-calls",
+    description:
+      "The Hawaiʻi Police Department has warned Big Island residents about a widespread phone scam in which callers falsely identify themselves as police officers and use the real names of actual department personnel to sound credible. The caller claims the resident owes money or has an ongoing legal matter, then pressures them to pay immediately — in documented cases by buying Apple gift cards to 'resolve' the issue. Spoofed phone numbers make the calls appear to come from the department, and the Honolulu Police Department has issued a parallel warning about impersonators demanding payment for fake warrants. No police agency in Hawaiʻi will ever call and ask for gift cards, wire transfers or cryptocurrency. Hang up, never read gift card numbers to a caller, and call your local police department's published non-emergency line to verify.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Hawaiʻi Police Department media releases (January 6, 2025 and June 25, 2025)","Honolulu Police Department advisory on law enforcement and government impersonation scams"],
+    sourceUrl: "https://www.hawaiipolice.gov/police-warn-public-of-phone-scam-impersonating-officers/",
+    country: "US",
+    state: "HI",
+});
