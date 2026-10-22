@@ -12671,3 +12671,24 @@ After a four-week trial, a federal jury in San Diego convicted Arabi in April 20
 The Abreezio case shows an insider fraud in which the victim was also the buyer. A senior employee took what the employer already owned, placed it in a company fronted by relatives, and then sold it back, so the paperwork looked like an arm's-length acquisition. It also shows how long a concealed conflict of interest can last when the insider controls the identity of the people on the other side of the deal.`,
     sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/former-qualcomm-executive-sentenced-to-prison-for-180-million-fraud',
 });
+
+NotoriousGM.push({
+    title: 'Michael Vergato and the OPTO Shell-Company Billing Scheme',
+    slug: 'michael-vergato-opto-shell-company-billing-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'wire-fraud', 'shell-company', 'insider-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Denver,_Colorado_skyline_(cropped_3x5).jpg?width=1200',
+    coverImageCredit: 'Photo: Quintin Soloviev (CC BY 4.0) — Skyline of Denver, Colorado, where the case was prosecuted by the U.S. Attorney for the District of Colorado',
+    coverImagePosition: 50,
+    body: `Michael Vergato and Mark Perlstein were executives at two companies that did business together in Colorado. Perlstein was the chief executive of a Colorado-based data management company. According to the U.S. Attorney's Office, Vergato was a vice president at Arrow Electronics who oversaw the performance tuning of Arrow's Oracle databases, work that was contracted out to Perlstein's company. Prosecutors said the two used that relationship to take nearly $2 million.
+
+The mechanism was a shell company. Vergato created Oracle Performance Tuning and Optimization, LLC, known as OPTO, which submitted 21 contracts and invoices to the data management company for database tuning work that was never performed. Perlstein approved the invoices and wired the payments to OPTO, and the two split the proceeds. Tax records showed that OPTO paid no salaries and issued no contractor forms, and the data management company's current chief executive testified at trial that no work by OPTO could be verified and that no related employees or contractors could be identified. To conceal their roles, prosecutors said, the men used personal email accounts, other corporate entities and fake identities, and Vergato used the identity of a stepdaughter to conduct OPTO's business.
+
+The money went to personal use. Vergato kept about $874,000, which went on luxury vehicles, credit card payments, retirement accounts and rent, while Perlstein personally received more than $1 million. After a six-day trial, a jury convicted Vergato in May 2025 on six counts of wire fraud, according to local news reports. Perlstein pleaded guilty to wire fraud in June.
+
+In September 2025 Vergato was sentenced to 46 months in federal prison and fined $20,000. Perlstein was fined $15,000 and sentenced to about two years in prison, with the exact figure reported inconsistently, 25 months by most outlets and 35 months by one. Both were ordered to serve three years of supervised release and to pay joint restitution of $1,949,023. U.S. Attorney Peter McNeilly said that the defendants "have to pay back every dollar they took."
+
+The OPTO case shows a vendor-fraud pattern that is simple to describe and hard to catch from outside: a person who controls how a service is bought sets up a company to supply it, and a partner at the buying company approves the bills. Neither side has an independent reason to check whether the work was done, and the scheme came apart only when someone looked for evidence of the work, and for the employees who supposedly did it, and found none.`,
+    sourceUrl: 'https://www.denver7.com/news/crime/former-colorado-executives-sentenced-to-more-than-4-years-combined-in-1-9-million-fraud-scheme',
+});
