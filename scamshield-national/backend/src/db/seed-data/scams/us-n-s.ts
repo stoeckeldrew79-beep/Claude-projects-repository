@@ -13659,3 +13659,42 @@ UsNS.push({
     country: "US",
     state: "NY",
 });
+
+UsNS.push({
+    name: "Starving-Orphans Nonprofit Donor Fraud Scheme (Arkansas)",
+    slug: "starving-orphans-nonprofit-donor-fraud-scheme-arkansas",
+    description:
+      "Donors gave to a Springdale-based nonprofit that claimed it was feeding starving orphans in Malawi, but the court found that its founder diverted more than $2 million of that money for himself while filing false personal and nonprofit tax returns and structuring cash transactions to avoid reporting rules. His spouse was convicted of failing to report the fraud. The founder received 192 months in prison and his spouse 36 months, both maximum sentences, as part of a national Justice Department fraud enforcement surge. Before giving to an emotionally compelling cause, look up the organization's IRS Form 990 and a charity watchdog rating, and be cautious with small overseas-mission charities that cannot document how donations are spent.",
+    categorySlug: "charity-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","Western District of Arkansas"],
+    sourceUrl: "https://www.justice.gov/usao-wdar/pr/arkansas-non-profit-founders-receive-maximum-prison-sentences-defrauding-donors-and",
+    country: "US",
+    state: "AR",
+});
+
+UsNS.push({
+    name: "Stolen-Identity Pandemic Unemployment Benefit Card Scheme (West Virginia)",
+    slug: "stolen-identity-pandemic-unemployment-benefit-card-scheme-west-virginia",
+    description:
+      "Conspirators filed COVID-era unemployment claims in the names of real people across Nevada, California, New York and other states, then had the resulting Electronic Benefit Payment debit cards mailed to a single home in Elkins, West Virginia. More than two dozen cards loaded with over $440,000 arrived between 2020 and 2022; the recipient activated them and pulled out cash, bought money orders and cryptocurrency, and passed proceeds to others. None of the claimants lived in West Virginia or authorized the use of their identities, and the woman who received the cards pleaded guilty to bank fraud. If you receive benefit mail, debit cards or claim notices for benefits you never applied for, report it to the state workforce agency immediately, and freeze your credit so your identity cannot be reused for other claims.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","Northern District of West Virginia"],
+    sourceUrl: "https://www.justice.gov/usao-ndwv/pr/elkins-woman-admits-more-400000-covid-fraud",
+    country: "US",
+    state: "WV",
+});
+
+UsNS.push({
+    name: "Supplemental Executive Retirement Plan \"Lulling Letter\" Investment Fraud (Missouri)",
+    slug: "supplemental-executive-retirement-plan-lulling-letter-investment-fraud-missouri",
+    description:
+      "A Springfield man presented himself as an investment and retirement professional and sold area executives on Supplemental Executive Retirement Plans that were supposed to build savings for their retirement years. Instead he spent $373,230.50 of client money on personal expenses and mailed clients false investment reports, known as lulling letters, showing balances in accounts that never existed. Victims only discovered the theft when the fabricated statements fell apart, and the delay kept the scheme hidden from law enforcement. He was sentenced to 48 months in prison plus restitution. Insist that retirement statements come directly from an independent custodian you can log into yourself, and check any adviser's registration and disciplinary history before handing over funds.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","Western District of Missouri"],
+    sourceUrl: "https://www.justice.gov/usao-wdmo/pr/springfield-man-sentenced-wire-fraud-money-laundering-connection-embezzlement",
+    country: "US",
+    state: "MO",
+});

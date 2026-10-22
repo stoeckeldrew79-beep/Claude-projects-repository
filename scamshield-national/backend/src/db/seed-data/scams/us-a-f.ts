@@ -13648,3 +13648,66 @@ UsAF.push({
     country: "US",
     state: "NJ",
 });
+
+UsAF.push({
+    name: "Fake CAPTCHA \"Human Verification\" Malware Scam (ClickFix)",
+    slug: "fake-captcha-human-verification-malware-scam-clickfix",
+    description:
+      "While browsing a website, you get what looks like a routine \"prove you're not a robot\" CAPTCHA box, but instead of clicking an image it tells you to press Windows + R, then Ctrl + V, then Enter. The page has quietly copied a malicious command to your clipboard, so following those steps makes you install infostealer malware yourself — which means no download prompt or browser security warning ever appears. Once installed, criminals can harvest email logins, mobile banking credentials and other saved information. Real CAPTCHAs never ask you to run keyboard commands on your device. If you see one that does, close the browser tab immediately, do not follow the instructions, and if you already did, run a security scan and change your passwords from a different device.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["U.S. Federal Trade Commission, Bureau of Consumer Protection — consumer alert, June 2026"],
+    sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2026/06/how-spot-captcha-scam",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Fake Party Invitation Credential Phishing (Evite / Paperless Post)",
+    slug: "fake-party-invitation-credential-phishing-evite-paperless-post",
+    description:
+      "Scammers send unexpected \"You're invited\" texts and emails that appear to come from well-known invitation platforms like Evite or Paperless Post, often listing someone you actually know as the host because that person's account was already compromised. To \"open\" the invitation you are asked to enter your email username and password, or to supply a phone number and the one-time passcode you receive — which hands criminals your two-factor code. Real invitation services never require your email password or a verification code to view event details. The goal is account takeover: with your credentials, scammers can read your inbox, reset passwords on other accounts and send the same fake invites to everyone in your contacts. Never enter your email login on a page reached from an invitation link; contact the supposed host directly to confirm, and turn on two-factor authentication for your email.",
+    categorySlug: "account-takeover",
+    alertLevel: "high",
+    sources: ["U.S. Federal Trade Commission — consumer alert, May 26, 2026"],
+    sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2026/05/asked-enter-your-email-address-and-password-open-party-invite-thats-scam",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Accessory Dwelling Unit (ADU / \"Casita\") Construction Fraud",
+    slug: "accessory-dwelling-unit-adu-casita-construction-fraud",
+    description:
+      "Companies marketing backyard casitas, guest houses and in-law suites give polished presentations and claim deep expertise in local zoning, then collect very large upfront deposits that are cashed within days of signing. Arizona homeowners have lost tens of thousands of dollars, and in some cases up to $250,000, on projects where no plans were ever submitted, no permits were ever requested and ground was never broken. Some of these operations pressure a licensed local contractor into letting their license be used, leaving that innocent contractor legally exposed while the fraudulent firm does the non-work. Once victims start asking for refunds, the company goes dark and stops answering calls, texts and emails. Verify the contractor's license and permit filings with your city building office yourself, refuse demands for large upfront payments by check, cash, Zelle, cryptocurrency or gift cards, and be wary of out-of-state companies claiming to operate locally.",
+    categorySlug: "home-improvement-solar",
+    alertLevel: "high",
+    sources: ["Office of the Arizona Attorney General, Attorney General Kris Mayes — press release, April 14, 2026"],
+    sourceUrl: "https://www.azag.gov/press-release/attorney-general-mayes-warns-arizonans-construction-fraud-targeting-adu-projects",
+    country: "US",
+    state: "AZ",
+});
+
+UsAF.push({
+    name: "Fake PayPal Representative and Federal Agent Mail-a-Check Scam",
+    slug: "fake-paypal-representative-and-federal-agent-mail-a-check-scam",
+    description:
+      "Fraudsters called elderly victims posing as PayPal representatives or federal government agents and told them they needed to send money that would later be returned to them. In one instance a 93-year-old woman was told the U.S. Attorney General would personally help her obtain a new identification card and recover her funds, and she mailed a $45,000 check that was deposited by the ring. A man already serving a federal sentence for an earlier elder mail fraud case used a contraband cell phone from prison to coordinate with overseas conspirators and pleaded guilty to conspiracy to commit mail fraud, facing up to five years. No real company or government official will ever ask you to mail a check, cash or gift cards to resolve an account or identity problem. Hang up, verify the claim by calling the company or agency at a number you look up yourself, and tell an older relative about this script before they get the call.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","Southern District of Texas"],
+    sourceUrl: "https://www.justice.gov/usao-sdtx/pr/indian-national-pleads-guilty-elderly-fraud-scheme-while-prison",
+    country: "US",
+    state: "TX",
+});
+
+UsAF.push({
+    name: "Casino Cash-Access Fake ID Account Withdrawal Ring (Kansas)",
+    slug: "casino-cash-access-fake-id-account-withdrawal-ring-kansas",
+    description:
+      "A five-person ring identified customers of a company that provides cash access services to casinos and online sports betting operators, obtained those customers' personal identifying information, and used it to manufacture fake driver's licenses. Posing as the account holders, they repeatedly withdrew funds from customer accounts at casinos around the country, stealing more than $800,000 between 2021 and 2024. All five pleaded guilty to conspiracy to commit wire fraud and received prison terms ranging from 12 to 95 months. Prosecutors urged the public to safeguard identifying information and report unusual account activity right away. Turn on transaction alerts for gaming and wallet accounts, never share ID images or account details with anyone who contacts you, and check balances after any trip or online betting session.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","District of Kansas"],
+    sourceUrl: "https://www.justice.gov/usao-ks/pr/five-defendants-sentenced-fraudulent-transactions-totaling-over-800000-0",
+    country: "US",
+    state: "KS",
+});

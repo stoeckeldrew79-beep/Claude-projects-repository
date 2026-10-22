@@ -7724,3 +7724,15 @@ UsTZ.push({
     sourceUrl: "https://www.ic3.gov/PSA/2026/PSA260616",
     country: "US",
 });
+
+UsTZ.push({
+    name: "Telemedicine Platform Fake Doctor's Order Medicare Scheme",
+    slug: "telemedicine-platform-fake-doctors-order-medicare-scheme",
+    description:
+      "An internet platform billed as a health care software company generated false doctors' orders and prescriptions that were used to bill Medicare and other federal health programs more than $1 billion. According to the Justice Department, hundreds of thousands of elderly and disabled Americans were funneled into the scheme through an international telemarketing operation that produced signed orders for equipment and tests patients never needed. The company's owner was sentenced to 19 years in prison in what prosecutors called one of the largest telemedicine fraud schemes ever dismantled. Treat any unsolicited call, text or ad offering braces, tests or other 'free' Medicare-covered items as a red flag, never give your Medicare number to a telemarketer, and review your Medicare summary notices for equipment or services you did not receive.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "critical",
+    sources: ["U.S. Department of Justice","National Fraud Enforcement Division"],
+    sourceUrl: "https://www.justice.gov/opa/pr/owner-health-care-software-company-sentenced-19-years-prison-1b-medicare-fraud",
+    country: "US",
+});

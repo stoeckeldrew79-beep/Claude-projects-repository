@@ -25917,3 +25917,75 @@ International.push({
     sourceUrl: "https://www.infobae.com/mexico/2026/09/11/profeco-lanza-alerta-por-estafa-de-boletos-falsos-para-concierto-de-luis-miguel/",
     country: "MX",
 });
+
+International.push({
+    name: "Fake AADE / TAXISnet Tax Refund Phishing Email",
+    slug: "fake-aade-taxisnet-tax-refund-phishing-email",
+    description:
+      "Fraudsters are sending emails that impersonate Greece's Independent Authority for Public Revenue (AADE) and the gov.gr portal, using the subject line \"Εκκαθάριση δήλωσης-Επιστροφή 640,33€\" and a forged sender address (donotreply@aen.gov.gr) that belongs to no real state service. The message claims you are owed an income tax refund of €640.33 for tax year 2024 and asks you to click a link to \"confirm your deposit details\", which leads to a malicious site built to harvest banking credentials. The National Cybersecurity Authority stresses that AADE and TAXISnet never request confirmation of bank details by email. Do not click any links or buttons, do not enter personal or banking information, and delete the message immediately. Check your tax affairs only through the official aade.gr platform and report suspicious messages to report@csirt.gr.",
+    categorySlug: "tax-scams",
+    alertLevel: "high",
+    sources: ["Εθνική Αρχή Κυβερνοασφάλειας (National Cybersecurity Authority), 26 November 2025"],
+    sourceUrl: "https://cyber.gov.gr/ekstrateia-ilektronikis-apatis-phishing-me-doloma-dithen-epistrofi-foroy/",
+    country: "GR",
+});
+
+International.push({
+    name: "Hellenic Police Impersonation Robocall About Identity Details",
+    slug: "hellenic-police-impersonation-robocall-identity-details",
+    description:
+      "Criminals are placing automated calls from unknown numbers pretending to represent the Hellenic Police, playing a recorded message in English claiming there is a problem with your identity details or that your identity has been involved in illegal activity. The recording asks you to press key 1 to be connected to a supposed police representative, who then tries to extract personal and banking information. The Hellenic Police confirm this is an attempted fraud and state plainly that they never use automated telephone messages to tell anyone they are involved in criminal or illegal activity. If you receive such a call, hang up immediately, press no keys, and give out no personal or banking details. Warn relatives too, especially elderly family members who may be unfamiliar with this tactic.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Ελληνική Αστυνομία (Hellenic Police / ΕΛ.ΑΣ.) warning, 21 July 2026, as reported by Ta Nea","Protothema coverage quoting the Hellenic Police warning"],
+    sourceUrl: "https://www.tanea.gr/2026/07/21/greece/synagermos-apo-tin-el-as-gia-nea-tilefoniki-apati-yparxei-provlima-me-ta-stoixeia-taytotitas-sas/",
+    country: "GR",
+});
+
+International.push({
+    name: "SMS Blaster Fake Mobile Mast Bank Phishing in Attica",
+    slug: "sms-blaster-fake-mobile-mast-bank-phishing-attica",
+    description:
+      "Fraudsters in Attica hid an antenna and radio equipment in a car boot to create a fake mobile phone mast, also called an IMSI catcher, which tricked nearby phones into connecting to their own network. The equipment downgraded connections from 4G to 2G, where serious security gaps exist, letting the operators collect subscriber numbers and push phishing text messages straight onto handsets without passing through any mobile operator's spam filtering. The texts posed as banks or courier companies and contained links that captured banking data, which was then used for illegal purchases. The Hellenic Police arrested two foreign nationals aged 29 and 31 on fraud, forgery and cybercrime charges, linking them to cases in Maroussi, Spata and Athens with losses of around €2,000 and expecting further activity. Treat any bank or delivery SMS with a link as suspect even if it appears in an existing message thread, never tap the link, and contact your bank or courier through their official app or published number instead.",
+    categorySlug: "phishing",
+    alertLevel: "critical",
+    sources: ["Ελληνική Αστυνομία (Hellenic Police) announcement, 15 January 2026, North-Eastern Attica Sub-Directorate for Crime Prosecution, reproduced by Ethnos","Newsit coverage of the Hellenic Police announcement"],
+    sourceUrl: "https://www.ethnos.gr/greece/article/394839/smsblasterattacksynagermosgiahightechapathposeklebantrapezikadedomenameeidikoexoplismo",
+    country: "GR",
+});
+
+International.push({
+    name: "BCRA Central Bank Impersonation and Overseas Transfer Release Fee Scam",
+    slug: "bcra-central-bank-impersonation-release-fee-scam",
+    description:
+      "Criminals impersonate Argentina's central bank, the Banco Central de la Republica Argentina, and its named officials to push fake investments and extract advance payments. The campaign starts with doctored videos that simulate statements by BCRA officials promoting supposed investment opportunities, followed by direct contact via email, WhatsApp or SMS. In one variant victims are told to pay a fee in dollars to release or collect a supposed transfer arriving from abroad; in another they are pushed to install remote-access software, which lets the fraudsters view the screen, enter home banking or virtual wallets and make unauthorised transfers. The BCRA states that its authorities and staff never promote investments or investment platforms, and never request payments, personal data, keys, tokens or card details through social networks or messaging services. Never install an app at the request of a caller claiming to be from a bank or regulator, do not pay any fee to unlock an incoming transfer, and report incidents to UFECI, the federal cybercrime prosecution unit.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Infobae (quoting official BCRA communique)","El Economista"],
+    sourceUrl: "https://www.infobae.com/economia/2026/08/05/alerta-por-una-nueva-estafa-virtual-como-es-el-engano-que-usa-la-imagen-del-banco-central-para-robar-ahorros/",
+    country: "AR",
+});
+
+International.push({
+    name: "ARCA / AFIP Fake Tax Debt Phishing Emails",
+    slug: "arca-afip-fake-tax-debt-phishing-emails",
+    description:
+      "Fraudsters are sending phishing emails that appear to come from ARCA, Argentina's tax and customs authority and successor to AFIP, demanding payment of a tax debt that does not exist. The messages are spoofed to look like they come from an account on the afip.gob.ar domain and cite a non-existent department called 'AFIP Revisiones Pendientes 960', claiming the debt arises from an audit. A link in the body invites the taxpayer to see the details and rectify the situation by entering their clave fiscal and making a payment, which is how the credentials and money are stolen. ARCA has confirmed the absolute falsity of these emails and reminds taxpayers that the Domicilio Fiscal Electronico is the only official channel used to inform them about their tax situation. Do not click any link in such messages, never enter your clave fiscal from an emailed link, and forward the message to phishing@arca.gob.ar.",
+    categorySlug: "tax-scams",
+    alertLevel: "high",
+    sources: ["ARCA official notice, argentina.gob.ar","AFIP/ARCA novedades portal"],
+    sourceUrl: "https://www.argentina.gob.ar/noticias/alerta-estafas-por-correo-electronico",
+    country: "AR",
+});
+
+International.push({
+    name: "ANSES Impersonation Calls and Phantom ANSES Loan Offers",
+    slug: "anses-impersonation-and-phantom-loan-offers",
+    description:
+      "Scammers pose as staff of ANSES, Argentina's national social security administration, to harvest personal and banking data from pensioners, retirees and welfare recipients. In one version callers ask citizens to register their data so they can receive extra economic benefits, and the information collected is then used to take over accounts. In another, phone calls, WhatsApp messages or social media posts promise loans in the name of ANSES, exploiting the gap left after the Creditos ANSES programme was definitively eliminated in November 2024 by Decree 1039/2024. ANSES, an agency under the Ministerio de Capital Humano, has stated that it never requests personal data, passwords or banking information by telephone, email, social media or text message. Hang up on anyone offering an ANSES loan or asking you to register your data, verify any benefit question through official ANSES channels, and never share your passwords or bank details.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["ANSES official notice, anses.gob.ar"],
+    sourceUrl: "https://www.anses.gob.ar/noticias/anses-no-se-comunica-para-solicitar-datos-personales-o-informacion-bancaria",
+    country: "AR",
+});
