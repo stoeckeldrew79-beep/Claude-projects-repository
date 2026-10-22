@@ -13594,3 +13594,29 @@ UsNS.push({
     country: "US",
     state: "PR",
 });
+
+UsNS.push({
+    name: "Sham Hospice Enrollment Fraud",
+    slug: "sham-hospice-enrollment-fraud",
+    description:
+      "Fraudulent hospice companies enroll people in the Medicare or Medi-Cal hospice benefit who are not terminally ill, sometimes without the person ever knowing, and then bill a flat daily rate for end-of-life care that is never provided. The California Attorney General's office says the schemes involve false claims, medically unnecessary services, kickbacks for patient referrals, and recruiters offering gift cards, groceries, or cash to get people to sign up. In an April 2026 enforcement action, prosecutors charged 21 people in a $267 million ring that bought stolen identities on the dark web, enrolled them in Medi-Cal through Covered California, and ran claims through 14 hospice companies held by straw owners. Victims often discover the problem only when unrelated medical care is denied, because electing hospice shuts off coverage for curative treatment. Be suspicious of any hospice signup your own doctor did not recommend or explain, never accept gifts or cash in exchange for enrolling, check your Medicare or Medi-Cal statements for hospice claims, and report anything unexpected to the California Attorney General's office.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "high",
+    sources: ["California Attorney General / California Department of Justice press release, August 6, 2025","California Attorney General press release on Los Angeles hospice fraud ring, April 2026"],
+    sourceUrl: "https://oag.ca.gov/news/press-releases/confronting-hospice-fraud-attorney-general-bonta-launches-public-awareness",
+    country: "US",
+    state: "CA",
+});
+
+UsNS.push({
+    name: "\"Pre-IPO\" Boiler Room Private Share Investment Scheme (New York)",
+    slug: "pre-ipo-boiler-room-private-share-investment-scheme-new-york",
+    description:
+      "Operators of a group of private investment funds ran boiler-room style call centers that cold-called ordinary, non-professional investors and pitched them a chance to buy into privately held companies said to be heading for an initial public offering. Prosecutors said the callers charged undisclosed markups of more than one hundred percent on the shares and concealed their own securities disciplinary histories, stealing from hundreds of investors. Three founders and operators pleaded guilty in the Southern District of New York and were sentenced to 52, 42, and 42 months in prison. Treat unsolicited calls offering \"pre-IPO\" or other private share deals with extreme caution, demand written disclosure of all fees and markups, and check any salesperson's background through FINRA BrokerCheck or the SEC before sending money.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Southern District of New York"],
+    sourceUrl: "https://www.justice.gov/usao-sdny/pr/pre-ipo-boiler-room-operators-sentenced-prison",
+    country: "US",
+    state: "NY",
+});

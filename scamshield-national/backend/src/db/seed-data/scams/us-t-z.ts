@@ -7699,3 +7699,16 @@ UsTZ.push({
     sourceUrl: "https://www.justice.gov/opa/pr/medical-supply-company-owner-sentenced-14-years-prison-30m-medicare-tricare-and-champva",
     country: "US",
 });
+
+UsTZ.push({
+    name: "Unbuilt Real Estate Development Investor Fraud (Florida)",
+    slug: "unbuilt-real-estate-development-investor-fraud-florida",
+    description:
+      "The chief executive of a Miami-based real estate development company raised roughly $89 million from investors by promoting projects in Coral Gables, Coconut Grove, Miami Beach, and Fort Lauderdale, but most of the developments were never built. Instead of putting the money into the promised projects, he diverted millions to fund a lavish personal lifestyle, including a 68-foot yacht financed with lies to a bank, a diamond ring, and a multimillion-dollar home, while also failing to pay over payroll taxes withheld from employees. He pleaded guilty to money laundering and conspiracy to fail to pay payroll taxes and was sentenced to 136 months in federal prison. Before investing in a private real estate deal, verify that permits and construction actually exist, insist on independent audited accounting of how funds are held, and be wary of promoters whose personal spending outpaces project progress.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Southern District of Florida"],
+    sourceUrl: "https://www.justice.gov/usao-sdfl/pr/miami-real-estate-developer-sentenced-89-million-investor-fraud-and-tax-scheme",
+    country: "US",
+    state: "FL",
+});

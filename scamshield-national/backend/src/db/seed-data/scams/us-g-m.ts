@@ -14354,3 +14354,28 @@ UsGM.push({
     country: "US",
     state: "IN",
 });
+
+UsGM.push({
+    name: "Household Goods Mover Hostage Load Extortion",
+    slug: "household-goods-mover-hostage-load-extortion",
+    description:
+      "Some interstate moving companies, and the brokers that hand them jobs, load a family's belongings onto a truck and then refuse to deliver them until the customer pays charges far above the price that was quoted. The Federal Motor Carrier Safety Administration tracks these as \"HHG hostage complaints\" and defines them as movers holding household possessions hostage to extort exorbitant additional charges. FMCSA's Operation Protect Your Move sweep ran April 1 to 19, 2024, covering investigations in 17 states ahead of peak moving season and targeting the carriers and brokers with the worst records in the National Consumer Complaint Database and on the agency's HHG Top 100 Carriers list. Before you book a move, verify the company's USDOT number on FMCSA's website, get a written binding estimate, be wary of large deposits or quotes given without an in-person or video survey, and file a complaint with FMCSA's National Consumer Complaint Database if your goods are held for ransom.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["Federal Motor Carrier Safety Administration (US DOT), Operation Protect Your Move 2024 report, posted July 2025"],
+    sourceUrl: "https://www.fmcsa.dot.gov/sites/fmcsa.dot.gov/files/2025-07/OPYM_report_2024.pdf",
+    country: "US",
+});
+
+UsGM.push({
+    name: "In-Branch Bank Customer Impersonation Withdrawal Ring (Massachusetts)",
+    slug: "in-branch-bank-customer-impersonation-withdrawal-ring-massachusetts",
+    description:
+      "Over roughly three months, a member of a multi-state bank fraud ring walked into branches in Massachusetts and Rhode Island posing as at least eight real bank customers, using counterfeit driver's licenses that carried the customers' names and information but her own photograph. She handed tellers withdrawal slips listing the victims' names and account numbers and walked out with $536,000 in cashier's checks and cash before the scheme was detected. She pleaded guilty to bank fraud and aggravated identity theft and was sentenced to 26 months in prison, and several co-defendants in the related multi-million-dollar ring have also pleaded guilty. Turn on real-time alerts for every withdrawal and cashier's check on your accounts, review statements promptly, and report any transaction you did not authorize to your bank immediately so the funds can be traced.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of Massachusetts"],
+    sourceUrl: "https://www.justice.gov/usao-ma/pr/hopkinton-woman-sentenced-prison-role-bank-fraud-ring",
+    country: "US",
+    state: "MA",
+});

@@ -25773,3 +25773,75 @@ International.push({
     sourceUrl: "https://horntribune.com/2025/12/26/somaliland-central-bank-issues-urgent-warning-alpha-planet-bridge-exposed-as-illegal-ponzi-scheme/",
     country: "SO",
 });
+
+International.push({
+    name: "Fake Carabinieri and Gendarmeria Phone Calls Targeting Sammarinese Pensioners",
+    slug: "fake-carabinieri-gendarmeria-phone-calls-pensioners",
+    description:
+      "Criminals telephone elderly residents on their home landlines and claim to be a Carabinieri officer, a \"maresciallo\" or a San Marino Gendarmeria officer. One caller keeps the victim talking for a long time so they cannot hang up, call a relative or check the story, while an accomplice rings the doorbell to collect cash, gold or jewellery supposedly needed for an investigation or as a guarantee. A more recent wave used caller-ID spoofing so the real phone numbers of San Marino's security forces appear on the display, and the story is designed to make the victim leave the house so accomplices can act undisturbed; in one morning at least four pensioners in the Falciano and Ca' Ragni areas were targeted. The Gendarmeria stresses that police never ask citizens for money, jewellery or valuables. If you get such a call, hang up immediately and verify by calling the Centrale Operativa Interforze on 888888, 112 or 113, and warn elderly relatives about the tactic.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["https://www.sanmarinortv.sm/news/cronaca-c3/tentate-truffe-a-san-marino-si-fingono-carabinieri-per-chiedere-denaro-gioielli-e-valori-a283382","https://www.sanmarinortv.sm/news/cronaca-c3/san-marino-nuova-ondata-di-tentate-truffe-agli-anziani-usati-numeri-delle-forze-dell-ordine-a287802","https://www.sanmarinortv.sm/news/cronaca-c3/a-san-marino-nuova-ondata-di-truffe-del-finto-carabiniere-a291353"],
+    sourceUrl: "https://www.sanmarinortv.sm/news/cronaca-c3/tentate-truffe-a-san-marino-si-fingono-carabinieri-per-chiedere-denaro-gioielli-e-valori-a283382",
+    country: "SM",
+});
+
+International.push({
+    name: "Fraudulent \"Banca del Titano\" Banking Website (bdtitano.com)",
+    slug: "fraudulent-banca-del-titano-banking-website",
+    description:
+      "A website at bdtitano.com advertised banking and financial products using the name and identifying details of \"Banca del Titano\", a Sammarinese bank that has not operated for several years, in order to borrow the credibility of a once-real local institution. The Central Bank of the Republic of San Marino (BCSM) stated that no bank with that name appears in its supervisory registers and that no such entity is authorised or licensed to carry out banking or financial activity in the Republic. BCSM reported the site to the Judicial Authority under art. 104 of Law no. 165/2005 in a press release dated 26 February 2026. Before sending money or personal data to any site offering banking or financial services, check that the entity is listed in the Registro dei Soggetti Autorizzati on bcsm.sm, and report suspicious sites to BCSM or the police.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["https://www.sanmarinortv.sm/news/cronaca-c3/banca-centrale-denuncia-sito-fraudolento-sfrutto-il-nome-banca-del-titano-a287078","https://sanmarinofixing.com/2026/02/26/sito-web-fraudolento-con-denominazione-banca-del-titano"],
+    sourceUrl: "https://www.sanmarinortv.sm/news/cronaca-c3/banca-centrale-denuncia-sito-fraudolento-sfrutto-il-nome-banca-del-titano-a287078",
+    country: "SM",
+});
+
+International.push({
+    name: "Fake Gendarmeria and Europol \"Court Summons\" Phishing Emails",
+    slug: "fake-gendarmeria-europol-court-summons-phishing-emails",
+    description:
+      "Recipients in San Marino receive emails carrying the Gendarmeria logo, the Europol logo and the coat of arms of the Republic, formatted as an official summons to appear in court and signed with the name of a senior Gendarmeria commander or other real law-enforcement figures whose identities are misused. The message pressures the recipient to reply or follow instructions, which is how the fraudsters harvest personal and sensitive data. Warning signs include poor grammar and a sender address that is really a free webmail account dressed up to look institutional, such as gendarmeria.omniway.sm@gmail.com. The Gendarmeria has stressed that police forces would never contact citizens directly by email or message. The campaign has appeared in separate waves rather than continuously, so treat any such email as fake: do not reply, do not click links or attachments, and report it to the Gendarmeria.",
+    categorySlug: "phishing",
+    alertLevel: "medium",
+    sources: ["https://www.sanmarinortv.sm/news/cronaca-c3/san-marino-operazioni-di-phishing-tramite-e-mail-false-a227152","https://www.libertas.sm/san-marino-finte-e-mail-dalla-gendarmeria-attenzione-a-non-cadere-nella-truffa/"],
+    sourceUrl: "https://www.sanmarinortv.sm/news/cronaca-c3/san-marino-operazioni-di-phishing-tramite-e-mail-false-a227152",
+    country: "SM",
+});
+
+International.push({
+    name: "Fake GIWA Blockchain Network Bridge Theft",
+    slug: "fake-giwa-blockchain-network-bridge-theft",
+    description:
+      "Fraudsters built a counterfeit version of GIWA, a blockchain mainnet still under development by Dunamu, the operator of the Upbit exchange, and claimed on social media and online communities that it had surprise-launched early. The fake network copied the real RPC endpoint and token bridge and used chain ID 9134 instead of the genuine 91342, and a decentralised exchange mistakenly listed support for it, which made it look legitimate. Victims bridged real Ethereum onto the fake chain and the ring swept the deposits and vanished, with reported losses of roughly 2.8 billion won covering 766.25 ETH taken from 1,335 addresses. The Financial Supervisory Service issued a Caution-level consumer alert warning that any bridge or smart contract supporting a network that has not officially launched is a scam and that on-chain theft is effectively irreversible. Never connect a wallet or bridge funds to a chain before the developer confirms launch on its own verified channels, and check the chain ID digit by digit before approving anything.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["Financial Supervisory Service (FSS) Digital Asset Investigation Department consumer alert, 22 October 2026","Financial News (fnnews) report quoting the FSS alert","Newspim report on the FSS alert"],
+    sourceUrl: "https://www.fss.or.kr/fss/bbs/B0000175/list.do?menuNo=200204",
+    country: "KR",
+});
+
+International.push({
+    name: "No-Show Proxy Purchase Scam Targeting Small Businesses",
+    slug: "no-show-proxy-purchase-scam-targeting-small-businesses",
+    description:
+      "Callers posing as civil servants, military officers, firefighters, lawmakers' aides, celebrity agencies or election campaign offices place a large bulk food or catering order with a small business, often backed by forged ID cards and official-looking documents. They then ask the owner to also buy an expensive item the shop does not normally stock, such as premium liquor or equipment, from one specific named supplier, promising to settle everything on the same invoice. That supplier is an accomplice front company, so once the owner wires the money both the fake client and the fake supplier disappear, and burner phones and mule accounts make recovery very hard. A procurement variant targets firms that have just won bids on the Nara-Jangteo public procurement portal. Korean police tell merchants to treat any bulk order that comes with a request to buy from a designated vendor as fraud, and to verify the caller by phoning the institution on its published number.",
+    categorySlug: "business-email-compromise",
+    alertLevel: "high",
+    sources: ["Korean National Police Agency National Investigation Headquarters press release, 20 May 2025","KNPA Lunar New Year new-scam alert via korea.kr, 11 February 2026","KNPA and Small Enterprise and Market Service prevention agreement announcement, March 2026"],
+    sourceUrl: "https://www.police.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1002&q_bbscttSn=20250520133031654",
+    country: "KR",
+});
+
+International.push({
+    name: "Post-Breach Customised Loan Impersonation Fraud",
+    slug: "post-breach-customised-loan-impersonation-fraud",
+    description:
+      "After a run of hacking incidents at Korean financial institutions in late 2026, scammers began using leaked customer details such as name, address, income and existing loan limit to make voice phishing calls and smishing texts far more convincing. They pose as staff at the victim's own bank or at the Financial Supervisory Service and offer either a tailored low-interest refinancing deal that matches the real loan profile, or compensation and asset protection related to the data breach. The goal is an up-front fee or repayment into a personal or mule account, installation of a remote-control app disguised as a loan application or security check, or a transfer to a nominated protection account. Regulators stress that banks and supervisors never ask for passwords or authentication codes by phone or text, never send a breach notice containing a URL, and never require prepayment or app installation for a genuine loan. Sign up for the financial transaction safety blocking service to pre-block non-face-to-face loans and account openings, report to the 1394 fraud line, and call 112 or your bank's call centre immediately to suspend payment if money has already moved.",
+    categorySlug: "data-breach-scams",
+    alertLevel: "critical",
+    sources: ["Financial Services Commission and Financial Supervisory Service joint Consumer Alert 2026-26 (Caution), 6 October 2026","FSS homepage listing of Consumer Alert 2026-26"],
+    sourceUrl: "https://fsc.go.kr/no010101/87882",
+    country: "KR",
+});

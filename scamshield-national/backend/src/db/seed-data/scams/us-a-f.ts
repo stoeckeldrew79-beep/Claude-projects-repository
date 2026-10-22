@@ -13557,3 +13557,55 @@ UsAF.push({
     country: "US",
     state: "AR",
 });
+
+UsAF.push({
+    name: "Funeral Home Impersonation Payment Demands",
+    slug: "funeral-home-impersonation-payment-demands",
+    description:
+      "Scammers call families who have just lost a loved one, claim to be staff from the funeral home handling the arrangements, and demand immediate payment for services that were never provided. The Columbus County Sheriff's Office in North Carolina warned on October 29, 2025 that callers pull names, dates, and family details straight from published obituaries so they sound legitimate, and spoof caller ID so the number appears to come from the funeral home. Grieving relatives are pressured to pay on the spot before they have a chance to check with anyone. If you get a call like this, hang up, look up the funeral home's number independently rather than calling back the number that appeared on your phone, and confirm any balance directly with the director. Never send money over the phone to someone who contacted you first, and report the call to your local sheriff's office.",
+    categorySlug: "family-emergency-scams",
+    alertLevel: "medium",
+    sources: ["Columbus County Sheriff's Office warning, October 29, 2025, as reported by WECT (NBC affiliate, Wilmington, NC)"],
+    sourceUrl: "https://www.wect.com/2025/10/29/columbus-co-sheriffs-office-warns-funeral-home-scam-targeting-grieving-families/",
+    country: "US",
+    state: "NC",
+});
+
+UsAF.push({
+    name: "Computer Pop-Up and Gold-Bar Courier Scam Targeting Seniors (Rhode Island)",
+    slug: "computer-pop-up-gold-bar-courier-scam-targeting-seniors-rhode-island",
+    description:
+      "Members of a transnational conspiracy sent pop-up messages to seniors' computers that looked like warnings from well-known technology companies, falsely claiming the computer had been hacked, bank accounts were compromised, or the victim was under investigation. Victims were told to call a \"live agent,\" who then handed them off to conspirators posing as representatives of banks and government agencies including the Federal Trade Commission and the Federal Reserve Bank, and were persuaded to move money by wire transfer, cryptocurrency, or by withdrawing cash to buy gold bars that couriers collected in person. One participant, who admitted directing couriers who picked up the assets, pleaded guilty in federal court in Rhode Island to conspiracy to commit wire fraud and faces up to 20 years in prison. No real government agency or bank will ever ask you to protect your savings by wiring funds, buying cryptocurrency, or converting cash into gold for pickup. Close any alarming pop-up without calling the number it displays, and verify with your bank using the number printed on your card.",
+    categorySlug: "tech-support-scams",
+    alertLevel: "critical",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of Rhode Island"],
+    sourceUrl: "https://www.justice.gov/usao-ri/pr/flushing-ny-man-pleads-guilty-transnational-fraud-scheme-targeting-elderly-victims",
+    country: "US",
+    state: "RI",
+});
+
+UsAF.push({
+    name: "Court-Appointed Guardian Embezzlement From Incapacitated Wards (Michigan)",
+    slug: "court-appointed-guardian-embezzlement-from-incapacitated-wards-michigan",
+    description:
+      "Probate courts appoint guardians and conservators to manage the money and personal affairs of adults, called wards, who a judge has found cannot manage for themselves, and those fiduciaries are legally required to act in the ward's best interest. According to a federal indictment in the Eastern District of Michigan, the owner of a guardianship agency appointed by a county probate court and a manager who also ran a non-emergency transportation business systematically drained ward accounts, including using $87,000 of one ward's funds to buy a transit van for the transportation company and taking $180,000 from the sale of another ward's home. Both were charged with conspiracy to commit wire fraud, wire fraud, and money laundering; the charges are allegations and they are presumed innocent. If a relative or friend is under guardianship, request copies of the annual accountings filed with the probate court, watch for unexplained property sales or payments to businesses connected to the guardian, and report concerns to the probate court or the FBI.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of Michigan"],
+    sourceUrl: "https://www.justice.gov/usao-edmi/pr/two-charged-fraud-scheme-steal-hundreds-thousands-dollars-vulnerable-wards",
+    country: "US",
+    state: "MI",
+});
+
+UsAF.push({
+    name: "Fake ICE Official Threatening Deportation (New York)",
+    slug: "fake-ice-official-threatening-deportation-new-york",
+    description:
+      "A then-serving New York City police sergeant used an alias to falsely present himself as an official of U.S. Immigration and Customs Enforcement and ordered a woman and her family to turn themselves in at an ICE office or face \"legal action\" and \"enforcement measures.\" Prosecutors said he used the fake federal authority to intimidate the victim over a personal grievance rather than any real immigration matter. He pleaded guilty in federal court in Brooklyn to false impersonation of an officer of the United States, was required to resign from the NYPD, is permanently barred from any law enforcement job, and faces up to three years in prison. If someone claiming to be a federal immigration officer contacts you by phone, text, or in person and demands that you report somewhere or pay something, do not comply on the spot; ask for identification, verify through official agency channels or an immigration attorney, and report impersonation to the FBI.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of New York"],
+    sourceUrl: "https://www.justice.gov/usao-edny/pr/former-new-york-city-police-department-sergeant-pleads-guilty-impersonating-ice",
+    country: "US",
+    state: "NY",
+});
