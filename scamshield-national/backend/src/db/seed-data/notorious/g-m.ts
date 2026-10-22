@@ -12650,3 +12650,24 @@ On March 23, 2009, U.S. District Judge Norma L. Shapiro sentenced Plant to 97 mo
 The CyberKey case shows the pattern of a stock promotion built on a single, impressive-sounding customer: a government contract is hard for small investors to check, and a claim of Homeland Security business invites trust. It also shows how fabricating evidence for regulators and coaching a subordinate to take the blame adds charges, and a longer sentence, to the original securities fraud.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-20979',
 });
+
+NotoriousGM.push({
+    title: 'Karim Arabi and the Abreezio Sale to Qualcomm',
+    slug: 'karim-arabi-abreezio-sale-to-qualcomm',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'wire-fraud', 'money-laundering', 'insider-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Qualcomm_Headquarters_La_Jolla.jpg?width=1200',
+    coverImageCredit: 'Photo: Coolcaesar (CC BY-SA 4.0) — Qualcomm headquarters, La Jolla, San Diego, California',
+    coverImagePosition: 50,
+    body: `Karim Arabi was a vice president in Qualcomm's research and development department in San Diego. Under his employment agreement, Qualcomm owned nearly all the inventions he made while working there. According to federal prosecutors, Arabi developed microchip technology at Qualcomm and then used a company he had created, Abreezio, to hide his involvement. He sold Abreezio and its technology to Qualcomm for $180 million. Prosecutors said Qualcomm would not have paid anything had it known who was really behind the technology.
+
+The concealment was personal as well as corporate. Prosecutors said Arabi created two fake email accounts impersonating Arabi's sister so that she would appear to be running Abreezio, and wrote a fabricated résumé for her. Associates sometimes addressed Arabi by the sister's name. In the later civil suit, Arabi and the sister gave Qualcomm a falsified research notebook created years after the fact, and Arabi directed an accomplice to delete emails after learning of the investigation. Abreezio's chief executive, Sanjiv Taneja, admitted that the sister held the title of chief architect but never worked on the company, and the sister legally changed a last name from Arabi to Alan in time for patent applications that required the inventor's name, according to NBC San Diego.
+
+Qualcomm paid more than $150 million to Arabi's coconspirators and others before it discovered the fraud, including nearly $92 million to the sister after the deal closed. Prosecutors said the proceeds were moved through intermediary shell companies and invested in Canadian and Norwegian real estate through Arabi's siblings, who bought 15 luxury properties with the money. In a civil suit, Arabi and the sister settled with Qualcomm and agreed to pay more than $47 million.
+
+After a four-week trial, a federal jury in San Diego convicted Arabi in April 2025 of wire fraud conspiracy, wire fraud and conspiracy to commit money laundering. On October 28, 2025, Chief U.S. District Judge Cynthia A. Bashant sentenced Arabi to 48 months in prison, ordered restitution of $100,894,711.12 to Qualcomm, and ordered forfeiture of more than $45 million and properties in Canada and Norway. Judge Bashant described the conduct as "breathtaking in its dishonesty." Arabi's lawyers had argued that the invention-ownership provision of the employment agreement was not enforceable under California law. News coverage reported that Arabi apologized in court, saying that the trust of the people who saw Arabi as a mentor had been violated.
+
+The Abreezio case shows an insider fraud in which the victim was also the buyer. A senior employee took what the employer already owned, placed it in a company fronted by relatives, and then sold it back, so the paperwork looked like an arm's-length acquisition. It also shows how long a concealed conflict of interest can last when the insider controls the identity of the people on the other side of the deal.`,
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/former-qualcomm-executive-sentenced-to-prison-for-180-million-fraud',
+});
