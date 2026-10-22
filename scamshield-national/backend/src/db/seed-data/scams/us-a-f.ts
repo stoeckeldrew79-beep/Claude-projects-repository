@@ -13479,3 +13479,42 @@ UsAF.push({
     country: "US",
     state: "PA",
 });
+
+UsAF.push({
+    name: "\"Cut Up Your Card and Mail Us the Chip\" Bank Impersonation Scam",
+    slug: "cut-up-your-card-and-mail-us-the-chip-bank-impersonation-scam",
+    description:
+      "A caller claiming to be from your bank or card issuer says your account has been compromised and a replacement card is on the way. As part of a fake \"security procedure,\" they tell you to cut up your current card and mail the EMV chip portion to an address they provide so the old card can be deactivated or verified. The mailed chip, combined with account details collected during the same call, gives the fraudsters usable card credentials, while you believe you safely destroyed a compromised card and wait for a replacement that never comes. The Park City Police Department in Utah warned residents after receiving reports of this approach. No legitimate bank will ever ask you to mail in a card or chip, so hang up and call the number printed on your statement or the bank's official website to verify.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["Park City Police Department public warning (May 2026)","KUTV (CBS 2, Salt Lake City) report quoting the police department","TownLift (Park City) coverage"],
+    sourceUrl: "https://kutv.com/news/local/utah-scam-prompts-warning-after-callers-ask-victims-to-cut-up-cards-mail-in-chips",
+    country: "US",
+    state: "UT",
+});
+
+UsAF.push({
+    name: "\"Bail Bondsman\" Courier Grandparent Scam Targeting Elderly Americans (Vermont)",
+    slug: "bail-bondsman-courier-grandparent-scam-vermont",
+    description:
+      "Callers posing as a grandchild in legal trouble, or as someone helping them, persuaded elderly Americans that cash was needed immediately for bail, then sent couriers posing as \"bail bondsmen\" to collect the money at victims' homes. A Canadian man recruited those couriers to travel into the United States, laundered the cash they picked up, and passed it to co-conspirators, victimizing roughly 20 elderly people in just three weeks during 2023. He was arrested abroad, extradited, pleaded guilty to conspiracy to commit wire fraud and conspiracy to launder monetary instruments, and was sentenced to 33 months in prison with $256,000 in restitution. No court or bail agency sends someone to your door to collect cash. If you get a frantic call about a relative's arrest, hang up, call the family member directly on a known number, and report the call to law enforcement before handing over any money.",
+    categorySlug: "grandparent-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of Vermont"],
+    sourceUrl: "https://www.justice.gov/usao-vt/pr/canadian-man-sentenced-prison-participation-grandparent-scam",
+    country: "US",
+    state: "VT",
+});
+
+UsAF.push({
+    name: "Facebook \"Widower Abroad\" Romance and Fake-Check Overpayment Scheme (Western New York)",
+    slug: "facebook-widower-romance-fake-check-overpayment-new-york",
+    description:
+      "A Georgia man and his co-conspirators contacted a 77-year-old woman on Facebook using a fake persona of an American widower living in Norway, built an online romance over about a year and a half, and told her he needed gift cards to \"stay online\" — collecting roughly thirty $500 cards before directing her to mail eight checks totaling more than $162,000. The persona later claimed to be detained by customs abroad and demanded $158,000 more, but her bank spotted the fraud and stopped payment. The same ring hit a caterer with a classic overpayment trick: a fake customer sent a $2,800 check for an $800 deposit and asked that the $2,000 difference be sent back by Zelle. The defendant was convicted of conspiracy to commit wire fraud, sentenced to 33 months in prison and ordered to pay $196,500 in restitution. Treat any online love interest who asks for gift cards, checks or wire transfers as a scammer, and never refund the \"extra\" amount on a check until your bank confirms it has truly cleared.",
+    categorySlug: "romance-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Western District of New York"],
+    sourceUrl: "https://www.justice.gov/usao-wdny/pr/georgia-man-going-prison-scamming-victims-out-tens-thousands-dollars",
+    country: "US",
+    state: "NY",
+});

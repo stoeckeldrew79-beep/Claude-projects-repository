@@ -13581,3 +13581,16 @@ UsNS.push({
     sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2026/04/people-losing-big-investment-scams-learn-how-spot-and-avoid-them",
     country: "US",
 });
+
+UsNS.push({
+    name: "Social Media Sextortion Ring Operating From the Dominican Republic (Puerto Rico Victims)",
+    slug: "social-media-sextortion-ring-dominican-republic-puerto-rico",
+    description:
+      "Two defendants allegedly ran an international, financially motivated sextortion scheme that found victims in Puerto Rico through Facebook, WhatsApp and other platforms. One used her own image to coax victims into sharing sexually explicit photos and video, which were secretly recorded, and then a partner and other co-conspirators demanded money under threat of sending the material to the victims' family and friends. In some cases the group built collages pairing victims' explicit images with pictures of minors to make it appear the victims were involved with children, and even after victims paid and emptied their accounts, the images were released anyway. The pair were arrested in the Dominican Republic and extradited to Puerto Rico to face cyberstalking and sextortion conspiracy charges. Never send intimate images to someone you have only met online, understand that paying an extortionist does not stop the threats, and report sextortion to the FBI immediately while preserving the messages.",
+    categorySlug: "sextortion",
+    alertLevel: "critical",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of Puerto Rico"],
+    sourceUrl: "https://www.justice.gov/usao-pr/pr/two-dominican-republic-nationals-extradited-face-cyberstalking-and-sextortion-conspiracy",
+    country: "US",
+    state: "PR",
+});

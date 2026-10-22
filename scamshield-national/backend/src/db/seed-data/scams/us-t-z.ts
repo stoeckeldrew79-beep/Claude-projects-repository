@@ -7687,3 +7687,15 @@ UsTZ.push({
     sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2026/08/how-spot-postcard-scam-targeting-veterans",
     country: "US",
 });
+
+UsTZ.push({
+    name: "Unwanted Orthotic Brace and Glucose Monitor Medicare Billing Scheme",
+    slug: "unwanted-orthotic-brace-glucose-monitor-medicare-billing-scheme",
+    description:
+      "An Oklahoma medical supply company owner and chiropractor ran a years-long scheme that tried to bill Medicare, TRICARE and CHAMPVA more than $30 million for orthotic braces, continuous glucose monitors and other durable medical equipment that beneficiaries never wanted or needed. Prosecutors described illegal kickbacks, false claims and the buying and selling of patients' sensitive medical information as a commodity to generate the orders. A jury convicted him and he was sentenced to 14 years in prison. Be suspicious of unsolicited calls, texts or ads offering \"free\" braces, monitors or genetic tests billed to Medicare or TRICARE, never give your Medicare or beneficiary number to a stranger, and check your Medicare summary notices for equipment you never received or ordered.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","National Fraud Enforcement Division"],
+    sourceUrl: "https://www.justice.gov/opa/pr/medical-supply-company-owner-sentenced-14-years-prison-30m-medicare-tricare-and-champva",
+    country: "US",
+});

@@ -14316,3 +14316,41 @@ UsGM.push({
     country: "US",
     state: "WI",
 });
+
+UsGM.push({
+    name: "Gift Card Draining (In-Store Card Tampering)",
+    slug: "gift-card-draining-in-store-card-tampering",
+    description:
+      "Thieves take gift cards off a store display rack, record the card number and PIN by peeling back or replacing the scratch-off packaging, and then put the tampered cards back on the shelf. They watch the balance remotely and drain the money the moment an unsuspecting shopper buys the card and loads it. The buyer or the gift recipient only finds out at checkout, when the card shows a zero balance and the purchase trail has gone cold. The District of Columbia Office of the Attorney General issued a consumer alert about this pattern ahead of the holiday shopping season. Before buying, inspect the packaging for any sign of tampering, pick cards from the back of the rack or ask for one kept behind the counter, keep your receipt and activation slip, and register or spend the card promptly.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["District of Columbia Office of the Attorney General consumer alert (December 2025)","WUSA9 (CBS, Washington DC) coverage naming the agency"],
+    sourceUrl: "https://oag.dc.gov/release/attorney-general-brian-schwalb-issues-alert",
+    country: "US",
+});
+
+UsGM.push({
+    name: "\"Grant Bae\" Minority Business Grant Advance-Fee Scheme (Florida)",
+    slug: "grant-bae-minority-business-grant-advance-fee-scheme-florida",
+    description:
+      "Two Florida defendants set up a company that claimed to help minority business owners obtain government grants, charged clients fees, and told them applications were being processed on their behalf. Evidence at trial showed no grant-writing was ever done and no firms were hired to find grants; more than 1,000 people were victimized out of roughly $2.9 million that was spent on vehicles, jewelry, clothing and casino gambling. A federal jury convicted the operator on all 13 counts, including conspiracy to commit wire fraud, wire fraud and money laundering, and a co-defendant pleaded guilty. Real federal grants are applied for free at official government sites, and no legitimate service can guarantee an award. If a \"grant consultant\" charges an up-front fee and then only sends vague status updates, stop paying and report it.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Middle District of Florida"],
+    sourceUrl: "https://www.justice.gov/usao-mdfl/pr/jury-convicts-lake-city-woman-29-million-fraud-case-0",
+    country: "US",
+    state: "FL",
+});
+
+UsGM.push({
+    name: "Mail Carrier Check-Theft and Bank Fraud Conspiracy (Indianapolis)",
+    slug: "mail-carrier-check-theft-bank-fraud-conspiracy-indianapolis",
+    description:
+      "A former U.S. Postal Service letter carrier admitted orchestrating a $34 million conspiracy to commit bank fraud by stealing checks out of the mail along her delivery route and feeding them to co-conspirators who cashed or deposited them. Prosecutors estimate about 6,500 victims were affected, including anyone who mailed a paper check or failed to receive an expected mailing along one Indianapolis postal route between November 2020 and May 2022. The carrier pleaded guilty and awaits sentencing, three co-conspirators have already been sentenced to prison terms with restitution, and another awaits sentencing. Mailed paper checks are a prime theft target, so drop them inside a post office rather than a curbside box, use electronic payment where possible, and monitor your bank account for altered or unfamiliar check images. If an expected check never arrived during that period, contact the U.S. Attorney's Office victim coordinator listed in the case.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Southern District of Indiana"],
+    sourceUrl: "https://www.justice.gov/usao-sdin/pr/ex-postal-worker-admits-stealing-checks-massive-34-million-fraud-scheme",
+    country: "US",
+    state: "IN",
+});

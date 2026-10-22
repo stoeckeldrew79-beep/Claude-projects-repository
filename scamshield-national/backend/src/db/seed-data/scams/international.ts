@@ -25725,3 +25725,51 @@ International.push({
     sourceUrl: "https://cebrf.knf.gov.pl/component/content/article/przeglad-wybranych-oszustw-internetowych-czerwiec-2025?catid=14%3Aostrzezenia-csirt&Itemid=101",
     country: "PL",
 });
+
+International.push({
+    name: "Fake Multibanco Card Delivered by Post",
+    slug: "fake-multibanco-card-delivered-by-post",
+    description:
+      "Criminals post a counterfeit Multibanco debit card to your home address along with a letter that looks like a routine card replacement from your own bank, often using your real name and bank name because they already hold your personal data. The letter demands urgent activation and usually threatens that your account will be blocked unless you act immediately, directing you to a phone number, a link or a QR code printed on the page. Those contacts lead to fake copies of Portuguese bank websites that harvest your personal details and home-banking credentials, which the fraudsters then use to make unauthorised transfers from your real account. Banco de Portugal points out that genuine cards are valid until the last day printed on them, replacements arrive unhurriedly weeks in advance, and a real card can only be activated at an ATM, on the bank's website or in the bank's app - never through a link, QR code or phone number supplied in a letter. If an unexpected card arrives, do not activate it or scan anything in the letter; contact your bank directly using the number on your existing card or statement.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Banco de Portugal (central bank) alert, 1 October 2026","Guarda Nacional Republicana (GNR) parallel warning on fake credit cards sent by post","Renascença, Jornal de Notícias and Diário de Notícias coverage quoting Banco de Portugal"],
+    sourceUrl: "https://rr.pt/noticia/pais/2026/10/01/recebeu-um-cartao-multibanco-por-correio-pode-ser-fraude-alerta-banco-de-portugal/487538",
+    country: "PT",
+});
+
+International.push({
+    name: "MB WAY Unexpected Transfer Refund Money-Mule Scam",
+    slug: "mb-way-unexpected-transfer-refund-money-mule-scam",
+    description:
+      "You receive an unexpected MB WAY transfer into your account from someone you do not know, and shortly afterwards a stranger contacts you - usually on WhatsApp - claiming the payment was a mistake and asking you to send it back. The catch is that the refund is requested to a different number or account than the one the money came from. The PSP warns that this is how fraudsters launder illicit money through innocent people's accounts: by returning the amount to a different number, you may unknowingly be helping to cover the trail of a crime and could face questions from your bank or the police. Treat any mismatch between the sender and the account requesting the refund as a clear warning sign. Do not send the money anywhere; contact your bank immediately, keep screenshots of the messages and the transfer receipts, and report it at a PSP station.",
+    categorySlug: "identity-theft",
+    alertLevel: "medium",
+    sources: ["Polícia de Segurança Pública (PSP) alert issued via its social media channels, around 22 April 2026","24notícias (SAPO) national coverage of the PSP warning"],
+    sourceUrl: "https://24noticias.sapo.pt/atualidade/artigos/psp-alerta-para-nova-burla-por-mb-way",
+    country: "PT",
+});
+
+International.push({
+    name: "Fake Cryptocurrency Investment Apps Blacklisted by the Central Bank of Somaliland",
+    slug: "fake-cryptocurrency-investment-apps-somaliland",
+    description:
+      "In July 2024 the Central Bank of Somaliland publicly declared a group of mobile and online applications marketed as cryptocurrency investment platforms to be fraudulent. The bank named nine apps, including 2139, KUEX, CBEX, TRECART, KFC, ADIDAS, CROPTY and OKX — several of which borrow the brand names of well-known international companies that have no connection to them. The bank said it would pursue legal action against people promoting the apps and urged the public to report suspicious schemes, echoing a similar warning it issued in 2020 about fake forex-trading platforms. Treat any app promising crypto investment returns with suspicion, especially if it uses a famous brand name. Verify that any investment platform is licensed with the Central Bank before sending money, and report promoters to the authorities.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["Central Bank of Somaliland (Bankiga Dhexe ee Somaliland)","Somaliland Chronicle, 12 July 2024"],
+    sourceUrl: "https://somalilandchronicle.com/2024/07/12/somaliland-central-bank-warns-the-public-against-massive-cryptocurrency-scam/",
+    country: "SO",
+});
+
+International.push({
+    name: "Alpha Planet Bridge Illegal Ponzi Scheme",
+    slug: "alpha-planet-bridge-illegal-ponzi-scheme",
+    description:
+      "Alpha Planet Bridge is an online investment programme operating in the Somaliland region that the Central Bank declared an illegal Ponzi or pyramid scheme in a public alert dated 26 December 2025. The regulator's classification means any returns paid to participants come from money deposited by newer participants rather than from real economic activity, so the scheme collapses once recruitment slows. In a follow-up warning the Central Bank's spokesman described the wider pattern it is seeing: people deposit money and simply wait for profit, with no lawful productive business behind the promised returns. If you have money in Alpha Planet Bridge, stop depositing and try to withdraw immediately, and do not recruit friends or family. Check that any investment scheme is licensed by the Central Bank before paying anything, and report schemes promising quick guaranteed returns.",
+    categorySlug: "ponzi-pyramid-schemes",
+    alertLevel: "high",
+    sources: ["Central Bank of the Republic of Somaliland","Horn Tribune, 26 December 2025","Horn Tribune follow-up warning, 10 August 2026"],
+    sourceUrl: "https://horntribune.com/2025/12/26/somaliland-central-bank-issues-urgent-warning-alpha-planet-bridge-exposed-as-illegal-ponzi-scheme/",
+    country: "SO",
+});
