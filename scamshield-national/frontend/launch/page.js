@@ -29,12 +29,21 @@ const LOGO = `
   <circle cx="31" cy="28.9" r=".9" fill="#fff" fill-opacity=".7"/>
 </svg>`;
 
+// Line icons for the four promises (stroke = currentColor).
+const svg = (d) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
+const ICON = {
+  phone: svg('<path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/>'),
+  file: svg('<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="m9 15 2 2 4-4"/>'),
+  globe: svg('<circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>'),
+  bell: svg('<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>'),
+};
+
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 
 export function launchPage({ codeError = false } = {}) {
-  const title = 'ScamTitan International — The world’s scam intelligence agency is almost here';
+  const title = 'ScamTitan International — the first scam intelligence agency that works for you';
   const description =
-    'Thousands of documented scams from 210 countries, live official warnings, a free scam checker and alerts before a scam reaches you. Be the first inside.';
+    'Talk to a real person, and we report your scam to every agency that needs it. Scams monitored in 210 countries, 24/7, with alerts before they reach you. Launching soon.';
   return `<!doctype html>
 <html lang="en" data-scamshield-coming-soon>
 <head>
@@ -91,6 +100,17 @@ export function launchPage({ codeError = false } = {}) {
   @keyframes blink{50%{opacity:.2}}
   h1{margin:14px auto 0;max-width:780px;font-size:clamp(28px,5.2vw,48px);line-height:1.06;font-weight:900;letter-spacing:-.03em;color:#fff}
   .lead{margin:16px auto 0;max-width:600px;font-size:clamp(15px,2.2vw,18px);line-height:1.6;color:#cbd5e1}
+  h1 em{font-style:normal;color:#ef4444}
+  .pillars{list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;width:100%;max-width:1100px;margin:28px auto 0;padding:0;text-align:left}
+  .pillars li{position:relative;padding:18px 16px 16px;border:1px solid rgba(148,163,184,.16);border-radius:16px;background:linear-gradient(180deg,rgba(20,32,54,.72),rgba(11,20,36,.72));backdrop-filter:blur(6px);
+    opacity:0;transform:translateY(12px);animation:rise .7s ease-out forwards}
+  .pillars li:nth-child(2){animation-delay:.12s}.pillars li:nth-child(3){animation-delay:.24s}.pillars li:nth-child(4){animation-delay:.36s}
+  @keyframes rise{to{opacity:1;transform:none}}
+  .pillars li::before{content:'';position:absolute;inset:0 0 auto;height:2px;border-radius:16px 16px 0 0;background:linear-gradient(90deg,transparent,#ef4444,transparent)}
+  .ic{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:11px;background:rgba(239,68,68,.12);color:#f87171;border:1px solid rgba(239,68,68,.3)}
+  .ic svg{width:20px;height:20px}
+  .pillars b{display:block;margin-top:12px;font-size:15px;font-weight:800;color:#fff;letter-spacing:-.01em}
+  .pillars span:last-child{display:block;margin-top:6px;font-size:13px;line-height:1.5;color:#94a3b8}
   .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;width:100%;max-width:640px;margin:24px auto 0;opacity:0;transition:opacity .6s}
   .stats.on{opacity:1}
   .stat{padding:14px 8px;border:1px solid rgba(148,163,184,.16);border-radius:14px;background:rgba(15,26,43,.55);backdrop-filter:blur(6px)}
@@ -125,14 +145,23 @@ export function launchPage({ codeError = false } = {}) {
   .code{display:flex;gap:6px;margin-top:8px}
   .code input{min-height:38px;border:1px solid rgba(148,163,184,.25);border-radius:9px;background:#0b1424;font-size:14px}
   .code button{min-height:38px;padding:0 14px;font-size:13px}
+  @media (min-width:561px) and (max-height:980px){
+    .logo{width:84px;height:84px}.wordmark{margin-top:8px;font-size:58px}.sub{margin-top:6px}
+    .eyebrow{margin-top:14px}h1{margin-top:10px;font-size:40px}.lead{margin-top:10px;font-size:16px}
+    .pillars{margin-top:18px}.pillars li{padding:14px 14px 12px}.pillars b{margin-top:8px}
+    .stats{margin-top:14px}.stat{padding:10px 8px}.join{margin-top:14px}
+  }
+  @media (max-width:1000px) and (min-width:561px){.pillars{grid-template-columns:repeat(2,minmax(0,1fr))}}
   @media (max-width:560px){
     header{padding:14px 16px}.status span{display:none}
     .logo{width:104px;height:104px}
     .stats{gap:6px}.stat{padding:12px 4px}
+    .pillars{order:1;grid-template-columns:1fr;gap:8px;margin-top:26px}.pillars li{display:grid;grid-template-columns:38px 1fr;column-gap:12px;padding:14px}
+    .pillars b{margin-top:0;align-self:center}.pillars span:last-child{grid-column:2;margin-top:2px}
     .row{flex-direction:column}button{width:100%}
     footer{padding:12px 16px 16px}
   }
-  @media (prefers-reduced-motion:reduce){.sweep,.core,.ping,.dot,.eyebrow i,.tag i,.track{animation:none}.ping{display:none}}
+  @media (prefers-reduced-motion:reduce){.sweep,.core,.ping,.dot,.eyebrow i,.tag i,.track{animation:none}.ping{display:none}.pillars li{animation:none;opacity:1;transform:none}}
 </style>
 </head>
 <body>
@@ -148,8 +177,14 @@ export function launchPage({ codeError = false } = {}) {
     <p class="wordmark">Scam<span>Titan</span></p>
     <p class="sub">International</p>
     <p class="eyebrow"><i></i>Launching soon</p>
-    <h1>The world&rsquo;s scam intelligence agency is almost here.</h1>
-    <p class="lead">Every documented scam, every official warning, from every country &mdash; and a warning before it reaches you or your family.</p>
+    <h1>The first scam intelligence agency that works for <em>you</em>.</h1>
+    <p class="lead">Scams and scammers are all we do. One call, and real people take it from there &mdash; worldwide, around the clock.</p>
+    <ul class="pillars">
+      <li><span class="ic" aria-hidden="true">${ICON.phone}</span><b>Talk to a real person who cares</b><span>Call us. A real person listens, takes it seriously, and documents everything you tell them.</span></li>
+      <li><span class="ic" aria-hidden="true">${ICON.file}</span><b>One call. Every agency.</b><span>We report it for you &mdash; FTC, FBI, your state Attorney General and every agency that needs it. No more hour-long forms.</span></li>
+      <li><span class="ic" aria-hidden="true">${ICON.globe}</span><b>Watching the world, 24/7</b><span>We monitor official warnings and scam activity in 210 countries, around the clock.</span></li>
+      <li><span class="ic" aria-hidden="true">${ICON.bell}</span><b>Warned before it reaches you</b><span>Email and text alerts the moment a scam targets you or your area.</span></li>
+    </ul>
     <div class="stats" id="stats" aria-live="polite">
       <div class="stat"><b data-k="scams">0</b><span>Scams documented</span></div>
       <div class="stat"><b data-k="countries">0</b><span>Countries</span></div>
