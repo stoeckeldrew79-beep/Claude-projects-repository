@@ -25845,3 +25845,75 @@ International.push({
     sourceUrl: "https://fsc.go.kr/no010101/87882",
     country: "KR",
 });
+
+International.push({
+    name: "Accommodation Booking Confirmation Phishing Using Real Reservation Data",
+    slug: "accommodation-booking-confirmation-phishing-using-real-reservation-data",
+    description:
+      "Criminals contact people who have a genuine hotel or accommodation booking and send a message that quotes the customer's real reservation details, which may have leaked from a booking system or the accommodation provider itself. The message claims the booking must be confirmed by entering payment card details through a link, which leads to a fraudulent page, and the card data is then used for unauthorised charges. Finland's National Cyber Security Centre at Traficom reported receiving several such reports in a single week in mid-October 2026. Because the message contains accurate booking information, the usual check of 'does this message know anything real about me?' fails. Never enter card details from a link in a booking message; instead call or email the accommodation provider using the contact details on its official website to verify any payment request.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Traficom / National Cyber Security Centre (Kyberturvallisuuskeskus)","Yle","Verkkouutiset"],
+    sourceUrl: "https://yle.fi/a/74-20251795",
+    country: "FI",
+});
+
+International.push({
+    name: "Fake-Friend SMS Confirmation Code Scam Charging Purchases to the Phone Bill",
+    slug: "fake-friend-sms-confirmation-code-scam-charging-purchases-to-the-phone-bill",
+    description:
+      "A fraudster sets up a fake social media profile impersonating one of your friends, or uses a friend's hijacked account, and contacts you on Instagram to ask for your phone number. They then pressure you to share the SMS confirmation code that arrives on that number. With the number and the code, they attach your mobile subscription as a payment method on an app store account and buy apps and in-app purchases charged straight to your phone bill, with monthly ceilings of roughly 150 to 300 euros depending on the operator. Finnish Police reported cases affecting both adults and under-18s, who usually only notice when an unusually large bill arrives. Treat SMS confirmation codes like online banking credentials and never share them, even with someone who appears to be a friend; if you already did, contact your telecom operator immediately to block the payment method and file a police report with the chat log and the scammer's account details.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["Finnish Police (Poliisi) press release","Verkkouutiset"],
+    sourceUrl: "https://www.verkkouutiset.fi/a/yksi-vahvistuskoodi-voi-johtaa-300-euron-puhelinlaskuun/",
+    country: "FI",
+});
+
+International.push({
+    name: "Fake Flower and Parcel Courier Doorstep Delivery Fee Scam",
+    slug: "fake-flower-and-parcel-courier-doorstep-delivery-fee-scam",
+    description:
+      "Offenders turn up at the door posing as a flower or parcel courier and demand a small delivery fee before handing over the item. They refuse cash and insist the fee is paid by bank card, which is the key warning sign. In cases reported in the Pirkanmaa region in late 2025, the fake courier got inside the apartment and either stole property or obtained the credentials needed to access bank accounts, causing further losses. The Inner Finland Police Department classifies these cases as fraud, payment instrument fraud and aggravated payment instrument fraud. You never need to let a courier into your home, and all payments relating to an order are handled directly with the company, so do not hand over cash or card details at the door and call the police if someone insists.",
+    categorySlug: "package-delivery-scams",
+    alertLevel: "high",
+    sources: ["Finnish Police, Inner Finland Police Department (Sisa-Suomen poliisilaitos) news release, 19 December 2025"],
+    sourceUrl: "https://poliisi.fi/-/poliisi-varoittaa-uudesta-huijaustavasta-pakettitoimitusten-yhteydessa",
+    country: "FI",
+});
+
+International.push({
+    name: "Estafa de la \"Transferencia Retenida\" — Mexican Bank Smishing",
+    slug: "estafa-transferencia-retenida-bank-smishing",
+    description:
+      "Criminals send SMS, WhatsApp messages or emails that look like official notifications from a Mexican bank, claiming a transfer into or out of your account has been \"retained for security reasons\" or that a suspicious charge was detected. The message includes a link to a counterfeit site copying the bank's logos, colours and wording, where you are asked to enter your online-banking username, password and account details to \"release\" the operation. Once the credentials are captured, the criminals drain the account. A related variant targets online buyers and sellers by faking SPEI payment receipts — CONDUSEF warns that the beneficiary name shown on a receipt can be falsified, since only the account or CLABE number determines where money actually goes. Never click links in unexpected bank messages; open your banking app yourself or call the number printed on your card, and report incidents to CONDUSEF.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["CONDUSEF (Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros)","Proceso","Excélsior"],
+    sourceUrl: "https://www.condusef.gob.mx/?p=contenido&idc=653&idcat=1",
+    country: "MX",
+});
+
+International.push({
+    name: "SAT Impersonation Vishing — Fake Tax Authority Debt Calls",
+    slug: "sat-impersonation-vishing-fake-tax-debt-calls",
+    description:
+      "Fraudsters phone taxpayers pretending to be officials of the SAT, Mexico's tax authority, and claim you have fiscal irregularities, outstanding debts or an imminent audit. They use formal, technical language that mimics real tax procedures and threaten fines, seizures or immediate legal consequences to create fear and pressure, then demand payment through non-official channels such as bank transfers, deposits or prepaid cards. Some calls are followed by emails or links imitating the official SAT portal to harvest sensitive personal and tax data. The CDMX Cyber Police say older adults and small business owners are the main targets. Hang up, never pay or share data over the phone, verify any supposed debt directly in your own SAT account, and report the call to the Unidad de Policía Cibernética of SSC-CDMX.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Unidad de Policía Cibernética, Secretaría de Seguridad Ciudadana de la Ciudad de México (SSC-CDMX)","Infobae","UnoTV"],
+    sourceUrl: "https://www.infobae.com/mexico/2026/01/14/policia-cibernetica-de-la-cdmx-alerta-por-fraude-telefonico-mediante-suplantacion-del-sat/",
+    country: "MX",
+});
+
+International.push({
+    name: "GoTicket Fake Concert Tickets — \"La Despedida Tour\" Scam",
+    slug: "goticket-fake-concert-tickets-la-despedida-tour",
+    description:
+      "PROFECO, Mexico's federal consumer protection agency, detected a website called GoTicket selling tickets to Luis Miguel concerts that the artist never announced, advertised as \"Luis Miguel: La Despedida Tour\" with dates in January 2027 at the Palacio de los Deportes, the Coliseo GNP Seguros and the Estadio Borregos. The platform is not an authorised official box office, and the agency found inconsistencies in its contact details and registered address plus a lack of official social media or customer-service channels, pointing to resale without legal backing. After the alert was published, the site displayed a \"under maintenance\" notice. Buyers risk transferring money for tickets to events that do not exist. Before paying, confirm the show exists through the artist's or venue's verified official accounts, and buy only from authorised ticket sellers.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["PROFECO (Procuraduría Federal del Consumidor)","Infobae","El Imparcial"],
+    sourceUrl: "https://www.infobae.com/mexico/2026/09/11/profeco-lanza-alerta-por-estafa-de-boletos-falsos-para-concierto-de-luis-miguel/",
+    country: "MX",
+});

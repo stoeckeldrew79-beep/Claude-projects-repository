@@ -14379,3 +14379,16 @@ UsGM.push({
     country: "US",
     state: "MA",
 });
+
+UsGM.push({
+    name: "Kishu Inu Meme Token \"Rug Pull\" Investment Scheme",
+    slug: "kishu-inu-meme-token-rug-pull-investment-scheme",
+    description:
+      "The creator of the digital asset Kishu Inu allegedly secretly allocated a large quantity of tokens to himself and associates when the asset launched in 2021, then posted false statements to investors on Telegram, Twitter, Facebook and Reddit to prop up the token's liquidity and price while quietly selling off that hidden stash. The token's market capitalization topped $1.6 billion, and the alleged \"rug pull\" generated about $9 million in personal profit. He has been indicted in federal court in Chicago on three counts of wire fraud and is presumed innocent unless proven guilty. Treat hype posts from a coin's founders as advertising, check whether insiders hold large undisclosed token allocations, and assume any crypto asset promoted mainly through social media chat groups can collapse overnight.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","Northern District of Illinois"],
+    sourceUrl: "https://www.justice.gov/usao-ndil/pr/creator-digital-asset-kishu-inu-indicted-allegedly-operating-9-million-rug-pull-fraud",
+    country: "US",
+    state: "IL",
+});

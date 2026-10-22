@@ -13609,3 +13609,42 @@ UsAF.push({
     country: "US",
     state: "NY",
 });
+
+UsAF.push({
+    name: "Fraudulent CIPA Website Privacy Violation Demand Letters",
+    slug: "fraudulent-cipa-website-privacy-violation-demand-letters",
+    description:
+      "Texas businesses and nonprofits are receiving mass-mailed legal demand letters claiming their website violates the California Invasion of Privacy Act because it uses cookies, tracking pixels, analytics tools or a site search bar, which the letters characterize as unlawful \"wiretapping.\" The mailings are designed to look litigation-ready, often including screenshots of the recipient's own website and a draft complaint, and they demand immediate payment to make the matter disappear. Unlike fake government compliance notices, these arrive as genuine-looking private legal claims under a real California statute, which makes them harder to dismiss out of hand. The Texas Attorney General warns that such letters may exaggerate or misrepresent any actual violation of law, and notes that serial CIPA filer Vivek Shah has been declared a vexatious litigant and barred from filing new digital-privacy suits in the Central District of California without court permission. Do not pay on receipt — consult an attorney experienced in privacy and website-tracking litigation first, and report suspected fraud or abuse to the Texas Office of the Attorney General.",
+    categorySlug: "legal-debt-collection",
+    alertLevel: "medium",
+    sources: ["Office of the Attorney General of Texas, Consumer Alert, 17 September 2026 — \"Attorney General Ken Paxton Warns Texans of Scam Demand Letters Alleging Website Privacy Violations\""],
+    sourceUrl: "https://www.texasattorneygeneral.gov/news/releases/consumer-alert-attorney-general-ken-paxton-warns-texans-scam-demand-letters-alleging-website-privacy",
+    country: "US",
+    state: "TX",
+});
+
+UsAF.push({
+    name: "Fake Ransomware Recovery Service Re-Victimization Scheme",
+    slug: "fake-ransomware-recovery-service-re-victimization-scheme",
+    description:
+      "A well-known self-described cybersecurity expert marketed his Florida remediation company to panicked business owners as a principled alternative to paying ransomware attackers, claiming he could decrypt their files without any ransom being paid. Prosecutors allege he instead made misrepresentations to distressed clients, failed to remediate the underlying threat, and turned their crisis into his own profit center while charging hefty fees. He was arraigned on wire fraud charges in the Eastern District of New York and is presumed innocent unless proven guilty. If your business is hit by ransomware, contact the FBI or CISA first, ask any recovery vendor in writing exactly how they will decrypt your data and whether a ransom will be paid, and be skeptical of guaranteed-recovery promises.",
+    categorySlug: "tech-support-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","Eastern District of New York"],
+    sourceUrl: "https://www.justice.gov/opa/pr/known-cybersecurity-expert-and-owner-florida-ransomware-remediation-company-charged",
+    country: "US",
+    state: "NY",
+});
+
+UsAF.push({
+    name: "Cash-for-Insurance-Information Health Plan Billing Scheme (Amtrak)",
+    slug: "cash-for-insurance-information-health-plan-billing-scheme-amtrak",
+    description:
+      "Conspirators recruited Amtrak employees and paid them cash kickbacks in exchange for the use of their personal and insurance information, then billed Amtrak's health care plan for physical therapy, podiatry and other services that were never provided or were medically unnecessary. Dozens of employees and multiple providers took part, and the plan paid out more than $11 million in fraudulent claims; in one related count a provider also traded oxycodone prescriptions for the use of a patient's insurance details. Nineteen people have been prosecuted and all pleaded guilty to conspiracy to commit health care fraud, with recent sentences of 15, 20 and 32 months in prison plus restitution orders. Never accept cash or gifts in exchange for letting anyone use your insurance card or member ID, and review your explanation of benefits statements for visits and treatments you never received.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","District of New Jersey"],
+    sourceUrl: "https://www.justice.gov/usao-nj/pr/new-york-physical-therapist-sentenced-15-months-prison-role-11-million-scheme-defraud",
+    country: "US",
+    state: "NJ",
+});

@@ -13620,3 +13620,42 @@ UsNS.push({
     country: "US",
     state: "NY",
 });
+
+UsNS.push({
+    name: "Social Media Identity Harvesting for Pandemic Unemployment Claims (Illinois)",
+    slug: "social-media-identity-harvesting-pandemic-unemployment-claims-illinois",
+    description:
+      "A Rockford woman collected other people's names, Social Security numbers and other personal identifying information through social media — sometimes with their cooperation and sometimes without their knowledge — and used it to file false Pandemic Unemployment Assistance applications. The fraudulent claims produced debit cards loaded with more than $2 million in federally funded benefits, which she spent on herself. She pleaded guilty to wire fraud in federal court in Rockford and faces up to 20 years in prison at sentencing. Never hand over your Social Security number or ID documents to someone who offers to file a benefits claim for you, and if you receive an unexpected benefits debit card or claim notice in your name, report it to the state unemployment agency immediately.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","Northern District of Illinois"],
+    sourceUrl: "https://www.justice.gov/usao-ndil/pr/rockford-woman-pleads-guilty-defrauding-government-more-2-million-federal-unemployment",
+    country: "US",
+    state: "IL",
+});
+
+UsNS.push({
+    name: "Spoofed Supplier Invoice Payment Diversion Scheme (Texas)",
+    slug: "spoofed-supplier-invoice-payment-diversion-scheme-texas",
+    description:
+      "Fraudsters sent businesses emails that appeared to come from their known suppliers and creditors, directing them to send routine payments to bank accounts the criminals controlled instead of the real vendor. More than 10 victims were hit, including a small utility trailer company in Mississippi that wired $927,080 believing it was paying its trailer supplier. A Houston man who laundered the proceeds through a company he advertised as a luxury car service, keeping a percentage as a fee, was sentenced to 30 months in federal prison; a co-conspirator received 32 months. Before changing any vendor's payment details, call the supplier back on a phone number you already have on file — never one supplied in the email — and require two-person verification for all wire transfers.",
+    categorySlug: "business-email-compromise",
+    alertLevel: "critical",
+    sources: ["U.S. Department of Justice","Southern District of Texas"],
+    sourceUrl: "https://www.justice.gov/usao-sdtx/pr/nigerian-national-sentenced-role-email-scam",
+    country: "US",
+    state: "TX",
+});
+
+UsNS.push({
+    name: "Postal Collection Box Check Theft and Check Washing Ring (New York)",
+    slug: "postal-collection-box-check-theft-check-washing-ring-new-york",
+    description:
+      "A ring purchased stolen postal keys that unlocked U.S. Postal Service collection boxes in affluent Manhattan neighborhoods, then pulled out thousands of checks mailed by ordinary people and businesses. The stolen checks were \"washed\" and fraudulently altered before being deposited, or listed for sale to other criminals on a Telegram channel, in a scheme totaling roughly $55 million. The ringleader pleaded guilty to bank fraud conspiracy, mail theft, unlawful possession of a postal key and aggravated identity theft, kept operating after his arrest, and was sentenced to eight years in prison. Avoid dropping checks in outdoor collection boxes — hand them to a clerk inside the post office, use electronic payment when possible, and monitor your account for altered payees or amounts.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","Southern District of New York"],
+    sourceUrl: "https://www.justice.gov/usao-sdny/pr/leader-55-million-check-fraud-ring-sentenced-eight-years-prison",
+    country: "US",
+    state: "NY",
+});

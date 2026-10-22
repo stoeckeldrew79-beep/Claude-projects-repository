@@ -7712,3 +7712,15 @@ UsTZ.push({
     country: "US",
     state: "FL",
 });
+
+UsTZ.push({
+    name: "Vacant Land Parcel Owner Impersonation Sale Fraud",
+    slug: "vacant-land-parcel-owner-impersonation-sale-fraud",
+    description:
+      "Criminals scan county property records, GIS databases, data broker sites and stolen data to find vacant, unimproved lots whose owners live elsewhere, then pose as those owners using fake driver's licenses or passports, free email accounts and VoIP phone numbers. Acting as the seller, they hire real estate agents and title companies, list the land below market value, and push for a fast, remote closing while refusing to meet in person and citing illness, travel or an emergency. Proceeds are wired out to a third party, often a co-conspirator attorney in another state or an overseas account, and the true owner usually finds out only after the deed is recorded. The FBI urges landowners to sign up for free recording-notification alerts from their County Recorder, Register of Deeds, County Clerk or Appraisal District and to check whether their title policy covers post-policy forgery. Buyers should independently verify the seller by sending a certified letter to the owner's address on the land tax roll, and anyone who suspects a fraudulent sale should report it to IC3 at ic3.gov.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["Federal Bureau of Investigation / Internet Crime Complaint Center (IC3), Public Service Announcement, Alert Number I-061626-PSA, 16 June 2026 — \"Protect Your Property from Illegal Sales Through Parcel Owner Impersonation\"","KCTV5 news coverage, 24 June 2026 — \"FBI warning: scammers are impersonating landowners to sell vacant property\""],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA260616",
+    country: "US",
+});
