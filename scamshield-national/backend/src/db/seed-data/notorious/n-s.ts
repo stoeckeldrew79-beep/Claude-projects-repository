@@ -8646,3 +8646,24 @@ Humphreys, a Canadian citizen, surrendered to FBI agents and pleaded guilty on J
 The Safety-Kleen case illustrates how the reconciling entries at the top of a company's books can be used to close the gap between what the business earned and what its executives had promised. Because the adjustments were made at the corporate level rather than from underlying transactions, they were hard for outsiders to see, and it took until 2007 for the company's chief financial officer to be sentenced.`,
     sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-17891',
 });
+
+NotoriousNS.push({
+    title: 'Sharlene Abrams and the Mercury Interactive Backdating Case',
+    slug: 'sharlene-abrams-mercury-interactive-backdating-case',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'tax-evasion', 'securities-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Phillip_Burton_Federal_Building_%26_United_States_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Marincyclist (CC BY-SA 4.0) — Phillip Burton Federal Building & U.S. Courthouse, San Francisco, seat of the Northern District of California, where Abrams was indicted',
+    coverImagePosition: 50,
+    body: `Mercury Interactive Corporation was a Mountain View, California, software company whose products were used to test and optimize information technology systems. Sharlene P. Abrams served as its chief financial officer from 1993 to November 2001. In April 2008 a federal grand jury in San Francisco indicted her on one count of income tax evasion and two counts of aiding and assisting in the preparation of false tax returns. The U.S. Attorney's Office said it was the first case in Northern California to charge an individual with criminal tax violations in connection with a stock-options backdating scheme.
+
+The indictment concerned the dates on which executives exercised their options, not the dates on which options were granted. Abrams supervised option exercises for the company's officers. According to the indictment, she searched for low points in Mercury's stock price and backdated the exercise dates for herself, chief executive Amnon Landan and chief operating officer Kenneth Klein, for exercises in April, May and August 2001. Because the tax owed on the gain from a non-qualified option depends on the difference between the exercise price and the market price on the exercise date, picking a date when the price was low reduced the income that had to be reported. Abrams was charged with evading tax on her own exercises and with helping to prepare false returns for Landan and Klein.
+
+The criminal case was only part of a wider scandal. In May 2007 the SEC sued Mercury, Landan, Abrams, former chief financial officer Douglas Smith and former general counsel Susan Skaer, alleging that from 1997 to 2005 senior officers backdated stock option grants and exercises, left hundreds of millions of dollars in compensation expense unrecorded and made false disclosures about the company's sales backlog. Mercury, which Hewlett-Packard had acquired in November 2006, paid a $28 million penalty. Three former outside directors each paid $100,000. In March 2009 Abrams settled with the SEC, without admitting or denying the allegations, for a permanent injunction, an officer-and-director bar, $2,287,914 in disgorgement, deemed partly satisfied by an earlier payment to the company, and a $425,000 civil penalty.
+
+According to Law360's report of the criminal case, Abrams pleaded guilty to tax evasion. Prosecutors asked for a one-year sentence in January 2011, and in March 2011 she was sentenced to four months in prison and ordered to pay almost $400,000 in restitution. In 2013 the SEC announced separate civil settlements with Landan and Smith.
+
+The Mercury case shows that backdating could be a tax crime as well as an accounting one. The securities cases focused on undisclosed compensation expense, but the criminal charges against Abrams rested on a simpler point: choosing a low-price date for an exercise changed the taxable income of the people who benefited, and the person who picked the date was the finance chief.`,
+    sourceUrl: 'https://justice.gov/archive/tax/usaopress/2008/txdv08_2008_04_22_abrams_indictment.pdf',
+});
