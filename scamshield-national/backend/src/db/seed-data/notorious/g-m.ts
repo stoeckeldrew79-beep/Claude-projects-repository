@@ -12629,3 +12629,24 @@ Latorella pleaded guilty on March 5, 2012, to conspiracy to commit securities fr
 The Locateplus case shows how thoroughly a fraud can be built out of paper when its author controls the paper trail: fake lenders, fake customers and fake investors, some of them borrowed from the identities of real or dead people. It also shows why identity theft charges can attach to what looks at first like a purely accounting crime, since the identity of a man who had died decades earlier was used to give a fictitious company a name and a history.`,
     sourceUrl: 'https://www.justice.gov/archive/usao/ma/news/2012/June/LotorellaJonSentencingPR.html',
 });
+
+NotoriousGM.push({
+    title: 'James Plant and the CyberKey Fake Homeland Security Order',
+    slug: 'james-plant-cyberkey-fake-homeland-security-order',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'securities-fraud', 'stock-promotion'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/James_A._Byrne_United_States_Courthouse_(53590173061).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh (CC BY 2.0) — James A. Byrne U.S. Courthouse, Philadelphia, seat of the Eastern District of Pennsylvania, where the CyberKey criminal case was prosecuted',
+    coverImagePosition: 50,
+    body: `CyberKey Solutions, Inc. sold USB flash drives, and James E. Plant was its chief executive. According to the Securities and Exchange Commission, CyberKey was running an ongoing, unregistered offering of its shares while Plant promoted a purchase order from the U.S. Department of Homeland Security for more than 150,000 USB drives. Plant claimed the order was worth over $24 million and said it had produced net profits of more than $12 million in 2006. The SEC's description of the real company was starkly different: CyberKey had practically no revenues or profits, and it had never received a purchase order from the Department of Homeland Security or any other government agency.
+
+When regulators began asking questions, the fraud turned into an obstruction case. The SEC said that in late 2006 and early 2007 Plant gave its investigators fake documents, including bogus purchase orders, wire transfers and bank statements, to support the claimed order. On March 7, 2007, testifying under oath, he repeated the false claims about the Homeland Security order, and when asked why the department had no record of CyberKey, he blamed another company called Kikomac. The SEC also said he persuaded a CyberKey employee to give a false confession accepting sole responsibility for the fake contract and the documents.
+
+The end came quickly. FBI and U.S. Postal Inspection Service agents arrested Plant in St. George, Utah, on March 13, 2007, and the SEC filed its civil complaint against him and CyberKey in federal court in Pennsylvania a week later, on March 20, 2007. In the parallel criminal case in the Eastern District of Pennsylvania, Plant pleaded guilty on June 30, 2008, to securities fraud, making false statements to the SEC, witness tampering and obstruction of an agency proceeding.
+
+On March 23, 2009, U.S. District Judge Norma L. Shapiro sentenced Plant to 97 months in federal prison. A restitution hearing was set for April 28, 2009, and the SEC's announcement of the sentence did not state a restitution amount or the total raised from investors.
+
+The CyberKey case shows the pattern of a stock promotion built on a single, impressive-sounding customer: a government contract is hard for small investors to check, and a claim of Homeland Security business invites trust. It also shows how fabricating evidence for regulators and coaching a subordinate to take the blame adds charges, and a longer sentence, to the original securities fraud.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-20979',
+});
