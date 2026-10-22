@@ -20,7 +20,7 @@ const CANONICAL_HOST = 'www.scamtitan.com';
 const OLD_PRODUCTION_HOST = 'claude-projects-repository.vercel.app';
 
 // SHA-256 of the access code. The code itself is never stored here.
-const CODE_SHA256 = '2cd200be4aed90a282e22d81a4241d0fc8e6bf4254b4eb0201fd59ee342493ae';
+const CODE_SHA256 = '03440e54323b5fe958842616f26aacca6ebf9f79a779fe27366dea5ce539de74';
 const COOKIE = 'ss_preview';
 const YEAR = 60 * 60 * 24 * 365;
 
