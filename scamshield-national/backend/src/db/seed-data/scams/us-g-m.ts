@@ -14481,3 +14481,42 @@ UsGM.push({
     sourceUrl: "https://www.kxan.com/news/bbb-warns-of-ghost-tapping-scams-targeting-shoppers/",
     country: "US",
 });
+
+UsGM.push({
+    name: "Minnesota Department of Commerce Impersonation Letter Scam",
+    slug: "minnesota-department-of-commerce-impersonation-letter-scam",
+    description:
+      "Scammers are mailing letters that copy the Minnesota Department of Commerce's name, address, and logo, claiming they will release money owed to you once you pay a processing fee. In a recent reported case, the fake letter demanded a fee before a supposed bank payment could be released. The Department of Commerce does not charge consumers fees and will never solicit money from individuals or direct you to send money to someone else, so any such demand is a fraud. If you get one of these letters, do not pay anything or send personal financial details. Report the letter to the Federal Trade Commission and contact the Minnesota Department of Commerce directly using the phone number on its official website to confirm anything you receive in the mail.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Minnesota Department of Commerce scam alert"],
+    sourceUrl: "https://mn.gov/commerce/",
+    country: "US",
+    state: "MN",
+});
+
+UsGM.push({
+    name: "Minnesota Energy Assistance Program Fraudulent Call Scam",
+    slug: "minnesota-energy-assistance-program-fraudulent-call-scam",
+    description:
+      "Callers posing as representatives of Minnesota's Energy Assistance Program (EAP) are phoning residents and asking for banking or credit card information to process heating bill help. Scammers often spoof caller ID so the call appears to come from a real utility, which makes the pitch sound legitimate, and the program's size makes it believable: Commerce reported paying $104 million to nearly 87,000 Minnesota households since October. The Minnesota Department of Commerce, which administers EAP, says no banking or credit card information is ever needed to apply for the program. If you get a call like this, hang up and do not share account numbers or payment details. Contact the Energy Assistance Program yourself at 800-657-3710 to check on your application or apply for help.",
+    categorySlug: "utility-scams",
+    alertLevel: "high",
+    sources: ["Minnesota Department of Commerce news release"],
+    sourceUrl: "https://mn.gov/commerce/news/?id=17-521492",
+    country: "US",
+    state: "MN",
+});
+
+UsGM.push({
+    name: "MNsure Impersonation Scam Targeting Medical Assistance Disenrollees",
+    slug: "mnsure-impersonation-scam-targeting-medical-assistance-disenrollees",
+    description:
+      "The Minnesota Department of Commerce and MNsure, the state's official health insurance marketplace, issued a joint alert about scams aimed at Minnesotans who have lost eligibility for Medical Assistance, the state's Medicaid program. People shopping for replacement coverage are being contacted by fraudsters pretending to be MNsure who sell bogus insurance products or charge a fee for enrollment help. Enrollment assistance through MNsure is always free, so any demand for payment to help you sign up is a red flag. If you are losing Medical Assistance coverage, go directly to MNsure.org to shop for a plan or to find a trusted, MNsure-certified assister. Never pay someone who contacts you out of the blue offering to enroll you in health coverage.",
+    categorySlug: "medicare-health-plans",
+    alertLevel: "high",
+    sources: ["Minnesota Department of Commerce and MNsure joint consumer alert"],
+    sourceUrl: "https://mn.gov/commerce/news/index.jsp?id=17-593139",
+    country: "US",
+    state: "MN",
+});
