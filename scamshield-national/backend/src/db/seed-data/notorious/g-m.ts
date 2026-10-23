@@ -12751,3 +12751,24 @@ The sentences announced in the 2012 judgment were heavy. Valério was sentenced 
 The Mensalão case shows how a political vote-buying system can be financed through ordinary-looking business channels: advertising contracts with state companies, agency fees and bank loans, with cash then withdrawn and handed out. It was also unusual for Brazil because the Supreme Federal Court tried senior political figures and businesspeople together and handed down long prison terms to them.`,
     sourceUrl: 'https://www.congressoemfoco.com.br/noticia/75228/veja-as-penas-dos-reus-do-mensalao',
 });
+
+NotoriousGM.push({
+    title: 'The Ming Family Crime Group and the Kokang Scam Compounds',
+    slug: 'ming-family-crime-group-kokang-scam-compounds',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'telecom-fraud', 'scam-compounds', 'organized-crime'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Laukkai.jpg?width=1200',
+    coverImageCredit: 'Photo: Phyo WP (CC BY-SA 4.0) — Skyline of Laukkai, in the Kokang Self-Administered Zone, Shan State, Myanmar, 2015',
+    coverImagePosition: 50,
+    body: `The Ming family was one of several armed families that dominated Kokang, a region of northern Myanmar on the border with China. According to Caixin's report on the Chinese court judgment, the group led by Ming Xuechang began setting up scam parks in Kokang in 2015. The compounds ran sprawling telecom fraud operations aimed at people in China, and the family supplied armed protection to the criminal sponsors who set them up. Irrawaddy and other outlets, reporting the prosecution's account, said the fraud and gambling proceeds exceeded 10 billion yuan, or about US$1.4 billion, and that the family's operations also included casinos and drug trafficking.
+
+The compounds also became a source of violence. Caixin reported that on October 20, 2023, armed personnel of the Ming family shot and killed four people and injured four more while moving them, to prevent their being handed over to Chinese authorities. Ming Xuechang died by suicide in November 2023 while being arrested, Caixin reported.
+
+China tried 39 members of the Ming family crime group before the Wenzhou Intermediate People's Court in Zhejiang province. In a judgment reported in late September 2025, the court sentenced 11 defendants to death, including Ming Guoping and Ming Zhenzhen, and five more to death with a two-year suspension. Eleven received life imprisonment and twelve received fixed terms of between five and 24 years. The reports differ on the exact date of the judgment, and some outlets count the sentences differently, with some giving 16 death sentences by combining the immediate and suspended ones.
+
+The Ming family trial was one of a series of Chinese prosecutions of the Kokang crime families. Caixin reported that six leaders of other Kokang syndicates, including Bai Suocheng, were transferred to China in January 2025, and that Bai Suocheng and 20 others from his group were tried in Shenzhen in September 2025.
+
+The case shows how scam operations can grow out of conflict economics and armed political control. The fraud compounds that targeted victims across the border were protected by a family with its own militia, which gave the operators a place where the local authorities were the criminals' partners. It also shows that cross-border prosecution, here in a Chinese court, took place only after the leaders were arrested or transferred into Chinese custody.`,
+    sourceUrl: 'https://www.caixinglobal.com/2025-09-29/china-sentences-11-to-death-in-cross-border-crime-ring-case-102367542.html',
+});
