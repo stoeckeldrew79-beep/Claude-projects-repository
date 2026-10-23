@@ -12732,3 +12732,22 @@ That second case reached a verdict in June 2016. The Jakarta Corruption Court fo
 The Nazaruddin case shows a treasurer's access to ministries and legislators being turned into a bribe-taking operation, with the proceeds then moved into other assets such as share purchases. It also shows how Indonesia's anti-corruption courts handled it in two stages: a first conviction that the Supreme Court corrected to a heavier sentence, followed by a separate money laundering prosecution that added six years and reached much further than the single Rp 4.6 billion bribe on which the case began.`,
     sourceUrl: 'https://www.thejakartapost.com/news/2016/06/15/former-lawmaker-nazaruddin-gets-six-years-for-money-laundering',
 });
+
+NotoriousGM.push({
+    title: 'Marcos Valério and the Mensalão Vote-Buying Scheme',
+    slug: 'marcos-valerio-mensalao-vote-buying-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'political-corruption', 'money-laundering', 'embezzlement'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Supremo_Tribunal_Federal2.jpg?width=1200',
+    coverImageCredit: 'Photo: Everton137 (CC BY-SA 3.0) — The Supremo Tribunal Federal (Supreme Federal Court) building in Brasília, which tried the Mensalão case',
+    coverImagePosition: 50,
+    body: `The Mensalão, or "big monthly payment," scandal broke in Brazil on June 6, 2005, when Roberto Jefferson, a congressman, told the newspaper Folha de S.Paulo that the governing Workers' Party was paying legislators a monthly sum to vote with the government. The payments were reported to come from state companies' advertising budgets and to be routed through advertising agencies linked to the businessman Marcos Valério, who owned the agencies SMP&B and DNA and is described as the operator of the scheme. Banco Rural and Banco do Brasil were used for his operations, and records of withdrawals from his accounts totalled about R$27 million.
+
+A congressional inquiry reported in September 2005, Jefferson was expelled from the Chamber of Deputies, and the government's chief of staff, José Dirceu, resigned. In August 2007 the Supreme Federal Court accepted indictments against 40 people. The trial of the case, known as Ação Penal 470, began in August 2012 and, according to Congresso em Foco, lasted four months and fifteen days. Dirceu, Workers' Party president José Genoino and party treasurer Delúbio Soares were among those found guilty, and the court convicted Valério as the leader of the operational core.
+
+The sentences announced in the 2012 judgment were heavy. Valério was sentenced to 40 years, one month and six days in a closed regime and fined R$2.7 million for offences that included active corruption, embezzlement, money laundering, currency evasion and criminal association. His partners at the agency received 29 years, 7 months and 20 days (Ramon Hollerbach) and 25 years, 11 months and 20 days (Cristiano Paz). Dirceu was sentenced to 10 years and 10 months, Delúbio Soares to 8 years and 11 months and Genoino to 6 years and 11 months, while Kátia Rabello, who was part of what the court called the financial core of the scheme, received 16 years and 8 months. Some defendants were acquitted, among them Luiz Gushiken. The sources used here report the sentences as handed down at trial and do not cover later appeals, reductions or remissions, so the sentences actually served may differ.
+
+The Mensalão case shows how a political vote-buying system can be financed through ordinary-looking business channels: advertising contracts with state companies, agency fees and bank loans, with cash then withdrawn and handed out. It was also unusual for Brazil because the Supreme Federal Court tried senior political figures and businesspeople together and handed down long prison terms to them.`,
+    sourceUrl: 'https://www.congressoemfoco.com.br/noticia/75228/veja-as-penas-dos-reus-do-mensalao',
+});
