@@ -14431,3 +14431,29 @@ UsGM.push({
     country: "US",
     state: "HI",
 });
+
+UsGM.push({
+    name: "Idaho Property Tax Reduction \"Circuit Breaker\" Flyer Scam",
+    slug: "idaho-property-tax-reduction-circuit-breaker-flyer-scam",
+    description:
+      "Idaho homeowners have received official-looking flyers in the mail about the state's Property Tax Reduction (\"circuit breaker\") program that appear to come from the Idaho State Tax Commission but do not. The flyers promise a $1,500 property tax reduction, specifically pitch veterans, and misrepresent how Idaho Code 63-702 actually works, then direct recipients to call a phone number for \"free help\" that simply rings to an anonymous voicemail. The real goal is to harvest personal information from homeowners who call. The flyers were first spotted circulating in Ada County, and the Idaho Attorney General's Office and the Idaho State Tax Commission issued a joint warning about them. If you get one, do not call the number on the flyer — contact your county assessor's office or the Idaho State Tax Commission directly to ask about the program, and report the mailing to the Attorney General's Consumer Protection Division.",
+    categorySlug: "tax-scams",
+    alertLevel: "medium",
+    sources: ["Idaho Office of the Attorney General","Idaho State Tax Commission"],
+    sourceUrl: "https://www.ag.idaho.gov/newsroom/property-tax-scam-targets-idaho-homeowners/",
+    country: "US",
+    state: "ID",
+});
+
+UsGM.push({
+    name: "Misleading \"Business Compliance\" Filing Solicitations to Idaho Businesses",
+    slug: "misleading-business-compliance-filing-solicitations-to-idaho-businesses",
+    description:
+      "Companies scrape the public Idaho business registry and mail Idaho-registered businesses solicitations that look like official government forms, offering \"business compliance filings\" such as a certificate of existence or a UCC statement. The mailings demand a large fee, include a deadline to create false urgency, and bury the disclaimer that they are not from the state in fine print. Idaho officials say businesses here rarely, if ever, need the advertised documents, and that anything they do need can be obtained directly from the Idaho Secretary of State for a small fee. Attorney General Raul Labrador and Secretary of State Phil McGrane jointly warned businesses about these solicitations. If one arrives, ignore it and verify any filing requirement with the Secretary of State's office — and if you already paid, file a complaint with the Attorney General's Consumer Protection Division.",
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["Idaho Office of the Attorney General","Idaho Secretary of State"],
+    sourceUrl: "https://www.ag.idaho.gov/newsroom/idahos-small-businesses-should-ignore-business-compliance-solicitations/",
+    country: "US",
+    state: "ID",
+});
