@@ -13837,3 +13837,40 @@ UsAF.push({
     country: "US",
     state: "FL",
 });
+
+UsAF.push({
+    name: "2026 Midterm Election Campaign Donation and Merchandise Fraud",
+    slug: "2026-midterm-election-campaign-donation-and-merchandise-fraud",
+    description:
+      "Scammers are using the names, photos, logos and slogans of real candidates in the November 2026 US midterms to solicit fake campaign contributions, sell campaign merchandise that never arrives, and harvest personal information. Schemes include bogus political action committees that pocket donations, phony campaign 'investment pools' that promise a guaranteed payout if the candidate wins and pay more for recruiting others, and text or email messages claiming you are not registered to vote that link to counterfeit state voter-registration pages. The FBI warns that criminals are layering AI-generated voices, images and written messages on top of these pitches to impersonate candidates, campaign staff and government offices convincingly. Donations sent through these channels are gone for good and the personal data collected fuels later identity theft. Give only through a campaign's official website that you typed in yourself, verify your registration status directly with your state or county election office, and never treat a political donation as an investment.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["FBI Internet Crime Complaint Center (IC3) PSA, 15 October 2026 — 'Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes' (update to I-102924-PSA)"],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA261015-3",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Cyber-Enabled Strategic Cargo Theft via Compromised Freight Brokers",
+    slug: "cyber-enabled-strategic-cargo-theft-via-compromised-freight-brokers",
+    description:
+      "Criminals are stealing entire truckloads of freight by first hacking the computer systems of freight brokers and carriers rather than just faking paperwork. They send spoofed emails offering a 'carrier broker agreement' or asking the recipient to 'review and address poor service ratings', with shortened links leading to a phishing copy of a legitimate site that installs remote monitoring and management software, handing attackers quiet full access. Using the hijacked accounts, they post fraudulent loads on trucking load boards while posing as brokers, then reroute and resell the goods that shippers hand over. Warning signs include messages from free email providers that imitate a company domain, such as dispatch.FBITrucking@provider.com instead of dispatch@FBITrucking.com, and calls about shipments booked in your company's name that nobody authorized. The FBI reports US and Canadian cargo-theft losses approaching $725 million, up about 60 percent over 2024 — verify every load and agreement by calling a known contact number, never a link in an email, and report suspected intrusions to IC3.",
+    categorySlug: "business-email-compromise",
+    alertLevel: "critical",
+    sources: ["FBI/IC3 PSA I-043026-PSA, 30 April 2026 — 'Cyber-Enabled Strategic Cargo Theft Surging'","FBI Philadelphia Field Office industry warning on rising cargo theft threats to transportation and logistics"],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA260430",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Altered U.S. Treasury Tax Refund Check Deposit Scheme (Connecticut)",
+    slug: "altered-us-treasury-tax-refund-check-deposit-scheme-connecticut",
+    description:
+      "A federal indictment alleges that a Shelton man obtained U.S. Treasury tax refund checks issued to other people and organizations, then altered them so that his own name and address appeared as the payee. He is accused of depositing five altered checks worth more than $520,000 into his brokerage account, receiving more than $440,000 before the brokerage caught the fifth altered check, and moving most of the money to bank accounts and out as cash. He pleaded not guilty to five counts of theft of government property, each carrying up to 10 years in prison, and the charges are only allegations. Choose direct deposit for tax refunds rather than paper checks, check the IRS \"Where's My Refund\" tool if an expected refund never arrives, and report a missing or stolen Treasury check right away so it can be traced and reissued.",
+    categorySlug: "tax-scams",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of Connecticut"],
+    sourceUrl: "https://www.justice.gov/usao-ct/pr/shelton-man-charged-stealing-government-funds-through-altered-us-treasury-tax-refund",
+    country: "US",
+    state: "CT",
+});

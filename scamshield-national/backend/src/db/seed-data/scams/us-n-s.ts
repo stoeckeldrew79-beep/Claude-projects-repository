@@ -13839,3 +13839,67 @@ UsNS.push({
     country: "US",
     state: "MA",
 });
+
+UsNS.push({
+    name: "Residential Proxy Conscription of Home Internet Devices",
+    slug: "residential-proxy-conscription-of-home-internet-devices",
+    description:
+      "Criminals are quietly enrolling ordinary household devices — TV streaming boxes, digital picture frames, phones, tablets and routers — into residential proxy networks so that crimes committed by others appear to come from your home internet address. They gain access by compromising poorly secured Internet of Things devices and by partnering with mobile app makers and VPN operators that silently resell users' bandwidth. The hijacked connections are then used to spread malware, run phishing campaigns and steal financial and account credentials, leaving the homeowner looking responsible. In this scheme you are not the target of the fraud but the unwitting infrastructure, and the damage shows up as criminal activity attributed to your household. Review every internet-connected device on your home network for unusual traffic, change default passwords, apply firmware updates, remove apps and free VPNs that promise rewards for sharing your connection, and report suspicious activity to IC3.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["FBI PSA I-031226-PSA, 12 March 2026 — 'Evading Residential Proxy Networks: Protecting Your Devices from Becoming a Tool for Criminals'","FBI Cyber Division alert page on residential proxy networks; FBI seizures of the NetNut proxy platform and Popa botnet, July 2026"],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA260312",
+    country: "US",
+});
+
+UsNS.push({
+    name: "Sham \"We Buy Ugly Houses\" Real Estate Investment Scheme (Texas)",
+    slug: "sham-we-buy-ugly-houses-real-estate-investment-scheme-texas",
+    description:
+      "The president of a Dallas-based real estate investment firm told more than 80 investors that their money would be used to buy, renovate and resell specific residential properties, pitching a \"We Buy Ugly Houses\"-style opportunity to retirees, families and small business owners. From at least 2018 through 2024 he intended to defraud investors of more than $39 million, and prosecutors said the money never funded the promised projects. He pleaded guilty to wire fraud and was sentenced to 188 months in federal prison and ordered to pay more than $24.4 million in restitution. Before handing money to any property \"flipping\" fund, verify that the specific properties, deeds and renovation contracts actually exist, check the promoter's registration and disciplinary history, and never rely solely on an operator's own paperwork or glossy returns statements.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Northern District of Texas"],
+    sourceUrl: "https://www.justice.gov/usao-ndtx/pr/dallas-real-estate-investor-sentenced-over-15-years-federal-prison-investment-fraud",
+    country: "US",
+    state: "TX",
+});
+
+UsNS.push({
+    name: "Romance-Led \"Pig Butchering\" Crypto Investment Scam (Missouri Case)",
+    slug: "romance-led-pig-butchering-crypto-investment-scam-missouri-case",
+    description:
+      "Prosecutors describe a \"pig butchering\" scheme in which fraudsters build trust with a victim through a fictitious online romance or an unsolicited text or social media message, then steer the victim into a fake cryptocurrency investment platform. The victim is shown impressive-looking early gains, encouraged to send ever larger amounts, and eventually loses everything; in this case a single victim lost millions of dollars' worth of cryptocurrency. A Vietnamese national was charged in a two-count criminal complaint in the Western District of Missouri with money laundering for his role and made an initial appearance in federal court in Los Angeles. Treat any investment advice from someone you have only met online as a red flag, never move money to a trading site recommended by a new romantic contact, and remember that screens showing profits prove nothing until you can actually withdraw funds.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "critical",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Western District of Missouri"],
+    sourceUrl: "https://www.justice.gov/usao-wdmo/pr/vietnamese-national-charged-role-massive-pig-butchering-cryptocurrency-scam",
+    country: "US",
+    state: "MO",
+});
+
+UsNS.push({
+    name: "Stolen Postal Key Collection-Box Check Theft Ring (Western New York)",
+    slug: "stolen-postal-key-collection-box-check-theft-ring-western-new-york",
+    description:
+      "According to a federal indictment, a group obtained the keys the Postal Service uses to unlock blue mail collection boxes, then opened the boxes and stole mail containing checks. The stolen checks were deposited into bank accounts the conspirators controlled and the funds were withdrawn or transferred for their own benefit; on one occasion they drove to a collection box with a stolen key and removed the entire basket of letters and packages before fleeing as police arrived. A 20-year-old Buffalo man was indicted on conspiracy to commit mail theft, bank fraud and aggravated identity theft, charges carrying up to 30 years in prison, and the charges remain allegations until proven. Avoid dropping checks in outdoor collection boxes, especially after the last pickup, hand bill payments to a clerk inside the post office or pay electronically, and review bank statements promptly for checks that cleared with altered payees.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Western District of New York"],
+    sourceUrl: "https://www.justice.gov/usao-wdny/pr/grand-jury-indicts-buffalo-man-his-role-mail-theft-conspiracy",
+    country: "US",
+    state: "NY",
+});
+
+UsNS.push({
+    name: "Stolen Employee Identity Pandemic Unemployment Benefit Scheme (Pennsylvania)",
+    slug: "stolen-employee-identity-pandemic-unemployment-benefit-scheme-pennsylvania",
+    description:
+      "Two defendants used personally identifiable information stolen from at least 375 current and former employees of one company to file more than 500 fraudulent Pandemic Unemployment Assistance claims across 27 states. The scheme caused at least $2.88 million in losses to government benefit programs, and the proceeds were spent in part on a luxury sports vehicle and hundreds of thousands of dollars in cryptocurrency. One defendant was sentenced to 120 months in prison with $3,177,376 in restitution after pleading guilty to conspiracy, mail fraud, theft of government money and aggravated identity theft; a co-defendant awaits sentencing. If you receive unemployment paperwork or a benefits debit card you never applied for, report it to the state agency and your employer immediately, place a fraud alert or freeze on your credit, and watch for notice that an employer's HR records were breached.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of Pennsylvania"],
+    sourceUrl: "https://www.justice.gov/usao-edpa/pr/dauphin-county-man-sentenced-10-years-prison-pandemic-unemployment-assistance-scheme",
+    country: "US",
+    state: "PA",
+});

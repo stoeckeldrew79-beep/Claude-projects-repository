@@ -7787,3 +7787,15 @@ UsTZ.push({
     country: "US",
     state: "MA",
 });
+
+UsTZ.push({
+    name: "TRICARE Transcranial Magnetic Stimulation Billing and Stolen Doctor Identity Scheme",
+    slug: "tricare-transcranial-magnetic-stimulation-billing-and-stolen-doctor-identity-scheme",
+    description:
+      "The owner of two Texas mental health clinics and a related company billed TRICARE, the health program for active-duty servicemembers, veterans and their families, roughly $26 million for transcranial magnetic stimulation therapy that was medically unnecessary or never provided. Evidence at trial showed he fabricated medical records and used stolen identities of physicians to support the fraudulent claims, while paying and receiving kickbacks and spending proceeds on hotel stays, a casino-themed party and a gold-plated vehicle. A federal jury in Fort Worth convicted him of health care fraud, kickback and money laundering offenses. Military families should read every TRICARE explanation of benefits, question clinics that recruit them aggressively for repeated specialty treatments or offer incentives to sign up, and report services or providers they do not recognize.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","National Fraud Enforcement Division"],
+    sourceUrl: "https://www.justice.gov/opa/pr/texas-mental-health-clinic-owner-convicted-26m-scheme-defraud-military-health-benefits",
+    country: "US",
+});

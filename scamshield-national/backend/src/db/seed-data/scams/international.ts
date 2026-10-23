@@ -26181,3 +26181,75 @@ International.push({
     sourceUrl: "https://www.gouv.mc/en/news/draft-warning-and-awareness-message-regarding-a-phishing-campaign-targeting-banks",
     country: "MC",
 });
+
+International.push({
+    name: "Mobile Money Account Takeover via Malicious WhatsApp Apps",
+    slug: "mobile-money-account-takeover-malicious-whatsapp-apps",
+    description:
+      "Fraudsters send WhatsApp links or app files promising free movie or football-match streaming. Once the app is installed or the link is opened, hidden malware captures the victim's secret Orange Money or Wave codes, letting criminals take over the account and move money out without the holder knowing. The Senegalese National Police warned about this nationwide campaign in a press release on 9 October 2026, describing 'malicious applications or deceptive links' used to steal secret codes. Never install an app or open a streaming link sent through WhatsApp, download only from official app stores, and never share or re-enter your mobile money PIN on any screen you did not open yourself. If your account is drained, contact your mobile money operator immediately and report the incident to the police.",
+    categorySlug: "account-takeover",
+    alertLevel: "high",
+    sources: ["Direction générale de la Police nationale (Senegal) press release, 9 October 2026","Le Soleil","Le Petit Journal Dakar"],
+    sourceUrl: "https://lesoleil.sn/actualites/societe-fait-divers/arnaque-au-mobile-money-la-police-nationale-tire-la-sonnette-dalarme/",
+    country: "SN",
+});
+
+International.push({
+    name: "Fake Ministry of Urbanism Administrative Services Platform",
+    slug: "fake-ministry-of-urbanism-administrative-services-platform",
+    description:
+      "A counterfeit website circulating on Facebook and WhatsApp presents itself as the official platform of the Ministère de l'Urbanisme, des Collectivités territoriales et de l'Aménagement des territoires (MUCTAT) for completing administrative procedures. The site misuses the ministry's name, logo and authority to harvest personal data and collect payments from users. In a communiqué on 10 September 2026, MUCTAT denied any link to the platform, told the public not to click the link, fill in forms or make payments, and referred the matter to cybercrime authorities. The ministry confirmed that its only official address is urbanisme.gouv.sn. Do not pay or enter personal information on any site claiming to handle these procedures, and verify the web address against the official government domain before acting.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["MUCTAT communiqué, 10 September 2026","Le Soleil","PressAfrik"],
+    sourceUrl: "https://lesoleil.sn/actualites/economie/fausse-plateforme-en-ligne-le-ministere-de-lurbanisme-alerte-sur-une-tentative-descroquerie/",
+    country: "SN",
+});
+
+International.push({
+    name: "Fake ESOGN Gendarmerie Recruitment Notices",
+    slug: "fake-esogn-gendarmerie-recruitment-notices",
+    description:
+      "Forged announcements posted on websites and social platforms claim that the entrance competition for the École des Sous-Officiers de la Gendarmerie nationale (ESOGN) 2026 intake is open and tell young job-seekers to call a phone number to complete 'registration procedures'. No such phone channel exists, because the real competition process is handled entirely online, so anyone who calls risks being charged bogus fees and handing over personal data. The Haut Commandement de la Gendarmerie nationale, in a release signed by Colonel Ibrahima Ndiaye, denied the notices and stressed that official announcements come only through www.gendarmerie.sn, its official Facebook page and div.com@gendarmerie.sn. Never pay or call a number listed in a recruitment advert you found on social media. Check the gendarmerie's own website before responding to any recruitment notice.",
+    categorySlug: "employment-scams",
+    alertLevel: "medium",
+    sources: ["Haut Commandement de la Gendarmerie nationale du Sénégal press release","Seneweb"],
+    sourceUrl: "https://www.seneweb.com/en/news/Societe/esogn-2026-the-national-gendarmerie-denies-false-recruitment-advertisements_n_470240.html",
+    country: "SN",
+});
+
+International.push({
+    name: "Daily Wealth Guide Crypto Scheme with Deepfaked Mahama Endorsement",
+    slug: "daily-wealth-guide-crypto-scheme",
+    description:
+      "An unlicensed \"investment platform\" called Daily Wealth Guide is being promoted to Ghanaians with a doctored video that makes President John Dramani Mahama appear to endorse it, alongside promises of high returns. Because the operators invite the public to place money with them, the Bank of Ghana and the Securities and Exchange Commission treat it as unlawful deposit-taking under section 4(i) of Act 930, and the Bank of Ghana stresses it has licensed no entity or individual whatsoever to run crypto investment schemes in Ghana. The joint notice (BG/GOV/SEC/2026/27, 1 September 2026) warns that operators face penalties under the Anti-Money Laundering Act, 2020 (Act 1044) and must refund all funds received, and it instructs radio, TV and online publishers not to carry advertisements for the scheme. Treat any celebrity or presidential endorsement of a crypto platform as a red flag, since such videos are cheap to fake. Do not send money to Daily Wealth Guide or similar platforms, check licensing directly with the Bank of Ghana or SEC Ghana, and report approaches to the regulators.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["Bank of Ghana and Securities and Exchange Commission (Ghana), Notice No. BG/GOV/SEC/2026/27, \"SCAM ALERT – DAILY WEALTH GUIDE\", 1 September 2026"],
+    sourceUrl: "https://www.bog.gov.gh/wp-content/uploads/2026/09/Notice-No.27-BOG-SEC-GOV-2026-Notice-SCAM-ALERT-DAILY-WEALTH-GUIDE-2.pdf",
+    country: "GH",
+});
+
+International.push({
+    name: "Fake Restaurant Listings on Google Maps Taking Mobile Money Orders",
+    slug: "fake-restaurant-listings-google-maps-ghana",
+    description:
+      "Fraudsters hijack or clone the online listings of real Ghanaian restaurants and food vendors so customers ring them instead of the business. According to Ghana's Cyber Security Authority, they abuse Google's \"Suggest an edit\" feature, claim unverified business profiles, or create duplicate listings to swap in a phone number they control, and some buy sponsored search ads so the fake number appears first. The caller places a genuine order, is told to pay a specified mobile money number, and then the fraudster goes silent and no food arrives; a second variant sends a \"payment link\" that harvests the customer's name, delivery address and mobile money details for unauthorised transactions. The CSA recorded 112 cases between January and June 2026, up from 61 a year earlier, with losses rising from GH¢84,592 to GH¢296,083.68. Verify a restaurant's number on its official website, verified social media page or a trusted delivery platform, insist on paying after delivery and inspection, and never share your MoMo PIN, OTPs or banking credentials.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["Cyber Security Authority (Ghana) Public Alert, July 2026, as reported by Graphic Online","Citi Newsroom coverage of the CSA alert, July 2026"],
+    sourceUrl: "https://www.graphic.com.gh/news/general-news/once-payment-is-made-the-food-never-comes-public-alerted-over-google-maps-scam.html",
+    country: "GH",
+});
+
+International.push({
+    name: "Fake ECG Meter Agents Demanding Personal Mobile Money Payments",
+    slug: "fake-ecg-meter-agents-momo-payments",
+    description:
+      "Impostors posing as Electricity Company of Ghana staff or agents offer to sell new meters or \"fast-track\" meter applications, advertising on WhatsApp, TikTok and other social platforms and sometimes using photographs of genuine ECG employees lifted from the internet. Victims who pay either never hear from the \"agent\" again or receive an unregistered meter, which ECG then treats as an illegal connection, leaving them doubly exposed. A related strand involves cold calls claiming ECG has taken delivery of new meters, asking whether you have applied for one or have a meter fault, and then soliciting money or personal details. ECG says it runs a fully cashless system, with payments only through the ECG Power App or the *226# shortcode, and that it operates no mobile money account at all, so money sent to a personal MoMo number never reaches the company. Never pay an individual's mobile money number for a meter, keep PINs, passwords and verification codes to yourself, and report suspicious callers to ECG and the police.",
+    categorySlug: "utility-scams",
+    alertLevel: "high",
+    sources: ["Electricity Company of Ghana public caution, 4 November 2025","Graphic Online coverage of ECG's expanded alert, October 2026, quoting Dr Charles Nii Ayiku Ayiku, ECG Head of External Communications"],
+    sourceUrl: "https://ecg.com.gh/blog/2025/11/04/ecg-cautions-public-against-fraudulent-calls-on-meter-acquisition/",
+    country: "GH",
+});
