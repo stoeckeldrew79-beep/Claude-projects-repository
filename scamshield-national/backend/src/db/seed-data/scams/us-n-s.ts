@@ -13737,3 +13737,68 @@ UsNS.push({
     country: "US",
     state: "TX",
 });
+
+UsNS.push({
+    name: "Parking Lot Phone Handover Account Takeover Scheme (Virginia)",
+    slug: "parking-lot-phone-handover-account-takeover-scheme-virginia",
+    description:
+      "Starting in at least January 2023, a ring operating around Hampton Roads approached credit union members in parking lots and other publicly accessible places and used deceit and intimidation to persuade them to hand over their unlocked mobile phones. Once in control of a device, the crew opened the victim's banking apps and submitted unauthorized loan applications, filed bogus disputes, moved money between accounts, made withdrawals, and harvested personal identifying information for further fraud. Eleven defendants have been sentenced, with prison terms including three years and two years and seven months for the leading participants, who pleaded guilty to wire fraud, bank fraud conspiracy, and money laundering conspiracy. Never hand your unlocked phone to a stranger who approaches you in a parking lot for any reason, lock banking apps behind a separate passcode or biometric, and call your bank immediately if you lose control of your device.",
+    categorySlug: "account-takeover",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of Virginia"],
+    sourceUrl: "https://www.justice.gov/usao-edva/pr/eleven-defendants-sentenced-prison-hampton-roads-credit-union-parking-lot-scam",
+    country: "US",
+    state: "VA",
+});
+
+UsNS.push({
+    name: "Semi-Truck Lease \"Passive Income\" Ponzi Scheme (Florida)",
+    slug: "semi-truck-lease-passive-income-ponzi-scheme-florida",
+    description:
+      "Hundreds of investors were pitched an easy passive-income deal: pay roughly $25,000 to $40,000 to buy a lease on a semi-truck, and the operator would supposedly purchase the truck, hire drivers, insure it, and put it to work while the investor did nothing and collected a guaranteed weekly payout of about $1,000 to $1,250. Between December 2023 and May 2025 the scheme pulled in more than $105 million, but roughly $75 million of it was simply recycled from new investors to pay earlier ones, while more than $25 million went to real estate, sports cars, jewelry, private charters, resorts, and casinos. The business owner has been indicted on six counts of wire fraud and two counts of money laundering, and the government is seeking forfeiture of more than $105.9 million in proceeds. Treat any investment promising a guaranteed fixed weekly return with no work on your part as a red flag, and verify that the underlying assets actually exist and are titled before sending money.",
+    categorySlug: "ponzi-pyramid-schemes",
+    alertLevel: "critical",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Middle District of Florida"],
+    sourceUrl: "https://www.justice.gov/usao-mdfl/pr/owner-semi-truck-business-indicted-operating-105-million-fraud-scheme",
+    country: "US",
+    state: "FL",
+});
+
+UsNS.push({
+    name: "Stolen-Mail Treasury Check Cashing Ring Using Recruited Couriers (Missouri)",
+    slug: "stolen-mail-treasury-check-cashing-ring-using-recruited-couriers-missouri",
+    description:
+      "From as early as November 2024 through January 2026, two organizers obtained U.S. Treasury checks that had been stolen from the mail in Florida, Minnesota, California, and Tennessee, then manufactured fraudulent driver's licenses, passports, and other identity documents in the payees' names. They recruited homeless people, provided them housing and clothing, coached them on how to explain out-of-state addresses to tellers, and supplied fake utility bills before walking them into St. Louis-area banks to deposit and withdraw the funds. Eight people have been indicted in the investigation over roughly $3.4 million in deposited Treasury checks, facing charges including bank fraud conspiracy, possession of stolen mail, aggravated identity theft, and forging endorsements on Treasury checks. Sign up for Informed Delivery, retrieve mail promptly or use a locked box, switch benefit and refund payments to direct deposit, and refuse any offer to deposit someone else's check into your account for a fee.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of Missouri"],
+    sourceUrl: "https://www.justice.gov/usao-edmo/pr/two-accused-using-homeless-persons-cash-checks-stolen-mail",
+    country: "US",
+    state: "MO",
+});
+
+UsNS.push({
+    name: "Stolen-Identity Auto Loan and Luxury Vehicle Theft Ring (Connecticut)",
+    slug: "stolen-identity-auto-loan-and-luxury-vehicle-theft-ring-connecticut",
+    description:
+      "A crew used stolen personal and financial information along with stolen or counterfeit identity cards from multiple victims to apply for financing at a Greenwich car dealership, buying or leasing at least six luxury vehicles worth more than $650,000 in other people's names. In one transaction the ringleader used a stolen identity to obtain more than $114,000 in financing for a 2021 Corvette and submitted a forged $14,000 check in a second victim's name as the down payment, then drove the car to New York to resell it; most of the vehicles were repossessed before resale. After pleading guilty to conspiracy to commit bank and wire fraud and aggravated identity theft, the defendant was sentenced to 42 months in federal prison. Check your credit reports and freeze your credit files so no one can open an auto loan in your name, and investigate immediately if you receive a loan approval, payment notice, or repossession letter for a vehicle you never bought.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, District of Connecticut"],
+    sourceUrl: "https://www.justice.gov/usao-ct/pr/queens-resident-sentenced-42-months-federal-prison-vehicle-theft-scheme",
+    country: "US",
+    state: "CT",
+});
+
+UsNS.push({
+    name: "\"No Cost\" Online COVID Test Insurance Billing Scheme",
+    slug: "no-cost-online-covid-test-insurance-billing-scheme",
+    description:
+      "A New York-based lab company advertised \"no cost\" COVID-19 tests that consumers could order through its website, then used the insurance information customers provided to bill government-backed health care programs for services that were never delivered. The company claimed antigen tests had been observed by medical professionals and billed for saliva samples and other services that did not occur, routinely submitting claims for payment before test kits were even shipped, as part of a nationwide scheme that logged more than $500 million in fake claims. The company's chief operating officer pleaded guilty to conspiracy to commit health care fraud. Be cautious about handing your insurance or Medicare number to any website offering free tests, kits, or screenings, and review your Explanation of Benefits statements for tests and services you never received.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Eastern District of Michigan"],
+    sourceUrl: "https://www.justice.gov/usao-edmi/pr/chief-operating-officer-pleads-guilty-role-500m-covid-19-test-billing-fraud",
+    country: "US",
+    state: "MI",
+});

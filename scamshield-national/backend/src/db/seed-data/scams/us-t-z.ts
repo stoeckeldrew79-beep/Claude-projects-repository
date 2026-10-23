@@ -7761,3 +7761,16 @@ UsTZ.push({
     country: "US",
     state: "NY",
 });
+
+UsTZ.push({
+    name: "Vendor Impersonation Invoice Redirect Business Email Compromise (Iowa)",
+    slug: "vendor-impersonation-invoice-redirect-business-email-compromise-iowa",
+    description:
+      "In a business email compromise, criminals impersonate a company's executives or vendors, often using an altered email header or a lookalike address, to trick employees into wiring money or clicking a malicious link. In this case a scammer posed as an Iowa company's vendors and told an employee to send payment to a scammer-controlled account; believing it was paying real invoices, the company wired more than $800,000 in mid-2022, and the money was then layered through other accounts to obscure the trail. The company reported the fraud to the FBI's Internet Crime Complaint Center, and a federal court has now entered judgment forfeiting roughly $375,000 of the proceeds seized from a bank account used to launder the funds. Always confirm any change to payment or wire instructions by calling the vendor at a number you already have on file, never one in the email, and report suspected BEC losses to IC3 immediately because fast reporting is what makes recovery possible.",
+    categorySlug: "business-email-compromise",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","U.S. Attorney's Office, Northern District of Iowa"],
+    sourceUrl: "https://www.justice.gov/usao-ndia/pr/united-states-recovers-375000-fraud-proceeds-business-email-compromise-scam",
+    country: "US",
+    state: "IA",
+});

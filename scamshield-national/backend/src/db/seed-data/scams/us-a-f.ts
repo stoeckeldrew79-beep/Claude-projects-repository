@@ -13762,3 +13762,15 @@ UsAF.push({
     country: "US",
     state: "FL",
 });
+
+UsAF.push({
+    name: "2026 Midterm Election Fraud Schemes: Fake PACs and Campaign Investment Pools",
+    slug: "2026-midterm-election-fraud-schemes",
+    description:
+      "The FBI warns that scammers are exploiting the November 2026 U.S. midterm elections to steal money and personal information. Fraudsters copy the names, logos and slogans of real candidates and committees to run fake political action committees and look-alike donation pages, so your \"contribution\" goes straight to them. Other versions pitch campaign-linked \"investment pools\" promising returns tied to election results, or set up counterfeit voter-registration and registration-status pages that harvest your personal data by claiming you are not registered. AI-cloned candidate voices are being used to make the solicitations sound real. Donate only through a campaign's official website that you navigate to yourself, check your registration status at your state or county election office, and never treat an election outcome as an investment opportunity.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["FBI Internet Crime Complaint Center (IC3) Public Service Announcement I-101526-3-PSA, 15 October 2026","The Register, 16 October 2026"],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA261015-2",
+    country: "US",
+});

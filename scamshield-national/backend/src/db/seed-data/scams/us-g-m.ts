@@ -14457,3 +14457,27 @@ UsGM.push({
     country: "US",
     state: "ID",
 });
+
+UsGM.push({
+    name: "GovAssist Passport Service Government Impersonation Scheme",
+    slug: "govassist-passport-service-impersonation",
+    description:
+      "The FTC sued GovAssist LLC, Entry LLC and Scott Zuckerman on 22 October 2026, alleging they posed as the U.S. government or an official affiliate to sell passport and travel-document services. According to the complaint, the operation bought paid Google search ads that appeared when people searched for official passport services, using ad copy and websites designed to look governmental. Consumers were allegedly steered into paying fees and handing over sensitive personal information based on misleading promises, including claims about expedited processing, while fake reviews were seeded to build credibility. The FTC alleges violations of the FTC Act, the Impersonation Rule and the Gramm-Leach-Bliley Act; the case is pending in federal court in Puerto Rico and these remain allegations. Apply for or renew a passport only through travel.state.gov, and ignore sponsored search results promising faster government processing for a fee.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Federal Trade Commission press release, 22 October 2026","FTC case file, matter 2523141"],
+    sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-perpetrators-government-impersonation-scheme-over-deceptive-ads-misleading-promises-fake",
+    country: "US",
+});
+
+UsGM.push({
+    name: "\"Ghost Tapping\" Contactless NFC Proximity Charging Theft",
+    slug: "ghost-tapping-contactless-nfc-charging",
+    description:
+      "The Better Business Bureau warns about \"ghost tapping,\" in which a thief carries a portable card reader and gets close enough to charge a tap-enabled card or phone wallet sitting in your pocket or bag. It happens in crowded or distracting places such as queues, transit crowds and festivals, often disguised as an accidental bump or a street solicitation. BBB describes a test-then-escalate pattern: a charge of a few cents or dollars first to confirm the card works, then larger ones. A related version uses a fake vendor or charity collector holding a handheld terminal where the displayed amount does not match what is actually charged. Debit cards are the worst case because the money leaves your account immediately, so keep cards in an RFID-blocking sleeve or wallet, turn on transaction alerts, check statements for tiny unexplained charges, and never tap a terminal without reading the amount yourself.",
+    categorySlug: "identity-theft",
+    alertLevel: "medium",
+    sources: ["KXAN (Nexstar, Austin), 20 October 2026, quoting BBB's Jason Meza","WGN (Nexstar, Chicago), quoting BBB Chicago president and CEO Steve Bernas"],
+    sourceUrl: "https://www.kxan.com/news/bbb-warns-of-ghost-tapping-scams-targeting-shoppers/",
+    country: "US",
+});

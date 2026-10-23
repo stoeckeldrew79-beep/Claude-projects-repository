@@ -26049,3 +26049,75 @@ International.push({
     sourceUrl: "https://www.pta.gov.pk/category/pta-cautions-mobile-phone-users-of-fraudulent-callssmss-892902660-2023-06-01",
     country: "PK",
 });
+
+International.push({
+    name: "Fake Traffic Fine SMS and Counterfeit GovPay Payment Portal",
+    slug: "fake-traffic-fine-sms-counterfeit-govpay-portal",
+    description:
+      "Scammers send SMS and WhatsApp messages pretending to be from Sri Lanka Police, claiming a road CCTV camera detected a speeding violation and that an unpaid fine must be settled immediately. The link in the message leads to a counterfeit copy of GovPay, the real government payment platform, where victims enter card numbers, OTPs and NIC details that go straight to criminals. Sri Lanka CERT issued a special public alert about the campaign and Police confirmed they never text drivers asking for bank details or payment through unofficial links, since on-the-spot fines are issued after informing the driver at the scene. Only govpay.lk is genuine, and real government websites end in .gov.lk. If you get such a message, do not tap the link or share any card or OTP details, and check any fine directly with the police station or the official govpay.lk site.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Sri Lanka Computer Emergency Readiness Team (Sri Lanka CERT) special public alert, 28 May 2026","Sri Lanka Police warnings, July 2026","Ada Derana","Daily Mirror"],
+    sourceUrl: "http://www.adaderana.lk/news/123052/sri-lanka-cert-issues-public-warning-over-fake-traffic-fine-sms-and-whatsapp-scam",
+    country: "LK",
+});
+
+International.push({
+    name: "Unlicensed Plantation Investment Deposit-Taking Schemes",
+    slug: "unlicensed-plantation-investment-deposit-taking-schemes",
+    description:
+      "Companies advertise heavily on television and in print offering \"guaranteed\", land-backed returns from teak, mango or wallapatta (agarwood) plantations, promising a monthly payout plus a large lump sum at maturity. The Central Bank of Sri Lanka says taking money from the public with a promise of repayment plus a return is deposit-taking, which only licensed banks and finance companies may do, and these firms hold no licence. Governor Nandalal Weerasinghe has compared the structure to a pyramid scheme because payouts to early investors depend on money from new ones, and no deposit protection covers the funds. CBSL has frozen the property and assets of six companies and their directors, including Kasagala Green Plantation and Ceylon Green Life Plantation, with orders confirmed by the Colombo High Court, and has publicly denied claims that such companies are CBSL-regulated. Before investing, check the Central Bank's published list of licensed finance companies and treat any \"guaranteed\" high-return plantation deposit offer as a red flag.",
+    categorySlug: "ponzi-pyramid-schemes",
+    alertLevel: "critical",
+    sources: ["Central Bank of Sri Lanka, Department of Supervision of Non-Bank Financial Institutions","CBSL Governor Nandalal Weerasinghe statements","Daily FT","EconomyNext","News 1st"],
+    sourceUrl: "https://economynext.com/sri-lanka-regulator-cracks-down-on-illegal-plantation-deposit-schemes-285199/",
+    country: "LK",
+});
+
+International.push({
+    name: "Construction Material Marketplace Scam With Genuine Hardware Deliveries",
+    slug: "construction-material-marketplace-scam-genuine-deliveries",
+    description:
+      "Fraudsters post ads on ikman.lk and Facebook Marketplace offering asbestos roofing sheets, cement and other building supplies at prices well below market rates, targeting builders, contractors and homeowners. When a buyer orders, the scammer phones a real hardware dealer near the buyer and arranges for the goods to be delivered, so genuine materials actually turn up at the site. Convinced by the delivery, the buyer transfers payment to a bank account supplied by the scammer, and only later does the driver or the actual store owner arrive demanding payment for the same goods. Victims end up paying twice or losing both the money and the materials. Sri Lanka Police, who issued this warning on 16 August 2026 after several complaints, advise never paying online the moment goods arrive, verifying directly with the driver or the hardware store, and confirming who owns a bank account before transferring anything.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["Sri Lanka Police Headquarters public warning, 16 August 2026","Ada Derana","Newswire"],
+    sourceUrl: "https://www.newswire.lk/2026/08/16/police-warn-of-new-online-scam-targeting-hardware-item-buyers/",
+    country: "LK",
+});
+
+International.push({
+    name: "Police and Bank Impersonation Phone Calls Targeting Elderly Norwegians",
+    slug: "police-and-bank-impersonation-phone-calls-targeting-elderly-norwegians",
+    description:
+      "Criminals telephone elderly people in Norway, mostly women, claiming to be a named police officer or bank employee and often quoting a case number to sound convincing. Victims are told their bank account has been misused - DNB is the bank named most often - and are asked to help with an investigation, in one Oslo case by buying an expensive watch and handing it to a plain-clothes 'officer' outside the shop. The numbers shown on the phone usually belong to other people whose identities have been stolen, so caller ID proves nothing. Politidirektoratet has also warned about calls from apparent Norwegian +47 numbers claiming your passport or ID card shows suspicious activity, or that an arrest warrant has been issued for money laundering. Never share BankID codes, passwords or card details over the phone, hang up and call the police or your bank back on a number you look up yourself, and talk to a relative before buying or handing over anything valuable.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["https://www.politiet.no/nyheter-og-presse/oslo/nyhet/2026-07-23/politiet-advarer-mot-nye-forsok-pa-eldrebedragerier","https://www.politiet.no/nyheter-og-presse/politidirektoratet/nyhet/2025-07-17/advarsel-om-svindelforsok","https://www.aftenposten.no/norge/i/6qBJE8/politiet-med-ny-advarsel-om-svindelforsoek-mot-eldre"],
+    sourceUrl: "https://www.politiet.no/nyheter-og-presse/oslo/nyhet/2026-07-23/politiet-advarer-mot-nye-forsok-pa-eldrebedragerier",
+    country: "NO",
+});
+
+International.push({
+    name: "Fake Home-Care Nurse and Waterworks Doorstep Theft in Oslo and Baerum",
+    slug: "fake-home-care-nurse-and-waterworks-doorstep-theft-in-oslo-and-baerum",
+    description:
+      "People are turning up unannounced at elderly residents' homes in Oslo and Baerum claiming to be from the municipal home-care service (hjemmetjenesten) or from the waterworks. The fake nurse may carry equipment and offer a quick health check, typically a blood pressure measurement; Oslo police first said the callers wore nurse-like uniforms but later corrected this, as at least one suspect posed as a home nurse without any uniform. In the water-utility version the caller says a leak needs checking, and once inside the home valuables - mainly jewellery - are stolen. Police describe it as a recurring method often hitting several addresses in a single day; in one case Oslo South received four reports within hours, including a woman in her 80s at Teisen. Do not let unannounced visitors in, call the municipality or utility on a number you look up yourself to verify any visit, and report suspicious callers to the police on 02800.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["https://www.nrk.no/stor-oslo/advarer-mot-eldrebedragerier-i-oslo---gir-seg-ut-for-a-vaere-hjemmetjenesten-1.17796258","https://www.vartoslo.no/bedrageri-baerum-eldrebedrageri/politiet-advarer-eldre-svindlere-pa-ferde-i-oslo-vest-og-baerum/999153","https://www.aftenposten.no/oslo/i/ExQ1po/politiet-jakter-paa-kvinne-i-oslo-etter-mistanke-om-eldrebedrageri-skal-ha-utgitt-seg-for-aa-vaere-hjemmesykepleier"],
+    sourceUrl: "https://www.nrk.no/stor-oslo/advarer-mot-eldrebedragerier-i-oslo---gir-seg-ut-for-a-vaere-hjemmetjenesten-1.17796258",
+    country: "NO",
+});
+
+International.push({
+    name: "Eurkron Finans AS - Fake Consumer Lender Flagged by Finanstilsynet",
+    slug: "eurkron-finans-as-fake-consumer-lender-flagged-by-finanstilsynet",
+    description:
+      "On 28 September 2026 Norway's financial regulator Finanstilsynet issued a formal market warning against Eurkron Finans AS, which offers and brokers loans to Norwegian consumers through its websites. The regulator states that the company holds no licence to provide lending services in Norway, that it is not genuine, and that it is in all likelihood set up solely to defraud consumers. The warning is part of a wider 2026 pattern of Finanstilsynet alerts against bogus banks and lenders, including entities calling themselves Saptrust Bank, instant Bank, banksured Bank, WATTPROSAVER Bank and HavBank, as well as unauthorised crypto and trading platforms advertised on Facebook and X. Finanstilsynet advises the public not to use Eurkron Finans AS or enter into any agreement with it. Before applying for any loan, check the provider against Finanstilsynet's licence register and warning list, and report any contact or payment you have already made to the police.",
+    categorySlug: "debt-relief-scams",
+    alertLevel: "high",
+    sources: ["https://www.finanstilsynet.no/nyhetsarkiv/nyheter/2026/finanstilsynet-advarer-mot-eurkron-finans-as","https://www.finanstilsynet.no/nyhetsarkiv/nyheter/2026/finanstilsynet-advarer-mot-a-innga-avtaler-med-saptrust-bank-instant-bank-banksured-bank-og/","https://www.adressa.no/nyheter/innenriks/i/JOj5O8/finanstilsynet-advarer-mot-falsk-laangiver-kun-satt-opp-for-aa-svindle"],
+    sourceUrl: "https://www.finanstilsynet.no/nyhetsarkiv/nyheter/2026/finanstilsynet-advarer-mot-eurkron-finans-as",
+    country: "NO",
+});
