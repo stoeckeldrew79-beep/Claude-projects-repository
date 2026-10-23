@@ -26121,3 +26121,63 @@ International.push({
     sourceUrl: "https://www.finanstilsynet.no/nyhetsarkiv/nyheter/2026/finanstilsynet-advarer-mot-eurkron-finans-as",
     country: "NO",
 });
+
+International.push({
+    name: "Fake Lahav 433 Cyber Unit Criminal Accusation Messages",
+    slug: "fake-lahav-433-cyber-unit-criminal-accusation-messages",
+    description:
+      "Scammers send emails and SMS messages pretending to come from the Cyber Unit of Lahav 433, the Israel Police's national serious and organised crime directorate. The message falsely accuses you of a sexual offence, claiming authorities were informed you viewed explicit material involving minors, and demands that you reply by email or face legal proceedings. The point of the reply request is to find frightened people who respond, so they can be pressured for money later; some versions also include links or attachments. Israel Police confirmed these messages are fake and were not sent by the police. Do not reply, do not click any link or open any attachment, block the sender's address or number, and contact the police directly through official channels if you are worried.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Israel Police public warning, reported by Israel National News (Arutz Sheva)"],
+    sourceUrl: "https://www.israelnationalnews.com/news/434239",
+    country: "IL",
+});
+
+International.push({
+    name: "Counterfeit Bit Payment App Page Card-Draining Phishing",
+    slug: "counterfeit-bit-payment-app-page-card-draining-phishing",
+    description:
+      "Fraudsters built a fake web page imitating Bit, the peer-to-peer payment app most Israelis use for private second-hand sales, and circulated links to it. Victims who followed the link and entered their payment and card details had their accounts drained. Israel Police's Lahav 433 Cyber Unit said dozens of citizens were harmed and opened a covert investigation into suspects living in Beit Ur a-Tahta. Note that this police statement dates to November 2024 and describes an enforcement action, but copycat fake Bit pages remain a common tactic. Never pay or enter card details through a link someone sends you; open the Bit app yourself and verify any request directly with the other party.",
+    categorySlug: "phishing",
+    alertLevel: "medium",
+    sources: ["Israel Police (Lahav 433 Cyber Unit) official account post, November 2024"],
+    sourceUrl: "https://x.com/IL_police/status/1860958054365466911",
+    country: "IL",
+});
+
+International.push({
+    name: "Fake Prince's Palace Representatives on WhatsApp",
+    slug: "fake-princes-palace-representatives-on-whatsapp",
+    description:
+      "Since early 2026, criminals have been creating fake WhatsApp profiles claiming to be collaborators or official representatives of Monaco's Prince's Palace. They first collect personal information, then ask for money framed as donations or investment opportunities. To look convincing they use voice-imitation technology, fabricated images and videos, official-looking documents, and spoofed caller ID so calls appear to come from a genuine institutional number such as the Palace's. The Palace and Government never solicit funds or personal data this way. Do not reply; keep the WhatsApp profile, emails and documents as evidence and contact the Monaco Police Department on +377 93 15 30 15 or csco@gouv.mc.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Prince's Government of Monaco / Direction de la Communication press release, 11 March 2026","Riviera Radio, 12 March 2026","Direction de la Sûreté Publique warning, June 2025"],
+    sourceUrl: "https://www.gouv.mc/en/news/caution-advised-regarding-attempted-fraud",
+    country: "MC",
+});
+
+International.push({
+    name: "Fake Compagnie des Autobus de Monaco Travel Card Offers on Facebook",
+    slug: "fake-compagnie-des-autobus-de-monaco-travel-card-offers-on-facebook",
+    description:
+      "Fraudulent Facebook pages impersonate Monaco's public bus operator CAM and advertise deals that are too good to be true, such as a free six-month bus pass, unlimited travel for two euros a month, three-euro bus cards, or a full year of free travel for residents. Pages have used names like \"Transports publics à Monaco\" and \"Offre spéciale pour les résidents de Monaco\" to look legitimate. Victims are told to click a link and fill in personal and banking details on a counterfeit form, which the criminals harvest for identity theft and card fraud. CAM's only official channels are www.cam.mc and the Monapass app. Ignore these offers, and if you already entered card details, contact your bank immediately to block the card.",
+    categorySlug: "phishing",
+    alertLevel: "medium",
+    sources: ["Prince's Government of Monaco press release (La Sécurité), 28 August 2024","CAM renewed alert, August 2025","Radio Monaco, Monaco-Matin and Monaco Tribune coverage"],
+    sourceUrl: "https://en.gouv.mc/Princely-Governement/News/Monegasque-Bus-Company-CAM-users-targeted-by-online-fraud",
+    country: "MC",
+});
+
+International.push({
+    name: "Bank and Payment Service Impersonation Phishing Campaign",
+    slug: "bank-and-payment-service-impersonation-phishing-campaign",
+    description:
+      "A phishing campaign reported in November 2025 targets customers of banks operating in Monaco through emails, text messages and phone calls that impersonate banks and payment services. The messages push recipients to click a link leading to a counterfeit website that copies a bank's customer portal, where usernames, passwords and card numbers are stolen. Warning signs include urgent or frightening wording such as \"your account will be blocked\" or \"immediate action required\", a web address slightly different from the official one, requests for security codes, and spelling errors, altered logos or unusual page layouts. Never share credentials or PIN codes, even with someone claiming to work for your bank, and do not click links or open attachments. Check the real sender address, report the message as spam, forward it to cyber@gouv.mc, then delete it permanently.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Prince's Government of Monaco press release, 27 November 2025","monservicepublic.gouv.mc citizen portal notice","La Gazette de Monaco"],
+    sourceUrl: "https://www.gouv.mc/en/news/draft-warning-and-awareness-message-regarding-a-phishing-campaign-targeting-banks",
+    country: "MC",
+});

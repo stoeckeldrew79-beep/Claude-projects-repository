@@ -13774,3 +13774,66 @@ UsAF.push({
     sourceUrl: "https://www.ic3.gov/PSA/2026/PSA261015-2",
     country: "US",
 });
+
+UsAF.push({
+    name: "FTC Impersonation Call Threatening to Deactivate Your Phone Number",
+    slug: "ftc-impersonation-phone-number-deactivation-call",
+    description:
+      "A caller claiming to be an FTC official says a phone was registered under your name and number and is being used to commit scams overseas, then recites a fake badge ID and threatens to deactivate your phone number unless you cooperate. To 'file a report,' the caller transfers you to a supposed police officer who collects your state-issued ID and other personal details, and you are told to keep everything secret. The script then escalates to claims that you are under arrest for crimes tied to your number, which sets up a demand for money. The real FTC never asks for money, never transfers callers to someone who requests funds, never threatens to disconnect a phone number, and never demands secrecy. Hang up on any such call, do not share ID or payment details, and report it at ReportFraud.ftc.gov.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Federal Trade Commission consumer alert, October 22, 2026","12News/TEGNA","Popular Science"],
+    sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2026/10/ftc-not-calling-deactivate-your-phone-number",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Digital Party Invitation Phishing Sent From Hacked Friends' Email Accounts",
+    slug: "digital-party-invitation-phishing-hacked-email-accounts",
+    description:
+      "You get an email invitation to a birthday party, conference or other event that appears to come from someone you actually know, styled like a digital invite from an online party-planning platform. Clicking the 'view invitation' or RSVP link takes you to a page asking you to log in or 'connect' with your Google, Apple or Microsoft account, which hands your credentials straight to the attacker. The attacker then uses your mailbox to send the same fake invitations to everyone in your contacts, and the Pennsylvania Attorney General warns the links can also install malware. Legitimate invitation services do not require your email password to view an invite. Confirm the event with the sender by phone or text before clicking, and never enter account credentials on a page you reached through an emailed link.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["Pennsylvania Office of Attorney General alert, May 7, 2026","CBS News Pittsburgh","Lewistown Sentinel","FTC consumer alert on party invite credential requests"],
+    sourceUrl: "https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-alerts-pennsylvanians-of-a-new-email-invitation-phishing-scam/",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Attorney Trust Account Ponzi Schemes Promising Doubled Money",
+    slug: "attorney-trust-account-ponzi-schemes-promising-doubled-money",
+    description:
+      "According to an indictment in the Northern District of Georgia, an investment broker ran two schemes through his company from about October 2018 through October 2022, including a \"Micro-Cap\" program that claimed investor money would be pooled to buy precious stones and metals abroad and resell them in the United States for roughly double the investment. Investors were reassured their funds would sit safely in a practicing attorney's trust account, but prosecutors allege the attorney instead funneled the money to the broker while keeping a cut, and investors lost their savings. Both men have been indicted, arrested and arraigned on charges tied to the multi-year, multi-million-dollar Ponzi schemes. Treat any promise of doubled or guaranteed returns as a red flag, no matter who is supposedly holding the money. Verify a broker's registration through BrokerCheck, demand independent account statements from a third-party custodian, and never accept a lawyer's trust account as proof that an investment is safe.",
+    categorySlug: "ponzi-pyramid-schemes",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","Northern District of Georgia"],
+    sourceUrl: "https://www.justice.gov/usao-ndga/pr/investment-broker-and-attorney-charged-running-multiple-ponzi-schemes",
+    country: "US",
+    state: "GA",
+});
+
+UsAF.push({
+    name: "Fake Licensed Clinical Social Worker Billing Veterans' Mental Health Care",
+    slug: "fake-licensed-clinical-social-worker-billing-veterans-mental-health-care",
+    description:
+      "An Anchorage woman who owned a healing services company falsely told the Department of Veterans Affairs she was a licensed clinical social worker in order to get authorized to provide mental health counseling to veterans. Between 2020 and February 2026 she also employed an unlicensed person to do the counseling while billing the VA as though she had performed it, used prefilled diagnosis codes without actually making a diagnosis, billed for sessions while she was out of state or out of the country, claimed in-person visits that were done remotely, and billed inflated prolonged-service codes, submitting 2,833 false claims worth about $2.7 million. She pleaded guilty to health care fraud, faces up to 10 years in prison, and agreed to repay $1,839,727 in restitution. Before starting therapy, look up the provider's license number on your state licensing board's online verification site and confirm the person in the room is the one named on the license. Veterans can report suspected VA billing fraud to the VA Office of Inspector General hotline.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","District of Alaska"],
+    sourceUrl: "https://www.justice.gov/usao-ak/pr/anchorage-woman-pleads-guilty-committing-more-2-million-health-care-fraud",
+    country: "US",
+    state: "AK",
+});
+
+UsAF.push({
+    name: "Deceased Relative's Direct-Deposit Social Security Benefit Theft",
+    slug: "deceased-relatives-direct-deposit-social-security-benefit-theft",
+    description:
+      "A Pompano Beach woman's great-aunt had been receiving Social Security retirement benefits by direct deposit into a bank account, and after the great-aunt died the Social Security Administration was never notified, so monthly payments kept landing in that account. Between April 2017 and December 2022 the relative drained more than $152,000 in benefits that were no longer owed. A federal jury in the Southern District of Florida convicted her of theft of government funds and Social Security fraud after a six-day trial. When a family member dies, notify the Social Security Administration and the bank promptly and close or restrict any account still receiving federal deposits, because money paid after the date of death must be returned. If you are an executor or joint account holder, review statements for recurring government deposits and report them rather than spending them.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","Southern District of Florida"],
+    sourceUrl: "https://www.justice.gov/usao-sdfl/pr/pompano-beach-woman-convicted-stealing-152000-social-security-benefits-following-great",
+    country: "US",
+    state: "FL",
+});

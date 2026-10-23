@@ -7774,3 +7774,16 @@ UsTZ.push({
     country: "US",
     state: "IA",
 });
+
+UsTZ.push({
+    name: "Vacant Land Deed Fraud Targeting Out-of-State Owners",
+    slug: "vacant-land-deed-fraud-targeting-out-of-state-owners",
+    description:
+      "Federal prosecutors say a conspiracy identified vacant, mortgage-free properties in Massachusetts, Georgia, Indiana and Tennessee whose owners lived out of state, then built fake identities around those owners, including counterfeit driver's licenses and passports plus email and internet phone accounts in their names. Posing as the true owners, the group allegedly tricked real estate agents and closing professionals into listing and selling the land to unsuspecting buyers, pocketing more than $1.5 million and laundering the proceeds through personal and corporate bank accounts. A Texas man has agreed to plead guilty to wire fraud conspiracy and money laundering conspiracy; two co-defendants were charged in the same case. If you own land you do not visit often, sign up for free property-records or deed-alert monitoring with your county recorder and check your parcel's ownership record once a year. Buyers and agents should insist on in-person or verified identity checks for any seller who only communicates by email or phone.",
+    categorySlug: "mortgage-foreclosure-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","District of Massachusetts"],
+    sourceUrl: "https://www.justice.gov/usao-ma/pr/texas-man-plead-guilty-role-15-million-deed-fraud-and-money-laundering-schemes",
+    country: "US",
+    state: "MA",
+});

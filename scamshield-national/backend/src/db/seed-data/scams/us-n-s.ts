@@ -13802,3 +13802,40 @@ UsNS.push({
     country: "US",
     state: "MI",
 });
+
+UsNS.push({
+    name: "Paid Sextortion Relief Services That Promise to Unmask Your Extortionist",
+    slug: "paid-sextortion-relief-services-digital-forensics",
+    description:
+      "This is a second layer of fraud aimed at people already being sextorted: a firm advertises on Google, YouTube and X to users urgently searching for help, urging them to call 'right away' and let its experts 'fight back' against the extortionist. According to the FTC's complaint against Digital Forensics Corporation, LLC and its CEO, victims in crisis were charged thousands of dollars up front for investigations that were never delivered, were given allegedly fabricated investigative reports, and were then pushed into a second paid phase. The FTC also alleges deceptive reviews and testimonials, and charged violations of the FTC Act, the Telemarketing Sales Rule, the Reviews and Testimonials Rule, and the Gramm-Leach-Bliley Act. A federal court in the Northern District of Ohio temporarily halted the company's operations in October 2026. If you are being sextorted, do not pay anyone claiming they can identify your blackmailer; stop responding, save the evidence, and report it free to the FBI at IC3.gov or the NCMEC CyberTipline.",
+    categorySlug: "sextortion",
+    alertLevel: "high",
+    sources: ["FTC press release, October 13, 2026","FTC consumer alert, October 13, 2026"],
+    sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-operator-sextortion-relief-scheme-misleading-consumers-believing-it-would-identify",
+    country: "US",
+});
+
+UsNS.push({
+    name: "Nursing Home COVID-Test Offer Hiding $18.7 Million in Unordered Respiratory Billing",
+    slug: "nursing-home-covid-test-offer-hiding-unordered-respiratory-billing",
+    description:
+      "A laboratory owner offered COVID-19 testing to nursing homes across the country in 2020, when facilities were desperate for tests, then used the resident specimens collected to bill Medicare more than $18 million for expensive respiratory panel tests that residents did not need, that no physician ordered, and that in many cases were never actually performed. Prosecutors said the scheme exploited elderly nursing-home residents and inexperienced interns during the pandemic. A federal jury in the District of Maryland convicted the lab owner of Medicare fraud; he had previously been convicted in a separate investment fraud scheme. Families should read the Medicare Summary Notices or Explanation of Benefits for a relative in a care facility and question any lab test that was never discussed with the resident's doctor. Report suspicious Medicare charges to 1-800-MEDICARE or the HHS Office of Inspector General hotline.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","National Fraud Enforcement Division"],
+    sourceUrl: "https://www.justice.gov/opa/pr/maryland-man-convicted-187m-medicare-fraud-respiratory-testing-scheme-targeting-nursing",
+    country: "US",
+});
+
+UsNS.push({
+    name: "Stolen Birth Certificate and SSN Used to Claim SNAP Food Benefits",
+    slug: "stolen-birth-certificate-and-ssn-used-to-claim-snap-food-benefits",
+    description:
+      "A woman unlawfully residing in Dorchester, Massachusetts, was charged with using a real U.S. citizen's birth certificate and Social Security number as her own to apply for and collect more than $11,000 in SNAP food assistance going back to 2021. The identity theft victim told authorities the misuse of her information damaged her credit and forced her to use a special IRS identity protection PIN when filing her taxes. The defendant was arrested in October 2026 and charged with theft of government money, aggravated identity theft and SNAP fraud, which carries a mandatory consecutive two-year prison term. Check your credit reports free at AnnualCreditReport.com and consider freezing them, since benefit applications filed in your name often surface there first. If someone files taxes or claims benefits using your Social Security number, request an IRS Identity Protection PIN and report the theft at IdentityTheft.gov.",
+    categorySlug: "identity-theft",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","District of Massachusetts"],
+    sourceUrl: "https://www.justice.gov/usao-ma/pr/illegal-alien-arrested-identity-theft-and-federal-assistance-benefit-fraud",
+    country: "US",
+    state: "MA",
+});
