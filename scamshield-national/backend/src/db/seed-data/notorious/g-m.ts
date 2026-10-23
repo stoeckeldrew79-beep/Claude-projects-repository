@@ -12713,3 +12713,22 @@ The trials were very slow. The trial began in December 1991, and in September 19
 The Itoman case is often treated as a symbol of Japan's late-1980s bubble economy. It shows how a bank's close relationship with an affiliated company, and an executive who ran it without effective checks, allowed enormous sums to be moved through overpriced artworks and speculative property deals to people who were never going to repay them. It also shows how long the legal reckoning for a bubble-era scandal can take, and how the biggest figures cited in popular accounts may go well beyond what a court was asked to decide.`,
     sourceUrl: 'https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%88%E3%83%9E%E3%83%B3%E4%BA%8B%E4%BB%B6',
 });
+
+NotoriousGM.push({
+    title: 'Muhammad Nazaruddin and the SEA Games Athletes\' Village Bribery Case',
+    slug: 'muhammad-nazaruddin-sea-games-athletes-village-bribery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'bribery', 'money-laundering', 'public-corruption'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/KPK_building_Kuningan.jpg?width=1200',
+    coverImageCredit: 'Photo: Serenity (CC BY-SA 4.0) — Former headquarters of the Corruption Eradication Commission (KPK) in Kuningan, Jakarta',
+    coverImagePosition: 50,
+    body: `Muhammad Nazaruddin was the treasurer of Indonesia's Democratic Party and a member of the national parliament, where in 2011 he sat on the House sports commission. That year the Southeast Asian (SEA) Games were due to be held in Palembang, South Sumatra, and a contract was to be awarded for an athletes' dormitory there. The Jakarta Post reported that the Supreme Court later found Nazaruddin guilty of initiating the meetings that led to the graft scheme and of accepting Rp 4.6 billion from Mohamad El Idris, the marketing director of the construction company PT Duta Graha Indah, to rig the bid in the company's favour.
+
+The first trial ended in April 2012, when the Jakarta Corruption Court convicted Nazaruddin of accepting bribes under the corruption law's gratuity provision and sentenced him to four years and ten months and a Rp 200 million fine. Nazaruddin appealed, but in January 2013 the Supreme Court, presided over by Justice Artidjo Alkostar, rejected the appeal and accepted the prosecutors' demand. It annulled the April 2012 conviction, found Nazaruddin guilty under Article 12(b) of the 2001 Corruption Law, and sentenced him to seven years in prison, adding two years and two months, with a fine of Rp 300 million. The Corruption Eradication Commission (KPK), whose chairman welcomed the ruling as a deterrent, said it was also investigating suspected money laundering, including whether SEA Games money had been used to buy shares in the airline PT Garuda Indonesia.
+
+That second case reached a verdict in June 2016. The Jakarta Corruption Court found Nazaruddin guilty of laundering nearly Rp 600 billion and of accepting bribes from two construction firms for education and health ministry projects, Rp 23 billion from PT Duta Graha Indah and Rp 17 billion from PT Nindya Karya, during his time as party treasurer and legislator. Presiding judge Ibnu Basuki Widodo sentenced him to six years in prison and a Rp 1 billion fine, one year less than the prosecution had sought. The court ordered his wealth seized, though several assets were to be returned to him, and Nazaruddin said he accepted the verdict and would not appeal. The Jakarta Post reported that he walked free on parole in June 2020.
+
+The Nazaruddin case shows a treasurer's access to ministries and legislators being turned into a bribe-taking operation, with the proceeds then moved into other assets such as share purchases. It also shows how Indonesia's anti-corruption courts handled it in two stages: a first conviction that the Supreme Court corrected to a heavier sentence, followed by a separate money laundering prosecution that added six years and reached much further than the single Rp 4.6 billion bribe on which the case began.`,
+    sourceUrl: 'https://www.thejakartapost.com/news/2016/06/15/former-lawmaker-nazaruddin-gets-six-years-for-money-laundering',
+});
