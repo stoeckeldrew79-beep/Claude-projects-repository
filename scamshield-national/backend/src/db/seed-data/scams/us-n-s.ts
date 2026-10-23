@@ -13698,3 +13698,42 @@ UsNS.push({
     country: "US",
     state: "MO",
 });
+
+UsNS.push({
+    name: "Rogue IT Consultant Backdoor and Repeat Service-Call Scheme (Connecticut)",
+    slug: "rogue-it-consultant-backdoor-service-call-scheme-connecticut",
+    description:
+      "A technology consultant hired by a small funeral services business to install a computer network and video surveillance system secretly added software that let him remotely access the network without authorization. After the install, the business kept suffering mysterious outages that it had to pay him to fix, and when the owner declined his monthly service contract he remotely disabled the network on 21 separate days, shutting down operations. A replacement IT firm could not regain control of much of the equipment he had installed, forcing the owner to pay for new labor and hardware. The consultant was sentenced in federal court to nine months in prison and three years of supervised release for operating a computer intrusion scheme. If you hire outside IT help, insist on keeping the administrator credentials yourself, require written disclosure of any remote-access tools installed, and get an independent review if repeat outages always require the same vendor to fix them.",
+    categorySlug: "tech-support-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","District of Connecticut"],
+    sourceUrl: "https://www.justice.gov/usao-ct/pr/former-shelton-resident-sentenced-computer-intrusion-scheme",
+    country: "US",
+    state: "CT",
+});
+
+UsNS.push({
+    name: "SNAP EBT Card Buy-Back Benefit Trafficking Scheme (Maryland)",
+    slug: "snap-ebt-card-buy-back-benefit-trafficking-scheme-maryland",
+    description:
+      "Prosecutors allege that three co-conspirators collected SNAP Electronic Benefit Transfer cards, card numbers, and PINs directly from recipients, paying them cash at roughly half the face value of the benefits. They then used the benefits to buy groceries at retail stores and turned the food into meals sold through a catering business for profit, allegedly draining more than $600,000 in SNAP benefits between January 2021 and February 2026. A federal grand jury indicted all three on conspiracy to commit wire fraud, wire fraud, and unauthorized use of SNAP benefits as part of a national USDA benefits fraud enforcement surge. Never sell or share your EBT card number or PIN, even to someone offering quick cash, because doing so is a federal crime that can cost you your benefits and your freedom.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","District of Maryland"],
+    sourceUrl: "https://www.justice.gov/usao-md/pr/dmv-co-conspirators-indicted-connection-snap-fraud-scheme",
+    country: "US",
+    state: "MD",
+});
+
+UsNS.push({
+    name: "Prison-Based Affinity Investment Fraud Scheme (Texas)",
+    slug: "prison-based-affinity-investment-fraud-scheme-texas",
+    description:
+      "From inside a federal correctional complex, an inmate using an alias conspired with people on the outside to pitch phony investments to those he could reach, including a local pastor and his family and the owners of an out-of-state construction business. Over roughly five years the scheme took in more than $1.4 million, and the man running it had already been convicted of an earlier federal fraud scheme before starting this one. A jury convicted him of conspiring to commit wire fraud after a five-day trial, and he faces up to 30 years in prison plus restitution at sentencing. Before investing, check the promoter's background through regulators and court records, be wary of deals that arrive through a trusted friend, family member, or congregation, and never send money to someone whose identity and track record you cannot independently verify.",
+    categorySlug: "investment-fraud",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","Eastern District of Texas"],
+    sourceUrl: "https://www.justice.gov/usao-edtx/pr/federal-inmate-convicted-using-his-time-prison-defraud-local-family-and-others",
+    country: "US",
+    state: "TX",
+});

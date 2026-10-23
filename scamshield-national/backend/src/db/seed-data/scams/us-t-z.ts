@@ -7736,3 +7736,28 @@ UsTZ.push({
     sourceUrl: "https://www.justice.gov/opa/pr/owner-health-care-software-company-sentenced-19-years-prison-1b-medicare-fraud",
     country: "US",
 });
+
+UsTZ.push({
+    name: "Vacant Land Parcel Owner Impersonation Sale Scheme",
+    slug: "vacant-land-parcel-owner-impersonation-sale-scheme",
+    description:
+      "Criminals research vacant, unmortgaged land parcels and then impersonate the real owners in order to sell the property without their knowledge. They create fake driver's licenses or passports, free email addresses and VoIP phone numbers, then contact a local realtor and title company to list and sell the land, sometimes submitting a fictitious deed to appear legitimate. Everything is handled remotely, the seller pushes for a fast closing and prices the parcel well below market, and the proceeds are wired to a co-conspirator in another state. Owners often discover nothing until long after the deed has been recorded. If you own vacant land, sign up for deed or property fraud alerts with your county recorder, check your parcel records periodically, and insist on in-person or notarized identity verification before any sale closes.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["FBI Internet Crime Complaint Center (IC3) Public Service Announcement, Alert Number I-061626-PSA, June 16, 2026"],
+    sourceUrl: "https://www.ic3.gov/PSA/2026/PSA260616",
+    country: "US",
+});
+
+UsTZ.push({
+    name: "Tax Preparer Spearphishing and Stolen-Refund Identity Theft Ring (New York)",
+    slug: "tax-preparer-spearphishing-stolen-refund-identity-theft-ring-new-york",
+    description:
+      "A Nigeria-based group used spearphishing emails to break into the computer systems of U.S. tax preparation businesses in New York, Texas, and other states, then stole the tax and identifying information of hundreds of those firms' customers. With the stolen identities of thousands of people, the conspirators filed fraudulent tax returns to collect refunds that belonged to the victims. One member of the ring pleaded guilty to conspiracy to commit computer intrusions and conspiracy to commit wire fraud and was sentenced to eight years in federal prison. Ask any preparer how they secure and encrypt client files, file your return as early as possible, and consider an IRS Identity Protection PIN so a thief cannot file a return in your name.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","Southern District of New York"],
+    sourceUrl: "https://www.justice.gov/usao-sdny/pr/nigerian-man-sentenced-eight-years-hacking-fraud-and-identity-theft-schemes",
+    country: "US",
+    state: "NY",
+});

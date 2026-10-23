@@ -13711,3 +13711,54 @@ UsAF.push({
     country: "US",
     state: "KS",
 });
+
+UsAF.push({
+    name: "Event Invitation Phishing from Hijacked Friend Accounts",
+    slug: "event-invitation-phishing-from-hijacked-friend-accounts",
+    description:
+      "Victims receive an email invitation to a birthday party, conference or other event that genuinely comes from the account of a friend or acquaintance whose inbox has been compromised. The message contains a link to view the invitation and RSVP, but clicking it leads to a page asking you to sign in with a Google, Apple or Microsoft account. Entering credentials there hands your email login to criminals or installs malware on your device. Legitimate invitation platforms never require you to log in just to view an invitation. Verify any unexpected invite by calling or texting the sender, hover over links before clicking, and if you think your own account was used, change your password, turn on two-step authentication and report the message as phishing to your provider.",
+    categorySlug: "phishing",
+    alertLevel: "medium",
+    sources: ["Pennsylvania Office of Attorney General consumer alert, Attorney General Dave Sunday, May 7, 2026","CBS News Pittsburgh coverage of the Pennsylvania Attorney General alert"],
+    sourceUrl: "https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-alerts-pennsylvanians-of-a-new-email-invitation-phishing-scam/",
+    country: "US",
+    state: "PA",
+});
+
+UsAF.push({
+    name: "Fake FTC Official Phone Number Deactivation Call",
+    slug: "fake-ftc-official-phone-number-deactivation-call",
+    description:
+      "Someone claiming to be an FTC official calls and says a phone was registered in your name and is being used to commit crimes in another country, reading off a fake badge number and threatening to deactivate your phone number if you do not cooperate. To make it feel real, they transfer you to a fake police officer to file a report, or coach you on exactly what to search online so you call back a number they control. They then collect your ID and personal details, tell you to keep everything secret, and finally claim you are under arrest and must travel abroad unless you send money for a security deposit. A real FTC employee will never ask you for money, threaten to disconnect your phone, connect you to someone who demands payment, or tell you to keep the conversation secret. Hang up on calls like this and report them at ReportFraud.ftc.gov.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Federal Trade Commission Consumer Alert, October 22, 2026"],
+    sourceUrl: "https://consumer.ftc.gov/consumer-alerts/2026/10/ftc-not-calling-deactivate-your-phone-number",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Cryptocurrency Gas-Fee Withdrawal Investment Scam (Connecticut)",
+    slug: "cryptocurrency-gas-fee-withdrawal-investment-scam-connecticut",
+    description:
+      "A man held himself out to investors as a cryptocurrency trader earning high rates of return, and once he had their initial deposits he told victims they had earned big profits but had to send additional money for so-called gas fees before they could withdraw anything. He invented a team led by a figure called The Chef who supposedly decided who got paid and when, and he made occasional lulling payments to keep victims believing the account balances were real. In fact none of the money was invested; it was moved to an offshore gambling platform and lost, causing more than $1.1 million in net losses to over ten victims. He pleaded guilty to wire fraud, international money laundering, and making false statements to IRS Criminal Investigation agents. Treat any demand for upfront fees to release crypto profits as a scam, and never send more money to unlock a balance you cannot withdraw yourself.",
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","District of Connecticut"],
+    sourceUrl: "https://www.justice.gov/usao-ct/pr/wolcott-man-pleads-guilty-charges-stemming-cryptocurrency-fraud-scheme",
+    country: "US",
+    state: "CT",
+});
+
+UsAF.push({
+    name: "Fake Medical Glove Supplier Advance-Payment Scam (Florida)",
+    slug: "fake-medical-glove-supplier-advance-payment-scam-florida",
+    description:
+      "During the COVID-19 pandemic, two men operating a consulting company told a buyer searching for nitrile exam gloves for a major hospital system that they had the gloves sitting in a warehouse and could ship as soon as payment cleared. They drafted a contract promising delivery of 38,300 boxes of gloves and collected a $536,200 wire transfer, knowing they had no product at all, then strung the victim along with false excuses about shipping delays while spending the money on themselves. Both were sentenced to 15 months in federal prison for conspiracy to commit wire fraud and wire fraud, and the court ordered forfeiture of the full $536,200. Before wiring money to an unfamiliar supplier for scarce goods, verify the inventory independently, check the company's trading history and references, and use escrow or payment terms that release funds only after the shipment is confirmed.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","Middle District of Florida"],
+    sourceUrl: "https://www.justice.gov/usao-mdfl/pr/two-collier-county-men-sentenced-15-months-federal-prison-conspiracy-commit-wire-fraud",
+    country: "US",
+    state: "FL",
+});

@@ -25989,3 +25989,63 @@ International.push({
     sourceUrl: "https://www.anses.gob.ar/noticias/anses-no-se-comunica-para-solicitar-datos-personales-o-informacion-bancaria",
     country: "AR",
 });
+
+International.push({
+    name: "VSAA Impersonation Smishing — Fake \"Frozen 2nd Pillar Pension\" Texts",
+    slug: "vsaa-impersonation-smishing-frozen-pension",
+    description:
+      "Fraudsters send SMS messages in the name of the State Social Insurance Agency (VSAA) claiming your 2nd pillar pension account has been frozen or that an application needs action. The link in the message is crafted to contain trust words like \"VSAA\", \"e-adrese\" or \"Latvija.lv\", but it leads to a spoofed page asking for your personas kods and a Smart-ID confirmation code, which lets criminals authenticate into your bank account. VSAA says it never includes links in its SMS messages, and that 2nd pillar savings are held by pension fund managers, not VSAA, so it could not freeze them. A related variant arrives by email as a fake VSAA \"decision\" granting a non-existent one-off energy support payment as inflation compensation for 2026. Do not open the link; never enter your personal code, authentication codes or card details, and verify anything suspicious by calling VSAA on 6450 7020.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Valsts sociālās apdrošināšanas aģentūra (VSAA)","LETA / LSM / TVNET coverage, 20 October 2026","VSAA fake energy-support email warning, 2 September 2026"],
+    sourceUrl: "https://www.vsaa.gov.lv/lv/jaunums/krapnieki-suta-iszinas-vsaa-varda-aicinot-atvert-saites",
+    country: "LV",
+});
+
+International.push({
+    name: "Fake eParaksts Certificate-Expiry Notices and Look-Alike eParaksts.lv Portals",
+    slug: "fake-eparaksts-certificate-expiry-and-lookalike-portals",
+    description:
+      "Criminals are targeting eParaksts, Latvia's national e-signature and eID authentication service run by LVRTC. In one variant they impersonate the State Digital Development Agency (VDAA) with notices claiming you have an e-adrese message saying the eParaksts certificate on your eID card is about to expire, with a link that looks like latvija.gov.lv but leads to a counterfeit credential-harvesting site. In the other, clone websites imitating www.eparaksts.lv and internet banking login screens are pushed to the top of search results using similar domain names with different extensions and page titles containing the word \"eParaksts\". LVRTC worked with CERT.LV to block the fake portals inside Latvia, but they stayed reachable from abroad and via VPN, and the attempts were reported to the State Police. Type eparaksts.lv yourself instead of clicking search results or links, always check the exact web address before entering data, and report suspected cases to the police or to LVRTC on 67108787 or eparaksts@eparaksts.lv.",
+    categorySlug: "phishing",
+    alertLevel: "high",
+    sources: ["LVRTC / eParaksts.lv official warnings","CERT.LV","LSM, 01.08.2025"],
+    sourceUrl: "https://www.lvrtc.lv/jaunumi/jaunumi/uzmanibu-krapniecibas-meginajumi-saistiba-ar-eparaksts-lv/",
+    country: "LV",
+});
+
+International.push({
+    name: "Latvijas Banka Warning: \"Latvian Invest\", \"Baltic Capital\" and \"Latvian Royal\" Fake Investment Platforms",
+    slug: "latvian-invest-baltic-capital-latvian-royal-fake-platforms",
+    description:
+      "Latvijas Banka, the central bank and financial supervisor, warns about a cluster of unlicensed online investment platforms aggressively marketed to Latvian residents: \"Latvian Invest\", \"Baltic Capital\", \"Latvian Royal\", \"Taku Luxentis\" and \"Immediate Neon\". The adverts spread through social media, YouTube, Gmail and Google Search, and impersonate well-known public figures, executives, officials and journalists while being dressed up in the branding of real Latvian media outlets so they look like genuine national news reports. The pitch claims the platform is rapidly gaining popularity among Latvians, but none of these operators is licensed, so clients get none of the state protection that applies to licensed investment providers. The regulator has separately warned about two further unlicensed platforms offering crypto-asset, deposit-taking and investment services in Latvia, noting funds sent to them may be unrecoverable. Before investing, check whether the provider appears in the register of licensed market participants at uzraudziba.bank.lv, and ignore celebrity-endorsement investment ads no matter which media brand they appear to carry.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Latvijas Banka (Bank of Latvia) warnings on suspicious financial transactions"],
+    sourceUrl: "https://www.bank.lv/darbibas-jomas/klientu-aizsardziba/uzmanies-no-krapniekiem/bridinajumi-par-aizdomigiem-finansu-darijumiem/bridinam-par-krapnieku-aktivitasu-pieaugumu-aicinot-investet-platformas-latvian-invest-baltic-capital-un-latvian-royal",
+    country: "LV",
+});
+
+International.push({
+    name: "SECP Warning: Fake Trading Apps Impersonating Licensed Pakistani Brokerages",
+    slug: "secp-fake-trading-apps-impersonating-licensed-brokerages",
+    description:
+      "Fraudsters build mobile apps and websites that copy the names of real SECP-licensed brokerage houses so investors believe they are trading on the Pakistan Stock Exchange. The SECP has named platforms including TSLWEA/TSL WEALTH, which impersonated the genuine licensed broker Topline Securities, along with earlier fakes such as 'BMA Capital No.108/BMAC Global Pro', 'WTIC World Top Investor Competition', 'Aviva Securities', 'Hillhouse Capital' and 'S-169 Wharton'. Victims are recruited through WhatsApp groups dressed up as official broker channels, such as one named 'A103-Topline Stock Strategies Hub', and through social media ads that misuse the photographs of celebrities, finfluencers and brokerage executives, sometimes AI-generated. The regulator says these operators are neither licensed nor authorised, promise high returns with minimal risk, and has referred them to Google, the PTA and law enforcement. Before depositing any money, check the broker's licence status directly on the SECP and PSX websites, and treat any investment pitch arriving via WhatsApp as fraudulent until proven otherwise.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Securities and Exchange Commission of Pakistan (SECP) press release, November 2025","SECP press release, 22 May 2025","Associated Press of Pakistan (APP) coverage of SECP warning"],
+    sourceUrl: "https://secp.gov.pk/wp-content/uploads/2025/11/Press-Release-SECP-Warns-Public-About-Illegal-Trading-Application-Misusing-Names-of-Licensed-Brokerage-Houses-and-Pictures-of-Celebrities-FinFluencers-and-Br.pdf",
+    country: "PK",
+});
+
+International.push({
+    name: "PTA Alert: Spoofed UAN Caller-ID Impersonation Calls and SMS",
+    slug: "pta-spoofed-uan-caller-id-impersonation",
+    description:
+      "Scammers place calls and send messages that appear to come from an official UAN (Universal Access Number), the business hotline format Pakistanis associate with banks, regulators and telecom companies. Once the recipient trusts the institutional-looking number, the caller poses as an official of the PTA itself, the National Cyber Crimes Investigation Agency (NCCIA), a bank, or the mobile wallet services Easypaisa or JazzCash, and pressures the victim into handing over personal and financial details. The PTA has confirmed these UAN numbers are spoofed or entirely fabricated. Complicating matters, counterfeit 'PTA alerts' bearing the authority's logo also circulate on social media, including one about a specific number said to endanger Easypaisa wallets, which the PTA has publicly disowned. Never share OTPs, CNIC details or wallet PINs with an inbound caller, hang up and dial your bank or the institution back on a number you look up yourself, and verify any supposed PTA notice on the PTA's own website.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Pakistan Telecommunication Authority (PTA) official advisory","PTA consumer alert page on fraudulent calls and SMS"],
+    sourceUrl: "https://www.pta.gov.pk/category/pta-cautions-mobile-phone-users-of-fraudulent-callssmss-892902660-2023-06-01",
+    country: "PK",
+});
