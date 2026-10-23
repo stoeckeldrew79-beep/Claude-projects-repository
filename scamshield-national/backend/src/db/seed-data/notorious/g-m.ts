@@ -12692,3 +12692,24 @@ In September 2025 Vergato was sentenced to 46 months in federal prison and fined
 The OPTO case shows a vendor-fraud pattern that is simple to describe and hard to catch from outside: a person who controls how a service is bought sets up a company to supply it, and a partner at the buying company approves the bills. Neither side has an independent reason to check whether the work was done, and the scheme came apart only when someone looked for evidence of the work, and for the employees who supposedly did it, and found none.`,
     sourceUrl: 'https://www.denver7.com/news/crime/former-colorado-executives-sentenced-to-more-than-4-years-combined-in-1-9-million-fraud-scheme',
 });
+
+NotoriousGM.push({
+    title: 'The Itoman Scandal: Kawamura, Ito and Heo Yong-jung',
+    slug: 'itoman-scandal-kawamura-ito-heo-yong-jung',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'breach-of-trust', 'bank-fraud', 'art-fraud'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nakanoshima_Skyscrapers_in_201504_001.jpg?width=1200',
+    coverImageCredit: 'Photo: Mc681 (CC BY-SA 4.0) — Nakanoshima, Umeda and Kitahama skyscrapers in Osaka, the city where Itoman and Sumitomo Bank were based',
+    coverImagePosition: 50,
+    body: `Itoman was an Osaka textile trading company closely tied to Sumitomo Bank, one of Japan's largest lenders. Yoshihiko Kawamura, a Sumitomo Bank executive, became its president in 1975 and ran it in a one-man style. After losses on oil trading and other ventures in the mid-1980s, Itoman turned to real estate, golf courses and other projects with little oversight, financed by Sumitomo Bank loans. Two outsiders became central to what followed: Suenari Ito, a real estate speculator who ran a development company and later joined Itoman, and Heo Yong-jung (許永中), a businessman who was involved in the company's art deals.
+
+The art deals were the most visible part of the scheme. Itoman bought paintings and other works mostly through companies linked to Heo, often at prices two or three times their market value, and many of the works were never resold and sat in storage. Funds also went into golf course developments and land speculation, including projects in Tokyo's Ginza district, and according to Japanese accounts most of the money was used to repay the debts of related companies rather than to develop anything. The total that flowed from Itoman to people linked to organised crime is often put at more than ¥300 billion, though that figure was never established in court. The court recognised ¥26.5 billion in damage from the art transactions alone.
+
+The scandal surfaced in 1990, when the Nikkei newspaper reported on Itoman's financial trouble, and the chairman of Sumitomo Bank, Ichiro Isoda, resigned that year. Kawamura was dismissed in January 1991. In April 1991 prosecutors and police raided about 57 locations, and on July 23, 1991, Kawamura, Ito, Heo and others were arrested on charges of breach of trust under the Commercial Code. Eighteen people were arrested overall and seven were indicted. Itoman was absorbed in 1993 into a trading subsidiary of Sumitomo Metal.
+
+The trials were very slow. The trial began in December 1991, and in September 1999 Kawamura was sentenced to seven years and Ito to ten. Heo had fled to South Korea while on bail and was arrested in Tokyo in 1999, and in March 2001 was sentenced to seven and a half years and a ¥500 million fine. Appeals were dismissed in 2002, and on October 7, 2005, the Supreme Court rejected the final appeals, making the sentences final more than fourteen years after the arrests.
+
+The Itoman case is often treated as a symbol of Japan's late-1980s bubble economy. It shows how a bank's close relationship with an affiliated company, and an executive who ran it without effective checks, allowed enormous sums to be moved through overpriced artworks and speculative property deals to people who were never going to repay them. It also shows how long the legal reckoning for a bubble-era scandal can take, and how the biggest figures cited in popular accounts may go well beyond what a court was asked to decide.`,
+    sourceUrl: 'https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%88%E3%83%9E%E3%83%B3%E4%BA%8B%E4%BB%B6',
+});
