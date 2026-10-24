@@ -4215,3 +4215,22 @@ The sentence was lower than those handed to the leaders of the larger Kokang fam
 The Xu Faqi case shows the scale of Kokang's role in telecom fraud, from the large family groups that ran dozens of compounds to smaller syndicates like Xu's, which worked alongside outside fraud groups, built compounds and recruited the people who ran the fraud. It also shows how Chinese courts are pursuing these prosecutions: defendants are returned to China, tried in the courts of a province or city far from the border, and sentenced for a range of crimes beyond the fraud itself.`,
     sourceUrl: 'https://www.chinadailyhk.com/article/628137',
 });
+
+NotoriousTZ.push({
+    title: 'Tafa Balogun and the Nigerian Police Chief Plea Bargain',
+    slug: 'tafa-balogun-nigerian-police-chief-plea-bargain',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'public-corruption', 'money-laundering', 'embezzlement'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Aso_Rock_Nigeria.jpg?width=1200',
+    coverImageCredit: 'Photo: Ovinuchi Ejiohuo (CC BY-SA 4.0) — Aso Rock, the landmark rock above Abuja, Nigeria\'s capital, 2018',
+    coverImagePosition: 50,
+    body: `Tafa Balogun joined the Nigeria Police Force in 1973 and became Inspector General of Police in March 2002. In late 2004 newspapers alleged large-scale corruption in the force, including bribes from politicians and criminals, and he was forced to retire in January 2005. The Economic and Financial Crimes Commission (EFCC), led by Nuhu Ribadu, brought 70 charges covering the years 2002 to 2004. On April 4, 2005, Balogun was arraigned at the Federal High Court in Abuja over roughly ₦13 billion that the EFCC said had been obtained through money laundering, theft and other means.
+
+The case did not go to a full trial. In November 2005 Balogun pleaded guilty to eight corruption charges. Judge Binta Nyako sentenced him to six months in prison on each count, to run concurrently, and ordered him to pay a fine of ₦4 million, about US$30,000. The judge cited his status as a first offender and said he had "shown remorse." Under the terms of the plea bargain the government was to seize cash and property worth about US$150 million, according to the BBC's report. The EFCC's lawyer, Rotimi Jacobs, told the court: "We have recovered all the money for which he was charged."
+
+The sentence was short. Balogun had already spent 67 days in custody after his arrest, spent part of his time at Abuja's National Hospital, and was released on February 9, 2006. Afterwards questions arose about what happened to the recovered assets: the EFCC said it had no records of the exact properties recovered, reports said some houses had been secretly sold at give-away prices, and in 2009 a House of Representatives committee asked Balogun and two other officials to explain how ₦16 billion allegedly recovered from him had gone missing. Balogun died on August 4, 2022.
+
+The Balogun case shows how a corruption case against a very senior official can end in negotiation rather than trial: in return for a guilty plea to a limited set of counts, the state recovered assets and the defendant accepted a short sentence. It also shows the risk in that bargain, since the public could not easily tell what had been forfeited, how it had been valued and where it went afterwards. Reported valuations ranged from the ₦13 billion in the original charges to US$130 million to US$150 million in assets, and the sources reviewed here do not settle which figure is right.`,
+    sourceUrl: 'https://www.laits.utexas.edu/africa/ads/1358.html',
+});
