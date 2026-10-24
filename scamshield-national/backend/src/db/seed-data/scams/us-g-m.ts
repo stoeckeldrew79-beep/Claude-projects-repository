@@ -14545,3 +14545,29 @@ UsGM.push({
     country: "US",
     state: "PA",
 });
+
+UsGM.push({
+    name: "Medicare Advantage Deceptive Agent Sales Tactics in Mississippi",
+    slug: "medicare-advantage-deceptive-agent-sales-tactics-in-mississippi",
+    description:
+      "The Mississippi Insurance Department says complaints filed with its Consumer Services division show some insurance agents are using confusing, misleading, and high-pressure sales tactics to push Mississippi seniors into Medicare Advantage plans. A related MID alert warns specifically about door-to-door salespeople pitching Medicare prescription drug coverage, which legitimate Medicare plans are not permitted to do uninvited. Seniors may end up enrolled in a plan that drops their doctors or drugs, sometimes without realizing they switched. MID's practical test is licensing: Commissioner Mike Chaney has urged consumers during open enrollment to work with in-state agents who are licensed in Mississippi. Before signing anything, verify the agent's Mississippi license with the Mississippi Insurance Department, refuse to give personal or Medicare numbers to uninvited visitors or callers, and file a complaint with MID Consumer Services if you were pressured or misled.",
+    categorySlug: "medicare-health-plans",
+    alertLevel: "high",
+    sources: ["Mississippi Insurance Department, Consumer Services","Mississippi Insurance Commissioner Mike Chaney"],
+    sourceUrl: "https://www.mid.ms.gov/mississippi-insurance-department/consumers/beware-of-medicare-advantage-scams/",
+    country: "US",
+    state: "MS",
+});
+
+UsGM.push({
+    name: "GS Partners / GSB Gold Standard Investor Claims for Mississippi Investors",
+    slug: "gs-partners-gsb-gold-standard-investor-claims-for-mississippi-investors",
+    description:
+      "The Securities Division of the Mississippi Secretary of State's Office issued a February 6, 2025 investor alert announcing that Mississippi investors who put money into GSB Gold Standard Corporation AG and GSB Gold Standard Pay, Ltd. — marketed as 'GS Partners' — may begin filing claims to recoup their funds. The matter was a multistate and international investment scheme, with the Mississippi Securities Division administering the recovery channel for Mississippi customers. State regulators have not published, in this alert, a detailed breakdown of how the products were structured or sold, so investors should rely on the official claims process rather than third-party summaries. Be aware that recovery announcements like this one often attract follow-up 'asset recovery' scammers who charge up-front fees to file claims on your behalf. If you invested with GS Partners, file directly through the Mississippi Secretary of State's Securities Division at no cost and never pay a fee to a third party promising to recover your money.",
+    categorySlug: "investment-fraud",
+    alertLevel: "medium",
+    sources: ["Mississippi Secretary of State Michael Watson","Securities Division, Mississippi Secretary of State's Office"],
+    sourceUrl: "https://www.sos.ms.gov/news/investor-alert-mississippi-customers-eligible-recoup-funds-gs-partners",
+    country: "US",
+    state: "MS",
+});
