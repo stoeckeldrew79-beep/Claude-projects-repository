@@ -4194,3 +4194,24 @@ On October 13, 2026, the Quanzhou Intermediate People's Court, working with the 
 The Wei family case is part of China's campaign against the Kokang crime families, tried in courts on the Chinese side of the border after the defendants were brought into Chinese custody. It shows how the compounds depended on more than a few operators: the Chinese verdicts describe an organised enterprise with armed protection, political connections and a business side, in which fraud was only one of several sources of income, and violence was used to keep control of the workforce and of the compounds themselves.`,
     sourceUrl: 'https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/14/china-sentences-to-death-myanmar-scam-clan-members',
 });
+
+NotoriousTZ.push({
+    title: 'Xu Faqi (Xu Laofa) and the Kokang Telecom-Fraud Syndicate',
+    slug: 'xu-faqi-xu-laofa-kokang-telecom-fraud-syndicate',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'telecom-fraud', 'scam-compounds', 'organized-crime'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Laukkaing.jpg?width=1200',
+    coverImageCredit: 'Photo: Shin Khant Maung (CC BY-SA 4.0) — Laukkaing city entrance sign, Kokang region, northern Myanmar',
+    coverImagePosition: 50,
+    body: `Xu Faqi, also known as Xu Laofa, led a syndicate in Kokang, the region of northern Myanmar on the border with China. According to a Xinhua report published by China Daily, from 2019 the syndicate used its influence in Kokang to work with telecom-fraud groups. It built multiple compounds and recruited large numbers of people to run telecom and online fraud against Chinese citizens. The report said the group collected illicit funds of more than 1.1 billion yuan, about US$158 million.
+
+The Xinhua account also described how the syndicate enforced discipline. It said the syndicate colluded with the fraud groups to deliberately harm members who were uncooperative, which caused one death and one minor injury. Other reports on the Kokang compounds describe workforces of lured or trafficked people held in prison-like conditions.
+
+Xu Faqi was returned from Myanmar to China on January 30, 2024, according to a photo caption in the China Daily report. On January 30, 2026, two years to the day later, the Fifth Intermediate People's Court of Chongqing announced its first-instance verdict. The court found the defendants guilty of six crimes, including fraud, intentional injury, smuggling and drug trafficking. Xu Faqi was sentenced to death with a two-year reprieve. Four co-defendants received prison terms ranging from life imprisonment to 25 years, together with confiscation of property and fines.
+
+The sentence was lower than those handed to the leaders of the larger Kokang families. The same report noted that China had executed 11 members of gangs operating in northern Myanmar the day before, who had been sentenced to death in September 2025, and the Wei family verdicts that followed in October 2026 included three immediate death sentences.
+
+The Xu Faqi case shows the scale of Kokang's role in telecom fraud, from the large family groups that ran dozens of compounds to smaller syndicates like Xu's, which worked alongside outside fraud groups, built compounds and recruited the people who ran the fraud. It also shows how Chinese courts are pursuing these prosecutions: defendants are returned to China, tried in the courts of a province or city far from the border, and sentenced for a range of crimes beyond the fraud itself.`,
+    sourceUrl: 'https://www.chinadailyhk.com/article/628137',
+});
