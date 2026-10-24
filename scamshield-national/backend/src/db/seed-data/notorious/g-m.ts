@@ -12772,3 +12772,24 @@ The Ming family trial was one of a series of Chinese prosecutions of the Kokang 
 The case shows how scam operations can grow out of conflict economics and armed political control. The fraud compounds that targeted victims across the border were protected by a family with its own militia, which gave the operators a place where the local authorities were the criminals' partners. It also shows that cross-border prosecution, here in a Chinese court, took place only after the leaders were arrested or transferred into Chinese custody.`,
     sourceUrl: 'https://www.caixinglobal.com/2025-09-29/china-sentences-11-to-death-in-cross-border-crime-ring-case-102367542.html',
 });
+
+NotoriousGM.push({
+    title: 'Joshua Dariye and the Plateau State Ecological Funds',
+    slug: 'joshua-dariye-plateau-state-ecological-funds',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'embezzlement', 'public-corruption'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jos,_looking_south_from_Anglo-Jos.jpg?width=1200',
+    coverImageCredit: 'Photo: Daudajos (CC BY-SA 4.0) — View of Jos, the capital of Plateau State, Nigeria, looking south over the Jos-Bukuru expressway, 2016',
+    coverImagePosition: 50,
+    body: `Joshua Dariye was governor of Plateau State in central Nigeria from 1999 to 2007, with interruptions in 2004 and 2006 when he was out of office. He was arrested in London on January 20, 2004, and after his term ended the Economic and Financial Crimes Commission (EFCC) charged him in 2007. The case that finally reached judgment concerned an ecological fund, money released to a state to deal with problems such as flooding and erosion. The EFCC brought its case over the fund's disbursement of about ₦1.2 billion, and it obtained a 2007 statement in which Dariye acknowledged approving the disbursement.
+
+According to the Federal Capital Territory High Court's judgment as reported by the ICIR, the fund's money was not spent on the environment. It was diverted to sponsor the People's Democratic Party's 2003 presidential campaign and paid to companies, many of them owned by Dariye. The payments listed in the report included ₦80 million to Union Savings and Loans, ₦250 million to Pinnacle Communications Limited, ₦550 million to the Plateau State government, ₦100 million to the party's South-West branch, and ₦176,862,900 to Ebenezer Retnan Ventures, which the report says he owned. Reports differ on the total, with ₦1.126 billion being the sum charged in the 23 counts and a later account putting the amount at about ₦1.6 billion.
+
+The case moved slowly, partly because Dariye contested the court's jurisdiction. The EFCC filed its suit in July 2013, the Supreme Court dismissed his jurisdictional appeal in February 2015, and the trial resumed in January 2016. On June 12, 2018, Justice Adebukola Banjoko convicted him of criminal breach of trust and criminal misappropriation and sentenced him to two years and 14 years, to run concurrently, without the option of a fine. In November 2018 the Court of Appeal reduced the sentence to 10 years, finding that the trial court had erred in imposing the maximum on a first-time offender.
+
+The sentence did not run its course. Dariye was granted a presidential pardon on April 14, 2022, together with Jolly Nyame, a former governor of Taraba State, a decision that civil society groups widely criticised, and he was released from prison in August 2022. He had also served as a senator for Plateau Central from 2011 to 2019.
+
+The Dariye case shows how a state fund meant for public works can be diverted through political spending and companies tied to the official who controls it, and how long a corruption prosecution of a former governor can take: the money was released in the early 2000s, the EFCC's suit was filed in 2013 and the conviction came in 2018. It also shows the limits of such a conviction in Nigeria, where the executive's power of pardon can end a sentence years before its term is served.`,
+    sourceUrl: 'https://www.icirnigeria.org/court-finds-former-plateau-governor-dariye-guilty-of-corruption/',
+});
