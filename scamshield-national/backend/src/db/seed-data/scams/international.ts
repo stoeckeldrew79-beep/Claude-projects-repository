@@ -26325,3 +26325,51 @@ International.push({
     sourceUrl: "https://www.consob.it/web/area-pubblica/-/consob-informa-anno-xxxi-n.-45-15-dicembre-2025",
     country: "IT",
 });
+
+International.push({
+    name: "Fake Patrulla Caminera Traffic Fine Payment Messages",
+    slug: "fake-patrulla-caminera-traffic-fine-payment-messages",
+    description:
+      "Scammers send SMS, WhatsApp messages and emails pretending to be Paraguay's Dirección Nacional de Patrulla Caminera (national highway patrol), claiming you owe money for a traffic infraction and must pay immediately through a link or the amount will increase. Messages have come from numbers such as +595 980 305 878 and from throwaway email addresses like markball53602@outlook.com, often carrying a fabricated fine code, the Patrulla Caminera and MOPC logos, and references to OPACI or the ANTSV to look official. The links lead to fake payment pages and, according to MOPC, can also compromise the victim's mobile device. The Ministry of Public Works and Communications says it never collects fines by text message or messaging apps: a real infraction is handed to you in person as a physical ticket by an agent, and payment is only made at authorised collection points, guard offices and detachments. If you get one of these messages, do not tap the link or pay; verify any supposed fine directly with MOPC or Patrulla Caminera and report the message to MOPC's transparency line.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Ministerio de Obras Públicas y Comunicaciones (MOPC) / Dirección Nacional de Patrulla Caminera institutional alerts","Agencia de Información Paraguaya (IP), 18 July 2025"],
+    sourceUrl: "https://mopc.gov.py/mopc-alerta-sobre-intento-de-estafa-con-falsos-cobros-en-nombre-de-patrulla-caminera/",
+    country: "PY",
+});
+
+International.push({
+    name: "DNIT Tax Authority Email Impersonation Phishing",
+    slug: "dnit-tax-authority-email-impersonation-phishing",
+    description:
+      "Criminals are sending malicious emails that impersonate the Dirección Nacional de Ingresos Tributarios (DNIT), Paraguay's tax and customs authority, in order to harvest taxpayers' personal and account data. DNIT issued an institutional alert about the fraudulent messages, which was republished by the state news agency IP on 18 November 2025, and the agency had already warned in May 2024 about similar fake emails designed to steal information. The exact sender addresses and pretexts vary, so treat any unexpected message claiming to come from DNIT with suspicion. Do not click links or open attachments in emails claiming to be from the tax authority, and never enter your RUC, passwords or banking details on a page reached from such a message. Instead, type the official DNIT address into your browser yourself or contact the agency through its published channels to check whether any notice is genuine.",
+    categorySlug: "tax-scams",
+    alertLevel: "medium",
+    sources: ["Dirección Nacional de Ingresos Tributarios (DNIT) institutional alert","Agencia de Información Paraguaya (IP), 18 November 2025","ABC Color, 24 May 2024"],
+    sourceUrl: "https://www.dnit.gov.py/web/portal-institucional/w/dnit-alerta-sobre-correos-maliciosos-que-suplantan-identidad-institucional",
+    country: "PY",
+});
+
+International.push({
+    name: "Fake \"Безбеден град\" (Safe City) Traffic Fine SMS Phishing",
+    slug: "fake-bezbeden-grad-traffic-fine-sms-phishing",
+    description:
+      "Scammers send SMS messages, emails and social media messages pretending to come from North Macedonia's Ministry of the Interior and its automated \"Безбеден град\" (Safe City) traffic camera system, claiming you owe a fine. The link leads to a look-alike site such as mvr.govmk.cam/mk that first asks for your vehicle registration plate, then displays a fake violation and demands 1,500 denars by payment card. The card details and personal data you enter are harvested and abused. The Ministry says genuine notices come from the sender ID \"MVR-SC\", always contain the offending vehicle's plate number and link only to official MVR domains — never from private or foreign numbers like the Philippines-registered +639606963624 used in this wave. If you get such a message, do not tap the link or enter any data; check your fine status directly through official MVR channels and report the message to the Sector for Computer Crime.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Ministry of the Interior of the Republic of North Macedonia (Sector for Computer Crime, Bureau of Public Security)","Makfax national news coverage quoting MVR"],
+    sourceUrl: "https://mvr.gov.mk/mk-MK/odnosi-so-javnost/novosti/gragjanite-da-ne-otvoraat-lazni-poraki-navodno-isprateni-od-bezbeden-grad-i-da-ne-spodeluvaat-licni-podatoci",
+    country: "MK",
+});
+
+International.push({
+    name: "Forged Securities Commission \"Trading Authorisation\" Investment Solicitation",
+    slug: "forged-securities-commission-trading-authorisation",
+    description:
+      "Fraudsters are circulating a counterfeit certificate titled \"Овластување за трговија – трговец поединец\" (\"Trading authorisation – sole trader\") that carries the name and logo of North Macedonia's Securities and Exchange Commission (КХВ) along with forged signatures of the Commission's president and its internal commissioner. The document is shown to people approached on social networks, by email or by phone with investment offers, to make the promoter look licensed and regulated before victims are asked to transfer money and hand over personal data. The Commission says it never issued any such document and that no legal basis exists for an instrument with that title and content. Any \"proof of licence\" shown to you by an investment promoter should be verified independently with the regulator. Never send money or ID documents based on a certificate someone gives you — check the firm's status directly at sec.gov.mk and report suspicious offers.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Securities and Exchange Commission of North Macedonia (Комисија за хартии од вредност на РСМ)","Вечер daily newspaper, 27 August 2026"],
+    sourceUrl: "https://vecer.mk/makedonija/b41e2ae8-adee-4c3a-b6c3-a448fa51d3dd-1",
+    country: "MK",
+});
