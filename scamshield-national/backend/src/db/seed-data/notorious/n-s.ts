@@ -8667,3 +8667,22 @@ According to Law360's report of the criminal case, Abrams pleaded guilty to tax 
 The Mercury case shows that backdating could be a tax crime as well as an accounting one. The securities cases focused on undisclosed compensation expense, but the criminal charges against Abrams rested on a simpler point: choosing a low-price date for an exercise changed the taxable income of the people who benefited, and the person who picked the date was the finance chief.`,
     sourceUrl: 'https://justice.gov/archive/tax/usaopress/2008/txdv08_2008_04_22_abrams_indictment.pdf',
 });
+
+NotoriousNS.push({
+    title: 'Schabir Shaik and the Arms Deal Corruption Trial',
+    slug: 'schabir-shaik-arms-deal-corruption-trial',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical', 'bribery', 'fraud', 'public-corruption'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Durban_from_the_Balcony_(Dennis_Sylvester_Hurd)_1.jpg?width=1200',
+    coverImageCredit: 'Photo: Dennis Sylvester Hurd (CC BY 2.0) — Skyline of Durban, South Africa, where the trial took place in the Durban High Court',
+    coverImagePosition: 50,
+    body: `Schabir Shaik was a Durban businessman whose company group, Nkobi Holdings, sought government contracts through its political connections. He was also the financial adviser of Jacob Zuma, who was then South Africa's deputy president. Shaik's prosecution grew out of the investigation into the country's multi-billion-rand arms deal, in which the French arms company Thomson-CSF, later Thales, was one of the bidders. He was charged in the Durban High Court before Judge Hilary Squires, and pleaded not guilty when the trial began in October 2004.
+
+The state's case had three counts. The first was corruption, based on what the court described as a generally corrupt relationship with Zuma in which Shaik paid him a total of about R1.2 million. The second was fraud, over the write-off of more than R1 million in money owed to Nkobi companies, including payments made to Zuma. The third, again corruption, was that Shaik solicited a bribe from Thomson-CSF on Zuma's behalf in return for Zuma's protection of the company's interests, a payment of about R1 million of which only R250,000 was actually transferred, to the Jacob Zuma Education Fund. Shaik argued that the payments were loans or donations. The judge rejected both explanations: he called the claim that the money was a donation to the education trust fund "nothing short of ridiculous," said that Shaik's version was a lie, and said that "Generosity on this sustained scale becomes egocentric."
+
+Judgment came in early June 2005 (sources give dates between May 30 and June 2), when Shaik was convicted of two counts of corruption and one of fraud. Judge Squires imposed 15 years on each corruption count and three years for fraud, all to run concurrently, making the effective sentence 15 years. The Supreme Court of Appeal rejected his appeal on November 6, 2006, and Shaik began his sentence on November 9, 2006. He was released on medical parole on March 3, 2009, after serving about two years and four months, because doctors said he was terminally ill.
+
+The verdict had wide political effects, because it raised the question of Zuma's own position: the opposition leader Tony Leon said at the time that it would "dig the grave" of Zuma's career and urged Zuma to step down. The Shaik trial shows how corruption can be proved from the pattern of benefits rather than from a single bribe: the court looked at the sustained flow of payments, the lack of any plausible reason for them and the fact that the payer would have expected something in return. It also shows the gap between a conviction and the sentence served, since the 15-year term ended in medical parole after about two years and four months.`,
+    sourceUrl: 'https://mg.co.za/article/2005-06-02-shaik-guilty/',
+});
