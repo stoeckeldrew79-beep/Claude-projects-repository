@@ -343,6 +343,11 @@ export default function Report() {
         >
           {submit.isPending ? 'Submitting…' : 'Submit report'}
         </button>
+        <p className="text-center text-xs text-slate-500">
+          By submitting you agree to our{' '}
+          <Link to="/terms" className="underline hover:text-slate-800">Terms of Use</Link>. See how we handle your
+          information in our <Link to="/privacy" className="underline hover:text-slate-800">Privacy Policy</Link>.
+        </p>
       </form>
     </div>
   );

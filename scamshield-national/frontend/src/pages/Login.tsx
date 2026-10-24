@@ -200,6 +200,13 @@ export default function Login() {
           >
             {mutation.isPending ? 'Please wait…' : mode === 'login' ? 'Sign in' : 'Create free account'}
           </button>
+          {mode === 'register' && (
+            <p className="text-center text-xs text-slate-500">
+              By creating an account you agree to our{' '}
+              <Link to="/terms" className="underline hover:text-slate-800">Terms of Use</Link> and{' '}
+              <Link to="/privacy" className="underline hover:text-slate-800">Privacy Policy</Link>.
+            </p>
+          )}
         </form>
 
         {mode === 'register' && (

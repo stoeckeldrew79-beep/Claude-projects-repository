@@ -12,7 +12,7 @@ const SITE_URL = process.env.SITE_URL ?? 'https://www.scamtitan.com';
 const API_BASE_URL = process.env.API_BASE_URL ?? process.env.VITE_API_BASE_URL ?? 'http://localhost:3000/v1';
 const OUT_PATH = path.join(__dirname, '..', 'dist', 'sitemap.xml');
 
-const STATIC_PATHS = ['/', '/todays-scams', '/database', '/articles', '/notorious', '/global-map', '/global-sources', '/state-attorneys-general', '/statistics', '/federal', '/federal/cases', '/ai-scams', '/alerts', '/report', '/subscribe', '/check-now', '/help'];
+const STATIC_PATHS = ['/', '/todays-scams', '/database', '/articles', '/notorious', '/global-map', '/global-sources', '/state-attorneys-general', '/statistics', '/federal', '/federal/cases', '/ai-scams', '/alerts', '/report', '/subscribe', '/check-now', '/help', '/about', '/privacy', '/terms'];
 
 function urlEntry(loc, lastmod) {
   return `  <url>\n    <loc>${loc}</loc>${lastmod ? `\n    <lastmod>${lastmod}</lastmod>` : ''}\n  </url>`;

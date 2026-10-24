@@ -44,8 +44,8 @@ export function SiteFooter() {
           <Link to="/" className="inline-flex items-center gap-2 rounded-md">
             <ShieldLogo className="h-10 w-10" />
             <span className="font-black tracking-tight text-white">
-              Scam<span className="text-[#ef4444]">Titan</span> 
-              <span className="text-[10px] font-bold uppercase tracking-[0.28em] opacity-70">International</span>
+              Scam<span className="text-[#ef4444]">Titan</span>{' '}
+              <span className="ml-1 text-[10px] font-bold uppercase tracking-[0.28em] opacity-70">International</span>
             </span>
           </Link>
           <p className="mt-4 text-sm max-w-sm leading-relaxed">
@@ -92,7 +92,12 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} ScamTitan International. All rights reserved.</p>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+            <p>© {new Date().getFullYear()} ScamTitan International. All rights reserved.</p>
+            <Link to="/about" className="hover:text-slate-300">About</Link>
+            <Link to="/privacy" className="hover:text-slate-300">Privacy</Link>
+            <Link to="/terms" className="hover:text-slate-300">Terms</Link>
+          </div>
           <p>
             A private consumer-protection service. Not a government agency, and not affiliated with or endorsed by
             any government body.
