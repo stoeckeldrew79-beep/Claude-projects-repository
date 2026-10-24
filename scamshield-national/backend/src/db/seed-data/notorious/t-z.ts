@@ -4175,3 +4175,22 @@ On December 6, 2013, U.S. District Judge Jed S. Rakoff sentenced Tomasetta and H
 The Vitesse case shows how option backdating, once treated by some companies as a routine perk, turned into a records crime when executives manufactured paper to hide it. It also shows how a case can narrow on the way through the courts: the SEC's broad allegations of two multi-year frauds were resolved civilly, while the criminal case for the two most senior officers rested on the 2006 effort to doctor the minutes once an investigation loomed.`,
     sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/December13/HovanecTomasettaSentencingsPR.php',
 });
+
+NotoriousTZ.push({
+    title: 'Wei Huairen and the Wei Family Scam-Compound Gang',
+    slug: 'wei-huairen-wei-family-scam-compound-gang',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'telecom-fraud', 'scam-compounds', 'organized-crime'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Myanmar-China_Border_Yanlonkyine_Gate.jpg?width=1200',
+    coverImageCredit: 'Photo: Paingpeace / OpenMyanmar Photo Project (CC BY-SA 4.0) — Myanmar-China border gate at Yanlonkyine near Laukkaing, in the Kokang region',
+    coverImagePosition: 50,
+    body: `The Wei family was one of the four families that analysts say dominated crime and politics in Kokang, a region of northern Myanmar on the Chinese border. Chinese state broadcaster CCTV described the family's group as the "most violent criminal force in northern Myanmar" and said it had built an "iron triangle of political, military, and business criminal activities." According to CCTV, the group ran 14 large-scale scam compounds in Kokang. Members of the group were first indicted in October 2025.
+
+The Chinese prosecution described a business that combined several kinds of crime. The gang was found to be involved in telecommunications fraud, illegal casinos, drug trafficking and the organising of prostitution, and in the murder of at least two Chinese citizens. CCTV said police had found the victims' remains bound with iron chains and with bullet holes in their skulls. Scam centres of this kind often held foreign nationals, many of them Chinese, who were lured with false promises of well-paid jobs and kept in prison-like compounds. The operations of the gang were reported to have netted more than 12.2 billion yuan, about US$1.8 billion.
+
+On October 13, 2026, the Quanzhou Intermediate People's Court, working with the court in Nan'an, announced its verdicts. Wei Huairen, identified as a leader of the group and found guilty of several crimes including murder, was sentenced to death, as were Chen Dawei and Liao Jingfang. Three other gang members received life sentences, and 55 others received prison terms of between 24 years and three years and three months. Chinese authorities had previously executed members of the Ming family criminal gang in January 2026, according to The Star, and in the following month four members of the Bai clan.
+
+The Wei family case is part of China's campaign against the Kokang crime families, tried in courts on the Chinese side of the border after the defendants were brought into Chinese custody. It shows how the compounds depended on more than a few operators: the Chinese verdicts describe an organised enterprise with armed protection, political connections and a business side, in which fraud was only one of several sources of income, and violence was used to keep control of the workforce and of the compounds themselves.`,
+    sourceUrl: 'https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/14/china-sentences-to-death-myanmar-scam-clan-members',
+});
