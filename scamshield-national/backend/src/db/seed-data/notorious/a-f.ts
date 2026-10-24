@@ -11968,3 +11968,24 @@ The company and its other officers were dealt with later and civilly. In Novembe
 The SafeNet case shows how option backdating hid a real cost: grants dated to a low-price day were worth more than the paperwork said, but the company recorded no matching compensation expense. It also shows how the burden of a scheme can land unevenly. The finance chief who pleaded guilty went to prison, while the chief executive and the other officers, who the SEC said took part in the same practices, settled civil charges without admitting or denying them.`,
     sourceUrl: 'https://www.sec.gov/litigation/litreleases/2009/lr21290.htm',
 });
+
+NotoriousAF.push({
+    title: 'Alice Guo and the Bamban POGO Scam Hub',
+    slug: 'alice-guo-bamban-pogo-scam-hub',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'human-trafficking', 'scam-compounds', 'public-corruption'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bamban,Tarlacjf7798_02.JPG?width=1200',
+    coverImageCredit: 'Photo: Ramon FVelasquez (CC BY-SA 3.0) — Bamban, Tarlac, Philippines',
+    coverImagePosition: 50,
+    body: `Alice Guo was elected mayor of Bamban, a town in Tarlac province in the Philippines, and was suspended from office in 2024 after she became the focus of a Senate inquiry into a Philippine Offshore Gaming Operator (POGO) compound in her town. The hub, run from land owned by Baofu Land Development Inc., was raided by the Presidential Anti-Organized Crime Commission in 2024. Reports on the raid describe hundreds of Filipinos and foreigners being rescued, scam paraphernalia such as phones and SIM cards being seized, and arrests for scam-related activity and illegal detention. GMA News put the number of people rescued at more than 800. Guo has said she divested from the company before becoming mayor in 2022 and has denied any role in its operations.
+
+Investigators and senators drew the connection nonetheless. Senator Gatchalian cited a vehicle and electricity bills in Guo's name and, citing testimony from an accountant, called her one of the masterminds of the Bamban POGOs. The Ombudsman suspended Guo and two other Bamban officials, and a Senate inquiry examined her origins and business ties. The prosecution that followed was not for the scam activity as such but for human trafficking: Guo and co-accused were charged with qualified human trafficking under the Anti-Trafficking in Persons Act of 2003, as amended. Guo pleaded not guilty at the arraignment in September 2024.
+
+On November 20, 2025, Branch 167 of the Pasig Regional Trial Court convicted Guo and seven co-accused of qualified trafficking and sentenced each of them to life imprisonment. Five other co-accused were acquitted because the prosecution failed to prove guilt beyond reasonable doubt. Each of those convicted was ordered to pay a fine of P2 million per case, plus monetary reparations to the victim-complainants. The court ordered the P6-billion Baofu compound forfeited to the government, and permanently revoked the registrations of Baofu Land Development Inc., Hongsheng Gaming Technology Inc. and Zun Yuan Technology Inc. Guo attended the promulgation online, and her lawyer said she denied the allegations. The reports I reviewed do not say whether an appeal has been filed.
+
+Justice Undersecretary Nicholas Ty described the decision as the country's first conviction under the expanded anti-trafficking law's provision on organizing and directing others to commit human trafficking, according to a news report, a theory prosecutors may use in other POGO-related cases such as the one in Porac, Pampanga.
+
+The Alice Guo case shows how scam compounds can be prosecuted through the people who ran and sheltered them, not only through the fraud they produced. The charges focused on the trafficking of people at the compound, and the court's order reached the property and companies behind it as well as the individuals. It also shows the role a local political position can play: the questions about an official's property and business ties became central to how the Senate, the Ombudsman and then a court looked at the hub.`,
+    sourceUrl: 'https://www.gmanetwork.com/news/topstories/nation/966782/alice-guo-sentenced-to-reclusion-perpetua-for-qualified-trafficking/story/',
+});
