@@ -26253,3 +26253,75 @@ International.push({
     sourceUrl: "https://ecg.com.gh/blog/2025/11/04/ecg-cautions-public-against-fraudulent-calls-on-meter-acquisition/",
     country: "GH",
 });
+
+International.push({
+    name: "Fake Kosovo Police \"Court Order / Immediate Arrest\" Email Scam",
+    slug: "fake-kosovo-police-court-order-immediate-arrest-email-scam",
+    description:
+      "Scammers are sending emails that appear to come from the Director General of the Kosovo Police, with forged attachments titled things like \"Summons\" or \"Immediate Arrest\" and a demand for an urgent reply to a supposed court order against you. The same campaign forges the names, logos, stamps and signatures of the Cybersecurity Agency, the FBI and INTERPOL to make the documents look authentic. The goal is to frighten you into opening the attachment, clicking a link, handing over banking or personal data, or paying to make the \"case\" go away. Kosovo Police confirmed the letter is not official and opened investigations with judicial bodies to identify those behind it. Do not reply, open attachments or click links in such emails, never share banking or personal details, and report the message through the \"Lajmëro Policinë\" app or by calling 192.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Kosovo Police (Policia e Kosovës) official public notice"],
+    sourceUrl: "https://www.kosovopolice.com/njoftim-nga-policia-e-kosoves-rreth-nje-shkrese-e-mail-me-permbajtje-mashtrimi/",
+    country: "XK",
+});
+
+International.push({
+    name: "Senior Police Commander Impersonation Money-Request Scam (Fake Veton Elshani)",
+    slug: "senior-police-commander-impersonation-money-request-scam-fake-veton-elshani",
+    description:
+      "Fraudsters contact Kosovars on Viber and other messaging apps pretending to be a well-known senior Kosovo Police commander, such as the deputy director of the Mitrovica Regional Directorate, and ask for money. The usual pretext is a sympathy appeal, for example money needed for a sick child, which makes the request feel urgent and hard to refuse. Victims are told to send the cash abroad through a transfer service: one resident of Zubin Potok sent 1,000 euros via Western Union to an unknown person in Bosnia and Herzegovina, and two residents of South Mitrovica were caught by the same ruse in September. Kosovo Police say several similar cases have been reported and that officers never solicit money from citizens. If someone claiming to be a police official asks you for a transfer, hang up, verify through official police channels, and report it on 192 before sending anything.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Kosovo Police press release and police report, as covered by Gazeta Express","KOHA"],
+    sourceUrl: "https://www.gazetaexpress.com/en/He-falsely-presented-himself-as-Veton-Elshani-and-asked-for-money.-The-citizen-in-Zubin-Potok-sent-him-1-thousand-euros.-The-police-do-not-fall-prey-to-fraud./",
+    country: "XK",
+});
+
+International.push({
+    name: "Central Bank of Kosovo Warning: \"Investment Group\" Invitations from Foreign Numbers",
+    slug: "central-bank-of-kosovo-warning-investment-group-invitations-from-foreign-numbers",
+    description:
+      "The Central Bank of the Republic of Kosovo has warned that citizens are receiving unsolicited messages from international phone numbers on messaging apps, inviting them to join \"investment groups\" through external links. The messages are dressed up as advantageous market opportunities, and in some cases the messaging app itself flags the content as potentially malicious. This is the recruitment stage of an online investment fraud: Kosovo Police have documented the same model being used for fake cryptocurrency platforms with promises of fast, guaranteed profits and referral codes that pay you for signing up others, which authorities suspect are pyramid schemes. The BQK says never click unknown links, never give personal or financial data, and never make payments based on these invitations. Protect your card details, review your payment and transfer history regularly, and report any suspicious message straight to your bank or financial institution.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Banka Qendrore e Republikës së Kosovës (Central Bank of the Republic of Kosovo) notice, quoted by Telegrafi","Kosovo Police warning on suspected online investment fraud"],
+    sourceUrl: "https://telegrafi.com/bqk-paralajmeron-qytetaret-per-mesazhet-e-dyshimta-me-oferta-investimi/",
+    country: "XK",
+});
+
+International.push({
+    name: "Fake Judicial Summons Email Impersonating the Polizia di Stato",
+    slug: "fake-judicial-summons-polizia-di-stato",
+    description:
+      "Fraudsters send emails that look like official judicial summonses from the Italian State Police, complete with institutional logos, letterheads and forged signatures of the Chief of Police or other senior officials. The message claims you are under investigation for viewing illegal material online, usually child sexual abuse material, and demands an explanation within a short deadline to avoid arrest or entry in a non-existent sex offender register. The aim is pure panic: anyone who replies is then contacted and told to pay a sum of money as a supposed fine to make the case go away. The Polizia Postale stresses that no police force ever contacts citizens by email or SMS asking for personal data or payments under threat of prosecution. If you get one of these messages, do not reply, do not click links or open attachments, and report it through the Commissariato di PS Online.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Polizia di Stato - Polizia Postale e per la Sicurezza Cibernetica","Commissariato di PS Online"],
+    sourceUrl: "https://www.poliziadistato.it/articolo/truffe-online--attenzione-alle-false-convocazioni-giudiziarie",
+    country: "IT",
+});
+
+International.push({
+    name: "Agenzia delle Entrate Fake Tax Refund Phishing",
+    slug: "agenzia-delle-entrate-fake-tax-refund-phishing",
+    description:
+      "An ongoing phishing campaign uses the name, logo and graphics of Italy's Revenue Agency to promise a tax refund and steal personal and payment card data. Messages arrive by email, certified email (PEC) or SMS from addresses unrelated to the Agency, with subjects like \"Rimborso straordinario\" or \"Avviso di Rimborso\", and either link to a counterfeit portal page or attach a PDF \"Modulo richiesta accredito\" asking for company details, VAT number and IBAN. The final step asks for credit card details supposedly needed to receive the money, which completes the theft; recent waves have targeted businesses with fake VAT overpayment refunds and individuals with fake IRPEF refunds, Bonus Vacanze and e-invoice themes. Warning signs the Agency itself lists include a non-institutional sender domain, generic or ungrammatical text, a random refund amount and manufactured urgency. Never enter card or bank details from a link in such a message; check your position only by logging in directly at agenziaentrate.gov.it and report suspicious messages to the Agency.",
+    categorySlug: "tax-scams",
+    alertLevel: "high",
+    sources: ["Agenzia delle Entrate - Focus sul phishing, segnalazioni e approfondimenti","Agenzia delle Entrate - Avviso del 5 dicembre 2025","Agenzia delle Entrate - Avviso del 2 gennaio 2026"],
+    sourceUrl: "https://www.agenziaentrate.gov.it/portale/focus-sul-phishing/segnalazioni-e-approfondimenti",
+    country: "IT",
+});
+
+International.push({
+    name: "Consob-Impersonation Fund Unblocking and Debt Recovery Fraud",
+    slug: "consob-impersonation-fund-unblocking-fraud",
+    description:
+      "Criminals email savers pretending to be officials of Consob, Italy's securities and markets regulator, using addresses crafted to look like the Authority's own and citing illegitimate references to it. Victims are usually people already defrauded by online trading platforms, and the pretexts given are non-existent fund transfers from foreign accounts or supposed obligations arising from Brexit. The goal is to make them pay again, this time for fictitious debt recovery services or for the \"unblocking\" of funds or crypto-assets that do not exist. Consob warned about this on 15 December 2025 alongside orders to black out unauthorised investment and crypto websites, noting the growing use of cloned sites and emails and AI-generated images, voices and video of politicians and public figures. Treat any unsolicited contact claiming to recover your lost money as a fraud, never pay an upfront fee, and verify any operator's authorisation on Consob's own website before investing.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Consob press release of 15 December 2025","Consob Informa, Anno XXXI n. 45","Consob - Avvisi ai risparmiatori"],
+    sourceUrl: "https://www.consob.it/web/area-pubblica/-/consob-informa-anno-xxxi-n.-45-15-dicembre-2025",
+    country: "IT",
+});

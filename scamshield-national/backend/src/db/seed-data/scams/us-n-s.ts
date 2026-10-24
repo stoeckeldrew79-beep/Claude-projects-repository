@@ -13903,3 +13903,41 @@ UsNS.push({
     country: "US",
     state: "PA",
 });
+
+UsNS.push({
+    name: "Social Adult Day Care Cash-Kickback Medicaid Enrollment Scheme (New York)",
+    slug: "social-adult-day-care-cash-kickback-medicaid-enrollment-scheme-new-york",
+    description:
+      "Operators of Brooklyn social adult day care centers and a home health care fiscal intermediary paid cash kickbacks and bribes to Medicaid recipients to get them to enroll, then billed New York State Medicaid roughly $65 million for day care and home health services that were never delivered — including for recipients who were out of the country on the dates of supposed service. An owner pleaded guilty to conspiracy to commit health care fraud and faces up to 10 years in prison, becoming the 10th defendant to plead guilty in the scheme. If a day program, clinic or home care agency offers you cash, gift cards or free items to sign up or hand over your Medicaid number, walk away and report it. Review your Medicaid and Medicare statements for services you never received, and report suspected billing fraud to the HHS Office of Inspector General hotline.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","Eastern District of New York"],
+    sourceUrl: "https://www.justice.gov/opa/pr/social-adult-day-care-owner-pleads-guilty-65m-medicaid-fraud",
+    country: "US",
+    state: "NY",
+});
+
+UsNS.push({
+    name: "Online Telehealth Platform Stimulant Prescribing Without Exams",
+    slug: "online-telehealth-platform-stimulant-prescribing-without-exams",
+    description:
+      "A physician working through a digital ADHD telemedicine platform wrote prescriptions for more than 2 million pills of Adderall and other stimulants without ever examining the patients, including people with substance use disorders and serious mental health conditions that the drugs made worse, and was paid more than $1 million for the prescriptions. A federal jury convicted him, making him the 11th defendant convicted in a $100 million drug distribution and health care fraud prosecution involving the platform's officers and employees. Consumers should be wary of any online service that promises controlled-substance prescriptions after a quick questionnaire or a few minutes of chat with no real medical evaluation. Before paying a subscription fee, verify the prescriber's license with your state medical board and ask how the platform conducts examinations and follow-up care.",
+    categorySlug: "healthcare-fraud",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","National Fraud Enforcement Division"],
+    sourceUrl: "https://www.justice.gov/opa/pr/doctor-convicted-conspiring-distribute-over-2-million-stimulant-pills",
+    country: "US",
+});
+
+UsNS.push({
+    name: "Social Security Representative Payee Benefit Misuse (Pennsylvania)",
+    slug: "social-security-representative-payee-benefit-misuse-pennsylvania",
+    description:
+      "A man appointed as the representative payee on another person's Social Security account — the role that lets someone manage benefits for a beneficiary who cannot handle their own finances — was indicted for converting those payments to purposes other than the beneficiary's use over a six-year span. He faces charges of theft of public money and representative payee misuse, carrying up to 10 and 5 years in prison respectively, and is presumed innocent unless proven guilty. Families of elderly or disabled beneficiaries should check that benefit money is actually paying for the person's housing, food and care, and ask to see bank records. If a payee cannot account for the money, report it to the Social Security Administration Office of the Inspector General, which investigates payee misuse.",
+    categorySlug: "public-benefits-fraud",
+    alertLevel: "medium",
+    sources: ["U.S. Department of Justice","Western District of Pennsylvania"],
+    sourceUrl: "https://www.justice.gov/usao-wdpa/pr/north-braddock-man-charged-carrying-out-six-year-social-security-fraud",
+    country: "US",
+    state: "PA",
+});

@@ -14520,3 +14520,28 @@ UsGM.push({
     country: "US",
     state: "MN",
 });
+
+UsGM.push({
+    name: "Malicious QR Codes in Unsolicited Mail Packages",
+    slug: "malicious-qr-codes-in-unsolicited-mail-packages",
+    description:
+      "This is an evolution of the brushing scam: instead of a cheap trinket meant to generate a fake review, an unordered package arrives containing a QR code with no explanation, sometimes on a card inviting you to scan it to find out who sent the item. Curiosity leads the recipient to scan, and the code opens an attacker-controlled website that harvests personal and financial information or installs malware on the phone. The approach is dangerous because it skips every email and text message filter entirely, arriving through the postal system, and the fact that the parcel reached you already confirms your address is valid. The FBI warned about this pattern in a public service announcement in July 2025. If an unexpected package shows up with a QR code inside, do not scan it, report the package to the retailer it appears to come from, and monitor your accounts for signs of misuse.",
+    categorySlug: "qr-code-scams",
+    alertLevel: "high",
+    sources: ["FBI Internet Crime Complaint Center (IC3) Public Service Announcement, 31 July 2025","Las Vegas Review-Journal coverage","Plumas Sun coverage"],
+    sourceUrl: "https://www.ic3.gov/PSA/2025/PSA250731",
+    country: "US",
+});
+
+UsGM.push({
+    name: "In-Home Cleaning Service Checkbook Theft and Forgery (Pennsylvania)",
+    slug: "in-home-cleaning-service-checkbook-theft-and-forgery-pennsylvania",
+    description:
+      "A woman who provided cleaning services inside a couple's home repeatedly pulled blank checks from their checkbook, wrote them out to cash, forged the homeowner's signature and deposited the money into her own account. Over twelve years she took $1,893,750 through 636 forged checks before the scheme was caught, and she has now pleaded guilty in federal court to bank fraud and awaits sentencing. Anyone who allows cleaners, caregivers or contractors into their home should store checkbooks, cards and statements in a locked place and account for check numbers in sequence. Review bank statements and check images every month rather than once a year, and ask your bank about positive pay or alerts on cashed checks so forgeries are spotted in weeks, not decades.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","Western District of Pennsylvania"],
+    sourceUrl: "https://www.justice.gov/usao-wdpa/pr/monessen-woman-pleads-guilty-more-18-million-bank-fraud-scheme",
+    country: "US",
+    state: "PA",
+});

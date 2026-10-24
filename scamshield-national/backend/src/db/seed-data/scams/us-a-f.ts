@@ -13874,3 +13874,41 @@ UsAF.push({
     country: "US",
     state: "CT",
 });
+
+UsAF.push({
+    name: "AI-Powered Passive Income E-Commerce Storefront Schemes",
+    slug: "ai-powered-passive-income-ecommerce-storefront-schemes",
+    description:
+      "Operators sell consumers a turnkey online storefront on Amazon, Walmart, or TikTok Shop, claiming proprietary artificial intelligence will select products, set prices, and run the business to produce guaranteed passive income. Buyers pay tens of thousands of dollars upfront and are pushed to fund inventory on top of that, sometimes using credit. In practice the stores never launch, get suspended by the marketplace, or produce almost no sales, and the refund or buyback guarantees are written so narrowly that they cannot realistically be claimed. The FTC brought actions against Click Profit, which it said cost consumers at least $14 million, and against Ascend Ecom, whose operators were banned from business-opportunity marketing; press coverage of the Ascend complaint reported that a customer who posted a negative review received death threats. Treat any promise of guaranteed hands-off income from an AI-run store as a red flag, check the required Franchise Rule disclosure document before paying anything, and report pitches like these to the FTC.",
+    categorySlug: "employment-scams",
+    alertLevel: "high",
+    sources: ["FTC press release, FTC Acts to Stop Click Profit, March 2025","FTC press release, FTC Case Leads to Order Banning Ascend Ecom and Its Owners from Business Opportunity Marketing, June 2025"],
+    sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2025/03/ftc-acts-stop-click-profit-online-business-opportunity-has-cost-consumers-least-14-million",
+    country: "US",
+});
+
+UsAF.push({
+    name: "Fictitious Email Account Payment-Diversion Scheme and Money Mule Network (Virginia)",
+    slug: "fictitious-email-account-payment-diversion-scheme-money-mule-network-virginia",
+    description:
+      "Conspirators ran a business email compromise scheme against victims across the United States who were preparing to send legitimate wire payments: a member of the group created fictitious email accounts, posed as the expected payee and supplied new account information so the wires landed in accounts the conspirators controlled. Two lower-level participants who moved the stolen money and forwarded nearly all of it to overseas coconspirators pleaded guilty to conspiracy to commit bank and wire fraud; one received a year and a day in prison, the other community service and supervised release, and both owe more than $1.5 million in restitution alongside a third defendant awaiting sentencing. Treat any emailed change to wire or account instructions as suspect, no matter how familiar the sender looks. Call the payee back on a phone number you already have on file to confirm before sending, and contact your bank immediately if a wire goes to the wrong account.",
+    categorySlug: "business-email-compromise",
+    alertLevel: "critical",
+    sources: ["U.S. Department of Justice","Western District of Virginia"],
+    sourceUrl: "https://www.justice.gov/usao-wdva/pr/pair-sentenced-roles-business-email-fraud-scheme",
+    country: "US",
+    state: "VA",
+});
+
+UsAF.push({
+    name: "Deceased Person's Identity Used to Claim Social Security, Medicaid and SNAP (Kansas)",
+    slug: "deceased-persons-identity-used-to-claim-social-security-medicaid-and-snap-kansas",
+    description:
+      "A man used the stolen identity of a person who died in 2015 to obtain a Kansas driver's license and Social Security card, then applied for a U.S. passport in the dead person's name; investigators flagged the application because the same identity had been used before. The investigation showed he had drawn $95,811 in federal Social Security benefits plus $97,095 in Medicaid and $24,269 in SNAP benefits from the state, and he was sentenced to 24 months in prison after pleading guilty to aggravated identity theft and must pay restitution. Identities of the deceased are prime targets because no one is monitoring the credit file or benefit record. After a death, promptly notify Social Security, the state benefits agency and the three credit bureaus, request a deceased alert on the credit file, and report any mail, benefit notices or tax documents that arrive in the person's name.",
+    categorySlug: "identity-theft",
+    alertLevel: "high",
+    sources: ["U.S. Department of Justice","District of Kansas"],
+    sourceUrl: "https://www.justice.gov/usao-ks/pr/illegal-alien-used-stolen-identity-federal-and-state-public-assistance-benefits",
+    country: "US",
+    state: "KS",
+});
